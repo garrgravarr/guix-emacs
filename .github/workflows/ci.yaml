@@ -9,7 +9,7 @@ jobs:
   update-melpa:
     name: Update Melpa packages
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'babariviere'
+    if: github.repository_owner == 'garrgravarr'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2.3.4
@@ -27,8 +27,8 @@ jobs:
 
       - name: Configure git
         run: |
-          git config user.name "Babot Riviere"
-          git config user.email bot@babariviere.com
+          git config user.name "garrgravar-bot"
+          git config user.email garrgravarr-bot@phrogstar.de
           git config receive.advertisePushOptions true
 
       - name: Update packages
