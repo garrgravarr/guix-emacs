@@ -89,6 +89,11 @@
            emacs-edit-indirect
            emacs-transient))))
 
+(define-override emacs-helm-bind-key pkg
+  (package
+    (inherit pkg)
+    (propagated-inputs (list emacs-helm))))
+
 ;; Local Variables:
 ;; mode: scheme
 ;; End:
