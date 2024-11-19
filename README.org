@@ -13,12 +13,12 @@ To use this channel, add to your ~.config/guix/channels.scm~:
 (cons*
  (channel
   (name 'emacs)
-  (url "https://github.com/babariviere/guix-emacs")
+  (url "https://github.com/garrgravarr/guix-emacs")
   (introduction
    (make-channel-introduction
-    "72ca4ef5b572fea10a4589c37264fa35d4564783"
+    "d676ef5f94d2c1bd32f11f084d47dcb1a180fdd4"
     (openpgp-fingerprint
-     "261C A284 3452 FB01 F6DF  6CF4 F9B7 864F 2AB4 6F18"))))
+     "2DDF 9601 2828 6172 F10C  51A4 E80D 3600 684C 71BA"))))
  ;; other channels here...
  )
 #+end_src
@@ -84,3 +84,9 @@ One issue with this: some packages will fail to build since they expect files to
 
 ** Internals
 There is a small documentation to explain how the updating is done: [[file:docs/how_it_works.org]]
+
+** History
+
+   This channel and the workflow code was originally set up by [[https://github.com/babariviere][Bastien Rivière]],
+   and contains contributions by [[https://github.com/kennyballou][Kenny Ballou]] and [[https://github.com/BonfaceKilz][Munyoki Kilyungi, aka
+   BonfaceKilz]].  *Many thanks to you for your work, guys!*
