@@ -202,6 +202,8 @@ for the package named PACKAGE-NAME."
   (match (assq-ref recipe ':fetcher)
     ('github (git-repository->origin recipe (string-append "https://github.com/" (assq-ref recipe ':repo) ".git")))
     ('gitlab (git-repository->origin recipe (string-append "https://gitlab.com/" (assq-ref recipe ':repo) ".git")))
+    ('codeberg (git-repository->origin recipe (string-append "https://codeberg.org/" (assq-ref recipe ':repo) ".git")))
+    ('sourcehut (git-repository->origin recipe (string-append "https://git.sr.ht/~" (assq-ref recipe ':repo))))
     ('git    (git-repository->origin recipe (assq-ref recipe ':url)))
     ;; ('hg     )
     (_ (warning (G_ "Unsupported MELPA fetcher: ~a, falling back to unstable MELPA source.~%")
