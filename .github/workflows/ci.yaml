@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'garrgravarr'
     env:
-        ACTION_STEP_DEBUG = true
+        ACTION_STEP_DEBUG: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2.3.4
