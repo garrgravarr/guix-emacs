@@ -10,12 +10,14 @@ jobs:
     name: Update Melpa packages
     runs-on: ubuntu-latest
     if: github.repository_owner == 'garrgravarr'
+    env:
+        ACTION_STEP_DEBUG = true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2.3.4
 
       - name: Install Guix
-        uses: PromyLOPh/guix-install-action@v1.5
+        uses: garrgravarr/guix-install-action@v1.5debug
 
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v4
