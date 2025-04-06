@@ -12,10 +12,10 @@ jobs:
     if: github.repository_owner == 'garrgravarr'
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v4.2.2
 
       - name: Install Guix
-        uses: PromyLOPh/guix-install-action@v1.5
+        uses: PromyLOPh/guix-install-action@v1.6
 
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v4
