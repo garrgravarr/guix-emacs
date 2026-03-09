@@ -11706,14 +11706,14 @@
 (define-public emacs-cloak-mode
   (package
    (name "emacs-cloak-mode")
-   (version "20230130.613")
+   (version "20260309.528")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erickgnavar/cloak-mode.git")
-           (commit "ca0896dfd0a0ee549150233ebd96aa0f65b56afb")))
-     (sha256 (base32 "1ih51q5sc2gri2lyy2qi3w6jijr5khcr4whnv8g34v8xq6pyrxys"))))
+           (commit "8a8d06a280c340a7e1639f60c8c44cd4b4127e6b")))
+     (sha256 (base32 "1lszi49k7g2ix6xaklfg5n66m6xl1w98yidzmqj441p98q815zm0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/erickgnavar/cloak-mode")
    (synopsis "A minor mode to cloak sensitive values")
@@ -24991,14 +24991,14 @@
 (define-public emacs-eldoc-box
   (package
    (name "emacs-eldoc-box")
-   (version "20251218.435")
+   (version "20260309.526")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/casouri/eldoc-box.git")
-           (commit "595262ec8ff56e8f86ef77d8e69339e84117e5f0")))
-     (sha256 (base32 "0vbapkdra82hnirgwbbpp6qczfsag9jyi078cf921cyqzfh8cfkn"))))
+           (commit "61a564691f035a3c4f2028b0f9b053c8cf7132da")))
+     (sha256 (base32 "0yv7ws5mnyzbd23n6fzmah10p1hydjsybiyvakjvqv9skzzc8lhn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/casouri/eldoc-box")
    (synopsis "Display documentation in childframe")
@@ -42028,14 +42028,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260308.1902")
+   (version "20260309.505")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "ecb6276a94267f1373dd258ec6e9334ee40f4e75")))
-     (sha256 (base32 "1r034slj2mwaz2kb292zp58285dmshx3z9y5vqgkcdmxrc7ssbi0"))))
+           (commit "9682e8f5f96a72c858fb3420003642194793b32f")))
+     (sha256 (base32 "0v2n1dvmdssc2pmssv940jcgpkrmmaxmpg76x5y9np6wfw173cnz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -59222,14 +59222,14 @@
 (define-public emacs-loopy
   (package
    (name "emacs-loopy")
-   (version "20260222.1609")
+   (version "20260309.304")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/okamsn/loopy.git")
-           (commit "07ff6c900fbe9fd218a5602974507e81c3165f6d")))
-     (sha256 (base32 "0s6znxib8fn7abj6wlhqlvqxam7r8cyrh2070b6kja3i52bjan43"))))
+           (commit "b78b88173df00cf95cda401a6d3b0872dce8aa08")))
+     (sha256 (base32 "156r43kpfk2kdkgj7m6pk4pql4y9vsj5igwni00dzr437y74sb2p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-stream))
    (home-page "https://github.com/okamsn/loopy")
@@ -63050,14 +63050,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260308.2328")
+   (version "20260309.513")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "c0cb37388b5c58cf961d15aa34878153638f212e")))
-     (sha256 (base32 "1zyan7a7q89fblx9sprk868aa41ji4awbr47cdjvz7ipsamp12la"))))
+           (commit "df19db8fa8f4a9b7be41037fd599895a58c09890")))
+     (sha256 (base32 "0zw3m98iyjl898ik17xc83m4kqpdq9c4hk3pb9igmc06aq27fpdp"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
