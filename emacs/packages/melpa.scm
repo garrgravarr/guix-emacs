@@ -14352,7 +14352,7 @@
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
-   (version "20260309.1755")
+   (version "20260310.206")
    (source
     (origin
      (method git-fetch)
@@ -30882,14 +30882,14 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
    (name "emacs-evil-textobj-tree-sitter")
-   (version "20260309.1232")
+   (version "20260310.405")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/meain/evil-textobj-tree-sitter.git")
-           (commit "a24dad977003779e6359e4dcdbb90cc3cd4f9603")))
-     (sha256 (base32 "0dmv8pqlf9ajbvq8dgp0wrdcf2j1jza4pbmrkxbdy07ddwamcack"))))
+           (commit "7f58008a82c70eb1c6c5761db499f0be0db9d6cb")))
+     (sha256 (base32 "0nfaz4vdghyaf0k8b35ssqif4fdisylqs55v1v0a8ss114r96b26"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "queries" "treesit-queries")))
    (home-page "https://github.com/meain/evil-textobj-tree-sitter")
@@ -63050,14 +63050,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260309.2354")
+   (version "20260310.511")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "caf4703cbf5adba19ec929d955d02838b6d4c7de")))
-     (sha256 (base32 "16mlqw3rdy9jank5szazidvxp0igvbdvsf40ilxaj5gkaian2l91"))))
+           (commit "6f827db5d285a9aa35d6a10d89c6d0fa798c7858")))
+     (sha256 (base32 "0jcx1wqqyv6s18xi68idh7sdnqd568iy6xh7civ4yv090jd9rnl5"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -65826,14 +65826,14 @@
 (define-public emacs-mutype
   (package
    (name "emacs-mutype")
-   (version "20260309.1514")
+   (version "20260310.330")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/suxiaogang223/mutype.git")
-           (commit "0a9a94b4e7354879fba496bb3306a408dd5d4042")))
-     (sha256 (base32 "1xlm0qdj8zdvj2sag7ad4whhp1jcnj7vm8bci276n4q2qrpxpdyc"))))
+           (commit "731c4ce4c72850ac18e35f8739b229343fb15582")))
+     (sha256 (base32 "15wd6b685k0592jl8xb2qqf4k6q5fixc0fgzcn1fcwzfdk15ls9h"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "sources/*.txt")))
    (home-page "https://github.com/suxiaogang223/mutype")
@@ -66676,14 +66676,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260309.740")
+   (version "20260310.806")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "38bc3a8fc1ea7d48b697c08e8706686c27cfca7d")))
-     (sha256 (base32 "013mqnxchv5igb8k3mpildkhyl6p6kywk6nfy1pifvnphdfgy458"))))
+           (commit "04316c7385317781b62adbeca9936f91553998a7")))
+     (sha256 (base32 "0niq45xc20jyl9x5az1h9wyayks7z5085wi1yhqm034vza9b4zbd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -68580,14 +68580,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260309.1253")
+   (version "20260310.811")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "9e513eb3a836680813ce8c6b87ec955060c6489f")))
-     (sha256 (base32 "07hblisbdj0aqi7z02rbwdjwf774rm8v0wicfzqh3aspfc94mwss"))))
+           (commit "19159f33f16dd56f4f68357c8157ac20d70ddc1a")))
+     (sha256 (base32 "08yq6j67wzvl1ibmmq4nrz489f4147pjg78j0h4ydmvf4vz9az3d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -73565,14 +73565,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260309.1229")
+   (version "20260309.1859")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "e6a5ab4d7c0a21e3f93286a9200721ede6432903")))
-     (sha256 (base32 "1rrd2iaxvnyrq6bjljbc0fzqyg2pzvzzwxlq0ms8i2cimrlg5zrq"))))
+           (commit "23c988adfe0fd74ea2a4440901398afd1674993f")))
+     (sha256 (base32 "16scirbmgh02ccvybs6yc2bfzfnx2kkkhyn3qnip55cs1v08jyr3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
