@@ -6403,14 +6403,14 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20260223.1906")
+   (version "20260310.1128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kristjoc/bible-gateway.git")
-           (commit "b4cf300c1335dfe8210da05af0a8f3bf18b8f5d3")))
-     (sha256 (base32 "048mw5dfpmrdq4sxpci1jrazvlizy4dz7lk95kqhvf7zdp70lywi"))))
+           (commit "0279e0a9026566b31d8bea71d1f46b12cb1ffc2b")))
+     (sha256 (base32 "1g848vdlsxrls4pl4waf16c64jgkv7r3c0yyvpkx0yhlcjf3dx5c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kristjoc/bible-gateway")
    (synopsis "A Simple BibleGateway Client")
@@ -21868,14 +21868,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260309.1349")
+   (version "20260310.1134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "febde435ae62b36466154c0d41649e7b4ee5685e")))
-     (sha256 (base32 "1cnl5728sfjs83zq4n750asvizbd8fp0vdh961n45087q4bq6m9z"))))
+           (commit "5c225ef5e9b2734c288669c38b7cf07c6fa21544")))
+     (sha256 (base32 "05rd8klxz27wi52bkjk31z6cd18l4pzily817j7wmnr3lgc8nxlk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -48859,54 +48859,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260309.344")
+   (version "20260310.342")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "f6f5bfcc1fc88b48c24f8321490fdfd30d4dc616")))
-     (sha256 (base32 "03n78kgwrdyv5n7gly0dys0gzn1d25k77ah53mn1f8inn03n7vmw"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "1y3lbmh3rbzbkhjaf2s1h0jjjg9fa4gmplgzylph8r1ww2ap854a"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -59627,14 +59589,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260308.1629")
+   (version "20260310.1407")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "fd4df7cf17326b34257329f2fbd898573a1d106d")))
-     (sha256 (base32 "1982cv79g8qpbc77rdsc1rc2xqw4lqza99xpm1phx1i1yxl3ixiy"))))
+           (commit "0a56753f227d4e6fe38eb764cbc215b559895cad")))
+     (sha256 (base32 "1pyla3pbaavi9ch3wlzsk5rwpby6zma0q4qmzgz8vzrhym7a4qdh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -66676,14 +66638,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260310.806")
+   (version "20260310.1356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "04316c7385317781b62adbeca9936f91553998a7")))
-     (sha256 (base32 "0niq45xc20jyl9x5az1h9wyayks7z5085wi1yhqm034vza9b4zbd"))))
+           (commit "3a86ff6c49dc2a9ebaceabff24c1470edc5380eb")))
+     (sha256 (base32 "100y5c9b7hs89aja3vsqlyn732kfjdjlb3dd8yf59lgn17b1ppiv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -70574,14 +70536,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260309.1906")
+   (version "20260310.1255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "7a5dfa8653b0ad4f94abb69634b743f11285b625")))
-     (sha256 (base32 "06m19860a18m3m2ry1d16ckv2165fik80f9g1m0iw0c6kqsy54qj"))))
+           (commit "28047d7e112c6a54d114d829882c37003ee6b70f")))
+     (sha256 (base32 "09am1xafa26dvs44isa9394jb0a73y2lcnj6sr4q929rw3zjy4pm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -73565,14 +73527,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260309.1859")
+   (version "20260310.1057")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "23c988adfe0fd74ea2a4440901398afd1674993f")))
-     (sha256 (base32 "16scirbmgh02ccvybs6yc2bfzfnx2kkkhyn3qnip55cs1v08jyr3"))))
+           (commit "6078e2868ad2aea0626c6f79598055dfc87c2eb0")))
+     (sha256 (base32 "1k4xvnv135czi2zzz2msmcs40np1gbw3k21xyknc440ms12a2afd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -82652,14 +82614,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260305.628")
+   (version "20260310.858")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "136a1e6918a4d937e054e3fc06569c989cb013f3")))
-     (sha256 (base32 "02z8l423b324ck75hvqvkp9rpkbvnac1fym61hn3lv7mxl2w5k59"))))
+           (commit "f8be23b266aec7108fb4b80410623cd50ba8ded9")))
+     (sha256 (base32 "1gg9mv6sz705x2lgwx4qz13wj20lcc6pv813k2h9ixdk4rxl1il4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -109100,14 +109062,14 @@
 (define-public emacs-zig-ts-mode
   (package
    (name "emacs-zig-ts-mode")
-   (version "20260123.242")
+   (version "20260310.1128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/meow_king/zig-ts-mode.git")
-           (commit "64611c6d512e4c15e8d1e3fd0fde6bd47c6c8f50")))
-     (sha256 (base32 "19hayp03i2l2biyl572rbpr4108hfm149fyzy2rydxzjiwd595d9"))))
+           (commit "757e0350727dd4e6dbb5eb1d1d2a3cd836c1fbcb")))
+     (sha256 (base32 "0fis31w7zrsi7g9nkisfyaysap6kia0zgm6ca9g0w8dp7gqgs9gr"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/meow_king/zig-ts-mode")
    (synopsis "Tree Sitter support for Zig")
