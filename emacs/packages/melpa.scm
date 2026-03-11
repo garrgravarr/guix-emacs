@@ -1297,14 +1297,14 @@
 (define-public emacs-activity-watch-mode
   (package
    (name "emacs-activity-watch-mode")
-   (version "20240313.754")
+   (version "20260311.835")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pauldub/activity-watch-mode.git")
-           (commit "19aed6ca81a3b1e549f47867c924d180d8536791")))
-     (sha256 (base32 "0nbpi5wxpzajdn85gl5zrv9blxd37jszrnn2r8j4y3xqxsx9d68m"))))
+           (commit "1a950ad310cbd0511bb01744b20c7012a1c0b0e8")))
+     (sha256 (base32 "09db80yirb0km0g56n72a95c0y5wr6vbq0dq4fjc2s0wj82idv5v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request))
    (home-page "https://github.com/pauldub/activity-watch-mode")
@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260310.2124")
+   (version "20260311.817")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "586528b562eae7c0fb43b13a79b62429add7bf9d")))
-     (sha256 (base32 "1f8scavpy8ic1dyddxi276v78mw89pv6pabyvahvafqfdw0w596f"))))
+           (commit "4561f5b63dcd99ff7517157ffe786b0c25021f38")))
+     (sha256 (base32 "0731yzd7h2cayspsv876i3wsnsrpwp64hgf2ydspcfhmds7havhn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3207,14 +3207,14 @@
 (define-public emacs-apparmor-mode
   (package
    (name "emacs-apparmor-mode")
-   (version "20241014.554")
+   (version "20260311.140")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/apparmor/apparmor-mode.git")
-           (commit "73c34f8e5a102da05d78bad12931c8e2c80352f2")))
-     (sha256 (base32 "1m8qb0wryibbccbmz5h18rvjpfwzrvagwr41l6n4a8bka0mln40v"))))
+           (commit "fd9c6f142602bf5ed730305419b2b7cad2269e57")))
+     (sha256 (base32 "1xw2v51m7x68xx36z41qqxy1vwd3aszfz4qkx8bhdic7n7xqv9xy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alexmurray/apparmor-mode")
    (synopsis "Major mode for editing AppArmor policy files")
@@ -10718,14 +10718,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260221.612")
+   (version "20260311.620")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "75dc57aebed59212952595684b9aae60f95c94a6")))
-     (sha256 (base32 "04h188rk3c5r56aa5jf65nh6q9wnfsi72nbpvl3l8a3pv15fqslf"))))
+           (commit "735fc408cd945d593004a90a62988f12d838a4dc")))
+     (sha256 (base32 "0l6sqq3bzzinrwzvgd8qw50rf95nfria7498a930d4m3bb408lyl"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -21868,14 +21868,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260310.1134")
+   (version "20260311.355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "5c225ef5e9b2734c288669c38b7cf07c6fa21544")))
-     (sha256 (base32 "05rd8klxz27wi52bkjk31z6cd18l4pzily817j7wmnr3lgc8nxlk"))))
+           (commit "4a145ea1a1b23d8c2cc760b3002d475d6f680ad9")))
+     (sha256 (base32 "0rg3yacn7ypgvxglp57ywhm0mzlpwhzwdbzw05hr0ywa09gci5mx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -42028,14 +42028,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260309.505")
+   (version "20260311.435")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "9682e8f5f96a72c858fb3420003642194793b32f")))
-     (sha256 (base32 "0v2n1dvmdssc2pmssv940jcgpkrmmaxmpg76x5y9np6wfw173cnz"))))
+           (commit "f45e7bc41e7e325370eeeafe569cb2a1c174713d")))
+     (sha256 (base32 "1k7p71h7bx8b4gj9sj03ayr8x24nwg6l0m1bci9644d59f2y0zi7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -60214,14 +60214,14 @@
 (define-public emacs-macports
   (package
    (name "emacs-macports")
-   (version "20250529.2306")
+   (version "20260311.227")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/amake/macports.el.git")
-           (commit "f1a4a103ca6a0c32669b3f9e689889e6ccec2bc1")))
-     (sha256 (base32 "0a7grxadi9vyyndb30j7zvrbqyrpn9n72a92n2j9xddmvqalf8hj"))))
+           (commit "971f50ed908ac846c4fba957eb1e30fef6a83852")))
+     (sha256 (base32 "0035b309916c9flp7vihrcdx3dwqbs7gkapsipgsd9sz8bijig6n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/amake/macports.el")
    (synopsis "A porcelain for MacPorts")
@@ -60443,16 +60443,16 @@
 (define-public emacs-magit-browse-commit
   (package
    (name "emacs-magit-browse-commit")
-   (version "20260303.403")
+   (version "20260311.511")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbw9n/magit-browse-commit.git")
-           (commit "110fa2cf22f4b2a38ddbcf0e89d3dbce874f1583")))
-     (sha256 (base32 "1mn5ba4rc0qmbn1n9fpig13whb0g8ww1s6l35k2ns1nyi2gpvl4l"))))
+           (commit "aedf47b76642566de7992f3d6834c7fc8b77d68c")))
+     (sha256 (base32 "0wh6d1q9gdx7y8j0k65y3zq6k6zi6lizgl4ixjawpsfzqhv7hcay"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-magit emacs-s))
+   (propagated-inputs (list emacs-magit))
    (home-page "https://github.com/bbw9n/magit-browse-commit")
    (synopsis "Browse pull/merge requests from magit-blame")
    (description "Documentation at https://melpa.org/#/magit-browse-commit")
@@ -88099,14 +88099,14 @@
 (define-public emacs-royal-hemlock-theme
   (package
    (name "emacs-royal-hemlock-theme")
-   (version "20260306.420")
+   (version "20260311.434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vs-123/royal-hemlock-theme.git")
-           (commit "27d69b424358bedf4b2809ad237ea8a80b7c8add")))
-     (sha256 (base32 "01sxm2grm66i99knvhbgh3v3az5js0pja57r7wxqsr3z7h1f9qma"))))
+           (commit "1e856571b97f2265654338581e58ee36a6fa81f5")))
+     (sha256 (base32 "0g7wsmwgm426igg3v49j1i260qfy7nw4abaz4l8ql2kd4lqa9k7m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/vs-123/royal-hemlock-theme")
    (synopsis "Soothing royal-blue light-theme")
@@ -109062,17 +109062,17 @@
 (define-public emacs-zig-ts-mode
   (package
    (name "emacs-zig-ts-mode")
-   (version "20260310.1128")
+   (version "20260311.544")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/meow_king/zig-ts-mode.git")
-           (commit "757e0350727dd4e6dbb5eb1d1d2a3cd836c1fbcb")))
-     (sha256 (base32 "0fis31w7zrsi7g9nkisfyaysap6kia0zgm6ca9g0w8dp7gqgs9gr"))))
+           (commit "9c447adbf0c015fadaf1271ef8ca3e1fcf3c2a8d")))
+     (sha256 (base32 "0w59cc8j6a6sc5svm25g4ji65lrdsw2wpyyi71y8zg51ir8wdd3j"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/meow_king/zig-ts-mode")
-   (synopsis "Tree Sitter support for Zig")
+   (synopsis "Major mode for Zig code")
    (description "Documentation at https://melpa.org/#/zig-ts-mode")
    (license #f)))
 
