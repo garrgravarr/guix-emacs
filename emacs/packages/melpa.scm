@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260309.2230")
+   (version "20260310.2124")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "41c4b2143a6b583f3f7e886e0b93943e0abced18")))
-     (sha256 (base32 "10cjk49saqb7lsqdai98pm5xnh5d27kf2wrgwa8xz5fmnli159ds"))))
+           (commit "586528b562eae7c0fb43b13a79b62429add7bf9d")))
+     (sha256 (base32 "1f8scavpy8ic1dyddxi276v78mw89pv6pabyvahvafqfdw0w596f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -6403,7 +6403,7 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20260310.1128")
+   (version "20260310.1314")
    (source
     (origin
      (method git-fetch)
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260309.1450")
+   (version "20260310.2351")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "6eac083c11e0cd825243856d9442a98f2fec9f54")))
-     (sha256 (base32 "0gm551rv28sjlyq01l5c59l2rixwylmqf632izvzfn4srnm06mld"))))
+           (commit "b6c8de84a302cfb4d7bb09e7a78684a3f870c320")))
+     (sha256 (base32 "1ns1a1jljn17b4lqryj3arsy250kbfldm5crbdz1wvrbn8a4ar5v"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -37349,14 +37349,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260208.1639")
+   (version "20260310.2022")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "5c005c085dda7258696aded59983482e228654a3")))
-     (sha256 (base32 "0qgy5pziq70mdjmg5vyzf9vbnyw6sf2xq8xyl4bvy1zyq5hhw20x"))))
+           (commit "7dfe1fbdeeed80a4fcbacf155aee4dda08c95bd4")))
+     (sha256 (base32 "1kflvzcjcigj25bmbjp2jj9ibsmrdxp63zmy7ijnyqz11n248zhq"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -42992,14 +42992,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260305.1817")
+   (version "20260310.1608")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "e9d72c449211154f6822bd68e4e127c5a425e858")))
-     (sha256 (base32 "0b4pypj7c1lgnkk89jrbb650jq5pshcsb6293c3fx0cqf5n61ajg"))))
+           (commit "c93b434686948d78722f081d522c3519486c3afc")))
+     (sha256 (base32 "1i9h6xdvy9fc8vc2ndi31nmwviw6yspg74d2yadlmyynvnh5j546"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -43064,14 +43064,14 @@
 (define-public emacs-guix
   (package
    (name "emacs-guix")
-   (version "20260116.1554")
+   (version "20260310.758")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/guix/emacs-guix.git")
-           (commit "72833603ee54c7a8d955415869a332419680ca50")))
-     (sha256 (base32 "14639wg2717yawj4qhmmzvirrvjy0s1jw2j9wgyzc21h7hl016pz"))))
+           (commit "43151aa6902c7122e919d3ed688fd484ec004feb")))
+     (sha256 (base32 "0zj4369i667z9v9lmmhc0zyfhia7xss5127p2hspi513mg415wsn"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -55585,14 +55585,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260305.242")
+   (version "20260310.1418")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "f55feb91ca542c1445e78c3c4c0d7aee052bf1a7")))
-     (sha256 (base32 "17pccm4s57qq2m92n4j6ycx68lpdr7s9blxm6qazbxga9gm13a32"))))
+           (commit "eeef195026371caadd9b0c0097c5c9e6e73bbebe")))
+     (sha256 (base32 "0fvwzr9r4bwmknwgmwbkinn2hj1k97pb8wn2ja7yf6qhxwin2fhf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -59589,7 +59589,7 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260310.1407")
+   (version "20260310.1423")
    (source
     (origin
      (method git-fetch)
@@ -66638,7 +66638,7 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260310.1356")
+   (version "20260310.1445")
    (source
     (origin
      (method git-fetch)
@@ -67607,14 +67607,14 @@
 (define-public emacs-no-littering
   (package
    (name "emacs-no-littering")
-   (version "20260301.1315")
+   (version "20260310.2100")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/no-littering.git")
-           (commit "3b1d39d6b37f1f6f7dbda46712e40bc700ac79d2")))
-     (sha256 (base32 "0yx70zcsfcimjn23svvbv3js3h4ingpxsxdkddqsj47ji4npys0n"))))
+           (commit "24002d52785b5feb2313dfabc49d0006b8ba5ba0")))
+     (sha256 (base32 "12kzc5y93hf8bg9bl7hymf91x3406vnrrxihh1x1fd47krh2n352"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/emacscollective/no-littering")
@@ -70536,14 +70536,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260310.1255")
+   (version "20260310.1745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "28047d7e112c6a54d114d829882c37003ee6b70f")))
-     (sha256 (base32 "09am1xafa26dvs44isa9394jb0a73y2lcnj6sr4q929rw3zjy4pm"))))
+           (commit "dffc9ff97915bcede7fcf903b0fb7aa648dde2f8")))
+     (sha256 (base32 "1848r134vhy2mbd9rkrmvwqm8fl0rppj9l13b093rdbj0p6a4vs4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -73527,14 +73527,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260310.1057")
+   (version "20260310.2122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "6078e2868ad2aea0626c6f79598055dfc87c2eb0")))
-     (sha256 (base32 "1k4xvnv135czi2zzz2msmcs40np1gbw3k21xyknc440ms12a2afd"))))
+           (commit "92bebdeddf0c58aa7d3224752f67d61c7e66b790")))
+     (sha256 (base32 "0daryc3jzqqjpvzjx2hc88p0d3x6smklaf7b7r06b0xlydlfdi3y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -86973,14 +86973,14 @@
 (define-public emacs-repo-grep
   (package
    (name "emacs-repo-grep")
-   (version "20260308.1843")
+   (version "20260310.2043")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/BHFock/repo-grep.git")
-           (commit "b166b200d89e92038cfb4efab2e375492056197c")))
-     (sha256 (base32 "1z0bl3h9qkcq5gifzs7ahsrw12l14g85mznimdi43w6ahr09p90z"))))
+           (commit "f66ca26e620fb092df4ab23f8794ee4153c23a3d")))
+     (sha256 (base32 "0fb3sbj8lrq5bg44pymx7kl29cpdf61v4pfcyawm4rhfik99kv61"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/BHFock/repo-grep")
    (synopsis "Project-wide grep search")
@@ -90869,14 +90869,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260309.1350")
+   (version "20260310.1920")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "afd5509b99b28589bab3a0d06786118905eadba9")))
-     (sha256 (base32 "18xi9c3gxpcgzc7091xj2qh0mb7pnafzcvqpsnjdbvcxnq5hl29k"))))
+           (commit "86fbe695085fd59c7b65799da84a3e917ebf4528")))
+     (sha256 (base32 "0ll83i261yrhc71gwpr524yc8ib1vlwhm878d2pdaq833b69afky"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -99884,14 +99884,14 @@
 (define-public emacs-tomorrow-night-deepblue-theme
   (package
    (name "emacs-tomorrow-night-deepblue-theme")
-   (version "20260215.2013")
+   (version "20260310.1736")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/tomorrow-night-deepblue-theme.el.git")
-           (commit "5e688cde3fe91a929a3f36d9311eddc9e0dec0b0")))
-     (sha256 (base32 "1gbd7qcv78fhm99yi45rl9rl642iz9slv3jhflbh84zj8yamzpdn"))))
+           (commit "a2ed23b6694c13faae9e1768e643e53e27579e3d")))
+     (sha256 (base32 "088zqlf39bzw7nrs2sg60v5lmzw2w6znixlbvb9wswvn7lg01cfg"))))
    (build-system melpa-build-system)
    (home-page
     "https://github.com/jamescherti/tomorrow-night-deepblue-theme.el")
@@ -100385,14 +100385,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260305.2144")
+   (version "20260310.2036")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "e7cae38a1fd613c5dae43a60de14a72a9b48bc9c")))
-     (sha256 (base32 "0mcb2cx1qg0f7nwws11arv4jqavk6hd0ihgf5z1kr07p9jkj15lh"))))
+           (commit "7131bec61e558e022ce75e2d2d5e55c748fcf8e0")))
+     (sha256 (base32 "0gpgvkq2kjmz1avq6bagjns1pdi1spm4bf4bhp82aw3ps3fyhl79"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/magit/transient")
