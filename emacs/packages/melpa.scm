@@ -17815,14 +17815,14 @@
 (define-public emacs-dante
   (package
    (name "emacs-dante")
-   (version "20230808.658")
+   (version "20260311.705")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jyp/dante.git")
-           (commit "ca47f8cc1392c7045db7da8b4fafe86b7c044e90")))
-     (sha256 (base32 "1r6b5z4ipv5bhx153bsc2fn534vni6rnyamq5ldzyzxyb4i3m5dl"))))
+           (commit "eed4b8147a1395a3b674577f032321d391cbf19e")))
+     (sha256 (base32 "1dj6d91knx56mlxk1k7xkydhmb0xwmbdc78n9lzjx11rlxk2c0g4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-flycheck emacs-company emacs-s emacs-lcr))
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260310.2351")
+   (version "20260311.1512")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "b6c8de84a302cfb4d7bb09e7a78684a3f870c320")))
-     (sha256 (base32 "1ns1a1jljn17b4lqryj3arsy250kbfldm5crbdz1wvrbn8a4ar5v"))))
+           (commit "def49d12e2eeefbbd29f5024932e3f04af9da7d9")))
+     (sha256 (base32 "1cqwidwcfw92lyj4cdd2nm1a33ymbg0mdfn3rkfhhqybrplw7asx"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -42992,14 +42992,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260310.1608")
+   (version "20260311.1602")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "c93b434686948d78722f081d522c3519486c3afc")))
-     (sha256 (base32 "1i9h6xdvy9fc8vc2ndi31nmwviw6yspg74d2yadlmyynvnh5j546"))))
+           (commit "ba396fdd4e8d9928f1360ec79e7666bb2792c4bc")))
+     (sha256 (base32 "0jkcqapnd7pn60x0mps736z3z3alpv3m0myykxpkzp34gcfa3lxw"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -57123,14 +57123,14 @@
 (define-public emacs-leetcode
   (package
    (name "emacs-leetcode")
-   (version "20250417.1453")
+   (version "20260311.1256")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kaiwk/leetcode.el.git")
-           (commit "7f1d6804ed3b9de98d2737e1eab275cd9cbcdb16")))
-     (sha256 (base32 "0id54jbcva1nnxb84sbg9pfs182fljrm127yw6qz83kmskgw9gas"))))
+           (commit "4f3fb7d4740e156ad1c6f5973ad97ed436170aa2")))
+     (sha256 (base32 "1r0s0aj2hd66asckrycj1bvpgnw3l8w8v8h7icmapsdzjjgzd7pj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-aio emacs-log4e))
    (home-page "https://github.com/kaiwk/leetcode.el")
@@ -66638,14 +66638,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260310.1445")
+   (version "20260311.1327")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "3a86ff6c49dc2a9ebaceabff24c1470edc5380eb")))
-     (sha256 (base32 "100y5c9b7hs89aja3vsqlyn732kfjdjlb3dd8yf59lgn17b1ppiv"))))
+           (commit "2b3ebe3dc180370223a861158ba21f06db4822cd")))
+     (sha256 (base32 "0k5hnkymyxngqxl2miwywhxnbp6ngsq66y57h9rmsqwm83j4r57m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -70536,14 +70536,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260310.1745")
+   (version "20260311.927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "dffc9ff97915bcede7fcf903b0fb7aa648dde2f8")))
-     (sha256 (base32 "1848r134vhy2mbd9rkrmvwqm8fl0rppj9l13b093rdbj0p6a4vs4"))))
+           (commit "14a726c531cab9889dee4a0e937969b403d1331a")))
+     (sha256 (base32 "0yvs00m79ks8gcx42gi1kidsl0yczk98dij467fz60mi37mpws4y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -87387,14 +87387,14 @@
 (define-public emacs-review-mode
   (package
    (name "emacs-review-mode")
-   (version "20260308.1304")
+   (version "20260311.1218")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kmuto/review-el.git")
-           (commit "b173db73d9477e88fa1b85415a3d3f9ca91febe9")))
-     (sha256 (base32 "1dgydagjwzqlfg6dwbzh8xs3x8v3jgv1g1rbldhv8cl0xsw8whqy"))))
+           (commit "5b2e01f7e07b0ba6776eb0555ef386026bcb62d0")))
+     (sha256 (base32 "0z4vld8syk1kql68w6i9rwai460fsvjnrgrbyi7pfsypi947ax1d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kmuto/review-el")
    (synopsis "Major mode for ReVIEW")
@@ -102000,14 +102000,14 @@
 (define-public emacs-ultisnips-mode
   (package
    (name "emacs-ultisnips-mode")
-   (version "20260215.2013")
+   (version "20260311.1258")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/ultisnips-mode.el.git")
-           (commit "a33c16dca1f8669db7132500cedab959a271a62b")))
-     (sha256 (base32 "1z4vd29x5qz7gc50v614py9kp2iym1nd6i92i1him2g53ddhhzh1"))))
+           (commit "17b62058aceeb593d3241a9eda2cc12638162862")))
+     (sha256 (base32 "1500jqha8x0n77k66cn0j5m83wd26p52bsz9jakxlg8zlvwbh6m4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/ultisnips-mode.el")
    (synopsis "Major mode for editing Ultisnips snippets")
@@ -109062,14 +109062,14 @@
 (define-public emacs-zig-ts-mode
   (package
    (name "emacs-zig-ts-mode")
-   (version "20260311.544")
+   (version "20260311.1110")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/meow_king/zig-ts-mode.git")
-           (commit "9c447adbf0c015fadaf1271ef8ca3e1fcf3c2a8d")))
-     (sha256 (base32 "0w59cc8j6a6sc5svm25g4ji65lrdsw2wpyyi71y8zg51ir8wdd3j"))))
+           (commit "74c71a7859978dea5d299a1eea1548b3751af0ae")))
+     (sha256 (base32 "1ypm9jz6ldv2m1qa9x4z7ml9csk58as13njimkxh8qcdf7n3nk4s"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/meow_king/zig-ts-mode")
    (synopsis "Major mode for Zig code")
