@@ -10718,14 +10718,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260311.620")
+   (version "20260312.626")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "735fc408cd945d593004a90a62988f12d838a4dc")))
-     (sha256 (base32 "0l6sqq3bzzinrwzvgd8qw50rf95nfria7498a930d4m3bb408lyl"))))
+           (commit "f4a8bc4b74e9dc5993f8f1c4e0f943e4d4725cb0")))
+     (sha256 (base32 "0vifk2ac7a00kfgqxqyls2ihxs5q06shs6lff3nxd77x5q9pqmlx"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260312.30")
+   (version "20260312.247")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "9aaeeb6f6b4d692ee3e9ac2a1d4accd0a36e6689")))
-     (sha256 (base32 "1q8n8flsy0fi8di6n7rfpizljgpdykhn5izcdyy9p391ny921b7h"))))
+           (commit "9efce30669ddbe14a25b7175ac9eebd81de9a3b8")))
+     (sha256 (base32 "10x60yk3rf182052b5nw1hpcdw2pbjplxzblz5yfqfk7xjg88aw8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -57123,14 +57123,14 @@
 (define-public emacs-leetcode
   (package
    (name "emacs-leetcode")
-   (version "20260311.1256")
+   (version "20260312.515")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kaiwk/leetcode.el.git")
-           (commit "4f3fb7d4740e156ad1c6f5973ad97ed436170aa2")))
-     (sha256 (base32 "1r0s0aj2hd66asckrycj1bvpgnw3l8w8v8h7icmapsdzjjgzd7pj"))))
+           (commit "716d47702eb4f044cfa096a4306149012a85785e")))
+     (sha256 (base32 "0imamrp08ya1jpw1mgzq0zp2s9ckxlbsgs6pakjk06p4j3h9zw8n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-aio emacs-log4e))
    (home-page "https://github.com/kaiwk/leetcode.el")
@@ -66638,14 +66638,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260311.1427")
+   (version "20260312.630")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "2b3ebe3dc180370223a861158ba21f06db4822cd")))
-     (sha256 (base32 "0k5hnkymyxngqxl2miwywhxnbp6ngsq66y57h9rmsqwm83j4r57m"))))
+           (commit "ba016ad8197869f473e67a62ca4812909d723a9b")))
+     (sha256 (base32 "0av0c2fpav5iy74cknrp9zqk9z0acsnifp6gvrzgvgc60kmmq2f6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -70536,14 +70536,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260311.1849")
+   (version "20260312.736")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "ccb9519b4c1b43cf956d53fecaf8578a144bf77e")))
-     (sha256 (base32 "1nfvrb8sxa3ih9syxm40kfigj2ymg11h8maf10cfsp9hrkiargd6"))))
+           (commit "e3a9aaf1925061ef19bb939b28b9107dd9d2f15f")))
+     (sha256 (base32 "0lbsxxbk8g82xqwn3r15scj6qx13gx7c0mzb8axd6xq0f4ffa76q"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
