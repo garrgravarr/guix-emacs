@@ -9183,14 +9183,14 @@
 (define-public emacs-cape
   (package
    (name "emacs-cape")
-   (version "20260124.924")
+   (version "20260311.1654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/cape.git")
-           (commit "2b2a5c5bef16eddcce507d9b5804e5a0cc9481ae")))
-     (sha256 (base32 "18pdm8dlvzjry7xxx3yyka7rmrx94cvwkhwiagxcfprk6yinx21z"))))
+           (commit "a326a0575fe5ca574f6607557dbb8bd6ce83dbbd")))
+     (sha256 (base32 "1a6h79v6jpr0k6p01f4ndfkxbi51yw3wsj94k54b8vasd4kbrhzb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/cape")
@@ -17798,14 +17798,14 @@
 (define-public emacs-danneskjold-theme
   (package
    (name "emacs-danneskjold-theme")
-   (version "20251229.1605")
+   (version "20260311.2056")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rails-to-cosmos/danneskjold-theme.git")
-           (commit "6bfb4cd9f54daa4b3153f1ed03e135aa54f415c9")))
-     (sha256 (base32 "08asfmvblds7af9lpw4dkiha1k0iv4bk7fav0dv395i3vajlm0gp"))))
+           (commit "f9554c4f77394318d320910c7c5551237027cd41")))
+     (sha256 (base32 "19wf988g9rdp29q235frf2a3q4r12w76vdnpv8806fkcsiidf3qd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/rails-to-cosmos/danneskjold-theme")
    (synopsis "Beautiful high-contrast Emacs theme")
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260311.1512")
+   (version "20260312.30")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "def49d12e2eeefbbd29f5024932e3f04af9da7d9")))
-     (sha256 (base32 "1cqwidwcfw92lyj4cdd2nm1a33ymbg0mdfn3rkfhhqybrplw7asx"))))
+           (commit "9aaeeb6f6b4d692ee3e9ac2a1d4accd0a36e6689")))
+     (sha256 (base32 "1q8n8flsy0fi8di6n7rfpizljgpdykhn5izcdyy9p391ny921b7h"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -42028,14 +42028,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260311.435")
+   (version "20260311.2138")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "f45e7bc41e7e325370eeeafe569cb2a1c174713d")))
-     (sha256 (base32 "1k7p71h7bx8b4gj9sj03ayr8x24nwg6l0m1bci9644d59f2y0zi7"))))
+           (commit "a4cc9a1907a9c64b339325e31658f8769947c6c8")))
+     (sha256 (base32 "0jm3pwf0jgc2cdi92kgcv3bcsmrz9q3zh580n20f0pm8671ny4i1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -42992,14 +42992,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260311.1602")
+   (version "20260311.1756")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "ba396fdd4e8d9928f1360ec79e7666bb2792c4bc")))
-     (sha256 (base32 "0jkcqapnd7pn60x0mps736z3z3alpv3m0myykxpkzp34gcfa3lxw"))))
+           (commit "5ae161e111ada2526c479d4b8f7de8ff84ba5353")))
+     (sha256 (base32 "0xsqx7yhbfy8199kxs1jjf6xfx4vxjzhmcirp82j024kq80vylfq"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -66638,7 +66638,7 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260311.1327")
+   (version "20260311.1427")
    (source
     (origin
      (method git-fetch)
@@ -68542,14 +68542,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260310.811")
+   (version "20260311.1607")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "19159f33f16dd56f4f68357c8157ac20d70ddc1a")))
-     (sha256 (base32 "08yq6j67wzvl1ibmmq4nrz489f4147pjg78j0h4ydmvf4vz9az3d"))))
+           (commit "66041b585fe41bf291605a7a13c909f65f5fa581")))
+     (sha256 (base32 "0pvbby1abbvk7fw0zq66i0y4pgsjkkp7abh4ik9pb7cmhvwf6mq8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -70091,14 +70091,14 @@
 (define-public emacs-oboe
   (package
    (name "emacs-oboe")
-   (version "20260308.1452")
+   (version "20260311.1431")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gynamics/oboe.el.git")
-           (commit "4914e582087e14f8c3c09db51f1d32159bc06a00")))
-     (sha256 (base32 "0rjj4aca3i6nkbmxqbgcppz3zpvc99784y496w3babm8mhn8lw46"))))
+           (commit "8205f2c6ea747179382423ec5317b70126faaeb2")))
+     (sha256 (base32 "0fbh6511s07b4rbx53h7yhfjp8hy57wpgq0ws872ic1r6wf5p1kp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gynamics/oboe.el")
    (synopsis "A simple temporary buffer management framework")
@@ -70536,14 +70536,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260311.927")
+   (version "20260311.1849")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "14a726c531cab9889dee4a0e937969b403d1331a")))
-     (sha256 (base32 "0yvs00m79ks8gcx42gi1kidsl0yczk98dij467fz60mi37mpws4y"))))
+           (commit "ccb9519b4c1b43cf956d53fecaf8578a144bf77e")))
+     (sha256 (base32 "1nfvrb8sxa3ih9syxm40kfigj2ymg11h8maf10cfsp9hrkiargd6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -73527,14 +73527,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260310.2122")
+   (version "20260311.1717")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "92bebdeddf0c58aa7d3224752f67d61c7e66b790")))
-     (sha256 (base32 "0daryc3jzqqjpvzjx2hc88p0d3x6smklaf7b7r06b0xlydlfdi3y"))))
+           (commit "b2dc80256addf623f0f19ffce6eba9ff5e612108")))
+     (sha256 (base32 "0d911j8gmlgfks0b4awvdy65irfhxjwb04zjii44csj9j0arnbmb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -79751,14 +79751,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260309.2343")
+   (version "20260311.2348")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "6d3eeb658d91b03643d8fde348c60ede47e70ecb")))
-     (sha256 (base32 "0bzzq4rjm3k1qa722kj876k5snnbhq6l92bgzpyjvhpf672cjaby"))))
+           (commit "362b6f36f28449e38d825cdbf32842f141ecb6d7")))
+     (sha256 (base32 "05gkpniq380p3r6ih3zjdqb42k1fvqcnc7yjgv71z522qj6dmia1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -90869,14 +90869,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260310.1920")
+   (version "20260311.1904")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "86fbe695085fd59c7b65799da84a3e917ebf4528")))
-     (sha256 (base32 "0ll83i261yrhc71gwpr524yc8ib1vlwhm878d2pdaq833b69afky"))))
+           (commit "8c64f0b5b6855670db040e747e9af71062160d7e")))
+     (sha256 (base32 "00swvvcjy6sx79qzylx8v2fnxp4593k6ci72zir5bz7bgrl5bwir"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -98486,14 +98486,14 @@
 (define-public emacs-test-cockpit
   (package
    (name "emacs-test-cockpit")
-   (version "20260224.1810")
+   (version "20260311.1758")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/test-cockpit.el.git")
-           (commit "09b8978bba47c8fcefcde435a93ec63255405f8c")))
-     (sha256 (base32 "1zvyh6pp6l3slj1qm4zs6vvzjvrfa5f70vk5gx8599cad2c2s12q"))))
+           (commit "42c9e1f722b5b30a6a4fde5fb9bc6740cc53904e")))
+     (sha256 (base32 "1ppndliy2d6qx3475svq2fs5zn5xzhzgizq5xfcsyp5srcjvcf2w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projectile emacs-toml))
    (home-page "https://github.com/johannes-mueller/test-cockpit.el")
@@ -102445,14 +102445,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260305.1104")
+   (version "20260311.1830")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "1d62787fe6766d3f74a0665dfab945969520d4eb")))
-     (sha256 (base32 "0dqhycv6n26yszgrqidvny7wyd06gga0rb5j8ijy9i73f0vs9li1"))))
+           (commit "d2e1ddf6806f33f58f7877dad6cab862c02263fa")))
+     (sha256 (base32 "1zdalpyqi8mrw3sm8m8mi7fnja9kk2cmlz6lb4m0553q0aggssnz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
