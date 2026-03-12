@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260311.817")
+   (version "20260312.1341")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "4561f5b63dcd99ff7517157ffe786b0c25021f38")))
-     (sha256 (base32 "0731yzd7h2cayspsv876i3wsnsrpwp64hgf2ydspcfhmds7havhn"))))
+           (commit "3982575eb39746f449439d09a661c44b3126e555")))
+     (sha256 (base32 "0k4xwhg18bc5a8zngmkybsq8zw525ylh5bxfafrdr0qxb7mc12qz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260308.1642")
+   (version "20260312.1537")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "cfea5401a4c4762909a3068ce4a3c384b9124203")))
-     (sha256 (base32 "1hpv2f48dkrrnl6wyq375li59119gpvr2qbjnjlzhndgkvqm0r7r"))))
+           (commit "e7559498e684cff069d77094fdc06811710fe3d2")))
+     (sha256 (base32 "1wvr0qz64bl1sdnli8f4fa8986y07mgij8hyi37ydkzymibd0ndz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -9936,14 +9936,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260301.907")
+   (version "20260308.906")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "2a933343672a883a2eaf404553ad463cf12d8104")))
-     (sha256 (base32 "0q7rb4aia9hhyzfb8plfd6fqvkhra24mfjb58azyc8457i76mww9"))))
+           (commit "58739bc6257723bf7d540f64a64b19e15ff75a10")))
+     (sha256 (base32 "16kjdab7ddiprp2j6dc7azgrzqc5r0c4y9wfmbqiy8353bazaz8r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -18052,14 +18052,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260224.1036")
+   (version "20260312.1521")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "b3ceec1e31953b7925aceb4c081b48bc9a413000")))
-     (sha256 (base32 "0z3gx15a63cnbfalazx8wjibgf277jrk0n1bpqm3n228dnqyswdl"))))
+           (commit "012f31b2a799faf7bf2250ba684260156e7c05de")))
+     (sha256 (base32 "0iraix3sar278rqscxmchvcswhyrzwp774v2f7bb5p8g07v1f4ra"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260312.247")
+   (version "20260312.1410")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "9efce30669ddbe14a25b7175ac9eebd81de9a3b8")))
-     (sha256 (base32 "10x60yk3rf182052b5nw1hpcdw2pbjplxzblz5yfqfk7xjg88aw8"))))
+           (commit "5d822683e95992c480ba16e688df52005deaa0cd")))
+     (sha256 (base32 "0jgbmgsia9p49p0bcjv86rr01yn0bcj9hm35dcfzh25r46qx436b"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -37429,14 +37429,14 @@
 (define-public emacs-format-all
   (package
    (name "emacs-format-all")
-   (version "20260306.333")
+   (version "20260312.1136")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lassik/emacs-format-all-the-code.git")
-           (commit "1b3cd71db48efbcbcc90ab5e9b13fce52f1ab73e")))
-     (sha256 (base32 "0b29nxj3z5pppsfnfpqywzg3zi1il12bhcfn2bal9xmawn92yi12"))))
+           (commit "d44bf536fdae83ad7a798565e21f59c02e461c47")))
+     (sha256 (base32 "14wjms8q2pjbwain5gimfcalvxp6vfa1wwv2cb6wr11qdb64n9rd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv emacs-language-id))
    (home-page "https://github.com/lassik/emacs-format-all-the-code")
@@ -42028,14 +42028,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260311.2138")
+   (version "20260312.736")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "a4cc9a1907a9c64b339325e31658f8769947c6c8")))
-     (sha256 (base32 "0jm3pwf0jgc2cdi92kgcv3bcsmrz9q3zh580n20f0pm8671ny4i1"))))
+           (commit "fadfaf8d1870dff7adaece23631bda698e2ec455")))
+     (sha256 (base32 "0zbq0lls7vrfm88s4yj07mw6fayg96mhss9814l2qdps57hzk7mk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -48859,16 +48859,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260310.342")
+   (version "20260312.124")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "1y3lbmh3rbzbkhjaf2s1h0jjjg9fa4gmplgzylph8r1ww2ap854a"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "6e0c833a421b6ecb5eaec8339cb754eef7eff913")))
+     (sha256 (base32 "1svg4qxj7f6axir306sqx3clf96qk5jd8xbjgawr53ap1lg3ssiq"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -59444,14 +59482,14 @@
 (define-public emacs-lsp-java
   (package
    (name "emacs-lsp-java")
-   (version "20251118.1411")
+   (version "20260312.1356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-java.git")
-           (commit "094593d9c13d6d0b03d526d46e7fb0ee28c29afc")))
-     (sha256 (base32 "16xsxrjaznj9hki35v2z3i29ylbd9nk62km40spa10xrlljlwch5"))))
+           (commit "0a9f4d0b3ddf300bc9ca7546f5bed288bdfc8377")))
+     (sha256 (base32 "1rc9fy27kzgs6hdp7j9ybzmzxmcdj63jzwzsxfzlm8pqp1y8xkcb"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-lsp-mode
@@ -62418,14 +62456,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260309.742")
+   (version "20260312.1353")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "4bcc65fe96e8396b333c1ec4cc1e54f1fce93e4c")))
-     (sha256 (base32 "1r17vsvbxc2ihmq643z8gmlajz8csx6xydll8p1jl3rhqcnj88l7"))))
+           (commit "d7825dcea9b7282675e27da8ad35ce07496961d1")))
+     (sha256 (base32 "199zwhb0val3c2yv7z5iij788d1f6cx42sp0a4z3bpkr1g7fllmh"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -73527,14 +73565,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260311.1717")
+   (version "20260312.1322")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "b2dc80256addf623f0f19ffce6eba9ff5e612108")))
-     (sha256 (base32 "0d911j8gmlgfks0b4awvdy65irfhxjwb04zjii44csj9j0arnbmb"))))
+           (commit "3dc04513b7f42e2d487970dea99e457ef1326fdd")))
+     (sha256 (base32 "02i7r02zid0wzmd21kir2mc2zds0hsbax5cplk828hi6jmssz0bd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -75650,14 +75688,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260306.1721")
+   (version "20260312.1015")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "b4185785096007a70dc661d183c962be123410af")))
-     (sha256 (base32 "1kjy3n2maspc85w2nnj1fwcdfdfyiyhl0iqdvhc9nbzk2d1w2jdc"))))
+           (commit "8e6849888d2a35979dbd4295bf7478ae8057a6a1")))
+     (sha256 (base32 "0mzaagfzsgj9wzg8pj7kg0jgkpgrhqj36v2gdfl3cvlz4yshvpjv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -99816,14 +99854,14 @@
 (define-public emacs-toml
   (package
    (name "emacs-toml")
-   (version "20260309.1313")
+   (version "20260312.1321")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gongo/emacs-toml.git")
-           (commit "b4d0ef28419cebcfc345b90fce31bddb6fabf515")))
-     (sha256 (base32 "1mn82xq4rnh07i3aykrh15pq86nz0kvxaljg8phyrnkssy5kd5rp"))))
+           (commit "0b733e42afa655f507ea7a9eb7197345e51c6e74")))
+     (sha256 (base32 "1fcbbbsgjckvaxa51gc0v18wm3cwg1zr3kh2y3fvziw63bdnwadw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gongo/emacs-toml")
    (synopsis "TOML (Tom's Obvious, Minimal Language) parser")
@@ -102445,14 +102483,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260311.1830")
+   (version "20260312.959")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "d2e1ddf6806f33f58f7877dad6cab862c02263fa")))
-     (sha256 (base32 "1zdalpyqi8mrw3sm8m8mi7fnja9kk2cmlz6lb4m0553q0aggssnz"))))
+           (commit "419bb03931e7290ee88c26a160bd8dba6d5aca49")))
+     (sha256 (base32 "10vwb8whm0s9sx1mn1ql4f8dhv98khvzsiqnl84rdpv12zaymcbg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
