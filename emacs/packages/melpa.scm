@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260312.1341")
+   (version "20260312.1718")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "3982575eb39746f449439d09a661c44b3126e555")))
-     (sha256 (base32 "0k4xwhg18bc5a8zngmkybsq8zw525ylh5bxfafrdr0qxb7mc12qz"))))
+           (commit "a7908cb2576a636f6da40e2ace3404036da80f76")))
+     (sha256 (base32 "0yc35rm7qbxn98phas35bani6azds41scnhkpp6yz2vhjxxn6v5a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3137,14 +3137,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260306.2317")
+   (version "20260313.35")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "011e7b999552f3c0730035183a4a6dfb60c10182")))
-     (sha256 (base32 "070q117sz1q3244l82x8d7yw6l223fqv5jx45r1y82yyamx0dvy0"))))
+           (commit "e6e5d5523d229735ab5f8ec83e10beefcfd00d76")))
+     (sha256 (base32 "1yf8ccaidk4swk67bhssgkslb6ymz6smhcqr2mpy13v4dp53zn7g"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -24280,14 +24280,14 @@
 (define-public emacs-eglot-python-preset
   (package
    (name "emacs-eglot-python-preset")
-   (version "20260108.56")
+   (version "20260312.1711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-python-preset.git")
-           (commit "5877dbd06c0fdd6c849e8d7836f7323d39ad9c27")))
-     (sha256 (base32 "0nwvjg1ld5cs6kfz3gkj1l2fli52ygbka7yvw0bf3r7bg2xjxfxy"))))
+           (commit "58071e745a1e32ae51617374fba6608cd2a8d851")))
+     (sha256 (base32 "035qj64xf46mg50wzgy7g70602qdyp63sdjqaybv8bmnxzzhhgwz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mwolson/eglot-python-preset")
    (synopsis "Eglot preset for Python")
@@ -31851,14 +31851,14 @@
 (define-public emacs-faff-theme
   (package
    (name "emacs-faff-theme")
-   (version "20260209.2337")
+   (version "20260312.2354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
-           (commit "216b52467e2fbbc61b746c28b5d0bc001345a8eb")))
-     (sha256 (base32 "18brbllyv8vmnanjl382qpkyf4156n7vv43mhr472fjl4qvkr34l"))))
+           (commit "2b33d31857c73fd1d48a4814a83d885dd4c00569")))
+     (sha256 (base32 "0xcdxy44i98mr8wyp4rw9pmjrpmpv57wl3b4vzsiljpdnwpgpwmr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/WJCFerguson/emacs-faff-theme")
    (synopsis "Light Emacs color theme on cornsilk3 background")
@@ -42992,14 +42992,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260311.1756")
+   (version "20260312.1706")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "5ae161e111ada2526c479d4b8f7de8ff84ba5353")))
-     (sha256 (base32 "0xsqx7yhbfy8199kxs1jjf6xfx4vxjzhmcirp82j024kq80vylfq"))))
+           (commit "a1617fd3ad78c87d01b4c5f26a75e272f9ca60ed")))
+     (sha256 (base32 "00ls9fbg6ziyyf7ai3bjla65bpmqwkyf4jz2alnka3gqq3iwxkqm"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -60252,14 +60252,14 @@
 (define-public emacs-macports
   (package
    (name "emacs-macports")
-   (version "20260311.227")
+   (version "20260313.58")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/amake/macports.el.git")
-           (commit "971f50ed908ac846c4fba957eb1e30fef6a83852")))
-     (sha256 (base32 "0035b309916c9flp7vihrcdx3dwqbs7gkapsipgsd9sz8bijig6n"))))
+           (commit "6de6616e6aeb762dfd287f72c09efce15e8c26f4")))
+     (sha256 (base32 "1vdaj37rqwxcqcxdafsh2sxnj6mi86mllzhcld64biv1q6kj4k1d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/amake/macports.el")
    (synopsis "A porcelain for MacPorts")
@@ -60430,14 +60430,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260226.1808")
+   (version "20260312.1533")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "b9f19bae4d5e5c485d2d8d7bf52364eeb7d22a6b")))
-     (sha256 (base32 "1yf693xqcckvfi8afqkb1bf4qwf1c7m9bnz3d4k1f1yrfrsf5y9v"))))
+           (commit "60e04662be037630b46fc241956e313ae405dd03")))
+     (sha256 (base32 "17np8hzq1vq7lj8idyilpa54hnmlcrpw183dyfnzl0cycfcgjlvf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62456,14 +62456,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260312.1353")
+   (version "20260313.51")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "d7825dcea9b7282675e27da8ad35ce07496961d1")))
-     (sha256 (base32 "199zwhb0val3c2yv7z5iij788d1f6cx42sp0a4z3bpkr1g7fllmh"))))
+           (commit "d187dd3cd59edd5dad46f4c588504607b4191eaf")))
+     (sha256 (base32 "06bi1rc32lf31c1d456zyp108kjqkr9yhyz0x8rp0959kingp3wg"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -70574,14 +70574,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260312.736")
+   (version "20260312.1707")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "e3a9aaf1925061ef19bb939b28b9107dd9d2f15f")))
-     (sha256 (base32 "0lbsxxbk8g82xqwn3r15scj6qx13gx7c0mzb8axd6xq0f4ffa76q"))))
+           (commit "a9cbbe23aad95e7cdc3322715f2d6375606e5c13")))
+     (sha256 (base32 "165s17zjq0j2fdikmn0yfmmn3v5ah9srygs7fc5a0xkkpr25mw9x"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -72351,14 +72351,14 @@
 (define-public emacs-org-eval
   (package
    (name "emacs-org-eval")
-   (version "20260308.1845")
+   (version "20260312.2258")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-eval.git")
-           (commit "e43bff2239b938255f79d92c7e6a1c05da355bdb")))
-     (sha256 (base32 "1b6q760kyxd5djvp143zp341g122ffgcvqv5m2mbymj803nx3qrm"))))
+           (commit "1c029ba35098d1405995933437df7cf83eaf3302")))
+     (sha256 (base32 "1l3kmswsq8iz6lfc6s6mc0klakpf6v1x3phavn6blw8z6n5gnyv9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-eval")
    (synopsis "Execute named org-mode blocks on load/save")
@@ -73565,14 +73565,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260312.1322")
+   (version "20260312.2258")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "3dc04513b7f42e2d487970dea99e457ef1326fdd")))
-     (sha256 (base32 "02i7r02zid0wzmd21kir2mc2zds0hsbax5cplk828hi6jmssz0bd"))))
+           (commit "175f41593b631be68662df06b9bd54f89bdf72cd")))
+     (sha256 (base32 "0rc2s4hlghwbiniy5xvjallvn3xl7bj43qx3g8jlarxfljzpk3p1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -75739,14 +75739,14 @@
 (define-public emacs-orgtbl-join
   (package
    (name "emacs-orgtbl-join")
-   (version "20260217.1139")
+   (version "20260312.1826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgtbljoin.git")
-           (commit "bd9edf54bdd55d1d33b8c6fb51a7f23a78c09355")))
-     (sha256 (base32 "1clvbp9pb0qfwy3hibsx2a83r3zmhiw7m47cdylnwv61wz640rj9"))))
+           (commit "837155efe2c107e92d4c62701fffb7c0416fa4f4")))
+     (sha256 (base32 "05gvxbfmwdcpfmjsy1dgys14vh7f8cwcxjnl9x217dnf183a91m0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
    (synopsis "Join columns from other Org Mode tables")
@@ -99854,7 +99854,7 @@
 (define-public emacs-toml
   (package
    (name "emacs-toml")
-   (version "20260312.1321")
+   (version "20260312.1448")
    (source
     (origin
      (method git-fetch)
