@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260312.1537")
+   (version "20260313.1503")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "e7559498e684cff069d77094fdc06811710fe3d2")))
-     (sha256 (base32 "1wvr0qz64bl1sdnli8f4fa8986y07mgij8hyi37ydkzymibd0ndz"))))
+           (commit "c3b262c4b1cdf24355beed3bd9545cd4b4efb754")))
+     (sha256 (base32 "1jm5mvdsn9zz1wyxpfsibd8ssi9bxpckl77j3q0f7k6sqg9psl6g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -21868,13 +21868,13 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260311.355")
+   (version "20260313.1119")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "4a145ea1a1b23d8c2cc760b3002d475d6f680ad9")))
+           (commit "fb0a15e950fc3e2ea5b078b4fab1ed92d319dadf")))
      (sha256 (base32 "0rg3yacn7ypgvxglp57ywhm0mzlpwhzwdbzw05hr0ywa09gci5mx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260313.224")
+   (version "20260313.1516")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "369e6fd96b0b8f8e6d8316c14aa39d0f44681e88")))
-     (sha256 (base32 "1jganbbs8zg5afv17hc4s2dh037hy2sfgmx0phbg0g1czj2kqdji"))))
+           (commit "daeab7f6b01d8c58dcabe8431a04577c8095c310")))
+     (sha256 (base32 "1ld0cfgzjspj7x8w18wclg5xbak9hmvbaclhpzzp0adx2kr0nvpp"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -27434,14 +27434,14 @@
 (define-public emacs-environ
   (package
    (name "emacs-environ")
-   (version "20260130.1135")
+   (version "20260313.1407")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cfclrk/environ.git")
-           (commit "fae49380dd859c63c333b80c3bda7bd497e92d91")))
-     (sha256 (base32 "1w695z5b1xyz498c9nbq49p5fqi74f222652nybli863ah99m7pk"))))
+           (commit "46b5ffeeec3711be5f90c2ea00447bbee6604591")))
+     (sha256 (base32 "1p3fqqwrwswccld0rmabybppppf7i8909yfvhsm7283cs42l266l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-f emacs-s))
    (home-page "https://github.com/cfclrk/environ")
@@ -60430,14 +60430,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260313.452")
+   (version "20260313.1518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "9c76756df161a4bfc91aff64cbe01599835d5a35")))
-     (sha256 (base32 "0jc64hsmkjf70nv0pjkdh5irfc3aalwnbvp5dajh8ybbxvj51jpj"))))
+           (commit "54df78435cde54df0c93c15ea1d5687eeabe8202")))
+     (sha256 (base32 "0af5hz1wwlvckh09hqys0zzab67wf7xj6f5cslsfa5jk8lyks9lw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -66676,14 +66676,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260312.630")
+   (version "20260313.1602")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "ba016ad8197869f473e67a62ca4812909d723a9b")))
-     (sha256 (base32 "0av0c2fpav5iy74cknrp9zqk9z0acsnifp6gvrzgvgc60kmmq2f6"))))
+           (commit "59814846c9c22759f7b2a2281f1d277f4cf42a9b")))
+     (sha256 (base32 "1fba7zwq8xgvps64jv77q43a7hx6d7ha1ilr1wmx987b82zbx1a2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -68580,14 +68580,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260311.1607")
+   (version "20260313.1633")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "66041b585fe41bf291605a7a13c909f65f5fa581")))
-     (sha256 (base32 "0pvbby1abbvk7fw0zq66i0y4pgsjkkp7abh4ik9pb7cmhvwf6mq8"))))
+           (commit "7c4541e25281483308f4ee616d8613fc797f5f21")))
+     (sha256 (base32 "087wgcbl8qq57fds3mvd4hdl8skphdw6pz0c3k6crbmrplszj5pk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -70574,14 +70574,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260313.657")
+   (version "20260313.1217")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "efb2e7d1787dd7d12ab46abc2afc3d670a93b3e1")))
-     (sha256 (base32 "1bf6k5g1npdsixnl2b69c4a5p1ymrrngr26lsjpwx52xchfsh077"))))
+           (commit "b42866c5c7534fccfba1995e2cdc9c5838f668f6")))
+     (sha256 (base32 "1a19a5lh5nrncin90za1mi27naa8m6bkh56mqvvgc37pi6z1fi8x"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -73565,14 +73565,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260312.2258")
+   (version "20260313.1007")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "175f41593b631be68662df06b9bd54f89bdf72cd")))
-     (sha256 (base32 "0rc2s4hlghwbiniy5xvjallvn3xl7bj43qx3g8jlarxfljzpk3p1"))))
+           (commit "73d9018bc899c0138c8c099870e11834a082300c")))
+     (sha256 (base32 "1jjxhraa321gf0hl299dwj7fbkakplc08cjsv94yfxldc176q7gd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -101038,14 +101038,14 @@
 (define-public emacs-treepy
   (package
    (name "emacs-treepy")
-   (version "20240930.728")
+   (version "20260313.916")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/volrath/treepy.el.git")
-           (commit "651e2634f01f346da9ec8a64613c51f54b444bc3")))
-     (sha256 (base32 "0y34sb1b3sgkn3kfsw0hxv9sw4xshizyynbnbica6vdckfvxdnqn"))))
+           (commit "28f0e2c2c75ea186e8beb570a4a70087926ff80b")))
+     (sha256 (base32 "0z91vd12gikgb6207sz45fhcmhkl5hqbxjbzcaqpkznfgsq95f7j"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/volrath/treepy.el")
    (synopsis "Generic tree traversal tools")
@@ -109100,14 +109100,14 @@
 (define-public emacs-zig-ts-mode
   (package
    (name "emacs-zig-ts-mode")
-   (version "20260311.1110")
+   (version "20260313.822")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/meow_king/zig-ts-mode.git")
-           (commit "74c71a7859978dea5d299a1eea1548b3751af0ae")))
-     (sha256 (base32 "1ypm9jz6ldv2m1qa9x4z7ml9csk58as13njimkxh8qcdf7n3nk4s"))))
+           (commit "91d080cf66241abdf483e5947faa1d7fad82d7b8")))
+     (sha256 (base32 "1vahnckb2lkn0xdcf1m5i2ynnm058ggi5r1kvvycayjp5hwxdy91"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/meow_king/zig-ts-mode")
    (synopsis "Major mode for Zig code")
