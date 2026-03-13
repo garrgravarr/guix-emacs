@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260312.1410")
+   (version "20260313.224")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "5d822683e95992c480ba16e688df52005deaa0cd")))
-     (sha256 (base32 "0jgbmgsia9p49p0bcjv86rr01yn0bcj9hm35dcfzh25r46qx436b"))))
+           (commit "369e6fd96b0b8f8e6d8316c14aa39d0f44681e88")))
+     (sha256 (base32 "1jganbbs8zg5afv17hc4s2dh037hy2sfgmx0phbg0g1czj2kqdji"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -24280,14 +24280,14 @@
 (define-public emacs-eglot-python-preset
   (package
    (name "emacs-eglot-python-preset")
-   (version "20260312.1711")
+   (version "20260313.428")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-python-preset.git")
-           (commit "58071e745a1e32ae51617374fba6608cd2a8d851")))
-     (sha256 (base32 "035qj64xf46mg50wzgy7g70602qdyp63sdjqaybv8bmnxzzhhgwz"))))
+           (commit "9d5fe99d7f0240b7bd333aa250f1dc4e52686c1e")))
+     (sha256 (base32 "1avhlrf1fzyxg910s82dm9jiq6z1ayyn7j323njr9rvid0j2x8xr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mwolson/eglot-python-preset")
    (synopsis "Eglot preset for Python")
@@ -42992,14 +42992,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260312.1706")
+   (version "20260313.717")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "a1617fd3ad78c87d01b4c5f26a75e272f9ca60ed")))
-     (sha256 (base32 "00ls9fbg6ziyyf7ai3bjla65bpmqwkyf4jz2alnka3gqq3iwxkqm"))))
+           (commit "1da48d54a1cf4797319d23aef564862922f252e3")))
+     (sha256 (base32 "03f6fj09div3mpwiglxh6lm2m2hq0dnyzzzssc253gg463mhaip4"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -60430,14 +60430,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260312.1533")
+   (version "20260313.452")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "60e04662be037630b46fc241956e313ae405dd03")))
-     (sha256 (base32 "17np8hzq1vq7lj8idyilpa54hnmlcrpw183dyfnzl0cycfcgjlvf"))))
+           (commit "9c76756df161a4bfc91aff64cbe01599835d5a35")))
+     (sha256 (base32 "0jc64hsmkjf70nv0pjkdh5irfc3aalwnbvp5dajh8ybbxvj51jpj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -70574,14 +70574,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260312.1707")
+   (version "20260313.657")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "a9cbbe23aad95e7cdc3322715f2d6375606e5c13")))
-     (sha256 (base32 "165s17zjq0j2fdikmn0yfmmn3v5ah9srygs7fc5a0xkkpr25mw9x"))))
+           (commit "efb2e7d1787dd7d12ab46abc2afc3d670a93b3e1")))
+     (sha256 (base32 "1bf6k5g1npdsixnl2b69c4a5p1ymrrngr26lsjpwx52xchfsh077"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -99854,14 +99854,14 @@
 (define-public emacs-toml
   (package
    (name "emacs-toml")
-   (version "20260312.1448")
+   (version "20260313.751")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gongo/emacs-toml.git")
-           (commit "0b733e42afa655f507ea7a9eb7197345e51c6e74")))
-     (sha256 (base32 "1fcbbbsgjckvaxa51gc0v18wm3cwg1zr3kh2y3fvziw63bdnwadw"))))
+           (commit "7e29efc94468339f55152209b155e0952c823956")))
+     (sha256 (base32 "0cjk38wc3ck3h469k5wdfzj7jfdh7wq4g1fysdvps61nrpw0knn0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gongo/emacs-toml")
    (synopsis "TOML (Tom's Obvious, Minimal Language) parser")
