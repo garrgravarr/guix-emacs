@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260314.118")
+   (version "20260314.1210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "76d818941769d32f74bebe48cec7d09523fc968a")))
-     (sha256 (base32 "1360ah6h6xa6nwsrhyp6197ifd0vbzjs3yjd2pn3vfs5ac1bwib2"))))
+           (commit "fbb822522765d5831bf571827004bdbcac230eb6")))
+     (sha256 (base32 "09swd8chda0i0cnyqf2aghbxddkq8xfnzl21xd9ava7rnpmmcgbs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260314.47")
+   (version "20260314.1518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "a5cf2f4a15725517e1588d8a1a54bf3b8a56d3a1")))
-     (sha256 (base32 "0066as5z2jx1iv3blc0cqb7myh2fzjpsyfiic0cqa5sknf6h1r54"))))
+           (commit "2b1ddf578dfe9c905f5f2e300c4a2470224f6ff9")))
+     (sha256 (base32 "0y3fp7mm7c8xmmsgn2s2i19d3z77v9nbsrdcsh4wab1rsfixfa7h"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -25187,14 +25187,14 @@
 (define-public emacs-electric-operator
   (package
    (name "emacs-electric-operator")
-   (version "20250524.1712")
+   (version "20260314.1325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/davidshepherd7/electric-operator.git")
-           (commit "7caf4955a6470cb61c743ab0fd9d4a8d8b15367b")))
-     (sha256 (base32 "0vq1x8r9cbpk3wicpjyf6bqx7v0asdh80xr68mirwihkmx1fd6zf"))))
+           (commit "ef39e07158cdfc1c2a461287fef17972d1985b0c")))
+     (sha256 (base32 "0lkp0mvd97rxbwvfb22ykrz7djz54wmwqgqxlaqpd3c2lx4isr64"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/davidshepherd7/electric-operator")
@@ -58062,14 +58062,14 @@
 (define-public emacs-lisp-chat
   (package
    (name "emacs-lisp-chat")
-   (version "20260303.1256")
+   (version "20260314.1216")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ryukinix/lisp-chat.git")
-           (commit "3b620f1c6d673ed2c7b14e70fd31d9d68a90837e")))
-     (sha256 (base32 "07xi628ldcj152slp5h6fb1p0c8c5va7haffxl57m4pam9zbajb8"))))
+           (commit "8b3361dc54101e11c256d2bee38b00c94c359b96")))
+     (sha256 (base32 "1x709i0zqvm7g9gbmbq06r0n7sd41n26hh1a1yncxh6xaqs2hhs7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-websocket))
    (arguments '(#:files ("emacs/lisp-chat*.el")))
@@ -64228,14 +64228,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260308.1943")
+   (version "20260314.857")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "ed36e34132bacaf8e87c7310837f57757a43b0c9")))
-     (sha256 (base32 "0pgrz7287gi1zrg6df8a5h0zaqki0ivf92msi28a1bp4faz21ydl"))))
+           (commit "a4264088b7782e135d2a6210c932eb11cc5fbecd")))
+     (sha256 (base32 "0a6d02x8s0ayilbipikhkr44pfas5asy3ag5vrkgrzfbzygn1r17"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -66657,14 +66657,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260313.1602")
+   (version "20260314.1456")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "59814846c9c22759f7b2a2281f1d277f4cf42a9b")))
-     (sha256 (base32 "1fba7zwq8xgvps64jv77q43a7hx6d7ha1ilr1wmx987b82zbx1a2"))))
+           (commit "0ec983246b89db4bf226db741085da4e2714b5f4")))
+     (sha256 (base32 "1fh7ks8acl2m7c5vj0qh9474vvfd6ns6f37xmvvb1dh87qazlsqy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -70555,14 +70555,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260313.1844")
+   (version "20260314.1600")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "d75992bc9ed28742aaac4d5b365f562fa831b5b4")))
-     (sha256 (base32 "1amkg3zc7m5ml9rpcjayivcfcx9i5xdvx2dg8dyygb7z2nir9mvm"))))
+           (commit "0763b9fcca37987b8982a0a3e2868b0b88e33057")))
+     (sha256 (base32 "1jzykgzppqv83idijhwjvy31vgixf2gafphgqj42xwfv3sh9ivxx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -89310,14 +89310,14 @@
 (define-public emacs-scala-repl
   (package
    (name "emacs-scala-repl")
-   (version "20240427.1456")
+   (version "20260314.1356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sheepduke/scala-repl.el.git")
-           (commit "679bdf663e0b32a5a285d6f98daa2e3d5de60289")))
-     (sha256 (base32 "1qvx7p58fr2v0vpxarliacw97dlw839av4n8chn3g18cw34k7ir0"))))
+           (commit "fa3ead3c247b215d456b6f3aa67598e8bb61e79a")))
+     (sha256 (base32 "0na4l2w9b12ajd9l58sijbbynk9b3nrq6sxyblyr2kq2qxri8xgd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sheepduke/scala-repl.el")
    (synopsis "Scala REPL Mode")
@@ -90888,14 +90888,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260311.1904")
+   (version "20260314.1349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "8c64f0b5b6855670db040e747e9af71062160d7e")))
-     (sha256 (base32 "00swvvcjy6sx79qzylx8v2fnxp4593k6ci72zir5bz7bgrl5bwir"))))
+           (commit "79181104659ce70900a1ccadaed9ffa67be49924")))
+     (sha256 (base32 "0sd8zqkfr2cq0jz2q5x39iw0q3hi76w7cgy3w5gpgs0r4kdxmpl2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -92253,14 +92253,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260313.2345")
+   (version "20260314.1524")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "345b405cd0cc4e79c865ecbaafe5a407072c9224")))
-     (sha256 (base32 "1ik604g4km617jrjw4lblc7qz9p6dbr1rhzbjyjy6qmswzhxcfg4"))))
+           (commit "608cc80e65282255409af89a017e4a879568d330")))
+     (sha256 (base32 "1nm4llym89rfc2blwyy7mm8mjx1s0bbwvw5vi2g33rr79w70pgnh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -98310,14 +98310,14 @@
 (define-public emacs-terminal-here
   (package
    (name "emacs-terminal-here")
-   (version "20250706.1136")
+   (version "20260314.1048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/davidshepherd7/terminal-here.git")
-           (commit "7caa4d5a90d442b15fccdeff80d51f8837fe74ed")))
-     (sha256 (base32 "1q38jpi0ykjkw05hpkfviwmwwsbsrivky5mwzzyidim1jmrnx9ss"))))
+           (commit "d90bc3e1c8c660e11dba002a1ce1d82940b260b1")))
+     (sha256 (base32 "1vj29vy0riyds3v413gpqq1jr7npdfnw8fmi69j3n5d656rhzqnd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/davidshepherd7/terminal-here")
    (synopsis "Run an external terminal in current directory")
@@ -99835,14 +99835,14 @@
 (define-public emacs-toml
   (package
    (name "emacs-toml")
-   (version "20260314.139")
+   (version "20260314.1506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gongo/emacs-toml.git")
-           (commit "cfc2f2fec915737e7abf904896d50c62dd283b60")))
-     (sha256 (base32 "04nqd13n0zlp2q6l8k8ar1nsibmj2kqjiz7zc9sml025g59xjmff"))))
+           (commit "d058f06efb94ab4b108aa666fa6917c9a48995d8")))
+     (sha256 (base32 "093xk8zyp9kwhwzcxgxh2w10dylfkv26vmgv7n64i6wppd6cqp9v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gongo/emacs-toml")
    (synopsis "TOML (Tom's Obvious, Minimal Language) parser")
