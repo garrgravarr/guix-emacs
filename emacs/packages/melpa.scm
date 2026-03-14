@@ -1645,7 +1645,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260314.16")
+   (version "20260314.118")
    (source
     (origin
      (method git-fetch)
@@ -24280,14 +24280,14 @@
 (define-public emacs-eglot-python-preset
   (package
    (name "emacs-eglot-python-preset")
-   (version "20260313.1802")
+   (version "20260314.404")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-python-preset.git")
-           (commit "d430363070fe905db8e5bf198d955cceb92fc11c")))
-     (sha256 (base32 "0nlc9v5llj4qcwsg6m446ayz003jk46hc4glajqz7b3r5rx0d7d9"))))
+           (commit "ade53d8702a6c83ce6b1905624f2e6df319a3f4c")))
+     (sha256 (base32 "06ysjnj5lic6a3kksjh2vrcrsn81jy5sbsrzbhh5pqy7c8gc2zfh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mwolson/eglot-python-preset")
    (synopsis "Eglot preset for Python")
@@ -92253,7 +92253,7 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260313.2321")
+   (version "20260313.2345")
    (source
     (origin
      (method git-fetch)
@@ -99835,14 +99835,14 @@
 (define-public emacs-toml
   (package
    (name "emacs-toml")
-   (version "20260313.751")
+   (version "20260314.139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gongo/emacs-toml.git")
-           (commit "7e29efc94468339f55152209b155e0952c823956")))
-     (sha256 (base32 "0cjk38wc3ck3h469k5wdfzj7jfdh7wq4g1fysdvps61nrpw0knn0"))))
+           (commit "cfc2f2fec915737e7abf904896d50c62dd283b60")))
+     (sha256 (base32 "04nqd13n0zlp2q6l8k8ar1nsibmj2kqjiz7zc9sml025g59xjmff"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gongo/emacs-toml")
    (synopsis "TOML (Tom's Obvious, Minimal Language) parser")
@@ -109081,14 +109081,14 @@
 (define-public emacs-zig-ts-mode
   (package
    (name "emacs-zig-ts-mode")
-   (version "20260313.822")
+   (version "20260314.751")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/meow_king/zig-ts-mode.git")
-           (commit "91d080cf66241abdf483e5947faa1d7fad82d7b8")))
-     (sha256 (base32 "1vahnckb2lkn0xdcf1m5i2ynnm058ggi5r1kvvycayjp5hwxdy91"))))
+           (commit "d02a23c11f697ff1aa8e5b64b440bb7798cefdf5")))
+     (sha256 (base32 "13lia0giillsiq5bk8fwg2d2q10nba2wflgr0dkc7i5xf9dcpma7"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/meow_king/zig-ts-mode")
    (synopsis "Major mode for Zig code")
