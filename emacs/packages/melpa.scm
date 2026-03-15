@@ -16718,14 +16718,14 @@
 (define-public emacs-crux
   (package
    (name "emacs-crux")
-   (version "20260314.1741")
+   (version "20260315.622")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/crux.git")
-           (commit "0434a86f262f88a8f25e9321fce76eaa13253810")))
-     (sha256 (base32 "1a78q38dkm9xpgfvxgfinqk5a1yq4g66i4yg1ng5cqhbn7c3hg98"))))
+           (commit "69e03917f6fd35e25b9a9dfd02df8ff3643f9227")))
+     (sha256 (base32 "10gh19372vzcr45pw4hr4g0zmw2pygzhpl640rsw9dminsn8bvkl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/crux")
    (synopsis "A Collection of Ridiculously Useful eXtensions")
@@ -37463,17 +37463,17 @@
 (define-public emacs-forth-mode
   (package
    (name "emacs-forth-mode")
-   (version "20251027.730")
+   (version "20260315.803")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/larsbrinkhoff/forth-mode.git")
-           (commit "8f526ed38b52404c0ce55df6df5c8cbbc8f1de69")))
-     (sha256 (base32 "17n7mcixa4glcz1pfrb1jrx470zx3bjdxfp5bnvgyrm1gg7pgnzz"))))
+           (commit "4450a3a5629b579f5d2045d0d8aec84193e9a31f")))
+     (sha256 (base32 "1ab0lj1lnyrl4mai3xb9w9mxw8hk8l0kf52jx722lw14lhgavlr5"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "backend" (:exclude "build.el"))))
-   (home-page "http://github.com/larsbrinkhoff/forth-mode")
+   (home-page "https://github.com/larsbrinkhoff/forth-mode")
    (synopsis "Programming language mode for Forth")
    (description "Documentation at https://melpa.org/#/forth-mode")
    (license #f)))
@@ -48840,14 +48840,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260314.2021")
+   (version "20260315.802")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "3ed61f1ccfc635f45efe948fdb452c23874d8184")))
-     (sha256 (base32 "1larsmjis7hwcbx9z5bvbbr0dhaybmxa48bma8qg2jwxcjwliwbf"))))
+           (commit "fdfc9f013d93386852db5ebe348295103beb8f96")))
+     (sha256 (base32 "0flx3zx7zg023h2da522lx1zq09rs0q4vip6wij3bwhq9966j34j"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -58062,14 +58062,14 @@
 (define-public emacs-lisp-chat
   (package
    (name "emacs-lisp-chat")
-   (version "20260314.1216")
+   (version "20260315.225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ryukinix/lisp-chat.git")
-           (commit "8b3361dc54101e11c256d2bee38b00c94c359b96")))
-     (sha256 (base32 "1x709i0zqvm7g9gbmbq06r0n7sd41n26hh1a1yncxh6xaqs2hhs7"))))
+           (commit "1479a989508f2963f7b773b9133fbe1d34d559c4")))
+     (sha256 (base32 "0agxcwjh2ri459zc1b4lxn8r3nm66zmckq694s4xphszp5fs3sqr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-websocket))
    (arguments '(#:files ("emacs/lisp-chat*.el")))
@@ -59608,14 +59608,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260310.1423")
+   (version "20260315.35")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "0a56753f227d4e6fe38eb764cbc215b559895cad")))
-     (sha256 (base32 "1pyla3pbaavi9ch3wlzsk5rwpby6zma0q4qmzgz8vzrhym7a4qdh"))))
+           (commit "7a7a858c83e28f91fc517202d5ad0e580caf6820")))
+     (sha256 (base32 "0v41hyy2llshhm7sadlpn9d2wbq2l0m25q11msql63khlyxlkjzd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -60444,14 +60444,14 @@
 (define-public emacs-magit-annex
   (package
    (name "emacs-magit-annex")
-   (version "20240811.1850")
+   (version "20260315.126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit-annex.git")
-           (commit "83f438af33442c0ebc92922a562dad66208a45ff")))
-     (sha256 (base32 "143y8kwbfgwq5zjg6v2gxxdrwwgllf4qarp60av2w186jr1j9zyw"))))
+           (commit "8ac55bdaab50cc1a5124d586ec79abadc3ca7b76")))
+     (sha256 (base32 "1n02wh1cbvmbzshr5qda7y0avaynz1qi351jm6k35qy5yfmbx84l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (home-page "https://github.com/magit/magit-annex")
@@ -60714,14 +60714,14 @@
 (define-public emacs-magit-imerge
   (package
    (name "emacs-magit-imerge")
-   (version "20240811.1933")
+   (version "20260315.29")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit-imerge.git")
-           (commit "05532a364f52b0dfed445256cb052592234183a5")))
-     (sha256 (base32 "19fjxpq1ljpwvcji0n3wxpnza8g5yw2n623v8vz9lfy3bgsvnsxw"))))
+           (commit "c7853332260298688f8f13cf8e5fdee932d7acae")))
+     (sha256 (base32 "0fvsc6x6mjs1y5k6pg14ch18133hkqa75i30r1rj3y2m085wcvfw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (home-page "https://github.com/magit/magit-imerge")
@@ -60970,14 +60970,14 @@
 (define-public emacs-magit-tbdiff
   (package
    (name "emacs-magit-tbdiff")
-   (version "20250915.2109")
+   (version "20260315.55")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit-tbdiff.git")
-           (commit "f77cffb98dae726f011b133db8936df9ac4a657a")))
-     (sha256 (base32 "1cl1y7bb9jsl02vhhgsbqrsbi447z0a21h9344r1zaxspaajal3p"))))
+           (commit "e7391536e23a0d6d28cc4b153db3f446a51da8b7")))
+     (sha256 (base32 "10kcqcamg4jf24kdsp7zah8v9rvjs7a76ryq98vyx8hxkfx9qs4z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (home-page "https://github.com/magit/magit-tbdiff")
@@ -61633,14 +61633,14 @@
 (define-public emacs-markdown-mode
   (package
    (name "emacs-markdown-mode")
-   (version "20260308.930")
+   (version "20260315.350")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jrblevin/markdown-mode.git")
-           (commit "107a368a6deffa943544c220b5a6b1304ffc9945")))
-     (sha256 (base32 "1gima1dk6rh5v1nbp60vmdsv9p3mwlb8ddhjgkr9kb82xvh4l2f0"))))
+           (commit "877d943cc344661c85b222a6c60737f4cc816084")))
+     (sha256 (base32 "0yglw0768zrpzk4fs1vpy0mwis27sb3595p0xwnd7d5l404dnvwj"))))
    (build-system melpa-build-system)
    (home-page "https://jblevins.org/projects/markdown-mode/")
    (synopsis "Major mode for Markdown-formatted text")
@@ -72983,7 +72983,7 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260314.1745")
+   (version "20260315.217")
    (source
     (origin
      (method git-fetch)
@@ -89310,14 +89310,14 @@
 (define-public emacs-scala-repl
   (package
    (name "emacs-scala-repl")
-   (version "20260314.1356")
+   (version "20260315.730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sheepduke/scala-repl.el.git")
-           (commit "fa3ead3c247b215d456b6f3aa67598e8bb61e79a")))
-     (sha256 (base32 "0na4l2w9b12ajd9l58sijbbynk9b3nrq6sxyblyr2kq2qxri8xgd"))))
+           (commit "5b7434af94edea2bb9de27fae4cbc3007e7397ea")))
+     (sha256 (base32 "016c9injazxwmhz9khw8c1sbfnwyis1j7hpc3qi11dwd4gz44k1y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sheepduke/scala-repl.el")
    (synopsis "Scala REPL Mode")
@@ -99835,7 +99835,7 @@
 (define-public emacs-toml
   (package
    (name "emacs-toml")
-   (version "20260315.33")
+   (version "20260315.55")
    (source
     (origin
      (method git-fetch)
