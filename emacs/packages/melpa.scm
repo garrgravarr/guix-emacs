@@ -40587,16 +40587,16 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260304.1519")
+   (version "20260316.521")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/gnosis")
-           (commit "f90e0ddabb1ecf6b6a3a1a9e762b1ce2af56c1e5")))
-     (sha256 (base32 "003pmd0ahpcss5ydk3wbx5j45225ypa85zrgljz5qajijiybvxpi"))))
+           (commit "27d7370e9006c8cadd186df3e253f8fe33f6081e")))
+     (sha256 (base32 "1mk7xaw2q1bagiybqcq3441sr1gyhzshhbc8ih1h1gbfvdqiimsc"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-emacsql emacs-compat emacs-org-gnosis))
+   (propagated-inputs (list emacs-compat))
    (home-page "https://thanosapollo.org/projects/gnosis")
    (synopsis "Knowledge System")
    (description "Documentation at https://melpa.org/#/gnosis")
@@ -42009,14 +42009,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260315.2135")
+   (version "20260316.552")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "e1353c06ff36b65386c81268f1d480384d361c7e")))
-     (sha256 (base32 "12g875l78knmf3mx55hdgm8yc2ifpvd15xwhm00j4ywj5hrl0qy5"))))
+           (commit "29401924c23e536da33e22c461961ab567f65cc1")))
+     (sha256 (base32 "0ygcr8yqwvpqpnrqy7rf5b55ygdrqpwh3wv1k33hc7ck5hhqjdrg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -61091,14 +61091,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20260313.2345")
+   (version "20260316.405")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "134a17f3e56c55ade6d5476ca812b354fabfe0e8")))
-     (sha256 (base32 "1gngbpd1kmz4930p8inv68w3gmkgaf8kjiilp5pr9xkazh4w4lak"))))
+           (commit "a22c090df03321cc94514d670075ccac3f1988e8")))
+     (sha256 (base32 "1aa1gixic1vkqnn4b74w65ym9q2wmk26ydc6z86z946c17k26zlx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm))
    (home-page "https://github.com/hrishikeshs/magnus")
@@ -72349,14 +72349,14 @@
 (define-public emacs-org-eval
   (package
    (name "emacs-org-eval")
-   (version "20260315.2000")
+   (version "20260316.820")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-eval.git")
-           (commit "20af7370473225ed4396663d01a5dfcca6456684")))
-     (sha256 (base32 "1k1138chs02blj8jin5cgygrgk21rv6szlrf3flxgzw01cd7cf0h"))))
+           (commit "013ecc4a6aca3527e1bd0faa44ea88ad4c02ecf1")))
+     (sha256 (base32 "14x7rqf4iaxi7wivmv3x752pd0ffc7gv4wsfsf7z4c4x1aavbrvl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-eval")
    (synopsis "Execute named org-mode blocks on load/save")
@@ -73563,14 +73563,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260315.1953")
+   (version "20260316.816")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "692e84b8a101ade92a767b0333b25f4fc2219b5a")))
-     (sha256 (base32 "1g3il1giyrh573vl631w5rwl1zm63c5pfswl0a4v7dn6sximldik"))))
+           (commit "c7dc540c26b5c47912b2dfd54905225df0aa4fe9")))
+     (sha256 (base32 "0idykfi8p7jkdv6rym4m9jswamkzv9qninwnsx4dxi0jrrbwrx8m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -84642,7 +84642,7 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260315.2349")
+   (version "20260316.203")
    (source
     (origin
      (method git-fetch)
@@ -96723,14 +96723,14 @@
 (define-public emacs-switch-window
   (package
    (name "emacs-switch-window")
-   (version "20260225.115")
+   (version "20260316.257")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dimitri/switch-window.git")
-           (commit "a72cf11d21c1f24924a9faeaa9f5d213d8623141")))
-     (sha256 (base32 "05wi8bxkx0im5plm00rzl1r70ibzvwmq7lcg8lpg0xlrv9d8vkn2"))))
+           (commit "1ccbfa53df499cb31d5ebbe21306cdcc6b06c135")))
+     (sha256 (base32 "06606mcj2wniqx3h7ki53sgi63kqfjg10ry4wl2z5p0jigyw66vy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dimitri/switch-window")
    (synopsis "A *visual* way to switch window")
@@ -100795,7 +100795,7 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260315.1459")
+   (version "20260316.32")
    (source
     (origin
      (method git-fetch)
