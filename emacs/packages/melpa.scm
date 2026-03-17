@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260316.2158")
+   (version "20260317.1405")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "4594c16ab9665bf68052a06fd08581168b69d8d5")))
-     (sha256 (base32 "0n4b2p79v989k8bhlsb22g10r057j8sd3m27qa74ikj8jd18svq4"))))
+           (commit "74eabc385cb2768a8bf6567756ec4e834fb44de7")))
+     (sha256 (base32 "1a0byf706qdid8ciq0i94m43439i158mq4xirff87pbfqp373gzl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260317.410")
+   (version "20260317.1442")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "feeabce7451a543359b0ad12475c3bfa00e5e3f2")))
-     (sha256 (base32 "1qnivw07hs86jma208b8bik4skns5hh5l15pnk50jbgvdzxcmz47"))))
+           (commit "150b058ffafd30326f68347c10ba65e34b23189e")))
+     (sha256 (base32 "0dd7i9a7spl24ipgviplpqs3qd9n91k6cqafi4ag51fl5mc0xz53"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -2685,14 +2685,14 @@
 (define-public emacs-anki-editor
   (package
    (name "emacs-anki-editor")
-   (version "20260108.1020")
+   (version "20260317.715")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/anki-editor/anki-editor.git")
-           (commit "d50f9e35015df768feeb7efab17f6af6f938ce13")))
-     (sha256 (base32 "1k713drlqmy2yq4i32f5r6vi1shkw60kn66dv2yk60pb7fzlbyiq"))))
+           (commit "0af0bdc7f792206df9739d37e8f231553284e17a")))
+     (sha256 (base32 "1kksix076l3vsn6pyxw8zlcp9bzxikchf105bg5s4733pm4aqi68"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/anki-editor/anki-editor")
    (synopsis "Minor mode for making Anki cards with Org")
@@ -11905,14 +11905,14 @@
 (define-public emacs-clojure-ts-mode
   (package
    (name "emacs-clojure-ts-mode")
-   (version "20260305.1210")
+   (version "20260317.731")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clojure-ts-mode.git")
-           (commit "1c6a7203ff179bc828b11b133b42f67d699d919f")))
-     (sha256 (base32 "0pcfzihkzqwrn9yg7a3jbp2zp3ibaq5w2kwcz1rfsg6l5xlrml6q"))))
+           (commit "f036ed16733d0342c599e922413fe41c233455fa")))
+     (sha256 (base32 "0gw707wk9na4l3bsiilbsvwi9lb2bhl8j8kdpp91kmr0dmvnc9pr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/clojure-emacs/clojure-ts-mode")
    (synopsis "Major mode for Clojure code")
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260316.1602")
+   (version "20260317.1214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "5a73d24538ea6a938cb9f752e9464105d8f3f2e8")))
-     (sha256 (base32 "03h24a06gn74m694mk5rfqn10qzhh4ai1nhp4kqarc1rajahajnz"))))
+           (commit "46fac752365492b236bcc9bde24181d12dc472b9")))
+     (sha256 (base32 "1p1jbbbb5pa3725f7xgg4li0zgb5bf40fsmvax22pw7vbsjiar0x"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -42973,14 +42973,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260316.2032")
+   (version "20260317.914")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "0e2763e4edd277a682e74f895e4368a6e37222e2")))
-     (sha256 (base32 "07hplnvwfph4zsq215j23hlwmsc52b5gb85pf3g6f5kmv1van2pr"))))
+           (commit "a17cb9c719520dc33e8a23032d822d6a043b906d")))
+     (sha256 (base32 "0rbar6551hpgss4lim24z1plg77k7px31p03ka5kmwv625c77ljw"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -66636,14 +66636,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260316.2135")
+   (version "20260317.1053")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "15fdd57bf7999de871cb707a72fe5b1a37979602")))
-     (sha256 (base32 "1zr06gcc13mjyry2bcp6zzfcv60hvw5fsga6v2bzljqnm0r666xs"))))
+           (commit "b8cf57df47609b97452ff790cd4cacbd64b8b2e3")))
+     (sha256 (base32 "14cjb1mhd68r2hgnd1rdjv1msh36705b5815z6678a7d6c1z3qb3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -70534,14 +70534,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260317.719")
+   (version "20260317.918")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "46dc7779ddd36fe6034b4e1f6415e18306a79be4")))
-     (sha256 (base32 "1kh6xla1v1hfpg5735h923pv1pda7a56d4n47z3czr2i5npccv0b"))))
+           (commit "6394578b31210308866db7640835fcd4d44b830f")))
+     (sha256 (base32 "161baxf4wx4l03xxw29zm7wn3b6y7cywx867xfaj0pnxrk1hacwc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -73049,14 +73049,14 @@
 (define-public emacs-org-mem
   (package
    (name "emacs-org-mem")
-   (version "20260306.1015")
+   (version "20260317.1525")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/meedstrom/org-mem.git")
-           (commit "04abbc49d936dc632672d95851b0b1f2af4c2e3f")))
-     (sha256 (base32 "1gpx6saj433kc2ibfvdxl0cws96z6b7bspq4y17dgnzg73kfsjpa"))))
+           (commit "7f85d407804b7f7ca56de23fef3d5599815ba104")))
+     (sha256 (base32 "0cvyx5s2yk09kz6xsi39rbp9w6qlvmqd1h4fm1xp1hggpqcgjs6g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-el-job emacs-llama emacs-truename-cache))
    (home-page "https://github.com/meedstrom/org-mem")
@@ -79749,14 +79749,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260316.2306")
+   (version "20260317.1413")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "e16f71f4f7d1fd4074defd618f78f5da1a24378d")))
-     (sha256 (base32 "1igsbps8a4r2x0njdxpj2h65cby4yhc8ajm4w34g0gk6ihhmzh3p"))))
+           (commit "f1a37010db89473b6edd81993beb4c1d5dfa300a")))
+     (sha256 (base32 "1lj86d5s57g9916fc14xvsp6pladk023mzvwccrkypknyrqjlzvk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -94386,14 +94386,14 @@
 (define-public emacs-sparkweather
   (package
    (name "emacs-sparkweather")
-   (version "20260112.1420")
+   (version "20260317.828")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/aglet/sparkweather.git")
-           (commit "967fbddc81ab04ff11baba9bd6739d74f5bc593a")))
-     (sha256 (base32 "0m6hxzyh81qsjhikrvwy7nzskjv2zlsqxh4j5ms2mlpxz18ds0kc"))))
+           (commit "4197bbbc21e4693b0e258b5a46429285f3419550")))
+     (sha256 (base32 "0s1gpyybzz46jl5pvfhn3z7w49inr134lz2akgbr7ck6db4qf98m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/aglet/sparkweather")
    (synopsis "Weather forecasts with sparklines")
@@ -100400,14 +100400,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260310.2036")
+   (version "20260317.1412")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "7131bec61e558e022ce75e2d2d5e55c748fcf8e0")))
-     (sha256 (base32 "0gpgvkq2kjmz1avq6bagjns1pdi1spm4bf4bhp82aw3ps3fyhl79"))))
+           (commit "c8e4251fd165acd32e014e6310f2219991bea357")))
+     (sha256 (base32 "030ppzwfwi32d1rcx3qd77yk5vfx9g2vfx1cj78i6z6ysrxcd50w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/magit/transient")
