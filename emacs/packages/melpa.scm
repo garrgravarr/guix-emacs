@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260316.1947")
+   (version "20260317.410")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "2e372ba9afc372e01a5f38640cf467f3ab731674")))
-     (sha256 (base32 "1acbxy3h15zg62c1wf5cdkhlx4928hlf8hfdgypv77ckdjzd03rx"))))
+           (commit "feeabce7451a543359b0ad12475c3bfa00e5e3f2")))
+     (sha256 (base32 "1qnivw07hs86jma208b8bik4skns5hh5l15pnk50jbgvdzxcmz47"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -3765,14 +3765,14 @@
 (define-public emacs-async
   (package
    (name "emacs-async")
-   (version "20260316.2025")
+   (version "20260317.538")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jwiegley/emacs-async.git")
-           (commit "77a63ec2f5f137809189de4ad679954960933dcd")))
-     (sha256 (base32 "1max8hhcidq69bwsrz5i5dk2w3hjrcqrcgc8vhyz7axfpgwbwzrr"))))
+           (commit "9cc1e804395342bc028800d87c5318ccd97d6071")))
+     (sha256 (base32 "1xxr44xis79nq880pmqv9hb73r9kjpbssbqqq764ff7bpzrl5xac"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jwiegley/emacs-async")
    (synopsis "Asynchronous processing in Emacs")
@@ -21885,14 +21885,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260316.1546")
+   (version "20260317.355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "5df8f6023e842d23782cfa9fa31308c306f44e80")))
-     (sha256 (base32 "15ybmc3y60n6bwlkz611lsm44f1cpacq6k925m1ghmn5s4vg9w72"))))
+           (commit "331521c7c60c54dc47dfb6dce0fd563ff554c710")))
+     (sha256 (base32 "0lcq4afx0536j0cp6237bxzclgps1kd5cvv7nw91m9f8z6r6ipi3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -70148,14 +70148,14 @@
 (define-public emacs-ocaml-eglot
   (package
    (name "emacs-ocaml-eglot")
-   (version "20260303.712")
+   (version "20260317.617")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarides/ocaml-eglot.git")
-           (commit "1562e5c583209bc77dadc41fd7411fd070c21177")))
-     (sha256 (base32 "0hk2cqyfyv449lzh54x5y0gj2g1pnmf7xbxchln1m7lk7in0akcr"))))
+           (commit "24b314f03cb170cd9fb709324ec3bfa6e5968f14")))
+     (sha256 (base32 "1iiqwakiq1rfljab46sxfdzgy04d8m956z53g57yb3716ygp3rfw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tarides/ocaml-eglot")
    (synopsis "An OCaml companion for Eglot")
@@ -70534,14 +70534,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260316.1854")
+   (version "20260317.719")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "d38e67b9a248067d2f7fd6705898413bdb862346")))
-     (sha256 (base32 "1zk0a5wfkjplnhahl3jcir5fdfgj2n013k2lck2kdha13w13x3sw"))))
+           (commit "46dc7779ddd36fe6034b4e1f6415e18306a79be4")))
+     (sha256 (base32 "1kh6xla1v1hfpg5735h923pv1pda7a56d4n47z3czr2i5npccv0b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
