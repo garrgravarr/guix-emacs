@@ -1245,14 +1245,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20260314.35")
+   (version "20260318.1255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "9737a9678a658a3289229d7d37459c84db1eef24")))
-     (sha256 (base32 "1l3zjsfzwz6iy6lk4pq0385ycppwk5cdxk0is1kllysx084kfw9z"))))
+           (commit "7b2b3809f34a7c73f05c02ceee47bf4cb17302c6")))
+     (sha256 (base32 "138jc0fkszygj3q95yyggwc70q884bvs1118h6wr7jlyvv71idlm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260317.2227")
+   (version "20260318.1517")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "4fbaef9ac1fb1b9591b50a351633441cd4398bb4")))
-     (sha256 (base32 "1w1892fyi1sgpjy799yiwbrv1hrr0f1mm9n5frhq5w43zxla0rjv"))))
+           (commit "520cad3b60017af0992a97ec4871b6a6af73a16a")))
+     (sha256 (base32 "1dhqaf3j4p43fnrbyn3gkp9648zlfyap7b2xv79dqasxcs34pljg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -21885,14 +21885,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260317.355")
+   (version "20260318.1032")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "331521c7c60c54dc47dfb6dce0fd563ff554c710")))
-     (sha256 (base32 "0lcq4afx0536j0cp6237bxzclgps1kd5cvv7nw91m9f8z6r6ipi3"))))
+           (commit "1953aa47a45972cc01a32831abc64f8af42f27f6")))
+     (sha256 (base32 "1j8k5hbdkg4fsy0a47byfn73a7bqc4dnkysvrwzn5my7s71hf57d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -23360,14 +23360,14 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260315.1528")
+   (version "20260318.1155")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/easysession.el.git")
-           (commit "4eb329cf27adf40b38976df76433f260081cd48a")))
-     (sha256 (base32 "0jcd44ziqsizx6qksj792h356wx04qi19jcizwv963zh9921ld16"))))
+           (commit "94cb67a85b83f2d7a5f517bba3b020a31e1389e0")))
+     (sha256 (base32 "01w0ndy5cl3l48prijvhxvkd6l9dwxq4f18p7p38fizrs4wnpvms"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "extensions/easysession*.el")))
    (home-page "https://github.com/jamescherti/easysession.el")
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260317.1214")
+   (version "20260318.1305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "46fac752365492b236bcc9bde24181d12dc472b9")))
-     (sha256 (base32 "1p1jbbbb5pa3725f7xgg4li0zgb5bf40fsmvax22pw7vbsjiar0x"))))
+           (commit "af9def47bd8e5f874b64fa5e410b5ce3a21a7f04")))
+     (sha256 (base32 "1gfjdhj54gcx9picmg76dmjbax6xl2q4f4d8qji9cbv16sd5rpwk"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -25060,14 +25060,14 @@
 (define-public emacs-eldoc-mouse
   (package
    (name "emacs-eldoc-mouse")
-   (version "20260307.1405")
+   (version "20260318.1025")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/huangfeiyu/eldoc-mouse.git")
-           (commit "16378de8ccb157186646a73fcfaf13a3b89dddac")))
-     (sha256 (base32 "0kpc6pv8a66l1pamb1ck5i3rjyq9kynia6yjcpa2p7wikzwi2wih"))))
+           (commit "0fdde5461ecf688f75b8b379713b335d25af81f8")))
+     (sha256 (base32 "1gpxd4njbk38z0p8qv8bm7g5zv88x0045czgv1fpc5nzsvbd5jkd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/huangfeiyu/eldoc-mouse")
@@ -28169,14 +28169,14 @@
 (define-public emacs-erlang-ts
   (package
    (name "emacs-erlang-ts")
-   (version "20251107.814")
+   (version "20260318.902")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erlang/emacs-erlang-ts.git")
-           (commit "959907d26d32f7d23bdcbb6f9d06ccb2a5db54c3")))
-     (sha256 (base32 "11qncwybc4ph4pjjlr8mw46z7i7n7vb37bw2pjr3xb629kgv2hmn"))))
+           (commit "51dbcf1cf80a9dcc01fff9c1f338bde6ca21de47")))
+     (sha256 (base32 "1jcj0f4i21xr2p8j03krbcxg376qxkw9nai45hxjjf9z99xr7227"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-erlang))
    (home-page "https://github.com/erlang/emacs-erlang-ts")
@@ -42120,14 +42120,14 @@
 (define-public emacs-gptel-forge-prs
   (package
    (name "emacs-gptel-forge-prs")
-   (version "20251216.923")
+   (version "20260318.1114")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ArthurHeymans/gptel-forge-prs.git")
-           (commit "962668d28164316a79ddcaf8887f0d0642b19b31")))
-     (sha256 (base32 "09l8l0g4nxg1jixwv7j2dkmm9y0qsjb7829ir9ka6pbnz9aqj9dg"))))
+           (commit "aed2bbd21a359770a7739f18f34837ec8d0add24")))
+     (sha256 (base32 "01p9n7515xn1blssv04lfb1yqm9g2zvjf9npqm3szmqrnxr88c0g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit emacs-forge emacs-gptel))
    (home-page "https://github.com/ArthurHeymans/gptel-forge-prs")
@@ -48840,16 +48840,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260316.2153")
+   (version "20260318.306")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "0f4r4jzjjrx432p8fbfywzn10gxmrj65zyjhbasjdad6jksv8dlq"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "819904af8f1d53da0a2a81c0279e050526661639")))
+     (sha256 (base32 "1nqa03j0q20jw7c7k89aryblvbkbg66qmaa720m3a144nxlf596w"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -51831,14 +51869,14 @@
 (define-public emacs-ivy
   (package
    (name "emacs-ivy")
-   (version "20260309.2102")
+   (version "20260318.1355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abo-abo/swiper.git")
-           (commit "631df3f68c79cca2a26bc8ea1a98a332ef53751e")))
-     (sha256 (base32 "1qqsiq9dzbx7689gj4n9qsrdsaqdsf2p54cjcb7kqyj4n1qzvp77"))))
+           (commit "1005bff8a700b92dc464f770aff8a0db5b4a1c0b")))
+     (sha256 (base32 "1ydkzq9hmbwc8xrg5i2j779fwmd7zrhyq6x9xzqlpf6k1j4jcgq5"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -60373,14 +60411,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260318.121")
+   (version "20260318.1225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "b3c37f363cf8ec95da97166e6da4fb7faaaefe1d")))
-     (sha256 (base32 "1f067dk9iwvlqiymkhd11cr9qc65xw3qlli207gdv9y2kgz9wv3l"))))
+           (commit "cf797a9090ce9140eafe3380412e33165212491f")))
+     (sha256 (base32 "0nwblinvqdyjsjza50cxgapzqdj6a6hq9cgs4vf0ngli9sx25ca3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -61667,14 +61705,14 @@
 (define-public emacs-markdown-table-wrap
   (package
    (name "emacs-markdown-table-wrap")
-   (version "20260316.1039")
+   (version "20260318.1614")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/markdown-table-wrap.git")
-           (commit "71a1cec53bf9d7875126b4cd557b2c00ae52b576")))
-     (sha256 (base32 "1i246gih9yxa9nirha5jhppkm3d5pxni0g48q03ccv7il028mzxa"))))
+           (commit "afc8214c6a2109891c5adf5ee7f75b8d8a2c4a35")))
+     (sha256 (base32 "0n21p6r3bdnpj611m79qlipr54rwk3sbg2bqqcybb9qnx8sfwl3g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dnouri/markdown-table-wrap")
    (synopsis "Word-wrap GFM pipe tables to fit window width")
@@ -66636,14 +66674,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260317.1053")
+   (version "20260318.1057")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "b8cf57df47609b97452ff790cd4cacbd64b8b2e3")))
-     (sha256 (base32 "14cjb1mhd68r2hgnd1rdjv1msh36705b5815z6678a7d6c1z3qb3"))))
+           (commit "1019df4dab71c2cbc2a180db7a0bde6e9185c097")))
+     (sha256 (base32 "0hx89gnyjz1s1lb9xna21np8c1xsfa8l6v51jjddqhfd4wp1ly10"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -70534,14 +70572,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260318.624")
+   (version "20260318.924")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "6e1604aa66c2faeb107e9e40321422a1d1befe0b")))
-     (sha256 (base32 "1cgzz3zrxh9l6rjxzvxjqyv2x4qqfylwvi4s4m8rwy944dlxbdm4"))))
+           (commit "27773a7cd0cba83e2efa889c67570710c5eb14fc")))
+     (sha256 (base32 "1aw7jrhsp07sb2z4dq72qb5xlv1b6d0dmp4s9k93894b18hvw8r7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -78374,14 +78412,14 @@
 (define-public emacs-pathaction
   (package
    (name "emacs-pathaction")
-   (version "20260305.242")
+   (version "20260318.1159")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/pathaction.el.git")
-           (commit "5082e3492a7f760cda3c2764f4b9a38b18bd44f3")))
-     (sha256 (base32 "09ckg9l854kk203x08lacdmvhx70gngrv7z6x90lamc5qbc87ddc"))))
+           (commit "9bc480c454ce615e48c7e83235bcb75b93eeac59")))
+     (sha256 (base32 "1l3q34dm1yd8q5wlll5szywr7mxwzkfnj3rffrkjlsl9svalqypm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/pathaction.el")
    (synopsis "Execute the pathaction.yaml rules from your editor")
@@ -79749,14 +79787,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260317.2046")
+   (version "20260318.1602")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "b2709c58f79618304a5a775e6aee75fe8f8ef12f")))
-     (sha256 (base32 "0bsr2bibi93cympzj3bl3bwnmcbqdqqv4n3fm9andvr9788lg732"))))
+           (commit "5591a8d3eaecc048fc2c360f83dc45b4af26e793")))
+     (sha256 (base32 "051j2c24b732v7ps448v02pvcwckfd9di6fi7v8iqfwnqgab0n3s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -90867,14 +90905,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260314.1349")
+   (version "20260318.909")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "79181104659ce70900a1ccadaed9ffa67be49924")))
-     (sha256 (base32 "0sd8zqkfr2cq0jz2q5x39iw0q3hi76w7cgy3w5gpgs0r4kdxmpl2"))))
+           (commit "e109a106708824baeaefbb7ae833c87aaa27f6a3")))
+     (sha256 (base32 "1g7c5fhzs4mc02zkq0x45mgx01431wk3nxjkj1r74wq3r1yk6mzc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -94160,16 +94198,16 @@
 (define-public emacs-sourcepawn-mode
   (package
    (name "emacs-sourcepawn-mode")
-   (version "20230628.1821")
+   (version "20260318.957")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agrif/sourcepawn-mode.git")
-           (commit "1f100431f34b51c5374ea0dd71146c870555ea82")))
-     (sha256 (base32 "1iky6hz6la4lbl7v6d9999i4mp0g2kr0w5ccbs8kc44s82j2axcf"))))
+           (commit "1278cfe7e411385755b796ac7245ace7d0deb26d")))
+     (sha256 (base32 "1bh9r4ci57fpg63hbhls0gb800rv6pfzij0jymaxdqkciapqxy0d"))))
    (build-system melpa-build-system)
-   (home-page "http://gammalevel.com/teamfortress2/sourcepawn-mode")
+   (home-page "https://rakeri.net/teamfortress2/sourcepawn-mode")
    (synopsis "SourcePawn major mode")
    (description "Documentation at https://melpa.org/#/sourcepawn-mode")
    (license #f)))
@@ -96227,14 +96265,14 @@
 (define-public emacs-super-save
   (package
    (name "emacs-super-save")
-   (version "20260318.822")
+   (version "20260318.1214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/super-save.git")
-           (commit "54b922e7255014fc90040e681be317f8ebaf2471")))
-     (sha256 (base32 "1kk7frv1ck1brkyp7yxxknzl1zp13vxv0yzixgvw0jgj0mjgmqxb"))))
+           (commit "dae7cfe4bba83904d1567e14cbbd7ed141ab37a1")))
+     (sha256 (base32 "1qk0klvzadb4s90nw6sgd86wnyqdx6m8wlaci1r2s3z4zg21y9rm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/super-save")
    (synopsis "Auto-save buffers, based on your activity")
