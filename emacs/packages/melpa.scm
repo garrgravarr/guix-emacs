@@ -42027,14 +42027,14 @@
 (define-public emacs-gptel-agent
   (package
    (name "emacs-gptel-agent")
-   (version "20260308.2122")
+   (version "20260318.709")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-agent.git")
-           (commit "c3612aee925f5bbe53d24d9ad2dc3e11e006962f")))
-     (sha256 (base32 "00d78z1yn1avnrfsh4rrv6yl1nxzr9cdnda17yssr1qiz9jsca00"))))
+           (commit "33a391871596c997c3dbce7f9f14457a94dd6c3c")))
+     (sha256 (base32 "150bgsn1849y2p1hdkcyllvj59inydwhfqi0m2jwsw0jy0gk7qz8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-gptel emacs-yaml emacs-orderless))
@@ -57231,14 +57231,14 @@
 (define-public emacs-lesim-mode
   (package
    (name "emacs-lesim-mode")
-   (version "20230627.1350")
+   (version "20260318.1318")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/lesim-mode.git")
-           (commit "74bffc63058f64b3399e685cf0fe0a8f18cc491e")))
-     (sha256 (base32 "1mwr5y9lr3rj91h2fzl70aasivrkkyv280vk7qs8ja63six8pg9b"))))
+           (commit "8524702bcf9285c60066d38b4e9935b5bf053d38")))
+     (sha256 (base32 "0v8hzp7mqwzxv4w1x4jjwcx79pnypa2d5lzwqhdhqq87ry8iy83v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/lesim-mode")
    (synopsis "Major mode for Learning Simulator scripts")
@@ -60373,14 +60373,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260314.1953")
+   (version "20260318.121")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "97a0313a0f06f991b2d4d1bf85546b0657376417")))
-     (sha256 (base32 "1hvy4iyigq80zzci4l27chdznp8jdi9ldvpqnqa7ikxi2xrlbncl"))))
+           (commit "b3c37f363cf8ec95da97166e6da4fb7faaaefe1d")))
+     (sha256 (base32 "1f067dk9iwvlqiymkhd11cr9qc65xw3qlli207gdv9y2kgz9wv3l"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63631,14 +63631,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260203.254")
+   (version "20260318.505")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "cf31d5f31f271d9b97352146fc614e9475a4726d")))
-     (sha256 (base32 "1amkrhaab24z2v9mgqywx1rnwdxa7i1j42phs78al3dgykpk81g8"))))
+           (commit "1d94d7bea657e5b17b135ec232aeb2d77cf0c5da")))
+     (sha256 (base32 "1mmxlww28yrzvaqd1n4g05rmniq1x6ywsdd75ap85p7g4cbiqn19"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -70534,14 +70534,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260317.1903")
+   (version "20260318.624")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "146148bba940a32fdc02dc32e93da7737eafe1ee")))
-     (sha256 (base32 "1zmgcl3fj82gxvqdzv2pyjjc47l0f9xk1j095rrygfal3h2firjb"))))
+           (commit "6e1604aa66c2faeb107e9e40321422a1d1befe0b")))
+     (sha256 (base32 "1cgzz3zrxh9l6rjxzvxjqyv2x4qqfylwvi4s4m8rwy944dlxbdm4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -84604,14 +84604,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260316.203")
+   (version "20260318.224")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "f0e2418d660f48d793a8ba2887df8e854e778741")))
-     (sha256 (base32 "1447hrl38is32q5cv784ny051r2f1kyp94zr48h26fjib4mx2sc0"))))
+           (commit "5fe6f9854d1c2bf34bd649a3703e4dd0c79d8ede")))
+     (sha256 (base32 "1z8cinnkrm2afyfzkq0kj6qbfvklvc5a18x4jilb5gzszp7s9d8a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -94509,14 +94509,14 @@
 (define-public emacs-speed-type
   (package
    (name "emacs-speed-type")
-   (version "20260314.1657")
+   (version "20260318.237")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/speed-type.git")
-           (commit "ac58e4c6b00388617abb744acf5c71693ef40731")))
-     (sha256 (base32 "1dklv0m81mq0i0v1lrfznnzrsxmhy68d7d6hp8hs3f125c8r2yzx"))))
+           (commit "4acdd8d45c806305e8ca0b07807c8d60f5f8e52b")))
+     (sha256 (base32 "0rwfp8gfrx0jgn3cl1pshryxr6klhh72lqjgb2ckdlp9jnynig62"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/dakra/speed-type")
@@ -96227,14 +96227,14 @@
 (define-public emacs-super-save
   (package
    (name "emacs-super-save")
-   (version "20231209.1044")
+   (version "20260318.822")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/super-save.git")
-           (commit "b612da0b37859a23375366b725b1ab7e7fea02fd")))
-     (sha256 (base32 "0sjwng338qvdcw76x5cp8kcjaj99zqqmjvxg0jvzd0qh5vm8nkwl"))))
+           (commit "54b922e7255014fc90040e681be317f8ebaf2471")))
+     (sha256 (base32 "1kk7frv1ck1brkyp7yxxknzl1zp13vxv0yzixgvw0jgj0mjgmqxb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/super-save")
    (synopsis "Auto-save buffers, based on your activity")
@@ -102460,14 +102460,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260312.959")
+   (version "20260318.811")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "419bb03931e7290ee88c26a160bd8dba6d5aca49")))
-     (sha256 (base32 "10vwb8whm0s9sx1mn1ql4f8dhv98khvzsiqnl84rdpv12zaymcbg"))))
+           (commit "2916cabe8e9c588a612fd896d0be4611bd1ad4e8")))
+     (sha256 (base32 "0gzv7xkwr1bz0498vkbp6i1byxk3rkmxb46m78ndb48s7f234wz4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
