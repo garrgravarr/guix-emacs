@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260317.1405")
+   (version "20260317.2227")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "74eabc385cb2768a8bf6567756ec4e834fb44de7")))
-     (sha256 (base32 "1a0byf706qdid8ciq0i94m43439i158mq4xirff87pbfqp373gzl"))))
+           (commit "4fbaef9ac1fb1b9591b50a351633441cd4398bb4")))
+     (sha256 (base32 "1w1892fyi1sgpjy799yiwbrv1hrr0f1mm9n5frhq5w43zxla0rjv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1787,7 +1787,7 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260317.1442")
+   (version "20260317.1616")
    (source
     (origin
      (method git-fetch)
@@ -2059,14 +2059,14 @@
 (define-public emacs-alert
   (package
    (name "emacs-alert")
-   (version "20250823.650")
+   (version "20260316.2025")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jwiegley/alert.git")
-           (commit "79f6936ab4d85227530959811143429347a6971b")))
-     (sha256 (base32 "06d51grlrc7cnjcgiwb7cjpfxdb3i3vxaicimghb0wp5l4rcbxm1"))))
+           (commit "31fc56855289d0846e73d7ca9b84b628aeac16a0")))
+     (sha256 (base32 "1v00ynqqfgq7z7x47a82nhmz3v7pk15r7vdw8slx5c0kqlx891lb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gntp emacs-log4e))
    (home-page "https://github.com/jwiegley/alert")
@@ -11830,14 +11830,14 @@
 (define-public emacs-clojure-mode
   (package
    (name "emacs-clojure-mode")
-   (version "20260303.2116")
+   (version "20260317.1713")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clojure-mode.git")
-           (commit "e99db498520e9141c1221003ce3e029eb3474884")))
-     (sha256 (base32 "1kcb7v8nhwyxl9hycqmzg8hpqd4pp6nd74pybdrsfh0h139gd2al"))))
+           (commit "d58686d2926c3d5973eba01dbea6f3ed335fcad6")))
+     (sha256 (base32 "1yiayw9rh8jh2qrgbh46rdv6z3cd49d5314rd6fayqjs3n7l9hvg"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("clojure-mode.el")))
    (home-page "https://github.com/clojure-emacs/clojure-mode")
@@ -12080,14 +12080,14 @@
 (define-public emacs-cmake-mode
   (package
    (name "emacs-cmake-mode")
-   (version "20260127.1603")
+   (version "20260317.1329")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.kitware.com/cmake/cmake.git")
-           (commit "43925617e2f8225d8611adcfce41df4bc8bce6c7")))
-     (sha256 (base32 "1j79g7f37ysz251bsf5mwyrbmmiyhaajld08l2xsdbq4d4gzwbmn"))))
+           (commit "c2a2bc368dc3f16e5a823675e5d1a587ddbdd04a")))
+     (sha256 (base32 "18by8wqllpidrjwp8fr4y36bj431c0jcsym19vmw94w11dgkd1j3"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("Auxiliary/*.el")))
    (home-page "unspecified")
@@ -20747,14 +20747,14 @@
 (define-public emacs-diredc
   (package
    (name "emacs-diredc")
-   (version "20260301.2200")
+   (version "20260317.2222")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Boruch-Baum/emacs-diredc.git")
-           (commit "0237787631cbbc733384ad6d83a0ec1108182795")))
-     (sha256 (base32 "10bdnyllp01m7vqinm4dqag9vzsn5rcphxj6klhdlx6pzhgy66kk"))))
+           (commit "79a6c6631e8b817419f24d7e85a6f8f75d393e5d")))
+     (sha256 (base32 "1p5cgi0vs4brz9isj62x4xras1hic1ygnxc7n0wql86aar99j783"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-key-assist))
    (home-page "https://github.com/Boruch-Baum/emacs-diredc")
@@ -70182,14 +70182,14 @@
 (define-public emacs-ocamlformat
   (package
    (name "emacs-ocamlformat")
-   (version "20251024.1250")
+   (version "20260317.1629")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml-ppx/ocamlformat.git")
-           (commit "809492a6044557239ed1e1c2f78eec602f068ea4")))
-     (sha256 (base32 "0a1mk6gf6bgbnrkikpcgyk3l1vvrv1zaczzhg3l447nbrgy9vl06"))))
+           (commit "195e470387ecdcfb0f9ce309b0d8d17807bde25d")))
+     (sha256 (base32 "107pprrxyvxv23pp0753k82qydhjz5jwir209mgs3r93vhn0fd7v"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("emacs/ocamlformat.el")))
    (home-page "https://github.com/ocaml-ppx/ocamlformat")
@@ -70534,14 +70534,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260317.918")
+   (version "20260317.1903")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "6394578b31210308866db7640835fcd4d44b830f")))
-     (sha256 (base32 "161baxf4wx4l03xxw29zm7wn3b6y7cywx867xfaj0pnxrk1hacwc"))))
+           (commit "146148bba940a32fdc02dc32e93da7737eafe1ee")))
+     (sha256 (base32 "1zmgcl3fj82gxvqdzv2pyjjc47l0f9xk1j095rrygfal3h2firjb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -73525,14 +73525,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260316.1806")
+   (version "20260317.1624")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "017f2c1746ed5a07bf0012dffd09964c67442fe4")))
-     (sha256 (base32 "0zpja8zqbxl51jlv2s7lyixqk4j5pllsfky27djfcd7p9fx7xpwi"))))
+           (commit "e16aff3f3a8de78cb8659229722e7aaf6c8c7433")))
+     (sha256 (base32 "16jmkgr2d35msbrl1rpq81jy7cyd5yq8vsviaj376lkcc7aypaml"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -79749,14 +79749,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260317.1413")
+   (version "20260317.2046")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "f1a37010db89473b6edd81993beb4c1d5dfa300a")))
-     (sha256 (base32 "1lj86d5s57g9916fc14xvsp6pladk023mzvwccrkypknyrqjlzvk"))))
+           (commit "b2709c58f79618304a5a775e6aee75fe8f8ef12f")))
+     (sha256 (base32 "0bsr2bibi93cympzj3bl3bwnmcbqdqqv4n3fm9andvr9788lg732"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
