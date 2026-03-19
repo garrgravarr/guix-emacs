@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260317.1616")
+   (version "20260319.424")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "150b058ffafd30326f68347c10ba65e34b23189e")))
-     (sha256 (base32 "0dd7i9a7spl24ipgviplpqs3qd9n91k6cqafi4ag51fl5mc0xz53"))))
+           (commit "e275cf8d8e50c6e59cb93e5c77b9930d6a8687e2")))
+     (sha256 (base32 "1x85scg4v850mcn72hai12lyd5xfw53xjx3pm4iyn8ah9adx31y9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -42009,14 +42009,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260316.552")
+   (version "20260319.737")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "29401924c23e536da33e22c461961ab567f65cc1")))
-     (sha256 (base32 "0ygcr8yqwvpqpnrqy7rf5b55ygdrqpwh3wv1k33hc7ck5hhqjdrg"))))
+           (commit "bbfbd711fae64b079f7057d71772805edeb00a3d")))
+     (sha256 (base32 "1f0j8r8iw1c00vqxlz63gisgxzjxb9cf6v8534njxivfny5c42m4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -42973,14 +42973,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260318.1657")
+   (version "20260319.710")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "eb62db7cc682f9366db780d8b25b44c62706c631")))
-     (sha256 (base32 "1kj25ld6dq8g2ibj2v4hmp0083f1m7sa31k0kz42f5a0n8rakspz"))))
+           (commit "bf357646d9c1333d719a1dd99566db315daeec2a")))
+     (sha256 (base32 "1idh5nkxlgv5rp8b3lljjjq72ai6d34v7jv0igi8fbyczvlklh9m"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -73563,14 +73563,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260317.1624")
+   (version "20260319.849")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "e16aff3f3a8de78cb8659229722e7aaf6c8c7433")))
-     (sha256 (base32 "16jmkgr2d35msbrl1rpq81jy7cyd5yq8vsviaj376lkcc7aypaml"))))
+           (commit "b14ce622b9c865e1641b5de2b2575222dd70c0b6")))
+     (sha256 (base32 "0xj49jsrxkj2zcl78m20v8v3ww6vm0wrka1bvcir2nhkh9y4hyzn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -84642,14 +84642,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260318.224")
+   (version "20260319.248")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "5fe6f9854d1c2bf34bd649a3703e4dd0c79d8ede")))
-     (sha256 (base32 "1z8cinnkrm2afyfzkq0kj6qbfvklvc5a18x4jilb5gzszp7s9d8a"))))
+           (commit "d83124b15200c297a9c34e01994bfd157372264e")))
+     (sha256 (base32 "1m1ji72m5354s8cmzca5wzvcqvnvaz0v38g37q32cjag1fd3bsd1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
