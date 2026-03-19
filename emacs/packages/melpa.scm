@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260318.1517")
+   (version "20260318.1950")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "520cad3b60017af0992a97ec4871b6a6af73a16a")))
-     (sha256 (base32 "1dhqaf3j4p43fnrbyn3gkp9648zlfyap7b2xv79dqasxcs34pljg"))))
+           (commit "68b8c394a4838fb54f7dbfc70cee38e7310f03a3")))
+     (sha256 (base32 "0njajpz51pbz4hqaq7lcvwaypilq1c9sdxsk6sdxgk1xpivqlxfb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3765,14 +3765,14 @@
 (define-public emacs-async
   (package
    (name "emacs-async")
-   (version "20260317.538")
+   (version "20260318.1803")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jwiegley/emacs-async.git")
-           (commit "9cc1e804395342bc028800d87c5318ccd97d6071")))
-     (sha256 (base32 "1xxr44xis79nq880pmqv9hb73r9kjpbssbqqq764ff7bpzrl5xac"))))
+           (commit "5faab28916603bb324d9faba057021ce028ca847")))
+     (sha256 (base32 "06dgjq9ray9j5hcbm0dsrz8isbsn6yjxij01wcb65nk6npgf4ahc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jwiegley/emacs-async")
    (synopsis "Asynchronous processing in Emacs")
@@ -11830,14 +11830,14 @@
 (define-public emacs-clojure-mode
   (package
    (name "emacs-clojure-mode")
-   (version "20260317.1713")
+   (version "20260318.1740")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clojure-mode.git")
-           (commit "d58686d2926c3d5973eba01dbea6f3ed335fcad6")))
-     (sha256 (base32 "1yiayw9rh8jh2qrgbh46rdv6z3cd49d5314rd6fayqjs3n7l9hvg"))))
+           (commit "9b6098e276f16a8f57dada1a4f93016df9409314")))
+     (sha256 (base32 "09g6syjfprm1y0izm5s466p7wqzbyvi5rp2l54fl34lxa6bjhly8"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("clojure-mode.el")))
    (home-page "https://github.com/clojure-emacs/clojure-mode")
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260318.1305")
+   (version "20260318.1732")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "af9def47bd8e5f874b64fa5e410b5ce3a21a7f04")))
-     (sha256 (base32 "1gfjdhj54gcx9picmg76dmjbax6xl2q4f4d8qji9cbv16sd5rpwk"))))
+           (commit "a26aa15cbbdbf8782f8976e0b627bcbeacf52e30")))
+     (sha256 (base32 "09qj4dcqlajbf7cx0rpnwcsfgji54jrl4frpkw4rfr36c0760z5c"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -42973,14 +42973,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260317.914")
+   (version "20260318.1657")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "a17cb9c719520dc33e8a23032d822d6a043b906d")))
-     (sha256 (base32 "0rbar6551hpgss4lim24z1plg77k7px31p03ka5kmwv625c77ljw"))))
+           (commit "eb62db7cc682f9366db780d8b25b44c62706c631")))
+     (sha256 (base32 "1kj25ld6dq8g2ibj2v4hmp0083f1m7sa31k0kz42f5a0n8rakspz"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -61948,14 +61948,14 @@
 (define-public emacs-mastodon
   (package
    (name "emacs-mastodon")
-   (version "20260303.1130")
+   (version "20260318.1725")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/mastodon.el.git")
-           (commit "096494056bdb832f9707f3011bffb80fcf8a6d7c")))
-     (sha256 (base32 "0q02v1vizzj1r35b7b6cw185jjibhc6izj9ih4sm6c83l9yb99yh"))))
+           (commit "703f3645417f545df2d2cd07731d5f99ca347229")))
+     (sha256 (base32 "02mhwihzr72vxlx4a2ls849wsich1h0vkrwkyk7v6gna48078ah2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-persist emacs-tp))
    (home-page "https://codeberg.org/martianh/mastodon.el")
@@ -67868,14 +67868,14 @@
 (define-public emacs-noir-ts-mode
   (package
    (name "emacs-noir-ts-mode")
-   (version "20240331.137")
+   (version "20260318.1735")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hhamud/noir-ts-mode.git")
-           (commit "eb399cc69a3229f4141e193f98efead51d9b3cc8")))
-     (sha256 (base32 "1nv2ccbsww7vkpxx0i5ds655ihkqxa1mvc6wq2lnla845j3mrpd8"))))
+           (commit "64af37811e0ab91ab1bc333d0961e15b66356944")))
+     (sha256 (base32 "0ji22grv56dwhn0p7h80yz06sn7ipdiv1p07f4ivw6f2s7cpqzkh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hhamud/noir-ts-mode")
    (synopsis "Tree-sitter support for Noir")
@@ -70572,14 +70572,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260318.924")
+   (version "20260318.1858")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "27773a7cd0cba83e2efa889c67570710c5eb14fc")))
-     (sha256 (base32 "1aw7jrhsp07sb2z4dq72qb5xlv1b6d0dmp4s9k93894b18hvw8r7"))))
+           (commit "587599d7879d9e3ea3cd27c72963b52a9ae82a7c")))
+     (sha256 (base32 "0y7vxdzijfzzz9xp0p7msci1n0cx1ih53dk3pncpgyhh7ljp33c5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -73000,14 +73000,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260315.1944")
+   (version "20260318.1645")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "7478bcf2f18d97207dcfb0284126764f40d5670a")))
-     (sha256 (base32 "0a7psn21cp0jd6qy08cvkjm6z1zsm8yx5zsfz35ywr8h70xyj7lf"))))
+           (commit "fa60c3a7a272ad4227337827f17c13d3cf970b33")))
+     (sha256 (base32 "1wrw9y7ch461gw8zqwxsc546bx1madagmammmnbz9xdmqg5m3x1l"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -79787,14 +79787,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260318.1602")
+   (version "20260318.2333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "5591a8d3eaecc048fc2c360f83dc45b4af26e793")))
-     (sha256 (base32 "051j2c24b732v7ps448v02pvcwckfd9di6fi7v8iqfwnqgab0n3s"))))
+           (commit "ee17ad8a1a757912238092771c96d59a9663000b")))
+     (sha256 (base32 "1892s2iqbpd2xx5sa9ykk512xc753n8vsjw7dqzdvml6nxpg0fv1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -87009,14 +87009,14 @@
 (define-public emacs-repo-grep
   (package
    (name "emacs-repo-grep")
-   (version "20260310.2043")
+   (version "20260318.2120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/BHFock/repo-grep.git")
-           (commit "f66ca26e620fb092df4ab23f8794ee4153c23a3d")))
-     (sha256 (base32 "0fb3sbj8lrq5bg44pymx7kl29cpdf61v4pfcyawm4rhfik99kv61"))))
+           (commit "a2908fda33afd2b72dea645702568aa9f013b731")))
+     (sha256 (base32 "1p7mz0mbkz9l3xmlf4hyisprq3mfxivkzm9jcfhg9mcbg49023iy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/BHFock/repo-grep")
    (synopsis "Project-wide grep search")
@@ -90905,14 +90905,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260318.909")
+   (version "20260318.1948")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "e109a106708824baeaefbb7ae833c87aaa27f6a3")))
-     (sha256 (base32 "1g7c5fhzs4mc02zkq0x45mgx01431wk3nxjkj1r74wq3r1yk6mzc"))))
+           (commit "55f829d179608a3c4b11e86427713d5be7c4bb58")))
+     (sha256 (base32 "1qdgay3gh8nnimmhm9zyypfg5li4421my8gm725ixbb0giaz4p5l"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
