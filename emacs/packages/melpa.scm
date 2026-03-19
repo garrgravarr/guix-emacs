@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260318.1950")
+   (version "20260319.1221")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "68b8c394a4838fb54f7dbfc70cee38e7310f03a3")))
-     (sha256 (base32 "0njajpz51pbz4hqaq7lcvwaypilq1c9sdxsk6sdxgk1xpivqlxfb"))))
+           (commit "746ee17659854a2a4159f5b163c4583e6b155d4c")))
+     (sha256 (base32 "0ygd530r7sq5n0n7gdlprx4899kf5l425gncm2arm56clhr6f4ar"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -22636,14 +22636,14 @@
 (define-public emacs-dune
   (package
    (name "emacs-dune")
-   (version "20260120.2128")
+   (version "20260319.225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml/dune.git")
-           (commit "1a3fb8fdb83b907fa8b0efaf633abfc76ff7c839")))
-     (sha256 (base32 "0xc508f8ckx1indkjbhl5d3sckmi0hkfmryw368ja24a7f0rmdh1"))))
+           (commit "bea1e1b2c15d3a8fb2f6d2c860b06cd9f44568d2")))
+     (sha256 (base32 "0zqzca3a6i69szv1dm4fqm066z5117w26yzfcxmfjxj3y28n7cnw"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editor-integration/emacs/*.el")))
    (home-page "https://github.com/ocaml/dune")
@@ -31919,14 +31919,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260308.1127")
+   (version "20260319.1338")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "7bed222adf49f06eefe53964a9a90cfe21fd723a")))
-     (sha256 (base32 "0wds7gkzmdwlcvk56264kzmkrwsv8fkv78r0vi4h25z2p2s51fb4"))))
+           (commit "f8df0c2cb21ff5dbc5fef1ccc873b916e9b39fab")))
+     (sha256 (base32 "0silj6hv3gkxx7j3ip3kwkmx96dpcf0gn5vfd49km4cxn7p5l6ji"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -48840,54 +48840,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260318.306")
+   (version "20260319.1323")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "819904af8f1d53da0a2a81c0279e050526661639")))
-     (sha256 (base32 "1nqa03j0q20jw7c7k89aryblvbkbg66qmaa720m3a144nxlf596w"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "1mynv6i0apfnljk4hyly7amr0n975cckacr2q4d22s45wii3if1h"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -54501,14 +54463,14 @@
 (define-public emacs-just-ts-mode
   (package
    (name "emacs-just-ts-mode")
-   (version "20251121.1841")
+   (version "20260319.1513")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/leon-barrett/just-ts-mode.el.git")
-           (commit "9dd136bc809de85fa66a4665312eb0f55b1c8094")))
-     (sha256 (base32 "0gmimdy2isfmyf622926y3w0a0fxm1q98ry0lbqjjvhfq9i2h3mc"))))
+           (commit "94f788eccb13cd3ade827af5612ffe3cad5fddf0")))
+     (sha256 (base32 "0rzgj007bjjlrgknhsdpk7vfhqpp9r1yxkhsj2a4ijg3rxw9s802"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/leon-barrett/just-ts-mode.el")
    (synopsis "Justfile editing mode")
@@ -62293,14 +62255,14 @@
 (define-public emacs-mcp-server-lib
   (package
    (name "emacs-mcp-server-lib")
-   (version "20260116.1406")
+   (version "20260319.1344")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/mcp-server-lib.el.git")
-           (commit "8c494fbb79cc7aba789d5ca583e3736345b39a15")))
-     (sha256 (base32 "00fq3bgpir2c7ppjp1nnb75xzrfaa9pksxscqhb1pkqpkd52ka6d"))))
+           (commit "4222ff602eaa21c453c5056316b3e156dc9b0a81")))
+     (sha256 (base32 "1l5i60fpsjq6jk2p9ywkvhmz85pjnxv8nhv21p6qb24p8k0lcvn2"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "emacs-mcp-stdio.sh")))
    (home-page "https://github.com/laurynas-biveinis/mcp-server-lib.el")
@@ -70572,14 +70534,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260318.1858")
+   (version "20260319.1328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "587599d7879d9e3ea3cd27c72963b52a9ae82a7c")))
-     (sha256 (base32 "0y7vxdzijfzzz9xp0p7msci1n0cx1ih53dk3pncpgyhh7ljp33c5"))))
+           (commit "8226be82f4c5741b43f1c92bc512ee47e2803717")))
+     (sha256 (base32 "1d1wg6zb3h85zrsixrvkqpn67ckv2h3fa8w54c9nrsm54sm76x4d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -75737,14 +75699,14 @@
 (define-public emacs-orgtbl-join
   (package
    (name "emacs-orgtbl-join")
-   (version "20260316.944")
+   (version "20260319.917")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgtbljoin.git")
-           (commit "8edf3bfcc3b631744fc2d7abcb2ec082999029dd")))
-     (sha256 (base32 "0ybpdnsi1y9bq038pyp93rwbns8x4fqwcpwv8zsjqn67v9mxiy9a"))))
+           (commit "009bf5cb5d93555cb662b0869f5e27482fbf8f8b")))
+     (sha256 (base32 "0zr7sa2pwd5s7fnx4b46dlvf924rjrjraicjj7zcdp7hrxixzgzv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
    (synopsis "Join columns from other Org Mode tables")
@@ -87119,14 +87081,14 @@
 (define-public emacs-rescript-mode
   (package
    (name "emacs-rescript-mode")
-   (version "20240312.1235")
+   (version "20260319.1332")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jjlee/rescript-mode.git")
-           (commit "b9dda43cc52cd4a9b384c59fb0cc7a11f0bad230")))
-     (sha256 (base32 "00pjn683zl5rcmwf86gs4ikxzz82d3rpmicpxhgy2m2xyrfxpz89"))))
+           (commit "b69440f23faae21cfc3530008b440df88840619a")))
+     (sha256 (base32 "1ljna77pikrh2msark4r4mqx0lmlx74ilid0sxbg5miga02nlrwd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jjlee/rescript-mode")
    (synopsis "A major mode for editing ReScript")
@@ -93928,17 +93890,17 @@
 (define-public emacs-solo-rpg
   (package
    (name "emacs-solo-rpg")
-   (version "20260309.1904")
+   (version "20260319.912")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Enfors/solo-rpg.git")
-           (commit "cfad9f7cd76393932591d89d899e7749428c3b9c")))
-     (sha256 (base32 "1zkdmgb312f0h5w5zh9lhsw6ayz7sbkbdkyfbdnvgi3v8ihlqzy8"))))
+           (commit "a64be1367d1b058d7caddd4dfc96a899c4c89d49")))
+     (sha256 (base32 "1fbir8hq06ag7hqy1b4xxr9dv1f6h9lwchwl4iz6q6iq6i4zh1rf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/enfors/solo-rpg")
-   (synopsis "Solo roleplaying games support functions")
+   (synopsis "Solo roleplaying games and Lonelog support")
    (description "Documentation at https://melpa.org/#/solo-rpg")
    (license #f)))
 
@@ -103086,16 +103048,15 @@
 (define-public emacs-utop
   (package
    (name "emacs-utop")
-   (version "20250722.1319")
+   (version "20260319.1448")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/diml/utop.git")
-           (commit "33201e60767fec2b4d7f43d5f033ec1e961ac1ff")))
-     (sha256 (base32 "1nm68d2i7f8s2am3390gbfwhxf4pm9w4rkbnffqqfkwvac2s47kq"))))
+           (commit "8cd6716d0f90efd67da90afa5bc31c7abe9a7a57")))
+     (sha256 (base32 "1zzxnda3cavhxasr580kxfnnr2w818119sbrmn3jrn8xzr8vdrsl"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-tuareg))
    (arguments '(#:files ("src/top/utop.el")))
    (home-page "https://github.com/ocaml-community/utop")
    (synopsis "Universal toplevel for OCaml")
