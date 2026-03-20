@@ -1245,14 +1245,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20260318.1255")
+   (version "20260320.8")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "7b2b3809f34a7c73f05c02ceee47bf4cb17302c6")))
-     (sha256 (base32 "138jc0fkszygj3q95yyggwc70q884bvs1118h6wr7jlyvv71idlm"))))
+           (commit "863f2d62c4b4da8b229581be42d490a7403b2eb1")))
+     (sha256 (base32 "08918qmpn21rjpfiajvbax3a1zglyirc2dmg2sr2152hz1lmpf95"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260319.1221")
+   (version "20260319.2358")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "746ee17659854a2a4159f5b163c4583e6b155d4c")))
-     (sha256 (base32 "0ygd530r7sq5n0n7gdlprx4899kf5l425gncm2arm56clhr6f4ar"))))
+           (commit "62f12d077522d1f80f5b06bf28a31d292ec24a3d")))
+     (sha256 (base32 "1cad2s21jfia9smm7m5avgrggxx312vw5cakpi1f44hbbf2c36ya"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -8223,14 +8223,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260315.1439")
+   (version "20260319.2104")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "e1c60d6759bf20273d524862e2b41d0a140a2493")))
-     (sha256 (base32 "1lgfqrsggb12fxzq5sr8zycah47wpiqlkiikvfp60i482sa0iqz6"))))
+           (commit "33ed3d87b233ea1892a2e43016da219e3288f9aa")))
+     (sha256 (base32 "0zmhw1g2sdgavs8mvhp7slzl1r82cwyr2b47fq7mqs8jxd6k3ys9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -14369,14 +14369,14 @@
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
-   (version "20260315.1534")
+   (version "20260319.2149")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/compile-angel.el.git")
-           (commit "ee95a02bc4f7d3686bbcb074e226321734666cf3")))
-     (sha256 (base32 "0src6m4qwk89kqyhpdkkbig92xn9yqbbwp94c5zchykp4vnw2hdg"))))
+           (commit "ebb50b50122ff373e850e7f95b1873e7a4a19f85")))
+     (sha256 (base32 "02lasff691gx0kykamqkfv9rn9agz22446q32ws5qvz4qr6nh6ph"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/compile-angel.el")
    (synopsis "Automatically Compile Elisp files (auto-compile alternative)")
@@ -24352,14 +24352,14 @@
 (define-public emacs-eide
   (package
    (name "emacs-eide")
-   (version "20260202.1853")
+   (version "20260319.2023")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://forge.tedomum.net/hjuvi/eide.git")
-           (commit "ea10bf1b3727087e78921a146a1d7d0bcaf4f8a5")))
-     (sha256 (base32 "11apdb0c20dfg8qsii87kp8ikpsgzqw92m6klz0dsn8ci5fg5ixh"))))
+           (commit "2e7abd954ffa496b3ed0029e60bd0e2ff49125ec")))
+     (sha256 (base32 "08v0l663a5y43zcfdsjx8jjh62gbb66wmyfxddkpsm1iyhbsidfy"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("src/*.el" "src/themes/*.el")))
    (home-page "https://forge.tedomum.net/hjuvi/eide")
@@ -34514,14 +34514,14 @@
 (define-public emacs-flycheck-haskell
   (package
    (name "emacs-flycheck-haskell")
-   (version "20241119.1046")
+   (version "20260319.1949")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck-haskell.git")
-           (commit "0977232112d02b9515e272ab85fe0eb9e07bbc50")))
-     (sha256 (base32 "0sxqxskflnhx1n83knm817j5l4svx9szkfy5yzsfwm7gnn7piixs"))))
+           (commit "dca624b528978ca47b387d34d9aca8b6a42bc011")))
+     (sha256 (base32 "0z79phc3rnwvr29h7yipw5si9yxxkcf77x8lvzsg45ih4fh7bywq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck emacs-haskell-mode emacs-dash))
    (arguments '(#:files (:defaults "*.hs")))
@@ -35633,14 +35633,14 @@
 (define-public emacs-flymake-ansible-lint
   (package
    (name "emacs-flymake-ansible-lint")
-   (version "20260215.2013")
+   (version "20260320.13")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/flymake-ansible-lint.el.git")
-           (commit "580ae9b179aab4ee4b90c07be0b82a80f314ccf8")))
-     (sha256 (base32 "1xzp56b4f9jia24a7wn4kv8ki38wi2962b0yw2r5xp7im2xm5izi"))))
+           (commit "359a11d3e1a9f1cd131aa85edd1c5feb3fcee38b")))
+     (sha256 (base32 "1jlnnxdxq94ndcbi62xgy6g2nijzqllg40ijxby1kn7slp5bn91x"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/flymake-ansible-lint.el")
    (synopsis "A Flymake backend for ansible-lint")
@@ -60373,14 +60373,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260318.1225")
+   (version "20260319.2236")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "cf797a9090ce9140eafe3380412e33165212491f")))
-     (sha256 (base32 "0nwblinvqdyjsjza50cxgapzqdj6a6hq9cgs4vf0ngli9sx25ca3"))))
+           (commit "c7b0342dc71fdc32c49a68168018b386746b3e5c")))
+     (sha256 (base32 "11xxp8bc6alz505b2cnwb42x726z96a5alf21nq56s2qjr2vw5mh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -66636,14 +66636,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260318.1057")
+   (version "20260319.2010")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "1019df4dab71c2cbc2a180db7a0bde6e9185c097")))
-     (sha256 (base32 "0hx89gnyjz1s1lb9xna21np8c1xsfa8l6v51jjddqhfd4wp1ly10"))))
+           (commit "e96806c202f6637df3c3f44d6803d204a5170664")))
+     (sha256 (base32 "1gfd6z3gg0w4wsf8bf2xr0d8cn3n2n6wprfi6chzrq7n13m8xbq5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -70534,14 +70534,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260319.1328")
+   (version "20260319.1910")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "8226be82f4c5741b43f1c92bc512ee47e2803717")))
-     (sha256 (base32 "1d1wg6zb3h85zrsixrvkqpn67ckv2h3fa8w54c9nrsm54sm76x4d"))))
+           (commit "cc9fc377ef81e4f0120d8917ef503170149caf6c")))
+     (sha256 (base32 "1kycdbfp80gmdvf235ciqf9z1b4zp0c8xs7ib2kjiqyhcyr3vsv2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -74121,14 +74121,14 @@
 (define-public emacs-org-roam-ql
   (package
    (name "emacs-org-roam-ql")
-   (version "20251217.2009")
+   (version "20260320.0")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ahmed-shariff/org-roam-ql.git")
-           (commit "420ce9b5a28c8e9c9583cb88142e83d905e06c96")))
-     (sha256 (base32 "0wiabpv2yly08inwabkd52dvd2ag9nvdk5ifxrdp7kqqw4nramz2"))))
+           (commit "a1ce63cabf6a9352098750fcbc4a719f676717be")))
+     (sha256 (base32 "022dwbi8vc04ylrmh3nqs55smgkpkf3dz77bzpam3hx4zibjqzgw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-org-roam emacs-s emacs-magit-section emacs-dash))
@@ -88222,14 +88222,14 @@
 (define-public emacs-rtf-view
   (package
    (name "emacs-rtf-view")
-   (version "20260225.1620")
+   (version "20260319.1915")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/danielcmccarthy/rtf-view.git")
-           (commit "1351fb35448f07396df89c3ba252bed030c83d4e")))
-     (sha256 (base32 "1545f00glb9d5dlmv8a9w2j7lili4195zq8grm3mhjki1rp2lnah"))))
+           (commit "8af37adec9302d1b38e4dc9c753b18193080a589")))
+     (sha256 (base32 "189pxl92hrrvd08135pmc5cpbash3kpjnln3c9ywhwyllxr0zgwv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/danielcmccarthy/rtf-view.git")
    (synopsis "View Rich Text Format files")
