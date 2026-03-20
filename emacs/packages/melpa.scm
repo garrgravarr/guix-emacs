@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260319.424")
+   (version "20260320.1424")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "e275cf8d8e50c6e59cb93e5c77b9930d6a8687e2")))
-     (sha256 (base32 "1x85scg4v850mcn72hai12lyd5xfw53xjx3pm4iyn8ah9adx31y9"))))
+           (commit "db8ae5ad4d94c1af3cde2ce7861f26d6013a3fbb")))
+     (sha256 (base32 "0rswy18dladk0r4lhn4rps6wax90pzdpcpad7jqxc3fjfpbvx22z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -18069,14 +18069,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260315.1520")
+   (version "20260320.1344")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "2ab1d67a9970f4f410362921da2781e410d93290")))
-     (sha256 (base32 "1ksrhk1fpx79avmv01fvirwf2mcpf82kqh4if6qrk3fjc5di68cg"))))
+           (commit "31f1ff5b20a9e0f3ffb27df0d27f935cd2750a76")))
+     (sha256 (base32 "086s7mdjxq1yf2n6j6qag9dl23ykpzzivbyyiwzrmxnrzxvmplv4"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260320.304")
+   (version "20260320.1224")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "216f4517e02a288d172a906fbed11728bd370431")))
-     (sha256 (base32 "0f0skzh0ynbf68hw0a1kvk302vfdblzcvxv5nszpw818k8ypy2dk"))))
+           (commit "bb407e95cb909041b619a6ad45f338c3735d41e2")))
+     (sha256 (base32 "0rks2pjrjpm0rgz8qp4fsmr034rdm3dm3jfg91pcnzhm76anyc3w"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -49991,14 +49991,14 @@
 (define-public emacs-imbot
   (package
    (name "emacs-imbot")
-   (version "20260108.212")
+   (version "20260320.1418")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/QiangF/imbot.git")
-           (commit "a9f21234f37589f40bfe582d8e0bed82c879a50c")))
-     (sha256 (base32 "1cqnmdc8yf1mq5f5gfw365cb3nw23m896abq4sg6prvm5xv682z8"))))
+           (commit "3da793875b61c9e6c340e06ab40bb4912e202656")))
+     (sha256 (base32 "1cvn5p27b5h4dfid9xn6qs6rg0cmgrpnlik6hkzyccbs70y39nl4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/QiangF/imbot")
    (synopsis "Emacs input method")
@@ -60373,14 +60373,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260319.2236")
+   (version "20260320.956")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "c7b0342dc71fdc32c49a68168018b386746b3e5c")))
-     (sha256 (base32 "11xxp8bc6alz505b2cnwb42x726z96a5alf21nq56s2qjr2vw5mh"))))
+           (commit "735d96f8081b970edba6e40de6d7a7db8452b4f9")))
+     (sha256 (base32 "1g3g1ckrlpf0g9g95i533s4j25549r5d3vkrlypsg8mx730h0dmd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -66636,14 +66636,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260319.2010")
+   (version "20260320.726")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "e96806c202f6637df3c3f44d6803d204a5170664")))
-     (sha256 (base32 "1gfd6z3gg0w4wsf8bf2xr0d8cn3n2n6wprfi6chzrq7n13m8xbq5"))))
+           (commit "09fbd4bf0254b1f1f8d6fe7021d1d41293862d7a")))
+     (sha256 (base32 "1gilm81mww214w727pa3c3yab5y3v3m32hldm5ijbn53hj4z8b7p"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -70534,14 +70534,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260319.1910")
+   (version "20260320.1252")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "cc9fc377ef81e4f0120d8917ef503170149caf6c")))
-     (sha256 (base32 "1kycdbfp80gmdvf235ciqf9z1b4zp0c8xs7ib2kjiqyhcyr3vsv2"))))
+           (commit "066f6c22ffa5a0abe7af06e0e953797d4906fb4e")))
+     (sha256 (base32 "1r8y9kf0j7ikwcdz8pjz2sb1kp9817hqzpx17a3z07qhhdm3gm3h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -73525,14 +73525,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260319.849")
+   (version "20260320.901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "b14ce622b9c865e1641b5de2b2575222dd70c0b6")))
-     (sha256 (base32 "0xj49jsrxkj2zcl78m20v8v3ww6vm0wrka1bvcir2nhkh9y4hyzn"))))
+           (commit "2c6afef0b55c5e6d8999b6f3ceab4a9061fec79e")))
+     (sha256 (base32 "0pbw4j8cyxahbpgd6wsj4jxaygxwsb0fy7cmm0zxq3dlpr2lykiy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -75648,14 +75648,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260312.1015")
+   (version "20260320.1043")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "8e6849888d2a35979dbd4295bf7478ae8057a6a1")))
-     (sha256 (base32 "0mzaagfzsgj9wzg8pj7kg0jgkpgrhqj36v2gdfl3cvlz4yshvpjv"))))
+           (commit "17e51d83c6385e6e24b94a2a839910e899b418cb")))
+     (sha256 (base32 "07x9ch79n9nwnj82sw6aj5sf7gfkzpy0ildvijbq7vsqp0bwblkx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -75699,14 +75699,14 @@
 (define-public emacs-orgtbl-join
   (package
    (name "emacs-orgtbl-join")
-   (version "20260319.917")
+   (version "20260320.1026")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgtbljoin.git")
-           (commit "009bf5cb5d93555cb662b0869f5e27482fbf8f8b")))
-     (sha256 (base32 "0zr7sa2pwd5s7fnx4b46dlvf924rjrjraicjj7zcdp7hrxixzgzv"))))
+           (commit "250935aaf41793f855e42bc86896ecf5b7bdd694")))
+     (sha256 (base32 "0bqqkbsy76w92ssbv70fgyarl3zsd9d48r0l8l5kwa835kvs8k2j"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
    (synopsis "Join columns from other Org Mode tables")
@@ -94509,14 +94509,14 @@
 (define-public emacs-speed-type
   (package
    (name "emacs-speed-type")
-   (version "20260318.237")
+   (version "20260320.1334")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/speed-type.git")
-           (commit "4acdd8d45c806305e8ca0b07807c8d60f5f8e52b")))
-     (sha256 (base32 "0rwfp8gfrx0jgn3cl1pshryxr6klhh72lqjgb2ckdlp9jnynig62"))))
+           (commit "257fec4d1ed5637300bf0457df8d7e0bbc5b5226")))
+     (sha256 (base32 "0hr0dp9zkfxpj6kxl80qv2i5291pkr3brwi0hbc00hhchj0b0886"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/dakra/speed-type")
@@ -95250,14 +95250,14 @@
 (define-public emacs-stan-ts-mode
   (package
    (name "emacs-stan-ts-mode")
-   (version "20260316.1347")
+   (version "20260320.1433")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/WardBrian/stan-ts-mode.git")
-           (commit "211f4cfedbb2edacf042f02ece41c0cc1da5cf34")))
-     (sha256 (base32 "01mr4kmzdldlhkm6whj8n8d29v8yn56hhz95lmksddg575v2vm0w"))))
+           (commit "8cc2b9680bf9f3fef7d740eb8115764510803f61")))
+     (sha256 (base32 "0rq4hfg4i4prlj5g0sbmmd2pbks8v7azwdj8864y6ihqdwa98ag6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/WardBrian/stan-ts-mode")
    (synopsis "Major mode for editing Stan files")
