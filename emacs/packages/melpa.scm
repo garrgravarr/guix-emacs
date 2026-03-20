@@ -14369,7 +14369,7 @@
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
-   (version "20260319.2149")
+   (version "20260320.121")
    (source
     (origin
      (method git-fetch)
@@ -15974,17 +15974,17 @@
 (define-public emacs-counsel-etags
   (package
    (name "emacs-counsel-etags")
-   (version "20251204.1415")
+   (version "20260320.524")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/redguardtoo/counsel-etags.git")
-           (commit "476196a7e82dc118ec2c659658c3fc71d5f2ee60")))
-     (sha256 (base32 "0bq1v7a05dnf5fv0r5a0zzn1pai9yxvk5ysrwhfc2h5iwh5vlp70"))))
+           (commit "292fe179ccfc4a194e1a362d2929280bdf6e76b1")))
+     (sha256 (base32 "1jd7hxf0np94fxzp0p9nrm2ql8j85zq6a0ivsq3xg4j6wm8bbjbh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-counsel))
-   (home-page "http://github.com/redguardtoo/counsel-etags")
+   (home-page "https://github.com/redguardtoo/counsel-etags")
    (synopsis "Fast and complete Ctags/Etags solution using ivy")
    (description "Documentation at https://melpa.org/#/counsel-etags")
    (license #f)))
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260318.1732")
+   (version "20260320.304")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "a26aa15cbbdbf8782f8976e0b627bcbeacf52e30")))
-     (sha256 (base32 "09qj4dcqlajbf7cx0rpnwcsfgji54jrl4frpkw4rfr36c0760z5c"))))
+           (commit "216f4517e02a288d172a906fbed11728bd370431")))
+     (sha256 (base32 "0f0skzh0ynbf68hw0a1kvk302vfdblzcvxv5nszpw818k8ypy2dk"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -31919,14 +31919,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260319.1338")
+   (version "20260320.844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "f8df0c2cb21ff5dbc5fef1ccc873b916e9b39fab")))
-     (sha256 (base32 "0silj6hv3gkxx7j3ip3kwkmx96dpcf0gn5vfd49km4cxn7p5l6ji"))))
+           (commit "9ad64b54ad6d593037a5aec7d28153bb43ca0d95")))
+     (sha256 (base32 "1vc564yrm7rn6hkbn2xryhvdxbxd5jmwad0rjm2v5bri4ky233gr"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -64207,14 +64207,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260316.1817")
+   (version "20260320.617")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "5e1621d6384c69ccd55fe051c8c3a5f324cbef5c")))
-     (sha256 (base32 "0z8nzwlgrsb15m79564zxgkval1lal7pzkcykvmh0dscykasbwgg"))))
+           (commit "e5fb7f2229a0f825332360f4d3ad916f632c086f")))
+     (sha256 (base32 "1gwb5y8faif334b7kgrdamr7dq1ib7nvhamlzc6l8rxk6nyx17xi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
