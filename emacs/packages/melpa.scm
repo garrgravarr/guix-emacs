@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260320.1920")
+   (version "20260321.1130")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "de0db122d1d57d5fd7e2c1853faf411456382235")))
-     (sha256 (base32 "1v1nviwa5m98wi53w8dniwza9xd7ydaakjsy5vwrrbnbfkyas4iz"))))
+           (commit "270c3345449d78ec9af287e378ece697470eb8d8")))
+     (sha256 (base32 "15271s01fdwvlp7ch6wywrgbmvsp2ml3fil38ivr81if4k92rhlf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -23490,14 +23490,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260320.1224")
+   (version "20260321.1231")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "bb407e95cb909041b619a6ad45f338c3735d41e2")))
-     (sha256 (base32 "0rks2pjrjpm0rgz8qp4fsmr034rdm3dm3jfg91pcnzhm76anyc3w"))))
+           (commit "c0c8dca1267287f75e3841319d978bd2aeb2a8c4")))
+     (sha256 (base32 "095s9zkc8clzfwfgn05srw434qq2rz2gw0z0plnszx92mnb9lhsg"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -31919,14 +31919,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260320.844")
+   (version "20260321.1202")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "9ad64b54ad6d593037a5aec7d28153bb43ca0d95")))
-     (sha256 (base32 "1vc564yrm7rn6hkbn2xryhvdxbxd5jmwad0rjm2v5bri4ky233gr"))))
+           (commit "291d8ee6fff95d10da528bd72cf2257e0e6348d0")))
+     (sha256 (base32 "07qnan7pyzlp19mzwhb8sx39ypqn2bay1rqv7j4w25r2rs0gk32c"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -42009,7 +42009,7 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260321.232")
+   (version "20260321.802")
    (source
     (origin
      (method git-fetch)
@@ -42973,14 +42973,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260320.1646")
+   (version "20260321.1139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "1d63d04dd95a12473c737f12cda85be1ea526098")))
-     (sha256 (base32 "1g6x7dzh0gaxjac5ipaxq4a1zdw9v969b6q2yn9pqpsv8np234xa"))))
+           (commit "a455c950ee9dd2816e6eb5ca56bf9cf20632afa0")))
+     (sha256 (base32 "1rzvk182hsnyc2vrll47c5bxps2p563zr5hj9sma6c65visvakwr"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -60373,14 +60373,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260320.2326")
+   (version "20260321.1239")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "f66b6562c645c227f5aa62fe35671b777ec2e8a9")))
-     (sha256 (base32 "0wfp86yd5xkqz5pxij41lly5016z9yf7sx19fx19vi3vcn9kk4b5"))))
+           (commit "00e03f4fc43c6be55577f74828d404787be56919")))
+     (sha256 (base32 "1mqdj816fi3w3b3g9bzixg6znm27pl1wa9j1132rdadlrkm68n62"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63998,14 +63998,14 @@
 (define-public emacs-modalka
   (package
    (name "emacs-modalka")
-   (version "20230606.1357")
+   (version "20260321.729")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrkkrp/modalka.git")
-           (commit "dad592fdff68b9d0de0d9a0dd0ca9e039dd74d64")))
-     (sha256 (base32 "02vkibi3k3j4j19iz9crknkaw8d9cl9iq4i81rr0ixlw42gxxw45"))))
+           (commit "2de5bedc764e318b44dda5e9b70a234432245011")))
+     (sha256 (base32 "00n2a4k652g8grs8iliq807z5skf1rdlbk5aahfilw9lj98c3y2z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrkkrp/modalka")
    (synopsis "Modal editing your way")
@@ -70534,14 +70534,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260320.1842")
+   (version "20260321.1056")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "70a14b151adf5c9296bcbdbb23117b47ce123f0f")))
-     (sha256 (base32 "0qk5i90x4fbkf2hfb9zlspixndqh91r88dwqyhjfddwl5jfcpybn"))))
+           (commit "1f56ea2e1d729951c21842f1b48a3ec98ea11d19")))
+     (sha256 (base32 "0yi72kdlmq2wad8gjbq4zd9pb7kfbrdh6wj9s29law3niby8fwq4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -72962,14 +72962,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260320.1953")
+   (version "20260321.1502")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "ec62deb3903eb8c2053fd4283308c8f9bb03a18b")))
-     (sha256 (base32 "1d2qk8039zs0qh66mz3l1f9a0m7a3v8r9h8v7mgvy4iyxk50z2yv"))))
+           (commit "c7a805a19c6ce967daebd80ff269c438059d1a38")))
+     (sha256 (base32 "00vkfkvk1vf5fxjwjn38h7s9wmiydr9iwv7nmiihh9sbmrn5zcq5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -73525,14 +73525,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260320.901")
+   (version "20260321.1038")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "2c6afef0b55c5e6d8999b6f3ceab4a9061fec79e")))
-     (sha256 (base32 "0pbw4j8cyxahbpgd6wsj4jxaygxwsb0fy7cmm0zxq3dlpr2lykiy"))))
+           (commit "e1e77f4bd81398eaa64bf9f95ccd8c5c54d19d0d")))
+     (sha256 (base32 "08m4h3kr1rgfsxaxfm66pk6qdzwnj6izhgk9hxwld2vnxz7sdgz1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -99831,14 +99831,14 @@
 (define-public emacs-toml
   (package
    (name "emacs-toml")
-   (version "20260321.110")
+   (version "20260321.1321")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gongo/emacs-toml.git")
-           (commit "8ae603269b7c95bff4299d80f84d262a4672a829")))
-     (sha256 (base32 "118gg6a40d63l1l7kcakz0y5bn8rnp0rrbix269syfg0dj1s026j"))))
+           (commit "77d7ef684515c1b93ae23f52c450e7496ac4eb14")))
+     (sha256 (base32 "0kk2g1a2mry56sfagr6k70pmr3s2idppc2552z1x4p9k9crpz7fk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gongo/emacs-toml")
    (synopsis "TOML (Tom's Obvious, Minimal Language) parser")
