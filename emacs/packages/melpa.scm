@@ -1787,7 +1787,7 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260321.46")
+   (version "20260321.144")
    (source
     (origin
      (method git-fetch)
@@ -9623,14 +9623,14 @@
 (define-public emacs-ccc
   (package
    (name "emacs-ccc")
-   (version "20210501.820")
+   (version "20260321.408")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skk-dev/ddskk.git")
-           (commit "f81ed803e617ccd8175d4bf57a3062bc5ffe1945")))
-     (sha256 (base32 "1m15h0qhgavv9cbhxax8rfrpbbgfkx43212m51cj6756djhsx9ai"))))
+           (commit "af3e22463dac6253648b13ad6fa68ba92d706d4e")))
+     (sha256 (base32 "1h2884hqwfz3nw6r7lnwpw4b11pkk438dr4k47kmk8pwxgx24x1m"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("ccc.el")))
    (home-page "https://github.com/skk-dev/ddskk")
@@ -18505,14 +18505,14 @@
 (define-public emacs-ddskk
   (package
    (name "emacs-ddskk")
-   (version "20241227.2223")
+   (version "20260321.408")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skk-dev/ddskk.git")
-           (commit "f81ed803e617ccd8175d4bf57a3062bc5ffe1945")))
-     (sha256 (base32 "1m15h0qhgavv9cbhxax8rfrpbbgfkx43212m51cj6756djhsx9ai"))))
+           (commit "af3e22463dac6253648b13ad6fa68ba92d706d4e")))
+     (sha256 (base32 "1h2884hqwfz3nw6r7lnwpw4b11pkk438dr4k47kmk8pwxgx24x1m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ccc emacs-cdb))
    (arguments
@@ -42009,14 +42009,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260319.737")
+   (version "20260321.232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "bbfbd711fae64b079f7057d71772805edeb00a3d")))
-     (sha256 (base32 "1f0j8r8iw1c00vqxlz63gisgxzjxb9cf6v8534njxivfny5c42m4"))))
+           (commit "ad619463d1a9cb466b8dd575cc905f2554886cd7")))
+     (sha256 (base32 "16qb8br9k1q5iv4lnswr3l5li7x3267sl1yab7yg0yzhm0f5l3f6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -61595,14 +61595,14 @@
 (define-public emacs-markdown-mode
   (package
    (name "emacs-markdown-mode")
-   (version "20260315.350")
+   (version "20260321.143")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jrblevin/markdown-mode.git")
-           (commit "877d943cc344661c85b222a6c60737f4cc816084")))
-     (sha256 (base32 "0yglw0768zrpzk4fs1vpy0mwis27sb3595p0xwnd7d5l404dnvwj"))))
+           (commit "182640f79c3ed66f82f0419f130dffc173ee9464")))
+     (sha256 (base32 "19svykiccp3ciy660askqb62xvwlgirh9gsbsa0byxqhqr2v454z"))))
    (build-system melpa-build-system)
    (home-page "https://jblevins.org/projects/markdown-mode/")
    (synopsis "Major mode for Markdown-formatted text")
