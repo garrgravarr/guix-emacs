@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260319.2358")
+   (version "20260320.1920")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "62f12d077522d1f80f5b06bf28a31d292ec24a3d")))
-     (sha256 (base32 "1cad2s21jfia9smm7m5avgrggxx312vw5cakpi1f44hbbf2c36ya"))))
+           (commit "de0db122d1d57d5fd7e2c1853faf411456382235")))
+     (sha256 (base32 "1v1nviwa5m98wi53w8dniwza9xd7ydaakjsy5vwrrbnbfkyas4iz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260320.1424")
+   (version "20260321.46")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "db8ae5ad4d94c1af3cde2ce7861f26d6013a3fbb")))
-     (sha256 (base32 "0rswy18dladk0r4lhn4rps6wax90pzdpcpad7jqxc3fjfpbvx22z"))))
+           (commit "0c33fc7311d8c5bdb0b7d118853d3f19e3268bff")))
+     (sha256 (base32 "1lhkmqhnc1gk6vpqwwkb31lhrzgny1y27qjkza0z9ig9m3hrphmm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -9446,14 +9446,14 @@
 (define-public emacs-casual
   (package
    (name "emacs-casual")
-   (version "20260303.11")
+   (version "20260320.2158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/casual.git")
-           (commit "0b04ad703efad2a53a3c756c02784e819d0f8b4e")))
-     (sha256 (base32 "1nf1n921bml896n2r9jxgin4aha21lj7nh5b9xalzxw16wwswx72"))))
+           (commit "c8d6ec4165220d2de9fca742f3be254deec312c1")))
+     (sha256 (base32 "1pfq7pzx3gp466x5xqi2kn1j2jlqfqyh2x1k4gk11d07iqmp5sjr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-csv-mode))
    (arguments '(#:files (:defaults "docs/images")))
@@ -33589,14 +33589,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260224.1923")
+   (version "20260320.1715")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "02b3c394b7c95faa0dbea897d5133c87695a7695")))
-     (sha256 (base32 "1wqcsink94vgwfj7d1axm1sqvc5ybxgwdvly65acyi30zz9ylzi0"))))
+           (commit "0e5eb8300d32fd562724216c19eaf199ee1451ab")))
+     (sha256 (base32 "0jzzx3hhvb4rmqvavzkw3gnf3csczng1imgfk019pd30pj2wrxbd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -42973,14 +42973,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260319.710")
+   (version "20260320.1646")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "bf357646d9c1333d719a1dd99566db315daeec2a")))
-     (sha256 (base32 "1idh5nkxlgv5rp8b3lljjjq72ai6d34v7jv0igi8fbyczvlklh9m"))))
+           (commit "1d63d04dd95a12473c737f12cda85be1ea526098")))
+     (sha256 (base32 "1g6x7dzh0gaxjac5ipaxq4a1zdw9v969b6q2yn9pqpsv8np234xa"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -60373,14 +60373,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260320.956")
+   (version "20260320.2326")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "735d96f8081b970edba6e40de6d7a7db8452b4f9")))
-     (sha256 (base32 "1g3g1ckrlpf0g9g95i533s4j25549r5d3vkrlypsg8mx730h0dmd"))))
+           (commit "f66b6562c645c227f5aa62fe35671b777ec2e8a9")))
+     (sha256 (base32 "0wfp86yd5xkqz5pxij41lly5016z9yf7sx19fx19vi3vcn9kk4b5"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -66636,14 +66636,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260320.726")
+   (version "20260320.1754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "09fbd4bf0254b1f1f8d6fe7021d1d41293862d7a")))
-     (sha256 (base32 "1gilm81mww214w727pa3c3yab5y3v3m32hldm5ijbn53hj4z8b7p"))))
+           (commit "458f4c18b4c4b94c9b3512b6fae56d87e316423c")))
+     (sha256 (base32 "1gdl1380x8bm07a14j6f5rqh7f2m8qn3ajjkvc342q9592vrlhbf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -70534,14 +70534,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260320.1252")
+   (version "20260320.1842")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "066f6c22ffa5a0abe7af06e0e953797d4906fb4e")))
-     (sha256 (base32 "1r8y9kf0j7ikwcdz8pjz2sb1kp9817hqzpx17a3z07qhhdm3gm3h"))))
+           (commit "70a14b151adf5c9296bcbdbb23117b47ce123f0f")))
+     (sha256 (base32 "0qk5i90x4fbkf2hfb9zlspixndqh91r88dwqyhjfddwl5jfcpybn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -72962,14 +72962,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260318.1645")
+   (version "20260320.1953")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "fa60c3a7a272ad4227337827f17c13d3cf970b33")))
-     (sha256 (base32 "1wrw9y7ch461gw8zqwxsc546bx1madagmammmnbz9xdmqg5m3x1l"))))
+           (commit "ec62deb3903eb8c2053fd4283308c8f9bb03a18b")))
+     (sha256 (base32 "1d2qk8039zs0qh66mz3l1f9a0m7a3v8r9h8v7mgvy4iyxk50z2yv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -75665,14 +75665,14 @@
 (define-public emacs-orgtbl-ascii-plot
   (package
    (name "emacs-orgtbl-ascii-plot")
-   (version "20260126.1121")
+   (version "20260320.2046")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgtblasciiplot.git")
-           (commit "e9583daf44a9b1c88e767aa792527e6f21acb0a4")))
-     (sha256 (base32 "0b9b9fk1h4wifl2x2s6s9jdvmkw18r0c4jgw643jlf9zwkb4l696"))))
+           (commit "8d8959d54343e93f7e578daa34ac315ece9ef8aa")))
+     (sha256 (base32 "1cpsksd05z1fh70wq8mrq2x7z7j978w3aj2avvf2d55pwq64b7g9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgtblasciiplot")
    (synopsis "Unicode-art bar plots in org-mode tables")
@@ -79749,14 +79749,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260318.2333")
+   (version "20260320.1921")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "ee17ad8a1a757912238092771c96d59a9663000b")))
-     (sha256 (base32 "1892s2iqbpd2xx5sa9ykk512xc753n8vsjw7dqzdvml6nxpg0fv1"))))
+           (commit "7af3b13983167f4cd4ee7e4bbea3a2b18468ee69")))
+     (sha256 (base32 "0lqymyq16bc4vdyidznry5ww725n2zh34x1rq9mkcxlg3knsgffy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -86971,14 +86971,14 @@
 (define-public emacs-repo-grep
   (package
    (name "emacs-repo-grep")
-   (version "20260318.2120")
+   (version "20260320.1828")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/BHFock/repo-grep.git")
-           (commit "a2908fda33afd2b72dea645702568aa9f013b731")))
-     (sha256 (base32 "1p7mz0mbkz9l3xmlf4hyisprq3mfxivkzm9jcfhg9mcbg49023iy"))))
+           (commit "5565cf5fa21aa3bb684ee55ccd89f5b3ac7ec897")))
+     (sha256 (base32 "0iry39vngc77xnhx57njy5rpmzwpqi6rjjszi2rk4fy89iqv5zyk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/BHFock/repo-grep")
    (synopsis "Project-wide grep search")
@@ -95250,14 +95250,14 @@
 (define-public emacs-stan-ts-mode
   (package
    (name "emacs-stan-ts-mode")
-   (version "20260320.1433")
+   (version "20260320.1817")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/WardBrian/stan-ts-mode.git")
-           (commit "8cc2b9680bf9f3fef7d740eb8115764510803f61")))
-     (sha256 (base32 "0rq4hfg4i4prlj5g0sbmmd2pbks8v7azwdj8864y6ihqdwa98ag6"))))
+           (commit "14e85d2dd8930935899db4c3156db21c7980c613")))
+     (sha256 (base32 "1d2j27sxqaxha0ibhi2g043g221r0cws8clhsv0xdvnz1nl81vqs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/WardBrian/stan-ts-mode")
    (synopsis "Major mode for editing Stan files")
@@ -99831,14 +99831,14 @@
 (define-public emacs-toml
   (package
    (name "emacs-toml")
-   (version "20260316.1129")
+   (version "20260321.110")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gongo/emacs-toml.git")
-           (commit "141a5f24ac6e727955393f749217c46c9c497087")))
-     (sha256 (base32 "1qasp94yi76xwf98nvcjvbyak1325ighcc6ffa7b9j2sk07897v7"))))
+           (commit "8ae603269b7c95bff4299d80f84d262a4672a829")))
+     (sha256 (base32 "118gg6a40d63l1l7kcakz0y5bn8rnp0rrbix269syfg0dj1s026j"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gongo/emacs-toml")
    (synopsis "TOML (Tom's Obvious, Minimal Language) parser")
@@ -100400,14 +100400,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260317.1412")
+   (version "20260320.2319")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "c8e4251fd165acd32e014e6310f2219991bea357")))
-     (sha256 (base32 "030ppzwfwi32d1rcx3qd77yk5vfx9g2vfx1cj78i6z6ysrxcd50w"))))
+           (commit "adaf4e06e541745216bfabf8c4af1812f15ae7d1")))
+     (sha256 (base32 "0gbhiy8lzvd5hn0ngsh1dgqr3kl79s5mgccdccqh8px83l2qa5wg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/magit/transient")
