@@ -1787,7 +1787,7 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260322.29")
+   (version "20260322.123")
    (source
     (origin
      (method git-fetch)
@@ -42973,14 +42973,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260321.1139")
+   (version "20260322.638")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "a455c950ee9dd2816e6eb5ca56bf9cf20632afa0")))
-     (sha256 (base32 "1rzvk182hsnyc2vrll47c5bxps2p563zr5hj9sma6c65visvakwr"))))
+           (commit "51dd5e6e2874c633e507041c5c3bd4fa054d4d1f")))
+     (sha256 (base32 "0ggv9d61lvr3v3m2qmn2xspz68s5aihxx67gsiv93zwds7swn8bv"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
