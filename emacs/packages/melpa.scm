@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260322.123")
+   (version "20260322.1401")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "5a0461aa38b1a3bdc8a6a863bd0525eed261f97d")))
-     (sha256 (base32 "008mnsp4kczyrccdn47swlip8sv1lm9xc6dw2976xsnmflx0rqs4"))))
+           (commit "38d8f8c6a204c3958eec3903170664716e67e9b5")))
+     (sha256 (base32 "1vh5ncph3czzv4k2fdwr83gv0c72bknvxa0gb04j0ndj9adkp415"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -9623,14 +9623,14 @@
 (define-public emacs-ccc
   (package
    (name "emacs-ccc")
-   (version "20260321.408")
+   (version "20260322.1316")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skk-dev/ddskk.git")
-           (commit "af3e22463dac6253648b13ad6fa68ba92d706d4e")))
-     (sha256 (base32 "1h2884hqwfz3nw6r7lnwpw4b11pkk438dr4k47kmk8pwxgx24x1m"))))
+           (commit "9189bbd2615fbc71fab89b743f80c2e890a900e6")))
+     (sha256 (base32 "0g0n9fy7lfnd8mmcblqagk10a8wwxjrv1q24vvp3556xnimwc2gl"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("ccc.el")))
    (home-page "https://github.com/skk-dev/ddskk")
@@ -18505,14 +18505,14 @@
 (define-public emacs-ddskk
   (package
    (name "emacs-ddskk")
-   (version "20260322.8")
+   (version "20260322.1431")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skk-dev/ddskk.git")
-           (commit "240fb05f4edf07f221d074f00eb5f593dad86150")))
-     (sha256 (base32 "086nkk81sjr2njkpznxdlyrqj3ih4zs95cnrr2j444gmvy0dbgp7"))))
+           (commit "9189bbd2615fbc71fab89b743f80c2e890a900e6")))
+     (sha256 (base32 "0g0n9fy7lfnd8mmcblqagk10a8wwxjrv1q24vvp3556xnimwc2gl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ccc emacs-cdb))
    (arguments
@@ -40587,14 +40587,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260322.34")
+   (version "20260322.854")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/gnosis")
-           (commit "73ae9e319758a3e63d397bb89c8e178ababcb83a")))
-     (sha256 (base32 "17rhdqd1vaq55x26c2dqk5d3f6q98kaqvcr86961wkqjzn1bdck1"))))
+           (commit "b9b5c8fee97a1590a2d19645975cbe5be9bf032b")))
+     (sha256 (base32 "1npg1992knjcsijh13r250pyh4kvj5lakjh8r74mv27yn490wkak"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://thanosapollo.org/projects/gnosis")
@@ -42009,14 +42009,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260321.802")
+   (version "20260322.840")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "ad619463d1a9cb466b8dd575cc905f2554886cd7")))
-     (sha256 (base32 "16qb8br9k1q5iv4lnswr3l5li7x3267sl1yab7yg0yzhm0f5l3f6"))))
+           (commit "4bb9d41e249d7fb00220a05efa3991033597746a")))
+     (sha256 (base32 "1kwax77x8nxw0pi93md8hwg7a2xarhjcy76npiaq984xgb0ivzjj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -42027,14 +42027,14 @@
 (define-public emacs-gptel-agent
   (package
    (name "emacs-gptel-agent")
-   (version "20260318.709")
+   (version "20260322.909")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-agent.git")
-           (commit "33a391871596c997c3dbce7f9f14457a94dd6c3c")))
-     (sha256 (base32 "150bgsn1849y2p1hdkcyllvj59inydwhfqi0m2jwsw0jy0gk7qz8"))))
+           (commit "79686c56a1a07a8897301ae043d06c6e87084f7e")))
+     (sha256 (base32 "1yrhmr8yivqzx7gc7598l33ngd55c2r1x7hp8a96aczgj8i8k39n"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-gptel emacs-yaml emacs-orderless))
@@ -42973,14 +42973,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260322.638")
+   (version "20260322.1034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "51dd5e6e2874c633e507041c5c3bd4fa054d4d1f")))
-     (sha256 (base32 "0ggv9d61lvr3v3m2qmn2xspz68s5aihxx67gsiv93zwds7swn8bv"))))
+           (commit "c5585927b5d5c81e876027b85df483b3dbdebcfa")))
+     (sha256 (base32 "0l8lxc82mvmsv6kqh39idckz5zjkch9kp6dckzzi91q83fn86wda"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -48840,16 +48840,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260321.1826")
+   (version "20260322.541")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "1rw7361q9m9k7rvbww10saa6igdhxd3ampcflzxbigjsvyc5rwdz"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "5479da6dadf5dc4c2b8833dc269bd06110dc63c4")))
+     (sha256 (base32 "1b6sj0b9knvncjdxr7wg18yx4yf5kbgbbsjvzc40wrffpx0q3cid"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -75187,14 +75225,14 @@
 (define-public emacs-org-web-track
   (package
    (name "emacs-org-web-track")
-   (version "20260215.734")
+   (version "20260322.1122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/p-snow/org-web-track.git")
-           (commit "2c4215499c0851e85b480bc19e96a236fb9af8f1")))
-     (sha256 (base32 "1al99lixw56yg5wvg6x3rvclkvfncgs6rz6ry6iniam62pdhp80s"))))
+           (commit "d61668bb9059da8c6d1e69ce980a14ca9da137dc")))
+     (sha256 (base32 "06640x9bc1dw3csc1jizbd1pydbf7ml1s9gv0r8vl3wi0yc84d1f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request emacs-enlive emacs-gnuplot))
    (home-page "https://github.com/p-snow/org-web-track")
@@ -90056,17 +90094,17 @@
 (define-public emacs-selected-window-contrast
   (package
    (name "emacs-selected-window-contrast")
-   (version "20260315.1748")
+   (version "20260322.1411")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/Anoncheg/selected-window-contrast.git")
-           (commit "4b0e0c42ca343051fd2924b32a47b8c9179432a8")))
-     (sha256 (base32 "1vpximcsa5kdgq67cagk1zbzyhbgy4cl2m7pbpr0ry64ql2q3bni"))))
+           (commit "be44b9b41402d7beaf56fe3aef27fe3f0f54910c")))
+     (sha256 (base32 "0brwzzaq1g5aixg6nq6q6z4ir0vq36galbgdfaz9pgj0h6pm9n03"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/selected-window-contrast")
-   (synopsis "Highlight by brightness of text and background")
+   (synopsis "Highlight window and cursor at switching")
    (description
     "Documentation at https://melpa.org/#/selected-window-contrast")
    (license #f)))
