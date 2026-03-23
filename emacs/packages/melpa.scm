@@ -58115,14 +58115,14 @@
 (define-public emacs-lisp-chat
   (package
    (name "emacs-lisp-chat")
-   (version "20260315.225")
+   (version "20260323.206")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ryukinix/lisp-chat.git")
-           (commit "1479a989508f2963f7b773b9133fbe1d34d559c4")))
-     (sha256 (base32 "0agxcwjh2ri459zc1b4lxn8r3nm66zmckq694s4xphszp5fs3sqr"))))
+           (commit "cff980c915db1e47d3090c212050b7598d15daca")))
+     (sha256 (base32 "02fiyky63z4zr6x4xyf72d457f4x8fqraax3lk13zwjlxv1nn2xd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-websocket))
    (arguments '(#:files ("emacs/lisp-chat*.el")))
@@ -59661,14 +59661,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260316.2146")
+   (version "20260323.549")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "197f56bf7a38b564cc5dec26d66b5f494da39783")))
-     (sha256 (base32 "1r0ndan2z1j46bp46x3dfszmc13v8l846izjf0ai0988hgb5cvwv"))))
+           (commit "9a2513cb40cb7daac87efcc63f35c7e066681808")))
+     (sha256 (base32 "1fny7qq5z4rxyyly3vk9wa1dyakp4nkww8f3wm9czbzc8xrggp95"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -69575,14 +69575,14 @@
 (define-public emacs-ob-mermaid
   (package
    (name "emacs-ob-mermaid")
-   (version "20260120.601")
+   (version "20260323.559")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/arnm/ob-mermaid.git")
-           (commit "4f814ad5e1b96764af52d53799288ff3acc94b47")))
-     (sha256 (base32 "0r9ky57w9d8lrqw3h9i1skp2ps5gjnf5nw4raqr1q6sg1imy5p7j"))))
+           (commit "30c2da02e3d24dbec0d004d3c6dfe7b381500b05")))
+     (sha256 (base32 "09mhzj1x4zvfj9yik71rcnk02rlidq2si018ah9iwy93r49hdslv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/arnm/ob-mermaid")
    (synopsis "Org-babel support for mermaid evaluation")
@@ -70625,14 +70625,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260321.1056")
+   (version "20260323.729")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "1f56ea2e1d729951c21842f1b48a3ec98ea11d19")))
-     (sha256 (base32 "0yi72kdlmq2wad8gjbq4zd9pb7kfbrdh6wj9s29law3niby8fwq4"))))
+           (commit "a525cf54f3000a511047b2369fb72d0ca69f9ed1")))
+     (sha256 (base32 "1h05274s89pafm8xi38h96xm280n82amcrx5vdn8179z7yjcyyvh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -73053,14 +73053,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260322.1946")
+   (version "20260323.730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "a18b7f8c3357e984e356f461708ff77d341d2126")))
-     (sha256 (base32 "186ndzn6l6s8c5wl7phdmqxk19glmjarkjfpvr734dz6q1py4bv9"))))
+           (commit "419ba4b842a1d0a6bd3f9dbb2a376dfda4f4be76")))
+     (sha256 (base32 "1755pxa6h3xi16fi5qgf6cvvipxgi1qj3rs3d4fy6n96jqxp3fqv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -74212,14 +74212,14 @@
 (define-public emacs-org-roam-ql
   (package
    (name "emacs-org-roam-ql")
-   (version "20260320.0")
+   (version "20260322.808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ahmed-shariff/org-roam-ql.git")
-           (commit "a1ce63cabf6a9352098750fcbc4a719f676717be")))
-     (sha256 (base32 "022dwbi8vc04ylrmh3nqs55smgkpkf3dz77bzpam3hx4zibjqzgw"))))
+           (commit "e0174bdcadb2e9869d810b5756bea50f2109fb78")))
+     (sha256 (base32 "1y8c11zkqmpmhkx66j5jk4cgr7yymnvr6rd7zn4bhahcfn0yh4r0"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-org-roam emacs-s emacs-magit-section emacs-dash))
@@ -74232,14 +74232,14 @@
 (define-public emacs-org-roam-ql-ql
   (package
    (name "emacs-org-roam-ql-ql")
-   (version "20251030.2042")
+   (version "20260322.808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ahmed-shariff/org-roam-ql.git")
-           (commit "cdf6b11279783346607542dfac07c74d8651a650")))
-     (sha256 (base32 "1g91khfa5gmj0n52rr1zw42c6acv4djxvwcmndkf4px549h6mvh0"))))
+           (commit "e0174bdcadb2e9869d810b5756bea50f2109fb78")))
+     (sha256 (base32 "1y8c11zkqmpmhkx66j5jk4cgr7yymnvr6rd7zn4bhahcfn0yh4r0"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-org-roam-ql emacs-org-ql emacs-org-roam emacs-s))
