@@ -6605,14 +6605,14 @@
 (define-public emacs-bibtex-utils
   (package
    (name "emacs-bibtex-utils")
-   (version "20190703.2117")
+   (version "20260323.1346")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/plantarum/bibtex-utils.git")
-           (commit "26a8f0909b6adbf545a2b5e57ce7f779bf7a65af")))
-     (sha256 (base32 "19p9v49j7yq41wifw34nwxhqnv18zjqzy6z8xbwm1j7fn78lafk3"))))
+           (commit "1b25796ac9e6546b46daea861f1bf3d3031cebca")))
+     (sha256 (base32 "0ghna8v0nb9vrh6251yzqcqlc1x3qilwg2y5g4qpqipkh1aqnhkd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/plantarum/bibtex-utils")
    (synopsis "Provides utilities for extending BibTeX mode")
@@ -11847,14 +11847,14 @@
 (define-public emacs-clojure-mode
   (package
    (name "emacs-clojure-mode")
-   (version "20260318.1740")
+   (version "20260323.1359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clojure-mode.git")
-           (commit "9b6098e276f16a8f57dada1a4f93016df9409314")))
-     (sha256 (base32 "09g6syjfprm1y0izm5s466p7wqzbyvi5rp2l54fl34lxa6bjhly8"))))
+           (commit "dd25ae76c52e22da577239d8238d506197062d72")))
+     (sha256 (base32 "0g5xq94kv8wymvy69kcf3wlffl0a8n0jr0mv69a2y36x1ay2laaf"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("clojure-mode.el")))
    (home-page "https://github.com/clojure-emacs/clojure-mode")
@@ -14386,14 +14386,14 @@
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
-   (version "20260320.121")
+   (version "20260320.159")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/compile-angel.el.git")
-           (commit "ebb50b50122ff373e850e7f95b1873e7a4a19f85")))
-     (sha256 (base32 "02lasff691gx0kykamqkfv9rn9agz22446q32ws5qvz4qr6nh6ph"))))
+           (commit "bb7520e8a1c0a13224515c9358c857ad972a0e72")))
+     (sha256 (base32 "0kkw7pq3m0k5cyy3kgi53r06l2jqvb0jl4p9lkpa2hskgdhv8frn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/compile-angel.el")
    (synopsis "Automatically Compile Elisp files (auto-compile alternative)")
@@ -18540,14 +18540,14 @@
 (define-public emacs-ddskk
   (package
    (name "emacs-ddskk")
-   (version "20260322.1929")
+   (version "20260323.1222")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skk-dev/ddskk.git")
-           (commit "c2b0f8874dbba9a884c3a273e0cab0a132e4418c")))
-     (sha256 (base32 "0gzqihjjqhvviflassaxfz5nhmc2s4ikxmjxs5flqy8vsjvmih8x"))))
+           (commit "e1171f53c89cce1ebc1e1cd3a6555cd01f20dc56")))
+     (sha256 (base32 "1yg32p07m4cdzd1r4inf3jp2iq4dqs3fxh5diqmcdj1hsv5ckkki"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ccc emacs-cdb))
    (arguments
@@ -25096,14 +25096,14 @@
 (define-public emacs-eldoc-mouse
   (package
    (name "emacs-eldoc-mouse")
-   (version "20260318.1025")
+   (version "20260323.1040")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/huangfeiyu/eldoc-mouse.git")
-           (commit "0fdde5461ecf688f75b8b379713b335d25af81f8")))
-     (sha256 (base32 "1gpxd4njbk38z0p8qv8bm7g5zv88x0045czgv1fpc5nzsvbd5jkd"))))
+           (commit "fed51f5dd9789e1758c73560315ea5c7659370e6")))
+     (sha256 (base32 "088668kpbrhafgrlzfhqwjkay0waxnlqaqv00acacvk3c2nnacbj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/huangfeiyu/eldoc-mouse")
@@ -28205,14 +28205,14 @@
 (define-public emacs-erlang-ts
   (package
    (name "emacs-erlang-ts")
-   (version "20260318.902")
+   (version "20260323.927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erlang/emacs-erlang-ts.git")
-           (commit "51dbcf1cf80a9dcc01fff9c1f338bde6ca21de47")))
-     (sha256 (base32 "1jcj0f4i21xr2p8j03krbcxg376qxkw9nai45hxjjf9z99xr7227"))))
+           (commit "40181f7af005cbfed20a942a901ebc360743b56e")))
+     (sha256 (base32 "1r0pxi732ldr3l9pd488ifl8k0v8vgap70skcgn6xn1f9x7rb4y2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-erlang))
    (home-page "https://github.com/erlang/emacs-erlang-ts")
@@ -32927,14 +32927,14 @@
 (define-public emacs-firstly-search
   (package
    (name "emacs-firstly-search")
-   (version "20260220.2320")
+   (version "20260323.745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/firstly-search.git")
-           (commit "3d4599dcda4a2f761212ef5107260013ad73c101")))
-     (sha256 (base32 "1h9pi3aa1yjkprnjblgcarrl4k3jmjhc3mk84dpyr8s8ydvgybbs"))))
+           (commit "a6d8140295783b94cc6e5eef25ac8913a2b9b9f2")))
+     (sha256 (base32 "1j9mr6xmhhwady3qjwk3r1xas4g2wcjfn4q6hjh8pjiq5c8a1z3r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://codeberg.org/Anoncheg/firstly-search")
@@ -43336,16 +43336,16 @@
 (define-public emacs-hackernews-modern
   (package
    (name "emacs-hackernews-modern")
-   (version "20260223.1814")
+   (version "20260323.839")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/andros/hackernews-modern-el")
-           (commit "e4dc1a42d1db3215fa9d778d4cafb1f527c73dad")))
-     (sha256 (base32 "0vmygdr5n16832ycmr4b1az5rs2jsydnqghv0ikj5fp136iz78mq"))))
+           (commit "a90b247e9ed007b1e9e0a5ef77c08670ba0a3953")))
+     (sha256 (base32 "0qcwnj6zmc4wwnij7pgvd74abxnhfms1cyv06gif3gsg8lxvsznr"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-visual-fill-column))
+   (propagated-inputs (list emacs-visual-fill-column emacs-async-http-queue))
    (home-page "https://git.andros.dev/andros/hackernews-modern-el")
    (synopsis "Hacker News client with modern widget UI")
    (description "Documentation at https://melpa.org/#/hackernews-modern")
@@ -48893,54 +48893,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260322.1818")
+   (version "20260323.452")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "ff2dba3689e88ff67659b97b2acdb57ee195beb1")))
-     (sha256 (base32 "11cbgiqjy8apyyzky6i9win2z1bzvpprixj5mb68iy0ipsld1jkj"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "00zsiixm8vn1q832jbjjpd9lkbpgwrppj54l000gqj5n25yx093d"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -55657,14 +55619,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260310.1418")
+   (version "20260323.1500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "eeef195026371caadd9b0c0097c5c9e6e73bbebe")))
-     (sha256 (base32 "0fvwzr9r4bwmknwgmwbkinn2hj1k97pb8wn2ja7yf6qhxwin2fhf"))))
+           (commit "f10d72e07cae3bcfac2e9ab70fd917966e7b4ad4")))
+     (sha256 (base32 "03p0adsls0hjrm1ah7czapps0dg730wdyai1c6w5yjnh09rfnmi6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -64961,14 +64923,14 @@
 (define-public emacs-mozc
   (package
    (name "emacs-mozc")
-   (version "20260128.821")
+   (version "20260312.122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/google/mozc.git")
-           (commit "f1152826f571b9386f98d3f9185fbb5fb42a2674")))
-     (sha256 (base32 "1zsd2ji3arqsh3d3yphc4l2vw8sxacdnvniq50kpwdkrmml2zq17"))))
+           (commit "b1d06d06fc998a7805abc96df9a82a726c09326d")))
+     (sha256 (base32 "0p2hqflkwaajncfpb6p0isc53nayr0ha699jd205ahypcm867ad9"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("src/unix/emacs/mozc.el")))
    (home-page "https://github.com/google/mozc")
@@ -70625,7 +70587,7 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260323.729")
+   (version "20260323.752")
    (source
     (origin
      (method git-fetch)
@@ -81893,14 +81855,14 @@
 (define-public emacs-pr-review
   (package
    (name "emacs-pr-review")
-   (version "20251016.1540")
+   (version "20260323.1418")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/blahgeek/emacs-pr-review.git")
-           (commit "d893429168b87003a99bf567932dce57fdac93fa")))
-     (sha256 (base32 "0i29wh319an1dpyal6wvzs4n0qsx75k08msz6nf2c588lpxcnaxf"))))
+           (commit "1bb67e6a10869ccef75812f421d35b0366d95cf5")))
+     (sha256 (base32 "0crwh6dkh4rp7wlphaw74mnw6dh851l7xm01i6prx5pil02nwcbd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-magit emacs-markdown-mode emacs-ghub))
@@ -90181,14 +90143,14 @@
 (define-public emacs-selected-window-contrast
   (package
    (name "emacs-selected-window-contrast")
-   (version "20260322.1411")
+   (version "20260323.829")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/Anoncheg/selected-window-contrast.git")
-           (commit "be44b9b41402d7beaf56fe3aef27fe3f0f54910c")))
-     (sha256 (base32 "0brwzzaq1g5aixg6nq6q6z4ir0vq36galbgdfaz9pgj0h6pm9n03"))))
+           (commit "62f316e4857adfde6ceab674b34635600f86de57")))
+     (sha256 (base32 "0a9xrak8phza67dhis2vvbv3kr7ph3mhhmsmnvg22kpsf7f6zbr7"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/selected-window-contrast")
    (synopsis "Highlight window and cursor at switching")
@@ -92089,14 +92051,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20250703.2055")
+   (version "20260323.1022")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "a1b76e5e58ff1d8bfa865d461b568fa2578d7d1a")))
-     (sha256 (base32 "0608271glcshsb1zjxbl7mpj5aaabrpj5dwhgis9w6hc3rn4529p"))))
+           (commit "c2bf81ae5251dbc2a4b72dc4532bca012b3112de")))
+     (sha256 (base32 "1zacra3474phz45q31kj461qv7pn8y5yncxcan50vbvg8bxmy4ky"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
