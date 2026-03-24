@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260322.1519")
+   (version "20260324.452")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "38d8f8c6a204c3958eec3903170664716e67e9b5")))
-     (sha256 (base32 "1vh5ncph3czzv4k2fdwr83gv0c72bknvxa0gb04j0ndj9adkp415"))))
+           (commit "4e260e54e0bea9b03eb7e7e7b9c7d90961bc89c9")))
+     (sha256 (base32 "0vmj76zkbvhmrhfcn5pn38dzplp5gm9n0cn18yssbzjp5g4x2rmf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -8240,14 +8240,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260319.2104")
+   (version "20260324.203")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "33ed3d87b233ea1892a2e43016da219e3288f9aa")))
-     (sha256 (base32 "0zmhw1g2sdgavs8mvhp7slzl1r82cwyr2b47fq7mqs8jxd6k3ys9"))))
+           (commit "ee855e7308d56bb63333099e35234520c4b108ec")))
+     (sha256 (base32 "1v8nw5v2x1543qiq1mpshqc9q7wakmnx537dkk1vi5pnqnxbivf1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -23395,14 +23395,14 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260318.1155")
+   (version "20260324.201")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/easysession.el.git")
-           (commit "94cb67a85b83f2d7a5f517bba3b020a31e1389e0")))
-     (sha256 (base32 "01w0ndy5cl3l48prijvhxvkd6l9dwxq4f18p7p38fizrs4wnpvms"))))
+           (commit "f4e9c836dfbbbd89f9f992ea9e8ba9c5e84e095b")))
+     (sha256 (base32 "07iwxp1fggajyjjmzc0d4w6sj73dk52309yvgrv40vbdrr58v1c1"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "extensions/easysession*.el")))
    (home-page "https://github.com/jamescherti/easysession.el")
@@ -31955,14 +31955,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260321.1202")
+   (version "20260324.408")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "291d8ee6fff95d10da528bd72cf2257e0e6348d0")))
-     (sha256 (base32 "07qnan7pyzlp19mzwhb8sx39ypqn2bay1rqv7j4w25r2rs0gk32c"))))
+           (commit "e541ce93411503bed5e25dca48e732d09e1fd90c")))
+     (sha256 (base32 "0hzdyjjnl8r394h3y13mnp0lcgkzzf73r2j7ycnnspnxwn4iav0r"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -40640,14 +40640,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260323.31")
+   (version "20260324.409")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/gnosis")
-           (commit "b9d5e0cb04be70d89e1a6682e00cd7d65696e3e1")))
-     (sha256 (base32 "17c13szhrixi1hiw5srja3q8fyr4bxzi8sdyj9d22y6y7cjqqq7r"))))
+           (commit "e939e9e3a97e5ae912afa3e8f392d6cbbbdfa99c")))
+     (sha256 (base32 "0r1wx35jf51cwdrkv5xfjm29jpdcfpscjvgf3mb8wpp0ymb0mxiy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://thanosapollo.org/projects/gnosis")
@@ -55657,14 +55657,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260323.1500")
+   (version "20260324.100")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "f10d72e07cae3bcfac2e9ab70fd917966e7b4ad4")))
-     (sha256 (base32 "03p0adsls0hjrm1ah7czapps0dg730wdyai1c6w5yjnh09rfnmi6"))))
+           (commit "7038a9dcfa7e2d8848817508777d8ad878756cfb")))
+     (sha256 (base32 "1j6l2nm5jv96636sz9w9yf32vcmkc5n9zylh6k1vf5gidgwlgxni"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -69433,14 +69433,14 @@
 (define-public emacs-ob-ipython
   (package
    (name "emacs-ob-ipython")
-   (version "20180224.953")
+   (version "20260324.859")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gregsexton/ob-ipython.git")
-           (commit "7147455230841744fb5b95dcbe03320313a77124")))
-     (sha256 (base32 "1a10fc2jk37ni5sjjvf87s5nyaz2a6h2mlj5dxh4dhv5sd3bb85p"))))
+           (commit "35414dccffe48ce70122c40ff5db0b74dfa82cdf")))
+     (sha256 (base32 "1gcbzxddg92v7jiinvghvfwj8dmcgp4649ygg9w233sw6b1xpr1d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-dash-functional emacs-f))
    (arguments '(#:files (:defaults "*.py")))
@@ -76236,14 +76236,14 @@
 (define-public emacs-outline-indent
   (package
    (name "emacs-outline-indent")
-   (version "20260314.1908")
+   (version "20260324.59")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/outline-indent.el.git")
-           (commit "812bc835cb45785e1d0f3bc88157bc4af11f55a8")))
-     (sha256 (base32 "1arfvfh8nk8957qmhd9cs5prh9pf15iqxq92n96iii84r1pa1v60"))))
+           (commit "85d1f66e82454829fcda5aa40334bb47be10586c")))
+     (sha256 (base32 "1r12xvlxr6mylz0jkc63hwdsapw73xcqvqry5xbyqc6d778m0zsz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/outline-indent.el")
    (synopsis "Folding text based on indentation (origami alternative)")
@@ -78865,14 +78865,14 @@
 (define-public emacs-pdffontetc
   (package
    (name "emacs-pdffontetc")
-   (version "20260323.200")
+   (version "20260324.158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacsomancer/pdffontetc.git")
-           (commit "9dd320f36af2ce917c77233b7458d5f849924930")))
-     (sha256 (base32 "0187sqcmwj9bpdzdaxyy9jygy83xbx9pcd787kkajd9b3j2nj9j6"))))
+           (commit "d73e73ea367b40a9972747024f6703304c6d5df0")))
+     (sha256 (base32 "139d6r3xj60iy7pjqihc46qzrpq6gcf5j2qjxw6fy217ndxgv1i6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-pdf-tools))
    (home-page "https://github.com/emacsomancer/pdffontetc")
@@ -84729,14 +84729,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260323.117")
+   (version "20260324.111")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "47b6004bddfd6e82f63f0ba02a99c399f5476f1b")))
-     (sha256 (base32 "1817vmfcfzvgk4m9wisxhlk3rhphz1hfvp2758n82dshssglfrs2"))))
+           (commit "97f88225b8f3b2d085253f3c32bdc7eec69731ac")))
+     (sha256 (base32 "0gica63gqx949rk12h7afp1b0cvbn4l866dvi2pnym76s9r9dn5j"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -100899,14 +100899,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260316.32")
+   (version "20260324.238")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "adddf398dd86631362fb7489bce10ef256d38f63")))
-     (sha256 (base32 "0j264b08sfg4zbwinr87mc9pg4ahcaxki21kf3mq1zqa65ld8645"))))
+           (commit "d897e616a6a5cc7f7524b9b2909484dcf51202cf")))
+     (sha256 (base32 "1by9m98ff0jz5xslc17zz18pj0p1r27frzqdmpdlz1404dq5xfyd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
