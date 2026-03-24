@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260324.452")
+   (version "20260324.1433")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "4e260e54e0bea9b03eb7e7e7b9c7d90961bc89c9")))
-     (sha256 (base32 "0vmj76zkbvhmrhfcn5pn38dzplp5gm9n0cn18yssbzjp5g4x2rmf"))))
+           (commit "578637a864f8bfbefee2c7020b2f75453d6d593e")))
+     (sha256 (base32 "1x0bhlaw4pi1yffw5h91hlvx5y68jg2hpdnd0w3q3rk9c0afk169"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -11847,14 +11847,14 @@
 (define-public emacs-clojure-mode
   (package
    (name "emacs-clojure-mode")
-   (version "20260323.1359")
+   (version "20260324.946")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clojure-mode.git")
-           (commit "dd25ae76c52e22da577239d8238d506197062d72")))
-     (sha256 (base32 "0g5xq94kv8wymvy69kcf3wlffl0a8n0jr0mv69a2y36x1ay2laaf"))))
+           (commit "d6a95682684940ca0d9aa31fd7d9a2b7c8c12e02")))
+     (sha256 (base32 "1f5nad9n5rw5xwbvq29w28y4pzz8ingib7kcpkx6npkzdbavl91y"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("clojure-mode.el")))
    (home-page "https://github.com/clojure-emacs/clojure-mode")
@@ -11922,14 +11922,14 @@
 (define-public emacs-clojure-ts-mode
   (package
    (name "emacs-clojure-ts-mode")
-   (version "20260317.731")
+   (version "20260324.1300")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clojure-ts-mode.git")
-           (commit "f036ed16733d0342c599e922413fe41c233455fa")))
-     (sha256 (base32 "0gw707wk9na4l3bsiilbsvwi9lb2bhl8j8kdpp91kmr0dmvnc9pr"))))
+           (commit "20913a1eb6aa3f251bcb72153092fd4a5aa81c99")))
+     (sha256 (base32 "103s16zgi9a0h4jqyp50sf4mgk1p6gvgamzp5l1l6rw5x08jvxj8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/clojure-emacs/clojure-ts-mode")
    (synopsis "Major mode for Clojure code")
@@ -18540,14 +18540,14 @@
 (define-public emacs-ddskk
   (package
    (name "emacs-ddskk")
-   (version "20260323.1222")
+   (version "20260324.1519")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skk-dev/ddskk.git")
-           (commit "e1171f53c89cce1ebc1e1cd3a6555cd01f20dc56")))
-     (sha256 (base32 "1yg32p07m4cdzd1r4inf3jp2iq4dqs3fxh5diqmcdj1hsv5ckkki"))))
+           (commit "7a559322820f9f6e0c947fa4e4b6e51cfdd0dfda")))
+     (sha256 (base32 "1mm0azir5avlznidj2m2bppiayql98jb4siz1rp1d3jcah2vhrg0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ccc emacs-cdb))
    (arguments
@@ -21920,14 +21920,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260318.1032")
+   (version "20260324.1111")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "1953aa47a45972cc01a32831abc64f8af42f27f6")))
-     (sha256 (base32 "1j8k5hbdkg4fsy0a47byfn73a7bqc4dnkysvrwzn5my7s71hf57d"))))
+           (commit "e3ad151fe958865cd4f25ce91feb88a9810d896d")))
+     (sha256 (base32 "1fg4vq3wavyb2zz7g7j7jhn6z8hczg000wy4rycmi9qgh9afd7gz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -23525,14 +23525,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260323.1755")
+   (version "20260324.1353")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "f143e3d62211395de843b6f1fdb3e97df126ad3e")))
-     (sha256 (base32 "151w1fkbm62md311z4a1n1m117r43mwfpinaqvmijpr3np6552ib"))))
+           (commit "a18106b02bf7f2e17cee5ee02313e49cb09ae11c")))
+     (sha256 (base32 "07620ch34ch2klviql363gpj6iwpsf4lka5dlg015yhf6f5knlmb"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -42708,14 +42708,14 @@
 (define-public emacs-grip-mode
   (package
    (name "emacs-grip-mode")
-   (version "20260213.1756")
+   (version "20260324.1109")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/grip-mode.git")
-           (commit "b8b9e603edbb258ab38a94a0518c4a8c7a22e53c")))
-     (sha256 (base32 "1y7vp6jsl62ijf01yvckm5d3w6jh4aj7bl0gv5dh81vrz8wlv5qy"))))
+           (commit "d2d27240d0150c00f0b9a5d7d840357e84d4728d")))
+     (sha256 (base32 "1x0r8zcblbzzjx9w192mygndga6qp4baq4xkyvsny121vifdb9za"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/seagle0128/grip-mode")
    (synopsis "Instant GitHub-flavored Markdown/Org preview using grip")
@@ -55942,14 +55942,14 @@
 (define-public emacs-korean-holidays
   (package
    (name "emacs-korean-holidays")
-   (version "20260131.1013")
+   (version "20260324.1431")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tttuuu888/korean-holidays.git")
-           (commit "9fffbad583cb1ad97bdc31ebf908cc663a1c4d29")))
-     (sha256 (base32 "03czdiznmy7car43v0niwfyi4vh5piyqbi0pkg94dgzzv3z8iskc"))))
+           (commit "d33e91b5c556384916ebee485d5b59a196b3c832")))
+     (sha256 (base32 "196zwc38dqwv9sbm689kaaad8r5bcgkcrw26r52f3i0l1k1cv1yk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tttuuu888/korean-holidays")
    (synopsis "Korean holidays for calendar")
@@ -73053,14 +73053,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260323.2157")
+   (version "20260324.1456")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "c25843d5b6d1d765be7397b3791a2f0962a07230")))
-     (sha256 (base32 "1zrgx6n7d51vc34bj3cnhgdrdf7ij18fmz4fcxiapmcjn31pypwm"))))
+           (commit "0bb6bfd474ab00c1a7254024329f5dde5c1499ae")))
+     (sha256 (base32 "1aw26ls03mavbbx8m24w26xp94mv76b6dni4cfpy3b37yq0wb7qs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -90181,14 +90181,14 @@
 (define-public emacs-selected-window-contrast
   (package
    (name "emacs-selected-window-contrast")
-   (version "20260323.829")
+   (version "20260324.1519")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/Anoncheg/selected-window-contrast.git")
-           (commit "62f316e4857adfde6ceab674b34635600f86de57")))
-     (sha256 (base32 "0a9xrak8phza67dhis2vvbv3kr7ph3mhhmsmnvg22kpsf7f6zbr7"))))
+           (commit "3e675bac6348adfb93e67a8259366dc085c6a49f")))
+     (sha256 (base32 "09dijl4jhl878mrbjyhqfpmih0mn0qj3zaaf6dr3nkbf6i69g10q"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/selected-window-contrast")
    (synopsis "Highlight window and cursor at switching")
@@ -90992,14 +90992,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260318.1948")
+   (version "20260324.1516")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "55f829d179608a3c4b11e86427713d5be7c4bb58")))
-     (sha256 (base32 "1qdgay3gh8nnimmhm9zyypfg5li4421my8gm725ixbb0giaz4p5l"))))
+           (commit "808bede99dc2c2d27c3dc69d5f363aade40e6f87")))
+     (sha256 (base32 "0rqaljgbzx2fz31nysarrwdn74hldw24j4i0zhhz06rlq9dz8dm2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -92089,14 +92089,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260323.1911")
+   (version "20260324.816")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "0601453c5c7d9a74449c1401a7f02be51b978497")))
-     (sha256 (base32 "1jpicl1apslq9z418yfsqgq6rfb8wmr583dmgg4v5q5srlfsd4fi"))))
+           (commit "c7ddf6c73c09fc50cb6aec0b111f33e41c234f5a")))
+     (sha256 (base32 "1xxcsg82hwwghiihjm93zz9862869nrvla69666jl69pd7q95ghz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -100542,14 +100542,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260323.23")
+   (version "20260324.1304")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "733c408d94aac9ca1660d14ff3aedc367abcd8ca")))
-     (sha256 (base32 "02xh0qkl7sa7z819s7lh50hjhqllab52zqbfflljyv8csjnqmgps"))))
+           (commit "63f907237d248681c876eff59d624bff9c936876")))
+     (sha256 (base32 "0x4jnnxpwb5azfdv5mvyi99bxnvzaj6rb8fbmgbgvdbn4f8ri3k1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/magit/transient")
@@ -100899,14 +100899,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260324.238")
+   (version "20260324.1019")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "d897e616a6a5cc7f7524b9b2909484dcf51202cf")))
-     (sha256 (base32 "1by9m98ff0jz5xslc17zz18pj0p1r27frzqdmpdlz1404dq5xfyd"))))
+           (commit "2100fb92dac04a3a6b6b891b6ddba9050922029f")))
+     (sha256 (base32 "1zjhj4zja793z4xwvyr5c1bipbdbz3hlwryajjybyqy79cg8fddm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
