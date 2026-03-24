@@ -12826,14 +12826,14 @@
 (define-public emacs-comint-histories
   (package
    (name "emacs-comint-histories")
-   (version "20260205.106")
+   (version "20260323.1914")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/NicholasBHubbard/comint-histories.git")
-           (commit "12cd14d64d7396def51397ca1f0756357afd41f3")))
-     (sha256 (base32 "0ywnahzm0lvlz5z4yd43zi1m4bfmfsdnh85ainf106chwc5nl0p5"))))
+           (commit "f5693f4e0a65319114285954a19bcc8624f457f8")))
+     (sha256 (base32 "1hmnbd1zg1jyzffd0k1d180l8dfsyklsa1i5v03bvfmlpyphaijq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f))
    (home-page "https://github.com/NicholasBHubbard/comint-histories")
@@ -18217,14 +18217,14 @@
 (define-public emacs-dashboard
   (package
    (name "emacs-dashboard")
-   (version "20260321.2128")
+   (version "20260323.243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-dashboard/dashboard.git")
-           (commit "263b9f6b78fa7229492fe06ae9f6132ad42f5290")))
-     (sha256 (base32 "0idhcvcmbliialwrxj6940mfprq4b9g4byw2jblv02jgdxvdk4x1"))))
+           (commit "9cfcb08c5623816d8f9a68a76c54845bc4bf46df")))
+     (sha256 (base32 "00wc3h65h0c8vnmajpgap4nnwyrdjjf1kwgcd9a1g0hvwfcjfiwj"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "banners")))
    (home-page "https://github.com/emacs-dashboard/dashboard")
@@ -23525,14 +23525,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260322.2345")
+   (version "20260323.1755")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "71c0a6ef5a8a8c2b554ec41c8130bce2358e2808")))
-     (sha256 (base32 "05xhl99ni2vphhwcpn2cw34wzdcs9bp50aw861w85jykppi1d1m7"))))
+           (commit "f143e3d62211395de843b6f1fdb3e97df126ad3e")))
+     (sha256 (base32 "151w1fkbm62md311z4a1n1m117r43mwfpinaqvmijpr3np6552ib"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -43026,14 +43026,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260323.142")
+   (version "20260323.1542")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "c3f11e6a8e8dae0fa258c181d637ca0e0bcd17b6")))
-     (sha256 (base32 "1fd78m9kknp889zz3z3v2rl9nzly93zhmzdpgmnqim4i9gbv9mxz"))))
+           (commit "a3c298d66b8b8c3d2b6af768cb8a6447f1159473")))
+     (sha256 (base32 "13r7q7zxrljhz9p5a0fw1xxaa84m82nh90db355sa0l93jdga7j8"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -48893,16 +48893,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260323.452")
+   (version "20260323.2328")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "00zsiixm8vn1q832jbjjpd9lkbpgwrppj54l000gqj5n25yx093d"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "36e33e011bc201c1f02568804209d4699250b743")))
+     (sha256 (base32 "1d9i83lmxjfl9hrgnhrb7lz4il5j6as8cn4y35vb6l60fqpns9ql"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -72364,14 +72402,14 @@
 (define-public emacs-org-eval
   (package
    (name "emacs-org-eval")
-   (version "20260316.820")
+   (version "20260323.1823")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-eval.git")
-           (commit "013ecc4a6aca3527e1bd0faa44ea88ad4c02ecf1")))
-     (sha256 (base32 "14x7rqf4iaxi7wivmv3x752pd0ffc7gv4wsfsf7z4c4x1aavbrvl"))))
+           (commit "8f98e5412e9eed6d6567f3610cd13e7d149782a7")))
+     (sha256 (base32 "0jkw2zs7jycn69x3h7zag4qa01wx4k83m4ffc7wi1cpc48350j02"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-eval")
    (synopsis "Execute named org-mode blocks on load/save")
@@ -73015,14 +73053,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260323.730")
+   (version "20260323.2157")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "419ba4b842a1d0a6bd3f9dbb2a376dfda4f4be76")))
-     (sha256 (base32 "1755pxa6h3xi16fi5qgf6cvvipxgi1qj3rs3d4fy6n96jqxp3fqv"))))
+           (commit "c25843d5b6d1d765be7397b3791a2f0962a07230")))
+     (sha256 (base32 "1zrgx6n7d51vc34bj3cnhgdrdf7ij18fmz4fcxiapmcjn31pypwm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -73578,14 +73616,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260321.1038")
+   (version "20260323.1823")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "e1e77f4bd81398eaa64bf9f95ccd8c5c54d19d0d")))
-     (sha256 (base32 "08m4h3kr1rgfsxaxfm66pk6qdzwnj6izhgk9hxwld2vnxz7sdgz1"))))
+           (commit "21f53cbc9668c0998641fa2a55585a7a3a16ad05")))
+     (sha256 (base32 "09z4md41im7nj6c372hdip447173gz0kgnrnx6r05rcnnphfprlw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -74793,14 +74831,14 @@
 (define-public emacs-org-tag-cloud
   (package
    (name "emacs-org-tag-cloud")
-   (version "20260322.1619")
+   (version "20260323.1823")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-tag-cloud.git")
-           (commit "071ec9ef96706c56be4b47024b7ae02014fa1bc0")))
-     (sha256 (base32 "0hik2licpkdna6qwcscnyg8j0i0svpikkfc9mdq3cjda7ibsaygh"))))
+           (commit "8e1a9f3e868011551a0f7d00b3ae4771dac93809")))
+     (sha256 (base32 "193pghwkha6igh61wd4zrd54l14znxi4yr3rkfsxv15f418ixkxq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-tag-cloud")
    (synopsis "Easily maintain a tag-cloud of org-mode tags")
@@ -80116,14 +80154,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260222.413")
+   (version "20260323.1922")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "411eea5a9edb4e30a44a587ee9f99f173cd9b491")))
-     (sha256 (base32 "115v9lqx366spdf4xrmsbxcwspa9vc5pf6qwzbm8f3jh3mya14n8"))))
+           (commit "935e582668d6a9a55fd9dd262d46ed1f2bb98f35")))
+     (sha256 (base32 "0zvx6xn8sl8gx3n4kk3i13vq55v5qjmhaxhk5k63cagjh0pzyy47"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -92051,14 +92089,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260323.1022")
+   (version "20260323.1911")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "c2bf81ae5251dbc2a4b72dc4532bca012b3112de")))
-     (sha256 (base32 "1zacra3474phz45q31kj461qv7pn8y5yncxcan50vbvg8bxmy4ky"))))
+           (commit "0601453c5c7d9a74449c1401a7f02be51b978497")))
+     (sha256 (base32 "1jpicl1apslq9z418yfsqgq6rfb8wmr583dmgg4v5q5srlfsd4fi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -92379,14 +92417,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260314.2235")
+   (version "20260323.2010")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "3486e38e24deb3c092145478766d9d15ba8556a1")))
-     (sha256 (base32 "0kmdqnb1bf0qggqi1v1jksszz90sghx8y46yinfgn5qlsixzjlkp"))))
+           (commit "065edc572345f4d521577e508a89c7599f8a8c4c")))
+     (sha256 (base32 "0nvbisyvicgd8r9j0c3klxpvpw0jclhxd8a1i20sqiivldxkqkqc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -95896,14 +95934,14 @@
 (define-public emacs-stripspace
   (package
    (name "emacs-stripspace")
-   (version "20260315.1547")
+   (version "20260324.55")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/stripspace.el.git")
-           (commit "da2f6ffcbd88e43859d8c397753a0fc90b4b8c9f")))
-     (sha256 (base32 "1jqcsn0fw67qml8mlwms6gs96dc2i8168vi2n4vyiw9pn133q12y"))))
+           (commit "004709b60c1182ff695496b6c7afdfe89a5d8392")))
+     (sha256 (base32 "0an68rsaks2078gzw9bnbl9gcbhycbkjkr9jz09d98izaa1lr2qh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/stripspace.el")
    (synopsis "Auto remove trailing whitespace and restore column")
@@ -102119,14 +102157,14 @@
 (define-public emacs-ultisnips-mode
   (package
    (name "emacs-ultisnips-mode")
-   (version "20260316.2218")
+   (version "20260324.101")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/ultisnips-mode.el.git")
-           (commit "892560e050a7faa343bc5fa6d7b73c602d86b85f")))
-     (sha256 (base32 "1gpgcyh4697v760kjjjwq0v89p18k8c77caa5q7jqy501362f3yx"))))
+           (commit "1ccd9d4bfd12545de299974083da9d2fbeec194b")))
+     (sha256 (base32 "074pwsps3ib7wnc8nqicqqpdg76688bwm4agfdjii6fh34w0w7wz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/ultisnips-mode.el")
    (synopsis "Major mode for editing Ultisnips snippets")
