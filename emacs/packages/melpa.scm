@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260322.2139")
+   (version "20260324.2120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "209c413f468594a9ad291805b424eb2f7b769767")))
-     (sha256 (base32 "1s92c0kra83ynbj8vi8ijaplldk281zf5gzng181fxwvmbgb75rh"))))
+           (commit "82a7fff89094f509c22f89889401dce5134d459a")))
+     (sha256 (base32 "127nbvpzbd26i401pj3qhwqdx5pa84q3w0sy3rmvbqn8jg7f7dqg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260324.1433")
+   (version "20260325.2")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "578637a864f8bfbefee2c7020b2f75453d6d593e")))
-     (sha256 (base32 "1x0bhlaw4pi1yffw5h91hlvx5y68jg2hpdnd0w3q3rk9c0afk169"))))
+           (commit "58153e038670bacef7b765e7331deaa559ff190d")))
+     (sha256 (base32 "1j0zxidp6amammg333r6j5dwf7dyfvv6yqq0lfmyqv3diz4r7brq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -19450,14 +19450,14 @@
 (define-public emacs-dialog-mode
   (package
    (name "emacs-dialog-mode")
-   (version "20260225.2119")
+   (version "20260324.2122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~mew/dialog-mode")
-           (commit "7cc200c954693a4a27c454df1facb172710f8686")))
-     (sha256 (base32 "089dzhbkrmc92rm7wsva5kdirh7szv3k1jr5wdjzhlifsnz7z34x"))))
+           (commit "0489cc8de30d099633f1a1d3e9898f2fdb108d70")))
+     (sha256 (base32 "1n3qhzkza5dlhhiphslgm02k0jnd5n5la7lgs198v4r0i39njymc"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("doc/dialog-mode.texi" "dialog-mode.el")))
    (home-page "https://git.sr.ht/~mew/dialog-mode")
@@ -23395,14 +23395,14 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260324.201")
+   (version "20260324.1700")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/easysession.el.git")
-           (commit "f4e9c836dfbbbd89f9f992ea9e8ba9c5e84e095b")))
-     (sha256 (base32 "07iwxp1fggajyjjmzc0d4w6sj73dk52309yvgrv40vbdrr58v1c1"))))
+           (commit "41a06800f1de5dcdb0109f4ddaf8460c9ed8ecc6")))
+     (sha256 (base32 "1qyzhyiig5w3bwlsjqbgz8vn6j30i075dqjm7225lmibm2bba16a"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "extensions/easysession*.el")))
    (home-page "https://github.com/jamescherti/easysession.el")
@@ -24315,14 +24315,14 @@
 (define-public emacs-eglot-python-preset
   (package
    (name "emacs-eglot-python-preset")
-   (version "20260315.120")
+   (version "20260324.2134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-python-preset.git")
-           (commit "beff28c4d27950baa9369832dcb3de323d9fe394")))
-     (sha256 (base32 "151a8ncirj34pc2g9vhf6mqcvl7d1kjz2whi7rcmnmnbdyhgr3is"))))
+           (commit "33a836fdf57d72f77e4983d6fe1bca5e93157c26")))
+     (sha256 (base32 "0mvhwlwx8by2q5sagyn1na0qsvlgvnqxiva5m3bc28k5l6w8jcx4"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "templates/*.tpl.py")))
    (home-page "https://github.com/mwolson/eglot-python-preset")
@@ -31955,14 +31955,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260324.408")
+   (version "20260325.13")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "e541ce93411503bed5e25dca48e732d09e1fd90c")))
-     (sha256 (base32 "0hzdyjjnl8r394h3y13mnp0lcgkzzf73r2j7ycnnspnxwn4iav0r"))))
+           (commit "45817466187949e03f78eb678e855a66624a47e2")))
+     (sha256 (base32 "0p6fd9h7h124q3fv7qvplcwi32v2f6y4ay01lmbfgk1q1sbnqhd2"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -43026,14 +43026,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260323.1542")
+   (version "20260325.210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "a3c298d66b8b8c3d2b6af768cb8a6447f1159473")))
-     (sha256 (base32 "13r7q7zxrljhz9p5a0fw1xxaa84m82nh90db355sa0l93jdga7j8"))))
+           (commit "4c84da293cec47222ae86ea8077b266c62f7f393")))
+     (sha256 (base32 "1vcwd63f3ijhadyl1iprx5zd6cbkb2qy8fs7lm1shmhq00ghj53p"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -47783,17 +47783,17 @@
 (define-public emacs-hindu-calendar
   (package
    (name "emacs-hindu-calendar")
-   (version "20250126.743")
+   (version "20260324.2330")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bdsatish/hindu-calendar.git")
-           (commit "83466761789adc230ec3b586cc08bb70eadf5616")))
-     (sha256 (base32 "1pvrzzwhf265k8rmsk0xdx3dbhr8c11qw2xlipx4rzs9yh6i0hw6"))))
+           (commit "8589e9cafb642e53d788ced049c361e1ce1a84b6")))
+     (sha256 (base32 "18b275536fk7l9w9qfm2jnalniylkbhaxs630b43kshzpw6yi89s"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bdsatish/hindu-calendar")
-   (synopsis "Arithmetical traditional Hindu calendar (panchanga)")
+   (synopsis "Astronomical traditional Hindu calendar (panchanga)")
    (description "Documentation at https://melpa.org/#/hindu-calendar")
    (license #f)))
 
@@ -55746,14 +55746,14 @@
 (define-public emacs-kixtart-mode
   (package
    (name "emacs-kixtart-mode")
-   (version "20260203.1935")
+   (version "20260324.2018")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~mew/kixtart-mode")
-           (commit "5f5cb16dc76c22d80f69fb9413aa0d877bf13746")))
-     (sha256 (base32 "06b7p2ka5crvhjifxn42jrchlj8yl545wqnv7cn6zl9jkzx574kb"))))
+           (commit "ddae1136812659e1bb0fb97da7b4b5db786a763d")))
+     (sha256 (base32 "0x01n0kqar8a36b7jmcxdy1d08c51x8byh043cfrxa8rixjmzvv2"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -60464,14 +60464,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260322.2109")
+   (version "20260324.2223")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "3d9376af96e4f88b51599ad6b1a34748fa60d702")))
-     (sha256 (base32 "02bygym0fqfy85033v65j2qxfk5n1zzq73cjm8k6fsa1fz5azyja"))))
+           (commit "5b5bd95496c53b488953444f50d2ba2ce10f2972")))
+     (sha256 (base32 "18226n3n5sn2rr5z4r5wgfh1wh7ms67mmvs5wy7ri4lmzggdizzw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -68631,14 +68631,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260313.1633")
+   (version "20260324.1940")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "7c4541e25281483308f4ee616d8613fc797f5f21")))
-     (sha256 (base32 "087wgcbl8qq57fds3mvd4hdl8skphdw6pz0c3k6crbmrplszj5pk"))))
+           (commit "02834436a0a42e1f66780449ce83ba33e2d392a3")))
+     (sha256 (base32 "1dyygiwq4m1bxy95gq9q5hwr4arg06hbg7j6cbzwj2b95mcmws0r"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -73616,14 +73616,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260323.1823")
+   (version "20260324.1627")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "21f53cbc9668c0998641fa2a55585a7a3a16ad05")))
-     (sha256 (base32 "09z4md41im7nj6c372hdip447173gz0kgnrnx6r05rcnnphfprlw"))))
+           (commit "dcdc3566b76459a2f00ab6c34b6157e556e05bec")))
+     (sha256 (base32 "1sbrry5p92kfai75iqpprbhkly87mgc5s0jy9cmbai21b9h8wwrd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -84729,14 +84729,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260324.111")
+   (version "20260325.240")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "97f88225b8f3b2d085253f3c32bdc7eec69731ac")))
-     (sha256 (base32 "0gica63gqx949rk12h7afp1b0cvbn4l866dvi2pnym76s9r9dn5j"))))
+           (commit "67e7e209952f1febc57cf52f759e88abf909d6f5")))
+     (sha256 (base32 "09f1cxmmrk4g5bvjl22zcvldldw5jlkjgp81kl6vb2ii24cahqqm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -87096,14 +87096,14 @@
 (define-public emacs-repo-grep
   (package
    (name "emacs-repo-grep")
-   (version "20260320.1828")
+   (version "20260324.1832")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/BHFock/repo-grep.git")
-           (commit "5565cf5fa21aa3bb684ee55ccd89f5b3ac7ec897")))
-     (sha256 (base32 "0iry39vngc77xnhx57njy5rpmzwpqi6rjjszi2rk4fy89iqv5zyk"))))
+           (commit "90a42a1383e7232ff4e2384f20631d930f682b75")))
+     (sha256 (base32 "1k4prx19alp2ivnyr451x27yxp7v4ihndilnv51fq2d48z660zdf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/BHFock/repo-grep")
    (synopsis "Project-wide grep search")
@@ -90181,7 +90181,7 @@
 (define-public emacs-selected-window-contrast
   (package
    (name "emacs-selected-window-contrast")
-   (version "20260324.1519")
+   (version "20260324.1528")
    (source
     (origin
      (method git-fetch)
@@ -92089,14 +92089,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260324.816")
+   (version "20260324.1847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "c7ddf6c73c09fc50cb6aec0b111f33e41c234f5a")))
-     (sha256 (base32 "1xxcsg82hwwghiihjm93zz9862869nrvla69666jl69pd7q95ghz"))))
+           (commit "03c32ae8855185f5030fa3d064b6cce8502b7015")))
+     (sha256 (base32 "0kndn91y9cc0bbcg9nvwljmiiiv5j6rswdjgchvgwqh0hilx4kk4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -92417,14 +92417,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260323.2010")
+   (version "20260325.110")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "065edc572345f4d521577e508a89c7599f8a8c4c")))
-     (sha256 (base32 "0nvbisyvicgd8r9j0c3klxpvpw0jclhxd8a1i20sqiivldxkqkqc"))))
+           (commit "6630a6f4662eba844018ce54aed704cbe65b985d")))
+     (sha256 (base32 "0q3z1spxkdw8pw5088jhgil2z5b37ka0p6w9h2ygfslv3sbix2lq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -102602,14 +102602,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260318.811")
+   (version "20260324.2104")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "2916cabe8e9c588a612fd896d0be4611bd1ad4e8")))
-     (sha256 (base32 "0gzv7xkwr1bz0498vkbp6i1byxk3rkmxb46m78ndb48s7f234wz4"))))
+           (commit "1daa74ed196d6c94ce35a6124d8c57bb0eef256a")))
+     (sha256 (base32 "0gs3vlcgqxggrz487mm32f0vpj8x6id5xs3543insipcrw5afkwn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
