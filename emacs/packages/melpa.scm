@@ -18104,14 +18104,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260325.1637")
+   (version "20260326.728")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "51fce4444c98aa93929ec6f1750532173ca3bffa")))
-     (sha256 (base32 "0wixdapy8gqp8xn1dg18whya7x5bzbc9816dzmj4pzihlzb28mn0"))))
+           (commit "4548ea007865706a1ee2d9e4c5caabd8685d131e")))
+     (sha256 (base32 "1qjmnk054g7w9rzk1g9z5lp35081xb2z0xjh82wkgzw9b12cyplp"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -25096,14 +25096,14 @@
 (define-public emacs-eldoc-mouse
   (package
    (name "emacs-eldoc-mouse")
-   (version "20260323.1040")
+   (version "20260326.354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/huangfeiyu/eldoc-mouse.git")
-           (commit "fed51f5dd9789e1758c73560315ea5c7659370e6")))
-     (sha256 (base32 "088668kpbrhafgrlzfhqwjkay0waxnlqaqv00acacvk3c2nnacbj"))))
+           (commit "79e47a4099cd4f9144a1636d8353a07b614c0c0a")))
+     (sha256 (base32 "028gyngnlq6x0g8cd3m0a33v9skn94lavykls65lqxh91gr39lb3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/huangfeiyu/eldoc-mouse")
@@ -40640,14 +40640,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260325.2032")
+   (version "20260326.311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/gnosis")
-           (commit "ab86a5949ff43863184b69e1fcd02055af5d838a")))
-     (sha256 (base32 "14j22lkm52mr1gz98f7bwbb65wiq3q5w27dj54xhysq49rks4lfh"))))
+           (commit "9ac7fc3e23100f22276b94ed6876acc2406c8d35")))
+     (sha256 (base32 "0bn31zq6gzhryj1yki02mrdfh4lhd05dpk8xxx6apl36wziiw496"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://thanosapollo.org/projects/gnosis")
@@ -43026,7 +43026,7 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260325.2224")
+   (version "20260326.141")
    (source
     (origin
      (method git-fetch)
@@ -48893,7 +48893,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260325.2051")
+   (version "20260326.830")
    (source
     (origin
      (method url-fetch)
@@ -48901,7 +48901,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "05vjfg6i6w9qh562syhbfsnnwnwkb978xfdgjsjayjfpd12fhf1h"))))
+     (sha256 (base32 "0pc1ylcdfas1jdhynbc1zcfx0wi53cywfwx0fd3aaj3ykd0mxm5x"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -55513,14 +55513,14 @@
 (define-public emacs-khoj
   (package
    (name "emacs-khoj")
-   (version "20260325.2010")
+   (version "20260326.333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/khoj-ai/khoj.git")
-           (commit "7475a781bc151bd97240f7c0ff667ce01d6f6378")))
-     (sha256 (base32 "1q401vvq7g2svzp7s8xvsjx4f5zs3ywsm95ks9njvd99nw5nbjxn"))))
+           (commit "9258f57dceab19d52a1a0bdac54eb38576c29187")))
+     (sha256 (base32 "0802vybibk6jnmggzvm08iyck2g6wwwz2gdrgcp0sx1kigkx5c5n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (arguments '(#:files ("src/interface/emacs/*.el")))
@@ -66689,14 +66689,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260325.821")
+   (version "20260326.739")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "963225f74f1af7ae1a8a23b9b2356be6952688ee")))
-     (sha256 (base32 "1k0yq69dfisy8d60fwdlmqlw2pwq2gq0xcdi6azsa1xxmjqr8lwz"))))
+           (commit "58e5f92f9a43bd5df302728d50b8df0940c28cff")))
+     (sha256 (base32 "1ibsnw5pkagm9d9cz322rpnzywzcif1mrakrbjdgaqflwx2xddvj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -73578,14 +73578,14 @@
 (define-public emacs-org-people
   (package
    (name "emacs-org-people")
-   (version "20260324.1627")
+   (version "20260326.432")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skx/org-people.git")
-           (commit "dcdc3566b76459a2f00ab6c34b6157e556e05bec")))
-     (sha256 (base32 "1sbrry5p92kfai75iqpprbhkly87mgc5s0jy9cmbai21b9h8wwrd"))))
+           (commit "95f1695fc8c01eadd1784b1d452e1052596a2149")))
+     (sha256 (base32 "0czwc9qnax21dwm3mcb8l82dk9fdw7wchk2vpvx5mf811i7gyz6v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/skx/org-people")
    (synopsis "Work with a contact-list in org-mode files")
@@ -84691,14 +84691,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260325.240")
+   (version "20260326.138")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "67e7e209952f1febc57cf52f759e88abf909d6f5")))
-     (sha256 (base32 "09f1cxmmrk4g5bvjl22zcvldldw5jlkjgp81kl6vb2ii24cahqqm"))))
+           (commit "7541aa69c9ce2cd67b72971483524f4c61bddc9d")))
+     (sha256 (base32 "0hmdl8qif0k1awz0ps34z9i4mn0xr0cxlx31s62925d901mzwcdh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -90125,14 +90125,14 @@
 (define-public emacs-selected-window-accent-mode
   (package
    (name "emacs-selected-window-accent-mode")
-   (version "20251205.1215")
+   (version "20260326.837")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/selected-window-accent-mode.git")
-           (commit "cfdcf242e2967c131ac01da6565d70a367e10320")))
-     (sha256 (base32 "1bkic3qasw8ps45qbj12qyzw7hi97vy2hci9cgqaw6qkyhjv4r6v"))))
+           (commit "8285c74083381384524c45b16ecdc2d6939f34fe")))
+     (sha256 (base32 "05z87fg3p62ywq9nkplqc7kp95r66pfs826hwmin5il50k5h58dn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/selected-window-accent-mode")
    (synopsis "Accent Selected Window")
@@ -92051,14 +92051,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260325.758")
+   (version "20260326.913")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "48dc3ed8e2f46abd28ec287035d01a86e77fb4ba")))
-     (sha256 (base32 "1dqsfs0i1sqjikj845sbnl322lfychgzdvbrfyyg0ix131fh6hia"))))
+           (commit "6f76275c08c730f667224a04a5a126d652a83315")))
+     (sha256 (base32 "1by9gi537mjbvfgbd5a9xm8y4z9hlk16n2464za7251shkrjhf2b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
