@@ -8240,14 +8240,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260324.203")
+   (version "20260325.56")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "ee855e7308d56bb63333099e35234520c4b108ec")))
-     (sha256 (base32 "1v8nw5v2x1543qiq1mpshqc9q7wakmnx537dkk1vi5pnqnxbivf1"))))
+           (commit "f2cdaaad5d907c5f2d44f2aef114b4e6eaa2ad28")))
+     (sha256 (base32 "094xrha63yf481ja3hc02v2dxvhqfmg80fxfxr4yv08y5s4iq4b9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -17850,14 +17850,14 @@
 (define-public emacs-danneskjold-theme
   (package
    (name "emacs-danneskjold-theme")
-   (version "20260314.2024")
+   (version "20260326.915")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rails-to-cosmos/danneskjold-theme.git")
-           (commit "fc2dee1bb624f3eadaca9c5805ba6cf742b6ab13")))
-     (sha256 (base32 "1c7ysa2gam6vzcppyphmlz859bj0n2b9wk8qxll9ljlp4b7k5hj2"))))
+           (commit "0427edf9e115d31f3197be3059843038dd598697")))
+     (sha256 (base32 "19641vaqdffxk34ms5pwz1y5h0g15mjapny26cy56vczrg41yh99"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/rails-to-cosmos/danneskjold-theme")
    (synopsis "Beautiful high-contrast Emacs theme")
@@ -23395,14 +23395,14 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260324.1700")
+   (version "20260324.1725")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/easysession.el.git")
-           (commit "41a06800f1de5dcdb0109f4ddaf8460c9ed8ecc6")))
-     (sha256 (base32 "1qyzhyiig5w3bwlsjqbgz8vn6j30i075dqjm7225lmibm2bba16a"))))
+           (commit "be6e41a4b12bf8e26aa9928f3482f2fe4f1fe5bc")))
+     (sha256 (base32 "0d8d7s77shv2fkllw2wl1qfch90prjpasq7p3lfrqfq7y21c5wi2"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "extensions/easysession*.el")))
    (home-page "https://github.com/jamescherti/easysession.el")
@@ -23525,14 +23525,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260324.1353")
+   (version "20260326.1502")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "a18106b02bf7f2e17cee5ee02313e49cb09ae11c")))
-     (sha256 (base32 "07620ch34ch2klviql363gpj6iwpsf4lka5dlg015yhf6f5knlmb"))))
+           (commit "967d3f83e9b020d68be8a0f5367c285afabbf506")))
+     (sha256 (base32 "1y7acg3w1cx8yc9r17rgkim12k33q9bx1022lv37g4cl97ncizfr"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -28185,14 +28185,14 @@
 (define-public emacs-erlang
   (package
    (name "emacs-erlang")
-   (version "20260127.1516")
+   (version "20260326.1431")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erlang/otp.git")
-           (commit "ed6485a807c208c8c21b54b908ce4b5a5e9d9a62")))
-     (sha256 (base32 "0mqqqw9hfqgmvb29vs2y12ba0z9zphrl5l5h5y6vlym3cwwpy9gn"))))
+           (commit "b7dfac8a1bc13f931f953e25610da4e019df414a")))
+     (sha256 (base32 "00xgwvzqsj0xdwhp2haa7dzyc1czf96mcprz5mk2vp03q0qpnw1m"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -31955,13 +31955,13 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260325.450")
+   (version "20260326.1017")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "f3f00496f2734e08c7924889ae9b6fb32f10c84f")))
+           (commit "a22ef929683bf97cb4f9293418ed5323b1c29eac")))
      (sha256 (base32 "0nqhya1q0vn4azlgb01w1izby8ai93k8m7mzzpkqalypl5clqk2f"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
@@ -47783,14 +47783,14 @@
 (define-public emacs-hindu-calendar
   (package
    (name "emacs-hindu-calendar")
-   (version "20260325.2122")
+   (version "20260326.1437")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bdsatish/hindu-calendar.git")
-           (commit "86c0e7d7cb2671754177fe14c510ea098223a794")))
-     (sha256 (base32 "1q81hwaldr2r22k0rfahrgm5ijvccyazsxh0r17ic77sw3mdcq6l"))))
+           (commit "e953f1b8971fb16210a918d439c1f36887c2d043")))
+     (sha256 (base32 "16s5nzp20k52dynxm8khg0vlmba6rs6ym39yscph8l2cwzsiv5l8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bdsatish/hindu-calendar")
    (synopsis "Astronomical traditional Hindu calendar (panchanga)")
@@ -55904,14 +55904,14 @@
 (define-public emacs-korean-holidays
   (package
    (name "emacs-korean-holidays")
-   (version "20260324.1431")
+   (version "20260326.1400")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tttuuu888/korean-holidays.git")
-           (commit "d33e91b5c556384916ebee485d5b59a196b3c832")))
-     (sha256 (base32 "196zwc38dqwv9sbm689kaaad8r5bcgkcrw26r52f3i0l1k1cv1yk"))))
+           (commit "465fc0e7e95354f75678c2d310edc74743414d1b")))
+     (sha256 (base32 "04k602nzazqkhc5piqj5qjr8d2c14rkwzizxffjr61kw1bk597rm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tttuuu888/korean-holidays")
    (synopsis "Korean holidays for calendar")
@@ -55955,14 +55955,14 @@
 (define-public emacs-kotlin-ts-mode
   (package
    (name "emacs-kotlin-ts-mode")
-   (version "20260224.1344")
+   (version "20260326.930")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/bricka/emacs-kotlin-ts-mode.git")
-           (commit "b318a64a7f6b35fa5abf93b8e86cc42305fa7552")))
-     (sha256 (base32 "0s4knich3naql7q0xr0yjdj7vxypczdvd9ndkj72p5wj8wa5a2kz"))))
+           (commit "136d8d1fd3158fc5558aff866041c1935b574588")))
+     (sha256 (base32 "15iqvbv8i3n27yssfr47fh75ir89a6jxicp7vi8jk51a45symhnf"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/bricka/emacs-kotlin-ts-mode")
    (synopsis "A mode for editing Kotlin files based on tree-sitter")
@@ -60426,14 +60426,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260325.2258")
+   (version "20260326.1221")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "d99366ff80778edc614ca28e06ec2b6f3ef48b33")))
-     (sha256 (base32 "136gl2kibhj33jy2zmnjyhbpxpwkanabjlbbbc37vl9y2f8bn0dw"))))
+           (commit "0b8cf8a7ce220545b524685652e9464a1c4dee9c")))
+     (sha256 (base32 "1vsgk14a901gzhaazx5v0fhcj6l881wjssdh6hpgi1llacq71265"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -73102,14 +73102,14 @@
 (define-public emacs-org-mem
   (package
    (name "emacs-org-mem")
-   (version "20260317.1525")
+   (version "20260326.1145")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/meedstrom/org-mem.git")
-           (commit "7f85d407804b7f7ca56de23fef3d5599815ba104")))
-     (sha256 (base32 "0cvyx5s2yk09kz6xsi39rbp9w6qlvmqd1h4fm1xp1hggpqcgjs6g"))))
+           (commit "07094dac902e452d59533e4d01e8177afaa0cfd1")))
+     (sha256 (base32 "09c2s9yz3288g0z66wxqhhk7nwwqri7wgprk3k9h41l0l2hswssc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-el-job emacs-llama emacs-truename-cache))
    (home-page "https://github.com/meedstrom/org-mem")
@@ -79090,14 +79090,14 @@
 (define-public emacs-persist-text-scale
   (package
    (name "emacs-persist-text-scale")
-   (version "20260215.2013")
+   (version "20260326.1609")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/persist-text-scale.el.git")
-           (commit "1d2983986a32da95c878ce05929f43ecc370c82c")))
-     (sha256 (base32 "00d5yk0h3vzc2fc7n4g6rc7nw0hac9bzgi66c6q13rlhdjxz76zd"))))
+           (commit "e835e76bad452b1e5a59eb9a0fef650e0680ab90")))
+     (sha256 (base32 "0vvpd0vrzy2rk6xsqnfp65jbm1ls4z1v8syji6rlz2sfnkv94m73"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/persist-text-scale.el")
    (synopsis "Persist and restore text scale")
@@ -84984,14 +84984,14 @@
 (define-public emacs-quick-sdcv
   (package
    (name "emacs-quick-sdcv")
-   (version "20260221.311")
+   (version "20260326.1610")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/quick-sdcv.el.git")
-           (commit "d12901f87dd191fd6061abcb32cac31503da62be")))
-     (sha256 (base32 "1bdp822rwz9xq9c5garfmn5afap32l9yr7lv7jgndib8qz3hgxf8"))))
+           (commit "e28c59514500d61d825657fc735fbafce3599d32")))
+     (sha256 (base32 "1bpgyry817zcbqilmbiiv3la11zszbvrhcy7826gif6rpyyq2wgi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/quick-sdcv.el")
    (synopsis "Offline dictionary using 'sdcv' (StartDict cli dictionary)")
@@ -97927,14 +97927,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260305.320")
+   (version "20260326.1000")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "d5a52a1a9f76cc4a4c601b48544d28afa8f55a80")))
-     (sha256 (base32 "0fpnbbaaffvicpi79qnmck6qrn3zf1ch37j8slw69blg5i3am1wz"))))
+           (commit "8078beccf88c132d504ba9031062a6a2c65a1c8b")))
+     (sha256 (base32 "1m7gs90hrmmwm7pvf5iz3y4v39psp6kbnw1d97q6v55hhgq3isxz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
