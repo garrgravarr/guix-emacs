@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260325.1411")
+   (version "20260325.2307")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "74a59ec34adf15c2064162e2c2d7c05328fa5131")))
-     (sha256 (base32 "0za97yl5q6xiwrkdvxsfs3nrcga72lsccyjfiizmqkgz9fmfa2n8"))))
+           (commit "68ce6b5cd51cb0f07c3849767cf6455edb8fb992")))
+     (sha256 (base32 "18l789zxm6l4qfd5981a0nhyrk02z339zzq22c6vy7y28isp10xf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1787,7 +1787,7 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260325.1537")
+   (version "20260325.1558")
    (source
     (origin
      (method git-fetch)
@@ -7251,14 +7251,14 @@
 (define-public emacs-bm
   (package
    (name "emacs-bm")
-   (version "20250603.2137")
+   (version "20260325.2238")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/joodland/bm.git")
-           (commit "b411b444ca999ba60bb9323a41af71889fe8925a")))
-     (sha256 (base32 "06kwhsp1pchz72nagfd1z5nm2x73v7b24b6sf3d557z5nivr1y3p"))))
+           (commit "2ae680154d5934205752dcddc35dd7eb229a4ea5")))
+     (sha256 (base32 "1vbmmcgkmikla7bl22zpaqxdcl8f4qb1zngscjh8rn87xfqj30r6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/joodland/bm")
    (synopsis "Visible bookmarks in buffer")
@@ -11922,14 +11922,14 @@
 (define-public emacs-clojure-ts-mode
   (package
    (name "emacs-clojure-ts-mode")
-   (version "20260324.1300")
+   (version "20260325.2107")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clojure-ts-mode.git")
-           (commit "20913a1eb6aa3f251bcb72153092fd4a5aa81c99")))
-     (sha256 (base32 "103s16zgi9a0h4jqyp50sf4mgk1p6gvgamzp5l1l6rw5x08jvxj8"))))
+           (commit "ba6de87b0acb5aa5483f6012611b30f6bf0414f3")))
+     (sha256 (base32 "0bqcw4ljvnks5ngbv6rr01c4v2chxr5g7f7h0y34cyklcrv50yyp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/clojure-emacs/clojure-ts-mode")
    (synopsis "Major mode for Clojure code")
@@ -14484,14 +14484,14 @@
 (define-public emacs-compiler-explorer
   (package
    (name "emacs-compiler-explorer")
-   (version "20260203.2217")
+   (version "20260325.2318")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mkcms/compiler-explorer.el.git")
-           (commit "269bd9d9d2cbc45c10b5f91f988dc39bf783a68d")))
-     (sha256 (base32 "0l76y2vv16bf4ay68pmrgypcq7sxnmk4sgdhili96bqy8jxc4ryp"))))
+           (commit "e26a4dac90ca2ceed26b77470bdbea097e877aa4")))
+     (sha256 (base32 "0dlqrv39d99x53mwsdq3rlldz15qdp1ifc99bppiw5kkbp8p4v5w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz))
    (home-page "https://github.com/mkcms/compiler-explorer.el")
@@ -18104,7 +18104,7 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260325.1102")
+   (version "20260325.1637")
    (source
     (origin
      (method git-fetch)
@@ -27488,14 +27488,14 @@
 (define-public emacs-envrc
   (package
    (name "emacs-envrc")
-   (version "20260218.842")
+   (version "20260325.1609")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/envrc.git")
-           (commit "f44353c42c0794cdc6629c83a923d1689f33469f")))
-     (sha256 (base32 "0ikswnkgdnhs5fl7w5ni71l1qy33pd2dk1jhvimswjhc9iwbk1ml"))))
+           (commit "60820285aeed4f87969d663a1c14a905c7bb763a")))
+     (sha256 (base32 "0a8ymkzjvykjjpnd6m1ysmbq1pqyvbijx6awwwwqwgzq0q5q2l8z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://github.com/purcell/envrc")
@@ -40640,14 +40640,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260324.409")
+   (version "20260325.2032")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/gnosis")
-           (commit "e939e9e3a97e5ae912afa3e8f392d6cbbbdfa99c")))
-     (sha256 (base32 "0r1wx35jf51cwdrkv5xfjm29jpdcfpscjvgf3mb8wpp0ymb0mxiy"))))
+           (commit "ab86a5949ff43863184b69e1fcd02055af5d838a")))
+     (sha256 (base32 "14j22lkm52mr1gz98f7bwbb65wiq3q5w27dj54xhysq49rks4lfh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://thanosapollo.org/projects/gnosis")
@@ -43026,14 +43026,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260325.1521")
+   (version "20260325.2224")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "5b46176ee4728c9e542c8de408e75676cc0384d5")))
-     (sha256 (base32 "1i39rq9vdj7ln0hadv3g1xz19q3jpg1p7ccp8sb1f7naz12pdd23"))))
+           (commit "08979671f1a3a5c957404e13cbe0c1633b08bf03")))
+     (sha256 (base32 "1d26m96i4dk4cn4w56vwwaxkigcfk79am4nqi3157g14wxpscbqy"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -47783,14 +47783,14 @@
 (define-public emacs-hindu-calendar
   (package
    (name "emacs-hindu-calendar")
-   (version "20260324.2330")
+   (version "20260325.2122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bdsatish/hindu-calendar.git")
-           (commit "8589e9cafb642e53d788ced049c361e1ce1a84b6")))
-     (sha256 (base32 "18b275536fk7l9w9qfm2jnalniylkbhaxs630b43kshzpw6yi89s"))))
+           (commit "86c0e7d7cb2671754177fe14c510ea098223a794")))
+     (sha256 (base32 "1q81hwaldr2r22k0rfahrgm5ijvccyazsxh0r17ic77sw3mdcq6l"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bdsatish/hindu-calendar")
    (synopsis "Astronomical traditional Hindu calendar (panchanga)")
@@ -48893,54 +48893,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260323.2328")
+   (version "20260325.2051")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "36e33e011bc201c1f02568804209d4699250b743")))
-     (sha256 (base32 "1d9i83lmxjfl9hrgnhrb7lz4il5j6as8cn4y35vb6l60fqpns9ql"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "05vjfg6i6w9qh562syhbfsnnwnwkb978xfdgjsjayjfpd12fhf1h"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -55551,14 +55513,14 @@
 (define-public emacs-khoj
   (package
    (name "emacs-khoj")
-   (version "20260325.1507")
+   (version "20260325.2010")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/khoj-ai/khoj.git")
-           (commit "b8797e00fa90e05bbfb14977a7e1a62d8e5aea5e")))
-     (sha256 (base32 "131achvixfag4arly8mk006ipf3gpwlzy3i7g2qg93wg2l34kn28"))))
+           (commit "7475a781bc151bd97240f7c0ff667ce01d6f6378")))
+     (sha256 (base32 "1q401vvq7g2svzp7s8xvsjx4f5zs3ywsm95ks9njvd99nw5nbjxn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (arguments '(#:files ("src/interface/emacs/*.el")))
@@ -56290,14 +56252,14 @@
 (define-public emacs-lab
   (package
    (name "emacs-lab")
-   (version "20260321.1635")
+   (version "20260325.2028")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/lab.el.git")
-           (commit "441228336e1b42e80c79cb7d0386ad423ebda84e")))
-     (sha256 (base32 "1g9bn2nrxkvagampyclcibnlaalzfc6q32lh6bq5xfz8kbwqqvi8"))))
+           (commit "28e04bd7711b3ff17c281428149923843172eb56")))
+     (sha256 (base32 "0vbrydxzyjsima8r44xyj07ak08yrladpkqh7n8b5nl20k9nla0b"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-request
@@ -60464,14 +60426,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260325.1408")
+   (version "20260325.2258")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "aa940cb50c7b5db36f038abdcc06e793ea1946d6")))
-     (sha256 (base32 "13aq3v2i27ggx8fnj5ln3i516h1622a32dcw9dk7lz49q5hbf92m"))))
+           (commit "d99366ff80778edc614ca28e06ec2b6f3ef48b33")))
+     (sha256 (base32 "136gl2kibhj33jy2zmnjyhbpxpwkanabjlbbbc37vl9y2f8bn0dw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -102174,14 +102136,14 @@
 (define-public emacs-ultra-scroll
   (package
    (name "emacs-ultra-scroll")
-   (version "20260113.2343")
+   (version "20260325.2311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jdtsmith/ultra-scroll.git")
-           (commit "79151faf97c48005a8fac6a6883a4b9847cce1c8")))
-     (sha256 (base32 "13x2gxnvhqa6szglj1xns5327asm7y7q7s6bb1v17kwmwjhfck89"))))
+           (commit "0a9a26071ec33305cbc7a0f1dc7202702319d51f")))
+     (sha256 (base32 "0rz7lhwqxdphvd9j7p66b18vpyz7miyqa4mbmdckgc0zkdkz1w18"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jdtsmith/ultra-scroll")
    (synopsis "Fast and smooth scrolling")
