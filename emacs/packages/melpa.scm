@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260325.2307")
+   (version "20260326.2219")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "68ce6b5cd51cb0f07c3849767cf6455edb8fb992")))
-     (sha256 (base32 "18l789zxm6l4qfd5981a0nhyrk02z339zzq22c6vy7y28isp10xf"))))
+           (commit "9b509be742112ae53d6d417145f0b7dbba7c1182")))
+     (sha256 (base32 "1g6vs9ar14fgzpjx2ryql2c0y304cg084f4znhd8bk16bv5qv4lr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -9129,14 +9129,14 @@
 (define-public emacs-calle24
   (package
    (name "emacs-calle24")
-   (version "20251111.1755")
+   (version "20260326.1749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/calle24.git")
-           (commit "a0b3ff3333fcc44f332ea0e3e04d0392bec2991e")))
-     (sha256 (base32 "0yj7q7539b958k4c2d642vmmxg498npw9y80sl5bnlnwvrnli3qn"))))
+           (commit "1ebc385496a600ee492df4abd55cbf7b899145d5")))
+     (sha256 (base32 "06cbdpysya1kkh3g0cjih5k88al30xc8jcr2arslmdn4zn50ifcm"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "images")))
    (home-page "https://github.com/kickingvegas/calle24")
@@ -14386,14 +14386,14 @@
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
-   (version "20260320.159")
+   (version "20260326.1633")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/compile-angel.el.git")
-           (commit "bb7520e8a1c0a13224515c9358c857ad972a0e72")))
-     (sha256 (base32 "0kkw7pq3m0k5cyy3kgi53r06l2jqvb0jl4p9lkpa2hskgdhv8frn"))))
+           (commit "b44df344bd8f2279452a526a10f984df29b3aefc")))
+     (sha256 (base32 "087jld1q4v8ndi6qj1n7pd033r1n5b21g8widd2z6l4dp7g1bcj9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/compile-angel.el")
    (synopsis "Automatically Compile Elisp files (auto-compile alternative)")
@@ -22219,14 +22219,14 @@
 (define-public emacs-dpkg-dev-el
   (package
    (name "emacs-dpkg-dev-el")
-   (version "20251025.1006")
+   (version "20260326.2334")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git")
-           (commit "9bc86c432c09a4a24a6991936c7118ca15edd0d2")))
-     (sha256 (base32 "19whc2a42n5dhch1m1ry99jcyivl4pr20rwirvka3nwan12qmfmf"))))
+           (commit "f65f60feb19357196594a09ce9fe23da9291cef0")))
+     (sha256 (base32 "1vqibm6iwnbdxgq2mmly1xqdgbs80qqi20xzwcrb571yvw42nqh3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-debian-el))
    (home-page "unspecified")
@@ -23525,14 +23525,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260326.1502")
+   (version "20260326.2332")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "967d3f83e9b020d68be8a0f5367c285afabbf506")))
-     (sha256 (base32 "1y7acg3w1cx8yc9r17rgkim12k33q9bx1022lv37g4cl97ncizfr"))))
+           (commit "19aa39241f89b185aaaccb6711d7f7305a2b3697")))
+     (sha256 (base32 "0bhx4fvwmyczqvs3z2s0lfcw4842i4pdxsl3fv3qjnby73w8hwhc"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -43026,14 +43026,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260326.141")
+   (version "20260326.2117")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "08979671f1a3a5c957404e13cbe0c1633b08bf03")))
-     (sha256 (base32 "1d26m96i4dk4cn4w56vwwaxkigcfk79am4nqi3157g14wxpscbqy"))))
+           (commit "2857fcf25bc6ac0f7d39f9ec75d35a5d57190f0a")))
+     (sha256 (base32 "0paz472fmq2xpx0i5wz68jrr186mxs6rjbg4ynjrqa0q4znv6l2w"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -47783,14 +47783,14 @@
 (define-public emacs-hindu-calendar
   (package
    (name "emacs-hindu-calendar")
-   (version "20260326.1437")
+   (version "20260326.2105")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bdsatish/hindu-calendar.git")
-           (commit "e953f1b8971fb16210a918d439c1f36887c2d043")))
-     (sha256 (base32 "16s5nzp20k52dynxm8khg0vlmba6rs6ym39yscph8l2cwzsiv5l8"))))
+           (commit "118e8455e3c2c8a0b2661b41eee0df9cb07fc87d")))
+     (sha256 (base32 "1crgia9fgbfmanpxzpaklvv4vjxajw4bpaynvp65f86j7y1rm53w"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bdsatish/hindu-calendar")
    (synopsis "Astronomical traditional Hindu calendar (panchanga)")
@@ -60426,14 +60426,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260326.1221")
+   (version "20260326.2110")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "0b8cf8a7ce220545b524685652e9464a1c4dee9c")))
-     (sha256 (base32 "1vsgk14a901gzhaazx5v0fhcj6l881wjssdh6hpgi1llacq71265"))))
+           (commit "bf16422be40f9776c6c104c52ae388663e56edaf")))
+     (sha256 (base32 "1iz4v75yv4mp23m37sxk1k48vj03sih7knrc4ggygc5l50lj37kx"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -92051,14 +92051,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260326.913")
+   (version "20260326.1911")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "6f76275c08c730f667224a04a5a126d652a83315")))
-     (sha256 (base32 "1by9gi537mjbvfgbd5a9xm8y4z9hlk16n2464za7251shkrjhf2b"))))
+           (commit "d418b09bcb68836abab9bd41054558dc26d59941")))
+     (sha256 (base32 "02lw58alwsag7fnr736kq1srajalyg3w9dv2b0ym01yh0jl7ijbd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
