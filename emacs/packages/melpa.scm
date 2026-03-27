@@ -8240,14 +8240,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260325.56")
+   (version "20260327.50")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "f2cdaaad5d907c5f2d44f2aef114b4e6eaa2ad28")))
-     (sha256 (base32 "094xrha63yf481ja3hc02v2dxvhqfmg80fxfxr4yv08y5s4iq4b9"))))
+           (commit "8210c8d67f789ded9c7f856ef1f9a3d8fb64a9c6")))
+     (sha256 (base32 "1piy98ng8035m4ap7dcrrgggh6vb4rjfjn9rignv1hw7x2d6vs3g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -23525,7 +23525,7 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260326.2332")
+   (version "20260327.105")
    (source
     (origin
      (method git-fetch)
@@ -42062,14 +42062,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260325.859")
+   (version "20260326.2259")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "0239c93d478f5faef47d59a0d53175551791a64d")))
-     (sha256 (base32 "0aq7xrgbfmwzs6gszqabbafdaryik28anws1lzacg8wxf9ql4s4x"))))
+           (commit "4a0d8056917a231d04306d96b1ef7ed3bd976cb8")))
+     (sha256 (base32 "13pfji3iy9xsxbkmvdrk4w8zya1x7zn2nh6mxz560fxargkxxbra"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -43026,14 +43026,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260326.2117")
+   (version "20260327.407")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "2857fcf25bc6ac0f7d39f9ec75d35a5d57190f0a")))
-     (sha256 (base32 "0paz472fmq2xpx0i5wz68jrr186mxs6rjbg4ynjrqa0q4znv6l2w"))))
+           (commit "6de9162a786ca0cbf7712d6ace1674f7b20c3651")))
+     (sha256 (base32 "1c9wp65rsl0ikmw3dh74gs0r7g8igzvdq9bvy5sasj0i40szlzfs"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -64923,14 +64923,14 @@
 (define-public emacs-mozc
   (package
    (name "emacs-mozc")
-   (version "20260312.122")
+   (version "20260327.323")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/google/mozc.git")
-           (commit "b1d06d06fc998a7805abc96df9a82a726c09326d")))
-     (sha256 (base32 "0p2hqflkwaajncfpb6p0isc53nayr0ha699jd205ahypcm867ad9"))))
+           (commit "96bab1252792ffd2f5a2d41f0d7752e4852823c7")))
+     (sha256 (base32 "172slr26id8rbhy4wzz0zazgziglkvkpblvq50hrr9pfv8vrb9rv"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("src/unix/emacs/mozc.el")))
    (home-page "https://github.com/google/mozc")
