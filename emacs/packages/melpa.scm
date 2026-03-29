@@ -24315,14 +24315,14 @@
 (define-public emacs-eglot-python-preset
   (package
    (name "emacs-eglot-python-preset")
-   (version "20260328.2351")
+   (version "20260329.335")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-python-preset.git")
-           (commit "23761a369c86cdd280dbe8eea92057e09401bd26")))
-     (sha256 (base32 "08ibwfpbn1kq0brf7wj74ginndvv7plwzdlzdqrznpjh6pmda84f"))))
+           (commit "e0d611a175955a27e37658ddc030bde9cf5645a9")))
+     (sha256 (base32 "19vawa7gj031j6n23nh32rdypjllys88gdm6m5v9i3q0j6wa89zn"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "templates/*.tpl.py")))
    (home-page "https://github.com/mwolson/eglot-python-preset")
@@ -42061,14 +42061,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260327.925")
+   (version "20260329.612")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "23a0ec9730e08b6dd03821016fe33979e96c059b")))
-     (sha256 (base32 "129ffwpg5gkjslp8hlvc2393gprz4y2xlgb0qky82dcx72kpkg8v"))))
+           (commit "db9aadf24a00de4d14511ecefb3019fa518317e9")))
+     (sha256 (base32 "0v8f6x4wnjf0gqvkp8rxwmdjpvv09xbby4hwmnid7fh8sgh496gc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -92088,14 +92088,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260328.1601")
+   (version "20260329.636")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "5181498523ec82fa39df5fa4b596e6fde1b8004c")))
-     (sha256 (base32 "1894f4frxix0vwsz7jy1gf4wvyz4rcdzi1xwknm5chz1m2v95460"))))
+           (commit "7e2d097a5bf4898402045abf487a792dcb27f42b")))
+     (sha256 (base32 "02l01fs7kkam72sn7kjnkl7gravlr2z76dqgl4w51dw06l7j6rwg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -93941,16 +93941,16 @@
 (define-public emacs-solarized-theme
   (package
    (name "emacs-solarized-theme")
-   (version "20250913.451")
+   (version "20260329.711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/solarized-emacs.git")
-           (commit "65f6772119462f2e91a9d70f0c4e1085bddd29c9")))
-     (sha256 (base32 "0czcv8q323zgh3vkafwbj0gli9fp8wxcw42m5cimvwh5sqvm1snr"))))
+           (commit "31b8abb172638fac39dc005247d02af2899b4115")))
+     (sha256 (base32 "1xw45afahqjm90fz6viks1bl9q2sjz8s63avl1jvdj0qa8frcjjs"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/bbatsov/solarized-emacs")
+   (home-page "https://github.com/bbatsov/solarized-emacs")
    (synopsis "The Solarized color theme")
    (description "Documentation at https://melpa.org/#/solarized-theme")
    (license #f)))
