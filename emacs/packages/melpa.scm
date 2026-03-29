@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260327.2228")
+   (version "20260329.1008")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "429d191801c5e2e7f4a2ab78017f84d1c983eb78")))
-     (sha256 (base32 "0lw2iycgac1rrhlv0qhq3rjizj919jy3r4axqvxh1yv8s402n0pl"))))
+           (commit "1e5d17598d191386ee02998199b77d0f70866820")))
+     (sha256 (base32 "0skrd3li88wgmyn4qixmix8w2sjg4vn0mp8zgbp6msdp962bkmbb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -18540,14 +18540,14 @@
 (define-public emacs-ddskk
   (package
    (name "emacs-ddskk")
-   (version "20260328.958")
+   (version "20260329.1317")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skk-dev/ddskk.git")
-           (commit "c3836d9a9e6e8497bd419c11d5a59667464491a8")))
-     (sha256 (base32 "0i4g2zxs7plqskg2k93ij7pb5jm18s23y5d5fibrr8ymsb1v1lhx"))))
+           (commit "e8bf68b27021c29781dbfa6a8ef7b770565bdb5b")))
+     (sha256 (base32 "192pg95cv40ymkyk80vjidasn026mkz2y5gly1q1f0r94zqi51ia"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ccc emacs-cdb))
    (arguments
@@ -25655,14 +25655,14 @@
 (define-public emacs-elisp-autofmt
   (package
    (name "emacs-elisp-autofmt")
-   (version "20260329.55")
+   (version "20260329.1053")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-elisp-autofmt.git")
-           (commit "4436178ae0954c5c52d27571e7f2c5c31f5638b2")))
-     (sha256 (base32 "1b1kw9jvdz863ly8fl5jsr5l4l3g7vzr2zpf1mssjg43604cs4hz"))))
+           (commit "c28b2fb8b45106b355b3df1f4751ae32d1a9350f")))
+     (sha256 (base32 "035abm9nc0k97hv7nn2h98d3r5aiykadi5gz7c55qj4krym2i84d"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "elisp-autofmt.py" "elisp-autofmt.overrides.json")))
@@ -56381,14 +56381,14 @@
 (define-public emacs-lambdapi-mode
   (package
    (name "emacs-lambdapi-mode")
-   (version "20260203.1712")
+   (version "20260329.807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Deducteam/lambdapi.git")
-           (commit "4fd4704bf77395de8c6abace30b87e5aabbf8132")))
-     (sha256 (base32 "1adw8pcqis55ffvzp60h8c1y011ix5qb1kszgjvvh0ksfs9i3qwy"))))
+           (commit "f8b222c2fe41caca3d7d1de628d4257829329ed4")))
+     (sha256 (base32 "07axrpf23jdar092jpnabap5shsjlmfghhbwvk806gdh9y8dzh65"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-math-symbol-lists emacs-highlight))
    (arguments
@@ -60463,14 +60463,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260328.2003")
+   (version "20260329.1025")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "71a844b0df967015bd0a51c6d865a9a5233330ae")))
-     (sha256 (base32 "01gr72y2n408rm7m3xsyaxnbn3diw1549n9frw9x1262qng1kxji"))))
+           (commit "6c1bc80ec565ff7f60230b70c7e00fe4fa12575f")))
+     (sha256 (base32 "04zm2bqdvb68czkjkh7hbcp1rlw2a853j38g0gwyka1sirczn3gj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -79288,16 +79288,16 @@
 (define-public emacs-perspective
   (package
    (name "emacs-perspective")
-   (version "20260211.633")
+   (version "20260329.1534")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nex3/perspective-el.git")
-           (commit "64ef5eaaab9e7564e8b9788ce6d0e2359daf5dca")))
-     (sha256 (base32 "1v22m3l7p89wsdy0ydv0w91v0h9wjl1v33gim756dz8zcx8m1p8y"))))
+           (commit "f384207b12f07353e0a6d148de6bd332334fafcd")))
+     (sha256 (base32 "0yqfii2dgpgdg6gz54hmz1vqj4mq4r4si0ih8vl1p5kbh2nzxjdg"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/nex3/perspective-el")
+   (home-page "https://github.com/nex3/perspective-el")
    (synopsis "Switch between named \"perspectives\" of the editor")
    (description "Documentation at https://melpa.org/#/perspective")
    (license #f)))
@@ -90180,14 +90180,14 @@
 (define-public emacs-selected-window-contrast
   (package
    (name "emacs-selected-window-contrast")
-   (version "20260327.1841")
+   (version "20260329.820")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/Anoncheg/selected-window-contrast.git")
-           (commit "10ebcb8cb43890ce101ea72b60a9995a4bd4ece4")))
-     (sha256 (base32 "0r9bckdh94fn319f5dw9s334mdph4fp7ksw99pdh5hkfdyjr84p3"))))
+           (commit "3242baed6ab9f75301c830b99b404e71ea541cf2")))
+     (sha256 (base32 "11ijaadrl0rnldpadxn2ssn5jfr2p7pajxfw070cg60bc2zsb49d"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/selected-window-contrast")
    (synopsis "Highlight window and cursor at switching")
@@ -92088,14 +92088,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260329.636")
+   (version "20260329.1134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "7e2d097a5bf4898402045abf487a792dcb27f42b")))
-     (sha256 (base32 "02l01fs7kkam72sn7kjnkl7gravlr2z76dqgl4w51dw06l7j6rwg"))))
+           (commit "f91064433bf8273cd436d4b5d73db56256c47625")))
+     (sha256 (base32 "1sj92d5szlmhjbm57rxpafjxd6pg22w4cm5y6xmvm9m3inr68x81"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -93941,14 +93941,14 @@
 (define-public emacs-solarized-theme
   (package
    (name "emacs-solarized-theme")
-   (version "20260329.711")
+   (version "20260329.1559")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/solarized-emacs.git")
-           (commit "31b8abb172638fac39dc005247d02af2899b4115")))
-     (sha256 (base32 "1xw45afahqjm90fz6viks1bl9q2sjz8s63avl1jvdj0qa8frcjjs"))))
+           (commit "0972a0f1471ed67211b7c8918a3c049380050d7b")))
+     (sha256 (base32 "17h3kncdkdnn2c64g0hlbl45yvv6vqvvy8akcgzn32iw7nlx7b9a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/solarized-emacs")
    (synopsis "The Solarized color theme")
@@ -100898,14 +100898,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260324.1019")
+   (version "20260329.935")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "2100fb92dac04a3a6b6b891b6ddba9050922029f")))
-     (sha256 (base32 "1zjhj4zja793z4xwvyr5c1bipbdbz3hlwryajjybyqy79cg8fddm"))))
+           (commit "7e31e4a6bd82c1c41b204834283437463ffbca37")))
+     (sha256 (base32 "0454d28cka85dxdb25gysp1sfiy6hcd8pls4rbyfwnck06h6s1sa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
