@@ -8240,7 +8240,7 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260328.219")
+   (version "20260328.1611")
    (source
     (origin
      (method git-fetch)
@@ -10996,14 +10996,14 @@
 (define-public emacs-citar
   (package
    (name "emacs-citar")
-   (version "20251109.1138")
+   (version "20260328.1759")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-citar/citar.git")
-           (commit "dc7018eb36fb3540cb5b7fc526d6747144437eef")))
-     (sha256 (base32 "1fbzm5ipsf6rjsq4jvrrv62dwfr30jkqqf5k62ba5l7yzqas4hsa"))))
+           (commit "58df8b9b8af8a2636b28ed5c6005eddef7f579f7")))
+     (sha256 (base32 "0b7gkik5p087hp08v40lll66sryy8yhnari5wqnkq984z1qwhsad"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-parsebib emacs-citeproc emacs-compat))
    (arguments '(#:files (:defaults (:exclude "citar-embark.el"))))
@@ -19625,14 +19625,14 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20260225.2247")
+   (version "20260328.1925")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "bb9af85441b0cbb3281268d30256d50f0595ebfe")))
-     (sha256 (base32 "18j5g1n10j8fgkhp24jfn8lra5j6qbml68fr35fp5b6z65l7k9lv"))))
+           (commit "b965e19e6e7f9933199e421849a49229207c1c9f")))
+     (sha256 (base32 "07mmfc44wn0gsg4h4c4fnz0w8jzsj403nxkjbbn20pr3rfln42rq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
    (synopsis "Highlight uncommitted changes using VC")
@@ -23395,7 +23395,7 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260328.218")
+   (version "20260328.1611")
    (source
     (origin
      (method git-fetch)
@@ -24315,14 +24315,14 @@
 (define-public emacs-eglot-python-preset
   (package
    (name "emacs-eglot-python-preset")
-   (version "20260325.221")
+   (version "20260328.2351")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-python-preset.git")
-           (commit "33a836fdf57d72f77e4983d6fe1bca5e93157c26")))
-     (sha256 (base32 "0mvhwlwx8by2q5sagyn1na0qsvlgvnqxiva5m3bc28k5l6w8jcx4"))))
+           (commit "23761a369c86cdd280dbe8eea92057e09401bd26")))
+     (sha256 (base32 "08ibwfpbn1kq0brf7wj74ginndvv7plwzdlzdqrznpjh6pmda84f"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "templates/*.tpl.py")))
    (home-page "https://github.com/mwolson/eglot-python-preset")
@@ -25655,14 +25655,14 @@
 (define-public emacs-elisp-autofmt
   (package
    (name "emacs-elisp-autofmt")
-   (version "20260328.1130")
+   (version "20260329.55")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-elisp-autofmt.git")
-           (commit "277e01797187efc621ef6b054307884d56959d23")))
-     (sha256 (base32 "19p6gg6cji30xzyxmvpir7a10gf0njdkq7c6d4ciwpsiv3lkskf7"))))
+           (commit "4436178ae0954c5c52d27571e7f2c5c31f5638b2")))
+     (sha256 (base32 "1b1kw9jvdz863ly8fl5jsr5l4l3g7vzr2zpf1mssjg43604cs4hz"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "elisp-autofmt.py" "elisp-autofmt.overrides.json")))
@@ -48892,16 +48892,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260326.830")
+   (version "20260328.1915")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "0pc1ylcdfas1jdhynbc1zcfx0wi53cywfwx0fd3aaj3ykd0mxm5x"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "b982163b4c7223b7eccfbb77a31dab41046244e4")))
+     (sha256 (base32 "0mfihb6am4jcgg1jvlx70j81xhcklsqyrmprjwgxsdma51xas6yz"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -60425,14 +60463,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260328.1223")
+   (version "20260328.2003")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "b9bbbe6d9cdff3b3ccf744c466cea23ed09fe038")))
-     (sha256 (base32 "17h0p1yzf2x1bp0awa6b4yk8dmqx3ih7v79acakqdymsqmmn86g2"))))
+           (commit "71a844b0df967015bd0a51c6d865a9a5233330ae")))
+     (sha256 (base32 "01gr72y2n408rm7m3xsyaxnbn3diw1549n9frw9x1262qng1kxji"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -61395,14 +61433,14 @@
 (define-public emacs-mandm-theme
   (package
    (name "emacs-mandm-theme")
-   (version "20260208.1754")
+   (version "20260328.1745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/choppsv1/emacs-mandm-theme.git")
-           (commit "217775591a4b2f8e531f745e6a9fb6cea6153bd7")))
-     (sha256 (base32 "1shwijj2sak80pv9rs4qyyvxgnvm9jggzpqqnq038j1pg0fsd49s"))))
+           (commit "bccf228e07e785f6534faaf50edc2e1b212c9d54")))
+     (sha256 (base32 "15fzbs3ygzj8x4g3js2gjyvzilmvfr482z8a6hnvs4316yzp1vjd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/choppsv1/emacs-mandm-theme.git")
    (synopsis "An M&M color theme")
@@ -68592,14 +68630,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260324.1940")
+   (version "20260328.1945")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "02834436a0a42e1f66780449ce83ba33e2d392a3")))
-     (sha256 (base32 "1dyygiwq4m1bxy95gq9q5hwr4arg06hbg7j6cbzwj2b95mcmws0r"))))
+           (commit "5a0fb254ed875812aed55a6111ff8af7774e65a2")))
+     (sha256 (base32 "169n735pba158yfj4y3nfcdwjyrr6ppijw1xlwpya595lmmraccb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -79375,14 +79413,14 @@
 (define-public emacs-pg
   (package
    (name "emacs-pg")
-   (version "20260208.1419")
+   (version "20260328.1624")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emarsden/pg-el.git")
-           (commit "52888cb6120407654f248877b2a78a75f7df0d99")))
-     (sha256 (base32 "19hh45mlb4j6a3ys3wvivj0bm5xy5vjwscnvn68b656b5jk5himh"))))
+           (commit "67f50311947a54913d91852ebd6880dbe68930bc")))
+     (sha256 (base32 "0w9a8y3s2dbmpqbbnxycxd38niqq2slzr26bfl4v1pfcm0w7skfz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-peg))
    (home-page "https://github.com/emarsden/pg-el")
