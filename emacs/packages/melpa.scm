@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260330.420")
+   (version "20260330.1511")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "cd5eb261c1007443576ce13a1820c1af84cf594f")))
-     (sha256 (base32 "1487n5gry0p6gkbd3czdrdjn3ip8bch3jvhxjx0afhi1n658pxc2"))))
+           (commit "d24840d736e33484f018a53969c1571550798e11")))
+     (sha256 (base32 "039g173vf4ihanmkixgznicbcr97cwigdxxidyjcaidr1hr45xl3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -6456,14 +6456,14 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20260310.1314")
+   (version "20260330.1007")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kristjoc/bible-gateway.git")
-           (commit "0279e0a9026566b31d8bea71d1f46b12cb1ffc2b")))
-     (sha256 (base32 "1g848vdlsxrls4pl4waf16c64jgkv7r3c0yyvpkx0yhlcjf3dx5c"))))
+           (commit "53a1ebd846b1b5f7591f142fab18058848bb4a98")))
+     (sha256 (base32 "1q1v8k68idhiksmy7cn8rcgadq8kl463yysbc7zq7rr4apylzr1k"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kristjoc/bible-gateway")
    (synopsis "A Simple BibleGateway Client")
@@ -11678,14 +11678,14 @@
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
-   (version "20250514.1903")
+   (version "20260330.1616")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clj-refactor.el.git")
-           (commit "362cb46bf808dc42d2aaf022afe93048439680c4")))
-     (sha256 (base32 "09s9jav8xsgxqj5lkdl9nkbb0bbgz96qjpp7az197wckxsqrs26x"))))
+           (commit "30a9d2716097b825e0cc00cd298dcb9547bcc78d")))
+     (sha256 (base32 "02wdhwz2k0ipyqzbxzc33ymlv6ycjfz9cba95qax4gwaddkzgznn"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-yasnippet
@@ -19504,14 +19504,14 @@
 (define-public emacs-dialog-mode
   (package
    (name "emacs-dialog-mode")
-   (version "20260324.2122")
+   (version "20260330.1617")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~mew/dialog-mode")
-           (commit "0489cc8de30d099633f1a1d3e9898f2fdb108d70")))
-     (sha256 (base32 "1n3qhzkza5dlhhiphslgm02k0jnd5n5la7lgs198v4r0i39njymc"))))
+           (commit "ac48b135793fc323af0c05bf83d7f0ccd7159852")))
+     (sha256 (base32 "0q4fmslcc8ajq8bvbn15jzlvrfw5xx03l611hmdlcglrhlj5ylv6"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("doc/dialog-mode.texi" "dialog-mode.el")))
    (home-page "https://git.sr.ht/~mew/dialog-mode")
@@ -23579,17 +23579,17 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260329.2202")
+   (version "20260330.1315")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "0a768bd504737318eb039954333e32466397ee81")))
-     (sha256 (base32 "00yv8nfwv4fcn3jbcmarhxav4nrnf956xim2qxxgdfymbqrqw4vg"))))
+           (commit "93939850f2897fe4081b0ffca0e112acd7f19024")))
+     (sha256 (base32 "1v17iy3a54siqyy528q7c74l9f0f7wx44hl6gmdg54bk879rjybj"))))
    (build-system melpa-build-system)
    (propagated-inputs
-    (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
+    (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
    (home-page "https://github.com/editor-code-assistant/eca-emacs")
    (synopsis "AI pair programming via ECA (Editor Code Assistant)")
    (description "Documentation at https://melpa.org/#/eca")
@@ -28257,14 +28257,14 @@
 (define-public emacs-erlang
   (package
    (name "emacs-erlang")
-   (version "20260330.819")
+   (version "20260330.1450")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erlang/otp.git")
-           (commit "17ba15bc62acd8c7453668731c94cb04fbf88f80")))
-     (sha256 (base32 "1s75x14hfbm0qabka3yp08ai4498k8z0pl5psm33rczyk4wgq7ni"))))
+           (commit "639c85d7400d34c82df962547561cc1dc0a42755")))
+     (sha256 (base32 "0bb8a535cxnwbh1c0a918r38vdlxs1wbda6z5fiifaiznpg7arc1"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -28277,14 +28277,14 @@
 (define-public emacs-erlang-ts
   (package
    (name "emacs-erlang-ts")
-   (version "20260325.1436")
+   (version "20260330.849")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erlang/emacs-erlang-ts.git")
-           (commit "d1f2a6fbc83449a70d227474bbf186f7ffbfc77e")))
-     (sha256 (base32 "1q2wmas0ap8hw7kw8j01ld0ab51wz5zi2jlwimdkzg7y6vaqhgq6"))))
+           (commit "dc59e5a451f86d1ed533703486dfbad6efc1445d")))
+     (sha256 (base32 "1wgfvww463jzlyqbnbiszxldn3cmh2srcrjfdvc3hjgg82qgsl7k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-erlang))
    (home-page "https://github.com/erlang/emacs-erlang-ts")
@@ -31396,14 +31396,14 @@
 (define-public emacs-exiftool
   (package
    (name "emacs-exiftool")
-   (version "20190520.1106")
+   (version "20260328.2210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.systemreboot.net/exiftool.el/")
-           (commit "17454ddf81eab50b948a565be812761a587e424e")))
-     (sha256 (base32 "01niy5n0h3ksjg8n7xr3lqaqdvyqfky31zn5g0kiwprgsv6k8acx"))))
+           (commit "23e9b7b407440037b23b1f7ad5f2010e41898621")))
+     (sha256 (base32 "1cwqhipadypvpkyhq004p55j0zc09lv90c0g1i207msnbmrm2lyn"))))
    (build-system melpa-build-system)
    (home-page "https://git.systemreboot.net/exiftool.el")
    (synopsis "Elisp wrapper around ExifTool")
@@ -37088,14 +37088,14 @@
 (define-public emacs-flywrite
   (package
    (name "emacs-flywrite")
-   (version "20260325.151")
+   (version "20260330.1354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/awdeorio/flywrite.git")
-           (commit "223d3f6eb5804a3fe5978851ee431896591796ae")))
-     (sha256 (base32 "08sc0ahq8wmid0xypyn63njd3jfyxbavlxxgp54sfa577hxfhgi5"))))
+           (commit "1266aad07c4a7e461b674984ac4632059681f0cf")))
+     (sha256 (base32 "1dx86cm9v4y3zkfjjvwq6rj25rzjs025sdn1xq5q87npiccg7vvz"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("flywrite.el")))
    (home-page "https://github.com/awdeorio/flywrite")
@@ -38148,14 +38148,14 @@
 (define-public emacs-fsharp-ts-mode
   (package
    (name "emacs-fsharp-ts-mode")
-   (version "20260330.653")
+   (version "20260330.1622")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/fsharp-ts-mode.git")
-           (commit "c354d8b85f65edb01f033d1a17c467ca59a4403e")))
-     (sha256 (base32 "0m134shn5awa9dnsfrdm52s81i8ks1m1szq0ansilp4pjy4yvhia"))))
+           (commit "bf6e35f7b5fe1106b0e15ba098677b7eaf01aecb")))
+     (sha256 (base32 "12zdp7xirvlv9fxfv716j85j7ni90fdpmjjwcdrr9zg1pqp9zl55"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/fsharp-ts-mode")
    (synopsis "Major mode for F# code")
@@ -48999,54 +48999,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260329.1552")
+   (version "20260330.310")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "ad03affc4e799e2a1d75a0fbafb739a2da9c3bec")))
-     (sha256 (base32 "10rl7ngzdkpjz2kdpfxgdqdksv0bv94hsi6s6jf01cj1wzdzw4ds"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "1y7zv9yj5156ak4hdb5ar9nkb82456k3kdpilylrrz7k0993mrhi"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -60570,14 +60532,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260329.2122")
+   (version "20260330.1345")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "6c7d3c34b51383f32f6a7a84fb1472e4f5ab7cf2")))
-     (sha256 (base32 "076xr7vp95xwcjxssh4kjzi94wwgaksz387vykmd3yxyzwjy0lv3"))))
+           (commit "9beb7ac0b51ad4f121b56d9c986b6be0a479997d")))
+     (sha256 (base32 "072gk7p7gn7hin8ncff4bszk9hd1139h5yigdpmsncyy212grwfh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -61053,14 +61015,14 @@
 (define-public emacs-magit-section
   (package
    (name "emacs-magit-section")
-   (version "20260329.2116")
+   (version "20260330.1102")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "6c7d3c34b51383f32f6a7a84fb1472e4f5ab7cf2")))
-     (sha256 (base32 "076xr7vp95xwcjxssh4kjzi94wwgaksz387vykmd3yxyzwjy0lv3"))))
+           (commit "9beb7ac0b51ad4f121b56d9c986b6be0a479997d")))
+     (sha256 (base32 "072gk7p7gn7hin8ncff4bszk9hd1139h5yigdpmsncyy212grwfh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (arguments
@@ -66833,14 +66795,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260326.739")
+   (version "20260330.1402")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "58e5f92f9a43bd5df302728d50b8df0940c28cff")))
-     (sha256 (base32 "1ibsnw5pkagm9d9cz322rpnzywzcif1mrakrbjdgaqflwx2xddvj"))))
+           (commit "f4107789b847e5c9e378860aa58ade69895e7be1")))
+     (sha256 (base32 "1f181c9w4f8pphm0bafv8zvfb2l8caw3629m59qaixqh82lclyzb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -75753,14 +75715,14 @@
 (define-public emacs-orgit-forge
   (package
    (name "emacs-orgit-forge")
-   (version "20260101.1854")
+   (version "20260330.1127")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/orgit-forge.git")
-           (commit "c2116b8701498bd11d8674065a5429d844985e46")))
-     (sha256 (base32 "02cka68jrxcdzm12j7912zfgjj5ayw9avm6r59j59nc2kin3khmc"))))
+           (commit "a080dd009b5e1183acf5fda19e271543cdcdebba")))
+     (sha256 (base32 "1rq6b9jks7jsjrn4gmnykx8jvwjzmg1rx9qcazwhjxpl08rdwhdm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-forge emacs-magit emacs-orgit))
@@ -94757,14 +94719,14 @@
 (define-public emacs-speed-type
   (package
    (name "emacs-speed-type")
-   (version "20260327.1312")
+   (version "20260330.1430")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/speed-type.git")
-           (commit "2eb87803ed1349b10eef46ce0fe3eda0dbf42f00")))
-     (sha256 (base32 "0jx43w36v10par4lz23pc9h1292dkzxcbcwbvvj9yn0rrchi1q9q"))))
+           (commit "f349c000c4d9541cc0e9dcf072555c7f4c9f9a46")))
+     (sha256 (base32 "0y2vi01agwwjgklxsfaf1hh9q1mnn82s2rnkkmqnqrycpa0p1wzk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/dakra/speed-type")
@@ -101039,14 +101001,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260329.935")
+   (version "20260330.946")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "7e31e4a6bd82c1c41b204834283437463ffbca37")))
-     (sha256 (base32 "0454d28cka85dxdb25gysp1sfiy6hcd8pls4rbyfwnck06h6s1sa"))))
+           (commit "9434bc0d5fc05c25bc004d1aea2b0ae25ca22b90")))
+     (sha256 (base32 "1a2hipdylbj5yz2vdxbz08cjw2pk8c94migpr1q0nzqp63pss7z2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
@@ -104911,14 +104873,14 @@
 (define-public emacs-vterm-editor
   (package
    (name "emacs-vterm-editor")
-   (version "20260304.1446")
+   (version "20260330.845")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/andros/vterm-editor.el.git")
-           (commit "dc10185111e4f0014528d28a3e31d26c48d5e2ef")))
-     (sha256 (base32 "0skjm56ing4ifjgmd5hy5mpd83wicf6glcgjpaddb0xybj5jarrj"))))
+           (commit "239782cdf2411aed27a4f053c30e05c90047351b")))
+     (sha256 (base32 "1i3b9jbv684r47hkdrfjsqlv9h3yrda3w2mb2b44h6f70ipr9s5n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm))
    (home-page "https://git.andros.dev/andros/vterm-editor.el")
