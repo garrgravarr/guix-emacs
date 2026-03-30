@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260328.327")
+   (version "20260329.2331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "f70e517f7dedb277cd70d31fb4c459966a4316a5")))
-     (sha256 (base32 "1fy5xm0rng5vkc2zpkv5x7lald58s5np5l3nq8a5lcrvnvywq40j"))))
+           (commit "aeb8028eefb291d25c9c6ed867b740d4f3e30067")))
+     (sha256 (base32 "0fgsz4hzrh2lni9d7a0a6hi9ars6jjzpps48hs06zjvczc640qza"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -2575,6 +2575,23 @@
    (description "Documentation at https://melpa.org/#/ancient-one-dark-theme")
    (license #f)))
 
+(define-public emacs-ancient-theme
+  (package
+   (name "emacs-ancient-theme")
+   (version "20260322.1856")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/thomasbestvina/ancient-theme.git")
+           (commit "6b5c5a016a8460739215aac8eeb16be9fa357b4e")))
+     (sha256 (base32 "16npch74pwym08cw6zrpfy1lh7wi4pz24s1bpvflcyp7k9rs6qis"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/thomasbestvina/ancient-theme")
+   (synopsis "A theme about ruins")
+   (description "Documentation at https://melpa.org/#/ancient-theme")
+   (license #f)))
+
 (define-public emacs-android-env
   (package
    (name "emacs-android-env")
@@ -2663,6 +2680,25 @@
    (home-page "https://github.com/magnars/angular-snippets.el")
    (synopsis "Yasnippets for AngularJS")
    (description "Documentation at https://melpa.org/#/angular-snippets")
+   (license #f)))
+
+(define-public emacs-anju
+  (package
+   (name "emacs-anju")
+   (version "20260325.2257")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/kickingvegas/anju.git")
+           (commit "e9f3ca4c96b7149c5f8be711ebd5b95473368b9b")))
+     (sha256 (base32 "1nacl6nwfg9j1x0kdw5hc8lh3a01yywi1vdiqn23163d7ynjmidm"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-magit emacs-casual emacs-markdown-mode))
+   (arguments '(#:files (:defaults "docs/images")))
+   (home-page "https://github.com/kickingvegas/anju")
+   (synopsis "Mouse UX Customizations")
+   (description "Documentation at https://melpa.org/#/anju")
    (license #f)))
 
 (define-public emacs-anki-connect
@@ -11621,6 +11657,24 @@
    (description "Documentation at https://melpa.org/#/clj-deps-new")
    (license #f)))
 
+(define-public emacs-clj-doc-browse
+  (package
+   (name "emacs-clj-doc-browse")
+   (version "20260329.1912")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/dcj/clj-doc-browse-el.git")
+           (commit "1409c55f8173720d8035e38f19ee0bd16f1c5ecf")))
+     (sha256 (base32 "0jhb3n7zn60qc1phspp412j88mr6dz57s0rk3yv7v400m5a7n2dx"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-cider emacs-markdown-mode))
+   (home-page "https://github.com/dcj/clj-doc-browse-el")
+   (synopsis "Browse Clojure library docs from classpath JARs")
+   (description "Documentation at https://melpa.org/#/clj-doc-browse")
+   (license #f)))
+
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
@@ -18217,14 +18271,14 @@
 (define-public emacs-dashboard
   (package
    (name "emacs-dashboard")
-   (version "20260327.1547")
+   (version "20260329.1853")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-dashboard/dashboard.git")
-           (commit "f28b8e1c5f895c1dbf908a0550303a1de37fa259")))
-     (sha256 (base32 "07k1csiqcy5dyq1sz13wmw3i2rs67ih277f2dmxxqyfxcd9qbyjl"))))
+           (commit "1c21c2586da32180f921df812a9276ab3ef18c17")))
+     (sha256 (base32 "0jvh67hqvxksiwk7llwlm4dlsbcfk6iy46szfg8fgwnqzdbd6b8n"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "banners")))
    (home-page "https://github.com/emacs-dashboard/dashboard")
@@ -23525,14 +23579,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260327.1632")
+   (version "20260329.2202")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "22f14d83ad28d7f8f39529d9a2f35e9e004dd1f3")))
-     (sha256 (base32 "10rf5r0qbiqbk0igpqd4vpbshywfqbxanq73mwy2807jfg5pr1d0"))))
+           (commit "0a768bd504737318eb039954333e32466397ee81")))
+     (sha256 (base32 "00yv8nfwv4fcn3jbcmarhxav4nrnf956xim2qxxgdfymbqrqw4vg"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-markdown-mode emacs-compat))
@@ -24364,6 +24418,24 @@
    (home-page "https://github.com/fejfighter/eglot-tempel")
    (synopsis "Use tempel to expand snippets from eglot")
    (description "Documentation at https://melpa.org/#/eglot-tempel")
+   (license #f)))
+
+(define-public emacs-eglot-typescript-preset
+  (package
+   (name "emacs-eglot-typescript-preset")
+   (version "20260329.335")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/mwolson/eglot-typescript-preset.git")
+           (commit "8da3c37d9739f421f437804a94a25b80bc8bcb6b")))
+     (sha256 (base32 "103gbjzmmvz0ycb5cxq7zgs419akr1x4vfv1546r168jq7jhzqcp"))))
+   (build-system melpa-build-system)
+   (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
+   (home-page "https://github.com/mwolson/eglot-typescript-preset")
+   (synopsis "Eglot preset for TypeScript")
+   (description "Documentation at https://melpa.org/#/eglot-typescript-preset")
    (license #f)))
 
 (define-public emacs-ego
@@ -29201,14 +29273,14 @@
 (define-public emacs-esxml
   (package
    (name "emacs-esxml")
-   (version "20250421.1632")
+   (version "20260329.1617")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tali713/esxml.git")
-           (commit "affada143fed7e2da08f2b3d927a027f26ad4a8f")))
-     (sha256 (base32 "1yqwx53yzn2izhdzchm3cp8qcln2j0n015xlyg3c020q08sai1ha"))))
+           (commit "6a375888a74b7563eb53176aad81faee8b858189")))
+     (sha256 (base32 "1imv8lnv0r2ddwj2iaczqsfby4cglhvi24ilkfpv0dpjlkpa63da"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("esxml.el" "esxml-query.el")))
    (home-page "https://github.com/tali713/esxml")
@@ -37013,6 +37085,24 @@
    (description "Documentation at https://melpa.org/#/flyspell-popup")
    (license #f)))
 
+(define-public emacs-flywrite
+  (package
+   (name "emacs-flywrite")
+   (version "20260325.151")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/awdeorio/flywrite.git")
+           (commit "223d3f6eb5804a3fe5978851ee431896591796ae")))
+     (sha256 (base32 "08sc0ahq8wmid0xypyn63njd3jfyxbavlxxgp54sfa577hxfhgi5"))))
+   (build-system melpa-build-system)
+   (arguments '(#:files ("flywrite.el")))
+   (home-page "https://github.com/awdeorio/flywrite")
+   (synopsis "Inline writing suggestions via LLM")
+   (description "Documentation at https://melpa.org/#/flywrite")
+   (license #f)))
+
 (define-public emacs-fm-bookmarks
   (package
    (name "emacs-fm-bookmarks")
@@ -38053,6 +38143,23 @@
    (home-page "https://github.com/fsharp/emacs-fsharp-mode")
    (synopsis "Support for the F# programming language")
    (description "Documentation at https://melpa.org/#/fsharp-mode")
+   (license #f)))
+
+(define-public emacs-fsharp-ts-mode
+  (package
+   (name "emacs-fsharp-ts-mode")
+   (version "20260329.654")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/bbatsov/fsharp-ts-mode.git")
+           (commit "278f2285186e2d16d4116e37837966d985623e2b")))
+     (sha256 (base32 "0c1qvbis1i0b0wkpih37g7inlili6qj7az66fs1kg4rwnhcpfjq4"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/bbatsov/fsharp-ts-mode")
+   (synopsis "Major mode for F# code")
+   (description "Documentation at https://melpa.org/#/fsharp-ts-mode")
    (license #f)))
 
 (define-public emacs-fsrs
@@ -42061,14 +42168,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260329.612")
+   (version "20260329.2110")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "db9aadf24a00de4d14511ecefb3019fa518317e9")))
-     (sha256 (base32 "0v8f6x4wnjf0gqvkp8rxwmdjpvv09xbby4hwmnid7fh8sgh496gc"))))
+           (commit "424c835bc46ed083088e82e2fcd48c2e1c34bacf")))
+     (sha256 (base32 "0kxaxa4cwgimw943wgdvy05r1ad5aaxcaminnfmdg5j7ampyy78n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -48892,14 +48999,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260328.1915")
+   (version "20260329.1552")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "b982163b4c7223b7eccfbb77a31dab41046244e4")))
-     (sha256 (base32 "0mfihb6am4jcgg1jvlx70j81xhcklsqyrmprjwgxsdma51xas6yz"))))
+           (commit "ad03affc4e799e2a1d75a0fbafb739a2da9c3bec")))
+     (sha256 (base32 "10rl7ngzdkpjz2kdpfxgdqdksv0bv94hsi6s6jf01cj1wzdzw4ds"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -60463,14 +60570,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260329.1025")
+   (version "20260329.2122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "6c1bc80ec565ff7f60230b70c7e00fe4fa12575f")))
-     (sha256 (base32 "04zm2bqdvb68czkjkh7hbcp1rlw2a853j38g0gwyka1sirczn3gj"))))
+           (commit "6c7d3c34b51383f32f6a7a84fb1472e4f5ab7cf2")))
+     (sha256 (base32 "076xr7vp95xwcjxssh4kjzi94wwgaksz387vykmd3yxyzwjy0lv3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -60946,14 +61053,14 @@
 (define-public emacs-magit-section
   (package
    (name "emacs-magit-section")
-   (version "20260101.1850")
+   (version "20260329.2116")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "c800f79c2061621fde847f6a53129eca0e8da728")))
-     (sha256 (base32 "04yxjkv5h3arcj1s0nq9kyh3l1z4c9wml35vb67jvv1h7mslwz55"))))
+           (commit "6c7d3c34b51383f32f6a7a84fb1472e4f5ab7cf2")))
+     (sha256 (base32 "076xr7vp95xwcjxssh4kjzi94wwgaksz387vykmd3yxyzwjy0lv3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (arguments
@@ -68630,14 +68737,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260328.1945")
+   (version "20260329.1809")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "5a0fb254ed875812aed55a6111ff8af7774e65a2")))
-     (sha256 (base32 "169n735pba158yfj4y3nfcdwjyrr6ppijw1xlwpya595lmmraccb"))))
+           (commit "a9b584944af19c912416a36a9d28dc4e06b2c99a")))
+     (sha256 (base32 "1h5bd6zzg8mb79ixk3x66gzxph53d6gb69gphv4qyyj6mwmbbnx6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -73052,14 +73159,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260324.1456")
+   (version "20260329.1731")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "0bb6bfd474ab00c1a7254024329f5dde5c1499ae")))
-     (sha256 (base32 "1aw26ls03mavbbx8m24w26xp94mv76b6dni4cfpy3b37yq0wb7qs"))))
+           (commit "2de5fe6f9616556b0aa0d584930673763430ade9")))
+     (sha256 (base32 "1g1my6cqcdlc5vms055navjg40mij5d1rdfcw3a4amqpm4fl006b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -88166,6 +88273,23 @@
    (description "Documentation at https://melpa.org/#/ros")
    (license #f)))
 
+(define-public emacs-ros-face
+  (package
+   (name "emacs-ros-face")
+   (version "20260327.1536")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/smallwat3r/emacs-ros-face.git")
+           (commit "30ee0ba641f9b49437a0556cbd58be1d2335856f")))
+     (sha256 (base32 "1hpz60sfczdlykj31q8vabwb1q46j4yr6c14n7yvx94zhnppr6xg"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/smallwat3r/emacs-ros-mode")
+   (synopsis "Syntax highlighting for ROS files")
+   (description "Documentation at https://melpa.org/#/ros-face")
+   (license #f)))
+
 (define-public emacs-roseline-theme
   (package
    (name "emacs-roseline-theme")
@@ -92088,14 +92212,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260329.1134")
+   (version "20260329.1820")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "f91064433bf8273cd436d4b5d73db56256c47625")))
-     (sha256 (base32 "1sj92d5szlmhjbm57rxpafjxd6pg22w4cm5y6xmvm9m3inr68x81"))))
+           (commit "357c54fc03ae90c3e4eeec65cf3859ee6a050bba")))
+     (sha256 (base32 "0padh220j2cz245zlx29ppll0xxd3c7q2knppjyynzj4km4rid4f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -92416,14 +92540,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260327.2139")
+   (version "20260329.2133")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "37713ddf484ae3e01ad0b435a8edbe0f33237eb8")))
-     (sha256 (base32 "146wizjvyz278wgsv8zhh03vmy43cdrsqpbb3952b0yprgh64dp7"))))
+           (commit "b2832e7f37d712e23493b51662bc01d7bbd96e55")))
+     (sha256 (base32 "0cdmhhblpggdfapc1fwqqvqsvvjpiqh95iaqakljh3ky6lghmwq3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -98658,6 +98782,23 @@
    (description "Documentation at https://melpa.org/#/test-simple")
    (license #f)))
 
+(define-public emacs-tetris-60
+  (package
+   (name "emacs-tetris-60")
+   (version "20260329.1134")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/suxiaogang223/tetris-60.git")
+           (commit "7e56b57ef4bd769235ab60aaa77029239cc568b4")))
+     (sha256 (base32 "0fh3h1cz5zi4gjn24i1y1djbr851v3kx3kpq63gg16mhksn8cg82"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/suxiaogang223/tetris-60")
+   (synopsis "Retro ASCII Tetris")
+   (description "Documentation at https://melpa.org/#/tetris-60")
+   (license #f)))
+
 (define-public emacs-tex-smart-umlauts
   (package
    (name "emacs-tex-smart-umlauts")
@@ -104767,6 +104908,24 @@
    (description "Documentation at https://melpa.org/#/vterm")
    (license #f)))
 
+(define-public emacs-vterm-editor
+  (package
+   (name "emacs-vterm-editor")
+   (version "20260304.1446")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.andros.dev/andros/vterm-editor.el.git")
+           (commit "dc10185111e4f0014528d28a3e31d26c48d5e2ef")))
+     (sha256 (base32 "0skjm56ing4ifjgmd5hy5mpd83wicf6glcgjpaddb0xybj5jarrj"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-vterm))
+   (home-page "https://git.andros.dev/andros/vterm-editor.el")
+   (synopsis "Edit text in a buffer and send it to vterm")
+   (description "Documentation at https://melpa.org/#/vterm-editor")
+   (license #f)))
+
 (define-public emacs-vterm-hotkey
   (package
    (name "emacs-vterm-hotkey")
@@ -108872,14 +109031,14 @@
 (define-public emacs-zenburn-theme
   (package
    (name "emacs-zenburn-theme")
-   (version "20260328.1156")
+   (version "20260329.1838")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/zenburn-emacs.git")
-           (commit "2f7f89047819fd29383dcb3945467eb0b9e44d42")))
-     (sha256 (base32 "0pwcrz36rg2q2m6s8zn9h89qbd785lxpsl61kgqh1znqrj7mc0zi"))))
+           (commit "1022240b1061369ecb605d55fa074d20d5c84aae")))
+     (sha256 (base32 "17rl292240j2c8db01irpp5khsqwwwwcjlzwa52adyirc5bdb74v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/zenburn-emacs")
    (synopsis "A low contrast color theme for Emacs")
