@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260329.2331")
+   (version "20260330.420")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "aeb8028eefb291d25c9c6ed867b740d4f3e30067")))
-     (sha256 (base32 "0fgsz4hzrh2lni9d7a0a6hi9ars6jjzpps48hs06zjvczc640qza"))))
+           (commit "cd5eb261c1007443576ce13a1820c1af84cf594f")))
+     (sha256 (base32 "1487n5gry0p6gkbd3czdrdjn3ip8bch3jvhxjx0afhi1n658pxc2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -2685,7 +2685,7 @@
 (define-public emacs-anju
   (package
    (name "emacs-anju")
-   (version "20260325.2257")
+   (version "20260330.25")
    (source
     (origin
      (method git-fetch)
@@ -28257,14 +28257,14 @@
 (define-public emacs-erlang
   (package
    (name "emacs-erlang")
-   (version "20260326.1431")
+   (version "20260330.819")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erlang/otp.git")
-           (commit "b7dfac8a1bc13f931f953e25610da4e019df414a")))
-     (sha256 (base32 "00xgwvzqsj0xdwhp2haa7dzyc1czf96mcprz5mk2vp03q0qpnw1m"))))
+           (commit "17ba15bc62acd8c7453668731c94cb04fbf88f80")))
+     (sha256 (base32 "1s75x14hfbm0qabka3yp08ai4498k8z0pl5psm33rczyk4wgq7ni"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -38148,14 +38148,14 @@
 (define-public emacs-fsharp-ts-mode
   (package
    (name "emacs-fsharp-ts-mode")
-   (version "20260329.654")
+   (version "20260330.653")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/fsharp-ts-mode.git")
-           (commit "278f2285186e2d16d4116e37837966d985623e2b")))
-     (sha256 (base32 "0c1qvbis1i0b0wkpih37g7inlili6qj7az66fs1kg4rwnhcpfjq4"))))
+           (commit "c354d8b85f65edb01f033d1a17c467ca59a4403e")))
+     (sha256 (base32 "0m134shn5awa9dnsfrdm52s81i8ks1m1szq0ansilp4pjy4yvhia"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/fsharp-ts-mode")
    (synopsis "Major mode for F# code")
@@ -42168,14 +42168,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260329.2110")
+   (version "20260330.618")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "424c835bc46ed083088e82e2fcd48c2e1c34bacf")))
-     (sha256 (base32 "0kxaxa4cwgimw943wgdvy05r1ad5aaxcaminnfmdg5j7ampyy78n"))))
+           (commit "e1adf9c184dc18ad22c3676910e092411d78d414")))
+     (sha256 (base32 "0rnqhlnz7cvj5zv89x7kkfb0h6v406xs5grd5sqkrr8frn5sil9m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -42242,14 +42242,14 @@
 (define-public emacs-gptel-cpp-complete
   (package
    (name "emacs-gptel-cpp-complete")
-   (version "20260112.803")
+   (version "20260330.755")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/gptel-cpp-complete.git")
-           (commit "c38815f81f40ef519c2bcc5dfa9a29b72cc54a4c")))
-     (sha256 (base32 "16pac2ahn0zqfr43nsfkmbqs7qlnmq6xhvg0f7b9313ndhi9q8xm"))))
+           (commit "4a5fe7941a76f74fe277da916be2cd20e06d2b60")))
+     (sha256 (base32 "0wzrc6j56zlf7yswhrfd706jnf5a8agbnpq4cdrdg2n0s2ai6q20"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (arguments '(#:files (:defaults "treesit-grammars/*.so")))
@@ -75879,14 +75879,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260328.752")
+   (version "20260330.745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "a4e5669944e863d8edea63462b3de235dc11e7ea")))
-     (sha256 (base32 "0lnf16s31abqn91phf1fjaf43bgx6vd2zlkpkd8il9qxj05al8kb"))))
+           (commit "7a60cba3f26681c4c57ebb79593ff9a8d587db5c")))
+     (sha256 (base32 "10cc88wrxvlrh48q2sla1zlwaqxcrc0s6nkrxx37kgirdg6wiz6h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -75930,14 +75930,14 @@
 (define-public emacs-orgtbl-join
   (package
    (name "emacs-orgtbl-join")
-   (version "20260327.856")
+   (version "20260330.846")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgtbljoin.git")
-           (commit "aeebe689f11cc25c71dbc3704248e1d9924e71ad")))
-     (sha256 (base32 "017an3yivnh0qm7x1fh8x0v660r6fdhnrdxmzrrpv2wg4hk7y7c8"))))
+           (commit "c4a48b1e5056e58b17231bb672d25c6a3be6e681")))
+     (sha256 (base32 "1sq46888344akp56p6x7yj9l3h7g7d21n520db2wb6kkhf7vxwrv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
    (synopsis "Join columns from other Org Mode tables")
@@ -89485,14 +89485,14 @@
 (define-public emacs-scad-mode
   (package
    (name "emacs-scad-mode")
-   (version "20260322.21")
+   (version "20260330.717")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/openscad/emacs-scad-mode.git")
-           (commit "91e2e4dd7a8cc77af5be8fe49429c99996648167")))
-     (sha256 (base32 "1k3v1fakyhwi9k9mcpqqcdcpnk2zflwzqqjc5s8jmkb5mjy4l1l4"))))
+           (commit "44481331536516e34940315f67fa58f99f62a589")))
+     (sha256 (base32 "198m7xhyvjmqar9n7pmi7m36rvw47w2g218hkgzdkdlq55a17w32"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/openscad/emacs-scad-mode")
@@ -91115,14 +91115,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260324.1516")
+   (version "20260330.851")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "808bede99dc2c2d27c3dc69d5f363aade40e6f87")))
-     (sha256 (base32 "0rqaljgbzx2fz31nysarrwdn74hldw24j4i0zhhz06rlq9dz8dm2"))))
+           (commit "6377cbdb49248d670170f1c8dbe045648063583e")))
+     (sha256 (base32 "0v2iqvr2ywng5d22sw88k90i2jzl3cf2ybp9q6qpqirhvlsbgq19"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -92212,14 +92212,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260329.1820")
+   (version "20260330.717")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "357c54fc03ae90c3e4eeec65cf3859ee6a050bba")))
-     (sha256 (base32 "0padh220j2cz245zlx29ppll0xxd3c7q2knppjyynzj4km4rid4f"))))
+           (commit "d990bb3f964027422cf745a90d88e608aa83ebf7")))
+     (sha256 (base32 "0rsjpq9nzbml9ayylajp1hjqy4q0s1ligcv01f5gyn6pxl9kvrlj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
