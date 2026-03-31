@@ -37088,14 +37088,14 @@
 (define-public emacs-flywrite
   (package
    (name "emacs-flywrite")
-   (version "20260330.1354")
+   (version "20260331.1415")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/awdeorio/flywrite.git")
-           (commit "1266aad07c4a7e461b674984ac4632059681f0cf")))
-     (sha256 (base32 "1dx86cm9v4y3zkfjjvwq6rj25rzjs025sdn1xq5q87npiccg7vvz"))))
+           (commit "fd9387cdee7a104ef94d53b2c14915272ea31c2b")))
+     (sha256 (base32 "068xlxy89d2pivds670zpdnc8pfda748g0x2j0n1avkj6jbg24p1"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("flywrite.el")))
    (home-page "https://github.com/awdeorio/flywrite")
@@ -48999,16 +48999,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260330.310")
+   (version "20260331.857")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "1y7zv9yj5156ak4hdb5ar9nkb82456k3kdpilylrrz7k0993mrhi"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "9f451d2cd57d74b5875a004d344bec947951cc69")))
+     (sha256 (base32 "16r50fmjhxdl9kaxf506pklapgfvgmc1bsd95z58gsvzajxhslij"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -60532,14 +60570,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260330.1907")
+   (version "20260330.2032")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "315d85c765afbce10b08c5c9164da64bc789197a")))
-     (sha256 (base32 "03zww8122apnw4fy90xj6zpiqy9xxwkwxfwg33w3h64a61mzd89q"))))
+           (commit "2e09199737ae2b2bced82143f4324397fc5bfe27")))
+     (sha256 (base32 "1kbaw4lwm2xq9j4qad18cvbrg8gyasz99za58wgrk8zn1z73f6xr"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62069,14 +62107,14 @@
 (define-public emacs-mastodon
   (package
    (name "emacs-mastodon")
-   (version "20260318.1725")
+   (version "20260331.1106")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/mastodon.el.git")
-           (commit "703f3645417f545df2d2cd07731d5f99ca347229")))
-     (sha256 (base32 "02mhwihzr72vxlx4a2ls849wsich1h0vkrwkyk7v6gna48078ah2"))))
+           (commit "fac7d15c7ecdc388728e39a953304894dde3025f")))
+     (sha256 (base32 "1bri4bz08zx0kbl440cyx5dirh9dcrvinyndc1ifbmi4np0n54z8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-persist emacs-tp))
    (home-page "https://codeberg.org/martianh/mastodon.el")
@@ -66795,14 +66833,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260330.1402")
+   (version "20260331.1516")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "f4107789b847e5c9e378860aa58ade69895e7be1")))
-     (sha256 (base32 "1f181c9w4f8pphm0bafv8zvfb2l8caw3629m59qaixqh82lclyzb"))))
+           (commit "1dfd9ddb212ea867fccef33cbd141431036e49e6")))
+     (sha256 (base32 "1598q73izvmbw0dnra9zhmg42qqpnnr5xz3474mybnkiphx9ws1v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -70307,14 +70345,14 @@
 (define-public emacs-ocaml-eglot
   (package
    (name "emacs-ocaml-eglot")
-   (version "20260317.617")
+   (version "20260331.1306")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarides/ocaml-eglot.git")
-           (commit "24b314f03cb170cd9fb709324ec3bfa6e5968f14")))
-     (sha256 (base32 "1iiqwakiq1rfljab46sxfdzgy04d8m956z53g57yb3716ygp3rfw"))))
+           (commit "b3ab5f049838d96444d8dcaa83e0b9cb2e9ee4cc")))
+     (sha256 (base32 "06nsaxyzvgdjp3wy4hrjcyi904dwqk4wdvyfiprvgd93bqg18f46"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tarides/ocaml-eglot")
    (synopsis "An OCaml companion for Eglot")
@@ -79357,14 +79395,14 @@
 (define-public emacs-perspective
   (package
    (name "emacs-perspective")
-   (version "20260329.1534")
+   (version "20260331.1411")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nex3/perspective-el.git")
-           (commit "f384207b12f07353e0a6d148de6bd332334fafcd")))
-     (sha256 (base32 "0yqfii2dgpgdg6gz54hmz1vqj4mq4r4si0ih8vl1p5kbh2nzxjdg"))))
+           (commit "1271ac579798fe65ba2246a72a44efb1eeeba2ec")))
+     (sha256 (base32 "13xp4gywkda4z1ya4agbxj3vvi4m6mq96v0ln128b74q17x5hllz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/nex3/perspective-el")
    (synopsis "Switch between named \"perspectives\" of the editor")
@@ -92174,7 +92212,7 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260331.728")
+   (version "20260331.837")
    (source
     (origin
      (method git-fetch)
@@ -100644,14 +100682,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260327.915")
+   (version "20260331.1249")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "79c49830a80f550728738e378b7f7a53dd908478")))
-     (sha256 (base32 "0mqn409f9v539n1xlq1pdrq4av3jiw2kwdfp1rrpjhfx6dlz5bkr"))))
+           (commit "03c016db94392b3e1107a3f6265c91f6e1fe21e6")))
+     (sha256 (base32 "0mn3s3nabw2gimp424hypnp3n5spmhxp37x8xxjivzly6zh6k251"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/magit/transient")
@@ -102704,14 +102742,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260324.2104")
+   (version "20260331.1536")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "1daa74ed196d6c94ce35a6124d8c57bb0eef256a")))
-     (sha256 (base32 "0gs3vlcgqxggrz487mm32f0vpj8x6id5xs3543insipcrw5afkwn"))))
+           (commit "a3e765082a41c5a536d6c72af1202b30399444af")))
+     (sha256 (base32 "0p6p4ymxaqgz16ahg0sd0jbv5sfxfjhaxc0vbcyab6nj60jb47hm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
@@ -105721,14 +105759,14 @@
 (define-public emacs-web-mode
   (package
    (name "emacs-web-mode")
-   (version "20251214.1728")
+   (version "20260331.1441")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fxbois/web-mode.git")
-           (commit "1e7694aee87722f9e51b6e39c35d175d83a1fb2c")))
-     (sha256 (base32 "1b0m0lwai3qiz5mac321slxb0pbvaqi2yg89nni4869j9b2xmz3s"))))
+           (commit "e93b3fb89fd6345a5ff59795bed712abd486200a")))
+     (sha256 (base32 "02xn5wqmjv46nqrd73prddzx20c3r5idyg55rchbzvd4wwxjc9a6"))))
    (build-system melpa-build-system)
    (home-page "https://web-mode.org")
    (synopsis "Major mode for editing web templates")
