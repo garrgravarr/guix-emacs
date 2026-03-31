@@ -12880,14 +12880,14 @@
 (define-public emacs-comint-histories
   (package
    (name "emacs-comint-histories")
-   (version "20260323.1914")
+   (version "20260330.1650")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/NicholasBHubbard/comint-histories.git")
-           (commit "f5693f4e0a65319114285954a19bcc8624f457f8")))
-     (sha256 (base32 "1hmnbd1zg1jyzffd0k1d180l8dfsyklsa1i5v03bvfmlpyphaijq"))))
+           (commit "da9dddafa825a40cd1e25261bb088701c08a80d8")))
+     (sha256 (base32 "0j64ia11p7jlxvkyvjn3bls03qpin2j5amg7liy7fzc17hpjx5iy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f))
    (home-page "https://github.com/NicholasBHubbard/comint-histories")
@@ -17068,14 +17068,14 @@
 (define-public emacs-ct
   (package
    (name "emacs-ct")
-   (version "20260114.1214")
+   (version "20260330.1943")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/neeasade/ct.el.git")
-           (commit "66fb78baf83525ca068c3ddd156ef0989a65bf9d")))
-     (sha256 (base32 "0f7gcvphf23i7gghvybh3cgbam4dnm8cn57c4p1q1m0qbdimd9w7"))))
+           (commit "d47271cc1b5ef55cf74a3e25ac45a187b36910d5")))
+     (sha256 (base32 "17wm1hvxddwf6nhaiyjd4b2s5lakng74ikwrraqkxjbpyqwsk7ha"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-hsluv))
    (home-page "https://github.com/neeasade/ct.el")
@@ -19504,14 +19504,14 @@
 (define-public emacs-dialog-mode
   (package
    (name "emacs-dialog-mode")
-   (version "20260330.1617")
+   (version "20260330.1947")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~mew/dialog-mode")
-           (commit "ac48b135793fc323af0c05bf83d7f0ccd7159852")))
-     (sha256 (base32 "0q4fmslcc8ajq8bvbn15jzlvrfw5xx03l611hmdlcglrhlj5ylv6"))))
+           (commit "602c1629056cbe9994390c29cd0d02f56d57b73c")))
+     (sha256 (base32 "0xnin69vpbyifwrwmmrkfgr1b906492j8awqhyyrhi0iq09lhmr8"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("doc/dialog-mode.texi" "dialog-mode.el")))
    (home-page "https://git.sr.ht/~mew/dialog-mode")
@@ -26797,14 +26797,14 @@
 (define-public emacs-embark
   (package
    (name "emacs-embark")
-   (version "20260221.2325")
+   (version "20260330.2221")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/oantolin/embark.git")
-           (commit "cf0f0f0c29e7f30df23693b6380072a3b6733841")))
-     (sha256 (base32 "0hlwl874ggvrjk27a57w4vc9hqlx174606jsiz87hq10h3g9nyw0"))))
+           (commit "66429937eb46a45064f17b74b8fa94eecd8a9227")))
+     (sha256 (base32 "14iv2qlfkfx95jfqqdjbcak89g23mnnqll1qfyqb081psh0v77bg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files ("embark.el" "embark-org.el" "embark.texi")))
@@ -26816,14 +26816,14 @@
 (define-public emacs-embark-consult
   (package
    (name "emacs-embark-consult")
-   (version "20260223.1658")
+   (version "20260330.1903")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/oantolin/embark.git")
-           (commit "e0238889b1c946514fd967d21d70599af9c4e887")))
-     (sha256 (base32 "1addby8g65a1pbvbzanvcwpfzv13k89qj6m014xwr9qki0i49nss"))))
+           (commit "66429937eb46a45064f17b74b8fa94eecd8a9227")))
+     (sha256 (base32 "14iv2qlfkfx95jfqqdjbcak89g23mnnqll1qfyqb081psh0v77bg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-embark emacs-consult))
    (arguments '(#:files ("embark-consult.el")))
@@ -29761,14 +29761,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260325.720")
+   (version "20260330.1726")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "8f261eb0c284be23f534dbbef976d71a5ab5245f")))
-     (sha256 (base32 "03l2whli6mqx1zx5nqxh77mjbzdgm47z2735227h9hffdf0m21di"))))
+           (commit "4ad1646964638322302dfb167aec40a2455bfb78")))
+     (sha256 (base32 "0ajb81dp7qfn5x0bjgjqmwqqvqfmwfpk2rpkd6dl0h0j7bbl1v51"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -38148,14 +38148,14 @@
 (define-public emacs-fsharp-ts-mode
   (package
    (name "emacs-fsharp-ts-mode")
-   (version "20260330.1622")
+   (version "20260330.1735")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/fsharp-ts-mode.git")
-           (commit "bf6e35f7b5fe1106b0e15ba098677b7eaf01aecb")))
-     (sha256 (base32 "12zdp7xirvlv9fxfv716j85j7ni90fdpmjjwcdrr9zg1pqp9zl55"))))
+           (commit "3817559f052e9693b34efbe02d6650db0ede1b74")))
+     (sha256 (base32 "0hjvcqqf3vgmdwrwbzkfdxqgk2517kmmw4ismr97l2a5046byncf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/fsharp-ts-mode")
    (synopsis "Major mode for F# code")
@@ -42168,14 +42168,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260330.618")
+   (version "20260330.1708")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "e1adf9c184dc18ad22c3676910e092411d78d414")))
-     (sha256 (base32 "0rnqhlnz7cvj5zv89x7kkfb0h6v406xs5grd5sqkrr8frn5sil9m"))))
+           (commit "d6c920d4c09c732868881d0cdad59c98439d398c")))
+     (sha256 (base32 "13rankynb12wpskww1x3c56mb7iadjivwig3isa9ib5am4b80zbj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -43132,14 +43132,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260327.2008")
+   (version "20260330.1801")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "0bb713309a7fecde8f6bcf478e4166b19720f1d7")))
-     (sha256 (base32 "074xckc8wpfgbhhqdwxg73w30jxmwk7jv7f4jvb5yyqsfr6njy73"))))
+           (commit "00002429293601c169d11352bfdf56c93860cce2")))
+     (sha256 (base32 "1kzv1hj6dybvbh63l35d3m8yfj2h30ysfxkrdw4bw9nyazfzq0zq"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -57424,14 +57424,14 @@
 (define-public emacs-let-completion
   (package
    (name "emacs-let-completion")
-   (version "20260308.2258")
+   (version "20260330.2047")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gggion/let-completion.el.git")
-           (commit "491edec864d9120ccdaaa20a903d0cf5da67f9be")))
-     (sha256 (base32 "1ps4y1wyw9v4kdlb7nbcs80556z9vpr91w10hr007wc9mpnrn1il"))))
+           (commit "e103218c0d96c14e82b11c05f91cb34a1cbd0dc2")))
+     (sha256 (base32 "0ansrhbfxr3b82rhwk430hnp93damwj7c97kd04hyykr0iy6k527"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gggion/let-completion.el")
    (synopsis "Show let-binding values in Elisp completion")
@@ -60532,14 +60532,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260330.1345")
+   (version "20260330.1907")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "9beb7ac0b51ad4f121b56d9c986b6be0a479997d")))
-     (sha256 (base32 "072gk7p7gn7hin8ncff4bszk9hd1139h5yigdpmsncyy212grwfh"))))
+           (commit "315d85c765afbce10b08c5c9164da64bc789197a")))
+     (sha256 (base32 "03zww8122apnw4fy90xj6zpiqy9xxwkwxfwg33w3h64a61mzd89q"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -68399,16 +68399,16 @@
 (define-public emacs-nsis-mode
   (package
    (name "emacs-nsis-mode")
-   (version "20230619.1220")
+   (version "20260331.53")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mattfidler/nsis-mode.git")
-           (commit "b5ae66dbab9b2d933a234bdcd28e017d44a1276f")))
-     (sha256 (base32 "0vq2sm593ib44bqcgnmn99zbvq89v3r2znw9fdybp95a948xk105"))))
+           (commit "0e1ec26a3943865f33e5590e26f5bc31684ad67e")))
+     (sha256 (base32 "0n3hlz00yjznns4d8rshfqwf1yvynr99qhsjkhd5njnfqswfi67d"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/mlf176f2/nsis-mode")
+   (home-page "https://github.com/mlf176f2/nsis-mode")
    (synopsis "NSIS-mode")
    (description "Documentation at https://melpa.org/#/nsis-mode")
    (license #f)))
@@ -90266,14 +90266,14 @@
 (define-public emacs-selected-window-contrast
   (package
    (name "emacs-selected-window-contrast")
-   (version "20260329.820")
+   (version "20260330.1542")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/Anoncheg/selected-window-contrast.git")
-           (commit "3242baed6ab9f75301c830b99b404e71ea541cf2")))
-     (sha256 (base32 "11ijaadrl0rnldpadxn2ssn5jfr2p7pajxfw070cg60bc2zsb49d"))))
+           (commit "ccf6687020dae9a6c36af4a5ae53e79d56ad8719")))
+     (sha256 (base32 "1f249nwkl3hqk5dyh1j21wqzg503cxd69ppfd9qb6p364lxmq3rv"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/selected-window-contrast")
    (synopsis "Highlight window and cursor at switching")
@@ -99161,14 +99161,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260316.1127")
+   (version "20260330.1305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "3cbb75736276cb94a5bdfbc14da94e637947957a")))
-     (sha256 (base32 "14n0mnc5kasmr7c59x49mqv687pr4v37wn89yj30di8qjylh9g7q"))))
+           (commit "f27ac598b057db01cfd3125fb3111b2bcf4b63c8")))
+     (sha256 (base32 "1vx6g9791jvmrf8y8dv2l2smhfn92fssm5m4n80al4z8py15llkq"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
