@@ -13125,14 +13125,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260220.156")
+   (version "20260331.245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "42d3897308a992cd2268ba2d4e2ec013fc6c961e")))
-     (sha256 (base32 "18l5r52hsw3w7wmpzvrcy542s541z7s8f3ma9hy186l4p22hwziv"))))
+           (commit "59626254bbac187fc2b8d7a189aca90976ab36a8")))
+     (sha256 (base32 "13dd87hcad91y5ay6gxrzkn98d5h90ib4k7nsfkzf955rdpxqvrr"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "icons" ("images/small" "doc/images/small/*.png"))))
@@ -15638,14 +15638,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260325.1151")
+   (version "20260331.713")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "4aabe0bfaa481d3381dc51a25fe229bf3d2c0a72")))
-     (sha256 (base32 "0hqz18vvhw2rhd27c9avi898bfgkgh69l896hnwq31sqd7ll7p55"))))
+           (commit "ab5c58bc969f52f6d75e972658f2c3381c70b4fa")))
+     (sha256 (base32 "1glqr4x7r2f0wgcn0mbcvphdidirpnq1b771ig5ly4s3zaxnqxl5"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -21974,14 +21974,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260324.1111")
+   (version "20260331.801")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "e3ad151fe958865cd4f25ce91feb88a9810d896d")))
-     (sha256 (base32 "1fg4vq3wavyb2zz7g7j7jhn6z8hczg000wy4rycmi9qgh9afd7gz"))))
+           (commit "043e8eeb0a6280cafdb6aef7bc4788d1392f55f4")))
+     (sha256 (base32 "0w2f04pv7jz8dg0fl5pdlxdx60p57rlp3hl521bijlchn7ym9pyn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -25727,14 +25727,14 @@
 (define-public emacs-elisp-autofmt
   (package
    (name "emacs-elisp-autofmt")
-   (version "20260329.1053")
+   (version "20260331.554")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-elisp-autofmt.git")
-           (commit "c28b2fb8b45106b355b3df1f4751ae32d1a9350f")))
-     (sha256 (base32 "035abm9nc0k97hv7nn2h98d3r5aiykadi5gz7c55qj4krym2i84d"))))
+           (commit "07f2d4bcd5db2e03f8c2ec847c3597f4f8a6de0c")))
+     (sha256 (base32 "1cf4r1f03m559k66qf7p2fhj32mawia33vh4r5i136bmr286aaf6"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "elisp-autofmt.py" "elisp-autofmt.overrides.json")))
@@ -54898,14 +54898,14 @@
 (define-public emacs-kanagawa-themes
   (package
    (name "emacs-kanagawa-themes")
-   (version "20260102.1542")
+   (version "20260331.505")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Fabiokleis/kanagawa-emacs.git")
-           (commit "95516102a673b924c0446ae548c9053773f878ea")))
-     (sha256 (base32 "08fhqpskidi9i79y8i4j9z6r4gcwknx4z0yamr69qldb1xfybk5q"))))
+           (commit "6f1bf124d0cfad0d081ae4ca9d8b0a25b98f18f6")))
+     (sha256 (base32 "1fxsp3xv0qgx0g3davi2dp2a054wvzacqrp1kr11gyfvpbai88v7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Fabiokleis/kanagawa-emacs")
    (synopsis "Elegant theme inspired by The Great Wave off Kanagawa")
@@ -87164,14 +87164,14 @@
 (define-public emacs-repo-grep
   (package
    (name "emacs-repo-grep")
-   (version "20260324.1832")
+   (version "20260331.446")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/BHFock/repo-grep.git")
-           (commit "90a42a1383e7232ff4e2384f20631d930f682b75")))
-     (sha256 (base32 "1k4prx19alp2ivnyr451x27yxp7v4ihndilnv51fq2d48z660zdf"))))
+           (commit "270c094f6b64840e2f57db148e1df13702b0c83e")))
+     (sha256 (base32 "10nl4l4vkhblk7kmx3bbck5xfmjgmwryc4qqjn2wd6pcdm3hln05"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/BHFock/repo-grep")
    (synopsis "Project-wide grep search")
@@ -92174,14 +92174,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260330.717")
+   (version "20260331.728")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "d990bb3f964027422cf745a90d88e608aa83ebf7")))
-     (sha256 (base32 "0rsjpq9nzbml9ayylajp1hjqy4q0s1ligcv01f5gyn6pxl9kvrlj"))))
+           (commit "2b8ac853ab237974bd113e1cb8c89404edf8eb1e")))
+     (sha256 (base32 "10v80g8blbqhbh08ljgpzpi4nw4asb18rd24za6s75870y7z4mjc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -95298,14 +95298,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260117.910")
+   (version "20260331.259")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "4a54c3b6b74663864696c4755a7653af1c959337")))
-     (sha256 (base32 "1pbaz14ykdshvh44hs2yl5ldsrawznpc2wbhg6vkwsv3j2a32540"))))
+           (commit "052d487da3c6039463d682ddb5e80ce108b3b0e7")))
+     (sha256 (base32 "08fv7knrygfc55wbd3lb613agvxan9wkqv2ygygs5gj6kwdvhsaa"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -105073,14 +105073,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260328.848")
+   (version "20260331.601")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "cb06e5b4bfa6d420d7608fa70f6fa12d705ddbfa")))
-     (sha256 (base32 "0hxx1khk2bky02qzsd13ih9bh0ycl0l9hj9xkh4whq6855b6bmbn"))))
+           (commit "5bf32360d5107053a2b7ee9e75e647faa1f099c7")))
+     (sha256 (base32 "04n5c3rl9y479cg98j37l5r4k13bc5jjnzl43yn9czyf9556b0vd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
