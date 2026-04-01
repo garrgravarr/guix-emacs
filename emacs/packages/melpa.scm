@@ -68781,14 +68781,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260331.2145")
+   (version "20260401.403")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "0e3cbb6fbd17be6bf19a6db6b9a9dac9e0f592c3")))
-     (sha256 (base32 "0i8x5ippibq89x1dmcsf1113synzhkbxg8gjd0i1kvf5x4mhjj4r"))))
+           (commit "b903e6b495b2b8355e611d3eb3a5622d47801fdd")))
+     (sha256 (base32 "0dmbkffyj8aijb6pb9g0xc86rpw0khnj8z8p53gvd1gp8fn28nxi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -92257,14 +92257,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260331.837")
+   (version "20260401.715")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "2b8ac853ab237974bd113e1cb8c89404edf8eb1e")))
-     (sha256 (base32 "10v80g8blbqhbh08ljgpzpi4nw4asb18rd24za6s75870y7z4mjc"))))
+           (commit "4b96917fae1234915fd2ffda4d2b62d82437bb6e")))
+     (sha256 (base32 "0708zm2lnx9ry38rsd66pqxnvsrn9xfpng4i86cymcybviagw4zq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -98133,14 +98133,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260331.2050")
+   (version "20260401.442")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "8053d138392ae94177fbbce85114c07151dd12ee")))
-     (sha256 (base32 "0yis1xiwll8y7fpsagldd4c3kg7p87bfwsmbzy2m5l4wlga324xm"))))
+           (commit "1ee50a7490fddb51e9283aec33d65c8a077b36a3")))
+     (sha256 (base32 "1hiy5nzc8xwfcx8y3k7xfhkprl54rr5778n5v18la0cbg1ghglb5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
