@@ -8276,14 +8276,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260328.1611")
+   (version "20260331.1744")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "7c0d8298bf633cd05be59a8e39084c9b86f66fd7")))
-     (sha256 (base32 "0fbdvym6m9dglny0q75193f6iiswj467m1hjg2aihpgqh86xhvdz"))))
+           (commit "3d2232b6a32ef2523085beecbf2a12448de4dcbd")))
+     (sha256 (base32 "07nx0dc0lqgzxq7lqg8fc3b6dzarlgs4rp36caw50l4rr24f3dan"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -20585,14 +20585,14 @@
 (define-public emacs-dired-quick-sort
   (package
    (name "emacs-dired-quick-sort")
-   (version "20260308.2151")
+   (version "20260331.2219")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/xuhdev/dired-quick-sort.git")
-           (commit "7f01a60997b5fa8c5d572dece9c5db16b1438b9b")))
-     (sha256 (base32 "06d1q6wjzbrs602wzi30snrfyl5dk8vhnqqwndhminkv7kzhfxjb"))))
+           (commit "3c9b41799b0424eb78f54caba56e4de1d7224e8b")))
+     (sha256 (base32 "120bv3zm9skm5y3jpbhbhl9wzg43123xpd6hbn1fqfqnwy1p0ygm"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/xuhdev/dired-quick-sort")
    (synopsis "Persistent quick sorting of Dired buffers in various ways")
@@ -23579,14 +23579,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260330.1315")
+   (version "20260401.118")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "93939850f2897fe4081b0ffca0e112acd7f19024")))
-     (sha256 (base32 "1v17iy3a54siqyy528q7c74l9f0f7wx44hl6gmdg54bk879rjybj"))))
+           (commit "57056b91ce9bfc070ea39ea8d629dd8116a343f6")))
+     (sha256 (base32 "1mc3lwxkdkw5zp9q5gq9aqlzlkr3lk5hg44pimml1nqx2qkrsa84"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -24211,14 +24211,14 @@
 (define-public emacs-eg
   (package
    (name "emacs-eg")
-   (version "20170830.815")
+   (version "20260331.1939")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/davep/eg.el.git")
-           (commit "1c7f1613d2aaae728ef540305f6ba030616f86bd")))
-     (sha256 (base32 "1g2ha6q9k6dmi63i2p4aypwf5mha699wr7yy5dsck39mqk15hx0f"))))
+           (commit "6b4302a57c87f0535d4ebc51f701aecf4d3dbe87")))
+     (sha256 (base32 "0bkcq3naawg5q6h4z425ngn1clv7ha8f90ppzanawjvi2hgd3yma"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/davep/eg.el")
    (synopsis "Norton Guide reader")
@@ -28277,14 +28277,14 @@
 (define-public emacs-erlang-ts
   (package
    (name "emacs-erlang-ts")
-   (version "20260330.849")
+   (version "20260331.1746")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erlang/emacs-erlang-ts.git")
-           (commit "dc59e5a451f86d1ed533703486dfbad6efc1445d")))
-     (sha256 (base32 "1wgfvww463jzlyqbnbiszxldn3cmh2srcrjfdvc3hjgg82qgsl7k"))))
+           (commit "7680c827adf17ad8b17ac94d56602c2b8645440a")))
+     (sha256 (base32 "1pqh09p1vwpwxsv2if21bz0i7xc8rxjf9nx4kkfn6nrkbppkcb53"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-erlang))
    (home-page "https://github.com/erlang/emacs-erlang-ts")
@@ -37088,14 +37088,14 @@
 (define-public emacs-flywrite
   (package
    (name "emacs-flywrite")
-   (version "20260331.1415")
+   (version "20260401.143")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/awdeorio/flywrite.git")
-           (commit "fd9387cdee7a104ef94d53b2c14915272ea31c2b")))
-     (sha256 (base32 "068xlxy89d2pivds670zpdnc8pfda748g0x2j0n1avkj6jbg24p1"))))
+           (commit "c17f2391a16f6b9bf298c72dfc45d50e072cba1a")))
+     (sha256 (base32 "1dshzwrgnwc5n9v4lmlj71az7nzk8a589iyi86h2b1vhmpqkf8w8"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("flywrite.el")))
    (home-page "https://github.com/awdeorio/flywrite")
@@ -40746,14 +40746,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260327.539")
+   (version "20260331.1643")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/gnosis")
-           (commit "d3c301e6f5fb6f8b2e0224fdc763dc3a31b1a1cd")))
-     (sha256 (base32 "04b8pky5n0iqld322nal26ic7m43yxdq3k3vv8dp6psm8yfnpb3v"))))
+           (commit "9dff0382b85326b15f2ad3e7656307b11b2138fc")))
+     (sha256 (base32 "0d9bqx0ay1gh1vacdz2klp7qj69hs520a8sixdk22sqmk60c96li"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://thanosapollo.org/projects/gnosis")
@@ -54445,14 +54445,14 @@
 (define-public emacs-julia-snail
   (package
    (name "emacs-julia-snail")
-   (version "20251211.2305")
+   (version "20260331.2037")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gcv/julia-snail.git")
-           (commit "5a7e2d479c5c68b21fdb18c8fc41b9d5e7e487ab")))
-     (sha256 (base32 "05cyr83ni94h9vp6dr8h81ywgl0nvjjzp7dp4h1w0q52c6vcm3bx"))))
+           (commit "95905e9d6bbf5657b16a307b120d9efb10ac692b")))
+     (sha256 (base32 "19wbs310xmz9d2pcdg62j58xz2g26478blgicd18li9wwy2v7239"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-julia-mode emacs-s emacs-spinner emacs-popup))
@@ -56269,6 +56269,50 @@
    (home-page "https://github.com/abrochard/kubel")
    (synopsis "Extension for kubel to provide evil keybindings")
    (description "Documentation at https://melpa.org/#/kubel-evil")
+   (license #f)))
+
+(define-public emacs-kubernetes
+  (package
+   (name "emacs-kubernetes")
+   (version "20250330.1936")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/kubernetes-el/kubernetes-el.git")
+           (commit "da6f585b5a779c0b56d0061163e0cbeccb820b89")))
+     (sha256 (base32 "0sq9ya36sl8mbxl7rvbf6ac06jnbrqsm0hhgf8pha935wj05z4wi"))))
+   (build-system melpa-build-system)
+   (propagated-inputs
+    (list emacs-dash
+          emacs-magit-section
+          emacs-magit-popup
+          emacs-with-editor
+          emacs-request
+          emacs-s))
+   (arguments '(#:files (:defaults (:exclude "kubernetes-evil.el"))))
+   (home-page "https://github.com/kubernetes-el/kubernetes-el")
+   (synopsis "Magit-like porcelain for Kubernetes")
+   (description "Documentation at https://melpa.org/#/kubernetes")
+   (license #f)))
+
+(define-public emacs-kubernetes-evil
+  (package
+   (name "emacs-kubernetes-evil")
+   (version "20220625.534")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/kubernetes-el/kubernetes-el.git")
+           (commit "da6f585b5a779c0b56d0061163e0cbeccb820b89")))
+     (sha256 (base32 "0sq9ya36sl8mbxl7rvbf6ac06jnbrqsm0hhgf8pha935wj05z4wi"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-kubernetes emacs-evil))
+   (arguments '(#:files ("kubernetes-evil.el")))
+   (home-page "https://github.com/kubernetes-el/kubernetes-el")
+   (synopsis "Kubernetes keybindings for evil-mode")
+   (description "Documentation at https://melpa.org/#/kubernetes-evil")
    (license #f)))
 
 (define-public emacs-kubernetes-helm
@@ -66833,14 +66877,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260331.1516")
+   (version "20260331.1929")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "1dfd9ddb212ea867fccef33cbd141431036e49e6")))
-     (sha256 (base32 "1598q73izvmbw0dnra9zhmg42qqpnnr5xz3474mybnkiphx9ws1v"))))
+           (commit "3f547f29ecfe80ecda6bbab9d89fd032d74bc5d3")))
+     (sha256 (base32 "1y2f8rx03y8b7dxp8dxdiz99lnzhxkhbdwh0hixpkrxx3iizbnb6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -68737,14 +68781,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260329.1809")
+   (version "20260331.2145")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "a9b584944af19c912416a36a9d28dc4e06b2c99a")))
-     (sha256 (base32 "1h5bd6zzg8mb79ixk3x66gzxph53d6gb69gphv4qyyj6mwmbbnx6"))))
+           (commit "0e3cbb6fbd17be6bf19a6db6b9a9dac9e0f592c3")))
+     (sha256 (base32 "0i8x5ippibq89x1dmcsf1113synzhkbxg8gjd0i1kvf5x4mhjj4r"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -72456,15 +72500,16 @@
 (define-public emacs-org-elp
   (package
    (name "emacs-org-elp")
-   (version "20260308.1628")
+   (version "20260331.1802")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/guanyilun/org-elp.git")
-           (commit "4a80371945c529a8765552cb589720518d2e3c3b")))
-     (sha256 (base32 "075cydlbx5a2p9fnyvdcjm4w9cbzwqx26bkdc0n6pf0ng92zhycc"))))
+           (commit "ff2570307654a13f5818ddc110423ed51436449c")))
+     (sha256 (base32 "07acwa3nm3p6x54qvrnbvfjyis3k74899z7ndg8g96wnv62xbwga"))))
    (build-system melpa-build-system)
+   (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/guanyilun/org-elp")
    (synopsis "Preview latex equations in org mode while editing")
    (description "Documentation at https://melpa.org/#/org-elp")
@@ -98088,14 +98133,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260328.922")
+   (version "20260331.2050")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "b58b4376945125ca138cca001c8216708be48ab1")))
-     (sha256 (base32 "1a13pi063mj80fn5i2z2c6pnfs8sf5a666i1yv76yfspxjjxcbl7"))))
+           (commit "8053d138392ae94177fbbce85114c07151dd12ee")))
+     (sha256 (base32 "0yis1xiwll8y7fpsagldd4c3kg7p87bfwsmbzy2m5l4wlga324xm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -99131,14 +99176,14 @@
 (define-public emacs-thinks
   (package
    (name "emacs-thinks")
-   (version "20170802.1128")
+   (version "20260331.1814")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/davep/thinks.el.git")
-           (commit "c02f236abc8c2025d9f01460b09b89ebdc96e28d")))
-     (sha256 (base32 "0g4ls668kyqnh4xkvz1s1z9j6n0a1gkgrzgl98hys7hny6zrk7aa"))))
+           (commit "60c3d0adaabe78ea705466077fcdb2f7dcb15dde")))
+     (sha256 (base32 "05m3dqwgz074gfqg512kzw5glcg182s77alg8y5fqqx4dcihzmnn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/davep/thinks.el")
    (synopsis "Insert text in a think bubble")
