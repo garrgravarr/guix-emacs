@@ -5898,14 +5898,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260402.829")
+   (version "20260402.1058")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "aaa15a5b5d8ac47180643b1df5c7f82bcea0de5b")))
-     (sha256 (base32 "03id8ypi31ngqj5pq6rbb6b0kdd80214zp4jwr9mn22j29vmw41c"))))
+           (commit "7cf45ca39ec415373db2a86134e43aaa5fbf236b")))
+     (sha256 (base32 "1v8hs6kpnkwsxssrf8m3alhb3cknhjihg98h7xaxf55m6wi13pbc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazelbuild/emacs-bazel-mode")
    (synopsis "Bazel support for Emacs")
@@ -25168,14 +25168,14 @@
 (define-public emacs-eldoc-mouse
   (package
    (name "emacs-eldoc-mouse")
-   (version "20260326.354")
+   (version "20260402.1025")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/huangfeiyu/eldoc-mouse.git")
-           (commit "79e47a4099cd4f9144a1636d8353a07b614c0c0a")))
-     (sha256 (base32 "028gyngnlq6x0g8cd3m0a33v9skn94lavykls65lqxh91gr39lb3"))))
+           (commit "67bb73e54533e276e35d2548aa30e299c3a5ee18")))
+     (sha256 (base32 "1ysdf36dva7kzhxm63fp229fqp1ii2i5swf1qwgj03i4j755pfnz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/huangfeiyu/eldoc-mouse")
@@ -28786,14 +28786,14 @@
 (define-public emacs-eshell-prompt-extras
   (package
    (name "emacs-eshell-prompt-extras")
-   (version "20231019.1405")
+   (version "20260402.1141")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/suzzvv/eshell-prompt-extras.git")
-           (commit "14eabe593e110ed6937ac3b95f7979263d716a26")))
-     (sha256 (base32 "0rybn2hvii87ad2bk9xg71izbyr7w2s7d8qzakmjif7yn462rfnq"))))
+           (commit "36504072605a2044cf291d1c2ea987cb898c6394")))
+     (sha256 (base32 "1ji5n6flawff6mw42d2ab93hiys5divfnq2fjk08chs1ddkn2331"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/zwild/eshell-prompt-extras")
    (synopsis "Display extra information for your eshell prompt")
@@ -37088,14 +37088,14 @@
 (define-public emacs-flywrite
   (package
    (name "emacs-flywrite")
-   (version "20260401.143")
+   (version "20260402.145")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/awdeorio/flywrite.git")
-           (commit "c17f2391a16f6b9bf298c72dfc45d50e072cba1a")))
-     (sha256 (base32 "1dshzwrgnwc5n9v4lmlj71az7nzk8a589iyi86h2b1vhmpqkf8w8"))))
+           (commit "3430d85f7b92308291db9c40ed26cd86703af9e4")))
+     (sha256 (base32 "1v6z2pmccbf7cqvk2qa8y1g3896fnfr5cbn00fvsi3bmdzl77ixb"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("flywrite.el")))
    (home-page "https://github.com/awdeorio/flywrite")
@@ -66877,14 +66877,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260402.531")
+   (version "20260402.1201")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "c7d6be0b3a2b3b22e45faca0c96393dbebdec023")))
-     (sha256 (base32 "1c0xhwy2h16mj52dimb4v51lf7g3hkm13700xm65gg6abbb593n0"))))
+           (commit "c7fdecae07793253f99b27494744c1c8a0d62ebc")))
+     (sha256 (base32 "0wg6lpbyczm4cf7h5ik831lgjrhf4fqv3vdr48vvk4vqins9lp7m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -92257,14 +92257,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260402.653")
+   (version "20260402.719")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "d9f9e69c1700c39cad744c64f051538a9986458b")))
-     (sha256 (base32 "0q9i4kpjppc2ksg60ridzs8bybp8iza7sqsrxzf40k75h8vlc56q"))))
+           (commit "ece21769e2407523b008c1e333a9e2cbc6cfdaad")))
+     (sha256 (base32 "1gdmjld552dy0myz8y8ylmrk6bljx7gm91zvslfpc8w2swd8cxc5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
