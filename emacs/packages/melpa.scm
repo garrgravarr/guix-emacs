@@ -5898,14 +5898,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20230919.1445")
+   (version "20260402.829")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "769b30dc18282564d614d7044195b5a0c1a0a5f3")))
-     (sha256 (base32 "047hwlfifnnp2iagf3jjh5hqqxsadkwqxphcnx98gf8kb19pl85f"))))
+           (commit "aaa15a5b5d8ac47180643b1df5c7f82bcea0de5b")))
+     (sha256 (base32 "03id8ypi31ngqj5pq6rbb6b0kdd80214zp4jwr9mn22j29vmw41c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazelbuild/emacs-bazel-mode")
    (synopsis "Bazel support for Emacs")
@@ -8276,7 +8276,7 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260401.1708")
+   (version "20260402.132")
    (source
     (origin
      (method git-fetch)
@@ -10788,14 +10788,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260312.626")
+   (version "20260402.444")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "f4a8bc4b74e9dc5993f8f1c4e0f943e4d4725cb0")))
-     (sha256 (base32 "0vifk2ac7a00kfgqxqyls2ihxs5q06shs6lff3nxd77x5q9pqmlx"))))
+           (commit "5d003b579c7a7b55321c6e4e672f0f57b4021930")))
+     (sha256 (base32 "0czxw7g5930lxp4zhk0q3gpv2wk5fg14psivswwz9600sq3sy0h1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -18271,14 +18271,14 @@
 (define-public emacs-dashboard
   (package
    (name "emacs-dashboard")
-   (version "20260329.1853")
+   (version "20260402.436")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-dashboard/dashboard.git")
-           (commit "1c21c2586da32180f921df812a9276ab3ef18c17")))
-     (sha256 (base32 "0jvh67hqvxksiwk7llwlm4dlsbcfk6iy46szfg8fgwnqzdbd6b8n"))))
+           (commit "176d641a55543bda1f0c7506fb954702350c1857")))
+     (sha256 (base32 "0s5b3z62l0zscbly0l3zqvkc5ar9q1hcl930h591l7x5vjsl86zl"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "banners")))
    (home-page "https://github.com/emacs-dashboard/dashboard")
@@ -24369,16 +24369,16 @@
 (define-public emacs-eglot-python-preset
   (package
    (name "emacs-eglot-python-preset")
-   (version "20260329.335")
+   (version "20260402.158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-python-preset.git")
-           (commit "e0d611a175955a27e37658ddc030bde9cf5645a9")))
-     (sha256 (base32 "19vawa7gj031j6n23nh32rdypjllys88gdm6m5v9i3q0j6wa89zn"))))
+           (commit "a8265350db788cd619e36afec15475115fe9301c")))
+     (sha256 (base32 "1bbmlbhypdlmlb2rywz4ajrpgam6ggb2da0fjl5ibvykif5wljnl"))))
    (build-system melpa-build-system)
-   (arguments '(#:files (:defaults "templates/*.tpl.py")))
+   (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
    (home-page "https://github.com/mwolson/eglot-python-preset")
    (synopsis "Eglot preset for Python")
    (description "Documentation at https://melpa.org/#/eglot-python-preset")
@@ -24423,14 +24423,14 @@
 (define-public emacs-eglot-typescript-preset
   (package
    (name "emacs-eglot-typescript-preset")
-   (version "20260329.335")
+   (version "20260402.158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-typescript-preset.git")
-           (commit "8da3c37d9739f421f437804a94a25b80bc8bcb6b")))
-     (sha256 (base32 "103gbjzmmvz0ycb5cxq7zgs419akr1x4vfv1546r168jq7jhzqcp"))))
+           (commit "86d497f3db5fb6ca2969ed9c14b2e0e048f77314")))
+     (sha256 (base32 "11kazz0p0qyaqa80xgycmxz7m9pj4d7y1z3vdbx0q8ccnks5fgzq"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
    (home-page "https://github.com/mwolson/eglot-typescript-preset")
@@ -31940,14 +31940,14 @@
 (define-public emacs-faff-theme
   (package
    (name "emacs-faff-theme")
-   (version "20260312.2354")
+   (version "20260328.107")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
-           (commit "2b33d31857c73fd1d48a4814a83d885dd4c00569")))
-     (sha256 (base32 "0xcdxy44i98mr8wyp4rw9pmjrpmpv57wl3b4vzsiljpdnwpgpwmr"))))
+           (commit "a9f3c21092ee6455b03adbbe64ee696268c293f6")))
+     (sha256 (base32 "0slhrk4zag3cafzfj5j1xs450kbapf99yrmgkpscd8jqsbhdzidw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/WJCFerguson/emacs-faff-theme")
    (synopsis "Light Emacs color theme on cornsilk3 background")
@@ -42168,14 +42168,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260330.1708")
+   (version "20260402.752")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "d6c920d4c09c732868881d0cdad59c98439d398c")))
-     (sha256 (base32 "13rankynb12wpskww1x3c56mb7iadjivwig3isa9ib5am4b80zbj"))))
+           (commit "c3d5d7f758b8fbb071abbd18d599d1eacb0f2fbd")))
+     (sha256 (base32 "15jv281fvgzg7bls6vcimifvfc7bp28bq8jc0h3119cjhqqr5i6i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -43132,14 +43132,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260401.844")
+   (version "20260402.751")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "f04dfba9cadc87a7c608c30591c60e9b2db4a731")))
-     (sha256 (base32 "1ixdslrlqyvcsly6q6nfn2h2h6gq53fncajxx4y6l9d7jkkz3lg0"))))
+           (commit "fd68f1f0735e0f7d746d1762dcebd0076ed63910")))
+     (sha256 (base32 "1yyph20z6gblq8q9w5s7mb4cr9smvhql4ywgnv69g7j432ang2a1"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -56274,14 +56274,14 @@
 (define-public emacs-kubernetes
   (package
    (name "emacs-kubernetes")
-   (version "20250330.1936")
+   (version "20260402.429")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kubernetes-el/kubernetes-el.git")
-           (commit "da6f585b5a779c0b56d0061163e0cbeccb820b89")))
-     (sha256 (base32 "0sq9ya36sl8mbxl7rvbf6ac06jnbrqsm0hhgf8pha935wj05z4wi"))))
+           (commit "54ad1b11ca6ceff8a7931271d8c694ad2e6ade4c")))
+     (sha256 (base32 "1fn18yrbcxws77r8wwaqqa3ly0vwavshc482bybvbzl925qppr4j"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -56299,14 +56299,14 @@
 (define-public emacs-kubernetes-evil
   (package
    (name "emacs-kubernetes-evil")
-   (version "20220625.534")
+   (version "20260402.429")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kubernetes-el/kubernetes-el.git")
-           (commit "da6f585b5a779c0b56d0061163e0cbeccb820b89")))
-     (sha256 (base32 "0sq9ya36sl8mbxl7rvbf6ac06jnbrqsm0hhgf8pha935wj05z4wi"))))
+           (commit "54ad1b11ca6ceff8a7931271d8c694ad2e6ade4c")))
+     (sha256 (base32 "1fn18yrbcxws77r8wwaqqa3ly0vwavshc482bybvbzl925qppr4j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-kubernetes emacs-evil))
    (arguments '(#:files ("kubernetes-evil.el")))
@@ -66877,14 +66877,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260331.1929")
+   (version "20260402.531")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "3f547f29ecfe80ecda6bbab9d89fd032d74bc5d3")))
-     (sha256 (base32 "1y2f8rx03y8b7dxp8dxdiz99lnzhxkhbdwh0hixpkrxx3iizbnb6"))))
+           (commit "c7d6be0b3a2b3b22e45faca0c96393dbebdec023")))
+     (sha256 (base32 "1c0xhwy2h16mj52dimb4v51lf7g3hkm13700xm65gg6abbb593n0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -84880,14 +84880,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260326.138")
+   (version "20260402.210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "7541aa69c9ce2cd67b72971483524f4c61bddc9d")))
-     (sha256 (base32 "0hmdl8qif0k1awz0ps34z9i4mn0xr0cxlx31s62925d901mzwcdh"))))
+           (commit "2cc0745bf0cc4251db39b109e9d068eb5794d1eb")))
+     (sha256 (base32 "0p77qgjvszyc8bslbd6z1sxkbnlygspd4ql6s4gg88ahirz7hi36"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -89051,14 +89051,14 @@
 (define-public emacs-rustic
   (package
    (name "emacs-rustic")
-   (version "20260216.440")
+   (version "20260402.514")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rustic/rustic.git")
-           (commit "eea94386bf0c7b55adc264faefdfb134ae2807b9")))
-     (sha256 (base32 "1kl6wrdqj9i81q27m7v8il07sbzrxfcark7pmn4rmcdxs25g69ba"))))
+           (commit "c5e83bc6e45d7672fa1af0560d08152b1c4b2ba1")))
+     (sha256 (base32 "0m6gyq4jgk8mccqab3d8jwdg4nfwf37gr0d0ccm3s3rhmdb0ff19"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-rust-mode
@@ -92257,14 +92257,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260401.715")
+   (version "20260402.653")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "4b96917fae1234915fd2ffda4d2b62d82437bb6e")))
-     (sha256 (base32 "0708zm2lnx9ry38rsd66pqxnvsrn9xfpng4i86cymcybviagw4zq"))))
+           (commit "d9f9e69c1700c39cad744c64f051538a9986458b")))
+     (sha256 (base32 "0q9i4kpjppc2ksg60ridzs8bybp8iza7sqsrxzf40k75h8vlc56q"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
