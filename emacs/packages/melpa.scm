@@ -8276,14 +8276,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260401.1259")
+   (version "20260401.1708")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "04b89452d59d805332a3b797bf88b78440a1accf")))
-     (sha256 (base32 "091rpam62aa1l60bif8y17dxqqsjfv6753aa4mngbpspll5vx8sn"))))
+           (commit "f4f3733863e90dcf90e2d6b3cdbdf67d036f37ad")))
+     (sha256 (base32 "08cyrvz9bnf3s1b99zamyi77jvlcy7fq8wkj962bk19ykwqf3dbn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -22725,14 +22725,14 @@
 (define-public emacs-dune
   (package
    (name "emacs-dune")
-   (version "20260319.225")
+   (version "20260401.1726")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml/dune.git")
-           (commit "bea1e1b2c15d3a8fb2f6d2c860b06cd9f44568d2")))
-     (sha256 (base32 "0zqzca3a6i69szv1dm4fqm066z5117w26yzfcxmfjxj3y28n7cnw"))))
+           (commit "e2a7dbfd619f518d08da9bd1d91791e6a104fe08")))
+     (sha256 (base32 "14rh9skz596ym3h4lmj58b5casr7a747mn93vvf6swwfxzilsr3v"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editor-integration/emacs/*.el")))
    (home-page "https://github.com/ocaml/dune")
@@ -23579,14 +23579,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260401.1515")
+   (version "20260401.1807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "b8aaab59e7a5c12d323c643e80af27800113d01b")))
-     (sha256 (base32 "0l9rqm0f27iv2hhbam3i1bx4q8hp1r3ck3y4mpr60r3l9hr6i0w1"))))
+           (commit "b7416d716fe7f93a6238be8e2e0c9e8e211f5d04")))
+     (sha256 (base32 "0xzh5m4wsmv7rhdxfby3gwgrq77ljciwwkyyhiagf06f9zjyg1ay"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -60614,14 +60614,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260331.2045")
+   (version "20260401.2251")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "28878dd879aa2591b971a09848fdf800e92f3a2b")))
-     (sha256 (base32 "005lq1iwilxc80ggsbixfg3szrnj7qhp9zd2xvf11jxd7xjpclxl"))))
+           (commit "6db34dc77d10fc9b8c925e79b4e0e21d9f78ac5c")))
+     (sha256 (base32 "0g7zqynb6b0klg729b3656fg2vq5mmslqvpcwscxij8y1xf0rcnz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -97922,14 +97922,14 @@
 (define-public emacs-tardis-theme
   (package
    (name "emacs-tardis-theme")
-   (version "20230212.2152")
+   (version "20260401.2230")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/antonhibl/tardis-theme.git")
-           (commit "6d16503cfb08181538d9f02a4d70ebc181bd4241")))
-     (sha256 (base32 "1q54rjixii6qhfd5k8q06bv3pn0prmncns9j5wm5s35fn1ibl8xi"))))
+           (commit "15deab6b9234eb5e44ac8ecce0d307effa19c970")))
+     (sha256 (base32 "0llk7lan5wjpc51s833b0d0kx94gvai4g0h5qmz56qjlzlx0lb1c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/antonhibl/tardis-theme")
    (synopsis "Quantum Country Theme")
@@ -100727,14 +100727,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260331.1249")
+   (version "20260401.2145")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "03c016db94392b3e1107a3f6265c91f6e1fe21e6")))
-     (sha256 (base32 "0mn3s3nabw2gimp424hypnp3n5spmhxp37x8xxjivzly6zh6k251"))))
+           (commit "8b14203107950d6eba0e17d14867e05547725219")))
+     (sha256 (base32 "0khb5pzipnhb21s7wdq42mx9pbsq6fqljz3xhqdsgbjbxx1p6fcl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/magit/transient")
@@ -101103,14 +101103,14 @@
 (define-public emacs-treebundel
   (package
    (name "emacs-treebundel")
-   (version "20250515.2241")
+   (version "20260402.18")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purplg/treebundel.git")
-           (commit "5c98d9aac3b3859bdfb490436dd8225aaa6f5ae9")))
-     (sha256 (base32 "1d510k2cydlslb8ws8zhdmca3vvmnawwgaa2dp5ljq04r71aals9"))))
+           (commit "d06096dca9cf92b169be5d1dc05fcaaaae08ce28")))
+     (sha256 (base32 "1bplckhjxzx1ggmgl91ah6c28najzgzm409xb07694chf46bdck7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/purplg/treebundel")
