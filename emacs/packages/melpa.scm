@@ -8276,14 +8276,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260402.132")
+   (version "20260402.316")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "f4f3733863e90dcf90e2d6b3cdbdf67d036f37ad")))
-     (sha256 (base32 "08cyrvz9bnf3s1b99zamyi77jvlcy7fq8wkj962bk19ykwqf3dbn"))))
+           (commit "42df992b6bd0d3396ac1b233f10d3e327705ab2b")))
+     (sha256 (base32 "10zw15jkkgrwf1pimg6qj30nirjnkjzcaai6x35s3d36j6nm6brp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -8363,14 +8363,14 @@
 (define-public emacs-bufferfile
   (package
    (name "emacs-bufferfile")
-   (version "20260314.1907")
+   (version "20260401.233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/bufferfile.el.git")
-           (commit "9130b90849f3c8f0f77918ba06c18cb144d93afa")))
-     (sha256 (base32 "05vjrvr0nl08asj7avixinyzwx9axk1ydkxfqn0pfnq8j09slciz"))))
+           (commit "05b893762ede97f59923684868a4ba26e82c4f75")))
+     (sha256 (base32 "1py13x9bdmxjs1j1awplqpvvq6gd7c7b8vxxvm1n0lvpggb2sgqh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/bufferfile.el")
    (synopsis "Rename/Delete/Copy Files and Associated Buffers")
@@ -19132,14 +19132,14 @@
 (define-public emacs-denote-citar-sections
   (package
    (name "emacs-denote-citar-sections")
-   (version "20260112.1809")
+   (version "20260402.1642")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~swflint/denote-sections")
-           (commit "ea81318cf1c7d7281047a6b3a2ac8fb76c8535d7")))
-     (sha256 (base32 "09qjwy90b5xpgzaplvw6vpwwhpa5484yjq9291b992h031gjvygw"))))
+           (commit "c76659de2dd13f6e6f7358f96db6d2e067a42fbc")))
+     (sha256 (base32 "0m4k59mbpyvz2xw9k58vm7khhh0iq306bhn6hrymi41dpwlbk4gp"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-denote emacs-universal-sidecar emacs-citar-denote emacs-citar))
@@ -48999,14 +48999,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260331.857")
+   (version "20260402.2139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "9f451d2cd57d74b5875a004d344bec947951cc69")))
-     (sha256 (base32 "16r50fmjhxdl9kaxf506pklapgfvgmc1bsd95z58gsvzajxhslij"))))
+           (commit "88429e3d26e663f498b8398b362f046b82a93dc1")))
+     (sha256 (base32 "0vs3x38gnfr56jznakgwcay0pf5k6saa3vsyswq1qda125jv2a23"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -52689,23 +52689,23 @@
 (define-public emacs-jabber
   (package
    (name "emacs-jabber")
-   (version "20260203.211")
+   (version "20260402.2257")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/emacs-jabber/emacs-jabber.git")
-           (commit "2b9dd87f8a182502383c9d4a72a140b1cc3ec8c2")))
-     (sha256 (base32 "11a1jiqbyqc846jr271fhpyqg1q0jppmcr5fmy3mfdwry5214y52"))))
+           (commit "c83312c53d11e8de6de800ec4958623c632256e1")))
+     (sha256 (base32 "1rx7jsy238yyi88rnbfbv2mvzvismrwln6yviqcz3lxrf3xxhd9v"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-fsm emacs-srv))
+   (propagated-inputs (list emacs-fsm))
    (arguments
     '(#:files
       (:defaults
        "*.org"
        ("jabber-fallback-lib" "jabber-fallback-lib/hexrgb.el"))))
-   (home-page "https://codeberg.org/emacs-jabber/emacs-jabber")
-   (synopsis "A minimal Jabber client")
+   (home-page "https://git.thanosapollo.org/emacs-jabber")
+   (synopsis "XMPP/Jabber client")
    (description "Documentation at https://melpa.org/#/jabber")
    (license #f)))
 
@@ -92257,7 +92257,7 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260402.719")
+   (version "20260402.1701")
    (source
     (origin
      (method git-fetch)
@@ -92855,14 +92855,14 @@
 (define-public emacs-sly
   (package
    (name "emacs-sly")
-   (version "20251212.0")
+   (version "20260402.2249")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/joaotavora/sly.git")
-           (commit "b01993cf1d6626d541998a77dd802483c9687789")))
-     (sha256 (base32 "0hjskkxcg8g05al3xhsgpdzixya1ihdygmpb351z3qxbl93bj2xv"))))
+           (commit "759c0ff8741ced8793257f2b7ed95a23e13e1407")))
+     (sha256 (base32 "1h4s7jcj1ss17nrs8mlal36lw5fmb284fixygk8xj2sjgpg7wcyc"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -94075,14 +94075,14 @@
 (define-public emacs-solaire-mode
   (package
    (name "emacs-solaire-mode")
-   (version "20251224.423")
+   (version "20260403.16")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hlissner/emacs-solaire-mode.git")
-           (commit "e44f11a1ff7489ea7173119d62de99b88e29c918")))
-     (sha256 (base32 "0cc9sxnafvrw0f4inlgpc2nlj62kcw5v12wri98l0xqpchaag0a3"))))
+           (commit "1bd0134194e48c8fe4089e9d505517935b2b15e3")))
+     (sha256 (base32 "1ya579plwjrwxhzbwbsgc5wfx68blzpin78nhh1fz2grxzirp4d2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hlissner/emacs-solaire-mode")
    (synopsis "Make certain buffers grossly incandescent")
