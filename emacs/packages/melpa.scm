@@ -42168,14 +42168,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260402.752")
+   (version "20260403.758")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "c3d5d7f758b8fbb071abbd18d599d1eacb0f2fbd")))
-     (sha256 (base32 "15jv281fvgzg7bls6vcimifvfc7bp28bq8jc0h3119cjhqqr5i6i"))))
+           (commit "46c735c692c10f3cdcdfe46e182334af85de4489")))
+     (sha256 (base32 "1rdhs6bz31y1mmdr6884m72japc6jxfg8ygg27mvnrgf15b8c01j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -46853,14 +46853,14 @@
 (define-public emacs-helm-system-packages
   (package
    (name "emacs-helm-system-packages")
-   (version "20260105.509")
+   (version "20260403.607")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm-system-packages.git")
-           (commit "35aa6c08bc632d76c066aef0b079f6733219c634")))
-     (sha256 (base32 "1cjz4590s42n5rfmzdwp40lqfqzp6rknvpw872r2d2vbgsyivfn3"))))
+           (commit "266b1ac196c47cfc67ba71a05f125f5890a43391")))
+     (sha256 (base32 "0a2vk1j634nyqy4cb4a3svaizay20pk3i39ay4c5bpc8c79wbvc0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm))
    (home-page "https://github.com/emacs-helm/helm-system-packages")
@@ -52689,14 +52689,14 @@
 (define-public emacs-jabber
   (package
    (name "emacs-jabber")
-   (version "20260402.2257")
+   (version "20260403.715")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/emacs-jabber/emacs-jabber.git")
-           (commit "c83312c53d11e8de6de800ec4958623c632256e1")))
-     (sha256 (base32 "1rx7jsy238yyi88rnbfbv2mvzvismrwln6yviqcz3lxrf3xxhd9v"))))
+           (commit "0f430137a3082f79e8c0ee292b7ee8dc5d80e73a")))
+     (sha256 (base32 "1hlczy546lpi4l6g87vc0h2ywh4blxz8q5bnc3hgy28b3rlqkb6a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fsm))
    (arguments
@@ -54445,14 +54445,14 @@
 (define-public emacs-julia-snail
   (package
    (name "emacs-julia-snail")
-   (version "20260331.2037")
+   (version "20260403.453")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gcv/julia-snail.git")
-           (commit "95905e9d6bbf5657b16a307b120d9efb10ac692b")))
-     (sha256 (base32 "19wbs310xmz9d2pcdg62j58xz2g26478blgicd18li9wwy2v7239"))))
+           (commit "3c0beddcd21464d52e95e65ee8b3d7b3a148d83d")))
+     (sha256 (base32 "1p00j4lh9nhkim0lg1f0swvv5lsn54w9qk1g2pjxldrfsad7bqwg"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-julia-mode emacs-s emacs-spinner emacs-popup))
@@ -63251,14 +63251,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260325.431")
+   (version "20260403.320")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "59ec3fa2ec13238509f5caf46b80c5c8fc4c1a3c")))
-     (sha256 (base32 "0rirc1lywb7rrz3h1dnd2zj8n56hd9b3i8108pxg4sqzpzwv2gp6"))))
+           (commit "ee3d2ac1a898f3fe8e54a6a431053b303faf96e7")))
+     (sha256 (base32 "01ackbsqwql8qjajgzi8aal5rhgh9k96y3mnanj1lpc3fa0dqa3m"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -79440,14 +79440,14 @@
 (define-public emacs-perspective
   (package
    (name "emacs-perspective")
-   (version "20260331.1411")
+   (version "20260403.538")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nex3/perspective-el.git")
-           (commit "1271ac579798fe65ba2246a72a44efb1eeeba2ec")))
-     (sha256 (base32 "13xp4gywkda4z1ya4agbxj3vvi4m6mq96v0ln128b74q17x5hllz"))))
+           (commit "230cabf4c1406569bac416cff9502ae23648e3f8")))
+     (sha256 (base32 "0k7bfhjb71ippzrc65i0rbngj65wbhzl5rxygjshwf83rvfwimab"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/nex3/perspective-el")
    (synopsis "Switch between named \"perspectives\" of the editor")
@@ -86469,14 +86469,14 @@
 (define-public emacs-recomplete
   (package
    (name "emacs-recomplete")
-   (version "20260108.1321")
+   (version "20260403.147")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-recomplete.git")
-           (commit "d580e7f0bdf885d3cc5948197ff6e1f4785aa712")))
-     (sha256 (base32 "13gpjxb3bnl4lffs0rdxb87sxpvmm1lqmy7i8ylcxzz4rq8z0g2z"))))
+           (commit "06ea322d363f547cacc43086dd0a29104b27d25e")))
+     (sha256 (base32 "03rx7gqzgn7ka66cybi470xjmvsh4zypwv67d7a6bghlfwwnwx3g"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-recomplete")
    (synopsis "Immediately (re)complete actions")
@@ -95381,14 +95381,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260331.259")
+   (version "20260403.411")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "052d487da3c6039463d682ddb5e80ce108b3b0e7")))
-     (sha256 (base32 "08fv7knrygfc55wbd3lb613agvxan9wkqv2ygygs5gj6kwdvhsaa"))))
+           (commit "272df3cae401da0853dc50344500b522f96a9286")))
+     (sha256 (base32 "1rbisgin3vs2yicyxs0acf6j59hzrr14vddv89vf223r40ipgwqp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
