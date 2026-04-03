@@ -11678,14 +11678,14 @@
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
-   (version "20260330.1616")
+   (version "20260403.830")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clj-refactor.el.git")
-           (commit "30a9d2716097b825e0cc00cd298dcb9547bcc78d")))
-     (sha256 (base32 "02wdhwz2k0ipyqzbxzc33ymlv6ycjfz9cba95qax4gwaddkzgznn"))))
+           (commit "39c9688c79e1d00965621d04c04fe1ddde4b571f")))
+     (sha256 (base32 "1im1l9910asx9bvgcdrrznmrm52kb9jrgkicb3jmplbvay2xyxzv"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-yasnippet
@@ -52689,14 +52689,14 @@
 (define-public emacs-jabber
   (package
    (name "emacs-jabber")
-   (version "20260403.715")
+   (version "20260403.836")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/emacs-jabber/emacs-jabber.git")
-           (commit "0f430137a3082f79e8c0ee292b7ee8dc5d80e73a")))
-     (sha256 (base32 "1hlczy546lpi4l6g87vc0h2ywh4blxz8q5bnc3hgy28b3rlqkb6a"))))
+           (commit "99bccb7af43bfd10cb16e6a4fc055c0cc8268208")))
+     (sha256 (base32 "1vqzw05x4wrwb11wr7c8l4z4j52qln614cvr0gl1m7dpxygfq52p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fsm))
    (arguments
@@ -59811,14 +59811,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260401.1526")
+   (version "20260403.1252")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "fb384fed198fa9012fd9788220e23e672f7d8619")))
-     (sha256 (base32 "08ssr61vwlvh3xpvncdmmmn60p1a37x3brl74qgzr2c3nkdsy5xh"))))
+           (commit "5f6ce9a0a84fc22effc08412642cd4825555622f")))
+     (sha256 (base32 "0divjw0zjba1jw8h4r0fiqgfdp1k6h8xb7biwmfh5483gbjbl5ky"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -62657,14 +62657,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260316.742")
+   (version "20260403.1210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "f11d4436f7e39dfaf82020a390917102e3fd8d27")))
-     (sha256 (base32 "1mg8rmlrkcp2ckkhzrx10dxs1bmhhnh33yn56q9bfakqnnzbpnj4"))))
+           (commit "73936fe0fc314519ab3a15b59ab1d8557df16a4e")))
+     (sha256 (base32 "1wdys4h4a6wakkv0nr5xnr5ryzhgz6i23ia3765gl0jzzi91rmap"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -66877,14 +66877,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260402.1201")
+   (version "20260403.1047")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "c7fdecae07793253f99b27494744c1c8a0d62ebc")))
-     (sha256 (base32 "0wg6lpbyczm4cf7h5ik831lgjrhf4fqv3vdr48vvk4vqins9lp7m"))))
+           (commit "bea8bb2348ed1b73dcb87c9f9d0ff070b7b9f429")))
+     (sha256 (base32 "0n2jni3rdavanxqyga9r1zzypasdgn9xhbpgiknf82g6krl1vjh4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -86469,14 +86469,14 @@
 (define-public emacs-recomplete
   (package
    (name "emacs-recomplete")
-   (version "20260403.147")
+   (version "20260403.1048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-recomplete.git")
-           (commit "06ea322d363f547cacc43086dd0a29104b27d25e")))
-     (sha256 (base32 "03rx7gqzgn7ka66cybi470xjmvsh4zypwv67d7a6bghlfwwnwx3g"))))
+           (commit "4347e8d735cde00b0a6b65124f23eac58bbb8c01")))
+     (sha256 (base32 "0qm8hag0ddc75mkl7ldp9yz0gj95mbx47g6nw2s92zlkj8dw6pcl"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-recomplete")
    (synopsis "Immediately (re)complete actions")
@@ -87028,14 +87028,14 @@
 (define-public emacs-repeat-fu
   (package
    (name "emacs-repeat-fu")
-   (version "20260316.936")
+   (version "20260403.1127")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-repeat-fu.git")
-           (commit "ffd6b69933e362a29967ed2967f12d474e39f887")))
-     (sha256 (base32 "15m82baaksj25j4ink3nyqzwmxlk7rsjq8qvsj4v5267vr9qm0fn"))))
+           (commit "ec9965832f4b94e635478fd6e67c29a523e2e36e")))
+     (sha256 (base32 "0xymxdyj48q94zkk9igkcy8swmiad4l2rw2nwmsgrjkm0ccqmkfk"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-repeat-fu")
    (synopsis "Minor mode to repeat typing or commands")
@@ -88390,14 +88390,14 @@
 (define-public emacs-royal-hemlock-theme
   (package
    (name "emacs-royal-hemlock-theme")
-   (version "20260311.434")
+   (version "20260403.1420")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vs-123/royal-hemlock-theme.git")
-           (commit "1e856571b97f2265654338581e58ee36a6fa81f5")))
-     (sha256 (base32 "0g7wsmwgm426igg3v49j1i260qfy7nw4abaz4l8ql2kd4lqa9k7m"))))
+           (commit "17f3a0a966a72f2f901c806f99ee25637ae8c711")))
+     (sha256 (base32 "1vqaam97z64481vlhfmzih2d2nrj78vva9in8ims842ixbi4qjp0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/vs-123/royal-hemlock-theme")
    (synopsis "Soothing royal-blue light-theme")
@@ -92257,14 +92257,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260402.1701")
+   (version "20260403.948")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "ece21769e2407523b008c1e333a9e2cbc6cfdaad")))
-     (sha256 (base32 "1gdmjld552dy0myz8y8ylmrk6bljx7gm91zvslfpc8w2swd8cxc5"))))
+           (commit "8fa0f2b05e9e7cc9c2d0f7a5b57c852fd22dd25f")))
+     (sha256 (base32 "08nv2adg3ymhf9v5wxxyzz7v5cj5cq2z70zqsda8vdhjfhb8hrac"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -101659,17 +101659,17 @@
 (define-public emacs-tt-mode
   (package
    (name "emacs-tt-mode")
-   (version "20130804.1110")
+   (version "20260403.1450")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/davorg/tt-mode.git")
-           (commit "ed7e98cf779d476dfb727fef325d3027f0708226")))
-     (sha256 (base32 "1sp3075dz6irvz5wi7ymqs093pn8vxd614n696ysg4zp9p76q4lw"))))
+           (commit "4f73b7ca08a1a2bd5d1907f7573a95f05983f33d")))
+     (sha256 (base32 "1s257zmkg4sndr2ryjrqcdhd192gapmax339namv1hfknyzn7b9h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/davorg/tt-mode")
-   (synopsis "Emacs major mode for editing Template Toolkit files")
+   (synopsis "Major mode for editing Template Toolkit files")
    (description "Documentation at https://melpa.org/#/tt-mode")
    (license #f)))
 
