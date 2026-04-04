@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260404.345")
+   (version "20260404.1439")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "b807af0f1fe942a5166b6cf25b9e0ff2e7be9eba")))
-     (sha256 (base32 "1lf22c8i97ydal4399qcxcnlw1hh8dkg2q1qvmn5q8j3z977h1kp"))))
+           (commit "a42e9bbd9657afd1363510e6c6ba670ffcbc0343")))
+     (sha256 (base32 "1xzwk9zh7cl7hpgq22vaqbs0571lriycgm9yqq854asdrgfazvm8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -18158,14 +18158,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260328.723")
+   (version "20260404.1148")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "0927b9b30d5544671abed08451ecb57336512e9e")))
-     (sha256 (base32 "0xb5m7p61vy1hym52kjpsk79nbwbfp24r4li98yq5xyyd07m3x13"))))
+           (commit "49ec87926943ef077c3c649b851a9e4bf65cb00f")))
+     (sha256 (base32 "1bkl2azxa6xh8mnv0w6vzx1ghhajvm9kk8jzhqsq93kdh97zgvpr"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -25727,14 +25727,14 @@
 (define-public emacs-elisp-autofmt
   (package
    (name "emacs-elisp-autofmt")
-   (version "20260404.324")
+   (version "20260404.1003")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-elisp-autofmt.git")
-           (commit "ded3ea33d4a2f9cf6ad0018eb57e0ccbdf870a9d")))
-     (sha256 (base32 "161yxibm45q1gw7pfc591gzk4bghx4k3yfy63nfh6jx6pp79n74d"))))
+           (commit "ed36c5ed4eec91a2c2373a4a03d0d0a9f14aea83")))
+     (sha256 (base32 "1l9ynqwnpcqryvf561vi8qn0779qwpv5gaxsgdsj5h9balf24ayr"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "elisp-autofmt.py" "elisp-autofmt.overrides.json")))
@@ -27305,14 +27305,14 @@
 (define-public emacs-empv
   (package
    (name "emacs-empv")
-   (version "20260201.1258")
+   (version "20260404.1245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/empv.el.git")
-           (commit "5287a71a6220acdb1716d47af183cee4c6094994")))
-     (sha256 (base32 "1dym2x3mqfrn5h8p8c9mglxrb5idbq7l3ic3xh6whfji08wx1w4h"))))
+           (commit "d7092fb7a2ff4b0440d078aa976a2828449f71a5")))
+     (sha256 (base32 "0mi5fz18xw2vlab5nz9v2g58ph6s5i372mycl8nj83nxq7vimkdr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-compat))
    (home-page "https://github.com/isamert/empv.el")
@@ -52689,14 +52689,14 @@
 (define-public emacs-jabber
   (package
    (name "emacs-jabber")
-   (version "20260404.36")
+   (version "20260404.742")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/emacs-jabber/emacs-jabber.git")
-           (commit "02005d1d7f1ef2dae252897c2517b1c342bc20df")))
-     (sha256 (base32 "146vpnh3vbns2v41n541lqic6llj458b1sbnbngy3hpcxmk5k6p2"))))
+           (commit "3ab3a35dcb400c85797cd501e5c198cc80ff8c1d")))
+     (sha256 (base32 "174rnnxxgv1r00x9pvbi2z3y93cwh9h1v6jxysn7lbmwzsa11aqp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fsm))
    (arguments
@@ -57506,14 +57506,14 @@
 (define-public emacs-let-completion
   (package
    (name "emacs-let-completion")
-   (version "20260330.2047")
+   (version "20260404.1342")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gggion/let-completion.el.git")
-           (commit "e103218c0d96c14e82b11c05f91cb34a1cbd0dc2")))
-     (sha256 (base32 "0ansrhbfxr3b82rhwk430hnp93damwj7c97kd04hyykr0iy6k527"))))
+           (commit "001f10de44c66d998c2bd90f62192eca3ca0247a")))
+     (sha256 (base32 "0jq25bljkii4vxcks1hxna8qwwq243kdary149wpfsng9xm316cx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gggion/let-completion.el")
    (synopsis "Show let-binding values in Elisp completion")
@@ -80025,14 +80025,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260327.2236")
+   (version "20260404.1243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "417c9e6710b47b0ee1f19cbc681a328afdfeee2d")))
-     (sha256 (base32 "12nwzahc6i6nbsd0sjjzazspjsdf5f93yvnlgd88sm215xg3pl43"))))
+           (commit "3b022b34cc159d69a44bcd8fbb0c4cb351ca9d75")))
+     (sha256 (base32 "11lvgn2mi1ird4dgvvwzb61bcb0spzby3x8hby3pmxpmpc0w1hyp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
