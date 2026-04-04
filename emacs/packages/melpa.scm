@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260330.1511")
+   (version "20260404.345")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "d24840d736e33484f018a53969c1571550798e11")))
-     (sha256 (base32 "039g173vf4ihanmkixgznicbcr97cwigdxxidyjcaidr1hr45xl3"))))
+           (commit "b807af0f1fe942a5166b6cf25b9e0ff2e7be9eba")))
+     (sha256 (base32 "1lf22c8i97ydal4399qcxcnlw1hh8dkg2q1qvmn5q8j3z977h1kp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -25313,14 +25313,14 @@
 (define-public emacs-electric-ospl
   (package
    (name "emacs-electric-ospl")
-   (version "20250502.1439")
+   (version "20260108.1622")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~swflint/electric-ospl-mode")
-           (commit "a17f7312ef48eba1586c7d0637336eb19aee057e")))
-     (sha256 (base32 "04mp6pqxr5p01z4wqkj8wy07ys3p1n5fm9h3yzplknvr3n2djvxl"))))
+           (commit "8599de5864e20831f2a3719f83da6690e0575c56")))
+     (sha256 (base32 "0xhf52vkmilr4knc5xnjxphii0dlm8w4azqw9gbw4ypwx2rcz2jw"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~swflint/electric-ospl-mode")
    (synopsis "Electric OSPL Mode")
@@ -25727,14 +25727,14 @@
 (define-public emacs-elisp-autofmt
   (package
    (name "emacs-elisp-autofmt")
-   (version "20260331.554")
+   (version "20260404.324")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-elisp-autofmt.git")
-           (commit "07f2d4bcd5db2e03f8c2ec847c3597f4f8a6de0c")))
-     (sha256 (base32 "1cf4r1f03m559k66qf7p2fhj32mawia33vh4r5i136bmr286aaf6"))))
+           (commit "ded3ea33d4a2f9cf6ad0018eb57e0ccbdf870a9d")))
+     (sha256 (base32 "161yxibm45q1gw7pfc591gzk4bghx4k3yfy63nfh6jx6pp79n74d"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "elisp-autofmt.py" "elisp-autofmt.overrides.json")))
@@ -46853,14 +46853,14 @@
 (define-public emacs-helm-system-packages
   (package
    (name "emacs-helm-system-packages")
-   (version "20260403.607")
+   (version "20260404.605")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm-system-packages.git")
-           (commit "266b1ac196c47cfc67ba71a05f125f5890a43391")))
-     (sha256 (base32 "0a2vk1j634nyqy4cb4a3svaizay20pk3i39ay4c5bpc8c79wbvc0"))))
+           (commit "85372333d09dbf21a68ab982a3fba299461eeb9e")))
+     (sha256 (base32 "0gx075q2gpvf0z8f5pbhxv3nxwk5hal0kyjaz1lqf0827vxdzkqv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm))
    (home-page "https://github.com/emacs-helm/helm-system-packages")
@@ -68781,14 +68781,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260401.1111")
+   (version "20260404.553")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "efa53537469c708a3b62bbf373a6350c4f2bb090")))
-     (sha256 (base32 "1si1gkv715m5k5hh5rkg0rysy2rf48sj6dmz67al4f8wc21yp1cx"))))
+           (commit "621d0548f50086b9868db970c52d5c43c35c710b")))
+     (sha256 (base32 "1s30pkgh6lrrzfq3hx7qplzzqxpghahw7qq1wn713pvnarjgfqbk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
