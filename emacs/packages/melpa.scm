@@ -6456,14 +6456,14 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20260330.1007")
+   (version "20260403.2314")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kristjoc/bible-gateway.git")
-           (commit "53a1ebd846b1b5f7591f142fab18058848bb4a98")))
-     (sha256 (base32 "1q1v8k68idhiksmy7cn8rcgadq8kl463yysbc7zq7rr4apylzr1k"))))
+           (commit "fdca45e4f84c7743b4a57c3318114fa987fafb95")))
+     (sha256 (base32 "1lbfig3sz9n5lhw29p1q3c2rl4b1y9q47lgf3wpwca4hmdlz0zgk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kristjoc/bible-gateway")
    (synopsis "A Simple BibleGateway Client")
@@ -24369,14 +24369,14 @@
 (define-public emacs-eglot-python-preset
   (package
    (name "emacs-eglot-python-preset")
-   (version "20260402.158")
+   (version "20260403.1656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-python-preset.git")
-           (commit "a8265350db788cd619e36afec15475115fe9301c")))
-     (sha256 (base32 "1bbmlbhypdlmlb2rywz4ajrpgam6ggb2da0fjl5ibvykif5wljnl"))))
+           (commit "cf6c57e2010c2fca8eedc756c4759cbd62a6e206")))
+     (sha256 (base32 "0jq1i3gmczgrq935vhz0f6rgj5dshbq2lv6wcpl424r2r7fr6n1w"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
    (home-page "https://github.com/mwolson/eglot-python-preset")
@@ -24423,14 +24423,14 @@
 (define-public emacs-eglot-typescript-preset
   (package
    (name "emacs-eglot-typescript-preset")
-   (version "20260402.158")
+   (version "20260403.1656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-typescript-preset.git")
-           (commit "86d497f3db5fb6ca2969ed9c14b2e0e048f77314")))
-     (sha256 (base32 "11kazz0p0qyaqa80xgycmxz7m9pj4d7y1z3vdbx0q8ccnks5fgzq"))))
+           (commit "97c673f6408fa35fe859330f6014c35f9dce15a8")))
+     (sha256 (base32 "0k12kszfg68q343mww7ivacpkw177ca23878v13b8p00xac86app"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
    (home-page "https://github.com/mwolson/eglot-typescript-preset")
@@ -26797,14 +26797,14 @@
 (define-public emacs-embark
   (package
    (name "emacs-embark")
-   (version "20260330.2221")
+   (version "20260403.2105")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/oantolin/embark.git")
-           (commit "66429937eb46a45064f17b74b8fa94eecd8a9227")))
-     (sha256 (base32 "14iv2qlfkfx95jfqqdjbcak89g23mnnqll1qfyqb081psh0v77bg"))))
+           (commit "f9ed4c2b5e2afe8c14b8b56fcf28349a57a25102")))
+     (sha256 (base32 "1r8qdqdljilhrwa0p7dk2bapls0xdgr9g1s2vjfvl415visycaag"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files ("embark.el" "embark-org.el" "embark.texi")))
@@ -26816,14 +26816,14 @@
 (define-public emacs-embark-consult
   (package
    (name "emacs-embark-consult")
-   (version "20260330.1903")
+   (version "20260403.2105")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/oantolin/embark.git")
-           (commit "66429937eb46a45064f17b74b8fa94eecd8a9227")))
-     (sha256 (base32 "14iv2qlfkfx95jfqqdjbcak89g23mnnqll1qfyqb081psh0v77bg"))))
+           (commit "f9ed4c2b5e2afe8c14b8b56fcf28349a57a25102")))
+     (sha256 (base32 "1r8qdqdljilhrwa0p7dk2bapls0xdgr9g1s2vjfvl415visycaag"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-embark emacs-consult))
    (arguments '(#:files ("embark-consult.el")))
@@ -37088,14 +37088,14 @@
 (define-public emacs-flywrite
   (package
    (name "emacs-flywrite")
-   (version "20260402.145")
+   (version "20260404.33")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/awdeorio/flywrite.git")
-           (commit "3430d85f7b92308291db9c40ed26cd86703af9e4")))
-     (sha256 (base32 "1v6z2pmccbf7cqvk2qa8y1g3896fnfr5cbn00fvsi3bmdzl77ixb"))))
+           (commit "a5d36c29854207a487d4d1d0d28dbd8dac24da30")))
+     (sha256 (base32 "1xj67zy1kfmv741vba6g0lggcryn6dl3qyz94i9h1s2z2x8bdmn8"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("flywrite.el")))
    (home-page "https://github.com/awdeorio/flywrite")
@@ -40746,14 +40746,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260331.1643")
+   (version "20260403.2340")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/gnosis")
-           (commit "9dff0382b85326b15f2ad3e7656307b11b2138fc")))
-     (sha256 (base32 "0d9bqx0ay1gh1vacdz2klp7qj69hs520a8sixdk22sqmk60c96li"))))
+           (commit "e830171c4bcbcbc0b1d466ffdbec179e32e9688e")))
+     (sha256 (base32 "0kpzc2jw51sklz15v0d0vzm5ck05n3d90l02la4nxn8r85jb1f53"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://thanosapollo.org/projects/gnosis")
@@ -42079,14 +42079,14 @@
 (define-public emacs-gpr-ts-mode
   (package
    (name "emacs-gpr-ts-mode")
-   (version "20250111.1503")
+   (version "20260403.2016")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/brownts/gpr-ts-mode.git")
-           (commit "b8aeca2c8fd5ed370dad0676da8f380627c916d5")))
-     (sha256 (base32 "1aczmvyaa0z5z4bxr87k8v3vs915331kccc85y2jm99rc3786r1q"))))
+           (commit "cd10a0963b4cf64966bb2e9413d787d83f5494d5")))
+     (sha256 (base32 "173y9g3x9jm593mh21gixsgsncbszbpmg2mf3rkjm42b88hn70qw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/brownts/gpr-ts-mode")
    (synopsis "Major mode for GNAT project files using Tree-Sitter")
@@ -43132,14 +43132,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260402.751")
+   (version "20260404.134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "fd68f1f0735e0f7d746d1762dcebd0076ed63910")))
-     (sha256 (base32 "1yyph20z6gblq8q9w5s7mb4cr9smvhql4ywgnv69g7j432ang2a1"))))
+           (commit "537715b98f547d2f4e857b08bb36272108f28328")))
+     (sha256 (base32 "187yb7792adzvaky6rnbnlb42q78s2amh1p4yw2mb7fx11q9w333"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -52689,14 +52689,14 @@
 (define-public emacs-jabber
   (package
    (name "emacs-jabber")
-   (version "20260403.836")
+   (version "20260404.36")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/emacs-jabber/emacs-jabber.git")
-           (commit "99bccb7af43bfd10cb16e6a4fc055c0cc8268208")))
-     (sha256 (base32 "1vqzw05x4wrwb11wr7c8l4z4j52qln614cvr0gl1m7dpxygfq52p"))))
+           (commit "02005d1d7f1ef2dae252897c2517b1c342bc20df")))
+     (sha256 (base32 "146vpnh3vbns2v41n541lqic6llj458b1sbnbngy3hpcxmk5k6p2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fsm))
    (arguments
@@ -71981,14 +71981,14 @@
 (define-public emacs-org-cite-overlay
   (package
    (name "emacs-org-cite-overlay")
-   (version "20251130.300")
+   (version "20251130.328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~swflint/org-cite-overlay")
-           (commit "452f467f044866b169314d6b691e22f95c94e2b5")))
-     (sha256 (base32 "01payrd42n1qa1j6s2p5h48plq2y9n1bsmbk1h79a2k2jz78jlk3"))))
+           (commit "b30e7fa63779ea6adf626227bc84c0b114e66c50")))
+     (sha256 (base32 "1hbk2zkj0sjm0qlv9lzaacnkp90ajfrahh1wmxcd3qc1r2dcchkd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-citeproc))
    (arguments '(#:files ("org-cite-overlay.el")))
@@ -76559,14 +76559,14 @@
 (define-public emacs-overleaf
   (package
    (name "emacs-overleaf")
-   (version "20260122.1439")
+   (version "20260403.2056")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vale981/overleaf.el.git")
-           (commit "933a0185e9d13d9ae7fc5271f0b4a4113aab6eca")))
-     (sha256 (base32 "0ci7pz6m6730hl95vnjcgk7lk89550r7mfpasrbpj6x1sawgjl4w"))))
+           (commit "ac2bf8a6e10408e1f270c754ef8262785f428efa")))
+     (sha256 (base32 "1ss688c5bgx395skflrrnnacq321k891x8yw2pmlx80n53vy0z46"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-plz emacs-websocket emacs-webdriver emacs-posframe))
@@ -88390,7 +88390,7 @@
 (define-public emacs-royal-hemlock-theme
   (package
    (name "emacs-royal-hemlock-theme")
-   (version "20260403.1420")
+   (version "20260403.1452")
    (source
     (origin
      (method git-fetch)
