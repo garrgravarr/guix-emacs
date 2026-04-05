@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260405.47")
+   (version "20260405.343")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "48d0a97dfaee6310d602cc2de801b66208b7d6ee")))
-     (sha256 (base32 "0wsmv1v7bgd33kmkkgaqj372c0nkv4cg54cz3gl2f7x8kffx638v"))))
+           (commit "cd7cb113c3cf0c2b2ce5d5fa8b03e9d299024640")))
+     (sha256 (base32 "1xy1mgcdnna3nfzkqzqr2pmb1ny8mlmhn070yfhqwqw81449gflh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -30790,17 +30790,17 @@
 (define-public emacs-evil-terminal-cursor-changer
   (package
    (name "emacs-evil-terminal-cursor-changer")
-   (version "20231031.852")
+   (version "20260405.711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/7696122/evil-terminal-cursor-changer.git")
-           (commit "2358f3e27d89128361cf80fcfa092fdfe5b52fd8")))
-     (sha256 (base32 "0nssajjkmfhd9nvdvvkkja2vc1x2hwlpj3amnzry35jnbfq35c5f"))))
+           (commit "9ed4a7dc8602bf79db790902eada3a7683d3c108")))
+     (sha256 (base32 "171hxgb3lxdk1y5h6w546qrl41zzs03sgqwv53c7rfk75yf3km2n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/7696122/evil-terminal-cursor-changer")
-   (synopsis "Change cursor shape and color by evil state in terminal")
+   (synopsis "Change cursor shape and color in terminal")
    (description
     "Documentation at https://melpa.org/#/evil-terminal-cursor-changer")
    (license #f)))
@@ -43132,14 +43132,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260404.2126")
+   (version "20260405.549")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "00ba5433287dcf095504cec81f4eb6835f20d6b7")))
-     (sha256 (base32 "1hmhx08sclck2mslw0l2swa50r21knhfq8532blcj59zm4055dqg"))))
+           (commit "18c16ed3114d779fdd3c0e4ec817005f9c5e53f2")))
+     (sha256 (base32 "1m1gv9g12l1wc2vdww3klznj625dr8khh15d7ijl0n5rflfwr6cb"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -56417,7 +56417,7 @@
 (define-public emacs-lab
   (package
    (name "emacs-lab")
-   (version "20260404.1541")
+   (version "20260405.124")
    (source
     (origin
      (method git-fetch)
