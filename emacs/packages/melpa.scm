@@ -48999,14 +48999,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260402.2139")
+   (version "20260405.643")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "88429e3d26e663f498b8398b362f046b82a93dc1")))
-     (sha256 (base32 "0vs3x38gnfr56jznakgwcay0pf5k6saa3vsyswq1qda125jv2a23"))))
+           (commit "f7dc4065bf6869454152e8e09adf0391de5af00e")))
+     (sha256 (base32 "0l4g7v0qypiinjpp0p542l32k2klj356xhcfyn5pqivi3v8pswyr"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -64425,14 +64425,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260325.809")
+   (version "20260405.1333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "e0f42f27404582e1ccfe933e4688530ee41d9df1")))
-     (sha256 (base32 "0zymgqlidd8r8mndccrizbl696xb9lwdkn60kz3dm3jf551q40lj"))))
+           (commit "b07a5d50019d3f85721fc0986cad419a1940c366")))
+     (sha256 (base32 "1iw0a4n2hhixvlnzdmrkbi00snvgzp9hz7bq306bfhgcsvkn0mb1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -68758,14 +68758,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260404.553")
+   (version "20260405.639")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "621d0548f50086b9868db970c52d5c43c35c710b")))
-     (sha256 (base32 "1s30pkgh6lrrzfq3hx7qplzzqxpghahw7qq1wn713pvnarjgfqbk"))))
+           (commit "66ebed3e641dae8b1b8ec917a3d0228c5d2c86c6")))
+     (sha256 (base32 "0cp53niqmcfvamshdpmkpri6nskxi2ygdd4q80s8isymhz916i4n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -72383,6 +72383,23 @@
    (home-page "https://github.com/heikkil/org-dropbox")
    (synopsis "Move Dropbox notes from phone into org-mode datetree")
    (description "Documentation at https://melpa.org/#/org-dropbox")
+   (license #f)))
+
+(define-public emacs-org-dt
+  (package
+   (name "emacs-org-dt")
+   (version "20260330.1927")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://codeberg.org/niqc/org-dynamic-templates.git")
+           (commit "fb3a3466ad616245b9bad8e65a14932e6e85bede")))
+     (sha256 (base32 "0mabhvncsxh9s0qkw87l7j9rh1yjf9sip93fn7lgvclwb2vf2vrr"))))
+   (build-system melpa-build-system)
+   (home-page "https://codeberg.org/niqc/org-dynamic-templates")
+   (synopsis "Dynamic templating loader")
+   (description "Documentation at https://melpa.org/#/org-dt")
    (license #f)))
 
 (define-public emacs-org-easy-img-insert
@@ -98110,14 +98127,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260404.1808")
+   (version "20260405.722")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "895a141ad34a027400f3da4be3821807cb829e41")))
-     (sha256 (base32 "13ffbp6pz0xk6acwqnlfdj1j7c860lzs17cvim4sdri4rxf0x2v0"))))
+           (commit "849feedf504ae8f48987e0cf38a3b01d7cbd4ae9")))
+     (sha256 (base32 "1hnw97jaz4sbi8xsdq5swa8dkkb36qxjkn99kj44p7x8krzfn9ci"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -101061,14 +101078,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260330.946")
+   (version "20260405.1313")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "9434bc0d5fc05c25bc004d1aea2b0ae25ca22b90")))
-     (sha256 (base32 "1a2hipdylbj5yz2vdxbz08cjw2pk8c94migpr1q0nzqp63pss7z2"))))
+           (commit "b93acf3a44c94fb5bc93c16ee0a382a340ef8b81")))
+     (sha256 (base32 "16jpl8r2m8c8wr2190x470gpnrr4jj7bb5h1by95a1q066vydg70"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
