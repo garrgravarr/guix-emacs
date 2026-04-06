@@ -9590,14 +9590,14 @@
 (define-public emacs-catppuccin-theme
   (package
    (name "emacs-catppuccin-theme")
-   (version "20260308.1954")
+   (version "20260406.30")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/catppuccin/emacs.git")
-           (commit "fe6ed3d4e785d4b2bd484ae533439bea30592a4f")))
-     (sha256 (base32 "0wak6f00kg94qs7cg17ay4fy9z7aachxkxgy50r03gzp3zafdg7v"))))
+           (commit "4544014985689ee812165b99414d057f5728d8a1")))
+     (sha256 (base32 "0vyghyvdhpzw99jc1lk4hp26ygi8f9kzgbf1aqdq5braxq9wcnka"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/catppuccin/emacs")
    (synopsis "Catppuccin for Emacs - 🍄 Soothing pastel theme for Emacs")
@@ -14437,6 +14437,23 @@
     "Documentation at https://melpa.org/#/competitive-programming-snippets")
    (license #f)))
 
+(define-public emacs-compilation-history
+  (package
+   (name "emacs-compilation-history")
+   (version "20260401.547")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/djgoku/compilation-history.git")
+           (commit "dba6568dc2c56131d811ff951855e6fb69447ed8")))
+     (sha256 (base32 "1pbiz3bjfflz4yj9p40kwf1sax98fc2ya6a034fvkrlwyg6vrivv"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/djgoku/compilation-history")
+   (synopsis "Track compilation history in SQLite")
+   (description "Documentation at https://melpa.org/#/compilation-history")
+   (license #f)))
+
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
@@ -15824,6 +15841,24 @@
    (home-page "https://github.com/radian-software/prescient.el")
    (synopsis "Prescient.el + Corfu")
    (description "Documentation at https://melpa.org/#/corfu-prescient")
+   (license #f)))
+
+(define-public emacs-corg
+  (package
+   (name "emacs-corg")
+   (version "20260405.1546")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/isamert/corg.el.git")
+           (commit "afcdeba074c30c51342a004a42f1bb233a7b1e3f")))
+     (sha256 (base32 "1yqml8s78s2010hj1niybsi55s7shay5kyf7szg0lrzd34dnasrb"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-s emacs-compat))
+   (home-page "https://github.com/isamert/corg.el")
+   (synopsis "Header completion for org-mode")
+   (description "Documentation at https://melpa.org/#/corg")
    (license #f)))
 
 (define-public emacs-corral
@@ -27305,14 +27340,14 @@
 (define-public emacs-empv
   (package
    (name "emacs-empv")
-   (version "20260404.1245")
+   (version "20260405.1811")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/empv.el.git")
-           (commit "d7092fb7a2ff4b0440d078aa976a2828449f71a5")))
-     (sha256 (base32 "0mi5fz18xw2vlab5nz9v2g58ph6s5i372mycl8nj83nxq7vimkdr"))))
+           (commit "845011c88c1dc0a58334997a0af929057198d84f")))
+     (sha256 (base32 "063j9xnccp8vfhpy6gfcr5ll25apkkfcqg8v7ynr70i60qa0m1q5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-compat))
    (home-page "https://github.com/isamert/empv.el")
@@ -31154,6 +31189,24 @@
    (description "Documentation at https://melpa.org/#/evil-visualstar")
    (license #f)))
 
+(define-public emacs-evim
+  (package
+   (name "emacs-evim")
+   (version "20260329.1809")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/Prgebish/evim.git")
+           (commit "00dcc04bd41b3b4f276b077d29af376838471dee")))
+     (sha256 (base32 "1bx0ja5f07yjxjdi6j1c2h7b8ipd3nza429x138b30bv47kpc89n"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-evil))
+   (home-page "https://github.com/Prgebish/evim")
+   (synopsis "Evil Visual Multi - Multiple cursors for evil-mode")
+   (description "Documentation at https://melpa.org/#/evim")
+   (license #f)))
+
 (define-public emacs-evm-mode
   (package
    (name "emacs-evm-mode")
@@ -32027,14 +32080,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260326.1017")
+   (version "20260331.646")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "a22ef929683bf97cb4f9293418ed5323b1c29eac")))
-     (sha256 (base32 "0nqhya1q0vn4azlgb01w1izby8ai93k8m7mzzpkqalypl5clqk2f"))))
+           (commit "9f409bf7838d5aa06fc7c5ba7d2aef1fb32cabc2")))
+     (sha256 (base32 "0z4hz4qz88r6v5m6p4bhgnw1dpd939jir4d8idycf1mmxsji5ng1"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -39367,6 +39420,24 @@
    (description "Documentation at https://melpa.org/#/ghost-blog")
    (license #f)))
 
+(define-public emacs-ghostel
+  (package
+   (name "emacs-ghostel")
+   (version "20260405.2019")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/dakra/ghostel.git")
+           (commit "416cf7aea4e4c69c0f0eb5b4b19ea693865691e9")))
+     (sha256 (base32 "11bzlk08fq8bd3qnvpvas5aw5r8z4nxhv4d6yzncifx1jgjch6fr"))))
+   (build-system melpa-build-system)
+   (arguments '(#:files (:defaults "etc")))
+   (home-page "https://github.com/dakra/ghostel")
+   (synopsis "Terminal emulator powered by libghostty")
+   (description "Documentation at https://melpa.org/#/ghostel")
+   (license #f)))
+
 (define-public emacs-ghq
   (package
    (name "emacs-ghq")
@@ -40746,14 +40817,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260405.125")
+   (version "20260406.150")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/gnosis")
-           (commit "4f2b92dbdd26ce82bf82f3765db3505230e0cd95")))
-     (sha256 (base32 "0cw5wf94mzbkw5jcpcn720f743akwagj4k2alqnjgxnpxzy68x8f"))))
+           (commit "62193075aa38cd64fc812b6208e6fffb2a207e5f")))
+     (sha256 (base32 "02cirrzwzsjhrng2p3rb09790p7yc1v598miwdkjbz30linlgjvn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://thanosapollo.org/projects/gnosis")
@@ -62975,6 +63046,23 @@
    (description "Documentation at https://melpa.org/#/mermaid-ts-mode")
    (license #f)))
 
+(define-public emacs-meshmonitor-chat
+  (package
+   (name "emacs-meshmonitor-chat")
+   (version "20260405.1837")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.andros.dev/andros/meshmonitor-chat.el.git")
+           (commit "a7653f148291f555bb6c3bb9c9997a201d28be4d")))
+     (sha256 (base32 "18hk5dynmhff6ka7a2mhmhgyak0g2gcffpc5ahblz6gvs1fy2cbz"))))
+   (build-system melpa-build-system)
+   (home-page "https://git.andros.dev/andros/meshmonitor-chat.el")
+   (synopsis "Chat client for MeshMonitor (Meshtastic)")
+   (description "Documentation at https://melpa.org/#/meshmonitor-chat")
+   (license #f)))
+
 (define-public emacs-meson-mode
   (package
    (name "emacs-meson-mode")
@@ -64425,14 +64513,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260405.1333")
+   (version "20260405.1815")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "b07a5d50019d3f85721fc0986cad419a1940c366")))
-     (sha256 (base32 "1iw0a4n2hhixvlnzdmrkbi00snvgzp9hz7bq306bfhgcsvkn0mb1"))))
+           (commit "7d234fd65f835b0e5608404000cef12b2c9f97b3")))
+     (sha256 (base32 "12w3b0dbhd71blp1cv29y3xm1844d9z5l2pyz6x449kmpffxn6fg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -70432,6 +70520,23 @@
    (description "Documentation at https://melpa.org/#/occidental-theme")
    (license #f)))
 
+(define-public emacs-occult
+  (package
+   (name "emacs-occult")
+   (version "20260405.2236")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/agzam/occult.el.git")
+           (commit "3d626126ede4fd017824d44a24a577fce171bcd0")))
+     (sha256 (base32 "0xi17kd63ll514jxy215bn1wm0z4wv9di0m0rffc84p1m6x8cbl2"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/agzam/occult.el")
+   (synopsis "Collapse and reveal buffer regions")
+   (description "Documentation at https://melpa.org/#/occult")
+   (license #f)))
+
 (define-public emacs-occur-context-resize
   (package
    (name "emacs-occur-context-resize")
@@ -72725,6 +72830,24 @@
    (description "Documentation at https://melpa.org/#/org-grep")
    (license #f)))
 
+(define-public emacs-org-grimoire
+  (package
+   (name "emacs-org-grimoire")
+   (version "20260402.309")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/spiperac/org-grimoire.git")
+           (commit "0a15e6be54ded80882b4b25d00c48c29b34f4692")))
+     (sha256 (base32 "0d2bl2dq4pi5pghnhbfpzvwxjrh8r398ag9n6jbiiphcpgsy3lin"))))
+   (build-system melpa-build-system)
+   (arguments '(#:files ("org-grimoire.el" "themes")))
+   (home-page "https://github.com/spiperac/org-grimoire")
+   (synopsis "Emacs-native static site generator")
+   (description "Documentation at https://melpa.org/#/org-grimoire")
+   (license #f)))
+
 (define-public emacs-org-gtd
   (package
    (name "emacs-org-gtd")
@@ -72942,6 +73065,23 @@
    (home-page "https://codeberg.org/trevdev/org-invoice-table")
    (synopsis "Invoicing table formatter for org-mode")
    (description "Documentation at https://melpa.org/#/org-invoice-table")
+   (license #f)))
+
+(define-public emacs-org-invox
+  (package
+   (name "emacs-org-invox")
+   (version "20260329.1955")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/a-manumohan/org-invox.git")
+           (commit "7b977a4ea6bba969f3643b5c74d202541e82700d")))
+     (sha256 (base32 "01ryydj61h1dz1zywjaaga1z510ib0g8zr0551gx9rdgqzp290hs"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/a-manumohan/org-invox")
+   (synopsis "Invoice management for contractors using Org mode")
+   (description "Documentation at https://melpa.org/#/org-invox")
    (license #f)))
 
 (define-public emacs-org-iv
@@ -87351,14 +87491,14 @@
 (define-public emacs-rescript-mode
   (package
    (name "emacs-rescript-mode")
-   (version "20260319.1332")
+   (version "20260405.1650")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jjlee/rescript-mode.git")
-           (commit "b69440f23faae21cfc3530008b440df88840619a")))
-     (sha256 (base32 "1ljna77pikrh2msark4r4mqx0lmlx74ilid0sxbg5miga02nlrwd"))))
+           (commit "f19e2638b6b34d323096597464f422d9e2ad795f")))
+     (sha256 (base32 "1lzb67va7y0acdsrq9i03i1ww03mw81nsn0v55zl0p1zjwrmffkg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jjlee/rescript-mode")
    (synopsis "A major mode for editing ReScript")
