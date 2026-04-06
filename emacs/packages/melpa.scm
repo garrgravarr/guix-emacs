@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260405.343")
+   (version "20260406.322")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "cd7cb113c3cf0c2b2ce5d5fa8b03e9d299024640")))
-     (sha256 (base32 "1xy1mgcdnna3nfzkqzqr2pmb1ny8mlmhn070yfhqwqw81449gflh"))))
+           (commit "6d6c81333abf01883d9ab10d4aaa1ec9434195eb")))
+     (sha256 (base32 "0kzcp9vhr5sak2ws083wqkxl64b528agsb93hzi22w99s0fcpv3j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260405.2019")
+   (version "20260406.826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "416cf7aea4e4c69c0f0eb5b4b19ea693865691e9")))
-     (sha256 (base32 "11bzlk08fq8bd3qnvpvas5aw5r8z4nxhv4d6yzncifx1jgjch6fr"))))
+           (commit "21abb3dbc994d548c190d9fc77e4890aee1944e0")))
+     (sha256 (base32 "1vszij6syxzbfwq7vwzx4zr9mvjb0gq4nhxihd3sn57r0x0ipkbs"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -42239,14 +42239,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260404.2317")
+   (version "20260406.703")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "a976449a40e4e2c1430fce2bcc33beb4037acaa6")))
-     (sha256 (base32 "05z36hdpblwy1745ld51kr5xp0lpq8shzwyhvfnl3aym71walrcy"))))
+           (commit "cd4375a53525a399f64adfc99c791b35c890d152")))
+     (sha256 (base32 "0w0snqm97qwmnjdy007c8gfy6nx32y1k2bk4z1y1323g6lhpb5fy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -57996,14 +57996,14 @@
 (define-public emacs-line-reminder
   (package
    (name "emacs-line-reminder")
-   (version "20260101.549")
+   (version "20260406.657")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-vs/line-reminder.git")
-           (commit "4e0170c9e3ed9b41e13bd3a9bcaa6937bae58e40")))
-     (sha256 (base32 "0ffwzrb2kads23818zi1fb85vflp0slrfa2q5pyacisizyniz29r"))))
+           (commit "ff080f2f1b42c627d4720cd23751b93f5c6457c2")))
+     (sha256 (base32 "09v1k3ja2ia0ji4q59dlg4vwlbnxl21gwf01zcjy0rw27661hyal"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fringe-helper emacs-ov emacs-ht))
    (home-page "https://github.com/emacs-vs/line-reminder")
@@ -62199,14 +62199,14 @@
 (define-public emacs-mastodon
   (package
    (name "emacs-mastodon")
-   (version "20260401.1540")
+   (version "20260406.856")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/mastodon.el.git")
-           (commit "b4a1072d6c7c022be8d94bddc60c0c0c2c0f9db3")))
-     (sha256 (base32 "166fwziklgdhig6k6fjk7lpjrvd5mbyfjxdm84xd4cpky0jhkhcf"))))
+           (commit "5bba23045efda9f63c36ac431bec8f318a55e76a")))
+     (sha256 (base32 "1z8qwnc01d9hx5m1xj3acpdzllfh4rxmypzcr3jl4ipp6dybzbx6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-persist emacs-tp))
    (home-page "https://codeberg.org/martianh/mastodon.el")
@@ -66942,14 +66942,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260403.1047")
+   (version "20260406.857")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "bea8bb2348ed1b73dcb87c9f9d0ff070b7b9f429")))
-     (sha256 (base32 "0n2jni3rdavanxqyga9r1zzypasdgn9xhbpgiknf82g6krl1vjh4"))))
+           (commit "625d48b841b98d447a12a1e9eb841c14ade90335")))
+     (sha256 (base32 "11gd91p4l9776y081z9iqcw9y9dj7z162d9fl6jr3yfjah42xmvy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -76693,14 +76693,14 @@
 (define-public emacs-overleaf
   (package
    (name "emacs-overleaf")
-   (version "20260403.2056")
+   (version "20260406.118")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vale981/overleaf.el.git")
-           (commit "ac2bf8a6e10408e1f270c754ef8262785f428efa")))
-     (sha256 (base32 "1ss688c5bgx395skflrrnnacq321k891x8yw2pmlx80n53vy0z46"))))
+           (commit "dc88dd79b016c90297912a81035b6ca685cc9136")))
+     (sha256 (base32 "1c5bvfkf1rsh8rwskf809mi9k8448a46w8wkf5w5af8xwfsd9mng"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-plz emacs-websocket emacs-webdriver emacs-posframe))
@@ -105061,14 +105061,14 @@
 (define-public emacs-vterm
   (package
    (name "emacs-vterm")
-   (version "20251119.1653")
+   (version "20260406.134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/akermu/emacs-libvterm.git")
-           (commit "a01a2894a1c1e81a39527835a9169e35b7ec5dec")))
-     (sha256 (base32 "0j8ngl6k0i5nfhkrqvw0bdrk2m3yzjd7vsf3r9hz2gg2pln4za8p"))))
+           (commit "54c29d14bca05bdd8ae60cda01715d727831e3f9")))
+     (sha256 (base32 "1jwby4pyzqv4n7fi8d617j93bbgdr3hkcpkkv2cqqpz1lfy0cab5"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
