@@ -25762,14 +25762,14 @@
 (define-public emacs-elisp-autofmt
   (package
    (name "emacs-elisp-autofmt")
-   (version "20260407.16")
+   (version "20260407.326")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-elisp-autofmt.git")
-           (commit "364511b9cba14b9426959f6097147cf3371d5cb3")))
-     (sha256 (base32 "0br47mpgfbv6h98y9dhg6vyvx388x2l1aia35d4zdc4v97ps2mz7"))))
+           (commit "b1cdd8661930a35b1633ccc28b27b793145cd108")))
+     (sha256 (base32 "1fpyr30aln2rpslx3n7s868cbxw20yv5cdsn8hvf0mvb2bwfmny3"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "elisp-autofmt.py" "elisp-autofmt.overrides.json")))
@@ -38740,14 +38740,14 @@
 (define-public emacs-gdscript-mode
   (package
    (name "emacs-gdscript-mode")
-   (version "20260202.556")
+   (version "20260407.556")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/godotengine/emacs-gdscript-mode.git")
-           (commit "dd44f1dfa541c73d41272adefd35017147dc9fcb")))
-     (sha256 (base32 "1hf7gwzzl4k955z4qf6dnrjq6yyyw6lcfzc4ga78y0s4n10sy6f3"))))
+           (commit "70f72091438aa7de3a987b231f26a68afe81a20c")))
+     (sha256 (base32 "1b0m4z298a3a0zb3mwrf8zzqhqi977kh8ki2yvrs1j13s8p0ynfm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/godotengine/emacs-gdscript-mode/")
    (synopsis "Major mode for Godot's GDScript language")
@@ -74479,14 +74479,14 @@
 (define-public emacs-org-roam-latte
   (package
    (name "emacs-org-roam-latte")
-   (version "20260327.910")
+   (version "20260407.512")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/yad-tahir/org-roam-latte.git")
-           (commit "d69da6920d463a5edb94416040a2b49689f7ead5")))
-     (sha256 (base32 "00xhfwnp8rkhpc3rsbig3jsc2al0qqwps3aayv71llxw20gic48b"))))
+           (commit "89b979be06195a435ab8dd8762c09221f96a5fd5")))
+     (sha256 (base32 "1yd2mf1xvig0bs6sf8nqwi0d5am24yr3n32s9isqwd17bkiaqg13"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-org-roam emacs-inflections))
    (home-page "https://github.com/yad-tahir/org-roam-latte")
@@ -85411,14 +85411,14 @@
 (define-public emacs-quiz
   (package
    (name "emacs-quiz")
-   (version "20190525.1206")
+   (version "20260407.759")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/davep/quiz.el.git")
-           (commit "570bf53926d89282cdb9653bd5aa8fe968f92bbd")))
-     (sha256 (base32 "1f752fsrk7z8q2dd40r46hzhhf1kyj0vid9g0vv5dkkzmabms59q"))))
+           (commit "708e25d570e9835c1058762794825935a8dec296")))
+     (sha256 (base32 "1zg6z71dbryc2n709waqs45w2n2z440byk4q12pnz1bmis71281d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/davep/quiz.el")
    (synopsis "Multiple choice quiz game")
