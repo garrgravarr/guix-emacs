@@ -13497,14 +13497,14 @@
 (define-public emacs-company-forge
   (package
    (name "emacs-company-forge")
-   (version "20251217.942")
+   (version "20260408.1038")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pkryger/company-forge.el.git")
-           (commit "690410aff610b55dac4b43d02c8f549803d46e7a")))
-     (sha256 (base32 "16yqd2jz4i9zf5zjyjp1n5xgb0vw67ck34ihhf4ki071i9zpghiy"))))
+           (commit "b5b501b9e42787f76137b5fa40f41ae09a2e8540")))
+     (sha256 (base32 "10490q710v19xbsmkqwzpd3aa6ss5qhjx0hd7l51vgp2x8ap9cki"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-company emacs-forge emacs-ghub))
    (arguments '(#:files (:defaults "icons")))
@@ -19801,14 +19801,14 @@
 (define-public emacs-difftastic
   (package
    (name "emacs-difftastic")
-   (version "20260112.1401")
+   (version "20260408.950")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pkryger/difftastic.el.git")
-           (commit "b33554a22c637f147d07c15fa9539c72bcfcfca0")))
-     (sha256 (base32 "1rc5gnb1hdlh7gjpg8igrrzcvxk53h76mcbnbhmfdhxfixb2xh8r"))))
+           (commit "7db20929cac31687a529943c3d8d5b44fd8d69e2")))
+     (sha256 (base32 "0x9xsc491y2z6z7pyq372y3ppawf8k7xlv62c111cyhgz24m92wd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-magit))
    (home-page "https://github.com/pkryger/difftastic.el")
@@ -29140,14 +29140,14 @@
 (define-public emacs-ess
   (package
    (name "emacs-ess")
-   (version "20260407.1329")
+   (version "20260408.952")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-ess/ESS.git")
-           (commit "325806eb265240c9c2af1e25e9e0dc1006999771")))
-     (sha256 (base32 "191gpm4jlxn0695krc04p6spkmh96y8zsb3qq7f265z5bpqddp2n"))))
+           (commit "d8d8e4e87a663edbeb42d7e43f8096c95bbb6e15")))
+     (sha256 (base32 "110dm88j2lzkppryzzszsmhlhbf8kdwcay0519krg6j5qy5p0vb9"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260407.1504")
+   (version "20260408.1039")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "6075b647913576949fc925e50f37de384a035420")))
-     (sha256 (base32 "1h1jhpsrn84l7ycc04mg6riykj3pb52yxlw2j418j619fgflddmq"))))
+           (commit "907da53e0f4feb8f1ca766552a09fe54f2bfaa1d")))
+     (sha256 (base32 "0kw3xlf4sy4wn7bavndl8lmqiybm2cmrciz6in05bkd5xv7haiir"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -85411,14 +85411,14 @@
 (define-public emacs-quiz
   (package
    (name "emacs-quiz")
-   (version "20260407.759")
+   (version "20260408.1503")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/davep/quiz.el.git")
-           (commit "708e25d570e9835c1058762794825935a8dec296")))
-     (sha256 (base32 "1zg6z71dbryc2n709waqs45w2n2z440byk4q12pnz1bmis71281d"))))
+           (commit "9630cfbf0c2a0ee47d5ea146aeac0fe62e8d4a37")))
+     (sha256 (base32 "04kllq0ka8f8vs15g02q3kz4xjyvwznf8bd93sdjz4p7vky2j262"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/davep/quiz.el")
    (synopsis "Multiple choice quiz game")
@@ -91538,14 +91538,14 @@
 (define-public emacs-shimbun
   (package
    (name "emacs-shimbun")
-   (version "20251228.2352")
+   (version "20260408.652")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-w3m/emacs-w3m.git")
-           (commit "ec18c21418bf7c1be159bd3cf7e79a370d4be1f3")))
-     (sha256 (base32 "00rkvr6cpisma5r6g88bq0im7qh9l30fy8r4g4wgs1k53lai7k68"))))
+           (commit "ac4aeb3f7bf6d5a32127062b0ae311785fbc36ff")))
+     (sha256 (base32 "0nh1cgh9dq8wm4ydb27zj2v1v3wczqx6dql6cz6azma10w1484l7"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("shimbun/*.el")))
    (home-page "https://github.com/emacs-w3m/emacs-w3m")
@@ -96567,14 +96567,14 @@
 (define-public emacs-sumibi
   (package
    (name "emacs-sumibi")
-   (version "20260307.127")
+   (version "20260408.1334")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/Sumibi.git")
-           (commit "9a0b51f9a6b5147228e9c928646cf2843c2f429b")))
-     (sha256 (base32 "0cnl21ssgzhwg58gi3k3x5513alsyhhrhmsq397adah0z9vsdkgh"))))
+           (commit "e52bd87416458bd8bb920b33fac9afdee27140d5")))
+     (sha256 (base32 "0zbpycvymqhjx8jrfq9rszl9yyvjjk35a2fkd45ghg7kfcqhlsk3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-popup emacs-unicode-escape emacs-deferred emacs-markdown-mode))
