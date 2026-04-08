@@ -18193,14 +18193,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260406.1431")
+   (version "20260408.738")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "e079205332ce3b3768dc217822dc5dbad11407ba")))
-     (sha256 (base32 "1jlw9mjmy8wkfhxia35plnq93bwb53lxv31gx7h95905y16vgk55"))))
+           (commit "c16b966e91a20472dda2f7d671c7b786eb5c1708")))
+     (sha256 (base32 "04yqyxd0wn665zjngic8pxw14213cakmh0k6naq875pihiqj6v1k"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -19539,14 +19539,14 @@
 (define-public emacs-dialog-mode
   (package
    (name "emacs-dialog-mode")
-   (version "20260404.1402")
+   (version "20260406.1841")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~mew/dialog-mode")
-           (commit "49ce5af0cb35b3321e73cb8b5105de4539ca6dac")))
-     (sha256 (base32 "0ji5r7awicsn9jxg2w7yg62dr8312mzz7wvnfxdxlyy8xjq79vrz"))))
+           (commit "7a14cb400ec46a4f0d9df5270866592d3529986d")))
+     (sha256 (base32 "0sh59a1i19lqws8mn1j1pi1hyyhskysx7xwvi0xqwcf1h2iwf72x"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("doc/dialog-mode.texi" "dialog-mode.el")))
    (home-page "https://git.sr.ht/~mew/dialog-mode")
@@ -42239,14 +42239,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260407.802")
+   (version "20260408.557")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "cdbcdcbcef2152be97420dd737da08c0c51a324b")))
-     (sha256 (base32 "1skiddg91h4wcxh9mq9qsnxv52l58n9hf5i47a4g9fwy9yjj695c"))))
+           (commit "e505a9d6c682bbb9af250d975ab4e7e1dabc4d09")))
+     (sha256 (base32 "1v81mz967jk33v08rj5vyk35vrhjsaak8sfyba3n16bcyx6r5a3v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -42257,14 +42257,14 @@
 (define-public emacs-gptel-agent
   (package
    (name "emacs-gptel-agent")
-   (version "20260405.19")
+   (version "20260408.541")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-agent.git")
-           (commit "0d1534b203ea756c76d5161dfcd57ddc146f774e")))
-     (sha256 (base32 "0c42incx7dn3mm5ag07sf3cl9nli7sspbx611g0v68q5cy8ciclm"))))
+           (commit "b90d59531783ed18fd91da0c14d053bc3e0e8df7")))
+     (sha256 (base32 "0vm6z5mpgbvkj0zk5b8d4jl7bzl66g1dz97am59npaxq6kp6nq79"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-gptel emacs-yaml emacs-orderless))
@@ -59859,14 +59859,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260403.1252")
+   (version "20260408.702")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "5f6ce9a0a84fc22effc08412642cd4825555622f")))
-     (sha256 (base32 "0divjw0zjba1jw8h4r0fiqgfdp1k6h8xb7biwmfh5483gbjbl5ky"))))
+           (commit "4c74da7ae51145f8e49c3544c90b410d96a742fa")))
+     (sha256 (base32 "0wkvbwmd89z3rhyzfmpsdxxwk06arblwj1f6ycml68islfbdi1nr"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -60662,14 +60662,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260406.2006")
+   (version "20260408.646")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "61950fca5e31c9a33d839b3994d93be6d370fb4c")))
-     (sha256 (base32 "12h3p2jqclp1sjc30gc5zwyj67kjmw2436x4rzl8px9b443j8d9l"))))
+           (commit "073b01e83405031da1ed55b45cb6b649a3cfb228")))
+     (sha256 (base32 "0wkrsfgwgnkvd17zmmi0ppp9qk2sf4dx6d46z3dabmb2jmk3dprn"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62181,17 +62181,17 @@
 (define-public emacs-mason
   (package
    (name "emacs-mason")
-   (version "20260308.338")
+   (version "20260408.818")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/deirn/mason.el.git")
-           (commit "13762996bb91a6abc667d56878da47b2e7ba409e")))
-     (sha256 (base32 "0vw91fsc1x1vwdd2djlhp51z0l7i7vycdypn8crfb6sbzkdp5bp0"))))
+           (commit "f0ecc3b61b7286e0e54e2059099aa23ae3fcabf9")))
+     (sha256 (base32 "042icd8v4zcc1gq8h0yrn95k0zp2wkmy05f14m20kwc4d265y90a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s))
-   (home-page "https://github.com/deirn/mason.el")
+   (home-page "https://github.com/mason-org/mason.el")
    (synopsis "Package managers for LSP, DAP, linters, and more")
    (description "Documentation at https://melpa.org/#/mason")
    (license #f)))
@@ -66942,14 +66942,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260406.915")
+   (version "20260408.840")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "625d48b841b98d447a12a1e9eb841c14ade90335")))
-     (sha256 (base32 "11gd91p4l9776y081z9iqcw9y9dj7z162d9fl6jr3yfjah42xmvy"))))
+           (commit "76f69d28d61cc5831399780efb0c10c29c241535")))
+     (sha256 (base32 "1dfqr3n4w7v3nqlmfr7r47jg8fdv3lspavmwz0bidnjp0ip7931p"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -68656,14 +68656,14 @@
 (define-public emacs-numbers
   (package
    (name "emacs-numbers")
-   (version "20170802.1134")
+   (version "20260408.754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/davep/numbers.el.git")
-           (commit "dd02508b788a13b7d4dbcc4923fa23134b783ab3")))
-     (sha256 (base32 "0bgha85j5f9lpk1h3siiw28v5sy6z52n7d7xi3m301r9hdlccc39"))))
+           (commit "1001bd9d935c2673de8e524d82191b0fded9a3d6")))
+     (sha256 (base32 "1j95h82swsk25lr86a9wiyrxv6ayynznhinmmj00xcjir042l2mc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/davep/numbers.el")
    (synopsis "Display information and trivia about numbers")
