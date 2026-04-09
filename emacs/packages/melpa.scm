@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260406.1055")
+   (version "20260408.1635")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "73718e228c2011b0f645ed4c6b3f2377965b1940")))
-     (sha256 (base32 "0iv8af2929mjx3hcl867dzgn8s91hsswcdlbg428bl3yjv6vg3f4"))))
+           (commit "7f106a355295d6c0fde5cd589cf566df7850463f")))
+     (sha256 (base32 "1s1v7jd39jjml9al3vmjrpigg64vy4b9x3y450bhm7gfx59jgj0s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -23484,14 +23484,14 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260404.1558")
+   (version "20260408.1450")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/easysession.el.git")
-           (commit "67c0b414b98db9db1f6f152e42823f9abf7b5fa9")))
-     (sha256 (base32 "0nl8ybg8cjd84rfzl48nzzxkxhdavw1yxj6dvaz8y7g5lamplblm"))))
+           (commit "cb6ec28e952da7a19f32a07e8729c37af6d88d20")))
+     (sha256 (base32 "1d5yvqzp4ihsxrkc4r5fjnjrlri6n5gkld079gk3nqglwgjndca7"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "extensions/easysession*.el")))
    (home-page "https://github.com/jamescherti/easysession.el")
@@ -23614,14 +23614,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260407.1145")
+   (version "20260408.2031")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "bda08541fda4ce57a97e651516829c3df7e99e26")))
-     (sha256 (base32 "0ars8v2zplz0wp70n8rmwvs80mf1wd4vw908qi1n0jqck7hh8980"))))
+           (commit "cd56d88251acc19c0c45ecd69140cc7c05a60ce4")))
+     (sha256 (base32 "0689mbby27frsnl35krffjhh5844x2vajcnkfpn1bs7m827qa9wk"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -28698,14 +28698,14 @@
 (define-public emacs-eshell-command-not-found
   (package
    (name "emacs-eshell-command-not-found")
-   (version "20260201.715")
+   (version "20260408.844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jaeyeom/eshell-command-not-found.git")
-           (commit "0efda98051747183bd54cb021f4756bdf831bd8e")))
-     (sha256 (base32 "1gxacp72pm9v9hdic9pv9iqp7kpi3x9pglfh4sa2i6dbm0ln8a56"))))
+           (commit "b50003d36f63c8520f85fcbdfb0cefa7bd170db6")))
+     (sha256 (base32 "1yqqkz1yn975x1jalfsg6x0ln9k466sdip53id4jlkh886hdjjjg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jaeyeom/eshell-command-not-found")
    (synopsis "Integrate command-not-found in eshell")
@@ -32481,14 +32481,14 @@
 (define-public emacs-fennel-mode
   (package
    (name "emacs-fennel-mode")
-   (version "20260210.2300")
+   (version "20260408.1529")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~technomancy/fennel-mode")
-           (commit "9c1dac3c39fcdbecbb9e963898cb353ec8ba6cc3")))
-     (sha256 (base32 "1gvknvprlsm7p8kbl5aawngnwvswm40zm1llx59yscycb779dp3w"))))
+           (commit "c963b4701e4668717df083c8a4591c93e6b1dc8d")))
+     (sha256 (base32 "0mdhcqns89fm2yc7j3pbaniqg3mx9gffgfj3fbnnpfwj7mf9gadc"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~technomancy/fennel-mode")
    (synopsis "A major-mode for editing Fennel code")
@@ -35294,14 +35294,14 @@
 (define-public emacs-flycheck-posframe
   (package
    (name "emacs-flycheck-posframe")
-   (version "20220715.133")
+   (version "20260409.14")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alexmurray/flycheck-posframe.git")
-           (commit "19896b922c76a0f460bf3fe8d8ebc2f9ac9028d8")))
-     (sha256 (base32 "1cdxabqmp8cijzsc3a7qbacqj11cxpimsphrpqnwk3x5y0y83nlj"))))
+           (commit "aeccb14e90ba25f45e1919b776777fc6ec95e251")))
+     (sha256 (base32 "1sqxwsy3pk0k48aiii9igqgjj7kg1sbpxr6ayhqzgps2k3wnl5v7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck emacs-posframe))
    (home-page "https://github.com/alexmurray/flycheck-posframe")
@@ -37526,14 +37526,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260316.2109")
+   (version "20260408.1922")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "f46e2be47ae89b18a0d6bb4496e60e72aa7a0df1")))
-     (sha256 (base32 "1n4am4v64s64pzxwsim67yx9p74gsr8pqi32z8rd0mkazpj1kzq0"))))
+           (commit "69801d0da19d62b4b68b1f1756900e47ce7e8769")))
+     (sha256 (base32 "10ym872n05nlkd9q1r3dl7vkbniacxm8g9159v56f9z9r6nznwyh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63049,14 +63049,14 @@
 (define-public emacs-meshmonitor-chat
   (package
    (name "emacs-meshmonitor-chat")
-   (version "20260405.1837")
+   (version "20260408.1546")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/andros/meshmonitor-chat.el.git")
-           (commit "a7653f148291f555bb6c3bb9c9997a201d28be4d")))
-     (sha256 (base32 "18hk5dynmhff6ka7a2mhmhgyak0g2gcffpc5ahblz6gvs1fy2cbz"))))
+           (commit "852cc87776130dc7cee2ae72d2d4b309cc3cc3a2")))
+     (sha256 (base32 "01wi0nxhyy4slla1j2jpqwi0cx2gkay7v1n93lp1v7kmxw91bbln"))))
    (build-system melpa-build-system)
    (home-page "https://git.andros.dev/andros/meshmonitor-chat.el")
    (synopsis "Chat client for MeshMonitor (Meshtastic)")
@@ -70857,14 +70857,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260323.752")
+   (version "20260408.1632")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "a525cf54f3000a511047b2369fb72d0ca69f9ed1")))
-     (sha256 (base32 "1h05274s89pafm8xi38h96xm280n82amcrx5vdn8179z7yjcyyvh"))))
+           (commit "00ce800600b1caa703c4974af9b3de2009863812")))
+     (sha256 (base32 "095j73sr24p2n8cihyj3im5s94qirg9dgz0x2ffwj3lb01a3blbp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -73070,14 +73070,14 @@
 (define-public emacs-org-invox
   (package
    (name "emacs-org-invox")
-   (version "20260329.1955")
+   (version "20260408.1633")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/a-manumohan/org-invox.git")
-           (commit "7b977a4ea6bba969f3643b5c74d202541e82700d")))
-     (sha256 (base32 "01ryydj61h1dz1zywjaaga1z510ib0g8zr0551gx9rdgqzp290hs"))))
+           (commit "b8eff2dd874aa9549d91c02dd287221176149a4c")))
+     (sha256 (base32 "1n7wnbif0d7my7j21kxafqzhgmkx5d0j3i2hy9rcsb3rx3bdvfn2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/a-manumohan/org-invox")
    (synopsis "Invoice management for contractors using Org mode")
@@ -85411,7 +85411,7 @@
 (define-public emacs-quiz
   (package
    (name "emacs-quiz")
-   (version "20260408.1503")
+   (version "20260408.1543")
    (source
     (origin
      (method git-fetch)
@@ -98267,14 +98267,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260405.722")
+   (version "20260408.1957")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "849feedf504ae8f48987e0cf38a3b01d7cbd4ae9")))
-     (sha256 (base32 "1hnw97jaz4sbi8xsdq5swa8dkkb36qxjkn99kj44p7x8krzfn9ci"))))
+           (commit "958824f73ddfca76b2c3234d4189ffcc1ff2cacb")))
+     (sha256 (base32 "08yc3b3d7gwicg74yb56facg9six0frlprxzc4i8dq3nm2srzrk7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
