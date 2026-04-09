@@ -30302,16 +30302,16 @@
 (define-public emacs-evil-matchit
   (package
    (name "emacs-evil-matchit")
-   (version "20251212.1256")
+   (version "20260409.413")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/redguardtoo/evil-matchit.git")
-           (commit "eb2b0c776c9d1cf3199c24473499ce4adfa44178")))
-     (sha256 (base32 "0ai2grwhkblvrl35x610rjvi1m9ydm7fysczaks3g2885l66b59h"))))
+           (commit "9eabb841be28d2e93073951fcc22f604d5df0f16")))
+     (sha256 (base32 "15dl2sfnbm1mhi6wc4k41vnic944hfgjhzgvs7jkp6rd6sxr9kih"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/redguardtoo/evil-matchit")
+   (home-page "https://github.com/redguardtoo/evil-matchit")
    (synopsis "Vim matchit ported to Evil")
    (description "Documentation at https://melpa.org/#/evil-matchit")
    (license #f)))
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260408.1039")
+   (version "20260409.645")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "907da53e0f4feb8f1ca766552a09fe54f2bfaa1d")))
-     (sha256 (base32 "0kw3xlf4sy4wn7bavndl8lmqiybm2cmrciz6in05bkd5xv7haiir"))))
+           (commit "63f555043865b0cd6487deedf9bed895620e6db6")))
+     (sha256 (base32 "1ivnbwdjljbyigkd5nk883sfxqvyvzwwqmq2b0ngcmclylcqz7r7"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -67173,14 +67173,14 @@
 (define-public emacs-nethack
   (package
    (name "emacs-nethack")
-   (version "20260210.119")
+   (version "20260409.654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Feyorsh/nethack-el.git")
-           (commit "dfd8b26bac48b8c59d8bddf79eb9721ad06f98c6")))
-     (sha256 (base32 "0n0ivks7zlqfanzn0yfb5rikaw3br4mxz2h2dc86xfyzcjprnh9y"))))
+           (commit "d1688d8d4c0a9cc5ffa7f880138f9fb09d205e64")))
+     (sha256 (base32 "0f5i1gnv8cd3cxc10y7rjwrxxw6fr7cw6gvs8n4sqjsir6pxwz5w"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("nethack*.el" "enh-*.patch")))
    (home-page "https://github.com/Feyorsh/nethack-el")
@@ -92391,14 +92391,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260403.948")
+   (version "20260409.549")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "8fa0f2b05e9e7cc9c2d0f7a5b57c852fd22dd25f")))
-     (sha256 (base32 "08nv2adg3ymhf9v5wxxyzz7v5cj5cq2z70zqsda8vdhjfhb8hrac"))))
+           (commit "24561169f554a7df080f4b18909957834838ee28")))
+     (sha256 (base32 "0gfdjqbx1mb5hq4hgl6dppz1ig775zvs1ywvl0rri9x2c8j1m9j2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
