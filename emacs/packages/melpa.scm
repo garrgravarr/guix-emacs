@@ -30302,14 +30302,14 @@
 (define-public emacs-evil-matchit
   (package
    (name "emacs-evil-matchit")
-   (version "20260409.413")
+   (version "20260409.936")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/redguardtoo/evil-matchit.git")
-           (commit "9eabb841be28d2e93073951fcc22f604d5df0f16")))
-     (sha256 (base32 "15dl2sfnbm1mhi6wc4k41vnic944hfgjhzgvs7jkp6rd6sxr9kih"))))
+           (commit "751e74ce2e29c3f32b30e6a1012a33fe81ba0700")))
+     (sha256 (base32 "12j1kqd1mr6rn7k9ms4s8x2wah5g4w7hs121q8dly2gfkdy2w11a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/redguardtoo/evil-matchit")
    (synopsis "Vim matchit ported to Evil")
@@ -31993,14 +31993,14 @@
 (define-public emacs-faff-theme
   (package
    (name "emacs-faff-theme")
-   (version "20260328.107")
+   (version "20260409.1306")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
-           (commit "a9f3c21092ee6455b03adbbe64ee696268c293f6")))
-     (sha256 (base32 "0slhrk4zag3cafzfj5j1xs450kbapf99yrmgkpscd8jqsbhdzidw"))))
+           (commit "671a6f8350c75fd0b6c68d275db2fde705cb4ecd")))
+     (sha256 (base32 "1xmcpvmvg7135wdfvy1wyrpkkkni2pncp5ivl60z2plb2l3mf976"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/WJCFerguson/emacs-faff-theme")
    (synopsis "Light Emacs color theme on cornsilk3 background")
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260409.645")
+   (version "20260409.1211")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "63f555043865b0cd6487deedf9bed895620e6db6")))
-     (sha256 (base32 "1ivnbwdjljbyigkd5nk883sfxqvyvzwwqmq2b0ngcmclylcqz7r7"))))
+           (commit "698d9f50a54283d8413cad2dc2594e2fb0725f15")))
+     (sha256 (base32 "0agc79h1xdw06wyzjcchay54wdyrnqr8ykav09dr6i3a5mvdrc8h"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -42257,14 +42257,14 @@
 (define-public emacs-gptel-agent
   (package
    (name "emacs-gptel-agent")
-   (version "20260408.541")
+   (version "20260409.653")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-agent.git")
-           (commit "b90d59531783ed18fd91da0c14d053bc3e0e8df7")))
-     (sha256 (base32 "0vm6z5mpgbvkj0zk5b8d4jl7bzl66g1dz97am59npaxq6kp6nq79"))))
+           (commit "90aaaede809fa32167507032cddf1fbe769dcd7d")))
+     (sha256 (base32 "1a6c1rsgndvm1hdkc0107ai57bq2049ia2xi8hpvdik5pkfa0p0y"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-gptel emacs-yaml emacs-orderless))
@@ -49070,54 +49070,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260405.643")
+   (version "20260409.323")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "f7dc4065bf6869454152e8e09adf0391de5af00e")))
-     (sha256 (base32 "0l4g7v0qypiinjpp0p542l32k2klj356xhcfyn5pqivi3v8pswyr"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "15wm8pjg6msgrdkxwrabngzmlz2hs1p0b5ca1lz54ci9n3pmnpnr"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -60662,14 +60624,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260408.646")
+   (version "20260409.857")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "073b01e83405031da1ed55b45cb6b649a3cfb228")))
-     (sha256 (base32 "0wkrsfgwgnkvd17zmmi0ppp9qk2sf4dx6d46z3dabmb2jmk3dprn"))))
+           (commit "098e6a02f18d0bee27eab0ad9e3c18a49b18d63d")))
+     (sha256 (base32 "1dg29vnvhdxh9v3krr8hi1s98hn26hyn8hzpyj3fnqfiv5k3adiw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63049,14 +63011,14 @@
 (define-public emacs-meshmonitor-chat
   (package
    (name "emacs-meshmonitor-chat")
-   (version "20260408.1546")
+   (version "20260409.802")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/andros/meshmonitor-chat.el.git")
-           (commit "852cc87776130dc7cee2ae72d2d4b309cc3cc3a2")))
-     (sha256 (base32 "01wi0nxhyy4slla1j2jpqwi0cx2gkay7v1n93lp1v7kmxw91bbln"))))
+           (commit "862d8fed090dde4db19105afcc29199b3aa38cf0")))
+     (sha256 (base32 "1rncjj6l31v6q4dhpngsarm31ifmnd6gsrdkaqpkp4y7qrspy0vd"))))
    (build-system melpa-build-system)
    (home-page "https://git.andros.dev/andros/meshmonitor-chat.el")
    (synopsis "Chat client for MeshMonitor (Meshtastic)")
@@ -67173,7 +67135,7 @@
 (define-public emacs-nethack
   (package
    (name "emacs-nethack")
-   (version "20260409.654")
+   (version "20260409.735")
    (source
     (origin
      (method git-fetch)
@@ -92391,14 +92353,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260409.549")
+   (version "20260409.1122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "24561169f554a7df080f4b18909957834838ee28")))
-     (sha256 (base32 "0gfdjqbx1mb5hq4hgl6dppz1ig775zvs1ywvl0rri9x2c8j1m9j2"))))
+           (commit "dd3883222a4e214e82323bb091587aa48750ce71")))
+     (sha256 (base32 "1qvg5alykhrsx7j69m69h87f6pyi00c2v1v6wk6pcw5sn37mh6j4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
