@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260406.1448")
+   (version "20260409.1646")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "241f289bd835548e7433ebb13aed2c32fd227533")))
-     (sha256 (base32 "1xm5wd5qz17xqnki77dddjw33319cg1b9278f2j6vy8455l9ffww"))))
+           (commit "a15f64f697604818a3c769a6034dde8d13f6f89d")))
+     (sha256 (base32 "1p9dhg7q16ynsyvx2f2c14b37cvi59hrvj9sc7c664zv7vmf60br"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -8617,14 +8617,14 @@
 (define-public emacs-buttercup
   (package
    (name "emacs-buttercup")
-   (version "20250801.1")
+   (version "20260409.2354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
-           (commit "cc5a2ab7c7f18aaaf525fac61fe59bae5ad018dd")))
-     (sha256 (base32 "09n8skr5wi8bs7x81d5bi6z89dd8s1zi9a5f4r2qadaz69slncxq"))))
+           (commit "7baf9e5a60f201542309238d77aa6bb35bd77ec0")))
+     (sha256 (base32 "0gvxlwhzz8ghfhx47n10k57jdaawjmnfwiywdp5m4jhxzn9i4sg2"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "bin")))
    (home-page "https://github.com/jorgenschaefer/emacs-buttercup")
@@ -23614,14 +23614,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260408.2031")
+   (version "20260409.1748")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "cd56d88251acc19c0c45ecd69140cc7c05a60ce4")))
-     (sha256 (base32 "0689mbby27frsnl35krffjhh5844x2vajcnkfpn1bs7m827qa9wk"))))
+           (commit "f5e969303cefd7d988ebf6f291243c8516455fa3")))
+     (sha256 (base32 "1dsxismldnq1iazyfzlqncjzh78r3wgv7nbjkb0hva3zy1gfpnj2"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -26048,14 +26048,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260223.2029")
+   (version "20260410.54")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "c9cf0ae36cac6d4a65bafb8f947e3195e2e2f5fd")))
-     (sha256 (base32 "13jnaxz4w2n4agyz5rg8jq35qs57arl06mib4lgx4z9q3vwvqd2z"))))
+           (commit "de68b25318a1eef629f4aad677dc7dd6fe446c2e")))
+     (sha256 (base32 "0nk7c47qqm2w00c6cmlw6fv23qsfhg7fqb303fv5a9avdl47mnvh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -62143,14 +62143,14 @@
 (define-public emacs-mason
   (package
    (name "emacs-mason")
-   (version "20260408.818")
+   (version "20260409.1744")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/deirn/mason.el.git")
-           (commit "f0ecc3b61b7286e0e54e2059099aa23ae3fcabf9")))
-     (sha256 (base32 "042icd8v4zcc1gq8h0yrn95k0zp2wkmy05f14m20kwc4d265y90a"))))
+           (commit "3ac674a7880dd6432f83e249bfd6fea8cf6fc974")))
+     (sha256 (base32 "0mslpkdxlkvzvn0av5vdjgi4w39jp07nr7ki1ni7pialrf3qdfg9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s))
    (home-page "https://github.com/mason-org/mason.el")
@@ -70819,14 +70819,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260408.1632")
+   (version "20260409.1658")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "00ce800600b1caa703c4974af9b3de2009863812")))
-     (sha256 (base32 "095j73sr24p2n8cihyj3im5s94qirg9dgz0x2ffwj3lb01a3blbp"))))
+           (commit "6cd8a5842f1f81387e9866d4fdaf9dad1f651ee7")))
+     (sha256 (base32 "1s4vaxsm4vlz1ykll0r025cdndm5v5qksxd60p4dg1qj041a039x"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -98229,14 +98229,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260408.1957")
+   (version "20260409.1708")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "958824f73ddfca76b2c3234d4189ffcc1ff2cacb")))
-     (sha256 (base32 "08yc3b3d7gwicg74yb56facg9six0frlprxzc4i8dq3nm2srzrk7"))))
+           (commit "59e919e65ef123fd26c937a9bbba1aaf80b96458")))
+     (sha256 (base32 "1rbhkvhmnzb2fsgjia6x37x661l7gpmz2bv2pah4952q58vlvx7p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
