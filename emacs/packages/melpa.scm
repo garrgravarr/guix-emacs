@@ -8082,24 +8082,6 @@
    (description "Documentation at https://melpa.org/#/bubbleberry-theme")
    (license #f)))
 
-(define-public emacs-buck
-  (package
-   (name "emacs-buck")
-   (version "20250620.1333")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/emacsattic/buck.git")
-           (commit "3b6bd10ad5e7e6bf1ec36dce55b2b77545ec73e2")))
-     (sha256 (base32 "0dlsrd2kfavvzhdvkjs1j80iaqwjxh4q2ppvihyabli14arjv4k1"))))
-   (build-system melpa-build-system)
-   (propagated-inputs (list emacs-ghub))
-   (home-page "https://github.com/emacsattic/buck")
-   (synopsis "Client library for the Bitbucket API")
-   (description "Documentation at https://melpa.org/#/buck")
-   (license #f)))
-
 (define-public emacs-buckwalter
   (package
    (name "emacs-buckwalter")
@@ -22009,14 +21991,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260410.332")
+   (version "20260411.1454")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "2e70c8411be374ce6e29d06da7103e51982191e8")))
-     (sha256 (base32 "09p6ar68dvi07k6i6firz0xgkks28f15xn7l7jsq8pfh8kfdxpvd"))))
+           (commit "870b4b215fda881d29278d81bbab7f934a9bd8b3")))
+     (sha256 (base32 "15m4c6bafc742cm3mwq9x889c3s96minp6957ipbxyd6qaxzfjly"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -29591,24 +29573,6 @@
    (description "Documentation at https://melpa.org/#/eve-mode")
    (license #f)))
 
-(define-public emacs-evedel
-  (package
-   (name "emacs-evedel")
-   (version "20250303.1213")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/daedsidog/evedel.git")
-           (commit "d979801f5f496ff20aebf4c3343bffcd0e0d3a0b")))
-     (sha256 (base32 "0y6q45rzs7sl6gjpvxd8kgg550my2jjg4kmvhj63kvvhxrixv4p3"))))
-   (build-system melpa-build-system)
-   (propagated-inputs (list emacs-gptel))
-   (home-page "https://github.com/daedsidog/evedel")
-   (synopsis "Instructed LLM programmer/assistant")
-   (description "Documentation at https://melpa.org/#/evedel")
-   (license #f)))
-
 (define-public emacs-evenok
   (package
    (name "emacs-evenok")
@@ -32235,14 +32199,14 @@
 (define-public emacs-fastbuild-bff-mode
   (package
    (name "emacs-fastbuild-bff-mode")
-   (version "20260410.1628")
+   (version "20260411.905")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cyberkm/fastbuild-bff-mode.git")
-           (commit "cb8cee21c9352d8df1ebef012eb606765a8023a1")))
-     (sha256 (base32 "0w150l6cxb1xv59c36m9y0v9wras6i6m8nz8b5i53gzdffbcbafa"))))
+           (commit "fa3ea52a7542b3110d0320ba4c48ed5cbfde100b")))
+     (sha256 (base32 "0iqqivlvfw4123k630h3xwhxawhvpy72y3kfvz8xfsf8r9z20sir"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/cyberkm/fastbuild-bff-mode")
    (synopsis "Major mode for FASTBuild BFF files")
@@ -38201,14 +38165,14 @@
 (define-public emacs-fsharp-ts-mode
   (package
    (name "emacs-fsharp-ts-mode")
-   (version "20260330.1735")
+   (version "20260411.1139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/fsharp-ts-mode.git")
-           (commit "3817559f052e9693b34efbe02d6650db0ede1b74")))
-     (sha256 (base32 "0hjvcqqf3vgmdwrwbzkfdxqgk2517kmmw4ismr97l2a5046byncf"))))
+           (commit "aa729524a7dcd978f726fc9742bbc5dccd18afe0")))
+     (sha256 (base32 "0v20iimw2lyw5n0szwkgw315dz4gs733kq6xr34p9yzrhxp4lvra"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/fsharp-ts-mode")
    (synopsis "Major mode for F# code")
@@ -38740,14 +38704,14 @@
 (define-public emacs-gdscript-mode
   (package
    (name "emacs-gdscript-mode")
-   (version "20260407.556")
+   (version "20260411.1458")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/godotengine/emacs-gdscript-mode.git")
-           (commit "70f72091438aa7de3a987b231f26a68afe81a20c")))
-     (sha256 (base32 "1b0m4z298a3a0zb3mwrf8zzqhqi977kh8ki2yvrs1j13s8p0ynfm"))))
+           (commit "a0d4b0a11a50b9cfeaf013e8855b6c636e914065")))
+     (sha256 (base32 "1hhj7wbvni9ww3gi6bzr1qhnfhvjqb63zfpnx476vsljcs5p05lj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/godotengine/emacs-gdscript-mode/")
    (synopsis "Major mode for Godot's GDScript language")
@@ -39035,14 +38999,14 @@
 (define-public emacs-geiser-stklos
   (package
    (name "emacs-geiser-stklos")
-   (version "20231004.2013")
+   (version "20260411.1308")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/emacs-geiser/stklos.git")
-           (commit "efdac7298e3a64f1138e3949b3312f491f2c706a")))
-     (sha256 (base32 "0n9fajxshq1hybhar5i0skir0bvrfjsw8sxvzfhrg1mkv6f39k8m"))))
+           (commit "eb8f6d53ec5c4520c590572182f66efa51faf74c")))
+     (sha256 (base32 "1g3fq9qf1xgsmlgbkgmpdc3679vz1hxqbzxqs4wlrfq2a2fx2q2g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-geiser))
    (arguments '(#:files (:defaults "geiser.stk")))
@@ -39423,14 +39387,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260410.634")
+   (version "20260411.917")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "ae06f8ea13047c81ca568529c051bf6a6655daca")))
-     (sha256 (base32 "059irggkldbm0ambg2d4sq1ki4v0x254j96vsj3449mmrys67ypl"))))
+           (commit "c851d4878ff8ad22772ecb8055b04477f0bfe6be")))
+     (sha256 (base32 "00rw3wlx962f0wq949j30j2n70mkx44kwkqx2lmv0rf7hcxq4hdv"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -43128,24 +43092,6 @@
    (home-page "https://github.com/thndrbrrr/gtasks")
    (synopsis "Google Tasks API (sync)")
    (description "Documentation at https://melpa.org/#/gtasks")
-   (license #f)))
-
-(define-public emacs-gtea
-  (package
-   (name "emacs-gtea")
-   (version "20250620.1334")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/emacsattic/gtea.git")
-           (commit "942988625b6ff01c958a16899ad7f7113e4b324b")))
-     (sha256 (base32 "0f90wgp13w1jzqs3iq5yjy6h0wjw72czs5lvjjg20a1rsd4fykcc"))))
-   (build-system melpa-build-system)
-   (propagated-inputs (list emacs-ghub))
-   (home-page "https://github.com/emacsattic/gtea")
-   (synopsis "Client library for the Gitea API")
-   (description "Documentation at https://melpa.org/#/gtea")
    (license #f)))
 
 (define-public emacs-gtk-pomodoro-indicator
@@ -60624,14 +60570,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260409.857")
+   (version "20260411.1452")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "098e6a02f18d0bee27eab0ad9e3c18a49b18d63d")))
-     (sha256 (base32 "1dg29vnvhdxh9v3krr8hi1s98hn26hyn8hzpyj3fnqfiv5k3adiw"))))
+           (commit "68cfa77319b6935773b4882f92e092024eb8b8f8")))
+     (sha256 (base32 "1nf3agmh8a7dqq1p2j3q1rhi2csiyr6p80w7wvcg6y1dxm5dnxck"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -70819,14 +70765,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260410.1531")
+   (version "20260411.902")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "be6830dc40e056cb3f9ada617396a35664e0bc03")))
-     (sha256 (base32 "056049bwflfm620rxf7k0jhigzi7v4f7pnhchsyazqa82pml77zv"))))
+           (commit "17e5c6f8b2b341b4afcb3d6158202469df95fe79")))
+     (sha256 (base32 "19jks4wwa1zd4ykgyx6a0rzhdwm92sav9nxn7w8569vlcawmawfb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -76020,14 +75966,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260330.745")
+   (version "20260408.1552")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "7a60cba3f26681c4c57ebb79593ff9a8d587db5c")))
-     (sha256 (base32 "10cc88wrxvlrh48q2sla1zlwaqxcrc0s6nkrxx37kgirdg6wiz6h"))))
+           (commit "ee0112c8b2061183199551af92ec8706edcb1efa")))
+     (sha256 (base32 "079j8cvklbg428pqhl297nbzzkx5jnra4mj3yvnpb2q9z76ckjqd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -89798,14 +89744,14 @@
 (define-public emacs-scihub
   (package
    (name "emacs-scihub")
-   (version "20250104.420")
+   (version "20260131.420")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-pe/scihub.el.git")
-           (commit "899d9144f7f88925a48257dfee28988628df084d")))
-     (sha256 (base32 "16vz0i0zfv6fap8dff7fy2x84rmw33kmqabr99c7x92qyjl66g95"))))
+           (commit "9bbc142be1dceff6705120017b75eeac3671cb36")))
+     (sha256 (base32 "0ldhch4chnn0dc5g2j3yff1id345pmlgdkn65fp5g2fc120yzlb4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacs-pe/scihub.el")
    (synopsis "Sci-Hub integration")
@@ -90357,14 +90303,14 @@
 (define-public emacs-sekka
   (package
    (name "emacs-sekka")
-   (version "20260411.606")
+   (version "20260411.1026")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/sekka.git")
-           (commit "a185387fca8f03ca06d4fbfce86457f6ede42b49")))
-     (sha256 (base32 "0nf895mmibpsmq650mqzi8cf4sfahr3vadm9j1xnf0rzv1v8f20h"))))
+           (commit "a992fe30681e14e5d3419e42e5c9f2042ac88d97")))
+     (sha256 (base32 "1kp77ksx69dz6nazv9i1r30svnr7bhbzgfra6k3sz7v611liihxj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-popup))
    (arguments '(#:files ("emacs/sekka.el")))
@@ -97268,14 +97214,14 @@
 (define-public emacs-symon
   (package
    (name "emacs-symon")
-   (version "20260301.1008")
+   (version "20260411.1454")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zk-phi/symon.git")
-           (commit "0d580532853999c7f6caa6de8c7acac4c151f340")))
-     (sha256 (base32 "1bqwacn8hhjr9lmsz1sq6min9qrc9zcmbjj9mmgsm0a39ifszhwk"))))
+           (commit "294668d63da642276a0003cb4e9d6f8b40a13788")))
+     (sha256 (base32 "0k9rhhmqhv2i38bms9vlagkjw8cb6y5lmjw8yw45z7zkj03bdwpw"))))
    (build-system melpa-build-system)
    (home-page "http://zk-phi.github.io/")
    (synopsis "Tiny graphical system monitor")
@@ -102883,14 +102829,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260407.1917")
+   (version "20260411.1423")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "be9f828997049c1a3bc5851e1e04f6b90a64555a")))
-     (sha256 (base32 "11rph2f7npyq1dpc6sikpj5ipf7ci6k0xj2kj86k1nadvci0iv4q"))))
+           (commit "14a0949539679e89f706601a501ae8a8d090c71f")))
+     (sha256 (base32 "1fcqr4q5dc9kfzqp6b9wfqma4qbb6dmjia639wfgdj3xqxa8ygl7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
