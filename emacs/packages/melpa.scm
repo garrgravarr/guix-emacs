@@ -9499,14 +9499,14 @@
 (define-public emacs-casual
   (package
    (name "emacs-casual")
-   (version "20260406.2338")
+   (version "20260410.2336")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/casual.git")
-           (commit "81e032d24c46159cc98ec5248e48ee3659025ad0")))
-     (sha256 (base32 "1hcpjb33mzqhwkzcsad1nkfp1gr4jd226l8x1fglaynz0a4dkad8"))))
+           (commit "d646190d565cb678db762fcc3663703616327bb7")))
+     (sha256 (base32 "1pqxm9haks2b26w00304cjnvsz87gpqk84wpvv2i8f1h2gp2fbj3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-csv-mode))
    (arguments '(#:files (:defaults "docs/images")))
@@ -22760,14 +22760,14 @@
 (define-public emacs-dune
   (package
    (name "emacs-dune")
-   (version "20260401.1726")
+   (version "20260120.2128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml/dune.git")
-           (commit "e2a7dbfd619f518d08da9bd1d91791e6a104fe08")))
-     (sha256 (base32 "14rh9skz596ym3h4lmj58b5casr7a747mn93vvf6swwfxzilsr3v"))))
+           (commit "e2a017565ca612c7fe79ec620a0c3e505d7c558f")))
+     (sha256 (base32 "0jqiq2akg58f1848cl0p542mh919ayf08wq5v8kjqhmm7xypv13z"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editor-integration/emacs/*.el")))
    (home-page "https://github.com/ocaml/dune")
@@ -27340,14 +27340,14 @@
 (define-public emacs-empv
   (package
    (name "emacs-empv")
-   (version "20260406.1740")
+   (version "20260410.1754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/empv.el.git")
-           (commit "579d9d3802ad449724db7649b90cf3593be92a75")))
-     (sha256 (base32 "02bwpskklk3wpq3h0y6xzii34qkxfmbgv1wrg8yw2blq1kaghpqc"))))
+           (commit "61cc54f8a506b708285a3f7a3fb299616d0fab02")))
+     (sha256 (base32 "1r6hchdchfpici44dynxa0ivhmmc3hrj1qdvgjvaysqymn1hbz1y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-compat))
    (home-page "https://github.com/isamert/empv.el")
@@ -43203,14 +43203,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260410.838")
+   (version "20260410.2335")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "384b4350270931f0fea2e625186a6408e7b47e71")))
-     (sha256 (base32 "0fc030rhcs51qm00j80sks9jfq9yp7s0c3yhjbmxifss4kvpl0b6"))))
+           (commit "a3d6fd622090af30f4f8e22a828cf89578a7a19a")))
+     (sha256 (base32 "1s14cr8768rq2yqx4b657gjralx2k3z7kr3mk1x9bm2xp7jff2ns"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -56450,14 +56450,14 @@
 (define-public emacs-lab
   (package
    (name "emacs-lab")
-   (version "20260405.124")
+   (version "20260410.1805")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/lab.el.git")
-           (commit "953e899dee5a720e7edd94eaeb2a928fef881e0e")))
-     (sha256 (base32 "03cr31cg5lw30929v6rpcchgplp79v1ppqrd4fglbj84yc0i18q9"))))
+           (commit "aa3af6f8e2eb16edac2b680ecddf4823f94287de")))
+     (sha256 (base32 "12xb18ssn5zf9gy2px2x6mnbjh9bny1rf7kldlvv84s86iiqzxpl"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-request
@@ -64475,14 +64475,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260410.1158")
+   (version "20260410.2044")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "0217c0dde5a060dfd48318a70814687062e4ce3a")))
-     (sha256 (base32 "0czq6vqaf2pqmjsg4c0vhij3s9jyajpl16irvhr4v2fx6f6di8ja"))))
+           (commit "8635304365b6f9b2099ca28036798ac510225d36")))
+     (sha256 (base32 "0bj790qa7j05dzwi47cdi6pfy23k9myl3m5p0020kjbjvqf1yj21"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -70819,7 +70819,7 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260410.950")
+   (version "20260410.1531")
    (source
     (origin
      (method git-fetch)
@@ -84781,14 +84781,14 @@
 (define-public emacs-python-mode
   (package
    (name "emacs-python-mode")
-   (version "20260131.1655")
+   (version "20260410.1849")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/python-mode-devs/python-mode.git")
-           (commit "2a6fdb1c823bf8125f6354727db63c8894092821")))
-     (sha256 (base32 "07bpqfg11xrcsmbqmchgm77gi8ljgnn3wfajd4wbfh3w65yfcfdi"))))
+           (commit "c6f7bcd79d43b2a4915b75c481355601f95968a0")))
+     (sha256 (base32 "09hhiwsk08c34h8v98q1s4g09byvj3r1dn18agl4x1v2528fiszk"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files ("python-mode.el" ("completion" "completion/pycomplete.*"))))
@@ -92353,14 +92353,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260409.1122")
+   (version "20260410.1751")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "dd3883222a4e214e82323bb091587aa48750ce71")))
-     (sha256 (base32 "1qvg5alykhrsx7j69m69h87f6pyi00c2v1v6wk6pcw5sn37mh6j4"))))
+           (commit "c67d01ee219e96644c6b97cde04fa84346ed726b")))
+     (sha256 (base32 "1lwzng0p986acn5pjlgy0w3c1wpknga37lfiydbkrgyssyzak3wc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -98229,14 +98229,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260409.1708")
+   (version "20260410.1951")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "59e919e65ef123fd26c937a9bbba1aaf80b96458")))
-     (sha256 (base32 "1rbhkvhmnzb2fsgjia6x37x661l7gpmz2bv2pah4952q58vlvx7p"))))
+           (commit "93b16e46c26fc81e1fb02b6c4c7ef7bbdd3dd5a2")))
+     (sha256 (base32 "15s719ck6p7jik6k44dw7fbh2a2cg9jbc1y77xjg6swr5gcffc33"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
