@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260410.1636")
+   (version "20260411.356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "7f3f558eb81b724f4f1f0a6bc59a699f4aa890a5")))
-     (sha256 (base32 "1w9swqy7yqx7dlcs3yf54v43flsmzrq222dqlwc9rq88rf1q8mql"))))
+           (commit "a91b0a4c68071d7f43ce2f4be53f3eade6e65493")))
+     (sha256 (base32 "1qwdblab2lzwgznrl1sz3vzdhi9kvjiqv40xg05pfx35r4zv36fk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -27340,7 +27340,7 @@
 (define-public emacs-empv
   (package
    (name "emacs-empv")
-   (version "20260410.1754")
+   (version "20260411.207")
    (source
     (origin
      (method git-fetch)
@@ -42257,14 +42257,14 @@
 (define-public emacs-gptel-agent
   (package
    (name "emacs-gptel-agent")
-   (version "20260409.653")
+   (version "20260411.214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-agent.git")
-           (commit "90aaaede809fa32167507032cddf1fbe769dcd7d")))
-     (sha256 (base32 "1a6c1rsgndvm1hdkc0107ai57bq2049ia2xi8hpvdik5pkfa0p0y"))))
+           (commit "1811b991552e6b24f67c5af369ebb361995518b3")))
+     (sha256 (base32 "13wqwa92khqpkcxx9bkxkddhfrgjf9slqsngcpryq08q9wzhzjd8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-gptel emacs-yaml emacs-orderless))
@@ -44792,14 +44792,14 @@
 (define-public emacs-helm-core
   (package
    (name "emacs-helm-core")
-   (version "20260201.507")
+   (version "20260411.415")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm.git")
-           (commit "dcaa8fb45d4f7d08390d80351a4204f848f2ec90")))
-     (sha256 (base32 "1hiawmmqg1yvfi1mzjynjbjq2hs2xflzs40a84yk863hzbj056fd"))))
+           (commit "7a77755b99a38f209f5d77d5836a61ff3326bd9b")))
+     (sha256 (base32 "1c8nl74qlhz7cnv997h4cjbh1p7674ygqkn2izglp50vk6m26ay8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (arguments
@@ -46924,14 +46924,14 @@
 (define-public emacs-helm-system-packages
   (package
    (name "emacs-helm-system-packages")
-   (version "20260404.605")
+   (version "20260411.501")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm-system-packages.git")
-           (commit "85372333d09dbf21a68ab982a3fba299461eeb9e")))
-     (sha256 (base32 "0gx075q2gpvf0z8f5pbhxv3nxwk5hal0kyjaz1lqf0827vxdzkqv"))))
+           (commit "ca29a21bb9177ebdb3f0d81a22b80d747d916335")))
+     (sha256 (base32 "138699l123yad0i88f2khvwxnz0i7xs7yx95zpjxv8xgsxagzmx5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm))
    (home-page "https://github.com/emacs-helm/helm-system-packages")
@@ -90357,19 +90357,19 @@
 (define-public emacs-sekka
   (package
    (name "emacs-sekka")
-   (version "20170803.1247")
+   (version "20260411.606")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/sekka.git")
-           (commit "69a7ed5b78cf01b543b0280e5aa6907b2e827c37")))
-     (sha256 (base32 "1bz7prvhv18p1wz2d2yisnpjig1hsliszg57ainnqrckqvcygn4j"))))
+           (commit "a185387fca8f03ca06d4fbfce86457f6ede42b49")))
+     (sha256 (base32 "0nf895mmibpsmq650mqzi8cf4sfahr3vadm9j1xnf0rzv1v8f20h"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-concurrent emacs-popup))
+   (propagated-inputs (list emacs-popup))
    (arguments '(#:files ("emacs/sekka.el")))
    (home-page "https://github.com/kiyoka/sekka")
-   (synopsis "A client for Sekka IME server")
+   (synopsis "Pure Elisp Japanese IME inspired by SKK")
    (description "Documentation at https://melpa.org/#/sekka")
    (license #f)))
 
@@ -94844,14 +94844,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20260306.122")
+   (version "20260411.126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "65773b1b0b96c8c35d068da08dd68d6839bbb076")))
-     (sha256 (base32 "12k7gci3vn84wxnpjlz5628nyvg5dxj14808k3yxxzv5p1vg3gz7"))))
+           (commit "3d97417424e3e6b69da340e4b10d4c5f61ebacf5")))
+     (sha256 (base32 "07winp22rf9a77j9nga9spvsvi08i58m6pq94ppi09r3wr8yw3rl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
