@@ -8599,14 +8599,14 @@
 (define-public emacs-buttercup
   (package
    (name "emacs-buttercup")
-   (version "20260409.2354")
+   (version "20260411.2019")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
-           (commit "7baf9e5a60f201542309238d77aa6bb35bd77ec0")))
-     (sha256 (base32 "0gvxlwhzz8ghfhx47n10k57jdaawjmnfwiywdp5m4jhxzn9i4sg2"))))
+           (commit "a37d38e98af0a3518ae14bc848eb1539b36c596a")))
+     (sha256 (base32 "0f00jv8jap17y2pbqcsmfzrj4nz2xvk0p8x70bkp768qiap2v812"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "bin")))
    (home-page "https://github.com/jorgenschaefer/emacs-buttercup")
@@ -38704,14 +38704,14 @@
 (define-public emacs-gdscript-mode
   (package
    (name "emacs-gdscript-mode")
-   (version "20260411.1458")
+   (version "20260411.1905")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/godotengine/emacs-gdscript-mode.git")
-           (commit "a0d4b0a11a50b9cfeaf013e8855b6c636e914065")))
-     (sha256 (base32 "1hhj7wbvni9ww3gi6bzr1qhnfhvjqb63zfpnx476vsljcs5p05lj"))))
+           (commit "9f3d722063fbb3048dfeb9eb4fa4d8e471e0b2ea")))
+     (sha256 (base32 "18amhgzs5sv0i7aw52arqjgzmhmj591j2bk2ikqhd8ic7kjk0x0z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/godotengine/emacs-gdscript-mode/")
    (synopsis "Major mode for Godot's GDScript language")
@@ -39387,14 +39387,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260411.917")
+   (version "20260411.2046")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "c851d4878ff8ad22772ecb8055b04477f0bfe6be")))
-     (sha256 (base32 "00rw3wlx962f0wq949j30j2n70mkx44kwkqx2lmv0rf7hcxq4hdv"))))
+           (commit "cc48ae34365feac56e014409bc99bf975bb1a80e")))
+     (sha256 (base32 "0rr0q905f37r2clmvmzzw7bjdgilhcwn3b8zxp74dmx94aiqcqhi"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -39898,16 +39898,16 @@
 (define-public emacs-git-link
   (package
    (name "emacs-git-link")
-   (version "20251116.105")
+   (version "20260411.1730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sshaw/git-link.git")
-           (commit "12caebc0982d3401a0b74ccddc2d5a651122de8a")))
-     (sha256 (base32 "14nmiybixnn3cvvdyp0b7yimhqmj41q3g0c6nz0x4lwjfhl5w7nc"))))
+           (commit "b651de43236276cdb18ec7727f645cbf6743a499")))
+     (sha256 (base32 "1zpws6z5v54g94jnsw78k42apxpffg54dlkm5i8gclsaxhn6xpdg"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/sshaw/git-link")
+   (home-page "https://github.com/sshaw/git-link")
    (synopsis "Get the GitHub/Bitbucket/GitLab URL for a buffer location")
    (description "Documentation at https://melpa.org/#/git-link")
    (license #f)))
@@ -42221,14 +42221,14 @@
 (define-public emacs-gptel-agent
   (package
    (name "emacs-gptel-agent")
-   (version "20260411.214")
+   (version "20260411.2204")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-agent.git")
-           (commit "1811b991552e6b24f67c5af369ebb361995518b3")))
-     (sha256 (base32 "13wqwa92khqpkcxx9bkxkddhfrgjf9slqsngcpryq08q9wzhzjd8"))))
+           (commit "54126e3a92b345e68de2c481ebed6fdd2656a8df")))
+     (sha256 (base32 "0zmfqjsv660vank4872121fxfaqim7x6cr7n0yrp5bk2hmbpqx2x"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-gptel emacs-yaml emacs-orderless))
@@ -43149,14 +43149,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260410.2335")
+   (version "20260411.2355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "a3d6fd622090af30f4f8e22a828cf89578a7a19a")))
-     (sha256 (base32 "1s14cr8768rq2yqx4b657gjralx2k3z7kr3mk1x9bm2xp7jff2ns"))))
+           (commit "d8943ab916a43d8955ce8bb7f23ce9702065431e")))
+     (sha256 (base32 "08z45g751bxqn9x1f2g6kcbm3afjdn3ic305gcf5y6l1mdndx7fw"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -86097,14 +86097,14 @@
 (define-public emacs-realgud
   (package
    (name "emacs-realgud")
-   (version "20260407.1610")
+   (version "20260411.2216")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/realgud/realgud.git")
-           (commit "e391200705804aa035627672f5ae62d3c3113b16")))
-     (sha256 (base32 "0pn2kmplbd88cnk106dv51x9p5gc6nw61crqakk0nz0wy1rs42q9"))))
+           (commit "34a9065d1695c3b4bfbae076440397ad24bc8faf")))
+     (sha256 (base32 "1bwdmkj0imlarki09k5i1lrhk3c1rqa899zy6n8j76xpcc57jqwl"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-load-relative emacs-loc-changes emacs-test-simple))
