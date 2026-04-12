@@ -1787,14 +1787,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260411.356")
+   (version "20260412.214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "a91b0a4c68071d7f43ce2f4be53f3eade6e65493")))
-     (sha256 (base32 "1qwdblab2lzwgznrl1sz3vzdhi9kvjiqv40xg05pfx35r4zv36fk"))))
+           (commit "297188da3d4545679466d313e40eeac5f3e6a56e")))
+     (sha256 (base32 "1d5z5mrzz5ya17bxw6k1y29x2i6l0qwhsrjfrx1l2lg9s2by6xp2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -5719,14 +5719,14 @@
 (define-public emacs-base16-theme
   (package
    (name "emacs-base16-theme")
-   (version "20260308.202")
+   (version "20260412.231")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tinted-theming/base16-emacs.git")
-           (commit "bc203c6dd6de644eadda6af53d818bd04ba0d726")))
-     (sha256 (base32 "03qifq69mhn2gvskzf0pjc2p973m6aa7vkpym4rsk6l8g0rwk4la"))))
+           (commit "dc3ae1cb5b4790d72124b1bd9ac11dc6669616c3")))
+     (sha256 (base32 "09pbil60ckc9v35a0j5l3s70cmks5a99115sjx19hycdpxyp1b9i"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "build/*.el")))
    (home-page "https://github.com/tinted-theming/base16-emacs")
@@ -9111,14 +9111,14 @@
 (define-public emacs-calibredb
   (package
    (name "emacs-calibredb")
-   (version "20250913.1233")
+   (version "20260412.622")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/chenyanming/calibredb.el.git")
-           (commit "99a234167a092bc0017d11c814f0b8c0da53a107")))
-     (sha256 (base32 "0jkhaf5h2qcqz8nvw80wj0xjazdpm2l9n0d5a41p20gnz54rhkbd"))))
+           (commit "af6fc49edf72f0ebc42d9d3983ad00c268541092")))
+     (sha256 (base32 "0ba6iqhb94a3rlkbp0v3bp6pk68yp7mmxcq8hvl51543q9w88310"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-request emacs-esxml))
    (home-page "https://github.com/chenyanming/calibredb.el")
@@ -23204,16 +23204,16 @@
 (define-public emacs-eacl
   (package
    (name "emacs-eacl")
-   (version "20220526.1434")
+   (version "20260412.237")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/redguardtoo/eacl.git")
-           (commit "5e2b881d321c588fed05875819e2b749d33abe0e")))
-     (sha256 (base32 "0a0i2a5mqj9s5shb3wj3mhc2j7n0dmkqhid81cxflll9m0mkaryp"))))
+           (commit "5a304e4655a28cc817b9a633304bd64a5d5ddf53")))
+     (sha256 (base32 "145z8qv1xmx0y3g00n2jivhzi8h6zc5ai3wfijmijdam0yg377p5"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/redguardtoo/eacl")
+   (home-page "https://github.com/redguardtoo/eacl")
    (synopsis "Auto-complete lines by grepping project")
    (description "Documentation at https://melpa.org/#/eacl")
    (license #f)))
@@ -39387,14 +39387,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260411.2046")
+   (version "20260412.624")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "cc48ae34365feac56e014409bc99bf975bb1a80e")))
-     (sha256 (base32 "0rr0q905f37r2clmvmzzw7bjdgilhcwn3b8zxp74dmx94aiqcqhi"))))
+           (commit "0102ad97972761b9785ce1d59119351de3422d07")))
+     (sha256 (base32 "0v2rkw786nf81lw0y01pp529xmpdnysf4iramjs7dsyv3afnw5gs"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -66920,14 +66920,14 @@
 (define-public emacs-nerd-icons-completion
   (package
    (name "emacs-nerd-icons-completion")
-   (version "20251029.2106")
+   (version "20260412.243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons-completion.git")
-           (commit "d09ea987ed3d2cc64137234f27851594050e2b64")))
-     (sha256 (base32 "022yfkfvcywgjplvsj5xajmc24q1c7yx0l5mvnzagjfdg4iajidv"))))
+           (commit "45b585d972192a3eaeb239e15e55de7f46f8920a")))
+     (sha256 (base32 "0vipmrxmk6i1by32ygqlg3kj2qx9hdz9f8y5pp33g7qvy4vmavw6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-compat))
    (home-page "https://github.com/rainstormstudio/nerd-icons-completion")
@@ -98676,14 +98676,14 @@
 (define-public emacs-termint
   (package
    (name "emacs-termint")
-   (version "20251216.434")
+   (version "20260412.348")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/termint.el.git")
-           (commit "d70d34745499d30490c7b31d014cb544ce086533")))
-     (sha256 (base32 "04rq4a8jwacz05bh3qnpin7mmvlyy43wdh1vxq5yzpcazdd0skhj"))))
+           (commit "689549245bb6dc0429d8af06c4830c92b09f4667")))
+     (sha256 (base32 "1ggxqb9b7kv32rns9gagggmq0fsj9a8i3jkhqhfwz0c75fv05jlw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/milanglacier/termint.el")
    (synopsis "Run REPLs in a terminal backend")
