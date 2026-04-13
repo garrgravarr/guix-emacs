@@ -5916,14 +5916,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260402.1058")
+   (version "20260413.1609")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "7cf45ca39ec415373db2a86134e43aaa5fbf236b")))
-     (sha256 (base32 "1v8hs6kpnkwsxssrf8m3alhb3cknhjihg98h7xaxf55m6wi13pbc"))))
+           (commit "53f54ff2b3f8308ec616a3f923039ecd64553aa3")))
+     (sha256 (base32 "00ngqlim1kz3200gav3clcn884gdvmydfp0x2k8drwgpmnddaqw5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazelbuild/emacs-bazel-mode")
    (synopsis "Bazel support for Emacs")
@@ -6234,14 +6234,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260405.1418")
+   (version "20260413.1004")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "c090e488114fc182feb805c1a989ec2005cc3f7a")))
-     (sha256 (base32 "0g5xfxmlsqb6prrs1k04p5b9f3yky7bywhm95x3a69h853n57cs3"))))
+           (commit "671baaf881f7f13ea7e30edf54b13004bc47fa5d")))
+     (sha256 (base32 "1yb5png28scy13bqdidjn4hs5whaffbrw9xqhn24405c4l2f03xa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -23632,14 +23632,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260412.2209")
+   (version "20260413.1314")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "f0d342e0ea1234707da6bca6c8f76be8a4ca3260")))
-     (sha256 (base32 "0sv23ncv181dlr2jbsaky83zqc4y73ynl77ngs20c4xwzlqzgjh2"))))
+           (commit "1286d768b7eafda0e0b6ad8e89b35e82329d8ca2")))
+     (sha256 (base32 "0ba8alxh036z9q4waifi274vaq90am3jly1wlkalrk17f8bxw0pp"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -31993,17 +31993,17 @@
 (define-public emacs-faff-theme
   (package
    (name "emacs-faff-theme")
-   (version "20260409.1306")
+   (version "20260413.1507")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
-           (commit "671a6f8350c75fd0b6c68d275db2fde705cb4ecd")))
-     (sha256 (base32 "1xmcpvmvg7135wdfvy1wyrpkkkni2pncp5ivl60z2plb2l3mf976"))))
+           (commit "8f976f810e6f23d2afaaa13f53e11d73e941cbcf")))
+     (sha256 (base32 "1083ias5bk17vcvpa4xrnpps6r1v46xnzy2b2x0azin0vj9pvc65"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/WJCFerguson/emacs-faff-theme")
-   (synopsis "Light Emacs color theme on cornsilk3 background")
+   (synopsis "Light cornsilk theme with warm, earthy colors")
    (description "Documentation at https://melpa.org/#/faff-theme")
    (license #f)))
 
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260413.605")
+   (version "20260413.1134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "cee26014ffbe73bc1211f8f5960717d7e5a3f9fa")))
-     (sha256 (base32 "1ry8y12l4ccvijrcqxg1jk2fbwh6yz0ap0hlpkhrvr5lvi8gf0kn"))))
+           (commit "36a1ad51c8e43c905936034c5e72a12ff3286144")))
+     (sha256 (base32 "167q3aj9q9vawjrngqdv5zy2d1jm4y4q2mcimm5cf0s1zi2l9adv"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -42239,14 +42239,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260413.321")
+   (version "20260413.1652")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "77a3c9af5f7805acbb46fcb662abfeea80f0c15a")))
-     (sha256 (base32 "1dp153bam3fny5946i9lz5vgshr24c013phma2qav2jrd6pwva5s"))))
+           (commit "a0552436056f64ce0af39a8023bab6a994797e96")))
+     (sha256 (base32 "0cgyrb2rsr7iybii5pkziavhp2bj4n669hkp5fnmw29p26j98681"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -64457,14 +64457,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260413.545")
+   (version "20260413.1233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "9e87779b5e1d1e5e4c5a838a04c1bb8a38e78df1")))
-     (sha256 (base32 "013s9qakvfa972j54kd5f40gk4l9dh430v7mnnl1nis05jffd89m"))))
+           (commit "657fd6f92d768f5b6da90f55b47b0d9e02467edb")))
+     (sha256 (base32 "1zc4bfp9rr5hnky72p5jllynrlfh387n6xxwkx916yg4aw9wsrpf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -73105,16 +73105,16 @@
 (define-public emacs-org-journal
   (package
    (name "emacs-org-journal")
-   (version "20250525.951")
+   (version "20260413.1401")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bastibe/org-journal.git")
-           (commit "c72d7c75f8a05d1032250e307d35797ceee7e578")))
-     (sha256 (base32 "0jhd0795dmibikrxx1373g4pv6y4a5pl85h6z18cjfxaiks19g2q"))))
+           (commit "6460f6f2b0835b4b8aa87d5fdf40cac7deb319f5")))
+     (sha256 (base32 "0f0x893ivkmawhlx1wbj2calng20ln2l8crl73kbgj455nq068j6"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/bastibe/org-journal")
+   (home-page "https://github.com/bastibe/org-journal")
    (synopsis "A simple org-mode based journaling mode")
    (description "Documentation at https://melpa.org/#/org-journal")
    (license #f)))
@@ -74870,14 +74870,14 @@
 (define-public emacs-org-static-blog
   (package
    (name "emacs-org-static-blog")
-   (version "20260412.1353")
+   (version "20260413.1402")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bastibe/org-static-blog.git")
-           (commit "9b935947aee70cec2920e7645c0858e629459caa")))
-     (sha256 (base32 "0pv646zx0srfbk35w0jcfd0n0sz71llvq20dy8jshf7q58sbhzj1"))))
+           (commit "353fcde0aa27ce11c3513fb4d25ac49fb0b9c57d")))
+     (sha256 (base32 "01k065g9jw0a21yk63mh0ajf0vzca0w9m7k1i483qjjy5ig9x6ra"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bastibe/org-static-blog")
    (synopsis "A simple org-mode based static blog generator")
@@ -89113,14 +89113,14 @@
 (define-public emacs-rust-mode
   (package
    (name "emacs-rust-mode")
-   (version "20260227.539")
+   (version "20260413.1311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rust-lang/rust-mode.git")
-           (commit "668069ad8b6ca20bd0d2334db1c0d046809affd6")))
-     (sha256 (base32 "1gw3nl846bkaxp1fcq4ig5gwxrd8374x03r1d7qywbd6k0ac1m0m"))))
+           (commit "6482f5601e807fa61cee6a09a18a7e9152c394f3")))
+     (sha256 (base32 "07n831n99cpmvpvvx3f2j7l5svycdw1rvc8xdbyydw9nzsm9n3sw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/rust-lang/rust-mode")
    (synopsis "A major-mode for editing Rust source code")
@@ -101232,14 +101232,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260405.1707")
+   (version "20260413.1049")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "af477536132d2df4ddd2754b4a53e32b914a84cc")))
-     (sha256 (base32 "02g5xwbq2m2m09296i9kfiy1sr212lr33x3j1gs6f9anw0kyq622"))))
+           (commit "2e9645f60ac0d3820f98b5b761e5f7d09349b8e5")))
+     (sha256 (base32 "1pbra42mc9s87ny2zj2yxkp53ijz06ayzc9l53zp9hbzvwj78g4d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
@@ -101680,14 +101680,14 @@
 (define-public emacs-trust-manager
   (package
    (name "emacs-trust-manager")
-   (version "20260410.755")
+   (version "20260413.832")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/eshelyaron/trust-manager.git")
-           (commit "91b4149fdda86ac60771f2c131bf2a4741fe79b7")))
-     (sha256 (base32 "1jlq98qxsp8r86hnfx28c0g112cz81sp7lbrri8261135ws8k7wd"))))
+           (commit "b68eed8311881487ef0c60eb3c276330acd4c1ee")))
+     (sha256 (base32 "1z5fa4i8wkzmbkay1cgpk20jnqnpyni4xyr0fn7v7lrc4m5dcla6"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~eshel/trust-manager")
    (synopsis "Convenient trust management")
