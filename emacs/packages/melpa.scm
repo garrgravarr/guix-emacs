@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260412.1314")
+   (version "20260413.605")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "0f6038896e27910750a21c5fc16334034ad2c830")))
-     (sha256 (base32 "1r0m1zs4b6qllm9hq2ai8f2lxr8fgkjbbrj46lzankfgmzzsxxvs"))))
+           (commit "cee26014ffbe73bc1211f8f5960717d7e5a3f9fa")))
+     (sha256 (base32 "1ry8y12l4ccvijrcqxg1jk2fbwh6yz0ap0hlpkhrvr5lvi8gf0kn"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -42239,14 +42239,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260412.2317")
+   (version "20260413.321")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "418d544094fb8c49f03064b677d26a30932ef36e")))
-     (sha256 (base32 "0505l5dsml6dg6hnai75wsxbz76iyx7jg6az6p59zqjgaspqk9r6"))))
+           (commit "77a3c9af5f7805acbb46fcb662abfeea80f0c15a")))
+     (sha256 (base32 "1dp153bam3fny5946i9lz5vgshr24c013phma2qav2jrd6pwva5s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -42713,14 +42713,14 @@
 (define-public emacs-greader
   (package
    (name "emacs-greader")
-   (version "20260401.1337")
+   (version "20260409.2330")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/michelangelo-rodriguez/greader.git")
-           (commit "e3f930f6ad3f5296252409d3015d6ecce0a5e91b")))
-     (sha256 (base32 "08c4i5qbr0ndbbps6y5kpp0lzfmxnwifrxssqkd9qdzj068k69k3"))))
+           (commit "4b0deb0b0ef4a73ea8fe9e2b62b45321dd76a609")))
+     (sha256 (base32 "1f6mz0815v862ppnf67gs13p4mfjykp2iap8iysl8yy999a23bac"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://gitlab.com/michelangelo-rodriguez/greader")
@@ -57709,14 +57709,14 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20240927.141")
+   (version "20260413.650")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/merrickluo/liberime.git")
-           (commit "23c0caa1bf73f4e9ab58d52dc46cf21088dc6c54")))
-     (sha256 (base32 "0zq39p51mnpi3gy6pwkzs7sck56w4y4rwd2cxzm7pk9rldj18ab0"))))
+           (commit "6ad07ab91fd4a546c9ea1cf811e22c60312ef062")))
+     (sha256 (base32 "07rzm2cpjmmjkygkh2wrdssszsi5z41b3iv8pkjg1an3bq81f281"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -64457,14 +64457,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260410.2044")
+   (version "20260413.545")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "8635304365b6f9b2099ca28036798ac510225d36")))
-     (sha256 (base32 "0bj790qa7j05dzwi47cdi6pfy23k9myl3m5p0020kjbjvqf1yj21"))))
+           (commit "9e87779b5e1d1e5e4c5a838a04c1bb8a38e78df1")))
+     (sha256 (base32 "013s9qakvfa972j54kd5f40gk4l9dh430v7mnnl1nis05jffd89m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -73652,14 +73652,14 @@
 (define-public emacs-org-noter
   (package
    (name "emacs-org-noter")
-   (version "20260108.2346")
+   (version "20260413.213")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/org-noter/org-noter.git")
-           (commit "81765d267e51efd8b4f5b7276000332ba3eabbf5")))
-     (sha256 (base32 "06d03bv14awz5vm8y85b2wdg1vf22d4zj5s3bcz8y7qinvyfy9pm"))))
+           (commit "ab9628e449d76af8b2e5a9d5fead4e03ca76a03d")))
+     (sha256 (base32 "1a5q6imw3bcgb6hbz8ns91qlk6qxkzlz071ypd0jkabxs5y04x05"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files ("*.el" "modules" (:exclude "*-test-utils.el" "*-devel.el"))))
@@ -98052,14 +98052,14 @@
 (define-public emacs-taskjuggler-mode
   (package
    (name "emacs-taskjuggler-mode")
-   (version "20260413.142")
+   (version "20260413.313")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/devrintalen/taskjuggler-mode.el.git")
-           (commit "a2d6995abcab6ef39697b4f27d6c8856b5398746")))
-     (sha256 (base32 "0fyliapqpb23hdim321kb92q8bbvdr90c4pq6i2nb7khx6qjnnb0"))))
+           (commit "126c659b9b640da687f9e94277e2f9aac018ff84")))
+     (sha256 (base32 "0di1a3ajgk3vh29808iq9iw4xkx0k401320ry8pswyglmlvzf8l7"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "snippets")))
    (home-page "https://github.com/devrintalen/taskjuggler-mode.el")
