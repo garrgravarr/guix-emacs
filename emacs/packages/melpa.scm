@@ -1805,14 +1805,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260412.2308")
+   (version "20260414.354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "b46e06834b41a2a13085818dbd03603ca33459c0")))
-     (sha256 (base32 "02fzpnh2m3c0z5c1mz564r002qbkj9ar909167cdrfpxjwj3q7ai"))))
+           (commit "4b9fec02bcdf53684e4124c215b0518a3bca78ba")))
+     (sha256 (base32 "1dnp6275bgaagcqxfdlab63ghm7s7j4hmqspz6vjgjg0x2cnyix1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -23632,7 +23632,7 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260413.1928")
+   (version "20260414.223")
    (source
     (origin
      (method git-fetch)
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260413.2205")
+   (version "20260414.734")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "057fb1f7cc74ecb82eecd11b86be44d76d902dfc")))
-     (sha256 (base32 "0mz0b3zgq2a1p47gh8h9sxy1z3k9m1algwqd9i0yv8ckj1xbzh54"))))
+           (commit "27dcec0cbafa9fd66174bea8f03a58295657685c")))
+     (sha256 (base32 "1nf937kv0rmb5nb1zr9zbnxcc53p85m5z4k4cnks5gxxawbf1q2w"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -49052,16 +49052,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260412.1936")
+   (version "20260414.325")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "0v8dnpbsijhp0nzmfkysw74was5vr8ppswwpp3byd5by3qrc7mvq"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "78b70e550a9764fc89a1bcc1d29eae39bdc550da")))
+     (sha256 (base32 "1dxps7c01fwy90ckia1x0zdvlra9g1ha47yafyxqdsjaaxbd787d"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -67117,14 +67155,14 @@
 (define-public emacs-nethack
   (package
    (name "emacs-nethack")
-   (version "20260413.2133")
+   (version "20260414.325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Feyorsh/nethack-el.git")
-           (commit "8142f58296e22499aa3de5bfd03d3519c0fc968e")))
-     (sha256 (base32 "05716a3yyvldg7xx3y99xyx7k2kzbib4wb0cz86jyl8qwbvn7j0v"))))
+           (commit "98fe3369b0d3786efab5080b855a922186e4d9ad")))
+     (sha256 (base32 "0wkj8cvqj7xxp4fxcj2i5vyvj09l7jb8c0knj9ln5ng2fiqqq0k8"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("nethack*.el" "enh-*.patch")))
    (home-page "https://github.com/Feyorsh/nethack-el")
@@ -94844,14 +94882,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20260411.126")
+   (version "20260414.150")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "3d97417424e3e6b69da340e4b10d4c5f61ebacf5")))
-     (sha256 (base32 "07winp22rf9a77j9nga9spvsvi08i58m6pq94ppi09r3wr8yw3rl"))))
+           (commit "b19f15c019740f884487602560c904914cf2c48b")))
+     (sha256 (base32 "03b3qrbvajx4jqf8ppqc148d3v5mmmfng1bv1xlzlprnsp5px67c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
@@ -98264,14 +98302,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260410.1951")
+   (version "20260414.612")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "93b16e46c26fc81e1fb02b6c4c7ef7bbdd3dd5a2")))
-     (sha256 (base32 "15s719ck6p7jik6k44dw7fbh2a2cg9jbc1y77xjg6swr5gcffc33"))))
+           (commit "35c26aa9b88999e631cf0b7842fbd42219b1d2dc")))
+     (sha256 (base32 "0rk8aiypxw21zrhl7bvf9rxg45wv7cn5li3aqbdxnkpf6c3g7nrk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -100271,14 +100309,14 @@
 (define-public emacs-tokyo-night
   (package
    (name "emacs-tokyo-night")
-   (version "20260406.625")
+   (version "20260414.544")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/tokyo-night-emacs.git")
-           (commit "1b6ad5621d0e044be1f6777b0474bdfd180ef58c")))
-     (sha256 (base32 "12l4kq532b6xgxki93aa0l2a8xj6rascqkzzjhip6hbkj6axyxv5"))))
+           (commit "743d9ce693424434e516c096bf5320cad65277ad")))
+     (sha256 (base32 "088ng46z52m0fyvr2w6iz7fcwdaangl3pxy1x5wkzlhhiln0wzh8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/tokyo-night-emacs")
    (synopsis "Shared infrastructure for Tokyo Night themes")
@@ -100875,14 +100913,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260401.2145")
+   (version "20260413.1919")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "8b14203107950d6eba0e17d14867e05547725219")))
-     (sha256 (base32 "0khb5pzipnhb21s7wdq42mx9pbsq6fqljz3xhqdsgbjbxx1p6fcl"))))
+           (commit "bd395cd5b7ab7eedd11bcb6c6652749c517fd9d3")))
+     (sha256 (base32 "0psaq42nwl014p7r8vwn66rzkzcvx411zgn9yyhkwx7n87d28b99"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/magit/transient")
