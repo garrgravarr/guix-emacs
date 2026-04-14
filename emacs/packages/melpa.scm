@@ -1805,14 +1805,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260414.354")
+   (version "20260414.1427")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "4b9fec02bcdf53684e4124c215b0518a3bca78ba")))
-     (sha256 (base32 "1dnp6275bgaagcqxfdlab63ghm7s7j4hmqspz6vjgjg0x2cnyix1"))))
+           (commit "a0b1283df47ccb57822ef9eb989f9c116396d0c6")))
+     (sha256 (base32 "0hz6b4gryvbqwimlzl31r239ff3lzqrgicwlrlq43bp7myjng6ny"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -6234,14 +6234,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260413.1004")
+   (version "20260414.1412")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "671baaf881f7f13ea7e30edf54b13004bc47fa5d")))
-     (sha256 (base32 "1yb5png28scy13bqdidjn4hs5whaffbrw9xqhn24405c4l2f03xa"))))
+           (commit "11e08794b1f5cd933a38cd6a5ecf9aba962dc669")))
+     (sha256 (base32 "0yv48vhsl20gva6k74vlyznq6y3pnyzypkbx8bvrpcrkf8fq99gh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -10806,14 +10806,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260402.444")
+   (version "20260414.1619")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "5d003b579c7a7b55321c6e4e672f0f57b4021930")))
-     (sha256 (base32 "0czxw7g5930lxp4zhk0q3gpv2wk5fg14psivswwz9600sq3sy0h1"))))
+           (commit "03ef7c94155b95fb8f98f6cd88d50d8575aabacc")))
+     (sha256 (base32 "1crdqmv7z424n3c25szp0cixvi0aw8blxvn8pyc0zcqhpfzs356a"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -18107,14 +18107,14 @@
 (define-public emacs-darkman
   (package
    (name "emacs-darkman")
-   (version "20260413.2052")
+   (version "20260414.1055")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~grtcdr/darkman.el")
-           (commit "2a1b584827c1f47a5b08bb1748dba982d8c3de91")))
-     (sha256 (base32 "18cj57rrj5nikzm9s68wrjmlzi4iw38gcvpgldhwrlfzk6syhzi3"))))
+           (commit "ee99dfcdc1f48330d0fbb565f8db7664eee34643")))
+     (sha256 (base32 "0yyhpcqwdcmmc4y40v1kqhxlq81pjw9bnpdv4hkv184jf8b0xicm"))))
    (build-system melpa-build-system)
    (home-page "https://darkman.grtcdr.tn")
    (synopsis "Seamless integration with Darkman")
@@ -20889,14 +20889,14 @@
 (define-public emacs-diredc
   (package
    (name "emacs-diredc")
-   (version "20260317.2222")
+   (version "20260414.1238")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Boruch-Baum/emacs-diredc.git")
-           (commit "79a6c6631e8b817419f24d7e85a6f8f75d393e5d")))
-     (sha256 (base32 "1p5cgi0vs4brz9isj62x4xras1hic1ygnxc7n0wql86aar99j783"))))
+           (commit "7bbc7bfa60c2b3c7f39f75e1600b13260315271e")))
+     (sha256 (base32 "0knsbywpmdb6jbb3frgnl9p6mi6ac2brhajb2rlqxqvr8fx9xz4b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-key-assist))
    (home-page "https://github.com/Boruch-Baum/emacs-diredc")
@@ -22778,14 +22778,14 @@
 (define-public emacs-dune
   (package
    (name "emacs-dune")
-   (version "20260120.2128")
+   (version "20260410.1721")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml/dune.git")
-           (commit "e2a017565ca612c7fe79ec620a0c3e505d7c558f")))
-     (sha256 (base32 "0jqiq2akg58f1848cl0p542mh919ayf08wq5v8kjqhmm7xypv13z"))))
+           (commit "21612c8cef614e459cce96ca031f2ed0708e0d58")))
+     (sha256 (base32 "1d6bamfhsa8g0z0xciwjmmq5j3ylgz223cqixj71c4crn6z1jays"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editor-integration/emacs/*.el")))
    (home-page "https://github.com/ocaml/dune")
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260414.734")
+   (version "20260414.1240")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "27dcec0cbafa9fd66174bea8f03a58295657685c")))
-     (sha256 (base32 "1nf937kv0rmb5nb1zr9zbnxcc53p85m5z4k4cnks5gxxawbf1q2w"))))
+           (commit "b5d7b4d4c944f3a254e64cc79d43d9a28eb67a49")))
+     (sha256 (base32 "0gqah9sphqbr22kgcjjrgnxlz8hqglzkq71yi2ywwixaml8l331g"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -63919,14 +63919,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260318.505")
+   (version "20260414.1443")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "1d94d7bea657e5b17b135ec232aeb2d77cf0c5da")))
-     (sha256 (base32 "1mmxlww28yrzvaqd1n4g05rmniq1x6ywsdd75ap85p7g4cbiqn19"))))
+           (commit "d5c9bf4acad718cebe16a6d8d66f604bafbed933")))
+     (sha256 (base32 "03gm3fffkbvgzbygdr6jkva8rlc2vmcblifwqxc76vscxklj1ym3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -81742,14 +81742,14 @@
 (define-public emacs-popterm
   (package
    (name "emacs-popterm")
-   (version "20260412.2036")
+   (version "20260414.1450")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/CsBigDataHub/popterm.el.git")
-           (commit "52e84b32c2a263b7fc0333e051014af84322566a")))
-     (sha256 (base32 "0g8mr0fx46ch930wlqqdqy0y060rl9hykilp61y6h0fg088w8mry"))))
+           (commit "b1196fd6de4368a6d366db6bd2518eba9ca21afd")))
+     (sha256 (base32 "1d332jcc11d3yhnab93kk9pfx05mgdpaqy87r0wiba04s6hspb3f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/CsBigDataHub/popterm.el")
@@ -90395,14 +90395,14 @@
 (define-public emacs-sekka
   (package
    (name "emacs-sekka")
-   (version "20260411.1026")
+   (version "20260414.1258")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/sekka.git")
-           (commit "a992fe30681e14e5d3419e42e5c9f2042ac88d97")))
-     (sha256 (base32 "1kp77ksx69dz6nazv9i1r30svnr7bhbzgfra6k3sz7v611liihxj"))))
+           (commit "d55f6df4ef13090b7c556d6791c91a24c9bb107b")))
+     (sha256 (base32 "14wka3l93v6w8q6vqwxd97a6qyixrbbm57g5qbzh1ck8yyq6wamv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-popup))
    (arguments '(#:files ("emacs/sekka.el")))
@@ -98108,14 +98108,14 @@
 (define-public emacs-taskpaper-mode
   (package
    (name "emacs-taskpaper-mode")
-   (version "20260117.1144")
+   (version "20260414.1423")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/saf-dmitry/taskpaper-mode.git")
-           (commit "19828a8048b0b7803a1b597e5bea26da9edf2895")))
-     (sha256 (base32 "1lppb3kj53rc5ansnajcx6m1friy7g60qqbghpaw4hc5lw9kq22z"))))
+           (commit "b16b3ac389321538ab0e9bf9db68650a3be0afb0")))
+     (sha256 (base32 "0kf6i7ifzv2ihgil7i7zi62zcyp8iv0i3d4r0cbc6x6qh3py1bh4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/saf-dmitry/taskpaper-mode")
    (synopsis "Major mode for TaskPaper files")
@@ -100309,14 +100309,14 @@
 (define-public emacs-tokyo-night
   (package
    (name "emacs-tokyo-night")
-   (version "20260414.544")
+   (version "20260414.1230")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/tokyo-night-emacs.git")
-           (commit "743d9ce693424434e516c096bf5320cad65277ad")))
-     (sha256 (base32 "088ng46z52m0fyvr2w6iz7fcwdaangl3pxy1x5wkzlhhiln0wzh8"))))
+           (commit "3e7eaaae8a4ec4871aa06552be4b13abc99cd07a")))
+     (sha256 (base32 "1rha5ix465xf8xac4rdc6g6vrz1jv1yl5pxh6vdvs5v3m9a3wn1z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/tokyo-night-emacs")
    (synopsis "Shared infrastructure for Tokyo Night themes")
@@ -100913,14 +100913,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260413.1919")
+   (version "20260414.1009")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "bd395cd5b7ab7eedd11bcb6c6652749c517fd9d3")))
-     (sha256 (base32 "0psaq42nwl014p7r8vwn66rzkzcvx411zgn9yyhkwx7n87d28b99"))))
+           (commit "79ed918afe0ea185829f9f6e68c8666c1ef31a60")))
+     (sha256 (base32 "0bnj3slp16kk7shidj694alxfwlj1rn5kb9l6j853r7vp287hbwr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/magit/transient")
