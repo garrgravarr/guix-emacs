@@ -5916,14 +5916,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260413.1609")
+   (version "20260413.1918")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "53f54ff2b3f8308ec616a3f923039ecd64553aa3")))
-     (sha256 (base32 "00ngqlim1kz3200gav3clcn884gdvmydfp0x2k8drwgpmnddaqw5"))))
+           (commit "6d33dac0e0f04a6ad33eaf4462e0bcfde511e43a")))
+     (sha256 (base32 "1l597m0pshqlkzc1sjj23xcldw0h9k8kbdjmc71c3abbl69rlwb9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazelbuild/emacs-bazel-mode")
    (synopsis "Bazel support for Emacs")
@@ -14458,14 +14458,14 @@
 (define-public emacs-compilation-history
   (package
    (name "emacs-compilation-history")
-   (version "20260401.547")
+   (version "20260413.2031")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/djgoku/compilation-history.git")
-           (commit "dba6568dc2c56131d811ff951855e6fb69447ed8")))
-     (sha256 (base32 "1pbiz3bjfflz4yj9p40kwf1sax98fc2ya6a034fvkrlwyg6vrivv"))))
+           (commit "cfc37a18469634696761e239d0517cfb96a2ca40")))
+     (sha256 (base32 "0m2s9q08lnfqcmkaapzhs8jpimk5cn5c4b27j8968qnv9csb75py"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/djgoku/compilation-history")
    (synopsis "Track compilation history in SQLite")
@@ -18107,14 +18107,14 @@
 (define-public emacs-darkman
   (package
    (name "emacs-darkman")
-   (version "20241019.1404")
+   (version "20260413.2052")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~grtcdr/darkman.el")
-           (commit "beb2186e6eaf13ebe1ae56e460bcd1a4c0cb4f07")))
-     (sha256 (base32 "0mw1rfv0nmpb2h79wg5mk23wr9cfyhgd6jjaxllr8gabkvajpsvg"))))
+           (commit "2a1b584827c1f47a5b08bb1748dba982d8c3de91")))
+     (sha256 (base32 "18cj57rrj5nikzm9s68wrjmlzi4iw38gcvpgldhwrlfzk6syhzi3"))))
    (build-system melpa-build-system)
    (home-page "https://darkman.grtcdr.tn")
    (synopsis "Seamless integration with Darkman")
@@ -23632,14 +23632,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260413.1314")
+   (version "20260413.1928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "1286d768b7eafda0e0b6ad8e89b35e82329d8ca2")))
-     (sha256 (base32 "0ba8alxh036z9q4waifi274vaq90am3jly1wlkalrk17f8bxw0pp"))))
+           (commit "0385a84a75d9ce239e8db47fbc32cb0f5a56b4a2")))
+     (sha256 (base32 "1jpkrs9b9g7pqbyyj9jfgg9kgm5v4k2jbrdvs8sb057id5qnjskv"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -26392,14 +26392,14 @@
 (define-public emacs-elpy
   (package
    (name "emacs-elpy")
-   (version "20250404.2349")
+   (version "20260413.2143")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jorgenschaefer/elpy.git")
-           (commit "0b381f55969438ab2ccc2d1a1614045fcf7c9545")))
-     (sha256 (base32 "0398zwzq5c33fi8icyy2x50q7rs819i5xkpmhbfm1s34m6prv46a"))))
+           (commit "777f5a5f951ee4b717856007c337e9f37fd4ea5d")))
+     (sha256 (base32 "03rkjfi08j5lz0jl0aw66sqc2rbrx55kj6yanxmd6drv63ryd1zj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-company
@@ -31993,14 +31993,14 @@
 (define-public emacs-faff-theme
   (package
    (name "emacs-faff-theme")
-   (version "20260413.1507")
+   (version "20260413.2137")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
-           (commit "8f976f810e6f23d2afaaa13f53e11d73e941cbcf")))
-     (sha256 (base32 "1083ias5bk17vcvpa4xrnpps6r1v46xnzy2b2x0azin0vj9pvc65"))))
+           (commit "1a6ee167627a4c623f157f3afb5ec12d368889af")))
+     (sha256 (base32 "13vb0c5v5hd8jzy8cp6r2fv8wixcj5gfl9060d7w0qdf1h6kx6rv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/WJCFerguson/emacs-faff-theme")
    (synopsis "Light cornsilk theme with warm, earthy colors")
@@ -32950,14 +32950,14 @@
 (define-public emacs-fira-code-mode
   (package
    (name "emacs-fira-code-mode")
-   (version "20240228.1728")
+   (version "20260413.1901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jming422/fira-code-mode.git")
-           (commit "c48f3f16a4b497b9e455966561bbb6638efe4900")))
-     (sha256 (base32 "0pbbqwms0w7n2blqan7jbk38klc85gwqw3j4w5c90shg9a8xsr01"))))
+           (commit "5a8e2e96c40822b8e11a8f16392bc3ccdd6c69fd")))
+     (sha256 (base32 "1hy4l8055flqg0sxkly7kwszvmy0h1wr31qpdzix2mqsaqmzrim0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jming422/fira-code-mode")
    (synopsis "Minor mode for Fira Code ligatures using prettify-symbols")
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260413.1134")
+   (version "20260413.2205")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "36a1ad51c8e43c905936034c5e72a12ff3286144")))
-     (sha256 (base32 "167q3aj9q9vawjrngqdv5zy2d1jm4y4q2mcimm5cf0s1zi2l9adv"))))
+           (commit "057fb1f7cc74ecb82eecd11b86be44d76d902dfc")))
+     (sha256 (base32 "0mz0b3zgq2a1p47gh8h9sxy1z3k9m1algwqd9i0yv8ckj1xbzh54"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -42239,14 +42239,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260413.1652")
+   (version "20260413.2133")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "a0552436056f64ce0af39a8023bab6a994797e96")))
-     (sha256 (base32 "0cgyrb2rsr7iybii5pkziavhp2bj4n669hkp5fnmw29p26j98681"))))
+           (commit "4747ffa251af84dbb6fe181f5d2b484ec2e442a7")))
+     (sha256 (base32 "1f75lp5wffdmj45zpiaxvnpwikms2gxqs0r206749vyz8p27c737"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -52043,14 +52043,14 @@
 (define-public emacs-ivy
   (package
    (name "emacs-ivy")
-   (version "20260318.1355")
+   (version "20260413.2102")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abo-abo/swiper.git")
-           (commit "1005bff8a700b92dc464f770aff8a0db5b4a1c0b")))
-     (sha256 (base32 "1ydkzq9hmbwc8xrg5i2j779fwmd7zrhyq6x9xzqlpf6k1j4jcgq5"))))
+           (commit "0d02f5063d36ff4fa6138f0973c83c6d3874fba0")))
+     (sha256 (base32 "11p878gxwbpxkxg01jrvhkxk6wq891qwcyryrasjn4nh3nlc1vvx"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -54928,14 +54928,14 @@
 (define-public emacs-kanagawa-themes
   (package
    (name "emacs-kanagawa-themes")
-   (version "20260331.505")
+   (version "20260413.1643")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Fabiokleis/kanagawa-emacs.git")
-           (commit "6f1bf124d0cfad0d081ae4ca9d8b0a25b98f18f6")))
-     (sha256 (base32 "1fxsp3xv0qgx0g3davi2dp2a054wvzacqrp1kr11gyfvpbai88v7"))))
+           (commit "c0ec6694a6574ad2d54ca671de2093c81b54888a")))
+     (sha256 (base32 "1bk7x77a11nlnfl0z40bvyi0c86vyfncjrk1dggs79qw9bnx04i2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Fabiokleis/kanagawa-emacs")
    (synopsis "Elegant theme inspired by The Great Wave off Kanagawa")
@@ -57709,14 +57709,14 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20260413.650")
+   (version "20260414.28")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/merrickluo/liberime.git")
-           (commit "6ad07ab91fd4a546c9ea1cf811e22c60312ef062")))
-     (sha256 (base32 "07rzm2cpjmmjkygkh2wrdssszsi5z41b3iv8pkjg1an3bq81f281"))))
+           (commit "43069396e9a5ccbbfcb7aa7bbff47b84b482d576")))
+     (sha256 (base32 "04fna8cfsl3klj46qqrp3n2nbga4sj69qi129xn7c6rj5lha4l0h"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -67117,14 +67117,14 @@
 (define-public emacs-nethack
   (package
    (name "emacs-nethack")
-   (version "20260409.735")
+   (version "20260413.2133")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Feyorsh/nethack-el.git")
-           (commit "d1688d8d4c0a9cc5ffa7f880138f9fb09d205e64")))
-     (sha256 (base32 "0f5i1gnv8cd3cxc10y7rjwrxxw6fr7cw6gvs8n4sqjsir6pxwz5w"))))
+           (commit "8142f58296e22499aa3de5bfd03d3519c0fc968e")))
+     (sha256 (base32 "05716a3yyvldg7xx3y99xyx7k2kzbib4wb0cz86jyl8qwbvn7j0v"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("nethack*.el" "enh-*.patch")))
    (home-page "https://github.com/Feyorsh/nethack-el")
@@ -70801,14 +70801,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260411.902")
+   (version "20260413.2233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "17e5c6f8b2b341b4afcb3d6158202469df95fe79")))
-     (sha256 (base32 "19jks4wwa1zd4ykgyx6a0rzhdwm92sav9nxn7w8569vlcawmawfb"))))
+           (commit "8d6229c7f3b9acc76c0a366dd33b9ed35c4b3260")))
+     (sha256 (base32 "0275d4zj2n65wljjvcq3x4v8raw88zmnqw5qbkzjwzhyc0ahrakp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -80103,14 +80103,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260405.21")
+   (version "20260413.2331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "ce067c80306616cc7c3bdf38f4c32c1a1d276e57")))
-     (sha256 (base32 "1ggay80yn3vv6lmldsmzj6g6hs6zkgp21cw6rrzx7q3hxca2amw9"))))
+           (commit "8908e604a2d4b29bf9ea31d77f8dc55875f5b750")))
+     (sha256 (base32 "1lv4cni3k6wvxdi6dr687z9z5n21189mc2bfwwb9hs1wimqh5g0a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -80330,14 +80330,14 @@
 (define-public emacs-pink-bliss-uwu-theme
   (package
    (name "emacs-pink-bliss-uwu-theme")
-   (version "20251211.1304")
+   (version "20260413.1827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/themkat/pink-bliss-uwu.git")
-           (commit "be3ceccb6fc035ca9dbfff4a54e653b8621f949a")))
-     (sha256 (base32 "133hpn0c0chs5r9a7a33l0i6jykvhdi3qa02iqnxylai65wr5jbw"))))
+           (commit "2ac22856c641d00fbfe312b300f8bd38400eb043")))
+     (sha256 (base32 "0by8hjjmz3vgaalskgramx8m8qkycm41vd17vjrp9zq5ig04hipr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/themkat/pink-bliss-uwu")
    (synopsis "Pink color theme")
@@ -98052,14 +98052,14 @@
 (define-public emacs-taskjuggler-mode
   (package
    (name "emacs-taskjuggler-mode")
-   (version "20260413.313")
+   (version "20260413.2006")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/devrintalen/taskjuggler-mode.el.git")
-           (commit "126c659b9b640da687f9e94277e2f9aac018ff84")))
-     (sha256 (base32 "0di1a3ajgk3vh29808iq9iw4xkx0k401320ry8pswyglmlvzf8l7"))))
+           (commit "3d10a78188238f39af6c632f9e1840fd3a806112")))
+     (sha256 (base32 "19ryaa6cl73di3pj6gbc8znxhpz1nd46wcps5b6za0p0vq98i5rp"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "snippets")))
    (home-page "https://github.com/devrintalen/taskjuggler-mode.el")
@@ -99375,14 +99375,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260406.813")
+   (version "20260413.1435")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "1659c2c507bc26dee40e8603dd3a4da6e4bcf2f5")))
-     (sha256 (base32 "1h3p2sp8lhbab75zhn0v2galcd1f8mhjjcbclxw9npdqdw9qiv6x"))))
+           (commit "73cd0ef73a8e9dddc0398e7166b270e4e04950f6")))
+     (sha256 (base32 "1ajcr4d2c0i93lra951simn1x6svc60yc9zhvqq4prn5fjpl187v"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -101680,7 +101680,7 @@
 (define-public emacs-trust-manager
   (package
    (name "emacs-trust-manager")
-   (version "20260413.832")
+   (version "20260413.1648")
    (source
     (origin
      (method git-fetch)
