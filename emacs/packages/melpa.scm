@@ -401,14 +401,14 @@
 (define-public emacs-abs-mode
   (package
    (name "emacs-abs-mode")
-   (version "20260211.1320")
+   (version "20260415.813")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abstools/abs-mode.git")
-           (commit "aaf97a11ef799d424f34de9a651dcbe601e85b63")))
-     (sha256 (base32 "0gfn3q11gl2kl885vmcby0w5l7jsm58drq0ksm9qhr0nzjg000zl"))))
+           (commit "a4b8d0caa61db2f37b77e15055fad8324c35f4ae")))
+     (sha256 (base32 "0cwq38g33dxxa2mwyn7h0prlq0gc831b6z2yrpfbvrbvm1iq7jy3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-erlang emacs-maude-mode emacs-yasnippet))
    (arguments '(#:files ("abs-mode.el" "snippets")))
@@ -20782,14 +20782,14 @@
 (define-public emacs-dired-sidebar
   (package
    (name "emacs-dired-sidebar")
-   (version "20250212.629")
+   (version "20260415.638")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/dired-sidebar.git")
-           (commit "3bc8927ed4d14a017eefc75d5af65022343e2ac1")))
-     (sha256 (base32 "0vdx5sm7kg2xwvndhjsmixfwlsj45gz0wi5a670pr25268f47mp4"))))
+           (commit "19cdf0b9ed634efb7ae7047861fbcbd9dc0ee2e9")))
+     (sha256 (base32 "1jsyrj6mam68klb5ygjks98a4npx85d1xx5viwss2c11zk52699r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dired-subtree emacs-compat))
    (home-page "https://github.com/jojojames/dired-sidebar")
@@ -38380,18 +38380,18 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260216.27")
+   (version "20260415.730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "17ca387c077f47553239816f41d6f0e351a21103")))
-     (sha256 (base32 "1slbrqsi17zglqy229zggn094w8rckkpdnmnbw5gvhy6z40p5s5c"))))
+           (commit "6755c1f1e4764febbe2f7bdf770f2a73c79d5d70")))
+     (sha256 (base32 "0bbjnkd6w3ybmz7rciyrv471f5pwya3w7iq077kcpxkf6h0lvrnr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
-   (synopsis "Fuzzy completion style using `flx'")
+   (synopsis "Fuzzy completion style using `flx' and/or `fzf-native'")
    (description "Documentation at https://melpa.org/#/fussy")
    (license #f)))
 
@@ -42257,14 +42257,14 @@
 (define-public emacs-gptel-agent
   (package
    (name "emacs-gptel-agent")
-   (version "20260412.716")
+   (version "20260415.611")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-agent.git")
-           (commit "bef06bccdbf847e0c4a94d1b57dd96d979437430")))
-     (sha256 (base32 "1g33w8db2g33l3qf4f9vnafkdpilaxh4s9cy76yv79rphg92ipaw"))))
+           (commit "e2ef97d6b566b2ad751c8a0a87b8272710c95808")))
+     (sha256 (base32 "0k88fav640ckjjv269zx6zlhjghr551bcamx7argvs8i5ca7r9jx"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-gptel emacs-yaml emacs-orderless))
@@ -57747,14 +57747,14 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20260415.10")
+   (version "20260415.754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/merrickluo/liberime.git")
-           (commit "7c93d84251c855078600c2c6b1ec64e42ccc3874")))
-     (sha256 (base32 "0w830h16mg8jpwvw9l5m99fdilwcn9fww8iyaf1f2sqlz4b6xn70"))))
+           (commit "6e8cc1cbadaafae5f99524d1d4dc8fcf115685be")))
+     (sha256 (base32 "0rmbcfna27g4y4s84glbhrzf2lm68b1rq994ca5mg2x2jfrchrv7"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -63298,14 +63298,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260403.320")
+   (version "20260415.432")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "ee3d2ac1a898f3fe8e54a6a431053b303faf96e7")))
-     (sha256 (base32 "01ackbsqwql8qjajgzi8aal5rhgh9k96y3mnanj1lpc3fa0dqa3m"))))
+           (commit "d1ddc69cd00859c916e7a9b908afbcd5721fc7be")))
+     (sha256 (base32 "1izyp0qx04n5qcxvqfmdcwwck340ykjgbkxyq8b804la7jmpih1x"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -98090,14 +98090,14 @@
 (define-public emacs-taskjuggler-mode
   (package
    (name "emacs-taskjuggler-mode")
-   (version "20260413.2006")
+   (version "20260415.153")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/devrintalen/taskjuggler-mode.el.git")
-           (commit "3d10a78188238f39af6c632f9e1840fd3a806112")))
-     (sha256 (base32 "19ryaa6cl73di3pj6gbc8znxhpz1nd46wcps5b6za0p0vq98i5rp"))))
+           (commit "c17af93ee6f230e2688d3343defe4f9c0939d8e7")))
+     (sha256 (base32 "0hsa1ns5vzj88cyssrcvlr01cxj06h2df0ffw3cyff7vlcf45jk6"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "snippets")))
    (home-page "https://github.com/devrintalen/taskjuggler-mode.el")
