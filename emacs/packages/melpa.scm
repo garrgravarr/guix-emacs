@@ -63919,14 +63919,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260414.2056")
+   (version "20260416.536")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "61a8be7a766ccb9fc0231d430712568618506488")))
-     (sha256 (base32 "03pi23vrbnmrzc3s0fpdwmb7bchlwciy3harxs2i1v0s5ymzxia0"))))
+           (commit "7564e6011e76be7803a11f707501b6b92a2af8db")))
+     (sha256 (base32 "0k338f8vq2f0276q648ijkc9w7pa8v8mk1dmdv01m22znl4kv2mx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -66924,14 +66924,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260410.1000")
+   (version "20260416.647")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "deb95d8b87641cf31d64487f627d8a51e48ff2e7")))
-     (sha256 (base32 "0prsi5g8wamh6v4l6jqsws78q63i07gfxkgbvns139fckdssgr2b"))))
+           (commit "06794d8d9ae1180a37b71b02ed8eadd464129b73")))
+     (sha256 (base32 "1wzjsk8252clak794yhk89s2qwgcl95a8mgdyd6wvn4a4bg0ksaw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -85014,14 +85014,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260402.210")
+   (version "20260416.102")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "2cc0745bf0cc4251db39b109e9d068eb5794d1eb")))
-     (sha256 (base32 "0p77qgjvszyc8bslbd6z1sxkbnlygspd4ql6s4gg88ahirz7hi36"))))
+           (commit "359d335c0f54a81d18ffbdd73366d1038709b1de")))
+     (sha256 (base32 "1wzvfqly4l3yi667y91aadaicw51dg3k3717gaz6h0jvhn4v58as"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -89151,14 +89151,14 @@
 (define-public emacs-rust-mode
   (package
    (name "emacs-rust-mode")
-   (version "20260413.1311")
+   (version "20260416.505")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rust-lang/rust-mode.git")
-           (commit "6482f5601e807fa61cee6a09a18a7e9152c394f3")))
-     (sha256 (base32 "07n831n99cpmvpvvx3f2j7l5svycdw1rvc8xdbyydw9nzsm9n3sw"))))
+           (commit "06cf08810018f54bf5246d8db155c90ab60d381f")))
+     (sha256 (base32 "18khvsny09dbxbhfi3fl7dyy06n69p7xl5b84brfqcl9w8rgbcmr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/rust-lang/rust-mode")
    (synopsis "A major-mode for editing Rust source code")
@@ -91538,14 +91538,14 @@
 (define-public emacs-shimbun
   (package
    (name "emacs-shimbun")
-   (version "20260408.652")
+   (version "20260416.105")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-w3m/emacs-w3m.git")
-           (commit "ac4aeb3f7bf6d5a32127062b0ae311785fbc36ff")))
-     (sha256 (base32 "0nh1cgh9dq8wm4ydb27zj2v1v3wczqx6dql6cz6azma10w1484l7"))))
+           (commit "d62c1225a1a9634eb5c6a76ba2b1460961befd08")))
+     (sha256 (base32 "0drvaqmy8pnbhikcvmnwlbmjq0mafxq074958chggbqrjlrn9199"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("shimbun/*.el")))
    (home-page "https://github.com/emacs-w3m/emacs-w3m")
@@ -98302,14 +98302,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260414.612")
+   (version "20260416.546")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "35c26aa9b88999e631cf0b7842fbd42219b1d2dc")))
-     (sha256 (base32 "0rk8aiypxw21zrhl7bvf9rxg45wv7cn5li3aqbdxnkpf6c3g7nrk"))))
+           (commit "5196e752b1dae4367d446a3fcc6169e6a7533093")))
+     (sha256 (base32 "1l6lsbzha40nvbwiaqiva96vp5iyjjqls761ggzfl3bkrslk53vq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
