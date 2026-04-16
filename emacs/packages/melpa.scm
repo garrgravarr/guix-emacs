@@ -5916,14 +5916,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260415.2013")
+   (version "20260416.1123")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "de3636fabe4fdfb811f1398eee87537f7db9e90c")))
-     (sha256 (base32 "1wjlwc47ynsq643b7bgab29i65cm4mh3w82xxvawz6k0n5bgx3l1"))))
+           (commit "c7bdcf4581dea7e6a37a2a22cb6ca4cb3729a0ff")))
+     (sha256 (base32 "0b04i126wksw2gllgs2wq1dxrcg98b2mi9mrggm6rfy4lp93aiyl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazelbuild/emacs-bazel-mode")
    (synopsis "Bazel support for Emacs")
@@ -7625,14 +7625,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260401.1217")
+   (version "20260416.1134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "8d0e26e6c16c1e503785b3e6b62a9a6d55b4e472")))
-     (sha256 (base32 "094ykn4niknciqy71v74ry70imj6xri6wrm477yavwanzdr4b2rc"))))
+           (commit "5987650bda4714ca0599c6c750de5d48f42e1662")))
+     (sha256 (base32 "0aps0pnm2yvkb8pkxiyx5mnq60aivfavcc4w5xqzpxr1wd883qgl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -10806,14 +10806,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260415.1809")
+   (version "20260416.1503")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "43d5bb60eeb33924e4d3615feca358b8d6815b43")))
-     (sha256 (base32 "1fngdd74c9mqwyx6s87kxg0z9xqww8m83j5ax6aw6ymag7akjr4n"))))
+           (commit "fe20e4ec04e5d8cb95086aa3e214b68284ec64a2")))
+     (sha256 (base32 "0v3brzh0zkxs7cjivbkma3mls0pgjxji4y1c4hj8pwzl63pimj8y"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -27703,14 +27703,14 @@
 (define-public emacs-epkg
   (package
    (name "emacs-epkg")
-   (version "20260301.1302")
+   (version "20260416.1107")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/epkg.git")
-           (commit "fc3cba38a416ec4e26a7d8eb7bc5ee910e67aa73")))
-     (sha256 (base32 "1im5di9rgvirzlnkfns6sv6wrn2sfb7k98f4i4b29kh7jwrrwzax"))))
+           (commit "73c8ddabb608ccf2c612680b815c15581f5cef79")))
+     (sha256 (base32 "0yxk3ib0mawm9ld0p0dia04apzb3v0dlywvljxb36yda791s6358"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-closql emacs-emacsql emacs-llama))
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260415.2130")
+   (version "20260416.1522")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "016db311873a9fda3850711ed8a563d10b2a4170")))
-     (sha256 (base32 "17b55pn8k624y78rjgb8ikm6ib23cbvh9p58ybczg0qch9nz9bif"))))
+           (commit "37068eacb50647421ad342c35b50b4babdfea27a")))
+     (sha256 (base32 "1qjz20bxzpi8jjgdaxx8icykjnan9mi59ninfih6p90fpjmr6lsx"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -49052,14 +49052,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260414.325")
+   (version "20260416.1532")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "78b70e550a9764fc89a1bcc1d29eae39bdc550da")))
-     (sha256 (base32 "1dxps7c01fwy90ckia1x0zdvlra9g1ha47yafyxqdsjaaxbd787d"))))
+           (commit "5c24f8c617950949966b78ca4fce5a9f7cf28d83")))
+     (sha256 (base32 "1h9b59795hyi3lszd0xy4429jcn95crsiw5jhdzif08mi38z8j34"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -60644,14 +60644,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260415.2233")
+   (version "20260416.1259")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "f0ead86bb4992b4bb56c48ba26b8b349d269053d")))
-     (sha256 (base32 "0ckq4w7ldvcmwpn3nk4w6xdn5fn70b48cn7iqvysck1y0rf3ja3w"))))
+           (commit "83d899b66f2aa4744498baa6866f3bdec2d238be")))
+     (sha256 (base32 "1kl4s86hiwxp043d3mlpgamyn5asncwpsv41lzhhw2jyhg3i77dj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -103491,14 +103491,14 @@
 (define-public emacs-use-package-treesit
   (package
    (name "emacs-use-package-treesit")
-   (version "20260118.1521")
+   (version "20260416.1048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/domq/use-package-treesit.git")
-           (commit "8599ac32785d8b49e3b1f282dbbb79d7789c86e2")))
-     (sha256 (base32 "1zlxccs59mdnsf8nja7jdf9kz0xwcz489gzbsnyavklh2bqkx4cs"))))
+           (commit "398ca0df10f2894b87c07073a446a53d943a6c18")))
+     (sha256 (base32 "0kpnac51ykmhkirz7shryasd7h2gvkfrhyysy55bpn8swdzknawm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/domq/use-package-treesit.git")
    (synopsis "Automatically use tree-sitter enhanced major modes")
