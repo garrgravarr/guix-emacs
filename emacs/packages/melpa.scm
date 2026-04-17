@@ -1805,14 +1805,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260416.125")
+   (version "20260417.500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "f2f565dd967148cb20a965f145e95f68666d7012")))
-     (sha256 (base32 "1r7n1xiyh0nplmnfy0j4cmqhp0c8m3czsi0ipfsxk25077zi1fxr"))))
+           (commit "0037406baff9125823f93f514f09b0e46b300a4f")))
+     (sha256 (base32 "0hv5shvkm1jp2dvbskwn8jhfzp910ad670a8kik9g2vh5v3y9q1i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -10806,14 +10806,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260416.1503")
+   (version "20260417.507")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "fe20e4ec04e5d8cb95086aa3e214b68284ec64a2")))
-     (sha256 (base32 "0v3brzh0zkxs7cjivbkma3mls0pgjxji4y1c4hj8pwzl63pimj8y"))))
+           (commit "9a6c2ebd13932b8d0ae8f0a1857cf97309a479dd")))
+     (sha256 (base32 "08lywlbsd2cad343hg9jzfs67504nkpbhhr71yz5y4nqp8jladkg"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -29796,14 +29796,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260330.1726")
+   (version "20260417.651")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "4ad1646964638322302dfb167aec40a2455bfb78")))
-     (sha256 (base32 "0ajb81dp7qfn5x0bjgjqmwqqvqfmwfpk2rpkd6dl0h0j7bbl1v51"))))
+           (commit "12a4f9797a92df48fd4e009d91915372af7437e2")))
+     (sha256 (base32 "0f8cyqqj64dgpwnl9pvzsrbrzx26whiiqgxgnkfj99nfrah33y1m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -37438,14 +37438,14 @@
 (define-public emacs-for
   (package
    (name "emacs-for")
-   (version "20230828.832")
+   (version "20260417.457")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/usaoc/elisp-for.git")
-           (commit "39c9fa3929839eba126bef2b5916e59784faece0")))
-     (sha256 (base32 "1ji2cq59rsaja57zcq2pk05l7869nqwhli7rw39prypgyi01jz8x"))))
+           (commit "2e18cf627ecf4c390e295a73d61ab1eba7d076f4")))
+     (sha256 (base32 "0zvipypsr8l1cxrggi98zyjd95qqy3wpv5qw0gsdgwrkpmiz3a20"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/usaoc/elisp-for")
    (synopsis "Iteration and sequence")
@@ -38380,14 +38380,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260415.1313")
+   (version "20260417.414")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "1cb4bb4bd54ce722003f8ebc3d73ee85511e96a5")))
-     (sha256 (base32 "02nkh4wsmrrdlyb8vnqhwv4ihwwa6w0afr7zzrivwjgfz8hsbvj2"))))
+           (commit "04b728c859b04cf59be3b3bd25532f2ef09bac2d")))
+     (sha256 (base32 "0qx5xyvixksh3qkpm1amyssz4zxannnz3rpmbl76zyb9iv4jbahn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -61324,14 +61324,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20260316.405")
+   (version "20260417.725")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "a22c090df03321cc94514d670075ccac3f1988e8")))
-     (sha256 (base32 "1aa1gixic1vkqnn4b74w65ym9q2wmk26ydc6z86z946c17k26zlx"))))
+           (commit "5f30b48ae9ad0f4c0bd97d24f3a7b6c2f01ff7a5")))
+     (sha256 (base32 "0i8jm4j2bfwl9l8djhaqd52makl1xym38jvnxf85va7ixjl1v0wq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm))
    (home-page "https://github.com/hrishikeshs/magnus")
@@ -63919,14 +63919,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260416.2128")
+   (version "20260417.437")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "c7f94faddd5e48cd61727525ae28481746a9a6d7")))
-     (sha256 (base32 "10scwnl7254a8fgs274hns9p7d3phvg847caiq3v88mgqnf4pn6w"))))
+           (commit "daeab6412df3e64ab879918c2c5ad8c1d3edae8f")))
+     (sha256 (base32 "01ygnsddaxrpj3l9j6cyr7w8qdzr5h1lkmx5p58wrfr017yy2vs4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -67155,14 +67155,14 @@
 (define-public emacs-nethack
   (package
    (name "emacs-nethack")
-   (version "20260414.325")
+   (version "20260417.234")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Feyorsh/nethack-el.git")
-           (commit "98fe3369b0d3786efab5080b855a922186e4d9ad")))
-     (sha256 (base32 "0wkj8cvqj7xxp4fxcj2i5vyvj09l7jb8c0knj9ln5ng2fiqqq0k8"))))
+           (commit "4c6e483966eee5a210b99ea8de34d20146e21237")))
+     (sha256 (base32 "1x5z3ncla9726pihvfw8qzdbahqii0gfh9wcfh3v03f1ggjim7hh"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("nethack*.el" "enh-*.patch")))
    (home-page "https://github.com/Feyorsh/nethack-el")
@@ -73267,14 +73267,14 @@
 (define-public emacs-org-link-beautify
   (package
    (name "emacs-org-link-beautify")
-   (version "20260303.1255")
+   (version "20260417.705")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-link-beautify.git")
-           (commit "e6351a77366c58f4dd6022eda5fe89aa68bccd74")))
-     (sha256 (base32 "0d30q8hfprxcz4bd4vjv264a1iavs82ilfq9m7wg1kvq3qyqphgq"))))
+           (commit "273e5b250fa2cc9b2dbbb63d9a7225536116fbd7")))
+     (sha256 (base32 "1zhwq9mlx6bpfvqqgzmk210na7s8z9dc2cgs031by9b983rjh0bs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-qrencode))
    (arguments '(#:files (:defaults "scripts")))
@@ -101718,14 +101718,14 @@
 (define-public emacs-trust-manager
   (package
    (name "emacs-trust-manager")
-   (version "20260414.2017")
+   (version "20260416.1737")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/eshelyaron/trust-manager.git")
-           (commit "361cf9a357782f10be9da2a404495a86e6950eae")))
-     (sha256 (base32 "15vnsaghd38gy95nakkg9cfgafqmdh5h50c3xdhrc5d2py7gc84i"))))
+           (commit "4353cbb7819f1e1b54ba74c3a7488b100b83d9c9")))
+     (sha256 (base32 "1sycbclsdyvr4ril8df17a2sisls2b7kjn31j6piapslqzm1zhab"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~eshel/trust-manager")
    (synopsis "Convenient trust management")
