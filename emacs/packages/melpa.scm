@@ -10806,14 +10806,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260417.507")
+   (version "20260417.1318")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "9a6c2ebd13932b8d0ae8f0a1857cf97309a479dd")))
-     (sha256 (base32 "08lywlbsd2cad343hg9jzfs67504nkpbhhr71yz5y4nqp8jladkg"))))
+           (commit "b9e8a26197f5a2a6a8d1dfb21ef5eae6fe17e0b6")))
+     (sha256 (base32 "11v3d5gl4p2iqfym9nxcdwyvyyzal9dkri6wwfd74w0cgkgrlw46"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260417.103")
+   (version "20260417.1331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "305eacdd1b360da860676cf2ad8cc1fb46e763b6")))
-     (sha256 (base32 "1zb5dc6xa88cq0kfwz3qkdj63006bpj7kd39w3vj365qd8hxdyf0"))))
+           (commit "895e55ba3f806424eb5bd8841dcd9c655b442b36")))
+     (sha256 (base32 "01m0zjd7axim5f7s9cfmyp3309d7dda4l31cxasdsycagbap1zf2"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -43185,14 +43185,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260411.2355")
+   (version "20260417.1434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "d8943ab916a43d8955ce8bb7f23ce9702065431e")))
-     (sha256 (base32 "08z45g751bxqn9x1f2g6kcbm3afjdn3ic305gcf5y6l1mdndx7fw"))))
+           (commit "06d2e5b229ad916e85819ee1089b03984a72a50c")))
+     (sha256 (base32 "1rczqcpwx8c8wms1ki78w1bmyrnv5yzwn8ajsp94hyj8rmd7nbkh"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -50241,14 +50241,14 @@
 (define-public emacs-imbot
   (package
    (name "emacs-imbot")
-   (version "20260412.1230")
+   (version "20260417.1417")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/QiangF/imbot.git")
-           (commit "8ebad97c649df5a616e9691af68cb11a87b8c086")))
-     (sha256 (base32 "15j567qm9jvq6cgc57h6l319rkp4dnkr0qvxnjwxxyjpzff42kgy"))))
+           (commit "5e5e3d9b857801e92f082882e8fb3d54be0a366d")))
+     (sha256 (base32 "0zfxgb34648ld7pdfwma5q5hp925gfchyk88j8mrqyj2vi33rn1q"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/QiangF/imbot")
    (synopsis "Emacs input method")
@@ -61324,7 +61324,7 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20260417.725")
+   (version "20260417.758")
    (source
     (origin
      (method git-fetch)
@@ -64495,14 +64495,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260413.1233")
+   (version "20260417.942")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "657fd6f92d768f5b6da90f55b47b0d9e02467edb")))
-     (sha256 (base32 "1zc4bfp9rr5hnky72p5jllynrlfh387n6xxwkx916yg4aw9wsrpf"))))
+           (commit "a2c40a9f921dec5c7074a69f4bdb4e4a8a2720aa")))
+     (sha256 (base32 "1nq4n7p3y6a09imsj14ckbxmnhrpdvr6cnypjn75wixixa548sd5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -80141,14 +80141,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260415.2344")
+   (version "20260417.1636")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "3461ba97d0b4a79f96ea2e4d677584e003c8b16a")))
-     (sha256 (base32 "0sli9757277zibrxryr41pi90k6kv7ipahzmiwdy2cpd4r0r5q7g"))))
+           (commit "ca0d60474cede8198329a939a902f51081543612")))
+     (sha256 (base32 "16vhk22gdcyl87l1fknkzqkr7nxyqrs2hlghr3vwlmcj9igr4cfa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -89682,14 +89682,14 @@
 (define-public emacs-scad-ts-mode
   (package
    (name "emacs-scad-ts-mode")
-   (version "20260202.1350")
+   (version "20260417.946")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/yoshinari-nomura/scad-ts-mode.git")
-           (commit "afaf52a34050aa1f7da12b85b25f20beffb08e2f")))
-     (sha256 (base32 "0f023iw8bkyxpy78q2wqpgrn9q8hf5nqwh8y264m3nlyp2nvn8rl"))))
+           (commit "6c74892d24bc9cbac22a8a9b56df224a597ca6d2")))
+     (sha256 (base32 "0vdplhv85i2cw65qcmw2k4l7shzlg7wsnlkrp63mcpy68wkq0643"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/yoshinari-nomura/scad-ts-mode")
    (synopsis "Tree-sitter support for OpenSCAD")
@@ -92659,14 +92659,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260316.1316")
+   (version "20260417.1053")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "b4a360cdff4ca5e51a1eb9b1503b390423750a2c")))
-     (sha256 (base32 "10igds0b3ix6vylfh7agjmmzqn09k9gg6kyzl15q0bpyv0p5v4jr"))))
+           (commit "904741295a5df0e6a127cacaf60a567924bb27f3")))
+     (sha256 (base32 "0n6z7p9b3n8mlwkwzv6b588lcla9d0izmrhf8p5ajlr1pf979i92"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -96584,14 +96584,14 @@
 (define-public emacs-sumibi
   (package
    (name "emacs-sumibi")
-   (version "20260408.1334")
+   (version "20260417.1157")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/Sumibi.git")
-           (commit "e52bd87416458bd8bb920b33fac9afdee27140d5")))
-     (sha256 (base32 "0zbpycvymqhjx8jrfq9rszl9yyvjjk35a2fkd45ghg7kfcqhlsk3"))))
+           (commit "366cf1a2a9f408cc34c1412a4b06dfe01f46d97f")))
+     (sha256 (base32 "0z6g97975y2vchr2bkks4v18pk9zlcpgrffm53f4jvqjgp7pdxas"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-popup emacs-unicode-escape emacs-deferred emacs-markdown-mode))
@@ -103280,14 +103280,14 @@
 (define-public emacs-unspecified-theme
   (package
    (name "emacs-unspecified-theme")
-   (version "20251203.2130")
+   (version "20260417.842")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/mekeor/unspecified-theme.git")
-           (commit "f403d8f304d319729466fe019a74402d526ab0ee")))
-     (sha256 (base32 "0cafm2vmm8225wf6212ylbcf4c8qnc539j4fl3459jqzs9pbg0n3"))))
+           (commit "50f87d04741e3fd6404c629a647299ae9e4f2f1d")))
+     (sha256 (base32 "0w2xx24gq0hk3kxsryggl213mr38gbq3xnsxs80bhx854plv3f4z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-most-faces))
    (home-page "https://codeberg.org/mekeor/unspecified-theme")
