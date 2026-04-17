@@ -3750,14 +3750,14 @@
 (define-public emacs-astro-ts-mode
   (package
    (name "emacs-astro-ts-mode")
-   (version "20250308.2341")
+   (version "20260417.101")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.isincredibly.gay/srxl/astro-ts-mode.git")
-           (commit "886d692378d0da2071e710c1e6db02e5b2e0dd30")))
-     (sha256 (base32 "07qdklcw6sfqw9d7yw32qylwaj8w4is6cfm59idhbcgwjlayw08c"))))
+           (commit "1d24c9d399dee4cfea6ed9b49d8e08891665e16c")))
+     (sha256 (base32 "1cm5ykq70d8346kfpd9zghb0pl9a2p4gckbqx44sqjvb5s2kip8w"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Sorixelle/astro-ts-mode")
    (synopsis "Major mode for editing Astro templates")
@@ -5916,14 +5916,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260416.1123")
+   (version "20260416.2100")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "c7bdcf4581dea7e6a37a2a22cb6ca4cb3729a0ff")))
-     (sha256 (base32 "0b04i126wksw2gllgs2wq1dxrcg98b2mi9mrggm6rfy4lp93aiyl"))))
+           (commit "453674c5331d92e02ad2c283640ca4718eba83e6")))
+     (sha256 (base32 "11vks6gcbp2npnmcbwnkzwc7a20i203x30z83iv68mhqw3bhwlsy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazelbuild/emacs-bazel-mode")
    (synopsis "Bazel support for Emacs")
@@ -23632,14 +23632,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260415.12")
+   (version "20260417.125")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "e5d4299fd3ee45bd24a0bf181587e77d29b88284")))
-     (sha256 (base32 "0kdsc8ql5ab58hbcjmhwiw0448pjqf6r44kyhnxaq0qvgmaikjpk"))))
+           (commit "7b8085c4356a10584a17eb41d9e6e1cb946854ca")))
+     (sha256 (base32 "04jlafp00mprj45ncv7vn611gr0fww3i2i7ay9ciwxsn0rligc77"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260416.1522")
+   (version "20260417.103")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "37068eacb50647421ad342c35b50b4babdfea27a")))
-     (sha256 (base32 "1qjz20bxzpi8jjgdaxx8icykjnan9mi59ninfih6p90fpjmr6lsx"))))
+           (commit "305eacdd1b360da860676cf2ad8cc1fb46e763b6")))
+     (sha256 (base32 "1zb5dc6xa88cq0kfwz3qkdj63006bpj7kd39w3vj365qd8hxdyf0"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -60448,14 +60448,14 @@
 (define-public emacs-macher
   (package
    (name "emacs-macher")
-   (version "20260203.2055")
+   (version "20260417.12")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kmontag/macher.git")
-           (commit "16672b88967c3ea452d8670285e2ab7fc705ce17")))
-     (sha256 (base32 "10wz9rdyb3lx7g69wnf7gb305nzgjss9a0rln9ycy54dnhdcwzhp"))))
+           (commit "caefe138cdaefa402f5c194ebfd3c47b6674e4c3")))
+     (sha256 (base32 "1ddc5ld70ppqw7jbr79gjsgl92pgbmvmdd5xxqqmxinyxz3yg37b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (home-page "https://github.com/kmontag/macher")
@@ -63919,14 +63919,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260416.536")
+   (version "20260416.2128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "7564e6011e76be7803a11f707501b6b92a2af8db")))
-     (sha256 (base32 "0k338f8vq2f0276q648ijkc9w7pa8v8mk1dmdv01m22znl4kv2mx"))))
+           (commit "c7f94faddd5e48cd61727525ae28481746a9a6d7")))
+     (sha256 (base32 "10scwnl7254a8fgs274hns9p7d3phvg847caiq3v88mgqnf4pn6w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -68828,14 +68828,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260414.2110")
+   (version "20260416.2029")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "bb746532034c55e5ad07185020fe57c159342c7f")))
-     (sha256 (base32 "0pfq90fkyixmrmzkqhcx3brzw71jfcy5fyw78j1v6fpbfwn326hl"))))
+           (commit "07fa8d20647ac47b90ab778a9796934efd86c843")))
+     (sha256 (base32 "0j5lsc1rxpvzlr83wsbby3ypbxssxafxbgaaka017w1id7psfglm"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
