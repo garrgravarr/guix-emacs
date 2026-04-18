@@ -1805,14 +1805,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260417.500")
+   (version "20260417.1738")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "0037406baff9125823f93f514f09b0e46b300a4f")))
-     (sha256 (base32 "0hv5shvkm1jp2dvbskwn8jhfzp910ad670a8kik9g2vh5v3y9q1i"))))
+           (commit "f2c28415e30e29380b72bef1f681900cca0e418a")))
+     (sha256 (base32 "0hvzdmlf5kh81yig2zj34g8kygbwxhv2xga2601mvxk084g7skci"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -23632,14 +23632,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260417.125")
+   (version "20260417.1809")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "7b8085c4356a10584a17eb41d9e6e1cb946854ca")))
-     (sha256 (base32 "04jlafp00mprj45ncv7vn611gr0fww3i2i7ay9ciwxsn0rligc77"))))
+           (commit "ecf9d229e012ceabb871b261c28cc06702d601a7")))
+     (sha256 (base32 "1jgm2bx1hf7aw1jl3ayf5qqm4rragcmly1qbn8jnwn0w8xffm2ww"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -24476,14 +24476,14 @@
 (define-public emacs-eglot-typescript-preset
   (package
    (name "emacs-eglot-typescript-preset")
-   (version "20260403.1656")
+   (version "20260417.1841")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-typescript-preset.git")
-           (commit "97c673f6408fa35fe859330f6014c35f9dce15a8")))
-     (sha256 (base32 "0k12kszfg68q343mww7ivacpkw177ca23878v13b8p00xac86app"))))
+           (commit "f789a45d98eb4d5cc8129a34893a91bd36abd09c")))
+     (sha256 (base32 "1jy3hp621p7lh3zrxs7rgq7kajmxb5wvqjfd4flna4vmxrjg4r3q"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
    (home-page "https://github.com/mwolson/eglot-typescript-preset")
@@ -38740,14 +38740,14 @@
 (define-public emacs-gdscript-mode
   (package
    (name "emacs-gdscript-mode")
-   (version "20260415.2053")
+   (version "20260417.1926")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/godotengine/emacs-gdscript-mode.git")
-           (commit "aee87bba06638e7fe52d15a6aae2be2bb51b8d03")))
-     (sha256 (base32 "1j3k12gbmpdhjr8iixal5ifn97grxbnhax2zdsp49261p8g7mn9y"))))
+           (commit "f6ee6891e15b4aaf4e159ecf3ab8482da6fe0ea7")))
+     (sha256 (base32 "1hqrc20cgqgcrbc5wqwldq7f0xxfvm3y6cnxzy4brdvg61hdg82b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/godotengine/emacs-gdscript-mode/")
    (synopsis "Major mode for Godot's GDScript language")
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260417.1331")
+   (version "20260417.2021")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "895e55ba3f806424eb5bd8841dcd9c655b442b36")))
-     (sha256 (base32 "01m0zjd7axim5f7s9cfmyp3309d7dda4l31cxasdsycagbap1zf2"))))
+           (commit "9846c64f4a5164da2578f7f94662cd4d2de47ceb")))
+     (sha256 (base32 "0y48j4hz6ngj063yiyjdkd2637jrlw0hckmd4i1r0vsj6s9sfpci"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -63919,14 +63919,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260417.437")
+   (version "20260417.2107")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "daeab6412df3e64ab879918c2c5ad8c1d3edae8f")))
-     (sha256 (base32 "01ygnsddaxrpj3l9j6cyr7w8qdzr5h1lkmx5p58wrfr017yy2vs4"))))
+           (commit "cb3672c6287b4eecc846f0c5bf952bddeb2e5416")))
+     (sha256 (base32 "1gbz9wi1nlg08i6ykjsqn2qcb9533daw5i35w27p88npl14llqkd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -64495,14 +64495,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260417.942")
+   (version "20260417.1951")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "a2c40a9f921dec5c7074a69f4bdb4e4a8a2720aa")))
-     (sha256 (base32 "1nq4n7p3y6a09imsj14ckbxmnhrpdvr6cnypjn75wixixa548sd5"))))
+           (commit "7950791b521bcde428a476724e628e2f1e74962e")))
+     (sha256 (base32 "04p064ya37li3cx9vd13qslgwgbk04f4654ha08ic7bzx3sgn94a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -68828,14 +68828,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260416.2029")
+   (version "20260417.2113")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "07fa8d20647ac47b90ab778a9796934efd86c843")))
-     (sha256 (base32 "0j5lsc1rxpvzlr83wsbby3ypbxssxafxbgaaka017w1id7psfglm"))))
+           (commit "f8393ef88fb1c6bd306b734c7726ad415e82280e")))
+     (sha256 (base32 "0qnxhqa4sf1jpxr8cbzs438c3m43s2qmz47q1yd3symxqw36w3m4"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -70505,14 +70505,14 @@
 (define-public emacs-occult
   (package
    (name "emacs-occult")
-   (version "20260405.2236")
+   (version "20260418.51")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/occult.el.git")
-           (commit "3d626126ede4fd017824d44a24a577fce171bcd0")))
-     (sha256 (base32 "0xi17kd63ll514jxy215bn1wm0z4wv9di0m0rffc84p1m6x8cbl2"))))
+           (commit "82f766ed59fcd85860b1ef53b3b275b75c4fcb77")))
+     (sha256 (base32 "1b4ihmq8cydhrb0zszsmzngignskq5sc7qibzc5xczh5vqg03h2f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/agzam/occult.el")
    (synopsis "Collapse and reveal buffer regions")
@@ -76675,14 +76675,14 @@
 (define-public emacs-overleaf
   (package
    (name "emacs-overleaf")
-   (version "20260406.118")
+   (version "20260417.1854")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vale981/overleaf.el.git")
-           (commit "dc88dd79b016c90297912a81035b6ca685cc9136")))
-     (sha256 (base32 "1c5bvfkf1rsh8rwskf809mi9k8448a46w8wkf5w5af8xwfsd9mng"))))
+           (commit "62c31c609d7d96ec6c592eec40fba41735e40875")))
+     (sha256 (base32 "1bj7jq63v52gn8jaa7bsi22ac321j21cmsxd9vl5kvvagzrjqbiv"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-plz emacs-websocket emacs-webdriver emacs-posframe))
@@ -80141,7 +80141,7 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260417.1636")
+   (version "20260417.1655")
    (source
     (origin
      (method git-fetch)
@@ -97792,17 +97792,17 @@
 (define-public emacs-tabbar-ruler
   (package
    (name "emacs-tabbar-ruler")
-   (version "20160802.307")
+   (version "20260417.2349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mattfidler/tabbar-ruler.el.git")
-           (commit "535568189aa12a3eff7f977d2783e57b6a65ab6a")))
-     (sha256 (base32 "1csj6qhwihdf4kfahcqhm163isiwac08w4nqid1hnca184bfk6xm"))))
+           (commit "2b72193e4fa9665236ec5dd17c47d0cf91ccc977")))
+     (sha256 (base32 "04y6yrgqvap4gkn0c1py8qx1vp9gpnhs5xaf82qb1ak903hwwms4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tabbar emacs-powerline emacs-mode-icons))
-   (home-page "http://github.com/mlf176f2/tabbar-ruler.el")
+   (home-page "https://github.com/mlf176f2/tabbar-ruler.el")
    (synopsis "Pretty tabbar, autohide, use both tabbar/ruler")
    (description "Documentation at https://melpa.org/#/tabbar-ruler")
    (license #f)))
@@ -107176,14 +107176,14 @@
 (define-public emacs-with-editor
   (package
    (name "emacs-with-editor")
-   (version "20260301.1317")
+   (version "20260417.751")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/with-editor.git")
-           (commit "64211dcb815f2533ac3d2a7e56ff36ae804d8338")))
-     (sha256 (base32 "0gxmmzx7z84d4684q58ijms7d555ngasvzhfz2gna9awly5qig6z"))))
+           (commit "d0935036eb894680d8ca1a4d1ed8e8d5d90005e5")))
+     (sha256 (base32 "15vvc6awlk8mzqqfqn7n3k349skzg0jk645sjgmzq1sfig4yfcsy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/magit/with-editor")
