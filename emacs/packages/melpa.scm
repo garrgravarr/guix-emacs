@@ -1805,14 +1805,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260417.1738")
+   (version "20260418.502")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "f2c28415e30e29380b72bef1f681900cca0e418a")))
-     (sha256 (base32 "0hvzdmlf5kh81yig2zj34g8kygbwxhv2xga2601mvxk084g7skci"))))
+           (commit "da7d4d8b7d9594a214b5eadec9d0de5aaaa618fb")))
+     (sha256 (base32 "1y9jwcq03lgy96q1nw3lfc1mzzad9mj96lybi4p62sk4rfilb53c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -4861,14 +4861,14 @@
 (define-public emacs-auto-sudoedit
   (package
    (name "emacs-auto-sudoedit")
-   (version "20230907.724")
+   (version "20260418.631")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ncaq/auto-sudoedit.git")
-           (commit "1caa127db200f86d1cfdeaae4410a673f0ae11e0")))
-     (sha256 (base32 "14rdkb4dg3vszj2yjqdijq6d73qaag0mmn7bl6a2vhc0b60lr5kj"))))
+           (commit "765412970c9ad708cc455aeebde03864983f5275")))
+     (sha256 (base32 "0z3bql3z6lqh85r359fz356sh7w5i0jkaw4nzscv04j0fs6ik53l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f))
    (home-page "https://github.com/ncaq/auto-sudoedit")
@@ -19453,14 +19453,14 @@
 (define-public emacs-devcontainer
   (package
    (name "emacs-devcontainer")
-   (version "20260313.1842")
+   (version "20260418.621")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/devcontainer.el.git")
-           (commit "5758aece4911a1d5f93f6c4fb2f50491021ebf40")))
-     (sha256 (base32 "0xwdbbf6w18myxh75xnb1b4vrrm30zywz6czkl3lkr62d5066nzi"))))
+           (commit "bc598413a18baa3ec9ef7e1a0cf0115685d23a22")))
+     (sha256 (base32 "029cglg8jgi32p68b7rfpslp55ccfky5pwzmwafz75r07zq15x4z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/johannes-mueller/devcontainer.el")
    (synopsis "Support for devcontainer")
@@ -42239,14 +42239,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260413.2133")
+   (version "20260418.827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "4747ffa251af84dbb6fe181f5d2b484ec2e442a7")))
-     (sha256 (base32 "1f75lp5wffdmj45zpiaxvnpwikms2gxqs0r206749vyz8p27c737"))))
+           (commit "e49685d95b8f729cc9c585aa07c3c237a5f81790")))
+     (sha256 (base32 "13wn1dcc7wnac3az2rr2rm1j372ng2pq6hvrjaxi8pynr0f87nf5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -55793,14 +55793,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260324.100")
+   (version "20260416.1901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "7038a9dcfa7e2d8848817508777d8ad878756cfb")))
-     (sha256 (base32 "1j6l2nm5jv96636sz9w9yf32vcmkc5n9zylh6k1vf5gidgwlgxni"))))
+           (commit "5236f011f420465c2abd853e7f16727c0c8eab7d")))
+     (sha256 (base32 "1awvliza7fva0a74lf6xqx7gzfbby5kr7z4ki818yd98z4x1rqxf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -60448,14 +60448,14 @@
 (define-public emacs-macher
   (package
    (name "emacs-macher")
-   (version "20260417.12")
+   (version "20260418.233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kmontag/macher.git")
-           (commit "caefe138cdaefa402f5c194ebfd3c47b6674e4c3")))
-     (sha256 (base32 "1ddc5ld70ppqw7jbr79gjsgl92pgbmvmdd5xxqqmxinyxz3yg37b"))))
+           (commit "c1267d0e103e1f3e4e1fbc2f3922c312a14a0407")))
+     (sha256 (base32 "1d8h0x5fnzxz3l9b9wmdfpql354vhqjf35rwzc57l5hgh1pr9vd2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (home-page "https://github.com/kmontag/macher")
@@ -63919,14 +63919,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260417.2107")
+   (version "20260418.608")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "cb3672c6287b4eecc846f0c5bf952bddeb2e5416")))
-     (sha256 (base32 "1gbz9wi1nlg08i6ykjsqn2qcb9533daw5i35w27p88npl14llqkd"))))
+           (commit "bbd499fe230ec03b67a809ccdeeb3462a6a5b82b")))
+     (sha256 (base32 "1wgzb6qv6xn1xpnyni216z8bv0bf4slf5s24ml0wqvd9m9f64622"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -76503,14 +76503,14 @@
 (define-public emacs-outline-indent
   (package
    (name "emacs-outline-indent")
-   (version "20260324.59")
+   (version "20260416.1902")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/outline-indent.el.git")
-           (commit "85d1f66e82454829fcda5aa40334bb47be10586c")))
-     (sha256 (base32 "1r12xvlxr6mylz0jkc63hwdsapw73xcqvqry5xbyqc6d778m0zsz"))))
+           (commit "b25886d0b6a6de1b6c3e881230e41b76ad8652e0")))
+     (sha256 (base32 "1bmfi4bc0zjczivq7dc7zb1z016sswpz83czsfp0ggpm4xfjv79w"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/outline-indent.el")
    (synopsis "Folding text based on indentation (origami alternative)")
@@ -89682,14 +89682,14 @@
 (define-public emacs-scad-ts-mode
   (package
    (name "emacs-scad-ts-mode")
-   (version "20260417.946")
+   (version "20260418.410")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/yoshinari-nomura/scad-ts-mode.git")
-           (commit "6c74892d24bc9cbac22a8a9b56df224a597ca6d2")))
-     (sha256 (base32 "0vdplhv85i2cw65qcmw2k4l7shzlg7wsnlkrp63mcpy68wkq0643"))))
+           (commit "9a61e0ad7a9cf2c4274553a35fc8643506d40c68")))
+     (sha256 (base32 "0s3pwn37inlaz9lbpk0fgaqnnvq64is7v69fi2vdrg1hjca3k8s0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/yoshinari-nomura/scad-ts-mode")
    (synopsis "Tree-sitter support for OpenSCAD")
@@ -101718,14 +101718,14 @@
 (define-public emacs-trust-manager
   (package
    (name "emacs-trust-manager")
-   (version "20260416.1737")
+   (version "20260418.640")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/eshelyaron/trust-manager.git")
-           (commit "4353cbb7819f1e1b54ba74c3a7488b100b83d9c9")))
-     (sha256 (base32 "1sycbclsdyvr4ril8df17a2sisls2b7kjn31j6piapslqzm1zhab"))))
+           (commit "a6994367725beb9e21163de4c7c9e941b115f2a0")))
+     (sha256 (base32 "1j3c0mchrhiydmn3i1l5h6nkydf0acm9kx859b7j3h1b2wmj5cm0"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~eshel/trust-manager")
    (synopsis "Convenient trust management")
