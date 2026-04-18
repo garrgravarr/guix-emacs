@@ -7059,14 +7059,14 @@
 (define-public emacs-blackjack
   (package
    (name "emacs-blackjack")
-   (version "20230821.41")
+   (version "20260418.1402")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gdonald/blackjack-el.git")
-           (commit "41238df9f0c54ac086dfc4f2aff22acdfca11779")))
-     (sha256 (base32 "0rdak4sx21ng9fmxg7iz6h3gjdxj2amnxv1jy39xp79zdp326vi5"))))
+           (commit "3930d197d1f8f37de0dbb6c9875ef5279e16cdfa")))
+     (sha256 (base32 "0zxpiz9kjicyf2lhq2rclj2cqaf3f518xwlm48dcrkr1hjn6yqac"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gdonald/blackjack-el")
    (synopsis "The game of Blackjack")
@@ -38201,14 +38201,14 @@
 (define-public emacs-fsharp-ts-mode
   (package
    (name "emacs-fsharp-ts-mode")
-   (version "20260411.1139")
+   (version "20260418.1430")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/fsharp-ts-mode.git")
-           (commit "aa729524a7dcd978f726fc9742bbc5dccd18afe0")))
-     (sha256 (base32 "0v20iimw2lyw5n0szwkgw315dz4gs733kq6xr34p9yzrhxp4lvra"))))
+           (commit "dc8751051b242a278c8aa364bbc4cb16c33f0b41")))
+     (sha256 (base32 "1kj99xqbhyc32iv6dc494rcicd3s4qs7fm1ckby9z8x6wrsiigzq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/fsharp-ts-mode")
    (synopsis "Major mode for F# code")
@@ -54144,14 +54144,14 @@
 (define-public emacs-json-par
   (package
    (name "emacs-json-par")
-   (version "20260307.1319")
+   (version "20260418.849")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/taku0/json-par.git")
-           (commit "a90a7e1bb878d2534a490366504dd716b5be6054")))
-     (sha256 (base32 "1m1hv17p2dxm3rl1gj83fkrnmmmd3c8qmbn57mj53kpcdqjqmf17"))))
+           (commit "9e1876e0c2a43d5350307bd834a856ebed54dcc4")))
+     (sha256 (base32 "1n10zh3kvn87vyi3b44727z98k2jnd1p3mv0zjylggkz6xx9w6bs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/taku0/json-par")
    (synopsis "Minor mode for structural editing of JSON")
@@ -64495,14 +64495,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260417.1951")
+   (version "20260418.1313")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "7950791b521bcde428a476724e628e2f1e74962e")))
-     (sha256 (base32 "04p064ya37li3cx9vd13qslgwgbk04f4654ha08ic7bzx3sgn94a"))))
+           (commit "7c2ce1ff0dc25215061d05a9d796d6193f93c84e")))
+     (sha256 (base32 "0ymzjwqbmszjsy30057m91vwvbqyvprsjd7r0cxigqspk2qabfiy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -68828,14 +68828,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260417.2113")
+   (version "20260418.856")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "f8393ef88fb1c6bd306b734c7726ad415e82280e")))
-     (sha256 (base32 "0qnxhqa4sf1jpxr8cbzs438c3m43s2qmz47q1yd3symxqw36w3m4"))))
+           (commit "c0f9a69c870ea2c040d34c4914483206b8edb3f5")))
+     (sha256 (base32 "0xwg38li2b79hdddkfj04j319pabjxfii9xfvkpqxrqag3hc9lcv"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -74787,16 +74787,17 @@
 (define-public emacs-org-social
   (package
    (name "emacs-org-social")
-   (version "20260223.924")
+   (version "20260418.1402")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tanrax/org-social.el.git")
-           (commit "367ab5cf6ae12715bb9cade7a8eb45cf8d7f8723")))
-     (sha256 (base32 "1aw0zfg898ggyn139n0x2fgaygayl14gv48mq59zw6b8ffkrff52"))))
+           (commit "613dcf8b65216a32afee1c42bb3273f6c4e1cd91")))
+     (sha256 (base32 "14nnnfwp2wqhvv4pcwhasynrjgp6yyqkisfsqmsc87w0akfaziph"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-request emacs-emojify))
+   (propagated-inputs
+    (list emacs-request emacs-emojify emacs-async-http-queue))
    (arguments
     '(#:files (:defaults "ui/org-social*.el" "ui/buffers/org-social*.el")))
    (home-page "https://github.com/tanrax/org-social.el")
@@ -79681,14 +79682,14 @@
 (define-public emacs-pg
   (package
    (name "emacs-pg")
-   (version "20260328.1624")
+   (version "20260418.1149")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emarsden/pg-el.git")
-           (commit "67f50311947a54913d91852ebd6880dbe68930bc")))
-     (sha256 (base32 "0w9a8y3s2dbmpqbbnxycxd38niqq2slzr26bfl4v1pfcm0w7skfz"))))
+           (commit "b3f24200ae8fbd87984d3b3b2909987b309cd738")))
+     (sha256 (base32 "1bp4a5wlsz1rkxicp7d76lq0i8nyy11css9yxv434ffjl4ydnpb5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-peg))
    (home-page "https://github.com/emarsden/pg-el")
@@ -90395,14 +90396,14 @@
 (define-public emacs-sekka
   (package
    (name "emacs-sekka")
-   (version "20260414.1258")
+   (version "20260418.1032")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/sekka.git")
-           (commit "d55f6df4ef13090b7c556d6791c91a24c9bb107b")))
-     (sha256 (base32 "14wka3l93v6w8q6vqwxd97a6qyixrbbm57g5qbzh1ck8yyq6wamv"))))
+           (commit "39aa0ea50a10b44b9e54aff847237bb7657b3fe4")))
+     (sha256 (base32 "1hx59x082qxl0xvylz5fcaf9dffiqwqni5bqrl2lpq9a9ralhv8i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-popup))
    (arguments '(#:files ("emacs/sekka.el")))
@@ -101718,14 +101719,14 @@
 (define-public emacs-trust-manager
   (package
    (name "emacs-trust-manager")
-   (version "20260418.640")
+   (version "20260418.1116")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/eshelyaron/trust-manager.git")
-           (commit "a6994367725beb9e21163de4c7c9e941b115f2a0")))
-     (sha256 (base32 "1j3c0mchrhiydmn3i1l5h6nkydf0acm9kx859b7j3h1b2wmj5cm0"))))
+           (commit "e2b36a00e269e38d6e89616478f55deb0ef84bbf")))
+     (sha256 (base32 "0zx85fqmhk1vw5cnzw6npfd2iphcdpaiwvr9hd8921rf3rixb9xa"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~eshel/trust-manager")
    (synopsis "Convenient trust management")
