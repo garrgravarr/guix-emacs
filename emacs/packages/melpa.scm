@@ -1805,14 +1805,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260418.2053")
+   (version "20260419.302")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "1c3e75ca7025201bbf930d57c1643c9c486e5170")))
-     (sha256 (base32 "0j7lm89g7yb31g63q0bfw92gbs2q5zfalqcpbhv6jjz01xx1ib46"))))
+           (commit "2cc91da1a476e15624fb6c5ff11314ca2ece69d2")))
+     (sha256 (base32 "1m50aw70pc661d9f9kggss8ajalz59qsva4yyk3qp7fs5a4igw1m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -5737,14 +5737,14 @@
 (define-public emacs-base16-theme
   (package
    (name "emacs-base16-theme")
-   (version "20260412.231")
+   (version "20260419.235")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tinted-theming/base16-emacs.git")
-           (commit "dc3ae1cb5b4790d72124b1bd9ac11dc6669616c3")))
-     (sha256 (base32 "09pbil60ckc9v35a0j5l3s70cmks5a99115sjx19hycdpxyp1b9i"))))
+           (commit "8461432c62353f302b79bf0b2db2f99b83183dbe")))
+     (sha256 (base32 "1n36k7fax231x07n82licps5kvm682nz1adr93ly7np5434m0926"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "build/*.el")))
    (home-page "https://github.com/tinted-theming/base16-emacs")
@@ -61324,14 +61324,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20260417.758")
+   (version "20260419.443")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "5f30b48ae9ad0f4c0bd97d24f3a7b6c2f01ff7a5")))
-     (sha256 (base32 "0i8jm4j2bfwl9l8djhaqd52makl1xym38jvnxf85va7ixjl1v0wq"))))
+           (commit "ebc1078543e6aa3c6ea6eeb63bc4badb09222bb4")))
+     (sha256 (base32 "0hznp7kds0spz538l9swzjaw0j2c5mp26n35vx8ia0z95kr209gz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm))
    (home-page "https://github.com/hrishikeshs/magnus")
@@ -70822,14 +70822,14 @@
 (define-public emacs-olivetti
   (package
    (name "emacs-olivetti")
-   (version "20241030.542")
+   (version "20260419.703")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rnkn/olivetti.git")
-           (commit "845eb7a95a3ca3325f1120c654d761b91683f598")))
-     (sha256 (base32 "0hpw8q4x1ns6l838r2m0zfm7ykxsrfx893bvsn92nsn6k10p0yvr"))))
+           (commit "d1bdd439421865c20e907d9abe65840c57411bc9")))
+     (sha256 (base32 "1x88ncrv2mvj5lxwj79pix33mmlarh073vkx8ghdfhlk8qm05w5a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/rnkn/olivetti")
    (synopsis "Minor mode to automatically balance window margins")
