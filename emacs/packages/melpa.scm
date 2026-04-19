@@ -5859,6 +5859,23 @@
    (description "Documentation at https://melpa.org/#/basic-theme")
    (license #f)))
 
+(define-public emacs-batppuccin
+  (package
+   (name "emacs-batppuccin")
+   (version "20260414.1231")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/bbatsov/batppuccin-emacs.git")
+           (commit "492b657b37cc3335ace1150a965b3295db8495f4")))
+     (sha256 (base32 "146fr7c01137zn3nwmzfk2mahhvxksb4b2b2i7n3pbyvkg899020"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/bbatsov/batppuccin-emacs")
+   (synopsis "Shared infrastructure for Batppuccin themes")
+   (description "Documentation at https://melpa.org/#/batppuccin")
+   (license #f)))
+
 (define-public emacs-bats-mode
   (package
    (name "emacs-bats-mode")
@@ -25598,14 +25615,14 @@
 (define-public emacs-elfeed-score
   (package
    (name "emacs-elfeed-score")
-   (version "20260125.2028")
+   (version "20260419.349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sp1ff/elfeed-score.git")
-           (commit "f6ef83c472e6f01d0f60130ecac768462c5a20b7")))
-     (sha256 (base32 "1a2ymyb6l84jrphrfb8svrm78aq9dpp5k18y112pg19lc6wqwgbv"))))
+           (commit "f6d25f6c1c967822e75ff01ad4d57be1c80f480a")))
+     (sha256 (base32 "05wgqmcdhfq4qmsil2sagzxv43cqf6skn5mfq0n76rf4n6slngns"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-elfeed))
    (home-page "https://github.com/sp1ff/elfeed-score")
@@ -27358,14 +27375,14 @@
 (define-public emacs-empv
   (package
    (name "emacs-empv")
-   (version "20260411.207")
+   (version "20260419.1452")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/empv.el.git")
-           (commit "61cc54f8a506b708285a3f7a3fb299616d0fab02")))
-     (sha256 (base32 "1r6hchdchfpici44dynxa0ivhmmc3hrj1qdvgjvaysqymn1hbz1y"))))
+           (commit "7f8af0b41a83c36acf7fe826839c02ecbffa33fc")))
+     (sha256 (base32 "09lyvhp719dq5lz1ljzgmpwy30pxlsbccx1kdlkzi26jlgqnki3s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-compat))
    (home-page "https://github.com/isamert/empv.el")
@@ -39423,14 +39440,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260418.2233")
+   (version "20260419.938")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "65932e6ace5092dc07617f48f308b641af370278")))
-     (sha256 (base32 "0ss03sgfb5nqry839lv5gc936krkdx0id4y26ryq7klhv0nicl0s"))))
+           (commit "17fc7919f37c473a819589403a91a05d50f0cb1a")))
+     (sha256 (base32 "1zdb45l3xws7aiw187fb0pj3szb6qsdfigi2sagbw39nvlskw4b8"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -62304,14 +62321,14 @@
 (define-public emacs-matlab-mode
   (package
    (name "emacs-matlab-mode")
-   (version "20260315.1223")
+   (version "20260419.1224")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mathworks/Emacs-MATLAB-Mode.git")
-           (commit "f21e88655823e25c6f72c38c6e508a5dada17088")))
-     (sha256 (base32 "0174yi7r4qwcgpb46i9szx1b2qc20wkp1laxj00r564119sv1m0r"))))
+           (commit "6e2e913f98b4f54020eb25b8c4e798f13d062bb5")))
+     (sha256 (base32 "1yn8mjp15vvk8ziqbssffp01ax8fqq3x2arkcbb42knq3vykcfch"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -65899,14 +65916,14 @@
 (define-public emacs-multiple-cursors
   (package
    (name "emacs-multiple-cursors")
-   (version "20260410.1331")
+   (version "20260419.931")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magnars/multiple-cursors.el.git")
-           (commit "6f984c6e1d5f144027d2b6eafb6b77744fb2f8d5")))
-     (sha256 (base32 "0h9kvfw6f6if3nkmypff1gcqx6w5id0254z0d7cn5q4gdfq2m9p6"))))
+           (commit "94b8b07a4bab87f803123723b68227565429dfa1")))
+     (sha256 (base32 "1bxj0bcdn4cdvszq67dwxggasv3xs4xh6403ldl4m475i7w5mgx9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/magnars/multiple-cursors.el")
    (synopsis "Multiple cursors for Emacs")
@@ -96846,14 +96863,14 @@
 (define-public emacs-swagg
   (package
    (name "emacs-swagg")
-   (version "20251110.2034")
+   (version "20260419.1333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/swagg.el.git")
-           (commit "87bd1f698bc4c77a1c0d6b252e15f4ee345d2afa")))
-     (sha256 (base32 "1xlknc7j5vz1sv5gwr8v6vyfginflsksjyzx6qz1svibkdwp223g"))))
+           (commit "efc457f6ab95814d806b43f1b83edfa8273f7f0c")))
+     (sha256 (base32 "1786vnf6ifpnp3rbllbdzipqzv1gmj2r904kkkjkmwjkjjiz03x3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-request emacs-dash emacs-yaml emacs-s))
