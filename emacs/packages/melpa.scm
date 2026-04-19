@@ -1805,14 +1805,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260418.502")
+   (version "20260418.2053")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "da7d4d8b7d9594a214b5eadec9d0de5aaaa618fb")))
-     (sha256 (base32 "1y9jwcq03lgy96q1nw3lfc1mzzad9mj96lybi4p62sk4rfilb53c"))))
+           (commit "1c3e75ca7025201bbf930d57c1643c9c486e5170")))
+     (sha256 (base32 "0j7lm89g7yb31g63q0bfw92gbs2q5zfalqcpbhv6jjz01xx1ib46"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -38380,14 +38380,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260417.414")
+   (version "20260418.1949")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "04b728c859b04cf59be3b3bd25532f2ef09bac2d")))
-     (sha256 (base32 "0qx5xyvixksh3qkpm1amyssz4zxannnz3rpmbl76zyb9iv4jbahn"))))
+           (commit "2d9b3647fb618fb1b152b78ae6d1b1c65c977f75")))
+     (sha256 (base32 "04y9m58s2zzvv4y5wxzn7cxl6xpjll96sqx1dsc4ylvkk8wivgaa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -39423,14 +39423,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260417.2021")
+   (version "20260418.2233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "9846c64f4a5164da2578f7f94662cd4d2de47ceb")))
-     (sha256 (base32 "0y48j4hz6ngj063yiyjdkd2637jrlw0hckmd4i1r0vsj6s9sfpci"))))
+           (commit "65932e6ace5092dc07617f48f308b641af370278")))
+     (sha256 (base32 "0ss03sgfb5nqry839lv5gc936krkdx0id4y26ryq7klhv0nicl0s"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -41887,14 +41887,14 @@
 (define-public emacs-google-translate
   (package
    (name "emacs-google-translate")
-   (version "20260415.1227")
+   (version "20260419.134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/atykhonov/google-translate.git")
-           (commit "6187fd22611b2e2f49ac4a72781115c9f5e78748")))
-     (sha256 (base32 "1v7rdfnknylafkkwk5rvr061w67hsashn8bh68k65p30ypz5cnqw"))))
+           (commit "47c5719b7dd51a37a6ad270489738187a436d920")))
+     (sha256 (base32 "00ci21fmss7nisdzp47zzdbvgny6lxps4dcs4mf1bs93dhar3ksk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-popup))
    (home-page "https://github.com/atykhonov/google-translate")
@@ -61831,14 +61831,14 @@
 (define-public emacs-markdown-indent-mode
   (package
    (name "emacs-markdown-indent-mode")
-   (version "20260308.1640")
+   (version "20260419.8")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/whhone/markdown-indent-mode.git")
-           (commit "44aa4ddb57c0a0787302ae4ed3e054d9af12004d")))
-     (sha256 (base32 "1a3nd1ljqw2f3nkv3h1czhx0w5pm1a441d87prfg23fqc6ym70p6"))))
+           (commit "a2c2964a0bbc748bb04094a83d161f7596091885")))
+     (sha256 (base32 "17k0dbs4fh7mvyj4mryijz7k0x81bfzqnbj7ph4izwr9pnzz6873"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/whhone/markdown-indent-mode")
    (synopsis "Dynamic indentation for Markdown")
@@ -80142,14 +80142,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260417.1655")
+   (version "20260418.1713")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "ca0d60474cede8198329a939a902f51081543612")))
-     (sha256 (base32 "16vhk22gdcyl87l1fknkzqkr7nxyqrs2hlghr3vwlmcj9igr4cfa"))))
+           (commit "a07e1d0a3a2dbbac6f1d2a92656d2239f0dcb2c7")))
+     (sha256 (base32 "03cdqhsqml5sbpa2pm06hphavhnyq1b11nany1cpg7hshixz37wr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -85015,14 +85015,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260416.102")
+   (version "20260418.249")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "359d335c0f54a81d18ffbdd73366d1038709b1de")))
-     (sha256 (base32 "1wzvfqly4l3yi667y91aadaicw51dg3k3717gaz6h0jvhn4v58as"))))
+           (commit "7690b9569892bf5e5f87cae290cb6a861cd1deeb")))
+     (sha256 (base32 "0m9rxh51pny3cpiy4x24qqpgpfbaibdfv1yh5ckzy8hqcgkxq222"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
