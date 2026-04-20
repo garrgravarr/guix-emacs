@@ -4879,14 +4879,14 @@
 (define-public emacs-auto-sudoedit
   (package
    (name "emacs-auto-sudoedit")
-   (version "20260418.631")
+   (version "20260420.705")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ncaq/auto-sudoedit.git")
-           (commit "765412970c9ad708cc455aeebde03864983f5275")))
-     (sha256 (base32 "0z3bql3z6lqh85r359fz356sh7w5i0jkaw4nzscv04j0fs6ik53l"))))
+           (commit "06215a96bfd86eba382fce21e0068d4d464496f0")))
+     (sha256 (base32 "1n4rg1g7b34wypfcjs0r8idmin7kq74z1scw121619gwkdp07arf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f))
    (home-page "https://github.com/ncaq/auto-sudoedit")
@@ -38468,14 +38468,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260418.1949")
+   (version "20260420.639")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "2d9b3647fb618fb1b152b78ae6d1b1c65c977f75")))
-     (sha256 (base32 "04y9m58s2zzvv4y5wxzn7cxl6xpjll96sqx1dsc4ylvkk8wivgaa"))))
+           (commit "db162fbf4d62cb7bcab05ddf3c16fdcfe83a01a7")))
+     (sha256 (base32 "0c7gbs2p759cmcjqmb43l6wa2mlb4jf178dw480j88i3lk08fqp5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -39511,14 +39511,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260419.2247")
+   (version "20260420.805")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "2c92f6886746eff08f32fa07fc8b0fe35ee55896")))
-     (sha256 (base32 "10hpb0fljaa4wsz6iyjb3hqbi3nm6y4cyiyc63wpqqzqaqnp059z"))))
+           (commit "dcbbf1d3bc3724960afaa4a5491a22446fd3ffc6")))
+     (sha256 (base32 "1fz8awdl546lf81vq73h5dphzbdkx8a1kg25mwrybm416hdlx83w"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -42344,14 +42344,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260419.2143")
+   (version "20260420.642")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "3ad7a36250eaed8b68bb7fbd264877ef62bdf2b5")))
-     (sha256 (base32 "11pf3cl44dnp7k34vldwj0x216rmasd2x6liglr7qmxs3yf5hnkq"))))
+           (commit "a0adf16a3c9f1aadcb3ed92b76be371f2e5b5219")))
+     (sha256 (base32 "080zg11wxf127pwx07kbx6fyz48gp02sj3aipdyn8v2kmiz1l93k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -43290,14 +43290,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260419.2310")
+   (version "20260420.514")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "6a56001808e0b4bd44921069030cc3861f22dfd2")))
-     (sha256 (base32 "0yhf5nsmnc9my62sby3wbxmrkhk2zrhr3kmdm7gxk62llmrz0fmi"))))
+           (commit "55f89d5ac224dce201d5518054dbc795bb8a4758")))
+     (sha256 (base32 "0lhn5csmr3a06x88gnwazlmnv4m95d0jsc7c262rr3pccp1pvkqi"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -59980,14 +59980,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260408.702")
+   (version "20260420.746")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "4c74da7ae51145f8e49c3544c90b410d96a742fa")))
-     (sha256 (base32 "0wkvbwmd89z3rhyzfmpsdxxwk06arblwj1f6ycml68islfbdi1nr"))))
+           (commit "3e67d2ff7b3675ead55e2f0709330c79dfde403c")))
+     (sha256 (base32 "08v4ylfxlf9xa034mska1r0bjzqmg8r38v4jbwx27570x6dx0z8i"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -95074,14 +95074,14 @@
 (define-public emacs-spatial-navigate
   (package
    (name "emacs-spatial-navigate")
-   (version "20260412.1442")
+   (version "20260420.428")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-spatial-navigate.git")
-           (commit "cf99831bba08adb857c9283634bb09158666ace4")))
-     (sha256 (base32 "0nrkxv21gn2lsssqffwy52fmn65z387hpq0gg61h5cmr5nlsiq54"))))
+           (commit "764cf2ea5ded501493bfd543c5a290b8cda847d5")))
+     (sha256 (base32 "0dqa4lfw8kmnpnmf62s5p0z6y15k26c5y7vfqcv32apqzynqvkva"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-spatial-navigate")
    (synopsis "Directional navigation between blank-space blocks")
@@ -101497,7 +101497,7 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260419.1842")
+   (version "20260420.54")
    (source
     (origin
      (method git-fetch)
