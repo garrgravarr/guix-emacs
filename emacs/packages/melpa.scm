@@ -5880,14 +5880,14 @@
 (define-public emacs-batppuccin
   (package
    (name "emacs-batppuccin")
-   (version "20260420.1459")
+   (version "20260421.557")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/batppuccin-emacs.git")
-           (commit "1b5ca8b8661e7dcadf7f3928aff5c176532c61d6")))
-     (sha256 (base32 "0y3ygh5za3k72h2518icnpc33ya4vy02f63zzg1m2v3xb1mg3xwx"))))
+           (commit "9d9f36aab7ecd2ac446329708c09ba468f815862")))
+     (sha256 (base32 "1yxqzd6fzbr914bhyp7d2l12n7z0pryagqxr5j9dnvf3jrybbbjh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/batppuccin-emacs")
    (synopsis "Shared infrastructure for Batppuccin themes")
@@ -18281,14 +18281,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260412.924")
+   (version "20260421.833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "cca8b9ed9dba17733d68450f49b271b2d5631f84")))
-     (sha256 (base32 "05f6w6dw3bs878sm5jb2c5qvlxv2gd8i10rv8bczz8g4fi4m59x5"))))
+           (commit "8e23c3b0eda55ba9bcdaffa5ab7f179c23012163")))
+     (sha256 (base32 "0v7zkxdpcr5wgccvz8yiwahb6j2pl89hsjxhzs7ishakxw41asxa"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -38468,14 +38468,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260420.1620")
+   (version "20260421.559")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "a6848050aab36b6e817543c8bc6b93c8d792f86a")))
-     (sha256 (base32 "1dca6kwaj0xxkbvnc4drsazbghikxy05yjk2lpghbgi7k8andx99"))))
+           (commit "28c2fbb54a8435604fb70e61845e381006cf08c6")))
+     (sha256 (base32 "1c83902dhq8rqf49j7nc1aqnds7wcmlw6n81skyq428bqy7z6wn8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -39511,14 +39511,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260420.1702")
+   (version "20260421.828")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "44aaf670d4872ced78a431e25c66fcbb8929696c")))
-     (sha256 (base32 "0g7alhm81fblmkadbmhradcfwhyzl0f79z26gd82j3csn10g45nw"))))
+           (commit "5bd67f14ceb64e55a0d3982a69c1ee0ba8b8b625")))
+     (sha256 (base32 "0s2frxrwzlcwrfvdghcpchix8bn5affdxpj8pnl6d2gjzyqkjbaz"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -100537,14 +100537,14 @@
 (define-public emacs-tokyo-night
   (package
    (name "emacs-tokyo-night")
-   (version "20260420.1515")
+   (version "20260421.520")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/tokyo-night-emacs.git")
-           (commit "2e5b5820fcaf8fb2288c97c64f1bdd57f4589fca")))
-     (sha256 (base32 "05cffgsy5y3gfd6mma3lfn0hna4rch4bzfk85l5qylp3jbkcx96g"))))
+           (commit "17856a5d0184512c165f06b32e0749230318086a")))
+     (sha256 (base32 "0jbjvl70yvlqcz0xsgm0wf8s72j3pxnljxl4jdilhdqj7mfadba4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/tokyo-night-emacs")
    (synopsis "Shared infrastructure for Tokyo Night themes")
