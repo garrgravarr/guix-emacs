@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260421.1508")
+   (version "20260422.440")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "96a7981c859a592632e0d2cdbae9a67fbc53e4e5")))
-     (sha256 (base32 "0hi3jvhqjsmnf4w20vsxhjf547s4d4f9p2avyx0f5as2n6yr6vr7"))))
+           (commit "e44a49ef51ab795538cb39238c9290c0ac2783c9")))
+     (sha256 (base32 "1ra6r227d5b7g0rynb8a3ngb9cpa3zjjjrbvb778bkc3h1fr6mz6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -3209,14 +3209,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260414.2238")
+   (version "20260422.253")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "14316996958ec8962d9395bc4d986411f77971de")))
-     (sha256 (base32 "0a8p5xhdxc0hfalx7jklqw3px03pgdl2wahcr1ld7nss4q46354i"))))
+           (commit "7a2136052f4174c178b28da1a2c632904bf08176")))
+     (sha256 (base32 "0imxfjar7m2zla4dimk9h8y6cgybfss1fyy90vh022l8gprhfrc4"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -7323,14 +7323,14 @@
 (define-public emacs-blue
   (package
    (name "emacs-blue")
-   (version "20260308.905")
+   (version "20260422.644")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/lapislazuli/blue.el.git")
-           (commit "dfac707031b7f460440a088e18b1f6185ff18007")))
-     (sha256 (base32 "0yczp2jbxz27baangsq5iylskmnkvpds3v08jfmmck1i7shc83c3"))))
+           (commit "16c7092e7483cf7b29511374bbc8c80a1359b6b9")))
+     (sha256 (base32 "1f0glcg6y081wqgidakn56bdy6cx87fxw4zhdxc4l0vcsr98rc7m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit-section))
    (home-page "https://codeberg.org/lapislazuli/blue.el")
@@ -22153,7 +22153,7 @@
 (define-public emacs-dorgygen
   (package
    (name "emacs-dorgygen")
-   (version "20260421.2057")
+   (version "20260422.45")
    (source
     (origin
      (method git-fetch)
@@ -38468,14 +38468,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260421.1436")
+   (version "20260422.315")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "37725b03487c78c350d53b165c259fe91301b81a")))
-     (sha256 (base32 "16dy4z9snp6ajpk6bba40rjyvpri7w4g7s12nk8rvg18zckalgji"))))
+           (commit "feba1ccfae97ad9e4eba82984b49eaadf1854a77")))
+     (sha256 (base32 "17ijxljl6xmnp5m236rc7afkdyckgc52pff9lnc30n68bq9328dl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -41514,14 +41514,14 @@
 (define-public emacs-go-prettify-mode
   (package
    (name "emacs-go-prettify-mode")
-   (version "20260421.1648")
+   (version "20260422.732")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/snyssfx/go-prettify-mode.el.git")
-           (commit "93d8c578c63543721ee445aad76f965d92f05369")))
-     (sha256 (base32 "12kbaznrfd5aa1swbhdq0ll4f2b85xrwzd0yjmsw6gjjdf3cw9xa"))))
+           (commit "6aafd440383931b368901de66bf974bbd37a45f9")))
+     (sha256 (base32 "1rrfcnyfqry6ihlkz2w05sgsvcjb8yx74f3dinzpafxa8c2lh9x4"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/snyssfx/go-prettify-mode.el")
    (synopsis "Hide `if err != nil' and prettify them")
@@ -42344,14 +42344,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260420.642")
+   (version "20260422.756")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "a0adf16a3c9f1aadcb3ed92b76be371f2e5b5219")))
-     (sha256 (base32 "080zg11wxf127pwx07kbx6fyz48gp02sj3aipdyn8v2kmiz1l93k"))))
+           (commit "593786fce27b54248d4c0ae19b120cbbcf51aea9")))
+     (sha256 (base32 "1g436n57r6czk7vrzq8brzvsadrc16p37wicars750i5qhph7f48"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -49191,14 +49191,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260416.1532")
+   (version "20260422.744")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "5c24f8c617950949966b78ca4fce5a9f7cf28d83")))
-     (sha256 (base32 "1h9b59795hyi3lszd0xy4429jcn95crsiw5jhdzif08mi38z8j34"))))
+           (commit "d16aa9cf3e496aa9a6c20d73f4494e16feb4d092")))
+     (sha256 (base32 "0iv3sy2zympi1r04aqmlrz64zjf9xy51v6yf329nqybm12mkqgsx"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -50380,14 +50380,14 @@
 (define-public emacs-imbot
   (package
    (name "emacs-imbot")
-   (version "20260417.1417")
+   (version "20260422.134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/QiangF/imbot.git")
-           (commit "5e5e3d9b857801e92f082882e8fb3d54be0a366d")))
-     (sha256 (base32 "0zfxgb34648ld7pdfwma5q5hp925gfchyk88j8mrqyj2vi33rn1q"))))
+           (commit "baf9b4cc59bd32958c0d0b0cd52846753edf99e7")))
+     (sha256 (base32 "1l4q358b88rrg1l0ba6k38ngr4mjvr5xxq29m9ccqic2s3nip3k9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/QiangF/imbot")
    (synopsis "Emacs input method")
@@ -63437,14 +63437,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260415.2334")
+   (version "20260416.159")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "85f14384265cd36997ffc96163fae612452f3c52")))
-     (sha256 (base32 "0fnarc1wzqjq25fy66v5i2pg3ih2fwqpdpma62djny07dbpmn98m"))))
+           (commit "3f9d79f835145099c5a5641164ab2378cf0e45f8")))
+     (sha256 (base32 "0m6dpgrac862ch1nih6djll1mv94lpinnx3s4a8n7kvdrzy66in1"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -68985,14 +68985,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260421.2114")
+   (version "20260422.608")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "88ccd732f7b4f8e6981d938720ef3cc93ba1ec1b")))
-     (sha256 (base32 "06pzawgm8lmglsrgb2dj2wjwz6ikqxhbwaar0vwf2hfh3msxw2ma"))))
+           (commit "fd2fea7b49a51a1e9d6690d35b1e2f14bf389692")))
+     (sha256 (base32 "00kfr18vscizfpf80a9n0yjkbrxlq9wkmrxsr0x18n458cck4fr5"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -92619,14 +92619,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260421.1028")
+   (version "20260422.554")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "f07b558c8262a7b757f99ef9a903a8b04289db22")))
-     (sha256 (base32 "0d7hdfvj9pkam19mvlibsmg2zbwpg990ijk2mjvnx1lfgncal0p1"))))
+           (commit "d94554bd159b80af6cfebb27c1eec9ef8d90e539")))
+     (sha256 (base32 "1fb3lvlyl8myi4cldbgcml0llmra4mpp8r5xpwcibx8167p2cyka"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -107964,14 +107964,14 @@
 (define-public emacs-wttrin
   (package
    (name "emacs-wttrin")
-   (version "20260404.2146")
+   (version "20260422.507")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cjennings/emacs-wttrin.git")
-           (commit "ade62aa1af12facf076982dd5b5bbad88f1d68f7")))
-     (sha256 (base32 "0g22armadgndi9im9msgrxkypaxxs49cg4zmj3yfy4d8b43k57mk"))))
+           (commit "9958ec4c4396ae8435f7e1818ff383c05df47a14")))
+     (sha256 (base32 "1i4k7aj2w5mawfc9h8h7s5c3r886bmzxf4ai2q1caarhckb81wj3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-xterm-color))
    (home-page "https://github.com/cjennings/emacs-wttrin")
