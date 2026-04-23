@@ -7660,14 +7660,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260416.1134")
+   (version "20260422.1711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "5987650bda4714ca0599c6c750de5d48f42e1662")))
-     (sha256 (base32 "0aps0pnm2yvkb8pkxiyx5mnq60aivfavcc4w5xqzpxr1wd883qgl"))))
+           (commit "5aa950cf07c3f16528232a81dcedd792f74c0471")))
+     (sha256 (base32 "1ygv5hvbr9ygkdab4mqc94f6z7h10yfbllxv8v48wfx902ys4wjs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -23702,14 +23702,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260417.1809")
+   (version "20260422.1929")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "ecf9d229e012ceabb871b261c28cc06702d601a7")))
-     (sha256 (base32 "1jgm2bx1hf7aw1jl3ayf5qqm4rragcmly1qbn8jnwn0w8xffm2ww"))))
+           (commit "914e14b12fc62c0ea9106caac235424741c87296")))
+     (sha256 (base32 "102q4b7q5k4iq45vb4bbiyab1s8ak7p4ycvfcq875vrlcp0y2zzq"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -31477,14 +31477,14 @@
 (define-public emacs-exec-path-from-shell
   (package
    (name "emacs-exec-path-from-shell")
-   (version "20251113.1324")
+   (version "20260422.1103")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/exec-path-from-shell.git")
-           (commit "7552abf032a383ff761e7d90e6b5cbb4658a728a")))
-     (sha256 (base32 "1yhgn3va4pm1bfs32yf2z6m23p7s9gdi9kbgj3hycb0h308hxfg6"))))
+           (commit "8bfe70cf687e0449883bdf07ab5d6b95b497abd2")))
+     (sha256 (base32 "0bih7mrdx727mhhxyw9xaq3227pxkby934wq76m6j0hycxl80n7z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/purcell/exec-path-from-shell")
    (synopsis "Get environment variables such as $PATH from the shell")
@@ -39511,14 +39511,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260421.1113")
+   (version "20260422.1934")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "6117978d2089d807dd457f9cf2d9382a4a4558c6")))
-     (sha256 (base32 "0mmvwms7r4l1ypvxa10s164a6shqwc7bqvrr1wgqkp5z4wqd9dsk"))))
+           (commit "5546b97151b48f83415efd3b9a78062885e10a82")))
+     (sha256 (base32 "0wbpgv0nskj2cm1k34dc9738j811p6rgb4jq5ig8x91ag2slpi0f"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -50380,14 +50380,14 @@
 (define-public emacs-imbot
   (package
    (name "emacs-imbot")
-   (version "20260422.134")
+   (version "20260422.1521")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/QiangF/imbot.git")
-           (commit "baf9b4cc59bd32958c0d0b0cd52846753edf99e7")))
-     (sha256 (base32 "1l4q358b88rrg1l0ba6k38ngr4mjvr5xxq29m9ccqic2s3nip3k9"))))
+           (commit "d228085198669c559f670d48251bfc5399e72a63")))
+     (sha256 (base32 "1jnyxyahzs8hm8bcnafzwxa08gvvqry3xgqaxd627wv5zddkyrbl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/QiangF/imbot")
    (synopsis "Emacs input method")
@@ -60783,14 +60783,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260416.1259")
+   (version "20260422.2206")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "83d899b66f2aa4744498baa6866f3bdec2d238be")))
-     (sha256 (base32 "1kl4s86hiwxp043d3mlpgamyn5asncwpsv41lzhhw2jyhg3i77dj"))))
+           (commit "569b9656d6a2c792b07d3980796c76b121c9737e")))
+     (sha256 (base32 "1y8q8d3lw4yq04kngnskw0yx6x96yzd09052cjx9anyqwcyhbhk8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -61266,14 +61266,14 @@
 (define-public emacs-magit-section
   (package
    (name "emacs-magit-section")
-   (version "20260330.1102")
+   (version "20260422.2206")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "9beb7ac0b51ad4f121b56d9c986b6be0a479997d")))
-     (sha256 (base32 "072gk7p7gn7hin8ncff4bszk9hd1139h5yigdpmsncyy212grwfh"))))
+           (commit "569b9656d6a2c792b07d3980796c76b121c9737e")))
+     (sha256 (base32 "1y8q8d3lw4yq04kngnskw0yx6x96yzd09052cjx9anyqwcyhbhk8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (arguments
@@ -66530,14 +66530,14 @@
 (define-public emacs-naga-theme
   (package
    (name "emacs-naga-theme")
-   (version "20250608.1926")
+   (version "20260422.1017")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kenranunderscore/emacs-naga-theme.git")
-           (commit "c150b397d1a14e470dd54d2628b2bd9d3e2faad0")))
-     (sha256 (base32 "1c689cwq9ar9fa8nk9hqnrg3kyrj0cykhwwnmcwgiwxkk1cm53b9"))))
+           (commit "1ffb5930e57ee0a1073b206ff09ea25ef542b6bc")))
+     (sha256 (base32 "11sr87wqv7l4fp9gg4xb29m4n8vd8rhxj834y6nayy88mc3qh2ph"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kenranunderscore/emacs-naga-theme")
    (synopsis "Dark color theme with green foreground color")
@@ -68985,7 +68985,7 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260422.608")
+   (version "20260422.858")
    (source
     (origin
      (method git-fetch)
@@ -90606,17 +90606,17 @@
 (define-public emacs-sekka
   (package
    (name "emacs-sekka")
-   (version "20260418.1032")
+   (version "20260422.1428")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/sekka.git")
-           (commit "39aa0ea50a10b44b9e54aff847237bb7657b3fe4")))
-     (sha256 (base32 "1hx59x082qxl0xvylz5fcaf9dffiqwqni5bqrl2lpq9a9ralhv8i"))))
+           (commit "6c7e6768dea8adf27b635e9e924b7e55eb8958a1")))
+     (sha256 (base32 "080rafwymqiwlf8z3p6aj02dfdapid975ph40gkwpxs8llkb6ky8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-popup))
-   (arguments '(#:files ("emacs/sekka.el")))
+   (arguments '(#:files ("emacs/sekka*.el" (:exclude "emacs/sekka-tests.el"))))
    (home-page "https://github.com/kiyoka/sekka")
    (synopsis "Pure Elisp Japanese IME inspired by SKK")
    (description "Documentation at https://melpa.org/#/sekka")
@@ -92619,14 +92619,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260422.554")
+   (version "20260422.1527")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "d94554bd159b80af6cfebb27c1eec9ef8d90e539")))
-     (sha256 (base32 "1fb3lvlyl8myi4cldbgcml0llmra4mpp8r5xpwcibx8167p2cyka"))))
+           (commit "fe7ed2ebcda0d1899f97f06191adbf260cc5b1eb")))
+     (sha256 (base32 "0c3lwzcz6lcf1jdyxlln0npdlvnc3npz0743cjzkwy757wbdnlvs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -96464,14 +96464,14 @@
 (define-public emacs-stripspace
   (package
    (name "emacs-stripspace")
-   (version "20260421.1536")
+   (version "20260422.1404")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/stripspace.el.git")
-           (commit "e691ee31dd6cb62dc848cb5fb205ea3bae7481ad")))
-     (sha256 (base32 "050kz6nl6bn5jygq5hq1rs68z82a3i0dcsgr0fnw4zavc8ig1wla"))))
+           (commit "5dd864613dc2743d0970684de7c8c01a431f1ffa")))
+     (sha256 (base32 "0l1rkgj5m0cka1y2qnxhisy8sx6qldw66k0bdrf1nib9dxfw3cyn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/stripspace.el")
    (synopsis "Auto remove trailing whitespace and restore column")
@@ -98318,14 +98318,14 @@
 (define-public emacs-taskjuggler-mode
   (package
    (name "emacs-taskjuggler-mode")
-   (version "20260420.1700")
+   (version "20260423.12")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/devrintalen/taskjuggler-mode.el.git")
-           (commit "b236b72d70069aa2ea9c0bf814573fc0c826bbee")))
-     (sha256 (base32 "1q5l9pxdyg85fav127qssvkg92i4bmc6iqy1ngkzka3g2ail7y10"))))
+           (commit "9a43c9dcf36b52d302d41aeaf6ad62aa6776a966")))
+     (sha256 (base32 "1qj57mk2qz9wwihj5jlgx4ngf4b33n581cpwvpmbidi6rj1dwb77"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "snippets")))
    (home-page "https://github.com/devrintalen/taskjuggler-mode.el")
@@ -101141,14 +101141,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260415.2015")
+   (version "20260422.1646")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "9a9776c010a50169aa8f3aac459556c94b616758")))
-     (sha256 (base32 "1hm5rzvzf1ka1kf3vym885vwh7n7959v9s1w6vfgwkgvzyl5zbh5"))))
+           (commit "cd97319a851db9b2ed3faecdb735c6d089edf4e1")))
+     (sha256 (base32 "18pay3a7qbxw3ci2y11d3pvzbdkp8q1n4xyr4zhz1vg2n36vj56c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/magit/transient")
@@ -101946,14 +101946,14 @@
 (define-public emacs-trust-manager
   (package
    (name "emacs-trust-manager")
-   (version "20260418.1116")
+   (version "20260422.952")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/eshelyaron/trust-manager.git")
-           (commit "e2b36a00e269e38d6e89616478f55deb0ef84bbf")))
-     (sha256 (base32 "0zx85fqmhk1vw5cnzw6npfd2iphcdpaiwvr9hd8921rf3rixb9xa"))))
+           (commit "3a702921eaa65ce8de552e88f6280786a645252d")))
+     (sha256 (base32 "1c6v36fa8j9q0j8s5i1kdw4gkqmv6qldsswdccvyfcmbyl2wr3dw"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~eshel/trust-manager")
    (synopsis "Convenient trust management")
