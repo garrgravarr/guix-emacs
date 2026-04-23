@@ -29884,14 +29884,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260417.651")
+   (version "20260423.438")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "12a4f9797a92df48fd4e009d91915372af7437e2")))
-     (sha256 (base32 "0f8cyqqj64dgpwnl9pvzsrbrzx26whiiqgxgnkfj99nfrah33y1m"))))
+           (commit "2df40737c6cc9ccd8b69462a6f2f6a045c2d7684")))
+     (sha256 (base32 "1skwz01sjhgha848gk0vw9cbxzkip1nz4hkn629z8jzw25npdna3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -38468,14 +38468,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260422.315")
+   (version "20260422.506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "feba1ccfae97ad9e4eba82984b49eaadf1854a77")))
-     (sha256 (base32 "17ijxljl6xmnp5m236rc7afkdyckgc52pff9lnc30n68bq9328dl"))))
+           (commit "1fe9851911fe7e339f92d368588645dd787ef4df")))
+     (sha256 (base32 "1zpwz7pzq43d2q1dl91sxlcx05n5qrwgqdrxxpk60f210knnngk8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -56405,14 +56405,14 @@
 (define-public emacs-kubel
   (package
    (name "emacs-kubel")
-   (version "20260226.2054")
+   (version "20260423.322")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abrochard/kubel.git")
-           (commit "7b0a13704675f1bca7d951444c637d4c967e9303")))
-     (sha256 (base32 "1n33zkjpchf5hdiz8ndy8xfkq2xhy5y8bgifsy8yhlczrd0z8qb9"))))
+           (commit "3909ae3ad5c3026986b9ee2532dd63bdb44078e5")))
+     (sha256 (base32 "1an0gy80g4mz8f8il0v9ybvhgk8l1v8lrinxkcb1x6sg12iv4gkg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-s emacs-yaml-mode))
    (arguments '(#:files (:defaults (:exclude "kubel-evil.el"))))
@@ -62826,14 +62826,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260403.1210")
+   (version "20260423.152")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "73936fe0fc314519ab3a15b59ab1d8557df16a4e")))
-     (sha256 (base32 "1wdys4h4a6wakkv0nr5xnr5ryzhgz6i23ia3765gl0jzzi91rmap"))))
+           (commit "98a8b2bd6384237005e258a647f3d16a90bc0b97")))
+     (sha256 (base32 "16q48yh2nzrf07x5j7kkb9s0ykdnvkw2glzk2ds3wf6zhq10agjl"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -63437,14 +63437,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260416.159")
+   (version "20260423.344")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "3f9d79f835145099c5a5641164ab2378cf0e45f8")))
-     (sha256 (base32 "0m6dpgrac862ch1nih6djll1mv94lpinnx3s4a8n7kvdrzy66in1"))))
+           (commit "61205ee4090afcc0982694ab115fb0e269f6555a")))
+     (sha256 (base32 "1fgs7ksq406klqzaarzs11zgiv0rrp9y2jg9yvh7dr77h2wz78m7"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -64058,14 +64058,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260418.608")
+   (version "20260423.657")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "bbd499fe230ec03b67a809ccdeeb3462a6a5b82b")))
-     (sha256 (base32 "1wgzb6qv6xn1xpnyni216z8bv0bf4slf5s24ml0wqvd9m9f64622"))))
+           (commit "8515bcdc662394059e2a5529f810e5b4ff6e816e")))
+     (sha256 (base32 "1bzq4f55a1kpjgfrfvbgd9p8j1anhhxqiinfdrzhs7f8735phcdg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -71731,14 +71731,14 @@
 (define-public emacs-org-anki
   (package
    (name "emacs-org-anki")
-   (version "20260209.1249")
+   (version "20260423.741")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/eyeinsky/org-anki.git")
-           (commit "8cf3f5eb43cbe256ce892cfc867059e200a1b5bb")))
-     (sha256 (base32 "1a41z676p41530vdg9kv3izc6mcnwjj7l3xbj245mvqdcyiyk7jz"))))
+           (commit "2f44330aa2cd0a1f58259c9d83bb697fb0f7b0cc")))
+     (sha256 (base32 "0x33724pw8xk6vwksswn7wky1q3n0cxgy0s5s25hxjwzgfg8j4n1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request emacs-dash emacs-promise))
    (home-page "https://github.com/eyeinsky/org-anki")
@@ -74581,14 +74581,14 @@
 (define-public emacs-org-roam
   (package
    (name "emacs-org-roam")
-   (version "20260224.1637")
+   (version "20260423.437")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/org-roam/org-roam.git")
-           (commit "7cd906b6f8b18a21766228f074aff24586770934")))
-     (sha256 (base32 "14184a4qwla6d0izi8ygz48hw0l83kllk3vakc1hf9j3k60hkcr3"))))
+           (commit "a5e868b2c485d79ac240c4d7d7585aea3977ab9d")))
+     (sha256 (base32 "0lqkmqksbhszdwfvvp0xz8lmayjlsq4z5i7rswaqc70nf546n681"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-emacsql emacs-magit-section))
    (arguments '(#:files (:defaults "extensions/*")))
@@ -82128,14 +82128,14 @@
 (define-public emacs-posframe
   (package
    (name "emacs-posframe")
-   (version "20260415.14")
+   (version "20260423.213")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tumashu/posframe.git")
-           (commit "02592d165b4ce5552fae6cd8004325f97431f01a")))
-     (sha256 (base32 "1j0rlikrxdjg7x9qi3163ml2gfr8gaivws80yjmmq0b5kww1qd8k"))))
+           (commit "fcf1757baee481f617fbf2dc39f8c561207df263")))
+     (sha256 (base32 "0r6kr3b5kr34kbcic61qnjyhli9imz6n4arddf3v3c34abamgvdy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tumashu/posframe")
    (synopsis "Pop a posframe (just a frame) at point")
@@ -88751,14 +88751,14 @@
 (define-public emacs-rpm-spec-mode
   (package
    (name "emacs-rpm-spec-mode")
-   (version "20260420.2254")
+   (version "20260423.902")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Thaodan/rpm-spec-mode.git")
-           (commit "7f146a282fe1b4567cc565ba66663d9ec851556a")))
-     (sha256 (base32 "1k4hwijjz9jmh7p8vk6wzlnck66j8699dfyhi84d840aa1gf1ijb"))))
+           (commit "90c1beceff24b9f0e02c5a141efd466d5763f957")))
+     (sha256 (base32 "1ili8vmq756n103fikp0vjrl47g0c46kcfzc0agw0syhndi74rvp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/Thaodan/rpm-spec-mode/")
