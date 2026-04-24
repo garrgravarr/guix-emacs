@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260423.2254")
+   (version "20260424.1157")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "21a8c8b4e735cf3f35ac857b4857817971432265")))
-     (sha256 (base32 "0f8ds25x4fl1195jm4jn13wx791zn76my26f9xnxfslmiam6f36a"))))
+           (commit "643aae11d7032ad5a8a5aec4232e8b80ea7f8cf6")))
+     (sha256 (base32 "09a81a81h6grcbszsiiv9zxhnljx62x0c73i9jpbbb8nbldnjmf8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -6269,14 +6269,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260424.826")
+   (version "20260424.1421")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "139dcfef116e376138abddc7cc179cbe68f457fd")))
-     (sha256 (base32 "0mscx327acxv74c54lnb0xzsqnkbzrkrwngw6qkrkbqsllbyagwc"))))
+           (commit "52f14d605570ceb4c3b6c9a6708a6546eb67b815")))
+     (sha256 (base32 "0iqrk87dl567vwpwm8rmplrpva475a04s6c34rm24xfy2m7wrwk6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -39511,14 +39511,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260423.1706")
+   (version "20260424.1426")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "63e008f32e4896ecd18e24ccfc08a3775561722c")))
-     (sha256 (base32 "13pk32b32p9hw0lw957gha89dinqs8g53v73nqhzq9axrp7m9qp0"))))
+           (commit "257386ddb18dc8cecaed351ad00b8943a392717b")))
+     (sha256 (base32 "0v2w6352bhmj298k001f6bz0cb3anm8l1vpflk5bk0d4dy6rynsy"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -44879,14 +44879,14 @@
 (define-public emacs-helm-core
   (package
    (name "emacs-helm-core")
-   (version "20260412.600")
+   (version "20260424.1357")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm.git")
-           (commit "d4e8703f7ebf351ca1e431ad098ea4138386c44c")))
-     (sha256 (base32 "0y9wkd05ifir8kk85wzkav93vbaz3g3kmdqdkhwggmzgn4n31v5j"))))
+           (commit "3cd5097285dc10ac0898cf6f30c9699c3399e421")))
+     (sha256 (base32 "1yihrb2gsl4p24xwwpdapgmnv64sd0pmbfzgpcp8nypyvs5g7kb3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (arguments
@@ -64652,14 +64652,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260418.1313")
+   (version "20260424.1027")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "7c2ce1ff0dc25215061d05a9d796d6193f93c84e")))
-     (sha256 (base32 "0ymzjwqbmszjsy30057m91vwvbqyvprsjd7r0cxigqspk2qabfiy"))))
+           (commit "f71db69bad2d4bac680960273b663c73c305a413")))
+     (sha256 (base32 "1v79bi9ji8j2l2rp7ddamii3746c21w2nv8dsry6fk0xa9zfn9g3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -67133,14 +67133,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20260325.346")
+   (version "20260424.1510")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "1db0b0b9203cf293b38ac278273efcfc3581a05f")))
-     (sha256 (base32 "0v7wm8p432h3v2q4sll254hl3n9vdb5irfp6yw9kl1sc9j5x4iif"))))
+           (commit "3f6e8b36436d99659234d5bbbd84ba5c09282692")))
+     (sha256 (base32 "1x6klhx61zjadc2g5n6i7gjqcw4kdyhxd508k2gjwfs9xxki06la"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -73477,14 +73477,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260423.1949")
+   (version "20260424.1321")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "cd2e9c074576e44469d84b5827933a035cf493c5")))
-     (sha256 (base32 "01z3pph23cciv92l007s0z9rlhfgyj2ihy264s3l02csssnijma7"))))
+           (commit "00b73f7ca78d4518ef20eb787a0afb638b8726c4")))
+     (sha256 (base32 "0xmk81vrz1d5s3jd6r67q11xq71vh9fhv1qhhnj0cah1pr1w67g5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -88248,14 +88248,14 @@
 (define-public emacs-rimel
   (package
    (name "emacs-rimel")
-   (version "20260420.1036")
+   (version "20260424.1103")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jixiuf/rimel.git")
-           (commit "9dbb03834cfda1e7c40d7ecc081ac7934e19b452")))
-     (sha256 (base32 "0aql7z63sn4rf688cbp8w774294c0xk1lil0353lk38wwlyj6lvf"))))
+           (commit "0d1c67521635af91c2876e0d850ee8bc74bda384")))
+     (sha256 (base32 "0xfbkrbj2nf4ysjlw36pn60nsmqwyrfwx6pv4s3cjqcc8zadvanc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-liberime))
    (home-page "https://github.com/jixiuf/rimel")
