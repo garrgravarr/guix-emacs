@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260408.1635")
+   (version "20260423.2254")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "7f106a355295d6c0fde5cd589cf566df7850463f")))
-     (sha256 (base32 "1s1v7jd39jjml9al3vmjrpigg64vy4b9x3y450bhm7gfx59jgj0s"))))
+           (commit "21a8c8b4e735cf3f35ac857b4857817971432265")))
+     (sha256 (base32 "0f8ds25x4fl1195jm4jn13wx791zn76my26f9xnxfslmiam6f36a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -23702,14 +23702,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260423.1339")
+   (version "20260423.1754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "b6269e9150ae14891bb9ac9b848e78beb08e3f09")))
-     (sha256 (base32 "1sag2pxqafl259a495rwwx3hmym3hyp5gx2pw9mig0v7v2m0kh6k"))))
+           (commit "bd5a72aef67eca944a7ad0d9916eb0d0f0f11f9d")))
+     (sha256 (base32 "0ngap75h8344csabhmf12y4wdii6rxb94yxvdx8aj31kggxaqn6l"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -31477,14 +31477,14 @@
 (define-public emacs-exec-path-from-shell
   (package
    (name "emacs-exec-path-from-shell")
-   (version "20260422.1103")
+   (version "20260423.1833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/exec-path-from-shell.git")
-           (commit "8bfe70cf687e0449883bdf07ab5d6b95b497abd2")))
-     (sha256 (base32 "0bih7mrdx727mhhxyw9xaq3227pxkby934wq76m6j0hycxl80n7z"))))
+           (commit "dae820da35ad46234cbca31626ffb6da7928694a")))
+     (sha256 (base32 "1sdhrwg2yjhsxaanrvf92ywywcn977pj3n1hpmg3k9qxcz2j56kv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/purcell/exec-path-from-shell")
    (synopsis "Get environment variables such as $PATH from the shell")
@@ -37614,14 +37614,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260421.2150")
+   (version "20260423.1757")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "5f7970fff720d66bac8ea336b5bd6db8c6945c93")))
-     (sha256 (base32 "16rimp14nzlczg9z3v7vh127zk057ms1szl5a54j4apfy1xdxcnk"))))
+           (commit "3eff1dab171602db9d1b7cfb0e6e7014eac73665")))
+     (sha256 (base32 "0115af0vg9bsmmizfny3k4k9hlkgclpgq6wd05fv3ibhbhc95n5a"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -39511,7 +39511,7 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260423.1530")
+   (version "20260423.1642")
    (source
     (origin
      (method git-fetch)
@@ -39547,14 +39547,14 @@
 (define-public emacs-ghub
   (package
    (name "emacs-ghub")
-   (version "20260401.1239")
+   (version "20260423.1634")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/ghub.git")
-           (commit "1fb0fba075cb8b80f9819c874be584dffce50b51")))
-     (sha256 (base32 "0d49qkkza9my2xz1vdyq7l3vmmjbamhsqm9xy7xikisyhsngvj73"))))
+           (commit "2b6df7c3f958e64c47151d7d6ef45de38e614936")))
+     (sha256 (base32 "1mm60zga2flbh2gnv5554if8d6jiwvzw3px8h87zi7y8dx8rkwmw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-treepy))
@@ -67840,14 +67840,14 @@
 (define-public emacs-nix-ts-mode
   (package
    (name "emacs-nix-ts-mode")
-   (version "20260215.1421")
+   (version "20260423.1718")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nix-community/nix-ts-mode.git")
-           (commit "319831712125e8c9e4f14b66def518d7a633685c")))
-     (sha256 (base32 "0y2l1q3cvap7jjgl47wa78c5kagj6n2lpd3bilkhxn62aj3ahm0y"))))
+           (commit "50916188784786ed201a8edc70a5264eefb525e3")))
+     (sha256 (base32 "14yqs2gibq7fdg79h9mcjrnxm0y6gscbvgzjlkp8gm0dmh2x8b1y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/nix-community/nix-ts-mode")
    (synopsis "Major mode for Nix expressions, powered by tree-sitter")
@@ -73477,14 +73477,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260329.1731")
+   (version "20260423.1949")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "2de5fe6f9616556b0aa0d584930673763430ade9")))
-     (sha256 (base32 "1g1my6cqcdlc5vms055navjg40mij5d1rdfcw3a4amqpm4fl006b"))))
+           (commit "cd2e9c074576e44469d84b5827933a035cf493c5")))
+     (sha256 (base32 "01z3pph23cciv92l007s0z9rlhfgyj2ihy264s3l02csssnijma7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -81900,14 +81900,14 @@
 (define-public emacs-popterm
   (package
    (name "emacs-popterm")
-   (version "20260412.2036")
+   (version "20260423.2106")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/CsBigDataHub/popterm.el.git")
-           (commit "7cf2c6cc29171e354294ed359d2404e13ee33962")))
-     (sha256 (base32 "0ymfxzci2wy6w8jclhhzxzqwffgbcx37xflgnvswifaim1n1gnmv"))))
+           (commit "7efcca742ec9a23c2e6e627b2c1d42aa752dea5d")))
+     (sha256 (base32 "0j0y4rgvrvj3kkr10qyl89nmdp7yzpqa9j1yy2bxaalsff6pbdpd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/CsBigDataHub/popterm.el")
@@ -98318,14 +98318,14 @@
 (define-public emacs-taskjuggler-mode
   (package
    (name "emacs-taskjuggler-mode")
-   (version "20260423.12")
+   (version "20260423.1854")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/devrintalen/taskjuggler-mode.el.git")
-           (commit "9a43c9dcf36b52d302d41aeaf6ad62aa6776a966")))
-     (sha256 (base32 "1qj57mk2qz9wwihj5jlgx4ngf4b33n581cpwvpmbidi6rj1dwb77"))))
+           (commit "49d3cdf2dbf4c27e037bb4c96bb0cc6d2e000fab")))
+     (sha256 (base32 "1v5hln35qwy97qnc7nrql3mr53j8q2zkadnf49mw9zdw5psl383b"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "snippets")))
    (home-page "https://github.com/devrintalen/taskjuggler-mode.el")
