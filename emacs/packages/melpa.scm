@@ -2721,14 +2721,14 @@
 (define-public emacs-anju
   (package
    (name "emacs-anju")
-   (version "20260405.131")
+   (version "20260424.156")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/anju.git")
-           (commit "9b50c67292189b599dcb17108f93be520caa5647")))
-     (sha256 (base32 "1da3fq3085pp14rryq9cxc71gwyi2wipfwml361zalx54gpdbk3j"))))
+           (commit "7a700608e9143f8e29a533bdeee9a6f175df6d06")))
+     (sha256 (base32 "1gfwd0j1bwnggj0sjw1kcwx462qcvxjg1px2vfzmsh41zbxlv02x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-casual emacs-markdown-mode))
    (arguments '(#:files (:defaults "docs/images")))
@@ -6269,14 +6269,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260414.1412")
+   (version "20260424.826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "11e08794b1f5cd933a38cd6a5ecf9aba962dc669")))
-     (sha256 (base32 "0yv48vhsl20gva6k74vlyznq6y3pnyzypkbx8bvrpcrkf8fq99gh"))))
+           (commit "139dcfef116e376138abddc7cc179cbe68f457fd")))
+     (sha256 (base32 "0mscx327acxv74c54lnb0xzsqnkbzrkrwngw6qkrkbqsllbyagwc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -24492,14 +24492,14 @@
 (define-public emacs-eglot-python-preset
   (package
    (name "emacs-eglot-python-preset")
-   (version "20260403.1656")
+   (version "20260424.334")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-python-preset.git")
-           (commit "cf6c57e2010c2fca8eedc756c4759cbd62a6e206")))
-     (sha256 (base32 "0jq1i3gmczgrq935vhz0f6rgj5dshbq2lv6wcpl424r2r7fr6n1w"))))
+           (commit "8219aa2b3d595af42108881b4d26750ec20105b7")))
+     (sha256 (base32 "1w4vvhdjdv8ny3wg6nlvwjv7mgz0bkdi9pkvi2krzarsk6wlhiv3"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
    (home-page "https://github.com/mwolson/eglot-python-preset")
@@ -38289,14 +38289,14 @@
 (define-public emacs-fsharp-ts-mode
   (package
    (name "emacs-fsharp-ts-mode")
-   (version "20260418.1430")
+   (version "20260424.617")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/fsharp-ts-mode.git")
-           (commit "dc8751051b242a278c8aa364bbc4cb16c33f0b41")))
-     (sha256 (base32 "1kj99xqbhyc32iv6dc494rcicd3s4qs7fm1ckby9z8x6wrsiigzq"))))
+           (commit "415dcaf2cb83d98af86ae072a11eae2558047c6c")))
+     (sha256 (base32 "0z20v2wnqqd672y7mwjgx88nh3pwq7mdvzck1sjpmqq53gb2lgj4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/fsharp-ts-mode")
    (synopsis "Major mode for F# code")
@@ -38468,14 +38468,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260422.506")
+   (version "20260424.408")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "1fe9851911fe7e339f92d368588645dd787ef4df")))
-     (sha256 (base32 "1zpwz7pzq43d2q1dl91sxlcx05n5qrwgqdrxxpk60f210knnngk8"))))
+           (commit "6366161a0e03c6c12aeba872fed3dfdc135bff9c")))
+     (sha256 (base32 "1hwk15hlq82khx38xriqpd1syfr3zn4m90n65s8ijfjmaysfcg9j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -39511,14 +39511,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260423.1642")
+   (version "20260423.1706")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "d33052d6f779e9b2c2c64b11e4b9c11c19f0e706")))
-     (sha256 (base32 "1qkz4ci6siq41kk6vg4pfca9cca8wa426j1hs0bifkdjn00ywkyd"))))
+           (commit "63e008f32e4896ecd18e24ccfc08a3775561722c")))
+     (sha256 (base32 "13pk32b32p9hw0lw957gha89dinqs8g53v73nqhzq9axrp7m9qp0"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -44879,14 +44879,14 @@
 (define-public emacs-helm-core
   (package
    (name "emacs-helm-core")
-   (version "20260411.415")
+   (version "20260412.600")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm.git")
-           (commit "7a77755b99a38f209f5d77d5836a61ff3326bd9b")))
-     (sha256 (base32 "1c8nl74qlhz7cnv997h4cjbh1p7674ygqkn2izglp50vk6m26ay8"))))
+           (commit "d4e8703f7ebf351ca1e431ad098ea4138386c44c")))
+     (sha256 (base32 "0y9wkd05ifir8kk85wzkav93vbaz3g3kmdqdkhwggmzgn4n31v5j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (arguments
@@ -63437,14 +63437,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260423.344")
+   (version "20260424.551")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "61205ee4090afcc0982694ab115fb0e269f6555a")))
-     (sha256 (base32 "1fgs7ksq406klqzaarzs11zgiv0rrp9y2jg9yvh7dr77h2wz78m7"))))
+           (commit "267e5f37e027311f8538ca60b1d3db3b23c89e8c")))
+     (sha256 (base32 "1g6xqcxiwprsi3548g05xjs19ib7rz17hs212isakbsabm99bsai"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -64058,14 +64058,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260423.657")
+   (version "20260424.430")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "8515bcdc662394059e2a5529f810e5b4ff6e816e")))
-     (sha256 (base32 "1bzq4f55a1kpjgfrfvbgd9p8j1anhhxqiinfdrzhs7f8735phcdg"))))
+           (commit "36049820ca987c79c87cc4d9f21d16ca23ff8ebb")))
+     (sha256 (base32 "15165fn161c6fvqcrpfffy7l5abs7zscarzhhvzbwppqk3r9wrq8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -95110,14 +95110,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20260414.150")
+   (version "20260424.159")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "b19f15c019740f884487602560c904914cf2c48b")))
-     (sha256 (base32 "03b3qrbvajx4jqf8ppqc148d3v5mmmfng1bv1xlzlprnsp5px67c"))))
+           (commit "2cc92e11cc1b6007d8ffdd18c541e9ac126664ed")))
+     (sha256 (base32 "01qk8zkm9kla42dabpjh04s2p8zmx7qfh27i7h5i5as0d4b3wgkh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
@@ -98530,14 +98530,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260416.546")
+   (version "20260424.901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "5196e752b1dae4367d446a3fcc6169e6a7533093")))
-     (sha256 (base32 "1l6lsbzha40nvbwiaqiva96vp5iyjjqls761ggzfl3bkrslk53vq"))))
+           (commit "89f50b517643f0e48b1c0f161e3f869d23bdf28d")))
+     (sha256 (base32 "15l4gy42d90kj5jwxn1xq7a69xc5fsb1cwskxm1lqhk1xk3la6m3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
