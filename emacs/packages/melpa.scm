@@ -29885,14 +29885,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260423.438")
+   (version "20260425.1635")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "2df40737c6cc9ccd8b69462a6f2f6a045c2d7684")))
-     (sha256 (base32 "1skwz01sjhgha848gk0vw9cbxzkip1nz4hkn629z8jzw25npdna3"))))
+           (commit "195c15407bf668d5f7e78edf571ce9dd70b45ee4")))
+     (sha256 (base32 "10a9zizz8bk3fnkzij5px2mh06l2hnbsgim8vrz356qb8y478v9g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -32692,14 +32692,14 @@
 (define-public emacs-file-info
   (package
    (name "emacs-file-info")
-   (version "20251107.1738")
+   (version "20260425.1631")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Artawower/file-info.el.git")
-           (commit "5d8c5158a57e0077410bcdb802c344f5e8da4aca")))
-     (sha256 (base32 "1ap8ms7vrv0hnra0mcxpkf364j3ql5s9j40fmqqi84djr6w0abn6"))))
+           (commit "6cfc1cad72290ad241acc76c59fec6a26a62307c")))
+     (sha256 (base32 "09rxd26ms4wknbzi47sxlky12i0nbwz51nz55q7xgqiscl7dhp2c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra emacs-browse-at-remote))
    (home-page "https://github.com/artawower/file-info.el")
@@ -38916,14 +38916,14 @@
 (define-public emacs-geiser
   (package
    (name "emacs-geiser")
-   (version "20251220.2301")
+   (version "20260425.1245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/emacs-geiser/geiser.git")
-           (commit "8842104d1521a00c182ce78e9d50d394e9ba86f5")))
-     (sha256 (base32 "05sfrads398vh8wghlwhqw809s91j6n5v3k1lfi25dqlp2zvif7m"))))
+           (commit "7bb18cd896e736fb90a0b5c2f945331fcabf0fbb")))
+     (sha256 (base32 "0bgbc1ni21w8b2xkjn7csidydhg1g7xybgci3hn7wr1ss9pcajvg"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "doc/dir" "doc/geiser.texi")))
    (home-page "https://gitlab.com/emacs-geiser/")
@@ -39512,14 +39512,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260424.1426")
+   (version "20260425.1212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "257386ddb18dc8cecaed351ad00b8943a392717b")))
-     (sha256 (base32 "0v2w6352bhmj298k001f6bz0cb3anm8l1vpflk5bk0d4dy6rynsy"))))
+           (commit "3c61db63eec06334869258905a86d1fb8af5c507")))
+     (sha256 (base32 "1xjkfrppfhpyjian7214xy7yawxmmv4gn4601dabxxid5mjm0ijs"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "etc")))
    (home-page "https://github.com/dakra/ghostel")
@@ -42345,14 +42345,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260422.756")
+   (version "20260425.846")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "593786fce27b54248d4c0ae19b120cbbcf51aea9")))
-     (sha256 (base32 "1g436n57r6czk7vrzq8brzvsadrc16p37wicars750i5qhph7f48"))))
+           (commit "101904a1a8568fe42df49f0f1acd4ddab39ae1f8")))
+     (sha256 (base32 "1nn6l571g2v2g5i18l18qp0nplgilbs4s78x6gi410bzk0v3lfdq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -55933,14 +55933,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260416.1901")
+   (version "20260424.1323")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "5236f011f420465c2abd853e7f16727c0c8eab7d")))
-     (sha256 (base32 "1awvliza7fva0a74lf6xqx7gzfbby5kr7z4ki818yd98z4x1rqxf"))))
+           (commit "2201dbff4bbe6452c8b9ff37def971867504835a")))
+     (sha256 (base32 "0zg39z5m4n9ys5z3r58kvgkjlngivibb8jkr2j09gq3m9mqv5i0c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -58435,14 +58435,14 @@
 (define-public emacs-lisp-chat
   (package
    (name "emacs-lisp-chat")
-   (version "20260323.206")
+   (version "20260425.1217")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ryukinix/lisp-chat.git")
-           (commit "cff980c915db1e47d3090c212050b7598d15daca")))
-     (sha256 (base32 "02fiyky63z4zr6x4xyf72d457f4x8fqraax3lk13zwjlxv1nn2xd"))))
+           (commit "066f2a5d4ca2ff50f6a0a1413182e08f17040e3a")))
+     (sha256 (base32 "0qqnn5pb7qghn3ryrixjzgb9vabgm96n10l189j9izr5zfzg194f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-websocket))
    (arguments '(#:files ("emacs/lisp-chat*.el")))
@@ -62006,14 +62006,14 @@
 (define-public emacs-markdown-mode
   (package
    (name "emacs-markdown-mode")
-   (version "20260423.1508")
+   (version "20260425.954")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jrblevin/markdown-mode.git")
-           (commit "51ccd3df38d85d0abc9d43d25fc7ea9b9131db45")))
-     (sha256 (base32 "1a0ah4r2shbjb9gwa5yr534fq2rb6nyf0qbhsqsf0pvwx5lskfr4"))))
+           (commit "1f72cefa6a4b759f90e335e4908725a721b17ad9")))
+     (sha256 (base32 "100dwx61v5n07i04r9gh9s9c29v1d59lqrqnk88x0v9z9jjpvgnq"))))
    (build-system melpa-build-system)
    (home-page "https://jblevins.org/projects/markdown-mode/")
    (synopsis "Major mode for Markdown-formatted text")
@@ -68986,14 +68986,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260424.2341")
+   (version "20260425.1250")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "7beeb794069770fce64f4003d5f6862763bc3654")))
-     (sha256 (base32 "0khpjp46xpa0dhm6ik2rgm95irvbfn1g3jj4mnph3msd2hvy622r"))))
+           (commit "182792d0a8fa3d9fd9e9d238f76c7c54519299ce")))
+     (sha256 (base32 "030f8dzwk78ljbq27mk4r938gd4cly5p4zg4976n7sdjwmkrgbwl"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -83077,14 +83077,14 @@
 (define-public emacs-project-rails
   (package
    (name "emacs-project-rails")
-   (version "20260415.1855")
+   (version "20260425.1314")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/harrybournis/project.el-rails.git")
-           (commit "d066f984eb88c6d239d19adbf8025bcafe665d53")))
-     (sha256 (base32 "175vsmf3zgl7qi8sa4pnhzjk0b3qr1a02pg16nlxa0ci4kx59x34"))))
+           (commit "2c72764790f9f6f283f713bb72a9f4952ced690d")))
+     (sha256 (base32 "0ipph4wfl74zmvpawhsqaq3x4bbwxxv1svqi9j1chf0rb0bzw99p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inflections))
    (home-page "https://github.com/harrybournis/project.el-rails")
