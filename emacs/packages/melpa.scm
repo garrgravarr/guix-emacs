@@ -50381,14 +50381,14 @@
 (define-public emacs-imbot
   (package
    (name "emacs-imbot")
-   (version "20260422.1521")
+   (version "20260425.216")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/QiangF/imbot.git")
-           (commit "d228085198669c559f670d48251bfc5399e72a63")))
-     (sha256 (base32 "1jnyxyahzs8hm8bcnafzwxa08gvvqry3xgqaxd627wv5zddkyrbl"))))
+           (commit "e36ee02dbea02936f3416b71337aeaf7d8b883bc")))
+     (sha256 (base32 "1sapcnnk7j2ly3ribg7sgw1gixb7qcb126xyqdzm3b7zvk1z0a75"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/QiangF/imbot")
    (synopsis "Emacs input method")
@@ -62827,14 +62827,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260423.152")
+   (version "20260425.730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "98a8b2bd6384237005e258a647f3d16a90bc0b97")))
-     (sha256 (base32 "16q48yh2nzrf07x5j7kkb9s0ykdnvkw2glzk2ds3wf6zhq10agjl"))))
+           (commit "4136e0704f6c2a873d4f0bc055b8a926226fa327")))
+     (sha256 (base32 "0w611dlg43cipzka36ynk5ni99x6l1scfxk3bs3rqki8nixr89pv"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -63438,14 +63438,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260424.551")
+   (version "20260425.817")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "267e5f37e027311f8538ca60b1d3db3b23c89e8c")))
-     (sha256 (base32 "1g6xqcxiwprsi3548g05xjs19ib7rz17hs212isakbsabm99bsai"))))
+           (commit "25bc9a8f77509ed9227818a5bc3f86301ad78153")))
+     (sha256 (base32 "139d9kmqz4l2x0cid8rn633zwwpxjipg31jlbbmd7cvr8276a3q1"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -67402,14 +67402,14 @@
 (define-public emacs-neut-mode
   (package
    (name "emacs-neut-mode")
-   (version "20250608.958")
+   (version "20260425.747")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vekatze/neut-mode.git")
-           (commit "8cfea9d387dd252de40c941c52b08699d45e1f04")))
-     (sha256 (base32 "01pifaj9dsilxh020v2qqhw070r8hhy4s3n73bfs6ka957wrjja9"))))
+           (commit "536ba9641011ea31c019beb6399ffca9945fc34e")))
+     (sha256 (base32 "1va03vy072cd4n0pvi0swvnx9bxirfsaiwk29j55w91f14jcqh0p"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/vekatze/neut-mode")
    (synopsis "A major mode for Neut")
@@ -72896,14 +72896,14 @@
 (define-public emacs-org-gcal
   (package
    (name "emacs-org-gcal")
-   (version "20260225.409")
+   (version "20260425.305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kidd/org-gcal.el.git")
-           (commit "0f46c08f60355729526e970e370defe624e84956")))
-     (sha256 (base32 "0cdscldk9fi9vvk8qc4qqhi61qm8n1y35d44jw52dxl4i6wfiggi"))))
+           (commit "b826356a01a7484bae6245a695059a6f8d36726a")))
+     (sha256 (base32 "1vfa4ihi5hfr0d5axlygqpj4nafvnxsqb6536qw72v9gdy5vjkns"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-aio
@@ -74582,14 +74582,14 @@
 (define-public emacs-org-roam
   (package
    (name "emacs-org-roam")
-   (version "20260423.437")
+   (version "20260425.448")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/org-roam/org-roam.git")
-           (commit "a5e868b2c485d79ac240c4d7d7585aea3977ab9d")))
-     (sha256 (base32 "0lqkmqksbhszdwfvvp0xz8lmayjlsq4z5i7rswaqc70nf546n681"))))
+           (commit "f95f8f2a6b55d68f30bf2d2cfad95ede1485c829")))
+     (sha256 (base32 "16ya17693zkhfa55z9p4xkrca7ndf1dj6w4wr3rcqx110d5fna1j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-emacsql emacs-magit-section))
    (arguments '(#:files (:defaults "extensions/*")))
@@ -98319,14 +98319,14 @@
 (define-public emacs-taskjuggler-mode
   (package
    (name "emacs-taskjuggler-mode")
-   (version "20260423.1854")
+   (version "20260425.257")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/devrintalen/taskjuggler-mode.el.git")
-           (commit "49d3cdf2dbf4c27e037bb4c96bb0cc6d2e000fab")))
-     (sha256 (base32 "1v5hln35qwy97qnc7nrql3mr53j8q2zkadnf49mw9zdw5psl383b"))))
+           (commit "08af224c339131d1a784adea4cbead188bcf233b")))
+     (sha256 (base32 "0fd4ph0yvizg3jc8x0r43k7490q0z5qip52lwxql66yvv044niki"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "snippets")))
    (home-page "https://github.com/devrintalen/taskjuggler-mode.el")
