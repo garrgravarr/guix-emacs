@@ -6269,14 +6269,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260424.1449")
+   (version "20260426.1238")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "52f14d605570ceb4c3b6c9a6708a6546eb67b815")))
-     (sha256 (base32 "0iqrk87dl567vwpwm8rmplrpva475a04s6c34rm24xfy2m7wrwk6"))))
+           (commit "c91cce703deb0cafb9f344cbc66d63791665fcb2")))
+     (sha256 (base32 "05ls9sdydwnz2sifakk1jww68dkv0pinj25mpqw4j11kh48s7cm7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -6527,14 +6527,14 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20260404.2018")
+   (version "20260426.1404")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kristjoc/bible-gateway.git")
-           (commit "dcae05a4a3bae4d07cb6d7144f54d14651c56f61")))
-     (sha256 (base32 "1lnrl70qzx5c9j08gisyd1mzxm86wz6s2vimsk0c08z7kn58yhdb"))))
+           (commit "3d70d52c858fd7df2fef0e5d09a7d67055ecf192")))
+     (sha256 (base32 "16jx4gf7fm9xflcszjsbkpz7a36rkfr0lhj2i0lh8z8v843xm5f2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kristjoc/bible-gateway")
    (synopsis "A Simple BibleGateway Client")
@@ -9144,14 +9144,14 @@
 (define-public emacs-calfw-ical
   (package
    (name "emacs-calfw-ical")
-   (version "20251030.845")
+   (version "20260426.925")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiwanami/emacs-calfw.git")
-           (commit "c34b6afaee33392e0bcd18441588e9a502f368eb")))
-     (sha256 (base32 "09g574sm7zwj016z8gmv865f7s52i7vb1l2kclpnf22dkq0xwz1w"))))
+           (commit "24fa167af96a6e677aea7c6b9385f669b550ee2f")))
+     (sha256 (base32 "1i4ww2r26xr1f8nh1fssh679h0j08h3r3mqkynxaxvjc3bz794s6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-calfw))
    (arguments '(#:files ("calfw-ical.el" "calfw-compat.el")))
@@ -19628,14 +19628,14 @@
 (define-public emacs-dialog-mode
   (package
    (name "emacs-dialog-mode")
-   (version "20260406.1841")
+   (version "20260425.1901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~mew/dialog-mode")
-           (commit "7a14cb400ec46a4f0d9df5270866592d3529986d")))
-     (sha256 (base32 "0sh59a1i19lqws8mn1j1pi1hyyhskysx7xwvi0xqwcf1h2iwf72x"))))
+           (commit "be5a4a24369c53dbb2efe7bbd3395aae386023fc")))
+     (sha256 (base32 "0v0zhc360wn0m5dxxg5gncydswbga6qcshz5i8z3dxhf5z31q4yj"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("doc/dialog-mode.texi" "dialog-mode.el")))
    (home-page "https://git.sr.ht/~mew/dialog-mode")
@@ -42345,7 +42345,7 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260426.654")
+   (version "20260426.724")
    (source
     (origin
      (method git-fetch)
@@ -50552,18 +50552,18 @@
 (define-public emacs-impatient-mode
   (package
    (name "emacs-impatient-mode")
-   (version "20230511.1746")
+   (version "20260426.1323")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/impatient-mode.git")
-           (commit "a4e4e12852840996b027cb8e9fb2b809c37a0ee3")))
-     (sha256 (base32 "1cwascc08pzmvgjf0z5fh3w3jf85rgk13haz085qbdkhxsbivav2"))))
+           (commit "4bb8009c6c6a6339a8fd7b4dea4a165af3721812")))
+     (sha256 (base32 "1mic0g45g93r53zh8y1gdl0lkwpvdhi05jffz1jr8qq41jpp1886"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-simple-httpd emacs-htmlize))
    (arguments '(#:files ("*.html" "*.js" "impatient-mode.el")))
-   (home-page "https://github.com/netguy204/imp.el")
+   (home-page "https://github.com/skeeto/impatient-mode")
    (synopsis "Serve buffers live over HTTP")
    (description "Documentation at https://melpa.org/#/impatient-mode")
    (license #f)))
@@ -60784,14 +60784,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260422.2206")
+   (version "20260426.1340")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "569b9656d6a2c792b07d3980796c76b121c9737e")))
-     (sha256 (base32 "1y8q8d3lw4yq04kngnskw0yx6x96yzd09052cjx9anyqwcyhbhk8"))))
+           (commit "09c63eb957efdf1b8ac431307b5bd277d6b15ffd")))
+     (sha256 (base32 "0v07wwxlrjr0hiqrvssigg2ab5fq0vy5ikdmwb69bdhyv08gjli1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -68986,14 +68986,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260425.1250")
+   (version "20260426.1046")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "182792d0a8fa3d9fd9e9d238f76c7c54519299ce")))
-     (sha256 (base32 "030f8dzwk78ljbq27mk4r938gd4cly5p4zg4976n7sdjwmkrgbwl"))))
+           (commit "4813a15788182ff8902202680d4dc202ca7f90ed")))
+     (sha256 (base32 "0kcw64dygirsmi41r45k4lzf4sm4m6ds60pjqmmixnbac70h5zsd"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -70997,14 +70997,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260424.1807")
+   (version "20260426.1449")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "bcf4742038a11a4aae97a02a25bcb93c0bd3c474")))
-     (sha256 (base32 "1bhnhqbpimyxs9cb6z9ziwww7lf83dzg67kyz5ss7wclyvnd63cf"))))
+           (commit "8b48d5fbe7d47d70424c25cbc000c1ebcb0c6841")))
+     (sha256 (base32 "08br5yxyx8kc61k6vjsnbv4q0cz8ck1x45p691n2x43p51214lam"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -83181,14 +83181,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260426.657")
+   (version "20260426.1134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "80d858dbb91368772c2fee659ae27b3094e06eec")))
-     (sha256 (base32 "1q3yjwcwi4bl6mfp34d3a5h43i08hh6vdpvf3dv2g7hcs9n9hvik"))))
+           (commit "67c18e26fe68552a273b7794451ce757cc3afe9a")))
+     (sha256 (base32 "0s0w96gg523ficvhykwm0xrhv0k03x8fvd804v5x9y5rwlqh3hvz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -92392,17 +92392,18 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20230821.1458")
+   (version "20260426.1550")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "3982c55e9061475038a3ccd61aecb2de3d407cec")))
-     (sha256 (base32 "11rcng3r81l5j51jlxqrw8wla60k5dbdr84gnr29m6vzaccl6xgm"))))
+           (commit "8505e8ad6d7353d372109c0d538e497a2a50be1e")))
+     (sha256 (base32 "0i3g7iwfhndrgxa6096i7hwbfysxf1ynkfsh1r6z8izvp37nanm8"))))
    (build-system melpa-build-system)
+   (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
-   (synopsis "Pure elisp HTTP server")
+   (synopsis "Pure Elisp HTTP server")
    (description "Documentation at https://melpa.org/#/simple-httpd")
    (license #f)))
 
@@ -98021,14 +98022,14 @@
 (define-public emacs-tabbar-ruler
   (package
    (name "emacs-tabbar-ruler")
-   (version "20260417.2349")
+   (version "20260426.1441")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mattfidler/tabbar-ruler.el.git")
-           (commit "2b72193e4fa9665236ec5dd17c47d0cf91ccc977")))
-     (sha256 (base32 "04y6yrgqvap4gkn0c1py8qx1vp9gpnhs5xaf82qb1ak903hwwms4"))))
+           (commit "306fc4f8e450704c68fca23791cfa50f2f9f99db")))
+     (sha256 (base32 "1akycy81cl2lxgz7fqcmiv7lj0rvz06ym72ck2r1gpwz7iydhy1a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tabbar emacs-powerline emacs-mode-icons))
    (home-page "https://github.com/mlf176f2/tabbar-ruler.el")
@@ -101947,14 +101948,14 @@
 (define-public emacs-trust-manager
   (package
    (name "emacs-trust-manager")
-   (version "20260422.952")
+   (version "20260426.1205")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/eshelyaron/trust-manager.git")
-           (commit "3a702921eaa65ce8de552e88f6280786a645252d")))
-     (sha256 (base32 "1c6v36fa8j9q0j8s5i1kdw4gkqmv6qldsswdccvyfcmbyl2wr3dw"))))
+           (commit "530c559ffa01b99ced8073ba4c74f1b8152a0ef2")))
+     (sha256 (base32 "0h6v3dcczh8644n09ny9mwx3zb5vy4ydify24zf09f6wlkkhzr5b"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~eshel/trust-manager")
    (synopsis "Convenient trust management")
@@ -109172,24 +109173,6 @@
    (home-page "https://github.com/mastro35/year-1984-theme")
    (synopsis "A retro-futuristic theme")
    (description "Documentation at https://melpa.org/#/year-1984-theme")
-   (license #f)))
-
-(define-public emacs-yeetube
-  (package
-   (name "emacs-yeetube")
-   (version "20260425.2149")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.thanosapollo.org/yeetube")
-           (commit "0a4495ef3a6a354d20ba1c980841f6bc79c6bc22")))
-     (sha256 (base32 "15kw3a75hi8ci7np0hkp4vbw4j19zg5wgkc7xqbwa8s0g3r1v962"))))
-   (build-system melpa-build-system)
-   (propagated-inputs (list emacs-compat))
-   (home-page "https://thanosapollo.org/projects/yeetube/")
-   (synopsis "Scrape YouTube, Play with mpv & Download with yt-dlp")
-   (description "Documentation at https://melpa.org/#/yeetube")
    (license #f)))
 
 (define-public emacs-yequake
