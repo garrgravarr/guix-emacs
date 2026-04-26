@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260424.1504")
+   (version "20260426.425")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "fa222cc847bea9f8b941615cc3eb22dc3a7b0412")))
-     (sha256 (base32 "18231s6yagpry1pdppjxyq9rpb3llmf8y3qvv378hwx3n7qq6kng"))))
+           (commit "c660173c73f6658086f89346d6988a533ffd473f")))
+     (sha256 (base32 "16m97rdgvw7y1zsqbvx0rc25x0rjxa4jbvwa26blzb4v6ms1c3hf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -5755,14 +5755,14 @@
 (define-public emacs-base16-theme
   (package
    (name "emacs-base16-theme")
-   (version "20260419.235")
+   (version "20260426.238")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tinted-theming/base16-emacs.git")
-           (commit "8461432c62353f302b79bf0b2db2f99b83183dbe")))
-     (sha256 (base32 "1n36k7fax231x07n82licps5kvm682nz1adr93ly7np5434m0926"))))
+           (commit "a5539cfa079dbcfd8db7e8b3a9fae626b906ccf9")))
+     (sha256 (base32 "1kw2rk1g8fr2dgmzlvp8w55lr6992gyjrwk2hjqa6c4s6ffz10v2"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "build/*.el")))
    (home-page "https://github.com/tinted-theming/base16-emacs")
@@ -42345,14 +42345,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260425.846")
+   (version "20260426.654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "101904a1a8568fe42df49f0f1acd4ddab39ae1f8")))
-     (sha256 (base32 "1nn6l571g2v2g5i18l18qp0nplgilbs4s78x6gi410bzk0v3lfdq"))))
+           (commit "ecdf179b0bdcf0f9e74fe8fb1d9bc2d457adf844")))
+     (sha256 (base32 "0mig5paih95nxvlh1dykj8wppn1yf0h3vh8izb6n3a19nm2yrnrn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -61849,14 +61849,14 @@
 (define-public emacs-marginalia
   (package
    (name "emacs-marginalia")
-   (version "20260309.1545")
+   (version "20260426.650")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/marginalia.git")
-           (commit "d28a5e5c1a2e5f3e6669b0197f38da84e08f94a0")))
-     (sha256 (base32 "12gz095kmlj5xvx6709jl388x16724hivnncan9s52yf8rfjnlbm"))))
+           (commit "4a0628dfdf944a5d307d31d2a514825cc5386986")))
+     (sha256 (base32 "169svv1isrkky2jsdz8dmqg8f0nasq7zckl9lhz6kpjp1vi32rmr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/marginalia")
@@ -73425,14 +73425,14 @@
 (define-public emacs-org-link-beautify
   (package
    (name "emacs-org-link-beautify")
-   (version "20260425.1602")
+   (version "20260426.557")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-link-beautify.git")
-           (commit "96540e3ab4dd38821cd0061f83e3cf2212559813")))
-     (sha256 (base32 "1d6qaj7ilfisx6fa9bb3lza5vs6b0m4h1njs5bdrmvf0dwywchrs"))))
+           (commit "7ef11d4fe9874324985006875b9c96f227c6c10b")))
+     (sha256 (base32 "1blyiszcrddyr9qjp39fmbz81zbv273d8d2iyxqfpl69nwmvixwq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-qrencode))
    (arguments '(#:files (:defaults "scripts")))
@@ -83181,14 +83181,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260425.2231")
+   (version "20260426.657")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "6bb29099114cf68077c4a15f1bde1b323cba5fe6")))
-     (sha256 (base32 "1v3plywhjm0yy2gnwb38xq62s6dpq3pqkwi7km82i6qqix309xzb"))))
+           (commit "80d858dbb91368772c2fee659ae27b3094e06eec")))
+     (sha256 (base32 "1q3yjwcwi4bl6mfp34d3a5h43i08hh6vdpvf3dv2g7hcs9n9hvik"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
