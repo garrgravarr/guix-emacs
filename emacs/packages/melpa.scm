@@ -2721,14 +2721,14 @@
 (define-public emacs-anju
   (package
    (name "emacs-anju")
-   (version "20260424.1819")
+   (version "20260425.1754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/anju.git")
-           (commit "b44537683c264d13c05dbeb5bb04792558aaf9b2")))
-     (sha256 (base32 "0v075843gg1smi43b7cwcrbpjlbnm5qlijb3dzip5lpz2pzq39h9"))))
+           (commit "7858efad028ed7a326132a37c74f32e3644e6414")))
+     (sha256 (base32 "04cdqhajhlra5lr73rq92s15ky2vd87mdlgxfyd4r6j1fldgl86f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-casual emacs-markdown-mode))
    (arguments '(#:files (:defaults "docs/images")))
@@ -8045,14 +8045,14 @@
 (define-public emacs-browser-hist
   (package
    (name "emacs-browser-hist")
-   (version "20250501.1450")
+   (version "20260425.1930")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/browser-hist.el.git")
-           (commit "1cd80081feaab99fef9e8eadd55d68b3cef90144")))
-     (sha256 (base32 "12jarw5sca6r171lzba727xbii6xjlv432j8frgkph4r0k0946id"))))
+           (commit "aab0a364077bfbf5559085086545d30bbaf7ac5e")))
+     (sha256 (base32 "04xmn00pvnzralw4y8j3ilf7lprv5h01kmasyxnnr99ndphs8q62"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/agzam/browser-hist.el")
    (synopsis "Search through the Browser history")
@@ -19803,14 +19803,14 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20260328.1925")
+   (version "20260425.2305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "b965e19e6e7f9933199e421849a49229207c1c9f")))
-     (sha256 (base32 "07mmfc44wn0gsg4h4c4fnz0w8jzsj403nxkjbbn20pr3rfln42rq"))))
+           (commit "1dcb6f5b4d6c51bf14c5f760272d2cb93072d234")))
+     (sha256 (base32 "1iv49fi3dxj28slb49b3s5rfgmm91vh6xxcz3r00mvjcxfwk9b5g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
    (synopsis "Highlight uncommitted changes using VC")
@@ -23703,14 +23703,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260423.1754")
+   (version "20260426.9")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "bd5a72aef67eca944a7ad0d9916eb0d0f0f11f9d")))
-     (sha256 (base32 "0ngap75h8344csabhmf12y4wdii6rxb94yxvdx8aj31kggxaqn6l"))))
+           (commit "5a53e86712fe9681814e4f02143e7dfeab2cf5be")))
+     (sha256 (base32 "09hvisrxigx7q9gmyaj3ichjrf9fz4h4bmhz9s89ahf2sr7qq93j"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -29885,7 +29885,7 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260425.1635")
+   (version "20260425.1702")
    (source
     (origin
      (method git-fetch)
@@ -38469,14 +38469,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260424.408")
+   (version "20260425.1808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "6366161a0e03c6c12aeba872fed3dfdc135bff9c")))
-     (sha256 (base32 "1hwk15hlq82khx38xriqpd1syfr3zn4m90n65s8ijfjmaysfcg9j"))))
+           (commit "e0c9173df8dcc0a185ba567e4b4b5eae33f836d4")))
+     (sha256 (base32 "15gp3px2qv8pgkgd1af0f0d28pmp8vwjaznayi067bpczmfbnbcg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -38916,14 +38916,14 @@
 (define-public emacs-geiser
   (package
    (name "emacs-geiser")
-   (version "20260425.1245")
+   (version "20260426.16")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/emacs-geiser/geiser.git")
-           (commit "7bb18cd896e736fb90a0b5c2f945331fcabf0fbb")))
-     (sha256 (base32 "0bgbc1ni21w8b2xkjn7csidydhg1g7xybgci3hn7wr1ss9pcajvg"))))
+           (commit "2e9d5e04e7ddf2727555c74c468bd009ecbdbd92")))
+     (sha256 (base32 "1n5bnyfpnikqvajkmvyfznv1cfjgrwmw59xdzr8cdsplqpbidnx2"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "doc/dir" "doc/geiser.texi")))
    (home-page "https://gitlab.com/emacs-geiser/")
@@ -56269,14 +56269,14 @@
 (define-public emacs-kotlin-ts-mode
   (package
    (name "emacs-kotlin-ts-mode")
-   (version "20260326.930")
+   (version "20260425.1618")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/bricka/emacs-kotlin-ts-mode.git")
-           (commit "136d8d1fd3158fc5558aff866041c1935b574588")))
-     (sha256 (base32 "15iqvbv8i3n27yssfr47fh75ir89a6jxicp7vi8jk51a45symhnf"))))
+           (commit "bd78f044436adb2d9bf5489e8c697018a51dc909")))
+     (sha256 (base32 "1qcr4dlr1627077cb2wq2ihgz6bb12isgmz3k5ddkidcmb74lnyk"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/bricka/emacs-kotlin-ts-mode")
    (synopsis "A mode for editing Kotlin files based on tree-sitter")
@@ -73425,14 +73425,14 @@
 (define-public emacs-org-link-beautify
   (package
    (name "emacs-org-link-beautify")
-   (version "20260417.705")
+   (version "20260425.1602")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-link-beautify.git")
-           (commit "273e5b250fa2cc9b2dbbb63d9a7225536116fbd7")))
-     (sha256 (base32 "1zhwq9mlx6bpfvqqgzmk210na7s8z9dc2cgs031by9b983rjh0bs"))))
+           (commit "96540e3ab4dd38821cd0061f83e3cf2212559813")))
+     (sha256 (base32 "1d6qaj7ilfisx6fa9bb3lza5vs6b0m4h1njs5bdrmvf0dwywchrs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-qrencode))
    (arguments '(#:files (:defaults "scripts")))
@@ -74582,14 +74582,14 @@
 (define-public emacs-org-roam
   (package
    (name "emacs-org-roam")
-   (version "20260425.448")
+   (version "20260425.1623")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/org-roam/org-roam.git")
-           (commit "f95f8f2a6b55d68f30bf2d2cfad95ede1485c829")))
-     (sha256 (base32 "16ya17693zkhfa55z9p4xkrca7ndf1dj6w4wr3rcqx110d5fna1j"))))
+           (commit "903bd4ec56d29247990d005ed9052c201e18b812")))
+     (sha256 (base32 "1zfx8s2d3i8m60jq7png9y6ipbikviqlr000dvh31aizf6inbhjz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-emacsql emacs-magit-section))
    (arguments '(#:files (:defaults "extensions/*")))
@@ -78925,14 +78925,14 @@
 (define-public emacs-pathaction
   (package
    (name "emacs-pathaction")
-   (version "20260328.1613")
+   (version "20260425.2304")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/pathaction.el.git")
-           (commit "f3010d3485d7939f252dee59e4b335cb28e5069c")))
-     (sha256 (base32 "0k9b4a9psbz4zdbnfriayklbhgqglwlagcamk0srizjhs08xrqhy"))))
+           (commit "695f30bbaa227f9aa5ef891bb7ac6f973efdc99c")))
+     (sha256 (base32 "0zlvzvlddnkgmw5hnzag4b4w9zsly9fwm96gz67hjkxmxx5qf09l"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/pathaction.el")
    (synopsis "Execute the pathaction.yaml rules from your editor")
@@ -83181,14 +83181,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260310.858")
+   (version "20260425.2231")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "f8be23b266aec7108fb4b80410623cd50ba8ded9")))
-     (sha256 (base32 "1gg9mv6sz705x2lgwx4qz13wj20lcc6pv813k2h9ixdk4rxl1il4"))))
+           (commit "6bb29099114cf68077c4a15f1bde1b323cba5fe6")))
+     (sha256 (base32 "1v3plywhjm0yy2gnwb38xq62s6dpq3pqkwi7km82i6qqix309xzb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -102791,14 +102791,14 @@
 (define-public emacs-ultra-scroll
   (package
    (name "emacs-ultra-scroll")
-   (version "20260325.2311")
+   (version "20260425.1900")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jdtsmith/ultra-scroll.git")
-           (commit "0a9a26071ec33305cbc7a0f1dc7202702319d51f")))
-     (sha256 (base32 "0rz7lhwqxdphvd9j7p66b18vpyz7miyqa4mbmdckgc0zkdkz1w18"))))
+           (commit "6dfb3478e6ee1a6c1534c56235c55f9d0ad9dca4")))
+     (sha256 (base32 "0jml52mnxh3wcpwinfxbr8kl7a4wvvjcs8d6z7f16bsvv0ixphia"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jdtsmith/ultra-scroll")
    (synopsis "Fast and smooth scrolling")
@@ -109177,14 +109177,14 @@
 (define-public emacs-yeetube
   (package
    (name "emacs-yeetube")
-   (version "20260302.1931")
+   (version "20260425.2149")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/yeetube")
-           (commit "77e816972a70db86ad06ef10db56e0d8cecede5c")))
-     (sha256 (base32 "0zvbfwxq3dx14ynpafpvv1swg7hbg3k9avir9b7cymf4r5hrjnx3"))))
+           (commit "0a4495ef3a6a354d20ba1c980841f6bc79c6bc22")))
+     (sha256 (base32 "15kw3a75hi8ci7np0hkp4vbw4j19zg5wgkc7xqbwa8s0g3r1v962"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://thanosapollo.org/projects/yeetube/")
