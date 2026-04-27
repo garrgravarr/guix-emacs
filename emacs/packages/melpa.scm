@@ -18282,14 +18282,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260424.1715")
+   (version "20260426.2155")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "7cc83064166c8db951fdcb932d118ce6fe904ada")))
-     (sha256 (base32 "0qh5v6rrnzg7av415dfs372i214pfay7s5g7dxd4qvdhhl64k4a5"))))
+           (commit "8ffadc0200fef9d01cbb9b80f00c76ab806f5db1")))
+     (sha256 (base32 "1169yh7xznai9h5hidg0kanm4k9jyv8kc8db9ydzk4ymcycl0b65"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -19363,6 +19363,24 @@
    (home-page "https://git.sr.ht/~swflint/denote-sections")
    (synopsis "Universal Sidecar Sections for Denote")
    (description "Documentation at https://melpa.org/#/denote-sections")
+   (license #f)))
+
+(define-public emacs-denote-wordcloud
+  (package
+   (name "emacs-denote-wordcloud")
+   (version "20260420.817")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://codeberg.org/treflip/denote-wordcloud.git")
+           (commit "60d6ae8bc63bd7d223803def9694f78b015ee23a")))
+     (sha256 (base32 "0y1lgcf6xvvaxspc0n28g955q34v0bq5ma4rx78lgsxp7amp1cll"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-denote))
+   (home-page "https://codeberg.org/treflip/denote-wordcloud")
+   (synopsis "Generate a word cloud")
+   (description "Documentation at https://melpa.org/#/denote-wordcloud")
    (license #f)))
 
 (define-public emacs-departure-times-norway
@@ -26155,14 +26173,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260410.54")
+   (version "20260426.2316")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "de68b25318a1eef629f4aad677dc7dd6fe446c2e")))
-     (sha256 (base32 "0nk7c47qqm2w00c6cmlw6fv23qsfhg7fqb303fv5a9avdl47mnvh"))))
+           (commit "d81592b0fb355e4a8901ffbeb66da242c726101a")))
+     (sha256 (base32 "0f462q0vni8zax7wqqkl9lc4291f6g7prxkdpwm76yh7yxikjs74"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -29885,14 +29903,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260425.1702")
+   (version "20260426.1706")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "195c15407bf668d5f7e78edf571ce9dd70b45ee4")))
-     (sha256 (base32 "10a9zizz8bk3fnkzij5px2mh06l2hnbsgim8vrz356qb8y478v9g"))))
+           (commit "6b38c3d3bbdddba242386644fe49f04b8fdc13cd")))
+     (sha256 (base32 "1g155dnspfzqpxv71gi788nd24bb4win2iiv7df6zihd85zgjj7c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -30116,6 +30134,25 @@
    (home-page "https://github.com/Andrew-William-Smith/evil-fringe-mark")
    (synopsis "Display evil-mode marks in the fringe")
    (description "Documentation at https://melpa.org/#/evil-fringe-mark")
+   (license #f)))
+
+(define-public emacs-evil-ghostel
+  (package
+   (name "emacs-evil-ghostel")
+   (version "20260425.1212")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/dakra/ghostel.git")
+           (commit "75fe69fbe515a54f83de48f5b1807b0fac67c1ff")))
+     (sha256 (base32 "14ilh1zr3ky1h067riq9ls88392a52ixfj4g4zgnl9g3r744gqzk"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-evil emacs-ghostel))
+   (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
+   (home-page "https://github.com/dakra/ghostel")
+   (synopsis "Evil-mode integration for ghostel")
+   (description "Documentation at https://melpa.org/#/evil-ghostel")
    (license #f)))
 
 (define-public emacs-evil-god-state
@@ -38469,14 +38506,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260425.1808")
+   (version "20260426.1741")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "e0c9173df8dcc0a185ba567e4b4b5eae33f836d4")))
-     (sha256 (base32 "15gp3px2qv8pgkgd1af0f0d28pmp8vwjaznayi067bpczmfbnbcg"))))
+           (commit "d0300985c9a3b63f31944f7b33b1adea7bd54c3a")))
+     (sha256 (base32 "1g4f73hpk718qxlqprqmhp36i2f99x32kxqdlkv77sf7hpqcd33g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -38916,14 +38953,14 @@
 (define-public emacs-geiser
   (package
    (name "emacs-geiser")
-   (version "20260426.16")
+   (version "20260426.1850")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/emacs-geiser/geiser.git")
-           (commit "2e9d5e04e7ddf2727555c74c468bd009ecbdbd92")))
-     (sha256 (base32 "1n5bnyfpnikqvajkmvyfznv1cfjgrwmw59xdzr8cdsplqpbidnx2"))))
+           (commit "185191df527b51ce521084f8c32030e87dabb5e9")))
+     (sha256 (base32 "17scd33z607kzf2vhizzg4raxx992hz057j48xm4fq13r69vsapp"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "doc/dir" "doc/geiser.texi")))
    (home-page "https://gitlab.com/emacs-geiser/")
@@ -39512,16 +39549,24 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260425.1212")
+   (version "20260426.2034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "3c61db63eec06334869258905a86d1fb8af5c507")))
-     (sha256 (base32 "1xjkfrppfhpyjian7214xy7yawxmmv4gn4601dabxxid5mjm0ijs"))))
+           (commit "75fe69fbe515a54f83de48f5b1807b0fac67c1ff")))
+     (sha256 (base32 "14ilh1zr3ky1h067riq9ls88392a52ixfj4g4zgnl9g3r744gqzk"))))
    (build-system melpa-build-system)
-   (arguments '(#:files (:defaults "etc")))
+   (arguments
+    '(#:files
+      (:defaults
+       "etc"
+       "src"
+       "vendor"
+       "build.zig"
+       "build.zig.zon"
+       "symbols.map")))
    (home-page "https://github.com/dakra/ghostel")
    (synopsis "Terminal emulator powered by libghostty")
    (description "Documentation at https://melpa.org/#/ghostel")
@@ -42345,14 +42390,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260426.724")
+   (version "20260426.2347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "ecdf179b0bdcf0f9e74fe8fb1d9bc2d457adf844")))
-     (sha256 (base32 "0mig5paih95nxvlh1dykj8wppn1yf0h3vh8izb6n3a19nm2yrnrn"))))
+           (commit "302a1d895e0f92f665a2886eadf2eb4548a080cb")))
+     (sha256 (base32 "11ahx5i43rbw7l5sg9aajvd56np3w2smlx4wsvvqp98mn4axkgpa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -57887,14 +57932,14 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20260415.754")
+   (version "20260427.103")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/merrickluo/liberime.git")
-           (commit "6e8cc1cbadaafae5f99524d1d4dc8fcf115685be")))
-     (sha256 (base32 "0rmbcfna27g4y4s84glbhrzf2lm68b1rq994ca5mg2x2jfrchrv7"))))
+           (commit "2130baba8e5e15922650bc01de95a1d6c6a1c1f7")))
+     (sha256 (base32 "0zr0hk11xani4pn0yv2xlpfwargv33q610w0yw6ac1r91bn9r9z9"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -63438,14 +63483,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260425.817")
+   (version "20260427.0")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "25bc9a8f77509ed9227818a5bc3f86301ad78153")))
-     (sha256 (base32 "139d9kmqz4l2x0cid8rn633zwwpxjipg31jlbbmd7cvr8276a3q1"))))
+           (commit "f39a55db34bbaf5ff756e2164ca0fd5240a88538")))
+     (sha256 (base32 "0vd9hfs098743g0amh0d0spw2ip1gqxn0b34gcinfr8khgmsn3gi"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -64059,14 +64104,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260424.430")
+   (version "20260427.100")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "36049820ca987c79c87cc4d9f21d16ca23ff8ebb")))
-     (sha256 (base32 "15165fn161c6fvqcrpfffy7l5abs7zscarzhhvzbwppqk3r9wrq8"))))
+           (commit "1e64206f74856e1605a44860d9390dbb08920458")))
+     (sha256 (base32 "00j9ssw1mjgnqwjfqzmslhpj95mfn58y5az8yzdi43aicq1i7qs6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -65365,6 +65410,24 @@
    (home-page "https://github.com/d5884/mozc-im")
    (synopsis "Mozc with input-method-function interface")
    (description "Documentation at https://melpa.org/#/mozc-im")
+   (license #f)))
+
+(define-public emacs-mozc-modeless
+  (package
+   (name "emacs-mozc-modeless")
+   (version "20260423.1309")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/kiyoka/mozc-modeless-emacs.git")
+           (commit "b5d246fd8f5ba3051808da82b2148a116b312ae7")))
+     (sha256 (base32 "1sxfyn2j03dfc09pxgrzh2cnvpqxc0mqqgngx8mwnlhvc87n6jfi"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-mozc))
+   (home-page "https://github.com/kiyoka/mozc-modeless-emacs")
+   (synopsis "Modeless Japanese input with Mozc")
+   (description "Documentation at https://melpa.org/#/mozc-modeless")
    (license #f)))
 
 (define-public emacs-mozc-popup
@@ -73383,6 +73446,23 @@
    (home-page "https://repo.or.cz/org-kindle.git")
    (synopsis "Send org link file to ebook reader")
    (description "Documentation at https://melpa.org/#/org-kindle")
+   (license #f)))
+
+(define-public emacs-org-lark
+  (package
+   (name "emacs-org-lark")
+   (version "20260426.1029")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/bbw9n/org-lark.git")
+           (commit "9466add7b0076351864f676013e4cfd126acdd7b")))
+     (sha256 (base32 "16k8gkallrny6ifqa7lkinb9f2zc9c4zj6dvqq084896890zjlvz"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/bbw9n/org-lark")
+   (synopsis "Export Lark docs to Org")
+   (description "Documentation at https://melpa.org/#/org-lark")
    (license #f)))
 
 (define-public emacs-org-latex-impatient
@@ -92392,14 +92472,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20260426.1550")
+   (version "20260426.2157")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "8505e8ad6d7353d372109c0d538e497a2a50be1e")))
-     (sha256 (base32 "0i3g7iwfhndrgxa6096i7hwbfysxf1ynkfsh1r6z8izvp37nanm8"))))
+           (commit "ed1e3b2ad4830a234ac8b8e75d199378fab8d769")))
+     (sha256 (base32 "0kqlpv9q7ik7375llmcln4y8r6kaxf8kg6yhiyksvffv3a2hd79q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
@@ -95745,14 +95825,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260403.411")
+   (version "20260426.2132")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "272df3cae401da0853dc50344500b522f96a9286")))
-     (sha256 (base32 "1rbisgin3vs2yicyxs0acf6j59hzrr14vddv89vf223r40ipgwqp"))))
+           (commit "405bbc48d8a8bfdfb01093b40f83b86e8356e2b2")))
+     (sha256 (base32 "1mzj02bfxnqp3ajngf43g6316zbagrj3asddb3fv9im1js8ccvbf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -104456,6 +104536,25 @@
    (description "Documentation at https://melpa.org/#/verb")
    (license #f)))
 
+(define-public emacs-verdict
+  (package
+   (name "emacs-verdict")
+   (version "20260413.752")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/tjarvstrand/verdict.el.git")
+           (commit "a749b3193a3bf7010cba18d4c41fc8d8c2281c4a")))
+     (sha256 (base32 "1qhk9bix8r5yyi01d5m11b8kxq1nq67pwzb6jwllbvvjm7p1c0f5"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-treemacs emacs-dash))
+   (arguments '(#:files ("packages/verdict/verdict.el")))
+   (home-page "https://github.com/tjarvstrand/verdict.el")
+   (synopsis "Generic test runner with treemacs results UI")
+   (description "Documentation at https://melpa.org/#/verdict")
+   (license #f)))
+
 (define-public emacs-veri-kompass
   (package
    (name "emacs-veri-kompass")
@@ -107403,6 +107502,23 @@
    (description "Documentation at https://melpa.org/#/wispjs-mode")
    (license #f)))
 
+(define-public emacs-with-command-redo
+  (package
+   (name "emacs-with-command-redo")
+   (version "20260421.207")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://codeberg.org/ideasman42/emacs-with-command-redo.git")
+           (commit "c5c45bbfe95839adb448c11da8a8646293a1d4c0")))
+     (sha256 (base32 "1j3sx4gnvrmrh64q38aiaq6xavq5jc9n6yavcsk1ci9kb1icm8w9"))))
+   (build-system melpa-build-system)
+   (home-page "https://codeberg.org/ideasman42/emacs-with-command-redo")
+   (synopsis "Repeat commands with automatic undo")
+   (description "Documentation at https://melpa.org/#/with-command-redo")
+   (license #f)))
+
 (define-public emacs-with-editor
   (package
    (name "emacs-with-editor")
@@ -107966,14 +108082,14 @@
 (define-public emacs-wttrin
   (package
    (name "emacs-wttrin")
-   (version "20260422.507")
+   (version "20260426.2335")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cjennings/emacs-wttrin.git")
-           (commit "9958ec4c4396ae8435f7e1818ff383c05df47a14")))
-     (sha256 (base32 "1i4k7aj2w5mawfc9h8h7s5c3r886bmzxf4ai2q1caarhckb81wj3"))))
+           (commit "a7e2eda6f36cb490a59f6c2670839ab1e52049fc")))
+     (sha256 (base32 "1qcfda1whzf2bhjlq1gslzkin1yjxn5rw22cvqg1iiynr9hc8fll"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-xterm-color))
    (home-page "https://github.com/cjennings/emacs-wttrin")
