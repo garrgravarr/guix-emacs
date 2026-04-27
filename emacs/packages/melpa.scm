@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260426.425")
+   (version "20260427.359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "c660173c73f6658086f89346d6988a533ffd473f")))
-     (sha256 (base32 "16m97rdgvw7y1zsqbvx0rc25x0rjxa4jbvwa26blzb4v6ms1c3hf"))))
+           (commit "be79e6f84b1bac1da2cb5e44cb0884cd5f66c73a")))
+     (sha256 (base32 "0xn2gbjb8v1w6pl2dwiasf0d2mp66nc8j8zl2mdc2ympbpxpz1ln"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -6527,14 +6527,14 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20260426.1404")
+   (version "20260427.943")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kristjoc/bible-gateway.git")
-           (commit "3d70d52c858fd7df2fef0e5d09a7d67055ecf192")))
-     (sha256 (base32 "16jx4gf7fm9xflcszjsbkpz7a36rkfr0lhj2i0lh8z8v843xm5f2"))))
+           (commit "e0264aeab3a29a1b590e70903782f9a6bca482e9")))
+     (sha256 (base32 "0jmayc79vyzsnyp80jng54lnvsahjgham8ga3hh0673cfywnbgsn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kristjoc/bible-gateway")
    (synopsis "A Simple BibleGateway Client")
@@ -18282,14 +18282,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260426.2155")
+   (version "20260427.616")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "8ffadc0200fef9d01cbb9b80f00c76ab806f5db1")))
-     (sha256 (base32 "1169yh7xznai9h5hidg0kanm4k9jyv8kc8db9ydzk4ymcycl0b65"))))
+           (commit "da56a41379405963e8725ce47cad2d747fedef9c")))
+     (sha256 (base32 "0f1g5c3735lcnjgl03g7d5wq9rzn13ywv29ljypwc9hjpm93rd6y"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -19821,14 +19821,14 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20260425.2305")
+   (version "20260427.323")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "1dcb6f5b4d6c51bf14c5f760272d2cb93072d234")))
-     (sha256 (base32 "1iv49fi3dxj28slb49b3s5rfgmm91vh6xxcz3r00mvjcxfwk9b5g"))))
+           (commit "d0076b893a610cf068bc5ba488d067ea687f1fa8")))
+     (sha256 (base32 "0xjlm0fjh4l7dj991501ly29hc2j3yyq6hlvipsjcvnh4k1a5szr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
    (synopsis "Highlight uncommitted changes using VC")
@@ -23329,14 +23329,14 @@
 (define-public emacs-eacl
   (package
    (name "emacs-eacl")
-   (version "20260412.237")
+   (version "20260427.655")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/redguardtoo/eacl.git")
-           (commit "5a304e4655a28cc817b9a633304bd64a5d5ddf53")))
-     (sha256 (base32 "145z8qv1xmx0y3g00n2jivhzi8h6zc5ai3wfijmijdam0yg377p5"))))
+           (commit "19f0170f3548eb49f5bd92653f321c3b1742b492")))
+     (sha256 (base32 "08fdsnh0jxpnihqmv9vbrv8hxiw2dd4y66h67w6lw6yxlglw9p0d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/redguardtoo/eacl")
    (synopsis "Auto-complete lines by grepping project")
@@ -29903,14 +29903,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260426.1706")
+   (version "20260427.634")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "6b38c3d3bbdddba242386644fe49f04b8fdc13cd")))
-     (sha256 (base32 "1g155dnspfzqpxv71gi788nd24bb4win2iiv7df6zihd85zgjj7c"))))
+           (commit "3bb356bf3a196da0e14be2fc56d62920311bcc51")))
+     (sha256 (base32 "047ks0a1krmrvlvi1g10iwc0mlnh8ngz1wqimmkcbf53libsxiy0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -30139,14 +30139,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260425.1212")
+   (version "20260427.728")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "75fe69fbe515a54f83de48f5b1807b0fac67c1ff")))
-     (sha256 (base32 "14ilh1zr3ky1h067riq9ls88392a52ixfj4g4zgnl9g3r744gqzk"))))
+           (commit "b9c12ca6419bb6a5afb9a25ae060e67729414f74")))
+     (sha256 (base32 "152gainc801xprsly9ix7qq888c0wn8cjzavjv4xs9cmjxkhvdz4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39549,14 +39549,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260426.2034")
+   (version "20260427.728")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "75fe69fbe515a54f83de48f5b1807b0fac67c1ff")))
-     (sha256 (base32 "14ilh1zr3ky1h067riq9ls88392a52ixfj4g4zgnl9g3r744gqzk"))))
+           (commit "b9c12ca6419bb6a5afb9a25ae060e67729414f74")))
+     (sha256 (base32 "152gainc801xprsly9ix7qq888c0wn8cjzavjv4xs9cmjxkhvdz4"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -57932,7 +57932,7 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20260427.103")
+   (version "20260427.303")
    (source
     (origin
      (method git-fetch)
@@ -83261,14 +83261,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260426.1134")
+   (version "20260427.758")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "67c18e26fe68552a273b7794451ce757cc3afe9a")))
-     (sha256 (base32 "0s0w96gg523ficvhykwm0xrhv0k03x8fvd804v5x9y5rwlqh3hvz"))))
+           (commit "28014dae7034fff49f5740b013a426aade7873f3")))
+     (sha256 (base32 "0xwb5vrrhiv70ca9vr8w8fc92lqyx10jv3rfl8jjz0r3npxi0yy5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -92472,14 +92472,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20260426.2157")
+   (version "20260427.454")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "ed1e3b2ad4830a234ac8b8e75d199378fab8d769")))
-     (sha256 (base32 "0kqlpv9q7ik7375llmcln4y8r6kaxf8kg6yhiyksvffv3a2hd79q"))))
+           (commit "18f7f20113e221bdd258096a017c2c9ba6e2972d")))
+     (sha256 (base32 "1bz188gaham9cgbq9vhd45wfhmq5l94vicnaj3ql4y4ylw11dr6f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
