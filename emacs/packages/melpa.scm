@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-recall
   (package
    (name "emacs-agent-recall")
-   (version "20260420.1713")
+   (version "20260427.2331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Marx-A00/agent-recall.git")
-           (commit "c05b14adea3f8973c829102f79e6eef590c373d9")))
-     (sha256 (base32 "18mdf2lsar6z1x7xzpggzjw769ls43izy7dm55qjyxdbg0m9fhqc"))))
+           (commit "b8b1ecca0430ea8bdcd15cb37eba7b38ba797b67")))
+     (sha256 (base32 "1z93wffrxx9v8b68kc558ddmx1mwvfrgh7h04jyhjz9f6k3ri5d8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell))
    (home-page "https://github.com/Marx-A00/agent-recall")
@@ -3209,14 +3209,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260422.253")
+   (version "20260427.2240")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "7a2136052f4174c178b28da1a2c632904bf08176")))
-     (sha256 (base32 "0imxfjar7m2zla4dimk9h8y6cgybfss1fyy90vh022l8gprhfrc4"))))
+           (commit "fa5d35ea43efa753c4dff71bc2acf473fc351e80")))
+     (sha256 (base32 "19s2k5kx4qhly24s4c8knlb6a2lq7bm8apyrsyrqs4im20b2vjf9"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -3279,16 +3279,16 @@
 (define-public emacs-apparmor-mode
   (package
    (name "emacs-apparmor-mode")
-   (version "20260311.140")
+   (version "20260428.144")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/apparmor/apparmor-mode.git")
-           (commit "fd9c6f142602bf5ed730305419b2b7cad2269e57")))
-     (sha256 (base32 "1xw2v51m7x68xx36z41qqxy1vwd3aszfz4qkx8bhdic7n7xqv9xy"))))
+           (commit "945ca073a9123ae3b156631d738f2bce8518b044")))
+     (sha256 (base32 "0yq57qd4a39s7ffxgq1dvwns191qjpc9amx79vgjbm7mydrjxpwv"))))
    (build-system melpa-build-system)
-   (home-page "https://github.com/alexmurray/apparmor-mode")
+   (home-page "https://gitlab.com/apparmor/apparmor-mode")
    (synopsis "Major mode for editing AppArmor policy files")
    (description "Documentation at https://melpa.org/#/apparmor-mode")
    (license #f)))
@@ -6527,14 +6527,14 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20260427.943")
+   (version "20260427.1814")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kristjoc/bible-gateway.git")
-           (commit "e0264aeab3a29a1b590e70903782f9a6bca482e9")))
-     (sha256 (base32 "0jmayc79vyzsnyp80jng54lnvsahjgham8ga3hh0673cfywnbgsn"))))
+           (commit "3eec026d3dbb24eba4d8f68f8486907be81f9a43")))
+     (sha256 (base32 "1m6qssmh24vcmm6ibhafqykbb5k1mcvil1lmyigmidwp2qnx01f0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kristjoc/bible-gateway")
    (synopsis "A Simple BibleGateway Client")
@@ -10841,14 +10841,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260417.1318")
+   (version "20260427.2218")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "b9e8a26197f5a2a6a8d1dfb21ef5eae6fe17e0b6")))
-     (sha256 (base32 "11v3d5gl4p2iqfym9nxcdwyvyyzal9dkri6wwfd74w0cgkgrlw46"))))
+           (commit "b1504e9d41f89da02c98b48ae293da2adbec9af1")))
+     (sha256 (base32 "01rzg87xrm2nyyww5gck5pik76zphhv9m2s07i0025adpk5jbh47"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -17051,14 +17051,14 @@
 (define-public emacs-csound-mode
   (package
    (name "emacs-csound-mode")
-   (version "20250310.1026")
+   (version "20260427.1829")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hlolli/csound-mode.git")
-           (commit "4a6aa20ad919f088d65b903814453bd56266cf77")))
-     (sha256 (base32 "18q4jpj6fnry67m6z3y5kk70hhk8db5l7wjwylhwmh362c3hzp30"))))
+           (commit "21c171177a8e62fef6d7e3a7acfcd585a12e92ed")))
+     (sha256 (base32 "0cryjb0pqdazhapbfx040gns541wcpvmi4l77slk1n0xdq1a7820"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-shut-up emacs-multi emacs-dash emacs-highlight))
@@ -19803,14 +19803,14 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20260427.323")
+   (version "20260427.2329")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "d0076b893a610cf068bc5ba488d067ea687f1fa8")))
-     (sha256 (base32 "0xjlm0fjh4l7dj991501ly29hc2j3yyq6hlvipsjcvnh4k1a5szr"))))
+           (commit "7d873b2f58908de1ea2f499da9bf993e088953d7")))
+     (sha256 (base32 "15a9cjlpjsfcb2hxqbb123389qhiqs06mn01pas2l0jqhc2p86v9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
    (synopsis "Highlight uncommitted changes using VC")
@@ -29885,14 +29885,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260427.634")
+   (version "20260428.11")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "3bb356bf3a196da0e14be2fc56d62920311bcc51")))
-     (sha256 (base32 "047ks0a1krmrvlvi1g10iwc0mlnh8ngz1wqimmkcbf53libsxiy0"))))
+           (commit "8db8a959d2c1ca54496224e96ff712c9185e38ab")))
+     (sha256 (base32 "0149g3c38bihk3nvllfyfwmjnyrlghsmww43ml9zsawalsm7i98q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -39531,14 +39531,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260427.1029")
+   (version "20260427.2205")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "b9c12ca6419bb6a5afb9a25ae060e67729414f74")))
-     (sha256 (base32 "152gainc801xprsly9ix7qq888c0wn8cjzavjv4xs9cmjxkhvdz4"))))
+           (commit "ea594fceee193d7618db26af5f741ddb26034612")))
+     (sha256 (base32 "0a7ig0a1wmi9s6vwf18zgy7vq42j4a49rrggar5myc8fv6brpgqz"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -41725,14 +41725,14 @@
 (define-public emacs-god-mode
   (package
    (name "emacs-god-mode")
-   (version "20250820.259")
+   (version "20260428.56")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacsorphanage/god-mode.git")
-           (commit "e6eef24dbf739d819a6651e854ec732ac3f386e6")))
-     (sha256 (base32 "1b39lq1l7xa2i4l5ciry3pjaxgzs0xawadb5kbcfhqhd4xlgb04g"))))
+           (commit "d965515cd85a81a2261c83416e43b1d9d7f15028")))
+     (sha256 (base32 "16v4k9f69pmbis96d1p20zlc8z7vd9gkqv3097l2y468967mp6cr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacsorphanage/god-mode")
    (synopsis "Minor mode for God-like command entering")
@@ -55960,14 +55960,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260424.1323")
+   (version "20260427.2355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "2201dbff4bbe6452c8b9ff37def971867504835a")))
-     (sha256 (base32 "0zg39z5m4n9ys5z3r58kvgkjlngivibb8jkr2j09gq3m9mqv5i0c"))))
+           (commit "2d0d3294d5277d2d86d6953c8bf4e8fa42e55362")))
+     (sha256 (base32 "13b89xgkn87lj1pxs7h3nvpk1px7qbqk8jgv5b1h7qk30dj70n4c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -62471,14 +62471,14 @@
 (define-public emacs-matlab-mode
   (package
    (name "emacs-matlab-mode")
-   (version "20260419.1224")
+   (version "20260428.56")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mathworks/Emacs-MATLAB-Mode.git")
-           (commit "6e2e913f98b4f54020eb25b8c4e798f13d062bb5")))
-     (sha256 (base32 "1yn8mjp15vvk8ziqbssffp01ax8fqq3x2arkcbb42knq3vykcfch"))))
+           (commit "4b52d1f67a7c7d6750e352e707acb9b6aab68edb")))
+     (sha256 (base32 "1jhlwgbglyjbbyww5330nv3j3l48wvybzflrn1jbswql822rs875"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -63465,14 +63465,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260427.0")
+   (version "20260428.10")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "f39a55db34bbaf5ff756e2164ca0fd5240a88538")))
-     (sha256 (base32 "0vd9hfs098743g0amh0d0spw2ip1gqxn0b34gcinfr8khgmsn3gi"))))
+           (commit "4111560e5b102d12f065511787022a792f4f0414")))
+     (sha256 (base32 "00w4g2d6qy7cwm6kb7qxbh1am8a9k4w6ssdynms3zp8sjp9sb9x7"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -69031,14 +69031,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260426.1046")
+   (version "20260427.1920")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "4813a15788182ff8902202680d4dc202ca7f90ed")))
-     (sha256 (base32 "0kcw64dygirsmi41r45k4lzf4sm4m6ds60pjqmmixnbac70h5zsd"))))
+           (commit "d0b07f072afd765089441a1b16843fab388b81e2")))
+     (sha256 (base32 "0zwql66c3v9nbrrvpgb3186fkzm6ybma4xmc7cdpsbsbi54gmdwf"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -76724,14 +76724,14 @@
 (define-public emacs-outline-indent
   (package
    (name "emacs-outline-indent")
-   (version "20260416.1902")
+   (version "20260427.2347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/outline-indent.el.git")
-           (commit "b25886d0b6a6de1b6c3e881230e41b76ad8652e0")))
-     (sha256 (base32 "1bmfi4bc0zjczivq7dc7zb1z016sswpz83czsfp0ggpm4xfjv79w"))))
+           (commit "ceb6619c18e7e0738c90fcad4d618331cbb8baa6")))
+     (sha256 (base32 "18lfnimr7alacp2fd777pk4fg1096mdd3cibrbz3z2iy8l74w60i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/outline-indent.el")
    (synopsis "Folding text based on indentation (origami alternative)")
@@ -80362,14 +80362,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260427.1551")
+   (version "20260427.2212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "22d6706e58a9a9cabdc966f10266d38c7ba299d1")))
-     (sha256 (base32 "1v5y6929v14c9wfa4pnyzwliw9i407x32hg0f0py0pzzs9km1kyd"))))
+           (commit "36fbcd4baa1bd1f347586bd42d043a665e83bb23")))
+     (sha256 (base32 "1gvzs9yhmhschmhxnas8a1bqgj9cbzb6pkpdqg2h9r69kraklsyl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -83050,14 +83050,14 @@
 (define-public emacs-project-cmake
   (package
    (name "emacs-project-cmake")
-   (version "20250830.1304")
+   (version "20260427.2129")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lucius-martius/project-cmake.git")
-           (commit "519ca5d7dd490a6b54435841c9fce3d5e3dcc140")))
-     (sha256 (base32 "1dhs4irm6am24cx20bcrmnxspazm8iwv3kbb755lsx70040gx4b8"))))
+           (commit "23a1391e0ba89fe25192771e6b424a629f6e21a3")))
+     (sha256 (base32 "0nskch1sf4k2s12vb27gjhn84724541gd030wgq41a8wnabmi6j2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/lucius-martius/project-cmake")
    (synopsis "A cmake backend for project.el")
@@ -92454,14 +92454,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20260427.1543")
+   (version "20260427.1842")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "e1463de32a15059734d7dc16c0f75243aa9c13dd")))
-     (sha256 (base32 "0mrnpyw935n18fqygk0mpjfg7625fp26yyk3vzw86brffa4kqxpx"))))
+           (commit "55221042892afde3b21576eb1125fbff96cdab34")))
+     (sha256 (base32 "1ap6k80vx5r6f414dj96qz9bgvf2nymphc8hqxk03yza5y8y2c5p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
@@ -101562,14 +101562,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260420.54")
+   (version "20260427.1835")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "0c9390a5ec483a63c9cecd57be71520b20a858c5")))
-     (sha256 (base32 "08jsvkjnqywgar2yv2a8vz85hwfiasa849dwixhrvavfqd2ss1d9"))))
+           (commit "a1fb1cbd3237552429f66a3ce7ff4301636e23ac")))
+     (sha256 (base32 "1hv7mh28ldp11ggx1wff84a2s76af96cyyv01ywdcq4rfhn2dsx0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
@@ -104574,14 +104574,14 @@
 (define-public emacs-verilog-ext
   (package
    (name "emacs-verilog-ext")
-   (version "20260225.1300")
+   (version "20260427.2203")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/verilog-ext.git")
-           (commit "e2217561bc6ee84b4e925951ef3794957048bf73")))
-     (sha256 (base32 "0h6q7105ccb64cid5h89j8m3a4s40ifnl6c9j8xak23k3q3l9jk4"))))
+           (commit "73049809a362408cac6071221a1c5ffe123455a1")))
+     (sha256 (base32 "0hd3y17iamv49bn9qyjfqlk4imzn5i48hzlij63k6wwnvcbd4kd6"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-verilog-ts-mode
@@ -104602,14 +104602,14 @@
 (define-public emacs-verilog-ts-mode
   (package
    (name "emacs-verilog-ts-mode")
-   (version "20260225.1302")
+   (version "20260427.2158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/verilog-ts-mode.git")
-           (commit "a804a3e8b744edeaf879705c85aae196f761cba8")))
-     (sha256 (base32 "18ndf250z55dz8vic6xxyfxjlymy8inf4ga0swdf4swhfyfp5im3"))))
+           (commit "32d00f783711eb2f03615aa8d5739d5c9a50a7f9")))
+     (sha256 (base32 "1ipf0p9rr58r2yz2aaci83sns2m4lfldx2i6nl1mf1l3rzh258mn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gmlarumbe/verilog-ts-mode")
    (synopsis "Verilog Tree-sitter major mode")
@@ -105779,17 +105779,17 @@
 (define-public emacs-wacspace
   (package
    (name "emacs-wacspace")
-   (version "20180311.2350")
+   (version "20260427.2039")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/shosti/wacspace.el.git")
-           (commit "54d19aab6fd2bc5945b7ffc58104e695064927e2")))
-     (sha256 (base32 "1nfx1qsl2gxjqbbc5xsr8f3xz2qyb4wnz3634k3hglb1jpa78j3n"))))
+           (commit "28b1fb7a124febb8dbf47aaae8d7dd8c185eea7d")))
+     (sha256 (base32 "102zabzygvf7aw879sdyyldgjsih0cpvmjfg4llwf4jp9wf0fzja"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
-   (home-page "http://github.com/shosti/wacspace.el")
+   (home-page "https://github.com/shosti/wacspace.el")
    (synopsis "The WACky WorkSPACE manager for emACS")
    (description "Documentation at https://melpa.org/#/wacspace")
    (license #f)))
