@@ -1862,14 +1862,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20251203.2318")
+   (version "20260428.828")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "6d0c41d1cfd24821fb32933edf8c0c2a9bb8c847")))
-     (sha256 (base32 "0mwh2ikw3kkbphm2f8grgygmib51azwisp5s7nljb17aq7ncdk3h"))))
+           (commit "6bc95319a979a5e2c349c2eeb01388f53e8c6f9d")))
+     (sha256 (base32 "1gl94bi9lfipsfbpq0mllcghibfbx43lzrpq05layrfaxwd4lssq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -10841,14 +10841,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260427.2218")
+   (version "20260428.844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "b1504e9d41f89da02c98b48ae293da2adbec9af1")))
-     (sha256 (base32 "01rzg87xrm2nyyww5gck5pik76zphhv9m2s07i0025adpk5jbh47"))))
+           (commit "1fffd941675d1eba158555a6338d6893f7857408")))
+     (sha256 (base32 "11i3qh7hrg24a7jsk7xzkldd8k2f19nbll2wra9a9vl77m58r7sf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -15406,14 +15406,14 @@
 (define-public emacs-consult-project-extra
   (package
    (name "emacs-consult-project-extra")
-   (version "20260117.813")
+   (version "20260428.547")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Qkessler/consult-project-extra.git")
-           (commit "2b3fa36fd3a14deacf594f4acd54d220d6890c55")))
-     (sha256 (base32 "1k1z8rsqqri4dpvc7vnrgc2s53h538vyllvc700wci1zk5pa9khj"))))
+           (commit "b8b2a1a244830f366e3a32b6a98a1d4a74fc276a")))
+     (sha256 (base32 "1fm10b2k0spv6pds7bc4jlxjq1xymgf263nnqxx24fisxhncgrgc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult))
    (home-page "https://github.com/Qkessler/consult-project-extra")
@@ -38488,14 +38488,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260426.1741")
+   (version "20260428.154")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "d0300985c9a3b63f31944f7b33b1adea7bd54c3a")))
-     (sha256 (base32 "1g4f73hpk718qxlqprqmhp36i2f99x32kxqdlkv77sf7hpqcd33g"))))
+           (commit "a5a7aed4f05bd9cb56216bfde2c5d86c06b5505d")))
+     (sha256 (base32 "1xcbrm4xnjy2cxnd6lfdxzwyqmqi6cajm77nlsdrm8j1rdlcz10m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -39531,14 +39531,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260427.2205")
+   (version "20260428.742")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "ea594fceee193d7618db26af5f741ddb26034612")))
-     (sha256 (base32 "0a7ig0a1wmi9s6vwf18zgy7vq42j4a49rrggar5myc8fv6brpgqz"))))
+           (commit "90f1f71d022910a5f86da1d413ea155422eac5dc")))
+     (sha256 (base32 "1mi58ijd70a9q3m0kvar632khqkzfkrfni2jh1q6shcixq4fb7gb"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -42372,14 +42372,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260426.2347")
+   (version "20260428.634")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "302a1d895e0f92f665a2886eadf2eb4548a080cb")))
-     (sha256 (base32 "11ahx5i43rbw7l5sg9aajvd56np3w2smlx4wsvvqp98mn4axkgpa"))))
+           (commit "71b9f9414536c4cd35d8c02d3c8ad4fc4aea8718")))
+     (sha256 (base32 "0aaznd1ihv1iv3i0hz8gsp7x6nig7q1ypjwngag7h2v400g52x2l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -47641,14 +47641,14 @@
 (define-public emacs-hidepass
   (package
    (name "emacs-hidepass")
-   (version "20260415.1941")
+   (version "20260428.540")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-hidepass.git")
-           (commit "0cdc0d7910501d91d5d75ae53a42726d3fca0302")))
-     (sha256 (base32 "1fv98diy9nj8n8y6ndb3n6vddvbqi539b1q87vsfzfna2gwnrpn6"))))
+           (commit "be0dd65847c845a690ee85d6d0be26af89a0b0af")))
+     (sha256 (base32 "17jcakvwr1ga0r1ycci04ca5i8aasw4hqdhiknzmj0hghncfilz6"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-hidepass")
    (synopsis "Hide passwords at one or multiple lines")
@@ -60008,14 +60008,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260427.1101")
+   (version "20260428.510")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "377662d01462ab39283cc614ec2013262b44e0c0")))
-     (sha256 (base32 "08wjh9y3v9dw8wms9pyp3xffbh260y4knv4vnkprc2nmx7i2dmhc"))))
+           (commit "0408c9cdf8d20a10dac8a5c71584b2a91ff3d62f")))
+     (sha256 (base32 "0nydqa25cr6iirwr2avk5xsdd2m1kqbvkazm1v76jcpnms02fqlj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -63465,14 +63465,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260428.10")
+   (version "20260428.800")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "4111560e5b102d12f065511787022a792f4f0414")))
-     (sha256 (base32 "00w4g2d6qy7cwm6kb7qxbh1am8a9k4w6ssdynms3zp8sjp9sb9x7"))))
+           (commit "3ca03eeafadaac216f9bab5a526e295a66f30f5e")))
+     (sha256 (base32 "1miq8j04n5g12yf6jg8pip0vs3hn096gv31djhqv2dvjf2h3ww3w"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -92454,14 +92454,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20260427.1842")
+   (version "20260428.1002")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "55221042892afde3b21576eb1125fbff96cdab34")))
-     (sha256 (base32 "1ap6k80vx5r6f414dj96qz9bgvf2nymphc8hqxk03yza5y8y2c5p"))))
+           (commit "8b4671042f4360d301ec31e722b211d4ffe43f66")))
+     (sha256 (base32 "0ckd2wvrm591kz01fask2hh57y01z6hy39y7awjvp89w340xx639"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
