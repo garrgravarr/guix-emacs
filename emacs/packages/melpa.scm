@@ -8225,14 +8225,14 @@
 (define-public emacs-buffer-guardian
   (package
    (name "emacs-buffer-guardian")
-   (version "20260316.1912")
+   (version "20260428.135")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-guardian.el.git")
-           (commit "707a70b532eb9dd77f1b5cd460405c41ac7f8cb3")))
-     (sha256 (base32 "08155f5lsc1x97pakp6dkfkl8a7yn6q4hqsl0bqgj7xp164lqdsb"))))
+           (commit "96ef5d59f201701e88ff8f2ad01af8c17deb475d")))
+     (sha256 (base32 "1l8avkdh4yb2p622ji4kc14p3lsa6w43llw4nfha9h2bqa8jr4q6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/jc-dev")
    (synopsis "Automatically Save Buffers Without Manual Intervention")
@@ -10059,14 +10059,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260419.807")
+   (version "20260426.807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "2813707d1f2c98562fa873624abc79ce49db969c")))
-     (sha256 (base32 "0kc3mb0q86wc9ajmdvb26wpd0fg4gllgg8s3pfb49w8qgz7z02ba"))))
+           (commit "0cdfcd8d3962d2c4451e0fbb7a950cd4887c4adf")))
+     (sha256 (base32 "1p2pxzvxlsllq60idlvi6rm1ylf6cr1wjsgxm1qfpsx0npj81alk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -40050,14 +40050,14 @@
 (define-public emacs-git-link
   (package
    (name "emacs-git-link")
-   (version "20260411.1730")
+   (version "20260428.1733")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sshaw/git-link.git")
-           (commit "b651de43236276cdb18ec7727f645cbf6743a499")))
-     (sha256 (base32 "1zpws6z5v54g94jnsw78k42apxpffg54dlkm5i8gclsaxhn6xpdg"))))
+           (commit "a5764b1d402dc398ecf404635267cb0b7d230c10")))
+     (sha256 (base32 "0sw8gdy95071cs5lypdpxw4jgzrmy2m23spgc341gdh0mbsdhk73"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sshaw/git-link")
    (synopsis "Get the GitHub/Bitbucket/GitLab URL for a buffer location")
@@ -60008,14 +60008,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260428.510")
+   (version "20260428.1058")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "0408c9cdf8d20a10dac8a5c71584b2a91ff3d62f")))
-     (sha256 (base32 "0nydqa25cr6iirwr2avk5xsdd2m1kqbvkazm1v76jcpnms02fqlj"))))
+           (commit "f6c60b6df14487340af924ed0f59ed08f1c8da6b")))
+     (sha256 (base32 "0w9xx8ng1fvk9cxsyzjw21w5gs5ab06qi2k1sbppg2mm7wzw06fa"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -62854,14 +62854,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260425.730")
+   (version "20260428.1022")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "4136e0704f6c2a873d4f0bc055b8a926226fa327")))
-     (sha256 (base32 "0w611dlg43cipzka36ynk5ni99x6l1scfxk3bs3rqki8nixr89pv"))))
+           (commit "4e536002d97a2c0a2b589486e2eeaad2cd295a97")))
+     (sha256 (base32 "10zw92ik4892hnxk713v71qn37ashbfg5gmg93z244k62prc04ss"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -80362,14 +80362,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260427.2212")
+   (version "20260428.1242")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "36fbcd4baa1bd1f347586bd42d043a665e83bb23")))
-     (sha256 (base32 "1gvzs9yhmhschmhxnas8a1bqgj9cbzb6pkpdqg2h9r69kraklsyl"))))
+           (commit "38f90c0823c692f1071c521cc25bcf98487ee55a")))
+     (sha256 (base32 "1w11jj2wbaisa7vh33n4a67qjdm9z0gjqv50sy6i387ybg1pk3zq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -92454,14 +92454,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20260428.1002")
+   (version "20260428.1401")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "8b4671042f4360d301ec31e722b211d4ffe43f66")))
-     (sha256 (base32 "0ckd2wvrm591kz01fask2hh57y01z6hy39y7awjvp89w340xx639"))))
+           (commit "9a60de46792423af6ab0c55b1e968061d63b1025")))
+     (sha256 (base32 "1k5aw60ng68i9i120zw5vlhcg3zmvj3xbi6yll1qfznbm4rvvg6a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
@@ -104916,14 +104916,14 @@
 (define-public emacs-vim-tab-bar
   (package
    (name "emacs-vim-tab-bar")
-   (version "20260314.1906")
+   (version "20260404.1956")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/vim-tab-bar.el.git")
-           (commit "3ab286ffc3ce5e4215d9d7f502a6982111e49207")))
-     (sha256 (base32 "19n4nhm9gvz6z93prq3v413qcl4iknprnkjcmixlg4lkm59kl3bw"))))
+           (commit "146dca43c2b1c6676d27a8b604d0517c740519c0")))
+     (sha256 (base32 "0pwgv8kmc5hsnvjdj8nkspgk98xjyggc08gwq3spsjg383v2v3dc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/vim-tab-bar.el")
    (synopsis "Vim-like tab bar")
