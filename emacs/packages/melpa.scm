@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260428.1807")
+   (version "20260429.1304")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "9368925f40f92c6de79cf8c1f3d95265e56da213")))
-     (sha256 (base32 "11qirjvxalg5zkmz0fgfdf9g0kmgfw8v5fw954d50c4k3zjbrjrm"))))
+           (commit "85bd9c41d43a92b0961960864830dc893120c86d")))
+     (sha256 (base32 "1w1ii8gwh3icspwjwwrskwyhvgv4ssgbwpyz89iz8ig8j0p1hfdd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10841,14 +10841,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260428.2158")
+   (version "20260429.1548")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "b19f07572bdc7a2682a27a786ef92dc09471748f")))
-     (sha256 (base32 "1ghvdya77sk6j195d79nahgy02fyznv6riq8n9swkhxxkg6li3p7"))))
+           (commit "0ff284193676bb986308dd0088daa0873b342347")))
+     (sha256 (base32 "0ipdizp131wpkrsn1179nibzkpqvxykyfzklwmqhawkzybdfgcd9"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -23703,14 +23703,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260426.9")
+   (version "20260429.1345")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "5a53e86712fe9681814e4f02143e7dfeab2cf5be")))
-     (sha256 (base32 "09hvisrxigx7q9gmyaj3ichjrf9fz4h4bmhz9s89ahf2sr7qq93j"))))
+           (commit "7fc89986f71b43049c095aa55cb204d3f13e2ea8")))
+     (sha256 (base32 "16srd0417ckgw9w8ipfpmgrk5cy7s1fxn3q9fh0ylvahb9pwpap8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -26155,14 +26155,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260429.48")
+   (version "20260429.1430")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "8685e7104c4d1cb6013160205487a56c10ac3197")))
-     (sha256 (base32 "18imhnxmyj8nqgy0ii5715iz118s00l8bdh15qydz8dndx69xjyg"))))
+           (commit "4f8bdc017c4e0aa7770cda0438780e987195403f")))
+     (sha256 (base32 "14qncy67n1msv9yc1f6iyj72mdhdmd5va8slf0dswy9fm0ffjbk1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -30121,14 +30121,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260428.2221")
+   (version "20260429.1153")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "1d49fcc82560eaa5dc8518ee8cc7b487c9b7621c")))
-     (sha256 (base32 "14pq0ss3ifzwlfibxwamkvpb44xzs2zngnlmh38zlb8qv04rj9mv"))))
+           (commit "6437e5b5dd08dcbc9822413e8dd6a7966019bace")))
+     (sha256 (base32 "1vsxfgi4rz87zf2xss1z11gz1fmjdwvinpbs1mqidkvy1n3bhxv9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -38935,14 +38935,14 @@
 (define-public emacs-geiser
   (package
    (name "emacs-geiser")
-   (version "20260426.1850")
+   (version "20260428.2241")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://gitlab.com/emacs-geiser/geiser.git")
-           (commit "185191df527b51ce521084f8c32030e87dabb5e9")))
-     (sha256 (base32 "17scd33z607kzf2vhizzg4raxx992hz057j48xm4fq13r69vsapp"))))
+           (url "https://codeberg.org/geiser/geiser.git")
+           (commit "7403ec607ddd223ccc38df18ce8de595396519ee")))
+     (sha256 (base32 "13qxajfliij0vqmva8994c305zyw3rvsh805mknwj2sjwcwl5iqz"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "doc/dir" "doc/geiser.texi")))
    (home-page "https://gitlab.com/emacs-geiser/")
@@ -39531,14 +39531,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260428.2221")
+   (version "20260429.1153")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "1d49fcc82560eaa5dc8518ee8cc7b487c9b7621c")))
-     (sha256 (base32 "14pq0ss3ifzwlfibxwamkvpb44xzs2zngnlmh38zlb8qv04rj9mv"))))
+           (commit "6437e5b5dd08dcbc9822413e8dd6a7966019bace")))
+     (sha256 (base32 "1vsxfgi4rz87zf2xss1z11gz1fmjdwvinpbs1mqidkvy1n3bhxv9"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -41524,14 +41524,14 @@
 (define-public emacs-go-prettify-mode
   (package
    (name "emacs-go-prettify-mode")
-   (version "20260422.732")
+   (version "20260429.1651")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/snyssfx/go-prettify-mode.el.git")
-           (commit "6aafd440383931b368901de66bf974bbd37a45f9")))
-     (sha256 (base32 "1rrfcnyfqry6ihlkz2w05sgsvcjb8yx74f3dinzpafxa8c2lh9x4"))))
+           (commit "446907afa83d749dbd0a610d1d6fea6bbb822335")))
+     (sha256 (base32 "0cang6yam22c7mhakj90pjg5jb72f7p89pmdq5dih1vjxm51lbkb"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/snyssfx/go-prettify-mode.el")
    (synopsis "Hide `if err != nil' and prettify them")
@@ -61276,14 +61276,14 @@
 (define-public emacs-magit-section
   (package
    (name "emacs-magit-section")
-   (version "20260422.2206")
+   (version "20260429.921")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "569b9656d6a2c792b07d3980796c76b121c9737e")))
-     (sha256 (base32 "1y8q8d3lw4yq04kngnskw0yx6x96yzd09052cjx9anyqwcyhbhk8"))))
+           (commit "6b10f7f6f90f3f2af69073d33568422dd38944df")))
+     (sha256 (base32 "176h3dfqjwkrw8kwxampjpbn62zqx5ys8ypg73l0j583ngca5vlc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (arguments
@@ -91760,7 +91760,7 @@
 (define-public emacs-shift-number
   (package
    (name "emacs-shift-number")
-   (version "20260429.705")
+   (version "20260429.1014")
    (source
     (origin
      (method git-fetch)
@@ -92437,14 +92437,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20260429.918")
+   (version "20260429.1730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "c0cc9cc3172464582ce3be32e083b7edd11e0ca2")))
-     (sha256 (base32 "1948y5dfldmskn6ijzww191ngwr6bkhvf475sf3h4dqnpqp99i7d"))))
+           (commit "3568c91629e30c6b72f490b4d80141e35c096800")))
+     (sha256 (base32 "0bnv479f0w4nyb7x2588d50d6l4fh2l2xjb9asmq328k9ifrv4cd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
@@ -104899,14 +104899,14 @@
 (define-public emacs-vim-tab-bar
   (package
    (name "emacs-vim-tab-bar")
-   (version "20260404.1956")
+   (version "20260429.1709")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/vim-tab-bar.el.git")
-           (commit "146dca43c2b1c6676d27a8b604d0517c740519c0")))
-     (sha256 (base32 "0pwgv8kmc5hsnvjdj8nkspgk98xjyggc08gwq3spsjg383v2v3dc"))))
+           (commit "fd43f5c88282741a0f50703abc2b634651320ae7")))
+     (sha256 (base32 "0nvbkfipxj4j1fkdhl7pyzsff623b7bpz6yjylvdjd13a90jz874"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/vim-tab-bar.el")
    (synopsis "Vim-like tab bar")
@@ -107470,14 +107470,14 @@
 (define-public emacs-with-command-redo
   (package
    (name "emacs-with-command-redo")
-   (version "20260421.207")
+   (version "20260429.1415")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-with-command-redo.git")
-           (commit "c5c45bbfe95839adb448c11da8a8646293a1d4c0")))
-     (sha256 (base32 "1j3sx4gnvrmrh64q38aiaq6xavq5jc9n6yavcsk1ci9kb1icm8w9"))))
+           (commit "f364332837ae7c7a8d0ab78460e499bfc2b74155")))
+     (sha256 (base32 "1ik4rixlhvzbvdkv55jzczm5k44cbpaj4jgzxqxa1kbh3l6h55bj"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-with-command-redo")
    (synopsis "Repeat commands with automatic undo")
