@@ -40930,24 +40930,6 @@
    (description "Documentation at https://melpa.org/#/gnomenm")
    (license #f)))
 
-(define-public emacs-gnosis
-  (package
-   (name "emacs-gnosis")
-   (version "20260406.150")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.thanosapollo.org/gnosis")
-           (commit "62193075aa38cd64fc812b6208e6fffb2a207e5f")))
-     (sha256 (base32 "02cirrzwzsjhrng2p3rb09790p7yc1v598miwdkjbz30linlgjvn"))))
-   (build-system melpa-build-system)
-   (propagated-inputs (list emacs-compat))
-   (home-page "https://thanosapollo.org/projects/gnosis")
-   (synopsis "Knowledge System")
-   (description "Documentation at https://melpa.org/#/gnosis")
-   (license #f)))
-
 (define-public emacs-gntp
   (package
    (name "emacs-gntp")
@@ -57507,14 +57489,14 @@
 (define-public emacs-ledger-mode
   (package
    (name "emacs-ledger-mode")
-   (version "20260428.2146")
+   (version "20260429.543")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ledger/ledger-mode.git")
-           (commit "9a6d64058c445f73ef76c96a12b938c6bd22fdb6")))
-     (sha256 (base32 "1zkn46zf4f0cmb12br0ql8bavx38q9vclfafnfxv3xdw353zr7wd"))))
+           (commit "7aeba0c16300647987df8ebf86ad9ee367841a0b")))
+     (sha256 (base32 "0y1h16vjqj2rw8yix0fcpl17fzyx6442k7f39ypw9z6ghl4qbydg"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("ledger-*.el" "doc/*.texi")))
    (home-page "https://github.com/ledger/ledger-mode")
@@ -71042,14 +71024,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260426.1449")
+   (version "20260429.626")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "8b48d5fbe7d47d70424c25cbc000c1ebcb0c6841")))
-     (sha256 (base32 "08br5yxyx8kc61k6vjsnbv4q0cz8ck1x45p691n2x43p51214lam"))))
+           (commit "75a6913de1907f787ee2965a77def74c5bd251f9")))
+     (sha256 (base32 "03957pi22a0j8nxhdlmx1lxijv27a79wnxifv138sdjp8mgxclfb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -83243,14 +83225,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260427.758")
+   (version "20260429.651")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "28014dae7034fff49f5740b013a426aade7873f3")))
-     (sha256 (base32 "0xwb5vrrhiv70ca9vr8w8fc92lqyx10jv3rfl8jjz0r3npxi0yy5"))))
+           (commit "aed4ed98b22bd8f4541c478bc2effd6d964ee8db")))
+     (sha256 (base32 "19a0s0gnfkv6867snvyv5gm1g9m8bsvkwi4fdgncjxx6pz5qh9bz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -86841,15 +86823,16 @@
 (define-public emacs-recomplete
   (package
    (name "emacs-recomplete")
-   (version "20260403.1048")
+   (version "20260429.613")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-recomplete.git")
-           (commit "4347e8d735cde00b0a6b65124f23eac58bbb8c01")))
-     (sha256 (base32 "0qm8hag0ddc75mkl7ldp9yz0gj95mbx47g6nw2s92zlkj8dw6pcl"))))
+           (commit "bbe2b779958a07162e1be4498a48df3a2390ce0e")))
+     (sha256 (base32 "1b0p08zgkcmcfzpnx2xqzwdi2a80ksy7ahjpmclr0gix9a3lxfri"))))
    (build-system melpa-build-system)
+   (propagated-inputs (list emacs-with-command-redo))
    (home-page "https://codeberg.org/ideasman42/emacs-recomplete")
    (synopsis "Immediately (re)complete actions")
    (description "Documentation at https://melpa.org/#/recomplete")
@@ -91777,14 +91760,14 @@
 (define-public emacs-shift-number
   (package
    (name "emacs-shift-number")
-   (version "20260103.831")
+   (version "20260429.705")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-shift-number.git")
-           (commit "a71f5c3c77affc27a3d0bf16886a8a3b03c05044")))
-     (sha256 (base32 "03xv2y03xn08mb2hmqd5kljqa4jsfwg3l89micc6xvvkl1slimsj"))))
+           (commit "ab412a7af647c230fa1d316dc0e6a0c289986e16")))
+     (sha256 (base32 "0f1v85jakz0q1zif00pg2ap930z7q9wjgwx9izlcy0vwpzggs7zm"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-shift-number")
    (synopsis "Increase/decrease the number at point")
@@ -92454,14 +92437,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20260428.1950")
+   (version "20260429.918")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "e0cc901060bc3707b5f4bc8089b14f768858d4f8")))
-     (sha256 (base32 "12dmq7fjh0cbf9h98w6kvkwqhgk3fdsm7jn3ils6sl7lvyhrv8yw"))))
+           (commit "c0cc9cc3172464582ce3be32e083b7edd11e0ca2")))
+     (sha256 (base32 "1948y5dfldmskn6ijzww191ngwr6bkhvf475sf3h4dqnpqp99i7d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
@@ -92951,14 +92934,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260428.1914")
+   (version "20260429.924")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "fc1ad3c3a5a2c0d472a1af9cb6111ed1b9c80d3e")))
-     (sha256 (base32 "0h0r9gh278b8xwh055x6wl5dvy2f21n1d21k25daych9mga98kaz"))))
+           (commit "59167c0510b557f420140c732b1528288b653b95")))
+     (sha256 (base32 "0qvf6ray31zqxkk9sah7lsbgyrfc7nrbx5vr129qdc7mnjf1mfki"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
