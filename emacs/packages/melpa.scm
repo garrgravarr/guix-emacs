@@ -4188,16 +4188,16 @@
 (define-public emacs-aurel
   (package
    (name "emacs-aurel")
-   (version "20170114.937")
+   (version "20260429.458")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alezost/aurel.git")
-           (commit "fc7ad208f43f8525f84a18941c9b55f956df8961")))
-     (sha256 (base32 "0mcbw8p4wrnnr39wzkfz9kc899w0k1jb00q1926mchf202cmnz94"))))
+           (commit "c571cc44ea3b9aa96399056bff22919efffbbb06")))
+     (sha256 (base32 "1h2x0424s9ia6wb4yd3rsq9xn90fzbydhqlqikgrf4mk1ab7pnl3"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-bui emacs-dash))
+   (propagated-inputs (list emacs-bui))
    (home-page "https://github.com/alezost/aurel")
    (synopsis "Search, get info, vote for and download AUR packages")
    (description "Documentation at https://melpa.org/#/aurel")
@@ -25523,14 +25523,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260218.1306")
+   (version "20260430.1028")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/elfeed.git")
-           (commit "bbb3cac27b0412d80b327b5cfaab83683c96a2a1")))
-     (sha256 (base32 "1z1ig5h2mhy7zdz8vh003536mmpkrjr7jm84ih3wsx8krvhgc1lb"))))
+           (commit "763f3ed56c7c0629895f1f05e71fa9cccc26ead0")))
+     (sha256 (base32 "1c5c4ddvsjmgmpiz3lzx50ij867mdmc03m02p84hadc9n7wqacdc"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "README.md")))
    (home-page "https://github.com/skeeto/elfeed")
@@ -55904,14 +55904,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260428.1754")
+   (version "20260430.1304")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "b6392ac5ae91cc781bdad8e8a94bc81529117479")))
-     (sha256 (base32 "1wc8jf2h6347iq0pg45j76vhafin982380k83brpbb24zv0xyvlp"))))
+           (commit "95e6b2c14e8eb3ab6f7bacc1a3f112246b6a54c9")))
+     (sha256 (base32 "0mzn9zfambiwvxsnmz0lap37jsdny83v6fj09w89pq8ldpzkw6cv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -56240,14 +56240,14 @@
 (define-public emacs-kotlin-ts-mode
   (package
    (name "emacs-kotlin-ts-mode")
-   (version "20260425.1618")
+   (version "20260430.1314")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/bricka/emacs-kotlin-ts-mode.git")
-           (commit "bd78f044436adb2d9bf5489e8c697018a51dc909")))
-     (sha256 (base32 "1qcr4dlr1627077cb2wq2ihgz6bb12isgmz3k5ddkidcmb74lnyk"))))
+           (commit "588764613a45a0baf3adffcd68066991f9e56191")))
+     (sha256 (base32 "1c4943z0brcfjky6gsc1f9405vpnqxkmvfd5wi1xa9m754a3hxnr"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/bricka/emacs-kotlin-ts-mode")
    (synopsis "A mode for editing Kotlin files based on tree-sitter")
@@ -70986,14 +70986,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260429.626")
+   (version "20260430.1420")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "75a6913de1907f787ee2965a77def74c5bd251f9")))
-     (sha256 (base32 "03957pi22a0j8nxhdlmx1lxijv27a79wnxifv138sdjp8mgxclfb"))))
+           (commit "c51e1526d9f9cca176760e0c877fe5a3fa20e71b")))
+     (sha256 (base32 "1kramhaa4skhxxr3nhfg1gn696xnzy6091hrv3109ixvkkh6kkj1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis
@@ -76614,13 +76614,13 @@
 (define-public emacs-otpp
   (package
    (name "emacs-otpp")
-   (version "20260429.2225")
+   (version "20260430.1317")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abougouffa/one-tab-per-project.git")
-           (commit "04d0c764a37b448885d18cb461b6cb45f9854de0")))
+           (commit "126f6125ddb0148f6c7d1313cc0f412ac4845d92")))
      (sha256 (base32 "0hpd8jhxii8b7xva0wpn49li219rjg7jy9hwv6nr033fqffwcgqw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
@@ -76668,14 +76668,14 @@
 (define-public emacs-outline-indent
   (package
    (name "emacs-outline-indent")
-   (version "20260427.2347")
+   (version "20260430.1303")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/outline-indent.el.git")
-           (commit "ceb6619c18e7e0738c90fcad4d618331cbb8baa6")))
-     (sha256 (base32 "18lfnimr7alacp2fd777pk4fg1096mdd3cibrbz3z2iy8l74w60i"))))
+           (commit "837c21a076cde3be6d652fc269e2d845a79db24b")))
+     (sha256 (base32 "144qh2wj6k1k2f3bmi8fj0dh35j15gdd88d78skcb6pz2ysz726s"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/outline-indent.el")
    (synopsis "Folding text based on indentation (origami alternative)")
@@ -92399,14 +92399,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20260430.102")
+   (version "20260430.942")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "19e634f72d5973ebf7b6ea98d3dc836a07b5eebb")))
-     (sha256 (base32 "13r3wl86kisv3fza8lb33yih5gi1hb9fm3dsjncmh8dz093am75k"))))
+           (commit "1d29a7839c66a365dfae26c9f91dc01ced7e860b")))
+     (sha256 (base32 "0962f2wgskf85n8kzxc96nxjgyq92v1ng3ryfwjavsik7fgqyl2z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
@@ -92956,14 +92956,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260427.1145")
+   (version "20260430.1153")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "97efbc14ec6baebb7598e6dd314ee9f1d87b2836")))
-     (sha256 (base32 "1vihcsrvjhr5nq7dnps6px98kf49qj9k10bjgw77zscffhiyrmyn"))))
+           (commit "1a285a4a19d3e311bb4eea0b21b6a28d80ec2a9c")))
+     (sha256 (base32 "0bqsymys76pxjn10jfnjxab1dsjca6yll7rdwa8y49mjl17wh6y2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -104519,14 +104519,14 @@
 (define-public emacs-verilog-ext
   (package
    (name "emacs-verilog-ext")
-   (version "20260427.2203")
+   (version "20260430.1021")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/verilog-ext.git")
-           (commit "73049809a362408cac6071221a1c5ffe123455a1")))
-     (sha256 (base32 "0hd3y17iamv49bn9qyjfqlk4imzn5i48hzlij63k6wwnvcbd4kd6"))))
+           (commit "e2ef158d7f357365e919a6ca34075c4f3a21e32e")))
+     (sha256 (base32 "1mgd02x32sjv999fkzjshxc3lmngq168d1jmdnxi48x7v3lap9pm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-verilog-ts-mode
