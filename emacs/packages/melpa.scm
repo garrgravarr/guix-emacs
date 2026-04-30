@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260429.209")
+   (version "20260430.258")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "7a23d39d9fcb66da4a7192b0c1a00727586a473f")))
-     (sha256 (base32 "0w8yws4fxl7swq46iky9j2lizffnd5hd0b7h1vfbm7c6ky1wdvxq"))))
+           (commit "51b2d6512267ab14590261792bdfbf8d582c91f0")))
+     (sha256 (base32 "17blaabnsnpw6zcyajkiwj4911zai418cd1zq15slfzxqkqy6x01"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -23703,14 +23703,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260429.1345")
+   (version "20260430.344")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "7fc89986f71b43049c095aa55cb204d3f13e2ea8")))
-     (sha256 (base32 "16srd0417ckgw9w8ipfpmgrk5cy7s1fxn3q9fh0ylvahb9pwpap8"))))
+           (commit "642312484e58c5f88df605fe288d9d776af2d8bb")))
+     (sha256 (base32 "1i9pfjknrvrb5l18c8vcm01n49n58g9q6gr8a55wb194vnk3h1sn"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -38488,14 +38488,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260428.154")
+   (version "20260430.937")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "a5a7aed4f05bd9cb56216bfde2c5d86c06b5505d")))
-     (sha256 (base32 "1xcbrm4xnjy2cxnd6lfdxzwyqmqi6cajm77nlsdrm8j1rdlcz10m"))))
+           (commit "ce8c93c13a921ef4eadff3505cf95ec8e63bf05b")))
+     (sha256 (base32 "18z40i6nncl97kqn9d02mgdijm4j6m0gc9jw0s30vl5wkhjm9321"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -49201,54 +49201,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260422.744")
+   (version "20260430.643")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "d16aa9cf3e496aa9a6c20d73f4494e16feb4d092")))
-     (sha256 (base32 "0iv3sy2zympi1r04aqmlrz64zjf9xy51v6yf329nqybm12mkqgsx"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "1qbq3l8597040gpb52g3fpfjifh2lz74b6fk2brj3bzcbgmx83fj"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -63447,14 +63409,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260428.800")
+   (version "20260430.424")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "3ca03eeafadaac216f9bab5a526e295a66f30f5e")))
-     (sha256 (base32 "1miq8j04n5g12yf6jg8pip0vs3hn096gv31djhqv2dvjf2h3ww3w"))))
+           (commit "6324170ed97ced68e920248e79e87cbfcb3e04b2")))
+     (sha256 (base32 "0zavz7hli09lkznavlpmfmb8kqx7a00c173dl52rsvja6jr374kw"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -69013,14 +68975,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260429.2244")
+   (version "20260430.229")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "421189ec34293652ebe4a1e0f18441c84f79d0d3")))
-     (sha256 (base32 "1icssm4927n56hb94kp0w4h8xfzvdgp8ybr2famnqj45crj6fgg2"))))
+           (commit "05f49ae720c0f9c4759dc7d600fffa930bdba3c7")))
+     (sha256 (base32 "0lsw45knvbf7asxhsir9f8bwakwvln5pb7b623jmbp8sysq5fscl"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
