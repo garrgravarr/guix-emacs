@@ -8329,14 +8329,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260427.1441")
+   (version "20260429.1355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "1fb5a1eb237e5655c66c50964f3fa820dcb61d1f")))
-     (sha256 (base32 "1q5gnr5nkrc195341x5408hplkdl3nsfb81ggyjp3krgqqd152k6"))))
+           (commit "c7d0b09b4e0d96d3d448b8b00d03de1fc852ab48")))
+     (sha256 (base32 "0xz7dvxc9p12lx57vrr2wf13ysjlf2bz5qycp87id0v2p5vlkzdh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -10841,14 +10841,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260429.1548")
+   (version "20260429.2152")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "0ff284193676bb986308dd0088daa0873b342347")))
-     (sha256 (base32 "0ipdizp131wpkrsn1179nibzkpqvxykyfzklwmqhawkzybdfgcd9"))))
+           (commit "e71110778a002e10a7c9763e0e6618a958d0ddb4")))
+     (sha256 (base32 "0crhby7x9p2zi6yb3fx0bdgi06qdgfb66i5b37m212xc20kwjbkl"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -26155,14 +26155,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260429.1430")
+   (version "20260429.2026")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "4f8bdc017c4e0aa7770cda0438780e987195403f")))
-     (sha256 (base32 "14qncy67n1msv9yc1f6iyj72mdhdmd5va8slf0dswy9fm0ffjbk1"))))
+           (commit "03e1029ec7f061132bed0582064a3d6a1a315f76")))
+     (sha256 (base32 "03y4hyrsmq6m7si191r3ndp06x5w53adpig272ymm0i4v9gnzlr9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -30121,14 +30121,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260429.1153")
+   (version "20260429.2023")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "6437e5b5dd08dcbc9822413e8dd6a7966019bace")))
-     (sha256 (base32 "1vsxfgi4rz87zf2xss1z11gz1fmjdwvinpbs1mqidkvy1n3bhxv9"))))
+           (commit "f25fd7566b7da4a5e94c98becc9de279b01323c5")))
+     (sha256 (base32 "11aa6f4vr730yz4p8xg1szsd6bld2vxwlyifqc791b31gl694vlq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -37634,14 +37634,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260423.1757")
+   (version "20260429.2216")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "3eff1dab171602db9d1b7cfb0e6e7014eac73665")))
-     (sha256 (base32 "0115af0vg9bsmmizfny3k4k9hlkgclpgq6wd05fv3ibhbhc95n5a"))))
+           (commit "3b2775de99a6f6973cc98bb7934e7f0d513de2d2")))
+     (sha256 (base32 "1k37spxx03ccd035xy47scm2g7pg9b0fca7hmfw735f4lymf7a59"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -39531,14 +39531,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260429.1153")
+   (version "20260429.2217")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "6437e5b5dd08dcbc9822413e8dd6a7966019bace")))
-     (sha256 (base32 "1vsxfgi4rz87zf2xss1z11gz1fmjdwvinpbs1mqidkvy1n3bhxv9"))))
+           (commit "f25fd7566b7da4a5e94c98becc9de279b01323c5")))
+     (sha256 (base32 "11aa6f4vr730yz4p8xg1szsd6bld2vxwlyifqc791b31gl694vlq"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -39575,14 +39575,14 @@
 (define-public emacs-ghub
   (package
    (name "emacs-ghub")
-   (version "20260423.1634")
+   (version "20260429.1901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/ghub.git")
-           (commit "2b6df7c3f958e64c47151d7d6ef45de38e614936")))
-     (sha256 (base32 "1mm60zga2flbh2gnv5554if8d6jiwvzw3px8h87zi7y8dx8rkwmw"))))
+           (commit "7c79841951ef521c542ebbb66f51b144115ce6a9")))
+     (sha256 (base32 "19768fm0mdsw1bzk2lxq38mywwykiphhnvnzxjdq9ci6n7hfzr4q"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-treepy))
@@ -40050,14 +40050,14 @@
 (define-public emacs-git-link
   (package
    (name "emacs-git-link")
-   (version "20260428.1733")
+   (version "20260429.1928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sshaw/git-link.git")
-           (commit "a5764b1d402dc398ecf404635267cb0b7d230c10")))
-     (sha256 (base32 "0sw8gdy95071cs5lypdpxw4jgzrmy2m23spgc341gdh0mbsdhk73"))))
+           (commit "ca1a170343448c6d5d265ec12f934d865f7e0aee")))
+     (sha256 (base32 "03dgjnjgyz8km7y0mfd4snk8s8r1w7ybmai6wgvjm5hzwmsqrq3l"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sshaw/git-link")
    (synopsis "Get the GitHub/Bitbucket/GitLab URL for a buffer location")
@@ -69013,14 +69013,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260427.1920")
+   (version "20260429.2244")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "d0b07f072afd765089441a1b16843fab388b81e2")))
-     (sha256 (base32 "0zwql66c3v9nbrrvpgb3186fkzm6ybma4xmc7cdpsbsbi54gmdwf"))))
+           (commit "421189ec34293652ebe4a1e0f18441c84f79d0d3")))
+     (sha256 (base32 "1icssm4927n56hb94kp0w4h8xfzvdgp8ybr2famnqj45crj6fgg2"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -76652,14 +76652,14 @@
 (define-public emacs-otpp
   (package
    (name "emacs-otpp")
-   (version "20260211.2247")
+   (version "20260429.2225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abougouffa/one-tab-per-project.git")
-           (commit "2c5bfb6ef06d27a9589394339dadb856580a5a84")))
-     (sha256 (base32 "1qql95w8mdsb6scvi7xg0xc3c33pw385a1fvm1vilwbr1s7y32yd"))))
+           (commit "04d0c764a37b448885d18cb461b6cb45f9854de0")))
+     (sha256 (base32 "0hpd8jhxii8b7xva0wpn49li219rjg7jy9hwv6nr033fqffwcgqw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/abougouffa/one-tab-per-project")
@@ -92437,14 +92437,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20260429.1730")
+   (version "20260430.102")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "3568c91629e30c6b72f490b4d80141e35c096800")))
-     (sha256 (base32 "0bnv479f0w4nyb7x2588d50d6l4fh2l2xjb9asmq328k9ifrv4cd"))))
+           (commit "19e634f72d5973ebf7b6ea98d3dc836a07b5eebb")))
+     (sha256 (base32 "13r3wl86kisv3fza8lb33yih5gi1hb9fm3dsjncmh8dz093am75k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
@@ -104585,14 +104585,14 @@
 (define-public emacs-verilog-ts-mode
   (package
    (name "emacs-verilog-ts-mode")
-   (version "20260427.2158")
+   (version "20260429.1857")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/verilog-ts-mode.git")
-           (commit "32d00f783711eb2f03615aa8d5739d5c9a50a7f9")))
-     (sha256 (base32 "1ipf0p9rr58r2yz2aaci83sns2m4lfldx2i6nl1mf1l3rzh258mn"))))
+           (commit "b243ea4c78c37c8b01a06a269b1b3cd24996b00d")))
+     (sha256 (base32 "1n5w8nzbkqk8c61hk9nbklp4j8saj5gba5p70q6lsigvwgci1ig7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gmlarumbe/verilog-ts-mode")
    (synopsis "Verilog Tree-sitter major mode")
