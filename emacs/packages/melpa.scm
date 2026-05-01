@@ -30142,14 +30142,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260429.2023")
+   (version "20260501.1428")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "f25fd7566b7da4a5e94c98becc9de279b01323c5")))
-     (sha256 (base32 "11aa6f4vr730yz4p8xg1szsd6bld2vxwlyifqc791b31gl694vlq"))))
+           (commit "ed31e2f8cd15d2abdae659be58d8682ea8e07c77")))
+     (sha256 (base32 "0ln175c4dbqsq8wv0kdfhj1s2vimqfvifnf4p9al6j995ypa63fv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -32209,7 +32209,7 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260501.903")
+   (version "20260501.1001")
    (source
     (origin
      (method git-fetch)
@@ -37655,14 +37655,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260429.2216")
+   (version "20260501.1411")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "3b2775de99a6f6973cc98bb7934e7f0d513de2d2")))
-     (sha256 (base32 "1k37spxx03ccd035xy47scm2g7pg9b0fca7hmfw735f4lymf7a59"))))
+           (commit "d4eb8d1be55398e350c8a68b0c355f5166418843")))
+     (sha256 (base32 "1lbbw76a1sv6znqwgbgvbnvlzmkjs08s98x089s1j9id19hs3s5d"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -39552,14 +39552,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260501.923")
+   (version "20260501.1438")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "3f8846c186e1df816c2669405e82ad834793f1a5")))
-     (sha256 (base32 "07w7yx1ya0x9a8ns8prq0gy0bcli5r3884rqdg7kz64dmpjj2a77"))))
+           (commit "ed31e2f8cd15d2abdae659be58d8682ea8e07c77")))
+     (sha256 (base32 "0ln175c4dbqsq8wv0kdfhj1s2vimqfvifnf4p9al6j995ypa63fv"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -39596,14 +39596,14 @@
 (define-public emacs-ghub
   (package
    (name "emacs-ghub")
-   (version "20260429.1901")
+   (version "20260501.1408")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/ghub.git")
-           (commit "7c79841951ef521c542ebbb66f51b144115ce6a9")))
-     (sha256 (base32 "19768fm0mdsw1bzk2lxq38mywwykiphhnvnzxjdq9ci6n7hfzr4q"))))
+           (commit "c438abc865964554d0ee0b2d1a7def60de47a224")))
+     (sha256 (base32 "09bi4h71dvwnkq110zrm14a9qal4294kgmhlhaa44lsw8g3v4826"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-treepy))
@@ -60814,14 +60814,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260430.2227")
+   (version "20260501.1147")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "41d675e9fedb90dba472debb275540858513b7e4")))
-     (sha256 (base32 "0gcs82yp3j6jxv7gfnv8ifmxzqdfgns0g4774miqjymji4iyh6k1"))))
+           (commit "6863bf01b70bab1194fb6fb417469dd14e42c759")))
+     (sha256 (base32 "1d0501dnak2iwrazf0ln9r9gv9pi1jn6drpxxisk8h24svscfad5"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -64683,14 +64683,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260424.1027")
+   (version "20260501.1441")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "f71db69bad2d4bac680960273b663c73c305a413")))
-     (sha256 (base32 "1v79bi9ji8j2l2rp7ddamii3746c21w2nv8dsry6fk0xa9zfn9g3"))))
+           (commit "8ebdc208ae532fae0df25a4cc1d078b86944c16b")))
+     (sha256 (base32 "0im09j27lbc7f9nxgqvp930fj8isb7k1z4lp9a3n52zl5dzvdpfh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -70583,14 +70583,14 @@
 (define-public emacs-oboe
   (package
    (name "emacs-oboe")
-   (version "20260311.1431")
+   (version "20260501.853")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gynamics/oboe.el.git")
-           (commit "8205f2c6ea747179382423ec5317b70126faaeb2")))
-     (sha256 (base32 "0fbh6511s07b4rbx53h7yhfjp8hy57wpgq0ws872ic1r6wf5p1kp"))))
+           (commit "ca9cba428d24c155094f1b099c73f6f9692fc733")))
+     (sha256 (base32 "007wjbaqfjz00grcmpf2wp0djidphvmqf405jkfd44shyr9fsyyh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gynamics/oboe.el")
    (synopsis "A simple temporary buffer management framework")
@@ -83053,14 +83053,14 @@
 (define-public emacs-project-cmake
   (package
    (name "emacs-project-cmake")
-   (version "20260427.2129")
+   (version "20260501.1046")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lucius-martius/project-cmake.git")
-           (commit "23a1391e0ba89fe25192771e6b424a629f6e21a3")))
-     (sha256 (base32 "0nskch1sf4k2s12vb27gjhn84724541gd030wgq41a8wnabmi6j2"))))
+           (commit "0da0a1c09719b478d43ab32784e7d81445e00072")))
+     (sha256 (base32 "11lk9nv5nsjg95snb4wwsg06snxm423y41w7026xi88wj16gj4as"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/lucius-martius/project-cmake")
    (synopsis "A cmake backend for project.el")
@@ -92955,14 +92955,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260429.924")
+   (version "20260501.1159")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "59167c0510b557f420140c732b1528288b653b95")))
-     (sha256 (base32 "0qvf6ray31zqxkk9sah7lsbgyrfc7nrbx5vr129qdc7mnjf1mfki"))))
+           (commit "869dc1d64d355b2f99a6d9f990ef87e77447788c")))
+     (sha256 (base32 "1qp89f4682vdj5y1l6vdz6hr199hk7wxf2i8qcymw4f45g8qab9x"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -102858,14 +102858,14 @@
 (define-public emacs-ultra-scroll
   (package
    (name "emacs-ultra-scroll")
-   (version "20260425.1900")
+   (version "20260501.1434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jdtsmith/ultra-scroll.git")
-           (commit "6dfb3478e6ee1a6c1534c56235c55f9d0ad9dca4")))
-     (sha256 (base32 "0jml52mnxh3wcpwinfxbr8kl7a4wvvjcs8d6z7f16bsvv0ixphia"))))
+           (commit "c6decf7754edda0aa7c5a775b7d6147490a8f464")))
+     (sha256 (base32 "0h5r8ma5aslcwbxiyh27z8ni3v09mzdml3gfccib197dg4k1xr8s"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jdtsmith/ultra-scroll")
    (synopsis "Fast and smooth scrolling")
@@ -104294,14 +104294,14 @@
 (define-public emacs-vcomp
   (package
    (name "emacs-vcomp")
-   (version "20260420.1508")
+   (version "20260501.1438")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/vcomp.git")
-           (commit "381333f1d0cbf2aabc1a7578d421a4f5ad1e1fd8")))
-     (sha256 (base32 "14c96a65sw6cy4idc4va2vnbvknyd6z6gflmal933hlybayjkzrg"))))
+           (commit "2227de68c2fc4d7a029bd30d188422429bb18d28")))
+     (sha256 (base32 "0w8z683sq1bq89vlypqbg5dzb5n1p6zhj0ci07flnr7gqcicg5fw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tarsius/vcomp")
    (synopsis "Compare version strings")
