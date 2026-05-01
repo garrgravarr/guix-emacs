@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260430.2035")
+   (version "20260501.458")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "6e03b78a71fe2131df4128490cd18eca45e5d157")))
-     (sha256 (base32 "1akwpr140kpfrz28g0xbqxa0fy80qcr081igfw2snmypjdh15adv"))))
+           (commit "152277f18e161ba4a13059853c1619984cbf98bb")))
+     (sha256 (base32 "1bznv25iqag2hcagpzv1xv7gasbww0is0xjl0fcan5n0n1w3lja3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260430.258")
+   (version "20260501.352")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "51b2d6512267ab14590261792bdfbf8d582c91f0")))
-     (sha256 (base32 "17blaabnsnpw6zcyajkiwj4911zai418cd1zq15slfzxqkqy6x01"))))
+           (commit "6488547579699430875ecf3fb1924130982f5ebf")))
+     (sha256 (base32 "1y2lpg27jyyp6yfdqkzq7fmw4k7cgidl5xmpxnh7436vxllx2bqs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -11949,6 +11949,26 @@
    (home-page "https://github.com/p3r7/clojure-essential-ref")
    (synopsis "Cider-doc to \"Clojure, The Essential Reference\"")
    (description "Documentation at https://melpa.org/#/clojure-essential-ref")
+   (license #f)))
+
+(define-public emacs-clojure-essential-ref-nov
+  (package
+   (name "emacs-clojure-essential-ref-nov")
+   (version "20221215.1427")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/p3r7/clojure-essential-ref.git")
+           (commit "6741bf65cf9b9bc896ab1cc3c384573e8ffe5f96")))
+     (sha256 (base32 "0dib6krb49gi253vs3zqh83r9s3wdmlvbqwcq7gq28dbjsbpljcn"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-dash emacs-nov emacs-clojure-essential-ref))
+   (arguments '(#:files (:defaults (:exclude "clojure-essential-ref.el"))))
+   (home-page "https://github.com/p3r7/clojure-essential-ref")
+   (synopsis "Cider-doc to \"Clojure, The Essential Reference\" (EPUB)")
+   (description
+    "Documentation at https://melpa.org/#/clojure-essential-ref-nov")
    (license #f)))
 
 (define-public emacs-clojure-mode
@@ -22116,14 +22136,14 @@
 (define-public emacs-doom-modeline-now-playing
   (package
    (name "emacs-doom-modeline-now-playing")
-   (version "20250906.630")
+   (version "20260501.743")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/elken/doom-modeline-now-playing.git")
-           (commit "aff9417faaf5f1945b9ad95f27fa777bbcf269f7")))
-     (sha256 (base32 "0z7xsrm30dmi359hzairy94md0jmas0q9n939zy4yv708xykbxpj"))))
+           (commit "11e060f9e30c2ae3e95e71a18f3d0d91b7a54d97")))
+     (sha256 (base32 "1fqmbxchy8i9qb4lsqpb8lj9ly5sq3xxhzh9pn0jc5j5g37wak0x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-doom-modeline))
    (home-page "https://github.com/elken/doom-modeline-now-playing")
@@ -25523,14 +25543,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260501.40")
+   (version "20260501.916")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/elfeed.git")
-           (commit "40f64ea8d8a43e6d05f696fb7ba6d287a567cea3")))
-     (sha256 (base32 "1glryfwbxy5phh27pn858fl2h7njjpvwziw4l6yl9lz7fy0m45bb"))))
+           (commit "a399cf00055cf72decf61629a8714eca8d3bfbe9")))
+     (sha256 (base32 "1yi9dfdf3q8w29gwql4qjj6xvms9900d9ld2alaa6pfxfdvi8083"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -32189,14 +32209,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260421.124")
+   (version "20260501.903")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "3f3e8fddc4f69c7c0ff933af58e8c3a71292a7cb")))
-     (sha256 (base32 "1475h2i8b8b7xawkvawb76yr62y8p603id4lbhrrrrw9wvr7dnj2"))))
+           (commit "0d1807f5d52f983798044b6e8f5824425b1dc7a3")))
+     (sha256 (base32 "0c9c1jgv8qg8pycbpr4rdn5iwm204xlz5k8p0crgal6nhgp04az3"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -39532,14 +39552,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260429.2217")
+   (version "20260501.923")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "f25fd7566b7da4a5e94c98becc9de279b01323c5")))
-     (sha256 (base32 "11aa6f4vr730yz4p8xg1szsd6bld2vxwlyifqc791b31gl694vlq"))))
+           (commit "3f8846c186e1df816c2669405e82ad834793f1a5")))
+     (sha256 (base32 "07w7yx1ya0x9a8ns8prq0gy0bcli5r3884rqdg7kz64dmpjj2a77"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
