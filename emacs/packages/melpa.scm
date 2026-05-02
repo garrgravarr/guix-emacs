@@ -8491,16 +8491,15 @@
 (define-public emacs-bui
   (package
    (name "emacs-bui")
-   (version "20210108.1141")
+   (version "20260502.730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alezost/bui.el.git")
-           (commit "f3a137628e112a91910fd33c0cff0948fa58d470")))
-     (sha256 (base32 "04b0c15g24474sy9kp198g28yikhpr0fvmx1kgwqq9ly4p5wyzla"))))
+           (commit "4319e1bf3ff94ff0568eed280ac1f980a4b68679")))
+     (sha256 (base32 "1645v8h2szhmy2ahzf6f2izc834k00gpik5qmmpdysw50p90d3n3"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/alezost/bui.el")
    (synopsis "Buffer interface library")
    (description "Documentation at https://melpa.org/#/bui")
@@ -22417,14 +22416,14 @@
 (define-public emacs-dpkg-dev-el
   (package
    (name "emacs-dpkg-dev-el")
-   (version "20260326.2334")
+   (version "20260502.631")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git")
-           (commit "f65f60feb19357196594a09ce9fe23da9291cef0")))
-     (sha256 (base32 "1vqibm6iwnbdxgq2mmly1xqdgbs80qqi20xzwcrb571yvw42nqh3"))))
+           (commit "9b4b257d2958a0f9fb510e395898a8f841dfb5aa")))
+     (sha256 (base32 "0hnypblmak5ry71hb2ys8s6zbn025h8rf6csaayk0ryb449czsv7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-debian-el))
    (home-page "unspecified")
@@ -25543,14 +25542,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260501.2217")
+   (version "20260502.607")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "f382462a6a6334a3a48acab7c200e86ee34efb29")))
-     (sha256 (base32 "1qmrva3yi3nw41xaxky0wxif3rgwgg49zmlynpsrcnqhpjpl0pn1"))))
+           (commit "28cf8c83c0f28961921fe38a9b10f2c674551fa0")))
+     (sha256 (base32 "1z77lkfw7f98ihi5lz49vbpy5frrjwmnyl2sza8j81ak3zpkj3fn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -39570,14 +39569,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260501.1438")
+   (version "20260502.653")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "ed31e2f8cd15d2abdae659be58d8682ea8e07c77")))
-     (sha256 (base32 "0ln175c4dbqsq8wv0kdfhj1s2vimqfvifnf4p9al6j995ypa63fv"))))
+           (commit "370c139d0d3f8f4356f8a6535696ae550822dcb1")))
+     (sha256 (base32 "1ah68jbidlgmx9gclxpnf5y38zw7zmd01dw8b5ac71dxyy90b4gs"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -42393,14 +42392,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260428.634")
+   (version "20260502.654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "71b9f9414536c4cd35d8c02d3c8ad4fc4aea8718")))
-     (sha256 (base32 "0aaznd1ihv1iv3i0hz8gsp7x6nig7q1ypjwngag7h2v400g52x2l"))))
+           (commit "9ce7c3ce7b763108c899e5d8ff57c8be87c1d0c9")))
+     (sha256 (base32 "0ky90mqdzwp8mdykfizkqw2xmbnnz4x4zijms6fscvnrrskbvx43"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
