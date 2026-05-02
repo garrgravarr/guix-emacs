@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260501.458")
+   (version "20260501.1854")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "152277f18e161ba4a13059853c1619984cbf98bb")))
-     (sha256 (base32 "1bznv25iqag2hcagpzv1xv7gasbww0is0xjl0fcan5n0n1w3lja3"))))
+           (commit "6f9400da2a36e3843175724049e5a332dc4a0dce")))
+     (sha256 (base32 "0ba6f486nra4lb0rakbwjrpsvg1jcm3qsgh8l5bmaj37hz7in25l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -8670,14 +8670,14 @@
 (define-public emacs-buttercup
   (package
    (name "emacs-buttercup")
-   (version "20260411.2019")
+   (version "20260501.2028")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
-           (commit "a37d38e98af0a3518ae14bc848eb1539b36c596a")))
-     (sha256 (base32 "0f00jv8jap17y2pbqcsmfzrj4nz2xvk0p8x70bkp768qiap2v812"))))
+           (commit "2b1537af18498532f7dd58cfee9ac34f7f8a9d4b")))
+     (sha256 (base32 "0b0k29dnfhxbkjvjfwshf6fqpyi7r62xvibnnv62k952nwgrrqrn"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "bin")))
    (home-page "https://github.com/jorgenschaefer/emacs-buttercup")
@@ -25543,18 +25543,18 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260501.916")
+   (version "20260501.2217")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/skeeto/elfeed.git")
-           (commit "a399cf00055cf72decf61629a8714eca8d3bfbe9")))
-     (sha256 (base32 "1yi9dfdf3q8w29gwql4qjj6xvms9900d9ld2alaa6pfxfdvi8083"))))
+           (url "https://github.com/emacs-elfeed/elfeed.git")
+           (commit "f382462a6a6334a3a48acab7c200e86ee34efb29")))
+     (sha256 (base32 "1qmrva3yi3nw41xaxky0wxif3rgwgg49zmlynpsrcnqhpjpl0pn1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
-   (home-page "https://github.com/skeeto/elfeed")
+   (home-page "https://github.com/emacs-elfeed/elfeed")
    (synopsis "An Emacs Atom/RSS feed reader")
    (description "Documentation at https://melpa.org/#/elfeed")
    (license #f)))
@@ -25777,6 +25777,24 @@
    (home-page "https://github.com/karthink/elfeed-tube")
    (synopsis "Control mpv from Elfeed")
    (description "Documentation at https://melpa.org/#/elfeed-tube-mpv")
+   (license #f)))
+
+(define-public emacs-elfeed-web
+  (package
+   (name "emacs-elfeed-web")
+   (version "20260501.1712")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/emacs-elfeed/elfeed-web.git")
+           (commit "cc321eba56218dac4141774b6025821e7d1664c7")))
+     (sha256 (base32 "06v0h3py4qgcv95k6yw9ckng0smkdd40sijfxgb1vldyc5ip9m7c"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-compat emacs-elfeed emacs-simple-httpd))
+   (home-page "https://github.com/emacs-elfeed/elfeed-web")
+   (synopsis "Web interface to Elfeed")
+   (description "Documentation at https://melpa.org/#/elfeed-web")
    (license #f)))
 
 (define-public emacs-elfeed-webkit
@@ -27598,14 +27616,14 @@
 (define-public emacs-enhanced-evil-paredit
   (package
    (name "emacs-enhanced-evil-paredit")
-   (version "20260314.1908")
+   (version "20260501.1737")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/enhanced-evil-paredit.el.git")
-           (commit "11521019d4800f4de2a2ac460a48eba013ad89b6")))
-     (sha256 (base32 "0px209sgx7lzlybbaw28l71zcgbynb95gwyb7xnis37mb4m6w589"))))
+           (commit "82dac934650a0e167db7d1acaa52433878913e29")))
+     (sha256 (base32 "1dbyhpalvcf0y35n15vmkxz9n42yn1pvlfh9fidd8i6lwd2xi11f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-paredit))
    (home-page "https://github.com/jamescherti/enhanced-evil-paredit.el")
@@ -30142,14 +30160,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260501.1428")
+   (version "20260501.1707")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "ed31e2f8cd15d2abdae659be58d8682ea8e07c77")))
-     (sha256 (base32 "0ln175c4dbqsq8wv0kdfhj1s2vimqfvifnf4p9al6j995ypa63fv"))))
+           (commit "fdd369d44604b2fc6ac33e9771a3cb757c638221")))
+     (sha256 (base32 "1hgzq3vpsffxhcgqbbj8q7jan4lpw86q2g8pvm3v2kxnfb62yncp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -64683,14 +64701,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260501.1441")
+   (version "20260501.1852")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "8ebdc208ae532fae0df25a4cc1d078b86944c16b")))
-     (sha256 (base32 "0im09j27lbc7f9nxgqvp930fj8isb7k1z4lp9a3n52zl5dzvdpfh"))))
+           (commit "010ed945271bbf98e2bd46cd419ab41878cc279f")))
+     (sha256 (base32 "1qlq5nwq7q8g88xcklnpnjlflkrdllpqml8379dway3d0vz20cjc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -76264,14 +76282,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260412.811")
+   (version "20260501.1553")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "348394cbd9d8a25b61bccd284196c97a065b7013")))
-     (sha256 (base32 "1jriyc1ir4agljygsq4qc7qdr57231ba2gy1p64pccad01nkpbxl"))))
+           (commit "a6454ecdb2e3adf1e04d3533b415c5bc57e5b5d8")))
+     (sha256 (base32 "1ari92n6281r9d15r0rzzb9p668w8qj37irrsf08arwk2avwn1cs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -85548,14 +85566,14 @@
 (define-public emacs-quick-sdcv
   (package
    (name "emacs-quick-sdcv")
-   (version "20260326.1610")
+   (version "20260501.2003")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/quick-sdcv.el.git")
-           (commit "e28c59514500d61d825657fc735fbafce3599d32")))
-     (sha256 (base32 "1bpgyry817zcbqilmbiiv3la11zszbvrhcy7826gif6rpyyq2wgi"))))
+           (commit "de7dc1a263cc5980d0697490e6f1c2cea7471c9b")))
+     (sha256 (base32 "0k853dgzzpx71zsc97xlc1dbx79qlv7riiy2fimihsgb3qq14wz9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/quick-sdcv.el")
    (synopsis "Offline dictionary using 'sdcv' (StartDict cli dictionary)")
@@ -95811,14 +95829,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260426.2132")
+   (version "20260501.2316")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "405bbc48d8a8bfdfb01093b40f83b86e8356e2b2")))
-     (sha256 (base32 "1mzj02bfxnqp3ajngf43g6316zbagrj3asddb3fv9im1js8ccvbf"))))
+           (commit "ba1e5b91d3164e29f469fee1335e4aee264dc348")))
+     (sha256 (base32 "0y31kk9maz8lcg52apxlhk2h6y1m1m1s67p8ckjw6zyccp44i1f6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -98386,14 +98404,14 @@
 (define-public emacs-taskjuggler-mode
   (package
    (name "emacs-taskjuggler-mode")
-   (version "20260427.1348")
+   (version "20260502.207")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/devrintalen/taskjuggler-mode.el.git")
-           (commit "ed761a6d085fb1811d84ba4673a08b2a7cdab554")))
-     (sha256 (base32 "1drf60qdr2f3663wgjzzhv11di6is28z7fhqv42hsx7pf8sz38pa"))))
+           (commit "8efc1b25109e1efb280b581ca9c5b44574e7cda5")))
+     (sha256 (base32 "0lmdxbq85n87drgr4fqr0qgj3610f7c9ylf1n9aqidl1v1bzlp7x"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "snippets")))
    (home-page "https://github.com/devrintalen/taskjuggler-mode.el")
@@ -101209,14 +101227,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260430.2304")
+   (version "20260501.2001")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "6dfe4bb767431c97575f199f2e29e59913605cf1")))
-     (sha256 (base32 "161drbhzdp9fn0xkc0aza992g9h8prml513y8byyxvi6lqbqn8x4"))))
+           (commit "43cbef8539e3c7398d0280958b42f94dac7ea7b4")))
+     (sha256 (base32 "0c5kdzs55xzn4ksrxlm94s4w4mbamh7l5ycjnq9pvgqvggzijqng"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/magit/transient")
