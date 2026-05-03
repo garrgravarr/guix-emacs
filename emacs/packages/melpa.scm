@@ -19647,14 +19647,14 @@
 (define-public emacs-dialog-mode
   (package
    (name "emacs-dialog-mode")
-   (version "20260425.1901")
+   (version "20260503.1116")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~mew/dialog-mode")
-           (commit "be5a4a24369c53dbb2efe7bbd3395aae386023fc")))
-     (sha256 (base32 "0v0zhc360wn0m5dxxg5gncydswbga6qcshz5i8z3dxhf5z31q4yj"))))
+           (commit "85a65c68dd23de4987392d13a6bb2e58136b29c0")))
+     (sha256 (base32 "1567129zpf6gkih8vnbqmfdb5q6w7pplxymspsnxjf50sr23yxbb"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("doc/dialog-mode.texi" "dialog-mode.el")))
    (home-page "https://git.sr.ht/~mew/dialog-mode")
@@ -25542,14 +25542,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260503.905")
+   (version "20260503.1441")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "269ebbb352881358449ca29667453e57eb6a6d8e")))
-     (sha256 (base32 "1frhlpvysc8q20mm5lfp2ssvvmnd8w78lxjia1s4wqv0hyi43vc8"))))
+           (commit "65791043b944d49aed98abf4dcde75a7351a0952")))
+     (sha256 (base32 "0x4jqsgm4cnv4x6kr5d6zaq3w06r3kqbakzmplqfaxyg2d65hgqq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -26193,14 +26193,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260429.2026")
+   (version "20260503.1346")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "03e1029ec7f061132bed0582064a3d6a1a315f76")))
-     (sha256 (base32 "03y4hyrsmq6m7si191r3ndp06x5w53adpig272ymm0i4v9gnzlr9"))))
+           (commit "16415075263908cf84af2ab937e3a10590c27b7d")))
+     (sha256 (base32 "1ibqmhp6mszr85lfb6fwfx9npn46kzcb26vqprrla61w8nrplx97"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -29923,14 +29923,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260428.11")
+   (version "20260503.1351")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "8db8a959d2c1ca54496224e96ff712c9185e38ab")))
-     (sha256 (base32 "0149g3c38bihk3nvllfyfwmjnyrlghsmww43ml9zsawalsm7i98q"))))
+           (commit "468653805b5a9c44275dfc6add70ed84fcd7e740")))
+     (sha256 (base32 "0qwcfslyj3lwvhc0dy2h66ys7aly6vs8ak2sfmgh96dw604hyzrj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -39569,14 +39569,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260502.2158")
+   (version "20260503.1335")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "b99761f8808d4812d62ee95015c9ce8e97ac6db5")))
-     (sha256 (base32 "08h6c7bb1blwvar3w2vji1xnfv3s5jrva64ll7cihgj3p94hn4gl"))))
+           (commit "3a64a1fa76ba710a93cfed6ca4e03f774f6c2a3d")))
+     (sha256 (base32 "097gprw4xm3jwqiksfclna7j0cp59w5xxiqd9inrjdw6yffssk7s"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -59811,14 +59811,14 @@
 (define-public emacs-lsp-grammarly
   (package
    (name "emacs-lsp-grammarly")
-   (version "20251231.1727")
+   (version "20260503.1232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-grammarly/lsp-grammarly.git")
-           (commit "4c3aa9e757ff9082a4d7ff104dd5ff0f28f0b811")))
-     (sha256 (base32 "16ysivfk6lv8ndifxrhxya3hk3w3rv8p3bwy3ssz7g7q388n1k3v"))))
+           (commit "237a8322bee1982e926610c7d228fd0bc1e3bc50")))
+     (sha256 (base32 "1z8gwldm9gqkw9mwlnv6hlsqk603c3zngsf56pq5r1d89wm7j34b"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-lsp-mode emacs-grammarly emacs-request emacs-s emacs-ht))
@@ -59984,14 +59984,14 @@
 (define-public emacs-lsp-ltex
   (package
    (name "emacs-lsp-ltex")
-   (version "20260101.535")
+   (version "20260503.1233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-languagetool/lsp-ltex.git")
-           (commit "6adc2b4d32a907943a6ce06e2267090241e7af6a")))
-     (sha256 (base32 "1rll8wa07inh39nnk7j0g8v9z4h4wfnqcff3dqq1kcnp5r5p4vpk"))))
+           (commit "a7014677b10ddc1127f9e6ed4ffaf9c5ab18922c")))
+     (sha256 (base32 "0k1wsik3bnrpkpyqbmbgwjmkq9wzycwn6ql13zrlspb2rjz5njvg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/emacs-languagetool/lsp-ltex")
@@ -60029,14 +60029,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260428.1058")
+   (version "20260503.1145")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "f6c60b6df14487340af924ed0f59ed08f1c8da6b")))
-     (sha256 (base32 "0w9xx8ng1fvk9cxsyzjw21w5gs5ab06qi2k1sbppg2mm7wzw06fa"))))
+           (commit "999c42a5a134a5ef2acf0e687b49e9d5201de417")))
+     (sha256 (base32 "0lffnnnm1csxbrw1v7wpysl2kqcwb67ccq6qxlnvkq8a8w24vy08"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -60201,14 +60201,14 @@
 (define-public emacs-lsp-shader
   (package
    (name "emacs-lsp-shader")
-   (version "20251231.1653")
+   (version "20260503.1236")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/shader-ls/lsp-shader.git")
-           (commit "f8772e749d212adf95b901c3c94c9c96f9da3707")))
-     (sha256 (base32 "09j7i051qp6qi28sn52wzxqcl5sg7433a1q7f1qm3lsgdyq8zw7c"))))
+           (commit "85430cd7d20019aa39e624990fd814650af9b3a2")))
+     (sha256 (base32 "07kvykysqpkq7n5zqy7s3l52a9scyf4nfrfm16f686mgvv0amj5d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/shader-ls/lsp-shader")
@@ -62875,14 +62875,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260428.1022")
+   (version "20260503.1151")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "4e536002d97a2c0a2b589486e2eeaad2cd295a97")))
-     (sha256 (base32 "10zw92ik4892hnxk713v71qn37ashbfg5gmg93z244k62prc04ss"))))
+           (commit "e7b7e816c5601d98b36ca13acae78bb404677889")))
+     (sha256 (base32 "1db37pi4qvpd15bh1m4vaaz347p3xnr0r24g9x0lagwsr51wq3w9"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -92335,14 +92335,14 @@
 (define-public emacs-sideline-lsp
   (package
    (name "emacs-sideline-lsp")
-   (version "20260101.542")
+   (version "20260503.1235")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-sideline/sideline-lsp.git")
-           (commit "dfa29a7b27e5ab64788c76544444f678ae4db18d")))
-     (sha256 (base32 "027r0hfqw89pnknw1qmmgzmjixbg0dzk1vgsicnvdqgxr22lraym"))))
+           (commit "393459a7a947a62eb3f1d587fe576937afefb63f")))
+     (sha256 (base32 "1s4j1zmrrz6hzrksb3z334hn5xysvqqqappprpj6ywmyyfylpzqw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-sideline emacs-lsp-mode emacs-dash emacs-ht emacs-s))
@@ -98616,14 +98616,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260430.2250")
+   (version "20260503.1332")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "c118f15abd2fa92d2b328f77d4322ab2b38dedfb")))
-     (sha256 (base32 "0m6m5551z110c0g3kflmcx975b09aw1xy0drm6brf8ckfvp0yacs"))))
+           (commit "a1804b6fdc5bbfc3bcb99042a3f56ebdb6da3acc")))
+     (sha256 (base32 "022yw7k5hxmgpvdkpy2h2xi3si2al7b7k1nri7cc12lwdnp1mjj4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -103304,14 +103304,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260411.1423")
+   (version "20260503.915")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "14a0949539679e89f706601a501ae8a8d090c71f")))
-     (sha256 (base32 "1fcqr4q5dc9kfzqp6b9wfqma4qbb6dmjia639wfgdj3xqxa8ygl7"))))
+           (commit "3d674fe9ffaa8b6afa5507087f4e7fe7dbf1156a")))
+     (sha256 (base32 "11v104r0r32cc3izd2rg21k23swhrkw5vwg8nymkhs24pl6s2j2r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
