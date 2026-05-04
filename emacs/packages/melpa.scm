@@ -1245,14 +1245,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20260325.1158")
+   (version "20260503.1851")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "c32fbf8df34ed0095853a8cf55dc783e68b67d90")))
-     (sha256 (base32 "0hr1176sy8xrx6wkqadmvwdjm1sv7aq8ddrw8h3ha6sn74glx8ws"))))
+           (commit "03099fa0d0b669c91124880d71e1d5abecd83add")))
+     (sha256 (base32 "046x5d2633zr3zkk9wfrccp3nkcmnhbzndqg0k0b4mxqzxpd1k2m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260501.1854")
+   (version "20260503.1828")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "6f9400da2a36e3843175724049e5a332dc4a0dce")))
-     (sha256 (base32 "0ba6f486nra4lb0rakbwjrpsvg1jcm3qsgh8l5bmaj37hz7in25l"))))
+           (commit "411c9042f1ea55ee515c7e5918e056fe3ff1f2a8")))
+     (sha256 (base32 "1q1v8kczvsdcwlddivayfvdzpyj0ad3rn49a1pynr1dvxamdq5gx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -8010,14 +8010,14 @@
 (define-public emacs-browse-kill-ring
   (package
    (name "emacs-browse-kill-ring")
-   (version "20260502.2123")
+   (version "20260503.1620")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/browse-kill-ring/browse-kill-ring.git")
-           (commit "b0c65ac7e934f527f1567def2c256dc60169ab97")))
-     (sha256 (base32 "0qhwisp8gvvnscd1a596w40xq8ivkfc7dhzjavziprkykzmdc521"))))
+           (commit "39d65a830b93530c9bd68a7dc14353cbffd1d01f")))
+     (sha256 (base32 "01v64b8p0nzqczv3sjd6qacdh6lm635w5hndqk76ydxz5nga89n5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/browse-kill-ring/browse-kill-ring")
    (synopsis "Interactively insert items from kill-ring")
@@ -18065,14 +18065,14 @@
 (define-public emacs-dap-mode
   (package
    (name "emacs-dap-mode")
-   (version "20260208.1403")
+   (version "20260503.1833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/dap-mode.git")
-           (commit "b77d9bdb15d89e354b8a20906bebe7789e19fc9b")))
-     (sha256 (base32 "1092xys5dx9k0rq3vgkrrgx6bfkpvq8lbhng8p8cvhspi2fi766s"))))
+           (commit "87126cff5838b7bcf94dfa995e60ce0db24a55c0")))
+     (sha256 (base32 "05vkvm2mj2wq504dwj5i1k5ni37vi6llgmjcnjq4rxcczj9vcx39"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -19647,14 +19647,14 @@
 (define-public emacs-dialog-mode
   (package
    (name "emacs-dialog-mode")
-   (version "20260503.1116")
+   (version "20260503.2106")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~mew/dialog-mode")
-           (commit "85a65c68dd23de4987392d13a6bb2e58136b29c0")))
-     (sha256 (base32 "1567129zpf6gkih8vnbqmfdb5q6w7pplxymspsnxjf50sr23yxbb"))))
+           (commit "e2da6276139b736a03bf17445e69540cd5a90015")))
+     (sha256 (base32 "0vlxzw8a8c9k7aakmzm7wrwbx4gxxywjpqzzlx3mc1p59gjpgcar"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("doc/dialog-mode.texi" "dialog-mode.el")))
    (home-page "https://git.sr.ht/~mew/dialog-mode")
@@ -24422,18 +24422,18 @@
 (define-public emacs-egison-mode
   (package
    (name "emacs-egison-mode")
-   (version "20260104.1519")
+   (version "20260217.1013")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/egison/egison.git")
-           (commit "0164b91bd16e2ee640ca04d4c4b7dd0f8ffceb34")))
-     (sha256 (base32 "0z2qf6xcnamdfsizifj8rq6vj6aqdv95vg1b8iv21xjyhn6wlzr7"))))
+           (commit "1e247c916c5d4e707353468254a31d80b363f377")))
+     (sha256 (base32 "1n3jmsz2qdplyvp52d4byylqq9m69xqyinvq7l0wrdqfwmy1dkhn"))))
    (build-system melpa-build-system)
-   (arguments '(#:files ("elisp/*.el")))
+   (arguments '(#:files ("emacs/*.el")))
    (home-page
-    "https://github.com/egisatoshi/egison/blob/master/elisp/egison-mode.el")
+    "https://github.com/egisatoshi/egison/blob/master/emacs/egison-mode.el")
    (synopsis "Egison editing mode")
    (description "Documentation at https://melpa.org/#/egison-mode")
    (license #f)))
@@ -25542,7 +25542,7 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260503.1441")
+   (version "20260503.1631")
    (source
     (origin
      (method git-fetch)
@@ -27136,6 +27136,25 @@
    (home-page "https://github.com/marcoxa/emc")
    (synopsis "Invoking a C/C++ (et al.) build toolchain from ELisp")
    (description "Documentation at https://melpa.org/#/emc")
+   (license #f)))
+
+(define-public emacs-emcp
+  (package
+   (name "emacs-emcp")
+   (version "20260426.2226")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://codeberg.org/martenlienen/emcp.git")
+           (commit "2363287cffb1b694387d3aabbae9be863bf4e549")))
+     (sha256 (base32 "0kyrx3ll90r0csfnvpy0d6a8pjx2qa4a83jhppx1qbylilcw0g84"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-http-server))
+   (arguments '(#:files (:defaults "emacs.svg")))
+   (home-page "https://codeberg.org/martenlienen/emcp")
+   (synopsis "Lets your agent talk to Emacs")
+   (description "Documentation at https://melpa.org/#/emcp")
    (license #f)))
 
 (define-public emacs-emidje
@@ -29923,14 +29942,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260503.1351")
+   (version "20260503.1601")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "468653805b5a9c44275dfc6add70ed84fcd7e740")))
-     (sha256 (base32 "0qwcfslyj3lwvhc0dy2h66ys7aly6vs8ak2sfmgh96dw604hyzrj"))))
+           (commit "12ac598b76eaba5be59197c2af0c533a294abd3d")))
+     (sha256 (base32 "0gjw5v3arxiliwp5s33r9iq3nglk266n9v8in6hg6rzk8qaq9640"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -39569,14 +39588,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260503.1335")
+   (version "20260503.2050")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "3a64a1fa76ba710a93cfed6ca4e03f774f6c2a3d")))
-     (sha256 (base32 "097gprw4xm3jwqiksfclna7j0cp59w5xxiqd9inrjdw6yffssk7s"))))
+           (commit "515b98d4db81a7f15ad28d6930727713fdf80af5")))
+     (sha256 (base32 "0xfn54lhhn7midgk2jnbkyak0qnl9apwydc60wznzrv2scr4c70d"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -42393,14 +42412,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260503.538")
+   (version "20260503.1846")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "d7c103ce8a66ecaee7c8fc9ecadb681dc4291408")))
-     (sha256 (base32 "103arq51l1jh7ilppvcxlghcxgij2429jdkgahjm2n3lr200f38c"))))
+           (commit "f915a8bba57fcd4fe7d92bf2bbcec17e5bbfa25b")))
+     (sha256 (base32 "0gh8xji01qgvprg35z1rc3r7sydm5jpq7i8plfiwgj0n8xi7v3f7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -43107,6 +43126,23 @@
    (description "Documentation at https://melpa.org/#/groovy-mode")
    (license #f)))
 
+(define-public emacs-grove
+  (package
+   (name "emacs-grove")
+   (version "20260429.402")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/jonathanchu/grove.git")
+           (commit "f9d4da2477b97b20994b3b1685ef998f1b6c8dbb")))
+     (sha256 (base32 "04bj62x84vkh4976y75aag6mysdgcd0bapmbj99jzk9xwdrv8kgv"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/jonathanchu/grove")
+   (synopsis "Obsidian-like note-taking for org files")
+   (description "Documentation at https://melpa.org/#/grove")
+   (license #f)))
+
 (define-public emacs-gruber-darker-theme
   (package
    (name "emacs-gruber-darker-theme")
@@ -43339,14 +43375,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260430.2148")
+   (version "20260503.2328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "d046689855de95a37ce703216da39f6acf9a1f40")))
-     (sha256 (base32 "163cjrwbkw1k3x121rhy8yq7bww7ggqbz945xwqfjnmgqpbp2jib"))))
+           (commit "eb0bff6637b2ecd82dde8f6fad6c91308a826947")))
+     (sha256 (base32 "05ng9rcywnf9sb57sdfwdnczjn9vxvr5knwkzq7cs8xj2v0y0yzr"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -57088,14 +57124,14 @@
 (define-public emacs-latex-table-wizard
   (package
    (name "emacs-latex-table-wizard")
-   (version "20260212.2229")
+   (version "20260504.128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/enricoflor/latex-table-wizard.git")
-           (commit "681c03010e38e8cb4089171be72d73e6d28cd472")))
-     (sha256 (base32 "1v5dwidr9gvlqdspalr1iqw7gdcyl6lyji4cl8dddj9rmyf3x8rw"))))
+           (commit "0ccd242ba521ed3b323d1dc84f49febe80b2eec7")))
+     (sha256 (base32 "0mf7r22n51wyrdbsb5jm1jfhcivifz6d5l029wv3p5p88mylx2ks"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-auctex))
    (home-page "https://github.com/enricoflor/latex-table-wizard")
@@ -60029,14 +60065,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260503.1145")
+   (version "20260503.1834")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "999c42a5a134a5ef2acf0e687b49e9d5201de417")))
-     (sha256 (base32 "0lffnnnm1csxbrw1v7wpysl2kqcwb67ccq6qxlnvkq8a8w24vy08"))))
+           (commit "5d9e72816a36ec5b0fbf128c25f88e5daaae5b41")))
+     (sha256 (base32 "0pnprbkyf23fy6xvr30r78rbn4rjfsmr7rbriv7xhk18ikfjsjy9"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -66502,6 +66538,23 @@
    (home-page "https://git.sr.ht/~jakob/myrddin-mode")
    (synopsis "Major mode for editing Myrddin source files")
    (description "Documentation at https://melpa.org/#/myrddin-mode")
+   (license #f)))
+
+(define-public emacs-mysql
+  (package
+   (name "emacs-mysql")
+   (version "20260424.245")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/LuciusChen/mysql.el.git")
+           (commit "e8964613c6eb1bd1aeda12e7e78e3b9d81ea70b7")))
+     (sha256 (base32 "1rdcvvhig1rcfzz0p79vgg8bnzjng9v5lxrqwcy30j6s6c77lhxi"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/LuciusChen/mysql.el")
+   (synopsis "Pure Elisp MySQL wire protocol client")
+   (description "Documentation at https://melpa.org/#/mysql")
    (license #f)))
 
 (define-public emacs-mysql-to-org
@@ -76794,6 +76847,23 @@
    (description "Documentation at https://melpa.org/#/outline-minor-faces")
    (license #f)))
 
+(define-public emacs-outline-stars
+  (package
+   (name "emacs-outline-stars")
+   (version "20260427.2355")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://codeberg.org/phmcc/outline-stars.git")
+           (commit "a08f50d395a1a74406da97b22ab22d72ffc4df51")))
+     (sha256 (base32 "0y7hivf5i9i0kazc5b7vs1i7jjgh1bc4raimq2ryh0f3fazv0r9s"))))
+   (build-system melpa-build-system)
+   (home-page "https://codeberg.org/phmcc/outline-stars")
+   (synopsis "Outshine-style star headings for outline-minor-mode")
+   (description "Documentation at https://melpa.org/#/outline-stars")
+   (license #f)))
+
 (define-public emacs-outline-toc
   (package
    (name "emacs-outline-toc")
@@ -77985,16 +78055,17 @@
 (define-public emacs-package-build
   (package
    (name "emacs-package-build")
-   (version "20260421.2136")
+   (version "20260503.1927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/melpa/package-build.git")
-           (commit "2db42a9050923c2245bb525345a8b12bd6c0973a")))
-     (sha256 (base32 "15iajmnrgm1lcl792km7c34nfw9r2dhy5hrzpvv4raijvcbhxkpq"))))
+           (commit "02cd758bde9861babc5addaacb2c3ea1460cd3f8")))
+     (sha256 (base32 "0qjbncw16a26sygazzbbnlg2iwhc1i0b0dyrzhhbykj5sw28x3b5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
+   (arguments '(#:files (:defaults "package-build.mk")))
    (home-page "https://github.com/melpa/package-build")
    (synopsis "Curate an Emacs Lisp package archive")
    (description "Documentation at https://melpa.org/#/package-build")
@@ -82309,24 +82380,6 @@
    (home-page "http://github.com/milkypostman/powerline/")
    (synopsis "Rewrite of Powerline")
    (description "Documentation at https://melpa.org/#/powerline")
-   (license #f)))
-
-(define-public emacs-powerline-evil
-  (package
-   (name "emacs-powerline-evil")
-   (version "20190603.340")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/johnson-christopher/powerline-evil.git")
-           (commit "b77e2cf571e9990734f2b30d826f3a362b559fd1")))
-     (sha256 (base32 "1hs9jvl5lmfwr9k6qcnxjhd61zsmzq53ania1w5616gqa4qnjzhn"))))
-   (build-system melpa-build-system)
-   (propagated-inputs (list emacs-evil emacs-powerline))
-   (home-page "http://github.com/johnson-christopher/powerline-evil/")
-   (synopsis "Utilities for better Evil support for Powerline")
-   (description "Documentation at https://melpa.org/#/powerline-evil")
    (license #f)))
 
 (define-public emacs-powershell
@@ -91590,14 +91643,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260330.851")
+   (version "20260503.1855")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "6377cbdb49248d670170f1c8dbe045648063583e")))
-     (sha256 (base32 "0v2iqvr2ywng5d22sw88k90i2jzl3cf2ybp9q6qpqirhvlsbgq19"))))
+           (commit "8fb4a30da4479d50d273a1dbafa61420cca36619")))
+     (sha256 (base32 "09lgcvcvnrkfxg47m844177c1cns2qjkjv34lpn1k6pakias6xrn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -92717,6 +92770,23 @@
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
    (description "Documentation at https://melpa.org/#/simply-annotate")
+   (license #f)))
+
+(define-public emacs-simulacrum
+  (package
+   (name "emacs-simulacrum")
+   (version "20260504.134")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/ErikPrantare/simulacrum.el.git")
+           (commit "3a42993a3793160b532fc30d88d76b2965822f65")))
+     (sha256 (base32 "0qp496lr858j2w3ja4hjrpvc4bpblk283j07b8gca21z9mnq5nzj"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/ErikPrantare/simulacrum.el")
+   (synopsis "Inject custom event types into the event stream")
+   (description "Documentation at https://melpa.org/#/simulacrum")
    (license #f)))
 
 (define-public emacs-sink
@@ -95599,6 +95669,23 @@
    (description "Documentation at https://melpa.org/#/sq")
    (license #f)))
 
+(define-public emacs-sql-bigquery
+  (package
+   (name "emacs-sql-bigquery")
+   (version "20260502.1517")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/regadas/sql-bigquery.git")
+           (commit "1d068f7a7226d7af70d4ffceb86bc5e91826c29e")))
+     (sha256 (base32 "0mjnv0llz818vq3j3rz7k4gya1jhmk0ppfdcf0v8i0lxp331awjs"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/regadas/sql-bigquery")
+   (synopsis "Adds BigQuery support to SQLi mode")
+   (description "Documentation at https://melpa.org/#/sql-bigquery")
+   (license #f)))
+
 (define-public emacs-sql-clickhouse
   (package
    (name "emacs-sql-clickhouse")
@@ -95829,14 +95916,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260501.2316")
+   (version "20260503.1847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "ba1e5b91d3164e29f469fee1335e4aee264dc348")))
-     (sha256 (base32 "0y31kk9maz8lcg52apxlhk2h6y1m1m1s67p8ckjw6zyccp44i1f6"))))
+           (commit "1ec9447f2673d9d6a906507c962d07266853c98c")))
+     (sha256 (base32 "09d391hxgsmkawxxqy77nrb0a2myfyyvzpmzcjj5b21mvhyc16hk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -98404,14 +98491,14 @@
 (define-public emacs-taskjuggler-mode
   (package
    (name "emacs-taskjuggler-mode")
-   (version "20260502.207")
+   (version "20260503.1955")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/devrintalen/taskjuggler-mode.el.git")
-           (commit "8efc1b25109e1efb280b581ca9c5b44574e7cda5")))
-     (sha256 (base32 "0lmdxbq85n87drgr4fqr0qgj3610f7c9ylf1n9aqidl1v1bzlp7x"))))
+           (commit "a93aaf4293eb9eea1bd6de415595427763fcfabf")))
+     (sha256 (base32 "1anfvjrm05849n3md49k6yhdiqal0cix694kyz6kbjrw84bjha9y"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "snippets")))
    (home-page "https://github.com/devrintalen/taskjuggler-mode.el")
@@ -100377,6 +100464,23 @@
    (description "Documentation at https://melpa.org/#/tmsu")
    (license #f)))
 
+(define-public emacs-tmux-csi-u
+  (package
+   (name "emacs-tmux-csi-u")
+   (version "20260428.2220")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/lajarre/tmux-csi-u.el.git")
+           (commit "38e95db84ad02ad440e4fc0b18896e1c621e5f5d")))
+     (sha256 (base32 "1k8ys2x0hl8zhxba5fb9k1dbd2xmxmknai90z0j07f70zq8pkm34"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/lajarre/tmux-csi-u.el")
+   (synopsis "Tmux CSI-u decoder")
+   (description "Documentation at https://melpa.org/#/tmux-csi-u")
+   (license #f)))
+
 (define-public emacs-tmux-mode
   (package
    (name "emacs-tmux-mode")
@@ -101584,14 +101688,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260427.1835")
+   (version "20260503.1558")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "a1fb1cbd3237552429f66a3ce7ff4301636e23ac")))
-     (sha256 (base32 "1hv7mh28ldp11ggx1wff84a2s76af96cyyv01ywdcq4rfhn2dsx0"))))
+           (commit "a247cc323f2e29f27f91710a7b0e1ff9f6238fff")))
+     (sha256 (base32 "02z4yha9gzgjn784nmrkzxd7605s0nf6qr0dzpdvcngrjlgiqiwr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
@@ -102222,6 +102326,23 @@
    (home-page "https://github.com/DiogoDoreto/emacs-tts")
    (synopsis "Text-to-Speech (TTS)")
    (description "Documentation at https://melpa.org/#/tts")
+   (license #f)))
+
+(define-public emacs-ttx-mode
+  (package
+   (name "emacs-ttx-mode")
+   (version "20260503.113")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/wmedrano/ttx-mode.git")
+           (commit "00d5b9ccd3093778c5fab34096c239ae637cca2b")))
+     (sha256 (base32 "1zkq1kjksbbyl9vrd3hfy0rk7164gfs3kjjhn43ia6dm0kz2wm5z"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/wmedrano/ttx-mode")
+   (synopsis "TrueType/OpenType font viewer using ttx")
+   (description "Documentation at https://melpa.org/#/ttx-mode")
    (license #f)))
 
 (define-public emacs-tuareg
@@ -103717,14 +103838,14 @@
 (define-public emacs-ursa-ts-mode
   (package
    (name "emacs-ursa-ts-mode")
-   (version "20250407.1303")
+   (version "20260503.2249")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ursalang/ursa-ts-mode.git")
-           (commit "25dd8c309ad9433a5bb57b47b947447c420efb77")))
-     (sha256 (base32 "02nkfaz8wwb3fywvig21br7m4rd6xk7gz04izv6vya9fsybphd2a"))))
+           (commit "b76fb46721839ef210700ee6d00763f5646c30af")))
+     (sha256 (base32 "05wshv3bv5xr8d6pdlcryfivv6f6dxyrdz1vxvawrjcw2h7m3cn1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ursalang/ursa-ts-mode")
    (synopsis "Major mode for Ursa, using tree-sitter")
