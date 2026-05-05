@@ -3279,14 +3279,14 @@
 (define-public emacs-apparmor-mode
   (package
    (name "emacs-apparmor-mode")
-   (version "20260428.144")
+   (version "20260505.56")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/apparmor/apparmor-mode.git")
-           (commit "945ca073a9123ae3b156631d738f2bce8518b044")))
-     (sha256 (base32 "0yq57qd4a39s7ffxgq1dvwns191qjpc9amx79vgjbm7mydrjxpwv"))))
+           (commit "55ac8bf85cd859346450d32edc99370e429c6664")))
+     (sha256 (base32 "0k5yrl0wgkj0iczndy93xjw22c059ncprwranbncpwbqq5wrxp15"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/apparmor/apparmor-mode")
    (synopsis "Major mode for editing AppArmor policy files")
@@ -25743,14 +25743,14 @@
 (define-public emacs-elfeed-tube
   (package
    (name "emacs-elfeed-tube")
-   (version "20260404.1841")
+   (version "20260505.237")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/elfeed-tube.git")
-           (commit "8e1334cfc8114ddd71b4de99760429e4e8a81f7b")))
-     (sha256 (base32 "0c3lxk5r1v04rbsv4ivhwpvd0g8dzlq1lqzc35xy862ckaj41ci7"))))
+           (commit "2d7251d8363661f7bae3fd6b27ef88edc65d25ed")))
+     (sha256 (base32 "1ri7pa2lh9rh1bxkp5ngib620bp4a2fjg6jp7586n3582948xsb9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-elfeed emacs-aio))
    (arguments '(#:files (:defaults (:exclude "elfeed-tube-mpv.el"))))
@@ -43129,14 +43129,14 @@
 (define-public emacs-grove
   (package
    (name "emacs-grove")
-   (version "20260429.402")
+   (version "20260505.404")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jonathanchu/grove.git")
-           (commit "f9d4da2477b97b20994b3b1685ef998f1b6c8dbb")))
-     (sha256 (base32 "04bj62x84vkh4976y75aag6mysdgcd0bapmbj99jzk9xwdrv8kgv"))))
+           (commit "b65690a61552ad2471c30d04ba0da2d5ce35cc23")))
+     (sha256 (base32 "1f9g111dcry0bizrrh0wnfv05qy2ra49s6glm7gglczycps72h7a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jonathanchu/grove")
    (synopsis "Obsidian-like note-taking for org files")
@@ -60027,14 +60027,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260503.1834")
+   (version "20260505.716")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "5d9e72816a36ec5b0fbf128c25f88e5daaae5b41")))
-     (sha256 (base32 "0pnprbkyf23fy6xvr30r78rbn4rjfsmr7rbriv7xhk18ikfjsjy9"))))
+           (commit "0c8f043eb3d1d516f46e3c50c78fbab22f0612a9")))
+     (sha256 (base32 "1xw0qnvjvdhph14ga8xf5lfh3jxc67bix669869hg690akkq15rx"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -93065,14 +93065,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260430.1153")
+   (version "20260505.412")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "1a285a4a19d3e311bb4eea0b21b6a28d80ec2a9c")))
-     (sha256 (base32 "0bqsymys76pxjn10jfnjxab1dsjca6yll7rdwa8y49mjl17wh6y2"))))
+           (commit "f866611800814f60f8b9845f9b4eddf617721383")))
+     (sha256 (base32 "14plp8inlykwwm8ga7aww0lbxgzm5m7470hzrvfqdgddir9hmprn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -97370,14 +97370,14 @@
 (define-public emacs-swift-mode
   (package
    (name "emacs-swift-mode")
-   (version "20251122.857")
+   (version "20260505.930")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/swift-emacs/swift-mode.git")
-           (commit "cfae3b85ad09bd293df941261afbc21e41bbb5f8")))
-     (sha256 (base32 "11jwdk5h3mmsmfzllqfrh11v2p96fpiswf2aahg8hr80zqk4p6nb"))))
+           (commit "bf56866b98de2fd73029da2bca1035ca02f9e879")))
+     (sha256 (base32 "01rn7g6xbalayx335jsvlb8kkab0p61g60fwn1h49pfi0kv2n9kx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/swift-emacs/swift-mode")
    (synopsis "Major-mode for Apple's Swift programming language")
