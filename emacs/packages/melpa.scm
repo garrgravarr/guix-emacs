@@ -15971,14 +15971,14 @@
 (define-public emacs-corsair
   (package
    (name "emacs-corsair")
-   (version "20241018.1015")
+   (version "20260505.1402")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rob137/Corsair.git")
-           (commit "f750a435d6be68f0d75dc5a90f8aa3cb58e8c16a")))
-     (sha256 (base32 "0xwkfv63klpyqkgx1ihwqh1aqyk8yi3z3appygp28q60rybsyiyl"))))
+           (commit "412285e1feeba9c6e0e3a103d64396cef1e73d51")))
+     (sha256 (base32 "04azlj15jhg02sxjihnc15k4sgcar1vxhd8rxz82y446y00hg235"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (home-page "https://github.com/rob137/Corsair")
@@ -18938,14 +18938,14 @@
 (define-public emacs-default-font-presets
   (package
    (name "emacs-default-font-presets")
-   (version "20251214.1133")
+   (version "20260505.1159")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-default-font-presets.git")
-           (commit "6d69a989409ba3498032d9218abe92f58148562f")))
-     (sha256 (base32 "00v94ckw5klljdv0pm4xjpcm9qhq6i5r76kzn7fkkjm1jvgp6cmj"))))
+           (commit "43e778da6ef468e187743f009e14270875bc312e")))
+     (sha256 (base32 "0p81fhmcp7m7z52i34j6hcz85pmx0xmgz9w3x9pk0rzkb9096c80"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-default-font-presets")
    (synopsis "Support selecting fonts from a list of presets")
@@ -25542,14 +25542,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260504.1906")
+   (version "20260505.1335")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "aad8d96818d5a68136fbd534897bedaf65122f32")))
-     (sha256 (base32 "029vqm490ajdrd5l3c43w7chjvmg9m7z9bvmb7hv5p7pr2j668xh"))))
+           (commit "eb40a9b973a1921f4035b4bd92cf1342d6449e18")))
+     (sha256 (base32 "1rin8fjl3zx8yd8m3j770sb7y1ml4h7dq14ybpni23cpqhqhd98v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -37691,14 +37691,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260504.2019")
+   (version "20260505.927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "f9db6615aeff7e797008193775249f3172bf5485")))
-     (sha256 (base32 "01819lvrbqivipwrhra2kf8x9ij7xf0biwb65scf26sgbi76jk71"))))
+           (commit "0c2c0682c7fc8ecae4764f9e73d67f5a90a6ec4f")))
+     (sha256 (base32 "1g8glrsz532lvlyfmx2acsgf57h0kpbw9r5vxywgd8p126f7vdpc"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -38722,14 +38722,14 @@
 (define-public emacs-fzf
   (package
    (name "emacs-fzf")
-   (version "20260121.1418")
+   (version "20260505.1105")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bling/fzf.el.git")
-           (commit "0f6a2fd644bedfbcc061f995c8c270d084da1cba")))
-     (sha256 (base32 "1q6hs3kksr7lxj6w42gp6q16m86zmkc4r1mr8j5s3n0y8mw9gy2y"))))
+           (commit "75060d81f4eea3f8088ac2a4a3a253c686b44d44")))
+     (sha256 (base32 "0a6k9s5c92qg078xgyhfhz7pf3g677rfp0my7zln10nxh628pc3k"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bling/fzf.el")
    (synopsis "A front-end for fzf")
@@ -39588,14 +39588,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260504.2154")
+   (version "20260505.1147")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "7d611ea0e59b1a58095fdb136d73aec1f2d1c168")))
-     (sha256 (base32 "06xb3mkb0y77c6wn2f0cqgsnvd1jwnbffywc7212ijyb45s0323y"))))
+           (commit "eb3b1b4d86c8f63fcded3f8c579e8b05b4cb4e0a")))
+     (sha256 (base32 "0s7xsd64f3ifxjyrw2bj9phqbc3ri695np21ahrphbngmma2wzjc"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -62159,14 +62159,14 @@
 (define-public emacs-markdown-ts-mode
   (package
    (name "emacs-markdown-ts-mode")
-   (version "20240422.2329")
+   (version "20260505.1217")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LionyxML/markdown-ts-mode.git")
-           (commit "2f1ee8b94cdf53cebc31ae08ecfbba846193d5e1")))
-     (sha256 (base32 "1fhvsfa4q46xa092dkpgki8qhfs71x414yrqlxnf2vfs9bd6w7pn"))))
+           (commit "e7e78ec55213909d2b70e3dd943b776f622cc991")))
+     (sha256 (base32 "1gkb0xf1qwf808k7ihwkixffmpb31b3zq23qwavhj8h9q6y4p5c5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LionyxML/markdown-ts-mode")
    (synopsis "Major mode for Markdown using Treesitter")
@@ -104626,14 +104626,14 @@
 (define-public emacs-verdict
   (package
    (name "emacs-verdict")
-   (version "20260504.1454")
+   (version "20260505.1121")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tjarvstrand/verdict.el.git")
-           (commit "256d402b45a33092dacf88186434dea9417bcf97")))
-     (sha256 (base32 "05rndqcq5xwa1flyzsgbkld7jbfzbwixmi0ncj78kq989w9k5qpg"))))
+           (commit "84fff362b8068a1a8112b772fa927b56a6786482")))
+     (sha256 (base32 "1w79z03d1wq2g1d15b1zppnwh3hp3n74l2ciriq5fzybcwfk7kag"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-treemacs emacs-dash))
    (arguments '(#:files ("packages/verdict/verdict.el")))
@@ -108169,14 +108169,14 @@
 (define-public emacs-wttrin
   (package
    (name "emacs-wttrin")
-   (version "20260426.2335")
+   (version "20260505.1448")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cjennings/emacs-wttrin.git")
-           (commit "a7e2eda6f36cb490a59f6c2670839ab1e52049fc")))
-     (sha256 (base32 "1qcfda1whzf2bhjlq1gslzkin1yjxn5rw22cvqg1iiynr9hc8fll"))))
+           (commit "ec00dbe1c03527ec46a0faa20545a7acd382da84")))
+     (sha256 (base32 "0cxp5z8vaay1x9jcxxcxsdayjr8dg9qy6g8qhbimxhlcw0b1snkr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-xterm-color))
    (home-page "https://github.com/cjennings/emacs-wttrin")
