@@ -3279,14 +3279,14 @@
 (define-public emacs-apparmor-mode
   (package
    (name "emacs-apparmor-mode")
-   (version "20260505.56")
+   (version "20260506.28")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/apparmor/apparmor-mode.git")
-           (commit "55ac8bf85cd859346450d32edc99370e429c6664")))
-     (sha256 (base32 "0k5yrl0wgkj0iczndy93xjw22c059ncprwranbncpwbqq5wrxp15"))))
+           (commit "17aef04ca241681a4c56ee8b3876a100938d1086")))
+     (sha256 (base32 "0n3ihxdzry93aagdib7rjrhi6zvifcrsr24b33h9fx51ni25b8df"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/apparmor/apparmor-mode")
    (synopsis "Major mode for editing AppArmor policy files")
@@ -22868,14 +22868,14 @@
 (define-public emacs-dune
   (package
    (name "emacs-dune")
-   (version "20260120.2128")
+   (version "20260504.2232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml/dune.git")
-           (commit "630aa549f4e02d53e91df3009b6944fa9da9ad60")))
-     (sha256 (base32 "1iymwkd1rkqdg48lshafkvs3ciqildcvy364zsc3gsxlbv9cdfa7"))))
+           (commit "5fa4ca00eac2647b47a58c5777dbc99a0016f93f")))
+     (sha256 (base32 "1ah6qk3mf2if3f26f4izc9niia5mqh7b299r0v9i4hryjvk9521v"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editor-integration/emacs/*.el")))
    (home-page "https://github.com/ocaml/dune")
@@ -25542,14 +25542,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260505.1335")
+   (version "20260505.2057")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "eb40a9b973a1921f4035b4bd92cf1342d6449e18")))
-     (sha256 (base32 "1rin8fjl3zx8yd8m3j770sb7y1ml4h7dq14ybpni23cpqhqhd98v"))))
+           (commit "6fded41323610c56f2dc44b3c9d1690014fa2806")))
+     (sha256 (base32 "1i8by6klflj3c2kwii3xinxvz92aai82k8gfhxhig2ll3gx28lay"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -39588,14 +39588,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260505.1147")
+   (version "20260505.1350")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "eb3b1b4d86c8f63fcded3f8c579e8b05b4cb4e0a")))
-     (sha256 (base32 "0s7xsd64f3ifxjyrw2bj9phqbc3ri695np21ahrphbngmma2wzjc"))))
+           (commit "cfd7fe7fccf01d0babc53811def823fb52420f40")))
+     (sha256 (base32 "1c9rfhd41xrdfm2wbb5lw9i7i69xb06hfg5nmsnz45l7pmy3clhj"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -42412,14 +42412,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260504.542")
+   (version "20260505.2156")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "f5ad4eb812920fba3fcfbe32042ef89f979a7e17")))
-     (sha256 (base32 "1bf7xynmrm859471nxc56sv028i039qnqhhmkhzkhf76mwac6cx8"))))
+           (commit "df08c1a4d4c6e253870b8aa1634922b8f56224e7")))
+     (sha256 (base32 "013f6rlk3zx4y1gn2x1fx7162d30faiv5w62jidmdbkidiqwjx2l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -43375,14 +43375,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260504.1806")
+   (version "20260505.1951")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "59d279075fa3ba1c41672bd0328864489e522f19")))
-     (sha256 (base32 "094qlshbs80mzmp7zza6gcz7k4z0p29h8l87wwh3wlw5xwrjs6mc"))))
+           (commit "136f796216aa9f2c5b0e3fdd03166efc812fb5f2")))
+     (sha256 (base32 "1qxxwk5q45nz02ly2fpqnh0y6jayzpyj5zmzswv9kjqai9hx67q3"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -49626,14 +49626,14 @@
 (define-public emacs-ibuffer-sidebar
   (package
    (name "emacs-ibuffer-sidebar")
-   (version "20210508.836")
+   (version "20260506.225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/ibuffer-sidebar.git")
-           (commit "fb685e1e43db979e25713081d8ae4073453bbd5e")))
-     (sha256 (base32 "04x87gngmvyj4nfq1dm3h9jr6b0kvikxsg1533kdkz9k72khs3n3"))))
+           (commit "c634bcbf03bc81035bbc3e9f85e75b5419f16a35")))
+     (sha256 (base32 "0lz7x7lvy8ydp53km8kp8mn90vsgv683q4cc6dxar1rc1spj4sd3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jojojames/ibuffer-sidebar")
    (synopsis "Sidebar for `ibuffer'")
@@ -60634,14 +60634,14 @@
 (define-public emacs-macher
   (package
    (name "emacs-macher")
-   (version "20260420.107")
+   (version "20260506.251")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kmontag/macher.git")
-           (commit "2a4d2ce81076134c7521bfd3a345c5440c440c2f")))
-     (sha256 (base32 "130i2qzqb9p1k6qznciab2n8m1911pm5yqv13x0fdhfd8nyj4hkj"))))
+           (commit "55e75f2ee27eedc3cbf7e8bfcef27bcce11e3540")))
+     (sha256 (base32 "1yz8kl77l47h2jvk0gi8rz01bqscpx15mxy9ihkq0rq3wl6sq76g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (home-page "https://github.com/kmontag/macher")
@@ -64699,14 +64699,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260503.707")
+   (version "20260505.1940")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "5efd13653a9071fa286acb52a46b1b2304bba62d")))
-     (sha256 (base32 "1j9ckjwxg5bpy7zjx50anv5w6d3rb17fp6pysixb72ph7rs9jwbb"))))
+           (commit "b4eca2c241b4cfd23637f7620bb7f8e6a96ecbb7")))
+     (sha256 (base32 "1bhinyq6sxsshq9rqq6hhwx64ph5gx2296qkzr2f030fvhrqm9vi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -66505,14 +66505,14 @@
 (define-public emacs-mysql
   (package
    (name "emacs-mysql")
-   (version "20260424.245")
+   (version "20260506.305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/mysql.el.git")
-           (commit "e8964613c6eb1bd1aeda12e7e78e3b9d81ea70b7")))
-     (sha256 (base32 "1rdcvvhig1rcfzz0p79vgg8bnzjng9v5lxrqwcy30j6s6c77lhxi"))))
+           (commit "3fcb8659e106fc437d7b99dec53451e7e6ebcf81")))
+     (sha256 (base32 "02b959z05zl9k3ykqd9h823wfvn0h74p1x472g1xb3lhhlczlmk1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/mysql.el")
    (synopsis "Pure Elisp MySQL wire protocol client")
@@ -69067,14 +69067,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260504.1029")
+   (version "20260505.1904")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "c9b0b3ee4535e2747e13222aa3beaa9a980ef8a8")))
-     (sha256 (base32 "17x5ag9zfrchsn6wq2khb9gna4zg1nqpzji37bldp6xja93b95nk"))))
+           (commit "f5be2dc7578542b5c71658733edee52f7b6e4fbb")))
+     (sha256 (base32 "1f0d7f533d60svdwpc1rv9nzwjp9pydhdvwyf27mmfv5b6s7gvny"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -81820,14 +81820,14 @@
 (define-public emacs-polymode
   (package
    (name "emacs-polymode")
-   (version "20260302.1043")
+   (version "20260505.1803")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/polymode/polymode.git")
-           (commit "4604f55cc020c75562526fb76b723e5e242c97c0")))
-     (sha256 (base32 "1g36ss0ms12ah84dxdbdw0kim6wymrf2hmpsvd7lnszc19ip6zf9"))))
+           (commit "8cb72fa5dcc0d98746c680043dc121edc7621e3a")))
+     (sha256 (base32 "02vzq5v6kykw389lymgb5cri8h4p3rwjbwg67zkhbd1mrfa9525g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/polymode/polymode")
    (synopsis "Extensible framework for multiple major modes")
@@ -87766,14 +87766,14 @@
 (define-public emacs-rescript-mode
   (package
    (name "emacs-rescript-mode")
-   (version "20260419.1929")
+   (version "20260505.2042")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jjlee/rescript-mode.git")
-           (commit "202cf1202f286b4440980e46c0a0c0a8003f7ec6")))
-     (sha256 (base32 "0xfrqf61y70dl600p7pqg7fmykv5jwmis2m8r3dxgxajw84vl80j"))))
+           (commit "d0ff73d8e6c9653f0baf7edbcd7e585a24dedf8d")))
+     (sha256 (base32 "134ks3anl9p70f427pc0r90nrp5lxp28hqy1zcncdm1zjnxhlqwq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jjlee/rescript-mode")
    (synopsis "A major mode for editing ReScript")
@@ -92491,14 +92491,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20260502.953")
+   (version "20260505.1745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "eaa2d858591f0ef268871eb50307c9aa0c8aabdf")))
-     (sha256 (base32 "1lawc7mdy324affaqfcdfd1ln0dyh67k6nb2jcg5xvyqm4mxvzhk"))))
+           (commit "ffe5956bc539999b77021745fd1da118c76037d2")))
+     (sha256 (base32 "05zkfpks5z9s8s4mlj9xwcij0b9znrj8qr701rw1krcz2aqx62j4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
