@@ -18283,14 +18283,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260430.1537")
+   (version "20260507.754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "a54e20b29fb97cda6f012e6101305bef743ab923")))
-     (sha256 (base32 "0s8bzmq9r7sm4i98kdfsc87fcrpzwf6vx1w4da0hb051f8mgpfza"))))
+           (commit "c3fd938d247c919c55793c9b814dac4958a24f62")))
+     (sha256 (base32 "1mmswycfmk53jdfc23y364ljziqkvhkmqpszh7s696zsc2xbpprq"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -29942,14 +29942,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260505.29")
+   (version "20260507.719")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "95dca44dbe193a05ff714faf3732b92830695c40")))
-     (sha256 (base32 "04bn9hp1kwvm6rs48kcbjmigipqd91fis3k3zc43z4cv98gv5k12"))))
+           (commit "8018b2c855fbb871293c3a32d64837e265cd2a56")))
+     (sha256 (base32 "0l7068nyb2p7qkjrk5mjadibf6hdx73kmnyqh04h73lpxs74sa92"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -30574,16 +30574,16 @@
 (define-public emacs-evil-nerd-commenter
   (package
    (name "emacs-evil-nerd-commenter")
-   (version "20230625.254")
+   (version "20260507.414")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/redguardtoo/evil-nerd-commenter.git")
-           (commit "ae52c5070a48793e2c24474c9c8dbf20175d18a0")))
-     (sha256 (base32 "0hahdszah12fl1182rxczllwzi2sfifp4h5gz0yh2ih4wn5qd9ss"))))
+           (commit "db5ee61a6e75db074b7d20e9dcb68e0b94b4edc7")))
+     (sha256 (base32 "0x7h3b44jdsdvz1991bmhblmc82s59rq9wnd4qvl3m783cxa9jdi"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/redguardtoo/evil-nerd-commenter")
+   (home-page "https://github.com/redguardtoo/evil-nerd-commenter")
    (synopsis "Comment/uncomment lines efficiently. Like Nerd Commenter in Vim")
    (description "Documentation at https://melpa.org/#/evil-nerd-commenter")
    (license #f)))
@@ -32646,14 +32646,14 @@
 (define-public emacs-fennel-mode
   (package
    (name "emacs-fennel-mode")
-   (version "20260408.1529")
+   (version "20260507.757")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~technomancy/fennel-mode")
-           (commit "c963b4701e4668717df083c8a4591c93e6b1dc8d")))
-     (sha256 (base32 "0mdhcqns89fm2yc7j3pbaniqg3mx9gffgfj3fbnnpfwj7mf9gadc"))))
+           (commit "1ef8ae0cff094cfba750e72b897e03eaeebbc117")))
+     (sha256 (base32 "1q31ym8gy1m9xyn9w633br8kz0wxkzk4cri6373y0d5a4ic9r53c"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~technomancy/fennel-mode")
    (synopsis "A major-mode for editing Fennel code")
@@ -43147,14 +43147,14 @@
 (define-public emacs-grove
   (package
    (name "emacs-grove")
-   (version "20260505.404")
+   (version "20260507.450")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jonathanchu/grove.git")
-           (commit "b65690a61552ad2471c30d04ba0da2d5ce35cc23")))
-     (sha256 (base32 "1f9g111dcry0bizrrh0wnfv05qy2ra49s6glm7gglczycps72h7a"))))
+           (commit "275911181f1855fbcf6815e94e805c29e90ac8ff")))
+     (sha256 (base32 "1sl4zp0xmrp06hql7ksskcg6iszg0fbzba0g475kjvl9qq62z6bl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jonathanchu/grove")
    (synopsis "Obsidian-like note-taking for org files")
@@ -67181,14 +67181,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260416.647")
+   (version "20260507.646")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "06794d8d9ae1180a37b71b02ed8eadd464129b73")))
-     (sha256 (base32 "1wzjsk8252clak794yhk89s2qwgcl95a8mgdyd6wvn4a4bg0ksaw"))))
+           (commit "657d4628b4099eb9914fc4e62869fe602561858e")))
+     (sha256 (base32 "15lc4pwzz4d2xfrqs87wszdl59dcxl70n1bs0y3q9x2vvb2biz50"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -73839,14 +73839,14 @@
 (define-public emacs-org-msg
   (package
    (name "emacs-org-msg")
-   (version "20260211.901")
+   (version "20260507.725")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jeremy-compostella/org-msg.git")
-           (commit "aa608b399586fb771ad37045a837f8286a0b6124")))
-     (sha256 (base32 "0n02g88jybzsx0lqqpzag7hkrlvy3gh6irphgm5wsx42w312k1jl"))))
+           (commit "7b45df759340f3e388e84f497052b7cf3a41698c")))
+     (sha256 (base32 "1h44pc7l4racn3rhc705rslwsnk7hmkad3508qdd2raadpj452ja"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-htmlize))
    (home-page "https://github.com/jeremy-compostella/org-msg")
@@ -74612,14 +74612,14 @@
 (define-public emacs-org-repeat-by-cron
   (package
    (name "emacs-org-repeat-by-cron")
-   (version "20260303.726")
+   (version "20260507.721")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/TomoeMami/org-repeat-by-cron.el.git")
-           (commit "9a382e817dc63d5f8a6c74bd9d9233a14f1f3c96")))
-     (sha256 (base32 "188ax1qyjgaz5qj5w1g67hnn7xg9m55j6ymqhd1gks52z0g67cyf"))))
+           (commit "889944d9ee09fb4f09c3f7104c133a469dd242fd")))
+     (sha256 (base32 "1j2hvsfzggm7kj7w41k953vfvi3v86qbxqmlf53kfmc5b3p7742i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/TomoeMami/org-repeat-by-cron.el")
    (synopsis "An Org mode task repeater based on Cron expressions")
