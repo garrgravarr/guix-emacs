@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260504.1555")
+   (version "20260507.1212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "85398ad3a6f1404c274071a93ca46af654792e02")))
-     (sha256 (base32 "1gz56xy6lhfgbq89gwgrsxn0a0xvr3hhrhfr462w3jcm1mz2vfi5"))))
+           (commit "30fe4bd8fd67d9b6e26daa573246cf2cae286bba")))
+     (sha256 (base32 "04hjlyaj7kpxr5v8aw88j4imq1h4482sykdgw5g8dh0lh3i208qj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -18283,7 +18283,7 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260507.754")
+   (version "20260507.943")
    (source
     (origin
      (method git-fetch)
@@ -23722,14 +23722,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260506.2253")
+   (version "20260507.1620")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "6e4bba9c0d37b02a8683a120841528a191effb4f")))
-     (sha256 (base32 "1npjvps06v8g9vgipv5w0ga4651069xd46nfhaai6m37g8pdfzqf"))))
+           (commit "f7ef9d2e3339cbae67f8e0e06f8e4091536fde42")))
+     (sha256 (base32 "0g3r39i90a1wr27j4qvffa0q8wfzxhb9amx99sg4fwj9c86420pn"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -25542,14 +25542,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260506.2233")
+   (version "20260507.1620")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "7a97037bcea10fa54f78fcfe6b277b3f48b2c7d6")))
-     (sha256 (base32 "1p18q5kxx6vc08xwghxvgbfd8x8xi3qzfb8066y3xfn1lx0bw0ml"))))
+           (commit "4b4840f6d8bfc8ce208ebe3da540a10360355ab5")))
+     (sha256 (base32 "0pr4zs34vnli3b510d0kpdpcv531narlaa31y76yiab6a2w5cqkr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -50307,14 +50307,14 @@
 (define-public emacs-igist
   (package
    (name "emacs-igist")
-   (version "20251023.848")
+   (version "20260507.1050")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/KarimAziev/igist.git")
-           (commit "badbc1302e6f83cfebd304c6332b321ca3313f21")))
-     (sha256 (base32 "0s96wv35dax1j4qa0c72l658317r34xbgmhvvl3lz6khac64k8s5"))))
+           (commit "976be239b4bd10128c45789052f54ad58aa1b357")))
+     (sha256 (base32 "1g612i74426bhy1w8z8ya8sbi5h14xp24k01nqfsfjn6dcjrdqmm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ghub))
    (home-page "https://github.com/KarimAziev/igist")
@@ -55238,14 +55238,14 @@
 (define-public emacs-kaolin-themes
   (package
    (name "emacs-kaolin-themes")
-   (version "20260114.2021")
+   (version "20260507.1139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
-           (commit "fc0337582f36167b74cbdc86a48471092c8f3262")))
-     (sha256 (base32 "1lbqvs2jqvs6x8gj7bali24mw2fl6gk184zln6avy6wmam7n8dqi"))))
+           (commit "d0414a637c392709f6c97cd1fc84dbb6bc7c3586")))
+     (sha256 (base32 "1fxnvsm31x0k3aqmprk60my35arcmx12biyn7nyc1pfw4i0lqyr1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (arguments '(#:files (:defaults "themes/*.el")))
@@ -62891,14 +62891,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260503.1151")
+   (version "20260507.1310")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "e7b7e816c5601d98b36ca13acae78bb404677889")))
-     (sha256 (base32 "1db37pi4qvpd15bh1m4vaaz347p3xnr0r24g9x0lagwsr51wq3w9"))))
+           (commit "01441807a29fd902a9f1c08167781d85cb330a6b")))
+     (sha256 (base32 "0wwhn70r1lr3aqyslin3wr46lx8b2yygdlk3bv9wk1z6qdjhd0yi"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -85599,14 +85599,14 @@
 (define-public emacs-quick-sdcv
   (package
    (name "emacs-quick-sdcv")
-   (version "20260501.2003")
+   (version "20260507.1213")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/quick-sdcv.el.git")
-           (commit "de7dc1a263cc5980d0697490e6f1c2cea7471c9b")))
-     (sha256 (base32 "0k853dgzzpx71zsc97xlc1dbx79qlv7riiy2fimihsgb3qq14wz9"))))
+           (commit "da08ad0847b044cf23f3e83fbe417b58d6ea7767")))
+     (sha256 (base32 "14l2xijz0p5mhnyjm7fiw5avp2ygbfxy74xvd9pz690jmmmh3h89"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/quick-sdcv.el")
    (synopsis "Offline dictionary using 'sdcv' (StartDict cli dictionary)")
@@ -88366,14 +88366,14 @@
 (define-public emacs-rimel
   (package
    (name "emacs-rimel")
-   (version "20260424.1103")
+   (version "20260507.1638")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jixiuf/rimel.git")
-           (commit "0d1c67521635af91c2876e0d850ee8bc74bda384")))
-     (sha256 (base32 "0xfbkrbj2nf4ysjlw36pn60nsmqwyrfwx6pv4s3cjqcc8zadvanc"))))
+           (commit "a5b64b760c67b3886eb73248de9a806752b19685")))
+     (sha256 (base32 "1n0mlvphqbsv3mimhfhj2rdhjkicc3ljd6853wixrc9mr9iglqs6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-liberime))
    (home-page "https://github.com/jixiuf/rimel")
@@ -91640,18 +91640,17 @@
 (define-public emacs-shell-pop
   (package
    (name "emacs-shell-pop")
-   (version "20241207.1539")
+   (version "20260507.1713")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kyagi/shell-pop-el.git")
-           (commit "657171f296fc930b1f335a96e6f67ae04b731b19")))
-     (sha256 (base32 "1j8bwgrp4ydpd4s08px15sv5ri28zyb8zfpmfanh9k77m4hmx8cq"))))
+           (commit "02cd11dbddad37e9777fac24df8ffcd84831f547")))
+     (sha256 (base32 "0w2f2d9506nvcmradrzvaddga7zl7akgr55bj7gqadpbd0144hyz"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/kyagi/shell-pop-el")
-   (synopsis
-    "Helps you to use shell easily on Emacs. Only one key action to work")
+   (home-page "https://github.com/kyagi/shell-pop-el")
+   (synopsis "Easily toggle a shell window with a single keystroke")
    (description "Documentation at https://melpa.org/#/shell-pop")
    (license #f)))
 
@@ -101311,14 +101310,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260506.643")
+   (version "20260507.1521")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "53afbf958e3f7bb6ef13a6c85fa74b30f8858f30")))
-     (sha256 (base32 "0995mggc3zk6i3hd70ry9466ig1z12654jq8ba30h3j26ybp77v3"))))
+           (commit "9e78954343613786cdb0659183b766099f051149")))
+     (sha256 (base32 "0q3d6kz3wsnn4arjk3bvdmylgm54m1v46a6aqjgi6j99km3qq84w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/magit/transient")
