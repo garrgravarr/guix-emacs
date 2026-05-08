@@ -9746,14 +9746,14 @@
 (define-public emacs-ccls
   (package
    (name "emacs-ccls")
-   (version "20250825.531")
+   (version "20260507.1746")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/emacs-ccls.git")
-           (commit "34251b799eba70739664c5022c37ddc0a14de872")))
-     (sha256 (base32 "1g39xddmkp9amxy3fklavambzmc9g07md9gh940y3rpwljbc7f47"))))
+           (commit "f728c92e33844f1da54cb47ecb4e44160f2042a8")))
+     (sha256 (base32 "1mmz7dxj577lr8viyqpcjdqxla1jabm96fhdxvxw13qvfm0c2v2s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode emacs-dash))
    (home-page "https://github.com/emacs-lsp/emacs-ccls")
@@ -16188,14 +16188,14 @@
 (define-public emacs-counsel-etags
   (package
    (name "emacs-counsel-etags")
-   (version "20260506.1519")
+   (version "20260508.43")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/redguardtoo/counsel-etags.git")
-           (commit "51f45e6c15727a8954c88a7fdab4294402510d82")))
-     (sha256 (base32 "0qzd0ikikrk2sb979czbl757pn8flf6lxamyx89q4krazgfwxvwi"))))
+           (commit "c31228e1ffa5186c00aac871565be63c7fdae2b9")))
+     (sha256 (base32 "1b9ifzy0s0h5qlzff4an2zzzih1ysk0ca60c3pgqbzdl0vna1a8h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-counsel))
    (home-page "https://github.com/redguardtoo/counsel-etags")
@@ -23722,14 +23722,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260507.1620")
+   (version "20260507.1945")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "f7ef9d2e3339cbae67f8e0e06f8e4091536fde42")))
-     (sha256 (base32 "0g3r39i90a1wr27j4qvffa0q8wfzxhb9amx99sg4fwj9c86420pn"))))
+           (commit "30514828a0e3361d34234b42bd2a57953ceb28b5")))
+     (sha256 (base32 "1lwm1kvmhfrmb1n5yakkbr0jlb4imp3n8xmkmkb2q7pzpq2214c8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -25542,14 +25542,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260507.1620")
+   (version "20260507.2223")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "4b4840f6d8bfc8ce208ebe3da540a10360355ab5")))
-     (sha256 (base32 "0pr4zs34vnli3b510d0kpdpcv531narlaa31y76yiab6a2w5cqkr"))))
+           (commit "3fd9f928778d1c4fe7dba9baf6f4418da2ad4cd1")))
+     (sha256 (base32 "16l211qf28scm4j6ls6p7yhgg1mkqp07310wnvxl3acraw2f8h7p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -30178,14 +30178,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260504.1222")
+   (version "20260507.2039")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "7d611ea0e59b1a58095fdb136d73aec1f2d1c168")))
-     (sha256 (base32 "06xb3mkb0y77c6wn2f0cqgsnvd1jwnbffywc7212ijyb45s0323y"))))
+           (commit "e6773436994c08a0b2d7a5037752d5007c52ff3f")))
+     (sha256 (base32 "018g2fagbxp4msxvxdpcprddr1hdrjpv1arc80sf01yj64lnpwp8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -38545,14 +38545,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260504.2225")
+   (version "20260508.7")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "702a7984c8b194fa92efe34a4f9b26bf6fd52d0b")))
-     (sha256 (base32 "03libfv9c2prr9dh3amaag7jvadd0la3i4mhczhshjkmq0ahq81v"))))
+           (commit "358f7d0220f313c7d0fdc6033504edd7593f88ba")))
+     (sha256 (base32 "1gy0bni6v1qmj0m95pi8624b4ri12pfqrz17vib718gbwk4m5al6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -39588,14 +39588,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260506.2229")
+   (version "20260507.2039")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "5bce751687f3b33978a4244a1611648bbedb7124")))
-     (sha256 (base32 "0kqqwl40ivi15vsz7764nrwz0smkr94m9c11ym29i2db0y4pf19h"))))
+           (commit "e6773436994c08a0b2d7a5037752d5007c52ff3f")))
+     (sha256 (base32 "018g2fagbxp4msxvxdpcprddr1hdrjpv1arc80sf01yj64lnpwp8"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -40990,14 +40990,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260505.530")
+   (version "20260507.2347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/gnosis")
-           (commit "37ecd8d3c83c9cd589f2f7ac08ad891080cb5faf")))
-     (sha256 (base32 "03jyik4y4a1h0mv1ksxhfjmhszbhxsc1il0ls1v4w696xxlwz280"))))
+           (commit "c7b95158c7905646a34d40db80c69861994819b7")))
+     (sha256 (base32 "0a9fbmzp09j9mhr90ir75glzwd65yk2xas9ikiz4zgzwinwlpl7d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://codeberg.org/thanosapollo/emacs-gnosis")
@@ -43393,14 +43393,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260505.1951")
+   (version "20260507.1734")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "136f796216aa9f2c5b0e3fdd03166efc812fb5f2")))
-     (sha256 (base32 "1qxxwk5q45nz02ly2fpqnh0y6jayzpyj5zmzswv9kjqai9hx67q3"))))
+           (commit "a6ada629720af8e405561ef92c18a74e44c484ab")))
+     (sha256 (base32 "0pdl524cmmvxnia7xbmnrpn0rm5hfinq4zr06bjaqz0gq0l7cjra"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -46071,14 +46071,14 @@
 (define-public emacs-helm-lsp
   (package
    (name "emacs-helm-lsp")
-   (version "20250812.1134")
+   (version "20260507.1749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/helm-lsp.git")
-           (commit "95f21f3f672a3260806531878e7684cde23616b2")))
-     (sha256 (base32 "1vqr1q0lxrjb7zf1l2xhc5gid8sawc0y9k2rlvzrhzvy5sqqza22"))))
+           (commit "056bb16b5f69137218613b7558b477f6b21f22be")))
+     (sha256 (base32 "0m0lbw7n8lfyahpwg9lpqa9wf7bn90416va3wn2lik8gapxwwgwa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-lsp-mode emacs-helm))
    (home-page "https://github.com/emacs-lsp/helm-lsp")
@@ -49294,7 +49294,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260504.748")
+   (version "20260507.2016")
    (source
     (origin
      (method url-fetch)
@@ -49302,7 +49302,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "1jiz9x6g79vrdmcf5rf9g9k3gz9pak94ab4w9d2wjqbp5in8iyfj"))))
+     (sha256 (base32 "0ciy70wip9v84qkrixsks3n0aaafdjqad7hz7x50kf4cxwncwkd5"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -50307,7 +50307,7 @@
 (define-public emacs-igist
   (package
    (name "emacs-igist")
-   (version "20260507.1050")
+   (version "20260507.1739")
    (source
     (origin
      (method git-fetch)
@@ -55238,14 +55238,14 @@
 (define-public emacs-kaolin-themes
   (package
    (name "emacs-kaolin-themes")
-   (version "20260507.1139")
+   (version "20260507.2233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
-           (commit "d0414a637c392709f6c97cd1fc84dbb6bc7c3586")))
-     (sha256 (base32 "1fxnvsm31x0k3aqmprk60my35arcmx12biyn7nyc1pfw4i0lqyr1"))))
+           (commit "a1b77c2630705e04762a9419f04184cf0e60191a")))
+     (sha256 (base32 "0v0hl8p4fv5l0h8zgiyy4kp1b6wh4gn0z5v4qdrc2d9mypfp8vw5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (arguments '(#:files (:defaults "themes/*.el")))
@@ -59765,14 +59765,14 @@
 (define-public emacs-lsp-dart
   (package
    (name "emacs-lsp-dart")
-   (version "20260214.2354")
+   (version "20260507.1741")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-dart.git")
-           (commit "166e4f2ba12403da5691d352b587c88d24ddb574")))
-     (sha256 (base32 "177l32r1ns8rxq5z8qa5k5nv3v4l29zps9xn4ps196298phd253a"))))
+           (commit "a0649b4dbf3eb1f1fac4be172ba282df43b16b73")))
+     (sha256 (base32 "1khpnm3m90ijbrcaz2isgq7z9zs5hfh9kqn7g14wqzbzrvvijz37"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-lsp-treemacs
@@ -59790,14 +59790,14 @@
 (define-public emacs-lsp-docker
   (package
    (name "emacs-lsp-docker")
-   (version "20250228.2210")
+   (version "20260507.1750")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-docker.git")
-           (commit "ff41f4a76b640d39dc238bacba7f654c297827fa")))
-     (sha256 (base32 "1frlfcy5vwn8rprgfyrh2qjp2cwwyjsgsp112cxws98s91601v1j"))))
+           (commit "f666fba72b496c7750bb3f349771b07aa51714f0")))
+     (sha256 (base32 "02ihnn5rnk6l9x5wvgj0mrglyss80x47phhks6r3is1frh935xxq"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-lsp-mode emacs-f emacs-s emacs-yaml emacs-ht))
@@ -59809,14 +59809,14 @@
 (define-public emacs-lsp-focus
   (package
    (name "emacs-lsp-focus")
-   (version "20250825.539")
+   (version "20260507.1747")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-focus.git")
-           (commit "4621d310e780e384cbe93d5680fa9ec5d03e2c73")))
-     (sha256 (base32 "09yzcfv9gpifsy5ckvmacj7fg0fz1pnnjdzghj4i28x738g7ixxb"))))
+           (commit "675a20610c63577bb5363c2ed9b253705bbfee4f")))
+     (sha256 (base32 "0kcy73chsrilb7clmwdmjlcdmfi6zdg6q758lnb20dicixlpjayi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-focus emacs-lsp-mode))
    (home-page "https://github.com/emacs-lsp/lsp-focus")
@@ -59846,14 +59846,14 @@
 (define-public emacs-lsp-haskell
   (package
    (name "emacs-lsp-haskell")
-   (version "20251121.1710")
+   (version "20260507.1745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-haskell.git")
-           (commit "871a0ef2e98b3a749d0b69d958698000ca5640d3")))
-     (sha256 (base32 "0chk1nxagbf0n1xxl8namxj7z5bqhidgyp0nqynqbi8799v62aa7"))))
+           (commit "4c3001aeb116fb489223269ea353359b90e2a5e1")))
+     (sha256 (base32 "17wgagx29piqgss8qkfizh4ikss7dm6m9jglh9x04dyk4264c197"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/emacs-lsp/lsp-haskell")
@@ -59882,14 +59882,14 @@
 (define-public emacs-lsp-ivy
   (package
    (name "emacs-lsp-ivy")
-   (version "20250825.512")
+   (version "20260507.1752")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-ivy.git")
-           (commit "2927cbc776477e23d4a1062568d55793eed33c51")))
-     (sha256 (base32 "12l160q4wi9wc17n1r4pdmp42hwyqrmzc3xcfki6pivmqdaark45"))))
+           (commit "c0930544948dfdb7bf497fc9e58aa6b4b857e237")))
+     (sha256 (base32 "11mknb893ry3m99gd44ywjwjp21a02j0yg2xibc9zf2jbb16rppb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-lsp-mode emacs-ivy))
    (home-page "https://github.com/emacs-lsp/lsp-ivy")
@@ -59900,14 +59900,14 @@
 (define-public emacs-lsp-java
   (package
    (name "emacs-lsp-java")
-   (version "20260312.1356")
+   (version "20260507.1749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-java.git")
-           (commit "0a9f4d0b3ddf300bc9ca7546f5bed288bdfc8377")))
-     (sha256 (base32 "1rc9fy27kzgs6hdp7j9ybzmzxmcdj63jzwzsxfzlm8pqp1y8xkcb"))))
+           (commit "6e65d51c9a6759108b6751eef3a3d8e02bb74a9c")))
+     (sha256 (base32 "1y4fppsi501bypsrnnwjfjid6djvf8rjfscyh93gmq71ykg171w4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-lsp-mode
@@ -60018,14 +60018,14 @@
 (define-public emacs-lsp-metals
   (package
    (name "emacs-lsp-metals")
-   (version "20250228.2145")
+   (version "20260507.1751")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-metals.git")
-           (commit "e1d9d04f3bab7e6e74916054b36ab1a87e831367")))
-     (sha256 (base32 "00jyy2aqbci9k9x4rxxadpwlkpajg0xp0600ddk630nxfnr77vbv"))))
+           (commit "41a778bf7fcab4fe88e0e4096677c57a9c732f56")))
+     (sha256 (base32 "1rvcci7yzsdf91mrmhiwlkm62aw66f63shhk7vqcqd1ljgmlcmf3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-scala-mode
@@ -60070,14 +60070,14 @@
 (define-public emacs-lsp-mssql
   (package
    (name "emacs-lsp-mssql")
-   (version "20251117.1444")
+   (version "20260507.1743")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mssql.git")
-           (commit "810d632bd4abc4f105681a674ebea5d09407a04e")))
-     (sha256 (base32 "0v3csv4qgpkh3g7vwd4fxd35adjsz5g425m8972zixinshy2csk6"))))
+           (commit "02e50306c92af1c98473840169a477b22f72af2d")))
+     (sha256 (base32 "1w6diyzsyf7p2kipl6yf3rjjinz3pfggf66ybhji8zc4jmdwxkgf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-lsp-mode emacs-dash emacs-f emacs-ht emacs-lsp-treemacs))
@@ -60090,14 +60090,14 @@
 (define-public emacs-lsp-origami
   (package
    (name "emacs-lsp-origami")
-   (version "20250825.521")
+   (version "20260507.1743")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-origami.git")
-           (commit "3dfaacfbbe51889259281c2e04256c01f94ba4c6")))
-     (sha256 (base32 "0ch8b45b95x8nb3g56dvzdpimj4iq7ylp5kggljlgir96ldg7j71"))))
+           (commit "dd398afcf8e9077231dc26ea189916e6ea64c6ab")))
+     (sha256 (base32 "0grk1b9xg53qz3lmmqyj3vy5zp7wq9ifx3yjyyqcyw4fbn0j87wl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-origami emacs-lsp-mode))
    (home-page "https://github.com/emacs-lsp/lsp-origami")
@@ -60144,14 +60144,14 @@
 (define-public emacs-lsp-pyright
   (package
    (name "emacs-lsp-pyright")
-   (version "20250905.136")
+   (version "20260507.1742")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-pyright.git")
-           (commit "3756ff971797ae04fc43ca29c66ba4d854eff038")))
-     (sha256 (base32 "0pd9g8asags5sqj8h77r9k6yn0xj8da4604zva0vqj5plzq81ral"))))
+           (commit "187e08caee4e1630a9975f492274c739f325392f")))
+     (sha256 (base32 "0n2nx5xms6jpngkrvjsbamhd5fid5i6yqaravw3s5bl5km6ljddy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode emacs-dash emacs-ht))
    (home-page "https://github.com/emacs-lsp/lsp-pyright")
@@ -60235,14 +60235,14 @@
 (define-public emacs-lsp-sonarlint
   (package
    (name "emacs-lsp-sonarlint")
-   (version "20250301.131")
+   (version "20260507.1751")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-sonarlint.git")
-           (commit "44c596f2b4019aaf22e7be926db0ce73a2f0a0b1")))
-     (sha256 (base32 "0605caxgws064afx79xzs8d0z7l5xhk4lhwyjbr9vvzggj6zxlf2"))))
+           (commit "91794c7663fc24afd8d93a74e775793de8f2f811")))
+     (sha256 (base32 "0rbb9gfkz4lizwq81xwfvdq8pfv1d0536c73zff9ik1c14ahqa6n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-lsp-mode emacs-ht))
    (arguments
@@ -60258,14 +60258,14 @@
 (define-public emacs-lsp-sourcekit
   (package
    (name "emacs-lsp-sourcekit")
-   (version "20250825.538")
+   (version "20260507.1745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-sourcekit.git")
-           (commit "30918cd1aeeda5cfbc0fd615f97cf1bf388d8f2d")))
-     (sha256 (base32 "1d5iq4rhcpa0crwi67ibzmahg6zzlwpm48dkvgbckqa8si589g88"))))
+           (commit "252decc7ae53170eb1c67f97ff3e7f576dd13734")))
+     (sha256 (base32 "1fphyd85qjv3zx1ggrbz973s8dmsb14nqzvgg2ad5jqvp0ijgmwv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/emacs-lsp/lsp-sourcekit")
@@ -60294,14 +60294,14 @@
 (define-public emacs-lsp-treemacs
   (package
    (name "emacs-lsp-treemacs")
-   (version "20260506.1246")
+   (version "20260507.1739")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-treemacs.git")
-           (commit "28b3fbcb7a72b32e7b86e947fd887f91704e50bc")))
-     (sha256 (base32 "1jlmaqhln576pn1nfz2cfznc6g5f9mr6g4xqzlmi601zvlr3f776"))))
+           (commit "0104931991803fa4a6eba0cf038007d98b8219bc")))
+     (sha256 (base32 "1b9shfy30w9w72rhs83j9vsc1hg5v70pw8w3hvqr3zxp11xlyxf6"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-ht emacs-treemacs emacs-lsp-mode))
@@ -60314,14 +60314,14 @@
 (define-public emacs-lsp-ui
   (package
    (name "emacs-lsp-ui")
-   (version "20260104.1525")
+   (version "20260507.1740")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-ui.git")
-           (commit "ff349658ed69086bd18c336c8a071ba15f7fd574")))
-     (sha256 (base32 "1gkqd9lqb1f6xxl6zf00lc8a14khsqjkjm4mx3253fagd6m242li"))))
+           (commit "98f6f3ff5a8a1498346726da8812c953f08844f9")))
+     (sha256 (base32 "0y23a5nzdgn8wbynhlx7shs0wpfy5bi6ym21km0p15s8wq0b1sgi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-lsp-mode emacs-markdown-mode))
    (arguments '(#:files (:defaults "lsp-ui-doc.html" "resources")))
@@ -78035,14 +78035,14 @@
 (define-public emacs-package-build
   (package
    (name "emacs-package-build")
-   (version "20260503.1927")
+   (version "20260507.1703")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/melpa/package-build.git")
-           (commit "02cd758bde9861babc5addaacb2c3ea1460cd3f8")))
-     (sha256 (base32 "0qjbncw16a26sygazzbbnlg2iwhc1i0b0dyrzhhbykj5sw28x3b5"))))
+           (commit "9ffd40c4f6bfc315e4c370826c4f933e6384de50")))
+     (sha256 (base32 "0fdk23zvk4d67j9k3wk4brini0wk1yd67f4w4kqmwvwkf3fadq5l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "package-build.mk")))
@@ -79059,14 +79059,14 @@
 (define-public emacs-pathaction
   (package
    (name "emacs-pathaction")
-   (version "20260506.1433")
+   (version "20260508.119")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/pathaction.el.git")
-           (commit "54e7d3254af5ad42e14bda395bcf5248db784a48")))
-     (sha256 (base32 "1cf4vw3j13lrc432f2kkgmjpn0qxz1zqdwgbc8a7kdxi8j473ck9"))))
+           (commit "72b4bb035e5bf96e27fffdf3e32cf5c3abb3cc44")))
+     (sha256 (base32 "1vkxlbvwy36m72xavdlb6wm4v79f05gj9hgi71b4wbilsihfz8h4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/pathaction.el")
    (synopsis "Execute the pathaction.yaml rules from your editor")
@@ -91640,14 +91640,14 @@
 (define-public emacs-shell-pop
   (package
    (name "emacs-shell-pop")
-   (version "20260507.1713")
+   (version "20260507.2005")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kyagi/shell-pop-el.git")
-           (commit "02cd11dbddad37e9777fac24df8ffcd84831f547")))
-     (sha256 (base32 "0w2f2d9506nvcmradrzvaddga7zl7akgr55bj7gqadpbd0144hyz"))))
+           (commit "5079552a13fb3711a45369f0e1d15032d6e74b5a")))
+     (sha256 (base32 "16l3f4rkmvppjxx2n09pqms21mdaqbav8rikv6bphvmvramps1x8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kyagi/shell-pop-el")
    (synopsis "Easily toggle a shell window with a single keystroke")
@@ -93082,14 +93082,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260505.412")
+   (version "20260507.1831")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "f866611800814f60f8b9845f9b4eddf617721383")))
-     (sha256 (base32 "14plp8inlykwwm8ga7aww0lbxgzm5m7470hzrvfqdgddir9hmprn"))))
+           (commit "9a78738922f89c9eab9693219130a175ccbc1fc0")))
+     (sha256 (base32 "18fiffrg55ydxa322d83j2mdcwlxn06l8vbsc2r0hlamb4vk6amy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
