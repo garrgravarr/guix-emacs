@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260508.218")
+   (version "20260509.310")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "6291f3661d1acf41237be20641bded536a42bf3f")))
-     (sha256 (base32 "0qzzl1h0gfp0f9v1kls8dfdhnkjw4p9xxfnk9zafdwd3m19sz2bx"))))
+           (commit "cc41e33ecd2505bf1b01f731798bc0adca83d491")))
+     (sha256 (base32 "1mr6qh6gzb6rw0y3sx3vrvns8l3cv8sf4rsb13m8wphnf81a1p4v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -8416,7 +8416,7 @@
 (define-public emacs-bufferfile
   (package
    (name "emacs-bufferfile")
-   (version "20260509.148")
+   (version "20260509.244")
    (source
     (origin
      (method git-fetch)
@@ -43148,14 +43148,14 @@
 (define-public emacs-grove
   (package
    (name "emacs-grove")
-   (version "20260507.450")
+   (version "20260509.358")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jonathanchu/grove.git")
-           (commit "275911181f1855fbcf6815e94e805c29e90ac8ff")))
-     (sha256 (base32 "1sl4zp0xmrp06hql7ksskcg6iszg0fbzba0g475kjvl9qq62z6bl"))))
+           (commit "8cb33df4e39c51265b8021ecf858ab4bde27f41e")))
+     (sha256 (base32 "0g2s3hyc8nhxc0ga33snvh2ybccapc9fc62giw496mzw2x75d3hp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jonathanchu/grove")
    (synopsis "Obsidian-like note-taking for org files")
@@ -62386,14 +62386,14 @@
 (define-public emacs-mastodon
   (package
    (name "emacs-mastodon")
-   (version "20260406.856")
+   (version "20260509.749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/mastodon.el.git")
-           (commit "5bba23045efda9f63c36ac431bec8f318a55e76a")))
-     (sha256 (base32 "1z8qwnc01d9hx5m1xj3acpdzllfh4rxmypzcr3jl4ipp6dybzbx6"))))
+           (commit "4b30b2d96625e23325ff3727daa30969b6fe2eed")))
+     (sha256 (base32 "1pz0ac5r6g34x0nlwwh55c369swiv8h3dr6ndkkm7k2ql7f75xdv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-persist emacs-tp))
    (home-page "https://codeberg.org/martianh/mastodon.el")
@@ -67182,14 +67182,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260508.612")
+   (version "20260509.631")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "18f549a2e52c625b5739a54d97dadcad31c37604")))
-     (sha256 (base32 "1p70i3hj8chsy5hjk7jh57gm778x4yy2zsx1sx8mmspypfq2wysn"))))
+           (commit "c96c884e7b012ba42ec0bbff3e777ce1a327a8f6")))
+     (sha256 (base32 "0sgnlgkl3k6ngnhz0nh75ipnflnsg7zx9pxrlc74165h5ra3yh8m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -75356,14 +75356,14 @@
 (define-public emacs-org-tag-beautify
   (package
    (name "emacs-org-tag-beautify")
-   (version "20260123.235")
+   (version "20260509.344")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-tag-beautify.git")
-           (commit "3b0e03b5a7929b2c0b107d90355e0a0f03490aef")))
-     (sha256 (base32 "1y2lilr1yjfcrbb6vhc2h8vknh0pwrfrwajim1h8c0xcc6ilzl9g"))))
+           (commit "3d124aa6a11267516846665ca7bc7ccab340f0b7")))
+     (sha256 (base32 "0a2k3zx6ksm6mm7nwih7abvhmwijcdzsg8qz0b9ymmbhvvn2jy8v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons))
    (home-page "https://repo.or.cz/org-tag-beautify.git")
@@ -101074,14 +101074,14 @@
 (define-public emacs-tp
   (package
    (name "emacs-tp")
-   (version "20260219.1435")
+   (version "20260509.802")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/tp.el.git")
-           (commit "cef3fc2daefbbfc29ad02b7e1f39542b57c72fe8")))
-     (sha256 (base32 "1zhvridy6p7dy9hpf088k166a1c918hqf6k3jmnm7raw8vflc7qq"))))
+           (commit "a83cd422cca09bc863a7179f1c5b5a35435e0d32")))
+     (sha256 (base32 "01g72x2lqmrdh3qgd3135hgijka975xg92ki36qyv71vi20rhmnm"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/martianh/tp.el")
    (synopsis "Utilities for transient menus that POST to an API")
@@ -107924,14 +107924,14 @@
 (define-public emacs-wordreference
   (package
    (name "emacs-wordreference")
-   (version "20241203.1648")
+   (version "20260509.754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/wordreference.el.git")
-           (commit "4f68d155ceb3328c3263faee86cfb82d50402f05")))
-     (sha256 (base32 "0kv0b2nbaafjznclahymxcrp2mj06v71887jg5rlj2i09mb0igf1"))))
+           (commit "6b1e321ec48ae6eadc06ed25f018c384e396644b")))
+     (sha256 (base32 "1qsiwk6j73fvjhhwzf3qi5zhp59ix7h7fz3z6xp7vr7h6dyal2l9"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/martianh/wordreference.el")
    (synopsis "Interface for wordreference.com")
