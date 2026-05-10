@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260509.1712")
+   (version "20260510.1500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "a34838f29ec5ba8bb643176427c367755df5add6")))
-     (sha256 (base32 "09p08ix7zjfsdwz67ybb4wy8saascx54kqrzc9znrg3c5iljv2ik"))))
+           (commit "7e74d620dd5d43f99fe9080c815770e9afe7e28d")))
+     (sha256 (base32 "1yvixy309wlx3m5ly0g3lhd9bj4gzz3cvjxnzny10zcrc6106nwc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10840,7 +10840,7 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260510.710")
+   (version "20260510.755")
    (source
     (origin
      (method git-fetch)
@@ -25542,14 +25542,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260510.728")
+   (version "20260510.1128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "a4c0b8950e609a6d9e4e820f2a6ac3c2500beae9")))
-     (sha256 (base32 "0bs6y69id4f4yvpid0d9g8gi9vyi0if4drw9z8amnq0x2z6l8m87"))))
+           (commit "7a47724e616834dc2bef384f3773d1a53b729600")))
+     (sha256 (base32 "1yslcy18d7byyfly3bm8nzbrz7y50kk225l207bfqhynv0gbw8wh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -37771,7 +37771,7 @@
 (define-public emacs-format-all
   (package
    (name "emacs-format-all")
-   (version "20260510.726")
+   (version "20260510.842")
    (source
     (origin
      (method git-fetch)
@@ -38545,14 +38545,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260510.326")
+   (version "20260510.1532")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "4e142f851fa4f6ed1ddb81e05170b1c8494b7e6c")))
-     (sha256 (base32 "0jms4r718kbw27xmpjipvp22ihb50wa8a07q33ahswwwx2lgr62r"))))
+           (commit "a775e01f24273300d219fea94f5ba73e4ef807d2")))
+     (sha256 (base32 "1bvs6y6526319ygnihb254rs32fjb1cgqx47j7mdbvbc72fjbjp7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -39588,14 +39588,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260509.2216")
+   (version "20260510.1418")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "f4761ff3c55bb4b27271d78a26850515322f392e")))
-     (sha256 (base32 "1wlrdibsvl957ya4g13g6biai1cvmkxsqqan0yyl45cifqxj1vfb"))))
+           (commit "aee6a5af08a881d87605dc7c95d2d939298b1353")))
+     (sha256 (base32 "00c43b1ifmayk8hizh4mvxnrjiacbrr4kdhpfgzq2gdnhvxmv0ad"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -60046,14 +60046,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260508.1656")
+   (version "20260510.1549")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "4911f0728439479494169df228dd099bfcf5551f")))
-     (sha256 (base32 "1fwrkhiwmra8xqfcl41rhb2w3ywkk0zf51lqs34z9gydpwhbymk2"))))
+           (commit "7c5b52638f44f402a0436707df2125a3fd99d99a")))
+     (sha256 (base32 "0yhwpi5lzgagkhzhschwkwqgn14n6br3cpz45pzf1jfb0c16lcvz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -88367,14 +88367,14 @@
 (define-public emacs-rimel
   (package
    (name "emacs-rimel")
-   (version "20260510.505")
+   (version "20260510.1207")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/rimel.git")
-           (commit "51907b5851b156fb062a25fdf8dbefa6ae36de3b")))
-     (sha256 (base32 "0qqiy72gvma0syp2y8p2j7lsywmb67baxx38zb6k8m8skz93miqr"))))
+           (commit "c85829fd0c3645a1e9a554b5b3d2f848e58a31cc")))
+     (sha256 (base32 "1c3771hadf02fc8zg8wbz050g06imbjmx0dfq3lq6z8dkqfs8rzf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-liberime))
    (home-page "https://github.com/jixiuf/rimel")
@@ -91624,14 +91624,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260504.1620")
+   (version "20260510.1147")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "3c97df6602d1fef3c952df8be7c1a698c329e19c")))
-     (sha256 (base32 "064ixq6dx1slpdnvxzjsy2pgr0jj12h959x8lpgcnc5cfvx4vl92"))))
+           (commit "5ac29f99ba9c43864118c2c2dc591718d113a826")))
+     (sha256 (base32 "0xvi71znqadkm0kf5vzjjp0jraxq0bphm7ar1dkk9hd3vrqdfxzn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -101668,14 +101668,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260504.1858")
+   (version "20260510.1341")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "1b5f12975800785e5e1af4e5345c4f5005ef2411")))
-     (sha256 (base32 "00j3k538qq45xsjn4p7cfydj86a7gxiagsrrrnkhrd66bcyzzgc7"))))
+           (commit "0ed8fa03ccb652c2fe68637803f2e63629205b90")))
+     (sha256 (base32 "1ipvcywppn9ldjc75fz02y09shwl7b6brghhjwhwfny7kg9vmpzw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
