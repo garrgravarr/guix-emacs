@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260509.1707")
+   (version "20260510.157")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "dfd167f07958e87d72e31e48e047c032cadc684f")))
-     (sha256 (base32 "1zdmad79r31jcmd7kdx97m76nh2mdq5615s9fl870v3s7w36lgad"))))
+           (commit "27b139ad59c30e499844ca510262dce8159994d3")))
+     (sha256 (base32 "138apigglzcjhjgws1a60x0p4pyl7ir1ll2pjd2y37bvra5ky4ss"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -10840,14 +10840,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260509.851")
+   (version "20260510.710")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "cf8d69574dc512c07f6e61561a30bca062afa401")))
-     (sha256 (base32 "0dknb60ddqb2w62vg5wz1rpcz55zcld1vka5iim2q91kn7qdi48s"))))
+           (commit "5da43e7deece7c17e6f4084e2a996a5bca8cf3e7")))
+     (sha256 (base32 "0wzqhxfka87yzbhwhcaici7n5hzklcwqagnhpb8qj94ansrlr2c1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -25542,14 +25542,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260510.18")
+   (version "20260510.728")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "c88074772daa17af723e0090e7a8edc3907e9238")))
-     (sha256 (base32 "00mrs0d8g2q7jw8blvmmg7wmh2gc1i7kjykjq15whfji279fyvp2"))))
+           (commit "a4c0b8950e609a6d9e4e820f2a6ac3c2500beae9")))
+     (sha256 (base32 "0bs6y69id4f4yvpid0d9g8gi9vyi0if4drw9z8amnq0x2z6l8m87"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -27141,14 +27141,14 @@
 (define-public emacs-emcp
   (package
    (name "emacs-emcp")
-   (version "20260509.1927")
+   (version "20260510.721")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martenlienen/emcp.git")
-           (commit "26e28f22ab729886a2bd1318636dbeb4b177f6fa")))
-     (sha256 (base32 "10zz0096hwqyr7axngml2vqkccsy51pwic76qq1hxaxb8rvj00vf"))))
+           (commit "eb3b4a161d38b8e4e08acd0cf503107c804834c5")))
+     (sha256 (base32 "0ygsd901d97bjnhjlz6mq0h8jfjb54452ln6jpirjiaasl7nzg9y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-http-server))
    (arguments '(#:files (:defaults "emacs.svg")))
@@ -37771,14 +37771,14 @@
 (define-public emacs-format-all
   (package
    (name "emacs-format-all")
-   (version "20260312.1136")
+   (version "20260510.726")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lassik/emacs-format-all-the-code.git")
-           (commit "d44bf536fdae83ad7a798565e21f59c02e461c47")))
-     (sha256 (base32 "14wjms8q2pjbwain5gimfcalvxp6vfa1wwv2cb6wr11qdb64n9rd"))))
+           (commit "5ea26dda9477285aae2640d79ad501a420ee52bd")))
+     (sha256 (base32 "0wghv01acjh15b6bsskfxzgippk3146jipbcnvydc3jn8yvqbhcg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv emacs-language-id))
    (home-page "https://github.com/lassik/emacs-format-all-the-code")
@@ -38545,7 +38545,7 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260509.1615")
+   (version "20260510.326")
    (source
     (origin
      (method git-fetch)
@@ -59901,14 +59901,14 @@
 (define-public emacs-lsp-java
   (package
    (name "emacs-lsp-java")
-   (version "20260507.1749")
+   (version "20260510.647")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-java.git")
-           (commit "6e65d51c9a6759108b6751eef3a3d8e02bb74a9c")))
-     (sha256 (base32 "1y4fppsi501bypsrnnwjfjid6djvf8rjfscyh93gmq71ykg171w4"))))
+           (commit "5294db2ac033a289e4878fa8386629b75cb3ccb6")))
+     (sha256 (base32 "134fw9kxwfi2glkxb7r32la3wip9y2jz8hkv0c3si1jv5p4g22zp"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-lsp-mode
@@ -67182,14 +67182,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260509.854")
+   (version "20260510.633")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "135e3b4711ca3b7555437ca29e166c78586aefef")))
-     (sha256 (base32 "1rdjhj591n5k0rzdwmjjbg5gam7x2gzq2kcf5pg7zmaqnp0sc6fj"))))
+           (commit "06f70b77b8417b3965f8c17188aaec1a38c2d6ec")))
+     (sha256 (base32 "1jlpgjw1ny7wz6w5njq7cwrqi08ifa4nl40605ldscc99577jns8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -88367,14 +88367,14 @@
 (define-public emacs-rimel
   (package
    (name "emacs-rimel")
-   (version "20260507.1638")
+   (version "20260510.505")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/jixiuf/rimel.git")
-           (commit "a5b64b760c67b3886eb73248de9a806752b19685")))
-     (sha256 (base32 "1n0mlvphqbsv3mimhfhj2rdhjkicc3ljd6853wixrc9mr9iglqs6"))))
+           (url "https://github.com/emacs-rime/rimel.git")
+           (commit "51907b5851b156fb062a25fdf8dbefa6ae36de3b")))
+     (sha256 (base32 "0qqiy72gvma0syp2y8p2j7lsywmb67baxx38zb6k8m8skz93miqr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-liberime))
    (home-page "https://github.com/jixiuf/rimel")
@@ -97388,14 +97388,14 @@
 (define-public emacs-swift-mode
   (package
    (name "emacs-swift-mode")
-   (version "20260505.930")
+   (version "20260510.540")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/swift-emacs/swift-mode.git")
-           (commit "bf56866b98de2fd73029da2bca1035ca02f9e879")))
-     (sha256 (base32 "01rn7g6xbalayx335jsvlb8kkab0p61g60fwn1h49pfi0kv2n9kx"))))
+           (commit "5782bb9ab0773b5c6abddc23a14b82e5356cc2db")))
+     (sha256 (base32 "0wkq9h0xrxq36iwdsqhx0wa45f2nb09pqljxwd5yyis61nd1chcq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/swift-emacs/swift-mode")
    (synopsis "Major-mode for Apple's Swift programming language")
