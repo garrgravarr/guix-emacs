@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260508.1838")
+   (version "20260509.1712")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "4834c7e6a280bb6923c0bc5f10e8f314e632821f")))
-     (sha256 (base32 "09kwfdfga5rmiygyjw0rqqbg2zk70vq256x94qx3bsczwg5kvqzz"))))
+           (commit "a34838f29ec5ba8bb643176427c367755df5add6")))
+     (sha256 (base32 "09p08ix7zjfsdwz67ybb4wy8saascx54kqrzc9znrg3c5iljv2ik"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260509.1409")
+   (version "20260509.1707")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "04d717a6e84403dc9c65459341768e30eb1ce7d8")))
-     (sha256 (base32 "1pcjdqy8al5m4syrk0sdhwq2475wzn4da532mw02wls1akgfg82q"))))
+           (commit "dfd167f07958e87d72e31e48e047c032cadc684f")))
+     (sha256 (base32 "1zdmad79r31jcmd7kdx97m76nh2mdq5615s9fl870v3s7w36lgad"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -16188,14 +16188,14 @@
 (define-public emacs-counsel-etags
   (package
    (name "emacs-counsel-etags")
-   (version "20260509.1335")
+   (version "20260510.135")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/redguardtoo/counsel-etags.git")
-           (commit "5c9672defabfb4767b9a087d4c603f9b3606f550")))
-     (sha256 (base32 "19vqgka60gka5i36ihn6jcr55nmiyil39mdj0adxwz328jy7gzk1"))))
+           (commit "385eb738d09ce47f905982532e2b03cfb8381f17")))
+     (sha256 (base32 "1g9pbk4xdwz0qr49wgzg5hkk1rjc8ayv9zyckn0b46jcg7cqg14i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-counsel))
    (home-page "https://github.com/redguardtoo/counsel-etags")
@@ -25542,14 +25542,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260509.1513")
+   (version "20260510.18")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "f1900f0903e920d6f68e2772c902b7cd0e48d6b3")))
-     (sha256 (base32 "1bqj1p0bn23mh0svvjjm5hhckij4lyc626sryqikayn6h13nhr56"))))
+           (commit "c88074772daa17af723e0090e7a8edc3907e9238")))
+     (sha256 (base32 "00mrs0d8g2q7jw8blvmmg7wmh2gc1i7kjykjq15whfji279fyvp2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -27141,14 +27141,14 @@
 (define-public emacs-emcp
   (package
    (name "emacs-emcp")
-   (version "20260509.1423")
+   (version "20260509.1927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martenlienen/emcp.git")
-           (commit "e30b7e9e43dfd36e941b855d879ef79ce90afc1b")))
-     (sha256 (base32 "09w2zidan41xlxs9fsjqf9p0zgjy2ap7q5igi2svysw8d1rlkbdr"))))
+           (commit "26e28f22ab729886a2bd1318636dbeb4b177f6fa")))
+     (sha256 (base32 "10zz0096hwqyr7axngml2vqkccsy51pwic76qq1hxaxb8rvj00vf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-http-server))
    (arguments '(#:files (:defaults "emacs.svg")))
@@ -29942,14 +29942,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260508.2147")
+   (version "20260509.2229")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "ecbbae348eeb22f6470b8cd9b51b43522f3a1baf")))
-     (sha256 (base32 "15z5glrzbf98w9kg833v9grim8hca853r8q7il6cdhl9c4vm5az3"))))
+           (commit "cf16b126feed89c06d86cde7a0276d71ac512857")))
+     (sha256 (base32 "04a3wgs679fqi4s6lw0xxp17yr2w5qsqjhxcfzrh3l0camsais87"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -38545,14 +38545,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260509.1519")
+   (version "20260509.1615")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "2e65b21469c07fecb82ee35f4c26fb0e9147d7be")))
-     (sha256 (base32 "1nvsxl28zfr67w8jw2h91l76ignx9r0fzv88rmkyb2q0dwgcgijy"))))
+           (commit "4e142f851fa4f6ed1ddb81e05170b1c8494b7e6c")))
+     (sha256 (base32 "0jms4r718kbw27xmpjipvp22ihb50wa8a07q33ahswwwx2lgr62r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -38992,14 +38992,14 @@
 (define-public emacs-geiser
   (package
    (name "emacs-geiser")
-   (version "20260504.1659")
+   (version "20260509.2218")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/geiser/geiser.git")
-           (commit "06c3db4a053331e3d1fb8642a49c7a9b810cf5cb")))
-     (sha256 (base32 "1asaiccggpsnrj0mqwi35h7j7ai7dzlh6g54jq1vcrh87mv3slv9"))))
+           (commit "6071202dfec784d53e5e9a6946e9ee06be8e34c6")))
+     (sha256 (base32 "09lrhvx0fqcax3v0lpmijby4gsjqpzvxb4hlg708c2lkacg6mdij"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "doc/dir" "doc/geiser.texi")))
    (home-page "https://gitlab.com/emacs-geiser/")
@@ -39588,14 +39588,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260509.1339")
+   (version "20260509.2216")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "3a91b5c1061f78f133d5e08dc95b6d401f091a68")))
-     (sha256 (base32 "1lf2cfslgrlrmlg2sq64k3qa4af09wjkbdnj3jlvd22w6gicpgm6"))))
+           (commit "f4761ff3c55bb4b27271d78a26850515322f392e")))
+     (sha256 (base32 "1wlrdibsvl957ya4g13g6biai1cvmkxsqqan0yyl45cifqxj1vfb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -62368,7 +62368,7 @@
 (define-public emacs-mason
   (package
    (name "emacs-mason")
-   (version "20260509.1238")
+   (version "20260509.1646")
    (source
     (origin
      (method git-fetch)
