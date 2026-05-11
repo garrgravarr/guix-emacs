@@ -3768,14 +3768,14 @@
 (define-public emacs-ast-grep
   (package
    (name "emacs-ast-grep")
-   (version "20250703.723")
+   (version "20260511.749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SunskyXH/ast-grep.el.git")
-           (commit "beb7f34aaf94df559ae61665a26156453fd72a07")))
-     (sha256 (base32 "1gw20lhm1y3dfn11p4k6d80354sjpbidj6s0nl1spi7vxw3cfj1g"))))
+           (commit "6de548db344dea994d4a777f069bbadcf5c7a79b")))
+     (sha256 (base32 "062bfx2lcw927mvalcj0i4ykivhxwzx7nn7sjk66ndyxj7iqfzpi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sunskyxh/ast-grep.el")
    (synopsis "Search code using ast-grep with completing-read interface")
@@ -25576,14 +25576,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260510.2116")
+   (version "20260511.926")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "b0685863e14654973a146ff723f2ec0d5463a226")))
-     (sha256 (base32 "14ncnpnndhci3jddc1q8q50srjpkl7p60zbpxc7xlq6v4mqvfg15"))))
+           (commit "72638817fded8e8c86119c241a5f471c0f99e627")))
+     (sha256 (base32 "07h5kk5jmihc215bn1c38lgh8xjharb4n5qh0sckkliyqk6srfid"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -27175,16 +27175,16 @@
 (define-public emacs-emcp
   (package
    (name "emacs-emcp")
-   (version "20260510.721")
+   (version "20260511.902")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martenlienen/emcp.git")
-           (commit "eb3b4a161d38b8e4e08acd0cf503107c804834c5")))
-     (sha256 (base32 "0ygsd901d97bjnhjlz6mq0h8jfjb54452ln6jpirjiaasl7nzg9y"))))
+           (commit "5df42accd738e983c31e166cf6dcc73482bf7154")))
+     (sha256 (base32 "18d90y7a0r5ml98s5xic3lf8w6m0ypzs8k2wxbb1hqpkw3c3jlnh"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-http-server))
+   (propagated-inputs (list emacs-http-server emacs-elisp-refs))
    (arguments '(#:files (:defaults "emacs.svg")))
    (home-page "https://codeberg.org/martenlienen/emcp")
    (synopsis "Lets your agent talk to Emacs")
@@ -39640,14 +39640,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260510.1644")
+   (version "20260511.914")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "aee6a5af08a881d87605dc7c95d2d939298b1353")))
-     (sha256 (base32 "00c43b1ifmayk8hizh4mvxnrjiacbrr4kdhpfgzq2gdnhvxmv0ad"))))
+           (commit "3cbbb1c2f59f2909e1e1aff3f5da33b7d95456cd")))
+     (sha256 (base32 "0cawjzpx66pvpk216alfgx4088w0akbcy3vga02k4ngghgjkllkp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -61069,14 +61069,14 @@
 (define-public emacs-magit-commit-mark
   (package
    (name "emacs-magit-commit-mark")
-   (version "20260105.203")
+   (version "20260511.839")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-magit-commit-mark.git")
-           (commit "ba986f350466a68d9937d0487e9b8f75303bc465")))
-     (sha256 (base32 "0rhinmvpcyv17klix5bivw0ksfz4kzlwa9q6n8wkwikxpsh1m6ks"))))
+           (commit "9712db3fd09fe493d2ac5644b40e9cd451877180")))
+     (sha256 (base32 "09bx5l7d4ilsxx3gqrj5j3c2ivbrx5gbxaa0x8pfgg46x7zbbx1m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (home-page "https://codeberg.org/ideasman42/emacs-magit-commit-mark")
@@ -63654,7 +63654,7 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260511.24")
+   (version "20260511.310")
    (source
     (origin
      (method git-fetch)
@@ -64275,14 +64275,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260427.100")
+   (version "20260511.330")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "1e64206f74856e1605a44860d9390dbb08920458")))
-     (sha256 (base32 "00j9ssw1mjgnqwjfqzmslhpj95mfn58y5az8yzdi43aicq1i7qs6"))))
+           (commit "b093a0ba0e479f9e736b8ff3d80404c0acaed9aa")))
+     (sha256 (base32 "1cxs9nkdgh43vh33i7b5s3lprgp7iz54vmwim8p05rbxdy6glik9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -67385,14 +67385,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20260424.1510")
+   (version "20260511.1018")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "3f6e8b36436d99659234d5bbbd84ba5c09282692")))
-     (sha256 (base32 "1x6klhx61zjadc2g5n6i7gjqcw4kdyhxd508k2gjwfs9xxki06la"))))
+           (commit "b63f9f9fda431dd4a9e8dc7ccb8e02996fbeca77")))
+     (sha256 (base32 "0ginfi21d9xjz9nnbql8rzc7wajsd0sd62xxzq0pyfh5nscy9bw8"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -93210,14 +93210,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260508.2111")
+   (version "20260511.950")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "0df37e0092a5a544b7ba4e6366e7a6bcc5cf00b9")))
-     (sha256 (base32 "1vkaapdac94ygkscx0x86dav5k6p594253djn9lk2i1mhs8qrg48"))))
+           (commit "baaa3d802d2ee1fe19630b3704de58b46523a12b")))
+     (sha256 (base32 "0xvihxadckbiy7s74w7cd9pf10gv3s2h0pz4yiymjrf3y038bw6b"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
