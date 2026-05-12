@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260511.56")
+   (version "20260512.521")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "9d14668e3f545be8583f843c9b3b3cb859f1572b")))
-     (sha256 (base32 "11yb19bd28vmglb6msns47b7xpz8361hl30f5fraaacx62fy01fk"))))
+           (commit "6e149d46d2af7699310aa04f81e5e887a0f96e22")))
+     (sha256 (base32 "091j4q99wrb1msnc2h81gna02zgdb67qgi4x6z675klf6vqv5ci9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -18317,14 +18317,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260509.1200")
+   (version "20260512.626")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "9ad335e1ab976f7cc8cdc5aea2f6360a613951be")))
-     (sha256 (base32 "125c138wvixa86k6pb8zymgrjdk0667pqir8vl3rwl12cqm0a69w"))))
+           (commit "3b3a4fd4c773b6372621fe35f7183f4b59b65e4a")))
+     (sha256 (base32 "1bgvxyiiri00vydzcx2h99f7rdinx4d41va5lbp0hmawr6z9a2s7"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -25576,14 +25576,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260511.2054")
+   (version "20260512.419")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "0d8a07c486c7d33ecefa9b123f4af923a7460644")))
-     (sha256 (base32 "1wzc18396nyxl61imn70z3l6irr9j630s9kf5kffj4mri8dw6b1y"))))
+           (commit "7c2764e5bba39742fbefa073bd00c77b8a553626")))
+     (sha256 (base32 "06q8lr1qdykx89lk38v3p7rbdqwpq7q7v7vyn551vkqkj6n81pa6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -39449,14 +39449,14 @@
 (define-public emacs-gerrit
   (package
    (name "emacs-gerrit")
-   (version "20260510.2014")
+   (version "20260512.617")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/twmr/gerrit.el.git")
-           (commit "dcdd672b73284def8e8b3ee6e4f1d9092b87c5f7")))
-     (sha256 (base32 "0zr017n9zchhqnw63rkxi4w7lxwc8kkzyw2yv6vgmmsgh8zgkngy"))))
+           (commit "ccbc70a482305c8f0c88da3a9daead6a16c63ae5")))
+     (sha256 (base32 "1g3l0igmrll7a39bw1068yjfdyhvwysn94pk8z0yyh5jclh3hhr8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit emacs-s emacs-dash))
    (home-page "https://github.com/twmr/gerrit.el")
@@ -39641,14 +39641,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260511.2031")
+   (version "20260512.639")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "148e699d889d02aefb5b2ab13e70a7204cbe79cf")))
-     (sha256 (base32 "1460j2rvwqcpd95jm0gii90bm8s2h0g6p1ivkjndvjsv6f5wphs5"))))
+           (commit "b17467866f49750121892c479718733ed3129156")))
+     (sha256 (base32 "19mlx9kl4vhysy11vn6azjdj48kzniddqi2k77zzn9h3h416cbrc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
