@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260511.1712")
+   (version "20260512.1303")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "fbb6fd854c79fc176747a10e3382fe5d40ae234e")))
-     (sha256 (base32 "0sb2wvacnhldr7z5xk8w6q11sgrx7byb32gw1240sjjfyw8whyjy"))))
+           (commit "91e7b00742ce4c2325595218c20e13e1e0cfbc3e")))
+     (sha256 (base32 "1l3dwxzjip8kq7gjym6m95d19m2s73v148190bsbqc4h6p4zw1wa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260510.755")
+   (version "20260512.1324")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "5da43e7deece7c17e6f4084e2a996a5bca8cf3e7")))
-     (sha256 (base32 "0wzqhxfka87yzbhwhcaici7n5hzklcwqagnhpb8qj94ansrlr2c1"))))
+           (commit "fc0c0c0bf22f03bfe6db803a9f5448830a818fa1")))
+     (sha256 (base32 "010i98xajq3nky3lb7krp43kz1mjskw048k438kydmgr1ymcrz35"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -39641,14 +39641,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260512.639")
+   (version "20260512.1256")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "b17467866f49750121892c479718733ed3129156")))
-     (sha256 (base32 "19mlx9kl4vhysy11vn6azjdj48kzniddqi2k77zzn9h3h416cbrc"))))
+           (commit "b83fd7ea5a21ea0661f875f541786bfff744cac1")))
+     (sha256 (base32 "1pbv3yl65rng8cpk6a4simdrcm0iljalqnrmi59nzfpg0dy0bvhp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -47805,14 +47805,14 @@
 (define-public emacs-hidepass
   (package
    (name "emacs-hidepass")
-   (version "20260428.540")
+   (version "20260512.1112")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-hidepass.git")
-           (commit "be0dd65847c845a690ee85d6d0be26af89a0b0af")))
-     (sha256 (base32 "17jcakvwr1ga0r1ycci04ca5i8aasw4hqdhiknzmj0hghncfilz6"))))
+           (commit "6094bc0e37f5ac4abfe3fe8ed0ce8eef1a928ef9")))
+     (sha256 (base32 "1ji625asb8xrb7ajm2vdk2iq2n6dv8y4558pi9ywq0ihdfddxvwd"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-hidepass")
    (synopsis "Hide passwords at one or multiple lines")
@@ -49383,7 +49383,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260511.1313")
+   (version "20260512.1315")
    (source
     (origin
      (method url-fetch)
@@ -49391,7 +49391,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "1bvk2ih4030xv6bvyw86k90bhrsrhh0cnbm4cnm14xb7v9gi8q6y"))))
+     (sha256 (base32 "0b3limc29pqwprpxly5n4d1lkw6aqfk0b6xl896c4dd1pdhk45bx"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -55353,14 +55353,14 @@
 (define-public emacs-kaolin-themes
   (package
    (name "emacs-kaolin-themes")
-   (version "20260511.1759")
+   (version "20260512.1336")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
-           (commit "ce9e109f4103e8cde0bad1ea7ce02a56b29446f8")))
-     (sha256 (base32 "09n61x15f0xf7x250wcdfv7kq6wz96a2l1vwxmsa33mh9szvjq9k"))))
+           (commit "eaf70548fb0095b4041a9e82cd3b4dff6d3ba48d")))
+     (sha256 (base32 "1pbvay4iwy85fzpn5k951nlcj96hw13rf6qlyjr5vw3l39ybik0k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (arguments '(#:files (:defaults "themes/*.el")))
@@ -56448,14 +56448,14 @@
 (define-public emacs-kotlin-ts-mode
   (package
    (name "emacs-kotlin-ts-mode")
-   (version "20260430.1314")
+   (version "20260512.1409")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/bricka/emacs-kotlin-ts-mode.git")
-           (commit "588764613a45a0baf3adffcd68066991f9e56191")))
-     (sha256 (base32 "1c4943z0brcfjky6gsc1f9405vpnqxkmvfd5wi1xa9m754a3hxnr"))))
+           (commit "39e30e4cf803910c2f6716efd7a5cd408a9d996b")))
+     (sha256 (base32 "1zabj07ffmi9g0vv74xkrwim7dwx3hsirr9abaxh6acwykp2ma6d"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/bricka/emacs-kotlin-ts-mode")
    (synopsis "A mode for editing Kotlin files based on tree-sitter")
@@ -60429,14 +60429,14 @@
 (define-public emacs-lsp-ui
   (package
    (name "emacs-lsp-ui")
-   (version "20260507.1740")
+   (version "20260512.1516")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-ui.git")
-           (commit "98f6f3ff5a8a1498346726da8812c953f08844f9")))
-     (sha256 (base32 "0y23a5nzdgn8wbynhlx7shs0wpfy5bi6ym21km0p15s8wq0b1sgi"))))
+           (commit "8d888a3ab1ba9e46bd4711398c57d39d0b709a45")))
+     (sha256 (base32 "0hqjp55049bmjzxwv3bxks5rr8j91372aj11dsfmmi9r0y5l9wwl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-lsp-mode emacs-markdown-mode))
    (arguments '(#:files (:defaults "lsp-ui-doc.html" "resources")))
@@ -67296,14 +67296,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260510.633")
+   (version "20260512.1245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "06f70b77b8417b3965f8c17188aaec1a38c2d6ec")))
-     (sha256 (base32 "1jlpgjw1ny7wz6w5njq7cwrqi08ifa4nl40605ldscc99577jns8"))))
+           (commit "ab8ddcbbf5fb6d8dab8d3a892b908d038c7ede24")))
+     (sha256 (base32 "06bk4y1ymwkqy7fh7f3gn6b5201h2swnp8dfk4h6095n0w6yv4md"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -67348,14 +67348,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20260511.1018")
+   (version "20260512.947")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "b63f9f9fda431dd4a9e8dc7ccb8e02996fbeca77")))
-     (sha256 (base32 "0ginfi21d9xjz9nnbql8rzc7wajsd0sd62xxzq0pyfh5nscy9bw8"))))
+           (commit "a5b6899dd529cac195179feb6b32b32379fda22a")))
+     (sha256 (base32 "0nqpr00if2b6hhg6as9zy6b0zdgywa6r0hb5ck17zmh4k8ir361w"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -69219,14 +69219,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260506.1926")
+   (version "20260512.1132")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "3f4be666d95681eb4e49d124f82e7eec298457dc")))
-     (sha256 (base32 "0g22aw4wfm8pjv6c6fcxivdgg8lqcqy6yfsrp3k1nkck8rjbyxjy"))))
+           (commit "1127ada1297cce832d244ef18835761026a16c50")))
+     (sha256 (base32 "0yhl15qxmynxx7lkqh25ylih0493p30nls6wgdp3z439sblzgyf5"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -91774,14 +91774,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260510.1147")
+   (version "20260512.1253")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "5ac29f99ba9c43864118c2c2dc591718d113a826")))
-     (sha256 (base32 "0xvi71znqadkm0kf5vzjjp0jraxq0bphm7ar1dkk9hd3vrqdfxzn"))))
+           (commit "11f4a9913e7625f122625dd89d668ad5c93cf151")))
+     (sha256 (base32 "0jd0gqahq21mdakl2lpg7sd7rm3xbjj8h8zis30c78mfn1gph4p3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
