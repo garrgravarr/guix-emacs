@@ -1663,7 +1663,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260512.1303")
+   (version "20260512.1559")
    (source
     (origin
      (method git-fetch)
@@ -8686,14 +8686,14 @@
 (define-public emacs-buttercup
   (package
    (name "emacs-buttercup")
-   (version "20260501.2028")
+   (version "20260512.2141")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
-           (commit "2b1537af18498532f7dd58cfee9ac34f7f8a9d4b")))
-     (sha256 (base32 "0b0k29dnfhxbkjvjfwshf6fqpyi7r62xvibnnv62k952nwgrrqrn"))))
+           (commit "39c8e762408a166a5afa03b8e79dd8d1a0de5caa")))
+     (sha256 (base32 "1k5x12mn8xp4wyalxwjc86zl96ai3f62ia06mfavkkzm7s90smlg"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "bin")))
    (home-page "https://github.com/jorgenschaefer/emacs-buttercup")
@@ -9568,14 +9568,14 @@
 (define-public emacs-casual
   (package
    (name "emacs-casual")
-   (version "20260416.126")
+   (version "20260512.1842")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/casual.git")
-           (commit "6a3fbb40d3369614f36d9a37035942fa57572c5b")))
-     (sha256 (base32 "06i7zv7x8cs87qjpvsjqg2bi68pyw2j0z9pnzbsjj81pafmm2xdy"))))
+           (commit "72fc24345934888528e823195d90cf0a60b948c9")))
+     (sha256 (base32 "07rqkrvh0m9zhr2gw9fp2qa1r4dl6yvkn1kl64bwyyq8cqzr44wr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-csv-mode))
    (arguments '(#:files (:defaults "docs/images")))
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260512.1324")
+   (version "20260512.1828")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "fc0c0c0bf22f03bfe6db803a9f5448830a818fa1")))
-     (sha256 (base32 "010i98xajq3nky3lb7krp43kz1mjskw048k438kydmgr1ymcrz35"))))
+           (commit "becd1a1fa82c445222e7f3ba37f998c8ad8978fe")))
+     (sha256 (base32 "0l2sdmmv9rs4x3fz6nwbf3kkzh8qxyhxmbcfgwywfvggcsvhfnx1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -13248,14 +13248,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260424.2111")
+   (version "20260513.150")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "7a636925bf37bc7aabaed70ad9188ab427a9db2a")))
-     (sha256 (base32 "05zxr3q93jv5ji9jamp4pm4xyrqd0ggyyx5m9q5mch9m1mbpjrc8"))))
+           (commit "5abaf93ad2dd1c353cf4acc48d3ba6a89fa8fc04")))
+     (sha256 (base32 "1aqc5wan6srf0drj6m5fy4v7l5wz2ikviysixgr10092yrxz65mx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -25576,14 +25576,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260512.419")
+   (version "20260512.1800")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "7c2764e5bba39742fbefa073bd00c77b8a553626")))
-     (sha256 (base32 "06q8lr1qdykx89lk38v3p7rbdqwpq7q7v7vyn551vkqkj6n81pa6"))))
+           (commit "8d721a2ee2dfd7a3e8b0b391432047c0003505fc")))
+     (sha256 (base32 "0wlb7xdf21yivkvf75vf9n2n59x6nqr44w73n22q021y8wsrjl5q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -55353,14 +55353,14 @@
 (define-public emacs-kaolin-themes
   (package
    (name "emacs-kaolin-themes")
-   (version "20260512.1336")
+   (version "20260512.2335")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
-           (commit "eaf70548fb0095b4041a9e82cd3b4dff6d3ba48d")))
-     (sha256 (base32 "1pbvay4iwy85fzpn5k951nlcj96hw13rf6qlyjr5vw3l39ybik0k"))))
+           (commit "4de75e4d183ff3e707907137a243a6da04b05448")))
+     (sha256 (base32 "0lpzsbqjh5pphg1847414h2jaisj41fhhdlq6dylzb098v65z0kw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (arguments '(#:files (:defaults "themes/*.el")))
@@ -60160,14 +60160,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260511.1438")
+   (version "20260512.1809")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "fbc926fd3137d34796be254b92cb04c4f24dfae2")))
-     (sha256 (base32 "1f9mfb0bkq8d9ihs1j7dciayfg4f3z2fs0zx6cx21d5gpqxxvsz7"))))
+           (commit "e5cdc6c8f4ef7c0cfaa9b4210381b6230d010463")))
+     (sha256 (base32 "0p8ipx704xfjycpn1xvscc7gpjq5fpkg71fw9wqyhn196d8kzip7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -61933,14 +61933,14 @@
 (define-public emacs-mandm-theme
   (package
    (name "emacs-mandm-theme")
-   (version "20260328.1745")
+   (version "20260513.247")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/choppsv1/emacs-mandm-theme.git")
-           (commit "bccf228e07e785f6534faaf50edc2e1b212c9d54")))
-     (sha256 (base32 "15fzbs3ygzj8x4g3js2gjyvzilmvfr482z8a6hnvs4316yzp1vjd"))))
+           (commit "c9ebcbe0518798cab3667762637062f0255bbad2")))
+     (sha256 (base32 "166i2iic1n848099x1khrxl1phcmn4d7sgkjknd3b40ns6mf4a48"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/choppsv1/emacs-mandm-theme.git")
    (synopsis "An M&M color theme")
@@ -69219,14 +69219,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260512.1132")
+   (version "20260512.1854")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "1127ada1297cce832d244ef18835761026a16c50")))
-     (sha256 (base32 "0yhl15qxmynxx7lkqh25ylih0493p30nls6wgdp3z439sblzgyf5"))))
+           (commit "fd9882ea6ea162137905204172ac9aae68da35cf")))
+     (sha256 (base32 "1k0bpr7gb2247mrqh9dsnncqn1iwzb0b8r0c3aj75m78wqk1bnhx"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -77735,16 +77735,16 @@
 (define-public emacs-ox-rss
   (package
    (name "emacs-ox-rss")
-   (version "20230408.231")
+   (version "20260512.2231")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/BenedictHW/ox-rss.git")
-           (commit "d2964eca3614f84db85b498d065862a1e341868d")))
-     (sha256 (base32 "0piycm3b2lz2a9zg4g8ldsrjnbfvqhmf3aibsivb1dlvhzylwm4h"))))
+           (url "https://github.com/bhw-foss/ox-rss.git")
+           (commit "c83db3dc521d0dd423b0f24e57b7eaa798ab5e40")))
+     (sha256 (base32 "1dynf55r19iwci8b9dm20vi00r22z8949wzh12ya84ab4g29i9nq"))))
    (build-system melpa-build-system)
-   (home-page "https://github.com/benedicthw/ox-rss.git")
+   (home-page "https://github.com/bhw-foss/ox-rss")
    (synopsis "RSS 2.0 Back-End for Org Export Engine")
    (description "Documentation at https://melpa.org/#/ox-rss")
    (license #f)))
@@ -82169,14 +82169,14 @@
 (define-public emacs-popterm
   (package
    (name "emacs-popterm")
-   (version "20260510.1826")
+   (version "20260512.1827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/CsBigDataHub/popterm.el.git")
-           (commit "a5d10f85a2df77f5ca9b988641b827f5eaa51dfe")))
-     (sha256 (base32 "0r90yvplhzc3lbnv25w44170li11nqb7jz8zxqqnm2qgjzn9sz9d"))))
+           (commit "1fee2065d51d3b4f4ef1fa9cebd03ad0f8b1aeeb")))
+     (sha256 (base32 "0knasrz6yxa1zshb8ix32jab5zc7aah8gcg754714xh3l3lcpgcp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/CsBigDataHub/popterm.el")
@@ -103555,14 +103555,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260503.915")
+   (version "20260512.1925")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "3d674fe9ffaa8b6afa5507087f4e7fe7dbf1156a")))
-     (sha256 (base32 "11v104r0r32cc3izd2rg21k23swhrkw5vwg8nymkhs24pl6s2j2r"))))
+           (commit "3023362f0d65ceaf95985c613e5abf49c4732beb")))
+     (sha256 (base32 "18a37rkhyj9zq8jb43hl921h7ss2jkkp5c3ml4xhk6gx1psikrh9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
