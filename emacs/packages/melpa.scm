@@ -10857,7 +10857,7 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260513.1011")
+   (version "20260513.1038")
    (source
     (origin
      (method git-fetch)
@@ -16222,14 +16222,14 @@
 (define-public emacs-counsel-etags
   (package
    (name "emacs-counsel-etags")
-   (version "20260510.135")
+   (version "20260513.1048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/redguardtoo/counsel-etags.git")
-           (commit "385eb738d09ce47f905982532e2b03cfb8381f17")))
-     (sha256 (base32 "1g9pbk4xdwz0qr49wgzg5hkk1rjc8ayv9zyckn0b46jcg7cqg14i"))))
+           (commit "d9ed92310da368d8d037e151b8dcbb7ada55d42c")))
+     (sha256 (base32 "063anpspqamza51ndbg6q0j3m29w6w9jklryq5kbwgmp4h3qz71b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-counsel))
    (home-page "https://github.com/redguardtoo/counsel-etags")
@@ -39641,14 +39641,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260513.847")
+   (version "20260513.1134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "113f7a2d4f3ec2a22015a238108ca12585a80e02")))
-     (sha256 (base32 "080dkyw6fgdci565rxpdk7p1dvmwwasbdfpn96hddfl392hhcp9n"))))
+           (commit "1a1f42f3e26419d191cf4bc8fd80ffc25ae90212")))
+     (sha256 (base32 "1ab9jah5j5fy2yblppgsdizqva77jxribih3cd669d4wgnp0f1jy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49383,7 +49383,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260512.1315")
+   (version "20260513.1417")
    (source
     (origin
      (method url-fetch)
@@ -49391,7 +49391,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "0b3limc29pqwprpxly5n4d1lkw6aqfk0b6xl896c4dd1pdhk45bx"))))
+     (sha256 (base32 "09dpi7kn8l1jajabnmfimyqw9f37i89kpzwv8z1biaiyvh1d5nv2"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -50850,14 +50850,14 @@
 (define-public emacs-indent-guide
   (package
    (name "emacs-indent-guide")
-   (version "20260211.1005")
+   (version "20260513.1504")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zk-phi/indent-guide.git")
-           (commit "f3455c6c798b568a6ea1013b7eea1153d2e092be")))
-     (sha256 (base32 "18bmf426xbqlrz448i9aphw69zh8nki1zy1s59l9drz1h5h15n7r"))))
+           (commit "8ee7b5056cf20acabc3cf1297b9347802f9ea01d")))
+     (sha256 (base32 "025nc1xjd3g5pdnyvjpv61ldrdw2lq1v4yy3q1i1pnvy5nmi8qid"))))
    (build-system melpa-build-system)
    (home-page "http://hins11.yu-yake.com/")
    (synopsis "Show vertical lines to guide indentation")
@@ -55026,14 +55026,14 @@
 (define-public emacs-justl
   (package
    (name "emacs-justl")
-   (version "20260228.1147")
+   (version "20260513.850")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psibi/justl.el.git")
-           (commit "4a149c0ad91f60c4d4338e7aa0676ad792a52eca")))
-     (sha256 (base32 "01wg76330lcff8bd83ym65yhbbwp48yrr2crafn2bdlncgd4whqy"))))
+           (commit "2b6e5f8d2d16e7c535553dcb9c496f8bd1bb827e")))
+     (sha256 (base32 "01fqxpkyv1l1hqmsjc50g65cdq5fd3wx9id3qgzng9f7vc2dmfh9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-f emacs-inheritenv))
    (home-page "https://github.com/psibi/justl.el")
@@ -56112,14 +56112,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260430.1555")
+   (version "20260513.1434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "95e6b2c14e8eb3ab6f7bacc1a3f112246b6a54c9")))
-     (sha256 (base32 "0mzn9zfambiwvxsnmz0lap37jsdny83v6fj09w89pq8ldpzkw6cv"))))
+           (commit "d37d36e2fe643523bc5cf9ab6bb26d14600ae308")))
+     (sha256 (base32 "0b20kzra5jm0hf9d08lv8jjq0knp7hc22ali58zkngdlgyja2ycb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -66133,14 +66133,14 @@
 (define-public emacs-multi-project
   (package
    (name "emacs-multi-project")
-   (version "20240115.1635")
+   (version "20260513.1126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ellisvelo/multi-project.git")
-           (commit "3bc67ba8adf10a0844fa2f9cce9d78f130307645")))
-     (sha256 (base32 "0f4p3ndp2qlphad46qhyfmjcd0kmazkz6yr7278ca4zminchfrvc"))))
+           (commit "1ddfd60410dd146c59e9950ef88c5f0084807012")))
+     (sha256 (base32 "17zjbfjz96j5bjjdwxb7qaybd4s1f8xgnldnd0qjqrcc5w2aazis"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ellisvelo/multi-project.git")
    (synopsis "Find files, compile, and search in multiple projects")
@@ -91791,14 +91791,14 @@
 (define-public emacs-shell-pop
   (package
    (name "emacs-shell-pop")
-   (version "20260510.1616")
+   (version "20260513.1615")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kyagi/shell-pop-el.git")
-           (commit "408dc1b710a273011cd902a94dd21f11fa83a362")))
-     (sha256 (base32 "067qh710qw2pbv2lsmqzfvfwbn9mjzrm4p24m9cnhvhxcq1qas6f"))))
+           (commit "ec7e5d0a5a5b5ab56eb1cabd4f7a754ca1992f56")))
+     (sha256 (base32 "0hfsqa8kbdwpxj7g00hal3333w184h1y2za9ri8fj2qy6y98ry4v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kyagi/shell-pop-el")
    (synopsis "Easily toggle a shell window with a single keystroke")
