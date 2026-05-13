@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260512.521")
+   (version "20260513.243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "6e149d46d2af7699310aa04f81e5e887a0f96e22")))
-     (sha256 (base32 "091j4q99wrb1msnc2h81gna02zgdb67qgi4x6z675klf6vqv5ci9"))))
+           (commit "9f4be9f785a5fb02a5543c43878c4ed06be70ebf")))
+     (sha256 (base32 "0xq06rhwmmx96ywv007ciqn4rpn252j21z33m092hirkmrh2kjcf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260512.1828")
+   (version "20260513.1011")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "becd1a1fa82c445222e7f3ba37f998c8ad8978fe")))
-     (sha256 (base32 "0l2sdmmv9rs4x3fz6nwbf3kkzh8qxyhxmbcfgwywfvggcsvhfnx1"))))
+           (commit "00ee39ebe9fa9eb7582933559b910cd88cad7d0d")))
+     (sha256 (base32 "0is3213zrwlx4xyi5bz9y6wq14h4ylngglnzz7xfs73gy7sxnrcp"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -25576,14 +25576,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260512.1800")
+   (version "20260513.917")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "8d721a2ee2dfd7a3e8b0b391432047c0003505fc")))
-     (sha256 (base32 "0wlb7xdf21yivkvf75vf9n2n59x6nqr44w73n22q021y8wsrjl5q"))))
+           (commit "8f65a0193a011b9c46714e97c1ed950777e0d5e4")))
+     (sha256 (base32 "02f4ss6nj1099z1rcs6f0j1b49bby96abmkyjimqb2cl9pr9apfx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -28491,14 +28491,14 @@
 (define-public emacs-erlang
   (package
    (name "emacs-erlang")
-   (version "20260420.1445")
+   (version "20260511.1028")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erlang/otp.git")
-           (commit "a42e46bab47432b988ee60e4c9d915c858bcf32d")))
-     (sha256 (base32 "0fvamvy4l6shxk4pvg03h11i9nww9afxlskxv8bla56as5731imn"))))
+           (commit "311fecb87f711967366b35de40f921201f43c0e9")))
+     (sha256 (base32 "10jjamgj9gpswnrnn6k6w6vy2dd3yk7g0rpq9kqw6g6i8pkqgh6c"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -30213,14 +30213,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260511.2031")
+   (version "20260513.847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "148e699d889d02aefb5b2ab13e70a7204cbe79cf")))
-     (sha256 (base32 "1460j2rvwqcpd95jm0gii90bm8s2h0g6p1ivkjndvjsv6f5wphs5"))))
+           (commit "113f7a2d4f3ec2a22015a238108ca12585a80e02")))
+     (sha256 (base32 "080dkyw6fgdci565rxpdk7p1dvmwwasbdfpn96hddfl392hhcp9n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39641,14 +39641,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260512.1256")
+   (version "20260513.847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "b83fd7ea5a21ea0661f875f541786bfff744cac1")))
-     (sha256 (base32 "1pbv3yl65rng8cpk6a4simdrcm0iljalqnrmi59nzfpg0dy0bvhp"))))
+           (commit "113f7a2d4f3ec2a22015a238108ca12585a80e02")))
+     (sha256 (base32 "080dkyw6fgdci565rxpdk7p1dvmwwasbdfpn96hddfl392hhcp9n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -65495,14 +65495,14 @@
 (define-public emacs-mozc
   (package
    (name "emacs-mozc")
-   (version "20260327.323")
+   (version "20260513.518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/google/mozc.git")
-           (commit "96bab1252792ffd2f5a2d41f0d7752e4852823c7")))
-     (sha256 (base32 "172slr26id8rbhy4wzz0zazgziglkvkpblvq50hrr9pfv8vrb9rv"))))
+           (commit "0c8acf48331724da42f82ebf038cbe6dce25da42")))
+     (sha256 (base32 "1j16nr90656dyarhmyxgyqbkbd1p14clbq79sx626xgckhl64yhw"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("src/unix/emacs/mozc.el")))
    (home-page "https://github.com/google/mozc")
@@ -67296,14 +67296,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260512.1245")
+   (version "20260513.611")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "ab8ddcbbf5fb6d8dab8d3a892b908d038c7ede24")))
-     (sha256 (base32 "06bk4y1ymwkqy7fh7f3gn6b5201h2swnp8dfk4h6095n0w6yv4md"))))
+           (commit "312cee75e36684e13f562d702da2c30879573bca")))
+     (sha256 (base32 "1xn9ks04gkwd65csp7j13m4xv2f67phkrnf9zrysydsdcjdvm0zi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -98833,14 +98833,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260503.1332")
+   (version "20260513.509")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "a1804b6fdc5bbfc3bcb99042a3f56ebdb6da3acc")))
-     (sha256 (base32 "022yw7k5hxmgpvdkpy2h2xi3si2al7b7k1nri7cc12lwdnp1mjj4"))))
+           (commit "f70c1e1006fc47012780a2d885b22b0b93512c47")))
+     (sha256 (base32 "0n4b3gkmligrqyrzdpc2nczybbjphr4y3nm88ai9zpk9rz1aw5fv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -103555,14 +103555,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260512.1925")
+   (version "20260513.729")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "3023362f0d65ceaf95985c613e5abf49c4732beb")))
-     (sha256 (base32 "18a37rkhyj9zq8jb43hl921h7ss2jkkp5c3ml4xhk6gx1psikrh9"))))
+           (commit "3c442688ea6be37c912f00ff985ddb9638663dd7")))
+     (sha256 (base32 "05p333s3qhnbchivbwwzqr2sj8dfaa3vqalacwx2a6aw2cm2k74d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
