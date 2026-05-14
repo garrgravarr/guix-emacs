@@ -2846,14 +2846,14 @@
 (define-public emacs-annotate
   (package
    (name "emacs-annotate")
-   (version "20251111.1635")
+   (version "20260514.1320")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bastibe/annotate.el.git")
-           (commit "9c80b465297dce20901abaf0389a48951b6e030f")))
-     (sha256 (base32 "04d8737kjqavg8j062wf6z1fd7k8l25bcc7h82fgg9w485c953qk"))))
+           (commit "347525024f319ab50735ef324e8900aecda3724c")))
+     (sha256 (base32 "0b6mzkfk4wabhrriwya8gzly5sp5nvc80p491fw0ib8p3cg39504"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bastibe/annotate.el")
    (synopsis "Annotate files without changing them")
@@ -3768,14 +3768,14 @@
 (define-public emacs-ast-grep
   (package
    (name "emacs-ast-grep")
-   (version "20260511.749")
+   (version "20260514.1725")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SunskyXH/ast-grep.el.git")
-           (commit "6de548db344dea994d4a777f069bbadcf5c7a79b")))
-     (sha256 (base32 "062bfx2lcw927mvalcj0i4ykivhxwzx7nn7sjk66ndyxj7iqfzpi"))))
+           (commit "e95f7f219627ff11b5ca3ad62061b92c5a604a00")))
+     (sha256 (base32 "0a0f172bk8h857sls8fmsipal3a797a8brhmma4aps0mqqf14if1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sunskyxh/ast-grep.el")
    (synopsis "Search code using ast-grep with completing-read interface")
@@ -6286,14 +6286,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260514.739")
+   (version "20260514.1518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "8061669dc58551203d0f9ea394591a6d32ee028e")))
-     (sha256 (base32 "1mac207dp7l5ljr525dzlnvn1mfx7zm0q5bafb1s990mvnrh1sd7"))))
+           (commit "54f2abf2d346409cd86e97ae6b7afee2f42bacf0")))
+     (sha256 (base32 "0lzjav6yb8jcaldfb1c5qldbfmqb503zz553kynf79hg8kg7n49h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260514.440")
+   (version "20260514.1328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "ff570fc9d8191f6339364614e717e0835042cc46")))
-     (sha256 (base32 "16vb04r3xlsxdcm9aik1gn0xbd30idyw6wzbr42d4nzy6ddb8ask"))))
+           (commit "61a7b7bda75500e2b5d96e66884a053ae72dcc42")))
+     (sha256 (base32 "01f39xkm7bb96sicdyg49ysx4lknnmqb37f1f4x9hfab3vl12051"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -23756,14 +23756,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260513.2155")
+   (version "20260514.1345")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "dac33d8eb6a57af7caadbc14229a1243b37b9e94")))
-     (sha256 (base32 "017z6a48yv3im2sizjf0bab1z9mi3rkxvwx3k9q7sshqn1s02j9d"))))
+           (commit "1887e4de9fe26c0d169670753749ef90a45ade56")))
+     (sha256 (base32 "1f3ysx46911376nl9qkvb3m09m0qss2s18kizb5pakwzr2m188gs"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -25576,14 +25576,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260513.917")
+   (version "20260514.1453")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "8f65a0193a011b9c46714e97c1ed950777e0d5e4")))
-     (sha256 (base32 "02f4ss6nj1099z1rcs6f0j1b49bby96abmkyjimqb2cl9pr9apfx"))))
+           (commit "4b04dd661e0ba78f879f9be221cdbb8a88377eae")))
+     (sha256 (base32 "1mgq05q3iffz9s480n0lrf1ikzh9wx5plz4flp2c198k2j59q3yr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -60963,14 +60963,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260511.1359")
+   (version "20260514.937")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "acc4b3f4336dc6ca0d8c77b6d9758f4031705757")))
-     (sha256 (base32 "0xl932vs9sddhy952f2wrqyki5fmm8kj86ds28lnb52a3kg55m9i"))))
+           (commit "be5a3b0e9f7a64bcb222ba546a18e6b09922e0a9")))
+     (sha256 (base32 "1cnl0558vjmbw5900g2mg1ph30301hg1zvjpi23v7rf4qkkq6xl0"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -61446,14 +61446,14 @@
 (define-public emacs-magit-section
   (package
    (name "emacs-magit-section")
-   (version "20260511.1359")
+   (version "20260514.937")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "acc4b3f4336dc6ca0d8c77b6d9758f4031705757")))
-     (sha256 (base32 "0xl932vs9sddhy952f2wrqyki5fmm8kj86ds28lnb52a3kg55m9i"))))
+           (commit "be5a3b0e9f7a64bcb222ba546a18e6b09922e0a9")))
+     (sha256 (base32 "1cnl0558vjmbw5900g2mg1ph30301hg1zvjpi23v7rf4qkkq6xl0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (arguments
@@ -68265,14 +68265,14 @@
 (define-public emacs-no-littering
   (package
    (name "emacs-no-littering")
-   (version "20260513.1803")
+   (version "20260514.707")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/no-littering.git")
-           (commit "251cf4f9d33d8f1c4cee55a8c408f1b676920d0d")))
-     (sha256 (base32 "1n438mf5syvyzvagscwfa9nzwvq5h1zp750002qy0xhd0inljl12"))))
+           (commit "420647d49f7436462af2abee493d0efc828c43e6")))
+     (sha256 (base32 "1d14ikk4xf8mwgxqhlpaq9m21m10vjs11wj4bblyb245rf07glbp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/emacscollective/no-littering")
@@ -79822,14 +79822,14 @@
 (define-public emacs-persist-text-scale
   (package
    (name "emacs-persist-text-scale")
-   (version "20260326.1609")
+   (version "20260514.1625")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/persist-text-scale.el.git")
-           (commit "e835e76bad452b1e5a59eb9a0fef650e0680ab90")))
-     (sha256 (base32 "0vvpd0vrzy2rk6xsqnfp65jbm1ls4z1v8syji6rlz2sfnkv94m73"))))
+           (commit "3ce898527a7def2de731dd0f9dcb7558ee4feee8")))
+     (sha256 (base32 "00dxjf55ay5m6hzmysy6dfj2q33ixn16lkakd0dcyqqaa1143y16"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/persist-text-scale.el")
    (synopsis "Persist and restore text scale")
@@ -81199,14 +81199,14 @@
 (define-public emacs-plantuml-mode
   (package
    (name "emacs-plantuml-mode")
-   (version "20250705.1148")
+   (version "20260514.1556")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skuro/plantuml-mode.git")
-           (commit "348e83ff193051d5ad332642100dd704f6e2a6d2")))
-     (sha256 (base32 "1wjhzv1asllcljfvw4hpapwy0p5v1z611yzkibwn27lfd1fjd04l"))))
+           (commit "a4a63efa4a3980bfbd825bfb3a263c6664401e79")))
+     (sha256 (base32 "18hibqf0yb8fdj3niy9l1i9j0diskg433f5jqnkg3fifm058fsf2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-deflate))
    (home-page "https://github.com/skuro/plantuml-mode")
@@ -92482,14 +92482,14 @@
 (define-public emacs-sideline-flycheck
   (package
    (name "emacs-sideline-flycheck")
-   (version "20260101.541")
+   (version "20260514.1443")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-sideline/sideline-flycheck.git")
-           (commit "5a4d63210acf735829b08164897fef6a2abc8bab")))
-     (sha256 (base32 "0mk7xbkhrknkc8wbkjbnsd2v12gzbrgpvwi7yzrj01dlmjqn9268"))))
+           (commit "ceacbb060c382e31a47b7c7c09da0b42f4d091f5")))
+     (sha256 (base32 "1z2ix4crmgxwjdrya2bzsw06jqpf1nhvnigrv5h3mz17fl6fb2lp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-sideline emacs-flycheck emacs-ht))
    (home-page "https://github.com/emacs-sideline/sideline-flycheck")
@@ -99351,17 +99351,17 @@
 (define-public emacs-tern
   (package
    (name "emacs-tern")
-   (version "20191227.950")
+   (version "20260514.1348")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ternjs/tern.git")
-           (commit "33316af5be6cee834114c6dd4628f7eec1da4138")))
-     (sha256 (base32 "0pcf43yvz8l88j0g6vdwwsh8s8wc59i93jahm576rxmn6apwyxk7"))))
+           (commit "fab80daebd798b233a9a40d5a8b99359ace63b5e")))
+     (sha256 (base32 "10fh2hkiha7y0qviw7anfiw4qfv4aajqj342sp9l4q776v8gzdx8"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("emacs/tern.el")))
-   (home-page "http://ternjs.net/")
+   (home-page "http://ternjs.github.io/")
    (synopsis "Tern-powered JavaScript integration")
    (description "Documentation at https://melpa.org/#/tern")
    (license #f)))
@@ -100666,14 +100666,14 @@
 (define-public emacs-toc-org
   (package
    (name "emacs-toc-org")
-   (version "20220110.1452")
+   (version "20260514.1415")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/snosov1/toc-org.git")
-           (commit "6d3ae0fc47ce79b1ea06cabe21a3c596395409cd")))
-     (sha256 (base32 "1yp2k57c28pakvbh8pg7fhgm5mv83n599zmvwlncrxj7bkm58rcs"))))
+           (commit "69165018974a82b397d0869f0c7f0bf7d3b4ee07")))
+     (sha256 (base32 "1v6fps826dd00kxd2h867yjiqmllkk17h3qnxvj2dbj6qk5wwp8a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/snosov1/toc-org")
    (synopsis "Add table of contents to org-mode files (formerly, org-toc)")
