@@ -3279,14 +3279,14 @@
 (define-public emacs-apparmor-mode
   (package
    (name "emacs-apparmor-mode")
-   (version "20260508.300")
+   (version "20260514.445")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/apparmor/apparmor-mode.git")
-           (commit "991ac22527c63ea9c0e2e69bc9bc174beb5c80f0")))
-     (sha256 (base32 "0qxm5mckfjl8zs1drzjdz8cz1pi5mppy07bnl00k9f96ds5sxn84"))))
+           (commit "b9846762e2c791a8be8a58615abd45a91861ff22")))
+     (sha256 (base32 "0qpzfyqqvdzqzq4ay0glbv6nxfvpxm6863y7ns560sg2jv7addg8"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/apparmor/apparmor-mode")
    (synopsis "Major mode for editing AppArmor policy files")
@@ -6286,14 +6286,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260426.1238")
+   (version "20260514.739")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "c91cce703deb0cafb9f344cbc66d63791665fcb2")))
-     (sha256 (base32 "05ls9sdydwnz2sifakk1jww68dkv0pinj25mpqw4j11kh48s7cm7"))))
+           (commit "8061669dc58551203d0f9ea394591a6d32ee028e")))
+     (sha256 (base32 "1mac207dp7l5ljr525dzlnvn1mfx7zm0q5bafb1s990mvnrh1sd7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260513.1038")
+   (version "20260514.440")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "00ee39ebe9fa9eb7582933559b910cd88cad7d0d")))
-     (sha256 (base32 "0is3213zrwlx4xyi5bz9y6wq14h4ylngglnzz7xfs73gy7sxnrcp"))))
+           (commit "ff570fc9d8191f6339364614e717e0835042cc46")))
+     (sha256 (base32 "16vb04r3xlsxdcm9aik1gn0xbd30idyw6wzbr42d4nzy6ddb8ask"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -29977,14 +29977,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260509.2229")
+   (version "20260514.709")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "cf16b126feed89c06d86cde7a0276d71ac512857")))
-     (sha256 (base32 "04a3wgs679fqi4s6lw0xxp17yr2w5qsqjhxcfzrh3l0camsais87"))))
+           (commit "37cdc6e7e8ad2193742f03357fdd1ebc67531f07")))
+     (sha256 (base32 "0cx4b2ffpin29z5mp65bz0xxf8j46rn44javz0lgx3qh72xmlyb4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -38958,14 +38958,14 @@
 (define-public emacs-gdscript-mode
   (package
    (name "emacs-gdscript-mode")
-   (version "20260417.1926")
+   (version "20260514.729")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/godotengine/emacs-gdscript-mode.git")
-           (commit "f6ee6891e15b4aaf4e159ecf3ab8482da6fe0ea7")))
-     (sha256 (base32 "1hqrc20cgqgcrbc5wqwldq7f0xxfvm3y6cnxzy4brdvg61hdg82b"))))
+           (commit "55c9b1da7552d3cb10bf7401850d5623acc270b9")))
+     (sha256 (base32 "14f3bnvyrxv0vsw49rir4083jjz4sv99h10rqs4hgxb0i95ip5mh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/godotengine/emacs-gdscript-mode/")
    (synopsis "Major mode for Godot's GDScript language")
@@ -62989,14 +62989,14 @@
 (define-public emacs-mediawiki
   (package
    (name "emacs-mediawiki")
-   (version "20260514.248")
+   (version "20260514.534")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hexmode/mediawiki-el.git")
-           (commit "479d7d1a2c6f21f8783bb422672b48824611055d")))
-     (sha256 (base32 "07g4fk1bsk422rk5fwd2973v13gyf8ddr0q9bgakm5pa991h7m6w"))))
+           (commit "b9594f31d612937a652d619e35ba27632f72e805")))
+     (sha256 (base32 "0c50f1ry9qappq402jm1qcai7vx1xrjvv4kqm72f15j1knlzhsc1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hexmode/mediawiki-el")
    (synopsis "Mediawiki frontend")
@@ -96046,14 +96046,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260503.1847")
+   (version "20260514.403")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "1ec9447f2673d9d6a906507c962d07266853c98c")))
-     (sha256 (base32 "09d391hxgsmkawxxqy77nrb0a2myfyyvzpmzcjj5b21mvhyc16hk"))))
+           (commit "1d1841fd76cd9bb7259d03d6306783c7b3593882")))
+     (sha256 (base32 "1p9p8snsg8w0hav04iflrzfjcqw64rwg701n1p2plmf46bbyjazr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
