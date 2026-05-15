@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260512.1559")
+   (version "20260515.815")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "91e7b00742ce4c2325595218c20e13e1e0cfbc3e")))
-     (sha256 (base32 "1l3dwxzjip8kq7gjym6m95d19m2s73v148190bsbqc4h6p4zw1wa"))))
+           (commit "a57b87a6864bb7de9e3f68ec66079f8eb7b3bc65")))
+     (sha256 (base32 "0kq1g58ivx5nkma17qnr7ws400ykwf1z43788ysv14a0ffcb4lal"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3279,14 +3279,14 @@
 (define-public emacs-apparmor-mode
   (package
    (name "emacs-apparmor-mode")
-   (version "20260514.445")
+   (version "20260515.454")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/apparmor/apparmor-mode.git")
-           (commit "b9846762e2c791a8be8a58615abd45a91861ff22")))
-     (sha256 (base32 "0qpzfyqqvdzqzq4ay0glbv6nxfvpxm6863y7ns560sg2jv7addg8"))))
+           (commit "b0e4bbcd30aafd71f484c74164351af40ef885bf")))
+     (sha256 (base32 "04kz786xwmsv8w879c9nwspgv0dgfkqmrg2frplhvyizdi0cfinl"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/apparmor/apparmor-mode")
    (synopsis "Major mode for editing AppArmor policy files")
@@ -25576,14 +25576,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260514.2201")
+   (version "20260515.1026")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "2080363f3e119d602601e01813dfb60f7e789f04")))
-     (sha256 (base32 "0dxlgyqydbj45p8ggbblqadfdf69h84yk2gzdfr9qjchsf6ia2ld"))))
+           (commit "9fe150694304ec0806ba95d394eb0623da15fb93")))
+     (sha256 (base32 "0w4573ba8smymzdvvbfwqpjm22iigraqk73i2ycv893kjxvz4zcs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -60409,14 +60409,14 @@
 (define-public emacs-lsp-treemacs
   (package
    (name "emacs-lsp-treemacs")
-   (version "20260507.1739")
+   (version "20260515.746")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-treemacs.git")
-           (commit "0104931991803fa4a6eba0cf038007d98b8219bc")))
-     (sha256 (base32 "1b9shfy30w9w72rhs83j9vsc1hg5v70pw8w3hvqr3zxp11xlyxf6"))))
+           (commit "3519ac907ea391e18d9599375b116aeeb6f8a38a")))
+     (sha256 (base32 "0bwdbzc9h4zypmspvw14fksbzkr6z87x42rnmynv28hrwy7r5ayd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-f emacs-ht emacs-treemacs emacs-lsp-mode))
@@ -63350,14 +63350,14 @@
 (define-public emacs-meshmonitor-chat
   (package
    (name "emacs-meshmonitor-chat")
-   (version "20260409.802")
+   (version "20260515.634")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/andros/meshmonitor-chat.el.git")
-           (commit "862d8fed090dde4db19105afcc29199b3aa38cf0")))
-     (sha256 (base32 "1rncjj6l31v6q4dhpngsarm31ifmnd6gsrdkaqpkp4y7qrspy0vd"))))
+           (commit "79f1675afc914324a2ec55cc0c2a10f5c74bb97a")))
+     (sha256 (base32 "118998pzgkhjg7zzd6vs4pj20qzypd0nbylfy5999vshkpjx1sqg"))))
    (build-system melpa-build-system)
    (home-page "https://git.andros.dev/andros/meshmonitor-chat.el")
    (synopsis "Chat client for MeshMonitor (Meshtastic)")
@@ -73797,14 +73797,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20251111.1319")
+   (version "20260515.753")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "70fef64ee096c13eb33389c4803c5825e146c60e")))
-     (sha256 (base32 "0r76wcyxmg4glhgj7576jbb0ax7zxbzl7rkg3fx13yfaaxqyw90f"))))
+           (commit "7793707df7abc82a460f3f81925ab177b37a336a")))
+     (sha256 (base32 "0s4jmk1wkrrqqxhswb7n2426y3yrq8jjml0cdivkckswy9wf2zsj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -88500,14 +88500,14 @@
 (define-public emacs-rimel
   (package
    (name "emacs-rimel")
-   (version "20260510.1207")
+   (version "20260515.420")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/rimel.git")
-           (commit "c85829fd0c3645a1e9a554b5b3d2f848e58a31cc")))
-     (sha256 (base32 "1c3771hadf02fc8zg8wbz050g06imbjmx0dfq3lq6z8dkqfs8rzf"))))
+           (commit "ef8efd433ddcf8180a886df80d4a95570bdf84a3")))
+     (sha256 (base32 "1350j0ssmrn2rjq13xrpd9lfb3acxxgs81099jbzmca3a1ymiki0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-liberime))
    (home-page "https://github.com/jixiuf/rimel")
