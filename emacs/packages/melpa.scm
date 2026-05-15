@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260515.815")
+   (version "20260515.1444")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "a57b87a6864bb7de9e3f68ec66079f8eb7b3bc65")))
-     (sha256 (base32 "0kq1g58ivx5nkma17qnr7ws400ykwf1z43788ysv14a0ffcb4lal"))))
+           (commit "46623144c75b97163c26be5549b9e0c4bc3052d4")))
+     (sha256 (base32 "1c4kk86m9r6r7hxl9ds8sb9nrv0g046kaaxhdxgl7v91mdywr1ic"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -13248,14 +13248,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260515.220")
+   (version "20260515.1349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "2c503cd96eb26d830b20a590113f1def39b0d890")))
-     (sha256 (base32 "1vlqfdki18khlcm6rm13ln1jazj2mqhhd0i7nr49xw3sfifv8w2i"))))
+           (commit "4faf36bc250fa6edaf91d11dd4191afd68a3b629")))
+     (sha256 (base32 "0jprcj5br4sb5vdlz0swg8dk323mzsrvyzqp81m7x76h0xpghr5d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -25576,14 +25576,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260515.1026")
+   (version "20260515.1611")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "9fe150694304ec0806ba95d394eb0623da15fb93")))
-     (sha256 (base32 "0w4573ba8smymzdvvbfwqpjm22iigraqk73i2ycv893kjxvz4zcs"))))
+           (commit "8f046d4d17309db3b7415fdbc2e01cfd537541b1")))
+     (sha256 (base32 "1hg2q5g836ay6i3xpr72ks931bh1l7plp7l8pjb9ys5s61kmm8if"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -39641,14 +39641,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260513.2052")
+   (version "20260515.1050")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "fe4abec2c55a1f4a7bc6a8ff22ab564608e5af3a")))
-     (sha256 (base32 "0mhvdfix3svdpfpxndp58caxz49s1ssj6bnrh0l3f4pl34bfksdl"))))
+           (commit "be0f53ff2ef0e4e97bc67b40799033eefbd645a8")))
+     (sha256 (base32 "1h812im635a45g74b3fvq1rglgg3pix5nw9xj4l3zhjj5bakjysj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -43465,14 +43465,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260511.1538")
+   (version "20260515.1543")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "77f4f99880a78ed2f0abd2e526da23dd72c322d7")))
-     (sha256 (base32 "15f11f1zdci37q63ih63cyj10vbr5kkwwmysr2mb5861s9fjrksc"))))
+           (commit "c2e688a42b8d13d0a9d800bdaa68b3d7a0a29eaa")))
+     (sha256 (base32 "0p4kvq9jhqhp5zx9b3l4hawh88b0s9wy6nqnlw6sd1bvj5i0zcms"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -49383,7 +49383,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260513.1417")
+   (version "20260515.1441")
    (source
     (origin
      (method url-fetch)
@@ -49391,7 +49391,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "09dpi7kn8l1jajabnmfimyqw9f37i89kpzwv8z1biaiyvh1d5nv2"))))
+     (sha256 (base32 "1ngmh5kiw5kbs3i51krbdwv68ml6qrz0kqjzwinhgcizb8nhcg2b"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -50850,16 +50850,16 @@
 (define-public emacs-indent-guide
   (package
    (name "emacs-indent-guide")
-   (version "20260513.1504")
+   (version "20260515.1152")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zk-phi/indent-guide.git")
-           (commit "8ee7b5056cf20acabc3cf1297b9347802f9ea01d")))
-     (sha256 (base32 "025nc1xjd3g5pdnyvjpv61ldrdw2lq1v4yy3q1i1pnvy5nmi8qid"))))
+           (commit "ab71cac290505caf6c374cb8594b0b78d5109af1")))
+     (sha256 (base32 "1b0g1hw1l2r6zmij90w7a78gxxncnnpjk6zmn4mafxgnkrg8x1q8"))))
    (build-system melpa-build-system)
-   (home-page "http://hins11.yu-yake.com/")
+   (home-page "http://zk-phi.github.io/")
    (synopsis "Show vertical lines to guide indentation")
    (description "Documentation at https://melpa.org/#/indent-guide")
    (license #f)))
@@ -64849,14 +64849,14 @@
 (define-public emacs-moe-theme
   (package
    (name "emacs-moe-theme")
-   (version "20260304.1519")
+   (version "20260515.841")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kuanyui/moe-theme.el.git")
-           (commit "075f91acc2a7ad722bdda0ab945a7fb0f7c4565f")))
-     (sha256 (base32 "1z3whsgjj404dxylgz430l0n8j9kbjab87phy6g8q2pqciailbd8"))))
+           (commit "c7d711e940a6c4e7a2270830aeaf52c1ce789455")))
+     (sha256 (base32 "141jzhfpcah0lw17lwgsd31jp93qr02371rjm2k92vawhx90hir6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kuanyui/moe-theme.el")
    (synopsis "A colorful eye-candy theme. Moe, moe, kyun!")
@@ -69219,14 +69219,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260512.1854")
+   (version "20260515.1337")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "fd9882ea6ea162137905204172ac9aae68da35cf")))
-     (sha256 (base32 "1k0bpr7gb2247mrqh9dsnncqn1iwzb0b8r0c3aj75m78wqk1bnhx"))))
+           (commit "ac974f4788fbce245f05bdae65df7811c9e64365")))
+     (sha256 (base32 "1pf0scy03s16lslw5b1pgf8z4vhk2zh98wmsr4yysnc16hdwi53y"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -77631,14 +77631,14 @@
 (define-public emacs-ox-qmd
   (package
    (name "emacs-ox-qmd")
-   (version "20260504.1718")
+   (version "20260514.1442")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/0x60df/ox-qmd.git")
-           (commit "c0025e73607fab9800ff02a28c90c6239f3bc593")))
-     (sha256 (base32 "1llzkhf939jiiig6laj4f0ar9lw2828d48qsgmgrd7a7c7r9yf41"))))
+           (commit "7a1a4f2679a38e216130d749dfbb38e2d63b713f")))
+     (sha256 (base32 "03svx2fc99kwlyvmsv9xm0j8hhnpvczl3l9x8366q5w1acg8pp53"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request emacs-mimetypes))
    (home-page "https://github.com/0x60df/ox-qmd")
@@ -103127,14 +103127,14 @@
 (define-public emacs-ultra-scroll
   (package
    (name "emacs-ultra-scroll")
-   (version "20260501.1434")
+   (version "20260515.1655")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jdtsmith/ultra-scroll.git")
-           (commit "c6decf7754edda0aa7c5a775b7d6147490a8f464")))
-     (sha256 (base32 "0h5r8ma5aslcwbxiyh27z8ni3v09mzdml3gfccib197dg4k1xr8s"))))
+           (commit "25ce0ac65055c2be49939a50a7d8d16befc9837a")))
+     (sha256 (base32 "0k4vk70s5v64rsrgh505jl7qxxnzs13zsy2cfygxk1fq3vafaimz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jdtsmith/ultra-scroll")
    (synopsis "Fast and smooth scrolling")
@@ -103555,14 +103555,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260513.729")
+   (version "20260515.1015")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "3c442688ea6be37c912f00ff985ddb9638663dd7")))
-     (sha256 (base32 "05p333s3qhnbchivbwwzqr2sj8dfaa3vqalacwx2a6aw2cm2k74d"))))
+           (commit "b49f334c2dd4d58d717a57ebdead8a9f343e748b")))
+     (sha256 (base32 "1mlqqc40kqmk8sgg28wff1kr6dm2j8cc4kpbr82ww012js5w0rk5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
