@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260515.1444")
+   (version "20260516.1007")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "46623144c75b97163c26be5549b9e0c4bc3052d4")))
-     (sha256 (base32 "1c4kk86m9r6r7hxl9ds8sb9nrv0g046kaaxhdxgl7v91mdywr1ic"))))
+           (commit "67babec2278f8ee1cf1c4dc605e976247388df51")))
+     (sha256 (base32 "0fc548y94vwxbqf24vzyx6dyc76wcbdwgj0499dzrack2nsb7w6h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -16023,7 +16023,7 @@
 (define-public emacs-cort
   (package
    (name "emacs-cort")
-   (version "20260516.316")
+   (version "20260516.827")
    (source
     (origin
      (method git-fetch)
@@ -18780,14 +18780,14 @@
 (define-public emacs-ddskk-posframe
   (package
    (name "emacs-ddskk-posframe")
-   (version "20200812.917")
+   (version "20260516.827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/ddskk-posframe.el.git")
-           (commit "88ca3858dad69ffb19a6aff48111ae4bb67c8980")))
-     (sha256 (base32 "0sv3lzp8z91wdkwin4bi9aav4ycm9kfxkbq375ms2n1sl78ycnv5"))))
+           (commit "30502685d5c3f32733bdf7fa0d7378af3666456d")))
+     (sha256 (base32 "12d8nnq2czk2qjkgz3csh37943v0jgccdw8gng1lqsfcxywsil6g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe emacs-ddskk))
    (home-page "https://github.com/conao3/ddskk-posframe.el")
@@ -25576,14 +25576,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260516.644")
+   (version "20260516.1059")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "c8abd6327bb30405f6c4f0c72cc487ace02d6e0d")))
-     (sha256 (base32 "1dzfrx3ffv6rk9sn6717y33r6y3aksv9j3l4cz1q0q0dsfj2hqqg"))))
+           (commit "16373528d8332a2c40d659a435cbb9a350e5fcca")))
+     (sha256 (base32 "07k99s1ji8dh59mqh9pfhs7irhp1k2x3l1g2irmv3cwcqzzg2zvv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -33688,14 +33688,14 @@
 (define-public emacs-flexoki-themes
   (package
    (name "emacs-flexoki-themes")
-   (version "20250228.1934")
+   (version "20260516.1228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/crmsnbleyd/flexoki-emacs-theme.git")
-           (commit "70ea8df8e930a000a27ae6472bba222f8cb2e175")))
-     (sha256 (base32 "1x1dsz4mzgwwl4zldhymafz2f0iwslas4n50zsvi95cv28srbikb"))))
+           (commit "3d6074282ff6e181e98f16000f3355fb977e2b56")))
+     (sha256 (base32 "19x1rr6bzc9l2j4srz1f51z3cjf6s1b7m4k98mbkbfghw5nl23mn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/crmsnbleyd/flexoki-emacs-theme")
    (synopsis "An inky color scheme for prose and code")
@@ -34948,7 +34948,7 @@
 (define-public emacs-flycheck-indent
   (package
    (name "emacs-flycheck-indent")
-   (version "20260516.316")
+   (version "20260516.852")
    (source
     (origin
      (method git-fetch)
@@ -49383,16 +49383,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260515.1441")
+   (version "20260516.1435")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "1ngmh5kiw5kbs3i51krbdwv68ml6qrz0kqjzwinhgcizb8nhcg2b"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "d932119b4cfca4826c3ab44c6080e2bc17b31493")))
+     (sha256 (base32 "1p3jkw6c58vxdiw68qy2y3vzjnkx8a09f5m2y4n6r4gklyrhrvff"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -50884,7 +50922,7 @@
 (define-public emacs-indent-lint
   (package
    (name "emacs-indent-lint")
-   (version "20260516.316")
+   (version "20260516.852")
    (source
     (origin
      (method git-fetch)
@@ -55353,14 +55391,14 @@
 (define-public emacs-kaolin-themes
   (package
    (name "emacs-kaolin-themes")
-   (version "20260515.2238")
+   (version "20260516.1504")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
-           (commit "53a6eab3f3b4ab638da0343b4845aab1074fc0e4")))
-     (sha256 (base32 "0snxm5z4a9ci1p0x17f3vb571ibdg98hayzizbgr14a976r82hb9"))))
+           (commit "6b29cef93cb67c6dfe0e3e13b857e1916c998905")))
+     (sha256 (base32 "0vdc2h61jl4822wmz909r07xd99wwdjlm7f7xg3i9mffa0y5lhic"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (arguments '(#:files (:defaults "themes/*.el")))
@@ -57517,7 +57555,7 @@
 (define-public emacs-leaf-convert
   (package
    (name "emacs-leaf-convert")
-   (version "20260516.334")
+   (version "20260516.853")
    (source
     (origin
      (method git-fetch)
@@ -60963,14 +61001,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260514.937")
+   (version "20260516.1444")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "be5a3b0e9f7a64bcb222ba546a18e6b09922e0a9")))
-     (sha256 (base32 "1cnl0558vjmbw5900g2mg1ph30301hg1zvjpi23v7rf4qkkq6xl0"))))
+           (commit "04f2a5b28fc15a853d726d6bd5b0e638b3ecf6fd")))
+     (sha256 (base32 "19dkvi7hd8ikapfclz0mf92c2nvxcw53pxp3zh84r1aiv1cv4rx4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -68976,14 +69014,14 @@
 (define-public emacs-nucleo-completion
   (package
    (name "emacs-nucleo-completion")
-   (version "20260516.134")
+   (version "20260516.1301")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kn66/nucleo-completion.el.git")
-           (commit "277d78951e93d2d0275a6e4411f68a6db4182756")))
-     (sha256 (base32 "1qiz8hbhpxwz9rpmnk0fr94wh34sd42frpnylzi34g09v8qylmv5"))))
+           (commit "4273c0d000c4fc0d121828fbba6f812a299ad79e")))
+     (sha256 (base32 "0imlhi9yn11x3nn2hiv8ch0w7lk4pjf82kgykbwdz2682z8bgmw3"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files ("nucleo-completion.el" "src" "Cargo.toml" "Cargo.lock")))
@@ -69219,14 +69257,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260515.1337")
+   (version "20260516.1403")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "ac974f4788fbce245f05bdae65df7811c9e64365")))
-     (sha256 (base32 "1pf0scy03s16lslw5b1pgf8z4vhk2zh98wmsr4yysnc16hdwi53y"))))
+           (commit "1a919906c50be386795f7d02bd43e7f7d8558e9e")))
+     (sha256 (base32 "072gxqpif0msgn294g8s4mfzcql7mkrzmqh2p0v47n0r29yi8jis"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -76912,14 +76950,14 @@
 (define-public emacs-outline-indent
   (package
    (name "emacs-outline-indent")
-   (version "20260430.1303")
+   (version "20260510.1901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/outline-indent.el.git")
-           (commit "837c21a076cde3be6d652fc269e2d845a79db24b")))
-     (sha256 (base32 "144qh2wj6k1k2f3bmi8fj0dh35j15gdd88d78skcb6pz2ysz726s"))))
+           (commit "ff70f4b248c85715f2882c2c93656b9eee567796")))
+     (sha256 (base32 "06f28b1mcx4qczr2v2f8lhvx4dw7cc98afmskp0bf9ry3kmabkqx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/outline-indent.el")
    (synopsis "Folding text based on indentation (origami alternative)")
@@ -98957,14 +98995,14 @@
 (define-public emacs-tempel-collection
   (package
    (name "emacs-tempel-collection")
-   (version "20260227.1133")
+   (version "20260516.1317")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Crandel/tempel-collection.git")
-           (commit "6292604c1d5ed0044ce0beb2d46c73697dc66ed3")))
-     (sha256 (base32 "1nbffii5n07928kahc4cgkfb7f434rld9vm9l9n6h0xxb1vldzwj"))))
+           (commit "4ea6f92ecb69dc38c666bfa6c4a253ff94699c80")))
+     (sha256 (base32 "1gvw02sfnvsfi32fqw13hxb9kwkpag195kils9rlxyq3r23pp07c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tempel))
    (arguments '(#:files (:defaults "templates")))
@@ -103127,14 +103165,14 @@
 (define-public emacs-ultra-scroll
   (package
    (name "emacs-ultra-scroll")
-   (version "20260515.2003")
+   (version "20260516.1225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jdtsmith/ultra-scroll.git")
-           (commit "a7df62e8b0eec1c1211af3715f9844218350762c")))
-     (sha256 (base32 "1ali0hbr1c36ppmdqb7v4x8k88dps5836iciadsqgr13nkmcxgl6"))))
+           (commit "f38653053b5c9bbe8dbcb6b2236ab8997fc2f9bb")))
+     (sha256 (base32 "0ajynkiqiq7pvd7wqgf8wig8q288nsxixgl851bw0bjhivv32fmx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jdtsmith/ultra-scroll")
    (synopsis "Fast and smooth scrolling")
