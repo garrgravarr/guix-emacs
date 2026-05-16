@@ -8346,14 +8346,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260514.1627")
+   (version "20260429.1355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "e3b52f9e2db7079184f968bcf4716101fd563fef")))
-     (sha256 (base32 "1dzcwh4rjz11smmj87jmh2d5dfm6pciik6qdwg7wr6705zkzx9wb"))))
+           (commit "c7d0b09b4e0d96d3d448b8b00d03de1fc852ab48")))
+     (sha256 (base32 "0xz7dvxc9p12lx57vrr2wf13ysjlf2bz5qycp87id0v2p5vlkzdh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260514.1615")
+   (version "20260516.554")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "61a7b7bda75500e2b5d96e66884a053ae72dcc42")))
-     (sha256 (base32 "01f39xkm7bb96sicdyg49ysx4lknnmqb37f1f4x9hfab3vl12051"))))
+           (commit "84800cab172ccb54595990c1b7c99279e3287722")))
+     (sha256 (base32 "1lvkb3ac0g1nc06dvxz429cw28vsr9vy33y5v5szd2jsjglw0mnv"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -11396,14 +11396,14 @@
 (define-public emacs-claude-code
   (package
    (name "emacs-claude-code")
-   (version "20260506.2023")
+   (version "20260516.650")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/yuya373/claude-code-emacs.git")
-           (commit "2308cc819760e4163617210f883c1475a6c5fd59")))
-     (sha256 (base32 "08prkrcr5zbqrmrl0lhhw9vy8yqy9sq435jd9d92rihd2qyfdsdw"))))
+           (commit "b428dc6ca5957f00b9d2aece4acec352773b54c6")))
+     (sha256 (base32 "143cf38a73rwv8m504w9ddg9pgvh58fz6g8kzn4ff26nss1n9sff"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projectile emacs-vterm emacs-markdown-mode))
    (arguments '(#:files (:defaults (:exclude "install-deps.el"))))
@@ -16023,14 +16023,14 @@
 (define-public emacs-cort
   (package
    (name "emacs-cort")
-   (version "20241019.936")
+   (version "20260516.316")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/cort.el.git")
-           (commit "262966c9bc7fd3aa7bcf2dc3b9edc286c7f19e58")))
-     (sha256 (base32 "01n7rcvdw98q0dvc51pk6nyrjwcf76cfs7r7c93xnjv5pmpjczfr"))))
+           (commit "851a8669f14a1cfc3b0f9d6bf046139cb5bb7470")))
+     (sha256 (base32 "170dbh6cywyvzc0asayql4vmwa4dyk9k102q0ndkh7m7s33dlsjr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ansi))
    (home-page "https://github.com/conao3/cort.el")
@@ -25576,14 +25576,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260515.2225")
+   (version "20260516.644")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "330f3b8af5122c71222335599dc7016a9a16c6d8")))
-     (sha256 (base32 "1wlb9vxfq4b4f7vnx2mvxm6zsgjj72mav9slhinkwq4054zpxhgr"))))
+           (commit "c8abd6327bb30405f6c4f0c72cc487ace02d6e0d")))
+     (sha256 (base32 "1dzfrx3ffv6rk9sn6717y33r6y3aksv9j3l4cz1q0q0dsfj2hqqg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -34948,14 +34948,14 @@
 (define-public emacs-flycheck-indent
   (package
    (name "emacs-flycheck-indent")
-   (version "20200129.2046")
+   (version "20260516.316")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/indent-lint.el.git")
-           (commit "aee76faf54a55e0bcb5dc07a667d7f5999299c9b")))
-     (sha256 (base32 "19yixxsrwdm4wqch5011mk4gimsyh9rqzvrxkg7l7baa7am8v902"))))
+           (commit "3660b10520d78dd545fd0c52d7e7a36dc602492d")))
+     (sha256 (base32 "1r15nwxkb5d3zx7m1i5z8jmql551dcnq37czhk57v5madr6hggw6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-indent-lint emacs-flycheck))
    (arguments '(#:files ("flycheck-indent.el")))
@@ -43465,7 +43465,7 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260515.1823")
+   (version "20260516.144")
    (source
     (origin
      (method git-fetch)
@@ -49802,14 +49802,14 @@
 (define-public emacs-iceberg-theme
   (package
    (name "emacs-iceberg-theme")
-   (version "20220622.1")
+   (version "20260516.827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/iceberg-theme.el.git")
-           (commit "c9fdf9a8f5ff417c206730a84731f64a95483935")))
-     (sha256 (base32 "03a7mmaykwvmm9yc8ii5k5wgihl88kyq0amp2byjddl7f4mq7zak"))))
+           (commit "9e1bdd4ab53aefacfd23ec4e03ca9c501015e703")))
+     (sha256 (base32 "08zlw6krpfd5116w4dawp07gp2636gfv6lizd5virm4qvg3s2cg1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-solarized-theme))
    (home-page "https://github.com/conao3/iceberg-theme.el")
@@ -50884,14 +50884,14 @@
 (define-public emacs-indent-lint
   (package
    (name "emacs-indent-lint")
-   (version "20230822.46")
+   (version "20260516.316")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/indent-lint.el.git")
-           (commit "aee76faf54a55e0bcb5dc07a667d7f5999299c9b")))
-     (sha256 (base32 "19yixxsrwdm4wqch5011mk4gimsyh9rqzvrxkg7l7baa7am8v902"))))
+           (commit "3660b10520d78dd545fd0c52d7e7a36dc602492d")))
+     (sha256 (base32 "1r15nwxkb5d3zx7m1i5z8jmql551dcnq37czhk57v5madr6hggw6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async-await emacs-async emacs-promise))
    (arguments '(#:files (:defaults (:exclude "flycheck-indent.el"))))
@@ -54794,14 +54794,14 @@
 (define-public emacs-julia-snail
   (package
    (name "emacs-julia-snail")
-   (version "20260403.453")
+   (version "20260516.750")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gcv/julia-snail.git")
-           (commit "3c0beddcd21464d52e95e65ee8b3d7b3a148d83d")))
-     (sha256 (base32 "1p00j4lh9nhkim0lg1f0swvv5lsn54w9qk1g2pjxldrfsad7bqwg"))))
+           (commit "90e2278921ff4155577f97b937f375375c32a34f")))
+     (sha256 (base32 "046la1mh70syq96sla8v92mk8fg5dl05w75bs0plppxkhbnjv2ky"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-julia-mode emacs-s emacs-spinner emacs-popup))
@@ -57517,14 +57517,14 @@
 (define-public emacs-leaf-convert
   (package
    (name "emacs-leaf-convert")
-   (version "20210816.1103")
+   (version "20260516.334")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/leaf-convert.el.git")
-           (commit "da86654f1021445cc42c1a5a9195f15097352209")))
-     (sha256 (base32 "14pvdkknbng44frlf8accpqd1bc9j99x7xjymgrdbyczbq2srv4n"))))
+           (commit "37967565c023596d863d9cd45527a024c5922553")))
+     (sha256 (base32 "0vfj01b37im8wqzn4rnbl9wqxgsb8pcandzmnk9d3bhb1scg3lx0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-leaf emacs-leaf-keywords emacs-ppp))
    (home-page "https://github.com/conao3/leaf-convert.el")
@@ -57535,14 +57535,14 @@
 (define-public emacs-leaf-defaults
   (package
    (name "emacs-leaf-defaults")
-   (version "20210301.118")
+   (version "20260516.827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/leaf-defaults.el.git")
-           (commit "96ce39d4f16736f1e654e24eac16a2603976c724")))
-     (sha256 (base32 "1z56x3wnyakilgxak2yyf6rf35072996szxfz712lmdwqs6xfqv4"))))
+           (commit "238282d31d20c9b5077d7274ba9448eaaf0d44cc")))
+     (sha256 (base32 "0wxzs107fp8hsbm9r2nb4chw9qvwkf72nn49ki1wwd8za205d8vj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-leaf emacs-leaf-keywords))
    (home-page "https://github.com/conao3/leaf-defaults.el")
@@ -57553,14 +57553,14 @@
 (define-public emacs-leaf-keywords
   (package
    (name "emacs-leaf-keywords")
-   (version "20240808.2302")
+   (version "20260516.827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/leaf-keywords.el.git")
-           (commit "82ec27e3441900daedeaaebca509181f964da81f")))
-     (sha256 (base32 "0nsa01d35z3dvvb6dnc43ii461c15pp35ji92k15x8z9nyr25wrd"))))
+           (commit "36efb8c94071c0fd98b6534866297f2238b78630")))
+     (sha256 (base32 "0sfrjiwrzyphmwyh2yxzgw46js7jiwrnm10hhaqkzrqalvh4i68h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-leaf))
    (home-page "https://github.com/conao3/leaf-keywords.el")
@@ -57589,14 +57589,14 @@
 (define-public emacs-leaf-tree
   (package
    (name "emacs-leaf-tree")
-   (version "20211105.19")
+   (version "20260516.827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/leaf-tree.el.git")
-           (commit "89c3b8842df067bba67663d309f43aa311acdccd")))
-     (sha256 (base32 "0him39wsl65nmml9as8gfrix707xjxwvjkwmrgxc9qfjwcxvbvsj"))))
+           (commit "6c85ef64bb21ddbd64e70625dbd59b0539fac534")))
+     (sha256 (base32 "1n3h5mk7j295br17nx9vfn8v6sx1683wdnyd5j8scwqc7qwgf9ds"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-imenu-list))
    (home-page "https://github.com/conao3/leaf-tree.el")
@@ -64238,14 +64238,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260514.52")
+   (version "20260516.556")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "091530ef760c19795f91c3596eb657a246578ae4")))
-     (sha256 (base32 "1jb5i868ysd5llhajva41s4x0j6rd225x2f4h4p7zkh5hpflbwfg"))))
+           (commit "0b667ec4b4a3c9591ed10ba804130391194e8647")))
+     (sha256 (base32 "0cjz98mzlw5s54hjx6zmk3gh2hz5cg70ps04nbp3g57qiiy3q3nw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -68976,14 +68976,14 @@
 (define-public emacs-nucleo-completion
   (package
    (name "emacs-nucleo-completion")
-   (version "20260508.2354")
+   (version "20260516.134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kn66/nucleo-completion.el.git")
-           (commit "414197bfa69f4f94c07a15d2ca6fc70841a4228e")))
-     (sha256 (base32 "0i9dvnw006d3fj0jbqnf87kb760xmbp5y49i0m8vj3r9w2a1xdl7"))))
+           (commit "277d78951e93d2d0275a6e4411f68a6db4182756")))
+     (sha256 (base32 "1qiz8hbhpxwz9rpmnk0fr94wh34sd42frpnylzi34g09v8qylmv5"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files ("nucleo-completion.el" "src" "Cargo.toml" "Cargo.lock")))
@@ -69271,14 +69271,14 @@
 (define-public emacs-oauth2-request
   (package
    (name "emacs-oauth2-request")
-   (version "20210215.657")
+   (version "20260516.830")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/oauth2-request.el.git")
-           (commit "86ff048635e002b00e23d6bed2ec6f36c17bca8e")))
-     (sha256 (base32 "0z9vkssdxkikwjcb3vrby5dfcixy4lw9r2jp7g9nls6w88l184jf"))))
+           (commit "f6b7ba42ecdfd4cc3588bd57bbb345bdae9b9cd6")))
+     (sha256 (base32 "0hclg17qskz2hpxy056x9wgj0lg45z0vrp2h8aswxz7f9dk42x86"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-oauth2 emacs-request))
    (home-page "https://github.com/conao3/oauth2-request.el")
@@ -73153,14 +73153,14 @@
 (define-public emacs-org-generate
   (package
    (name "emacs-org-generate")
-   (version "20240713.159")
+   (version "20260516.826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/org-generate.el.git")
-           (commit "dcb2cb02ea4a8c05aed5d46c06ff2eaa59e308ab")))
-     (sha256 (base32 "107bjcbi5inl1x94dk88wbvnya700x5md57hk4zl3d1c2bawj8vl"))))
+           (commit "e77b9cc063fdc035110ac2feea0799316e7e5339")))
+     (sha256 (base32 "041q7mn1kw4wj4kr5gbmqc7nwibqxx9rhzswhwcqh0gvk65pz38a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mustache))
    (home-page "https://github.com/conao3/org-generate.el")
@@ -91091,14 +91091,14 @@
 (define-public emacs-seml-mode
   (package
    (name "emacs-seml-mode")
-   (version "20230702.1446")
+   (version "20260516.826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/seml-mode.el.git")
-           (commit "23d684ac590fad6aa3c5ce3962c4683c1eb8fdb5")))
-     (sha256 (base32 "1146ap0jl1n0qfn117r3iz98zm3qfwm5w0hj0gigq0cqy9c305lb"))))
+           (commit "ec1efc3fb1a3d831a744bdaa0beb4ac5fcf59d2c")))
+     (sha256 (base32 "0pmxglsyp2p0h1a3qmwbwnacqfrdbjfad2ja4gc49i4qz0jcp9x5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-impatient-mode emacs-htmlize emacs-web-mode))
    (home-page "https://github.com/conao3/seml-mode.el")
@@ -97115,14 +97115,14 @@
 (define-public emacs-sumibi
   (package
    (name "emacs-sumibi")
-   (version "20260417.1157")
+   (version "20260516.647")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/Sumibi.git")
-           (commit "366cf1a2a9f408cc34c1412a4b06dfe01f46d97f")))
-     (sha256 (base32 "0z6g97975y2vchr2bkks4v18pk9zlcpgrffm53f4jvqjgp7pdxas"))))
+           (commit "de689010700597076adad241411a19255cfcdc6d")))
+     (sha256 (base32 "1fjlx9rzzvjm7jj0m9mrryzsfhii5hbja392z3sgrbd697abaw9i"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-popup emacs-unicode-escape emacs-deferred emacs-markdown-mode))
@@ -101479,14 +101479,14 @@
 (define-public emacs-transient-dwim
   (package
    (name "emacs-transient-dwim")
-   (version "20251006.339")
+   (version "20260516.853")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/conao3/transient-dwim.el.git")
-           (commit "65985faf00f5a0e5e725c4f3f9f4118d19b8ee5a")))
-     (sha256 (base32 "16ygz5csgcx5ri3qpid3v3kk1wfshf9napli5ymn6g76spp07sam"))))
+           (commit "f1973c1f75a9c4fd122ebba878aac7f1d0d54111")))
+     (sha256 (base32 "0rzj1awr1d9lw2dkhnb9z7rwjsrhhr7icxqg9xir474n8x5yp7qr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/conao3/transient-dwim.el")
    (synopsis "Useful preset transient commands")
