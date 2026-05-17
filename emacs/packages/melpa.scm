@@ -12118,16 +12118,17 @@
 (define-public emacs-closql
   (package
    (name "emacs-closql")
-   (version "20260511.1403")
+   (version "20260517.1250")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/closql.git")
-           (commit "0cc3b6a63e72d0c408e484de39944eafb70b2ca7")))
-     (sha256 (base32 "0sqv1d0n6lxfjcis97wz0pbmbdgizy5k7c6p0vpadqlpb5pp8rym"))))
+           (commit "bec93e9373acd1bfaeb392f18c56274518e0576b")))
+     (sha256 (base32 "0a5f3vkn8l3q574j68l8ihc5mnypissxx8p5n9w60849rp3nd2yv"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-compat emacs-cond-let emacs-emacsql))
+   (propagated-inputs
+    (list emacs-compat emacs-cond-let emacs-emacsql emacs-llama))
    (home-page "https://github.com/emacscollective/closql")
    (synopsis "Store EIEIO objects using EmacSQL")
    (description "Documentation at https://melpa.org/#/closql")
@@ -25576,14 +25577,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260517.935")
+   (version "20260517.1419")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "a2f8fa9cc16ef6adb3027e3f74b31b83edb23236")))
-     (sha256 (base32 "16mal51sidhhbp297r7dljyfcra16bmyjxbb7pah269gv0q6n4pn"))))
+           (commit "adaa93103777dc728406dc71627d18d4088fe3c3")))
+     (sha256 (base32 "0zkyai05ja8i53zz9jcmzg7al2174m6d9i305jr9drmkqq9jvf51"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -39641,14 +39642,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260515.1050")
+   (version "20260517.1359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "be0f53ff2ef0e4e97bc67b40799033eefbd645a8")))
-     (sha256 (base32 "1h812im635a45g74b3fvq1rglgg3pix5nw9xj4l3zhjj5bakjysj"))))
+           (commit "fd383083d4ee35decbf132ca8631afd7501a8920")))
+     (sha256 (base32 "06rkwapzh2kq4nxya2c8jqqjlkgbq1sr4qg2p2npx3b4asyhzqnk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -42502,14 +42503,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260517.947")
+   (version "20260517.1140")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "a11cd92a026b1fc89b7ac61f089034383f540a30")))
-     (sha256 (base32 "1dycym7ay4vafs33qfs4zi29d8xdn1yy30jrhqijxil5m5z8b4jm"))))
+           (commit "675a19aa68df693fa26070bf19b5d6fd53f2990f")))
+     (sha256 (base32 "1zm1v9agqpzpzrp8kiar5l3wndxfn2ldr4y4z7fq3zk7qhlb35im"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -64852,14 +64853,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260508.2029")
+   (version "20260517.1034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "c6bb5eb8df4ed817aeb23649a1cc56982b6b81c5")))
-     (sha256 (base32 "0l6xp4r3zny32ypl02sa0z2l105f8zbdgrmk4811gl00nd98afps"))))
+           (commit "a47ed7af3fa0bf28893d3445fece6ce13c6526c8")))
+     (sha256 (base32 "1krlnbvpp2753cnv8jzrqsq8r0h9dlgnlbrn3lbz17b6m4fnlwbp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -88310,14 +88311,14 @@
 (define-public emacs-rg
   (package
    (name "emacs-rg")
-   (version "20251022.457")
+   (version "20260516.757")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dajva/rg.el.git")
-           (commit "a614e7d7709c7bf5c5accff4003d351c3f28ee98")))
-     (sha256 (base32 "1l7dgykczp8379zb7x3rvijidqhw897dm58m1434w9jsnr7dw5j9"))))
+           (commit "d22008f13ff2c4a14f2a7125c46acb03576d788e")))
+     (sha256 (base32 "1agi5dgn6asamxvr7zf1djk8gddql1ppfk5yx5lpvp771ha0an95"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-wgrep))
    (home-page "https://github.com/dajva/rg.el")
@@ -98642,14 +98643,14 @@
 (define-public emacs-taskpaper-mode
   (package
    (name "emacs-taskpaper-mode")
-   (version "20260414.1851")
+   (version "20260517.1410")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/saf-dmitry/taskpaper-mode.git")
-           (commit "809c15fe893bb4ffa17bf515908a37c97e74afb9")))
-     (sha256 (base32 "1gd3ip106zdwqhk39jsj2xhsn0c6wa65g6navkiy6z3gb95gs3ha"))))
+           (commit "93a3c5fc3dde0c32f7a3b2ad313cb00d5660c5df")))
+     (sha256 (base32 "0sq3mm4hf5sfmaqxnk37qd4w0d2bysm62nvi7fkkx13z0z8haai1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/saf-dmitry/taskpaper-mode")
    (synopsis "Major mode for TaskPaper files")
