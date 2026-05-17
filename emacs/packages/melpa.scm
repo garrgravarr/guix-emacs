@@ -1823,7 +1823,7 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260516.2323")
+   (version "20260517.335")
    (source
     (origin
      (method git-fetch)
@@ -10075,14 +10075,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260426.807")
+   (version "20260517.807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "0cdfcd8d3962d2c4451e0fbb7a950cd4887c4adf")))
-     (sha256 (base32 "1p2pxzvxlsllq60idlvi6rm1ylf6cr1wjsgxm1qfpsx0npj81alk"))))
+           (commit "39b156f8f0231fb5d6461eb3e4f93374ca47dcb5")))
+     (sha256 (base32 "0m8pg1pwvjj28gc259adkwwvcqq0vs6hs29mkck6g4pf979m6r1d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260516.554")
+   (version "20260517.917")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "84800cab172ccb54595990c1b7c99279e3287722")))
-     (sha256 (base32 "1lvkb3ac0g1nc06dvxz429cw28vsr9vy33y5v5szd2jsjglw0mnv"))))
+           (commit "186c34fbec5607ad8e6adc6e62a3fed62d664d0e")))
+     (sha256 (base32 "0vhyyfw2vim9ayh9brwxkhs5wyramh44g3xkp8v9iw9xzzkdjxdb"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -25576,14 +25576,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260517.14")
+   (version "20260517.935")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "d47875fead12e904046016ca457852d8f10b3d27")))
-     (sha256 (base32 "0wqi81wymik89v35k96lsx01sqfxwxvd439ccgaikgmxh6a7rqkd"))))
+           (commit "a2f8fa9cc16ef6adb3027e3f74b31b83edb23236")))
+     (sha256 (base32 "16mal51sidhhbp297r7dljyfcra16bmyjxbb7pah269gv0q6n4pn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -26553,14 +26553,14 @@
 (define-public emacs-elpy
   (package
    (name "emacs-elpy")
-   (version "20260516.1614")
+   (version "20260517.631")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jorgenschaefer/elpy.git")
-           (commit "bbab563d3c7f56a61077a185f11187eb076ec9bc")))
-     (sha256 (base32 "01f6qjg70sxi75cf4jlbyl3h2x3bsrzxh0xmvzir01ns4l06lzsi"))))
+           (commit "261774a6d024503a8198c020999ed54a163f85ad")))
+     (sha256 (base32 "1k2rgimv0wf62jy82wgjkbakr3xz6xmayxx8sgnhgb79fl1sigf3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-company
@@ -37533,14 +37533,14 @@
 (define-public emacs-folgezett
   (package
    (name "emacs-folgezett")
-   (version "20260510.1449")
+   (version "20260517.422")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/landerwells/folgezett.el.git")
-           (commit "9bc112c7d97700adcaa3a6017f78ce6d764d4ad5")))
-     (sha256 (base32 "0phiq7w1nc0vvz5ckprm2n6n6p9vjyiy163qn6cl2v2r425glm48"))))
+           (commit "8b60ab378fd83a4fc9abc15c82bdcd3cdb2c507d")))
+     (sha256 (base32 "1985nyxd7rpca440brzns9kvd5k6pqjgh3r6hyihmwqypx92ac7i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-org-roam))
    (home-page "https://github.com/landerwells/folgezett.el")
@@ -42502,14 +42502,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260505.2156")
+   (version "20260517.947")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "df08c1a4d4c6e253870b8aa1634922b8f56224e7")))
-     (sha256 (base32 "013f6rlk3zx4y1gn2x1fx7162d30faiv5w62jidmdbkidiqwjx2l"))))
+           (commit "a11cd92a026b1fc89b7ac61f089034383f540a30")))
+     (sha256 (base32 "1dycym7ay4vafs33qfs4zi29d8xdn1yy30jrhqijxil5m5z8b4jm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -60198,14 +60198,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260515.1736")
+   (version "20260517.552")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "0951bf38f5adb0cdb413586e39940e525c188cb2")))
-     (sha256 (base32 "0mhgkj5k0p7rmwr491syzqsli4jfgrmzxwhzbnns3f0ij48jmc2v"))))
+           (commit "f36963ac4b7bee0c738981215d692d41c89d23b5")))
+     (sha256 (base32 "0w9b8fm6a04m6s3hmcyz7j95d9s2wq2dy8b02ph594i6jbgkjvai"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -64852,14 +64852,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260506.527")
+   (version "20260508.2029")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "b242d43e6a2f7677a8b684ed5db835c8459bdd1a")))
-     (sha256 (base32 "1i67wwyqhsjvz0mvk8mmx99a7dwv33wspd538hbwi2jyk5i66asl"))))
+           (commit "c6bb5eb8df4ed817aeb23649a1cc56982b6b81c5")))
+     (sha256 (base32 "0l6xp4r3zny32ypl02sa0z2l105f8zbdgrmk4811gl00nd98afps"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
