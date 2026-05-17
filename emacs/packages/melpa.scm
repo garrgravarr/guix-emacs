@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260516.152")
+   (version "20260516.2323")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "16ceccb85b4d4912b67a24f9681560ab9989de8d")))
-     (sha256 (base32 "02kgdl6y22ccmw106ka5b5j1nl6ml2pqvfkf51zks3cy8idvb3z6"))))
+           (commit "e333ced2f902215eb163440348498521427d3dd5")))
+     (sha256 (base32 "05v2jcmbwb3zarxyjgipdhp8by00m64fj8d1ibw6c6ghbs20ai5p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -3209,14 +3209,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260427.2240")
+   (version "20260516.1902")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "fa5d35ea43efa753c4dff71bc2acf473fc351e80")))
-     (sha256 (base32 "19s2k5kx4qhly24s4c8knlb6a2lq7bm8apyrsyrqs4im20b2vjf9"))))
+           (commit "b5bf00151a3f49f679020fb0e35a1d264956668a")))
+     (sha256 (base32 "0hgdfprz2qir9y01233ps9k2dg7n9vy0linaz78hba6wy0cfxjhc"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -6746,14 +6746,14 @@
 (define-public emacs-bicycle
   (package
    (name "emacs-bicycle")
-   (version "20260101.1825")
+   (version "20260516.2101")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/bicycle.git")
-           (commit "9da65dcb0e8ea6a9fe2b02d3be3cd4f2f4e29977")))
-     (sha256 (base32 "113aj4mc3dz199826sy69nja9qys3637947alq3mv185gbaz4gdd"))))
+           (commit "0e3a341b1a4c0aeaf6badb26a4a61b3bb48928e6")))
+     (sha256 (base32 "0q2401q2lzwq5a6hqxf70fkdawzwcp15ld1qy44b4blyzrp6mhdd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/tarsius/bicycle")
@@ -25576,14 +25576,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260516.1059")
+   (version "20260517.14")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "16373528d8332a2c40d659a435cbb9a350e5fcca")))
-     (sha256 (base32 "07k99s1ji8dh59mqh9pfhs7irhp1k2x3l1g2irmv3cwcqzzg2zvv"))))
+           (commit "d47875fead12e904046016ca457852d8f10b3d27")))
+     (sha256 (base32 "0wqi81wymik89v35k96lsx01sqfxwxvd439ccgaikgmxh6a7rqkd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -26553,14 +26553,14 @@
 (define-public emacs-elpy
   (package
    (name "emacs-elpy")
-   (version "20260515.230")
+   (version "20260516.1614")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jorgenschaefer/elpy.git")
-           (commit "3f8d46e0447dd416dfa6f7e12b519cda21aa7e27")))
-     (sha256 (base32 "16w8p1fj9kqg6yh88jywbv7931ng91zygq1grncg26lj23vcx6p9"))))
+           (commit "bbab563d3c7f56a61077a185f11187eb076ec9bc")))
+     (sha256 (base32 "01f6qjg70sxi75cf4jlbyl3h2x3bsrzxh0xmvzir01ns4l06lzsi"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-company
@@ -26834,14 +26834,14 @@
 (define-public emacs-elx
   (package
    (name "emacs-elx")
-   (version "20260506.643")
+   (version "20260516.2125")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/elx.git")
-           (commit "4a64b89d66bb4a0965113b16c7b6d0a5170f008d")))
-     (sha256 (base32 "1d2gmqa9hcish36rb2mpl1a33jr9j6y0kz708dcq928sfds1br26"))))
+           (commit "a5cbbac74c847819422a1424e7ee821829f2bbc1")))
+     (sha256 (base32 "1fm3apk54brl1fxjvzkhw1825a3cxd05sf9zq7chpnfj31rlhfpl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-llama))
    (home-page "https://github.com/emacscollective/elx")
@@ -49383,14 +49383,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260516.1435")
+   (version "20260516.2154")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "d932119b4cfca4826c3ab44c6080e2bc17b31493")))
-     (sha256 (base32 "1p3jkw6c58vxdiw68qy2y3vzjnkx8a09f5m2y4n6r4gklyrhrvff"))))
+           (commit "faf950080202d48e73e9d43ee51c2b70bbe881dd")))
+     (sha256 (base32 "1gg0vcc1qd0ragbv2q94v0lc01infn52401vjff7r2lzy1j1xg3k"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -60426,24 +60426,6 @@
    (description "Documentation at https://melpa.org/#/lsp-sourcekit")
    (license #f)))
 
-(define-public emacs-lsp-tailwindcss
-  (package
-   (name "emacs-lsp-tailwindcss")
-   (version "20251009.810")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/merrickluo/lsp-tailwindcss.git")
-           (commit "cdd0325a6a571e51f6c7d1cbc198c7a7ea4a194a")))
-     (sha256 (base32 "1a159pbq5x2w3id815ln103prdvyg8kbcmzr2r2cag8aa24hvs91"))))
-   (build-system melpa-build-system)
-   (propagated-inputs (list emacs-lsp-mode emacs-f))
-   (home-page "https://github.com/merrickluo/lsp-tailwindcss")
-   (synopsis "A lsp-mode client for tailwindcss")
-   (description "Documentation at https://melpa.org/#/lsp-tailwindcss")
-   (license #f)))
-
 (define-public emacs-lsp-treemacs
   (package
    (name "emacs-lsp-treemacs")
@@ -60982,14 +60964,14 @@
 (define-public emacs-magik-mode
   (package
    (name "emacs-magik-mode")
-   (version "20260328.1014")
+   (version "20260516.1839")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/roadrunner1776/magik.git")
-           (commit "caeb52d21d5cdb2b1e3550cd95d68568479d0dbb")))
-     (sha256 (base32 "0f3wdjzr7g2ym5m8dpd6srg1ggwffssm5f6rbdpdkdf4424f3jmf"))))
+           (commit "cec25f367cb1641dc1c94a837f876214c89081fc")))
+     (sha256 (base32 "0crjy7wxicilz2sbs3am7lv9sc438qmsklg8gzsb9a4dm5klsq1d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-yasnippet))
    (arguments '(#:files (:defaults "snippets")))
@@ -61001,14 +60983,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260516.1444")
+   (version "20260516.2126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "04f2a5b28fc15a853d726d6bd5b0e638b3ecf6fd")))
-     (sha256 (base32 "19dkvi7hd8ikapfclz0mf92c2nvxcw53pxp3zh84r1aiv1cv4rx4"))))
+           (commit "0a78ce71b03a56eacb8f2fd4452bb314c1049664")))
+     (sha256 (base32 "183hxh2sv42pjsli1287d2x88caxf0a6g9r9apncsc5payf97v2a"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -64151,14 +64133,14 @@
 (define-public emacs-minions
   (package
    (name "emacs-minions")
-   (version "20260504.1736")
+   (version "20260516.2135")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/minions.git")
-           (commit "c83cad7b408fa1b35b19f302da266532aba0ca98")))
-     (sha256 (base32 "1d27hk5gqx1161cc5rwd92k37qd85hsyxml601b4r3l7x6203f18"))))
+           (commit "52e9c7f7c69208994a62f7c5e4640276e272516b")))
+     (sha256 (base32 "1k1mkm8nnqv6idf6gig979zypcjzr74p79hb9801yarn28ipf19z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/tarsius/minions")
@@ -68797,14 +68779,14 @@
 (define-public emacs-notmuch-transient
   (package
    (name "emacs-notmuch-transient")
-   (version "20260401.1226")
+   (version "20260516.2119")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/notmuch-transient.git")
-           (commit "582ebaab67d3c59ec002ae23e0072e4ac9a2f13a")))
-     (sha256 (base32 "1k3fk086ijixaqcl2xj4izdncn2q42ldz72bh0rdpng7zn4bfb97"))))
+           (commit "dc77cb285b26ce8ed9f7cb3b78893f9f78526fe1")))
+     (sha256 (base32 "0i2qhdksink8n0gw31p0xaddnm5s5kk3jivi7mmqgm2kwr3cqgaf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-notmuch))
    (home-page "https://github.com/tarsius/notmuch-transient")
@@ -69014,14 +68996,14 @@
 (define-public emacs-nucleo-completion
   (package
    (name "emacs-nucleo-completion")
-   (version "20260516.1301")
+   (version "20260517.149")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kn66/nucleo-completion.el.git")
-           (commit "4273c0d000c4fc0d121828fbba6f812a299ad79e")))
-     (sha256 (base32 "0imlhi9yn11x3nn2hiv8ch0w7lk4pjf82kgykbwdz2682z8bgmw3"))))
+           (commit "0cccfa2fdaa61850f255fd16b6f8750fa415c1b1")))
+     (sha256 (base32 "09z32ifdgx4dfjan5pgp6xhdak1hgfgd0ybg03b7c9hc22xa0jix"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files ("nucleo-completion.el" "src" "Cargo.toml" "Cargo.lock")))
@@ -76896,14 +76878,14 @@
 (define-public emacs-otpp
   (package
    (name "emacs-otpp")
-   (version "20260504.837")
+   (version "20260517.7")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abougouffa/one-tab-per-project.git")
-           (commit "476bf92185c8a44a7729fac6b85252fff9e4f9ba")))
-     (sha256 (base32 "1ii5rk1wi5gsyq5nwdz26w1dailv4prk9raabcgdy092wz74ymwh"))))
+           (commit "b3b3b3edc36af31b0b4439bce84aa67a5ace02e0")))
+     (sha256 (base32 "1raxsyxr9cbbc1fplv6pkykvh8zq1qdcnr4f952ax25af2d0df9w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/abougouffa/one-tab-per-project")
@@ -97254,23 +97236,6 @@
    (description "Documentation at https://melpa.org/#/super-save")
    (license #f)))
 
-(define-public emacs-supergenpass
-  (package
-   (name "emacs-supergenpass")
-   (version "20130329.548")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/ober/sgpass.git")
-           (commit "549072ef7b5b82913cadd4758e8a0a9926f0a04a")))
-     (sha256 (base32 "0m02snzka243adhwwgriml133n4312lhdia3wdqjcq8y2mlp3331"))))
-   (build-system melpa-build-system)
-   (home-page "https://github.com/ober/sgpass")
-   (synopsis "SuperGenPass for Emacs")
-   (description "Documentation at https://melpa.org/#/supergenpass")
-   (license #f)))
-
 (define-public emacs-surround
   (package
    (name "emacs-surround")
@@ -101376,14 +101341,14 @@
 (define-public emacs-trailing-newline-indicator
   (package
    (name "emacs-trailing-newline-indicator")
-   (version "20260112.1713")
+   (version "20260516.2154")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/saulotoledo/trailing-newline-indicator.git")
-           (commit "f53d9e139f734d9ea35a907a6c44b70795d81737")))
-     (sha256 (base32 "0zld6218jzmjq5afz4525mjc4whi9lix571wn35jpgvf8y1y8lgd"))))
+           (commit "52af1d7d63499020b21d57147cd7d27bc1bb35d3")))
+     (sha256 (base32 "16ggckn7g07jqnmldmdq9qwa5ldcdivi8im66dics5s0cf3g6xb2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/saulotoledo/trailing-newline-indicator")
    (synopsis "Show an indicator for the trailing newline")
@@ -101499,14 +101464,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260511.1436")
+   (version "20260516.2153")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "7871d8f3e3e0eb9128dcd2a0e8b707b421c5e14c")))
-     (sha256 (base32 "0hhcfjmsqdm58v65s1g0rx6n7gvpwqsn31yx1paccvsk2pgs1dc0"))))
+           (commit "eb546b16ca5a6bc5902a403c5e93ff1b0eed2a8e")))
+     (sha256 (base32 "005qcyihwji5j0bd58ricsxn653knh2mwgnig5hksxaqrm33k3h5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/magit/transient")
