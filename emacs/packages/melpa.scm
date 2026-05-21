@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260518.1918")
+   (version "20260521.14")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "1f5548acfd33fef35cb7e4409080f6bed95f1cd7")))
-     (sha256 (base32 "0ph8q2mmz3syk9ky2djly0kk0hdj37rbqj72s6py11wr3yxf04y3"))))
+           (commit "0c6b9723d36d024a4daaecb5450bf215423acb5f")))
+     (sha256 (base32 "00cinghrchnpzkrfr0hy7w447z7j7axbd9vp799gz3syfli5a3mf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -8242,14 +8242,14 @@
 (define-public emacs-buffer-guardian
   (package
    (name "emacs-buffer-guardian")
-   (version "20260428.135")
+   (version "20260521.24")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-guardian.el.git")
-           (commit "96ef5d59f201701e88ff8f2ad01af8c17deb475d")))
-     (sha256 (base32 "1l8avkdh4yb2p622ji4kc14p3lsa6w43llw4nfha9h2bqa8jr4q6"))))
+           (commit "c16b9ba1bb279defab811466c274aa41f0dc2e7a")))
+     (sha256 (base32 "0clgwya74ybd2198z452yq10n57ss08v04jdjg2cw0d5qlsbnjq6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/jc-dev")
    (synopsis "Automatically Save Buffers Without Manual Intervention")
@@ -23757,14 +23757,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260520.1745")
+   (version "20260520.1846")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "7e473713a51a985137ae3cc80986ea40da4b00b8")))
-     (sha256 (base32 "02w5sc4bnrxjpw9ca4blqrqbrqwv31dmkrjv7mvff62fxj6vgwzp"))))
+           (commit "f573c1a5bfc832321725032fb373860ce9bc513c")))
+     (sha256 (base32 "1hpb4zzr755i5mdclp2kmgmlw5szl6mybs693jymhpk89iklgalq"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -25577,14 +25577,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260520.1429")
+   (version "20260520.1900")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "67e852668693bd56654400c39e13f063cb46e490")))
-     (sha256 (base32 "14hjygas7w3iz0v607w5y9qqwn1rf9lg1ld2hs26nr8gcwlfb821"))))
+           (commit "a359945e3ca9a522d50f4f704750a17438628431")))
+     (sha256 (base32 "0xyip0hlf6x54zm8agjiz8pbsrz5apa9madkbkr087ihlax5h7zg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -25706,14 +25706,14 @@
 (define-public emacs-elfeed-protocol
   (package
    (name "emacs-elfeed-protocol")
-   (version "20260519.1629")
+   (version "20260520.1852")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fasheng/elfeed-protocol.git")
-           (commit "ce6bc6f3bf8f55acf62143d8130bf1e4139acc7c")))
-     (sha256 (base32 "0ckfbkzpg1prpzfalayqwarfs3rlkw7zaaq0wlpip7089s96z92a"))))
+           (commit "0dbce7ddf47f66ce005aff057b2305971759a084")))
+     (sha256 (base32 "0hb0kwrqysbxm841z6qmvl0nmc1q8w6m36s419h8k1j302rad07l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-elfeed))
    (home-page "https://github.com/fasheng/elfeed-protocol")
@@ -38959,14 +38959,14 @@
 (define-public emacs-gdscript-mode
   (package
    (name "emacs-gdscript-mode")
-   (version "20260514.729")
+   (version "20260520.2016")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/godotengine/emacs-gdscript-mode.git")
-           (commit "55c9b1da7552d3cb10bf7401850d5623acc270b9")))
-     (sha256 (base32 "14f3bnvyrxv0vsw49rir4083jjz4sv99h10rqs4hgxb0i95ip5mh"))))
+           (commit "f330c9c3355daad8f00366896c6f1949eed33ef8")))
+     (sha256 (base32 "1m8zcl5xb46dq60hrg74f2yrffyj2djzlahfdkf4mackag9w17xz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/godotengine/emacs-gdscript-mode/")
    (synopsis "Major mode for Godot's GDScript language")
@@ -49384,54 +49384,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260519.2139")
+   (version "20260520.2149")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "b5e7972214c2e6cbb14676d8dc90f1b6dbb64b82")))
-     (sha256 (base32 "14lz4gwpa2vzd6s8bxdgrva8cmblw5r9gcrszzfkq12cnxr0mcyx"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "1wy82cj4fxbl5nfvjmhqlhqmlpasbs9fzdnb8cw2vzs649kswmdh"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -56151,14 +56113,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260516.1740")
+   (version "20260520.2310")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "a4c67ed19356b14450e63316ad817391387b2e35")))
-     (sha256 (base32 "0sgadh3sjgxazqfpjbykyxcks72xkkmfbvx1zg5ni32ip0zjhvsi"))))
+           (commit "b7069a4b0126321c263552d5f6133a503bf4a68f")))
+     (sha256 (base32 "1zzpdy68kqf8gdq4idv4gzqysnw2hng97gh98gm6cvcjjp9rhf8n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -60984,14 +60946,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260520.1042")
+   (version "20260520.2045")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "e70d664d8bf40702385bd62096fe8b591094f9ee")))
-     (sha256 (base32 "1hsa74fvnhkd1p9qqvajh0z2jzw68n5jcyakc9y4qa2c7qxp27zq"))))
+           (commit "c8845987fa6ccb2d89369386766b68d8a6f093d0")))
+     (sha256 (base32 "1gqpiyrlfahwa3nh4zwh91ahlgnladam9d224pivbz15a8a22w1b"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -91828,14 +91790,14 @@
 (define-public emacs-shell-pop
   (package
    (name "emacs-shell-pop")
-   (version "20260518.1035")
+   (version "20260520.2354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kyagi/shell-pop-el.git")
-           (commit "3d457d09bd54d8091cc8b5dac384e7f9977c4004")))
-     (sha256 (base32 "0sc62d8nx9hj99rlvspzln7wiqjh7jqljif7y90bsxyd2z1vf64j"))))
+           (commit "ad8edee306961a7b9744fae9e52f888217592e48")))
+     (sha256 (base32 "00jgg3cgzjphvsgs976663xxpgbvj75fqak5awpbvpn68g4g274m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kyagi/shell-pop-el")
    (synopsis "Easily toggle a shell window with a single keystroke")
@@ -95541,14 +95503,14 @@
 (define-public emacs-spell-fu
   (package
    (name "emacs-spell-fu")
-   (version "20260108.1336")
+   (version "20260521.132")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-spell-fu.git")
-           (commit "94686051261a065574fc6535979f8ff08a37f0ee")))
-     (sha256 (base32 "1gbyx1w0k1jwngp22qm7yl1wg82ciybnarcm3frqch7b472dpr7h"))))
+           (commit "0762e577e0f01ee6e0bfe4695f8211ceac628bac")))
+     (sha256 (base32 "16993fx95g1qbn548v5rms8r0xxs65lxb137if1254bi0n11hks0"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-spell-fu")
    (synopsis "Fast & light spelling highlighter")
