@@ -1862,14 +1862,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20260428.828")
+   (version "20260521.1930")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "6bc95319a979a5e2c349c2eeb01388f53e8c6f9d")))
-     (sha256 (base32 "1gl94bi9lfipsfbpq0mllcghibfbx43lzrpq05layrfaxwd4lssq"))))
+           (commit "9772db3e1969eec1df6a53b7d3e5597d07e3337f")))
+     (sha256 (base32 "0q1ya7952cl8i2xr54idp9s76zlz6n9xmdklsfymd611l3pvchfj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -8346,14 +8346,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260429.1355")
+   (version "20260522.148")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "c7d0b09b4e0d96d3d448b8b00d03de1fc852ab48")))
-     (sha256 (base32 "0xz7dvxc9p12lx57vrr2wf13ysjlf2bz5qycp87id0v2p5vlkzdh"))))
+           (commit "66161d0aca759d30485d5a9dee4a7947d9648e79")))
+     (sha256 (base32 "0jf86yvva9biilbbksh3s3d8qngcp8y3hb7dh7x8cjp8gcszgxbz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -12258,14 +12258,14 @@
 (define-public emacs-cmake-mode
   (package
    (name "emacs-cmake-mode")
-   (version "20260421.1337")
+   (version "20260521.1832")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.kitware.com/cmake/cmake.git")
-           (commit "c940a13bd1731e6258c8008ca2c823ae582f6ffc")))
-     (sha256 (base32 "0gr2p1xxj0zcmx5fydkczrd7n0xmjj8a7356yrzclnw97ypgq4cz"))))
+           (commit "a45b3f0722b8beeaae97e8211fed217a6dc8a4e3")))
+     (sha256 (base32 "0jg3ynx8n130lc68isb8smkshfgvyfa6b4nmw1v2f7yjxgy4fwbs"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("Auxiliary/*.el")))
    (home-page "unspecified")
@@ -13249,14 +13249,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260518.2343")
+   (version "20260521.2156")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "eb67c247beb9e02a81262ef9ba9e2bada86e1013")))
-     (sha256 (base32 "1ad0s7334van2i4577aq40wzxjpvwr64zyqxd0wwcm8091q32xaa"))))
+           (commit "1bf7dcd3ce1c8e192a402360930ca18790fec5d4")))
+     (sha256 (base32 "0havd37gyvh55vmwn036qhj5vrlzq9f8pp0pi55mq530xlwijcxw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -23627,14 +23627,14 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260421.1132")
+   (version "20260521.2003")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/easysession.el.git")
-           (commit "77a55e7ed2ad0ea5b741193a4e5a91c91021387f")))
-     (sha256 (base32 "0bzc1078r485177nnfsxxjjjxd502cm850jysg57zbwp1yydmzk4"))))
+           (commit "aaa9913956d69de7cdf30c364befb3521b2d8852")))
+     (sha256 (base32 "1f4h4psm6x1qylkjgh0c0x6rjki2k42kzaxn7kwp4gzgqdz87wyh"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "extensions/easysession*.el")))
    (home-page "https://github.com/jamescherti/easysession.el")
@@ -25577,14 +25577,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260521.1431")
+   (version "20260521.1915")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "53dfdf921d0de2c314fcc866c883cec19b0b437f")))
-     (sha256 (base32 "0dff4j71wswz1zf9h9gk4gisjm4gldhaasp272cj7wxcmzanbbjx"))))
+           (commit "cded0e97e40e278c2e19fca940a3c4d6a651b600")))
+     (sha256 (base32 "048wcjhj7lr7nn1yr7nigqgbk4pjib4hsdxsrnv73aywvdff9vmn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -39642,14 +39642,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260521.1735")
+   (version "20260521.2016")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "3a3aefbc24559bcd8b97ff3d9d038e9ae40f4b7a")))
-     (sha256 (base32 "1kbi9qvc18vjpdkswn7pm56y49inskqgish6fwcab4vnzy5k7545"))))
+           (commit "41e42986a2bcd2d4488cfd60e12dc62dc6dc0952")))
+     (sha256 (base32 "1p9bdpbiwwl3yhmm0d5ixi4dh9626bwd39nkvka1p1pwdnz5l0s3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -43466,14 +43466,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260519.403")
+   (version "20260521.1824")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "945779d3840654c0fa410a2295b37cfaa1fe67c8")))
-     (sha256 (base32 "088zqixxyrax0s818y15ynxlcm7xv22qyrf2di53xnj43rqldcww"))))
+           (commit "ee8d0b5adf2976c17650ae28abe5c78637c6fc99")))
+     (sha256 (base32 "1qa4yf2snx664x4nw2qsiksnmcdfph6kwnbakbkkxsag9cvswydg"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -49384,7 +49384,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260520.2149")
+   (version "20260521.1410")
    (source
     (origin
      (method url-fetch)
@@ -49392,7 +49392,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "1wy82cj4fxbl5nfvjmhqlhqmlpasbs9fzdnb8cw2vzs649kswmdh"))))
+     (sha256 (base32 "064099by9mcz37f6yp5whyjlf7sm1kq0dckg4mrij0ha0hin9adz"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -64815,14 +64815,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260519.1038")
+   (version "20260521.2015")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "c1150024306840c7dfca9aa0c6b2ad19bd5f9ff7")))
-     (sha256 (base32 "0mml0jk9i910wa8rj1pyjinr3sb3b2k69h3xanizjxjydyhwx9kh"))))
+           (commit "87d5764eccca2f130afe3dd00143ed8d93a802a6")))
+     (sha256 (base32 "118d5jsiyxvp0dk5xnjr1phq9fgj0ljcyflx4yfhigfanxwqavaw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -69202,14 +69202,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260516.1403")
+   (version "20260521.1850")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "1a919906c50be386795f7d02bd43e7f7d8558e9e")))
-     (sha256 (base32 "072gxqpif0msgn294g8s4mfzcql7mkrzmqh2p0v47n0r29yi8jis"))))
+           (commit "5c3768da0b791f940252c3050b44f30119968368")))
+     (sha256 (base32 "09iiwij565pbsravs0i5rchl6h32addxkwlk630a7fv16n1bvr9w"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -96045,14 +96045,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260519.134")
+   (version "20260522.212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "7415d9bc1eead7cb34e66776268f60a3abcfa786")))
-     (sha256 (base32 "1wnvn7n0h6909kc7r94az5dgwg2y9573cvrzqxr6giy83ppnnv8h"))))
+           (commit "8b94d0f8fad2614eb6f17b0bcd8902224041c82a")))
+     (sha256 (base32 "02k1hx90wvk5hsm4vz8y56yrh9q2bhia25198jn0mimzkk30lk6f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -104988,14 +104988,14 @@
 (define-public emacs-vertico
   (package
    (name "emacs-vertico")
-   (version "20260519.1055")
+   (version "20260521.2003")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/vertico.git")
-           (commit "ccc1864aeed3d8b7f0bc8000087d6840b4d8ca8e")))
-     (sha256 (base32 "1dklr3d32qahwqigrw6h8msf871b8mmw1z55h4fqgs4l0y5spxh9"))))
+           (commit "6e45be6105819297da8472dd8f37a38eb4a0b6e5")))
+     (sha256 (base32 "1k9526wxqy1m37ks0qj20bax56nyvsp0x743smbyz1fsr9099sdk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/vertico-*.el")))
