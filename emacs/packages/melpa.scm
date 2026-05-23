@@ -25577,14 +25577,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260522.1509")
+   (version "20260522.2312")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "c0f728bc34e5e4d4d79ae683b1c637c387f6f608")))
-     (sha256 (base32 "0g6jp5qrfr8yjjdwhs90qrcdlhm0lg7ia23qplxsr60fx497af9g"))))
+           (commit "17f9499758e0ddfa4f7b4211f3c7512d53d449cd")))
+     (sha256 (base32 "1f6anqs6cvijc35b6mcm49wq2xlac3w3i4q92dx8xrb1vd8k7fd6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -25742,14 +25742,14 @@
 (define-public emacs-elfeed-summarize
   (package
    (name "emacs-elfeed-summarize")
-   (version "20260217.1534")
+   (version "20260522.2046")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fritzgrabo/elfeed-summarize.git")
-           (commit "b4d9f8a7bb72d9fd0db804eff535c42859d94cf8")))
-     (sha256 (base32 "09f0v2mxrq01fjkpz6zk34c74hqy8y2z9qawv5lmm55sc91z2ajv"))))
+           (commit "9b2fbc469d31e1f965ff1953e483adabbdf4495d")))
+     (sha256 (base32 "116znd3s2alzr59zv0yarili4nk2sgbymkj7mkr9plfnzshr80ka"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-elfeed emacs-llm))
    (home-page "https://github.com/fritzgrabo/elfeed-summarize")
@@ -26228,14 +26228,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260517.1548")
+   (version "20260522.2354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "d6e7603f0218ec4e089e2957da1dd31d1d39ec5c")))
-     (sha256 (base32 "04h59ak52gviz6sq0gz84lmwfxgar57fh0g5lrx99r3yjci4v16i"))))
+           (commit "d1466b27de878a5f7d31bb996970d9f2817ff4d5")))
+     (sha256 (base32 "1asm26640x49309avd8c5d63d9v8b2p64zy4mad4g20byvxi496j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -30251,14 +30251,14 @@
 (define-public emacs-evil-god-toggle
   (package
    (name "emacs-evil-god-toggle")
-   (version "20260519.1626")
+   (version "20260522.2049")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jam1015/evil-god-toggle.git")
-           (commit "30f6dee8421cbd2d014eafa24657f6e510e3e6ff")))
-     (sha256 (base32 "1ywm21agm6p0w8xcv548fn45266jxnbhglx8skwp22rn3xmljhsz"))))
+           (commit "d6f8d098b9f9e0046df5afd35ced5bc5ed5a0ea0")))
+     (sha256 (base32 "0zrl2rzp8pb03ji90r9nr2kjfw39iw5kifkiyv01wh7jrdyjsxy3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-god-mode))
    (home-page "https://github.com/jam1015/evil-god-toggle")
@@ -39642,14 +39642,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260522.1543")
+   (version "20260522.2055")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "617cdfb4c5cfad1526fd69cea32a316554e091ae")))
-     (sha256 (base32 "1ir2m6jc88r57s5s725pjb2hzbqfkvbb136vwv351da1a4wr9clx"))))
+           (commit "67fa1ebeb940c411fcc53a7dfbe33eac1ecb9cae")))
+     (sha256 (base32 "1aar948mr9yg940y08wf3jykyf4i5dphk097xbv3vk6f0kbb4ahw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -43466,14 +43466,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260522.1501")
+   (version "20260523.217")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "55965656d51ee23f70ec87fe3998a6e5021bfb2e")))
-     (sha256 (base32 "1nndpmbjs091x0iraj5m4g7bwykd9czn1ph64r4vm8lmjq437jmd"))))
+           (commit "cb745aec06b451304d28fc762227ab907608cc29")))
+     (sha256 (base32 "1zwb2q4lcz8jyja236mnnh0ralpc49kdycj5f028jgxrjzhdqcgz"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -96045,14 +96045,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260522.212")
+   (version "20260523.130")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "8b94d0f8fad2614eb6f17b0bcd8902224041c82a")))
-     (sha256 (base32 "02k1hx90wvk5hsm4vz8y56yrh9q2bhia25198jn0mimzkk30lk6f"))))
+           (commit "29677fe3020c2934f73f0d278c1dc4a6eb353f6c")))
+     (sha256 (base32 "0ym2xyifivid60s73g9x5nbrqxxrzaqik24kvf949ccbagmfkvsh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
