@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260522.1427")
+   (version "20260523.704")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "58458b1442d9487039ea27762af983697d898aa7")))
-     (sha256 (base32 "1m4x1qdp1rgmv1w87dw9d5lz667mkhbkx5r3lbwrpqj9ngl2674x"))))
+           (commit "cded16843a1a5b590d90f1d425dd38acab021b0d")))
+     (sha256 (base32 "1ydx13gp83fzc434k2iwk6c4axmwjhj9r16f5r5y1xgk9g5gny27"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -18100,14 +18100,14 @@
 (define-public emacs-dap-mode
   (package
    (name "emacs-dap-mode")
-   (version "20260503.1833")
+   (version "20260523.830")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/dap-mode.git")
-           (commit "87126cff5838b7bcf94dfa995e60ce0db24a55c0")))
-     (sha256 (base32 "05vkvm2mj2wq504dwj5i1k5ni37vi6llgmjcnjq4rxcczj9vcx39"))))
+           (commit "fc78b2a1db5f30e65875653b4807b801c0ef23bc")))
+     (sha256 (base32 "1hclax156il2xj32nxslqnzwk98wqnpm9xd35xlx8dvgzm7h4i33"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -25577,19 +25577,19 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260522.2312")
+   (version "20260523.636")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "17f9499758e0ddfa4f7b4211f3c7512d53d449cd")))
-     (sha256 (base32 "1f6anqs6cvijc35b6mcm49wq2xlac3w3i4q92dx8xrb1vd8k7fd6"))))
+           (commit "2103b959004df3a441d2a65df6cefecdaf81b1f5")))
+     (sha256 (base32 "08sj5blmkqjv4h1diyv3krv6lpng4b8fb902sadlpvvrlaphp4kq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
    (home-page "https://github.com/emacs-elfeed/elfeed")
-   (synopsis "An Emacs Atom/RSS feed reader")
+   (synopsis "An Atom/RSS feed reader")
    (description "Documentation at https://melpa.org/#/elfeed")
    (license #f)))
 
@@ -27176,16 +27176,17 @@
 (define-public emacs-emcp
   (package
    (name "emacs-emcp")
-   (version "20260519.831")
+   (version "20260523.656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martenlienen/emcp.git")
-           (commit "c65c3c248d52f421531f4b37953be290c1df5ceb")))
-     (sha256 (base32 "13cqw930jgghzxlp08ijbbzv2cbip6rxhq4f59y89s2gficn8grq"))))
+           (commit "a91016452ef73813ea4a7e84cde233176d87a97f")))
+     (sha256 (base32 "08wbpj95l38fsdihxhgryb74psl11agw5n9swnpf1j3qyhwa13cn"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-http-server emacs-elisp-refs))
+   (propagated-inputs
+    (list emacs-http-server emacs-elisp-refs emacs-magit-section))
    (arguments '(#:files (:defaults "emacs.svg")))
    (home-page "https://codeberg.org/martenlienen/emcp")
    (synopsis "Lets your agent talk to Emacs")
@@ -42521,14 +42522,14 @@
 (define-public emacs-gptel-agent
   (package
    (name "emacs-gptel-agent")
-   (version "20260518.557")
+   (version "20260523.600")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-agent.git")
-           (commit "753e722778fcdefc165f049d27cbfea4fb909236")))
-     (sha256 (base32 "0pxinbpaj31c2rzq7yv239vn4fgmrby7a7idcgq9a0dh12rmrvjm"))))
+           (commit "f8cab0368918672a329ea3caf5cd64b6db1722eb")))
+     (sha256 (base32 "16prflq6mbh51r5h32fl4xhi815xdd3nyxh2fib6qvcqsv8cqmgh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-gptel emacs-yaml emacs-orderless))
