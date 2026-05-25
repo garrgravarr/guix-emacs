@@ -3209,14 +3209,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260516.1902")
+   (version "20260525.1539")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "b5bf00151a3f49f679020fb0e35a1d264956668a")))
-     (sha256 (base32 "0hgdfprz2qir9y01233ps9k2dg7n9vy0linaz78hba6wy0cfxjhc"))))
+           (commit "b5d120a419816f9d6b3d0e45f0951dd3d6a10b77")))
+     (sha256 (base32 "181whpb774gv3k2xxswxkjhd3075r2dpgvdfmpsjqyl2s1jpn5fj"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -25595,14 +25595,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260525.939")
+   (version "20260525.1534")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "2f9ccb20ba46c88a210d18847b39cf0ceb89ff5d")))
-     (sha256 (base32 "02bjlcr79m0lm2p4dkpd7xhnrx8kpa4z964mdz0qv3pcx5qnmmy7"))))
+           (commit "e5c6eb583c97a772357a5e7a4cad3c391f4c6574")))
+     (sha256 (base32 "0q4q7gjdn9kpqxbw76sgapmbq7cz8lgcmnmp5hlzacb4dg2da3wl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -30233,14 +30233,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260523.2135")
+   (version "20260525.1456")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "1c2f555e04ab8304cb07cbce9bb1dd89d347733b")))
-     (sha256 (base32 "15ardwrbf8i6fixwkhqicxw7hpaa7mvnfb7chr9gf5cq5hf34x2w"))))
+           (commit "45d02cd0abb2dd182b69a43407fa41bed48c305a")))
+     (sha256 (base32 "16lcxdx00s86lbxr48iys5nj3a781hps95hpqf8bvmmnjf2xjv1h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39681,14 +39681,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260525.749")
+   (version "20260525.1456")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "d92a367084935aac7fd5fff1a17914d87ddaad03")))
-     (sha256 (base32 "1kypfwhzz11s4d0hb9m78c5vb9iygv1ixwx1md53jm15zyjb70vf"))))
+           (commit "45d02cd0abb2dd182b69a43407fa41bed48c305a")))
+     (sha256 (base32 "16lcxdx00s86lbxr48iys5nj3a781hps95hpqf8bvmmnjf2xjv1h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49405,7 +49405,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260523.1954")
+   (version "20260525.526")
    (source
     (origin
      (method url-fetch)
@@ -49413,7 +49413,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "0a1lg4kywf4vqpcqigrwmpmn5nf8ckf9p48fv6ai6ij7d4g8939m"))))
+     (sha256 (base32 "159finkaaiw456f4dx0qja6jiy6b08qgb0861fjgiq79mjlml7jl"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -82155,14 +82155,14 @@
 (define-public emacs-popterm
   (package
    (name "emacs-popterm")
-   (version "20260512.1827")
+   (version "20260525.1554")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/CsBigDataHub/popterm.el.git")
-           (commit "1fee2065d51d3b4f4ef1fa9cebd03ad0f8b1aeeb")))
-     (sha256 (base32 "0knasrz6yxa1zshb8ix32jab5zc7aah8gcg754714xh3l3lcpgcp"))))
+           (commit "1806231c258cb0f79ad6c8df8add46f6ab48d874")))
+     (sha256 (base32 "03cwl8y409i92fa9j73qdh34k8icwk8psp789iqpai57kpfrfzdl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/CsBigDataHub/popterm.el")
@@ -99930,14 +99930,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260517.2201")
+   (version "20260524.1631")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "8e8ccf011a54f2e0089cabc39577db1dccff0dce")))
-     (sha256 (base32 "1ca90ai1zjqwd895hlm2z4j3i333dbxkixw5isbp428vify6yyi4"))))
+           (commit "20334fbdc1fabe495a72fe721a9e4a99ce8b5e19")))
+     (sha256 (base32 "0k0qc88pk0i94p02fhbdhsii25pgvcqr5lwhwd14mj8xxi7jm8a0"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -104042,14 +104042,14 @@
 (define-public emacs-use-package-x
   (package
    (name "emacs-use-package-x")
-   (version "20260519.125")
+   (version "20260525.1628")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/DevelopmentCool2449/use-package-x.git")
-           (commit "891438201a3e58d7951771bc9e088030a2228089")))
-     (sha256 (base32 "05jsvx874f58s5zrp1scq0rm3qh6gy00lwc5wxk52pxg4948l4q5"))))
+           (commit "45ed391f1d6816b1fff0a3104c6c0d94d9bebd64")))
+     (sha256 (base32 "1cipdps4d2rxvqa8px26522sly55zchj6ag7n5g67i6xalw3nyf5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/DevelopmentCool2449/use-package-x")
