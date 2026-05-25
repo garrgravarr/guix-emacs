@@ -11031,14 +11031,14 @@
 (define-public emacs-circe
   (package
    (name "emacs-circe")
-   (version "20260315.1435")
+   (version "20260525.1114")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-circe/circe.git")
-           (commit "f717332348e4b59499dbf60c56155d9f03cd9303")))
-     (sha256 (base32 "01z41abbhp2plsa9qq28rx16mzflzr1vmy4b2h1fmw4qiqafs9r4"))))
+           (commit "4bd1e964066fe8985d8112ed9172db3a1ecf58c8")))
+     (sha256 (base32 "0gs270kpbr8a574y58bdh3jwz3ma4n2fz5r2zp2z2pflhf9vk9kg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacs-circe/circe")
    (synopsis "Client for IRC in Emacs")
@@ -11396,14 +11396,14 @@
 (define-public emacs-claude-code
   (package
    (name "emacs-claude-code")
-   (version "20260516.650")
+   (version "20260525.935")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/yuya373/claude-code-emacs.git")
-           (commit "b428dc6ca5957f00b9d2aece4acec352773b54c6")))
-     (sha256 (base32 "143cf38a73rwv8m504w9ddg9pgvh58fz6g8kzn4ff26nss1n9sff"))))
+           (commit "9dcfabfdfeb153543c0b09416a0e5fcbc702ee40")))
+     (sha256 (base32 "03sv5b5ps6i3sr6hy39nd43ydb0z012qg8fw6khzrhf7a0ssa39r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projectile emacs-vterm emacs-markdown-mode))
    (arguments '(#:files (:defaults (:exclude "install-deps.el"))))
@@ -12205,7 +12205,7 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260525.213")
+   (version "20260525.413")
    (source
     (origin
      (method git-fetch)
@@ -25595,14 +25595,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260524.1326")
+   (version "20260525.939")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "e66ca970534cbf44eb717894b96090f6642f54ba")))
-     (sha256 (base32 "0rcm5sy56mkprr0zkk6sxmk5h13bzz0k4inyxg2q9myb4hsa0053"))))
+           (commit "2f9ccb20ba46c88a210d18847b39cf0ceb89ff5d")))
+     (sha256 (base32 "02bjlcr79m0lm2p4dkpd7xhnrx8kpa4z964mdz0qv3pcx5qnmmy7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -27194,14 +27194,14 @@
 (define-public emacs-emcp
   (package
    (name "emacs-emcp")
-   (version "20260524.1500")
+   (version "20260525.844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martenlienen/emcp.git")
-           (commit "e493b4dffe9152e5c430e1510a6297cdcf9bd54c")))
-     (sha256 (base32 "1ysgyikq30qq3n05cbkf5p2z5cqdxjys8wgpvs762gqjd6gvjcvh"))))
+           (commit "ac5006e6556f59f8105aba398c26d504988837be")))
+     (sha256 (base32 "0zh3jycbpm2116dh9hpzxmpgdv128x5g23qcyqvazy0yz751z927"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-http-server emacs-elisp-refs emacs-magit-section))
@@ -29997,14 +29997,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260523.1749")
+   (version "20260525.612")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "a27017ddcc2bb701b990d9e21d6b72c75ec05016")))
-     (sha256 (base32 "022k4xxba05919bjzxvmzr3z2rp6pqwqn7sjswga5pw2s5wqngzp"))))
+           (commit "97375f6aaa4ad940b7423c65f5739270e553a711")))
+     (sha256 (base32 "0mfsq1kvn1pfsh513gdhssnmlv2xxnf43n3zhx2i432vxya5mdwb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -39681,14 +39681,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260524.1136")
+   (version "20260525.749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "4c11d7051bf5811f4c8ed490e8e23398a43d8b7e")))
-     (sha256 (base32 "1xrs7zj3asq9gr73cm7vch01y3r6c8s5pz4zdajzfw4d50p78qn5"))))
+           (commit "d92a367084935aac7fd5fff1a17914d87ddaad03")))
+     (sha256 (base32 "1kypfwhzz11s4d0hb9m78c5vb9iygv1ixwx1md53jm15zyjb70vf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -42524,14 +42524,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260524.2023")
+   (version "20260525.633")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "88e4999fcc352b1d72bc07e230dda86d1bc9f37b")))
-     (sha256 (base32 "0js9a4v34bhj8lspja37dfbk2ccccksnx1hmhc8gq82rj9py8k6y"))))
+           (commit "5c82ff85be0beed57a923935e18b9c4d1a8d0858")))
+     (sha256 (base32 "0vvqas12wdg5mkbyd4bq9laswqb4vgcvzi7kb46sbzm50gcq7gp0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -59010,14 +59010,14 @@
 (define-public emacs-literate-elisp
   (package
    (name "emacs-literate-elisp")
-   (version "20250103.132")
+   (version "20260525.443")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jingtaozf/literate-elisp.git")
-           (commit "c559eff46dd7fe0ffc4ad7bf6dd65ee5be516368")))
-     (sha256 (base32 "1h8j16hqhncbfa6nf046qfzhplzqql9i2jjwx1kmqnyxfcvv1zs6"))))
+           (commit "606cbf784aa744c2996655c3dee1225d5204728c")))
+     (sha256 (base32 "0ifgyv1a1f428xkr48nm1a6ww0ql90wa5il28zcvyvgz7sb115z3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jingtaozf/literate-elisp")
    (synopsis "Load Emacs Lisp code blocks from Org files")
@@ -66643,14 +66643,14 @@
 (define-public emacs-mysql
   (package
    (name "emacs-mysql")
-   (version "20260506.305")
+   (version "20260525.158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/mysql.el.git")
-           (commit "3fcb8659e106fc437d7b99dec53451e7e6ebcf81")))
-     (sha256 (base32 "02b959z05zl9k3ykqd9h823wfvn0h74p1x472g1xb3lhhlczlmk1"))))
+           (commit "e302bce83b933dc46ed22e29b2a467b11fee495c")))
+     (sha256 (base32 "1fpdjm4w6ca72ymcpv8430qs15q1lszps9mm9zip97rxmrj4mrgv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/mysql.el")
    (synopsis "Pure Elisp MySQL wire protocol client")
@@ -75181,14 +75181,14 @@
 (define-public emacs-org-social
   (package
    (name "emacs-org-social")
-   (version "20260521.745")
+   (version "20260525.725")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tanrax/org-social.el.git")
-           (commit "69cd465c62e2a478faf3f9f8e811efa24a28ad75")))
-     (sha256 (base32 "11w5mx55ydjid3zqfilidqgmc5vdxr3p0jm1qzl1jic1k87dwdyc"))))
+           (commit "754f16c45585fb733fd521558b572f03bc964708")))
+     (sha256 (base32 "0m5nrhp1d6ndj48fyh547fdk8gcldwxxczki8hklbpiv1w9s4jsb"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-request emacs-emojify emacs-async-http-queue))
@@ -103593,14 +103593,14 @@
 (define-public emacs-unison-ts-mode
   (package
    (name "emacs-unison-ts-mode")
-   (version "20260525.13")
+   (version "20260525.909")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fmguerreiro/unison-ts-mode.git")
-           (commit "3f804da80f5710f846cdcd6a055d5079d9f3e7c9")))
-     (sha256 (base32 "1g3dnq6lp1ji0g1892rphcpj8q7ifr13341b55z8v9dci91l4ic4"))))
+           (commit "31bbb4fbcba02075cebcdedb05d29568420bac9f")))
+     (sha256 (base32 "0bip87ld0dz2l48izbhmy88bwh1fsb1j1cwj6nkpcmy0nmji0pa7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/fmguerreiro/unison-ts-mode")
    (synopsis "Tree-sitter support for Unison")
