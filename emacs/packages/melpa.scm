@@ -6286,14 +6286,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260514.1518")
+   (version "20260526.919")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "54f2abf2d346409cd86e97ae6b7afee2f42bacf0")))
-     (sha256 (base32 "0lzjav6yb8jcaldfb1c5qldbfmqb503zz553kynf79hg8kg7n49h"))))
+           (commit "ad761a1d1324bf3fa3e0ce4f0a92e219e9b3a4ab")))
+     (sha256 (base32 "0kq5bqdvy0h4z1v4lp6np2i1ljv6zd9v749qfh82f03lhfr6cd6q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -11396,14 +11396,14 @@
 (define-public emacs-claude-code
   (package
    (name "emacs-claude-code")
-   (version "20260525.935")
+   (version "20260526.1329")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/yuya373/claude-code-emacs.git")
-           (commit "9dcfabfdfeb153543c0b09416a0e5fcbc702ee40")))
-     (sha256 (base32 "03sv5b5ps6i3sr6hy39nd43ydb0z012qg8fw6khzrhf7a0ssa39r"))))
+           (commit "4d460e2fa56e6919a9fc4f9b985592a983f9f724")))
+     (sha256 (base32 "076xb0193bjav8g03l6sjlb4pgwhnkbvri69lj3lcn8mqj2swxcz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projectile emacs-vterm emacs-markdown-mode))
    (arguments '(#:files (:defaults (:exclude "install-deps.el"))))
@@ -14600,14 +14600,14 @@
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
-   (version "20260522.2351")
+   (version "20260526.1757")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/compile-angel.el.git")
-           (commit "3a76fc36ac2c4aa7595151220c6de501ad1267e7")))
-     (sha256 (base32 "0sfqw4ahdk95h4yhp5mbrmb17iy2w78l6gr6bxqx6cf345fdsix0"))))
+           (commit "3e828ff32c11c637c8c709f4d1546c25eec1e074")))
+     (sha256 (base32 "0wc53q2w2vzy26w6z6b7s0q872wzmzfj19y7lg1lz21bqxrh19d7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/compile-angel.el")
    (synopsis "Automatically Compile Elisp files (auto-compile alternative)")
@@ -25596,14 +25596,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260525.2057")
+   (version "20260526.2305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "531514ac34490686985c80f65015d98291a524d8")))
-     (sha256 (base32 "1n77380rqg0gaf68mbf2wri10va77mnzwg4y201a96bqk9zks6r2"))))
+           (commit "8a7b5c8c18aaee1b361d13cc9227acfe9d6b0259")))
+     (sha256 (base32 "0q7v7w9fbph2iz4mbf85cfw5yn422hxk4fciqrcqs806bwkrr18j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -29360,14 +29360,14 @@
 (define-public emacs-ess
   (package
    (name "emacs-ess")
-   (version "20260424.1544")
+   (version "20260526.1432")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-ess/ESS.git")
-           (commit "bb84ad5717ead180488cf4f266c38eace890e314")))
-     (sha256 (base32 "06gw3wbw80cadyjkwvrj73q9f7j8qmpmgf0p2irgxi4y9ab27y3h"))))
+           (commit "da7d7dc1d2cf95760f56cb1763eb543c4dadaa0c")))
+     (sha256 (base32 "0rma9cz44ajiwnbndmc8hqfn61gc6asj38fzd06nhyf2l39gqrcs"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -37362,14 +37362,14 @@
 (define-public emacs-flywrite
   (package
    (name "emacs-flywrite")
-   (version "20260404.33")
+   (version "20260526.1418")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/awdeorio/flywrite.git")
-           (commit "a5d36c29854207a487d4d1d0d28dbd8dac24da30")))
-     (sha256 (base32 "1xj67zy1kfmv741vba6g0lggcryn6dl3qyz94i9h1s2z2x8bdmn8"))))
+           (commit "e9d11b17fdb4a2d986354a5b942952dea9876a6b")))
+     (sha256 (base32 "1fk7nz73s9xhkfq2f4kdabq18ij5vjpbcm312zx1zkvkb055ccsf"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("flywrite.el")))
    (home-page "https://github.com/awdeorio/flywrite")
@@ -39682,14 +39682,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260525.1456")
+   (version "20260526.2156")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "45d02cd0abb2dd182b69a43407fa41bed48c305a")))
-     (sha256 (base32 "16lcxdx00s86lbxr48iys5nj3a781hps95hpqf8bvmmnjf2xjv1h"))))
+           (commit "7062d2f01f347f60a83b34298dcbaa1cb7aec424")))
+     (sha256 (base32 "0x9k86zn2svwl59rqwaqlgfk62kyzgfxqsgfrrnnp36krkl944bg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -45094,14 +45094,14 @@
 (define-public emacs-helm-core
   (package
    (name "emacs-helm-core")
-   (version "20260424.1357")
+   (version "20260526.1849")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm.git")
-           (commit "3cd5097285dc10ac0898cf6f30c9699c3399e421")))
-     (sha256 (base32 "1yihrb2gsl4p24xwwpdapgmnv64sd0pmbfzgpcp8nypyvs5g7kb3"))))
+           (commit "3c70d12d713455ffaeec67808ded3c3e6daa7b86")))
+     (sha256 (base32 "10bw5dnwfhcwyv0g3lifrpkarkxm7ag9cfzxn7s5v6sqq0gj7zjm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (arguments
@@ -55359,14 +55359,14 @@
 (define-public emacs-kaolin-themes
   (package
    (name "emacs-kaolin-themes")
-   (version "20260523.2216")
+   (version "20260526.1750")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
-           (commit "c0f70a94e88bb868dcbd9326a8f051793012d30b")))
-     (sha256 (base32 "1j1bbqsg78cm8khnj2ad6jp67k96rdr12fh9dck2sbqd2s5926ny"))))
+           (commit "88850479c4630a72ead454508738f4d96733c6d9")))
+     (sha256 (base32 "0phbvp0dr6dzgy7qnq561vqlnxcbkag3d9cfabqj174yp3f8j93l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (arguments '(#:files (:defaults "themes/*.el")))
@@ -56245,14 +56245,15 @@
 (define-public emacs-klere-theme
   (package
    (name "emacs-klere-theme")
-   (version "20250517.452")
+   (version "20260526.323")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://codeberg.org/tomenzgg/emacs-klere-theme.git")
-           (commit "377cc33617184e23acde6707beaf8938915fe093")))
-     (sha256 (base32 "15rgq1a6k64ws0fh864awnw22qzpb58z5s2gj2cp1svw4yakr84w"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/klere-theme-"
+           version
+           ".tar"))
+     (sha256 (base32 "0b4pb1ldf95p821i5nz2vz1akxmjqp7qap368bsv57918dq017xk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tomenzgg/emacs-klere-theme")
    (synopsis
@@ -69225,14 +69226,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260525.2230")
+   (version "20260526.2156")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "e893e93ca7f2157233ffa3a19a7fc72f7f722009")))
-     (sha256 (base32 "0b4bnjgq2d4f3sgba5wxf98xcsb62bdzchljlg6jh0ngygsf2s0l"))))
+           (commit "b2beae5c01032445d0910a06e2d08d4c8fab1bd7")))
+     (sha256 (base32 "1vwghi46iwgsvvnk46hbx4mhykms33998lh0ghv41qr0d8f9ncwd"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -70833,14 +70834,14 @@
 (define-public emacs-ocaml-eglot
   (package
    (name "emacs-ocaml-eglot")
-   (version "20260505.111")
+   (version "20260526.2031")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarides/ocaml-eglot.git")
-           (commit "f3a9107827ee3b3875192c9cd27de5bfd4caec0c")))
-     (sha256 (base32 "0mm58xk10mwdk5n7ry5q67gb7ijwgm47yjalazmlfrfwsw4944x8"))))
+           (commit "1edc88567f45dba18f220fc705acd93e652e12ff")))
+     (sha256 (base32 "0w8ca8d8hyyl6mglxyqwbgzbpd1hsjx6h0k602k1m38jc8l7zbbi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tarides/ocaml-eglot")
    (synopsis "An OCaml companion for Eglot")
@@ -76436,14 +76437,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260522.720")
+   (version "20260526.2135")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "25de9ac509a7ec6dbe91af8fbb4701c2cffe2df1")))
-     (sha256 (base32 "0d4c8yp1syqzzjh80aqrq08hmjdmd9rj0zqfznzapwszch0say9v"))))
+           (commit "c1274c14bb1f20d0206aa292e5d751d817c04af5")))
+     (sha256 (base32 "0k5y8smd0406j1skj75g871wx120nl5vrmznfl0vj37z1ni9kmj2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -78829,14 +78830,14 @@
 (define-public emacs-parseclj
   (package
    (name "emacs-parseclj")
-   (version "20231203.1905")
+   (version "20260526.1843")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/parseclj.git")
-           (commit "6af22372e0fe14df882dd300b22b12ba2d7e00b0")))
-     (sha256 (base32 "1iz7qbsq4whmb3iqy777jlm47chjp62313hc6nfcp0lfqsanmcmv"))))
+           (commit "ca828c202c026e45bd60503984cf510d904cae50")))
+     (sha256 (base32 "1j992kbnl4f25cfb0bjjv2pcl6zxrlg4fvf2r3740a9vmigrl82q"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/clojure-emacs/parseclj")
    (synopsis "Clojure/EDN parser")
@@ -88504,14 +88505,14 @@
 (define-public emacs-rimel
   (package
    (name "emacs-rimel")
-   (version "20260524.902")
+   (version "20260526.1303")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/rimel.git")
-           (commit "ea78ca3a1fd0396b57948ed3b69a1f4f2582eb27")))
-     (sha256 (base32 "1i09w3s456zmjw974xbadh27sgjcgkxb29xca88wf5w1g6x7j216"))))
+           (commit "3b1e8665ac12c03a86c0144c37ad74c470dd63ce")))
+     (sha256 (base32 "0mqcxhpxfz2q3pflyszfa1hsarxssfa58ljk21h8959y2hc2zc8n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-liberime))
    (home-page "https://github.com/jixiuf/rimel")
@@ -101788,14 +101789,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260525.1708")
+   (version "20260526.1339")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "e191fbd70035c90a59c1ab94f88ec84a68b94f84")))
-     (sha256 (base32 "0kmvxmp3aj6vaskfaz8j083q4k4g6cp9xdqsni0ijmqpcg4wnw5b"))))
+           (commit "1e5e3822290ef16cfcb30227790459b7609ef679")))
+     (sha256 (base32 "06dxkxik7l6bdbdb9ha37jdkz5j7k2nhbpy5r2dx8pivhfb5g4aq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
