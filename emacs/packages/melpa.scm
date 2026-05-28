@@ -12205,14 +12205,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260527.1159")
+   (version "20260528.1004")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "6c338faca221265d68de177a3bb09c3368238455")))
-     (sha256 (base32 "0vgqi8f44cavxyshgd3vjp0pp7qar8pndgaaaifcswirgfh3ncwp"))))
+           (commit "b00d323588b0d70456e497d86b4e4b657ca1022e")))
+     (sha256 (base32 "1km4ivyi12s4hcpq8hki7yjk4qclyj34v17h3q8msjnzcnknjr98"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mysql emacs-pg))
    (home-page "https://github.com/LuciusChen/clutch")
@@ -18336,14 +18336,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260512.626")
+   (version "20260528.813")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "3b3a4fd4c773b6372621fe35f7183f4b59b65e4a")))
-     (sha256 (base32 "1bgvxyiiri00vydzcx2h99f7rdinx4d41va5lbp0hmawr6z9a2s7"))))
+           (commit "d001ee4d0372a327c11e15671c2864ba6efd2ee3")))
+     (sha256 (base32 "1syh65la6gam5z4wr4m7kljw6qd3mzsxrjrs91q9d7jayaynkb66"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -26247,14 +26247,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260525.2302")
+   (version "20260528.906")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "4837d1ce0f70a0f13741377438fd73a7631de45d")))
-     (sha256 (base32 "0hnrmm9q7y94sbv133bcsn9hbsi9yq9y0j1zwd3a2922ckiaj1hx"))))
+           (commit "bbee2a0d5badabb447583e54d436bc300de4b791")))
+     (sha256 (base32 "1pk7nxjjj3qnc39zfqdsxdandc3q5wlskxa0zgh6j7dnk4iz1n92"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -39682,14 +39682,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260527.1522")
+   (version "20260528.712")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "5c90a187d54d17f076243474dc46c9600557d617")))
-     (sha256 (base32 "0v2ip6jyn1xipj5r140flr4fnivpq8qfkn6lskvcd5kv9n5zya36"))))
+           (commit "ad3f3ff0e2265caf0d6ef887f7d33bea62aa8ca4")))
+     (sha256 (base32 "0yha0rrlhl92y4kq010iqz7cflnc6gb78k1wnsv8kqcw4f3d2z6y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -72270,14 +72270,14 @@
 (define-public emacs-org-books
   (package
    (name "emacs-org-books")
-   (version "20251022.1020")
+   (version "20260528.819")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~lepisma/org-books")
-           (commit "3f769e5a5a85a5eb6a2249ba971a3d77dc6e7d94")))
-     (sha256 (base32 "0nf5d5nc9x7sjg35hcjk19xspr6k722g60lmfrb855m4vxliril7"))))
+           (commit "74b82acd56c7ddaec5b03135a4cbbd5330a9b020")))
+     (sha256 (base32 "1j2yw6mpki3k5ak5ll93129y389gpbnl86y4c651gash3pd6k088"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-enlive emacs-s emacs-helm emacs-helm-org emacs-dash))
@@ -73803,14 +73803,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260515.753")
+   (version "20260528.656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "7793707df7abc82a460f3f81925ab177b37a336a")))
-     (sha256 (base32 "0s4jmk1wkrrqqxhswb7n2426y3yrq8jjml0cdivkckswy9wf2zsj"))))
+           (commit "b927eae3182f1263ca433e642ad1c960cad88262")))
+     (sha256 (base32 "1hnxm86j7wr7n5bsr6aqia1ck30jzdfdwqaazh82h4rpcng4fljg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -100845,14 +100845,14 @@
 (define-public emacs-tokyo-night
   (package
    (name "emacs-tokyo-night")
-   (version "20260520.1148")
+   (version "20260528.551")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/tokyo-night-emacs.git")
-           (commit "e4c2f466c83477952b7e97db33cfae873ed20be2")))
-     (sha256 (base32 "13cnd22jnmvijz2asyk9r7ba9mlvcx7f3dv731milfsfyaczpxfl"))))
+           (commit "92037072b6e9a48d5d736bf8a76731936ea94410")))
+     (sha256 (base32 "13ya7p5ppd7p15q91g7a8yky85lzadii0ggchklxh8ipigsamrdh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/tokyo-night-emacs")
    (synopsis "Tokyo Night color themes")
@@ -109888,14 +109888,14 @@
 (define-public emacs-zenburn-theme
   (package
    (name "emacs-zenburn-theme")
-   (version "20260329.1838")
+   (version "20260528.757")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/zenburn-emacs.git")
-           (commit "1022240b1061369ecb605d55fa074d20d5c84aae")))
-     (sha256 (base32 "17rl292240j2c8db01irpp5khsqwwwwcjlzwa52adyirc5bdb74v"))))
+           (commit "b19f2c8b3db3b26de20f5f0c29479be85e5d1f3f")))
+     (sha256 (base32 "0k43y8hp0yqx32xwd50lyg68rl4fqqngvwb8a6dl7dpif5ykznpl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/zenburn-emacs")
    (synopsis "A low contrast color theme for Emacs")
