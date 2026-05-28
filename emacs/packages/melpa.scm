@@ -1245,14 +1245,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20260527.1300")
+   (version "20260527.2132")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "c8ee1d7f70105fba8efa964ca63f38ca94a1e759")))
-     (sha256 (base32 "1zxns3y4wgfq7mndyvia3yhmc1qzlk9f7rw3khlyl1sxr0rnim42"))))
+           (commit "3ddfa907eb7f17949a4a8e731ea5c5241e6cbcb4")))
+     (sha256 (base32 "0c9bsj9qz0v788m18bqr71a13jmby61d18dvmnzgl14a8gb5rpl4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -2721,14 +2721,14 @@
 (define-public emacs-anju
   (package
    (name "emacs-anju")
-   (version "20260515.2115")
+   (version "20260527.2010")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/anju.git")
-           (commit "6d9078c7193d2592f88e22a1c980601ccdb8762c")))
-     (sha256 (base32 "1im06cyr7zc0gaj5jmpj4crqf7bz5j5s64pgdazmy0dgj66zxw6s"))))
+           (commit "73849d685694ae84646c287fbdf51f71c7ca672e")))
+     (sha256 (base32 "070ffrh2wivi0y8aaw9bsby5cgmgyqss0p7ivc9xd8dmf61d9hdf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-casual emacs-markdown-mode))
    (arguments '(#:files (:defaults "docs/images")))
@@ -13267,14 +13267,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260521.2156")
+   (version "20260528.130")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "1bf7dcd3ce1c8e192a402360930ca18790fec5d4")))
-     (sha256 (base32 "0havd37gyvh55vmwn036qhj5vrlzq9f8pp0pi55mq530xlwijcxw"))))
+           (commit "e488b4ef1b9f65bcdc6855fb930c4b562c89ce92")))
+     (sha256 (base32 "0z757zpy6siqzk1ybhrry56nnn0jd788wbmsncljxchwnxz19ls0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -43488,14 +43488,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260525.1719")
+   (version "20260527.2109")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "5818c819bdf5ff37717c7140afaddd0398d2da48")))
-     (sha256 (base32 "1dl327ccc1cvbhpnsyb3x61q3mcjpkz7vc2la5jbpvivhpv8fngp"))))
+           (commit "19d4a96e87684216c9909ca60902ca8165483a6d")))
+     (sha256 (base32 "0viw1f53wh3pzywyr0vppjih070fxmjiqmq6d5v6rx8j777304jd"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -78157,14 +78157,14 @@
 (define-public emacs-package-build
   (package
    (name "emacs-package-build")
-   (version "20260527.1117")
+   (version "20260527.2011")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/melpa/package-build.git")
-           (commit "dd951e217c0844512a011e6bf739562dfc909f69")))
-     (sha256 (base32 "0mym01dr3j8xgqp022cxv0azf3v0add4f7zmcg248bx02rbbw2y8"))))
+           (commit "237677a672926683c18a66979e321aa60f644183")))
+     (sha256 (base32 "02wywymn0npjvslp8milw6bqdqr7ngw0xzzpzyvpndy2bx59zjpx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "package-build.mk")))
@@ -80556,14 +80556,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260527.1015")
+   (version "20260527.2159")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "049d6b9d5a20d77d7608e80e56208576cf2feff8")))
-     (sha256 (base32 "09ayzn14sjdvvn1q3qhywfkgjna2fmbbl1ijdyjlv97v445d7rs8"))))
+           (commit "2ce94c0979a050a01bb39ca25ebc8ea4e4425305")))
+     (sha256 (base32 "0y6nfpsrzh1d217fkz0sx1lvlybgz8887fljb51f0mw05dh3qnym"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -86187,14 +86187,14 @@
 (define-public emacs-ranger
   (package
    (name "emacs-ranger")
-   (version "20260521.533")
+   (version "20260527.2231")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/punassuming/ranger.el.git")
-           (commit "9ddc8b5b29f413e20c7e94c985a52089e83169e9")))
-     (sha256 (base32 "1s54bzwhkm6wlsfj3d8rm077aslslspcd9g5cm5wbslcjyx07i5f"))))
+           (commit "cfcab21cd21eb48709fb4436ba84f3e2a048a432")))
+     (sha256 (base32 "13z425h92ay1w3kkgz018ajig2ggd2lzgz76szws9vn3k57b9wzm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ralesi/ranger")
    (synopsis "Make dired more like ranger")
@@ -108852,14 +108852,14 @@
 (define-public emacs-xref-rst
   (package
    (name "emacs-xref-rst")
-   (version "20260108.1306")
+   (version "20260528.14")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-xref-rst.git")
-           (commit "2d1ed3f31b64a9e10a757dedf06f1b514894d67f")))
-     (sha256 (base32 "157cfapjp8ip3maqlnbdndlk6j9sr0lrdcl67fvmcxnflabrssff"))))
+           (commit "e54656eff9138d71c5d9ad7717675575b9f2b636")))
+     (sha256 (base32 "08kw6ksgr9rjg56a377fvl5qb0x0c6zqcsv3v9zi4hqhqnycwri4"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-xref-rst")
    (synopsis "Lookup reStructuredText symbols")
