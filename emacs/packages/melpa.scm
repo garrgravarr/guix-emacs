@@ -1437,14 +1437,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20260221.2207")
+   (version "20260528.1333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "50b601dd92f99dd9534ff44de5f411480ca32b09")))
-     (sha256 (base32 "1sgmhsvr0kbkv86zgp82r5bs3wpn4sn7mm15fdn7mv3dsjkngssv"))))
+           (commit "96dedb7a3151e233cd4c388f5cb30c068c6f7629")))
+     (sha256 (base32 "01fzls6v7d80dg3g30ijiy4p67v50ksd44nspd93pwj2sivy7bgv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260523.2121")
+   (version "20260528.1640")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "7e6e19c57f775b159aa0a6622bbfa079d599646b")))
-     (sha256 (base32 "1h6q13nq44y6mvbiw8904f0vvkq94z14anqxrxz1icsbygigdmzw"))))
+           (commit "91b320b0c87eb543877b7b3e222f996474b64ce4")))
+     (sha256 (base32 "1whdqlypnadc0366y3ki9l8bdiw376plpv36m0ngly9kj36zhlmd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -24825,14 +24825,14 @@
 (define-public emacs-el-get
   (package
    (name "emacs-el-get")
-   (version "20260215.1117")
+   (version "20260528.1520")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dimitri/el-get.git")
-           (commit "a45cf8d06d2088ba8e09e0d474f9916b10481b3b")))
-     (sha256 (base32 "1vnnxnvgwlj50g8cp1m4s529kckhd54jala973v7ncf5vq80xf8a"))))
+           (commit "4fdd0250cababe6f0f10923805faeb8746dc4685")))
+     (sha256 (base32 "1rxvzjplqn14h5fymh2496n0mlrzpf937i0q4mh5r6k1g5axyjj0"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "methods" ("recipes" "recipes/el-get.rcp"))))
@@ -30234,14 +30234,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260525.1456")
+   (version "20260528.1434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "45d02cd0abb2dd182b69a43407fa41bed48c305a")))
-     (sha256 (base32 "16lcxdx00s86lbxr48iys5nj3a781hps95hpqf8bvmmnjf2xjv1h"))))
+           (commit "d3e30721741248b24341914e1e7dad6b71d3805f")))
+     (sha256 (base32 "1kzg6bz1lc95246lndd83cqb6bm3kflnl77xbg26cvrrcnjqz2n0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39682,14 +39682,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260528.712")
+   (version "20260528.1434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "ad3f3ff0e2265caf0d6ef887f7d33bea62aa8ca4")))
-     (sha256 (base32 "0yha0rrlhl92y4kq010iqz7cflnc6gb78k1wnsv8kqcw4f3d2z6y"))))
+           (commit "d3e30721741248b24341914e1e7dad6b71d3805f")))
+     (sha256 (base32 "1kzg6bz1lc95246lndd83cqb6bm3kflnl77xbg26cvrrcnjqz2n0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -43488,14 +43488,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260527.2109")
+   (version "20260528.1557")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "19d4a96e87684216c9909ca60902ca8165483a6d")))
-     (sha256 (base32 "0viw1f53wh3pzywyr0vppjih070fxmjiqmq6d5v6rx8j777304jd"))))
+           (commit "7e5774e6fa0eec522e62cea1b47ef7feb08eb3ff")))
+     (sha256 (base32 "1cmm722pc3ww4dxhag6k9dx5kx3s5f00hql9lwahplpjki9yzil6"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -55359,14 +55359,14 @@
 (define-public emacs-kaolin-themes
   (package
    (name "emacs-kaolin-themes")
-   (version "20260526.1750")
+   (version "20260528.1433")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
-           (commit "88850479c4630a72ead454508738f4d96733c6d9")))
-     (sha256 (base32 "0phbvp0dr6dzgy7qnq561vqlnxcbkag3d9cfabqj174yp3f8j93l"))))
+           (commit "8d9007a72123f887e4963b84a80273d576743a14")))
+     (sha256 (base32 "0265g1mdznhda93fi0rs6br3lmy8qz8mlkqag3kvwc5i8cmrdz4p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (arguments '(#:files (:defaults "themes/*.el")))
@@ -58073,14 +58073,14 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20260427.303")
+   (version "20260528.1506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/merrickluo/liberime.git")
-           (commit "2130baba8e5e15922650bc01de95a1d6c6a1c1f7")))
-     (sha256 (base32 "0zr0hk11xani4pn0yv2xlpfwargv33q610w0yw6ac1r91bn9r9z9"))))
+           (url "https://github.com/emacs-rime/liberime.git")
+           (commit "482b7854b04169b348f3c943891f0895bd38bc4f")))
+     (sha256 (base32 "0bmp4ajczw4nvgshbkycnvr0m0pjlji14qgkk8k58qxy38zxvli2"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -60952,14 +60952,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260520.2045")
+   (version "20260520.2337")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "c8845987fa6ccb2d89369386766b68d8a6f093d0")))
-     (sha256 (base32 "1gqpiyrlfahwa3nh4zwh91ahlgnladam9d224pivbz15a8a22w1b"))))
+           (commit "a9fd4a914ba87da7258fd26946693f282a407885")))
+     (sha256 (base32 "03kfirlj095c9saf5sryavc71i07mp3qqhz0qp95h1az9vn5f0z9"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -109888,14 +109888,14 @@
 (define-public emacs-zenburn-theme
   (package
    (name "emacs-zenburn-theme")
-   (version "20260528.757")
+   (version "20260528.1341")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/zenburn-emacs.git")
-           (commit "b19f2c8b3db3b26de20f5f0c29479be85e5d1f3f")))
-     (sha256 (base32 "0k43y8hp0yqx32xwd50lyg68rl4fqqngvwb8a6dl7dpif5ykznpl"))))
+           (commit "afcde4813343cfcf1321cf9298b5ac0ebb89905b")))
+     (sha256 (base32 "0cxn3n447zfhcxz5af7g6fsk377if1hj3xy8skixxammx9f6dwds"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/zenburn-emacs")
    (synopsis "A low contrast color theme for Emacs")
