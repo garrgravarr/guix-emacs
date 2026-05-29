@@ -1437,14 +1437,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20260528.1333")
+   (version "20260529.919")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "96dedb7a3151e233cd4c388f5cb30c068c6f7629")))
-     (sha256 (base32 "01fzls6v7d80dg3g30ijiy4p67v50ksd44nspd93pwj2sivy7bgv"))))
+           (commit "4a5e7bfda94c2d5d4b284956bd997880b18a68b8")))
+     (sha256 (base32 "0d9ig4bhjvzxgk51bchss6dwkvifkjqy79vr327hyxa71fl45xjz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260528.1640")
+   (version "20260529.924")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "91b320b0c87eb543877b7b3e222f996474b64ce4")))
-     (sha256 (base32 "1whdqlypnadc0366y3ki9l8bdiw376plpv36m0ngly9kj36zhlmd"))))
+           (commit "6ec0feca724cb035ccbbdd08728dd0d36cc83edf")))
+     (sha256 (base32 "0rcxjky0c5617jqcid6kd4vrm04z5kk97294ybxjq2jxc403scf0"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -12205,14 +12205,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260528.1004")
+   (version "20260529.648")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "b00d323588b0d70456e497d86b4e4b657ca1022e")))
-     (sha256 (base32 "1km4ivyi12s4hcpq8hki7yjk4qclyj34v17h3q8msjnzcnknjr98"))))
+           (commit "4056374e4c02f7f0a9bffa6b82d361d3b5953f34")))
+     (sha256 (base32 "0c0m90xzdarv6k5cqs6jryk92icp1zzlsvw07xwqdd4kndyc9wk4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mysql emacs-pg))
    (home-page "https://github.com/LuciusChen/clutch")
@@ -24825,14 +24825,14 @@
 (define-public emacs-el-get
   (package
    (name "emacs-el-get")
-   (version "20260528.1520")
+   (version "20260529.642")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dimitri/el-get.git")
-           (commit "4fdd0250cababe6f0f10923805faeb8746dc4685")))
-     (sha256 (base32 "1rxvzjplqn14h5fymh2496n0mlrzpf937i0q4mh5r6k1g5axyjj0"))))
+           (commit "bd01a862c9de8b9fafff8c1c6fa31480ae91d49e")))
+     (sha256 (base32 "0nyp9g5hg9szvnh4mzciwrjhb8lsqac01nsxdfijn41z8x97pimq"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "methods" ("recipes" "recipes/el-get.rcp"))))
@@ -25596,14 +25596,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260526.2305")
+   (version "20260529.941")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "8a7b5c8c18aaee1b361d13cc9227acfe9d6b0259")))
-     (sha256 (base32 "0q7v7w9fbph2iz4mbf85cfw5yn422hxk4fciqrcqs806bwkrr18j"))))
+           (commit "0cc7e6f53cb72918570024a1642f2397dbb31f0c")))
+     (sha256 (base32 "0mv6qpxqspridk39q0iqxmll03jf9r3jjd1rm5ndlsrkx9x5x05x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -95401,14 +95401,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20260515.226")
+   (version "20260529.230")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "0638922d3f9a0d5993766a53ac4aed5020e07177")))
-     (sha256 (base32 "0jwaladi2rn4y98rksk5ysh7pv6xlywaqgwdf37sf46q50pnwgb0"))))
+           (commit "f67824080cb48b4e54c3930319a3ed944f6a5c66")))
+     (sha256 (base32 "113k0ljwmqdwcaqp3xq7qxy1m7dgjrxabycby8iz7ysdcymcfx9b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
