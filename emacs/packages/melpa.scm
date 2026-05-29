@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260522.1415")
+   (version "20260529.21")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "f2cb1857b19950aeca5990eaaf9490386b1a42c5")))
-     (sha256 (base32 "0xwjmzxya8s2d15mpg60xlx6n0haxfx6rqfijfzwq8dsxbwwlmf0"))))
+           (commit "336b4c42537ceabdc4585fae0fd6091b1a054f6c")))
+     (sha256 (base32 "1xyka8csb4yw95idvy8n632lrvnlnhppy02k2j5mp9c2sawzr450"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -8346,14 +8346,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260525.1701")
+   (version "20260526.1215")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "ade87fbae0451f228421ed06ea4a6da79ffec568")))
-     (sha256 (base32 "0hshgjzj8gi54jsaq95zyqwhgqiixc0d8g92p5lrl62dfk0drpak"))))
+           (commit "3479763e2c42215208662a85edfe339a10552b8a")))
+     (sha256 (base32 "142vymg1dxbpsr16j3fshcz8slh0jwydlmddzf2zr20vk4j9jpzf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -43171,14 +43171,14 @@
 (define-public emacs-grip-mode
   (package
    (name "emacs-grip-mode")
-   (version "20260525.215")
+   (version "20260529.310")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/grip-mode.git")
-           (commit "101e0f0b675e72a3bcd6e975ac371f83b4e2a7f4")))
-     (sha256 (base32 "1hjb8y5xfccrfh9n1842ahkf0sr3gb4id87f9vfddgc7qyl07v93"))))
+           (commit "903ee9ebab2c00fb13f68d984b54a782c4294552")))
+     (sha256 (base32 "1df1qajvpv4qhmbdy5cnb666qlfgqd0m70h2iwqj6hfpdq73m70i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/seagle0128/grip-mode")
    (synopsis "Instant GitHub-flavored Markdown/Org preview using grip")
@@ -43488,14 +43488,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260528.1557")
+   (version "20260528.1920")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "7e5774e6fa0eec522e62cea1b47ef7feb08eb3ff")))
-     (sha256 (base32 "1cmm722pc3ww4dxhag6k9dx5kx3s5f00hql9lwahplpjki9yzil6"))))
+           (commit "53032e85478257bbe0cb8c82cd9955bffdd96493")))
+     (sha256 (base32 "1wmapsbh5r2wxzsl1sv1wh6dx42y6iaz3xq98cp5i55664dndpmh"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -49406,7 +49406,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260525.526")
+   (version "20260528.1626")
    (source
     (origin
      (method url-fetch)
@@ -49414,7 +49414,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "159finkaaiw456f4dx0qja6jiy6b08qgb0861fjgiq79mjlml7jl"))))
+     (sha256 (base32 "1fzg0gg8l3rip55zwwgpjwdz2zdg0wg0hpa6kbzvwm6987bzcidy"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -79181,14 +79181,14 @@
 (define-public emacs-pathaction
   (package
    (name "emacs-pathaction")
-   (version "20260527.1145")
+   (version "20260527.1207")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/pathaction.el.git")
-           (commit "7422d213692a4863f8b0aba565e39856792fd115")))
-     (sha256 (base32 "19pnxvs6dzcrqh5dds6rmc4kzc4ilhxgzzvqvp4n0pmlpigcy98g"))))
+           (commit "1cf1318c2920af5712c31e9ad14b28abf0b4246f")))
+     (sha256 (base32 "1nkc208ibcs1rgga2p48hqjndjfhpgf8m21xnyz4x0q42vkq5zrl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/pathaction.el")
    (synopsis "Execute the pathaction.yaml rules from your editor")
@@ -91779,14 +91779,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260524.1706")
+   (version "20260528.1936")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "e8bdf6dca18f39d592728e8440118d9f57092e65")))
-     (sha256 (base32 "0cnbxnsh00ikd0d94knv9vzmdjk8psf73m2m0brjih99c3smjs5n"))))
+           (commit "0100df0cbd7ae90b4d908d7d072a39e627e5c80c")))
+     (sha256 (base32 "1bfx2m7r1n4bm4zfas7a70ar2p7ryv48zw0wm9plcp16ahhp52py"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -91796,14 +91796,14 @@
 (define-public emacs-shell-pop
   (package
    (name "emacs-shell-pop")
-   (version "20260527.1146")
+   (version "20260529.56")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kyagi/shell-pop-el.git")
-           (commit "866f18caaf3e6df12e3af3a8ac8f64116017bfc4")))
-     (sha256 (base32 "1is9qfrv8s50kw0xfwdq3wsnnzyc0ra5xmndr9s13pfq86r4xzy5"))))
+           (commit "dae41e9856768e79eb47acf8cc1ae4dd33f6c9a1")))
+     (sha256 (base32 "1vjlj9wi7a4bmnj8c45lvcm6zjjn9i3yqwywr1zf3w465mr2c156"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kyagi/shell-pop-el")
    (synopsis "Easily toggle a shell window with a single keystroke")
@@ -105722,14 +105722,14 @@
 (define-public emacs-vterm
   (package
    (name "emacs-vterm")
-   (version "20260511.19")
+   (version "20260528.1919")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/akermu/emacs-libvterm.git")
-           (commit "92add72b728e47852ea1e95dc9f08d01b33d4bf0")))
-     (sha256 (base32 "0y369xiyvlh9yggpq1c5ajfizbrf7wspga87rysgdv23nzl8w132"))))
+           (commit "d8157e74339e02b70fa5dcd9d572960dd5c8214a")))
+     (sha256 (base32 "15n6qhqfd9k504w1vm4abdfagzxa50a387f1kjg9azj6v84hawnb"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
