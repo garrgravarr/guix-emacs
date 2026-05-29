@@ -18301,14 +18301,14 @@
 (define-public emacs-dart-mode
   (package
    (name "emacs-dart-mode")
-   (version "20251105.543")
+   (version "20260529.1840")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacsorphanage/dart-mode.git")
-           (commit "22288d0bb374f6880ffc211ce87c302acb3421e7")))
-     (sha256 (base32 "0z1j0v5h5472r04bl9c7hwr0l9mjhp48kcyqgdrb3rx7z0id7052"))))
+           (commit "793d7bcc18a2636ebafe06450356c08ea6d638ca")))
+     (sha256 (base32 "0x7nmrwjsac0bpln5w38na8bx14q2q76a4r9dgcyyq3qckcq2qqa"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacsorphanage/dart-mode")
    (synopsis "Major mode for editing Dart files")
@@ -23776,14 +23776,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260520.1846")
+   (version "20260529.1500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "f573c1a5bfc832321725032fb373860ce9bc513c")))
-     (sha256 (base32 "1hpb4zzr755i5mdclp2kmgmlw5szl6mybs693jymhpk89iklgalq"))))
+           (commit "f700be30f1e59686dc0c805725d6260de4d936c1")))
+     (sha256 (base32 "18207hwlvr60syb3x52kzia9kxk6238j2fw0mn7g25ph13xdc3c8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -24825,14 +24825,14 @@
 (define-public emacs-el-get
   (package
    (name "emacs-el-get")
-   (version "20260529.642")
+   (version "20260529.1409")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dimitri/el-get.git")
-           (commit "bd01a862c9de8b9fafff8c1c6fa31480ae91d49e")))
-     (sha256 (base32 "0nyp9g5hg9szvnh4mzciwrjhb8lsqac01nsxdfijn41z8x97pimq"))))
+           (commit "057d98d82bbe6927c6d5d6e6cf0748dde7c2ca28")))
+     (sha256 (base32 "11fk0ddbghdc02hrsxi8vi0bliy7vrvf0d0klxgd7k98f2l12qsy"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "methods" ("recipes" "recipes/el-get.rcp"))))
@@ -41567,14 +41567,14 @@
 (define-public emacs-go-guru
   (package
    (name "emacs-go-guru")
-   (version "20260510.1707")
+   (version "20260529.1355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dominikh/go-mode.el.git")
-           (commit "8aaaa9d2574d7862ecbbe1ff369e88fe3796c8be")))
-     (sha256 (base32 "1svycl0zai9zkhpmq72063szwzww6g270qik46d79mg3j0jhaf46"))))
+           (commit "3a71d28ab47df685e54ca6046a7a3dd3e28b682c")))
+     (sha256 (base32 "0hm3917kxqgx23ig7617vv5nk8wc17qd26rlxbj141ag0ifwqs32"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-go-mode))
    (arguments '(#:files ("go-guru.el")))
@@ -43488,14 +43488,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260528.1920")
+   (version "20260529.1505")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "53032e85478257bbe0cb8c82cd9955bffdd96493")))
-     (sha256 (base32 "1wmapsbh5r2wxzsl1sv1wh6dx42y6iaz3xq98cp5i55664dndpmh"))))
+           (commit "302ba7191044c70477a17ae64badae814be902e9")))
+     (sha256 (base32 "117jsr0x6gfwzmnnlnznvfk464vsx36s1b314ql3mfaxw832s97k"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -43506,14 +43506,14 @@
 (define-public emacs-guess-language
   (package
    (name "emacs-guess-language")
-   (version "20240528.1319")
+   (version "20260529.1228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tmalsburg/guess-language.el.git")
-           (commit "a17203d26135b970e4d7c5d101955d41303a758f")))
-     (sha256 (base32 "1v9wwpfjl7a37jx0s2w5g48mv58vw8b3d0552v5ksxw21mbkya8s"))))
+           (commit "78508e91d60064de398e118d452c8f61180fc17f")))
+     (sha256 (base32 "0n3zxny07q79802xicazsywgwqcl62b8l291nb71d73lc27g6493"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("guess-language.el" "trigrams/*")))
    (home-page "https://github.com/tmalsburg/guess-language.el")
@@ -54746,14 +54746,14 @@
 (define-public emacs-julia-mode
   (package
    (name "emacs-julia-mode")
-   (version "20260204.807")
+   (version "20260529.1424")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/JuliaEditorSupport/julia-emacs.git")
-           (commit "aadf29523a120c666939cd7adac4b7dece5bd6ef")))
-     (sha256 (base32 "0kw79pz3l40d533hhrrw21hskayr38nffnp0cnwjq0zv9fvxwin1"))))
+           (commit "1b5a4c2f5b7c3f842785985bf8778b8805cc6766")))
+     (sha256 (base32 "00by1x900gzg42lwzd59awhsl5z73pna4cmzjpp2dflwvddy7vn6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/JuliaEditorSupport/julia-emacs")
    (synopsis "Major mode for editing Julia source code")
@@ -80556,14 +80556,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260527.2159")
+   (version "20260529.1305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "2ce94c0979a050a01bb39ca25ebc8ea4e4425305")))
-     (sha256 (base32 "0y6nfpsrzh1d217fkz0sx1lvlybgz8887fljb51f0mw05dh3qnym"))))
+           (commit "ebf239d9cc6d29dc4a24e3da32f07ce0f295bbc2")))
+     (sha256 (base32 "1v2cd1fy1gir4924ivpirsis63pz9089l0gs1jbbfz50dfyjy554"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -91779,14 +91779,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260528.1936")
+   (version "20260529.1108")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "0100df0cbd7ae90b4d908d7d072a39e627e5c80c")))
-     (sha256 (base32 "1bfx2m7r1n4bm4zfas7a70ar2p7ryv48zw0wm9plcp16ahhp52py"))))
+           (commit "904f8dcb1164291c2486048e19ed76fd60062e90")))
+     (sha256 (base32 "0d0i50n60h2dm5nlwq2jx6a6nrzrr4c1g32dlnfsjhih25i5haqs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -98416,14 +98416,14 @@
 (define-public emacs-tabspaces
   (package
    (name "emacs-tabspaces")
-   (version "20260516.51")
+   (version "20260529.1452")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mclear-tools/tabspaces.git")
-           (commit "ea95efb5b2ef265e3c48059801554042ab0813b3")))
-     (sha256 (base32 "0lwnj37xrcf7838dnprrdspp92yh5sz9ihks6xr759vjd6iahksj"))))
+           (commit "d3a74c0d39a0029d956dc37ddbf540802fb76973")))
+     (sha256 (base32 "1hgsg01l17l61g3ky6r7c6579bm9j1hm93chdajfnlzcpaz4b9p1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mclear-tools/tabspaces")
    (synopsis "Leverage tab-bar and project for buffer-isolated workspaces")
