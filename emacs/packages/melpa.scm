@@ -3209,14 +3209,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260525.1539")
+   (version "20260529.2249")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "b5d120a419816f9d6b3d0e45f0951dd3d6a10b77")))
-     (sha256 (base32 "181whpb774gv3k2xxswxkjhd3075r2dpgvdfmpsjqyl2s1jpn5fj"))))
+           (commit "70a638ff286549e1fbad45719ab6582159fa2c36")))
+     (sha256 (base32 "1yn8b686qhxasx8xsp04i4aa2saxnqc75nd4pqf6fq2gnzm1s81n"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -18336,14 +18336,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260528.813")
+   (version "20260529.1928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "d001ee4d0372a327c11e15671c2864ba6efd2ee3")))
-     (sha256 (base32 "1syh65la6gam5z4wr4m7kljw6qd3mzsxrjrs91q9d7jayaynkb66"))))
+           (commit "61a81a5375377e1616318797a00be7a36071ac56")))
+     (sha256 (base32 "1qkjz00qz332i0jbc88gxj4bdspicgqrab5wfhv7vil3ia3cjwrr"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -38619,14 +38619,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260527.1523")
+   (version "20260530.128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "02f962d67012df17c98eda5d83c75f8416a56982")))
-     (sha256 (base32 "0pn2bf6spviihjkv3d1ld8ak0djkrzc0cca5jix5g3lv9mlhi6ag"))))
+           (commit "0e6a424d048939403d4be95942ec87adac1dddfd")))
+     (sha256 (base32 "1w8hfniafpjphv5kgrnnlqvm9ibrhmpslgnch8mv3ipayrd0cz3s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -42525,14 +42525,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260525.633")
+   (version "20260529.1710")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "5c82ff85be0beed57a923935e18b9c4d1a8d0858")))
-     (sha256 (base32 "0vvqas12wdg5mkbyd4bq9laswqb4vgcvzi7kb46sbzm50gcq7gp0"))))
+           (commit "447d5cedd1862a45d8b821ceec04f61d6e2b4bd3")))
+     (sha256 (base32 "0kdc5af1zn80y78kfh82ysvnx10756ljzjnphxl571xz3ja8nyky"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -55359,14 +55359,14 @@
 (define-public emacs-kaolin-themes
   (package
    (name "emacs-kaolin-themes")
-   (version "20260528.1433")
+   (version "20260530.10")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
-           (commit "8d9007a72123f887e4963b84a80273d576743a14")))
-     (sha256 (base32 "0265g1mdznhda93fi0rs6br3lmy8qz8mlkqag3kvwc5i8cmrdz4p"))))
+           (commit "111121b6dde7a8b045334cb8150756e75d0e47bd")))
+     (sha256 (base32 "117b253vhvl9f8lwfjmkjwjpnn8q3qcz873dc78ypg5rrgw8r2x4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (arguments '(#:files (:defaults "themes/*.el")))
@@ -60140,14 +60140,14 @@
 (define-public emacs-lsp-metals
   (package
    (name "emacs-lsp-metals")
-   (version "20260507.1751")
+   (version "20260529.1928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-metals.git")
-           (commit "41a778bf7fcab4fe88e0e4096677c57a9c732f56")))
-     (sha256 (base32 "1rvcci7yzsdf91mrmhiwlkm62aw66f63shhk7vqcqd1ljgmlcmf3"))))
+           (commit "afeacc7a528b80b9a9f2747428e5608c264201ec")))
+     (sha256 (base32 "023yydw9lbk621pka6iavdqdm515cxi9fmbqh7flkfgq09lvj00a"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-scala-mode
@@ -79810,14 +79810,14 @@
 (define-public emacs-persist-text-scale
   (package
    (name "emacs-persist-text-scale")
-   (version "20260514.1625")
+   (version "20260529.2047")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/persist-text-scale.el.git")
-           (commit "3ce898527a7def2de731dd0f9dcb7558ee4feee8")))
-     (sha256 (base32 "00dxjf55ay5m6hzmysy6dfj2q33ixn16lkakd0dcyqqaa1143y16"))))
+           (commit "15a82ff64a0c2562f472d0a1117d67d861ca7278")))
+     (sha256 (base32 "0s5r4k5zy9xsgh5yh068b1l0xlnij4qbwh1rarfr72y7sqha8k3c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/persist-text-scale.el")
    (synopsis "Persist and restore text scale")
@@ -83226,14 +83226,14 @@
 (define-public emacs-project-cmake
   (package
    (name "emacs-project-cmake")
-   (version "20260510.1826")
+   (version "20260529.1744")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lucius-martius/project-cmake.git")
-           (commit "e418c5bc2b10fd67eb2d374585fef0af07e8c5c1")))
-     (sha256 (base32 "182dprwfr1ccf5sflc03q5wd9b5x9pzdzvvwrzvpxqpmh0nay0sk"))))
+           (commit "a1888d8ef6c32a8cf39e0056594179be1e9865ee")))
+     (sha256 (base32 "1bs7pv2k0alh234haff7pg1j16j1jzcw53acrca99fxmvvhj33g9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/lucius-martius/project-cmake")
    (synopsis "A cmake backend for project.el")
