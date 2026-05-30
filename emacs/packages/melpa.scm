@@ -42525,14 +42525,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260529.1710")
+   (version "20260530.855")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "447d5cedd1862a45d8b821ceec04f61d6e2b4bd3")))
-     (sha256 (base32 "0kdc5af1zn80y78kfh82ysvnx10756ljzjnphxl571xz3ja8nyky"))))
+           (commit "f342b3010f135ca4a38b02564b50b2d3e66554cf")))
+     (sha256 (base32 "1cgkqz6gwlaxf077jgdh3q75kdvjm3jkh2270hs10rwbls05dlm9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -43488,14 +43488,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260529.1505")
+   (version "20260530.552")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "302ba7191044c70477a17ae64badae814be902e9")))
-     (sha256 (base32 "117jsr0x6gfwzmnnlnznvfk464vsx36s1b314ql3mfaxw832s97k"))))
+           (commit "7535a39184502e387dbccf3ef131a91cf3707b6a")))
+     (sha256 (base32 "1xaavf81qgqq4xxlj5il2h03lvlhd015zspxcp0k3jqhxm603mh4"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -61632,14 +61632,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20260421.201")
+   (version "20260529.414")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "ef87ed770acf3113f060afdd6949ac24ce46dee8")))
-     (sha256 (base32 "1qlf4vc0r73jh4nxx86dw0f4g6qk4c5ypkwkj591p02x3w7l5a3s"))))
+           (commit "94d2c6d12c05b5ec5fb92abc73fd4b41450149ee")))
+     (sha256 (base32 "01i0dfi2a6dyjwrbymgm7q3az3mava4wascndsg1k3daiap2gwvp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm))
    (home-page "https://github.com/hrishikeshs/magnus")
@@ -62995,14 +62995,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260507.1310")
+   (version "20260530.503")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "01441807a29fd902a9f1c08167781d85cb330a6b")))
-     (sha256 (base32 "0wwhn70r1lr3aqyslin3wr46lx8b2yygdlk3bv9wk1z6qdjhd0yi"))))
+           (commit "ef32ebd1bb5fc5e18257c3f1703b0f6390a74b46")))
+     (sha256 (base32 "1p3923qly9d9g4d5iy5lsxrwar98fdz38a3cd8r1fvp9aqzca8q6"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
