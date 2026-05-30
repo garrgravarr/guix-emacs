@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260527.1304")
+   (version "20260530.1356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "2e288326f43397008b04d3da0724acf5afab9283")))
-     (sha256 (base32 "1d4wrfri6wk0fs133chyny75mnyvwjcfy447wfvg458shhfzsavz"))))
+           (commit "dcc3e878a60d82ad665de91bbcb323037329a948")))
+     (sha256 (base32 "070s7br0d5c0zl5qqy1cvrv5hp8qpcgwxhzw2cyns6lz27lzshbc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -11274,14 +11274,14 @@
 (define-public emacs-citre
   (package
    (name "emacs-citre")
-   (version "20260519.1607")
+   (version "20260530.602")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/universal-ctags/citre.git")
-           (commit "db5a22136c2406a9a415d87cb2e8a2de277b92a2")))
-     (sha256 (base32 "13qd740yr80xylk0ll6d5rfnzsg2kcms28cb05qpznggk90z6hk7"))))
+           (commit "be0d9c6dc9b1ac67d76fc7ed315f2369d5c3bde8")))
+     (sha256 (base32 "1zgkbx9slm2kgcxjarvjxq01j00v6xggiixvsvxnacy7pqm23s66"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/universal-ctags/citre")
    (synopsis
@@ -19910,17 +19910,17 @@
 (define-public emacs-difflib
   (package
    (name "emacs-difflib")
-   (version "20210224.2242")
+   (version "20260530.536")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/dieggsy/difflib.el.git")
-           (commit "646fc4388274fe765bbf4661e17a24e4d081250c")))
-     (sha256 (base32 "1qagl3ffg01zjqrgpq32h4ya869066n8ll9yq8lk40argjm523fa"))))
+           (url "https://git.sr.ht/~dieggsy/difflib.el")
+           (commit "9efb87bcf430600e8beb1a821dc78c1088a081e7")))
+     (sha256 (base32 "0ky754i5czqi5rfw9k69hdccjg0ky5rfnnvhs3xvkc5d4kswr1w5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ht emacs-s))
-   (home-page "http://github.com/dieggsy/difflib.el")
+   (home-page "https://sr.ht/~dieggsy/difflib.el")
    (synopsis "Helpers for computing deltas between sequences")
    (description "Documentation at https://melpa.org/#/difflib")
    (license #f)))
@@ -23776,14 +23776,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260529.1500")
+   (version "20260530.1352")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "f700be30f1e59686dc0c805725d6260de4d936c1")))
-     (sha256 (base32 "18207hwlvr60syb3x52kzia9kxk6238j2fw0mn7g25ph13xdc3c8"))))
+           (commit "0344ba2a14bb1a52a9fdf1aa29120ea04513138f")))
+     (sha256 (base32 "1yn6f0ndfv1pacbn5ilbsr0g61i6f2qrag1xaq58lcm7wy5r8b86"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -24825,14 +24825,14 @@
 (define-public emacs-el-get
   (package
    (name "emacs-el-get")
-   (version "20260529.1409")
+   (version "20260530.1521")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dimitri/el-get.git")
-           (commit "057d98d82bbe6927c6d5d6e6cf0748dde7c2ca28")))
-     (sha256 (base32 "11fk0ddbghdc02hrsxi8vi0bliy7vrvf0d0klxgd7k98f2l12qsy"))))
+           (commit "dfc31d6fa215d40f2eed4a693974a5875065c0d1")))
+     (sha256 (base32 "1rmc2jzb1xz9jqa9zy78zvmr1ys9g2i1lgjnr7sgczzyrlaimgb4"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "methods" ("recipes" "recipes/el-get.rcp"))))
@@ -28813,17 +28813,17 @@
 (define-public emacs-esh-autosuggest
   (package
    (name "emacs-esh-autosuggest")
-   (version "20260520.316")
+   (version "20260530.527")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/dieggsy/esh-autosuggest.git")
-           (commit "8f44a045cf7855893965f4430e2a2ccfa23312d5")))
-     (sha256 (base32 "0q3whcdssw2larzm2pfhvg2gll8vrar0sm8677qjnibq8qv7fhwz"))))
+           (url "https://git.sr.ht/~dieggsy/esh-autosuggest")
+           (commit "40774022105ed16287fcf26553a16c4cdda5e1ab")))
+     (sha256 (base32 "08x015gvdp804gpfhvxz72m7iw4zg4lrrzyd8gg191j4mrskjbzk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-company))
-   (home-page "https://github.com/dieggsy/esh-autosuggest")
+   (home-page "https://sr.ht/~dieggsy/esh-autosuggest")
    (synopsis "History autosuggestions for eshell")
    (description "Documentation at https://melpa.org/#/esh-autosuggest")
    (license #f)))
@@ -29599,18 +29599,18 @@
 (define-public emacs-eterm-256color
   (package
    (name "emacs-eterm-256color")
-   (version "20210224.2241")
+   (version "20260530.531")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/dieggsy/eterm-256color.git")
-           (commit "c9cfccef03e730f7ab2b407aada3df15ace1fe32")))
-     (sha256 (base32 "1ip1mcry2mryr3gzina16c7m2pw71klx1ldbfv8w7rv8fsx2dsma"))))
+           (url "https://git.sr.ht/~dieggsy/eterm-256color")
+           (commit "868eeaa958de1deab690fe8ac8f5477452ccdb6a")))
+     (sha256 (base32 "0w9khzgkg17dsyd623p3gbqyd372ld3mrniwsidj2awk6y5k0y2r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-xterm-color emacs-f))
    (arguments '(#:files (:defaults "eterm-256color.ti")))
-   (home-page "http://github.com/dieggsy/eterm-256color")
+   (home-page "https://sr.ht/~dieggsy/eterm-256color")
    (synopsis "Customizable 256 colors for term")
    (description "Documentation at https://melpa.org/#/eterm-256color")
    (license #f)))
@@ -38619,14 +38619,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260530.128")
+   (version "20260530.1336")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "0e6a424d048939403d4be95942ec87adac1dddfd")))
-     (sha256 (base32 "1w8hfniafpjphv5kgrnnlqvm9ibrhmpslgnch8mv3ipayrd0cz3s"))))
+           (commit "f48013bfe4bbdd61eed3808b1c03fdc93fd35060")))
+     (sha256 (base32 "0nf6h5l2fb6c0m256q66lksb0gysvjhqia6l2biw6rsn6b995anx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -38813,14 +38813,14 @@
 (define-public emacs-fzf-native
   (package
    (name "emacs-fzf-native")
-   (version "20260524.1856")
+   (version "20260530.1333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dangduc/fzf-native.git")
-           (commit "117a5704b6ec18c0986dab97d3b57d7b594c9012")))
-     (sha256 (base32 "1199bpxrk5i8hlfhyjnk266xf52zy5cxazjjvv07nw8ysqfydmb6"))))
+           (commit "54a42fc3d2915ddc33622c4b6a52181b748dfb86")))
+     (sha256 (base32 "03dd9pqg0nmn3r1g9ir9wdvrhgqlm3b3sgw9igkj7gs4lbzgqxg3"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -43763,17 +43763,17 @@
 (define-public emacs-hacker-typer
   (package
    (name "emacs-hacker-typer")
-   (version "20170206.1520")
+   (version "20260530.526")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/dieggsy/emacs-hacker-typer.git")
-           (commit "d5a23714a4ccc5071580622f278597d5973f40bd")))
-     (sha256 (base32 "13wp7cg9d9ij44inxxyk1knczglxrbfaq50wyhc4x5zfhz5yw7wx"))))
+           (url "https://git.sr.ht/~dieggsy/emacs-hacker-typer")
+           (commit "3f15d0cfe7636d5b32cbc882f23d5a7b61a86ae7")))
+     (sha256 (base32 "0mvavn0xvih5bnag5g94przsxhmmc6bf1xh4s1268ng3j3if8d1j"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "hackerman.png")))
-   (home-page "http://github.com/therockmandolinist/emacs-hacker-typer")
+   (home-page "https://sr.ht/~dieggsy/emacs-hacker-typer")
    (synopsis "Pretend to write code like a pro")
    (description "Documentation at https://melpa.org/#/hacker-typer")
    (license #f)))
@@ -55359,14 +55359,14 @@
 (define-public emacs-kaolin-themes
   (package
    (name "emacs-kaolin-themes")
-   (version "20260530.10")
+   (version "20260530.1237")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
-           (commit "111121b6dde7a8b045334cb8150756e75d0e47bd")))
-     (sha256 (base32 "117b253vhvl9f8lwfjmkjwjpnn8q3qcz873dc78ypg5rrgw8r2x4"))))
+           (commit "8dc98bd1a63aa35e44ff8b3fd1be6d6afd4e2301")))
+     (sha256 (base32 "1133gw5fnfj5plg4ny2lkhzsqsd6624fbnfh822p9dqxfmfckb1z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (arguments '(#:files (:defaults "themes/*.el")))
@@ -68983,14 +68983,14 @@
 (define-public emacs-nucleo-completion
   (package
    (name "emacs-nucleo-completion")
-   (version "20260522.1457")
+   (version "20260530.1008")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kn66/nucleo-completion.el.git")
-           (commit "a0669e2676c516544e141c2591fa80e27bf2d659")))
-     (sha256 (base32 "13wsnhax889pr9na5b4rrl7qvdcyrafapjf767p0jhf2rn6g6bhh"))))
+           (commit "0f07a5bcd384716a3b79ab9e82005bb54f721122")))
+     (sha256 (base32 "0lbif4isxnawj266cgxvh82fz8238g6vchfishqk9h8b025b6vc4"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files ("nucleo-completion.el" "src" "Cargo.toml" "Cargo.lock")))
@@ -79810,14 +79810,14 @@
 (define-public emacs-persist-text-scale
   (package
    (name "emacs-persist-text-scale")
-   (version "20260529.2047")
+   (version "20260530.1610")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/persist-text-scale.el.git")
-           (commit "15a82ff64a0c2562f472d0a1117d67d861ca7278")))
-     (sha256 (base32 "0s5r4k5zy9xsgh5yh068b1l0xlnij4qbwh1rarfr72y7sqha8k3c"))))
+           (commit "be6af11582035313d10d405ab55b7135de2652d7")))
+     (sha256 (base32 "0f327kj6mj7k6xg4xaz29slblc5z5mwxi6a1zgsmj7f92c0h0nkz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/persist-text-scale.el")
    (synopsis "Persist and restore text scale")
@@ -80556,14 +80556,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260529.1305")
+   (version "20260530.1434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "ebf239d9cc6d29dc4a24e3da32f07ce0f295bbc2")))
-     (sha256 (base32 "1v2cd1fy1gir4924ivpirsis63pz9089l0gs1jbbfz50dfyjy554"))))
+           (commit "7f8774a4e1eb591b9003ef048f031922bc3697b5")))
+     (sha256 (base32 "1y2dg0wgn3s96781ars8aj4jaazrji0f6r47962yvxpiz1hs3pvm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -91779,14 +91779,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260529.1108")
+   (version "20260530.1456")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "904f8dcb1164291c2486048e19ed76fd60062e90")))
-     (sha256 (base32 "0d0i50n60h2dm5nlwq2jx6a6nrzrr4c1g32dlnfsjhih25i5haqs"))))
+           (commit "830e15cc1bdc6bdea89b95e6a4f80f82d1436960")))
+     (sha256 (base32 "07v3i35w12gr5c0ggpfxlbqlmzlkaffwykp0sf79wbrxncn2gsp2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -92893,14 +92893,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260422.1527")
+   (version "20260530.1637")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "fe7ed2ebcda0d1899f97f06191adbf260cc5b1eb")))
-     (sha256 (base32 "0c3lwzcz6lcf1jdyxlln0npdlvnc3npz0743cjzkwy757wbdnlvs"))))
+           (commit "3f26269145c4b5fc2c220defbefc0a30e7347f77")))
+     (sha256 (base32 "03hvrhwxk6gbg3c3mml6vc2pr9cl620f2fx35r283f5dck91m1ra"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -102538,16 +102538,16 @@
 (define-public emacs-turing-machine
   (package
    (name "emacs-turing-machine")
-   (version "20180222.438")
+   (version "20260530.523")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/dieggsy/turing-machine.git")
-           (commit "fa60b76a5bac1f54b7a1b3dc55aae7602c7e385b")))
-     (sha256 (base32 "0k1r0zkcr44kiki8cvdqwx09xpvpz7nkbq9w6i4gqy5h78zy5k79"))))
+           (url "https://git.sr.ht/~dieggsy/turing-machine")
+           (commit "165f868d5b47b93ca00bc73b0055cdcd7696449d")))
+     (sha256 (base32 "0klq2d8q9vlqa80k9kxali6r5lv6lk8i5ry3ky4yii9jq7b0nwp3"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/therockmandolinist/turing-machine")
+   (home-page "https://sr.ht/~dieggsy/turing-machine")
    (synopsis "Single-tape Turing machine simulator")
    (description "Documentation at https://melpa.org/#/turing-machine")
    (license #f)))
