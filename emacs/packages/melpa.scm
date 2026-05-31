@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260530.1649")
+   (version "20260531.1502")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "dcc3e878a60d82ad665de91bbcb323037329a948")))
-     (sha256 (base32 "070s7br0d5c0zl5qqy1cvrv5hp8qpcgwxhzw2cyns6lz27lzshbc"))))
+           (commit "6f2e6dcc002c71ea342663ed54b80c5d35a49e85")))
+     (sha256 (base32 "1cik8lyrglk65da86q6g47yk5n36lch3zyhjs9kypw2r6yn20d1q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260531.137")
+   (version "20260531.1503")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "0e7a2b9f3b4660218c6c24f6b4d03b76aa7db246")))
-     (sha256 (base32 "0128qgniq7p4pdms7djqd0l4i4bp0d027wxdyc1drhdav647dm13"))))
+           (commit "7911176b69985cf5742d82f741e656e119081dae")))
+     (sha256 (base32 "1q1w0wmry92w7x36lzla2lxkmlv7mnhkzdf3xnijfhhnv14d46bz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -2829,14 +2829,14 @@
 (define-public emacs-annalist
   (package
    (name "emacs-annalist")
-   (version "20240501.1201")
+   (version "20260531.1558")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/noctuid/annalist.el.git")
-           (commit "e1ef5dad75fa502d761f70d9ddf1aeb1c423f41d")))
-     (sha256 (base32 "1di8wknirx3ql9bqp940yy5p07n2x82wgqyvfmdxblagh7pcp8a8"))))
+           (commit "f83019d61b82a64e621d8dfd63a527a578ff0a11")))
+     (sha256 (base32 "1np44p3qckbirdizdaa91f56l54lmxlwir9b14v66pyq2c7gw69c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/noctuid/annalist.el")
    (synopsis "Record and display information such as keybindings")
@@ -10075,14 +10075,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260517.807")
+   (version "20260531.807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "39b156f8f0231fb5d6461eb3e4f93374ca47dcb5")))
-     (sha256 (base32 "0m8pg1pwvjj28gc259adkwwvcqq0vs6hs29mkck6g4pf979m6r1d"))))
+           (commit "2cf2ddb9c8e7a0e909b3606ce65f7f6e3c485920")))
+     (sha256 (base32 "175mjjxjr98mca47p7fs5clcig8q75n0jbcc7qyzmgfriqhpwnhl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -25596,14 +25596,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260529.941")
+   (version "20260531.1247")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "0cc7e6f53cb72918570024a1642f2397dbb31f0c")))
-     (sha256 (base32 "0mv6qpxqspridk39q0iqxmll03jf9r3jjd1rm5ndlsrkx9x5x05x"))))
+           (commit "aa9ac987de5b843acde20e17e9be859975508359")))
+     (sha256 (base32 "1wc6d8dgd7360plkm8d2y5yc1693d24ydl3i9hrv515smcyplyr6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -37765,14 +37765,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260518.2159")
+   (version "20260531.1227")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "c18e00c83eeea0ba6e16b3275ac9a5bf7f7c6077")))
-     (sha256 (base32 "0hj83bzsnlcrd18xdwaijj589n0qs7y72b9c89iq9ry88094pxrs"))))
+           (commit "9b768cc547ad59f7b8ea4741ab0446e9245287bf")))
+     (sha256 (base32 "0irg6fvd4pfjvhn29n4njqjzmfajphgqn2pxfj06wamwdvvrg69i"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -73803,14 +73803,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260531.523")
+   (version "20260531.1253")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "44b09c1872d9e8204bebd06a8c5e433c514103e7")))
-     (sha256 (base32 "0pzbws89wrbnlpd0dly907cvgj36p8wfcvvghr03y9i40j0jni8j"))))
+           (commit "76fb211f97888ab66c9be09f04421a70c06b5f8a")))
+     (sha256 (base32 "0ixbairl3vq55lqpzw3cs6znkbqgiqdj6gyy0wxp331msvnah50b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -79810,14 +79810,14 @@
 (define-public emacs-persist-text-scale
   (package
    (name "emacs-persist-text-scale")
-   (version "20260530.1610")
+   (version "20260531.1705")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/persist-text-scale.el.git")
-           (commit "be6af11582035313d10d405ab55b7135de2652d7")))
-     (sha256 (base32 "0f327kj6mj7k6xg4xaz29slblc5z5mwxi6a1zgsmj7f92c0h0nkz"))))
+           (commit "0a40cb19fd4ab76da2f851aa84c7996427de297e")))
+     (sha256 (base32 "0c8ss272kr1wifh63bwgxnwy8z367h5dgl1cj35fr1fchhkrxxfk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/persist-text-scale.el")
    (synopsis "Persist and restore text scale")
@@ -102047,14 +102047,14 @@
 (define-public emacs-treepy
   (package
    (name "emacs-treepy")
-   (version "20260313.916")
+   (version "20260531.1144")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/volrath/treepy.el.git")
-           (commit "28f0e2c2c75ea186e8beb570a4a70087926ff80b")))
-     (sha256 (base32 "0z91vd12gikgb6207sz45fhcmhkl5hqbxjbzcaqpkznfgsq95f7j"))))
+           (commit "806c000bd40153d17dfa5709c6d19546d507a416")))
+     (sha256 (base32 "06i7r0v23j6d5q5w7p4cb7jidpnpy02a92fpjfqjlcd52cch02mc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/volrath/treepy.el")
    (synopsis "Generic tree traversal tools")
