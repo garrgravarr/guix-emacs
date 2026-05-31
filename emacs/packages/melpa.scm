@@ -26033,14 +26033,14 @@
 (define-public emacs-elisp-dev-mcp
   (package
    (name "emacs-elisp-dev-mcp")
-   (version "20260210.434")
+   (version "20260531.623")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/elisp-dev-mcp.git")
-           (commit "acce467f667df06e8dd391d64c5a553997dabed5")))
-     (sha256 (base32 "019b0yg1k1dknmw47wz9s8f9k6rzj7535g5alxrf4nw9j165n0i2"))))
+           (commit "73f84c8c916fc0b8761c236965c6daaa52817897")))
+     (sha256 (base32 "14rr6fai7nmn5gv58yr3pvsky2pgp4yvnfwafkggkrp0p4n1fg7m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/elisp-dev-mcp")
@@ -60167,14 +60167,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260518.1214")
+   (version "20260531.619")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "aae3bcaf6155640a3410a7c248c1f698aa600f15")))
-     (sha256 (base32 "0d2s48k0532s8ngrhn2ifld3jz7zrzmg51x8wyypxmd5s8zx596k"))))
+           (commit "f83b4c48372535b49922e06d310c5f8ee65932cd")))
+     (sha256 (base32 "0xlwikjnfb1m07h80q1ghfk2wjj80f5m9hf8dmh801aaxynp4lfd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -73803,14 +73803,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260528.656")
+   (version "20260531.523")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "b927eae3182f1263ca433e642ad1c960cad88262")))
-     (sha256 (base32 "1hnxm86j7wr7n5bsr6aqia1ck30jzdfdwqaazh82h4rpcng4fljg"))))
+           (commit "44b09c1872d9e8204bebd06a8c5e433c514103e7")))
+     (sha256 (base32 "0pzbws89wrbnlpd0dly907cvgj36p8wfcvvghr03y9i40j0jni8j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -92893,14 +92893,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260530.1801")
+   (version "20260531.650")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "31fca09220fb1dc3ec9922fe9760ae98c8ba7b57")))
-     (sha256 (base32 "0hi7sgg9y9qamy7lhaz3nbk111dq5778iscbi0r1rccyf8ca8pr4"))))
+           (commit "fd55a741c88cf22453e95ae20116e0de6ffc9f48")))
+     (sha256 (base32 "1m8s40rdixm6fi9jr8bagirjh2gqm7l5y0qnpma6b9sqca65swwp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
