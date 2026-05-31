@@ -1663,7 +1663,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260530.1356")
+   (version "20260530.1649")
    (source
     (origin
      (method git-fetch)
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260529.21")
+   (version "20260531.137")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "336b4c42537ceabdc4585fae0fd6091b1a054f6c")))
-     (sha256 (base32 "1xyka8csb4yw95idvy8n632lrvnlnhppy02k2j5mp9c2sawzr450"))))
+           (commit "0e7a2b9f3b4660218c6c24f6b4d03b76aa7db246")))
+     (sha256 (base32 "0128qgniq7p4pdms7djqd0l4i4bp0d027wxdyc1drhdav647dm13"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -5091,14 +5091,14 @@
 (define-public emacs-autothemer
   (package
    (name "emacs-autothemer")
-   (version "20251114.415")
+   (version "20260530.2349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jasonm23/autothemer.git")
-           (commit "e62bf83414abd8b1cefafb7480612faa30ed7878")))
-     (sha256 (base32 "0w7qrfl38qc64a6bansrmvzxcdrlfpkd4l41scgr242dgy4dnq45"))))
+           (commit "811beeca5b273903516d393fc39401f100343aea")))
+     (sha256 (base32 "0xr0x6ab3n7jhmqnmj0d555wjqp9v4li70cpylb65i0yjjrrrrgb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/jasonm23/autothemer")
@@ -22171,14 +22171,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260411.1454")
+   (version "20260530.1756")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "870b4b215fda881d29278d81bbab7f934a9bd8b3")))
-     (sha256 (base32 "15m4c6bafc742cm3mwq9x889c3s96minp6957ipbxyd6qaxzfjly"))))
+           (commit "0b660ed93a185c3edaf8d11c550b15cfeb348a69")))
+     (sha256 (base32 "1n4h144bakpayqvx4g6x17ymqsr7920rpvqf6npgp3yaadsysb3z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -38813,14 +38813,14 @@
 (define-public emacs-fzf-native
   (package
    (name "emacs-fzf-native")
-   (version "20260530.1333")
+   (version "20260530.1744")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dangduc/fzf-native.git")
-           (commit "54a42fc3d2915ddc33622c4b6a52181b748dfb86")))
-     (sha256 (base32 "03dd9pqg0nmn3r1g9ir9wdvrhgqlm3b3sgw9igkj7gs4lbzgqxg3"))))
+           (commit "d50c00ef2bf9781d61d68fa068f18eb87867b1d1")))
+     (sha256 (base32 "16p65jzfk9mj6h1d5b89yc8463lca3452zv1fmryvi7kiqc2pmnj"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -39682,14 +39682,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260528.1434")
+   (version "20260530.2016")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "d3e30721741248b24341914e1e7dad6b71d3805f")))
-     (sha256 (base32 "1kzg6bz1lc95246lndd83cqb6bm3kflnl77xbg26cvrrcnjqz2n0"))))
+           (commit "0ab7baa2e5a48f0d90bfa3040e8bb150ea5e6e47")))
+     (sha256 (base32 "0ifsjd0jbgqmq3xf3ga17wq6jclqf7dhq1ybwyrj2q0l74a85qpn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -55359,7 +55359,7 @@
 (define-public emacs-kaolin-themes
   (package
    (name "emacs-kaolin-themes")
-   (version "20260530.1237")
+   (version "20260530.1704")
    (source
     (origin
      (method git-fetch)
@@ -61219,14 +61219,14 @@
 (define-public emacs-magit-gptcommit
   (package
    (name "emacs-magit-gptcommit")
-   (version "20251206.1143")
+   (version "20260530.2339")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/douo/magit-gptcommit.git")
-           (commit "4a60438fd2a349610e571f10596f6642dfab119d")))
-     (sha256 (base32 "0li82bf6cmwmh7mb2bfz4m9dy6w01sn89lvsx1ywwi96vax36688"))))
+           (commit "b3ac0bfad8b06b6930dc4e35e3adefb4b6646193")))
+     (sha256 (base32 "1mr3xhkwwwhdcsakmhz670cn69igmgqvqfs9wkpb9918dcsw5vqj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-magit emacs-llm))
    (home-page "https://github.com/douo/magit-gptcommit")
@@ -62834,14 +62834,14 @@
 (define-public emacs-mcp-server-lib
   (package
    (name "emacs-mcp-server-lib")
-   (version "20260524.1244")
+   (version "20260530.1950")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/mcp-server-lib.el.git")
-           (commit "82054c92cebaf8a98eab269102b2d3893e909bbd")))
-     (sha256 (base32 "198bb7r0ignzfgddnk4pv0i6sczwzja3rqydrw7mzdjhplx7qhxm"))))
+           (commit "e643b25af647e7bb5d3958262c9c728a3bb9676f")))
+     (sha256 (base32 "0c8wk2mhyn10ri4qjk3zy1811k7pzg3i3mm9lzn00v6wdccrm59a"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "emacs-mcp-stdio.sh")))
    (home-page "https://github.com/laurynas-biveinis/mcp-server-lib.el")
@@ -62870,14 +62870,14 @@
 (define-public emacs-md-ts-mode
   (package
    (name "emacs-md-ts-mode")
-   (version "20260309.11")
+   (version "20260530.1627")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/md-ts-mode.git")
-           (commit "3a03eac78307d3655320e76ac9096e18b9311754")))
-     (sha256 (base32 "14c6m90vwjxz9rypq92pvng5m10mh926n3bp8r28lrgnj2scn88z"))))
+           (commit "95ae25162da092cb1d55d2be0c2c95e0591086c2")))
+     (sha256 (base32 "1ssparkbli7zrrkdvlr5nav460rq3xr38dnmvdbcalkhyzswzfbg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dnouri/md-ts-mode")
    (synopsis "Major mode for Markdown using tree-sitter")
@@ -76012,14 +76012,14 @@
 (define-public emacs-org-window-habit
   (package
    (name "emacs-org-window-habit")
-   (version "20260406.1805")
+   (version "20260530.1803")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/colonelpanic8/org-window-habit.git")
-           (commit "dcf1d7b896bd2c0a706c00c0d0daab2fa9e49828")))
-     (sha256 (base32 "1016w3zar3l5ry7fvvvidk4fb2hxbb54yizj1583ca57yf40qxid"))))
+           (commit "1b0d483f655851d0c9fd688832140048bcb1763b")))
+     (sha256 (base32 "10c2piva4ppqwxg2lhfawp5cxvnn7gn1qcihyhq3fbg9jjm0cp29"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/colonelpanic8/org-window-habit")
@@ -92893,14 +92893,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260530.1637")
+   (version "20260530.1801")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "3f26269145c4b5fc2c220defbefc0a30e7347f77")))
-     (sha256 (base32 "03hvrhwxk6gbg3c3mml6vc2pr9cl620f2fx35r283f5dck91m1ra"))))
+           (commit "31fca09220fb1dc3ec9922fe9760ae98c8ba7b57")))
+     (sha256 (base32 "0hi7sgg9y9qamy7lhaz3nbk111dq5778iscbi0r1rccyf8ca8pr4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
