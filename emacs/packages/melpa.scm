@@ -1663,7 +1663,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260531.1502")
+   (version "20260531.1658")
    (source
     (origin
      (method git-fetch)
@@ -19876,14 +19876,14 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20260427.2329")
+   (version "20260601.242")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "7d873b2f58908de1ea2f499da9bf993e088953d7")))
-     (sha256 (base32 "15a9cjlpjsfcb2hxqbb123389qhiqs06mn01pas2l0jqhc2p86v9"))))
+           (commit "902d082d70b962103342ee46e73fc6886bc8720a")))
+     (sha256 (base32 "0v1nwa8ixwybj0rsq16sg2gab7nqjynx4caapl7khln19ndp8ag3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
    (synopsis "Highlight uncommitted changes using VC")
@@ -25596,14 +25596,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260531.1247")
+   (version "20260531.2221")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "aa9ac987de5b843acde20e17e9be859975508359")))
-     (sha256 (base32 "1wc6d8dgd7360plkm8d2y5yc1693d24ydl3i9hrv515smcyplyr6"))))
+           (commit "43d9060408c51fb191e78389d39b8c8b377cf221")))
+     (sha256 (base32 "0nprrv0g4kk36iiks75dp5vlvymn4zr83a3jr0wa5wlrf5vl8xdy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -26450,6 +26450,31 @@
    (description "Documentation at https://melpa.org/#/elogcat")
    (license #f)))
 
+(define-public emacs-elot
+  (package
+   (name "emacs-elot")
+   (version "20260525.1934")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/johanwk/elot.git")
+           (commit "d06c3ef5bf016f91db46b813d7d4c067850cbfd2")))
+     (sha256 (base32 "0gf00z7bx9fbgnmivks96mzrn30azy7jh1k01imgqfg9zgzykk7x"))))
+   (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("elot-package/elot*.el"
+       "elot-package/schema.sql"
+       "elot-package/elot-lob.org"
+       "elot-package/*.css"
+       "elot-package/*.js"
+       "elot-package/*.setup")))
+   (home-page "https://github.com/johanwk/elot")
+   (synopsis "Emacs Literate Ontology Tool (ELOT)")
+   (description "Documentation at https://melpa.org/#/elot")
+   (license #f)))
+
 (define-public emacs-eloud
   (package
    (name "emacs-eloud")
@@ -27031,14 +27056,14 @@
 (define-public emacs-embark
   (package
    (name "emacs-embark")
-   (version "20260520.28")
+   (version "20260531.2306")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/oantolin/embark.git")
-           (commit "b3089f3f42a64e03666c44db089af8dfcfe51d98")))
-     (sha256 (base32 "0w7ky9512hrjijnzf5k14pn4slcqjq2dwic496d22646vn211n0w"))))
+           (commit "79ac772a21513681572ff5b334fc39dc2c99e409")))
+     (sha256 (base32 "1zg63ylq5pd6ap0qjd0akgv9fz4lkcm4yv0mq330lwcixxbmwypk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files ("embark.el" "embark-org.el" "embark.texi")))
@@ -32140,6 +32165,23 @@
    (home-page "https://github.com/cosmicexplorer/f3")
    (synopsis "A helm interface to find")
    (description "Documentation at https://melpa.org/#/f3")
+   (license #f)))
+
+(define-public emacs-f90-ts-mode
+  (package
+   (name "emacs-f90-ts-mode")
+   (version "20260526.1734")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
+           (commit "592b6f3809f03ad82ba9db5ea1d7f96d5f6daa14")))
+     (sha256 (base32 "1b4paqdgl2ham0lb42s017fgg5gv6l00ic3jajjpwn4fn7qdj4sl"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
+   (synopsis "Tree-sitter based Fortran 90 mode")
+   (description "Documentation at https://melpa.org/#/f90-ts-mode")
    (license #f)))
 
 (define-public emacs-fabric
@@ -39682,14 +39724,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260530.2016")
+   (version "20260601.17")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "0ab7baa2e5a48f0d90bfa3040e8bb150ea5e6e47")))
-     (sha256 (base32 "0ifsjd0jbgqmq3xf3ga17wq6jclqf7dhq1ybwyrj2q0l74a85qpn"))))
+           (commit "7d39e8871fa23d20b88db24a1d0d98ea1cd0ab28")))
+     (sha256 (base32 "0ppiy14zii3hphz0l01zvjya4im0hsnmn958m0dw26d6xmwc0lvw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -42999,14 +43041,14 @@
 (define-public emacs-greader
   (package
    (name "emacs-greader")
-   (version "20260409.2330")
+   (version "20260531.2341")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/michelangelo-rodriguez/greader.git")
-           (commit "4b0deb0b0ef4a73ea8fe9e2b62b45321dd76a609")))
-     (sha256 (base32 "1f6mz0815v862ppnf67gs13p4mfjykp2iap8iysl8yy999a23bac"))))
+           (commit "e6de15fd3fef8703bf2021a810016476ec7c5883")))
+     (sha256 (base32 "1nm177gnbsiz44nn6wsdzalhvdd63r7fq8jiggin9xblx6x8q318"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://gitlab.com/michelangelo-rodriguez/greader")
@@ -43488,14 +43530,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260530.552")
+   (version "20260531.2009")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "7535a39184502e387dbccf3ef131a91cf3707b6a")))
-     (sha256 (base32 "1xaavf81qgqq4xxlj5il2h03lvlhd015zspxcp0k3jqhxm603mh4"))))
+           (commit "7839cb5c11840d84cafa8de385c3737186292ab9")))
+     (sha256 (base32 "1900cj60lasvw9xy0wp68razhl057sl2xxs10wxnqgkryw11hswy"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -60695,6 +60737,23 @@
    (home-page "https://github.com/phillord/m-buffer-el")
    (synopsis "List-Oriented, Functional Buffer Manipulation")
    (description "Documentation at https://melpa.org/#/m-buffer")
+   (license #f)))
+
+(define-public emacs-mac-ime
+  (package
+   (name "emacs-mac-ime")
+   (version "20260531.1044")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/ma0001/mac-ime.git")
+           (commit "cf7b6001b4fb5d33fa259364cfa8ec5f6aa73fb3")))
+     (sha256 (base32 "0qr21yg65r4g7ip2ivhfdfa5fpmdh1amni071glh8gy3pp824lrf"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/ma0001/mac-ime")
+   (synopsis "Seamless macOS IME integration without any IME patches")
+   (description "Documentation at https://melpa.org/#/mac-ime")
    (license #f)))
 
 (define-public emacs-mac-pseudo-daemon
@@ -77998,6 +78057,25 @@
    (description "Documentation at https://melpa.org/#/ox-zenn")
    (license #f)))
 
+(define-public emacs-ox-zola
+  (package
+   (name "emacs-ox-zola")
+   (version "20260506.1952")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/gicrisf/ox-zola.git")
+           (commit "a56022d289c647f1d7c851d7082658b317495705")))
+     (sha256 (base32 "1b0jp73ngs5r1z3fs21fzscqsra3q2316rj407ys7m1wrzjmb5df"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-ox-hugo))
+   (arguments '(#:files ("ox-zola.el")))
+   (home-page "https://github.com/gicrisf/ox-zola")
+   (synopsis "Org export to Zola static site generator")
+   (description "Documentation at https://melpa.org/#/ox-zola")
+   (license #f)))
+
 (define-public emacs-p-search
   (package
    (name "emacs-p-search")
@@ -80320,6 +80398,24 @@
    (home-page "http://github.com/j0ni/phoenix-dark-pink")
    (synopsis "Originally a port of the Sublime Text 2 theme")
    (description "Documentation at https://melpa.org/#/phoenix-dark-pink-theme")
+   (license #f)))
+
+(define-public emacs-phony
+  (package
+   (name "emacs-phony")
+   (version "20260531.2312")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/ErikPrantare/phony.el.git")
+           (commit "1129dd32bb51cde770e62f56b7da50acd79790a4")))
+     (sha256 (base32 "1zz2yq0fxigcwhnapx97r7i5m4s1zy8bcg40dm2qxndcj17wlgni"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-simulacrum))
+   (home-page "https://github.com/ErikPrantare/phony.el")
+   (synopsis "Speech bindings for Elisp")
+   (description "Documentation at https://melpa.org/#/phony")
    (license #f)))
 
 (define-public emacs-php-boris
@@ -91796,14 +91892,14 @@
 (define-public emacs-shell-pop
   (package
    (name "emacs-shell-pop")
-   (version "20260529.56")
+   (version "20260601.2")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kyagi/shell-pop-el.git")
-           (commit "dae41e9856768e79eb47acf8cc1ae4dd33f6c9a1")))
-     (sha256 (base32 "1vjlj9wi7a4bmnj8c45lvcm6zjjn9i3yqwywr1zf3w465mr2c156"))))
+           (commit "f01ccd2c0c420637264c4391cfb2eb6697d22c91")))
+     (sha256 (base32 "1zxdb0w440za75bpg315z38kxdjv5vsvcrmmdsaw1jhm5ppvyqli"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kyagi/shell-pop-el")
    (synopsis "Easily toggle a shell window with a single keystroke")
@@ -92910,14 +93006,14 @@
 (define-public emacs-simulacrum
   (package
    (name "emacs-simulacrum")
-   (version "20260504.134")
+   (version "20260601.35")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ErikPrantare/simulacrum.el.git")
-           (commit "3a42993a3793160b532fc30d88d76b2965822f65")))
-     (sha256 (base32 "0qp496lr858j2w3ja4hjrpvc4bpblk283j07b8gca21z9mnq5nzj"))))
+           (commit "ad01fcf054f9fc573b7023e2fc86566d27ae45b1")))
+     (sha256 (base32 "1k06jm4v2xya267hlj516sad99swxi63i2cxdyq1kq46mx1ma40l"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ErikPrantare/simulacrum.el")
    (synopsis "Inject custom event types into the event stream")
@@ -98062,6 +98158,23 @@
    (home-page "https://github.com/vapniks/syslog-mode")
    (synopsis "Major-mode for viewing log files & strace output")
    (description "Documentation at https://melpa.org/#/syslog-mode")
+   (license #f)))
+
+(define-public emacs-sysml-mode
+  (package
+   (name "emacs-sysml-mode")
+   (version "20260528.1759")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/DeciSym/sysml-mode.git")
+           (commit "e8ff9eea7f8f5d18e6a74a48411a1b8e39dd0916")))
+     (sha256 (base32 "0j32ivr2lnwdpg1am4y84by844svns8cvixgjc7j4qgkrndvpmfy"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/decisym/sysml-mode")
+   (synopsis "Major mode for SysML v2 (Systems Modeling Language)")
+   (description "Documentation at https://melpa.org/#/sysml-mode")
    (license #f)))
 
 (define-public emacs-system-idle
@@ -108886,14 +108999,14 @@
 (define-public emacs-xterm-color
   (package
    (name "emacs-xterm-color")
-   (version "20251128.1842")
+   (version "20260531.1854")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/atomontage/xterm-color.git")
-           (commit "ce82e87ea3d277c7e4fc48ce390d540fbd78f6d1")))
-     (sha256 (base32 "0zkjfvma70lw0iv31g1n1naz40d2wpngiasnjy9gslm1nybxj76a"))))
+           (commit "0b0d808f8bc5007037341dc5f63149cc32cf2c5b")))
+     (sha256 (base32 "1jhflkq2jji1nv2hc94xkmfsw383nav2rppl1g4xf76ld1yinkfr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/atomontage/xterm-color")
    (synopsis "ANSI, XTERM 256 and Truecolor support")
@@ -109888,14 +110001,14 @@
 (define-public emacs-zenburn-theme
   (package
    (name "emacs-zenburn-theme")
-   (version "20260528.1341")
+   (version "20260531.2245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/zenburn-emacs.git")
-           (commit "afcde4813343cfcf1321cf9298b5ac0ebb89905b")))
-     (sha256 (base32 "0cxn3n447zfhcxz5af7g6fsk377if1hj3xy8skixxammx9f6dwds"))))
+           (commit "792b703649592f039882b83412a19ccd6431dfd5")))
+     (sha256 (base32 "0nswmrh8qp67z11bgqx2c4fy76asfygfymb7m7dri8x5i7l9ivfg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/zenburn-emacs")
    (synopsis "A low contrast color theme for Emacs")
