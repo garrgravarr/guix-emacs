@@ -1437,14 +1437,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20260601.1950")
+   (version "20260602.700")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "b60321d7330d4fc7b0390f3c6227252100c5d0d9")))
-     (sha256 (base32 "06vzlad8b1glr3wnmh9w1ach6ppr4rma5n9lslf2spq4f5aq9jw1"))))
+           (commit "c0f416a2e7f91fb82b63185536cad69ec97b97a6")))
+     (sha256 (base32 "12k02g0mj9biqq80w2p7jvc8bpm90fpahq7s48v0cfcwxyf0pw6s"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260601.1941")
+   (version "20260602.427")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "d6605ef85af545003c1c2f819578831518867086")))
-     (sha256 (base32 "1kxxqk8dl9gj5asy9s8qscqky7fd32dnqyk213mhbfkdm1hfwnzl"))))
+           (commit "5e22461763c96f84c7f4cbdb4fa9ca35de02d5e8")))
+     (sha256 (base32 "1mpqvvwl2ry2wg5r16pg2ccjcn6kg7n4d2lpn7v7q6m9ph6n1axw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260601.431")
+   (version "20260602.356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "1a2220c58982470164791aa172cd57c5528af94b")))
-     (sha256 (base32 "1zvknj8nwiz2xb7xwr2bda3gl6rf8v5sa38yn5k39fpfyczm69v8"))))
+           (commit "5adf0a9b2e7b7342ca9d5c26601e8ccac31f582f")))
+     (sha256 (base32 "0isnc0c5a08g1vry11jxmksy3jl2afcvccdysj5sjhc4pkrb94bc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets")))
@@ -10856,14 +10856,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260529.924")
+   (version "20260602.530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "6ec0feca724cb035ccbbdd08728dd0d36cc83edf")))
-     (sha256 (base32 "0rcxjky0c5617jqcid6kd4vrm04z5kk97294ybxjq2jxc403scf0"))))
+           (commit "989e2a69a7cc303f4df43077fe51c7b646565ef8")))
+     (sha256 (base32 "0wd1xdc79qxr21i1vxy94bpx4709qqwbxvkk21xnqcpzhdjdl2m7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -12204,14 +12204,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260601.1421")
+   (version "20260602.602")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "e5c2ebee68985a30c5eec2a0b623f2cc687920c6")))
-     (sha256 (base32 "07d46q1kncq2azllpxpv2vvv3hgsmn8jd5kmqp574nbbv5apg1xa"))))
+           (commit "59796c0cb42a2d73d3b8619679f96bc867334043")))
+     (sha256 (base32 "08v97g0j90znz5pr2zdy7hbmd61d7gnxjs5nwb861bj12whcxd2v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mysql emacs-pg))
    (home-page "https://github.com/LuciusChen/clutch")
@@ -26032,14 +26032,14 @@
 (define-public emacs-elisp-dev-mcp
   (package
    (name "emacs-elisp-dev-mcp")
-   (version "20260601.634")
+   (version "20260602.712")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/elisp-dev-mcp.git")
-           (commit "c399ad6126d0b90cb4f732a91cd59d682a657273")))
-     (sha256 (base32 "16ddmz0qqhnwavw01kg5c8xlzzd803kn2ai1glyrkjirigx35q18"))))
+           (commit "6120460212e03daf2f9502c3a5cebab958faa419")))
+     (sha256 (base32 "02lcr7diwbrj3ij6c8wxvymr3mf9hf1bv385wyc4r3cfakjcw4gj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/elisp-dev-mcp")
@@ -32169,14 +32169,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260601.1213")
+   (version "20260602.833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "b8e8f7841a2f0a3abfef510d3a78b5214ae8f296")))
-     (sha256 (base32 "0dmrhamhkfkjmkzdkslln7l6vh0s2gd2pygddfcwff4w1f2xax28"))))
+           (commit "09bc206ae4584616025bc9f8bdd0b81b9c889daa")))
+     (sha256 (base32 "0iywh5aywm14brr9klslyxnn72svdp9vrav7nag8p09ckvgkr0xa"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -60264,14 +60264,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260531.619")
+   (version "20260602.547")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "f83b4c48372535b49922e06d310c5f8ee65932cd")))
-     (sha256 (base32 "0xlwikjnfb1m07h80q1ghfk2wjj80f5m9hf8dmh801aaxynp4lfd"))))
+           (commit "fbd7d03ce1353b3071d767a21b23b49cb5f6c7c6")))
+     (sha256 (base32 "16lv5jniz2iiiz6qfyydhvygw2j63kb56742jhb01lw1bfqbjdnz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -73917,14 +73917,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260601.1603")
+   (version "20260602.822")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "035b913a84de427595c86506f6776b17eac223a0")))
-     (sha256 (base32 "1c8v968jznvbrbzsniy4w0463jsaldhig7ghs2vywjvj52jz41p0"))))
+           (commit "30136b2be07dc8529427fb81740ef639dcd41a90")))
+     (sha256 (base32 "1rmmp3amp6hq6n66356mgw9352gkn8axjj0b1jb018p3syfa4w06"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -100261,14 +100261,14 @@
 (define-public emacs-tiles
   (package
    (name "emacs-tiles")
-   (version "20260601.2022")
+   (version "20260602.1050")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ctanas/tiles.git")
-           (commit "15fa6fa0f2b44b0db0110862b609a42aabb8bb40")))
-     (sha256 (base32 "1xjzbwddwlaf0dwf3ql4ljwr8sg3anrpgnlsz6zfi2bnhggl4v8z"))))
+           (commit "c3a8de0a375f3050ebca2870cc2befde324a4f9f")))
+     (sha256 (base32 "1dagxalwmzykd2wcarfyr1d0j0pkb5f3pbv8m9cfk1yr3zjgal7i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ctanas/tiles")
    (synopsis "Tagged Instant Lightweight Emacs Snippets")
@@ -108620,14 +108620,14 @@
 (define-public emacs-x509-mode
   (package
    (name "emacs-x509-mode")
-   (version "20260410.723")
+   (version "20260602.643")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jobbflykt/x509-mode.git")
-           (commit "c5dc5a97469166b5a4e835b878ca3c0ed2df055a")))
-     (sha256 (base32 "03k3lk2viplhivq01j5f088b6kv9dc5iz2zf6i0mlba45jm8vp5f"))))
+           (commit "a0293e2178bff0c6fc48936c852f42d6d3229589")))
+     (sha256 (base32 "137m5wmqkmjlkppvh83vwbfn0wgx5dxvynzp2ckmn87ccp7f171d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "*.txt")))
