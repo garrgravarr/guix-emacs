@@ -1437,7 +1437,7 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20260601.1738")
+   (version "20260601.1950")
    (source
     (origin
      (method git-fetch)
@@ -1663,7 +1663,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260601.1630")
+   (version "20260601.1941")
    (source
     (origin
      (method git-fetch)
@@ -2075,14 +2075,14 @@
 (define-public emacs-alectryon
   (package
    (name "emacs-alectryon")
-   (version "20260406.2342")
+   (version "20260525.2000")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cpitclaudel/alectryon.git")
-           (commit "86bac4eae28c2d6f27859a4ca8821a374e8b1c4f")))
-     (sha256 (base32 "1gfsrr9w2xj0synd9i0xzrrva7k6ngdf53j4aidh66wg75iihws1"))))
+           (commit "067578b801fa8d00874161594146d7f47ddd8b02")))
+     (sha256 (base32 "0mmsmxx0gpg3i9693yhw50vi8h4v3rgpipaz5yrqj8i378dqcm44"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck))
    (arguments '(#:files ("etc/elisp/alectryon*.el")))
@@ -3208,14 +3208,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260529.2249")
+   (version "20260601.2229")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "70a638ff286549e1fbad45719ab6582159fa2c36")))
-     (sha256 (base32 "1yn8b686qhxasx8xsp04i4aa2saxnqc75nd4pqf6fq2gnzm1s81n"))))
+           (commit "68e23b34336dac48c15ca6dae2eeb7b1f1f56571")))
+     (sha256 (base32 "09ir1ansrnv30hbi22wjlxrqlkv614l91jbz2ixd29aab0mlfcc4"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -24824,14 +24824,14 @@
 (define-public emacs-el-get
   (package
    (name "emacs-el-get")
-   (version "20260530.1521")
+   (version "20260602.241")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dimitri/el-get.git")
-           (commit "dfc31d6fa215d40f2eed4a693974a5875065c0d1")))
-     (sha256 (base32 "1rmc2jzb1xz9jqa9zy78zvmr1ys9g2i1lgjnr7sgczzyrlaimgb4"))))
+           (commit "eeb48603d0d287f1b78ed3bde53ee7b07acde7ee")))
+     (sha256 (base32 "0szznjnglh4iy84ilzp58khk51n67gimhm9lhimrd2qfy91raq0s"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "methods" ("recipes" "recipes/el-get.rcp"))))
@@ -25595,14 +25595,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260531.2221")
+   (version "20260602.130")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "43d9060408c51fb191e78389d39b8c8b377cf221")))
-     (sha256 (base32 "0nprrv0g4kk36iiks75dp5vlvymn4zr83a3jr0wa5wlrf5vl8xdy"))))
+           (commit "ed427d31ff015d4f60e00c716141b1023aa9fe24")))
+     (sha256 (base32 "003ldbsg7x6j8abjf379507igi593zm0kjb0y2r0nc3r2g843q11"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -29872,14 +29872,14 @@
 (define-public emacs-evil
   (package
    (name "emacs-evil")
-   (version "20251108.138")
+   (version "20260601.1932")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil.git")
-           (commit "729d9a58b387704011a115c9200614e32da3cefc")))
-     (sha256 (base32 "0scdws40fg4k9lqyznjghnn8svn7l0c6mq7h2aq5pzkm6hanzqn3"))))
+           (commit "457db14f04dd562c36e5704d5ede5c5813224a84")))
+     (sha256 (base32 "1ljwknk4a6ilbry7c2jxdkgqpq24rarwvgxcr5ns1vm0k67h914z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-goto-chg))
    (arguments
@@ -56197,14 +56197,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260601.1610")
+   (version "20260601.2144")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "7e175bd5f7e9a54c72900a33d1bbba9433ad214a")))
-     (sha256 (base32 "0dw055nsdxfffnz5cgdpwh29151hm3cfar0gfsxq4mnxh1f0v0vi"))))
+           (commit "211ffb8ae799fa39884f537642fd2e6dee1f2dbb")))
+     (sha256 (base32 "1xl6v60msc6bvgij3hsm31bqhq8ikixwgsp8cdqnysbfhrm98g1c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -100261,14 +100261,14 @@
 (define-public emacs-tiles
   (package
    (name "emacs-tiles")
-   (version "20260412.1929")
+   (version "20260601.2022")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ctanas/tiles.git")
-           (commit "149a5015b3d2a2ebdd15660cab9c736549af7532")))
-     (sha256 (base32 "19fmzw46vyfz6kz4ksmm5w4c6vmkyjacsqznbf0d8d9qsmy1nyf8"))))
+           (commit "15fa6fa0f2b44b0db0110862b609a42aabb8bb40")))
+     (sha256 (base32 "1xjzbwddwlaf0dwf3ql4ljwr8sg3anrpgnlsz6zfi2bnhggl4v8z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ctanas/tiles")
    (synopsis "Tagged Instant Lightweight Emacs Snippets")
@@ -109726,14 +109726,12 @@
 (define-public emacs-yeetube
   (package
    (name "emacs-yeetube")
-   (version "20260505.615")
+   (version "20260601.1621")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.thanosapollo.org/yeetube")
-           (commit "e6c3e8f1957565cbb519b1adb66e7b3a48434f37")))
-     (sha256 (base32 "1prhdak6mfvgsfk9gr28srfymr7flj0zp5s7cqby0rpvsiq8bfp0"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/yeetube-" version ".tar"))
+     (sha256 (base32 "1yclaf59yvkjz19gaziksydr3ndmawanh1jql1z1zdwrasv91lp7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://thanosapollo.org/projects/yeetube/")
