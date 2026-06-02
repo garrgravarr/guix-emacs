@@ -1437,14 +1437,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20260602.700")
+   (version "20260602.1530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "c0f416a2e7f91fb82b63185536cad69ec97b97a6")))
-     (sha256 (base32 "12k02g0mj9biqq80w2p7jvc8bpm90fpahq7s48v0cfcwxyf0pw6s"))))
+           (commit "1083ba1c2e4c72de0eb968dd4c630f4eb3bb9664")))
+     (sha256 (base32 "0ir8s8vdmz8mzharfjf8jznpbyl6zqfwfykmphn32rzbr4lqqkkg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -3662,14 +3662,14 @@
 (define-public emacs-asciidoc-mode
   (package
    (name "emacs-asciidoc-mode")
-   (version "20260222.1804")
+   (version "20260602.1710")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/asciidoc-mode.git")
-           (commit "670fc8846993b939a067de06c42a3cfb22c79cb1")))
-     (sha256 (base32 "0ks4jq0xrv3hb6jn0pd4rgy7nscfbazd5crr3rlsji5kfvsnpi09"))))
+           (commit "fa74252e4fc3a74ddcd74fde3d1fd84e6c53e031")))
+     (sha256 (base32 "10y0s20p184xvm9iydvmgm7hcgpwiw7rd3hx64qbmnw9dk1k85g9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/asciidoc-mode")
    (synopsis "Major mode for AsciiDoc markup")
@@ -26032,7 +26032,7 @@
 (define-public emacs-elisp-dev-mcp
   (package
    (name "emacs-elisp-dev-mcp")
-   (version "20260602.712")
+   (version "20260602.1123")
    (source
     (origin
      (method git-fetch)
@@ -29872,13 +29872,13 @@
 (define-public emacs-evil
   (package
    (name "emacs-evil")
-   (version "20260601.1932")
+   (version "20260602.1622")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil.git")
-           (commit "457db14f04dd562c36e5704d5ede5c5813224a84")))
+           (commit "30c88945002b2a734ebb778054b19b2e58995723")))
      (sha256 (base32 "1ljwknk4a6ilbry7c2jxdkgqpq24rarwvgxcr5ns1vm0k67h914z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-goto-chg))
@@ -30258,14 +30258,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260528.1434")
+   (version "20260602.1249")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "d3e30721741248b24341914e1e7dad6b71d3805f")))
-     (sha256 (base32 "1kzg6bz1lc95246lndd83cqb6bm3kflnl77xbg26cvrrcnjqz2n0"))))
+           (commit "c2db249e45ccef7e8004ba981ef6c4cc87089590")))
+     (sha256 (base32 "01h2clmgwya4d1h41hr14s81b9y3ysfyfwigpy9j8w4wcbrbf4ym"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -36056,14 +36056,14 @@
 (define-public emacs-flymake-ansible-lint
   (package
    (name "emacs-flymake-ansible-lint")
-   (version "20260522.1940")
+   (version "20260602.1355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/flymake-ansible-lint.el.git")
-           (commit "3894288568c791111e55972a626276689e16fc2d")))
-     (sha256 (base32 "14na758a18kxkyk0hnmrs341n70na6cnind93158518pj9l4g6aa"))))
+           (commit "8e300cc49b234a03aca90f497a69de2de8deab96")))
+     (sha256 (base32 "1i0isj0ra6g330cq676lflfqks198lz589rrf0s2nnj3mvnwsvzd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/flymake-ansible-lint.el")
    (synopsis "A Flymake backend for ansible-lint")
@@ -36091,14 +36091,14 @@
 (define-public emacs-flymake-bashate
   (package
    (name "emacs-flymake-bashate")
-   (version "20260516.1903")
+   (version "20260602.1355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/flymake-bashate.el.git")
-           (commit "eb9625e1db3821a277a11364616cae1516d8e0ba")))
-     (sha256 (base32 "12gvgzdafbz9yk981flgm8r36q9z8jq933ycvd8bv7l3xc62g84f"))))
+           (commit "4893738819306517736e3f8ea8aeebadb4df4bf9")))
+     (sha256 (base32 "1g4vh6kcgla3mdwrbjzfmcljxfd8bmb67w64n7j73xgg3sm867dd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flymake-quickdef))
    (home-page "https://github.com/jamescherti/flymake-bashate.el")
@@ -39723,14 +39723,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260601.917")
+   (version "20260602.1714")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "09aad9fefffce6370256a9888a1ed4f77535fcfd")))
-     (sha256 (base32 "02r142x2ihhjdfy1vbsm8bx2c3g3z0pixzsa5rhi5gymw2dp98q8"))))
+           (commit "c2db249e45ccef7e8004ba981ef6c4cc87089590")))
+     (sha256 (base32 "01h2clmgwya4d1h41hr14s81b9y3ysfyfwigpy9j8w4wcbrbf4ym"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -63302,14 +63302,14 @@
 (define-public emacs-merlin
   (package
    (name "emacs-merlin")
-   (version "20240925.900")
+   (version "20260602.1457")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml/merlin.git")
-           (commit "8b88b89ee7431a23eaf95e4e02e45dc65595aa74")))
-     (sha256 (base32 "1qzj4aqx5x76ldwhpxzz2ynjdh43l8nk6lmj93hr53c6ykrgn9nw"))))
+           (commit "653fdaaf2b1be998e3edc6645a2ddee9a3e1bf52")))
+     (sha256 (base32 "0pjybqp404j42qzmbk47rmg72jg94nc0hg9b22xq2cmg61aa9kaz"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -70889,14 +70889,14 @@
 (define-public emacs-oboe
   (package
    (name "emacs-oboe")
-   (version "20260501.853")
+   (version "20260602.1201")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gynamics/oboe.el.git")
-           (commit "ca9cba428d24c155094f1b099c73f6f9692fc733")))
-     (sha256 (base32 "007wjbaqfjz00grcmpf2wp0djidphvmqf405jkfd44shyr9fsyyh"))))
+           (commit "5f32b02e4679b2a98308f5431f0f14066156d81f")))
+     (sha256 (base32 "0g6c1ypf60n6naq2zwlzi5578frw9w1gg81rvvswxjglkv4nvwri"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gynamics/oboe.el")
    (synopsis "A simple temporary buffer management framework")
@@ -73742,14 +73742,14 @@
 (define-public emacs-org-lark
   (package
    (name "emacs-org-lark")
-   (version "20260519.620")
+   (version "20260602.1511")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbw9n/org-lark.git")
-           (commit "270b3509a681ba1e487551f30c61fa7d8b186592")))
-     (sha256 (base32 "0p01wh40rm149wz4vdhhsd7mi50v5sdbwrbk2f5cp1pm8xvnikwr"))))
+           (commit "3ef070cfc9bf87d8e61d77b80e71ad0611074564")))
+     (sha256 (base32 "0gm7939kfy068l1lrff34ksssnin445nr4lz1r9hj47pz1vzwj0x"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbw9n/org-lark")
    (synopsis "Export Lark docs to Org")
@@ -73917,7 +73917,7 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260602.822")
+   (version "20260602.1123")
    (source
     (origin
      (method git-fetch)
@@ -95517,14 +95517,14 @@
 (define-public emacs-spatial-navigate
   (package
    (name "emacs-spatial-navigate")
-   (version "20260420.428")
+   (version "20260602.1236")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-spatial-navigate.git")
-           (commit "764cf2ea5ded501493bfd543c5a290b8cda847d5")))
-     (sha256 (base32 "0dqa4lfw8kmnpnmf62s5p0z6y15k26c5y7vfqcv32apqzynqvkva"))))
+           (commit "22213dace66bfde31568d6e6e4df7b195cc6e4f1")))
+     (sha256 (base32 "1qnazc3lwgsa1gzgbc8bljszswzm73kk9hclkw56m6c30fymg8p0"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-spatial-navigate")
    (synopsis "Directional navigation between blank-space blocks")
