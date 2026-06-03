@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260602.427")
+   (version "20260602.2318")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "5e22461763c96f84c7f4cbdb4fa9ca35de02d5e8")))
-     (sha256 (base32 "1mpqvvwl2ry2wg5r16pg2ccjcn6kg7n4d2lpn7v7q6m9ph6n1axw"))))
+           (commit "877c98a622cdc9ddc33817096915ebcbf908accb")))
+     (sha256 (base32 "0ysgz5nks9dzz8mrjlq8c1kv69rayhsjwadf7w2xcp23f367ymy8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -7676,14 +7676,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260601.1626")
+   (version "20260602.2342")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "8269db64810cc2ff574d27311648ce3da35181f2")))
-     (sha256 (base32 "0m4kzyd5vwgypykliq64530qrqq6acap0igh1dgi2q0cf35vmf33"))))
+           (commit "04fc19ef58fc23965d582721cf22691e1bd91cfd")))
+     (sha256 (base32 "0c98shqd1ns0ggjzkd19rgbxnzssl5iw7w1hfx28a7pzdm96rkjj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -18335,14 +18335,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260529.1928")
+   (version "20260602.1947")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "61a81a5375377e1616318797a00be7a36071ac56")))
-     (sha256 (base32 "1qkjz00qz332i0jbc88gxj4bdspicgqrab5wfhv7vil3ia3cjwrr"))))
+           (commit "bb5eab0bc21a0ea6bee9f21e1ce164cc50f3c33b")))
+     (sha256 (base32 "0dq560yvi96wk7vq36ax1lp323ai65k9s21v5sfdkklqv1sg6w4p"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -23775,14 +23775,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260530.1352")
+   (version "20260602.1904")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "0344ba2a14bb1a52a9fdf1aa29120ea04513138f")))
-     (sha256 (base32 "1yn6f0ndfv1pacbn5ilbsr0g61i6f2qrag1xaq58lcm7wy5r8b86"))))
+           (commit "d227cf04a803307c05661e59b3e3757bdfc707d3")))
+     (sha256 (base32 "0hhfvx954kmbfszxrnj27wn6vkd6y5m5kfh5y8xrx0ijgq1vkzna"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -25595,14 +25595,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260602.130")
+   (version "20260603.105")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "ed427d31ff015d4f60e00c716141b1023aa9fe24")))
-     (sha256 (base32 "003ldbsg7x6j8abjf379507igi593zm0kjb0y2r0nc3r2g843q11"))))
+           (commit "3ab97952cb752631c9636b55852a7fb4682d0b6c")))
+     (sha256 (base32 "1bzqx0kccxbixrqpvjfdrpxqx9wz4l5qqy7rfyw7r83870bxqnri"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -30022,14 +30022,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260527.455")
+   (version "20260602.2239")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "933ca4e520964f6f1986156943a8c6991b1ae2da")))
-     (sha256 (base32 "1mrsmc0f98v0rn6q7ci1rkzsx00c6j63d5p05mpcmlw6hyxj26z9"))))
+           (commit "673b38022b8bb36185b6d54aff3f444335a032fb")))
+     (sha256 (base32 "19bzvnj6ij3vkyr1d57nmil8cacrgl3cz0brfpxll998zdzw9h3w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -30077,16 +30077,16 @@
 (define-public emacs-evil-easymotion
   (package
    (name "emacs-evil-easymotion")
-   (version "20200424.135")
+   (version "20260602.2314")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/PythonNut/evil-easymotion.git")
-           (commit "f96c2ed38ddc07908db7c3c11bcd6285a3e8c2e9")))
-     (sha256 (base32 "0xsva9bnlfwfmccm38qh3yvn4jr9za5rxqn4pwxbmhnx4rk47cch"))))
+           (commit "629c894af63336028a61cc93d6465d10837eb82b")))
+     (sha256 (base32 "0mlaqlfq99s3l6azrx2lbhxb4d7lc45z6jrj3y5cs8j606qd9x6h"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-avy))
+   (propagated-inputs (list emacs-avy emacs-evil))
    (home-page "https://github.com/pythonnut/evil-easymotion")
    (synopsis "A port of vim's easymotion to emacs")
    (description "Documentation at https://melpa.org/#/evil-easymotion")
@@ -38660,14 +38660,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260530.1336")
+   (version "20260602.2144")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "f48013bfe4bbdd61eed3808b1c03fdc93fd35060")))
-     (sha256 (base32 "0nf6h5l2fb6c0m256q66lksb0gysvjhqia6l2biw6rsn6b995anx"))))
+           (commit "8769483bf181f16cfdb336ccf8b18bdcf216f540")))
+     (sha256 (base32 "1qr6qnprm2734zlqygq8nvfndn65i2k3c6c532m3nzngz25rwc0m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -38854,14 +38854,14 @@
 (define-public emacs-fzf-native
   (package
    (name "emacs-fzf-native")
-   (version "20260601.418")
+   (version "20260602.2144")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dangduc/fzf-native.git")
-           (commit "c20a206ef51d52c65e64716382e230bfac75b056")))
-     (sha256 (base32 "1jzap9427nnxsiyv32l0sjgsw4dmqrimp7kcafp4gqz2vh0p7j4q"))))
+           (commit "503907809112e5c7d4cd3f0b57248e8cd57c5976")))
+     (sha256 (base32 "0ygxa0nm4bg0ksimvkv0da1ijhv40h7ak74iv91m1dsjbn2cpcfk"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -39723,14 +39723,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260602.1714")
+   (version "20260602.2007")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "c2db249e45ccef7e8004ba981ef6c4cc87089590")))
-     (sha256 (base32 "01h2clmgwya4d1h41hr14s81b9y3ysfyfwigpy9j8w4wcbrbf4ym"))))
+           (commit "4443fc95fdb8b20d6413c0a7cf78a3de74617043")))
+     (sha256 (base32 "032fajlwcix95mbb4mxcd4gxz385z2354vdxy1n7psk9ljz059jp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -43529,14 +43529,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260601.1730")
+   (version "20260602.2034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "f5131035d8e73de42cd97d6dd366f36d15000be5")))
-     (sha256 (base32 "1p01m668azc2xysdww8fyllfcpbr17i2hbizrzqzsl5nyhr7xkw9"))))
+           (commit "7317d9969461aff8e2cd838c9bfb6eea477b586e")))
+     (sha256 (base32 "06jagf04yaphz25x6qr84qiib0zpjryhm1890hz7phh6yb3bar42"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -56197,14 +56197,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260601.2144")
+   (version "20260602.1910")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "211ffb8ae799fa39884f537642fd2e6dee1f2dbb")))
-     (sha256 (base32 "1xl6v60msc6bvgij3hsm31bqhq8ikixwgsp8cdqnysbfhrm98g1c"))))
+           (commit "2f1c149c432cd7128f36a6a6a87e167dbdee8f16")))
+     (sha256 (base32 "12kqqavk5v59w18r955lf6j5q2qk3a85s7gcwgni56q0njl5flvz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -61066,14 +61066,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260520.2337")
+   (version "20260602.708")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "a9fd4a914ba87da7258fd26946693f282a407885")))
-     (sha256 (base32 "03kfirlj095c9saf5sryavc71i07mp3qqhz0qp95h1az9vn5f0z9"))))
+           (commit "9db2055689bc078afd654af40a252de7e548d03e")))
+     (sha256 (base32 "0rg399hirlajz7fd45d84rhdkkkr61qxvfadsyq2zqwra1mz80q1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63109,14 +63109,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260530.503")
+   (version "20260603.147")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "ef32ebd1bb5fc5e18257c3f1703b0f6390a74b46")))
-     (sha256 (base32 "1p3923qly9d9g4d5iy5lsxrwar98fdz38a3cd8r1fvp9aqzca8q6"))))
+           (commit "3f5ccd3782d12bb334fe36e619cede0e16196183")))
+     (sha256 (base32 "0rm8yfixjldpx7603hlpylhnrxfmhjgp33j9rqrry3gip8z6a77p"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
