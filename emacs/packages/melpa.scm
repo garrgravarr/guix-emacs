@@ -1437,14 +1437,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20260602.1530")
+   (version "20260603.721")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "1083ba1c2e4c72de0eb968dd4c630f4eb3bb9664")))
-     (sha256 (base32 "0ir8s8vdmz8mzharfjf8jznpbyl6zqfwfykmphn32rzbr4lqqkkg"))))
+           (commit "fdc785d653cf8bfa7eaee450c168b193719c1b04")))
+     (sha256 (base32 "1khnfsh1426xq0nb3pzripz3a3w8gsh3bz2sk905fnnwqm6x6djk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260602.2318")
+   (version "20260603.1005")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "877c98a622cdc9ddc33817096915ebcbf908accb")))
-     (sha256 (base32 "0ysgz5nks9dzz8mrjlq8c1kv69rayhsjwadf7w2xcp23f367ymy8"))))
+           (commit "b3066ae63b78f39bbbc053f61accd7fbfb5c52cc")))
+     (sha256 (base32 "194l4zrrz2xx0cbqijg66f0m1xkfiqx9psqfmm3zxrjxkidmjw6w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3662,14 +3662,14 @@
 (define-public emacs-asciidoc-mode
   (package
    (name "emacs-asciidoc-mode")
-   (version "20260602.1710")
+   (version "20260603.1135")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/asciidoc-mode.git")
-           (commit "fa74252e4fc3a74ddcd74fde3d1fd84e6c53e031")))
-     (sha256 (base32 "10y0s20p184xvm9iydvmgm7hcgpwiw7rd3hx64qbmnw9dk1k85g9"))))
+           (commit "221741c584adbb9a5710ee0df73ea644687e6e15")))
+     (sha256 (base32 "0ikmmn9h93mkz21vivd24qd96gfifl2n6jqnyw9fx1zwf9vczmia"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/asciidoc-mode")
    (synopsis "Major mode for AsciiDoc markup")
@@ -29872,14 +29872,14 @@
 (define-public emacs-evil
   (package
    (name "emacs-evil")
-   (version "20260602.1622")
+   (version "20260603.654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil.git")
-           (commit "30c88945002b2a734ebb778054b19b2e58995723")))
-     (sha256 (base32 "1ljwknk4a6ilbry7c2jxdkgqpq24rarwvgxcr5ns1vm0k67h914z"))))
+           (commit "3b678a221ee99cc6a95b01d7a3129ce5efc4c3da")))
+     (sha256 (base32 "18hqjh4vz2pq40bvnrmshg1w5msq1b17l20vv5j6a76a2a7iqy8x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-goto-chg))
    (arguments
@@ -39723,14 +39723,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260602.2007")
+   (version "20260603.724")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "4443fc95fdb8b20d6413c0a7cf78a3de74617043")))
-     (sha256 (base32 "032fajlwcix95mbb4mxcd4gxz385z2354vdxy1n7psk9ljz059jp"))))
+           (commit "864ee4e327ba9a3e8206f6bde59c28b7248d9104")))
+     (sha256 (base32 "148vjvqniv4g0b3lcfygry8261mvqkllnvwnzijxxsha5bvxh9vv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -51419,14 +51419,14 @@
 (define-public emacs-inhibit-mouse
   (package
    (name "emacs-inhibit-mouse")
-   (version "20260601.1714")
+   (version "20260603.1158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/inhibit-mouse.el.git")
-           (commit "6f650f2aac5c4010d83d7bcaf29f7b3e3a3d1365")))
-     (sha256 (base32 "0246yr3jrlwwbww4vs6h72fysr9blgvfm1xj6ldvcnkb1m4mbw8l"))))
+           (commit "b03ee98548e91f595ccbefb7009add1df0b2da78")))
+     (sha256 (base32 "1012zcabi68kla8c0qnv8icxr3603dk60lj1y8w1j045psdds0b9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/inhibit-mouse.el")
    (synopsis "Deactivate mouse input (alternative to disable-mouse)")
@@ -58930,18 +58930,18 @@
 (define-public emacs-listenbrainz
   (package
    (name "emacs-listenbrainz")
-   (version "20230530.741")
+   (version "20260603.1009")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zzkt/metabrainz.git")
-           (commit "74f79b27e08ec405dd6c3331a9bf96a0e744d792")))
-     (sha256 (base32 "0ia22n4br562k5gyix2bnwk6kmpgvfn7m0kp74ql78qcnc723yy7"))))
+           (commit "9931441a6af7cf223bcc3c5030cab2072712edd6")))
+     (sha256 (base32 "1s54c2gl4x0s0ciy44ck6v0l05hbjp5ryvmpr3mv2vkkciwycj7q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request))
    (arguments '(#:files ("listenbrainz.el")))
-   (home-page "https://github.com/zzkt/listenbrainz")
+   (home-page "https://github.com/zzkt/metabrainz")
    (synopsis "ListenBrainz API interface")
    (description "Documentation at https://melpa.org/#/listenbrainz")
    (license #f)))
@@ -61066,14 +61066,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260602.708")
+   (version "20260603.754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "9db2055689bc078afd654af40a252de7e548d03e")))
-     (sha256 (base32 "0rg399hirlajz7fd45d84rhdkkkr61qxvfadsyq2zqwra1mz80q1"))))
+           (commit "d13e518b0bd97eb9e59aa7b0fa6401996ac893ef")))
+     (sha256 (base32 "14rb3kab7v13gdpbyl6fwnn7948nxzs86brkh31j3mwq3jcdns2j"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -106048,14 +106048,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260130.2113")
+   (version "20260603.1010")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "b2ba051297ead89fef93103e851ee44d99d7c888")))
-     (sha256 (base32 "0ac952cw5fsrfii118rw955hwh96rmxr2gw3c28a7bav92b35vz1"))))
+           (commit "417729eeb09165123d28ea6b56091db7a07cd62e")))
+     (sha256 (base32 "1m6izvixwjy5pns2jsipfnsj0yh0skavq5bp5d3i377q04b39996"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -106102,14 +106102,14 @@
 (define-public emacs-vulpea-journal
   (package
    (name "emacs-vulpea-journal")
-   (version "20260306.921")
+   (version "20260603.1041")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-journal.git")
-           (commit "071533d534e69e302dac543053c59ea8d4d7af77")))
-     (sha256 (base32 "0kaawf7jy4kd14spmi6pzhqjpf6gh0y18j8hn2a8nm4dfljr1hbd"))))
+           (commit "1aa8e9ef129eab5c07235775998b0997976e2376")))
+     (sha256 (base32 "034hivd0x7zsrk27lrkybna71xcm6dwffh49d3y6b6cwafwwyz0r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vulpea-ui emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea-journal")
