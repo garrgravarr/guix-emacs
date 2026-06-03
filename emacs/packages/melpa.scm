@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260603.1005")
+   (version "20260603.1714")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "b3066ae63b78f39bbbc053f61accd7fbfb5c52cc")))
-     (sha256 (base32 "194l4zrrz2xx0cbqijg66f0m1xkfiqx9psqfmm3zxrjxkidmjw6w"))))
+           (commit "0b1567ca0242dc7aa43430c87717b14109cb8e09")))
+     (sha256 (base32 "09swwdmdz3imb43l99fq0zgsacffm00zky3xaa3xlpi13gw8zkxf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3662,14 +3662,14 @@
 (define-public emacs-asciidoc-mode
   (package
    (name "emacs-asciidoc-mode")
-   (version "20260603.1135")
+   (version "20260603.1502")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/asciidoc-mode.git")
-           (commit "221741c584adbb9a5710ee0df73ea644687e6e15")))
-     (sha256 (base32 "0ikmmn9h93mkz21vivd24qd96gfifl2n6jqnyw9fx1zwf9vczmia"))))
+           (commit "cbc6d644ba3aefb5bd916d6f8922b82d0ec77e85")))
+     (sha256 (base32 "1gbglqz56w8mkq24xmlig87a9pq77d88j2jvxpp1azbibwypgh8d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/asciidoc-mode")
    (synopsis "Major mode for AsciiDoc markup")
@@ -22869,14 +22869,14 @@
 (define-public emacs-dumb-jump
   (package
    (name "emacs-dumb-jump")
-   (version "20260406.1824")
+   (version "20260603.1700")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jacktasia/dumb-jump.git")
-           (commit "9ce4598e9c485821a6e639fa48854d8e05acd970")))
-     (sha256 (base32 "00p4wmymvc0rspg3kddv5y8r1hxwb1j907bpgscjwjfpshm5swaq"))))
+           (commit "cf06b4ccdce6a39346c32f05139f9ee8b77ee229")))
+     (sha256 (base32 "1i3zykfg5dc562naqd9f7fybx9y624783av1w1ikw51p0f2wr139"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jacktasia/dumb-jump")
    (synopsis "Jump to definition for 60+ languages without configuration")
@@ -23645,14 +23645,14 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260531.1350")
+   (version "20260603.1201")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/easysession.el.git")
-           (commit "f23ecb9446091ef10dca024940bec8afedead532")))
-     (sha256 (base32 "09kyk42ki0lpbqhgh6bbh5qxkv1clabr77m823zrgv45z3x54md0"))))
+           (commit "b25a0008a592f2ac9b3c56cfd6b837f1297a52d9")))
+     (sha256 (base32 "09w59bycns4k4rqkwbjgnriib24s3wmhbqj1vwn801002bjl22lr"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "extensions/easysession*.el")))
    (home-page "https://github.com/jamescherti/easysession.el")
@@ -25595,14 +25595,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260603.105")
+   (version "20260603.1613")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "3ab97952cb752631c9636b55852a7fb4682d0b6c")))
-     (sha256 (base32 "1bzqx0kccxbixrqpvjfdrpxqx9wz4l5qqy7rfyw7r83870bxqnri"))))
+           (commit "c8f956c9850b9069ad86e64914295d3a746d7ea4")))
+     (sha256 (base32 "1v8fmcpdzrh0ahp169vhx1p4fhcfxxwl98y1vhpc7h9l32pwqhjv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -26452,14 +26452,14 @@
 (define-public emacs-elot
   (package
    (name "emacs-elot")
-   (version "20260525.1934")
+   (version "20260603.1452")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johanwk/elot.git")
-           (commit "d06c3ef5bf016f91db46b813d7d4c067850cbfd2")))
-     (sha256 (base32 "0gf00z7bx9fbgnmivks96mzrn30azy7jh1k01imgqfg9zgzykk7x"))))
+           (commit "54254ce4bcdee3479ae0c62b4de84c732e909e5b")))
+     (sha256 (base32 "01sqpl3lf3hd8qf6yxrm4bybkc77xdbqi4lswrsgl07a8l53z59k"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -39768,14 +39768,14 @@
 (define-public emacs-ghub
   (package
    (name "emacs-ghub")
-   (version "20260601.1557")
+   (version "20260603.1818")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/ghub.git")
-           (commit "62d3582f1e395de1cf410af1f125dae56fe1dc4d")))
-     (sha256 (base32 "0s27qknrsx5b36lnamns59ijgyy2rpdf6g5i6gz7slz4iccrczh8"))))
+           (commit "89cd6c5d2770fad2c4d635136e3e36643d8bbde4")))
+     (sha256 (base32 "14qrds6w62ss2cca3ryr9x09f6d71maxfvd3p1jv0zn00fca120i"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-treepy))
@@ -40954,14 +40954,14 @@
 (define-public emacs-glsl-mode
   (package
    (name "emacs-glsl-mode")
-   (version "20250324.1304")
+   (version "20260603.1348")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jimhourihan/glsl-mode.git")
-           (commit "86e6bb6cf28d1053366039683a4498401bab9c47")))
-     (sha256 (base32 "03ajf9q2ijgfmmqvk7kmmxba6bsyrb2q49li93fmdj5dwdyjkgqv"))))
+           (commit "515a2ba4dab3ec89c83a962902a123ddf81e3cfe")))
+     (sha256 (base32 "1lf2ydjw5vlvn50l0lag0n31zmy3m6wlhih54q05brzaf2m8rrni"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jimhourihan/glsl-mode")
    (synopsis "Major mode for Open GLSL shader files")
@@ -56197,14 +56197,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260602.1910")
+   (version "20260603.1725")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "2f1c149c432cd7128f36a6a6a87e167dbdee8f16")))
-     (sha256 (base32 "12kqqavk5v59w18r955lf6j5q2qk3a85s7gcwgni56q0njl5flvz"))))
+           (commit "5c098da619fbe07c23b1aad79ac6946bfb25c3aa")))
+     (sha256 (base32 "1cwd7r9n52cjkfb0vl160wd7fil7a575gymqniv0csq4qrmgyxyn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -76551,14 +76551,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260526.2135")
+   (version "20260603.1510")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "c1274c14bb1f20d0206aa292e5d751d817c04af5")))
-     (sha256 (base32 "0k5y8smd0406j1skj75g871wx120nl5vrmznfl0vj37z1ni9kmj2"))))
+           (commit "5b1aa78ac6bd50ada483cb4d38dc0086983c8b4d")))
+     (sha256 (base32 "12b6slq1s6zlxwqchdn0dhxznfwcbkygzxdh6b4xbf3lp62zs5r0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -100261,14 +100261,14 @@
 (define-public emacs-tiles
   (package
    (name "emacs-tiles")
-   (version "20260602.1050")
+   (version "20260603.1458")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ctanas/tiles.git")
-           (commit "c3a8de0a375f3050ebca2870cc2befde324a4f9f")))
-     (sha256 (base32 "1dagxalwmzykd2wcarfyr1d0j0pkb5f3pbv8m9cfk1yr3zjgal7i"))))
+           (commit "754b11764f8204ff1fce6d3aa80eca2150a8a164")))
+     (sha256 (base32 "0mmw3slsndfq2jrlmfl6aly018jz4ycyhg7rizc0igl0jpcg8acg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ctanas/tiles")
    (synopsis "Tagged Instant Lightweight Emacs Snippets")
@@ -109987,14 +109987,14 @@
 (define-public emacs-zathura
   (package
    (name "emacs-zathura")
-   (version "20250728.1208")
+   (version "20260603.1620")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/treflip/zathura.el.git")
-           (commit "64e1ab8421aaa08e1215852a6730a5294f759517")))
-     (sha256 (base32 "1d62z27hfjrk55zp4ijbxdgfavkrkif4ayk5g9mwjjn0inafj25f"))))
+           (commit "874dadbf07e22811b6b309200cad32b4ccca0e51")))
+     (sha256 (base32 "1fjdwjygxxf6dfcff74r39z53mf3bkwgrfl8jcfdnkfdx9mpi8x9"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/treflip/zathura.el")
    (synopsis "Summary")
