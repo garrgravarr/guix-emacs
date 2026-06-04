@@ -1437,14 +1437,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20260604.646")
+   (version "20260604.1359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "64cc307c687397fc553a29c69ddc6adf0389f111")))
-     (sha256 (base32 "0bygx8psgdjfwfa4fxqcm0v8sb0lsgqqkzj20pc0zv4wj8jkvw3i"))))
+           (commit "0f5e2f8579316d688bf68b88d0d6fcc38a6bfa39")))
+     (sha256 (base32 "14v0svkwjvypi4sc6ailydpg5gjv0nvrq0mb44m2c5qdvaa07vnn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260604.855")
+   (version "20260604.1617")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "e81dad492ce56f12021c7ca03fae238cefdcf0e0")))
-     (sha256 (base32 "03ihzywgjkggv6hkj8aghyc364gkyjhbacj1gz30mgz682sphymc"))))
+           (commit "a0b24c6962c51fca6c3b8543c28371f89012c36c")))
+     (sha256 (base32 "1vjmazp3p31vzh79w98bh46f2bfcnzrfrms70csgax0fvapxmqdb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3662,14 +3662,14 @@
 (define-public emacs-asciidoc-mode
   (package
    (name "emacs-asciidoc-mode")
-   (version "20260603.1502")
+   (version "20260604.1422")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/asciidoc-mode.git")
-           (commit "cbc6d644ba3aefb5bd916d6f8922b82d0ec77e85")))
-     (sha256 (base32 "1gbglqz56w8mkq24xmlig87a9pq77d88j2jvxpp1azbibwypgh8d"))))
+           (commit "0a022d8c4c2c2dbacf70ae191c3f2ea8987aa947")))
+     (sha256 (base32 "1p9cy4mxk7v75dqw76gjx2a5bgqpmwg0wfq07qs0ibvwnm3spsj3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/asciidoc-mode")
    (synopsis "Major mode for AsciiDoc markup")
@@ -6285,14 +6285,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260526.919")
+   (version "20260604.1711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "ad761a1d1324bf3fa3e0ce4f0a92e219e9b3a4ab")))
-     (sha256 (base32 "0kq5bqdvy0h4z1v4lp6np2i1ljv6zd9v749qfh82f03lhfr6cd6q"))))
+           (commit "f9b236c990cc3951cca04e869a9d862e0ffc0a47")))
+     (sha256 (base32 "10d67g9jkq0li7gw1glbms6mkjnn51hmsj1hka5h4bfx4my5ysd7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -30258,14 +30258,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260602.1249")
+   (version "20260604.1159")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "c2db249e45ccef7e8004ba981ef6c4cc87089590")))
-     (sha256 (base32 "01h2clmgwya4d1h41hr14s81b9y3ysfyfwigpy9j8w4wcbrbf4ym"))))
+           (commit "f1324a1fc58dea381224e0fd08306a70fe109777")))
+     (sha256 (base32 "1q06sqx17am3a7wpygra2hzah9jf1h1ddkcc85dfmir2gmfhs179"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39723,14 +39723,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260603.1956")
+   (version "20260604.1159")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "36d95106a1803e21aacaa1eb73088427cca7dca4")))
-     (sha256 (base32 "09pl1k6ndzmdr9pzzaxbszn4sjhnp2s2h7brg1n2dr18mxzy1c9z"))))
+           (commit "f1324a1fc58dea381224e0fd08306a70fe109777")))
+     (sha256 (base32 "1q06sqx17am3a7wpygra2hzah9jf1h1ddkcc85dfmir2gmfhs179"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -40918,14 +40918,14 @@
 (define-public emacs-gleam-ts-mode
   (package
    (name "emacs-gleam-ts-mode")
-   (version "20251106.221")
+   (version "20260604.1354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gleam-lang/gleam-mode.git")
-           (commit "91cf073c5fb889c091b1797f44cc52419b7c9ae2")))
-     (sha256 (base32 "0dd7qylvhrqlxnbvvkb3f03gz14v0sjg9fhiymfhw7p571bq8nqi"))))
+           (commit "ae8aecda23e9dca755d80e86cdb7c336011c2321")))
+     (sha256 (base32 "1sg9349ris49gfbx69fawiqfgj2xilqz5w514p3dhbc8qw6brhdb"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("gleam-ts-mode.el")))
    (home-page "https://github.com/gleam-lang/gleam-mode")
@@ -58152,14 +58152,14 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20260528.1507")
+   (version "20260604.1109")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/liberime.git")
-           (commit "482b7854b04169b348f3c943891f0895bd38bc4f")))
-     (sha256 (base32 "0bmp4ajczw4nvgshbkycnvr0m0pjlji14qgkk8k58qxy38zxvli2"))))
+           (commit "fc26e41eeaf467f81798d7ff82fad7af5713edc2")))
+     (sha256 (base32 "0lvcbfylsnnw35gghqm4i621ww7paf2swy0mxpb7gbrwyb9xgd25"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -77203,14 +77203,14 @@
 (define-public emacs-overleaf
   (package
    (name "emacs-overleaf")
-   (version "20260417.1854")
+   (version "20260604.1734")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vale981/overleaf.el.git")
-           (commit "62c31c609d7d96ec6c592eec40fba41735e40875")))
-     (sha256 (base32 "1bj7jq63v52gn8jaa7bsi22ac321j21cmsxd9vl5kvvagzrjqbiv"))))
+           (commit "506fe07b79ceefce3e53196711e10700da344d49")))
+     (sha256 (base32 "0hrn0dvk7pqhw63s015hfav7d8fcsfn9sx46dzjn59mfqy9qwm5c"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-plz emacs-websocket emacs-webdriver emacs-posframe))
@@ -83570,14 +83570,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260601.552")
+   (version "20260604.1552")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "4c72d6767de9aef1182d72ddfc0482cc98b0b8fd")))
-     (sha256 (base32 "0xa8zjjwlijg58jzxy4klxiiv57vbfmi9qwdb598c9yk5fiqjl3k"))))
+           (commit "6449fb0465587c757c1fbf1a64bb4ba420a78bfa")))
+     (sha256 (base32 "1skbdn3nys3jf9prsy6aannh5f4hqg8gkkijqxwygnrf07y021g6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
