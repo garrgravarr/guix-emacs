@@ -1332,14 +1332,14 @@
 (define-public emacs-ada-ts-mode
   (package
    (name "emacs-ada-ts-mode")
-   (version "20260502.1153")
+   (version "20260603.1308")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/brownts/ada-ts-mode.git")
-           (commit "e3b094ed138aeba4ad22114701a1828e20384207")))
-     (sha256 (base32 "1w5hq73z6i941dwfw5ng3a854bhzylpq4bx5jsg4hzam6zpr75vz"))))
+           (commit "95f64aec514891039d04d0158df798bec152894a")))
+     (sha256 (base32 "1dj1sdlhg5wyp6q01w7n6qkj9fkcnxmpgb18hch6b9myyjdgxvgk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/brownts/ada-ts-mode")
    (synopsis "Major mode for Ada using Tree-sitter")
@@ -8241,14 +8241,14 @@
 (define-public emacs-buffer-guardian
   (package
    (name "emacs-buffer-guardian")
-   (version "20260527.1245")
+   (version "20260604.226")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-guardian.el.git")
-           (commit "5b241c8144fe37d8a3b251b6792442f0652bec52")))
-     (sha256 (base32 "0hy687q66fq4pvaw3p2alzx86xi07v1g52y78g89979lrxijisc8"))))
+           (commit "44a692448659e529a9b6d5a1b36b40a66601376f")))
+     (sha256 (base32 "16lb8f38qgf8rnh9k9ik00g6qrilv1dx91qpsia94kld85ympwqn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/jc-dev")
    (synopsis "Automatically Save Buffers Without Manual Intervention")
@@ -8432,14 +8432,14 @@
 (define-public emacs-bufferfile
   (package
    (name "emacs-bufferfile")
-   (version "20260519.2240")
+   (version "20260604.241")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/bufferfile.el.git")
-           (commit "4b1be54492ff1605f053e560dd23d0a8d29e10df")))
-     (sha256 (base32 "0vcyms5y49lap7nzr90zylw298yq5vr0jx1sva5jbncc0qcrr2ja"))))
+           (commit "256d18df13757a565ad07444fac793c487ab3953")))
+     (sha256 (base32 "1hfp9mkgi1w8660gs4lc07mb1mgfsc12z6axqx12sbylq1sbj4lj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/bufferfile.el")
    (synopsis "Rename/Delete/Copy Files and Associated Buffers")
@@ -13266,14 +13266,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260528.130")
+   (version "20260604.235")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "e488b4ef1b9f65bcdc6855fb930c4b562c89ce92")))
-     (sha256 (base32 "0z757zpy6siqzk1ybhrry56nnn0jd788wbmsncljxchwnxz19ls0"))))
+           (commit "d21548a6c5019aad11ad194969ce7e446844b1bb")))
+     (sha256 (base32 "0py6v10g79b21rhfw5g6q5lqrxl42xaxb0gkkn0m9sm7ddhdnn6l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -14599,14 +14599,14 @@
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
-   (version "20260526.1757")
+   (version "20260604.227")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/compile-angel.el.git")
-           (commit "3e828ff32c11c637c8c709f4d1546c25eec1e074")))
-     (sha256 (base32 "0wc53q2w2vzy26w6z6b7s0q872wzmzfj19y7lg1lz21bqxrh19d7"))))
+           (commit "a75f4fe69abc0e8b15c739e3d07bc237a974e052")))
+     (sha256 (base32 "1vzs2j9xwgxd54gm6j73dpxs5si77l3ywkf3g4af5hmrqpshb6c0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/compile-angel.el")
    (synopsis "Automatically Compile Elisp files (auto-compile alternative)")
@@ -23775,14 +23775,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260602.1904")
+   (version "20260603.1941")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "d227cf04a803307c05661e59b3e3757bdfc707d3")))
-     (sha256 (base32 "0hhfvx954kmbfszxrnj27wn6vkd6y5m5kfh5y8xrx0ijgq1vkzna"))))
+           (commit "8f60746b505ef1ddcc01bef0d0298f595af3f587")))
+     (sha256 (base32 "090p1j5mg831v0avp9c85hk9i8km08l75z35vk0fhy5r7ws3861x"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -25595,14 +25595,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260603.1613")
+   (version "20260603.2139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "c8f956c9850b9069ad86e64914295d3a746d7ea4")))
-     (sha256 (base32 "1v8fmcpdzrh0ahp169vhx1p4fhcfxxwl98y1vhpc7h9l32pwqhjv"))))
+           (commit "2e8536a9cce77c6971a07c208e88d5eee7fd3386")))
+     (sha256 (base32 "00wdzhd39bj46xw6caai2gy31hjlh1pnxa2p9c0gm205hvb6a51d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -27713,14 +27713,14 @@
 (define-public emacs-enhanced-evil-paredit
   (package
    (name "emacs-enhanced-evil-paredit")
-   (version "20260505.356")
+   (version "20260604.223")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/enhanced-evil-paredit.el.git")
-           (commit "4c42a6b8bf1a1a443b1a8b4fdc58148aa4412697")))
-     (sha256 (base32 "00wsvdq8x266wvf6ylnskaikmcg7hi8r2kspkzl69rbnyb0d6a4r"))))
+           (commit "2209fceae2acab381facb1865ac41b28c2938f10")))
+     (sha256 (base32 "1xyld0nfgnzrz36djv7c1q722gva9a93gxrsxxnx6s4pknrghlza"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-paredit))
    (home-page "https://github.com/jamescherti/enhanced-evil-paredit.el")
@@ -39723,14 +39723,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260603.724")
+   (version "20260603.1956")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "864ee4e327ba9a3e8206f6bde59c28b7248d9104")))
-     (sha256 (base32 "148vjvqniv4g0b3lcfygry8261mvqkllnvwnzijxxsha5bvxh9vv"))))
+           (commit "36d95106a1803e21aacaa1eb73088427cca7dca4")))
+     (sha256 (base32 "09pl1k6ndzmdr9pzzaxbszn4sjhnp2s2h7brg1n2dr18mxzy1c9z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -44575,14 +44575,14 @@
 (define-public emacs-helix
   (package
    (name "emacs-helix")
-   (version "20260313.2319")
+   (version "20260604.125")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mgmarlow/helix-mode.git")
-           (commit "682049dbc0616f5f9737db3aad2aa1caacf71727")))
-     (sha256 (base32 "1i41z8jqy7sm4cn1wm54xnkvfng8nkc499clk66vqppzjjrq8gnw"))))
+           (commit "6b191a4fcf0e99a3a53902d6226f9963212140dc")))
+     (sha256 (base32 "1yask43jhi4hxp60wg6hxsw58s4sirdl08nsxx0hw2rqivyqq144"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mgmarlow/helix-mode")
    (synopsis "A minor mode emulating Helix keybindings")
@@ -74989,14 +74989,14 @@
 (define-public emacs-org-roam-ql
   (package
    (name "emacs-org-roam-ql")
-   (version "20260525.1955")
+   (version "20260603.2154")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ahmed-shariff/org-roam-ql.git")
-           (commit "2772ca4b08a41295c4e96fcbfe42501603759d0f")))
-     (sha256 (base32 "17v1g4kmiwqjsmf1fza8gx5426hm4cky0n3xikv75hc3xi0ij2rn"))))
+           (commit "35900a7a97c459b6ded44d665d60c81ba2df6cc2")))
+     (sha256 (base32 "0fcyk7m4wf8ibqvfplsysfqw5l7d4sl36bs4vjyx43rrdddl1gai"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-org-roam emacs-s emacs-magit-section emacs-dash))
@@ -79314,14 +79314,14 @@
 (define-public emacs-pathaction
   (package
    (name "emacs-pathaction")
-   (version "20260527.1207")
+   (version "20260604.212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/pathaction.el.git")
-           (commit "1cf1318c2920af5712c31e9ad14b28abf0b4246f")))
-     (sha256 (base32 "1nkc208ibcs1rgga2p48hqjndjfhpgf8m21xnyz4x0q42vkq5zrl"))))
+           (commit "19dc91a8da6574dc7f80b263cc3a909be1c300e4")))
+     (sha256 (base32 "1f1bqaya4xbwqaljfqffvn3lahh4s9q3nflhj20ny86cd5zcgdaj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/pathaction.el")
    (synopsis "Execute the pathaction.yaml rules from your editor")
@@ -79943,14 +79943,14 @@
 (define-public emacs-persist-text-scale
   (package
    (name "emacs-persist-text-scale")
-   (version "20260531.1705")
+   (version "20260604.238")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/persist-text-scale.el.git")
-           (commit "0a40cb19fd4ab76da2f851aa84c7996427de297e")))
-     (sha256 (base32 "0c8ss272kr1wifh63bwgxnwy8z367h5dgl1cj35fr1fchhkrxxfk"))))
+           (commit "2161b1a4d75c01781953acf536518c38661116f5")))
+     (sha256 (base32 "0517a4gmhhj0gwh0yk1nrm4rcd79rc1jrxnfp86kg5al8vv59p5z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/persist-text-scale.el")
    (synopsis "Persist and restore text scale")
@@ -96923,14 +96923,14 @@
 (define-public emacs-stripspace
   (package
    (name "emacs-stripspace")
-   (version "20260511.157")
+   (version "20260604.232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/stripspace.el.git")
-           (commit "e2ee32a5eca29218b621a77f580c83111eb5d160")))
-     (sha256 (base32 "12dqrcgy9z7b1xii7k3kdhj1dhvdr1f0869cgk3igjhazqf0bkrq"))))
+           (commit "c8a53e2bce4347f5d6d8ae8d3050e3bbf3f96562")))
+     (sha256 (base32 "1yfc0fwzpfi08p50ymmi3g8s947hdzdf42g0kic519rp4g9bd5cg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/stripspace.el")
    (synopsis "Auto remove trailing whitespace and restore column")
