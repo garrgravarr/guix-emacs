@@ -1437,14 +1437,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20260603.721")
+   (version "20260604.646")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "fdc785d653cf8bfa7eaee450c168b193719c1b04")))
-     (sha256 (base32 "1khnfsh1426xq0nb3pzripz3a3w8gsh3bz2sk905fnnwqm6x6djk"))))
+           (commit "64cc307c687397fc553a29c69ddc6adf0389f111")))
+     (sha256 (base32 "0bygx8psgdjfwfa4fxqcm0v8sb0lsgqqkzj20pc0zv4wj8jkvw3i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260603.1714")
+   (version "20260604.855")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "0b1567ca0242dc7aa43430c87717b14109cb8e09")))
-     (sha256 (base32 "09swwdmdz3imb43l99fq0zgsacffm00zky3xaa3xlpi13gw8zkxf"))))
+           (commit "e81dad492ce56f12021c7ca03fae238cefdcf0e0")))
+     (sha256 (base32 "03ihzywgjkggv6hkj8aghyc364gkyjhbacj1gz30mgz682sphymc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -8206,14 +8206,14 @@
 (define-public emacs-buffer-env
   (package
    (name "emacs-buffer-env")
-   (version "20260520.1419")
+   (version "20260604.645")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/astoff/buffer-env.git")
-           (commit "e3ac6bd73304eb81f7b0393ef0cbc2361fc7f40b")))
-     (sha256 (base32 "1hk5n6hs8nv4b7nnhq4sdci4v7a9p44v6bzbrssm1y6lz6nilk6d"))))
+           (commit "81968582b2dbfd5171b57206b44a4bb8fc31cc69")))
+     (sha256 (base32 "1bfc9yxirwm2z5q58w3v9lr6sb4v4yivirmmpk56qw6zxk9c7jbj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/astoff/buffer-env")
@@ -25595,14 +25595,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260603.2139")
+   (version "20260604.531")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "2e8536a9cce77c6971a07c208e88d5eee7fd3386")))
-     (sha256 (base32 "00wdzhd39bj46xw6caai2gy31hjlh1pnxa2p9c0gm205hvb6a51d"))))
+           (commit "b3b2dfd4768f93ff361aa2e1ea65c78a25c4fdec")))
+     (sha256 (base32 "025npd7ps7kb1b0vfxgfi0r2x90a5dgv9zmzfbhxn061h6473ipf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -30022,14 +30022,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260602.2239")
+   (version "20260604.758")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "673b38022b8bb36185b6d54aff3f444335a032fb")))
-     (sha256 (base32 "19bzvnj6ij3vkyr1d57nmil8cacrgl3cz0brfpxll998zdzw9h3w"))))
+           (commit "d561a7a5b699f82109de01c14050d37bda165502")))
+     (sha256 (base32 "0kydcnz5z4sdhrsjbkr2jcsr4xa2qrrlgfzl853j9499mrfg1a3z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-annalist))
    (arguments '(#:files (:defaults "modes")))
@@ -61066,14 +61066,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260603.754")
+   (version "20260604.555")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "d13e518b0bd97eb9e59aa7b0fa6401996ac893ef")))
-     (sha256 (base32 "14rb3kab7v13gdpbyl6fwnn7948nxzs86brkh31j3mwq3jcdns2j"))))
+           (commit "449d68e5db685ab95094df0db76b056e4d8a126f")))
+     (sha256 (base32 "1xij5lbbnh8ahmj8zq9c3k9d6gvss2h6lwqgjhfwygbky8hlnwrx"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -73917,14 +73917,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260602.1123")
+   (version "20260604.909")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "30136b2be07dc8529427fb81740ef639dcd41a90")))
-     (sha256 (base32 "1rmmp3amp6hq6n66356mgw9352gkn8axjj0b1jb018p3syfa4w06"))))
+           (commit "02fd1ba9ac33bf3cb7b38a649a9aa67dafd83ff4")))
+     (sha256 (base32 "0bx20243ivm7bqfm7158hgfqlaakb6rab6wwwi97l8y63k3gg17z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -76602,14 +76602,14 @@
 (define-public emacs-orgtbl-join
   (package
    (name "emacs-orgtbl-join")
-   (version "20260518.704")
+   (version "20260604.730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgtbljoin.git")
-           (commit "8d341a0ec288ac20b45433dfa106cb474554526e")))
-     (sha256 (base32 "1rh493j9zhm9xz49avvsr9agjl24nhh9b6j1brf2r068fvgdla9g"))))
+           (commit "ab5adbe40af0d0fe7407e779da10980e5d502bef")))
+     (sha256 (base32 "15hz674v9zfykp3607maf8rmxvmd29zmjavq64wx8nn54lm1m0j4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
    (synopsis "Join columns from other Org Mode tables")
@@ -76960,14 +76960,14 @@
 (define-public emacs-otpp
   (package
    (name "emacs-otpp")
-   (version "20260522.1558")
+   (version "20260604.1000")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abougouffa/one-tab-per-project.git")
-           (commit "95510a72fc167886b60135fbecf4bbed5fed5515")))
-     (sha256 (base32 "0c667b87wqd2kfz8jivzxlsygxcqfbc1ayhzywhwzr8azny08k0i"))))
+           (commit "72c32ad0f1f1120a1af9f8d4223b2b3c5f9d7310")))
+     (sha256 (base32 "1lmsfdz7viqq1i8dswv9czymisa82frfipdaimgkmq7ga3pbgzya"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/abougouffa/one-tab-per-project")
