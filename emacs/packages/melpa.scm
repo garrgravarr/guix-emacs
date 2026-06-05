@@ -1437,14 +1437,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20260604.1359")
+   (version "20260605.902")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "0f5e2f8579316d688bf68b88d0d6fcc38a6bfa39")))
-     (sha256 (base32 "14v0svkwjvypi4sc6ailydpg5gjv0nvrq0mb44m2c5qdvaa07vnn"))))
+           (commit "4547693e077d4cb9098451c8a62ebdb2c8763a7e")))
+     (sha256 (base32 "12kkqiyyl58rj7b3krcwg8d1d45kb7axrhp9031m889k3zsbsyri"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260605.256")
+   (version "20260605.923")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "b2badff2acc1274fac1648c7a07e0f11edf6d826")))
-     (sha256 (base32 "06qdjskydln8nlyz9pz72px8wv5sz4cszpp34a6n9pzvpx9sandp"))))
+           (commit "8301ff3af4b513934b1aeba6dfdc58015615cfab")))
+     (sha256 (base32 "168ay2irk5hdx93fdjj2q6dirririchbn0vlypy46zl1kaci3qg2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -2756,14 +2756,14 @@
 (define-public emacs-anki-editor
   (package
    (name "emacs-anki-editor")
-   (version "20260508.1435")
+   (version "20260605.551")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/anki-editor/anki-editor.git")
-           (commit "a6cd1244465bdd350864f20648126712e241c99c")))
-     (sha256 (base32 "0w9g4vw7ayf6zk0damlmpwdrc7jl9213gjn08b7x1q1x2z2wxijj"))))
+           (commit "7089c15f3151e0318e3d7d801f6b87eeeb25d226")))
+     (sha256 (base32 "0mmnk8dnliad97jw25ck2h61v8065qjgxl3sm1k0l60x5knwl6n3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/anki-editor/anki-editor")
    (synopsis "Minor mode for making Anki cards with Org")
@@ -27055,14 +27055,14 @@
 (define-public emacs-embark
   (package
    (name "emacs-embark")
-   (version "20260531.2306")
+   (version "20260605.553")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/oantolin/embark.git")
-           (commit "79ac772a21513681572ff5b334fc39dc2c99e409")))
-     (sha256 (base32 "1zg63ylq5pd6ap0qjd0akgv9fz4lkcm4yv0mq330lwcixxbmwypk"))))
+           (commit "557d933f3a53dbccc750cfbe70c38ad6a17ac866")))
+     (sha256 (base32 "1s16sdsxkg70b9vshp78gjpj9kghy1c452pk1i3gvbzf6bs168qj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files ("embark.el" "embark-org.el" "embark.texi")))
@@ -30022,7 +30022,7 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260605.44")
+   (version "20260605.255")
    (source
     (origin
      (method git-fetch)
@@ -42566,14 +42566,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260530.855")
+   (version "20260605.521")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "f342b3010f135ca4a38b02564b50b2d3e66554cf")))
-     (sha256 (base32 "1cgkqz6gwlaxf077jgdh3q75kdvjm3jkh2270hs10rwbls05dlm9"))))
+           (commit "4932cf776c430bc86344b79dcff5159f76ce12a6")))
+     (sha256 (base32 "1j8ifs2g66lfak7x34bs2f1b1xav7j2nbhci6i2vwmq5ijhd1a4b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -42584,14 +42584,14 @@
 (define-public emacs-gptel-agent
   (package
    (name "emacs-gptel-agent")
-   (version "20260523.600")
+   (version "20260605.732")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-agent.git")
-           (commit "f8cab0368918672a329ea3caf5cd64b6db1722eb")))
-     (sha256 (base32 "16prflq6mbh51r5h32fl4xhi815xdd3nyxh2fib6qvcqsv8cqmgh"))))
+           (commit "2853a579154cb4528082a372db79ecdec1eb17ad")))
+     (sha256 (base32 "0bg8r1zg4cy5yzakvbyca0nclbi8flyflqy2pwxp60j9pwnnhk4x"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-gptel emacs-yaml emacs-orderless))
@@ -56197,7 +56197,7 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260605.121")
+   (version "20260605.301")
    (source
     (origin
      (method git-fetch)
@@ -58540,14 +58540,14 @@
 (define-public emacs-linkode
   (package
    (name "emacs-linkode")
-   (version "20240604.53")
+   (version "20260605.352")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erickgnavar/linkode.el.git")
-           (commit "5152aa3ba7a4360133efd5892f0891837af30440")))
-     (sha256 (base32 "0c9ly7lf1ydn3zjqn265vkjq4n4qn3xvr4lhs66gh2krk8qrm9cm"))))
+           (commit "8bfb80ca046bc0c942a14effef354722ad8a8a6c")))
+     (sha256 (base32 "151115q9c1l87c4kv60nv4py0h121wrxr5xs2asibh9p3773zx3m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/erickgnavar/linkode.el")
    (synopsis "Generate a linkode snippet with region/buffer content")
@@ -61066,14 +61066,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260604.555")
+   (version "20260605.455")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "449d68e5db685ab95094df0db76b056e4d8a126f")))
-     (sha256 (base32 "1xij5lbbnh8ahmj8zq9c3k9d6gvss2h6lwqgjhfwygbky8hlnwrx"))))
+           (commit "ee1175c1417eaaffe98953d70746fb113f077c1b")))
+     (sha256 (base32 "1wl8qsrlhq7rxkkq2aalnaad2gy1k939imzsxn8d8fc3is1knpgv"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -61089,6 +61089,7 @@
        "docs/AUTHORS.md"
        "LICENSE"
        ".dir-locals.el"
+       ("githooks" "githooks/*")
        ("git-hooks" "git-hooks/*")
        (:exclude "lisp/magit-section.el"))))
    (home-page "https://github.com/magit/magit")
@@ -69340,14 +69341,14 @@
 (define-public emacs-oai
   (package
    (name "emacs-oai")
-   (version "20260526.2156")
+   (version "20260605.649")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "b2beae5c01032445d0910a06e2d08d4c8fab1bd7")))
-     (sha256 (base32 "1vwghi46iwgsvvnk46hbx4mhykms33998lh0ghv41qr0d8f9ncwd"))))
+           (commit "c3aa204f5538d6b125fb86372ba5d6baeb3d35a0")))
+     (sha256 (base32 "1nzfp5ns8yrpwbmbg7bxj46p0dy5s9sim3klw8n5891hji0pmdsk"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-oai")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -73848,14 +73849,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260424.1321")
+   (version "20260605.743")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "00b73f7ca78d4518ef20eb787a0afb638b8726c4")))
-     (sha256 (base32 "0xmk81vrz1d5s3jd6r67q11xq71vh9fhv1qhhnj0cah1pr1w67g5"))))
+           (commit "e459057bfcbbe5c0eb4002fefefb907e59b39e0a")))
+     (sha256 (base32 "0bclhz28z9258vgy9998p9k8i56ma9hqnx6bsjj122aa3mx8p3hc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -97271,14 +97272,14 @@
 (define-public emacs-sumibi
   (package
    (name "emacs-sumibi")
-   (version "20260516.647")
+   (version "20260605.425")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/Sumibi.git")
-           (commit "de689010700597076adad241411a19255cfcdc6d")))
-     (sha256 (base32 "1fjlx9rzzvjm7jj0m9mrryzsfhii5hbja392z3sgrbd697abaw9i"))))
+           (commit "1f80d06f0ac3a31e2370f8cd8eb5eaf4e9022f00")))
+     (sha256 (base32 "1nqlina225dikh2iay1d9nc2r3zb3gzc1i108dzacalksbxh78c8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-popup emacs-unicode-escape emacs-deferred emacs-markdown-mode))
@@ -106084,14 +106085,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260308.1107")
+   (version "20260605.816")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "4433949421f302edefb575896265f11a261275bf")))
-     (sha256 (base32 "0f30icbk4z5l5b3bkww4y00rlb94cnpr3cc108p5rba4f9kffga0"))))
+           (commit "36914ed93cb8c61fac989c88b86cf8ecdd39c359")))
+     (sha256 (base32 "17qrj170jvgwn1p4vxn4y0wpvl8s0k8jxhv4yl8nhzi2rhnh91wd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -106120,14 +106121,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260331.601")
+   (version "20260605.808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "5bf32360d5107053a2b7ee9e75e647faa1f099c7")))
-     (sha256 (base32 "04n5c3rl9y479cg98j37l5r4k13bc5jjnzl43yn9czyf9556b0vd"))))
+           (commit "a4bf66fc6d245a5a3b4c5d50024ac0d19b5f3d0e")))
+     (sha256 (base32 "0ypk6w37wqn75kzvgdw6b8g2a8l32q4y9w86cxw5a4cfj7z8jjcj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
@@ -109318,14 +109319,14 @@
 (define-public emacs-yaml
   (package
    (name "emacs-yaml")
-   (version "20260113.653")
+   (version "20260605.834")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zkry/yaml.el.git")
-           (commit "f2369fb4985ed054be47ae111760ff2075dff72a")))
-     (sha256 (base32 "1fb7hgb6r0pk30w2vdcci494rrn337ibjvq7xj1ihj2cv2xk8pdb"))))
+           (commit "5546f36bde24a9a8c1934e0f6ce205cd41d72537")))
+     (sha256 (base32 "06s7hl8gn80r7ydvgraml3i51iprmvllz15flfrv7y02ncz98jd5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/zkry/yaml.el")
    (synopsis "YAML parser for Elisp")
