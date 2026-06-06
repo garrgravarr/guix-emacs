@@ -1437,14 +1437,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20260605.902")
+   (version "20260605.1307")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "4547693e077d4cb9098451c8a62ebdb2c8763a7e")))
-     (sha256 (base32 "12kkqiyyl58rj7b3krcwg8d1d45kb7axrhp9031m889k3zsbsyri"))))
+           (commit "b6f0205742d965f3586e83506d003d1b002ac955")))
+     (sha256 (base32 "0fsgml7rzzp6pckgvybn24mkixl1zzwjvjpa1znv6554c4rva4rp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260605.923")
+   (version "20260605.1559")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "8301ff3af4b513934b1aeba6dfdc58015615cfab")))
-     (sha256 (base32 "168ay2irk5hdx93fdjj2q6dirririchbn0vlypy46zl1kaci3qg2"))))
+           (commit "bfc3e727ec0eb20a0a9467b835ad0e6134e65c25")))
+     (sha256 (base32 "0ifzq58wrcnyz266vyha6vgar9gy69pw37gm88vbzfdax3ksayld"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3662,14 +3662,14 @@
 (define-public emacs-asciidoc-mode
   (package
    (name "emacs-asciidoc-mode")
-   (version "20260604.1958")
+   (version "20260605.1209")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/asciidoc-mode.git")
-           (commit "3da2bb193970fe68d0afe71a2a8d6a81797b4471")))
-     (sha256 (base32 "0wj4hj3yd9sf06yjsmz4q2z2gbh4s0q0gnhwa7rf31qrc5abm1vz"))))
+           (commit "7a683051f3a0dbc75b631ee038ceb904fffd9d1c")))
+     (sha256 (base32 "1spcynqhjj6zhq07rpbf7363lm6w2dn7j61mp8p2gws4rh5h3a9w"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/asciidoc-mode")
    (synopsis "Major mode for AsciiDoc markup")
@@ -14997,14 +14997,14 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260524.1426")
+   (version "20260605.1856")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult.git")
-           (commit "1702e854b55adbd51242a0f7de96a72a7e10349c")))
-     (sha256 (base32 "11kmrzlfb2b7b4v81nrn7galhvqsggarkxzddpmbvs4gf9gp47h6"))))
+           (commit "9bb68cf3941eb618fff18bd7626164951c70eb8a")))
+     (sha256 (base32 "02ain9sqvivhhy1fbxv7ayl6mshaiz484y2gcifvml1wjrnygwr2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/consult")
@@ -15162,14 +15162,14 @@
 (define-public emacs-consult-flycheck
   (package
    (name "emacs-consult-flycheck")
-   (version "20260322.16")
+   (version "20260605.1858")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult-flycheck.git")
-           (commit "21c74a96e787606f8572453b17f6912c3755be42")))
-     (sha256 (base32 "1sxkyxqkgxcysqyapjsylwanas419wz8y59q9prdld0sm57npjsa"))))
+           (commit "9dd95361669f87e14230376f4f93c6b9a222c497")))
+     (sha256 (base32 "1n8n9wd4rn3x8kqyrlimb1hhm3nwgh7vawg7hjy63mfmvcfgrlqk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult emacs-flycheck))
    (home-page "https://github.com/minad/consult-flycheck")
@@ -19770,14 +19770,14 @@
 (define-public emacs-dicom
   (package
    (name "emacs-dicom")
-   (version "20260524.1913")
+   (version "20260605.1901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/dicom.git")
-           (commit "0ab96221ba65bddaa56a781c59f7bbed2b76f50c")))
-     (sha256 (base32 "09hr0qy8fsgii3j3322fap0ng4p274lg0wkxpd2pvkf0xyr75n0m"))))
+           (commit "170f7cd972cba74fa452abcae055b8b213e23ef4")))
+     (sha256 (base32 "1dvr7p0pgyj89yarqly5qwbikp42g1wfrqnrk27zsikygac7b6ay"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/dicom")
@@ -26246,14 +26246,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260604.2212")
+   (version "20260605.1826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "9e16d0e73134e8f30687bbefd1b6489c98b157c6")))
-     (sha256 (base32 "1jiibygr5h3na5l645h7f1xczn0l98vbxqz0r94l2z6aahnm0glv"))))
+           (commit "b122f2e043313d470fa68c0c1e042e3dec536cbf")))
+     (sha256 (base32 "1pv85p94w8yr81bll30mwlwyb30rsw3sx81lwznghg5jvi8bb875"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -27055,14 +27055,14 @@
 (define-public emacs-embark
   (package
    (name "emacs-embark")
-   (version "20260605.553")
+   (version "20260605.1733")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/oantolin/embark.git")
-           (commit "557d933f3a53dbccc750cfbe70c38ad6a17ac866")))
-     (sha256 (base32 "1s16sdsxkg70b9vshp78gjpj9kghy1c452pk1i3gvbzf6bs168qj"))))
+           (commit "c2afd0ace3a5a0e995f07dccd97d84a68685c5c6")))
+     (sha256 (base32 "0j7w98rh66zl8j5hkyiyrn0ksv725vi05b5krjjvn35x6aaxmfg6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files ("embark.el" "embark-org.el" "embark.texi")))
@@ -27219,14 +27219,14 @@
 (define-public emacs-emcp
   (package
    (name "emacs-emcp")
-   (version "20260525.844")
+   (version "20260605.1624")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martenlienen/emcp.git")
-           (commit "ac5006e6556f59f8105aba398c26d504988837be")))
-     (sha256 (base32 "0zh3jycbpm2116dh9hpzxmpgdv128x5g23qcyqvazy0yz751z927"))))
+           (commit "c9538e3b0de3dcc174d1729751992a8bc250b88c")))
+     (sha256 (base32 "0zslsy9spj6rri1y2d5pxcp5mxqwjgr326pkfp5gdv9676l8m9vx"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-http-server emacs-elisp-refs emacs-magit-section))
@@ -36091,14 +36091,14 @@
 (define-public emacs-flymake-bashate
   (package
    (name "emacs-flymake-bashate")
-   (version "20260602.1355")
+   (version "20260605.1304")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/flymake-bashate.el.git")
-           (commit "4893738819306517736e3f8ea8aeebadb4df4bf9")))
-     (sha256 (base32 "1g4vh6kcgla3mdwrbjzfmcljxfd8bmb67w64n7j73xgg3sm867dd"))))
+           (commit "e36eab741444112bcc1a0cd95b7eb878b82e31da")))
+     (sha256 (base32 "1nbh6m8c121ql78ziw86ydvf66b4277hw66i7m5zh6g638davy6v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flymake-quickdef))
    (home-page "https://github.com/jamescherti/flymake-bashate.el")
@@ -39723,14 +39723,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260604.2049")
+   (version "20260605.1810")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "5779a2adceb2a173978adbc0288135479433445c")))
-     (sha256 (base32 "0f87mlngbxc1plqbbj0c3ckhqdzyx8v5wi44qc4lnwyh76s6y6ig"))))
+           (commit "fd22a525ff201200990eab39390dda87f5307b57")))
+     (sha256 (base32 "15pa7s4hvc91ph8zjchp7v21mi0aryj9fcpbarm4qj994h85fb05"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -42566,14 +42566,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260605.521")
+   (version "20260605.1732")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "4932cf776c430bc86344b79dcff5159f76ce12a6")))
-     (sha256 (base32 "1j8ifs2g66lfak7x34bs2f1b1xav7j2nbhci6i2vwmq5ijhd1a4b"))))
+           (commit "bd2419a36f443edde22ae34f23aafbda1cbd5738")))
+     (sha256 (base32 "1jvgih0051v612yd7i76hjxf28f0bw0407ji9zw4vh8ax6ylzb7b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -49447,54 +49447,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260604.1857")
+   (version "20260605.1624")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "f298d78b14d110eedb6baa2a8328c808dd556256")))
-     (sha256 (base32 "02ng8wr153cf4j022mv2cczmh40id7jm6mg54fddk32z7838gbk7"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "0b2v9b34j4x74b4a2vdl313310qpvw8vxsrbh2nyrlq5h4gmgvhm"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -60797,14 +60759,14 @@
 (define-public emacs-mac-ime
   (package
    (name "emacs-mac-ime")
-   (version "20260601.1120")
+   (version "20260605.1210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ma0001/mac-ime.git")
-           (commit "78897611bc10ba0f5cd5aa907fa16c1297ac004c")))
-     (sha256 (base32 "1c7ww2mrkygh7ydhf7gddrypdw8ik7gxq0d4k0ss9g02phb4fdgq"))))
+           (commit "0a8f40c6ad8d02f9b99e3eaa5a68e625b87e7f30")))
+     (sha256 (base32 "0db1sg51z7n7skigsz329fzrb5q2jh4lgslb98b5kk9y8p0lkirs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ma0001/mac-ime")
    (synopsis "Seamless macOS IME integration without any IME patches")
@@ -68387,14 +68349,14 @@
 (define-public emacs-no-littering
   (package
    (name "emacs-no-littering")
-   (version "20260601.1518")
+   (version "20260605.1120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/no-littering.git")
-           (commit "a279e2606f749e35e9af3d9f349484ee379eda84")))
-     (sha256 (base32 "1b40aphl084wwi6pi0dvxihkysl67z2gvhjhi1yadd4qn3hbxy73"))))
+           (commit "8e8e427f332a501b0a35b5de518d474c87c178d9")))
+     (sha256 (base32 "188vcm99izdbh11vws84vpmm496ldv7kbgj3lic5jpc4a5400n17"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/emacscollective/no-littering")
@@ -84939,14 +84901,14 @@
 (define-public emacs-pygn-mode
   (package
    (name "emacs-pygn-mode")
-   (version "20260604.2252")
+   (version "20260605.1055")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dwcoates/pygn-mode.git")
-           (commit "76aba38fa82158d09548729b834a8766073720c8")))
-     (sha256 (base32 "16wnn3sdaib2x089758fa40m5b741diwd5xb9k6a51dvi299an6a"))))
+           (commit "cb48544d9f2ebbac556b0a31e3309108d912452b")))
+     (sha256 (base32 "1wvnsy0qhzkfz0rsci4xi2a0a8h04wcdaj9skpv9xai5g8kj5li1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-tree-sitter
@@ -105165,14 +105127,14 @@
 (define-public emacs-vertico
   (package
    (name "emacs-vertico")
-   (version "20260521.2003")
+   (version "20260605.1903")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/vertico.git")
-           (commit "6e45be6105819297da8472dd8f37a38eb4a0b6e5")))
-     (sha256 (base32 "1k9526wxqy1m37ks0qj20bax56nyvsp0x743smbyz1fsr9099sdk"))))
+           (commit "6028bd3d32c99c28e2b938e5e5393ec3508d2424")))
+     (sha256 (base32 "0hzl3p7b62f3p2419c5d7340h7y6ry2xhwdds166wfcgwpwnm7m6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/vertico-*.el")))
