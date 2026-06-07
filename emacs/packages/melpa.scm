@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260606.1946")
+   (version "20260607.815")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "080522bfb11e59d4a9dd9ed31bfb0b2e9c96fd33")))
-     (sha256 (base32 "1j48izchzcac7d3wac64yb8qg60f6c8y4j29xwhcn49x9i7jfdhi"))))
+           (commit "e58909d79ae8b57ca392560a9e66e653902fe60e")))
+     (sha256 (base32 "185bdv86gax34qgvaliza7gjlgb029mmzxyhhdqmcz18hac4n2z0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -25595,14 +25595,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260606.2145")
+   (version "20260607.857")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "f2720d052fe336eb647e3f09b0838abc35795df4")))
-     (sha256 (base32 "0cq0bf2rcisb03l9mf5nb9gi63adkjmg30rgc0ap9sp7pfdyy65p"))))
+           (commit "57bfaea6322af8e5fd9329978e33c744ec347097")))
+     (sha256 (base32 "1fcmf0qb0msn9ac4ka790x6hmmsdzg8pqc15cl49dk8mlp4rfgx2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -30258,14 +30258,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260604.1159")
+   (version "20260607.711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "f1324a1fc58dea381224e0fd08306a70fe109777")))
-     (sha256 (base32 "1q06sqx17am3a7wpygra2hzah9jf1h1ddkcc85dfmir2gmfhs179"))))
+           (commit "bdc8205f1a6072aaae76fed2085a7fab865f2b8b")))
+     (sha256 (base32 "0cv5z41vi22a4ygc66m2vdvm0y11c8ypfqlif43ds3dfrixg5l8x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39723,14 +39723,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260606.552")
+   (version "20260607.711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "a614f0f30d8a65da928a840e62cc9b2c6a1381af")))
-     (sha256 (base32 "1zkkpb7g4kw3xzbqyw7gjk1bsbdzwlh865pxrpssd6yl0mzcjvmw"))))
+           (commit "bdc8205f1a6072aaae76fed2085a7fab865f2b8b")))
+     (sha256 (base32 "0cv5z41vi22a4ygc66m2vdvm0y11c8ypfqlif43ds3dfrixg5l8x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -80193,14 +80193,14 @@
 (define-public emacs-pg
   (package
    (name "emacs-pg")
-   (version "20260502.1102")
+   (version "20260607.1014")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emarsden/pg-el.git")
-           (commit "67eb8564c6b974bc8f9a22053d1ff7ebec2e7dc3")))
-     (sha256 (base32 "1il3p0pckmyrkr5sbrv04wnyqmy7pfknlps5lp56r294x59bdyw7"))))
+           (commit "7426269673da42ed6706db44d2b7d1696ede95f6")))
+     (sha256 (base32 "1nfbzyidzlrhxvsk2z50l67lss9lgl4fswm23iyfkzbqqxiwm3w3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-peg))
    (home-page "https://github.com/emarsden/pg-el")
