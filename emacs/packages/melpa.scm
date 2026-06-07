@@ -1823,17 +1823,17 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260605.312")
+   (version "20260607.1607")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "c8838a691160987744493db80aff07df3436c10e")))
-     (sha256 (base32 "099vv54caac72ssjb6jkivrkgrnsda3yqsjz323l0krklvgjlgdl"))))
+           (commit "788fd463686cd0f6d4e1cc3d2f0800e7384eeedf")))
+     (sha256 (base32 "0gzqdc0d1p7gbjqb29qwwpflnadl3b7ss7ckxxjqg03avhiza9d1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
-   (arguments '(#:files (:defaults "snippets")))
+   (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
    (home-page "https://github.com/tninja/ai-code-interface.el")
    (synopsis "Unified interface for AI coding backends")
    (description "Documentation at https://melpa.org/#/ai-code")
@@ -5323,14 +5323,14 @@
 (define-public emacs-awqat
   (package
    (name "emacs-awqat")
-   (version "20260607.19")
+   (version "20260607.1404")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zkry/awqat.git")
-           (commit "95129a06d27ab0ca99207147aac170356c47d70d")))
-     (sha256 (base32 "0wyd24cdjw10x6842215w0ifgpjdk3hhmwj1kqdyhmv992cvj5fg"))))
+           (commit "8aa6b390f935f7471fe233905c6755f6e7354b5f")))
+     (sha256 (base32 "1rjv6ilgvx8d1p9h6infcdpi5h8l8ms4p3w025b3sl4srn4dysv5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-alert))
    (home-page "https://github.com/zkry/awqat")
@@ -6920,14 +6920,14 @@
 (define-public emacs-biome
   (package
    (name "emacs-biome")
-   (version "20250623.1954")
+   (version "20260607.1500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SqrtMinusOne/biome.git")
-           (commit "b26c0a6ec533ba5c3524721af224708de9362979")))
-     (sha256 (base32 "0fsh21fgrqw0mlh1kwn7idk0sdah5yxlwwcz8f847pj0w1n4rvxg"))))
+           (commit "77a94f3c5210b80b63d5002c4780e542cd98a65f")))
+     (sha256 (base32 "1n2am7gf28nlz7pxb02x5nvy0911x0z61az9vasl9i47ff9yzch4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ct emacs-request emacs-compat))
    (home-page "https://github.com/SqrtMinusOne/biome")
@@ -10074,14 +10074,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260531.807")
+   (version "20260607.807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "2cf2ddb9c8e7a0e909b3606ce65f7f6e3c485920")))
-     (sha256 (base32 "175mjjxjr98mca47p7fs5clcig8q75n0jbcc7qyzmgfriqhpwnhl"))))
+           (commit "b9dcb0970e87be36c1e597481c76141c9892e44a")))
+     (sha256 (base32 "1j10i1v5blycz5c1n8n33xwkw473i2rxc48k2m6h32hgb8mbwn1s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -12204,14 +12204,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260602.602")
+   (version "20260607.347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "59796c0cb42a2d73d3b8619679f96bc867334043")))
-     (sha256 (base32 "08v97g0j90znz5pr2zdy7hbmd61d7gnxjs5nwb861bj12whcxd2v"))))
+           (commit "198dec69653739907a510e206f5367cd5e2c73f0")))
+     (sha256 (base32 "025y59hrkzh2whdhmikjxl4xw46wbbp5c6h1dhrii560fwjbj1yl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mysql emacs-pg))
    (home-page "https://github.com/LuciusChen/clutch")
@@ -17507,6 +17507,23 @@
    (description "Documentation at https://melpa.org/#/cue-sheet-mode")
    (license #f)))
 
+(define-public emacs-cui
+  (package
+   (name "emacs-cui")
+   (version "20260607.231")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/Anoncheg1/emacs-cui.git")
+           (commit "b1975a60f2c04e39d843e0e2aed1cee04838fea5")))
+     (sha256 (base32 "0g4s1vyjhbk2kiiqkj3h4s1sabr5y76vsii0qr3adfxkyvylyjj1"))))
+   (build-system melpa-build-system)
+   (home-page "https://codeberg.org/Anoncheg/emacs-cui")
+   (synopsis "AI-LLM chat blocks for org-mode")
+   (description "Documentation at https://melpa.org/#/cui")
+   (license #f)))
+
 (define-public emacs-curl-to-elisp
   (package
    (name "emacs-curl-to-elisp")
@@ -19490,6 +19507,23 @@
    (description "Documentation at https://melpa.org/#/describe-number")
    (license #f)))
 
+(define-public emacs-desert-theme
+  (package
+   (name "emacs-desert-theme")
+   (version "20260606.1836")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/bkc39/desert-theme.git")
+           (commit "a334abfe4d624cb37bb4a2dc309f8623f42b74d1")))
+     (sha256 (base32 "1yglxj03k9ffh0ywp5285q9pczzkcnpkl6w7rjb959d5n5arcfmk"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/bkc39/desert-theme")
+   (synopsis "A warm earthy port of Vim's desert theme")
+   (description "Documentation at https://melpa.org/#/desert-theme")
+   (license #f)))
+
 (define-public emacs-desktop+
   (package
    (name "emacs-desktop+")
@@ -19875,14 +19909,14 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20260607.204")
+   (version "20260607.1545")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "f799130938ef6a313ee49ce89552b4eb84917a15")))
-     (sha256 (base32 "17xfn0rjd2ykmw1mfqig1ak4z2ls9icvaa5dmdc5650wsk2n3430"))))
+           (commit "8348feb89b133d9064bab8b0c4d57aab63ea5f1a")))
+     (sha256 (base32 "189nla5rnmfrgy80w0ymrzqsni92dkci6hswxkp1f3gjg50y4c2n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
    (synopsis "Highlight uncommitted changes using VC")
@@ -25778,14 +25812,14 @@
 (define-public emacs-elfeed-summary
   (package
    (name "emacs-elfeed-summary")
-   (version "20240929.2043")
+   (version "20260607.1418")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SqrtMinusOne/elfeed-summary.git")
-           (commit "76b4b93838b0420a114f934bbf8c09f25bf6ad16")))
-     (sha256 (base32 "0ic2nzs88ck4f5vkk8m7sln2hawglnj4b2vzfl80vlip13dj3l3a"))))
+           (commit "d8f237530c05c8be3093af295d3f5d530c2d3130")))
+     (sha256 (base32 "1b2kfjjk8kk4hl6mswjh74hklmx494ra4m3lzrkx2yrmj3mmgw0w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit-section emacs-elfeed))
    (home-page "https://github.com/SqrtMinusOne/elfeed-summary.el")
@@ -27219,14 +27253,14 @@
 (define-public emacs-emcp
   (package
    (name "emacs-emcp")
-   (version "20260605.1624")
+   (version "20260607.1313")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martenlienen/emcp.git")
-           (commit "c9538e3b0de3dcc174d1729751992a8bc250b88c")))
-     (sha256 (base32 "0zslsy9spj6rri1y2d5pxcp5mxqwjgr326pkfp5gdv9676l8m9vx"))))
+           (commit "7bc0e6df5f39fa4c517e27531a2c22926c39361a")))
+     (sha256 (base32 "061mqkv2li6ixc3qx73yh86xykkzsf3ini64dc9bw1vna6jiszcx"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-http-server emacs-elisp-refs emacs-magit-section))
@@ -56159,14 +56193,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260605.2103")
+   (version "20260606.2250")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "e129fd9528487253d7bcc1aa13d583f62a47ccd6")))
-     (sha256 (base32 "0zfyxz6xwgm4rgmw4npacby0z18dphx5wdl2npfy09zl59vxjdp0"))))
+           (commit "ecbd63577a1f41abfbc330bc9e3a448e482be197")))
+     (sha256 (base32 "1lnhfh1mxb1mq2248xlc1zj0cq1bi9kvaq4mr9f2ihisvkfyv3x9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -69298,23 +69332,6 @@
    (home-page "https://github.com/GuidoSchmidt/emacs-nyx-theme")
    (synopsis "Dark theme")
    (description "Documentation at https://melpa.org/#/nyx-theme")
-   (license #f)))
-
-(define-public emacs-oai
-  (package
-   (name "emacs-oai")
-   (version "20260605.649")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/Anoncheg1/emacs-oai.git")
-           (commit "c3aa204f5538d6b125fb86372ba5d6baeb3d35a0")))
-     (sha256 (base32 "1nzfp5ns8yrpwbmbg7bxj46p0dy5s9sim3klw8n5891hji0pmdsk"))))
-   (build-system melpa-build-system)
-   (home-page "https://codeberg.org/Anoncheg/emacs-oai")
-   (synopsis "AI-LLM chat blocks for org-mode")
-   (description "Documentation at https://melpa.org/#/oai")
    (license #f)))
 
 (define-public emacs-oauth
@@ -85331,14 +85348,14 @@
 (define-public emacs-python-mode
   (package
    (name "emacs-python-mode")
-   (version "20260410.1849")
+   (version "20260607.1501")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/python-mode-devs/python-mode.git")
-           (commit "c6f7bcd79d43b2a4915b75c481355601f95968a0")))
-     (sha256 (base32 "09hhiwsk08c34h8v98q1s4g09byvj3r1dn18agl4x1v2528fiszk"))))
+           (commit "9079ae4da04d5f824c094e424946a9545a99db17")))
+     (sha256 (base32 "1qb602xya6ba7f1ad72ranjxk04gxj915a308sa8i0qjsbi7632x"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files ("python-mode.el" ("completion" "completion/pycomplete.*"))))
