@@ -17510,14 +17510,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260607.231")
+   (version "20260608.706")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "b1975a60f2c04e39d843e0e2aed1cee04838fea5")))
-     (sha256 (base32 "0g4s1vyjhbk2kiiqkj3h4s1sabr5y76vsii0qr3adfxkyvylyjj1"))))
+           (commit "fcf17e32ed675d42f8679fd443216fdf44a6bbc2")))
+     (sha256 (base32 "06pc8wplxm86q4bp1mzccm9mbrygr6j1a9h3cf748z0gfzvan0rm"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -32203,14 +32203,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260602.833")
+   (version "20260608.739")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "09bc206ae4584616025bc9f8bdd0b81b9c889daa")))
-     (sha256 (base32 "0iywh5aywm14brr9klslyxnn72svdp9vrav7nag8p09ckvgkr0xa"))))
+           (commit "8d980ea9fed108150da91dbbfd1db1d1406b1918")))
+     (sha256 (base32 "1phlgf0vznjb66jgilx2ybgkzns2w1sahln5jir8gdqcqm45zykg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -42600,14 +42600,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260607.114")
+   (version "20260608.745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "c35b7d83ad9ee66d86c3139b47e588965efe21cc")))
-     (sha256 (base32 "1a8hcnhm3fz1glkyx4x82fgdf83ryr8vhvwibqas9m1ivdmywpfm"))))
+           (commit "c2c9ef78120ff1121b7bcd575ba18809b9c23f48")))
+     (sha256 (base32 "1fs0vvw9890cdsnp4c6f6v554zdb95r7n9jsxchwdw635cbyy0hf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -61081,14 +61081,14 @@
 (define-public emacs-magik-mode
   (package
    (name "emacs-magik-mode")
-   (version "20260525.1753")
+   (version "20260608.944")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/roadrunner1776/magik.git")
-           (commit "a6c2731d80a32d5fa0b816c53f4b0edf90abf60b")))
-     (sha256 (base32 "0bs56mzx87yrgkvwr8h27wwkj3jf1b47x57dyjvc4jkbmvxfl021"))))
+           (commit "4de861014274ef9c980112c204e116ee35ee224a")))
+     (sha256 (base32 "1yywf192bi0frvrg1x3vvnmjbs2mxpv39fm8ircvawyln5n1cgnp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-yasnippet))
    (arguments '(#:files (:defaults "snippets")))
