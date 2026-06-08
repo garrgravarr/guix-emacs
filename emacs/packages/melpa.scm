@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260608.9")
+   (version "20260608.1452")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "e9dbe523f841385e9bc6b665bc4c36b06e082e30")))
-     (sha256 (base32 "1w32r762gh3kps7xz4xv5lbiwi0sv9fjlaz18i3xmzmh93gpskyi"))))
+           (commit "d72f4b728d0d9bd4acee4539d484a395aa75873a")))
+     (sha256 (base32 "0zjc7qz8z1bm12690r0hsbwv5g0229k211awhamikjj62z54g3fv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -13021,14 +13021,14 @@
 (define-public emacs-comint-histories
   (package
    (name "emacs-comint-histories")
-   (version "20260330.1650")
+   (version "20260608.1833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/NicholasBHubbard/comint-histories.git")
-           (commit "da9dddafa825a40cd1e25261bb088701c08a80d8")))
-     (sha256 (base32 "0j64ia11p7jlxvkyvjn3bls03qpin2j5amg7liy7fzc17hpjx5iy"))))
+           (commit "e13c5ac7f812bc6f7da57c4640600b97356bd02b")))
+     (sha256 (base32 "0axi8nkywysvbw311b9gbjpk0zr0mwqb93rd485mzpq93di537kp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f))
    (home-page "https://github.com/NicholasBHubbard/comint-histories")
@@ -19909,14 +19909,14 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20260607.2124")
+   (version "20260608.1239")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "f8ffd7782623f7e102cf39e66e30b2abaf74d91c")))
-     (sha256 (base32 "14yx0h865w9anhnqpr7p4vd8x93yy2vfvlcvnl8149jr70b7n3nn"))))
+           (commit "f202e46b3b026e3e777d1fc24513b940abe88302")))
+     (sha256 (base32 "1m68ld0m1g0f9iyzzwqjixxxqpzhzwlrz4g90kjdhr1qga61md1r"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
    (synopsis "Highlight uncommitted changes using VC")
@@ -22817,14 +22817,14 @@
 (define-public emacs-dtrt-indent
   (package
    (name "emacs-dtrt-indent")
-   (version "20251102.857")
+   (version "20260608.1055")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jscheid/dtrt-indent.git")
-           (commit "7c372bec8d84c247e4bd0d5599024d66ee300429")))
-     (sha256 (base32 "04p6avj8d15i6qswdfpgvdil5c13rcfmc4n2jili485zgpw14j81"))))
+           (commit "4b71bf995b12966bbc350a32796b9a5f11d67fa6")))
+     (sha256 (base32 "1xl2m790nq4yingv0fzkh223gp10l36ahrbvarlgkix0y7xq99mj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jscheid/dtrt-indent")
    (synopsis "Adapt to foreign indentation offsets")
@@ -23809,14 +23809,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260603.1941")
+   (version "20260608.1354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "8f60746b505ef1ddcc01bef0d0298f595af3f587")))
-     (sha256 (base32 "090p1j5mg831v0avp9c85hk9i8km08l75z35vk0fhy5r7ws3861x"))))
+           (commit "3004f3011d99841a903c2ffad3cde8e35754b335")))
+     (sha256 (base32 "098iqj2w0g4l6rn2z2ywp9ygg18c64vj647qhi972jprav02ml00"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -39757,14 +39757,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260607.2226")
+   (version "20260607.2228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "fa04bfebf152ba430af39bd1b71a15b5692daace")))
-     (sha256 (base32 "01gdl63619k17yw8a62xql791zcr9j57pnvyvpqcd2nsah2ygp5v"))))
+           (commit "436081e734ec40b44acca33da3479c0789220231")))
+     (sha256 (base32 "0kmb7v7q35rkjdzig83njc75q6a8x4klnfpwr5qzfi4j64ldildn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49481,14 +49481,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260607.1558")
+   (version "20260607.2236")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "8f36d43b2b45a01be0c66be83899d51bdd85b31a")))
-     (sha256 (base32 "08jsf2xmj3fgmli6gd5iydrc7xmm9k93p4q5ry25yc2sa0960sh0"))))
+           (commit "0bd7268f92362ac4bc88fc45501d20e57c9a1695")))
+     (sha256 (base32 "0iz8gskirhwrxw8jrjirrkhnlfr5dyajcp6wd77mzdpf8bz680bv"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -56231,14 +56231,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260606.2250")
+   (version "20260608.1220")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "ecbd63577a1f41abfbc330bc9e3a448e482be197")))
-     (sha256 (base32 "1lnhfh1mxb1mq2248xlc1zj0cq1bi9kvaq4mr9f2ihisvkfyv3x9"))))
+           (commit "77e967baf830aa411404ed695826f0b589bdc28a")))
+     (sha256 (base32 "03ql2x4npkw60mjvfn83gnp6dbshf6ikhj7558mwdk8qi695q2fc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -61081,14 +61081,14 @@
 (define-public emacs-magik-mode
   (package
    (name "emacs-magik-mode")
-   (version "20260608.944")
+   (version "20260608.1331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/roadrunner1776/magik.git")
-           (commit "4de861014274ef9c980112c204e116ee35ee224a")))
-     (sha256 (base32 "1yywf192bi0frvrg1x3vvnmjbs2mxpv39fm8ircvawyln5n1cgnp"))))
+           (commit "ba05cca022a2cc27ee655acd1f25779b245ff380")))
+     (sha256 (base32 "19biw69a6zpdb930v8innsnddh2ikx9fl6g5a9mw0ayczqv5kx87"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-yasnippet))
    (arguments '(#:files (:defaults "snippets")))
@@ -77032,14 +77032,14 @@
 (define-public emacs-outline-indent
   (package
    (name "emacs-outline-indent")
-   (version "20260522.1310")
+   (version "20260608.1221")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/outline-indent.el.git")
-           (commit "6ac04d2d1b43605696bf505de538099015885265")))
-     (sha256 (base32 "014wcnzfnaw1kf7acknrd3c98dr51rg3vh6jy3bddrgw58qjcw4x"))))
+           (commit "aede1b02f37c9fea468207acc2955beec2a65a2c")))
+     (sha256 (base32 "0rdiwfq0v0irn25n62cxzg21nz7637zq9s9zcghc6baiii3ajlmx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-kirigami))
    (home-page "https://github.com/jamescherti/outline-indent.el")
@@ -78309,14 +78309,14 @@
 (define-public emacs-package-build
   (package
    (name "emacs-package-build")
-   (version "20260606.2054")
+   (version "20260608.1618")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/melpa/package-build.git")
-           (commit "9bbffb87dfa1b5dcf55236003ef4b3a6eec159e7")))
-     (sha256 (base32 "0ml7gzaprwkya310lz25rqc3gqbn4gz268xnkqyjmcwh15pqj99d"))))
+           (commit "c072cbce615501bfeffdfcf7d05eecf5f11534a4")))
+     (sha256 (base32 "1j338kk66psgva6y9a0c10j6c14lf18bclvdhplrgwjsjlaja07p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "package-build.mk")))
@@ -100136,14 +100136,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260531.2249")
+   (version "20260607.1633")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "2661321b170fc8f41a2afa275bb66eb97e70f494")))
-     (sha256 (base32 "11w6nvgmdg4709gqq3lfhsfsggv6bsfv088ajdgrfkwahza26m4g"))))
+           (commit "8953094df6db4fae71762ee123553a2062227abd")))
+     (sha256 (base32 "0yc68sx9ah3crx5gfx50w0fscr3bk25mybx4qb6w6n05l2jibcbp"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -106120,14 +106120,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260605.816")
+   (version "20260608.1257")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "36914ed93cb8c61fac989c88b86cf8ecdd39c359")))
-     (sha256 (base32 "17qrj170jvgwn1p4vxn4y0wpvl8s0k8jxhv4yl8nhzi2rhnh91wd"))))
+           (commit "26a30a83ce0d2b1413e97bb3a60de7b8c649f451")))
+     (sha256 (base32 "0ikf8cqyyc9m73vj5hmd5hxcjmcl7rbd85q6dqfc136wxqldqwa8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
