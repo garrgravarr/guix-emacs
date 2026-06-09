@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260608.2319")
+   (version "20260609.900")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "6af6d6c41b6ca5abdd0fcc159c5add83a850a965")))
-     (sha256 (base32 "1cmilxd8lj4hwjsffsr6fh9a3nq5j2x785i5k0qkzivpjd5g6v6h"))))
+           (commit "ce50ab1341156a250f3e1ffd8571fcee91b054db")))
+     (sha256 (base32 "08hpb29jj0ljgdjn0fxzwyh1dm4y6hvrb62slhx2vqaf316qx9vh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -17510,14 +17510,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260608.706")
+   (version "20260609.751")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "fcf17e32ed675d42f8679fd443216fdf44a6bbc2")))
-     (sha256 (base32 "06pc8wplxm86q4bp1mzccm9mbrygr6j1a9h3cf748z0gfzvan0rm"))))
+           (commit "4c4b8c3531ac7602cba48be3a36661a50a172e43")))
+     (sha256 (base32 "1dzssaz6sryj5mghkrn459rbqrlw4a1jp8hh5b2mwvzq335gaqa8"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "AI-LLM chat blocks for org-mode")
@@ -19909,14 +19909,14 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20260608.1239")
+   (version "20260609.333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "f202e46b3b026e3e777d1fc24513b940abe88302")))
-     (sha256 (base32 "1m68ld0m1g0f9iyzzwqjixxxqpzhzwlrz4g90kjdhr1qga61md1r"))))
+           (commit "759e7f18bf8c92fdf742e678d360d660f6d41f10")))
+     (sha256 (base32 "0wlhnmvm5834czd274kpalync96zm3ccvq9mh9lzw288dm582qwz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
    (synopsis "Highlight uncommitted changes using VC")
@@ -45169,14 +45169,14 @@
 (define-public emacs-helm-core
   (package
    (name "emacs-helm-core")
-   (version "20260527.1741")
+   (version "20260609.500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm.git")
-           (commit "e53185833c9e7a702456bbd1905efe3d40a61aa9")))
-     (sha256 (base32 "1ff1yp0vbi1ynlvl0lsbz177xgc4x5y9k2c25b8g1i9dk0c5x6lz"))))
+           (commit "46b821d3bf8d5a4a53b2f6915ce59fd623720be9")))
+     (sha256 (base32 "18cfkszlfw73x67p97g1xfccpl1hl0a3xlmbd1ym0lz22il0rn9s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (arguments
@@ -57779,14 +57779,14 @@
 (define-public emacs-ledger-mode
   (package
    (name "emacs-ledger-mode")
-   (version "20260608.248")
+   (version "20260609.609")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ledger/ledger-mode.git")
-           (commit "47d882912e2b90c816b50a8900f77c5e966f8d77")))
-     (sha256 (base32 "0q5l43081x58qql5xpr0bzyjiwxpnvw2f5c4kwg18ry6qg36187x"))))
+           (commit "b0ee99feb2dcae5e304ad735d82d488f2191a51c")))
+     (sha256 (base32 "193m7nbpbp33i79y25g09ippxskpxsb8ixiyn6v1a1il0qjhf8rf"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("ledger-*.el" "doc/*.texi")))
    (home-page "https://github.com/ledger/ledger-mode")
@@ -61100,14 +61100,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260606.2041")
+   (version "20260609.956")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "f9bbd242a961716f154883d06593ff1e39cbf076")))
-     (sha256 (base32 "0w9838kgfxdgrxh7sw26ghqx4fxzqnl7m43123mc8bv1wdr3jpz8"))))
+           (commit "9fa5e22622c3917b52039994ced8c57157bebcfe")))
+     (sha256 (base32 "0z10m2dr8qg3g1zgmhdh3w1sdx2xjachvj97rfhh703zdswbh6rh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63488,14 +63488,14 @@
 (define-public emacs-meshmonitor-chat
   (package
    (name "emacs-meshmonitor-chat")
-   (version "20260515.634")
+   (version "20260609.557")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/andros/meshmonitor-chat.el.git")
-           (commit "79f1675afc914324a2ec55cc0c2a10f5c74bb97a")))
-     (sha256 (base32 "118998pzgkhjg7zzd6vs4pj20qzypd0nbylfy5999vshkpjx1sqg"))))
+           (commit "cb89039bb723301d2a69326f98ca1f141d6a0112")))
+     (sha256 (base32 "0bgfkbxxb650r7nd6xgwcdydz7kwfa0c99kv713r15lkmmlndj8z"))))
    (build-system melpa-build-system)
    (home-page "https://git.andros.dev/andros/meshmonitor-chat.el")
    (synopsis "Chat client for MeshMonitor (Meshtastic)")
@@ -109762,12 +109762,14 @@
 (define-public emacs-yeetube
   (package
    (name "emacs-yeetube")
-   (version "20260601.1621")
+   (version "20260609.525")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append "https://melpa.org/packages/yeetube-" version ".tar"))
-     (sha256 (base32 "1yclaf59yvkjz19gaziksydr3ndmawanh1jql1z1zdwrasv91lp7"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.thanosapollo.org/yeetube")
+           (commit "f88374d100e9a1005d62a9822a4038ff6f2d91e7")))
+     (sha256 (base32 "162gs3fdlx806s1riwjkky1s2qhh0vzxlhigj05j82ldn3s8kkf4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://thanosapollo.org/projects/yeetube/")
