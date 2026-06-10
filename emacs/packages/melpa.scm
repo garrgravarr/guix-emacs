@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260609.1951")
+   (version "20260610.815")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "c276aa58c7ada23a703e1dc206aa4329ac499506")))
-     (sha256 (base32 "1gkwnjxcxzsqn8drin74pph104jxj84y1km39hcidp4qzwzy5lzr"))))
+           (commit "0b32cadc56b5bb16fb623eb41c0ae9e74fdf287d")))
+     (sha256 (base32 "0180iwzqlwi62zd6fjj1mmxjm78c6ix38sdc9vjcp6zkfmnpllxv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -20209,14 +20209,14 @@
 (define-public emacs-dimmer
   (package
    (name "emacs-dimmer")
-   (version "20260609.1710")
+   (version "20260610.439")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gonewest818/dimmer.el.git")
-           (commit "58c0cec8dd3e3e40ccf5a620d24446e15e4e8913")))
-     (sha256 (base32 "0xyb9yrxbrw6pada0dny77kydd3ssdm4k6dbap6yjzngyc7paj7w"))))
+           (commit "2252760d2e62197ac440e68f0fbedafd2796da1d")))
+     (sha256 (base32 "0h6dmdi1qw3lf7h2ynaaiyba6j4gl841bpgzf29sxdi4g6kyaarv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gonewest818/dimmer.el")
    (synopsis "Visually highlight the selected buffer")
@@ -22204,14 +22204,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260530.1756")
+   (version "20260610.1625")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "0b660ed93a185c3edaf8d11c550b15cfeb348a69")))
-     (sha256 (base32 "1n4h144bakpayqvx4g6x17ymqsr7920rpvqf6npgp3yaadsysb3z"))))
+           (commit "ef31532e26c97cae48d45351f463bdcabca33225")))
+     (sha256 (base32 "07gcq7wv2g1p22x6z11klzni8h1i9xd0imsiydn9frikdi7a2m8x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -23809,14 +23809,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260608.2031")
+   (version "20260610.1530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "05bad7ea7b373eeafd8649d9a73dbf11528b477d")))
-     (sha256 (base32 "0kr8q07n30micfjrvn7mpilcc9d5sq957zx8vdq7swzm1vmzjgv2"))))
+           (commit "517c8024677cbdd3d4d96173148702cb4a5f7ff7")))
+     (sha256 (base32 "1wrr59wm81ndbnvpiyg5y6gg0h5kwg7bwlaikbad7cfpqn9ijn78"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -25629,14 +25629,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260609.2054")
+   (version "20260610.907")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "965ebc8625ecaf869e6d7d14a528b9d9cd728693")))
-     (sha256 (base32 "1dk6p347w9dq6bhr4ziz68mdq0c3xypjcwrfrxsvi262w6n4x0p5"))))
+           (commit "e556d0c841ae79718525a7cbfcc86b27aec49e72")))
+     (sha256 (base32 "0cybra4ggrs4p19a5fa1pmmx9pm19chnmzfyc5z8ik0qc50a3wij"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -28570,14 +28570,14 @@
 (define-public emacs-erlang
   (package
    (name "emacs-erlang")
-   (version "20260526.1408")
+   (version "20260609.1424")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erlang/otp.git")
-           (commit "14473713944c0ef7cc277712a2077ee22db56624")))
-     (sha256 (base32 "0kz8c3zg5ahavvxnmsnm641hn5sz7c18y9vkz5rfsvy1xhd4x6p7"))))
+           (commit "b4908ea06fb4a39c3378029e79dd575234dd5211")))
+     (sha256 (base32 "0ql7gjm910991kjvljwayqld51xi8j0xxd98a4ifd53lk5mrih8v"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -32376,14 +32376,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260501.1001")
+   (version "20260610.1353")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "0d1807f5d52f983798044b6e8f5824425b1dc7a3")))
-     (sha256 (base32 "0c9c1jgv8qg8pycbpr4rdn5iwm204xlz5k8p0crgal6nhgp04az3"))))
+           (commit "431451d324be544aad6a9f103c0c5f8ab8a05bb8")))
+     (sha256 (base32 "1gshk85a6nmbdi74667nlzlspnx15npqlm6mnwdhiqq7pg9qsj0g"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -42600,14 +42600,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260608.745")
+   (version "20260610.756")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "c2c9ef78120ff1121b7bcd575ba18809b9c23f48")))
-     (sha256 (base32 "1fs0vvw9890cdsnp4c6f6v554zdb95r7n9jsxchwdw635cbyy0hf"))))
+           (commit "6589abf7c51143f9424f3e402b29dd7755408781")))
+     (sha256 (base32 "1z7jpmdy3wp6d5yj4zpkpscygkxpapj9rpd1b7mwlm7ihp128yrf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -43246,14 +43246,14 @@
 (define-public emacs-grip-mode
   (package
    (name "emacs-grip-mode")
-   (version "20260529.310")
+   (version "20260610.628")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/grip-mode.git")
-           (commit "903ee9ebab2c00fb13f68d984b54a782c4294552")))
-     (sha256 (base32 "1df1qajvpv4qhmbdy5cnb666qlfgqd0m70h2iwqj6hfpdq73m70i"))))
+           (commit "6ed3f9739e4a3320ab063f923c00215f7ee5b5cc")))
+     (sha256 (base32 "0vgi7ji64xvy45qn84h2dysyhfngc331swkqc69216sl50d24vh8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/seagle0128/grip-mode")
    (synopsis "Instant GitHub-flavored Markdown/Org preview using grip")
@@ -61260,14 +61260,14 @@
 (define-public emacs-magit-gerrit
   (package
    (name "emacs-magit-gerrit")
-   (version "20250825.722")
+   (version "20250825.811")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacsorphanage/magit-gerrit.git")
-           (commit "37a4774c3cc401f849d57aaa2c105ca401f9983c")))
-     (sha256 (base32 "0pbh0w49jhvmgz6liravkn0ajdgzdapb13gpd8j6r4i6mw3n0v2a"))))
+           (commit "d95d6d3febf7f9c04a4abefa3640610aae626683")))
+     (sha256 (base32 "0kl05z07jjlm58fl6dpnijyl5gnx54b75cl0gbvflyv8z60y8mmz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (home-page "https://github.com/emacsorphanage/magit-gerrit")
@@ -63144,14 +63144,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260603.147")
+   (version "20260610.1353")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "3f5ccd3782d12bb334fe36e619cede0e16196183")))
-     (sha256 (base32 "0rm8yfixjldpx7603hlpylhnrxfmhjgp33j9rqrry3gip8z6a77p"))))
+           (commit "041699ea121e07a67420985b1a2b987f2f1be965")))
+     (sha256 (base32 "1hsfwxppmmbkjdpn5jg0x2dgqmha9dq86xxhxcnnvf5p9s276gyc"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -65634,14 +65634,14 @@
 (define-public emacs-mowie
   (package
    (name "emacs-mowie")
-   (version "20250113.122")
+   (version "20260610.846")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/mekeor/mowie.git")
-           (commit "26f605cf632579af897a85a3922bf17fac616519")))
-     (sha256 (base32 "091ylr2mk1767h076g6wcx99rv2v78bmfw2b6hjmc9260m7mvr8y"))))
+           (commit "30eb09b9c671b61b081b1d7096f4650641ee3ea0")))
+     (sha256 (base32 "0aq078i75x742b15cr7crn7bfb8nqw9kldax8g2ixbyp3h374l9l"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/mekeor/mowie")
    (synopsis "Cycle Through Point-Moving Commands")
@@ -70907,14 +70907,14 @@
 (define-public emacs-oboe
   (package
    (name "emacs-oboe")
-   (version "20260602.1201")
+   (version "20260610.1309")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gynamics/oboe.el.git")
-           (commit "5f32b02e4679b2a98308f5431f0f14066156d81f")))
-     (sha256 (base32 "0g6c1ypf60n6naq2zwlzi5578frw9w1gg81rvvswxjglkv4nvwri"))))
+           (commit "11addb8aa56525479c1df5775f0d3993b40dbd33")))
+     (sha256 (base32 "127fdgqbs16i39mabrfnhnbf77scqhxw8dcy0f3vshr8y0cbx7p8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gynamics/oboe.el")
    (synopsis "A simple temporary buffer management framework")
@@ -80726,14 +80726,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260609.1901")
+   (version "20260610.1506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "8427efa2643fd332b200bdd5c66842548e072224")))
-     (sha256 (base32 "15mximqk51y3lrr3nzkpdiqk5s0x540ds8pklpxbj7sb68mcd3zv"))))
+           (commit "c64c72a3c0451fc540436e48a2425624026820e8")))
+     (sha256 (base32 "1r9l11g41law14c8prvl4zlsa5g31rmz7gbs2n6mni183f4cl3hq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -89035,14 +89035,14 @@
 (define-public emacs-rope-read-mode
   (package
    (name "emacs-rope-read-mode")
-   (version "20250428.1236")
+   (version "20260610.1506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/marcowahl/rope-read-mode.git")
-           (commit "24eef8aa1119afc39b4bbbba9a5ffcc3cbbe6b35")))
-     (sha256 (base32 "0hg0v43kap385426jk71xrs1h8szv2ngyfk8kk950szqqq5kdnpq"))))
+           (commit "21f3088d9a04bf562de96bddf0593b5f65eacbb3")))
+     (sha256 (base32 "08v96prxxysrxjidfflgq01nbgnz895gqs49hf0d2z5smxw27jqq"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/marcowahl/rope-read-mode")
    (synopsis "Rearrange lines to read text smoothly")
@@ -93374,14 +93374,14 @@
 (define-public emacs-sleek-modeline
   (package
    (name "emacs-sleek-modeline")
-   (version "20260608.2059")
+   (version "20260610.749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abidanBrito/sleek-modeline.git")
-           (commit "e3e2e4a4570ee847877274d88636d162d604dbff")))
-     (sha256 (base32 "0x0dla61n8hnc757pmz2gcg3dbjvyqizimq3c7nah5zq03lv1mbc"))))
+           (commit "5e2666b5536434288cd180cefe5fbe95f6196895")))
+     (sha256 (base32 "0w1llhwxn3x88pw13wv36jbpjxywiiyni9mw5zy4720flb418b74"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/abidanBrito/sleek-modeline")
    (synopsis "Minimal and elegant modeline")
@@ -100771,14 +100771,14 @@
 (define-public emacs-tmsu
   (package
    (name "emacs-tmsu")
-   (version "20241230.2209")
+   (version "20260610.1429")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vifon/tmsu.el.git")
-           (commit "c75ae9bed8f3bb2229e873fcc85fe62701e47974")))
-     (sha256 (base32 "0mxz9bmdcdxkj7f4ih405i4vpd35c72xgs1i8cbi0132dpnnblpz"))))
+           (commit "625d01d87f2820f648816f78b0c5bc220f14488b")))
+     (sha256 (base32 "1h043myzvk40c3lbykikvhy6zcx5ac8r3jhkrzzhak1ngb5lpa9g"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults (:exclude "ol-tmsu.el"))))
    (home-page "https://github.com/vifon/tmsu.el")
@@ -106120,14 +106120,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260608.1257")
+   (version "20260610.837")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "26a30a83ce0d2b1413e97bb3a60de7b8c649f451")))
-     (sha256 (base32 "0ikf8cqyyc9m73vj5hmd5hxcjmcl7rbd85q6dqfc136wxqldqwa8"))))
+           (commit "358f274e66b57a2cb075509d75d10c9dbd983c01")))
+     (sha256 (base32 "0zqzx2f09yg5sqiv57wp47c0vrc3jmvvwink6sxqikinwrpk7zy6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
