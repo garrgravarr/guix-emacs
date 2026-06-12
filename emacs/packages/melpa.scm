@@ -1437,14 +1437,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20260611.1131")
+   (version "20260612.627")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "9857e72f953642cedc1286a04aebb7203226e6a8")))
-     (sha256 (base32 "1jz0jv2jxiff42x60pim2n1wf9m3pcyyb4xn6mlj4gmkg0sl93ng"))))
+           (commit "6d1d24a95a8ade0b6d21d2ef48fce0c43b4fca7a")))
+     (sha256 (base32 "0csg6f3a3gdvh38dnwfwc6xirjx590kqh36kaypzm0k97kg8dzsz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260610.815")
+   (version "20260612.909")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "0b32cadc56b5bb16fb623eb41c0ae9e74fdf287d")))
-     (sha256 (base32 "0180iwzqlwi62zd6fjj1mmxjm78c6ix38sdc9vjcp6zkfmnpllxv"))))
+           (commit "7bd3913c5c486e80d199bfbaf1ac8968a6b636d2")))
+     (sha256 (base32 "1fhxmix5nmz3ignvib4sh67gcdxmrn825hvbkzivn9r3n1cyr7z3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3662,14 +3662,14 @@
 (define-public emacs-asciidoc-mode
   (package
    (name "emacs-asciidoc-mode")
-   (version "20260611.1520")
+   (version "20260612.645")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/asciidoc-mode.git")
-           (commit "aa836bb0aa25427914ef3a938ed218aedd9123d9")))
-     (sha256 (base32 "07imzld1j3jkr2p327ha1h1qikzw8jn3hxqzin9rs4m8av5fn38g"))))
+           (commit "8914fad451f9c7f9c2286cf18db5edaa51a92cd7")))
+     (sha256 (base32 "07mmc2xg0dyrxsas5xqvfa3bmscww240707l5kf0l1k18dbxa06f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/asciidoc-mode")
    (synopsis "Major mode for AsciiDoc markup")
@@ -22204,14 +22204,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260611.1500")
+   (version "20260612.740")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "a8b4fe52a0d875a7589b2a6aae57c5a58868197d")))
-     (sha256 (base32 "1akrmfa2fmv14pypdg142m0l7r3msi1y162jm6907b69h6x3ryyc"))))
+           (commit "a9900c89409984572b514f0fcb4f336c9d5bba4b")))
+     (sha256 (base32 "1sbq1hk1m3djzp78xzzbx5ggc04dkpsnb5gc9pb6kqavq4m9644w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -25398,14 +25398,14 @@
 (define-public emacs-eldoc-mouse
   (package
    (name "emacs-eldoc-mouse")
-   (version "20260402.1025")
+   (version "20260612.945")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/huangfeiyu/eldoc-mouse.git")
-           (commit "67bb73e54533e276e35d2548aa30e299c3a5ee18")))
-     (sha256 (base32 "1ysdf36dva7kzhxm63fp229fqp1ii2i5swf1qwgj03i4j755pfnz"))))
+           (commit "6b7bddc4b16c0b3d6f4203e03e659b5211cab516")))
+     (sha256 (base32 "1y4lfk2k3qhpjav0b3vhlfhvl1zy74lg64cbmhs6kmiajrn578rv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/huangfeiyu/eldoc-mouse")
@@ -32203,14 +32203,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260609.951")
+   (version "20260612.820")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "b8763613b8d9792e5954ad54b4558e18c097ba86")))
-     (sha256 (base32 "07hdpn6ifhb1ass9kcdx0iv74h4x4izvy9bipgvfpjqjsg4550nc"))))
+           (commit "551678f8ced88bc1c9649c51893e5a8274c9677f")))
+     (sha256 (base32 "1spahwdmr0jzip5w75fajkb9ma9p7sbhnq82lxywp0p04ixh3bv4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -40277,14 +40277,14 @@
 (define-public emacs-git-link
   (package
    (name "emacs-git-link")
-   (version "20260429.1928")
+   (version "20260612.337")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sshaw/git-link.git")
-           (commit "ca1a170343448c6d5d265ec12f934d865f7e0aee")))
-     (sha256 (base32 "03dgjnjgyz8km7y0mfd4snk8s8r1w7ybmai6wgvjm5hzwmsqrq3l"))))
+           (commit "3870ae57408dc72ae2215b0056d6661e2c198e75")))
+     (sha256 (base32 "0qlmmb1h4clg2967ia9mbrpawhmgj6lbzp6hcb5ihwr10msw7s04"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sshaw/git-link")
    (synopsis "Get the GitHub/Bitbucket/GitLab URL for a buffer location")
@@ -49869,14 +49869,14 @@
 (define-public emacs-ibuffer-sidebar
   (package
    (name "emacs-ibuffer-sidebar")
-   (version "20260611.335")
+   (version "20260612.632")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/ibuffer-sidebar.git")
-           (commit "1673f5f03d2b4108eabe374bac57ed7b7989fc47")))
-     (sha256 (base32 "1z05jzc295vl30pyd6nq7s3f89zhh4njpcp1ywwihm46v4npv78c"))))
+           (commit "1330b0f156e2275acd1a9256fc13a1d22e5e3a9e")))
+     (sha256 (base32 "00nc690aqywxn4rrp2fnd7jq7vik8722ds2c1prq10bwwn6n653h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jojojames/ibuffer-sidebar")
    (synopsis "Sidebar for `ibuffer'")
@@ -61781,14 +61781,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20260529.414")
+   (version "20260612.821")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "94d2c6d12c05b5ec5fb92abc73fd4b41450149ee")))
-     (sha256 (base32 "01i0dfi2a6dyjwrbymgm7q3az3mava4wascndsg1k3daiap2gwvp"))))
+           (commit "b60dd922a5a4975659fa7b32d5da30e261a7439d")))
+     (sha256 (base32 "06al1q392nkmhgmawc0s9072prdrm1c9314kr45vrvq11v6qqbis"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm))
    (home-page "https://github.com/hrishikeshs/magnus")
@@ -64357,14 +64357,14 @@
 (define-public emacs-minsk-theme
   (package
    (name "emacs-minsk-theme")
-   (version "20250706.1827")
+   (version "20260612.845")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/loj/minsk-theme.git")
-           (commit "c9caae876ef184053fef0bd3fee6243632702487")))
-     (sha256 (base32 "0lmf5wdwffgi9l0y8wpis45gg7wzhvvflzfnxly681byginaqjrc"))))
+           (commit "7d1259165a1b7eaecc97d76fc288fa56f8736bef")))
+     (sha256 (base32 "1r4hkw4qpx9xq25w0hzzw1kxzvl2rk050a39hd96s15a3jsfix38"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("theme/emacs/minsk-theme.el")))
    (home-page "https://codeberg.org/loj/minsk-theme")
@@ -83588,14 +83588,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260604.1552")
+   (version "20260612.1048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "6449fb0465587c757c1fbf1a64bb4ba420a78bfa")))
-     (sha256 (base32 "1skbdn3nys3jf9prsy6aannh5f4hqg8gkkijqxwygnrf07y021g6"))))
+           (commit "cae4437b6518a2821ec38fb840a38d7664897cde")))
+     (sha256 (base32 "1vqpgg5wrsqxyqn4yly6z9ahs8mxmimjgwb6acs5xnavqxicj3dl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -92315,14 +92315,14 @@
 (define-public emacs-show-inactive-region
   (package
    (name "emacs-show-inactive-region")
-   (version "20260410.318")
+   (version "20260612.949")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-show-inactive-region.git")
-           (commit "d2715aba9fb17e38651b434f0f71fa2234eb8576")))
-     (sha256 (base32 "0q4qxazzvgjql6bcyv2awncgyb7f47yl738wi7ivr08hsf3k179k"))))
+           (commit "c870fe641c56328458e16d92fd7aedf688844a3b")))
+     (sha256 (base32 "15b6iynwxjxha86gsa1z1a8vfq346zprw39ngqv5pr834hyqyyrq"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-show-inactive-region")
    (synopsis "Highlight the inactive region")
@@ -97306,14 +97306,14 @@
 (define-public emacs-sumibi
   (package
    (name "emacs-sumibi")
-   (version "20260605.425")
+   (version "20260612.324")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/Sumibi.git")
-           (commit "1f80d06f0ac3a31e2370f8cd8eb5eaf4e9022f00")))
-     (sha256 (base32 "1nqlina225dikh2iay1d9nc2r3zb3gzc1i108dzacalksbxh78c8"))))
+           (commit "f5674b69135a49aa3d531d148609942e0b09913b")))
+     (sha256 (base32 "0m2v9wj9yvrkifg953p1w7gm7hgdav4jrs4g6vsp8l3jxfac6grj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-popup emacs-unicode-escape emacs-deferred emacs-markdown-mode))
@@ -106083,14 +106083,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260603.1010")
+   (version "20260612.822")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "417729eeb09165123d28ea6b56091db7a07cd62e")))
-     (sha256 (base32 "1m6izvixwjy5pns2jsipfnsj0yh0skavq5bp5d3i377q04b39996"))))
+           (commit "44c30ac21fe40a09a4b9f251726c340980bf18ae")))
+     (sha256 (base32 "1hnspxifgcvvd3x3089yxhkv8f75ax0k4xs97lh6l1b1y0dapzca"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -106119,14 +106119,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260610.837")
+   (version "20260612.821")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "358f274e66b57a2cb075509d75d10c9dbd983c01")))
-     (sha256 (base32 "0zqzx2f09yg5sqiv57wp47c0vrc3jmvvwink6sxqikinwrpk7zy6"))))
+           (commit "25761b9de677986260cbe3186635d646fa15ee5b")))
+     (sha256 (base32 "06jjj49ibd3wdi56k52ix0nfbnvxwnq35g27sdfqaniczjwp3h1d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
