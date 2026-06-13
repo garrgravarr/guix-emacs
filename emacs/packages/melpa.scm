@@ -2292,14 +2292,14 @@
 (define-public emacs-all-the-icons-nerd-fonts
   (package
    (name "emacs-all-the-icons-nerd-fonts")
-   (version "20240210.1127")
+   (version "20260613.1448")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mohkale/all-the-icons-nerd-fonts.git")
-           (commit "67a9cc9de2d2d4516cbfb752879b1355234cb42a")))
-     (sha256 (base32 "00klvdalj8051axxg50dq4wdbzzrfr7ayzq8a6zzpnbhzlq7j2f6"))))
+           (commit "5a59837193e842111a7660db6196abe1f90ca3ad")))
+     (sha256 (base32 "1vzgxcr7n8d95r8dk6fp4q5mj7rabmid7g4a1cbyik600rjpszk4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-all-the-icons emacs-nerd-icons))
    (home-page "https://github.com/mohkale/all-the-icons-nerd-fonts")
@@ -14633,14 +14633,14 @@
 (define-public emacs-compile-multi-all-the-icons
   (package
    (name "emacs-compile-multi-all-the-icons")
-   (version "20250101.2156")
+   (version "20251004.2121")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mohkale/compile-multi.git")
-           (commit "19d16d8871b5f19f5625e1a66c1dc46a7c3f6a3a")))
-     (sha256 (base32 "0zs7s8k5vf0wl3jh374p62vaak0l6p5xy525ys2nv7mghgbv5a53"))))
+           (commit "2976058c416b19f9761d5b8cf596210803afd2d7")))
+     (sha256 (base32 "01jhkygrddsrw0m3y6aa10vy4qjgigsszyl5z50hl8xglfc3pijm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-all-the-icons-completion))
    (arguments
@@ -14675,14 +14675,14 @@
 (define-public emacs-compile-multi-nerd-icons
   (package
    (name "emacs-compile-multi-nerd-icons")
-   (version "20250101.2156")
+   (version "20251004.2121")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mohkale/compile-multi.git")
-           (commit "19d16d8871b5f19f5625e1a66c1dc46a7c3f6a3a")))
-     (sha256 (base32 "0zs7s8k5vf0wl3jh374p62vaak0l6p5xy525ys2nv7mghgbv5a53"))))
+           (commit "2976058c416b19f9761d5b8cf596210803afd2d7")))
+     (sha256 (base32 "01jhkygrddsrw0m3y6aa10vy4qjgigsszyl5z50hl8xglfc3pijm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons-completion))
    (arguments
@@ -15124,14 +15124,14 @@
 (define-public emacs-consult-eglot
   (package
    (name "emacs-consult-eglot")
-   (version "20250831.924")
+   (version "20260613.1443")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mohkale/consult-eglot.git")
-           (commit "d8b444aac39edfc6473ffbd228df3e9119451b51")))
-     (sha256 (base32 "043qdk744knnkimjzr8f1wza12gg4jv7yfs1z4aardixfx75i9jg"))))
+           (commit "3e4d9a40911b897c0a2c5d20199d0f7c30bfc1c2")))
+     (sha256 (base32 "0rbsh5v836jdfwiy9p92f4wra33p4v6x4d77jmsys2sl92d57qx0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult))
    (home-page "https://github.com/mohkale/consult-eglot")
@@ -15659,14 +15659,14 @@
 (define-public emacs-consult-yasnippet
   (package
    (name "emacs-consult-yasnippet")
-   (version "20250411.1922")
+   (version "20260613.1436")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mohkale/consult-yasnippet.git")
-           (commit "a3482dfbdcbe487ba5ff934a1bb6047066ff2194")))
-     (sha256 (base32 "0cyzyxmdrk7dcpsw51pv1vz1f6px5yjmbmsa6r74vmshfdmljm3j"))))
+           (commit "89e39887c87e25d18861216a4d72e5d174f13751")))
+     (sha256 (base32 "1x72lgk79j215l5gn0mzqakf20h06fbhjg7afkwcywm5gpqhnind"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-yasnippet emacs-consult))
    (home-page "https://github.com/mohkale/consult-yasnippet")
@@ -17510,17 +17510,17 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260609.1757")
+   (version "20260613.1407")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "96ba0364f6990791b79faefb872151b5b32dffc9")))
-     (sha256 (base32 "07h7kg93ffjfzmj0aa71gss4l121lb83rg4rb1cz5xhng1iq27p1"))))
+           (commit "35b87c30825340b6f2ef645d86c32be8134dc6a0")))
+     (sha256 (base32 "0ivfps9vmxyajn982ky020p4h19jrs9vanmdxvbb7hcrip1pxg9p"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
-   (synopsis "AI-LLM chat blocks for org-mode")
+   (synopsis "Chat blocks in org-mode for LLM and agents")
    (description "Documentation at https://melpa.org/#/cui")
    (license #f)))
 
@@ -20209,14 +20209,14 @@
 (define-public emacs-dimmer
   (package
    (name "emacs-dimmer")
-   (version "20260613.330")
+   (version "20260613.1453")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gonewest818/dimmer.el.git")
-           (commit "6ce67fdcae1a41e5c7b03a9d6f271d3fc1b24a71")))
-     (sha256 (base32 "1s9pr0ml3byc90nycw96sl44h1d3cgm08wf6ndpgv9mmqjwl1ahy"))))
+           (commit "237791624116b05895a0154107b46d963f82c5c3")))
+     (sha256 (base32 "0cs0gsb6nc3g9wkkmw73yamdwf10hnc2i36v5m1rqrwjk73g6npg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gonewest818/dimmer.el")
    (synopsis "Visually highlight the selected buffer")
@@ -32376,14 +32376,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260613.630")
+   (version "20260613.1239")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "4fc1daaf24643676106827f9636ea7811db360b4")))
-     (sha256 (base32 "1ky1chd3i2r51dqaa1y7kfhibflasdisc7vxp2hflm1v5z4h5xgs"))))
+           (commit "99a54b92990d55b2a07d2e8c6f1dadb8387a1cfa")))
+     (sha256 (base32 "0m4kiiplysh9db43w1mpsv7f3q4jqy2h0y0vdgm9kyyr2m4m7mhv"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -36195,14 +36195,14 @@
 (define-public emacs-flymake-collection
   (package
    (name "emacs-flymake-collection")
-   (version "20250831.1353")
+   (version "20260613.1434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mohkale/flymake-collection.git")
-           (commit "909d98d9ec70c2baa5467634ec37181a058f2548")))
-     (sha256 (base32 "0082l6ia1p08y86qr1vz6i76gmcpliba7lzm9akr6nlzr5s2d8g0"))))
+           (commit "1c771edc125ae44d9574489f3989397027b17654")))
+     (sha256 (base32 "18bb38h9gc69h1shbqdzfrq939jpvb49v98cdgq8d8zcw72nfn8m"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "src/*.el" "src/checkers/*.el")))
    (home-page "https://github.com/mohkale/flymake-collection")
@@ -38694,14 +38694,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260608.2247")
+   (version "20260613.1231")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "de6ac18b12b9a0ec025e88b5cd762c5fe0563019")))
-     (sha256 (base32 "0riinc4gl550h190s1r490h24ih07m0x1bxvmfvsvnjn704831qs"))))
+           (commit "c106bc71c3ea2dcb60bfce66eef3ef31a956a4f9")))
+     (sha256 (base32 "0r6qn00slwl8nsz490mbwyraax9dmw4zx7vldk7c6y0ayvgbdwdd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -38888,14 +38888,14 @@
 (define-public emacs-fzf-native
   (package
    (name "emacs-fzf-native")
-   (version "20260612.2243")
+   (version "20260613.1229")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dangduc/fzf-native.git")
-           (commit "c67035e8bf18402ceb8de3f1b1ad94f9ce24d947")))
-     (sha256 (base32 "1c4ba2w3c2hxlzj536n53nijlj8ipvb2qhkghgzdqq9l1wdfs99f"))))
+           (commit "83d70f20d24ffd47ab28b65deb8972ae8c11928c")))
+     (sha256 (base32 "1dgsxyksari2mbbb9wfa60zxwhwp8vjr3bcsbfr8wh3sdzzk756h"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -61100,14 +61100,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260609.956")
+   (version "20260613.1433")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "9fa5e22622c3917b52039994ced8c57157bebcfe")))
-     (sha256 (base32 "0z10m2dr8qg3g1zgmhdh3w1sdx2xjachvj97rfhh703zdswbh6rh"))))
+           (commit "fe0c1376f2d4e874661bc8b6112f34aa477c9442")))
+     (sha256 (base32 "0d0vaim8xpv867zd5bsvr3a7v5xpp4fsskdqvijdaxgdj1y36rxg"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -67503,14 +67503,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20260516.44")
+   (version "20260613.1537")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "d33d12f5dcb6bf2fb23c3f75df5de85beb4afd95")))
-     (sha256 (base32 "07qijgnnvm1bwq5s84qs1pimxmrly2l0z20slwipss4id62y3jwh"))))
+           (commit "839337dcbbb1c48e5f486b4ffffc928819bc78ab")))
+     (sha256 (base32 "1bp8va5rjv5yydh8nky73m99zlgjr2w2ajn4fvcavk3fgf1dzvj3"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -80725,14 +80725,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260610.1506")
+   (version "20260613.1354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "c64c72a3c0451fc540436e48a2425624026820e8")))
-     (sha256 (base32 "1r9l11g41law14c8prvl4zlsa5g31rmz7gbs2n6mni183f4cl3hq"))))
+           (commit "72fb92f5d6fe8ceb02cfbad7fa16b20476971a28")))
+     (sha256 (base32 "1fmyaqzdqf877xwxprfgkazhq1vxral0qx38n3qwxakjscdzfw8h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
