@@ -20209,7 +20209,7 @@
 (define-public emacs-dimmer
   (package
    (name "emacs-dimmer")
-   (version "20260612.1453")
+   (version "20260613.330")
    (source
     (origin
      (method git-fetch)
@@ -32376,14 +32376,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260613.24")
+   (version "20260613.630")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "b906e317de985bff5eb5a1d9f98ab514c11a306a")))
-     (sha256 (base32 "0nmjzgl0084qb160dl4v88nalp88cw1b9mi5sl4dc9vf140gr5jq"))))
+           (commit "4fc1daaf24643676106827f9636ea7811db360b4")))
+     (sha256 (base32 "1ky1chd3i2r51dqaa1y7kfhibflasdisc7vxp2hflm1v5z4h5xgs"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -62983,14 +62983,14 @@
 (define-public emacs-mcp-server-lib
   (package
    (name "emacs-mcp-server-lib")
-   (version "20260601.1423")
+   (version "20260613.600")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/mcp-server-lib.el.git")
-           (commit "dfb4417821187115bcd9d7c48d0848239dfd037f")))
-     (sha256 (base32 "1ihbah0xnfy598fbsd5rfidpiidr21ibrnggcpnx47y9mjnb9kv3"))))
+           (commit "0434236cdc72cb883bab66a9dddd05419d78a723")))
+     (sha256 (base32 "1w2jic9vszf60gssm2mry4yap7clrdg8ybma97wlgb0m73wpmagn"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "emacs-mcp-stdio.sh")))
    (home-page "https://github.com/laurynas-biveinis/mcp-server-lib.el")
@@ -102011,16 +102011,15 @@
 (define-public emacs-treebundel
   (package
    (name "emacs-treebundel")
-   (version "20260404.2133")
+   (version "20260613.317")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purplg/treebundel.git")
-           (commit "35e55a21914772e2f125fd1c4682f7e239f192d3")))
-     (sha256 (base32 "1ipypcrc2xgyrvwv6hk3hvwrkamsf4rrpnm13xczz19bqp1svjqp"))))
+           (commit "9b64c358338e90c02e9aedb4689a3c1a8be29abf")))
+     (sha256 (base32 "0987rpd4zpc7wprva533gnl1l97pj10bkjkawlg7dqxhcipj2xig"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/purplg/treebundel")
    (synopsis "Bundle related git-worktrees together")
    (description "Documentation at https://melpa.org/#/treebundel")
