@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260612.1921")
+   (version "20260614.155")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "b7a74c541a1c1ca90d0510634fdbb48a877da25f")))
-     (sha256 (base32 "1cvxyis3w06ng2ciip45nnnwnmwsh1zgsllsywzcrqldcvzrc774"))))
+           (commit "a598500b5e92a6c02af91da12ed0deb0278437b7")))
+     (sha256 (base32 "0vb577ldc8ip9mw57x9f2m664rmzi0maha5vim9rggl0k9l6y29s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -3208,14 +3208,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260610.2300")
+   (version "20260613.2149")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "4159750ee44edef9c14570810dbfb6efcbb7657e")))
-     (sha256 (base32 "0gj5srfizdcvqqjly65lrsfd878qzw2504jsqzdb1r11aq8vwmr0"))))
+           (commit "1c00a5acfb438c833616ebeb134270c01850363f")))
+     (sha256 (base32 "0s1hnb6v013yxcz1g35cmanwk53pb7jjcwlc6b2zf8lvlbn5qlbj"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -3767,14 +3767,14 @@
 (define-public emacs-ast-grep
   (package
    (name "emacs-ast-grep")
-   (version "20260514.1725")
+   (version "20260614.214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SunskyXH/ast-grep.el.git")
-           (commit "e95f7f219627ff11b5ca3ad62061b92c5a604a00")))
-     (sha256 (base32 "0a0f172bk8h857sls8fmsipal3a797a8brhmma4aps0mqqf14if1"))))
+           (commit "c9fd7eb160c6b16cdd5d77ca639326d02ad7bb55")))
+     (sha256 (base32 "1z7zjdvba5dzgzw75g771v0fjmiaznl4i2g89f3j8pm2slycv3q0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sunskyxh/ast-grep.el")
    (synopsis "Search code using ast-grep with completing-read interface")
@@ -5323,14 +5323,14 @@
 (define-public emacs-awqat
   (package
    (name "emacs-awqat")
-   (version "20260611.2135")
+   (version "20260613.2054")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zkry/awqat.git")
-           (commit "c7ef627b2302983623587a30ef4ce87c770b7817")))
-     (sha256 (base32 "1frjm6x67n7rhpm6x6ckrnhc9hwpb65vzrh8qxvsvp7lc1xn3smf"))))
+           (commit "15ed56308add0929da30e7e94fafd3989ff5965b")))
+     (sha256 (base32 "1yysi7cmac2lv64wihmlizadsq0v8zpfxiza0gr0sbzx7cybz43x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-alert))
    (home-page "https://github.com/zkry/awqat")
@@ -23809,14 +23809,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260611.1549")
+   (version "20260613.2325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "12bcbda129929c2de8b3f8b28a89043e5a909e9c")))
-     (sha256 (base32 "1n5gql30ym9808cpzlfy609mr04nmn1qradmnc76vhjil5dmql8s"))))
+           (commit "eb702479eafb4fb49b4790f308e21fe4fc172838")))
+     (sha256 (base32 "1g70dh4k94ih03cvfx1f28fjn5nj56j9m52v7zkn749ndhajp5a3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -30020,14 +30020,14 @@
 (define-public emacs-evil-colemak-basics
   (package
    (name "emacs-evil-colemak-basics")
-   (version "20241004.1613")
+   (version "20260613.2139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/wbolster/emacs-evil-colemak-basics.git")
-           (commit "9465c8da35fe7dd0f66184e671e357ec91faa3fe")))
-     (sha256 (base32 "1w1d239c7ivqdz46vnqhaz2fkx8xzzc2209ldf9w4f68nd6awqj3"))))
+           (commit "c613db5c33b69549eff0d3d9d9f687d266158fee")))
+     (sha256 (base32 "0vjizlw8xar4i7ckhp2rxf15l1wqppkzhyz6f6sp0r8hfnwana95"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-evil-snipe))
    (home-page "https://github.com/wbolster/evil-colemak-basics")
@@ -32376,14 +32376,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260613.1239")
+   (version "20260614.252")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "99a54b92990d55b2a07d2e8c6f1dadb8387a1cfa")))
-     (sha256 (base32 "0m4kiiplysh9db43w1mpsv7f3q4jqy2h0y0vdgm9kyyr2m4m7mhv"))))
+           (commit "cda12c7f5815bf5c8a94e98fc3f0b50f7d26ea41")))
+     (sha256 (base32 "0hav1r2nq5sz77pm3vssg9h5cffmq17vvy2vq3cz19318vivw4jb"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -39757,14 +39757,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260611.1001")
+   (version "20260613.1939")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "492187114b75a3f8aa5e4e5a3b333099636af7d0")))
-     (sha256 (base32 "14rb0c8g3v44dhngsh6pmlljxmx0bsc1lryrzgsw8xsg9c1a3yq4"))))
+           (commit "aa9e7417d3ca8eb640a674bd26eb6c320d1a4ba1")))
+     (sha256 (base32 "1k0byyrz5laf28822ia9cd1h461vg6abw3n6gj7rmxddxhcgsvv4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49481,54 +49481,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260611.649")
+   (version "20260613.1556")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "b69135b92897059d91fedb54f1142cde1ce8e05f")))
-     (sha256 (base32 "0j72n5ncqdyjcl73ga4ia8i9s0qzww3gfj91n07m72z8axg201lv"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "0jraqyg213h1ilyiykv2mrraqxghwissd1aic7n33kgc63f5s07i"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -56231,14 +56193,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260611.0")
+   (version "20260613.1820")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "d163b40a68272458e144c097517f5fdae989e348")))
-     (sha256 (base32 "1ycgb20j287kcacwj5kgr91vl76m30sbly3fscq656j95yfgvad1"))))
+           (commit "948cccf6499415005a43112e5daadc6ecc57fa1c")))
+     (sha256 (base32 "0203slgl1wal7x6hygwc2hkkm92i95cq6n0abgc0x8bnkkm7n0v5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -80725,14 +80687,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260613.1354")
+   (version "20260613.1750")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "72fb92f5d6fe8ceb02cfbad7fa16b20476971a28")))
-     (sha256 (base32 "1fmyaqzdqf877xwxprfgkazhq1vxral0qx38n3qwxakjscdzfw8h"))))
+           (commit "33e97c1ff285372c59bb293ebf76eec235c96532")))
+     (sha256 (base32 "001nqcc6mjxg92vmv5hbhlgycqzsc2khjlhyap77zxj3vfjla5vk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
