@@ -25629,14 +25629,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260612.1142")
+   (version "20260614.710")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "c3f0ee32f486b32a472ba686929551b10f4d8f98")))
-     (sha256 (base32 "0365pzcpfg363bck0pxzkahkvap8kni4m742nmmihm4hymc6b9dv"))))
+           (commit "df6cd5805df20cbc0211ac3b764b870a6b26d703")))
+     (sha256 (base32 "1gs3xdl6j5bnlp312abl4bvskwnnckqfzsy0lpd5s32qpgfl77gr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -60215,14 +60215,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260601.826")
+   (version "20260601.2108")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "5aeccee31a359e6ea2c5ad05a6324a629dfa0733")))
-     (sha256 (base32 "1xanwb9xh6r48g2fxzvfrmr94zn51k08lhps4qn1qa7wqv76k7gr"))))
+           (commit "45b9adb4c71f779de6e370e3f445eb8b23bb8dcd")))
+     (sha256 (base32 "0idfi8xrs6clx68b8qn8mc0wfkbq00708abny6jjcfm9ady01h6y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
@@ -73721,14 +73721,14 @@
 (define-public emacs-org-lark
   (package
    (name "emacs-org-lark")
-   (version "20260611.644")
+   (version "20260614.319")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbw9n/org-lark.git")
-           (commit "dbb12fae2ba71e3dfecb5b13c1494ce5aff9b9e1")))
-     (sha256 (base32 "19p6fyynwmhvp7i98jmirk7vgvh59dvxzc5hbaadn32v4dkhs3h5"))))
+           (commit "ebbe9ed102be2bf00b698f1280a305d8f3b0d38d")))
+     (sha256 (base32 "1a4njnhr9cih9v4mnrf9fpdqbfv5x3rywrs7pk3nhggl81890j40"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbw9n/org-lark")
    (synopsis "Export Lark docs to Org")
@@ -102719,14 +102719,14 @@
 (define-public emacs-turkish
   (package
    (name "emacs-turkish")
-   (version "20170910.1511")
+   (version "20260614.919")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emres/turkish-mode.git")
-           (commit "9831a316c176bb21a1b91226323ea4133163e00c")))
-     (sha256 (base32 "0nrxi845gd24d5vymbmxz696jwld4rn6nw2dz1gzmdaks7bbv87m"))))
+           (commit "70196d4502759060bb2b0ac2f09f18ce1cbbcb20")))
+     (sha256 (base32 "13axgawzw4838kwvabzn5g1c1bf8mnnn38yqmhl6mg306zlsqzxb"))))
    (build-system melpa-build-system)
    (home-page "http://www.denizyuret.com/2006/11/emacs-turkish-mode.html")
    (synopsis "Convert to Turkish characters on-the-fly")
