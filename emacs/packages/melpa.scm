@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260614.155")
+   (version "20260615.324")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "a598500b5e92a6c02af91da12ed0deb0278437b7")))
-     (sha256 (base32 "0vb577ldc8ip9mw57x9f2m664rmzi0maha5vim9rggl0k9l6y29s"))))
+           (commit "b650a43b594bb4d2658de08684be37dd0b599c7a")))
+     (sha256 (base32 "1vnyq2g57m2jlnj6w07bpa1dy84cwlzz6s50crljxaa2wa1ggxmz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -3767,14 +3767,14 @@
 (define-public emacs-ast-grep
   (package
    (name "emacs-ast-grep")
-   (version "20260614.214")
+   (version "20260615.1001")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SunskyXH/ast-grep.el.git")
-           (commit "c9fd7eb160c6b16cdd5d77ca639326d02ad7bb55")))
-     (sha256 (base32 "1z7zjdvba5dzgzw75g771v0fjmiaznl4i2g89f3j8pm2slycv3q0"))))
+           (commit "8fabb5064131a1c822580e47bf35871466d469ff")))
+     (sha256 (base32 "1r0i49vjrr9x86kn656l0dbbj40snvgq5k91w249cnq8xh2khh5m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sunskyxh/ast-grep.el")
    (synopsis "Search code using ast-grep with completing-read interface")
@@ -17510,14 +17510,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260614.2301")
+   (version "20260615.1224")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "f05e2fbcfbc5cf754168b2beb986ec4d0f63bcc2")))
-     (sha256 (base32 "1rnls602lgc7v4k9jr8gmq77fszvazing0vdkg1pn05rigjv98pr"))))
+           (commit "6f8bcb4f96cd551f3d5c746b6164e5a735754c5e")))
+     (sha256 (base32 "1ssxdgs7ip7kzq9arf44l4gxjiniwsrwz6j0q28pbgzxmr13v9dx"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -32376,14 +32376,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260614.252")
+   (version "20260615.716")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "cda12c7f5815bf5c8a94e98fc3f0b50f7d26ea41")))
-     (sha256 (base32 "0hav1r2nq5sz77pm3vssg9h5cffmq17vvy2vq3cz19318vivw4jb"))))
+           (commit "a3a2b880db857e8e55a4d20a87680c35d0325439")))
+     (sha256 (base32 "0ky203nmvdz4nfl8acs7g3fzklcm1pynjz2z3kiqgyhhxn85f4p4"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -39074,14 +39074,14 @@
 (define-public emacs-gdscript-mode
   (package
    (name "emacs-gdscript-mode")
-   (version "20260524.443")
+   (version "20260615.928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/godotengine/emacs-gdscript-mode.git")
-           (commit "dde79a17f62ec5b2592ea40be606a42a2ab9a7be")))
-     (sha256 (base32 "1i3xbfwiv0ppa3ph5h33p8abfry83sd95g7mphlgn6y47kzshl97"))))
+           (commit "6bfea8c477cda3f300b84248b5f56c9d241e8029")))
+     (sha256 (base32 "0wfcyan4qasqfhf70ilcq82f9zb05vhrk61nrb8pq9cmj7kr6xwf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/godotengine/emacs-gdscript-mode/")
    (synopsis "Major mode for Godot's GDScript language")
@@ -39757,14 +39757,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260614.2123")
+   (version "20260615.1223")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "743651d4728737cb864635a9de45395a0ee9d9fd")))
-     (sha256 (base32 "1p7c7rnn4ji1hh42601qvk0h42b4p3wgp18hk0qbx2qx53cc5qlm"))))
+           (commit "759ca60ce0f501574e4d179bf1be82a4d1fb1270")))
+     (sha256 (base32 "1xvqmwsx5g9s7g59f8yiciy2y0abpbjy0wzn576z8awnvafjk288"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -56909,14 +56909,14 @@
 (define-public emacs-lab
   (package
    (name "emacs-lab")
-   (version "20260419.1535")
+   (version "20260615.1026")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/lab.el.git")
-           (commit "b91086760688328e032af454c1ca3ae5061356dc")))
-     (sha256 (base32 "003pm093zrx6qv2sa959sws74a4h0w8g2mcyjyqsvm0xxjshzifw"))))
+           (commit "2d4035352432227b73a96987082a6caff9143e78")))
+     (sha256 (base32 "18l6gy100amdb1q94zixh5vhby161682wgbc41hv1d1f8kck9qm7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-request
@@ -62966,14 +62966,14 @@
 (define-public emacs-mcp
   (package
    (name "emacs-mcp")
-   (version "20260508.1208")
+   (version "20260615.940")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lizqwerscott/mcp.el.git")
-           (commit "f10768e16f94f65527a0ea657ec91ab2eeaf244d")))
-     (sha256 (base32 "1yr0pcw0cwnil6y6fr2njlknv960xiimwc0a4a8s06wkm221vwgx"))))
+           (commit "2d172809cbdb2a40d86b28ad73bd65547cefe0e1")))
+     (sha256 (base32 "03zvdvjh724kpb2p7j208fm0z73g21vij0jms8azdxbazyw6yj77"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/lizqwerscott/mcp.el")
    (synopsis "Model Context Protocol")
@@ -67503,14 +67503,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20260615.219")
+   (version "20260615.844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "35f6b8f1330049f20766d827148a7a1e261852e7")))
-     (sha256 (base32 "1ylxzykysj85081b51hkjqk785hnc41ifhjvdnf58n6gk2alpqpw"))))
+           (commit "2d45867a1083a21f0a087959df6ba97821e06186")))
+     (sha256 (base32 "0yzkk6322k481z3ga97h5m6l9m9s4bbyc71md26ngrdm3h36z8qg"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -99982,14 +99982,14 @@
 (define-public emacs-the-matrix-theme
   (package
    (name "emacs-the-matrix-theme")
-   (version "20251103.1021")
+   (version "20260615.1028")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/monkeyjunglejuice/matrix-emacs-theme.git")
-           (commit "ff0d3ba077d7d48c46a00b724de8eb4ce163fab9")))
-     (sha256 (base32 "0bnflam6hsayh2kcjd0bydsyj64d33gcjj7w7gj3y8x0h68n89hj"))))
+           (commit "fe0b8776191744359767ecc4113dda1ade4a5adb")))
+     (sha256 (base32 "0yyd4z2acz48h3d6j6d7kbb4kacqhy5b47vrbsw4xnvmzyjfsiik"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/monkeyjunglejuice/matrix-emacs-theme")
    (synopsis "Green-on-black dark theme inspired by \"The Matrix\" movie")
@@ -103764,14 +103764,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260610.2021")
+   (version "20260615.802")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "be41bd751ca28be83d006cb59976473710f5f524")))
-     (sha256 (base32 "0ixxvzpl512xp4cmg7fy7550szsxyg2bfiw2dz2wia1fkr6gdprz"))))
+           (commit "4091cdf48d79523da59b918f48238f8c1f636e4e")))
+     (sha256 (base32 "1b8hjnnnl155yd4lf56svwhzzqlri81aqq085iwdxzrqzmip2b91"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
