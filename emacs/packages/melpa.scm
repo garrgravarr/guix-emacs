@@ -1437,14 +1437,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20260612.627")
+   (version "20260612.638")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "6d1d24a95a8ade0b6d21d2ef48fce0c43b4fca7a")))
-     (sha256 (base32 "0csg6f3a3gdvh38dnwfwc6xirjx590kqh36kaypzm0k97kg8dzsz"))))
+           (commit "5c1484b8982845845ccd0be02629e21f1d5bed81")))
+     (sha256 (base32 "174930vgjf35ix2q3ra40zb9n2r1x7ynnb2h8p7dp37x31v38lhv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -2292,14 +2292,14 @@
 (define-public emacs-all-the-icons-nerd-fonts
   (package
    (name "emacs-all-the-icons-nerd-fonts")
-   (version "20260613.1448")
+   (version "20260614.1246")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mohkale/all-the-icons-nerd-fonts.git")
-           (commit "5a59837193e842111a7660db6196abe1f90ca3ad")))
-     (sha256 (base32 "1vzgxcr7n8d95r8dk6fp4q5mj7rabmid7g4a1cbyik600rjpszk4"))))
+           (commit "4583cf5e8cce73c35e8ec3195915ce693d703bb1")))
+     (sha256 (base32 "0lc770zw5v3k97mi39ppkgag3p9i49wwxrmycw1n9264xpjvqcjk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-all-the-icons emacs-nerd-icons))
    (home-page "https://github.com/mohkale/all-the-icons-nerd-fonts")
@@ -8258,14 +8258,14 @@
 (define-public emacs-buffer-manage
   (package
    (name "emacs-buffer-manage")
-   (version "20241019.1748")
+   (version "20260614.1819")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/plandes/buffer-manage.git")
-           (commit "a09c4e6217c3a4c3343d0b8198cfe7bf7f74ef5a")))
-     (sha256 (base32 "1h74vadwch4bcax15pcid7xv1xh6d2g96b5knf70p3i10xfxgq5l"))))
+           (commit "3eb4e5771ae4dc2c203d54111a32a6204949dcac")))
+     (sha256 (base32 "1rgha73b559ny42jg66w9r92b89pn01rw68ispjamj7fdrfn3ilm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-choice-program emacs-dash))
    (home-page "https://github.com/plandes/buffer-manage")
@@ -10074,14 +10074,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260607.807")
+   (version "20260614.807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "b9dcb0970e87be36c1e597481c76141c9892e44a")))
-     (sha256 (base32 "1j10i1v5blycz5c1n8n33xwkw473i2rxc48k2m6h32hgb8mbwn1s"))))
+           (commit "0ee89a4761665322f8bfdbd6823f193b955ad2b6")))
+     (sha256 (base32 "0vjjirpqpv1isxdpndi4ghjj3imqd4mh3jc4v5rh9hbaqhnglw2k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -17510,14 +17510,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260613.1407")
+   (version "20260614.2301")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "35b87c30825340b6f2ef645d86c32be8134dc6a0")))
-     (sha256 (base32 "0ivfps9vmxyajn982ky020p4h19jrs9vanmdxvbb7hcrip1pxg9p"))))
+           (commit "f05e2fbcfbc5cf754168b2beb986ec4d0f63bcc2")))
+     (sha256 (base32 "1rnls602lgc7v4k9jr8gmq77fszvazing0vdkg1pn05rigjv98pr"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -20209,14 +20209,14 @@
 (define-public emacs-dimmer
   (package
    (name "emacs-dimmer")
-   (version "20260613.1453")
+   (version "20260614.2114")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gonewest818/dimmer.el.git")
-           (commit "237791624116b05895a0154107b46d963f82c5c3")))
-     (sha256 (base32 "0cs0gsb6nc3g9wkkmw73yamdwf10hnc2i36v5m1rqrwjk73g6npg"))))
+           (commit "01f0ebca1641a072a6af5bda68db405276787e79")))
+     (sha256 (base32 "041pqak62phqg9yspgq06mh17hdjwj7gky5i4n8ji82ry494j5vp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gonewest818/dimmer.el")
    (synopsis "Visually highlight the selected buffer")
@@ -23679,14 +23679,14 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260610.2106")
+   (version "20260614.1745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/easysession.el.git")
-           (commit "07c24d08b02c7433d99a63d9260eb8c632e3533d")))
-     (sha256 (base32 "1s1nf2hswg9pvydxj16sxky2rx85xdis46sqbcscbkv3cdpvy6l8"))))
+           (commit "e5264f31d1d2ca7ffe6fb836d6ab1a6a14eabc30")))
+     (sha256 (base32 "02n821lh0nf418w98mnq5nmvp0dpinksf3sav892kkglj1j5qd68"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "extensions/easysession*.el")))
    (home-page "https://github.com/jamescherti/easysession.el")
@@ -25629,14 +25629,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260614.710")
+   (version "20260614.1717")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "df6cd5805df20cbc0211ac3b764b870a6b26d703")))
-     (sha256 (base32 "1gs3xdl6j5bnlp312abl4bvskwnnckqfzsy0lpd5s32qpgfl77gr"))))
+           (commit "a71aaf6bf72de5358ca168f7e2fac60943af5315")))
+     (sha256 (base32 "1w8ynnf7sgmwgzv2n1j636mkbpqf6acxj85hc3dhibn1w227akzq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -30020,14 +30020,14 @@
 (define-public emacs-evil-colemak-basics
   (package
    (name "emacs-evil-colemak-basics")
-   (version "20260613.2139")
+   (version "20260614.1905")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/wbolster/emacs-evil-colemak-basics.git")
-           (commit "c613db5c33b69549eff0d3d9d9f687d266158fee")))
-     (sha256 (base32 "0vjizlw8xar4i7ckhp2rxf15l1wqppkzhyz6f6sp0r8hfnwana95"))))
+           (commit "995c309e4af52ef49300b03cd7a067da1bc104d2")))
+     (sha256 (base32 "1c45jhv18554arjr3arl62m7zslg5al9yq97lqx1pr010vl4rxpp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-evil-snipe))
    (home-page "https://github.com/wbolster/evil-colemak-basics")
@@ -30056,14 +30056,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260610.2251")
+   (version "20260614.1747")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "e2888aa77ed2cfc0a5467479909e9ae2f0ab6e3d")))
-     (sha256 (base32 "0w3zhsl9n4746x7p04yr9spjj6pys6h1768r5kbjg81mcwfa8ypz"))))
+           (commit "94e317cedf97a2fc2d6d67e6f0260c8101ac8d00")))
+     (sha256 (base32 "0nayvnnq7ywv9xqa94fdp0vydm3cdnv5svr7g8rcib0if8p2pcky"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -33749,14 +33749,14 @@
 (define-public emacs-flex-compile
   (package
    (name "emacs-flex-compile")
-   (version "20251218.243")
+   (version "20260614.1624")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/plandes/flex-compile.git")
-           (commit "f15d23afabd03c39583b1a87dd847a91cb7bfe34")))
-     (sha256 (base32 "0k1q4fmh43jwcl81v4qxr4s0azbikh6cnfa0ngs8g83ahrwdag76"))))
+           (commit "c2e3e1243e04c387e07db6bee52566f7aa534c89")))
+     (sha256 (base32 "0pn7207jbhy3rl7s6y5p7ba4pc8dqkr5m7jshlvxm2ygkkq0v1w9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-buffer-manage))
    (home-page "https://github.com/plandes/flex-compile")
@@ -37840,14 +37840,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260601.1610")
+   (version "20260614.1936")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "a8af709bc15e973804af776bba66b4205540bd73")))
-     (sha256 (base32 "001q4nk7dval6g6gd7cw69jldkal5k0mnimzl2vxlrhck88jqkjf"))))
+           (commit "f3ad5910c3cb1ea6ac85a6ed870454527fd66071")))
+     (sha256 (base32 "0qfdfbdrk5yz89qss3vcsf6wnw6w7zhlkfaaq5rqisgdfc5ngza6"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -38888,14 +38888,14 @@
 (define-public emacs-fzf-native
   (package
    (name "emacs-fzf-native")
-   (version "20260613.1229")
+   (version "20260614.1331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dangduc/fzf-native.git")
-           (commit "83d70f20d24ffd47ab28b65deb8972ae8c11928c")))
-     (sha256 (base32 "1dgsxyksari2mbbb9wfa60zxwhwp8vjr3bcsbfr8wh3sdzzk756h"))))
+           (commit "ae9c747e93ca48443792a59f4f59a4cda96949f2")))
+     (sha256 (base32 "1b11javzwlnb1jhvbf0bg8ayfd3wlk3a15gla5dblrj3hdc002hd"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -39757,14 +39757,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260613.1939")
+   (version "20260614.2123")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "aa9e7417d3ca8eb640a674bd26eb6c320d1a4ba1")))
-     (sha256 (base32 "1k0byyrz5laf28822ia9cd1h461vg6abw3n6gj7rmxddxhcgsvv4"))))
+           (commit "743651d4728737cb864635a9de45395a0ee9d9fd")))
+     (sha256 (base32 "1p7c7rnn4ji1hh42601qvk0h42b4p3wgp18hk0qbx2qx53cc5qlm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -42600,14 +42600,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260610.756")
+   (version "20260615.128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "6589abf7c51143f9424f3e402b29dd7755408781")))
-     (sha256 (base32 "1z7jpmdy3wp6d5yj4zpkpscygkxpapj9rpd1b7mwlm7ihp128yrf"))))
+           (commit "6bb7a6f7d4e35a3ad0c68849e93f1392308f750b")))
+     (sha256 (base32 "0kn35mh6m652mwy09vx7aba35anj10zalzy0j169ry483ysxnjlk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -49481,16 +49481,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260613.1556")
+   (version "20260614.2015")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "0jraqyg213h1ilyiykv2mrraqxghwissd1aic7n33kgc63f5s07i"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "7707386a31a7aac20759fa75307f6d68cf337540")))
+     (sha256 (base32 "1rv1a5wjgw0sj97w438lxaz5nfbwrzg5dpm4v61y3kh3yhclqr2p"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -60215,14 +60253,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260601.2108")
+   (version "20260614.1645")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "45b9adb4c71f779de6e370e3f445eb8b23bb8dcd")))
-     (sha256 (base32 "0idfi8xrs6clx68b8qn8mc0wfkbq00708abny6jjcfm9ady01h6y"))))
+           (commit "2dded9da2dbced4624ecad4ab51ee2ee62aa2cad")))
+     (sha256 (base32 "1fwihxqhb4x94z36qvh45rrjg95sswwx4y952skxy2fvm0dl5fa0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
@@ -61062,14 +61100,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260613.1433")
+   (version "20260614.1700")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "fe0c1376f2d4e874661bc8b6112f34aa477c9442")))
-     (sha256 (base32 "0d0vaim8xpv867zd5bsvr3a7v5xpp4fsskdqvijdaxgdj1y36rxg"))))
+           (commit "e35d646c2cc9aa825e1f2007ec75dac872040b69")))
+     (sha256 (base32 "0j445i0bvqqb1gdm1ln30j2lwsv4cdxgmg8dqf0gzs6nqjnbxqsf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63969,14 +64007,14 @@
 (define-public emacs-mindstream
   (package
    (name "emacs-mindstream")
-   (version "20260218.312")
+   (version "20260614.1629")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/countvajhula/mindstream.git")
-           (commit "6b51036a069379d18538a7cca5274c21666a5979")))
-     (sha256 (base32 "0j82dm2mj49fs2q6qklhfimv1gvy6q3l6bqaj1azxyh1hbg4d0vi"))))
+           (commit "0b7a2889e8de419d90a3eaa137c82febe014fda6")))
+     (sha256 (base32 "1w00k2l021l2g4amxdfsyfxs252kfskd2pflhcki8fzbdghaxa0a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/countvajhula/mindstream")
    (synopsis "Start writing, stay focused, don't worry")
@@ -67465,14 +67503,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20260613.1537")
+   (version "20260615.219")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "839337dcbbb1c48e5f486b4ffffc928819bc78ab")))
-     (sha256 (base32 "1bp8va5rjv5yydh8nky73m99zlgjr2w2ajn4fvcavk3fgf1dzvj3"))))
+           (commit "35f6b8f1330049f20766d827148a7a1e261852e7")))
+     (sha256 (base32 "1ylxzykysj85081b51hkjqk785hnc41ifhjvdnf58n6gk2alpqpw"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -80084,14 +80122,14 @@
 (define-public emacs-perspective
   (package
    (name "emacs-perspective")
-   (version "20260403.538")
+   (version "20260614.1712")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nex3/perspective-el.git")
-           (commit "230cabf4c1406569bac416cff9502ae23648e3f8")))
-     (sha256 (base32 "0k7bfhjb71ippzrc65i0rbngj65wbhzl5rxygjshwf83rvfwimab"))))
+           (commit "f5f87d1670dd2b5e813a2201dec40b1945da264f")))
+     (sha256 (base32 "14bwrksrrq4nswq537dd6yf5lsxpipr4brd0rwifwjxd5h29jhxj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/nex3/perspective-el")
    (synopsis "Switch between named \"perspectives\" of the editor")
@@ -80687,14 +80725,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260613.1750")
+   (version "20260615.15")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "33e97c1ff285372c59bb293ebf76eec235c96532")))
-     (sha256 (base32 "001nqcc6mjxg92vmv5hbhlgycqzsc2khjlhyap77zxj3vfjla5vk"))))
+           (commit "52a15168d18ec083428eb361d25e23e8e1d9b50a")))
+     (sha256 (base32 "1w8fidsx4cdrnmkfg0bshrvlcxbv3dbg8d1sqkwd5qx3vlj63dyz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -83722,14 +83760,14 @@
 (define-public emacs-projection
   (package
    (name "emacs-projection")
-   (version "20250927.1605")
+   (version "20260614.1822")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mohkale/projection.git")
-           (commit "482789397c5e11dbb95438c87ccd0cad3d37a33a")))
-     (sha256 (base32 "0rlx9n1hmnzk46ml93g6lpv32ivmm7lfbb4mzicnapq7gly41132"))))
+           (commit "898c6fc2e8333fa72431f433414e5aad74455e54")))
+     (sha256 (base32 "0zw3ny9vyyyly3p8j0xmv9jla2bpkqwmyqm27c6izbsrrpinsr6a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-f emacs-s))
    (arguments '(#:files (:defaults "src/*.el")))
@@ -83760,14 +83798,14 @@
 (define-public emacs-projection-multi
   (package
    (name "emacs-projection-multi")
-   (version "20250921.1037")
+   (version "20260614.1822")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mohkale/projection.git")
-           (commit "c26f4af61bc395db60ee9aeb69c3f03030b3bbbc")))
-     (sha256 (base32 "1hzrkg1i5jwlf3qz06bqflq69msqmasnkxxhwg6zzwq62547nzml"))))
+           (commit "898c6fc2e8333fa72431f433414e5aad74455e54")))
+     (sha256 (base32 "0zw3ny9vyyyly3p8j0xmv9jla2bpkqwmyqm27c6izbsrrpinsr6a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projection emacs-compile-multi))
    (arguments '(#:files ("src/projection-multi/*.el")))
@@ -84500,6 +84538,23 @@
    (home-page "https://github.com/smoeding/puppet-ts-mode")
    (synopsis "Major mode for Puppet using Tree-sitter")
    (description "Documentation at https://melpa.org/#/puppet-ts-mode")
+   (license #f)))
+
+(define-public emacs-pure-light-theme
+  (package
+   (name "emacs-pure-light-theme")
+   (version "20260613.824")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/nyrell/pure-light-eink-color.git")
+           (commit "0cf41b8cb0ec95efd363889f8877d7f65514e4ad")))
+     (sha256 (base32 "1cl806h6rgqnw410xqnnp7xg7cbgfdd40hh58kgxnx2b2hwh1p4v"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/nyrell/pure-light-eink-color")
+   (synopsis "A light colored theme for e-ink color monitors")
+   (description "Documentation at https://melpa.org/#/pure-light-theme")
    (license #f)))
 
 (define-public emacs-purescript-mode
@@ -92097,6 +92152,24 @@
    (description "Documentation at https://melpa.org/#/shenshou")
    (license #f)))
 
+(define-public emacs-shexc-ts-mode
+  (package
+   (name "emacs-shexc-ts-mode")
+   (version "20260614.909")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/ericprud/shexc-mode-for-emacs.git")
+           (commit "554d15b59a4b1fdb0b84cb9f8a863acb754d056b")))
+     (sha256 (base32 "0r98xs5v76zv22rgddipbc1gninkg9f8x9w1098cf6d8d1zgcszg"))))
+   (build-system melpa-build-system)
+   (arguments '(#:files (:defaults (:exclude "shexc-mode.el"))))
+   (home-page "https://github.com/ericprud/shexc-mode-for-emacs")
+   (synopsis "Tree-sitter major mode for ShExC")
+   (description "Documentation at https://melpa.org/#/shexc-ts-mode")
+   (license #f)))
+
 (define-public emacs-shfmt
   (package
    (name "emacs-shfmt")
@@ -93681,14 +93754,14 @@
 (define-public emacs-sly-asdf
   (package
    (name "emacs-sly-asdf")
-   (version "20221119.2235")
+   (version "20260614.2139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mmgeorge/sly-asdf.git")
-           (commit "6f9d751469bb82530db1673c22e7437ca6c95f45")))
-     (sha256 (base32 "0bxan0h12xqdsfr3bpk7n8zj7d5xvp4v3wg4fbcf2xw63j02m810"))))
+           (commit "c1fa52dadb2f453243dc522203b7a883adef63fb")))
+     (sha256 (base32 "090cam192hrk6xriwscbfnzkdbvrbmdncdrmxxqgv048bcnj93g0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-sly emacs-popup))
    (arguments '(#:files (:defaults "*.lisp" "*.asd")))
@@ -95514,14 +95587,14 @@
 (define-public emacs-spatial-navigate
   (package
    (name "emacs-spatial-navigate")
-   (version "20260602.1236")
+   (version "20260614.1125")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-spatial-navigate.git")
-           (commit "22213dace66bfde31568d6e6e4df7b195cc6e4f1")))
-     (sha256 (base32 "1qnazc3lwgsa1gzgbc8bljszswzm73kk9hclkw56m6c30fymg8p0"))))
+           (commit "8b3e31be5a16657dc875d3ea248f907c75f8244f")))
+     (sha256 (base32 "0mg7vllcyjwq3v34fdrfc902riap6aiphqpwa8dz2f1zhsvc55jf"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-spatial-navigate")
    (synopsis "Directional navigation between blank-space blocks")
@@ -101113,14 +101186,14 @@
 (define-public emacs-tomorrow-night-deepblue-theme
   (package
    (name "emacs-tomorrow-night-deepblue-theme")
-   (version "20260314.1909")
+   (version "20260614.1718")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/tomorrow-night-deepblue-theme.el.git")
-           (commit "377fb120128c10929abc12f5d606a146b85372e0")))
-     (sha256 (base32 "023q97lydjcqjaqw9flrmivvah8b24ahhm0c9q89h8zv99qzrfbd"))))
+           (commit "ae24e3672e8832579052ce124d0c3b05ca835e16")))
+     (sha256 (base32 "0jsd0p34ppl7wgyxcww0hk641h9c5jfiymqyqrhlpr4k2lv5yg46"))))
    (build-system melpa-build-system)
    (home-page
     "https://github.com/jamescherti/tomorrow-night-deepblue-theme.el")
@@ -106044,14 +106117,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260612.1624")
+   (version "20260614.1337")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "5c476a92940a819d78baf0a75955188da12df386")))
-     (sha256 (base32 "1jxgdas3vmlcviq9nxfaym8zf6wdjpbqzmcw6vr8bhih33niaf15"))))
+           (commit "0d84bad42121d956b7a67a6fa175a1805a90af0f")))
+     (sha256 (base32 "0cxcj9y612k08vnsnv4b86r2sh33va6vz836zp77r2y03slzkzmp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
