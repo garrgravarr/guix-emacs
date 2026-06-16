@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260616.1130")
+   (version "20260616.1519")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "8d762b40fcc36fad8b433e554d5171af978e6e54")))
-     (sha256 (base32 "0mvdzk2j9qbixs912kzjgfbkpbkachaa9kya1nk8ncawz8sp2j55"))))
+           (commit "57b590dcba21e68abdf5301585edca45d44088f7")))
+     (sha256 (base32 "0yqn46wlsb9fz3725w5fm7k0jny1bj3yx19861wvwxjgnr3j667h"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -18135,14 +18135,14 @@
 (define-public emacs-dap-mode
   (package
    (name "emacs-dap-mode")
-   (version "20260523.830")
+   (version "20260616.1526")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/dap-mode.git")
-           (commit "fc78b2a1db5f30e65875653b4807b801c0ef23bc")))
-     (sha256 (base32 "1hclax156il2xj32nxslqnzwk98wqnpm9xd35xlx8dvgzm7h4i33"))))
+           (commit "c73a587d613788003986a11ffe393b46affe8322")))
+     (sha256 (base32 "1556sxkgm1n0m70js4qspzq613j490z18395c33zm8i1smj21ybl"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -21067,14 +21067,14 @@
 (define-public emacs-diredc
   (package
    (name "emacs-diredc")
-   (version "20260519.2113")
+   (version "20260616.1507")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Boruch-Baum/emacs-diredc.git")
-           (commit "d7bb2bb16312eaa0854985ae86cb115bea75addc")))
-     (sha256 (base32 "146hbb78l14mscwa8rd6h0an09ik2my47vpk2i14kvlzaqwpa3l5"))))
+           (commit "0b826202e12d6c66ae902d71ab770693cf89c33e")))
+     (sha256 (base32 "0zsgvznmqgbywfar8pxl56ig3zqqd3gaqxg1y6xvwnz27s0ngkhx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-key-assist))
    (home-page "https://github.com/Boruch-Baum/emacs-diredc")
@@ -37921,14 +37921,14 @@
 (define-public emacs-format-all
   (package
    (name "emacs-format-all")
-   (version "20260510.842")
+   (version "20260616.1201")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lassik/emacs-format-all-the-code.git")
-           (commit "5ea26dda9477285aae2640d79ad501a420ee52bd")))
-     (sha256 (base32 "0wghv01acjh15b6bsskfxzgippk3146jipbcnvydc3jn8yvqbhcg"))))
+           (commit "a103e2a1b7eb89e48f4f4f3310637bf1033ee456")))
+     (sha256 (base32 "1b7ppf60lccw1aqmdxf2ym2wmm2i83zsnxyr9ndvwcv1d4b0i3bp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv emacs-language-id))
    (home-page "https://github.com/lassik/emacs-format-all-the-code")
@@ -43564,14 +43564,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260612.1757")
+   (version "20260616.1531")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "92ed6ba6c117ce52137fae975e6c73aa1ff3ed62")))
-     (sha256 (base32 "11ii5l7kvsf9vm0wlixsysbcqsagrbz3qncj7phriwrwxqsf1nmh"))))
+           (commit "41ff3477fce70a4a3bc41d592afb04445c9d0903")))
+     (sha256 (base32 "1azpbdxd3fb2vmc9m6gdp450pqk11kc11a9q5dlrahayipy6zhgg"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -54934,14 +54934,14 @@
 (define-public emacs-julia-ts-mode
   (package
    (name "emacs-julia-ts-mode")
-   (version "20250115.1449")
+   (version "20260616.1624")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/JuliaEditorSupport/julia-ts-mode.git")
-           (commit "d693c6b35d3aed986b2700a3b5f910de12d6c53c")))
-     (sha256 (base32 "0jg59d6q4lab2p5d2f8yp95xpbqkc614ayl137mv14l5apgayvbc"))))
+           (commit "d53fb5b2c7e83223dcd8c7ae6bd5e1abf18665f6")))
+     (sha256 (base32 "16iss4q0arlggwdgqjjwj8flywk6h53ylzf5m1ig1jxkl8vqpiby"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-julia-mode))
    (home-page "https://github.com/ronisbr/julia-ts-mode")
@@ -91557,14 +91557,14 @@
 (define-public emacs-sesman
   (package
    (name "emacs-sesman")
-   (version "20240417.1723")
+   (version "20260616.1239")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vspinu/sesman.git")
-           (commit "7bca68dbbab0af26a6a23be1ff5fa97f9a18e022")))
-     (sha256 (base32 "1gl2dv7smyxkga4b5dflahqhasw9k15ppc4s0py29454p5k861yi"))))
+           (commit "7eb733acb33e610a53979fa7fc13393eeda3cc53")))
+     (sha256 (base32 "10c0djz3pqi84fynajaqkxls7j7r04xylxgfpysvlmj1jhd3f4lp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/vspinu/sesman")
    (synopsis "Generic Session Manager")
@@ -92156,14 +92156,14 @@
 (define-public emacs-shexc-ts-mode
   (package
    (name "emacs-shexc-ts-mode")
-   (version "20260616.1143")
+   (version "20260616.1657")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ericprud/shexc-mode-for-emacs.git")
-           (commit "4107c1563131ba564f93e8ce26e1e5c27653373d")))
-     (sha256 (base32 "167k0lqy5w0x8mg5blrcbzv9i3jwb0217qhm361k4s5d7nph840f"))))
+           (commit "b20177ac416c1f23c6996f9e20090974f86733a9")))
+     (sha256 (base32 "10kgihdn89bjak7h6zsi1jzp989g7v2a93k6bxrvjsry8h7na8s9"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults (:exclude "shexc-mode.el"))))
    (home-page "https://github.com/ericprud/shexc-mode-for-emacs")
@@ -106154,14 +106154,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260612.1724")
+   (version "20260616.1447")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "5fef3bd4ff5df5a452aca35b4921025aa271a61d")))
-     (sha256 (base32 "1qwg66v2c290jcb6v64zpxmd4kchdyk6x32kclf8i5va7pjpnw4q"))))
+           (commit "531a5b9ac60b8c4427ef5babcebe7d3de228c835")))
+     (sha256 (base32 "0xvr5acgjnb36vn2l0lplarv1jngq4yvi96ibbrapdrwpgkhhqmj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
