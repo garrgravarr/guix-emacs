@@ -10857,7 +10857,7 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260616.1519")
+   (version "20260616.1920")
    (source
     (origin
      (method git-fetch)
@@ -12082,14 +12082,14 @@
 (define-public emacs-clojure-ts-mode
   (package
    (name "emacs-clojure-ts-mode")
-   (version "20260325.2107")
+   (version "20260616.1927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clojure-ts-mode.git")
-           (commit "ba6de87b0acb5aa5483f6012611b30f6bf0414f3")))
-     (sha256 (base32 "0bqcw4ljvnks5ngbv6rr01c4v2chxr5g7f7h0y34cyklcrv50yyp"))))
+           (commit "af00860cd85a46d7b95af1e4f966d3ddccdab9b4")))
+     (sha256 (base32 "0fxl153gszq8clnqmhzp7lnki34zzfa788x3jh6wiw2nd0hidsvl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/clojure-emacs/clojure-ts-mode")
    (synopsis "Major mode for Clojure code")
@@ -17511,14 +17511,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260615.1224")
+   (version "20260616.1927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "6f8bcb4f96cd551f3d5c746b6164e5a735754c5e")))
-     (sha256 (base32 "1ssxdgs7ip7kzq9arf44l4gxjiniwsrwz6j0q28pbgzxmr13v9dx"))))
+           (commit "394f19ffa07892227881106337a480dc437749b7")))
+     (sha256 (base32 "01via49cnak5b1360ba71pad78q7za21vgwf8mbfvc8kk7xad5bx"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -24600,14 +24600,14 @@
 (define-public emacs-eglot-python-preset
   (package
    (name "emacs-eglot-python-preset")
-   (version "20260511.2317")
+   (version "20260617.148")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-python-preset.git")
-           (commit "51dc5a71d70add67d169a11ecd3e4225582d362c")))
-     (sha256 (base32 "1vgzfpj6vg5qnhhs2f70fl49bkgfmg6zxgy2mbaa1721q60ad9n4"))))
+           (commit "719b3aa8fd47aec6c1c3094e2468f41b9d588b09")))
+     (sha256 (base32 "08y0y1bsbyrlp704ajjkyd0ki8bfpcm9ncb7796fc61ajmz26ak2"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
    (home-page "https://github.com/mwolson/eglot-python-preset")
@@ -24654,14 +24654,14 @@
 (define-public emacs-eglot-typescript-preset
   (package
    (name "emacs-eglot-typescript-preset")
-   (version "20260511.2317")
+   (version "20260617.128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-typescript-preset.git")
-           (commit "6e7627002f69dcdb950dfd87f77f1a30a51149c9")))
-     (sha256 (base32 "0j4xf8lc9km7l5rn8dqk1l42d2szda1m0bdrasaigbg646rfqq0v"))))
+           (commit "cc780650223cf08f2268bca3de16509c61ef885d")))
+     (sha256 (base32 "18vsmjfsa6fm5lsdpfh05gckllppj5b048da04wmvnb2l4xbmsis"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
    (home-page "https://github.com/mwolson/eglot-typescript-preset")
@@ -37841,14 +37841,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260614.1936")
+   (version "20260616.2203")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "f3ad5910c3cb1ea6ac85a6ed870454527fd66071")))
-     (sha256 (base32 "0qfdfbdrk5yz89qss3vcsf6wnw6w7zhlkfaaq5rqisgdfc5ngza6"))))
+           (commit "883d5f1f4cd695bfc2ebefeff4cef06205438fc3")))
+     (sha256 (base32 "1d414vsqd8k2qfcb0la2q3fgpm9hsdhfnxb3532rdabgk398jqvw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -49482,14 +49482,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260614.2015")
+   (version "20260616.2018")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "7707386a31a7aac20759fa75307f6d68cf337540")))
-     (sha256 (base32 "1rv1a5wjgw0sj97w438lxaz5nfbwrzg5dpm4v61y3kh3yhclqr2p"))))
+           (commit "36c8858a45dc57390365d253d130c57700afb997")))
+     (sha256 (base32 "113ndvqhy6p2akkw3fdlwbj91v680mgqjzzvgw1g6hkd99i55rfa"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -61101,14 +61101,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260616.1129")
+   (version "20260616.2157")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "faea7f92ed42c18a64b709300aad1102b60104de")))
-     (sha256 (base32 "100g13lavmd58jyhwpmhd92hfxvqicpdr9zr3wz68q4574488rp2"))))
+           (commit "3f68af4762a761c5e0e30e25ec478e135060e356")))
+     (sha256 (base32 "0gvws997shmcgc3prwnkgd2v91f694jan7riyrli5izqxaz94j84"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63145,14 +63145,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260611.1404")
+   (version "20260617.307")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "98256024c8729385211f5b1d9a9f2825dda725fc")))
-     (sha256 (base32 "1f3hgyng799xvclywzkazmwy87advawg68y1mpmvayrbs6ic13x1"))))
+           (commit "839ae422bb61f8f47350dd439ceb24962b3619f9")))
+     (sha256 (base32 "0h9hsdr2nsvds02fxj8d0xaisigmbbwikmx650ngq7kv4crk18yd"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -67504,14 +67504,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20260616.1055")
+   (version "20260617.300")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "72d97a68e7de4c411e5804ee944bec0b7515f1f6")))
-     (sha256 (base32 "117nlf5jdc31qj453divh2flc33ckpli53wslb6kzysij92rlr01"))))
+           (commit "158c5c19f5e3fb5985c9887c5decde7162eeb1ce")))
+     (sha256 (base32 "19y6fpp1l2j1mxnf0d4084k7h58vi88ympw1naj754cza9hgpyiy"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -87781,14 +87781,14 @@
 (define-public emacs-repeat-fu
   (package
    (name "emacs-repeat-fu")
-   (version "20260502.924")
+   (version "20260617.256")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-repeat-fu.git")
-           (commit "3bf3de5a899167870fcbd486daeb5653338402bf")))
-     (sha256 (base32 "09xfsd1rgxg5493wxpajg34jygfcm8217di74q2hg65fijqiv5v6"))))
+           (commit "4d30d92a1fc3b5f0207866685de16cb78b83337c")))
+     (sha256 (base32 "1dc3g7fagzll24ws39gwy5zl3bxmca1njky4gw5s5yb5gd40cypk"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-repeat-fu")
    (synopsis "Minor mode to repeat typing or commands")
@@ -92156,14 +92156,14 @@
 (define-public emacs-shexc-ts-mode
   (package
    (name "emacs-shexc-ts-mode")
-   (version "20260616.1657")
+   (version "20260616.2147")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ericprud/shexc-mode-for-emacs.git")
-           (commit "b20177ac416c1f23c6996f9e20090974f86733a9")))
-     (sha256 (base32 "10kgihdn89bjak7h6zsi1jzp989g7v2a93k6bxrvjsry8h7na8s9"))))
+           (commit "944e97c158b9daabac31ee39f602c54411cc1f42")))
+     (sha256 (base32 "0rkb5qkg0ynxjisanx2my1yrx9vsqfyh4yg7np0rbhx43iwczxxz"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults (:exclude "shexc-mode.el"))))
    (home-page "https://github.com/ericprud/shexc-mode-for-emacs")
@@ -93409,14 +93409,14 @@
 (define-public emacs-sleek-modeline
   (package
    (name "emacs-sleek-modeline")
-   (version "20260612.2325")
+   (version "20260616.2144")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abidanBrito/sleek-modeline.git")
-           (commit "c132e1aa48ffb0bafd8731d7fe706a15cb57acbf")))
-     (sha256 (base32 "1j3q92krr9cvkxg6kyjibgwhhw9fa9x188kcnfpcqp5r02448121"))))
+           (commit "3b3ecf1d52a889aea403a24b2e370d821878c2f3")))
+     (sha256 (base32 "1w77jzdj0450ypzwxv1ldxpmzryw0cmf3qgj4w889lvxwnmj06a4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/abidanBrito/sleek-modeline")
    (synopsis "Minimal and elegant modeline")
@@ -103336,14 +103336,14 @@
 (define-public emacs-ultra-scroll
   (package
    (name "emacs-ultra-scroll")
-   (version "20260516.1225")
+   (version "20260616.2126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jdtsmith/ultra-scroll.git")
-           (commit "f38653053b5c9bbe8dbcb6b2236ab8997fc2f9bb")))
-     (sha256 (base32 "0ajynkiqiq7pvd7wqgf8wig8q288nsxixgl851bw0bjhivv32fmx"))))
+           (commit "5be267d2d92c230b4347e0769f584c71aec53589")))
+     (sha256 (base32 "0lzycvg61lq0azc280bq4m0d1xrffrac966ax9qbnn5rxm78ikrp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jdtsmith/ultra-scroll")
    (synopsis "Fast and smooth scrolling")
@@ -104791,14 +104791,14 @@
 (define-public emacs-vcomp
   (package
    (name "emacs-vcomp")
-   (version "20260501.1438")
+   (version "20260616.2212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/vcomp.git")
-           (commit "2227de68c2fc4d7a029bd30d188422429bb18d28")))
-     (sha256 (base32 "0w8z683sq1bq89vlypqbg5dzb5n1p6zhj0ci07flnr7gqcicg5fw"))))
+           (commit "7b3f93d1202bd9353ee6401c47fbc3cc0d6d76e3")))
+     (sha256 (base32 "116h3n0j5m0mi7c4qz1axjy4yvwh833bnj2s8crhcrzc2ppr20yz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tarsius/vcomp")
    (synopsis "Compare version strings")
