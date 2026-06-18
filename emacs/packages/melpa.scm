@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260617.1903")
+   (version "20260618.919")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "11bc373b6e2ed424f6098de03f896e62745bfd05")))
-     (sha256 (base32 "1nhf2gznfd5pk20p8bib1608y4kqxb7w21rann5vwr2ghylhw7n0"))))
+           (commit "592653e5bbff55ba2cb62900741aee2ac7c8a1e7")))
+     (sha256 (base32 "05nbc14493x6xb4n7jwm1b1rdqs6ay0k2k4cg2cl7w1lcrhjvaia"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -12866,14 +12866,14 @@
 (define-public emacs-color-theme-sanityinc-tomorrow
   (package
    (name "emacs-color-theme-sanityinc-tomorrow")
-   (version "20260506.1306")
+   (version "20260618.806")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/color-theme-sanityinc-tomorrow.git")
-           (commit "1cb1784aab0a3107c0d983933fdfc1dcbf309910")))
-     (sha256 (base32 "1lly43bs26vr9gja4xsb455g2adi548f0gnwp5cw1qa1n7s2lw2c"))))
+           (commit "87cbc712c77a9b305d356f2ae448e424a8bd3c5c")))
+     (sha256 (base32 "0caqwfx4w07q08ayv7kc0m0yanqq5bckrv4zkajx3pj2vz56ygk8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/purcell/color-theme-sanityinc-tomorrow")
    (synopsis "A version of Chris Kempson's \"tomorrow\" themes")
@@ -30292,14 +30292,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260616.1111")
+   (version "20260618.950")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "b197c1695b7cd887dd72b2aab8ff575be68cd5d3")))
-     (sha256 (base32 "125vba8g1rcvqxybjkk7rmw4pddlpb287f52l7gh7za8dsfg3dhr"))))
+           (commit "cd67d113f9ab041727cf9dc67b96fd655f930d2c")))
+     (sha256 (base32 "14q5cz43lz3gmip3gj8q39d32yv1g5yafsx72ffvz8g988mhy4vf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -32203,14 +32203,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260617.1108")
+   (version "20260618.655")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "71c74cac590c566b0b1a8e74c26cb736646b6b49")))
-     (sha256 (base32 "0r8kmk25kpchj5rikqhpdd547c4wy6lng9ysm5plinp3njgbh6hd"))))
+           (commit "2e632d3dd6c896fedf90f74111049348b2ee1dcf")))
+     (sha256 (base32 "17yi5m2lfwxpp1gj8kaalimq9w25z84j2dkrga7pj66h9nkf3xj1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -39757,14 +39757,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260617.2228")
+   (version "20260618.950")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "328b34cedbceff88fd8fbf096e6230deb0ac3dcb")))
-     (sha256 (base32 "1xqxgiiqkdq76adlhmawcwb7662j6ji0278mcjq6waaih01ym00f"))))
+           (commit "cd67d113f9ab041727cf9dc67b96fd655f930d2c")))
+     (sha256 (base32 "14q5cz43lz3gmip3gj8q39d32yv1g5yafsx72ffvz8g988mhy4vf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -85614,14 +85614,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260418.249")
+   (version "20260618.608")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "7690b9569892bf5e5f87cae290cb6a861cd1deeb")))
-     (sha256 (base32 "0m9rxh51pny3cpiy4x24qqpgpfbaibdfv1yh5ckzy8hqcgkxq222"))))
+           (commit "f7422398c8560c86cec71841c4aed71ca6537d2d")))
+     (sha256 (base32 "0w5hj4mvlc2hfjabwg8dnwnwbw6l531mbnv6sh7spxgfi6cabwqb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -89230,17 +89230,17 @@
 (define-public emacs-rspec-mode
   (package
    (name "emacs-rspec-mode")
-   (version "20230819.154")
+   (version "20260618.548")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pezra/rspec-mode.git")
-           (commit "29df3d081c6a1cbdf840cd13d45ea1c100c5bbaa")))
-     (sha256 (base32 "0fyqlsj91j1fks16bx8zy0ly3mc6nk4fk2vbf0yjc2fa14hda41m"))))
+           (commit "b5d48de9b56a0070d7a0d3e642b139992a1ce3f0")))
+     (sha256 (base32 "067na709bbsazhpd8y22lxplh34lf0r4jf2akpqbyiai1izs9vdl"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("rspec-mode.el" "snippets")))
-   (home-page "http://github.com/pezra/rspec-mode")
+   (home-page "https://github.com/pezra/rspec-mode")
    (synopsis "Enhance ruby-mode for RSpec")
    (description "Documentation at https://melpa.org/#/rspec-mode")
    (license #f)))
@@ -103231,14 +103231,14 @@
 (define-public emacs-uiua-mode
   (package
    (name "emacs-uiua-mode")
-   (version "20260617.1125")
+   (version "20260618.822")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/crmsnbleyd/uiua-mode.git")
-           (commit "043351d9bb58c16bb66cbe802012bdf5453c4b13")))
-     (sha256 (base32 "11hc67h76pakb4pssxh9j1kp624x284h7y18c6g3nhz964x5c3f3"))))
+           (commit "4194e877aef707f8475c3632390179b03571d091")))
+     (sha256 (base32 "1ynhqz8g64zqry90g9s3c7wqzjy95vd348q1m0ff0cq3qjjqyws2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-reformatter))
    (home-page "https://github.com/crmsnbleyd/uiua-mode")
@@ -106153,14 +106153,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260617.1151")
+   (version "20260618.918")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "63f80f69b8b648dd81e7013f597195e7747f89b2")))
-     (sha256 (base32 "0wzzx4jzpf2pz0pzmbi1l0ls9g1h4zqdbrijjfyn96xb176fpx45"))))
+           (commit "dba2073cd6e899dd826e95d3ce6d26b6846e3f1b")))
+     (sha256 (base32 "0nz11myh2l96pjm1dph8ncg0h4605fawaxwxdd7nyflfssmini71"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -106171,14 +106171,14 @@
 (define-public emacs-vulpea-journal
   (package
    (name "emacs-vulpea-journal")
-   (version "20260617.1438")
+   (version "20260618.737")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-journal.git")
-           (commit "5c026d0d2afff06d530334c581975b8b8a63da45")))
-     (sha256 (base32 "118cjq0jhy2l6igkxzwmpzksad730kprnm35db2pbyzrzyk3ypdq"))))
+           (commit "557e8949927ba02270fdefdd39946afa3b01916e")))
+     (sha256 (base32 "1c5rlkl6dv21idxakr5mzv82lf7qkpmxql715drqyx9bvzg2xqrk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vulpea-ui emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea-journal")
