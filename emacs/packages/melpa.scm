@@ -6286,14 +6286,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260604.1711")
+   (version "20260617.1102")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "f9b236c990cc3951cca04e869a9d862e0ffc0a47")))
-     (sha256 (base32 "10d67g9jkq0li7gw1glbms6mkjnn51hmsj1hka5h4bfx4my5ysd7"))))
+           (commit "259f76f83efb03220e60bd799fb17fc49bddcda0")))
+     (sha256 (base32 "12qliyhk9ni10ks2hrwv74dhwakqb0jkvhip44qcfcrnhjvyacka"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260618.919")
+   (version "20260618.1542")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "592653e5bbff55ba2cb62900741aee2ac7c8a1e7")))
-     (sha256 (base32 "05nbc14493x6xb4n7jwm1b1rdqs6ay0k2k4cg2cl7w1lcrhjvaia"))))
+           (commit "1e216e75f8e882ceb1cc19bb63791a93911c63b5")))
+     (sha256 (base32 "1y31infl4yqk689va5klqxw9p5lp68jm95kxciwvrgmi5ygwwc65"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -13267,14 +13267,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260604.235")
+   (version "20260618.1349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "d21548a6c5019aad11ad194969ce7e446844b1bb")))
-     (sha256 (base32 "0py6v10g79b21rhfw5g6q5lqrxl42xaxb0gkkn0m9sm7ddhdnn6l"))))
+           (commit "04fa1b9bfe150b1f8c76cea47c3a4af3f0e1b22e")))
+     (sha256 (base32 "156vlp2a67dcn9cp3w8pgkjjmq51aw1w3w929wrhhvkq1kg0v20r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -20209,14 +20209,14 @@
 (define-public emacs-dimmer
   (package
    (name "emacs-dimmer")
-   (version "20260614.2114")
+   (version "20260618.1559")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gonewest818/dimmer.el.git")
-           (commit "01f0ebca1641a072a6af5bda68db405276787e79")))
-     (sha256 (base32 "041pqak62phqg9yspgq06mh17hdjwj7gky5i4n8ji82ry494j5vp"))))
+           (commit "bbab62f01d45086b9098f6a0ab765282d9c7bc45")))
+     (sha256 (base32 "1azpm377q2qvwfgfpc01fgma66s52xy829r2kjadqsw0px0gjkq4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gonewest818/dimmer.el")
    (synopsis "Visually highlight the selected buffer")
@@ -23809,14 +23809,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260618.103")
+   (version "20260618.1359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "42322cc0fb0286d0693efa88e86a22b496125632")))
-     (sha256 (base32 "0xh4z9chhql7l8x57gr4w9lynlnws879iyycs2936yy2p53420zy"))))
+           (commit "8e9d1f9261fb1b0dabebc05d311076d5ef38e70c")))
+     (sha256 (base32 "0gn2dplwyirlm3w35whscr3jc4382prpv33nqnm03ac6s5776mmh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -25629,14 +25629,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260616.255")
+   (version "20260618.1716")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "79297eb9090fd058d7f4bcd40dd0d559b686c5a4")))
-     (sha256 (base32 "1rnycgn7wky0zgdnbk69kwxx989dzb36s7xgr7d45b02y40mqqc9"))))
+           (commit "82274978814a32fc791570066c63b54e44c2ba1b")))
+     (sha256 (base32 "0wy26w9snsdlm1n48yvnl5s5s22zvh1kj1p333scsfiw7dzahf0x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -30292,14 +30292,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260618.950")
+   (version "20260618.1215")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "cd67d113f9ab041727cf9dc67b96fd655f930d2c")))
-     (sha256 (base32 "14q5cz43lz3gmip3gj8q39d32yv1g5yafsx72ffvz8g988mhy4vf"))))
+           (commit "782041a46dd74773402750cae70290187ee46960")))
+     (sha256 (base32 "1n9nadq9xp55s8gd47n5ykbnqgcaacki7y1kwf6kry74glk2hb62"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39757,14 +39757,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260618.950")
+   (version "20260618.1215")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "cd67d113f9ab041727cf9dc67b96fd655f930d2c")))
-     (sha256 (base32 "14q5cz43lz3gmip3gj8q39d32yv1g5yafsx72ffvz8g988mhy4vf"))))
+           (commit "782041a46dd74773402750cae70290187ee46960")))
+     (sha256 (base32 "1n9nadq9xp55s8gd47n5ykbnqgcaacki7y1kwf6kry74glk2hb62"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49481,14 +49481,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260617.543")
+   (version "20260618.1719")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "e54e99d19eb476b9badfd13ea84a8e8186bf1718")))
-     (sha256 (base32 "1kwviw5wm7fcqfsqv80pnbcdpa076ilkkvm4wbx3v3aw15kyp87h"))))
+           (commit "64d7dafee66939636b21430ec3a3db70193d3c39")))
+     (sha256 (base32 "1sh5rx18mnpn4qd9xr51i2zmsvk86v3x3sijxnf0b2xbpm05g8xw"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -106153,14 +106153,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260618.918")
+   (version "20260618.1130")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "dba2073cd6e899dd826e95d3ce6d26b6846e3f1b")))
-     (sha256 (base32 "0nz11myh2l96pjm1dph8ncg0h4605fawaxwxdd7nyflfssmini71"))))
+           (commit "57a09d5294244c918a5c65f2a6d6a5494e88b1f2")))
+     (sha256 (base32 "11p711b2n7qijyqd5ix9ddhxx05qm98vnsw3302v7wlr8c0893ph"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
