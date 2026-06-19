@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260616.407")
+   (version "20260619.154")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "589307b8496ac8530d6de06cd7189d827b72e4b0")))
-     (sha256 (base32 "059smhhjpw5hc6f2wx8y1l1n6vkqfj58h9pg67r0mfrr5rm2iaxn"))))
+           (commit "02e1207c1f2e7dca2c8974f8b3c771bbfcc588dc")))
+     (sha256 (base32 "16alkiwf743fi3znr0v73p34l9p8fll5y8s9i6hprf4b9irwsr3z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -20959,14 +20959,14 @@
 (define-public emacs-dired-sidebar
   (package
    (name "emacs-dired-sidebar")
-   (version "20260617.2225")
+   (version "20260619.56")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/dired-sidebar.git")
-           (commit "87195352eabf027bf63a948573797ef74657d106")))
-     (sha256 (base32 "0vp8zw2skz3cg5dmhz480dmnvn9d9na2zxn5prnd31ic8v3wzamg"))))
+           (commit "1852a0b17bf2619607f6b4dfc437e279ba04e93c")))
+     (sha256 (base32 "0br2a2nccbbmp5mgj4b0q28k0gaq10w1mrsyabfk9va9dqb8iscn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dired-subtree emacs-compat))
    (home-page "https://github.com/jojojames/dired-sidebar")
@@ -23809,14 +23809,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260618.1359")
+   (version "20260618.2326")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "8e9d1f9261fb1b0dabebc05d311076d5ef38e70c")))
-     (sha256 (base32 "0gn2dplwyirlm3w35whscr3jc4382prpv33nqnm03ac6s5776mmh"))))
+           (commit "51d11e2ae57b552e26b58b39835cff23c2af6a00")))
+     (sha256 (base32 "0z06m8glsgm9p7g62l8yamnmwszm9ln08ggwd77pv0jmzcnwgljf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -30292,14 +30292,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260618.1215")
+   (version "20260618.2311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "782041a46dd74773402750cae70290187ee46960")))
-     (sha256 (base32 "1n9nadq9xp55s8gd47n5ykbnqgcaacki7y1kwf6kry74glk2hb62"))))
+           (commit "4343d948e43aed260d8ec42927b769d85fd0c2ec")))
+     (sha256 (base32 "10zrcnzymrn8vyjq548fsvskwlqv7fd8r8dp3f66ir2cnmvlq0b4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39757,14 +39757,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260618.1215")
+   (version "20260618.2311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "782041a46dd74773402750cae70290187ee46960")))
-     (sha256 (base32 "1n9nadq9xp55s8gd47n5ykbnqgcaacki7y1kwf6kry74glk2hb62"))))
+           (commit "4343d948e43aed260d8ec42927b769d85fd0c2ec")))
+     (sha256 (base32 "10zrcnzymrn8vyjq548fsvskwlqv7fd8r8dp3f66ir2cnmvlq0b4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -45169,14 +45169,14 @@
 (define-public emacs-helm-core
   (package
    (name "emacs-helm-core")
-   (version "20260611.421")
+   (version "20260618.1908")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm.git")
-           (commit "1a37057a9a92d7e9a77182791d2a20618e47a66c")))
-     (sha256 (base32 "0208bakgmrb2qcm099clklxwmsjzz5h18sjqw552jsfl1s7xc9af"))))
+           (commit "558427bf221a61014e25d1be3a29dbebad277973")))
+     (sha256 (base32 "1brd3q69yfhw5dr0bwmlsjsjh9m32wdkr3llv6y7rx35bh4rhdf5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (arguments
@@ -59875,14 +59875,14 @@
 (define-public emacs-loopy
   (package
    (name "emacs-loopy")
-   (version "20260618.13")
+   (version "20260619.151")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/okamsn/loopy.git")
-           (commit "474b57bc2b65ac92e200c351d91a322b308ea1bc")))
-     (sha256 (base32 "0222mp37ycdgixmv3yjjv2ny7ylw3anq0p9zf5v5dzbjj23wszf0"))))
+           (commit "e7b05b7a4d0d3dba1935c0bd70db34ec65510959")))
+     (sha256 (base32 "1rl97cq1fjq926n1642h0h254ly9ks01g4mbji9glpf489x93byn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-stream))
    (home-page "https://github.com/okamsn/loopy")
@@ -63127,14 +63127,14 @@
 (define-public emacs-mediawiki
   (package
    (name "emacs-mediawiki")
-   (version "20260520.112")
+   (version "20260619.205")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hexmode/mediawiki-el.git")
-           (commit "afae2890503222e4964bd6ed60e756498a267628")))
-     (sha256 (base32 "0kmrbj82hdada6vvncavk0zmjiv5zkyvfhkkhjrl7ggflq8pggf2"))))
+           (commit "4e49e71bb73cd7003e02dba6ba958d224e24a378")))
+     (sha256 (base32 "1vrzhzn26aijfwfv7h1bsndxq37zll92ahzgyj29kssg5xgbdri2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hexmode/mediawiki-el")
    (synopsis "Mediawiki frontend")
@@ -63144,14 +63144,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260617.307")
+   (version "20260618.2340")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "839ae422bb61f8f47350dd439ceb24962b3619f9")))
-     (sha256 (base32 "0h9hsdr2nsvds02fxj8d0xaisigmbbwikmx650ngq7kv4crk18yd"))))
+           (commit "01fe824c36db1ea6011cb4942b6b30fe587ff275")))
+     (sha256 (base32 "0rv5pz6ddjpayy1vlszk40z27vp1l6wcb57kyk1ncqa8z6j12gzd"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
