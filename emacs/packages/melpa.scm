@@ -7340,14 +7340,14 @@
 (define-public emacs-blue
   (package
    (name "emacs-blue")
-   (version "20260422.644")
+   (version "20260620.951")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/lapislazuli/blue.el.git")
-           (commit "16c7092e7483cf7b29511374bbc8c80a1359b6b9")))
-     (sha256 (base32 "1f0glcg6y081wqgidakn56bdy6cx87fxw4zhdxc4l0vcsr98rc7m"))))
+           (commit "ca78d0ee1f7ff9e08b46ec2e90b69a8fbd05a9ab")))
+     (sha256 (base32 "1sn54gijg5x9vwjn8y0vl9d7f8ig6rink6s2fibcv11har2gazps"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit-section))
    (home-page "https://codeberg.org/lapislazuli/blue.el")
@@ -7696,16 +7696,16 @@
 (define-public emacs-borland-blue-theme
   (package
    (name "emacs-borland-blue-theme")
-   (version "20160117.1321")
+   (version "20260620.1425")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/fourier/borland-blue-theme.git")
-           (commit "db74eefebbc89d3c62575f8f50b319e87b4a3470")))
-     (sha256 (base32 "0yzfxxv2bw4x320268bixfc7yf97851804bz3829vbdhnr4kp6y5"))))
+           (commit "c24ef5aa16fed6727696b0ea71bf154889e4ee0a")))
+     (sha256 (base32 "1hwyyv20xkb4ygqfk0nyp2z59bmxxiycnca6yi9iifq7cwwiq7yi"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/fourier/borland-blue-theme")
+   (home-page "https://github.com/fourier/borland-blue-theme")
    (synopsis "Blue/yellow theme based on old DOS Borland/Turbo C IDE")
    (description "Documentation at https://melpa.org/#/borland-blue-theme")
    (license #f)))
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260619.1544")
+   (version "20260620.1138")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "2953dc42dea23fd82214d4576879e13555e31fc6")))
-     (sha256 (base32 "07qdvh71k9bjk9351ay88n6ydjyci3m9jpy4rbqizi376afh1fn5"))))
+           (commit "bdac3bc160749c023908193803329fd4db15ce53")))
+     (sha256 (base32 "132911gwzri4qlns3iif2m7ljkndrzbx61rbwfrq42rf7k8c1y1s"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -32203,14 +32203,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260619.448")
+   (version "20260620.1316")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "b9bc04dd3317616aef4d7191248d9a609c68b494")))
-     (sha256 (base32 "0r2hgp4nl5rw3dgilg2251364acdnn0nnm8lhhsfl0nwh78cppi9"))))
+           (commit "2df0e82c35e3690553231370884e340a925ba158")))
+     (sha256 (base32 "1572qxrxb5riqw4psjvms4k2qd1kgskjhci4wnc0xvi95xjiqh6q"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -37840,14 +37840,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260616.2203")
+   (version "20260620.1409")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "883d5f1f4cd695bfc2ebefeff4cef06205438fc3")))
-     (sha256 (base32 "1d414vsqd8k2qfcb0la2q3fgpm9hsdhfnxb3532rdabgk398jqvw"))))
+           (commit "e87bf2469c597e01ec3baef63f2a34aceba9bcbb")))
+     (sha256 (base32 "15jsbamv3b8gci3pwzhcij47nyp58qwr402z4mhcwy7fgv0xfq5a"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -37920,14 +37920,14 @@
 (define-public emacs-format-all
   (package
    (name "emacs-format-all")
-   (version "20260616.1201")
+   (version "20260620.1415")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lassik/emacs-format-all-the-code.git")
-           (commit "a103e2a1b7eb89e48f4f4f3310637bf1033ee456")))
-     (sha256 (base32 "1b7ppf60lccw1aqmdxf2ym2wmm2i83zsnxyr9ndvwcv1d4b0i3bp"))))
+           (commit "ea09b47d50da21784ebea16fd973838f8ce20abe")))
+     (sha256 (base32 "14l86paszrc20rxh7nchg52fcn8fwdhbq73idl01wgbknbzdq1ii"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv emacs-language-id))
    (home-page "https://github.com/lassik/emacs-format-all-the-code")
@@ -67451,14 +67451,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260620.826")
+   (version "20260620.1423")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "02c1a4c0c69ed48829610259fe6d8c7342117270")))
-     (sha256 (base32 "0wf1lg82jkl37zwjpjvwqgim0nyfnc3k4zxiq7a0x56xi73844sj"))))
+           (commit "67fd8abea687a8d0d574b740a73edc55be29a648")))
+     (sha256 (base32 "13ms1iasgjnj4lx1yqa7h9d9nkk713lsa9m60lrzg5kdw1c1vgj7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -73934,14 +73934,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260620.539")
+   (version "20260620.1427")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "b90355437b4c2b69b2362f04cff03f4877d7f022")))
-     (sha256 (base32 "1i2n8zlvnxkq8pj1cldf9b9a3g0jqhywynfxfnvlnx9f4qrizqpw"))))
+           (commit "eea4942d82858297d6f31d5872bce3e3ebe8bb50")))
+     (sha256 (base32 "1hkvp98jc8la6akq0lvxldnjd7xnl1pn4g6dh8727yyba8y1q08m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -92155,14 +92155,14 @@
 (define-public emacs-shexc-ts-mode
   (package
    (name "emacs-shexc-ts-mode")
-   (version "20260619.1323")
+   (version "20260620.1006")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ericprud/shexc-mode-for-emacs.git")
-           (commit "f0069e0da2b463902fbbaa98459973a3544f5c41")))
-     (sha256 (base32 "13xfbrxirdmfradsp3b3ifmcxi05kjl6cwwg4frmkk8z14fvjmrb"))))
+           (commit "add63e52c0d6182d252c8bff2a87acf7fdc3f831")))
+     (sha256 (base32 "15v1qzx7qqavfzm54pzqf86yb01wjrhg4xzp415fa8kl5xg516fp"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults (:exclude "shexc-mode.el"))))
    (home-page "https://github.com/ericprud/shexc-mode-for-emacs")
@@ -92191,14 +92191,14 @@
 (define-public emacs-shift-number
   (package
    (name "emacs-shift-number")
-   (version "20260620.335")
+   (version "20260620.1211")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-shift-number.git")
-           (commit "fed971a983fce0f60a2e9795df3eca7712152a29")))
-     (sha256 (base32 "0dfzasc1rjqpbf7qjnb6c93mdg7zj8ll2imrj73kz7ymw27gi40r"))))
+           (commit "d5e8bece6e6ab21ad5a93330d49b2554e9eb72a9")))
+     (sha256 (base32 "139ilxbqjcf1x3x0dc9vw0jf986cr7qkc2x7fxggkcny90dwiqhi"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-shift-number")
    (synopsis "Increase/decrease the number at point")
