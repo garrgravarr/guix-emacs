@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260619.1528")
+   (version "20260619.2130")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "e85ac50068623229b96896f1d8c7718bf8bc90dd")))
-     (sha256 (base32 "0jcdmx5lx6ws6r7mphp2hs416i4q074mf9rc31283niwkq80vy4w"))))
+           (commit "453281bd230d7004a517e3b288eff530c3b9d4de")))
+     (sha256 (base32 "0sk0s1zj4rr2g9zryhi4fn6sfajb883vnn6fpww58a5z43lpqz7f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -3209,14 +3209,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260613.2149")
+   (version "20260619.1935")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "1c00a5acfb438c833616ebeb134270c01850363f")))
-     (sha256 (base32 "0s1hnb6v013yxcz1g35cmanwk53pb7jjcwlc6b2zf8lvlbn5qlbj"))))
+           (commit "14a0bb4454fb2cc3b5b377619288b742ce117da5")))
+     (sha256 (base32 "0yp74vmwiav15igwcmgjngzylixw11ayrhyj3wg97w07sqxivlcr"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -6991,14 +6991,14 @@
 (define-public emacs-bitbake
   (package
    (name "emacs-bitbake")
-   (version "20251230.1237")
+   (version "20260620.217")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/canatella/bitbake-el.git")
-           (commit "44513a330d3bb2bceb1bfd99b4eb63b37f681369")))
-     (sha256 (base32 "0zbbxgi87594aikvc89fq66sky9xp1kfmif74jbdkyfjjkydkzz0"))))
+           (url "https://github.com/danielcmccarthy/bitbake-el.git")
+           (commit "683f6e9fa1d15447eeef0415b88bd116180463d3")))
+     (sha256 (base32 "0dpjsknphrwjc6hqrdfgdv18nz7dcbx6vksiibdc0jmxr0bzk558"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-mmm-mode emacs-s))
    (home-page "https://github.com/canatella/bitbake-el")
@@ -21901,14 +21901,14 @@
 (define-public emacs-docker
   (package
    (name "emacs-docker")
-   (version "20260126.1212")
+   (version "20260619.1940")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Silex/docker.el.git")
-           (commit "916686b86e83a3bd2281fbc5e6f98962aa747429")))
-     (sha256 (base32 "0yql0k5bw1vsqh44g5aq6ip6dn3c36k8gpljvbghsj01fcqdlvj6"))))
+           (commit "6b16f3ecce24cd24c0a9305a4b04491880c8ea53")))
+     (sha256 (base32 "1n6603ybicix8h57q3b3yiijxgcb4ac8yhihxfdisanhcmvjllqq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-aio emacs-dash emacs-s emacs-tablist))
    (home-page "https://github.com/Silex/docker.el")
@@ -25329,14 +25329,14 @@
 (define-public emacs-eldoc-box
   (package
    (name "emacs-eldoc-box")
-   (version "20260415.226")
+   (version "20260620.158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/casouri/eldoc-box.git")
-           (commit "2680a08ff2438ff8c2ea6f8d57f22095f857900c")))
-     (sha256 (base32 "1iqha79lpydaz2i5dah11zsj060bs1livl3fpi76kh3j5ak6v5id"))))
+           (commit "e458cefba4013785ef6099c6245463689a50dd7d")))
+     (sha256 (base32 "0bza0jgzlrz25xb1dy3l17gbmd4nnqi5x8bsvqa586i8jgd06hqw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/casouri/eldoc-box")
    (synopsis "Display documentation in childframe")
@@ -26407,14 +26407,14 @@
 (define-public emacs-elmpd
   (package
    (name "emacs-elmpd")
-   (version "20250910.327")
+   (version "20260619.2114")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sp1ff/elmpd.git")
-           (commit "a68563fa3e3b09fcdaf4b9f070542f8cfa257067")))
-     (sha256 (base32 "0kyw7j2zi2ji07hmpiyrpnyfmdrficinyjnvp7cnrphai925gj92"))))
+           (commit "72a4b8e0c2d2257eb9f22d34691861897fc7bfb9")))
+     (sha256 (base32 "0psg7wzr3l2qzny7vlwl6p7zhnkbav6nzd8lrxr173phvfphibmp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sp1ff/elmpd")
    (synopsis "A tight, ergonomic, async client library for mpd")
@@ -55472,14 +55472,14 @@
 (define-public emacs-kaolin-themes
   (package
    (name "emacs-kaolin-themes")
-   (version "20260601.1332")
+   (version "20260619.2211")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
-           (commit "ffa410689aa54badd92ed2d4af4221b919432af9")))
-     (sha256 (base32 "06nkgws2jh11n5q7zsq3cr3xvdqnbrvrdzwwnk0910sdspwhyii6"))))
+           (commit "432c6672b16e867ec40eaf312d2fbbeb38673fa9")))
+     (sha256 (base32 "0jsxmi4l2kjpfgfbacixcbxdr1sz45qj5y2hz447fca8y9875p9y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (arguments '(#:files (:defaults "themes/*.el")))
@@ -61100,14 +61100,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260617.1007")
+   (version "20260619.2310")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "3c545b4135d153c863469c022dc6ce50bae76d1d")))
-     (sha256 (base32 "09qyh79s0nlpsadwnpwjd8hvrr41caf0w5045byhaiw4glmysxgc"))))
+           (commit "899fb4d8d56e8f5fd8c62e236e51e48d3f012cad")))
+     (sha256 (base32 "1klsc9qjmqy5d545cy8dsf9fjy14yb13zlqwg9qlahqa8lzbzr8f"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -76143,14 +76143,14 @@
 (define-public emacs-org-window-habit
   (package
    (name "emacs-org-window-habit")
-   (version "20260530.1803")
+   (version "20260620.108")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/colonelpanic8/org-window-habit.git")
-           (commit "1b0d483f655851d0c9fd688832140048bcb1763b")))
-     (sha256 (base32 "10c2piva4ppqwxg2lhfawp5cxvnn7gn1qcihyhq3fbg9jjm0cp29"))))
+           (commit "19a6e070502e2b0d9aa85f12eda48debb44a479b")))
+     (sha256 (base32 "16lhsvdi0niaab5cy3ga0h6y63lwqpjiav6ks95lhkf9fjrwa80z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/colonelpanic8/org-window-habit")
@@ -81005,14 +81005,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260619.1756")
+   (version "20260619.1917")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "000589bbe5d962feb67ac1c9a82817796b805f82")))
-     (sha256 (base32 "1k41g8yypqldhg5m35bqpyad27bw6fqw9nb0vhk232zjb3b5payh"))))
+           (commit "b88beeb65e486263e472e979fd7bdb3df8b89835")))
+     (sha256 (base32 "1fzw5kgjq4740qydlz92yqfd427f94sz3cwvq72nkgpgjimh1n4x"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -92191,14 +92191,14 @@
 (define-public emacs-shift-number
   (package
    (name "emacs-shift-number")
-   (version "20260524.2133")
+   (version "20260620.159")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-shift-number.git")
-           (commit "e7ec4402962471baa8d9a3b445bbbb06c71af139")))
-     (sha256 (base32 "19k3lv11bggyj47ylinnwbcb6bwb89zz7g3lw3cvcqhb0wzpwmd8"))))
+           (commit "fed971a983fce0f60a2e9795df3eca7712152a29")))
+     (sha256 (base32 "0dfzasc1rjqpbf7qjnb6c93mdg7zj8ll2imrj73kz7ymw27gi40r"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-shift-number")
    (synopsis "Increase/decrease the number at point")
@@ -98618,14 +98618,14 @@
 (define-public emacs-tablist
   (package
    (name "emacs-tablist")
-   (version "20231019.1126")
+   (version "20260619.2309")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacsorphanage/tablist.git")
-           (commit "fcd37147121fabdf003a70279cf86fbe08cfac6f")))
-     (sha256 (base32 "1n1isr98xsc66n8ax0lcld2p80rr3b9s0pnh0jllhvmbkkb88xzi"))))
+           (commit "4e9d94362896a9f3d27bb2851b01cf7d9b433ac2")))
+     (sha256 (base32 "1lvs2xhv0g3iabqvf5vfw539r451c2ya4j0qfkv84jvpjq11i24i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacsorphanage/tablist")
    (synopsis "Extended tabulated-list-mode")
