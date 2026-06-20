@@ -42600,14 +42600,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260616.821")
+   (version "20260620.734")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "983cb1fece13b245b99da252b396cc163f591b09")))
-     (sha256 (base32 "0ig7qagvkffhgyfk0ip1q1lz3v284xpaj4h56pqnm942mqwsil7z"))))
+           (commit "5b2b95fee4a632be5a5845eaff33438f96b37312")))
+     (sha256 (base32 "1glqcfsxaqp30aknqlz9lvycq237dp3xhd1qkbwmgqpsvhr1im2z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -67451,14 +67451,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260611.1137")
+   (version "20260620.826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "5b15c9198e32ae370814847dde80b6b4bac3e0f8")))
-     (sha256 (base32 "0xx9g6vqajhjy5g7pjxl29xwjpimbjbykyjw66mh7l56nrccqdk2"))))
+           (commit "02c1a4c0c69ed48829610259fe6d8c7342117270")))
+     (sha256 (base32 "0wf1lg82jkl37zwjpjvwqgim0nyfnc3k4zxiq7a0x56xi73844sj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -73934,14 +73934,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260619.1411")
+   (version "20260620.539")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "34291f326f445d44fed43d4b0e753dbae45d8d02")))
-     (sha256 (base32 "1x8h668xd3b90fvkfgzg817314mr5ph7aly9ki9ik83550rzmf1c"))))
+           (commit "b90355437b4c2b69b2362f04cff03f4877d7f022")))
+     (sha256 (base32 "1i2n8zlvnxkq8pj1cldf9b9a3g0jqhywynfxfnvlnx9f4qrizqpw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -83588,14 +83588,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260619.1705")
+   (version "20260620.902")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "b1b2a13cc27b6dd76a6d45bf48d23f7a3773fcfe")))
-     (sha256 (base32 "06maysja76rx1b0hcad6aw9znxi0nhisryk5r6jv80ywxwx29l6q"))))
+           (commit "1aebd4284f1cb83a4b434362c6356d06fa9d445b")))
+     (sha256 (base32 "0bdclxazk6b0fzx4h6ildl846179j00ifqir61knd1gwyjsxzssc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -85614,14 +85614,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260618.608")
+   (version "20260620.531")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "f7422398c8560c86cec71841c4aed71ca6537d2d")))
-     (sha256 (base32 "0w5hj4mvlc2hfjabwg8dnwnwbw6l531mbnv6sh7spxgfi6cabwqb"))))
+           (commit "ca73cb94f8391ebfb2a60537f8c51b244cbad9d9")))
+     (sha256 (base32 "06n6vf0xx61vzpmxdn1s7psanilmg30n1v8ach1za3996wmdx214"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -92191,7 +92191,7 @@
 (define-public emacs-shift-number
   (package
    (name "emacs-shift-number")
-   (version "20260620.159")
+   (version "20260620.335")
    (source
     (origin
      (method git-fetch)
