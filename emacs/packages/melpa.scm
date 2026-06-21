@@ -18352,14 +18352,14 @@
 (define-public emacs-daselt
   (package
    (name "emacs-daselt")
-   (version "20260602.1947")
+   (version "20260620.1902")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/nameiwillforget/d-emacs.git")
-           (commit "bb5eab0bc21a0ea6bee9f21e1ce164cc50f3c33b")))
-     (sha256 (base32 "0dq560yvi96wk7vq36ax1lp323ai65k9s21v5sfdkklqv1sg6w4p"))))
+           (commit "c07ed16da91c66162d3b3dcf06ed076440445a1a")))
+     (sha256 (base32 "0r3fzl7sqdi6ca71acvr73s51sa7hrzyb8arq229cq8ma2j30iyc"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -22081,14 +22081,14 @@
 (define-public emacs-doctest
   (package
    (name "emacs-doctest")
-   (version "20240421.1517")
+   (version "20260620.2225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ag91/doctest.git")
-           (commit "0620ab6283a4e4302761ac415354b0b2b889dcda")))
-     (sha256 (base32 "1g759f1ypw00vqbbcxa8yxf51bdmlrfdxybgjf4fmzzhvfbcpc4d"))))
+           (commit "cdf41b5185dcd502f92722297f4361eab4ef1d13")))
+     (sha256 (base32 "1mli87r0nlrfalh5mbnlg52cfhz9pgccnqlfzjj7k3fj0cl7rnvw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ag91/doctest")
    (synopsis "Doctests for Emacs Lisp")
@@ -30292,14 +30292,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260618.2311")
+   (version "20260620.2225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "4343d948e43aed260d8ec42927b769d85fd0c2ec")))
-     (sha256 (base32 "10zrcnzymrn8vyjq548fsvskwlqv7fd8r8dp3f66ir2cnmvlq0b4"))))
+           (commit "2479c15182458e337e6929b9f0daf82eb0368d4d")))
+     (sha256 (base32 "11ivw527v7fzwq0da9pc19w4wxvb2imrq6vay1sbw9dz4xk04rl6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -37840,14 +37840,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260620.1409")
+   (version "20260620.2146")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "e87bf2469c597e01ec3baef63f2a34aceba9bcbb")))
-     (sha256 (base32 "15jsbamv3b8gci3pwzhcij47nyp58qwr402z4mhcwy7fgv0xfq5a"))))
+           (commit "d9df7000627694df04a095c1f76432e5c0614e49")))
+     (sha256 (base32 "0y27z3c9yzwqf2crqrv7vzg9d6g1xyrxj4ldsi78k099xiwxkxxy"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -37920,14 +37920,14 @@
 (define-public emacs-format-all
   (package
    (name "emacs-format-all")
-   (version "20260620.1415")
+   (version "20260620.1824")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lassik/emacs-format-all-the-code.git")
-           (commit "ea09b47d50da21784ebea16fd973838f8ce20abe")))
-     (sha256 (base32 "14l86paszrc20rxh7nchg52fcn8fwdhbq73idl01wgbknbzdq1ii"))))
+           (commit "0dbe9c70eaf8b92dca1a42552761eaa13c3139cf")))
+     (sha256 (base32 "16rdqcprb09fgsgbw0fl5zm1d6fg01sr6infg1z1q1r0s7c4z3za"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv emacs-language-id))
    (home-page "https://github.com/lassik/emacs-format-all-the-code")
@@ -39757,14 +39757,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260619.1010")
+   (version "20260620.2225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "adb010b7fec943405006fcd1fac280e74ffa9e30")))
-     (sha256 (base32 "0p6hpcbrbcslczhkjkjd79inkflphgbiqhvzf1p3jkwcif1kd3rq"))))
+           (commit "2479c15182458e337e6929b9f0daf82eb0368d4d")))
+     (sha256 (base32 "11ivw527v7fzwq0da9pc19w4wxvb2imrq6vay1sbw9dz4xk04rl6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -56909,14 +56909,14 @@
 (define-public emacs-lab
   (package
    (name "emacs-lab")
-   (version "20260615.1026")
+   (version "20260620.1757")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/lab.el.git")
-           (commit "2d4035352432227b73a96987082a6caff9143e78")))
-     (sha256 (base32 "18l6gy100amdb1q94zixh5vhby161682wgbc41hv1d1f8kck9qm7"))))
+           (commit "2be6e50e75b4372337b77d0ae5563cb8cd671352")))
+     (sha256 (base32 "1d0q7ssm9ynhd1da34by6a5zwbyzq20x8bqky9hf0fk28m9xpjjh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-request
@@ -60904,14 +60904,14 @@
 (define-public emacs-macher
   (package
    (name "emacs-macher")
-   (version "20260506.251")
+   (version "20260621.121")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kmontag/macher.git")
-           (commit "55e75f2ee27eedc3cbf7e8bfcef27bcce11e3540")))
-     (sha256 (base32 "1yz8kl77l47h2jvk0gi8rz01bqscpx15mxy9ihkq0rq3wl6sq76g"))))
+           (commit "67972625ae052a5a07929043324fbd3b6b2fc08a")))
+     (sha256 (base32 "0i5nhxjz5dni2x7wq45wifq47a4cx15pgzppc76plnz1y43rlx1y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (home-page "https://github.com/kmontag/macher")
@@ -81005,14 +81005,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260619.1917")
+   (version "20260620.2130")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "b88beeb65e486263e472e979fd7bdb3df8b89835")))
-     (sha256 (base32 "1fzw5kgjq4740qydlz92yqfd427f94sz3cwvq72nkgpgjimh1n4x"))))
+           (commit "f15976e9989cfa9e7bd2bf59f2361e0cf62fed8e")))
+     (sha256 (base32 "17nyik0xfjy17ln3pq5k69r3ad5cmjrqw3rbrygd6i0y5xqrq7iw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
