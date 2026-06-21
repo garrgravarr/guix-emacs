@@ -5772,14 +5772,14 @@
 (define-public emacs-base16-theme
   (package
    (name "emacs-base16-theme")
-   (version "20260503.248")
+   (version "20260621.406")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tinted-theming/base16-emacs.git")
-           (commit "20092769ba0a0b122bca2edd4b0d737798ab0cc5")))
-     (sha256 (base32 "0777shs2wgng9iy5qjrgi53k7ild6ihm2mn6xamvpamiz2qqkkzx"))))
+           (commit "93b118e5ae7477361d1120db32508cb9756eb145")))
+     (sha256 (base32 "1lmzfm2yscq1f4xrf47vabaf6r8svc6hrwdn2166zfj42sf3zx2h"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "build/*.el")))
    (home-page "https://github.com/tinted-theming/base16-emacs")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260620.1138")
+   (version "20260621.851")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "bdac3bc160749c023908193803329fd4db15ce53")))
-     (sha256 (base32 "132911gwzri4qlns3iif2m7ljkndrzbx61rbwfrq42rf7k8c1y1s"))))
+           (commit "07399fc9244a6b657a1de7d128d15f694e890900")))
+     (sha256 (base32 "1zazygikf178nx1i12kk2baqg1j7y52pvkqfjmwk1znqvcv12rzd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -39757,14 +39757,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260620.2225")
+   (version "20260620.2229")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "2479c15182458e337e6929b9f0daf82eb0368d4d")))
-     (sha256 (base32 "11ivw527v7fzwq0da9pc19w4wxvb2imrq6vay1sbw9dz4xk04rl6"))))
+           (commit "d8fde4241e15c094ee3c6453a76d4dbbc87abd1a")))
+     (sha256 (base32 "0skhhv7v9jjmrawajpnl2k941bpnx9nl65laa7as3dwnnq5phf9r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -65704,14 +65704,14 @@
 (define-public emacs-mozc-modeless
   (package
    (name "emacs-mozc-modeless")
-   (version "20260423.1309")
+   (version "20260621.520")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/mozc-modeless-emacs.git")
-           (commit "b5d246fd8f5ba3051808da82b2148a116b312ae7")))
-     (sha256 (base32 "1sxfyn2j03dfc09pxgrzh2cnvpqxc0mqqgngx8mwnlhvc87n6jfi"))))
+           (commit "95adeb91fbafb569d7ac06a3ab7df9679349a7be")))
+     (sha256 (base32 "1bn673i194w77k84lnj2m5lmdhnxw5xpw5byr74496075axlnrnh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mozc))
    (home-page "https://github.com/kiyoka/mozc-modeless-emacs")
@@ -67451,14 +67451,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260620.1423")
+   (version "20260621.829")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "67fd8abea687a8d0d574b740a73edc55be29a648")))
-     (sha256 (base32 "13ms1iasgjnj4lx1yqa7h9d9nkk713lsa9m60lrzg5kdw1c1vgj7"))))
+           (commit "0294eb652d29f9bac82a1d59f8a2b764442288d3")))
+     (sha256 (base32 "0dhv5190n8lf9mwn2h8v0aad2inxmr7h27da9sbrnmmjjgr9zdbx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -76568,14 +76568,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260616.503")
+   (version "20260621.723")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "1ec19332b30c8f96c8983c538d831b82ea850891")))
-     (sha256 (base32 "065rczjimiq36xi4pqkafs4grdhfp9v2qznbm936h0wwszg9g83y"))))
+           (commit "402d7a3af778e22b87ace6b4489314ceb6202d4f")))
+     (sha256 (base32 "1jwfx2mfp2sczq0m8fyzjfqpwg8skchzjryl48r4rz2z6dgzdchd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -76619,14 +76619,14 @@
 (define-public emacs-orgtbl-join
   (package
    (name "emacs-orgtbl-join")
-   (version "20260616.505")
+   (version "20260621.722")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgtbljoin.git")
-           (commit "1fb7d7416f6abaa4db1cb45488ca0fdef1dd2ccf")))
-     (sha256 (base32 "0340g02015pwins4y1g6mqvrn67fp334lnnnlfksqqav1n87sa2z"))))
+           (commit "27e9658a8572a7030bd1eb5e4f416f45d04a5aac")))
+     (sha256 (base32 "1va47fvqgav801nd23ghlw2d6r6fp2ah8fylbfvkbg0k43fm6gpk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
    (synopsis "Join columns from other Org Mode tables")
@@ -92155,15 +92155,16 @@
 (define-public emacs-shexc-ts-mode
   (package
    (name "emacs-shexc-ts-mode")
-   (version "20260620.1006")
+   (version "20260621.901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ericprud/shexc-mode-for-emacs.git")
-           (commit "add63e52c0d6182d252c8bff2a87acf7fdc3f831")))
-     (sha256 (base32 "15v1qzx7qqavfzm54pzqf86yb01wjrhg4xzp415fa8kl5xg516fp"))))
+           (commit "2ad08afc8057cbfdd8328dd1199837c702af17e0")))
+     (sha256 (base32 "0gm2pnsgdzacnvmpd0ayqb6hysc4skijga404v777499i69k55hj"))))
    (build-system melpa-build-system)
+   (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults (:exclude "shexc-mode.el"))))
    (home-page "https://github.com/ericprud/shexc-mode-for-emacs")
    (synopsis "Tree-sitter major mode for ShExC")
