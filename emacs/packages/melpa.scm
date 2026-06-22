@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260621.1542")
+   (version "20260622.742")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "f17439131c8af71542a186e04b877b9372142464")))
-     (sha256 (base32 "0rz801382v92s15xqpv12l328iskc4d62ndhqqfzbbahpsdc4wpa"))))
+           (commit "8bad0acb34cf22563cde49a8869cffe7ac0b7649")))
+     (sha256 (base32 "0ykcgrmsg1vdn5vrcfass1gryb48c37axbahar8yzdm2xz4xf12p"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -11396,7 +11396,7 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260621.734")
+   (version "20260622.343")
    (source
     (origin
      (method git-fetch)
@@ -15815,14 +15815,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260619.539")
+   (version "20260622.741")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "4870dac784b49fdcf2319d3b1eea9b643432f767")))
-     (sha256 (base32 "17lyrxbli7jv749kmm5cxlr817fjqqcgvvhg8y9fglr0mhlgm5h5"))))
+           (commit "765ddf0a39bd3f7c38718d218679458541bcae21")))
+     (sha256 (base32 "0c5x9a2s6wca0irrahhgml3m2dlnb383gglfqmq0w2md62i8y2qp"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -27906,14 +27906,14 @@
 (define-public emacs-envrc
   (package
    (name "emacs-envrc")
-   (version "20260518.1537")
+   (version "20260622.1004")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/envrc.git")
-           (commit "1e63a3db367254897a39251944ba68938ec41020")))
-     (sha256 (base32 "1b1syzsyrg8ss5a5aw88ig88yirc5nvv73a1s800p1vr8vfxdyxc"))))
+           (commit "77e9dec1563bc204cc9e086cd8a7d3622196224c")))
+     (sha256 (base32 "11ksm8049332a9j5p1xmrwwvmmn74kxwc7v4gaza131kx271jr19"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://github.com/purcell/envrc")
@@ -49515,14 +49515,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260618.1719")
+   (version "20260622.756")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "64d7dafee66939636b21430ec3a3db70193d3c39")))
-     (sha256 (base32 "1sh5rx18mnpn4qd9xr51i2zmsvk86v3x3sijxnf0b2xbpm05g8xw"))))
+           (commit "510d713b6ebef63e7c4f41fc8039e3be4da0c28d")))
+     (sha256 (base32 "1yic3m59pxp9bdkfz5k9q67bsjq7zj8cqxgxi34f94bywry78l5n"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -57654,14 +57654,14 @@
 (define-public emacs-leadkey
   (package
    (name "emacs-leadkey")
-   (version "20260614.1622")
+   (version "20260622.837")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jixiuf/emacs-leadkey.git")
-           (commit "04d9dfde7dcfbd06d6dbd63bc2294cf91430029c")))
-     (sha256 (base32 "0qllkcyx68843j03mjpn3fsyyy7vk4a30cy1ksp823j23fpkiyxr"))))
+           (commit "61042efbbde72e096e74833eeebdcdf9599cab7c")))
+     (sha256 (base32 "1z43875hnqv4xz383ahs035v41n39ycnm9r10s7qamy6sv5rvj99"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jixiuf/emacs-leadkey")
    (synopsis "Translate leader keys to key sequences")
@@ -58237,14 +58237,14 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20260607.225")
+   (version "20260622.955")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/liberime.git")
-           (commit "bd3d3f36356d2b4fc8465bf9f08c4c8510199797")))
-     (sha256 (base32 "0w5zaw2iwrsdvkf6fh5l1z59l8y886l1680vzp6l4ywxam9d5acn"))))
+           (commit "8e52f3128e553a9b0cf270ead5c8cca4de2dd0d8")))
+     (sha256 (base32 "0mq106yppl9kkqfyvbxma4d9k88bqpvwk6b6lcyr8kmkd2bd6n8f"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -63195,14 +63195,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260618.2340")
+   (version "20260622.936")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "01fe824c36db1ea6011cb4942b6b30fe587ff275")))
-     (sha256 (base32 "0rv5pz6ddjpayy1vlszk40z27vp1l6wcb57kyk1ncqa8z6j12gzd"))))
+           (commit "ec7c66604d76cad77448fe2d4b45c54d24a65c03")))
+     (sha256 (base32 "086clxiz4pzh3ziqv8dr3m03r2pxbkfn0bvmihiv190x3implbag"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -67502,14 +67502,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260621.1451")
+   (version "20260622.736")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "1d5b5ac1b0d1f93c90e23b0c18c9691887260a73")))
-     (sha256 (base32 "04azr1aqqjhw8yvgcaq53y940j8cdhl7bd7q1b2qzf0piwgkcajc"))))
+           (commit "ef657f82c4fea69a798372ec6147820bac766bec")))
+     (sha256 (base32 "1gfwyymxngp244n826pqc2vwln3an3nszcwiwv6i914ij4v5y4k7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -71437,18 +71437,17 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260519.918")
+   (version "20260622.1012")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "3cdc35d1064033e373b5f8029c1cc322e92a9326")))
-     (sha256 (base32 "1sfdaczrdr020vfcffsmabrp4i337bizayq2z3a198qvs45y57y9"))))
+           (commit "109cedd973c0b8c7afb6a4a89c2bba3c3a0c0583")))
+     (sha256 (base32 "0bm8sgwmf90j8s52vd5cfdj2dqdw3maxylm1qswq5hb2fs4aika7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
-   (synopsis
-    "Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Codestral DeepSeek OpenRouter Support")
+   (synopsis "Friendly AI assistant for Ollama and cloud LLMs")
    (description "Documentation at https://melpa.org/#/ollama-buddy")
    (license #f)))
 
@@ -92224,14 +92223,14 @@
 (define-public emacs-shexc-ts-mode
   (package
    (name "emacs-shexc-ts-mode")
-   (version "20260621.1634")
+   (version "20260622.830")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ericprud/shexc-mode-for-emacs.git")
-           (commit "ba85b1fdcf93b4376657876931d45ef43ca639fe")))
-     (sha256 (base32 "1scy67k6pzpa31if254bmpxfihijg12dvdqr9pxi3hkqp6v6s3r8"))))
+           (commit "4195270c673d5dcf039a749d3aec5510b9fba5f7")))
+     (sha256 (base32 "1phxq49zvzml3srvazwqn1axr4sl5jh3r0f4lk1fyxb7n8s37pp1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults (:exclude "shexc-mode.el"))))
@@ -96749,14 +96748,14 @@
 (define-public emacs-stgit
   (package
    (name "emacs-stgit")
-   (version "20260518.524")
+   (version "20260622.407")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/stacked-git/stgit.git")
-           (commit "41e81189613ff3060fa5cc372e871f61cbcd78c2")))
-     (sha256 (base32 "1dg92x7ck1c7k66ac626ldyi6cwgfxgfjynr68sz16anmi67v2yj"))))
+           (commit "faa026a62a423762b9821d332aa0f13d59b339e0")))
+     (sha256 (base32 "12bxlq8x0i2p4a52p5ik49bdlkyczvvg71hyq1yzvk7lczs5xy05"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("contrib/stgit.el")))
    (home-page "http://stacked-git.github.io")
@@ -100790,14 +100789,14 @@
 (define-public emacs-titlecase
   (package
    (name "emacs-titlecase")
-   (version "20230714.323")
+   (version "20260622.446")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/acdw/titlecase.el.git")
-           (commit "eb8d23925fb8ccbd3b2e3804fb0a312ee227610b")))
-     (sha256 (base32 "1j696incblnqhz7yi8xmshiz2p5kp910288j513sj8rknlykpr4n"))))
+           (commit "eb75d7539243832761e8e75782252fd7a489fb37")))
+     (sha256 (base32 "04sdmawnpby5fhvch7fn83an24033zin3yxp1b0swjrdl8wbasjj"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/acdw/titlecase.el")
    (synopsis "Title-case phrases")
