@@ -11393,6 +11393,23 @@
    (description "Documentation at https://melpa.org/#/clang-format-lite")
    (license #f)))
 
+(define-public emacs-clatter
+  (package
+   (name "emacs-clatter")
+   (version "20260621.734")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/parenworks/clatter.el.git")
+           (commit "8b1ae9949717da2491d4a0d869592a2c4d6ba2bf")))
+     (sha256 (base32 "07c4izlp9xw1p3i8z0q367yr19rmn7jamcwpy32bjqb32r6g1apz"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/parenworks/clatter.el")
+   (synopsis "An IRCv3-compliant IRC client")
+   (description "Documentation at https://melpa.org/#/clatter")
+   (license #f)))
+
 (define-public emacs-claude-code
   (package
    (name "emacs-claude-code")
@@ -16582,6 +16599,23 @@
    (description "Documentation at https://melpa.org/#/countdown")
    (license #f)))
 
+(define-public emacs-countdown-modeline
+  (package
+   (name "emacs-countdown-modeline")
+   (version "20260615.1455")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/jholland82/countdown-modeline.git")
+           (commit "7485863972bd941a786bc595d566e02a490bb352")))
+     (sha256 (base32 "03nq1l4m2cc5r0mhgq1bc4zjfxak6rsnq2hm1lgyazrwsgk6kyi1"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/jholland82/countdown-modeline")
+   (synopsis "Display a color-coded countdown in the modeline")
+   (description "Documentation at https://melpa.org/#/countdown-modeline")
+   (license #f)))
+
 (define-public emacs-cov
   (package
    (name "emacs-cov")
@@ -17511,14 +17545,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260617.340")
+   (version "20260621.2119")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "394f19ffa07892227881106337a480dc437749b7")))
-     (sha256 (base32 "01via49cnak5b1360ba71pad78q7za21vgwf8mbfvc8kk7xad5bx"))))
+           (commit "c9ee8b66a80c4d6c3f34f8621f3bed954863b69a")))
+     (sha256 (base32 "0lm08dqcsfp2kv2vmav8l5afgrnigwj6knnnmyxvnbk0q25f0z41"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -22955,14 +22989,14 @@
 (define-public emacs-dune
   (package
    (name "emacs-dune")
-   (version "20260514.2036")
+   (version "20260120.2128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml/dune.git")
-           (commit "6195048cdfd2b00cbbdade605ba1628af1cd2a0d")))
-     (sha256 (base32 "1ahz5svffv6f33ng868a61wkfddyrfda6d2k3j95g247mb4yn58q"))))
+           (commit "ca40ca401a045e6ebaa01a312a03fb62f64ca316")))
+     (sha256 (base32 "1r7nv2prhgwwbn0dg89k6kcclq8r3wwp4d18w3blhh7s15g8zjyl"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editor-integration/emacs/*.el")))
    (home-page "https://github.com/ocaml/dune")
@@ -25629,14 +25663,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260618.1716")
+   (version "20260621.2200")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "82274978814a32fc791570066c63b54e44c2ba1b")))
-     (sha256 (base32 "0wy26w9snsdlm1n48yvnl5s5s22zvh1kj1p333scsfiw7dzahf0x"))))
+           (commit "60e2a436fc2001a8c234b2a6b941b309e613885e")))
+     (sha256 (base32 "1fb3zmgfv5ixfhrg3kf1q9vnzy8sbh659yacyx8q8g0fik00j1za"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -30292,14 +30326,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260620.2225")
+   (version "20260621.2142")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "2479c15182458e337e6929b9f0daf82eb0368d4d")))
-     (sha256 (base32 "11ivw527v7fzwq0da9pc19w4wxvb2imrq6vay1sbw9dz4xk04rl6"))))
+           (commit "0194b15ec957a6ce4be2ff49c4c485f648f86d0d")))
+     (sha256 (base32 "07ml13fxnkm39m1l0cabh2b1af14ra2xj36qgsncv9q6sxwj2913"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39757,14 +39791,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260620.2229")
+   (version "20260621.2142")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "d8fde4241e15c094ee3c6453a76d4dbbc87abd1a")))
-     (sha256 (base32 "0skhhv7v9jjmrawajpnl2k941bpnx9nl65laa7as3dwnnq5phf9r"))))
+           (commit "0194b15ec957a6ce4be2ff49c4c485f648f86d0d")))
+     (sha256 (base32 "07ml13fxnkm39m1l0cabh2b1af14ra2xj36qgsncv9q6sxwj2913"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -43563,14 +43597,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260617.2136")
+   (version "20260621.1947")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "6b1329c7e28c414dce3feaaf15b3007409da61a3")))
-     (sha256 (base32 "0kff8m50xv0v2zraav986zshiak73fb41jqdr47f3y6bsv6f1gx8"))))
+           (commit "550247dca3bf268d68a703affd25e1aaa72665f5")))
+     (sha256 (base32 "1nggijiwazdx72ans74awrl6kha08pzykhfn5j4wbi4yb2lqamg8"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -68928,6 +68962,24 @@
    (description "Documentation at https://melpa.org/#/notmuch-maildir")
    (license #f)))
 
+(define-public emacs-notmuch-multi
+  (package
+   (name "emacs-notmuch-multi")
+   (version "20260616.722")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/pivaldi/notmuch-multi.git")
+           (commit "f9a51e3f66b4ebaf3fbd4d5327a22f184e119250")))
+     (sha256 (base32 "1gf1mdd8pbz924c4w5clbvngvwr23h0cjlmjmwj61ivmiy19z6bj"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-notmuch))
+   (home-page "https://github.com/pivaldi/notmuch-multi")
+   (synopsis "Prettified Notmuch UI For Multiple Accounts")
+   (description "Documentation at https://melpa.org/#/notmuch-multi")
+   (license #f)))
+
 (define-public emacs-notmuch-transient
   (package
    (name "emacs-notmuch-transient")
@@ -92172,14 +92224,14 @@
 (define-public emacs-shexc-ts-mode
   (package
    (name "emacs-shexc-ts-mode")
-   (version "20260621.901")
+   (version "20260621.1634")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ericprud/shexc-mode-for-emacs.git")
-           (commit "2ad08afc8057cbfdd8328dd1199837c702af17e0")))
-     (sha256 (base32 "0gm2pnsgdzacnvmpd0ayqb6hysc4skijga404v777499i69k55hj"))))
+           (commit "ba85b1fdcf93b4376657876931d45ef43ca639fe")))
+     (sha256 (base32 "1scy67k6pzpa31if254bmpxfihijg12dvdqr9pxi3hkqp6v6s3r8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults (:exclude "shexc-mode.el"))))
@@ -92621,14 +92673,14 @@
 (define-public emacs-sidebuf
   (package
    (name "emacs-sidebuf")
-   (version "20260415.2249")
+   (version "20260621.1644")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rain-64/sidebuf.git")
-           (commit "89ca26d1859e89759f00065c07904d3ef5c80a4f")))
-     (sha256 (base32 "19hfypy9ca0rnh66pfyzm2g93dn0q3iak4mgs8nx9vgnwsrc64sz"))))
+           (commit "ddc378fd0b0d4d06aa2c69487b308c1db80563d8")))
+     (sha256 (base32 "0bac8j8vkph9w4w08sxcf5ax3bbx076q0ldwf2ad9sb00w74gzzh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/rain-64/sidebuf")
    (synopsis "Buffer list sidebar panel")
