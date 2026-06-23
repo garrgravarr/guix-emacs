@@ -25663,14 +25663,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260621.2200")
+   (version "20260623.1113")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "60e2a436fc2001a8c234b2a6b941b309e613885e")))
-     (sha256 (base32 "1fb3zmgfv5ixfhrg3kf1q9vnzy8sbh659yacyx8q8g0fik00j1za"))))
+           (commit "2c4f03158a3bf410d95c57851de284a1f88537ca")))
+     (sha256 (base32 "0q3mff27id2jasz217im8xdxryl55jf7b6k746pjs99rsqlw3vvj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -25902,14 +25902,14 @@
 (define-public emacs-elfeed-web
   (package
    (name "emacs-elfeed-web")
-   (version "20260611.1557")
+   (version "20260623.1111")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed-web.git")
-           (commit "0bef963f7eaccee21571844730586d8dafa4249f")))
-     (sha256 (base32 "07szzdjrzwvi9yg6xv9b8j9g4s5ybkdi3rx6pzaixiiia7892xkj"))))
+           (commit "9074428d7a5159e647ebdd07f53c9720b908aaf6")))
+     (sha256 (base32 "0awlazj1cpb1idsw8pflc3r1xdc65n7fwyjf3csa6aph0awzrnq3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-elfeed emacs-simple-httpd))
    (home-page "https://github.com/emacs-elfeed/elfeed-web")
@@ -37874,14 +37874,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260620.2146")
+   (version "20260623.1325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "d9df7000627694df04a095c1f76432e5c0614e49")))
-     (sha256 (base32 "0y27z3c9yzwqf2crqrv7vzg9d6g1xyrxj4ldsi78k099xiwxkxxy"))))
+           (commit "0c9407833bd688f83ad496b37ea71381e758d65b")))
+     (sha256 (base32 "070mfivrbxgbyzhskzq1dqwwkhazgj0nk2np45sfw9irfp2mn0ig"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -76474,14 +76474,14 @@
 (define-public emacs-orgit
   (package
    (name "emacs-orgit")
-   (version "20260601.1618")
+   (version "20260623.1437")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/orgit.git")
-           (commit "4a4c03ee40b0e2509b49303e151ee217edaf0da4")))
-     (sha256 (base32 "1gwl58mvanzbrh7lwkqbvfpmb32lz06k6dcnacan7kglvkm6mwgr"))))
+           (commit "281ab0c95371be01fac967faaeab820e0a8ace7f")))
+     (sha256 (base32 "10gsvi5xpkjsdbipc1bji78hyzfm51nhry6ki22akppmiia6p9fs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-magit))
    (home-page "https://github.com/magit/orgit")
@@ -76832,14 +76832,14 @@
 (define-public emacs-osm
   (package
    (name "emacs-osm")
-   (version "20260519.1024")
+   (version "20260623.1520")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/osm.git")
-           (commit "a9e76ce08fb86e40a9f3efc42b38045c9b58fa95")))
-     (sha256 (base32 "10237nlimmcm9n20fvwyicswm1x8kbmqck5f59y150qsns6am41p"))))
+           (commit "b0fceb1f8488abb577e5110676f50753ea35ee24")))
+     (sha256 (base32 "0w4y7cpnb371h8yf45p90gks3k601z5fkxf9ladk5kgyaz7i98an"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/osm")
@@ -80190,14 +80190,14 @@
 (define-public emacs-perspective
   (package
    (name "emacs-perspective")
-   (version "20260614.1712")
+   (version "20260623.1449")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nex3/perspective-el.git")
-           (commit "f5f87d1670dd2b5e813a2201dec40b1945da264f")))
-     (sha256 (base32 "14bwrksrrq4nswq537dd6yf5lsxpipr4brd0rwifwjxd5h29jhxj"))))
+           (commit "451b0f0272c732f5e822b0c0c590d9dd0937915e")))
+     (sha256 (base32 "1x1s2yji3w86mv0hfpma4axj70gqhavazmv0vj4kxwc24r8fj8xr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/nex3/perspective-el")
    (synopsis "Switch between named \"perspectives\" of the editor")
@@ -89804,14 +89804,14 @@
 (define-public emacs-russian-calendar
   (package
    (name "emacs-russian-calendar")
-   (version "20260504.948")
+   (version "20260623.1009")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/Anoncheg/emacs-russian-calendar.git")
-           (commit "05d2ab6cfef91139cd6f43657311a0618cc4706e")))
-     (sha256 (base32 "1gh223njr1h3fq6b9i18jmr8jfs862d38g78llywywh4q0597q3r"))))
+           (commit "23d222041dba8e5dad07542e0dc7dd3fc8419112")))
+     (sha256 (base32 "0hwhs8qx0jp45d39zzbg7ab0nb96v6wyb86hymsahdxp32yhaing"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-russian-calendar")
    (synopsis "Russian holidays and conferences. Updated 2025-09-30")
@@ -92937,14 +92937,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20260519.1028")
+   (version "20260623.1110")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "5a9c69ae93ed5e2cdca98f51b41f6a6782091d74")))
-     (sha256 (base32 "0cbidjfrrwwpj73248bw8mb1fbhh4md9awhq4x6wmjl6lkfwr8pj"))))
+           (commit "ceb208f96601be09397fc9e64fa96014ac1c8739")))
+     (sha256 (base32 "0svqrd4a7xmxjnqdbj3sbx5glrg1b9gsr6rxy9rz5r1yz2nq1pzk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
@@ -106906,14 +106906,14 @@
 (define-public emacs-web-mode
   (package
    (name "emacs-web-mode")
-   (version "20260331.1441")
+   (version "20260623.932")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fxbois/web-mode.git")
-           (commit "e93b3fb89fd6345a5ff59795bed712abd486200a")))
-     (sha256 (base32 "02xn5wqmjv46nqrd73prddzx20c3r5idyg55rchbzvd4wwxjc9a6"))))
+           (commit "aeee2d4c82a791ff69657c1413873bf9265544df")))
+     (sha256 (base32 "0bpm6njk1pmqckvmk7zwcfms8csb9rzj3zylh3pl7xr2k25gaj1x"))))
    (build-system melpa-build-system)
    (home-page "https://web-mode.org")
    (synopsis "Major mode for editing web templates")
@@ -108092,16 +108092,16 @@
 (define-public emacs-with-editor
   (package
    (name "emacs-with-editor")
-   (version "20260601.1526")
+   (version "20260623.1348")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/with-editor.git")
-           (commit "cdf2ac2314042243fae385bb8c2821ec9c3888ae")))
-     (sha256 (base32 "0cxmn7kgb5npvxdk1q5g0w9a1c1b8gvwkszd1b8bjrjwmli96as0"))))
+           (commit "c319ef4d3a9dab479b4077cdc089d1ffac97d7db")))
+     (sha256 (base32 "1h6r3rzif9c1jynm14z3ajlz0zb4mdbbzjclncn4ldwnsn7pxmia"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-compat emacs-cond-let))
+   (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/with-editor")
    (synopsis "Use the Emacsclient as $EDITOR")
    (description "Documentation at https://melpa.org/#/with-editor")
