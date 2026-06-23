@@ -15815,14 +15815,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260622.741")
+   (version "20260622.2038")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "765ddf0a39bd3f7c38718d218679458541bcae21")))
-     (sha256 (base32 "0c5x9a2s6wca0irrahhgml3m2dlnb383gglfqmq0w2md62i8y2qp"))))
+           (commit "2882a50182a6e2ca3b1ccfded22645831a85a59a")))
+     (sha256 (base32 "1gyhg2lix2k2xc3g30455li3kqjgllwyhb6z8jakvnivd7gd314p"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -17545,14 +17545,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260621.2119")
+   (version "20260623.919")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "c9ee8b66a80c4d6c3f34f8621f3bed954863b69a")))
-     (sha256 (base32 "0lm08dqcsfp2kv2vmav8l5afgrnigwj6knnnmyxvnbk0q25f0z41"))))
+           (commit "25ad76bd01d6e94b1eada4c19d52a6245a87bbba")))
+     (sha256 (base32 "111bba10y98n0hcamnqm5s5za7gavzmxpnjmnycgvx4mm7bqh1wk"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -21935,14 +21935,14 @@
 (define-public emacs-docker
   (package
    (name "emacs-docker")
-   (version "20260619.1940")
+   (version "20260623.746")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Silex/docker.el.git")
-           (commit "6b16f3ecce24cd24c0a9305a4b04491880c8ea53")))
-     (sha256 (base32 "1n6603ybicix8h57q3b3yiijxgcb4ac8yhihxfdisanhcmvjllqq"))))
+           (commit "2128c0d432f4cc0feef21d1e1c11398a3ee2432b")))
+     (sha256 (base32 "0nacf9zxjllkpqgvjvmj08acppm3qifvjgnrqnwxm9nc1w7brjgx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-aio emacs-dash emacs-s emacs-tablist))
    (home-page "https://github.com/Silex/docker.el")
@@ -30090,7 +30090,7 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260622.2253")
+   (version "20260623.308")
    (source
     (origin
      (method git-fetch)
@@ -41263,14 +41263,14 @@
 (define-public emacs-gnuplot
   (package
    (name "emacs-gnuplot")
-   (version "20260519.1048")
+   (version "20260623.1111")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-gnuplot/gnuplot.git")
-           (commit "2da2ef68d4861e2e5a5b1a81340b8d92b276a3a5")))
-     (sha256 (base32 "1hv7pyvwad67p2ii0lnww0vkk1jrj5pdkph5fxpavyln84wxxnmq"))))
+           (commit "81e3cb30297f0d12df41b865d2a76c8ba179089c")))
+     (sha256 (base32 "1yhs7jxa9z6c1girzpch0db40kvbfzyfzl3iiyh3wjh05i9r31jm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -57035,14 +57035,14 @@
 (define-public emacs-lambdapi-mode
   (package
    (name "emacs-lambdapi-mode")
-   (version "20260423.1057")
+   (version "20260623.731")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Deducteam/lambdapi.git")
-           (commit "fbbe050639dfe7c1c1f2be2e6807dd31e3108e5e")))
-     (sha256 (base32 "11jpn7w0iy4vp555hsc425ipjzsv0ajhph1ih5ajqkn2lxd46b8v"))))
+           (commit "f3286759f3b8a1ec3aaa55706a67dd36eb020de5")))
+     (sha256 (base32 "0zwlfbmvl595ffzrzgm8apxdfjf4l19b6khv2q7n227hh5d5r857"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-math-symbol-lists emacs-highlight))
    (arguments
@@ -59508,14 +59508,14 @@
 (define-public emacs-lobsters
   (package
    (name "emacs-lobsters")
-   (version "20251217.1458")
+   (version "20260623.735")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tanrax/lobsters.el.git")
-           (commit "58f91e5adc9660a54a3f6eb1cd49fbbeb2229b74")))
-     (sha256 (base32 "19nik1vaazf0w43fvksshx2c1fbby0fyafn2859jbdmvxwb5imw7"))))
+           (commit "41ca67e5827793e91834bf03cdefab581783c3d5")))
+     (sha256 (base32 "01pxdzk0xaqqkc17zp3x2d4s8sm212z217kvzlwj697afh1vndy4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request emacs-visual-fill-column))
    (home-page "https://github.com/tanrax/lobsters.el")
@@ -67502,14 +67502,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260622.1322")
+   (version "20260623.1118")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "ef657f82c4fea69a798372ec6147820bac766bec")))
-     (sha256 (base32 "1gfwyymxngp244n826pqc2vwln3an3nszcwiwv6i914ij4v5y4k7"))))
+           (commit "ab00ee699747841d42c5618f2d568a1608bae671")))
+     (sha256 (base32 "1wqjdipwybk52bnrkhhbp1nwr9df1c8gh4ws7bm61xgjbai2xd5b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
