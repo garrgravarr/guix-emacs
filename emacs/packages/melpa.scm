@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260623.254")
+   (version "20260624.228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "75648e981d433758e9271a671a43af102642f55f")))
-     (sha256 (base32 "11vjq2x6nih5cs4a4dnyjw213n9hbckfnmrn20hnaxaygk7m05xv"))))
+           (commit "df9817b321e314508dbc6df52deefcf0dbf94605")))
+     (sha256 (base32 "1b8s7klcly9d927rzhqig8igrc52fpa07n59lrlznlcxi0gsgfii"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -15216,14 +15216,14 @@
 (define-public emacs-consult-gh
   (package
    (name "emacs-consult-gh")
-   (version "20250915.2043")
+   (version "20260623.1820")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/armindarvish/consult-gh.git")
-           (commit "feba9c563f3919401c89dd4008d23ae0896c47ce")))
-     (sha256 (base32 "123nyka78j2851rbyyrhak0jvhzjy833ccqgy7gpc0qa2lbrld1r"))))
+           (commit "7b0fba0dc81a446c95cd39fa2a6adcd39501df9d")))
+     (sha256 (base32 "18bmk52z2fx23mnbg8c8cv78fp68l958j2zkhk7wxcip7zzjnr7q"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-consult emacs-markdown-mode emacs-ox-gfm emacs-yaml))
@@ -15236,14 +15236,14 @@
 (define-public emacs-consult-gh-embark
   (package
    (name "emacs-consult-gh-embark")
-   (version "20250906.1805")
+   (version "20260623.1820")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/armindarvish/consult-gh.git")
-           (commit "2b625a0331c9a92c67fef8ea2e694b28d5006421")))
-     (sha256 (base32 "1p9lcjrzwxgscxpy0x992g8sxy6h3mcin1vffxf6nx28akwz13in"))))
+           (commit "7b0fba0dc81a446c95cd39fa2a6adcd39501df9d")))
+     (sha256 (base32 "18bmk52z2fx23mnbg8c8cv78fp68l958j2zkhk7wxcip7zzjnr7q"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-consult emacs-consult-gh emacs-embark-consult emacs-which-key))
@@ -15294,14 +15294,14 @@
 (define-public emacs-consult-gh-with-pr-review
   (package
    (name "emacs-consult-gh-with-pr-review")
-   (version "20250906.1805")
+   (version "20260623.1742")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/armindarvish/consult-gh.git")
-           (commit "2b625a0331c9a92c67fef8ea2e694b28d5006421")))
-     (sha256 (base32 "1p9lcjrzwxgscxpy0x992g8sxy6h3mcin1vffxf6nx28akwz13in"))))
+           (commit "7b0fba0dc81a446c95cd39fa2a6adcd39501df9d")))
+     (sha256 (base32 "18bmk52z2fx23mnbg8c8cv78fp68l958j2zkhk7wxcip7zzjnr7q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult emacs-pr-review emacs-consult-gh))
    (arguments '(#:files ("consult-gh-with-pr-review.el")))
@@ -30326,14 +30326,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260621.2142")
+   (version "20260623.1940")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "0194b15ec957a6ce4be2ff49c4c485f648f86d0d")))
-     (sha256 (base32 "07ml13fxnkm39m1l0cabh2b1af14ra2xj36qgsncv9q6sxwj2913"))))
+           (commit "3431d79f44a7fc8a6b6638587a5604cacd03f897")))
+     (sha256 (base32 "0r3xaa11d5n7xn39hm9g4hyf0vq4ppf0k7hrd621zkds4jb9f5gp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39791,14 +39791,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260622.1450")
+   (version "20260623.2040")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "84b1016c88e48b73f8feb3af1ba8ee724fe4b426")))
-     (sha256 (base32 "13h2akcpwa1bajh9ym5p3b2a6s2pkmpkrk76snf59647nss9wch4"))))
+           (commit "3431d79f44a7fc8a6b6638587a5604cacd03f897")))
+     (sha256 (base32 "0r3xaa11d5n7xn39hm9g4hyf0vq4ppf0k7hrd621zkds4jb9f5gp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -63883,14 +63883,14 @@
 (define-public emacs-mgmtconfig-mode
   (package
    (name "emacs-mgmtconfig-mode")
-   (version "20260222.1339")
+   (version "20260623.203")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purpleidea/mgmt.git")
-           (commit "dcfc4272c7ae6b94e201eb7230852fda3fe0fc0e")))
-     (sha256 (base32 "160yv675mqddrm9jalbdv388k2myim8zz1avnvc05hf1lx8qw2z8"))))
+           (commit "0f7ad93cd17e5251c6ec112fa6ff4272499b430a")))
+     (sha256 (base32 "0csy7rkx3wdknk2j1b0b0zy2ml3rm5zr3mhcmk9zf3mdbib4hlcd"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("misc/emacs/*.el")))
    (home-page "https://github.com/purpleidea/mgmt/misc/emacs")
@@ -76474,16 +76474,17 @@
 (define-public emacs-orgit
   (package
    (name "emacs-orgit")
-   (version "20260623.1437")
+   (version "20260623.2148")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/orgit.git")
-           (commit "281ab0c95371be01fac967faaeab820e0a8ace7f")))
-     (sha256 (base32 "10gsvi5xpkjsdbipc1bji78hyzfm51nhry6ki22akppmiia6p9fs"))))
+           (commit "1aa3a27b1cb6aec913f7365caebdd6ffbe178443")))
+     (sha256 (base32 "0rbj0b28dcgjcsa17wd01f1xw0psgxi4sak7c8wx55yaq8ym2i1s"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-compat emacs-cond-let emacs-magit))
+   (propagated-inputs
+    (list emacs-compat emacs-cond-let emacs-llama emacs-magit))
    (home-page "https://github.com/magit/orgit")
    (synopsis "Support for Org links to Magit buffers")
    (description "Documentation at https://melpa.org/#/orgit")
@@ -76510,14 +76511,14 @@
 (define-public emacs-orgit-forge
   (package
    (name "emacs-orgit-forge")
-   (version "20260401.1227")
+   (version "20260623.2150")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/orgit-forge.git")
-           (commit "8e4496d7f7f84fab3e36d10883386c02f43a67e7")))
-     (sha256 (base32 "0fawwd2yys89kyp1q03xng9azgmbdai067m60x0agahrpvgdrysm"))))
+           (commit "1e325a23ccc707373c13aee91c15a0bc0d1d6f41")))
+     (sha256 (base32 "0c9lsjj5mpwyp4wc4kjazxdn23pldy2mbhbc88wcz7mzwbxpya8g"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-forge emacs-magit emacs-orgit))
@@ -93166,14 +93167,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260531.650")
+   (version "20260623.1753")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "fd55a741c88cf22453e95ae20116e0de6ffc9f48")))
-     (sha256 (base32 "1m8s40rdixm6fi9jr8bagirjh2gqm7l5y0qnpma6b9sqca65swwp"))))
+           (commit "8a080d5dfcb2c9960cbdefb1009dbbb0ddd56a04")))
+     (sha256 (base32 "08hab6r7ncknpww2kqwlcqriniqp4p2a4y2plw68mk5mxzqni0id"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -96341,14 +96342,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260616.27")
+   (version "20260623.2303")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "62032141c839eaf7671373a5d6959980726750c4")))
-     (sha256 (base32 "1cawaj2gwfdfr2a7ws7khwmjqvjnpwb6scqb76z2fzylk5dl5awp"))))
+           (commit "cf83bdcfabfb06e0171f5f7a83d56d5fea72fd84")))
+     (sha256 (base32 "0l9gk0i1p3cbrc6hi0w8cl9r5831qnqvr382ldqiyp8b7mdj3jv2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -98687,14 +98688,14 @@
 (define-public emacs-tablist
   (package
    (name "emacs-tablist")
-   (version "20260619.2309")
+   (version "20260623.1855")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacsorphanage/tablist.git")
-           (commit "4e9d94362896a9f3d27bb2851b01cf7d9b433ac2")))
-     (sha256 (base32 "1lvs2xhv0g3iabqvf5vfw539r451c2ya4j0qfkv84jvpjq11i24i"))))
+           (commit "01f065e387ffe6b7a41f180f257cd12551c7a9c2")))
+     (sha256 (base32 "0nc6dw9p420kf3c6wbi0fl31sm9q9357dnx3wyphj0r6162f3fvb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacsorphanage/tablist")
    (synopsis "Extended tabulated-list-mode")
@@ -108652,14 +108653,14 @@
 (define-public emacs-wttrin
   (package
    (name "emacs-wttrin")
-   (version "20260621.1311")
+   (version "20260624.304")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cjennings/emacs-wttrin.git")
-           (commit "eaabae3b01b8bdc05a5892492c06a8131c195a45")))
-     (sha256 (base32 "16j5h4k7jcfkqsy1jpaiv6x45229dangq362q2yq4732rmfdvvgv"))))
+           (commit "4d46eafaa087f5570ece9d2e5f5d2ba6bc0d824e")))
+     (sha256 (base32 "0zf5zy283igjd9k8ba1vmw06srr08scrwn5ghh4ybbxs2awy86k0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-xterm-color))
    (home-page "https://github.com/cjennings/emacs-wttrin")
@@ -109596,14 +109597,14 @@
 (define-public emacs-yara-mode
   (package
    (name "emacs-yara-mode")
-   (version "20260609.52")
+   (version "20260624.302")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/binjo/yara-mode.git")
-           (commit "b3b78516a879dd77a92aa9f31d4d0ce0549e49e4")))
-     (sha256 (base32 "0bwllndrksxv72lk02zm6ng4dzh090z3n5dv0wji0dr6wh8ayskz"))))
+           (commit "dc6eb93198c081c579300521d25199625e375530")))
+     (sha256 (base32 "0j41lxn6krfffc6gv9a00rj2g20y4hhnslwp46gfm33vn52kcza7"))))
    (build-system melpa-build-system)
    (home-page "not distributed yet")
    (synopsis "Major mode for editing yara rule file")
