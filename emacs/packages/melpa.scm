@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260624.320")
+   (version "20260624.1532")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "df9817b321e314508dbc6df52deefcf0dbf94605")))
-     (sha256 (base32 "1b8s7klcly9d927rzhqig8igrc52fpa07n59lrlznlcxi0gsgfii"))))
+           (commit "d966e427bf5b8f98c439a00e63278ca3c032d6bb")))
+     (sha256 (base32 "13c2inqb3s58hyzh7i195yqifci6rlpvh4bwimsgg8l0s0s29gzg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -4651,14 +4651,14 @@
 (define-public emacs-auto-dim-other-buffers
   (package
    (name "emacs-auto-dim-other-buffers")
-   (version "20250116.1402")
+   (version "20260624.950")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mina86/auto-dim-other-buffers.el.git")
-           (commit "d8591d048f97478e75c71830fb6d7c009351c73d")))
-     (sha256 (base32 "0ipx6gpgbap5jxkvhxxifllhcjyap552835jz26h9w3ppa4q1hig"))))
+           (commit "cf0263073470190b85f6013066856126aac67d19")))
+     (sha256 (base32 "047zvky0m51c31y6ai7g2y2y4zndrx3fv9ymvv1nlk595qc4rg4r"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mina86/auto-dim-other-buffers.el")
    (synopsis "Makes windows without focus less prominent")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260624.952")
+   (version "20260624.1620")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "5bdb62ce1d3e394454a8d910dca93460ca730673")))
-     (sha256 (base32 "18b4ixh9njsl0krmk6757rl2ky2i7iwkc6443imsvf0kgzb0b309"))))
+           (commit "b7e1c49ab06dd1bc0c2d289154e4bea20994a14d")))
+     (sha256 (base32 "118k4axv1vw0apb2q197xrxcqficxdl1x9fv3nzy38acy1w85qjj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -15815,14 +15815,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260622.2038")
+   (version "20260624.1606")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "2882a50182a6e2ca3b1ccfded22645831a85a59a")))
-     (sha256 (base32 "1gyhg2lix2k2xc3g30455li3kqjgllwyhb6z8jakvnivd7gd314p"))))
+           (commit "4ab1e2c0fa70ed5be2343495134e77f8ccf2b303")))
+     (sha256 (base32 "1vvd854dw2621llkcag9f7mwh7fvrshix6l19jjx622wvdv6r9r1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -30326,14 +30326,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260623.1940")
+   (version "20260624.1307")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "3431d79f44a7fc8a6b6638587a5604cacd03f897")))
-     (sha256 (base32 "0r3xaa11d5n7xn39hm9g4hyf0vq4ppf0k7hrd621zkds4jb9f5gp"))))
+           (commit "25321dc0eec6480e614ebe35d55f130045f92f8f")))
+     (sha256 (base32 "1slzm8808cij90gmxf98x32h6cfx8mi1q6nx4km5b4s517j4lqp1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -32237,14 +32237,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260620.1316")
+   (version "20260624.1627")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "2df0e82c35e3690553231370884e340a925ba158")))
-     (sha256 (base32 "1572qxrxb5riqw4psjvms4k2qd1kgskjhci4wnc0xvi95xjiqh6q"))))
+           (commit "3e8f41b3668b7e9001bdca30a2a7f66b1307a66c")))
+     (sha256 (base32 "11a2wcswgnmfr0d16wjvmx8n8gns3fn93s5vgx8p9j2iq3jdvq69"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -39791,14 +39791,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260624.710")
+   (version "20260624.1307")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "162cb0fa0fa24df2c92e4287e1307a0a6d570b8f")))
-     (sha256 (base32 "06yns5qyjkb11iyxpac6lgnli78d6r5ap5x8zssrbjcqzzfk2917"))))
+           (commit "25321dc0eec6480e614ebe35d55f130045f92f8f")))
+     (sha256 (base32 "1slzm8808cij90gmxf98x32h6cfx8mi1q6nx4km5b4s517j4lqp1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -63195,14 +63195,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260624.344")
+   (version "20260624.1143")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "cc2761444e652722a65e5d31db663315abc4df2f")))
-     (sha256 (base32 "13ag4qfsf82a87ybf6lzv5qb0ivyv00qd06p25f4m8y4rckfkmlw"))))
+           (commit "3f1ebf8ec5bdd0e3f11283472d252a195fa5485e")))
+     (sha256 (base32 "1nd9kh36sxrynvj44axmia10m0z3abgp8n7fhpfwpabym90v4ph5"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -98671,14 +98671,14 @@
 (define-public emacs-tabgo
   (package
    (name "emacs-tabgo")
-   (version "20260624.1052")
+   (version "20260624.1540")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/tabgo.el.git")
-           (commit "ffba627a30acb813ca839d1fc440d28ffa06ece2")))
-     (sha256 (base32 "1q80k5qm5fczl88rgaqb2k3921bx7y11r8z3ka8mi5nbpaj5vjvh"))))
+           (commit "7cf1142c3e194ded79632846830775b42830ce51")))
+     (sha256 (base32 "1yzpmfggsq96nffqmxq6zzrfkdnxawrr5qngl51mixlw9pcks573"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/isamert/tabgo.el")
    (synopsis "Jump to tabs, avy style")
