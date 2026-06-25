@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260621.1300")
+   (version "20260625.929")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "131b9bec01588488c353de1f2510dc1bd68fa850")))
-     (sha256 (base32 "15mp9r4yx4amanzrbbqblkxg7wriqg4kkb09w0x8a43ssi401fc0"))))
+           (commit "1d4265fc5c8bf3b0c3f47ff0084df633587ae801")))
+     (sha256 (base32 "0y6ykwrlq2xmfl3c630fmrwyl8pk0mfpcgvibpsac3l6wfm91s83"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260624.2051")
+   (version "20260625.1527")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "da7ef746e5cb204fd0a2aa3d6f963d029a116851")))
-     (sha256 (base32 "1wkhwhyr59psbjpng009274fp5mpsy3pzc2m4i37dv67lskdgw9b"))))
+           (commit "7bf7cbd7f296dd012b043ea33160039f91ed9f81")))
+     (sha256 (base32 "1q4ias86mv86jhx303sz2fwdgabw6fzpq2j5baaxsqqzj9b2xdb0"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -15815,14 +15815,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260625.616")
+   (version "20260625.1536")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "1eab7e7c466f6dbe269130b466f8b30d33f140b4")))
-     (sha256 (base32 "1x7lmn449g482mijp85r35vjk70vfvidmm9nwkq33rxjizl7ccb5"))))
+           (commit "044e24f225e8cb389a4b32148a38f477afab14fd")))
+     (sha256 (base32 "0msl1n6c8lrri482jdp4i9n2p158dfdkzk91pq7lv6aihpi9v0mh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -26314,14 +26314,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260605.1826")
+   (version "20260625.1339")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "b122f2e043313d470fa68c0c1e042e3dec536cbf")))
-     (sha256 (base32 "1pv85p94w8yr81bll30mwlwyb30rsw3sx81lwznghg5jvi8bb875"))))
+           (commit "b6e123a880173b8bfa918829806e22f575266ffd")))
+     (sha256 (base32 "0xwqi07g0g5pdyxmfmk4w1dshj2rn3gpfniy0yp1ggildh8rcjid"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -60304,14 +60304,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260624.1757")
+   (version "20260625.1303")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "fa712a892636cd7fa0c102df3b3f217ec6eafa7e")))
-     (sha256 (base32 "04nnb90r4r1ms51jsjyhmacpmxd3by6zb6s6isdpww3d1z022nji"))))
+           (commit "366147a4833670037deb16760e39ede51290f0dd")))
+     (sha256 (base32 "11r7p7hx64yh7zwd8pm7w5njn8yf1m9v9hzmq3sw33k2jph96ylg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
@@ -83657,14 +83657,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260620.902")
+   (version "20260625.1453")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "1aebd4284f1cb83a4b434362c6356d06fa9d445b")))
-     (sha256 (base32 "0bdclxazk6b0fzx4h6ildl846179j00ifqir61knd1gwyjsxzssc"))))
+           (commit "4119e3eebe0f3c22d31820c1c5483199e5678c01")))
+     (sha256 (base32 "0c9p51fsfj7ajz2cxz1igxpa1rfjwyxs0f25hjfrw2grmx8pwmni"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -106223,14 +106223,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260625.645")
+   (version "20260625.1147")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "2944dfc420232afdc189c3bb7565a0ea2a1a0450")))
-     (sha256 (base32 "1yhglcm7acgr3m25l20kkaxq1m1ang1pv32p7ysy65qc7sha1gwa"))))
+           (commit "d7cc28608d4b70a66f9acc52f9fd4a80ec46533c")))
+     (sha256 (base32 "194p0ifjxccrrkb0s9h7b7bmzl6m4znwfxy55px3vfbs27252kdk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -108653,14 +108653,14 @@
 (define-public emacs-wttrin
   (package
    (name "emacs-wttrin")
-   (version "20260625.510")
+   (version "20260625.1615")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cjennings/emacs-wttrin.git")
-           (commit "4266923daf6f137fbe2897334b7669f7fb4633c8")))
-     (sha256 (base32 "10f4liackjpjb41f62wz37dhm19df29fgln5f92sqgwsmc8w85wa"))))
+           (commit "33621b5a6e5407da190767b89756e287698ef234")))
+     (sha256 (base32 "1ys8yrm96lmp7m86z7xvik939hl1a25h9bqawix4irg2kpaclnc3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-xterm-color))
    (home-page "https://github.com/cjennings/emacs-wttrin")
