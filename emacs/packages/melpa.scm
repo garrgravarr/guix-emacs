@@ -3768,14 +3768,14 @@
 (define-public emacs-ast-grep
   (package
    (name "emacs-ast-grep")
-   (version "20260615.1001")
+   (version "20260625.457")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SunskyXH/ast-grep.el.git")
-           (commit "8fabb5064131a1c822580e47bf35871466d469ff")))
-     (sha256 (base32 "1r0i49vjrr9x86kn656l0dbbj40snvgq5k91w249cnq8xh2khh5m"))))
+           (commit "a996a45ad197114f06609f5abc4a2bccb5bb3908")))
+     (sha256 (base32 "1vdc485sb9j7lnssa90ibr2fpzfc6c4xr00xrz7nrharkxlzg2wa"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sunskyxh/ast-grep.el")
    (synopsis "Search code using ast-grep with completing-read interface")
@@ -15815,14 +15815,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260624.1606")
+   (version "20260625.616")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "4ab1e2c0fa70ed5be2343495134e77f8ccf2b303")))
-     (sha256 (base32 "1vvd854dw2621llkcag9f7mwh7fvrshix6l19jjx622wvdv6r9r1"))))
+           (commit "1eab7e7c466f6dbe269130b466f8b30d33f140b4")))
+     (sha256 (base32 "1x7lmn449g482mijp85r35vjk70vfvidmm9nwkq33rxjizl7ccb5"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -19943,14 +19943,14 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20260624.444")
+   (version "20260625.426")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "23302acc331738652f6295eae9c8feb856cb021e")))
-     (sha256 (base32 "1fkhdqa6apz6wvy9w29iagj3q0571ggskgf1snnfj002gydmd5n2"))))
+           (commit "4905749ad29be958e1ad7353b1557fdc5716847a")))
+     (sha256 (base32 "0zrnccrdvadzjngis7kwv798fx5z8b9m3cq1lp1visxflnlkh421"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
    (synopsis "Highlight uncommitted changes using VC")
@@ -43615,14 +43615,14 @@
 (define-public emacs-guess-language
   (package
    (name "emacs-guess-language")
-   (version "20260529.1228")
+   (version "20260625.628")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tmalsburg/guess-language.el.git")
-           (commit "78508e91d60064de398e118d452c8f61180fc17f")))
-     (sha256 (base32 "0n3zxny07q79802xicazsywgwqcl62b8l291nb71d73lc27g6493"))))
+           (commit "f7f74d50b11e090d7543daa0dfbf273820c006c7")))
+     (sha256 (base32 "00540641raakr3f1v4l09g1h7j3x5c69221y8smfr6jm0m9ghaxy"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("guess-language.el" "trigrams/*")))
    (home-page "https://github.com/tmalsburg/guess-language.el")
@@ -93167,14 +93167,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260624.1756")
+   (version "20260625.603")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "df2cbebab2dd7c99c7b792c5d7e71c0ed4a8c42e")))
-     (sha256 (base32 "1f7jbyh3dhha8bld8awd1lazbqj4x1ks8vflb61i583gjvc1jzl4"))))
+           (commit "1ad986e9cb5366a268e655779a1b9751fbd70db8")))
+     (sha256 (base32 "1q550rfkqp3wk77hg7pw9vsvpsljfw81pfp681zri7wkjipziz2p"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -102097,14 +102097,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260615.1631")
+   (version "20260623.1500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "b344c86eb4fb3bbe1f30e7684fea130dbcbf32a8")))
-     (sha256 (base32 "15vf7p4vd1axyk31hv5nhvjmvdd3b9069bli04ggazh0xqhkb0mw"))))
+           (commit "d7473e6c322b96de95d40401dbad7841f116bedf")))
+     (sha256 (base32 "1xv3lhigdma8kslw7f2z6klj695r89z125f66zwdad3rk5xd9487"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
@@ -103834,14 +103834,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260619.1103")
+   (version "20260625.938")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "eaff70c71f17c85d3d26dd2c1dbf466b21c6c085")))
-     (sha256 (base32 "1x8lw3pyp05fqsjrnyy0yd122m1dhnw089f9rmyka32g3kwk0hjs"))))
+           (commit "83fb04844b8dbf0c3013996070695f02429e7915")))
+     (sha256 (base32 "1761b42girwhaa9f2srxa9h1hd4m0m2zkkfgg60lpcwk54dq5k2z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
@@ -106223,14 +106223,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260619.803")
+   (version "20260625.645")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "0f55c96b6649872155d5486acb749710b3726e4a")))
-     (sha256 (base32 "1lv0l2wq2zbvvbif5n49wa6khgx3mayi1is1igk6dv5lrxnc0h1c"))))
+           (commit "2944dfc420232afdc189c3bb7565a0ea2a1a0450")))
+     (sha256 (base32 "1yhglcm7acgr3m25l20kkaxq1m1ang1pv32p7ysy65qc7sha1gwa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -108093,14 +108093,14 @@
 (define-public emacs-with-editor
   (package
    (name "emacs-with-editor")
-   (version "20260623.1348")
+   (version "20260625.855")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/with-editor.git")
-           (commit "c319ef4d3a9dab479b4077cdc089d1ffac97d7db")))
-     (sha256 (base32 "1h6r3rzif9c1jynm14z3ajlz0zb4mdbbzjclncn4ldwnsn7pxmia"))))
+           (commit "36c34610b6b700b4d1f39ccabd2b8b8c9642292d")))
+     (sha256 (base32 "17d3pnz7jccs4blgp4fg8miywyvi9zy5vsqw344z4hdcy8mwdw8b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/with-editor")
@@ -108653,14 +108653,14 @@
 (define-public emacs-wttrin
   (package
    (name "emacs-wttrin")
-   (version "20260624.410")
+   (version "20260625.510")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cjennings/emacs-wttrin.git")
-           (commit "efd3cdce5b3aebfdb3e02460d1ec0434cef85949")))
-     (sha256 (base32 "0w204bk520jcm9qya02ag3bb9azbn3dwjar4mvap7hp86ck6bpki"))))
+           (commit "4266923daf6f137fbe2897334b7669f7fb4633c8")))
+     (sha256 (base32 "10f4liackjpjb41f62wz37dhm19df29fgln5f92sqgwsmc8w85wa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-xterm-color))
    (home-page "https://github.com/cjennings/emacs-wttrin")
