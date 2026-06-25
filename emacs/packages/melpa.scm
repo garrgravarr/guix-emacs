@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260624.1532")
+   (version "20260625.210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "d966e427bf5b8f98c439a00e63278ca3c032d6bb")))
-     (sha256 (base32 "13c2inqb3s58hyzh7i195yqifci6rlpvh4bwimsgg8l0s0s29gzg"))))
+           (commit "3f3c3f25d288cdb817fb29c83ca8728a46c24a37")))
+     (sha256 (base32 "1ypv44212lln8fidhrhp1r832rbgkbglha8lxzp7b4n8f2hqk270"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260624.1620")
+   (version "20260624.2051")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "b7e1c49ab06dd1bc0c2d289154e4bea20994a14d")))
-     (sha256 (base32 "118k4axv1vw0apb2q197xrxcqficxdl1x9fv3nzy38acy1w85qjj"))))
+           (commit "da7ef746e5cb204fd0a2aa3d6f963d029a116851")))
+     (sha256 (base32 "1wkhwhyr59psbjpng009274fp5mpsy3pzc2m4i37dv67lskdgw9b"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -15216,14 +15216,14 @@
 (define-public emacs-consult-gh
   (package
    (name "emacs-consult-gh")
-   (version "20260623.1820")
+   (version "20260625.257")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/armindarvish/consult-gh.git")
-           (commit "7b0fba0dc81a446c95cd39fa2a6adcd39501df9d")))
-     (sha256 (base32 "18bmk52z2fx23mnbg8c8cv78fp68l958j2zkhk7wxcip7zzjnr7q"))))
+           (commit "7042619362cd47314d3d0f706fa9cac5bf07950c")))
+     (sha256 (base32 "0xa7z2zhz44i2fhgiag3a96jkhz71z294qfnphqjxw96cqcq3mb7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-consult emacs-markdown-mode emacs-ox-gfm emacs-yaml))
@@ -30090,14 +30090,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260624.327")
+   (version "20260625.41")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "23fa1e6eaf32d5eb8ab83861c176f866e8d8cff2")))
-     (sha256 (base32 "1hl343rpxaizmal75fnmfwpp2vvjbl9bd30smlzh2j3bqvzy2mp2"))))
+           (commit "727b1b3da1a5705d7ea7ce91373d45d1c0e3cc72")))
+     (sha256 (base32 "1lw7xa7fx575fq5x7y5yivlfg4cckh46hxpiji76qfyh267vashq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -31103,14 +31103,14 @@
 (define-public emacs-evil-swap-keys
   (package
    (name "emacs-evil-swap-keys")
-   (version "20191105.1426")
+   (version "20260624.2045")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/wbolster/evil-swap-keys.git")
-           (commit "b5ef105499f998b5667da40da30c073229a213ea")))
-     (sha256 (base32 "1kawq9c64cmkdjy03sfppjn7g9anxnmds3ip7cgj1j0yym0glyfq"))))
+           (commit "889672ad0d35ab062c52d9d84b22de4ac49753f3")))
+     (sha256 (base32 "066qrmdxz77zmc9k7wbyzrzrgwfkr75g413r80jll9varf73y9sn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/wbolster/evil-swap-keys")
    (synopsis "Intelligently swap keys on text input with evil")
@@ -39791,14 +39791,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260624.1307")
+   (version "20260624.2026")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "25321dc0eec6480e614ebe35d55f130045f92f8f")))
-     (sha256 (base32 "1slzm8808cij90gmxf98x32h6cfx8mi1q6nx4km5b4s517j4lqp1"))))
+           (commit "78e9677cf599f8c073efccd8baae7dfe9bbb1948")))
+     (sha256 (base32 "0mx3yx8g3h5pm2xslnv40gl59ms3srac4kiq76srp6pqfnyfcvnf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49515,14 +49515,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260622.756")
+   (version "20260624.1841")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "510d713b6ebef63e7c4f41fc8039e3be4da0c28d")))
-     (sha256 (base32 "1yic3m59pxp9bdkfz5k9q67bsjq7zj8cqxgxi34f94bywry78l5n"))))
+           (commit "88a9155f9dd3bc59fe047800c506b519bef7ef7f")))
+     (sha256 (base32 "18vb009jy4xgqm399wwm8rmy8yzj5kdp1sbrq2i6ilcw0f6cdgkq"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -60304,14 +60304,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260614.1645")
+   (version "20260624.1757")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "2dded9da2dbced4624ecad4ab51ee2ee62aa2cad")))
-     (sha256 (base32 "1fwihxqhb4x94z36qvh45rrjg95sswwx4y952skxy2fvm0dl5fa0"))))
+           (commit "fa712a892636cd7fa0c102df3b3f217ec6eafa7e")))
+     (sha256 (base32 "04nnb90r4r1ms51jsjyhmacpmxd3by6zb6s6isdpww3d1z022nji"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
@@ -72346,14 +72346,14 @@
 (define-public emacs-org-aws-iam-role
   (package
    (name "emacs-org-aws-iam-role")
-   (version "20260308.1750")
+   (version "20260625.102")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/will-abb/org-aws-iam-role.git")
-           (commit "0175d5ac66f43f8d32db64a04421fddf57e10af7")))
-     (sha256 (base32 "0p1lcchdnmkk9xa2rl1l6dz6nwsb71xq2lbk4ivblmlyqckc1l5n"))))
+           (commit "2e7072a8322a95d39c0019d41eebf9b93bb4a08d")))
+     (sha256 (base32 "12fdk34w3kc8w58lsqmw7f5lkblr95hv2s9hhx6q38jd42payki1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async emacs-promise))
    (home-page "https://github.com/will-abb/org-aws-iam-role")
@@ -76833,14 +76833,14 @@
 (define-public emacs-osm
   (package
    (name "emacs-osm")
-   (version "20260623.1520")
+   (version "20260624.2130")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/osm.git")
-           (commit "b0fceb1f8488abb577e5110676f50753ea35ee24")))
-     (sha256 (base32 "0w4y7cpnb371h8yf45p90gks3k601z5fkxf9ladk5kgyaz7i98an"))))
+           (commit "41765d63fd6810df8a43e3290e98b11dab93b40f")))
+     (sha256 (base32 "0wqyrcy7gfifcrkj1m9ymk7z3y4c3nfclzi9hplshh2pik47wpf5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/osm")
@@ -79767,14 +79767,14 @@
 (define-public emacs-pdffontetc
   (package
    (name "emacs-pdffontetc")
-   (version "20260615.2141")
+   (version "20260624.1756")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacsomancer/pdffontetc.git")
-           (commit "05c25591e807eaf79d25dbcfa20ca994f1ae78e3")))
-     (sha256 (base32 "1faf6x7jckd0b408hija53074n9630srqk5hkn6wab6gz7rqn9g2"))))
+           (commit "063529d92f833ca4342f88a4928f6ec74826ccd0")))
+     (sha256 (base32 "0pw0f1fifni6y6hy05bbbgx8s2w40as2y1n56a938jkxhmwxdi1m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-pdf-tools))
    (home-page "https://github.com/emacsomancer/pdffontetc")
@@ -80794,14 +80794,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260622.2213")
+   (version "20260624.1931")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "536e0f6e0ec12725874600734be3af41b02d08dd")))
-     (sha256 (base32 "0i5kms8l5yda98220s3g5adz9561f30xchzvk53j0rwlz26mvqxb"))))
+           (commit "308c74bd985498eddc6c1bf123e2096ff1a94b9d")))
+     (sha256 (base32 "1nbmsjizzhkiz5qb1vch1q3gaahzaarvc5xw8s881v32szwj3d8y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -93167,14 +93167,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260624.534")
+   (version "20260624.1756")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "ab87e4fb0c9cf7f86af7bf63103dd81988da907b")))
-     (sha256 (base32 "0za13vdjrmi207zgpcwdway2faaynq99nf9f7yqymvvpgzkf8978"))))
+           (commit "df2cbebab2dd7c99c7b792c5d7e71c0ed4a8c42e")))
+     (sha256 (base32 "1f7jbyh3dhha8bld8awd1lazbqj4x1ks8vflb61i583gjvc1jzl4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -93252,14 +93252,14 @@
 (define-public emacs-sisyphus
   (package
    (name "emacs-sisyphus")
-   (version "20260601.1544")
+   (version "20260620.1659")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/sisyphus.git")
-           (commit "4c88989715f2c347714e9cad26b03789e2b68143")))
-     (sha256 (base32 "0mpclwvygn28qk0xabz8fmjmiha4v8dk8k2z2vi5fgj8zrdmbm1k"))))
+           (commit "dd4ae5d52c9d862c2ebeb1c72422ba0f6e22e62b")))
+     (sha256 (base32 "13sgw5z0ww14ff7rnzd248a2d19rpkyhw8p222fgh59nri1n7dfm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-elx emacs-llama emacs-magit))
