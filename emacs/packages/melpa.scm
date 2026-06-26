@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260625.1527")
+   (version "20260626.945")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "7bf7cbd7f296dd012b043ea33160039f91ed9f81")))
-     (sha256 (base32 "1q4ias86mv86jhx303sz2fwdgabw6fzpq2j5baaxsqqzj9b2xdb0"))))
+           (commit "436c8e3b1796479d65a724f0689d0c1450674f60")))
+     (sha256 (base32 "1q59qsnq1prbfmdazjn7skhqh6chqclpwfk6vf9q39r8df1w0xdl"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -13284,14 +13284,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260618.1349")
+   (version "20260626.420")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "04fa1b9bfe150b1f8c76cea47c3a4af3f0e1b22e")))
-     (sha256 (base32 "156vlp2a67dcn9cp3w8pgkjjmq51aw1w3w929wrhhvkq1kg0v20r"))))
+           (commit "7b85d09784c2cf5f209cad98bdef2254c084c379")))
+     (sha256 (base32 "1phpgjxbrqrfakg6fhmdgkhh1sklvwh4ljk711pbbvg68ld5df9w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -15815,14 +15815,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260625.1536")
+   (version "20260626.953")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "044e24f225e8cb389a4b32148a38f477afab14fd")))
-     (sha256 (base32 "0msl1n6c8lrri482jdp4i9n2p158dfdkzk91pq7lv6aihpi9v0mh"))))
+           (commit "16664ca0b59c045c7209bdcd590fdc7831812dac")))
+     (sha256 (base32 "0vlqqr7w4dqhid5spsl7r9fj5app015gqv2ivpxp02gz28p9cjdy"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -23948,23 +23948,6 @@
    (home-page "https://github.com/kiwanami/emacs-edbi")
    (synopsis "Emacs Database Interface")
    (description "Documentation at https://melpa.org/#/edbi")
-   (license #f)))
-
-(define-public emacs-ede-compdb
-  (package
-   (name "emacs-ede-compdb")
-   (version "20150920.2033")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/randomphrase/ede-compdb.git")
-           (commit "d6d8466cd62876fc90adeff5875a1a584fd846cd")))
-     (sha256 (base32 "1cfjw9b1lm29s5cbh0qqmkchbq2382s71w4rpb0gyf603s0yg13m"))))
-   (build-system melpa-build-system)
-   (home-page "https://github.com/randomphrase/ede-compdb")
-   (synopsis "Support for compilation database projects in EDE")
-   (description "Documentation at https://melpa.org/#/ede-compdb")
    (license #f)))
 
 (define-public emacs-ede-php-autoload
@@ -39791,14 +39774,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260624.2026")
+   (version "20260626.1016")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "78e9677cf599f8c073efccd8baae7dfe9bbb1948")))
-     (sha256 (base32 "0mx3yx8g3h5pm2xslnv40gl59ms3srac4kiq76srp6pqfnyfcvnf"))))
+           (commit "b896dddff2a7b8e2217883bd27d452e1902f3011")))
+     (sha256 (base32 "14z7chgmy2w613lmbmx4kr9x30hzlrdkd984acdj4ijjw93ayihj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -60304,14 +60287,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260625.1303")
+   (version "20260626.618")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "366147a4833670037deb16760e39ede51290f0dd")))
-     (sha256 (base32 "11r7p7hx64yh7zwd8pm7w5njn8yf1m9v9hzmq3sw33k2jph96ylg"))))
+           (commit "dc617ed2a21f6453053d218601fee38d1bfd6c70")))
+     (sha256 (base32 "00fnyw9s7nhkr6l4f9lv10zar13crcj5jrlq7i85py3s37xfmrbh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
@@ -74002,14 +73985,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260620.1427")
+   (version "20260626.810")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "eea4942d82858297d6f31d5872bce3e3ebe8bb50")))
-     (sha256 (base32 "1hkvp98jc8la6akq0lvxldnjd7xnl1pn4g6dh8727yyba8y1q08m"))))
+           (commit "d6027d7632ddc2d6e29ce042ee26ff03c069bd20")))
+     (sha256 (base32 "10vnc2fz8sdhpgnavz1g0vqaijad2b536y95naikgp8bymi7c8hb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -83657,14 +83640,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260625.1453")
+   (version "20260626.710")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "4119e3eebe0f3c22d31820c1c5483199e5678c01")))
-     (sha256 (base32 "0c9p51fsfj7ajz2cxz1igxpa1rfjwyxs0f25hjfrw2grmx8pwmni"))))
+           (commit "50c002a824903370e935b741bd2d073b7efcfd56")))
+     (sha256 (base32 "0h8kg5lxrrsq1a3czlnydv4bcx4zl98c9gc07222bv2hvj6rgrmy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
