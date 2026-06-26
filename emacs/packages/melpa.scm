@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260626.945")
+   (version "20260626.1321")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "436c8e3b1796479d65a724f0689d0c1450674f60")))
-     (sha256 (base32 "1q59qsnq1prbfmdazjn7skhqh6chqclpwfk6vf9q39r8df1w0xdl"))))
+           (commit "77549eb6dd6f30535d35f3041716e2899d2dfbb8")))
+     (sha256 (base32 "0sagy5z9bqyg59z149sxf1rj1vrx189cqr4ccbqagl2cm0gg9p75"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -13284,14 +13284,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260626.420")
+   (version "20260626.1232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "7b85d09784c2cf5f209cad98bdef2254c084c379")))
-     (sha256 (base32 "1phpgjxbrqrfakg6fhmdgkhh1sklvwh4ljk711pbbvg68ld5df9w"))))
+           (commit "0c0ebcdd52d494a1ff4e0225d3f37ce1cfe9b849")))
+     (sha256 (base32 "02f4jz9fpdbgpi814q4sjac1q4p3kc2dqdkd9sj27c0arxglha2r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -26297,14 +26297,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260625.1339")
+   (version "20260626.1223")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "b6e123a880173b8bfa918829806e22f575266ffd")))
-     (sha256 (base32 "0xwqi07g0g5pdyxmfmk4w1dshj2rn3gpfniy0yp1ggildh8rcjid"))))
+           (commit "09857e5d2ec8a7bfc68b510a2a6afce2b165566b")))
+     (sha256 (base32 "00iwn1r717y7x49g9vncghiyi5ffp7y1ig2bghnaqchs5d8rv5g3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -30309,14 +30309,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260624.1307")
+   (version "20260626.1255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "25321dc0eec6480e614ebe35d55f130045f92f8f")))
-     (sha256 (base32 "1slzm8808cij90gmxf98x32h6cfx8mi1q6nx4km5b4s517j4lqp1"))))
+           (commit "92bfcc57dc85f254ce95dcb51dbdd2411fea5f02")))
+     (sha256 (base32 "1pik989dzzijmqkfqya8h188gk3n4jj5h5ikldzx046rfyrw7aw5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39774,14 +39774,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260626.1016")
+   (version "20260626.1255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "b896dddff2a7b8e2217883bd27d452e1902f3011")))
-     (sha256 (base32 "14z7chgmy2w613lmbmx4kr9x30hzlrdkd984acdj4ijjw93ayihj"))))
+           (commit "92bfcc57dc85f254ce95dcb51dbdd2411fea5f02")))
+     (sha256 (base32 "1pik989dzzijmqkfqya8h188gk3n4jj5h5ikldzx046rfyrw7aw5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -57018,14 +57018,14 @@
 (define-public emacs-lambdapi-mode
   (package
    (name "emacs-lambdapi-mode")
-   (version "20260624.735")
+   (version "20260626.1213")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Deducteam/lambdapi.git")
-           (commit "e2e0e4a1fc921205e56dd4d78dc22d364644813d")))
-     (sha256 (base32 "01jih46346wv236hvb698vmicz0m8x7lcrgqsw0nc8sq6pb73yc9"))))
+           (commit "15550d2cb0a684d0a7a03bb0519aa877e1565c72")))
+     (sha256 (base32 "1hcdn4pswr7ic8rglxhipqnq0p8yym717vh37bsdrki2kp4wk0bv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-math-symbol-lists emacs-highlight))
    (arguments
@@ -63178,14 +63178,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260624.1143")
+   (version "20260626.1125")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "3f1ebf8ec5bdd0e3f11283472d252a195fa5485e")))
-     (sha256 (base32 "1nd9kh36sxrynvj44axmia10m0z3abgp8n7fhpfwpabym90v4ph5"))))
+           (commit "b6620f6f066f888a7ea8c14e88b6e3efb448f6fb")))
+     (sha256 (base32 "1crvvkhhpiid5bggv62mrcym9chy5vvbvlyz40ydpi2sig02fvr7"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -65003,14 +65003,14 @@
 (define-public emacs-modus-ewal-theme
   (package
    (name "emacs-modus-ewal-theme")
-   (version "20260609.1423")
+   (version "20260626.833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/deadendpl/modus-ewal-theme.git")
-           (commit "2856520a2474b3d5fddae64001817d6cecf3da51")))
-     (sha256 (base32 "069wcl2l194rnkkf3gf9lp4ikc2s1zx963b2nj94zz0yw8z51lxl"))))
+           (commit "cabad09fa008701a7d84d275614563aca9a0aeeb")))
+     (sha256 (base32 "0f4s9a1p7qg11kljz4h8l8164si79q1djyiz92nhkx6rnalrs3yc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ewal))
    (home-page "https://github.com/deadendpl/modus-ewal-theme")
@@ -73985,14 +73985,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260626.810")
+   (version "20260626.1624")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "d6027d7632ddc2d6e29ce042ee26ff03c069bd20")))
-     (sha256 (base32 "10vnc2fz8sdhpgnavz1g0vqaijad2b536y95naikgp8bymi7c8hb"))))
+           (commit "0b8c48617bb5472e6506877964995fae021b61c6")))
+     (sha256 (base32 "00h098zhvw0iy48afzwnk73cdvyc9481gbg9ril26nwg5lbdgxyc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -77643,14 +77643,14 @@
 (define-public emacs-ox-json
   (package
    (name "emacs-ox-json")
-   (version "20250825.125")
+   (version "20260626.1133")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jlumpe/ox-json.git")
-           (commit "0f7c63b9bbbf6c8b2547e46adc7f34289869105f")))
-     (sha256 (base32 "1xlqd4rb5br3illbxg7k0rbspxfns2sr5wn7w9k546sb6lg5p4i2"))))
+           (commit "a8f8cfa9673a6bccfd2480971eda53fff2304851")))
+     (sha256 (base32 "1h6ifsbp3dfsinl704lkx9i5ba4rz68avy0x4yz10zxz4s1sfz5s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s))
    (home-page "https://github.com/jlumpe/ox-json")
@@ -102739,16 +102739,15 @@
 (define-public emacs-tuareg
   (package
    (name "emacs-tuareg")
-   (version "20260617.1454")
+   (version "20260626.936")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml/tuareg.git")
-           (commit "7d4dd535e3f4bed2013bad545629302d07ba991e")))
-     (sha256 (base32 "10x3zvjm81r5bk8fw8lbxq738j0p15g0yjfxgxjanms0mrbwj2bp"))))
+           (commit "696fdc59e3a35cc44cd1c2d0607d782e0f0c9e71")))
+     (sha256 (base32 "1zi1p1mq0mi9kmv1r4p6chb9mzv145qh2jpzfh800yi3bpbkdywg"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-caml))
    (home-page "https://github.com/ocaml/tuareg")
    (synopsis "OCaml mode")
    (description "Documentation at https://melpa.org/#/tuareg")
