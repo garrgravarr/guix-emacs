@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260625.210")
+   (version "20260627.233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "3f3c3f25d288cdb817fb29c83ca8728a46c24a37")))
-     (sha256 (base32 "1ypv44212lln8fidhrhp1r832rbgkbglha8lxzp7b4n8f2hqk270"))))
+           (commit "934c5b67cd602eff926d21fd243bc0e7326a3c9f")))
+     (sha256 (base32 "069ylyid05261lgbp9krnz8gw6ydyg8zzjsznh3zpsk93xk14iyl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -83640,14 +83640,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260626.710")
+   (version "20260626.1249")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "50c002a824903370e935b741bd2d073b7efcfd56")))
-     (sha256 (base32 "0h8kg5lxrrsq1a3czlnydv4bcx4zl98c9gc07222bv2hvj6rgrmy"))))
+           (commit "0fe44ed3c588c439f775484515afb90f48b3dbac")))
+     (sha256 (base32 "0j7pz88nz56vvfax4p1lh8s30rgiln5nyiz1l0h38cmfd6nbl3cz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -93435,14 +93435,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260611.2247")
+   (version "20260626.1251")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "06a1fe9041e1aadf293692036ad522a6f808e2fc")))
-     (sha256 (base32 "1zrwvk00mkx5xiy3an6j8mkpbikq7qiilh940k8y6304rrzc72dx"))))
+           (commit "a753649c988f805b0710fc399613f64f49ff8da1")))
+     (sha256 (base32 "1b17fjkkcnj1jfqxqhill9cxikfw8g18y2pwkc0zd19sxrz0hvh4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -108635,14 +108635,14 @@
 (define-public emacs-wttrin
   (package
    (name "emacs-wttrin")
-   (version "20260625.2003")
+   (version "20260626.1725")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cjennings/emacs-wttrin.git")
-           (commit "7027cccea9eb7170ea0f08e1def3f979f2e59932")))
-     (sha256 (base32 "13vbizdhjy7qxnh0blppsha58h3srqd3dqas326llv05yk9yhapw"))))
+           (commit "ee8fdeb692d666c12ce068a2b1ee90e9451ac892")))
+     (sha256 (base32 "11yri41vzsj08arxvavc6hvkcxc4mg2bgc3in3fiksvcwy20pb44"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-xterm-color))
    (home-page "https://github.com/cjennings/emacs-wttrin")
