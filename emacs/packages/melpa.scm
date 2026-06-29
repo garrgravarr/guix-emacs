@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260628.848")
+   (version "20260629.905")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "d47e56cc3d7c2ceaaeb2825282fc923546b122a4")))
-     (sha256 (base32 "021xpcjiiz68vrshmlwa1kypgkxdf1bmx2ibz7a1v1z59crcls9s"))))
+           (commit "894128b3735b22f8637ca9ba6ad8d2015424d0e2")))
+     (sha256 (base32 "1nmixi6wkxbacq4mfbv38wr5xk344g8243iizgg9ibw94qziqsv6"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -18867,14 +18867,14 @@
 (define-public emacs-deadgrep
   (package
    (name "emacs-deadgrep")
-   (version "20241210.1630")
+   (version "20260629.901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Wilfred/deadgrep.git")
-           (commit "edb1957d0d6033698c6784686b27508034003fa0")))
-     (sha256 (base32 "02q0mhs8iks2rpf0zgnl0yjaw646gp25jrm5ww6p8001jc0whf33"))))
+           (commit "1ce8b7027a179ecae379ff3093414c965307df1b")))
+     (sha256 (base32 "1khi6yq00s074h3pnpib5klfr7xhfissihzyhwnblfhrbjjqk4cg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-s emacs-spinner))
    (home-page "https://github.com/Wilfred/deadgrep")
@@ -21935,14 +21935,14 @@
 (define-public emacs-docker
   (package
    (name "emacs-docker")
-   (version "20260623.746")
+   (version "20260629.743")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Silex/docker.el.git")
-           (commit "2128c0d432f4cc0feef21d1e1c11398a3ee2432b")))
-     (sha256 (base32 "0nacf9zxjllkpqgvjvmj08acppm3qifvjgnrqnwxm9nc1w7brjgx"))))
+           (commit "5c1fc2b6dcd2ec4238694603a746d041f8961793")))
+     (sha256 (base32 "13ar7l8k7bg4cqdy9h72v92z8vvvf5gwwvdc6qhnwph6fmyqprva"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-aio emacs-dash emacs-s emacs-tablist))
    (home-page "https://github.com/Silex/docker.el")
@@ -22238,14 +22238,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260612.740")
+   (version "20260629.409")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "a9900c89409984572b514f0fcb4f336c9d5bba4b")))
-     (sha256 (base32 "1sbq1hk1m3djzp78xzzbx5ggc04dkpsnb5gc9pb6kqavq4m9644w"))))
+           (commit "40dbadea11e63ebfdbc069615ef836ff3e4c4da9")))
+     (sha256 (base32 "0kk8w6s5k1y3ywllngwasj9w7pai0ymqn7axg8pin02jq31ndl1x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -39792,14 +39792,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260626.1255")
+   (version "20260629.921")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "92bfcc57dc85f254ce95dcb51dbdd2411fea5f02")))
-     (sha256 (base32 "1pik989dzzijmqkfqya8h188gk3n4jj5h5ikldzx046rfyrw7aw5"))))
+           (commit "882b7ca689b12eddf26b755ce282930c6ab9ee86")))
+     (sha256 (base32 "0i39iygcgr3p6q22k83cpspka6inhgmhhysd0fqkqicz9dnrldzy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49535,14 +49535,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260628.424")
+   (version "20260628.2307")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "4124a0a192503aeffe3806ffa6f59e5bc22eea3d")))
-     (sha256 (base32 "040m82mwsik1lcylpr1q6fwv78kxh1qdlv8sh94kw6wavim9g8fm"))))
+           (commit "a6ee9afb313f3eacb7fe95cdaca4551d9bec76d2")))
+     (sha256 (base32 "0wg9v8pnnw885a1j1b9j8kly9jpg5iwk4bizchcksaracpd0n6l8"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -51040,14 +51040,14 @@
 (define-public emacs-indent-guide
   (package
    (name "emacs-indent-guide")
-   (version "20260515.1152")
+   (version "20260629.918")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zk-phi/indent-guide.git")
-           (commit "ab71cac290505caf6c374cb8594b0b78d5109af1")))
-     (sha256 (base32 "1b0g1hw1l2r6zmij90w7a78gxxncnnpjk6zmn4mafxgnkrg8x1q8"))))
+           (commit "1332f95d6f08afee35f62621793e2622b9f86f27")))
+     (sha256 (base32 "0fk3qi3ncdyyqa0x07sm4y2z5fgwhmcqviicvhwmz782n8c6h8wd"))))
    (build-system melpa-build-system)
    (home-page "http://zk-phi.github.io/")
    (synopsis "Show vertical lines to guide indentation")
@@ -63198,7 +63198,7 @@
 (define-public emacs-mediawiki
   (package
    (name "emacs-mediawiki")
-   (version "20260629.113")
+   (version "20260629.302")
    (source
     (origin
      (method git-fetch)
@@ -66165,14 +66165,14 @@
 (define-public emacs-mu4e-marker-icons
   (package
    (name "emacs-mu4e-marker-icons")
-   (version "20250228.218")
+   (version "20260629.815")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/mu4e-marker-icons.git")
-           (commit "13541181d5144ee91d570ab74558abce194b083f")))
-     (sha256 (base32 "1lvwg0yb993j57y7663jm33g7j0x0jqbhqgf8vdy6qv198wpj5nc"))))
+           (commit "2d048729ab106aebf1acb99e1ccfd002a0f2ec4a")))
+     (sha256 (base32 "08p0lvlf6s1w6wd588x64jshxaqyazszmrcwq83bd242k101vvnk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons))
    (home-page "https://repo.or.cz/mu4e-marker-icons.git")
@@ -73972,14 +73972,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260605.743")
+   (version "20260629.848")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "e459057bfcbbe5c0eb4002fefefb907e59b39e0a")))
-     (sha256 (base32 "0bclhz28z9258vgy9998p9k8i56ma9hqnx6bsjj122aa3mx8p3hc"))))
+           (commit "9b0ccf27bc20ffc79bf2ec2ad0e2c080c0151769")))
+     (sha256 (base32 "1rdr0k5afqhvqg49h0l646a47k6sirvfxfp1ir0dzhs27plvhmra"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -77699,14 +77699,14 @@
 (define-public emacs-ox-json
   (package
    (name "emacs-ox-json")
-   (version "20260628.2137")
+   (version "20260629.631")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jlumpe/ox-json.git")
-           (commit "2eb0bba12c2d995cc050eca061f657a3aefb9822")))
-     (sha256 (base32 "0d1l11x7rv1a53wcxryg4wziazaxxgqdirsa6k38k7cmcnraa1im"))))
+           (commit "3fa63a260fc58b09eed5dd8c36904ae80148adbe")))
+     (sha256 (base32 "0x8bbg37qcg2ckqrjns6kx61pr4sbg9la3h2ywbsivrbw5bjagg2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s))
    (home-page "https://github.com/jlumpe/ox-json")
@@ -90390,14 +90390,14 @@
 (define-public emacs-sayid
   (package
    (name "emacs-sayid")
-   (version "20260628.1436")
+   (version "20260629.859")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/sayid.git")
-           (commit "8aa481ab2e6a4b40fb4f1e8470565f6efb60210e")))
-     (sha256 (base32 "033a29lp8pybrhp2rc7dhz4mmpp43nzg2y52z7c8ayhrqsq5pkvi"))))
+           (commit "a5c69e8539d2eca5c18cb35aeb12bcafbc448029")))
+     (sha256 (base32 "0pwpzcq0gspnavaaidfl15pz43la1zvz46djkcymgfys5m038rd8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-cider))
    (arguments '(#:files ("src/el/*.el")))
@@ -106279,14 +106279,14 @@
 (define-public emacs-vulpea-journal
   (package
    (name "emacs-vulpea-journal")
-   (version "20260619.1002")
+   (version "20260629.817")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-journal.git")
-           (commit "eb503e67711284ef6ad95e40ad91bf723444d837")))
-     (sha256 (base32 "123lr8f3b6db3pijrg1x33hbgh7hyh6w5qpab5n11hb90vdchimq"))))
+           (commit "0c233a6e99cfbb22b8e9952626c50c256dd1ec53")))
+     (sha256 (base32 "10bgrxgh7ykmy6a67sx83d41867dk00qra14mdk97ivvkkbbr3nx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vulpea-ui emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea-journal")
@@ -106297,14 +106297,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260627.1007")
+   (version "20260629.934")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "2a6a5cdce6111e3d1642d3a4b7d8b62eab229fcc")))
-     (sha256 (base32 "1bhmvy2sqb1mplql706k6ykclnq1ksb69jw4y89fsvyw9dfadzm9"))))
+           (commit "bed846c0f08a8b7500c63d19772d926d01e938ca")))
+     (sha256 (base32 "1x3bvg8grzdbf173hdxs91jk1y884pdkgc24vhlr7xjy9ncwfq5w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
