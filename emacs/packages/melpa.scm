@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260627.2223")
+   (version "20260628.1727")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "96343cf9a321f707e3007fb9a1543871d07f9937")))
-     (sha256 (base32 "0ddg7ydlrc5acik0ixpfwfib1j33vddk23nrinvq26apcrbkgh4x"))))
+           (commit "4f7055084c296f67643f633167dbb2abaa0ce10a")))
+     (sha256 (base32 "0hmr8537zwkff5acdwx56qys3cp9xpj5b5kr0rhv2kgwz3idw2rq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3472,14 +3472,14 @@
 (define-public emacs-arduino-cli-mode
   (package
    (name "emacs-arduino-cli-mode")
-   (version "20250524.901")
+   (version "20260628.2219")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/motform/arduino-cli-mode.git")
-           (commit "aa93d49dc90c54e61b70f40fe88967fc0ae04927")))
-     (sha256 (base32 "1b84gaz8libqfapkgxfbbsbn5pvzxnm6b7c96vbxa0ry3jc0bd34"))))
+           (commit "d5614acdca80871cf4db65843227223b5a0e3a2c")))
+     (sha256 (base32 "03av4cy826kxi8lxl3asay044dxnax5wxlx3i7hbmya20rckczqh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/motform/arduino-cli-mode")
    (synopsis "Arduino-CLI command wrapper")
@@ -10075,14 +10075,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260621.807")
+   (version "20260628.806")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "fb0b04fe6c6c46ad59f8691668339f53c6d9da57")))
-     (sha256 (base32 "16czlly566h70x4dcv441ckj71rlgqky6chhxj55x6cmk3sdypf0"))))
+           (commit "6981d36a547d6f9a9d9f2c1851eb402ae9d3c034")))
+     (sha256 (base32 "07apl4fcdckkpirrmfmcg52qivzrw7fykjfjd15qx6gm7wxarpab"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -11799,14 +11799,14 @@
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
-   (version "20260403.830")
+   (version "20260628.1328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clj-refactor.el.git")
-           (commit "39c9688c79e1d00965621d04c04fe1ddde4b571f")))
-     (sha256 (base32 "1im1l9910asx9bvgcdrrznmrm52kb9jrgkicb3jmplbvay2xyxzv"))))
+           (commit "b725cc39bfff17a949daa147eb37f391cfbb5591")))
+     (sha256 (base32 "0wii720qqh9fak23vlxdm33sasp729j3pdv8n1nsmjrkhv5ijwgn"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-yasnippet
@@ -14154,14 +14154,14 @@
 (define-public emacs-company-prescient
   (package
    (name "emacs-company-prescient")
-   (version "20250816.19")
+   (version "20260628.2243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/prescient.el.git")
-           (commit "87e2d2f2ddf24f591a5f70cc90d2afb4537caa18")))
-     (sha256 (base32 "0f4wi8aq3yfykxfza4y4c5yhcs50cs3gpfj0qrmvfq9hvkhzj52w"))))
+           (commit "5649977fa7789e4615efeca09397ed7eccd06dfc")))
+     (sha256 (base32 "199150yng81f6n3kb120s37yf2dqs0i9k91f2gzkk8kjn6hvrsj8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-prescient emacs-company))
    (arguments '(#:files ("company-prescient.el")))
@@ -15987,14 +15987,14 @@
 (define-public emacs-corfu-prescient
   (package
    (name "emacs-corfu-prescient")
-   (version "20250816.19")
+   (version "20260628.2243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/prescient.el.git")
-           (commit "87e2d2f2ddf24f591a5f70cc90d2afb4537caa18")))
-     (sha256 (base32 "0f4wi8aq3yfykxfza4y4c5yhcs50cs3gpfj0qrmvfq9hvkhzj52w"))))
+           (commit "5649977fa7789e4615efeca09397ed7eccd06dfc")))
+     (sha256 (base32 "199150yng81f6n3kb120s37yf2dqs0i9k91f2gzkk8kjn6hvrsj8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-prescient emacs-corfu))
    (arguments '(#:files ("corfu-prescient.el")))
@@ -17157,14 +17157,14 @@
 (define-public emacs-csound-mode
   (package
    (name "emacs-csound-mode")
-   (version "20260502.1425")
+   (version "20260628.1411")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hlolli/csound-mode.git")
-           (commit "fb8152be0cfccd498c3d9f6bf4f550cfa96c416a")))
-     (sha256 (base32 "1nj5drdpwpn34581x6sbgfv4zkwzgh36q6nmwqgfgnqiwv9c27az"))))
+           (commit "31edb733d06757f7602cd18fbd043958899906a5")))
+     (sha256 (base32 "1za7cbdps4labgl16c47d26x3i5bcay2fllncmr99i62kz35by4j"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-shut-up emacs-multi emacs-dash emacs-highlight))
@@ -18026,14 +18026,14 @@
 (define-public emacs-dag-draw
   (package
    (name "emacs-dag-draw")
-   (version "20251218.1333")
+   (version "20260627.2238")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/trevoke/dag-draw.el.git")
-           (commit "0c10afdff9f1ebfeea242e921fa22bb385cdf899")))
-     (sha256 (base32 "11m2b30asrg54cysim6yyc4fhym9mgjg909yjjwja45qp8q3llin"))))
+           (commit "c20b3c28781f1d768116a2cc601a4e8d0058e2ba")))
+     (sha256 (base32 "0rylci9y8lpmsrac07npz0n3xkql61zxpj338qr0ffpdfd0vj8gq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-ht))
    (home-page "https://codeberg.org/trevoke/dag-draw.el")
@@ -38922,6 +38922,24 @@
    (description "Documentation at https://melpa.org/#/fzf-native")
    (license #f)))
 
+(define-public emacs-fzfa
+  (package
+   (name "emacs-fzfa")
+   (version "20260628.2159")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/jojojames/fzfa.git")
+           (commit "94031faced11dd7c0b927802519c288fc1c59327")))
+     (sha256 (base32 "0jybyhdfalg5nrskmszkl1i9nl505yjf4lpr8vfkldj97byj449y"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-fzf-native))
+   (home-page "https://github.com/jojojames/fzfa")
+   (synopsis "Async fuzzy completion via `fzf-native'")
+   (description "Documentation at https://melpa.org/#/fzfa")
+   (license #f)))
+
 (define-public emacs-gameoflife
   (package
    (name "emacs-gameoflife")
@@ -40360,6 +40378,25 @@
    (home-page "http://github.com/kidd/git-msg-prefix.el")
    (synopsis "Insert commit message prefix (issue number)")
    (description "Documentation at https://melpa.org/#/git-msg-prefix")
+   (license #f)))
+
+(define-public emacs-git-overleaf
+  (package
+   (name "emacs-git-overleaf")
+   (version "20260622.559")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/Jamie-Cui/git-overleaf.el.git")
+           (commit "492ba61b31e874c7c1bc3c9850214f3fd1fc8a2c")))
+     (sha256 (base32 "1dcqwl7l4slx57d913cssm93l0bfq89p4gcvwp8nf0p6z7sbfxqp"))))
+   (build-system melpa-build-system)
+   (propagated-inputs
+    (list emacs-websocket emacs-webdriver emacs-magit-section))
+   (home-page "https://github.com/Jamie-Cui/git-overleaf")
+   (synopsis "Clone, push, and pull full Overleaf projects with Git")
+   (description "Documentation at https://melpa.org/#/git-overleaf")
    (license #f)))
 
 (define-public emacs-git-ps1-mode
@@ -52924,14 +52961,14 @@
 (define-public emacs-ivy-prescient
   (package
    (name "emacs-ivy-prescient")
-   (version "20250816.19")
+   (version "20260628.2243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/prescient.el.git")
-           (commit "87e2d2f2ddf24f591a5f70cc90d2afb4537caa18")))
-     (sha256 (base32 "0f4wi8aq3yfykxfza4y4c5yhcs50cs3gpfj0qrmvfq9hvkhzj52w"))))
+           (commit "5649977fa7789e4615efeca09397ed7eccd06dfc")))
+     (sha256 (base32 "199150yng81f6n3kb120s37yf2dqs0i9k91f2gzkk8kjn6hvrsj8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-prescient emacs-ivy))
    (arguments '(#:files ("ivy-prescient.el")))
@@ -59927,18 +59964,18 @@
 (define-public emacs-loopy-dash
   (package
    (name "emacs-loopy-dash")
-   (version "20251226.2031")
+   (version "20260627.112")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/okamsn/loopy-dash.git")
-           (commit "d60c4f49a640541e415e5471ad26c2d8e6886888")))
-     (sha256 (base32 "0pwayqwyarbg26piwzxag13xbx3dzdx779c4n7crzjk4gj3d80fw"))))
+           (url "https://codeberg.org/okamsn/loopy-dash.git")
+           (commit "d42ca0524fa564914a03708c67c61d90106ee007")))
+     (sha256 (base32 "0k1as3hy8ab3pqgwhh7y3b37cs27qnci7b93yy2v3m3yz7mc4mpx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-loopy emacs-dash))
    (arguments '(#:files ("loopy-dash.el")))
-   (home-page "https://github.com/okamsn/loopy-dash")
+   (home-page "https://codeberg.org/okamsn/loopy-dash")
    (synopsis "Dash destructuring for `loopy'")
    (description "Documentation at https://melpa.org/#/loopy-dash")
    (license #f)))
@@ -60938,14 +60975,14 @@
 (define-public emacs-macher
   (package
    (name "emacs-macher")
-   (version "20260621.121")
+   (version "20260628.2250")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kmontag/macher.git")
-           (commit "67972625ae052a5a07929043324fbd3b6b2fc08a")))
-     (sha256 (base32 "0i5nhxjz5dni2x7wq45wifq47a4cx15pgzppc76plnz1y43rlx1y"))))
+           (commit "44950accf782b2ae0a29f48bc85fb4842bc38ab1")))
+     (sha256 (base32 "08ywhjbygvjbgw7iz0khi21hrnbggxyd71aqa0inks3cg0m4g88l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (home-page "https://github.com/kmontag/macher")
@@ -63161,14 +63198,14 @@
 (define-public emacs-mediawiki
   (package
    (name "emacs-mediawiki")
-   (version "20260627.1731")
+   (version "20260629.113")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hexmode/mediawiki-el.git")
-           (commit "420d18365a62b0b6122c1ee8c3c88ebcb4f035df")))
-     (sha256 (base32 "1c4jbpl46p7zi3blmw4aybwnjcjmvq7is4xcm1ibpp0y1zkpl1pp"))))
+           (commit "33cc6ba26ca71d561b87cebf229ae422748f644d")))
+     (sha256 (base32 "1amnc0qzza1hiifacq7fmvr06v23inlfy67wa3jsk4f9x0wwq487"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hexmode/mediawiki-el")
    (synopsis "Mediawiki frontend")
@@ -65021,14 +65058,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260621.1325")
+   (version "20260628.1042")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "2d044ac89f3bca7011fa2bfda003cf80ce115f70")))
-     (sha256 (base32 "1xbwvw3fg1c18gs6w10vp843mzjqxrv24ks7ll2zj8y4mcig3fbm"))))
+           (commit "9172a0e8efda63ada2cb4aeff01124260a672c1e")))
+     (sha256 (base32 "11vy6mjz6g2v2ggmqgnpnx0ax3i5mdvzv1yc82l7g4pbnkfssljy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -66509,6 +66546,25 @@
    (home-page "https://github.com/zzkt/metabrainz")
    (synopsis "MusicBrainz API interface")
    (description "Documentation at https://melpa.org/#/musicbrainz")
+   (license #f)))
+
+(define-public emacs-musicbrainz-interactive
+  (package
+   (name "emacs-musicbrainz-interactive")
+   (version "20260623.1527")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/zzkt/metabrainz.git")
+           (commit "bdb68a7034039c78acc62aa753401f84e1bd0217")))
+     (sha256 (base32 "02yqnfyas78a954b2hax7xhdv04n1kiilwkcc670sldgf2v0fcsw"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-musicbrainz))
+   (arguments '(#:files ("musicbrainz-interactive.el")))
+   (home-page "https://github.com/zzkt/metabrainz")
+   (synopsis "Interactive commands for MusicBrainz related things")
+   (description "Documentation at https://melpa.org/#/musicbrainz-interactive")
    (license #f)))
 
 (define-public emacs-mustache
@@ -69107,14 +69163,14 @@
 (define-public emacs-nsis-mode
   (package
    (name "emacs-nsis-mode")
-   (version "20260331.53")
+   (version "20260628.1801")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mattfidler/nsis-mode.git")
-           (commit "0e1ec26a3943865f33e5590e26f5bc31684ad67e")))
-     (sha256 (base32 "0n3hlz00yjznns4d8rshfqwf1yvynr99qhsjkhd5njnfqswfi67d"))))
+           (commit "5ee283dd4da0bf8ca90cc8210da6ad94899d50b9")))
+     (sha256 (base32 "0f4a2qha8lgrnw14xrfaiz2s8wzka2p7llc0jymfyln52d2m10hc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mlf176f2/nsis-mode")
    (synopsis "NSIS-mode")
@@ -73985,14 +74041,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260626.1624")
+   (version "20260628.1737")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "0b8c48617bb5472e6506877964995fae021b61c6")))
-     (sha256 (base32 "00h098zhvw0iy48afzwnk73cdvyc9481gbg9ril26nwg5lbdgxyc"))))
+           (commit "29a9eefe758650925d14d527c74da92d2a809aae")))
+     (sha256 (base32 "1k1szvync41r6x61g6fwzgml9jqzxhp3dp4w8bz8mqjdwvhax71x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -75424,14 +75480,14 @@
 (define-public emacs-org-srs
   (package
    (name "emacs-org-srs")
-   (version "20251223.1556")
+   (version "20260628.1143")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bohonghuang/org-srs.git")
-           (commit "c0aff45392b1f836fd943467cc266cef50899a44")))
-     (sha256 (base32 "0bvczpn93afdng9xnr3licgmv3yw4rdmsbn45206r756738capn9"))))
+           (commit "e6e5fbfcb8beb520141edac647ccb76af9b71df6")))
+     (sha256 (base32 "199qc0ikz9b6hbrpdpc737byqscp2rnh3syvjp71jwf2r7kwkz6h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fsrs))
    (home-page "https://github.com/bohonghuang/org-srs")
@@ -77643,14 +77699,14 @@
 (define-public emacs-ox-json
   (package
    (name "emacs-ox-json")
-   (version "20260628.954")
+   (version "20260628.2137")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jlumpe/ox-json.git")
-           (commit "585c7dd9eb21ba8169bdd62268ef8ec065319529")))
-     (sha256 (base32 "0bwz7kbmhhcqcvkdsrhgya323nhja9y45n4sckwy75bbqpb9wy2w"))))
+           (commit "2eb0bba12c2d995cc050eca061f657a3aefb9822")))
+     (sha256 (base32 "0d1l11x7rv1a53wcxryg4wziazaxxgqdirsa6k38k7cmcnraa1im"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s))
    (home-page "https://github.com/jlumpe/ox-json")
@@ -80777,14 +80833,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260624.1931")
+   (version "20260628.1023")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "308c74bd985498eddc6c1bf123e2096ff1a94b9d")))
-     (sha256 (base32 "1nbmsjizzhkiz5qb1vch1q3gaahzaarvc5xw8s881v32szwj3d8y"))))
+           (commit "15a39b86e9f8dec0ee98428e9c31450fdfa431f3")))
+     (sha256 (base32 "0h4bb34xfjjll640zvj62mkz7r4n0by6p4c2crylpni4g7s8c0nq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -82868,14 +82924,14 @@
 (define-public emacs-prescient
   (package
    (name "emacs-prescient")
-   (version "20260628.5")
+   (version "20260628.2243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/prescient.el.git")
-           (commit "967087fa547474ab88b72ad543f547fc120129ed")))
-     (sha256 (base32 "1rafcyih7z182456mca27a55hcw5i9jhjnm4rhvkggvxc1sa8lx4"))))
+           (commit "5649977fa7789e4615efeca09397ed7eccd06dfc")))
+     (sha256 (base32 "199150yng81f6n3kb120s37yf2dqs0i9k91f2gzkk8kjn6hvrsj8"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("prescient.el")))
    (home-page "https://github.com/raxod502/prescient.el")
@@ -85700,14 +85756,14 @@
 (define-public emacs-qrencode
   (package
    (name "emacs-qrencode")
-   (version "20260109.2234")
+   (version "20260628.2140")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ruediger/qrencode-el.git")
-           (commit "023c61309e8f9e7b27fd28fe4d71a2217b2f3f9d")))
-     (sha256 (base32 "0ivcdr89531yps6izk7fs7xqrz00m4b02c5rrbjalz33sj06ss41"))))
+           (commit "7df905c77f590278d301679db354a3d7662407c9")))
+     (sha256 (base32 "1vsj6vq003anbwhaqcfl4sswkn8zl6fazwyvy6dk1xf87nll6540"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ruediger/qrencode-el")
    (synopsis "QRCode encoder")
@@ -90334,14 +90390,14 @@
 (define-public emacs-sayid
   (package
    (name "emacs-sayid")
-   (version "20220101.1357")
+   (version "20260628.1436")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/sayid.git")
-           (commit "879aff586336a0ec4d46c0ed4720fb1de22082bd")))
-     (sha256 (base32 "013afdzz0rvb428pla78an052jvw2q95zzqvnq9z9w16y5yd1n0c"))))
+           (commit "8aa481ab2e6a4b40fb4f1e8470565f6efb60210e")))
+     (sha256 (base32 "033a29lp8pybrhp2rc7dhz4mmpp43nzg2y52z7c8ayhrqsq5pkvi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-cider))
    (arguments '(#:files ("src/el/*.el")))
@@ -91242,14 +91298,14 @@
 (define-public emacs-selectrum-prescient
   (package
    (name "emacs-selectrum-prescient")
-   (version "20250816.19")
+   (version "20260628.2243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/prescient.el.git")
-           (commit "87e2d2f2ddf24f591a5f70cc90d2afb4537caa18")))
-     (sha256 (base32 "0f4wi8aq3yfykxfza4y4c5yhcs50cs3gpfj0qrmvfq9hvkhzj52w"))))
+           (commit "5649977fa7789e4615efeca09397ed7eccd06dfc")))
+     (sha256 (base32 "199150yng81f6n3kb120s37yf2dqs0i9k91f2gzkk8kjn6hvrsj8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-prescient emacs-selectrum))
    (arguments '(#:files ("selectrum-prescient.el")))
@@ -92017,14 +92073,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260627.1027")
+   (version "20260628.1726")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "55c383ca542efbb79abd9cb3d6bbd3ab0d92f5d9")))
-     (sha256 (base32 "0dsg74kiswd695y6jhhvfj6y47lwyr8sm9ihmmf9xjiaqk6p3ypr"))))
+           (commit "83f3712d3d7c54f81ee73cc88abaff46410489db")))
+     (sha256 (base32 "0whqdqyb2fvr8nxmbgwj0jiikl248l7gdnmdsg8ls9vjdwl4i9k3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -103370,14 +103426,14 @@
 (define-public emacs-ultisnips-mode
   (package
    (name "emacs-ultisnips-mode")
-   (version "20260601.1617")
+   (version "20260628.1957")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/ultisnips-mode.el.git")
-           (commit "39df8b78d4a9450cec5acbd74eb82b7372e28b73")))
-     (sha256 (base32 "0rynfikr47afa5nd0npk1b6q69fym7l0mqb7abivkipg2zz3ysn7"))))
+           (commit "3fc59835f6407fb60bb9935a63fc0479f8807f37")))
+     (sha256 (base32 "13rn768inw0mnxp75plc981dm46vi9p8c0bckb8q8p2f0iy6rdsc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/ultisnips-mode.el")
    (synopsis "Major mode for editing Ultisnips snippets")
@@ -105304,14 +105360,14 @@
 (define-public emacs-vertico-prescient
   (package
    (name "emacs-vertico-prescient")
-   (version "20260628.19")
+   (version "20260628.2243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/prescient.el.git")
-           (commit "967087fa547474ab88b72ad543f547fc120129ed")))
-     (sha256 (base32 "1rafcyih7z182456mca27a55hcw5i9jhjnm4rhvkggvxc1sa8lx4"))))
+           (commit "5649977fa7789e4615efeca09397ed7eccd06dfc")))
+     (sha256 (base32 "199150yng81f6n3kb120s37yf2dqs0i9k91f2gzkk8kjn6hvrsj8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-prescient emacs-vertico emacs-compat))
    (arguments '(#:files ("vertico-prescient.el")))
@@ -106169,14 +106225,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260628.940")
+   (version "20260628.1217")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "976cd0394545dfce73479655ee4ba3b5fe931368")))
-     (sha256 (base32 "07akn454mycsj5fjzbrhnmzw8nvs4rhq8iknd2qrisbsnawxlrr7"))))
+           (commit "766da7c3b8d11e10ab875c57fd8cffd8f4db2192")))
+     (sha256 (base32 "1nbz8r1f5qwfsnvfd3wl0n2z1s7h8xz27fvdiz5dgwbchaskk3rg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -106205,14 +106261,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260627.1003")
+   (version "20260628.1900")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "43d253b84902a239f7e040d42235a5c322ce0a31")))
-     (sha256 (base32 "194p0ifjxccrrkb0s9h7b7bmzl6m4znwfxy55px3vfbs27252kdk"))))
+           (commit "b66c53ca0462adfc3e81909c01b5ca1be2cf5c67")))
+     (sha256 (base32 "1rwily02j2ph33ja86b5y4fh8pabdfhgabjvqqbg5f7sksrn06lh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -108022,7 +108078,7 @@
 (define-public emacs-wisp-mode
   (package
    (name "emacs-wisp-mode")
-   (version "20251108.2318")
+   (version "20260628.1332")
    (source
     (origin
      (method url-fetch)
@@ -108030,7 +108086,7 @@
            "https://melpa.org/packages/wisp-mode-"
            version
            ".tar"))
-     (sha256 (base32 "1ydma5hh5k9bg1fl1j8fmmxld37vbcbbcb5zdm4s15yckilnjm7a"))))
+     (sha256 (base32 "1v8nw2s2jydkvmrvn9n0icran75j6fzjdq3w51fkddzdzl49nysy"))))
    (build-system melpa-build-system)
    (home-page "http://www.draketo.de/english/wisp")
    (synopsis "Tools for wisp: the Whitespace-to-Lisp preprocessor")
@@ -110001,6 +110057,23 @@
    (home-page "https://github.com/SamuelVanie/youdotcom.el")
    (synopsis "You.com search package")
    (description "Documentation at https://melpa.org/#/youdotcom")
+   (license #f)))
+
+(define-public emacs-youtube-music
+  (package
+   (name "emacs-youtube-music")
+   (version "20260623.1324")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/cyberkm/emacs-youtube-music.git")
+           (commit "fcee7802eb8196f575450e3bf1c4f1ab4d5cdea4")))
+     (sha256 (base32 "0d5ysiv95wyk06gvjd74s1i319z9z0a6gvpkc0rxln08wxihq9k3"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/cyberkm/emacs-youtube-music")
+   (synopsis "YouTube Music client")
+   (description "Documentation at https://melpa.org/#/youtube-music")
    (license #f)))
 
 (define-public emacs-youtube-sub-extractor
