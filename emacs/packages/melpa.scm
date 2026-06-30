@@ -5669,14 +5669,14 @@
 (define-public emacs-balanced-windows
   (package
    (name "emacs-balanced-windows")
-   (version "20190903.1120")
+   (version "20260630.835")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/wbolster/emacs-balanced-windows.git")
-           (commit "1da5354ad8a9235d13928e2ee0863f3642ccdd13")))
-     (sha256 (base32 "1hsjg48jlfi6lc6izp9xcfqvxj7c0ivjrfsr2q3yv3s1iy2fz37l"))))
+           (commit "1a2c52770b228624dbaca12c5455dba11f153c65")))
+     (sha256 (base32 "1wf4v8x7i7xj21di1kq8i6varyb28azb9aplx2p0pm93wcxhd91d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/wbolster/emacs-balanced-windows")
    (synopsis "Keep windows balanced")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260629.923")
+   (version "20260630.538")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "598e11cb2f811a95b708df275f7eff9c12651f7e")))
-     (sha256 (base32 "176pqpwbsccbbqihgl5dl031cnk1nkqqy2xr01g6fc8v77y5inrw"))))
+           (commit "61abf9832d3838dc84c5fe3d6cb52da00f77e6b0")))
+     (sha256 (base32 "1rsmaq9g6k0dsp2dfr68vvch4q7r7y2s9hx89kh37ifd802bvsfy"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -15815,14 +15815,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260626.953")
+   (version "20260630.512")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "16664ca0b59c045c7209bdcd590fdc7831812dac")))
-     (sha256 (base32 "0vlqqr7w4dqhid5spsl7r9fj5app015gqv2ivpxp02gz28p9cjdy"))))
+           (commit "4a558d12ca73aef6731fe87099a5838a774fd341")))
+     (sha256 (base32 "1yyasndr8bi8agapax8lsg2l9pdvbkwf2lkqa6jb4a0wvm43ibj9"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -21169,14 +21169,14 @@
 (define-public emacs-direnv
   (package
    (name "emacs-direnv")
-   (version "20240314.715")
+   (version "20260630.839")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/wbolster/emacs-direnv.git")
-           (commit "c0bf3b81c7a97e2a0d06d05495e86848254fcc1f")))
-     (sha256 (base32 "1b68rz3y64afwbh5brxa9yzwmsjg1g8irgvbvdblazhciap397c3"))))
+           (commit "c1f38f71184f8aa3130898932f2de638beb5ed33")))
+     (sha256 (base32 "078g5x3xzsqh9j87qdxmp131fbwrazcj0hxr5c7rr2f25pih8lq4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/wbolster/emacs-direnv")
@@ -30309,14 +30309,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260626.1255")
+   (version "20260629.2340")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "92bfcc57dc85f254ce95dcb51dbdd2411fea5f02")))
-     (sha256 (base32 "1pik989dzzijmqkfqya8h188gk3n4jj5h5ikldzx046rfyrw7aw5"))))
+           (commit "48d5a219c931a7de969559070d78c1f6d1a71929")))
+     (sha256 (base32 "1wfnyrs69awdvpsahz7c43b2p84v4lrqd4b04nc0xm54l4kw0bp2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -43770,14 +43770,14 @@
 (define-public emacs-gvariant
   (package
    (name "emacs-gvariant")
-   (version "20210507.1310")
+   (version "20260630.840")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/wbolster/emacs-gvariant.git")
-           (commit "f2e87076845800cbaaeed67f175ad4e4a9c01e37")))
-     (sha256 (base32 "1m6gwplzps0hykzszh0vh4rs48hcfi99vxb4i870y46lq2y8x2xb"))))
+           (commit "b49a9c6623773be20e59eada9f8eab33210cc89b")))
+     (sha256 (base32 "127pnhnljdbw1l74zj7b4ncr6vzpi6rpqmn6ikn14g5jj1nh2813"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-parsec))
    (home-page "https://github.com/wbolster/emacs-gvariant")
@@ -46774,14 +46774,14 @@
 (define-public emacs-helm-projectile
   (package
    (name "emacs-helm-projectile")
-   (version "20250902.830")
+   (version "20260630.833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/helm-projectile.git")
-           (commit "0ffb6b5f09c1d65d721c1111ebfa6cec0ba63234")))
-     (sha256 (base32 "19zafd0l2mcd53q83bd2mxinadzsp90q5znfcm9fq0m88lpcmg94"))))
+           (commit "487862772daf82dd89fa229f97efc59ea5858406")))
+     (sha256 (base32 "0dzgixy5kc43w0aqvkpj2y0qkcmf7y0b78875blq12vf0404lcaq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm emacs-projectile))
    (home-page "https://github.com/bbatsov/helm-projectile")
@@ -49535,14 +49535,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260629.2127")
+   (version "20260630.503")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "a6b4f36369efeaef4dd1590d4680c4a45078de57")))
-     (sha256 (base32 "1klbgidbn1wx6hacq00ylnganq076y3sqpvikp8cxx1hhq3nd654"))))
+           (commit "68c9eba6123dc435dbe2c60b84b660e2e695e15c")))
+     (sha256 (base32 "187216gj4aqs9q7yjcygqwxwq9jkh4s12vp7cwgp5gf90p91c6n2"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -56394,14 +56394,14 @@
 (define-public emacs-kkp
   (package
    (name "emacs-kkp")
-   (version "20260629.1245")
+   (version "20260630.938")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/benotn/kkp.git")
-           (commit "57e1b98e3b7dce428c128cb4f1654ca99bf787d1")))
-     (sha256 (base32 "1h9vwvkch9spf6a88pjn9gplyjm949s45i8m2pwqd6ghi3s7xha7"))))
+           (commit "e239782faceea6c5aa617ca378042b428fb4eaad")))
+     (sha256 (base32 "0220ldm9kqd1xsfgmch23hpxhqr9l55z5g5bnkki4vbw7z20a246"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/benotn/kkp")
@@ -60369,14 +60369,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260616.510")
+   (version "20260630.419")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "2a6ab7cd41e31e4a74b1a6ea670ac4e4356f4be9")))
-     (sha256 (base32 "1sf9bicrsm59fw8jkcrvk91n4d7hk62kcjw89rmpl55gybz1b3v3"))))
+           (commit "6ed71f18eb2acf868c695a051cedfdcd101f6a31")))
+     (sha256 (base32 "0y5924vmkix8473rlgxpb495332087cba9c6bhs7swmlrsph5wpd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -61152,14 +61152,14 @@
 (define-public emacs-magik-mode
   (package
    (name "emacs-magik-mode")
-   (version "20260608.1331")
+   (version "20260630.540")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/roadrunner1776/magik.git")
-           (commit "ba05cca022a2cc27ee655acd1f25779b245ff380")))
-     (sha256 (base32 "19biw69a6zpdb930v8innsnddh2ikx9fl6g5a9mw0ayczqv5kx87"))))
+           (commit "00fb3c7bc1958066eee20aefb5c6204239c3a9e4")))
+     (sha256 (base32 "17msm5hamg466zssm5sj0hr3ifg7wgv1xcmrdj88990szdrz8si3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-yasnippet))
    (arguments '(#:files (:defaults "snippets")))
@@ -67541,14 +67541,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260624.440")
+   (version "20260630.506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "6acca5831d723105af361b742049cbf53d05bdf7")))
-     (sha256 (base32 "0alk1dsipnb3njc08crjqcw10ljnrgbb6ciiiysmfsml7bl67ywc"))))
+           (commit "1a7296c616075a7b090d662991fb9aa5ef718726")))
+     (sha256 (base32 "0hnvm1v2n0sm6d5fv51c2ab0jxncwrhrs2b96myj1pjjf13rx83l"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -72681,14 +72681,14 @@
 (define-public emacs-org-cite-overlay
   (package
    (name "emacs-org-cite-overlay")
-   (version "20260619.1531")
+   (version "20260630.558")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~swflint/org-cite-overlay")
-           (commit "ec716f4e84d0796f652f789e4108617df4d233de")))
-     (sha256 (base32 "1i9nvfwgzslyga9nakg90bf030vxhwc1y4fsrsg9xnxd67vwkfq7"))))
+           (commit "40dde06e57f4b7f5335e9d5e076e7c2a2dcc7861")))
+     (sha256 (base32 "05wa8apw2h4xgj5038gvfv9lvjad0db50y150a9s04frf08jy8ml"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-citeproc))
    (arguments '(#:files ("org-cite-overlay.el")))
@@ -80584,18 +80584,18 @@
 (define-public emacs-phony
   (package
    (name "emacs-phony")
-   (version "20260531.2312")
+   (version "20260630.1002")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ErikPrantare/phony.el.git")
-           (commit "1129dd32bb51cde770e62f56b7da50acd79790a4")))
-     (sha256 (base32 "1zz2yq0fxigcwhnapx97r7i5m4s1zy8bcg40dm2qxndcj17wlgni"))))
+           (commit "b155ee3686c732cfe02a4bcd5f3e07fdc39dca35")))
+     (sha256 (base32 "058lmswkvx22vlwk149hb3n8wmph9rp18n925ghy46w4qhvqd0s5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-simulacrum))
    (home-page "https://github.com/ErikPrantare/phony.el")
-   (synopsis "Speech bindings for Elisp")
+   (synopsis "Define voice commands")
    (description "Documentation at https://melpa.org/#/phony")
    (license #f)))
 
@@ -83696,14 +83696,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260629.1346")
+   (version "20260630.756")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "e8c266ddebd1200ead1aa3c5878d7ab0d2fdf8e7")))
-     (sha256 (base32 "1ca79bzqmh65kgk898r2763mcnfa7lqcqz8lb0w21hjf13hlgqnv"))))
+           (commit "b1d2a6cf59c2c14ee32bbe0e0a84104dc87a4138")))
+     (sha256 (base32 "0lm7ywn53l7j6qgvm596a1lhrd70z2idrfsgf4a47fnakijs8ijb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -85529,14 +85529,14 @@
 (define-public emacs-python-pytest
   (package
    (name "emacs-python-pytest")
-   (version "20260117.2218")
+   (version "20260630.859")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/wbolster/emacs-python-pytest.git")
-           (commit "78b5ea1d19c7e365ac00649d13c733954b11f822")))
-     (sha256 (base32 "1s7slp14lrb4iik847ybk6dsqvcb4r1b50hx3pv3hn63rvpwc5jq"))))
+           (commit "8c0e048a771f355903a8c2ce78fa0974a077214e")))
+     (sha256 (base32 "06k1509nnzrffmkzz5shikz2msk6g0bb89v56fxf9w9prpb0nna3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-s))
    (home-page "https://github.com/wbolster/emacs-python-pytest")
@@ -90390,14 +90390,14 @@
 (define-public emacs-sayid
   (package
    (name "emacs-sayid")
-   (version "20260629.1347")
+   (version "20260630.853")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/sayid.git")
-           (commit "999d139d39a43db34b43791a6b8da20cc42653f0")))
-     (sha256 (base32 "1rs7fayyp8mmazj31fwxwjs38v48f8vdga0rc6xn5kb96blk07f9"))))
+           (commit "54c1783f839010aec6abb42cc0a4f42cc37e0da5")))
+     (sha256 (base32 "0k9lqhwihbakr13sfyihknsy827n5dlcpjkdr6445bp2wiq46ali"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-cider))
    (arguments '(#:files ("src/el/*.el")))
@@ -91227,14 +91227,14 @@
 (define-public emacs-selected-window-accent-mode
   (package
    (name "emacs-selected-window-accent-mode")
-   (version "20260326.837")
+   (version "20260630.801")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/selected-window-accent-mode.git")
-           (commit "8285c74083381384524c45b16ecdc2d6939f34fe")))
-     (sha256 (base32 "05z87fg3p62ywq9nkplqc7kp95r66pfs826hwmin5il50k5h58dn"))))
+           (commit "57dfb3b4c65943f542eca322644cfa4d0731366c")))
+     (sha256 (base32 "0b2r09jkpvcsj01cdw1cwajhlfvavbqk11fnsxcph2bbkin0a7yv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/selected-window-accent-mode")
    (synopsis "Accent Selected Window")
@@ -93206,14 +93206,14 @@
 (define-public emacs-simply-annotate
   (package
    (name "emacs-simply-annotate")
-   (version "20260629.1441")
+   (version "20260630.653")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/simply-annotate.git")
-           (commit "75fdeec72dc7baa46c5bf2c0ad734bd94515353e")))
-     (sha256 (base32 "1r87ja12yd3xpdnpbl057cay5wfyzfy2lkd9h922g6bfg7mbpppl"))))
+           (commit "330c6b4014dcb42526b7a76affed345b1aba8b89")))
+     (sha256 (base32 "0xa82hl582plg47ash7ivs05l4yfhbnyax8d1k9640lr7a4nfvss"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/simply-annotate")
    (synopsis "Enhanced annotation system with threading")
@@ -106261,14 +106261,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260629.1557")
+   (version "20260630.745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "716714562e08ead41935b109459f7a3a133663bb")))
-     (sha256 (base32 "06sicz5aigy4xfg7k22xkqgj124np5cx6dm0984ff5lknzp349ix"))))
+           (commit "a38c40ca930674f1de880b498a406987c3e5e4f2")))
+     (sha256 (base32 "1rsk1asqyvzjzypahlpbpcvrdpfprzf2v12p6rd97j7bg5h81xhg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -106297,14 +106297,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260629.1527")
+   (version "20260630.1014")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "7ed108d3ab565f57b12785e34a58a9badffccacc")))
-     (sha256 (base32 "1csly0gxy8zjvjj947rq1qfhjk4jmkww4xh7lrh2gx388xvrsnq0"))))
+           (commit "ad1f784b173a7422ba8e8e383ae7b0870fa0be78")))
+     (sha256 (base32 "12kzwpllxb68cklajgq7vzjnnnnf6c1hp9q3908zl6lm9fq1ygg2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
