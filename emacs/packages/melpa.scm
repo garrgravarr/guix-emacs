@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260629.1109")
+   (version "20260630.1647")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "7dfc627390d52188047701a54b191842681d1ba9")))
-     (sha256 (base32 "0s206zmq6xb6sxw839nn8w5bx98a71k9rf22v78h2yxdqf72svad"))))
+           (commit "a2915b89b3f82f635e7ef910560b7e33a8cf5784")))
+     (sha256 (base32 "1k2404ijg9kzqpndm01hi2hnsap4yv1a1wd6aciyx555day3nsas"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -22572,14 +22572,14 @@
 (define-public emacs-dracula-theme
   (package
    (name "emacs-dracula-theme")
-   (version "20260224.1455")
+   (version "20260629.2101")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dracula/emacs.git")
-           (commit "b1a4d87ba1cf880143f4ab2ccd942cf556887fb1")))
-     (sha256 (base32 "10yy3abny8iv74pxw2m94gnnszylpsqsf85lp7rla7lslmykhqys"))))
+           (commit "fa562443129993e3408ea300595b230874da33db")))
+     (sha256 (base32 "1ba0sz2a4lwh67kmbbsgmglb1dkpp9017p50xsp1iaba39nv17w6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dracula/emacs")
    (synopsis "Dracula Theme")
@@ -23843,14 +23843,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260629.1508")
+   (version "20260630.1402")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "399c8601511242f2963386d4ebf314076c4576b1")))
-     (sha256 (base32 "01ffpayg8ahqmhvwkmpi4478kgv4glpfd203l5qx7x6ddvc76qj3"))))
+           (commit "de940cc5203b79f1bd9c8581fa91b5fdfafdc86f")))
+     (sha256 (base32 "1vxrv3jc0rk3psj4gz46cqiykn3nvzmda433hflqazq5b0h64h86"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -26083,14 +26083,14 @@
 (define-public emacs-elisp-dev-mcp
   (package
    (name "emacs-elisp-dev-mcp")
-   (version "20260602.1123")
+   (version "20260630.1120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/elisp-dev-mcp.git")
-           (commit "6120460212e03daf2f9502c3a5cebab958faa419")))
-     (sha256 (base32 "02lcr7diwbrj3ij6c8wxvymr3mf9hf1bv385wyc4r3cfakjcw4gj"))))
+           (commit "d70a8f38ededefb7e3d11f3e2b519bf754a54d1a")))
+     (sha256 (base32 "0km6yzp3274aqv394zsafgy2vj8ljh61na53x56svaxxq46v0dzc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/elisp-dev-mcp")
@@ -30309,14 +30309,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260629.2340")
+   (version "20260630.1515")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "48d5a219c931a7de969559070d78c1f6d1a71929")))
-     (sha256 (base32 "1wfnyrs69awdvpsahz7c43b2p84v4lrqd4b04nc0xm54l4kw0bp2"))))
+           (commit "41ce0f6150caec5e1a68baa368b73cd59b55ba83")))
+     (sha256 (base32 "0gfygqkn1w5vcqq9cgxp8ddl6q8kf1mbc9jwyhbrkajpdallwxm8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -49535,14 +49535,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260630.503")
+   (version "20260630.1148")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "68c9eba6123dc435dbe2c60b84b660e2e695e15c")))
-     (sha256 (base32 "187216gj4aqs9q7yjcygqwxwq9jkh4s12vp7cwgp5gf90p91c6n2"))))
+           (commit "c7dacd5545e7be1f250ad20cc754185d99f1a1cf")))
+     (sha256 (base32 "027anf30m3harljpq1h3cf7p768ji79k2hpk2wnix8kn84cpwrrx"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -61171,14 +61171,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260629.1647")
+   (version "20260630.1039")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "072763df25718cc2b34173af7f81ff20fa8a1e51")))
-     (sha256 (base32 "0dm67azbdss50l7dlvqw7qx2zi0y8fdkrsaampxbacbkxb1gwjml"))))
+           (commit "55bbdde3fec0fcd486cc42a48c634e91b571ef45")))
+     (sha256 (base32 "1lp33b9ma5xz4dbbz7bznpwdp5qkj81bdwgpfhdab7w5jqnl195g"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63054,14 +63054,14 @@
 (define-public emacs-mcp-server-lib
   (package
    (name "emacs-mcp-server-lib")
-   (version "20260613.600")
+   (version "20260630.1141")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/mcp-server-lib.el.git")
-           (commit "0434236cdc72cb883bab66a9dddd05419d78a723")))
-     (sha256 (base32 "1w2jic9vszf60gssm2mry4yap7clrdg8ybma97wlgb0m73wpmagn"))))
+           (commit "dec55e6405987250256a81efe92d65bdfa8a140c")))
+     (sha256 (base32 "1hw6wj62nwvjap3yjqjm7ybkwpnh7xi2q21rg2hi36cnzarb59yd"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "emacs-mcp-stdio.sh")))
    (home-page "https://github.com/laurynas-biveinis/mcp-server-lib.el")
@@ -68415,14 +68415,14 @@
 (define-public emacs-nnhackernews
   (package
    (name "emacs-nnhackernews")
-   (version "20230705.1359")
+   (version "20260630.1255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dickmao/nnhackernews.git")
-           (commit "4c13d261bf660901d5ff63a7ee170097ebe464ed")))
-     (sha256 (base32 "08z81m25lh1basmq5w8w1sg284dfck3nzlcnv1cbj4fr2qqncvyn"))))
+           (commit "0cb7ff0a86c9c5b08786b6dc0591adcb25fbe3b3")))
+     (sha256 (base32 "0hcvas8h5mfs7g80in9yvahvb8s18frfy6glv27f3czjaf9s1crz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request emacs-dash emacs-anaphora))
    (home-page "https://github.com/dickmao/nnhackernews")
@@ -73972,14 +73972,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260629.848")
+   (version "20260630.1125")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "9b0ccf27bc20ffc79bf2ec2ad0e2c080c0151769")))
-     (sha256 (base32 "1rdr0k5afqhvqg49h0l646a47k6sirvfxfp1ir0dzhs27plvhmra"))))
+           (commit "f99b31c98c929ccb8babb256681baed0bbcdd3dc")))
+     (sha256 (base32 "1ym6nfkzcd9z7lxsrr29q2jdkm6s2gihky7fgjjmy87hvlpf2a57"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -74041,14 +74041,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260628.1737")
+   (version "20260630.1125")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "29a9eefe758650925d14d527c74da92d2a809aae")))
-     (sha256 (base32 "1k1szvync41r6x61g6fwzgml9jqzxhp3dp4w8bz8mqjdwvhax71x"))))
+           (commit "86443dab4e35f60e1762b5427c17a813bda50ba4")))
+     (sha256 (base32 "0vjd2l979sgnw2cdqbn4p10nzxanqg919pd3lc961hfvdxp68sz3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -106261,14 +106261,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260630.745")
+   (version "20260630.1128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "a38c40ca930674f1de880b498a406987c3e5e4f2")))
-     (sha256 (base32 "1rsk1asqyvzjzypahlpbpcvrdpfprzf2v12p6rd97j7bg5h81xhg"))))
+           (commit "2ac15fabc0616f5057db5ecf294023177557146e")))
+     (sha256 (base32 "1y03s622kwjc5gl3sla8054yl5lyvwm4n9rrnjabcwyyc2n4v7l8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -106297,14 +106297,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260630.1014")
+   (version "20260630.1229")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "ad1f784b173a7422ba8e8e383ae7b0870fa0be78")))
-     (sha256 (base32 "12kzwpllxb68cklajgq7vzjnnnnf6c1hp9q3908zl6lm9fq1ygg2"))))
+           (commit "96e0bb8e8f467d26c44f58033cfb615d2144e28c")))
+     (sha256 (base32 "09fz41727n2rh82brdckm72bns46kc2j5z1ivm964l1m3lb47ji8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
