@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260630.1647")
+   (version "20260701.826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "a2915b89b3f82f635e7ef910560b7e33a8cf5784")))
-     (sha256 (base32 "1k2404ijg9kzqpndm01hi2hnsap4yv1a1wd6aciyx555day3nsas"))))
+           (commit "1a2e0d8af6931951df0f665052c6be3bc23ff556")))
+     (sha256 (base32 "0li36xyiibx1malzqb3knrz2ixycbv8vz14g4ynmvvkn4zshg86j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260630.538")
+   (version "20260701.856")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "61abf9832d3838dc84c5fe3d6cb52da00f77e6b0")))
-     (sha256 (base32 "1rsmaq9g6k0dsp2dfr68vvch4q7r7y2s9hx89kh37ifd802bvsfy"))))
+           (commit "660aee2bda4a4d3d006c0fb19be96452b4200d8f")))
+     (sha256 (base32 "0rdly47fkj8i8dn5g7xfxg0ayz2a5fxixs2mvqdwlkwfp4swx3yb"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -21935,14 +21935,14 @@
 (define-public emacs-docker
   (package
    (name "emacs-docker")
-   (version "20260629.1532")
+   (version "20260701.833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Silex/docker.el.git")
-           (commit "09132b633ace9928a4838f743dd3bf5aa9829e1a")))
-     (sha256 (base32 "0dz2p7x8s5chz4lsfw6i9p103mj9w4adg5n1g5c4n6xkgb8s7sf9"))))
+           (commit "0ae5052ed7df228fdd35735e774bdff97d180e5c")))
+     (sha256 (base32 "0c343f8hala5sv7brxci0z2lriir3cfkpzrwz557f82d44njq3s0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-aio emacs-dash emacs-s emacs-tablist))
    (home-page "https://github.com/Silex/docker.el")
@@ -39792,14 +39792,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260630.2146")
+   (version "20260630.2222")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "4ceef34b6c4f659c612bd11fb885c05cfe42a881")))
-     (sha256 (base32 "0kif6cplpnh26fg0dd1sqj04ry0ygiq6l1pjmrn3hlfldsd5m9nw"))))
+           (commit "0f0a9bddb150c431a32742efca4b19a51a59b042")))
+     (sha256 (base32 "1ywvnh7phbx7pd6a3qslgdy9bi7zqk54cvnn9z5bpplb278l8ay3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -57055,14 +57055,14 @@
 (define-public emacs-lambdapi-mode
   (package
    (name "emacs-lambdapi-mode")
-   (version "20260626.1213")
+   (version "20260701.916")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Deducteam/lambdapi.git")
-           (commit "15550d2cb0a684d0a7a03bb0519aa877e1565c72")))
-     (sha256 (base32 "1hcdn4pswr7ic8rglxhipqnq0p8yym717vh37bsdrki2kp4wk0bv"))))
+           (commit "d4fcaa80d2ac820be9928e4c75a6a0ad723d2c30")))
+     (sha256 (base32 "1363z64si20xa3y86vpm7dnngyyq8s388zkzc4v5cllkkicz8bav"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-math-symbol-lists emacs-highlight))
    (arguments
@@ -66551,14 +66551,14 @@
 (define-public emacs-musicbrainz-interactive
   (package
    (name "emacs-musicbrainz-interactive")
-   (version "20260623.1527")
+   (version "20260701.850")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zzkt/metabrainz.git")
-           (commit "bdb68a7034039c78acc62aa753401f84e1bd0217")))
-     (sha256 (base32 "02yqnfyas78a954b2hax7xhdv04n1kiilwkcc670sldgf2v0fcsw"))))
+           (commit "13b03ebd6fc6deb6f5d8655cd4ca09fe2680be16")))
+     (sha256 (base32 "1fsd166wf714kav3g1nsvd0x5r2x237wp35mx1kajpwa2jncba2c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-musicbrainz))
    (arguments '(#:files ("musicbrainz-interactive.el")))
@@ -83696,14 +83696,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260630.2027")
+   (version "20260701.916")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "2099756c6f72c42988d8e444d43402725d134cc8")))
-     (sha256 (base32 "14v3fvs6zy3dzzr3axv91ismmh8af2n0zg1ig0nsvipbhs601l1m"))))
+           (commit "090df7670fc3c8f002bc62a357b56a455b177cd0")))
+     (sha256 (base32 "0j8ih7kq7sgjxpzsivimmqmlrbhiyx4b1db5c97kr6v108b68r15"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -90390,14 +90390,14 @@
 (define-public emacs-sayid
   (package
    (name "emacs-sayid")
-   (version "20260630.2050")
+   (version "20260701.850")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/sayid.git")
-           (commit "f3644fc5bde655fe015b853bed7e7629232a3654")))
-     (sha256 (base32 "0dyrp5i2i4qpr2x2mcf7majqaaffb1kddgj2b1d59z7ia4wb44vx"))))
+           (commit "929c431d4157eea0540c47a53b349565cf7aaf11")))
+     (sha256 (base32 "0k3sy9rd9zfwk34xzjkcw79vdbq44blcccy9f2k0rxzrf1znzffv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-cider))
    (arguments '(#:files ("src/el/*.el")))
@@ -96381,14 +96381,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260623.2303")
+   (version "20260701.522")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "cf83bdcfabfb06e0171f5f7a83d56d5fea72fd84")))
-     (sha256 (base32 "0l9gk0i1p3cbrc6hi0w8cl9r5831qnqvr382ldqiyp8b7mdj3jv2"))))
+           (commit "134700bc05be6369bf3dff44e10be894be80a654")))
+     (sha256 (base32 "0ag1zvb9klhpq7a7681xj2mvxczpsj632avrwrnv7yjgvi5qqg9b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -104548,7 +104548,7 @@
 (define-public emacs-uwu-theme
   (package
    (name "emacs-uwu-theme")
-   (version "20260701.256")
+   (version "20260701.318")
    (source
     (origin
      (method git-fetch)
@@ -106225,14 +106225,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260630.2041")
+   (version "20260701.1039")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "d2fd1206733931dc7b9f9d92b24486e58b135ddc")))
-     (sha256 (base32 "0l9isdlq6bcv15gpwn4x6vm387jrnv521vm0wcgdnm8adibmyljw"))))
+           (commit "e965148970cd8bc711d05c0dbbf9ea3695f21629")))
+     (sha256 (base32 "1r7ja61ipbl57bj2wanddcs9was0g7cllbc3cyjiad3xshj7i1l1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -106261,14 +106261,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260630.1825")
+   (version "20260701.520")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "65572ce76d6ed3ed1a8d853b165688626930a373")))
-     (sha256 (base32 "0ymknjvgilkh3ks61dyhjkly4r8qdc6ycpiv12wg5m1qspd69sz9"))))
+           (commit "e0a91c2dde663463b4724b52e5fcd2c9adf3a2c3")))
+     (sha256 (base32 "13p185jn782fi5q8hbr9lhhd94vi8dpd17d2hbdnrcrr6ahp3rvv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -106279,14 +106279,14 @@
 (define-public emacs-vulpea-journal
   (package
    (name "emacs-vulpea-journal")
-   (version "20260630.2054")
+   (version "20260701.945")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-journal.git")
-           (commit "c3217b822ce859ba473475b3ed89f17f3134747b")))
-     (sha256 (base32 "03pz1ghxyv3j2n2z6yswlqpsryqn7fgkz2rr7l93yb47q9q9di33"))))
+           (commit "6a306430b2a46a243d987c8affa8e122226f3fd6")))
+     (sha256 (base32 "1k5xbbrj792vpslpna3138gv936cwd5z35n4dlbjh3bgyj0lkfhp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vulpea-ui emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea-journal")
