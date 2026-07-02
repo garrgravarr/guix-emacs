@@ -12219,14 +12219,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260702.341")
+   (version "20260702.633")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "fdba17864cea6d075e421422f657e795d3917413")))
-     (sha256 (base32 "0bfr3qvrgaw9yqh2swiqdwf275zwzqph1rvj3pmwxr2ryq4fbh84"))))
+           (commit "7961a8b7da8108b76b62033d7cda7b731d4fc3a3")))
+     (sha256 (base32 "1zams38a9j4vqvx86yysd3dzk12qdx84qn60dcf8r256xgc00ir9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -30305,14 +30305,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260701.2140")
+   (version "20260702.634")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "679b113a4890c67fc6df06df38908af3773ba451")))
-     (sha256 (base32 "112pii1bdsam3vbx77701a3qc9zbc9lmcqkgphjwnplzsmqrd8yq"))))
+           (commit "45c14b2615414740808a1759c88a08ce0c92d2cb")))
+     (sha256 (base32 "0j8vxwgnpzycvp8s33nwwj0vfshn95ygssbqcg7dkrdx2rdr28j4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39788,14 +39788,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260701.2203")
+   (version "20260702.652")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "679b113a4890c67fc6df06df38908af3773ba451")))
-     (sha256 (base32 "112pii1bdsam3vbx77701a3qc9zbc9lmcqkgphjwnplzsmqrd8yq"))))
+           (commit "45c14b2615414740808a1759c88a08ce0c92d2cb")))
+     (sha256 (base32 "0j8vxwgnpzycvp8s33nwwj0vfshn95ygssbqcg7dkrdx2rdr28j4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -60365,14 +60365,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260630.419")
+   (version "20260702.527")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "6ed71f18eb2acf868c695a051cedfdcd101f6a31")))
-     (sha256 (base32 "0y5924vmkix8473rlgxpb495332087cba9c6bhs7swmlrsph5wpd"))))
+           (commit "90bc0430f670c4da44e31c4fad1d2fb4a71dc909")))
+     (sha256 (base32 "10kgyrishlxqy87qj11dw1p53g1pfyylvy36286h36p3zq282ahi"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -63211,14 +63211,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260701.2349")
+   (version "20260702.414")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "394d82fb5091103df22c9de1030a431c05344e06")))
-     (sha256 (base32 "123ynwi71n8khykbfcnvdf43i6y44scamv644l07iv4l863hlcw1"))))
+           (commit "f64f8431fcbbdfac4242eb4055b9d0c783e20a62")))
+     (sha256 (base32 "0sdadfa2hzkypsqn45dc21am90hz48ficdrarnfymdkq23kkjjqq"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -100345,14 +100345,14 @@
 (define-public emacs-tidal
   (package
    (name "emacs-tidal")
-   (version "20260607.1559")
+   (version "20260702.630")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/uzu/tidal.git")
-           (commit "864b8cc18efc2e999e65e676a5ec1670dbd186e9")))
-     (sha256 (base32 "1jflb3jqq6jafnvdj810zi37iznihf38i29y2br3pxjfwwv5265s"))))
+           (commit "5ae655255d87c983a596f398a0385b21df97df3b")))
+     (sha256 (base32 "0c51zyqbyly8h7zwxnxc9sbfx3md170y0ckpvrsmycq0kwgs0mm0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-haskell-mode))
    (home-page "https://codeberg.org/uzu/tidal")
@@ -106221,14 +106221,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260701.1903")
+   (version "20260702.828")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "f16a7987f69ae934c5b1d7aab1965013ab3ac80a")))
-     (sha256 (base32 "07g4a7sd2ksckcrq1kj6sgdnwdjp05z7axbfpvybc383k227hvbj"))))
+           (commit "5199c1b32cbfbf95c15648d9177d7cc73b826c5c")))
+     (sha256 (base32 "0273l3xmgiwblbmlbs3h7mks42a01dz1nchrprgl5hmakg469h2z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -106257,14 +106257,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260701.520")
+   (version "20260702.816")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "e0a91c2dde663463b4724b52e5fcd2c9adf3a2c3")))
-     (sha256 (base32 "13p185jn782fi5q8hbr9lhhd94vi8dpd17d2hbdnrcrr6ahp3rvv"))))
+           (commit "e34731af0f8ad53c5db49f1070e42a2bd2a9abbb")))
+     (sha256 (base32 "1ads2n09zchvrd9n7sr59ri5d65j55kjh8qf8cmv77nzszdxk5x2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -106293,14 +106293,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260630.1229")
+   (version "20260702.339")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "96e0bb8e8f467d26c44f58033cfb615d2144e28c")))
-     (sha256 (base32 "09fz41727n2rh82brdckm72bns46kc2j5z1ivm964l1m3lb47ji8"))))
+           (commit "5db5148108c56ec88a904e07760b67e78f0528e2")))
+     (sha256 (base32 "16dpfvj5ialpw5p5j5cawd2ajnvxj8s90lggyxq3mk8b2jmfvp1g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
@@ -109631,14 +109631,14 @@
 (define-public emacs-yara-mode
   (package
    (name "emacs-yara-mode")
-   (version "20260624.302")
+   (version "20260702.151")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/binjo/yara-mode.git")
-           (commit "dc6eb93198c081c579300521d25199625e375530")))
-     (sha256 (base32 "0j41lxn6krfffc6gv9a00rj2g20y4hhnslwp46gfm33vn52kcza7"))))
+           (commit "2b097f685e2770d2c16e5f59e1434a8dcc38db86")))
+     (sha256 (base32 "1l1v1nnl93gmj1gg5h254v1v0c417pywblifqyggkjn66jppwgwf"))))
    (build-system melpa-build-system)
    (home-page "not distributed yet")
    (synopsis "Major mode for editing yara rule file")
