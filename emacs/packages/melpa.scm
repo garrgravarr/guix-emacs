@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260702.1606")
+   (version "20260702.2216")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "03a9dd44fba2895cd871dc7108b725de66da84a2")))
-     (sha256 (base32 "11lz2ziiqk8mjmma5agyj4v4c7apsy8ndvbl1bsm53nhpxsvsh6c"))))
+           (commit "a894020ddce9c0fc7db81555a8ba7cf0fb124449")))
+     (sha256 (base32 "1xxmd5dx5swaddpppwsdcv0x6ip0lxfbikd91lds87c5yi684dvv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -25843,14 +25843,14 @@
 (define-public emacs-elfeed-tube
   (package
    (name "emacs-elfeed-tube")
-   (version "20260522.916")
+   (version "20260702.1928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/elfeed-tube.git")
-           (commit "ae763194ad36942ccdbd9d59a40926a33bffd89b")))
-     (sha256 (base32 "1s5df4z559jb805nb6b23hdhs0a72bqlyr12wvmn7858zn9p09bx"))))
+           (commit "f653d5b7f27a2eace217d9e6b4f40e0e35ae88cd")))
+     (sha256 (base32 "1lll43d8bd4j36ckvyrsc7fdbcxs6j8p21nk49rlngkczk12pfxy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-elfeed emacs-aio))
    (arguments '(#:files (:defaults (:exclude "elfeed-tube-mpv.el"))))
@@ -39788,14 +39788,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260702.1307")
+   (version "20260702.2226")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "12f9ea153a005ebfe9f08fc04c266fb4c37c1099")))
-     (sha256 (base32 "0nw3yp9ly25hak4v71432zhlk5fkby80fckgs85v430ymrhw6jkm"))))
+           (commit "109ed0d1c88d36dcd415381148164bafd70ee97b")))
+     (sha256 (base32 "01h8dcssh8ixflka86idl982a6nc5vpxdgq56niiyd10mak9mkgf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -56390,14 +56390,14 @@
 (define-public emacs-kkp
   (package
    (name "emacs-kkp")
-   (version "20260702.1633")
+   (version "20260702.1833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/benotn/kkp.git")
-           (commit "fed406cf540a900d26e31f9c29b684d1a7b0ff8b")))
-     (sha256 (base32 "1x7nx57vlaq6dm1a0bpz90w6sa26831zxzx0hkk45s8cc3kgdz25"))))
+           (commit "152cbf81ff72d22478b120e5fce455935a8f3fef")))
+     (sha256 (base32 "1ax0cykb6msjq35022j158hin587ivzrqmz2p0h1s15b2pymmzd8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/benotn/kkp")
