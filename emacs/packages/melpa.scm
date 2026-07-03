@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260703.557")
+   (version "20260703.1529")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "3f8fa30582af5706bdbaf99d0963805e451f9a8e")))
-     (sha256 (base32 "09v5f787z0kdsxk12a28l21kkkn43pk14qbdfyimffa93dcb03wc"))))
+           (commit "cd2e6a663eae2d4fe1c8628d090104b5c2148876")))
+     (sha256 (base32 "0saaxk38zm7c8zxk6y5jz8mf36d5hmb4bahcfln20ykw3h2gh3rl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260703.713")
+   (version "20260703.1530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "7c74030b68b64cbe15b5db88679a8aa1c54770da")))
-     (sha256 (base32 "07dv3a167a55fzc9d7cacsgaqb8zsqwbwvgcihiln9a3ssy3wa93"))))
+           (commit "937b5af60e875107e0bbb9c6b8c8573d6098b60d")))
+     (sha256 (base32 "1mwn0wdwwbm7pb6pdj0nvg2az33pghfw9h2f1bjf8lhjbj88cf6n"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -12219,14 +12219,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260702.930")
+   (version "20260703.959")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "7961a8b7da8108b76b62033d7cda7b731d4fc3a3")))
-     (sha256 (base32 "1zams38a9j4vqvx86yysd3dzk12qdx84qn60dcf8r256xgc00ir9"))))
+           (commit "8bb537e4599a33ff448370589a3d7f8727156761")))
+     (sha256 (base32 "1na1p8hd08ryykvabp6l0skbdkikwf79fd34l2kc9vi24bs75glk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -30305,14 +30305,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260702.634")
+   (version "20260703.1628")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "45c14b2615414740808a1759c88a08ce0c92d2cb")))
-     (sha256 (base32 "0j8vxwgnpzycvp8s33nwwj0vfshn95ygssbqcg7dkrdx2rdr28j4"))))
+           (commit "b8a302bcf48424d5f5965ab84fbbd958616f30db")))
+     (sha256 (base32 "0qymfjfm8hx926d54lc0ff4wiirn8dw983d34dnjl7s8wkyjbcyk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -36103,14 +36103,14 @@
 (define-public emacs-flymake-ansible-lint
   (package
    (name "emacs-flymake-ansible-lint")
-   (version "20260602.1355")
+   (version "20260703.1441")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/flymake-ansible-lint.el.git")
-           (commit "8e300cc49b234a03aca90f497a69de2de8deab96")))
-     (sha256 (base32 "1i0isj0ra6g330cq676lflfqks198lz589rrf0s2nnj3mvnwsvzd"))))
+           (commit "bfb8148d9a1aece141d18eef484e7c0c8db79855")))
+     (sha256 (base32 "1dk84j778r38lk40d9ic2ihp5pbq7z2gplzjlj18s9f0nmj241d8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/flymake-ansible-lint.el")
    (synopsis "A Flymake backend for ansible-lint")
@@ -39788,14 +39788,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260702.2226")
+   (version "20260703.1628")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "109ed0d1c88d36dcd415381148164bafd70ee97b")))
-     (sha256 (base32 "01h8dcssh8ixflka86idl982a6nc5vpxdgq56niiyd10mak9mkgf"))))
+           (commit "b8a302bcf48424d5f5965ab84fbbd958616f30db")))
+     (sha256 (base32 "0qymfjfm8hx926d54lc0ff4wiirn8dw983d34dnjl7s8wkyjbcyk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -42650,7 +42650,7 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260703.611")
+   (version "20260703.857")
    (source
     (origin
      (method git-fetch)
@@ -64600,14 +64600,14 @@
 (define-public emacs-mlscroll
   (package
    (name "emacs-mlscroll")
-   (version "20250112.1440")
+   (version "20260703.1544")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jdtsmith/mlscroll.git")
-           (commit "f9c18f1ae01d067c83f7c44e77257962345b119b")))
-     (sha256 (base32 "0z0n756iwy10zyx734cdr3k42h72m28k3b5fchdrxd8p1mwiid7x"))))
+           (commit "ff698fbbfc3b7c5775944bdff2da0acfb697d162")))
+     (sha256 (base32 "197k737a3dxfjakj4lzf09sasjd46nq7dk5c78bbjlzbjdpg3r53"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jdtsmith/mlscroll")
    (synopsis "A scroll bar for the modeline")
@@ -83692,14 +83692,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260701.1857")
+   (version "20260703.1338")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "98cf6b6dbb1fcca6ac386dd75a2656db5ca97ac5")))
-     (sha256 (base32 "1kcxw5b2yf1rjx5y9inq8xwb4i7n3sc7301hg8bsdz31dpsr0xv5"))))
+           (commit "321aa639472097ec3fc878556e4a1c8110b236b3")))
+     (sha256 (base32 "0qy8a93m2k2dl7jc9ihgbpsq1kpf773nzcgzfg1jfg8xwyl6fwz6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -92259,14 +92259,14 @@
 (define-public emacs-shexc-ts-mode
   (package
    (name "emacs-shexc-ts-mode")
-   (version "20260622.2327")
+   (version "20260703.928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ericprud/shexc-mode-for-emacs.git")
-           (commit "06cf27aedda3fdeb44d20b78d081a3f5d696dca6")))
-     (sha256 (base32 "0kfn89sr2pv4b2c9vms5vzrp1h47afv0ndk5p5rrgv80wmfzd5fz"))))
+           (commit "74204f28991ed1d37e08ef74fbba2df7351508f6")))
+     (sha256 (base32 "1i74cwgdibfwl141hx5bd6cg8n46av0sqg6z0k1knf7z19jc0rfk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults (:exclude "shexc-mode.el"))))
@@ -93564,14 +93564,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260612.2309")
+   (version "20260703.1346")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "b38be925a128dc3d6524121692988cb900fbcbf8")))
-     (sha256 (base32 "12szc413pam474b8irr67ylw5cf08yf602jqbf0v8w6vd3w1bc9f"))))
+           (commit "883b19c77ca42f827b5e4631c5428e244c2e063c")))
+     (sha256 (base32 "0x3gi43s8c4j7z521fnjv2150s9azg37gcj22zx2zyfk21wnp6rc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -98080,14 +98080,14 @@
 (define-public emacs-symbol-overlay
   (package
    (name "emacs-symbol-overlay")
-   (version "20260423.1454")
+   (version "20260703.1437")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/wolray/symbol-overlay.git")
-           (commit "253b957f5082603708b469d02ae8c31c58292823")))
-     (sha256 (base32 "18w7qa959na5c9rvjarrnmb3l63pdfrfv865i3nb6lx7ap6iw2jc"))))
+           (commit "85d100b0cca35b70cee1b260e09af8e1fb2fcc08")))
+     (sha256 (base32 "1d26wzd3bla1sqwsly1ldlzxp24z3nrr6zf8rfzxip90b6wpk3yv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/wolray/symbol-overlay/")
    (synopsis "Highlight symbols with keymap-enabled overlays")
@@ -106293,14 +106293,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260702.1637")
+   (version "20260703.1116")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "54e4478cc1a0ee7036d11f91f4e378bcc57fa314")))
-     (sha256 (base32 "1jvw7gryb4l6x0ljb03d4fvkh15j71pxjigb1g9sl5ygqlw6j8sj"))))
+           (commit "8e3a9e31178c96a8d7d558d4facde5383baa7dd3")))
+     (sha256 (base32 "12anskvndk64sgryyys693yy89ys20cz1szm416z24qms4f3vxfl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
@@ -110058,14 +110058,14 @@
 (define-public emacs-youtube-music
   (package
    (name "emacs-youtube-music")
-   (version "20260623.1324")
+   (version "20260703.1059")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cyberkm/emacs-youtube-music.git")
-           (commit "fcee7802eb8196f575450e3bf1c4f1ab4d5cdea4")))
-     (sha256 (base32 "0d5ysiv95wyk06gvjd74s1i319z9z0a6gvpkc0rxln08wxihq9k3"))))
+           (commit "fe58339e78761712ddbbb70914ec981c94f2ef02")))
+     (sha256 (base32 "0rp135mj3l85bdikww1fz4vznkq1j5qmj92gl4flmzcvxa8s0szq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/cyberkm/emacs-youtube-music")
    (synopsis "YouTube Music client")
