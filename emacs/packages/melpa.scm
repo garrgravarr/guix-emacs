@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260703.2035")
+   (version "20260704.1146")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "8e6ad47cf71ce72216ffdc4235076d8846c4197f")))
-     (sha256 (base32 "1gnja75pvq0i11cjpz0ygrhipw89kb328q6wvl0sv69d6rd1hv37"))))
+           (commit "8d97dd46046d7aa639742efde75dcbb719ed3b38")))
+     (sha256 (base32 "0mwj4aqqhg5v0ccax8rs228523kkscc5nskh7g1g89zdx4vafp2l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -6991,14 +6991,14 @@
 (define-public emacs-bitbake
   (package
    (name "emacs-bitbake")
-   (version "20260620.217")
+   (version "20260704.1407")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/danielcmccarthy/bitbake-el.git")
-           (commit "683f6e9fa1d15447eeef0415b88bd116180463d3")))
-     (sha256 (base32 "0dpjsknphrwjc6hqrdfgdv18nz7dcbx6vksiibdc0jmxr0bzk558"))))
+           (commit "ed95082058b0c4c580791f6dd8eca0fe8b73407a")))
+     (sha256 (base32 "0yxi0lrmyq4d3fpn2wnnrsps71z58r3ixz736v5g72yl66r3nffq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-mmm-mode emacs-s))
    (home-page "https://github.com/canatella/bitbake-el")
@@ -12219,14 +12219,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260703.959")
+   (version "20260704.1037")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "8bb537e4599a33ff448370589a3d7f8727156761")))
-     (sha256 (base32 "1na1p8hd08ryykvabp6l0skbdkikwf79fd34l2kc9vi24bs75glk"))))
+           (commit "8c628bc470901e0936c3816eec280213d75a9a4d")))
+     (sha256 (base32 "0p667nk7nj43ndw73hrjb8pc6wl3fyhv0v70m3fwxivybwfw161h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -15811,14 +15811,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260703.2052")
+   (version "20260704.1422")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "31b882bd27844ef10ab2f8d55282009cfa6bfe36")))
-     (sha256 (base32 "1kvgyjn5539g261gx276ip8nq5wm3b8ygvl5yvrqxgmyr84rww02"))))
+           (commit "862a5e0900e5884302c836e5b4fd1ed515456c7e")))
+     (sha256 (base32 "070rmyfdi3053i7fpbnx845cjbrbm88kggz2jp7agcjh5ggrrjpf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -17153,14 +17153,14 @@
 (define-public emacs-csound-mode
   (package
    (name "emacs-csound-mode")
-   (version "20260628.1411")
+   (version "20260704.1056")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hlolli/csound-mode.git")
-           (commit "31edb733d06757f7602cd18fbd043958899906a5")))
-     (sha256 (base32 "1za7cbdps4labgl16c47d26x3i5bcay2fllncmr99i62kz35by4j"))))
+           (commit "d7633d26abd63ed47535a203e289a97e2ffebe4d")))
+     (sha256 (base32 "1sc9arzkgx7kd68rg70by1kd69zpxjpgjp5ggm482qrlin5svbgk"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-shut-up emacs-multi emacs-dash emacs-highlight))
@@ -19905,14 +19905,14 @@
 (define-public emacs-diff-ansi
   (package
    (name "emacs-diff-ansi")
-   (version "20260524.938")
+   (version "20260529.419")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-diff-ansi.git")
-           (commit "2edacc2c6bda60b1be7bf5dfdde006a9a7018af5")))
-     (sha256 (base32 "11lk7dj0r5xdra0vg4csck6d6jd4mjjp13gjp75sl2i7vs4mf2d1"))))
+           (commit "1019b341897a2abc944a6bf9914fab344a37e5d5")))
+     (sha256 (base32 "13v8ynlp4r6ppj6xi3ndgjykzs26l7i0xcgz9lfljc32i1c5xlh3"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-diff-ansi")
    (synopsis "Display diffs using alternative diffing tools")
@@ -39788,14 +39788,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260703.2001")
+   (version "20260704.917")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "5eea3b6473924dccdc8fafc2c4386022629fa7c2")))
-     (sha256 (base32 "1bkbsnzlqvxc90052xgfyx8k9gkm16q2w85ziw3mvy7r71ywn9zk"))))
+           (commit "f77efee9172854abc08652637d23adc26faa25a2")))
+     (sha256 (base32 "1llpazknxbf23r7jnbgfxwgc95dc446bpx1sj5lpvxar5dlkxhg8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -42650,14 +42650,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260703.1934")
+   (version "20260704.707")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "f46da00402dbaece9523f8b5637053f9e6a24647")))
-     (sha256 (base32 "1q3mz0xlfgzss9bxx5hb57rvm2x22pw9kjq640acfbirfzdmac56"))))
+           (commit "3bc90bdfb97a7d8051b4aada66bd0609d1e26faa")))
+     (sha256 (base32 "1khniqhapla5dyvszpqb6nspnd0906m2dklvb94a674r3jsxmh51"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -59942,14 +59942,14 @@
 (define-public emacs-loopy
   (package
    (name "emacs-loopy")
-   (version "20260703.1737")
+   (version "20260704.138")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/okamsn/loopy.git")
-           (commit "c845e017afd729f766b6d0aab10eec9351703753")))
-     (sha256 (base32 "1bnzpnp8av84114sfdzf86xi85y6gx75z1j3jzbbb9bwmaapxh9x"))))
+           (commit "3e5d417d0f9ce63caf1cadd7d2776d590bccf24f")))
+     (sha256 (base32 "17w5d6mw8mny9a7g1bks1c2lrj4lj1j7k0yzp88haqw54w8srilh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-stream))
    (home-page "https://codeberg.org/okamsn/loopy")
@@ -83692,14 +83692,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260703.2055")
+   (version "20260704.1649")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "cff0717b3eb4bd8fc1609b7ea60ceab967dda973")))
-     (sha256 (base32 "08wbkkia96dxqwy4a9kxp2hwrxxlphrjkqxlk3rdg60sxz96xc44"))))
+           (commit "a979bc9fe7fff75ae40d952ce54e6218779d4ac4")))
+     (sha256 (base32 "1m52aw3snyzdgnwdkwhzdfxayvam49ypmff24l0m4kdrbf52a2cz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -95692,14 +95692,14 @@
 (define-public emacs-spatial-navigate
   (package
    (name "emacs-spatial-navigate")
-   (version "20260614.1125")
+   (version "20260704.1505")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-spatial-navigate.git")
-           (commit "8b3e31be5a16657dc875d3ea248f907c75f8244f")))
-     (sha256 (base32 "0mg7vllcyjwq3v34fdrfc902riap6aiphqpwa8dz2f1zhsvc55jf"))))
+           (commit "3c2aaea8f30b62b03fdc39ff9e622d7ed4405c5f")))
+     (sha256 (base32 "1xkwrzjyb3w7rmwr39w03ayqy2inbcq8rcrmmbbj27i6xzj4y52n"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-spatial-navigate")
    (synopsis "Directional navigation between blank-space blocks")
