@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260703.1529")
+   (version "20260703.2035")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "cd2e6a663eae2d4fe1c8628d090104b5c2148876")))
-     (sha256 (base32 "0saaxk38zm7c8zxk6y5jz8mf36d5hmb4bahcfln20ykw3h2gh3rl"))))
+           (commit "8e6ad47cf71ce72216ffdc4235076d8846c4197f")))
+     (sha256 (base32 "1gnja75pvq0i11cjpz0ygrhipw89kb328q6wvl0sv69d6rd1hv37"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260703.1530")
+   (version "20260703.1959")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "937b5af60e875107e0bbb9c6b8c8573d6098b60d")))
-     (sha256 (base32 "1mwn0wdwwbm7pb6pdj0nvg2az33pghfw9h2f1bjf8lhjbj88cf6n"))))
+           (commit "c52f6661bd57e4e3c9dac9515a0972028eeb063a")))
+     (sha256 (base32 "0z3ak88pcgf94pwybc9nqlwm8p1hrq56pwqij5xvxlr74q9ka5xz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -15811,14 +15811,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260703.431")
+   (version "20260703.2052")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "2d46055a9d0a088d2efce6dc12a894fba8b7659a")))
-     (sha256 (base32 "0ji940xw9wl6ywivgwsqv8752hlqjq4q04ih6r6r3b1acqz69203"))))
+           (commit "31b882bd27844ef10ab2f8d55282009cfa6bfe36")))
+     (sha256 (base32 "1kvgyjn5539g261gx276ip8nq5wm3b8ygvl5yvrqxgmyr84rww02"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -39788,14 +39788,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260703.1628")
+   (version "20260703.2001")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "b8a302bcf48424d5f5965ab84fbbd958616f30db")))
-     (sha256 (base32 "0qymfjfm8hx926d54lc0ff4wiirn8dw983d34dnjl7s8wkyjbcyk"))))
+           (commit "5eea3b6473924dccdc8fafc2c4386022629fa7c2")))
+     (sha256 (base32 "1bkbsnzlqvxc90052xgfyx8k9gkm16q2w85ziw3mvy7r71ywn9zk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -42650,14 +42650,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260703.857")
+   (version "20260703.1934")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "9ff70ce03589862bb7d6e67d224f3230526a9311")))
-     (sha256 (base32 "0ydg6p47h7q3d0v2740r94pfc7zc9njrpyi7kscwbxa90r4lb3wl"))))
+           (commit "f46da00402dbaece9523f8b5637053f9e6a24647")))
+     (sha256 (base32 "1q3mz0xlfgzss9bxx5hb57rvm2x22pw9kjq640acfbirfzdmac56"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -59942,14 +59942,14 @@
 (define-public emacs-loopy
   (package
    (name "emacs-loopy")
-   (version "20260625.2355")
+   (version "20260703.1737")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/okamsn/loopy.git")
-           (commit "70427df284cc0a70a75c00be221fbabc433183c5")))
-     (sha256 (base32 "0pjf0h3nzlbikxwqik58qwp2qgqyai6v1vx9kw7m7y43x46nv5hq"))))
+           (url "https://codeberg.org/okamsn/loopy.git")
+           (commit "c845e017afd729f766b6d0aab10eec9351703753")))
+     (sha256 (base32 "1bnzpnp8av84114sfdzf86xi85y6gx75z1j3jzbbb9bwmaapxh9x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-stream))
    (home-page "https://codeberg.org/okamsn/loopy")
@@ -81109,14 +81109,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260620.2130")
+   (version "20260704.18")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "f15976e9989cfa9e7bd2bf59f2361e0cf62fed8e")))
-     (sha256 (base32 "17nyik0xfjy17ln3pq5k69r3ad5cmjrqw3rbrygd6i0y5xqrq7iw"))))
+           (commit "565e1b6eb6a70e8a33814c45896db059003741a2")))
+     (sha256 (base32 "0qgsgygq2hrli0dkb0rkxdy84yddzgn016fl56h8k3wdqj7wzvrk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -83692,14 +83692,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260703.1338")
+   (version "20260703.2055")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "321aa639472097ec3fc878556e4a1c8110b236b3")))
-     (sha256 (base32 "0qy8a93m2k2dl7jc9ihgbpsq1kpf773nzcgzfg1jfg8xwyl6fwz6"))))
+           (commit "cff0717b3eb4bd8fc1609b7ea60ceab967dda973")))
+     (sha256 (base32 "08wbkkia96dxqwy4a9kxp2hwrxxlphrjkqxlk3rdg60sxz96xc44"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -104544,14 +104544,14 @@
 (define-public emacs-uwu-theme
   (package
    (name "emacs-uwu-theme")
-   (version "20260701.318")
+   (version "20260703.1803")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kborling/uwu-theme.git")
-           (commit "4f92eedc453ca5cb1d1cac486f57a1f828ed55ef")))
-     (sha256 (base32 "1i4l78d8wwarf9k5vavcagq3i6hfmslxjgpydr2n186vbvs09pkw"))))
+           (commit "10b07fae92e2b28d7f3948e5feba0e3172123370")))
+     (sha256 (base32 "1jc1inzs2v4m8sgxmwv06xh5ddhzy0j5y51yixnrqzygz56cswcn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kborling/uwu-theme")
    (synopsis "An awesome dark color scheme")
