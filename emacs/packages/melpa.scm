@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260704.1959")
+   (version "20260705.1214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "720cecd2ee51349a90595c0bf3296ec5b94396c7")))
-     (sha256 (base32 "0sra2r8xbd7bxnb5srnlapz5fc89ljamacwq3vnxpa0vz82lbvrf"))))
+           (commit "8e85d5f59220400e7633495fef21a19fe130e2cc")))
+     (sha256 (base32 "0b9r7zv3k1mcsydw2kl2acvrykiss3lv0piis1q5564bxilawz5n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10857,14 +10857,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260703.1959")
+   (version "20260705.1346")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "c52f6661bd57e4e3c9dac9515a0972028eeb063a")))
-     (sha256 (base32 "0z3ak88pcgf94pwybc9nqlwm8p1hrq56pwqij5xvxlr74q9ka5xz"))))
+           (commit "5dceb6ce1138823f106e65357fafd68364b193ef")))
+     (sha256 (base32 "1qpx2y5qqlqsnxlbkwpbkwcjssb0ahgfq7ap0xh99km00w01hyi7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -15811,14 +15811,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260704.1910")
+   (version "20260705.1341")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "76f287b24a312c70511c79f128f8e9915b274a0d")))
-     (sha256 (base32 "0w9bll7k6qgcx9nf2cq4zw7as23kbfg3ipkfqvmb0jk4dhzzcnvz"))))
+           (commit "4b18586c975900ebf7eb88fcaebdf44f43074772")))
+     (sha256 (base32 "09j699wcgwycjakdm7rb857n72vq9l3a1512sp38khy1vlx9sg0m"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -76673,14 +76673,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260624.650")
+   (version "20260705.1234")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "84d7721b4bf8c07d121945d9a37890059d8fad1d")))
-     (sha256 (base32 "0jcpk08vfr7xxz82sicxp5qxvzvps4xzqn80knzcbl82wxh75iqi"))))
+           (commit "90e2767bd7e7c3fc69a723723cab488fbd976f7e")))
+     (sha256 (base32 "1515z3bgwlxzn9djmvb7xv5ddfng93hab7d1g85nxjlnrdvmvjkm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -76724,14 +76724,14 @@
 (define-public emacs-orgtbl-join
   (package
    (name "emacs-orgtbl-join")
-   (version "20260624.718")
+   (version "20260705.1412")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgtbljoin.git")
-           (commit "1f00eeb9b95bd3075b67ebf5efc5e08dbdfc0361")))
-     (sha256 (base32 "0im9r4gqf18k4bhbj66v6yfpb4l65nfsjfh7fhigljcid66sxz2l"))))
+           (commit "cd637a44e69b8ac3bdb9d99bee5066be279da1d8")))
+     (sha256 (base32 "165bb0yhx1fm11cld61lrhfivg4x4pn65r5baciqcfwblsiifxpw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
    (synopsis "Join columns from other Org Mode tables")
@@ -76869,14 +76869,14 @@
 (define-public emacs-osm
   (package
    (name "emacs-osm")
-   (version "20260624.2130")
+   (version "20260705.1259")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/osm.git")
-           (commit "41765d63fd6810df8a43e3290e98b11dab93b40f")))
-     (sha256 (base32 "0wqyrcy7gfifcrkj1m9ymk7z3y4c3nfclzi9hplshh2pik47wpf5"))))
+           (commit "d6167ca4f99bead657ac6f7f163c1fcf9b34267f")))
+     (sha256 (base32 "11nn4rvjqs8f43gfazpghf67ihd994jd53z2pwfjhk8w8dav0gc2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/osm")
@@ -83693,14 +83693,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260705.755")
+   (version "20260705.1325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "a5aee4cb887454d66d143ead571ccc64929e648b")))
-     (sha256 (base32 "0b511zzb328mgwdaryrgdqv8zmzfa1nx67c5101fwhikvlmrmq0y"))))
+           (commit "1e6ebd112d3dc44e66f249be292e2abf4e994756")))
+     (sha256 (base32 "105alj95zh0ws65bjzrwg9pblkc946a7xi5r0sr5dbgfb1b6n23g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -99271,14 +99271,14 @@
 (define-public emacs-tempel
   (package
    (name "emacs-tempel")
-   (version "20260609.1545")
+   (version "20260705.1258")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/tempel.git")
-           (commit "0cfeac15a3c92373d41a743d00a5cb9368eaa006")))
-     (sha256 (base32 "1kb873jr7664mb9i0k8y2x9akywnic3j2pk0sj9rxychzpb9f3p6"))))
+           (commit "c5fdc3806b486d9d86a54c50efac3d4a141e789d")))
+     (sha256 (base32 "1vy53i1rpzhx644qhwm2vbb3z4z00wrc2127zfd3i08h8dlck3r0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/tempel")
@@ -108111,14 +108111,14 @@
 (define-public emacs-with-command-redo
   (package
    (name "emacs-with-command-redo")
-   (version "20260504.2116")
+   (version "20260705.1422")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-with-command-redo.git")
-           (commit "d1c4be4bb3fb22dff8fcfb562912760be3a685e8")))
-     (sha256 (base32 "1mlrmd4ncb4k1wbdpzrc6hja07pn0fzfcslpxkkigc4nz69r9y6l"))))
+           (commit "a792d4880627bff5b229b2cad58cc56b9f559325")))
+     (sha256 (base32 "0462wzps0cg58711i7kylcyxkp6209nj008rzhgcpwvavqkhb35s"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-with-command-redo")
    (synopsis "Repeat commands with automatic undo")
@@ -110707,14 +110707,14 @@
 (define-public emacs-zk-desktop
   (package
    (name "emacs-zk-desktop")
-   (version "20250905.1921")
+   (version "20250908.1240")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/localauthor/zk.git")
-           (commit "a634b6ec7af4f16a1ceed9271d2a0dbd9bca8501")))
-     (sha256 (base32 "1akiid6z812sp1jfwrf3qz4wklc0mdmina4rfj9bfyphiivk4lf6"))))
+           (commit "dc24c70061830e169e03d0a8f3d09954f0ac30ba")))
+     (sha256 (base32 "0mpglhs1yzch7zn7cp37jl692m0facr983qf2mq722a99acbrgpd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-zk emacs-zk-index))
    (arguments '(#:files ("zk-desktop.el")))
@@ -110745,14 +110745,14 @@
 (define-public emacs-zk-luhmann
   (package
    (name "emacs-zk-luhmann")
-   (version "20250406.844")
+   (version "20260705.1412")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/localauthor/zk-luhmann.git")
-           (commit "1fe0d9053b603037898530ae8aa6361c4e409e46")))
-     (sha256 (base32 "1gphp973a4msciy0xcfpkw8nmdvn23d5chg7qjqq7a93rpyx3qir"))))
+           (commit "8b34138abc432a37642d7d60f1c2d043e07bb680")))
+     (sha256 (base32 "13mxca8rj56afr1rphv2bscdbpkyxvnppr6m8bc0sxzkd86h8p8y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-zk emacs-zk-index))
    (home-page "https://github.com/localauthor/zk-luhmann")
