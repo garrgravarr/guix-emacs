@@ -23710,14 +23710,14 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260627.1323")
+   (version "20260705.127")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/easysession.el.git")
-           (commit "bba36c41d5b21a80927583dc6eb83d080d0caad1")))
-     (sha256 (base32 "1d0h02b2zr72p03zlcgpxdk3pbzzyvdw1a15g43j3pv51bljrdnx"))))
+           (commit "414694da11b84663527f9392f40bd743902a4ed4")))
+     (sha256 (base32 "1ksgmwjl4a1a9jcl9pg5xbm9qznp1rh932b982yxkd4fvbfi2740"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "extensions/easysession*.el")))
    (home-page "https://github.com/jamescherti/easysession.el")
@@ -23840,14 +23840,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260630.1402")
+   (version "20260705.305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "de940cc5203b79f1bd9c8581fa91b5fdfafdc86f")))
-     (sha256 (base32 "1vxrv3jc0rk3psj4gz46cqiykn3nvzmda433hflqazq5b0h64h86"))))
+           (commit "351e5aad87de787b5b87915c921726ad7a90ed7f")))
+     (sha256 (base32 "05pmzb5nb9fdqwzczxi6d4lw5v532z6xj7v172g91jgb6n5bdbps"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -61849,14 +61849,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20260703.358")
+   (version "20260705.419")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "278fe0c68dedd8494b3ecdd776a9fedc27b05b4f")))
-     (sha256 (base32 "0ifi0lhcvldvd01rmsd3gwpkn1sqj4bkd7b03gg1gh7cv6c03yrz"))))
+           (commit "83e577939bef55cb181a69a503301b7396a4fd39")))
+     (sha256 (base32 "1n89hrzk89rgacwyrpwxd1yr7gr6975wml68mfxi2bbvihhcnvak"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm))
    (home-page "https://github.com/hrishikeshs/magnus")
@@ -63212,14 +63212,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260703.705")
+   (version "20260705.658")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "c205bd38b43bef7e9bba1b796a32d9bb848f96a9")))
-     (sha256 (base32 "129jkl7m8bql8cdqlr3y6p2vgknin61wbwsv2qd8pkygv1wj06js"))))
+           (commit "f3c37e23257a67a8369b545d5bd06a8f5ffec7b5")))
+     (sha256 (base32 "0xxa0pbgig19aq3azyh30g1d0xms56bh848nns1yzihigmry6jyb"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -69375,14 +69375,14 @@
 (define-public emacs-nushell-ts-mode
   (package
    (name "emacs-nushell-ts-mode")
-   (version "20230911.152")
+   (version "20260705.141")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/herbertjones/nushell-ts-mode.git")
-           (commit "e07ecc59762fab8d5fa35bc6d3f522f74e580a2f")))
-     (sha256 (base32 "0v94ywl203gpd1ix86hrnywdcs430lmm2p26887yws7k3sk5310b"))))
+           (commit "49915cd99d62b7e743bd8cf9023a5819479d166f")))
+     (sha256 (base32 "1bm9jn1laapvfqh6r47wsav47r44q7w108ysyj622fhd9d6lf022"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/herbertjones/nushell-ts-mode")
    (synopsis "Tree-sitter support for Nushell")
@@ -83693,14 +83693,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260704.1928")
+   (version "20260705.755")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "e281754cf64a310276b9512cced2a31f98965f4c")))
-     (sha256 (base32 "135flm8pabscj7da6gwbazhkd6mafh9l6nla1v0971bzbj2lb8xk"))))
+           (commit "a5aee4cb887454d66d143ead571ccc64929e648b")))
+     (sha256 (base32 "0b511zzb328mgwdaryrgdqv8zmzfa1nx67c5101fwhikvlmrmq0y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
