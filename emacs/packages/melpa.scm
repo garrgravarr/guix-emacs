@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260704.1146")
+   (version "20260704.1959")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "8d97dd46046d7aa639742efde75dcbb719ed3b38")))
-     (sha256 (base32 "0mwj4aqqhg5v0ccax8rs228523kkscc5nskh7g1g89zdx4vafp2l"))))
+           (commit "720cecd2ee51349a90595c0bf3296ec5b94396c7")))
+     (sha256 (base32 "0sra2r8xbd7bxnb5srnlapz5fc89ljamacwq3vnxpa0vz82lbvrf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1862,14 +1862,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20260701.1659")
+   (version "20260705.130")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "7496878820661a950ef1b28ce8814177b3010825")))
-     (sha256 (base32 "0rn0va9k69bf5021w4b8g76m5lsvp2h8ch5ch4kb0060xmdnc2gb"))))
+           (commit "2e804a3129758aaad4bd8c28f2eb625ec4794aab")))
+     (sha256 (base32 "11dpqscljw5ni91av24j1kkm9zf3347p6ilfqphdc360gkl725mg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -15811,14 +15811,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260704.1422")
+   (version "20260704.1910")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "862a5e0900e5884302c836e5b4fd1ed515456c7e")))
-     (sha256 (base32 "070rmyfdi3053i7fpbnx845cjbrbm88kggz2jp7agcjh5ggrrjpf"))))
+           (commit "76f287b24a312c70511c79f128f8e9915b274a0d")))
+     (sha256 (base32 "0w9bll7k6qgcx9nf2cq4zw7as23kbfg3ipkfqvmb0jk4dhzzcnvz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -19834,16 +19834,17 @@
 (define-public emacs-dicom
   (package
    (name "emacs-dicom")
-   (version "20260605.1901")
+   (version "20260704.2150")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/dicom.git")
-           (commit "170f7cd972cba74fa452abcae055b8b213e23ef4")))
-     (sha256 (base32 "1dvr7p0pgyj89yarqly5qwbikp42g1wfrqnrk27zsikygac7b6ay"))))
+           (commit "50bfab3a34e502d6bac8ab12854cb33c8aff343c")))
+     (sha256 (base32 "1821jfsirv1lph6d2amv8b8zzan0jgvb2i0zylv2mgy9irh8mi6p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
+   (arguments '(#:files (:defaults "*.sh")))
    (home-page "https://github.com/minad/dicom")
    (synopsis "DICOM viewer - Digital Imaging & Communications in Medicine")
    (description "Documentation at https://melpa.org/#/dicom")
@@ -32790,14 +32791,14 @@
 (define-public emacs-fennel-mode
   (package
    (name "emacs-fennel-mode")
-   (version "20260625.1756")
+   (version "20260704.2353")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~technomancy/fennel-mode")
-           (commit "0a672d41be405570209e8fafca738162b4ac7111")))
-     (sha256 (base32 "1i0mn5bwywxxvr9nbz1filbhsj07fp90z4hbic1lw67yd7r25zh3"))))
+           (commit "bbc28a629405de628880d8fb485fce23ff7fab69")))
+     (sha256 (base32 "1rpyp660j9shlilxgwvc4i01qpmqyz3zy3dxk10dilw2g5n6dd0q"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~technomancy/fennel-mode")
    (synopsis "A major-mode for editing Fennel code")
@@ -83692,14 +83693,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260704.1649")
+   (version "20260704.1928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "a979bc9fe7fff75ae40d952ce54e6218779d4ac4")))
-     (sha256 (base32 "1m52aw3snyzdgnwdkwhzdfxayvam49ypmff24l0m4kdrbf52a2cz"))))
+           (commit "e281754cf64a310276b9512cced2a31f98965f4c")))
+     (sha256 (base32 "135flm8pabscj7da6gwbazhkd6mafh9l6nla1v0971bzbj2lb8xk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -92069,14 +92070,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260701.1855")
+   (version "20260705.6")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "2c9d4a46e1d6e96c9fd7d07f394ac45b1a904678")))
-     (sha256 (base32 "1w9qg0y58d7wxmmvc21gs9w04h2v1m9dxjqfsn7vz3ggq6mx696l"))))
+           (commit "55607423f052c6be72b1a5da394427c9faaa413d")))
+     (sha256 (base32 "1mhy1llyfd4dzq1z84ja7l7a1yh71gi2zxsgfqldg3vsa4y5c876"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -92259,14 +92260,14 @@
 (define-public emacs-shexc-ts-mode
   (package
    (name "emacs-shexc-ts-mode")
-   (version "20260703.928")
+   (version "20260704.2213")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ericprud/shexc-mode-for-emacs.git")
-           (commit "74204f28991ed1d37e08ef74fbba2df7351508f6")))
-     (sha256 (base32 "1i74cwgdibfwl141hx5bd6cg8n46av0sqg6z0k1knf7z19jc0rfk"))))
+           (commit "156fb1c5b14c28bd6168ed7d5e6c6ae405f12023")))
+     (sha256 (base32 "1zddcg0w3q32h2xwls4sjn8kd355lb66kr02wcqxrnkvmqjfajv1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults (:exclude "shexc-mode.el"))))
@@ -95692,14 +95693,14 @@
 (define-public emacs-spatial-navigate
   (package
    (name "emacs-spatial-navigate")
-   (version "20260704.1505")
+   (version "20260705.40")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-spatial-navigate.git")
-           (commit "3c2aaea8f30b62b03fdc39ff9e622d7ed4405c5f")))
-     (sha256 (base32 "1xkwrzjyb3w7rmwr39w03ayqy2inbcq8rcrmmbbj27i6xzj4y52n"))))
+           (commit "358337ddaef449ad0f1c6b9ab29f99db363ab319")))
+     (sha256 (base32 "0p8arfa19jq1i7cqd6hz5cld9c976ig4zmz5zdwsvjz9hr2s0aj7"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-spatial-navigate")
    (synopsis "Directional navigation between blank-space blocks")
@@ -110669,14 +110670,14 @@
 (define-public emacs-zk
   (package
    (name "emacs-zk")
-   (version "20250908.1240")
+   (version "20260704.2129")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/localauthor/zk.git")
-           (commit "302e494324066d63f317b54c4db75d173914c521")))
-     (sha256 (base32 "10qdia4w31709jk81xcvlyn1ac7zspiawvfx5spr09vff00gbljc"))))
+           (commit "ad82465a4a65fba7cff07da419455947507080cc")))
+     (sha256 (base32 "1d00i9p391h4341q76ci0x6pxsishsh2mkxshfqivllv80gczn2c"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("zk.el")))
    (home-page "https://github.com/localauthor/zk")
@@ -110687,14 +110688,14 @@
 (define-public emacs-zk-consult
   (package
    (name "emacs-zk-consult")
-   (version "20251215.1140")
+   (version "20260704.2128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/localauthor/zk.git")
-           (commit "5b7fcbdd7bcfd0903e3844d0b4b28826bfb7ef5d")))
-     (sha256 (base32 "0rp5q6x93r10lrhrrlrdyg2q5amylsvjgjnkb0mgdwfyh8i9fw78"))))
+           (commit "ad82465a4a65fba7cff07da419455947507080cc")))
+     (sha256 (base32 "1d00i9p391h4341q76ci0x6pxsishsh2mkxshfqivllv80gczn2c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-zk emacs-consult))
    (arguments '(#:files ("zk-consult.el")))
@@ -110725,14 +110726,14 @@
 (define-public emacs-zk-index
   (package
    (name "emacs-zk-index")
-   (version "20250908.1240")
+   (version "20260704.2129")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/localauthor/zk.git")
-           (commit "302e494324066d63f317b54c4db75d173914c521")))
-     (sha256 (base32 "10qdia4w31709jk81xcvlyn1ac7zspiawvfx5spr09vff00gbljc"))))
+           (commit "ad82465a4a65fba7cff07da419455947507080cc")))
+     (sha256 (base32 "1d00i9p391h4341q76ci0x6pxsishsh2mkxshfqivllv80gczn2c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-zk))
    (arguments '(#:files ("zk-index.el")))
