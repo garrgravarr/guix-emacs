@@ -10875,14 +10875,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260705.1346")
+   (version "20260706.912")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "5dceb6ce1138823f106e65357fafd68364b193ef")))
-     (sha256 (base32 "1qpx2y5qqlqsnxlbkwpbkwcjssb0ahgfq7ap0xh99km00w01hyi7"))))
+           (commit "f9d31e4809ca430300d69f8a229376c193861ca7")))
+     (sha256 (base32 "1g161nc7r5k814raj2kjn1jidlhmas7nn7apj3j9cq5wrarg033c"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -39825,14 +39825,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260704.917")
+   (version "20260706.909")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "f77efee9172854abc08652637d23adc26faa25a2")))
-     (sha256 (base32 "1llpazknxbf23r7jnbgfxwgc95dc446bpx1sj5lpvxar5dlkxhg8"))))
+           (commit "1c70fc98fd8c84d21e6b8747fd120ca3e438f297")))
+     (sha256 (base32 "1lsg6pzq3ikf3c343a027xjrkga9x6jbhpar3l7rynxm3naw91gm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -56462,14 +56462,14 @@
 (define-public emacs-kkp
   (package
    (name "emacs-kkp")
-   (version "20260702.1833")
+   (version "20260706.858")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/benotn/kkp.git")
-           (commit "152cbf81ff72d22478b120e5fce455935a8f3fef")))
-     (sha256 (base32 "1ax0cykb6msjq35022j158hin587ivzrqmz2p0h1s15b2pymmzd8"))))
+           (commit "82b7443e10a2ba287467b62e90b6adb6dd93dc99")))
+     (sha256 (base32 "10iwwd2jn2hy8m5pqpl9sdvx2m9s1pcjpfpqj8i7d6mfr9pjqy6z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/benotn/kkp")
@@ -58839,14 +58839,14 @@
 (define-public emacs-lirve
   (package
    (name "emacs-lirve")
-   (version "20240419.1918")
+   (version "20260706.820")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tanrax/lirve.el.git")
-           (commit "ff3031fa82d854411da40a32c6191d201b4abf09")))
-     (sha256 (base32 "1m4bg931w83vyhrpgsmdyl6hkknnd99mmvj34g0drhb9170sx0kb"))))
+           (commit "287f5995e026787f2930e6892874f78c421203f0")))
+     (sha256 (base32 "008aaw0gvm70k3j7m0b4hd0k51q7jd04wg0zqmhjg2spqb9hpkg2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tanrax/lirve.el")
    (synopsis "Learn irregular verbs in English")
@@ -61937,14 +61937,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20260705.419")
+   (version "20260706.905")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "83e577939bef55cb181a69a503301b7396a4fd39")))
-     (sha256 (base32 "1n89hrzk89rgacwyrpwxd1yr7gr6975wml68mfxi2bbvihhcnvak"))))
+           (commit "0fe8747e8f748b50493114abd45b9aabcdae26a3")))
+     (sha256 (base32 "0xxnpdypnb7ighcqihi2cn9acxdxrhqzjd2yiw7xsdsmpjkz0jiv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm))
    (home-page "https://github.com/hrishikeshs/magnus")
@@ -68595,14 +68595,14 @@
 (define-public emacs-no-littering
   (package
    (name "emacs-no-littering")
-   (version "20260701.1241")
+   (version "20260706.850")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/no-littering.git")
-           (commit "719c2a3773419ebc92a06e61b0fb26f6d64e750e")))
-     (sha256 (base32 "1ydqwg77k8f67fa8dnmxxcg4nyyrcm459h1553j15fm1bjw0af0v"))))
+           (commit "fa0801e5a1135cdb5ba525869f578cea87e8db0e")))
+     (sha256 (base32 "10mamnnayfxwa1x5ibyks8i684bhqzq6k24askzdi3galc31gpdh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/emacscollective/no-littering")
@@ -83798,14 +83798,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260705.1325")
+   (version "20260706.548")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "1e6ebd112d3dc44e66f249be292e2abf4e994756")))
-     (sha256 (base32 "105alj95zh0ws65bjzrwg9pblkc946a7xi5r0sr5dbgfb1b6n23g"))))
+           (commit "da694e7a9855d72567abc39a10ed451860166fb8")))
+     (sha256 (base32 "02gg1b9w3aabsdj184kcsrkdj5xzsz2va4y51jblvxikfdfx501a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -88901,14 +88901,14 @@
 (define-public emacs-rimel
   (package
    (name "emacs-rimel")
-   (version "20260601.323")
+   (version "20260706.343")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/rimel.git")
-           (commit "149d0094200f6781b4fffab52bec80ac6783cb8c")))
-     (sha256 (base32 "11ydjchrvhblm5idn7r5ysxhaw7nxhp04vdmajnhkyfkgq57ywhd"))))
+           (commit "4d7bbad3e9b70fe0755174a79d5b7e59dfb6d3f7")))
+     (sha256 (base32 "19rqq53akvrzdj74ajqvgb4dz1rmiqyivs9vcpaz43s56q00sa5c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-liberime))
    (home-page "https://github.com/jixiuf/rimel")
@@ -107351,14 +107351,14 @@
 (define-public emacs-wfnames
   (package
    (name "emacs-wfnames")
-   (version "20260105.458")
+   (version "20260706.903")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/thierryvolpiatto/wfnames.git")
-           (commit "6ea49841ab76f44c0164b9f4722da2f9d46228da")))
-     (sha256 (base32 "1agbwnhgagfrgz5w47x8b4i6x8qdvv03f08p1fi44wsld2h0xvwr"))))
+           (commit "d8839fa42a24f7c781cd2d8c3f40eda31faa19be")))
+     (sha256 (base32 "0ghb3y2qbkb819l81xcb6859h3yzppahbnwykmf8bcim29i3wclf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/thierryvolpiatto/wfnames")
    (synopsis "Edit filenames")
