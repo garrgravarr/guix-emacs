@@ -11414,14 +11414,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260628.644")
+   (version "20260707.712")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "16db9958b3b608a77bec03c583472c520b1fb269")))
-     (sha256 (base32 "12v4373906va51rpik2br49riscwa2vn517pcp1s0rybh66la2ni"))))
+           (commit "190ea8ca7b5b1102db2d13f594592d4cedea689b")))
+     (sha256 (base32 "06zwvwxa1s7g5nwl9gmvfsb8dwffdv04029l18mjx9bs4p58z5b5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12237,14 +12237,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260706.204")
+   (version "20260707.947")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "0295209b8dfdeb707e2528deb7f42e338860a081")))
-     (sha256 (base32 "0725is7228a2ysfkpl8ww1808a9rnga4dlrjwifkp6fn1pmfdgl9"))))
+           (commit "0042dc5263e0e5bf9e7733cb71a8a7b6ac33c34b")))
+     (sha256 (base32 "0pwn2ws9bny4l3zzfxd4s01z5qa57jhcmm32kaa32l0bfv5drqc4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -15829,14 +15829,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20260706.1946")
+   (version "20260707.516")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "a2cdb6783eaaa74b266af3b1ee2acef0ce8060bc")))
-     (sha256 (base32 "1adam2b0kr6haw2b6yhcjq4s4czyw1hahq6b3xr5mcwicdn7nsn4"))))
+           (commit "277ca357422ba34bcf7fe650cb720580994eea84")))
+     (sha256 (base32 "0fj6h3v3v3h0cczs9mc728bcx5zkqlh4yi11la347wah39wdk21d"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -39825,14 +39825,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260706.1310")
+   (version "20260707.956")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "eb806d158df4ff302aee68e91caf257f11d66320")))
-     (sha256 (base32 "0la0w4jmwa7103kxpl0hyqq9yafvd0v2bsjcl190xzli935x4gaz"))))
+           (commit "4c6351fd4a62b7f92e2fd7861f836e7fff9bb696")))
+     (sha256 (base32 "1xzpjlpi9hs7icj4wzsnmv8qhm1hb73xls0a9gwzr79g4sc6zpfg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -96500,14 +96500,14 @@
 (define-public emacs-srs
   (package
    (name "emacs-srs")
-   (version "20260628.2348")
+   (version "20260707.47")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Duncan-Britt/srs.el.git")
-           (commit "f708ecf2f0fb05c4b6738691d652643ea697b603")))
-     (sha256 (base32 "0rfix4xkzxn0nn0gx8d8y8r4czrly3j9aqksdymbrdfrm5dsv6w4"))))
+           (commit "0d7f8f0a0c0adabe212210439676cdd933091df9")))
+     (sha256 (base32 "0n4xzs0yq46m9f7wixa47c35673g73jg19m0fdwv3v56kfwyxy81"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Duncan-Britt/srs.el")
    (synopsis "Spaced repetition in plain text")
