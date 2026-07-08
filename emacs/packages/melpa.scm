@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260706.31")
+   (version "20260708.134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "55c5dfaaab8b0de40f6f389969c9cea21c0fd09e")))
-     (sha256 (base32 "15hv1prwvla8zfv6lsf24jgl4m8jrx6nc1my1y0fk07v3n8ap9wm"))))
+           (commit "83b1b12065288a08d5dd00f0df48ea1d11564628")))
+     (sha256 (base32 "1x1gvka5acysrfici0gb630a4j881krnzpdp2p4vdahsm8i1gcx8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -11817,14 +11817,14 @@
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
-   (version "20260701.1702")
+   (version "20260708.713")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clj-refactor.el.git")
-           (commit "3e0075eff0c5337573d8843cc59054f5695f44ac")))
-     (sha256 (base32 "025w72afx2mvjdhpvy9jnv638cjs99zsp7id4s3i5n79wkcfdzkj"))))
+           (commit "bcb9b72dab69d7f310f132e84d614d31f2c63255")))
+     (sha256 (base32 "1in0g32v2ygnqdz7p43sz6ayhm1cpps3xpzx0saplpy2mhrfnwsb"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-yasnippet
@@ -12237,14 +12237,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260707.1612")
+   (version "20260708.655")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "2044ffa4e4335582aae27dfbf763ff9f5ab73f7a")))
-     (sha256 (base32 "1b79cvnca8g9igsgla95518mdj5n0cdczrkqv5kgdjdmpdq0rwcg"))))
+           (commit "0267e1a2181cfb7f3dbfed709402620571f772dc")))
+     (sha256 (base32 "0a9f50bbwwh43i0vbagg531hry7cxxdscmp71ja740rib2hw5ps3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -22271,14 +22271,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260702.831")
+   (version "20260708.158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "15776ef2f1865a0004d9e645415479584f24a07a")))
-     (sha256 (base32 "09r77gczzhac1p2x3a2v5pxjmm6gsdqig8sa0967bnl3b69z9kw6"))))
+           (commit "017854c6484dd6a38e4b039dad04ce6dbec02f08")))
+     (sha256 (base32 "0mvyi6r1599fsz6hfgbvq1i8z569xsh9iwwzz8pwd15c9v8i71v6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -46807,14 +46807,14 @@
 (define-public emacs-helm-projectile
   (package
    (name "emacs-helm-projectile")
-   (version "20260701.1842")
+   (version "20260708.617")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/helm-projectile.git")
-           (commit "aebebed88a2de239d21f08d823719d794df92871")))
-     (sha256 (base32 "0ycrrdj6xppxsayqp16yf2npw5vaf0b0hmp54l9xsrnfr42zlv1f"))))
+           (commit "7036181ffc49ca931ee25f934d87a4d460ba8bb3")))
+     (sha256 (base32 "1z0mriip13649lvcbs2bbm4y0bw7ds4kx454x8cisa6jg666922j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm emacs-projectile))
    (home-page "https://github.com/bbatsov/helm-projectile")
@@ -81215,14 +81215,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260706.2031")
+   (version "20260708.53")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "760dcef81a7f5df886f8ae277a8d729795e78864")))
-     (sha256 (base32 "02fbhg0k6bz4cfdhp55rjsgrc83gsrhs5d11y2xmvnkq3gj9cl2r"))))
+           (commit "16ae9a838f6631ced8b5d356e94829cdd03dbc7e")))
+     (sha256 (base32 "0l8af4inazpd8j7im6y3m04asbs1fb9p2rc8lk1pf2j0mywriyzv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -83798,14 +83798,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260706.1149")
+   (version "20260708.804")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "b855a2b68087ca77f2e756be7fe959e667c54537")))
-     (sha256 (base32 "0iqhghgki6306y55wv3kp06iy68j3g51ibnl4ajhkhjbzp2zrijw"))))
+           (commit "1c29f1bc235d0eaeba4988e87ac3e3be8d20bae4")))
+     (sha256 (base32 "0kaclmwhxxks9gc5gpah169vi092l3gl48bla9vsvg9spprsj5fs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -91885,16 +91885,16 @@
 (define-public emacs-sexy-theme
   (package
    (name "emacs-sexy-theme")
-   (version "20250312.1640")
+   (version "20260708.327")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/thebigcicca/sexy-theme.el.git")
-           (commit "2aecfa4a71d16fd4f0dfe2c1b1fed0b1df3c1802")))
-     (sha256 (base32 "0580kj7zh95d837fw5fw555vlr9lzc6v1yx3hgpdqfy978gbwnma"))))
+           (url "https://github.com/xenodesire/sexy-theme.el.git")
+           (commit "eb747facb5916d8cbcac3e5d086317ce5e1ff341")))
+     (sha256 (base32 "0kbjmz4lv9812qxl2d3q195833zyrb641p1kbfp4wbrkvy9jpgn3"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/bgcicca/sexy-theme.el")
+   (home-page "https://github.com/bgcicca/sexy-theme.el")
    (synopsis "A strong colors variant of the Gruber Darker theme")
    (description "Documentation at https://melpa.org/#/sexy-theme")
    (license #f)))
@@ -106380,14 +106380,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260706.1706")
+   (version "20260708.601")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "568ac8192ff28c696c5ba3adcc3000acc0776b00")))
-     (sha256 (base32 "0mx5zk2yvvlvqpbc0fxa7zyczg05iz3irx6pbdfmg2xiq43f709s"))))
+           (commit "0d01a788c86f6787748e755983aeb5ce653dec01")))
+     (sha256 (base32 "1pi34svq6pm2fqfvc36izyz6ghiz3gqfzv07dhr6mz44xrsvg27a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -106416,14 +106416,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260707.1434")
+   (version "20260708.601")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "b4fba9c63c6d99dfc53c0aedb0460475ccd29714")))
-     (sha256 (base32 "09cy3165ijfbvwha4pw7vs3lrbd3hy06a7j2vd57jh0qbkv2clfy"))))
+           (commit "2139b37d457c2a8de80246304f5adfc867896b17")))
+     (sha256 (base32 "1ykjvxmi7fxx0zpc03gp6naync55rahcbmhr1y1h5abck4cs73ky"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
@@ -108197,7 +108197,7 @@
 (define-public emacs-wisp-mode
   (package
    (name "emacs-wisp-mode")
-   (version "20260707.7")
+   (version "20260708.623")
    (source
     (origin
      (method url-fetch)
@@ -108205,7 +108205,7 @@
            "https://melpa.org/packages/wisp-mode-"
            version
            ".tar"))
-     (sha256 (base32 "0j63xjxwlir19x0xdy4iwfknxi762lraddnsq2hd1nxcygcb2ahz"))))
+     (sha256 (base32 "1yvwqdry4c6jwgmcddl73qrrz0hx0ca3kd4q8nmjzlz7p3gwxrz5"))))
    (build-system melpa-build-system)
    (home-page "http://www.draketo.de/english/wisp")
    (synopsis "Tools for wisp: the Whitespace-to-Lisp preprocessor")
