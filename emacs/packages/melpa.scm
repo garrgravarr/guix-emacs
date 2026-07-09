@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260709.340")
+   (version "20260709.1542")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "1745025ee5f4d6382c26ffa8c38bad6b2c9e8e26")))
-     (sha256 (base32 "0gc87dx2i9w3frc9m71jdpqr3i6njfcrxghhw202f249z6d7xz20"))))
+           (commit "28824c59e7b3773762cb436e1a069315d51c87cd")))
+     (sha256 (base32 "09z8c5v67l0cr0m20jzbpl0mvcrqx6iymb0ibxpcnp8np1dx4f87"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -7340,14 +7340,14 @@
 (define-public emacs-blue
   (package
    (name "emacs-blue")
-   (version "20260708.1119")
+   (version "20260709.1248")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/lapislazuli/blue.el.git")
-           (commit "d7eddae717497f66bfb7256b2e38444e7e52336c")))
-     (sha256 (base32 "1y6zskh10alcgakl35m6pmbm41dwrdrvh9mnrr24sqyn95sf9mqy"))))
+           (commit "3668ca7f627f3497d907293f38dcfbe33fb6f4f7")))
+     (sha256 (base32 "1gqcbxr3dr2wi1r0fqzm4zvgsqhw6l9zph81h5k23nzw62aryx0i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit-section))
    (home-page "https://codeberg.org/lapislazuli/blue.el")
@@ -10875,14 +10875,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260708.1419")
+   (version "20260709.938")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "7aaf9ad906c33866b3314acbf51376b5a2aca9dc")))
-     (sha256 (base32 "1vhlsw14lgyz02wncjby05m596px5rfcjqsq2d4fmb3v6gilk8zd"))))
+           (commit "d6c58b7b206af9e5239f277c0be8292984be5bbb")))
+     (sha256 (base32 "1aw7b269kdhi1hpsklksqjmhz4j3a56k5iszbnkdybj8pdw3ljyk"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -12039,14 +12039,14 @@
 (define-public emacs-clojure-mode
   (package
    (name "emacs-clojure-mode")
-   (version "20260615.1407")
+   (version "20260709.952")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clojure-mode.git")
-           (commit "762674d956a4e861f46711a00921b159f96792c0")))
-     (sha256 (base32 "0h43a80w222409nsp1bvrl8jgcb3rghjp8f0z2gpn4yaq4k7qzdf"))))
+           (commit "3c68569738f04a22d52f1ca28f593c2ee733bf04")))
+     (sha256 (base32 "02r3l4pkhb5jgyf0qf3qn7vmfr1hahb4a1ljq6g071nra08bzxcm"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("clojure-mode.el")))
    (home-page "https://github.com/clojure-emacs/clojure-mode")
@@ -21968,14 +21968,14 @@
 (define-public emacs-docker
   (package
    (name "emacs-docker")
-   (version "20260701.833")
+   (version "20260709.1426")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Silex/docker.el.git")
-           (commit "0ae5052ed7df228fdd35735e774bdff97d180e5c")))
-     (sha256 (base32 "0c343f8hala5sv7brxci0z2lriir3cfkpzrwz557f82d44njq3s0"))))
+           (commit "f32940100035438934d626adb99cfc63036de490")))
+     (sha256 (base32 "07wsf9p7dy7qws7jdksra3xh6lwlkh0dxmjskmbzd6wz86c2vx1i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-aio emacs-dash emacs-s emacs-tablist))
    (home-page "https://github.com/Silex/docker.el")
@@ -57935,14 +57935,14 @@
 (define-public emacs-ledger-mode
   (package
    (name "emacs-ledger-mode")
-   (version "20260609.609")
+   (version "20260709.1534")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ledger/ledger-mode.git")
-           (commit "b0ee99feb2dcae5e304ad735d82d488f2191a51c")))
-     (sha256 (base32 "193m7nbpbp33i79y25g09ippxskpxsb8ixiyn6v1a1il0qjhf8rf"))))
+           (commit "f7761ab7070e8c0c1cfb97e571ba81c3377a7447")))
+     (sha256 (base32 "1qb4lrp5f2p1gcfrpbh86xcwggc8ffz62rq4lj6v4klyjyk52h2y"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("ledger-*.el" "doc/*.texi")))
    (home-page "https://github.com/ledger/ledger-mode")
@@ -58486,14 +58486,14 @@
 (define-public emacs-lichess
   (package
    (name "emacs-lichess")
-   (version "20260203.1027")
+   (version "20260709.1123")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tmythicator/lichess.el.git")
-           (commit "1dd8a25ede7144c5d6be1f45f4ae3d07903783cd")))
-     (sha256 (base32 "157l4crbz37x367m69sxwvnd1pd8cqa6w0lcvyyvs27cm021d2gr"))))
+           (commit "de62be5c1fbbf37fe4cd241feec88814bc78f2c4")))
+     (sha256 (base32 "0psm2zn5jxppvdhhnzk86i032a50l9prix8c5g3hz3dild1vy3l1"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "assets" (:exclude "lichess-debug.el"))))
    (home-page "https://github.com/tmythicator/Lichess.el")
@@ -61256,14 +61256,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260708.1720")
+   (version "20260709.1540")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "5e176cf1063aa67e400a67f7d773a4175f107dd1")))
-     (sha256 (base32 "0yn0hgcca9n8qqk139z34qv0r4vxicx8a7gx0s9l3dlrykjik7sz"))))
+           (commit "2d03acf96546640a46e4ab8e7b3632e1d8782a16")))
+     (sha256 (base32 "1p9qr9iw1v4pzwcri2dwmziq246psxbnwlmdzx2qf79b4b5lln4q"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -61740,14 +61740,14 @@
 (define-public emacs-magit-section
   (package
    (name "emacs-magit-section")
-   (version "20260701.1407")
+   (version "20260709.950")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "b6c512597fd66abe69883a058a2d13bcea76bf33")))
-     (sha256 (base32 "0pfx2rkxpfkyfwaz759q9b1yjd8vdwgf5jbrix5i1y06i54rnazr"))))
+           (commit "2d03acf96546640a46e4ab8e7b3632e1d8782a16")))
+     (sha256 (base32 "1p9qr9iw1v4pzwcri2dwmziq246psxbnwlmdzx2qf79b4b5lln4q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (arguments
@@ -63300,14 +63300,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260705.658")
+   (version "20260709.1016")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "f3c37e23257a67a8369b545d5bd06a8f5ffec7b5")))
-     (sha256 (base32 "0xxa0pbgig19aq3azyh30g1d0xms56bh848nns1yzihigmry6jyb"))))
+           (commit "a38d17227f20256140ece91d7ee42f7188369d7e")))
+     (sha256 (base32 "1496lhl7qmwdnww0gslyg5zn3z2zaa42v2d8i4j5735l8h1c9l0r"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -74143,14 +74143,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260708.1210")
+   (version "20260709.1259")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "d14b914f5c29645c5321259cb772beddae96c2e2")))
-     (sha256 (base32 "1qcly6q3l4yq8h1zp69rvl6w43jb7f64nwjyrflri15rk2ffgrsg"))))
+           (commit "7a529cfb4f8cdc11c71080e6121ef90b66256cb3")))
+     (sha256 (base32 "091xm8zhc5kbawn3ncm5gnxla747jlrz879lr5f89zlyqk4gsqk7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -81215,14 +81215,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260708.53")
+   (version "20260709.1634")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "16ae9a838f6631ced8b5d356e94829cdd03dbc7e")))
-     (sha256 (base32 "0l8af4inazpd8j7im6y3m04asbs1fb9p2rc8lk1pf2j0mywriyzv"))))
+           (commit "b87cf9856660fbcc83d8297ef33c243a3f4ec4f0")))
+     (sha256 (base32 "0m7kviids256cpl04by36zqb92xqh88l2h7qvjccaawaf2h3qdr1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -105460,14 +105460,14 @@
 (define-public emacs-vertico
   (package
    (name "emacs-vertico")
-   (version "20260605.1903")
+   (version "20260709.1303")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/vertico.git")
-           (commit "6028bd3d32c99c28e2b938e5e5393ec3508d2424")))
-     (sha256 (base32 "0hzl3p7b62f3p2419c5d7340h7y6ry2xhwdds166wfcgwpwnm7m6"))))
+           (commit "95bd36e27bafe36158085017b5c5726391089d6b")))
+     (sha256 (base32 "14jjrgmg8ig16b9hpr68sfbwxxsswl6iphy46jiyykbl4yq33bjv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/vertico-*.el")))
