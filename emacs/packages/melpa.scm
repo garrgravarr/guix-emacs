@@ -1245,14 +1245,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20260527.2132")
+   (version "20260709.759")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "3ddfa907eb7f17949a4a8e731ea5c5241e6cbcb4")))
-     (sha256 (base32 "0c9bsj9qz0v788m18bqr71a13jmby61d18dvmnzgl14a8gb5rpl4"))))
+           (commit "5140f4121156707245567b8fc3072d4c3b5c867f")))
+     (sha256 (base32 "0lhf21sq5c9cdqa1s22y8kbk0s21jgg6ydx22y87adij1j7a1plr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260708.1951")
+   (version "20260709.611")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "fd2c5485a10dcc992fd1f5c5794e77507c265f5d")))
-     (sha256 (base32 "1qpghzk2cb88jdpffg795xii8fhfv2vwqwx7l4dv7a7mwg7q6vfs"))))
+           (commit "55828fdc298e9ea0731aef898508f497ff73594d")))
+     (sha256 (base32 "16xccj5sfm16gf0b3pvb4r5d7ax4704dzgd32baqckm21zkfbw1d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,7 +1823,7 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260709.226")
+   (version "20260709.340")
    (source
     (origin
      (method git-fetch)
@@ -12237,14 +12237,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260709.126")
+   (version "20260709.536")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "1a6fe1ba0925ea7872050127cd3ff57c998ab569")))
-     (sha256 (base32 "0q9isi17yww5r72lb14i9jwskbxxjvyjnlnig2vk0vjcra0dhx2c"))))
+           (commit "65ad9e61217b06d9fac558b6cb85ae5bacdf8171")))
+     (sha256 (base32 "0nxs390qzm25vi6gif8myhsz31gpysxxza425yc8ah1avw6x1pyf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -38958,14 +38958,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260709.328")
+   (version "20260709.340")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "674166d5664a6191e84092026bf542a4a960b1f6")))
-     (sha256 (base32 "1pvgfxlrp5vjn06zbcxi69vi07il5b2qhvalm541dxcr9jx0b3n4"))))
+           (commit "db4afef611770ae7264a74142b527076702602ed")))
+     (sha256 (base32 "0wngdpi77a28c7bghr96hwk1mfabkmx8f8xch2kk6v92v8pgw1j3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -42687,14 +42687,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260705.2207")
+   (version "20260709.305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "ebf0f3d8e9932e0ac6de82542220864cc17f6784")))
-     (sha256 (base32 "05gz7qlw9nrakqlinrzdlfsi3zq8ydf5bq3f0xdj7m4lazv4xpqq"))))
+           (commit "38bc5293e3f051d09ddc09d11a895552925da09a")))
+     (sha256 (base32 "0n42n0qv065pix8mz4lcvvmvzq4xjh99rjpb5rcv7ff7bbw204iz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -56212,14 +56212,14 @@
 (define-public emacs-khalel
   (package
    (name "emacs-khalel")
-   (version "20250910.946")
+   (version "20260709.655")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/hperrey/khalel.git")
-           (commit "f7cdb3246d193a518b3a4ca7381ffb6ed8087fcf")))
-     (sha256 (base32 "06h5272kmg0ykf0zqdy2qwhlzszqsw176l1brk04bg8xyc3a4384"))))
+           (commit "3691b4545eaef5a246f020f57bd0f843cc9c84ef")))
+     (sha256 (base32 "1g9cjiyajh3j175chf5lr8z857aim0h82sxnjh757cw4jz94kfzl"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/hperrey/khalel")
    (synopsis "Import, edit and create calendar events through khal")
@@ -61937,14 +61937,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20260706.905")
+   (version "20260709.19")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "0fe8747e8f748b50493114abd45b9aabcdae26a3")))
-     (sha256 (base32 "0xxnpdypnb7ighcqihi2cn9acxdxrhqzjd2yiw7xsdsmpjkz0jiv"))))
+           (commit "f9ff19c3eca7d88b8ad6385c5592369d4b4d9cda")))
+     (sha256 (base32 "07n00xg6sy9ghabiqwq9psx5wqdf3zshl8xh77b13hibhd3a5dq9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm))
    (home-page "https://github.com/hrishikeshs/magnus")
