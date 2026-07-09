@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260707.2203")
+   (version "20260708.1951")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "ee4f259b8918c799c6c18c8caa78cf4519706ddb")))
-     (sha256 (base32 "096n9088mrnliwzq52wn1512gvgmh2wqzdajwrdb92zyxlk4h12b"))))
+           (commit "fd2c5485a10dcc992fd1f5c5794e77507c265f5d")))
+     (sha256 (base32 "1qpghzk2cb88jdpffg795xii8fhfv2vwqwx7l4dv7a7mwg7q6vfs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260708.134")
+   (version "20260709.226")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "83b1b12065288a08d5dd00f0df48ea1d11564628")))
-     (sha256 (base32 "1x1gvka5acysrfici0gb630a4j881krnzpdp2p4vdahsm8i1gcx8"))))
+           (commit "1745025ee5f4d6382c26ffa8c38bad6b2c9e8e26")))
+     (sha256 (base32 "0gc87dx2i9w3frc9m71jdpqr3i6njfcrxghhw202f249z6d7xz20"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -12237,14 +12237,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260708.1142")
+   (version "20260709.126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "a51255212cf422947aa9e5339d523dc28c2b7e88")))
-     (sha256 (base32 "0z3a064qva7w6zwwgmi0m2mdv5kmprr93bmmrv38ghw47a6nxiiv"))))
+           (commit "1a6fe1ba0925ea7872050127cd3ff57c998ab569")))
+     (sha256 (base32 "0q9isi17yww5r72lb14i9jwskbxxjvyjnlnig2vk0vjcra0dhx2c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -15582,14 +15582,14 @@
 (define-public emacs-consult-spotlight
   (package
    (name "emacs-consult-spotlight")
-   (version "20260612.1527")
+   (version "20260708.2142")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/guibor/consult-spotlight.git")
-           (commit "0a8a60e26fcbf15414c0f56f4c8b4a504c5c9c11")))
-     (sha256 (base32 "13729iapksanf2p53a802yj8m3jkspixq5z648ysgdkjpa1kk4iw"))))
+           (commit "c6d8cb34e223608708c5424e4d03d04d6d6648f7")))
+     (sha256 (base32 "0fps3yhla3d9wawm3fchgfqxhd4wih48lp7ib2qzk7bj1i9yhihw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult))
    (home-page "https://github.com/guibor/consult-spotlight")
@@ -23161,14 +23161,14 @@
 (define-public emacs-dwim-shell-command
   (package
    (name "emacs-dwim-shell-command")
-   (version "20260123.1157")
+   (version "20260708.1641")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/dwim-shell-command.git")
-           (commit "eb86e3fbd2c775345fdc018ece27138a779730f5")))
-     (sha256 (base32 "127zgq2s3qwyg9y6181p648idm7d5qh3xw8yvkvhynl1j4wqjfzk"))))
+           (commit "3566651e24ca05fe818897f2cf31718d2bcd1c99")))
+     (sha256 (base32 "1n8zfh4bibk3c99pijw5xma4sz03jj0m10557ny55wwbz7aqfzny"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/dwim-shell-command")
    (synopsis "Shell commands with DWIM behaviour")
@@ -23876,14 +23876,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260708.1516")
+   (version "20260708.1901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "64f88a726d7f529468504f023947ca4bd19bd4dd")))
-     (sha256 (base32 "0mnjynj9maaagjjf1s9myjw1ylc466fc9p4ipwjqmw57ykjrl5rz"))))
+           (commit "f04a58052576789f1807112cb7494478bf45a412")))
+     (sha256 (base32 "1gnndpb7qq7cskpz84y5gqfw9h6cghmqxf3vfzk113nv8r78mgmy"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -38958,14 +38958,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260702.7")
+   (version "20260709.328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "def4a2297f5d62624b9325a823ff8665436c3d23")))
-     (sha256 (base32 "0i1gvvj6rrjqc3mrv8b3sz17xw91pyvjagh5xyn0npzyswkd5ppv"))))
+           (commit "674166d5664a6191e84092026bf542a4a960b1f6")))
+     (sha256 (base32 "1pvgfxlrp5vjn06zbcxi69vi07il5b2qhvalm541dxcr9jx0b3n4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -61256,7 +61256,7 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260708.1110")
+   (version "20260708.1720")
    (source
     (origin
      (method git-fetch)
@@ -63283,14 +63283,14 @@
 (define-public emacs-mediawiki
   (package
    (name "emacs-mediawiki")
-   (version "20260630.113")
+   (version "20260708.2249")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hexmode/mediawiki-el.git")
-           (commit "ac5dc047559183e4e7f8a5d1c4bb2a552a1a19a5")))
-     (sha256 (base32 "1g6vapbpzyn85aycgfz3z2zx5alj3ggkqjq8c95zk9ii3k0bssgi"))))
+           (commit "6e081439a876b3cb9a27146fd75e887997712629")))
+     (sha256 (base32 "1i9jqchlbg5w8zmqbzpnyz11xgqhfriy1kyp8z8mczpyvhyz646f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hexmode/mediawiki-el")
    (synopsis "Mediawiki frontend")
@@ -64865,14 +64865,14 @@
 (define-public emacs-mock-fs
   (package
    (name "emacs-mock-fs")
-   (version "20260111.410")
+   (version "20260708.2247")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/trevoke/mock-fs.el.git")
-           (commit "c1a4b1f923bed627aea5579acd782e91243e7cdc")))
-     (sha256 (base32 "10cg7gsf0iba8jh9gxvykrhc0ai3rnnwwjrcc0jnasn8fxfpkyz1"))))
+           (commit "b15c34281d076d6aa1ea5820368307694952e2ce")))
+     (sha256 (base32 "0jdpqpzcwf2d2pwlj9car9zx7y4d2i4nm8b057fyk5klw3hk4hpq"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Trevoke/mock-fs.el")
    (synopsis "Virtual filesystem for Emacs Lisp tests")
@@ -68224,14 +68224,14 @@
 (define-public emacs-nimbus-theme
   (package
    (name "emacs-nimbus-theme")
-   (version "20260112.41")
+   (version "20260708.2117")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/nimbus-theme.git")
-           (commit "1ee3e643a01129263833ee5538e5df1fefb25cde")))
-     (sha256 (base32 "0a4w8pvwmpjb0lflxccvp67gr16xb458hzkj7zjkm44iq7i55qy1"))))
+           (commit "d8544f963463d9d2e6ae3b701c1538064d57c6df")))
+     (sha256 (base32 "1adkbhs2yrmhi6nh30c2dsiamh5wd3ibg31nl4f2qyc00cpzs40j"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/nimbus-theme")
    (synopsis "Nimbus dark theme")
@@ -93593,14 +93593,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260626.1251")
+   (version "20260708.1659")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "a753649c988f805b0710fc399613f64f49ff8da1")))
-     (sha256 (base32 "1b17fjkkcnj1jfqxqhill9cxikfw8g18y2pwkc0zd19sxrz0hvh4"))))
+           (commit "48c33ed1d854ae4d020604fae55816d59b05d9ab")))
+     (sha256 (base32 "1p7k2cqmfxygkvw5pwgpfbh3ir5xksbwmqy15j86zdhgvwym8nan"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -105231,14 +105231,14 @@
 (define-public emacs-verb
   (package
    (name "emacs-verb")
-   (version "20260617.1912")
+   (version "20260708.1918")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/federicotdn/verb.git")
-           (commit "25a25456bb9ef5090d80105aaa8ad931f336a06e")))
-     (sha256 (base32 "16s7va3d7wqbqipkh3nsqsw4vkpdy3bi9qq85a9w93wx113s0sqv"))))
+           (commit "ef09a5804cac4816ca9a0d1fb9c71c8ed3d3df8f")))
+     (sha256 (base32 "0cli080ndalc7xc96f017xk6b5b00hfz0831r64jx8ci9xscwr5a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/federicotdn/verb")
    (synopsis "Organize and send HTTP requests")
@@ -110792,14 +110792,14 @@
 (define-public emacs-zk
   (package
    (name "emacs-zk")
-   (version "20260704.2129")
+   (version "20260708.2048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/localauthor/zk.git")
-           (commit "ad82465a4a65fba7cff07da419455947507080cc")))
-     (sha256 (base32 "1d00i9p391h4341q76ci0x6pxsishsh2mkxshfqivllv80gczn2c"))))
+           (commit "3ecb5ac3c56f8727c99458b6d3ad8e2c7df25348")))
+     (sha256 (base32 "0nalp20qfmaj6028ncl0lqv86kv2jdil0wgvnqb1wb7jllpcgn2d"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("zk.el")))
    (home-page "https://github.com/localauthor/zk")
@@ -110848,14 +110848,14 @@
 (define-public emacs-zk-index
   (package
    (name "emacs-zk-index")
-   (version "20260704.2129")
+   (version "20260708.2048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/localauthor/zk.git")
-           (commit "ad82465a4a65fba7cff07da419455947507080cc")))
-     (sha256 (base32 "1d00i9p391h4341q76ci0x6pxsishsh2mkxshfqivllv80gczn2c"))))
+           (commit "3ecb5ac3c56f8727c99458b6d3ad8e2c7df25348")))
+     (sha256 (base32 "0nalp20qfmaj6028ncl0lqv86kv2jdil0wgvnqb1wb7jllpcgn2d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-zk))
    (arguments '(#:files ("zk-index.el")))
