@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260709.1542")
+   (version "20260710.206")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "28824c59e7b3773762cb436e1a069315d51c87cd")))
-     (sha256 (base32 "09z8c5v67l0cr0m20jzbpl0mvcrqx6iymb0ibxpcnp8np1dx4f87"))))
+           (commit "671458d168677a4d6bd666594a49a6d6696d0906")))
+     (sha256 (base32 "1pc4z3mg1yf93s4vam95bkrgdx30jma8m296z6g4p52az743k5bc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -11817,14 +11817,14 @@
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
-   (version "20260708.713")
+   (version "20260710.828")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clj-refactor.el.git")
-           (commit "bcb9b72dab69d7f310f132e84d614d31f2c63255")))
-     (sha256 (base32 "1in0g32v2ygnqdz7p43sz6ayhm1cpps3xpzx0saplpy2mhrfnwsb"))))
+           (commit "4c3b32b52679c83d2af720198584204baa3a5416")))
+     (sha256 (base32 "07l2gfh9h59vpn38j6livqy8ywmrgg87jc11qnp3cx8ifd4mdv7r"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-yasnippet
@@ -12237,14 +12237,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260709.536")
+   (version "20260710.706")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "65ad9e61217b06d9fac558b6cb85ae5bacdf8171")))
-     (sha256 (base32 "0nxs390qzm25vi6gif8myhsz31gpysxxza425yc8ah1avw6x1pyf"))))
+           (commit "5233aca8494a545597901cc34b7e395536faedd1")))
+     (sha256 (base32 "17mjyprnw8ghjm6krankwfkb9m5windafk2n51rmdpxc8bk4c26a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -38147,14 +38147,14 @@
 (define-public emacs-frame-mode
   (package
    (name "emacs-frame-mode")
-   (version "20230823.1850")
+   (version "20260710.501")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/colonelpanic8/frame-mode.git")
-           (commit "ab5e568a7c7259d31c252c263458bd76490241d0")))
-     (sha256 (base32 "044ppidaapay08nw4gv85ir5ivxwwbys0gdvg6mbpf142qk093hb"))))
+           (commit "462f86b550771743765edcf699041a27ddc3c5c2")))
+     (sha256 (base32 "0dbwz8x8sp343da97sgj85ri6sj3r56hpd0x1mm51ckdwmiap1sv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s))
    (home-page "https://github.com/IvanMalison/frame-mode")
@@ -39825,14 +39825,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260709.2048")
+   (version "20260710.625")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "3ca01b7e00bafe2605f1423952599938c32af82d")))
-     (sha256 (base32 "0qmig3kcd245jq6v4qjyxh36f7vrbilmv6fa9qr7ch0w2kgq5072"))))
+           (commit "766a2d440ea785818d1792def48d397e01b84846")))
+     (sha256 (base32 "009b95a9ygxnsp6rr9bd6rrykhcvyfyga4sl9idpzd8lnhx5pah9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -40416,14 +40416,14 @@
 (define-public emacs-git-overleaf
   (package
    (name "emacs-git-overleaf")
-   (version "20260701.1927")
+   (version "20260710.822")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/git-overleaf.el.git")
-           (commit "6205ef3c4463f7115cb316cd4834ee0638f464ce")))
-     (sha256 (base32 "0ai2q0j40wz999hws0k3jg3zxkyjm5gamk6f69i2pca3fwl87w2b"))))
+           (commit "d2dd751b927a675c2e9df0b2176a891e8f50de5b")))
+     (sha256 (base32 "0jkja93a702nfzr0dadhagiziiqyl9j6bzmwkrkvqjyw56k900c7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket emacs-webdriver emacs-magit-section))
@@ -58486,14 +58486,14 @@
 (define-public emacs-lichess
   (package
    (name "emacs-lichess")
-   (version "20260709.1123")
+   (version "20260710.914")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tmythicator/lichess.el.git")
-           (commit "de62be5c1fbbf37fe4cd241feec88814bc78f2c4")))
-     (sha256 (base32 "0psm2zn5jxppvdhhnzk86i032a50l9prix8c5g3hz3dild1vy3l1"))))
+           (commit "572a6a353e2113c8a95564b9bea1f2896e6d3dab")))
+     (sha256 (base32 "1d87qjmdpizggkrzq39i9vqgvbpjf5mv97vm7zy28ksbqxmfasqa"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "assets" (:exclude "lichess-debug.el"))))
    (home-page "https://github.com/tmythicator/Lichess.el")
@@ -67626,14 +67626,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260630.506")
+   (version "20260710.532")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "1a7296c616075a7b090d662991fb9aa5ef718726")))
-     (sha256 (base32 "0hnvm1v2n0sm6d5fv51c2ab0jxncwrhrs2b96myj1pjjf13rx83l"))))
+           (commit "32acab3624160a7d0bb04c42babaa791729ab8b5")))
+     (sha256 (base32 "0jib25g15aj65jvsfb0ngkiwh85nlyz18qb6wjdd3rfmxb68wrjh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -96500,14 +96500,14 @@
 (define-public emacs-srs
   (package
    (name "emacs-srs")
-   (version "20260707.47")
+   (version "20260710.245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Duncan-Britt/srs.el.git")
-           (commit "0d7f8f0a0c0adabe212210439676cdd933091df9")))
-     (sha256 (base32 "0n4xzs0yq46m9f7wixa47c35673g73jg19m0fdwv3v56kfwyxy81"))))
+           (commit "71cd5b3c0dd449bbc43599824de20fac7593c53c")))
+     (sha256 (base32 "1xcvvfxjldlv42l5xz82mgqx89myf7nzxsca0n7cycknzdwxk1ss"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Duncan-Britt/srs.el")
    (synopsis "Spaced repetition in plain text")
@@ -108233,14 +108233,14 @@
 (define-public emacs-with-command-redo
   (package
    (name "emacs-with-command-redo")
-   (version "20260706.2136")
+   (version "20260710.942")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-with-command-redo.git")
-           (commit "2996eef7ff22046c71c1ea294fc06391a9d4e25c")))
-     (sha256 (base32 "05a852rgvkdambdi43bgdmkijff56gdn3lkpli68qs9mb2lqz18z"))))
+           (commit "b3e3c86e2cbeb097552a1bff000905ad28de7907")))
+     (sha256 (base32 "0kn6mlim6an53kwh09fiyvjgavm42l7sdmb3nsrmw47dky2za827"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-with-command-redo")
    (synopsis "Repeat commands with automatic undo")
