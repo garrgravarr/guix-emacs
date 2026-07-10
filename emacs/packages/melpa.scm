@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260709.611")
+   (version "20260709.2151")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "55828fdc298e9ea0731aef898508f497ff73594d")))
-     (sha256 (base32 "16xccj5sfm16gf0b3pvb4r5d7ax4704dzgd32baqckm21zkfbw1d"))))
+           (commit "3c8bd0b995c398625b8088a37f46939c0976e3d7")))
+     (sha256 (base32 "0fbypf6m0b065fnj4j9hml2j74w31kcypkyp2x4yffxbmgnlgq90"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -12307,14 +12307,14 @@
 (define-public emacs-cmake-mode
   (package
    (name "emacs-cmake-mode")
-   (version "20260617.1353")
+   (version "20260709.1724")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.kitware.com/cmake/cmake.git")
-           (commit "c7dc6defe96cd4de9b6cf99b2ee6360f4aa0ab8a")))
-     (sha256 (base32 "1z4yc13dnja0qh0qa61fka8y9dgb7rqdy4slx44lr6cr9c8csgr6"))))
+           (commit "477b2fa32f78e2c255a1295095f530dfd36d7995")))
+     (sha256 (base32 "0vps8jddms0qifqqap51dm7k8azbxm14pzbp314g4p58z65r8dwb"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("Auxiliary/*.el")))
    (home-page "unspecified")
@@ -22884,14 +22884,14 @@
 (define-public emacs-dtrt-indent
   (package
    (name "emacs-dtrt-indent")
-   (version "20260608.1055")
+   (version "20260709.2011")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jscheid/dtrt-indent.git")
-           (commit "4b71bf995b12966bbc350a32796b9a5f11d67fa6")))
-     (sha256 (base32 "1xl2m790nq4yingv0fzkh223gp10l36ahrbvarlgkix0y7xq99mj"))))
+           (commit "8402da6bcc288709366e0b589fa79e744e877788")))
+     (sha256 (base32 "0r6fa6mim20bya2z3y0cvgrgjndcl839w01byjkb3zbjvwxc0byj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jscheid/dtrt-indent")
    (synopsis "Adapt to foreign indentation offsets")
@@ -26536,14 +26536,14 @@
 (define-public emacs-elot
   (package
    (name "emacs-elot")
-   (version "20260603.1452")
+   (version "20260709.1716")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johanwk/elot.git")
-           (commit "54254ce4bcdee3479ae0c62b4de84c732e909e5b")))
-     (sha256 (base32 "01sqpl3lf3hd8qf6yxrm4bybkc77xdbqi4lswrsgl07a8l53z59k"))))
+           (commit "cc0c0332acf61bbd85c093d58de45fe81d7c373e")))
+     (sha256 (base32 "111c8c7nm1h1mdlfmilw19l3lsh9wm9ddq9gs774x05k8rvirsq0"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -39825,14 +39825,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260708.1212")
+   (version "20260709.2048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "bc0de0b14cf54898ebceecaf36fc81692526d9d0")))
-     (sha256 (base32 "1a642ap8smxr52m80q4dd3aix17pwxv2x6wprcp0fwyvssm2zj6l"))))
+           (commit "3ca01b7e00bafe2605f1423952599938c32af82d")))
+     (sha256 (base32 "0qmig3kcd245jq6v4qjyxh36f7vrbilmv6fa9qr7ch0w2kgq5072"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -61256,14 +61256,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260709.1540")
+   (version "20260709.2311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "2d03acf96546640a46e4ab8e7b3632e1d8782a16")))
-     (sha256 (base32 "1p9qr9iw1v4pzwcri2dwmziq246psxbnwlmdzx2qf79b4b5lln4q"))))
+           (commit "baeaddadafd9c03605319419209a2f4275c6fb02")))
+     (sha256 (base32 "0dn8pc0mk20rz1bksf01lrpy4v6kfkgpvqq3kk6z9jjb06jrv697"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -80774,14 +80774,14 @@
 (define-public emacs-php-mode
   (package
    (name "emacs-php-mode")
-   (version "20250602.1308")
+   (version "20260709.1954")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/php-mode.git")
-           (commit "40b8abed3079771e060dd99a56703520dabf5be4")))
-     (sha256 (base32 "0f558vrgsb354jp4q7z52s3ybpybwjw2yxr8vlj58jg7dam6smyp"))))
+           (commit "86e788eeeab57e0576fad9ec9ea1fab0c236efb7")))
+     (sha256 (base32 "0pyyr9514capr44jw48mgcfzhpgnh8qx1vv6v24j35p29bb9zx8q"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacs-php/php-mode")
    (synopsis "Major mode for editing PHP code")
