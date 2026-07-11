@@ -8277,14 +8277,14 @@
 (define-public emacs-buffer-manage
   (package
    (name "emacs-buffer-manage")
-   (version "20260626.2233")
+   (version "20260711.1557")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/plandes/buffer-manage.git")
-           (commit "d2b17b2556a69ec40f454f6b6b0f37b439288e04")))
-     (sha256 (base32 "11b2a2lr3khqhsvjrqdcyhyvy8x9qkvdcci36x3n434fldqspwk8"))))
+           (commit "229673aca42f2cd7fc60b3d24516aa075a1fb48c")))
+     (sha256 (base32 "0il2m4ybzqj5qnz7n2x34jv7wx89gkli745rsr1qf0i9jg4g3wd6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-choice-program emacs-dash))
    (home-page "https://github.com/plandes/buffer-manage")
@@ -10875,14 +10875,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260711.757")
+   (version "20260711.1541")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "0d1b2c5c22cf313ac074699d2714ef90a4ccbc77")))
-     (sha256 (base32 "1lncj2a1xpgnlizjiz0rvfzssn46fiv6gqqj12nkpj91cz48sc50"))))
+           (commit "a3b5825c464d610006f52f9bbb327610cc0ec6ef")))
+     (sha256 (base32 "1ww0l64k2gvz051p6fg5c73yalgic6pd2zngp40zw9nhxi15wv0c"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -30340,14 +30340,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260707.1804")
+   (version "20260711.1412")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "f0d7756040878b202217da7a20fe77dc332db169")))
-     (sha256 (base32 "01hpi8n3w0l6sikl9ygwfl59yvrpc03spwkci85r7yjq6brj9mfl"))))
+           (commit "df9b7e1ab3bb2a5305232f02f7619e4e2f0570b4")))
+     (sha256 (base32 "09k5mx8c3pljk6n6cns48zns95rbvb94hwqqjq3sm4ii92hn9zg1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -38956,14 +38956,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260710.2242")
+   (version "20260710.2247")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "314333b667603b32aa60500ceccdfab14e9b1a4e")))
-     (sha256 (base32 "0rs8dba13v4fw0b13pcah6w67m8mjs1hnpbnhn529zgwlzjcwwhb"))))
+           (commit "98951bd98eac791c2b4f85780bcf8e1b30b632d0")))
+     (sha256 (base32 "1h99l6a8v6dndvkm76mib2xp4hqlpbz8yqlv2l38m2dlcssmsgm1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -39823,14 +39823,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260710.625")
+   (version "20260711.1412")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "766a2d440ea785818d1792def48d397e01b84846")))
-     (sha256 (base32 "009b95a9ygxnsp6rr9bd6rrykhcvyfyga4sl9idpzd8lnhx5pah9"))))
+           (commit "df9b7e1ab3bb2a5305232f02f7619e4e2f0570b4")))
+     (sha256 (base32 "09k5mx8c3pljk6n6cns48zns95rbvb94hwqqjq3sm4ii92hn9zg1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49584,14 +49584,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260711.113")
+   (version "20260711.1658")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "afd47e44f7550e67b158a2203fdb903b4a9ef3dd")))
-     (sha256 (base32 "0yfviha3qbqak3c2wdav88i887bi7dd4pbqwldvafbmyzyq8mh2c"))))
+           (commit "cf921f2ab7977422c6fd1c5778aa6bab757fbc0f")))
+     (sha256 (base32 "12s0vhrq9pdl32h00x0drqs2mz1v1gap5ch2n3csl8wylhiq590s"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -61254,14 +61254,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260709.2311")
+   (version "20260711.1257")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "baeaddadafd9c03605319419209a2f4275c6fb02")))
-     (sha256 (base32 "0dn8pc0mk20rz1bksf01lrpy4v6kfkgpvqq3kk6z9jjb06jrv697"))))
+           (commit "fe56c0d10a91d00aed65f831b8435a7224bc7730")))
+     (sha256 (base32 "0wcmi7c73131l5qd3a2xynsdgfmi7qcg7kkca04bczlfavh0fjac"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -61935,14 +61935,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20260709.19")
+   (version "20260711.945")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "f9ff19c3eca7d88b8ad6385c5592369d4b4d9cda")))
-     (sha256 (base32 "07n00xg6sy9ghabiqwq9psx5wqdf3zshl8xh77b13hibhd3a5dq9"))))
+           (commit "0939004f0bf00021246b8fb62fc5e8939b8d98da")))
+     (sha256 (base32 "1k921pisal7qzv7j1dd0cynx1gr6nv539hr0y35mspmvk40bihqb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm))
    (home-page "https://github.com/hrishikeshs/magnus")
@@ -62372,14 +62372,14 @@
 (define-public emacs-mark-thing-at
   (package
    (name "emacs-mark-thing-at")
-   (version "20250126.2020")
+   (version "20260711.1130")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/plandes/mark-thing-at.git")
-           (commit "a9a6c824ede52825a1dea8d880776ad20f12f488")))
-     (sha256 (base32 "1nq3f05js3zvksc43i01pavy9iyjdmvfr5rcy67r9x9ahdjs1nmm"))))
+           (commit "7829d89ba7da560adb4236fd26fc6ed5813b7173")))
+     (sha256 (base32 "0y62fhdsmi3da53ldrv8l3jwg756dqwa5r1av442hnxv8pmq8v7d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-choice-program))
    (home-page "https://github.com/plandes/mark-thing-at")
@@ -99285,14 +99285,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260706.2147")
+   (version "20260711.827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "fb5571bbb49304b0f61b208edde396c773f6285a")))
-     (sha256 (base32 "1lh83wx86z20fvk8izk378vkj2r5hrj6kxraqizari0whk4k5w1a"))))
+           (commit "fc6a4d1ec6edba6b3c65b3f069cce0398c2fb7a5")))
+     (sha256 (base32 "1lcv7nq08llr8s0yhjbaj33lk169nyn60ldrmvjkbdra8qzy9chp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -108195,7 +108195,7 @@
 (define-public emacs-wisp-mode
   (package
    (name "emacs-wisp-mode")
-   (version "20260708.623")
+   (version "20260711.758")
    (source
     (origin
      (method url-fetch)
@@ -108203,7 +108203,7 @@
            "https://melpa.org/packages/wisp-mode-"
            version
            ".tar"))
-     (sha256 (base32 "1yvwqdry4c6jwgmcddl73qrrz0hx0ca3kd4q8nmjzlz7p3gwxrz5"))))
+     (sha256 (base32 "1n20jjgw3yhiv5sbc2vymh0vb7pi6g968zz0rlfnazp7k15i9ps3"))))
    (build-system melpa-build-system)
    (home-page "http://www.draketo.de/english/wisp")
    (synopsis "Tools for wisp: the Whitespace-to-Lisp preprocessor")
