@@ -1823,7 +1823,7 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260710.1453")
+   (version "20260711.152")
    (source
     (origin
      (method git-fetch)
@@ -10670,14 +10670,14 @@
 (define-public emacs-chordpro-mode
   (package
    (name "emacs-chordpro-mode")
-   (version "20250814.301")
+   (version "20260711.623")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~breatheoutbreathein/chordpro-mode.el")
-           (commit "ae6db74f2078e4ee3d6262ac1344df9c1ab87527")))
-     (sha256 (base32 "03aqw9385f5xdhphhm352n66yi2fmah6n43wrnr850d3mq5485g0"))))
+           (commit "9d7b242b06453aaaa3fb3d1cca438ebcd478979b")))
+     (sha256 (base32 "13447a0cc0jhxxmjhazv0hshbr13vpx22r30xhxm38c4hq7rfalk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://git.sr.ht/~breatheoutbreathein/chordpro-mode.el/")
@@ -10875,14 +10875,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260710.1851")
+   (version "20260711.757")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "91de4e7b01d2684dc4cb94d43dc40018db1a8a77")))
-     (sha256 (base32 "14qaikl2ga54hqvkc6q5gs03qda69pc0qyx9pkl3d9g1z39h58sy"))))
+           (commit "0d1b2c5c22cf313ac074699d2714ef90a4ccbc77")))
+     (sha256 (base32 "1lncj2a1xpgnlizjiz0rvfzssn46fiv6gqqj12nkpj91cz48sc50"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -11817,14 +11817,14 @@
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
-   (version "20260710.1135")
+   (version "20260711.707")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clj-refactor.el.git")
-           (commit "a305a4e78ea535ebaddbdd3ea1b366d58975dd7a")))
-     (sha256 (base32 "1x2qczldm8nfhmh4bgrv1rpg0338izw0an9p1w51lsylv9yw0ns8"))))
+           (commit "e961de4ad9b339e4192b511cf8857b14f598750e")))
+     (sha256 (base32 "0aq4l34skmciilly1sz5k70m7cicpjvhknka9yxs1c3vg2rv13zj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-yasnippet
@@ -33625,14 +33625,14 @@
 (define-public emacs-flash
   (package
    (name "emacs-flash")
-   (version "20260308.621")
+   (version "20260711.805")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Prgebish/flash.git")
-           (commit "42fbc5883fd802df97cae842c403deba4c433d45")))
-     (sha256 (base32 "18jbcqp844s1cvra2xw9nq9fw3g3y0jwyi1bxlm4f8s8g97bfvxd"))))
+           (commit "db3bfa84866f143a0665d1b5a48c3b30dc7b528f")))
+     (sha256 (base32 "02z4h73018mv5hf6xzwhaamv24abnj2s6lg5daybd0qz9ncvxxrd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Prgebish/flash")
    (synopsis "Flash-style navigation")
@@ -40753,14 +40753,14 @@
 (define-public emacs-github-topics
   (package
    (name "emacs-github-topics")
-   (version "20250416.2102")
+   (version "20260106.1904")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/github-topics.git")
-           (commit "296cb525c5387e5242b89950d2d84d258ff82fd2")))
-     (sha256 (base32 "1l5n5wgcnws0iz5ym4znbssin67dzgz3iwq3cp04jf1nssay863h"))))
+           (commit "dce3530b61fe4293190e40edf835291e8542a762")))
+     (sha256 (base32 "0v2c7dlky03a94nrbbpl0l2zj74sd43nyds03r2im7rg8r4ssc5p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ts))
    (home-page "https://github.com/agzam/github-topics")
@@ -43720,14 +43720,14 @@
 (define-public emacs-guix
   (package
    (name "emacs-guix")
-   (version "20260607.628")
+   (version "20260711.616")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/guix/emacs-guix.git")
-           (commit "737c05d81c975ea56d7c1fb1bf8de5b4805d9062")))
-     (sha256 (base32 "19cjw9fvl2sa80gsn9q3d17inyk3sbr9snsl7bvhcf8r4yjcl02f"))))
+           (commit "90db5c1951886737aa26cc8be8e7ac717182dfef")))
+     (sha256 (base32 "0sm9s1jspqz5i4fq4s4hskyvfnhpzipxq490xx60p8gdnrxvvkny"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -49584,14 +49584,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260710.1922")
+   (version "20260711.113")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "d10ef45b908ce05e9ea71a2876eafe07ebf101f4")))
-     (sha256 (base32 "122i98r1ca0pgz3h2piwl4s5hp3vdj9sy29d2rngc63w4iy18ap2"))))
+           (commit "afd47e44f7550e67b158a2203fdb903b4a9ef3dd")))
+     (sha256 (base32 "0yfviha3qbqak3c2wdav88i887bi7dd4pbqwldvafbmyzyq8mh2c"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -66634,14 +66634,14 @@
 (define-public emacs-musicbrainz-interactive
   (package
    (name "emacs-musicbrainz-interactive")
-   (version "20260701.850")
+   (version "20260711.830")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zzkt/metabrainz.git")
-           (commit "13b03ebd6fc6deb6f5d8655cd4ca09fe2680be16")))
-     (sha256 (base32 "1fsd166wf714kav3g1nsvd0x5r2x237wp35mx1kajpwa2jncba2c"))))
+           (commit "6c699a9c1a8b9292a732ae1bd662b021fcd8d8b8")))
+     (sha256 (base32 "0xnx60g9l523k5ckx97bv1h3n472da268acl20nq6158w7zh6ni0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-musicbrainz))
    (arguments '(#:files ("musicbrainz-interactive.el")))
@@ -74141,14 +74141,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260709.1259")
+   (version "20260711.718")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "7a529cfb4f8cdc11c71080e6121ef90b66256cb3")))
-     (sha256 (base32 "091xm8zhc5kbawn3ncm5gnxla747jlrz879lr5f89zlyqk4gsqk7"))))
+           (commit "12562f4394c659f70d271db5ae5b6eea6b26169f")))
+     (sha256 (base32 "0ps56pjsillr26py5f43r9k1xnqxv68yr16sgcfk8whcz8npg8w3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -83796,14 +83796,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260708.804")
+   (version "20260711.748")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "1c29f1bc235d0eaeba4988e87ac3e3be8d20bae4")))
-     (sha256 (base32 "0kaclmwhxxks9gc5gpah169vi092l3gl48bla9vsvg9spprsj5fs"))))
+           (commit "9d6b20b81cce3a827fb01c98cd1359b3ae6a697e")))
+     (sha256 (base32 "0afs28jplr8czwbv7wr9vxdrahya0z8lz74nc622i99nnyn24y9p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -90490,14 +90490,14 @@
 (define-public emacs-sayid
   (package
    (name "emacs-sayid")
-   (version "20260710.1015")
+   (version "20260711.739")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/sayid.git")
-           (commit "9e98dda1748faca10ad74a8d2e58d7e5c219ed9d")))
-     (sha256 (base32 "19br2r1v7v1rhb6wk6rlhm1xjj25iffb57jjmsk6991g3qx05wq2"))))
+           (commit "b0fe109ccd7c8377be02bb9938153d251a7db4b3")))
+     (sha256 (base32 "08sdgi158av9dqk5q0wpx3fm6f37ig8pp0r0m1437zjdgni692f7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-cider))
    (arguments '(#:files ("src/el/*.el")))
@@ -93374,14 +93374,14 @@
 (define-public emacs-sis
   (package
    (name "emacs-sis")
-   (version "20251208.853")
+   (version "20260711.608")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laishulu/emacs-smart-input-source.git")
-           (commit "515e1dbe0180f33c292660b4b70d02d47153be5b")))
-     (sha256 (base32 "1gd9zribaif3kdaja2csbhc1a05vh6bjxqfm4qlk4bvw88ldqv0b"))))
+           (commit "7ca3e115f159f22ddb4bcea85a22246ee03c422c")))
+     (sha256 (base32 "1s8sy3vv55hh63rrpprd24p934lmvll2m5wspwfi2pibvx9jajkv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/laishulu/emacs-smart-input-source")
    (synopsis "Minimize manual input source (input method) switching")
@@ -110020,14 +110020,14 @@
 (define-public emacs-yeetube
   (package
    (name "emacs-yeetube")
-   (version "20260705.2147")
+   (version "20260711.320")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/yeetube")
-           (commit "04eee9f75b609043d7ec2070d87adfb1fc62559d")))
-     (sha256 (base32 "0h6z8ayhaskfh6s15y4papqiy8wv7sd0lf24j1ab43vbj376smsi"))))
+           (commit "d2bef269fc1d00ccc88de0932430ae56165f4671")))
+     (sha256 (base32 "03nag992p5abngh3jp6j0nq4l5bqbqz7hgmdhyqv3j0rnihlxvr0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://thanosapollo.org/projects/yeetube/")
