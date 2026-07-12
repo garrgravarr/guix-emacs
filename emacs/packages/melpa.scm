@@ -6991,16 +6991,16 @@
 (define-public emacs-bitbake
   (package
    (name "emacs-bitbake")
-   (version "20260704.1407")
+   (version "20260712.1615")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/danielcmccarthy/bitbake-el.git")
-           (commit "ed95082058b0c4c580791f6dd8eca0fe8b73407a")))
-     (sha256 (base32 "0yxi0lrmyq4d3fpn2wnnrsps71z58r3ixz736v5g72yl66r3nffq"))))
+           (commit "f626d37727df0550aa2afd3f1b0ce81f38be18a3")))
+     (sha256 (base32 "0jzig4hyia6zi31qygh8c62jzfas7vz7kp3nfh8s1fvqx8pj8lrk"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-dash emacs-mmm-mode emacs-s))
+   (propagated-inputs (list emacs-dash emacs-polymode emacs-s))
    (home-page "https://github.com/canatella/bitbake-el")
    (synopsis "Running bitbake from emacs")
    (description "Documentation at https://melpa.org/#/bitbake")
@@ -9446,14 +9446,14 @@
 (define-public emacs-cargo-transient
   (package
    (name "emacs-cargo-transient")
-   (version "20241204.1217")
+   (version "20260712.1432")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/peterstuart/cargo-transient.git")
-           (commit "b75511f911189b6b6c47976dd970eeb80ccfb3ee")))
-     (sha256 (base32 "1s1kjc7xg55lnwn5ngdp89hnh2qp42x10cyqlji268xiglx0xzs2"))))
+           (commit "ece657bb0f44f64a273d5334b3423688b7ed9e3e")))
+     (sha256 (base32 "07n3kd2krsvlr1mkh7vn5w5dp2p2y4c7k6kyvywlh69zzqn564yy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/peterstuart/cargo-transient")
    (synopsis "A transient UI for Cargo, Rust's package manager")
@@ -10875,14 +10875,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260711.1541")
+   (version "20260712.945")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "a3b5825c464d610006f52f9bbb327610cc0ec6ef")))
-     (sha256 (base32 "1ww0l64k2gvz051p6fg5c73yalgic6pd2zngp40zw9nhxi15wv0c"))))
+           (commit "744f008a5ee49c277783998413f5ec1abcc9593a")))
+     (sha256 (base32 "1dzg5w0y7nd3zablxgs69a2r0m3ys3pms2mfmvi7crh5imwfsgd8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -11414,14 +11414,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260707.712")
+   (version "20260712.1616")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "190ea8ca7b5b1102db2d13f594592d4cedea689b")))
-     (sha256 (base32 "06zwvwxa1s7g5nwl9gmvfsb8dwffdv04029l18mjx9bs4p58z5b5"))))
+           (commit "62db081e22e6f496d38323f28c47ae47567ccf3b")))
+     (sha256 (base32 "1k49j7dkdr6sckqjcw67j0fbm42hsv8s5ari836nj9bpkldasry4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -11817,21 +11817,22 @@
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
-   (version "20260712.748")
+   (version "20260712.1423")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clj-refactor.el.git")
-           (commit "af61112d51720c81488b96368c84f23ac4753da9")))
-     (sha256 (base32 "0rc5qicdzvllmff79bkb4rbygxqw1pkq6i0gbx9swibaxpj0p75w"))))
+           (commit "f11383b643a46bb41f657455a55900682e6baf1c")))
+     (sha256 (base32 "0axmnmzx6473vf72sxps91d76bwnk4ing83x4axryklrjxds16cr"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-yasnippet
           emacs-paredit
           emacs-clojure-mode
           emacs-cider
-          emacs-parseedn))
+          emacs-parseedn
+          emacs-spinner))
    (arguments '(#:files (:defaults "CHANGELOG.md")))
    (home-page "https://github.com/clojure-emacs/clj-refactor.el")
    (synopsis "A collection of commands for refactoring Clojure code")
@@ -57046,14 +57047,14 @@
 (define-public emacs-lab
   (package
    (name "emacs-lab")
-   (version "20260620.1757")
+   (version "20260712.1302")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/lab.el.git")
-           (commit "2be6e50e75b4372337b77d0ae5563cb8cd671352")))
-     (sha256 (base32 "1d0q7ssm9ynhd1da34by6a5zwbyzq20x8bqky9hf0fk28m9xpjjh"))))
+           (commit "dbfdc8bb71dc5983619fd983285573718d584445")))
+     (sha256 (base32 "075pwm37fk1nbdi54gq4idr4av1rc9maf2biabyll8yaij4d67xp"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-request
@@ -65141,14 +65142,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260707.2008")
+   (version "20260712.927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "a69a3c80b6026b6e5ec93955af7c82c52fbbc735")))
-     (sha256 (base32 "04k769f260l6hh97qb3bi3djn2icrlrrlb98ylms56q17jx7qlx2"))))
+           (commit "31e8394cb1a563814d341bc4f7fa162a6e0d9169")))
+     (sha256 (base32 "1b14aywkm3524mzc6lkmrh91320w5lsxnhhavyhkj3mbzkyz8a7h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -83796,14 +83797,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260712.921")
+   (version "20260712.1054")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "095f493b6e9091d41247d2d4a741c84f9fc8158c")))
-     (sha256 (base32 "19xjyq786r71f0rv9s0qgspkzr3c7qfxp5j8nh1slp48ll5sa6fj"))))
+           (commit "fc4ccb86687c9f1bd65c8d0f07f36fcae381307f")))
+     (sha256 (base32 "1dkjp1j92miklqqk8ryk7dcsai203rkgvkl8x4fg3mwcz37aq1gl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
