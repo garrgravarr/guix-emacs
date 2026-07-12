@@ -11817,14 +11817,14 @@
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
-   (version "20260711.707")
+   (version "20260712.748")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clj-refactor.el.git")
-           (commit "e961de4ad9b339e4192b511cf8857b14f598750e")))
-     (sha256 (base32 "0aq4l34skmciilly1sz5k70m7cicpjvhknka9yxs1c3vg2rv13zj"))))
+           (commit "af61112d51720c81488b96368c84f23ac4753da9")))
+     (sha256 (base32 "0rc5qicdzvllmff79bkb4rbygxqw1pkq6i0gbx9swibaxpj0p75w"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-yasnippet
@@ -23857,14 +23857,14 @@
 (define-public emacs-ebuku
   (package
    (name "emacs-ebuku")
-   (version "20240921.839")
+   (version "20260712.308")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flexibeast/ebuku.git")
-           (commit "45294cedeeefdcb0193b18dc3e2254db0aa700c3")))
-     (sha256 (base32 "11canjhvwpj2hy5czav2hn1hx0lzckicsbr3p8fr6pjrg3gg2bwh"))))
+           (commit "dba4523f18591491c2d716442ad1da184747d879")))
+     (sha256 (base32 "1vdsp873xmhm49r5cdha82halgwz5p85k9977xfw2163ldlkqigx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flexibeast/ebuku")
    (synopsis "Interface to the buku Web bookmark manager")
@@ -30340,14 +30340,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260711.1412")
+   (version "20260712.716")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "df9b7e1ab3bb2a5305232f02f7619e4e2f0570b4")))
-     (sha256 (base32 "09k5mx8c3pljk6n6cns48zns95rbvb94hwqqjq3sm4ii92hn9zg1"))))
+           (commit "0d41dfbbcd0577e7c7969f08703026f299d2eb71")))
+     (sha256 (base32 "06h356rdvy3vyapkckmywpqgbpdqp9vj88k7pchvjikbh5apr1b9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -59978,14 +59978,14 @@
 (define-public emacs-look-mode
   (package
    (name "emacs-look-mode")
-   (version "20250511.602")
+   (version "20260712.530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/petermao/look-mode.git")
-           (commit "6d82a013ede5f9ef5493801c3071bad5f6b283bb")))
-     (sha256 (base32 "1hbhvj2z41sdb03srm9q88pl5f7dzvgif9y5p7sw45gpz1bmnhmf"))))
+           (commit "9102caebfb266e8153e14f7462dddfcfa8ba54dd")))
+     (sha256 (base32 "1vm8s0al1ydkbfgqqjjzzgfhkkws621304pr3bfllwffkn3gddz3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/petermao/look-mode")
    (synopsis "Quick file viewer for image and text file browsing")
@@ -60452,14 +60452,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260711.37")
+   (version "20260712.405")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "2042532c24be12862bb36467b8a96c6187d378d2")))
-     (sha256 (base32 "1l3r195ldczw9n7fnrnnqwl4qv0pqgpcqp0jvp0c3l3qa5q8pib6"))))
+           (commit "32e7115eb04adc262a1aa6e72f93a2b499d6b70f")))
+     (sha256 (base32 "0808l4gxp75dj6zq62vrgqrkyj283dhi11ibnrihprcdillwjrjm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -83796,14 +83796,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260711.748")
+   (version "20260712.921")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "9d6b20b81cce3a827fb01c98cd1359b3ae6a697e")))
-     (sha256 (base32 "0afs28jplr8czwbv7wr9vxdrahya0z8lz74nc622i99nnyn24y9p"))))
+           (commit "095f493b6e9091d41247d2d4a741c84f9fc8158c")))
+     (sha256 (base32 "19xjyq786r71f0rv9s0qgspkzr3c7qfxp5j8nh1slp48ll5sa6fj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -96498,14 +96498,14 @@
 (define-public emacs-srs
   (package
    (name "emacs-srs")
-   (version "20260711.1524")
+   (version "20260712.531")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Duncan-Britt/srs.el.git")
-           (commit "dbc5f27b57acc784219790bc79bf3abcb4bff4e1")))
-     (sha256 (base32 "00xli45c8lqxp28h2lh192bdk0i3cvlhg677zavbwf4s2dzc1a01"))))
+           (commit "4f8312989e673ec38a3f1abb301aa9cd3355f0fb")))
+     (sha256 (base32 "0izcj0fbr6wk1g7jm2x9dqslvsmvwv76l30n4lm47c6y0c66wg74"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Duncan-Britt/srs.el")
    (synopsis "Spaced repetition in plain text")
