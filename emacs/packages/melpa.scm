@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260709.2151")
+   (version "20260711.2007")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "3c8bd0b995c398625b8088a37f46939c0976e3d7")))
-     (sha256 (base32 "0fbypf6m0b065fnj4j9hml2j74w31kcypkyp2x4yffxbmgnlgq90"))))
+           (commit "156b777832400bc6996839b4dd4d2728cabe5cb9")))
+     (sha256 (base32 "018mx5pwly6y2zrdjygz31lag5zbmlam5l2kgajw416g4rjshkns"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260711.152")
+   (version "20260711.1901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "215fd86d645d314775571818e709e1790885e744")))
-     (sha256 (base32 "1aicq3x2j5g3cc0grrq4wjrd5cgwzxrpxqlzis1ba0w2961k20h4"))))
+           (commit "af81f794a4047f338a3d382bb2dea30d1695c988")))
+     (sha256 (base32 "1b0h91jy2qnsqy7kbbcvzmb4xwhk8951il24axcw2jlqgi9v45jw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -23874,14 +23874,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260708.1901")
+   (version "20260711.1928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "f04a58052576789f1807112cb7494478bf45a412")))
-     (sha256 (base32 "1gnndpb7qq7cskpz84y5gqfw9h6cghmqxf3vfzk113nv8r78mgmy"))))
+           (commit "acc2b0647f4dd0988ba15c2d0f9b5aef5d3ea96f")))
+     (sha256 (base32 "01d4rnx2qj4hla55a6v9ijz8zm936dq979zcqhdd4cwg4f0azil8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -38956,14 +38956,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260710.2247")
+   (version "20260711.1842")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "98951bd98eac791c2b4f85780bcf8e1b30b632d0")))
-     (sha256 (base32 "1h99l6a8v6dndvkm76mib2xp4hqlpbz8yqlv2l38m2dlcssmsgm1"))))
+           (commit "3c1742e56fba99c80f7fc18ac0165a03e030ea84")))
+     (sha256 (base32 "171ywl6kg0r4s70710bmk25hxk2w0r0iycpcjxrzyd0278pkp1pd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -96498,14 +96498,14 @@
 (define-public emacs-srs
   (package
    (name "emacs-srs")
-   (version "20260710.2252")
+   (version "20260711.1524")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Duncan-Britt/srs.el.git")
-           (commit "a39f13525d62993bd39ecbe992a06f50853d9d1d")))
-     (sha256 (base32 "1i5x15kx2ns1x07yvj57xk06126vd43mm6lkdhzz6jf9i6jkvl1i"))))
+           (commit "dbc5f27b57acc784219790bc79bf3abcb4bff4e1")))
+     (sha256 (base32 "00xli45c8lqxp28h2lh192bdk0i3cvlhg677zavbwf4s2dzc1a01"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Duncan-Britt/srs.el")
    (synopsis "Spaced repetition in plain text")
@@ -108195,7 +108195,7 @@
 (define-public emacs-wisp-mode
   (package
    (name "emacs-wisp-mode")
-   (version "20260711.758")
+   (version "20260711.2357")
    (source
     (origin
      (method url-fetch)
@@ -108203,7 +108203,7 @@
            "https://melpa.org/packages/wisp-mode-"
            version
            ".tar"))
-     (sha256 (base32 "1n20jjgw3yhiv5sbc2vymh0vb7pi6g968zz0rlfnazp7k15i9ps3"))))
+     (sha256 (base32 "19c18qw007h314j947kaxzpcb29j283ck0y6vzv786sgmnn3b1r0"))))
    (build-system melpa-build-system)
    (home-page "http://www.draketo.de/english/wisp")
    (synopsis "Tools for wisp: the Whitespace-to-Lisp preprocessor")
