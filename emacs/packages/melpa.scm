@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260711.2007")
+   (version "20260712.2107")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "156b777832400bc6996839b4dd4d2728cabe5cb9")))
-     (sha256 (base32 "018mx5pwly6y2zrdjygz31lag5zbmlam5l2kgajw416g4rjshkns"))))
+           (commit "369570450da95082339c849b058936d6187399a1")))
+     (sha256 (base32 "0nn8556l949p3zjf001di8kacq8s5d9bkfsalhw0lnrlyx6hi1gi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -11414,14 +11414,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260712.1616")
+   (version "20260712.2017")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "62db081e22e6f496d38323f28c47ae47567ccf3b")))
-     (sha256 (base32 "1k49j7dkdr6sckqjcw67j0fbm42hsv8s5ari836nj9bpkldasry4"))))
+           (commit "c03a31ff0b1bc31561954a6b6fd629ae13e87f64")))
+     (sha256 (base32 "12jfkfra325qahridvfz2vkqc41hyvnvyy0xldiwwcfnqwpchk5p"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -26329,14 +26329,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260626.1223")
+   (version "20260712.1716")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "09857e5d2ec8a7bfc68b510a2a6afce2b165566b")))
-     (sha256 (base32 "00iwn1r717y7x49g9vncghiyi5ffp7y1ig2bghnaqchs5d8rv5g3"))))
+           (commit "b00c307c97a2e447948a589fe591e3cad2d4b93a")))
+     (sha256 (base32 "16nxq115s3b70y9gj5w1wn4ihq4wfczaripwnlb283sz3waygj9m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -30105,14 +30105,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260626.255")
+   (version "20260712.1946")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "162183159dde328336bf2c92cef66b4151df26cf")))
-     (sha256 (base32 "1wghq0y7jnipwggisbccjdw0p5s5204f5vczdjkrv56llid92svv"))))
+           (commit "a55c082c59ad811f56627400db3018dfba41e8e2")))
+     (sha256 (base32 "051lql2zxazg407kxg50chcih860syidxzapzzxq5x8n391gd3mx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -37691,6 +37691,24 @@
    (home-page "https://github.com/landerwells/folgezett.el")
    (synopsis "Folgezettel IDs for org-roam")
    (description "Documentation at https://melpa.org/#/folgezett")
+   (license #f)))
+
+(define-public emacs-folio-theme
+  (package
+   (name "emacs-folio-theme")
+   (version "20260711.13")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/kn66/folio-theme.el.git")
+           (commit "c39b683192ac3078c348521788a547a40ad15d7c")))
+     (sha256 (base32 "1jhkx29nph24ar2ccdhjcr2w0399pn4yafcfvl5v7lachx18pkl1"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-ef-themes))
+   (home-page "https://github.com/kn66/folio-theme.el")
+   (synopsis "Warm paper-like theme built on Modus and Ef")
+   (description "Documentation at https://melpa.org/#/folio-theme")
    (license #f)))
 
 (define-public emacs-font-lock-profiler
@@ -49585,14 +49603,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260711.1658")
+   (version "20260712.1739")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "cf921f2ab7977422c6fd1c5778aa6bab757fbc0f")))
-     (sha256 (base32 "12s0vhrq9pdl32h00x0drqs2mz1v1gap5ch2n3csl8wylhiq590s"))))
+           (commit "c467a935e89ca2e0738d662f7c0db04b3b8ae9d1")))
+     (sha256 (base32 "1yjfj7wyprdgqwdaxad9vga7416dqb502qwg490720k2qh9y877y"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -58838,16 +58856,16 @@
 (define-public emacs-lirve
   (package
    (name "emacs-lirve")
-   (version "20260706.820")
+   (version "20260708.1737")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/tanrax/lirve.el.git")
-           (commit "287f5995e026787f2930e6892874f78c421203f0")))
-     (sha256 (base32 "008aaw0gvm70k3j7m0b4hd0k51q7jd04wg0zqmhjg2spqb9hpkg2"))))
+           (url "https://git.andros.dev/andros/lirve.el")
+           (commit "5927d9e9bf7373d206e2a4d160336e7d7fa20eda")))
+     (sha256 (base32 "0xxz3dsxb00qnblrghmivn619mrs3rw4iny6ckh74gbm86h1a0x4"))))
    (build-system melpa-build-system)
-   (home-page "https://github.com/tanrax/lirve.el")
+   (home-page "https://git.andros.dev/andros/lirve.el")
    (synopsis "Learn irregular verbs in English")
    (description "Documentation at https://melpa.org/#/lirve")
    (license #f)))
@@ -60453,14 +60471,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260712.405")
+   (version "20260712.1914")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "32e7115eb04adc262a1aa6e72f93a2b499d6b70f")))
-     (sha256 (base32 "0808l4gxp75dj6zq62vrgqrkyj283dhi11ibnrihprcdillwjrjm"))))
+           (commit "8427188741d231a85143dadd66db3aa4b1e48c46")))
+     (sha256 (base32 "02gn532h2c6259zb0k47nff8lj35nwsh39aj7cpcm83z9bb0b7hf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -63265,14 +63283,14 @@
 (define-public emacs-media-thumbnail
   (package
    (name "emacs-media-thumbnail")
-   (version "20240816.458")
+   (version "20260712.2311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/media-thumbnail.git")
-           (commit "190632c1d6cc2ab94031d57e0c24412a4698faf0")))
-     (sha256 (base32 "1bj4l8yb383m2b43i514044yjpgh27v69gvm71a08n7r4hhdhbpr"))))
+           (commit "b67c9d7e51236bf1a92bc3a6a290846ff8d9be9a")))
+     (sha256 (base32 "1lwahncffyjp3pfwywkz4428qskx9h5q9w7avd7g04z00cbcs0qq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jojojames/media-thumbnail")
    (synopsis "Utility package to provide media icons")
@@ -64613,6 +64631,23 @@
    (home-page "https://github.com/eki3z/mise.el")
    (synopsis "Support for `mise' cli")
    (description "Documentation at https://melpa.org/#/mise")
+   (license #f)))
+
+(define-public emacs-mise-tasks
+  (package
+   (name "emacs-mise-tasks")
+   (version "20260703.656")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/klochowicz/mise-tasks.el.git")
+           (commit "93ba2287c6f17b187346eed95cdea0c214faa85f")))
+     (sha256 (base32 "11yiyvl2hg8b5m5zir316xi2b6m88pk5km40rgi7daa8xfsxdflm"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/klochowicz/mise-tasks.el")
+   (synopsis "Run mise tasks and highlight lockfiles")
+   (description "Documentation at https://melpa.org/#/mise-tasks")
    (license #f)))
 
 (define-public emacs-mistty
@@ -77921,6 +77956,23 @@
    (description "Documentation at https://melpa.org/#/ox-minutes")
    (license #f)))
 
+(define-public emacs-ox-mom
+  (package
+   (name "emacs-ox-mom")
+   (version "20260707.243")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/hinman/ox-mom.git")
+           (commit "40711a3681cbeb4cbcb520371297bf3d932a333b")))
+     (sha256 (base32 "0yr6hy0rb46d7vyzbs6hcsiicdl4l390mc0zvr6hqi4nrlx82w8k"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/hinman/ox-mom")
+   (synopsis "Groff MOM Macro Back-End for Org Export Engine")
+   (description "Documentation at https://melpa.org/#/ox-mom")
+   (license #f)))
+
 (define-public emacs-ox-nikola
   (package
    (name "emacs-ox-nikola")
@@ -83797,14 +83849,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260712.1054")
+   (version "20260712.1942")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "fc4ccb86687c9f1bd65c8d0f07f36fcae381307f")))
-     (sha256 (base32 "1dkjp1j92miklqqk8ryk7dcsai203rkgvkl8x4fg3mwcz37aq1gl"))))
+           (commit "155ff835f142f7cd79afb25f0c8828c68d93fedd")))
+     (sha256 (base32 "1fh3cih87c7h83xz1j8hcc60z6fpxwjwnm4szpsq89iahjfv94s4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -93618,14 +93670,14 @@
 (define-public emacs-sleek-modeline
   (package
    (name "emacs-sleek-modeline")
-   (version "20260622.2257")
+   (version "20260712.2128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abidanBrito/sleek-modeline.git")
-           (commit "882b440a816865d8db622f9722a6fb71d5ea1e27")))
-     (sha256 (base32 "1v20k8gxlrzb4g4lc92mh4qjb6q66z8jjvgh44124nh0jkdags70"))))
+           (commit "e5981c02498f4922f220f16f062f91512a5c406d")))
+     (sha256 (base32 "1hj0b6gyf56lf0dcambdasg068z2i6jja3w3m6fb6k01cxdppjc2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/abidanBrito/sleek-modeline")
    (synopsis "Minimal and elegant modeline")
@@ -96499,14 +96551,14 @@
 (define-public emacs-srs
   (package
    (name "emacs-srs")
-   (version "20260712.531")
+   (version "20260712.1603")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Duncan-Britt/srs.el.git")
-           (commit "4f8312989e673ec38a3f1abb301aa9cd3355f0fb")))
-     (sha256 (base32 "0izcj0fbr6wk1g7jm2x9dqslvsmvwv76l30n4lm47c6y0c66wg74"))))
+           (commit "dd90d0948818e2a783aca4900ac95b84bd3f9d99")))
+     (sha256 (base32 "1bwrzgkxqm74a1h2kwgmx828jnw9wih5sbfbh0wqkmkbk88vy716"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Duncan-Britt/srs.el")
    (synopsis "Spaced repetition in plain text")
@@ -98320,6 +98372,24 @@
    (home-page "http://hins11.yu-yake.com/")
    (synopsis "A notification-based Lingr client powered by symon.el")
    (description "Documentation at https://melpa.org/#/symon-lingr")
+   (license #f)))
+
+(define-public emacs-synaxis
+  (package
+   (name "emacs-synaxis")
+   (version "20260712.1653")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.thanosapollo.org/synaxis")
+           (commit "4a4b98050f74391beb45fe60bae874408f559573")))
+     (sha256 (base32 "0h61lkf31rfk114id3b2qap3ldnpbfarxhh3fid5n22syrqmj8h3"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-keymap-popup))
+   (home-page "https://git.thanosapollo.org/synaxis")
+   (synopsis "Feed reader with SQLite storage")
+   (description "Documentation at https://melpa.org/#/synaxis")
    (license #f)))
 
 (define-public emacs-sync-recentf
@@ -102254,14 +102324,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260710.1826")
+   (version "20260712.1637")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "0a0a6540d2342eb0bc0599f3bb53e9c2d1d4bcbd")))
-     (sha256 (base32 "0mbhpbm4qqskl8xyjpnq4blr3n3iq87chxjvw3708ydcarnb6via"))))
+           (commit "3bec63634c99c1e5b5debfda8884f8448255dc2b")))
+     (sha256 (base32 "16cj849m39mhzb4nrdqrj7qq6g07aynkjpiln67xf61r5jmnmv5w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
@@ -106379,14 +106449,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260710.1447")
+   (version "20260712.1350")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "66bee1cc931d70f0ee31087e5d6217d9b65bf3a6")))
-     (sha256 (base32 "05x7h6d5lb0qfd29ml1haplx9fyvha2lhfri3ivnq2l2382xf0s0"))))
+           (commit "62e8394f87ef1fe45df45bed81d1b3d26ec84f1c")))
+     (sha256 (base32 "1hh8ipiprr88xb73vfk6wd433nq9svyp2migd088n1gnca0a54nk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
