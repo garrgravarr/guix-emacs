@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260712.2107")
+   (version "20260713.847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "369570450da95082339c849b058936d6187399a1")))
-     (sha256 (base32 "0nn8556l949p3zjf001di8kacq8s5d9bkfsalhw0lnrlyx6hi1gi"))))
+           (commit "1f0b802a12df25ff4968dcee90f7a93bdb568f75")))
+     (sha256 (base32 "1rrnil0kyxhq2p1kzj2cbp8sxw65j885zrfnw2djwgyn6h89hmva"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -8260,14 +8260,14 @@
 (define-public emacs-buffer-guardian
   (package
    (name "emacs-buffer-guardian")
-   (version "20260704.134")
+   (version "20260713.1433")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-guardian.el.git")
-           (commit "1771cf750d5d050a44522eb40e85f4fc621db4ea")))
-     (sha256 (base32 "0ii7n5kvw06xmbwgi6qxb55fd24w9yady8w8wr9ghy14hyn357gq"))))
+           (commit "01e0b69e3f820184c343f13f6a4214a4a045a0fc")))
+     (sha256 (base32 "0svaj2d2j88c780iznx3iaamd8gcr2as1n8qs93g2nwl6qm69xb9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/jc-dev")
    (synopsis "Automatically Save Buffers Without Manual Intervention")
@@ -11414,14 +11414,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260712.2017")
+   (version "20260713.1604")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "c03a31ff0b1bc31561954a6b6fd629ae13e87f64")))
-     (sha256 (base32 "12jfkfra325qahridvfz2vkqc41hyvnvyy0xldiwwcfnqwpchk5p"))))
+           (commit "1eefec99a8340afedb485383a1544205cc62c685")))
+     (sha256 (base32 "1fifs6kzmxwli4sdfbkkfwndxnm368q6m6gkq1dyy837pw7hi9dm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12238,14 +12238,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260710.706")
+   (version "20260713.1152")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "5233aca8494a545597901cc34b7e395536faedd1")))
-     (sha256 (base32 "17mjyprnw8ghjm6krankwfkb9m5windafk2n51rmdpxc8bk4c26a"))))
+           (commit "d09315b3827dc2e1db04a0482f5ed374ab2626af")))
+     (sha256 (base32 "0ykwhps5j9mf85wf4880q5a6qnaml3xar0ss0g7l88g05yqy4hg7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -39842,14 +39842,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260711.1412")
+   (version "20260713.1503")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "df9b7e1ab3bb2a5305232f02f7619e4e2f0570b4")))
-     (sha256 (base32 "09k5mx8c3pljk6n6cns48zns95rbvb94hwqqjq3sm4ii92hn9zg1"))))
+           (commit "9a4256abd6ee2042475b5ab30b9a73904eb3b28e")))
+     (sha256 (base32 "0r67izj7z4bk2w4arinapkcflg6xgnm22g9y9w3ffdyn3q417hb2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -55052,14 +55052,14 @@
 (define-public emacs-julia-snail
   (package
    (name "emacs-julia-snail")
-   (version "20260630.2209")
+   (version "20260713.1343")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gcv/julia-snail.git")
-           (commit "dbdd95734ecdf39c514ede16bc4fa37cfc16268c")))
-     (sha256 (base32 "1rqg9vid21l01fnzgm99ar03h481y3jb7j8jpqalw9vsg72r9jwg"))))
+           (commit "6c545d67e93590d1155b60e79384481438cb7527")))
+     (sha256 (base32 "0n9isijm9x3ansmvg4m81kd4vzrzs8xlyn6n6qia622csqjfxbw1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-julia-mode emacs-s emacs-spinner emacs-popup))
@@ -83849,14 +83849,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260712.1942")
+   (version "20260713.1548")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "155ff835f142f7cd79afb25f0c8828c68d93fedd")))
-     (sha256 (base32 "1fh3cih87c7h83xz1j8hcc60z6fpxwjwnm4szpsq89iahjfv94s4"))))
+           (commit "cd674bb9cf979473d6d900911f3e3888b2eb3313")))
+     (sha256 (base32 "0zi8sfdm3v7bf1cm3kjpsiqz7iars3gzrvb7m5bqmj8f97j1nzfp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -100467,14 +100467,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260706.1314")
+   (version "20260713.813")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "4b44ad99468659dbd2f2a2ce1ce702fd67ab3bed")))
-     (sha256 (base32 "1lrc7hnf24ghi8qh7l8i5d57hn4iax4zis6sqzgc6ls8smcf4a46"))))
+           (commit "fae76154e95a5ff9051ec7189d19315a88768d16")))
+     (sha256 (base32 "0kdf2gdxrf480zx7v9dpzdrjshf6b1drbysh0zqn1pqwhxsxqbxa"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
