@@ -8277,14 +8277,14 @@
 (define-public emacs-buffer-manage
   (package
    (name "emacs-buffer-manage")
-   (version "20260711.1557")
+   (version "20260713.121")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/plandes/buffer-manage.git")
-           (commit "229673aca42f2cd7fc60b3d24516aa075a1fb48c")))
-     (sha256 (base32 "0il2m4ybzqj5qnz7n2x34jv7wx89gkli745rsr1qf0i9jg4g3wd6"))))
+           (commit "f32c756a261aebca0a864e41958097b30690e171")))
+     (sha256 (base32 "0sq3h0r7nr2x129f5b8gcjxmq90myixrmi9xggf9q40861jqjqwp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-choice-program emacs-dash))
    (home-page "https://github.com/plandes/buffer-manage")
@@ -9234,14 +9234,14 @@
 (define-public emacs-call-graph
   (package
    (name "emacs-call-graph")
-   (version "20260212.649")
+   (version "20260713.638")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/call-graph.git")
-           (commit "2d8d2c03f7431be6d42c922c24dcda1d74d70a82")))
-     (sha256 (base32 "1f5rrc37v5fslxbi28ry4bmg1mgd6y194wpcw82fpqdbk7g7q1b5"))))
+           (commit "99cab0f3829632f39f0e76f4e992c7bd988203a7")))
+     (sha256 (base32 "0y3lmb8232qv2gkqc35qc3ipmc8jlp1cni4dbhl1aqgvhwjma1jq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-mode emacs-ivy emacs-beacon))
    (home-page "https://github.com/beacoder/call-graph")
@@ -10875,14 +10875,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260712.945")
+   (version "20260713.533")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "744f008a5ee49c277783998413f5ec1abcc9593a")))
-     (sha256 (base32 "1dzg5w0y7nd3zablxgs69a2r0m3ys3pms2mfmvi7crh5imwfsgd8"))))
+           (commit "450cfeb1ca0989162fa8262af584c19fce4b27c9")))
+     (sha256 (base32 "0h21kspix03f8xf2fnwq1wblvv84cbfkdr76gpymcqqdp7mwvxgg"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -22569,14 +22569,14 @@
 (define-public emacs-dpkg-dev-el
   (package
    (name "emacs-dpkg-dev-el")
-   (version "20260502.631")
+   (version "20260711.348")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git")
-           (commit "9b4b257d2958a0f9fb510e395898a8f841dfb5aa")))
-     (sha256 (base32 "0hnypblmak5ry71hb2ys8s6zbn025h8rf6csaayk0ryb449czsv7"))))
+           (commit "76561fe1f3dbb71e108427c0dcc8fcc02798d124")))
+     (sha256 (base32 "1km4yrrrlv6hhj7mbzbndd8704bd8lar3hdnfxza1g59pxk8nknd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-debian-el))
    (home-page "unspecified")
@@ -29938,14 +29938,14 @@
 (define-public emacs-everlasting-scratch
   (package
    (name "emacs-everlasting-scratch")
-   (version "20250206.628")
+   (version "20260713.605")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/everlasting-scratch.git")
-           (commit "a990e8d2261e5ac109729eb8c2c8e1947e45c8ed")))
-     (sha256 (base32 "0lhyaqwxwm54rw9lvhk6vqpnz4350dx45gxc4qgm0g6qgdzn78dk"))))
+           (commit "4180fd04183a24de44a920cc02ac5a3bbf23643f")))
+     (sha256 (base32 "1gqarbnnq2rs8ckvisf0bbrmh9nmfhvlqv2b1a0xwlcbn6mhn6cc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/beacoder/everlasting-scratch")
    (synopsis "The *scratch* that lasts forever")
@@ -38975,14 +38975,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260711.1842")
+   (version "20260712.1814")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "3c1742e56fba99c80f7fc18ac0165a03e030ea84")))
-     (sha256 (base32 "171ywl6kg0r4s70710bmk25hxk2w0r0iycpcjxrzyd0278pkp1pd"))))
+           (commit "ba74b4e33bcb464a52fd46faf0f0c9cccfbfcdc4")))
+     (sha256 (base32 "055arpckj6p69600asypava1p205c6qvyrdiq62kn5bw0g197xhi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -40433,14 +40433,14 @@
 (define-public emacs-git-overleaf
   (package
    (name "emacs-git-overleaf")
-   (version "20260710.822")
+   (version "20260713.844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/git-overleaf.el.git")
-           (commit "d2dd751b927a675c2e9df0b2176a891e8f50de5b")))
-     (sha256 (base32 "0jkja93a702nfzr0dadhagiziiqyl9j6bzmwkrkvqjyw56k900c7"))))
+           (commit "2559016e1fac95889ba04a0ac9c59c85a267d176")))
+     (sha256 (base32 "0vgzvi72gn4xjpc9xryjc3nningvsi9kg8qprflg0m8vp7ynkfgm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket emacs-webdriver emacs-magit-section))
@@ -42704,14 +42704,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260709.305")
+   (version "20260713.802")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "38bc5293e3f051d09ddc09d11a895552925da09a")))
-     (sha256 (base32 "0n42n0qv065pix8mz4lcvvmvzq4xjh99rjpb5rcv7ff7bbw204iz"))))
+           (commit "443885f96d2002d29ab2f76fca4ef43de569355a")))
+     (sha256 (base32 "13fj9vxq1dvl8671lr5s7n2ijddzjiijd2f3ynb4d4q7m1415b4a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -42778,14 +42778,14 @@
 (define-public emacs-gptel-cpp-complete
   (package
    (name "emacs-gptel-cpp-complete")
-   (version "20260707.305")
+   (version "20260713.416")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/gptel-cpp-complete.git")
-           (commit "d67acb59a9c00c8efb6a9923174bd4aa569793fa")))
-     (sha256 (base32 "18w46imsr13g77apdbd37rsvijhi6qgcrxif7q1v6qnn63q5fv5z"))))
+           (commit "650e4077dc35e5be8fc63b3c1cc1323099731ffa")))
+     (sha256 (base32 "1m2n0sq68w1xjkn5bmqdl4ky6p35gx09pja35n13islchyn42knr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (arguments '(#:files (:defaults "treesit-grammars/*.so")))
@@ -63283,14 +63283,14 @@
 (define-public emacs-media-thumbnail
   (package
    (name "emacs-media-thumbnail")
-   (version "20260712.2311")
+   (version "20260712.2348")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/media-thumbnail.git")
-           (commit "b67c9d7e51236bf1a92bc3a6a290846ff8d9be9a")))
-     (sha256 (base32 "1lwahncffyjp3pfwywkz4428qskx9h5q9w7avd7g04z00cbcs0qq"))))
+           (commit "4cb8075ec8bc46408a6b01fc8877571d8e66e439")))
+     (sha256 (base32 "0nv5cf4plgf77bvvsy6y8frz6dwv90qpvbm53h2n3qd5qjc9grmi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jojojames/media-thumbnail")
    (synopsis "Utility package to provide media icons")
@@ -73860,14 +73860,14 @@
 (define-public emacs-org-ivy-search
   (package
    (name "emacs-org-ivy-search")
-   (version "20250305.159")
+   (version "20260713.622")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/org-ivy-search.git")
-           (commit "d09472c5ae5c099bee17fb0e4f3f017ce7ebd031")))
-     (sha256 (base32 "1p48k2fjiig8kfpgrnsrpcyfpyfm17gjr80p0r52bq6ijh2z53bj"))))
+           (commit "5aa418961c6dae576e800df459ad6dbd7740b4b4")))
+     (sha256 (base32 "03h0d83zs5qwrs7i7zi96jwwjr4idyw4rngs864vz46kz8amk6nd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ivy emacs-beacon))
    (home-page "https://github.com/beacoder/org-ivy-search")
@@ -92226,14 +92226,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260705.6")
+   (version "20260713.844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "55607423f052c6be72b1a5da394427c9faaa413d")))
-     (sha256 (base32 "1mhy1llyfd4dzq1z84ja7l7a1yh71gi2zxsgfqldg3vsa4y5c876"))))
+           (commit "071c6df3ca22a2f4c0daa689848ac9bd21bf4e2b")))
+     (sha256 (base32 "1bbh53hg1j6ic6pjjprl5y6h217f4zcj7z7pyyp5d75qv7m59f0v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -97097,14 +97097,14 @@
 (define-public emacs-stock-tracker
   (package
    (name "emacs-stock-tracker")
-   (version "20250206.814")
+   (version "20260713.303")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/stock-tracker.git")
-           (commit "51963a654a1199ec23f0938c247b1411fee85c6f")))
-     (sha256 (base32 "12aipdqhx2pfgas0c3m4i1z0p45vrrld4c6ahnx9qgp4nig9b2bh"))))
+           (commit "d3482bf03e738d70396412e2437da534b9059176")))
+     (sha256 (base32 "0872lhnya5lyv57pn530yi2gbrrbzsf4a8ihpkc905z0gzw0kh34"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-async))
    (home-page "https://github.com/beacoder/stock-tracker")
@@ -110091,14 +110091,14 @@
 (define-public emacs-yeetube
   (package
    (name "emacs-yeetube")
-   (version "20260711.320")
+   (version "20260713.333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/yeetube")
-           (commit "d2bef269fc1d00ccc88de0932430ae56165f4671")))
-     (sha256 (base32 "03nag992p5abngh3jp6j0nq4l5bqbqz7hgmdhyqv3j0rnihlxvr0"))))
+           (commit "066bc1c2c06493d10388f8a0ecd8e90f8cd28532")))
+     (sha256 (base32 "0m52fkv7zjz1iicq5qjxfmz3hcns99bc165r9wxy84j83lb6mry0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://thanosapollo.org/projects/yeetube/")
