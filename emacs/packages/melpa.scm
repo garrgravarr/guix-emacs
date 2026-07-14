@@ -1862,14 +1862,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20260705.130")
+   (version "20260713.2035")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "2e804a3129758aaad4bd8c28f2eb625ec4794aab")))
-     (sha256 (base32 "11dpqscljw5ni91av24j1kkm9zf3347p6ilfqphdc360gkl725mg"))))
+           (commit "da680e6029ee1ec0155adea922b9945824b09b9c")))
+     (sha256 (base32 "0bpv1kqwcs9gphsxjh7aviviihdwvgx2i640v4zps5qlimh9g22j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -11414,14 +11414,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260713.1604")
+   (version "20260713.2022")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "1eefec99a8340afedb485383a1544205cc62c685")))
-     (sha256 (base32 "1fifs6kzmxwli4sdfbkkfwndxnm368q6m6gkq1dyy837pw7hi9dm"))))
+           (commit "f0318260b65802c47f443daf051c4859aa81ec31")))
+     (sha256 (base32 "1784dx57nkm0lprvlmn1z70rk8s60i7810hkv0rchmvq0mj48qya"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -19941,14 +19941,14 @@
 (define-public emacs-diff-ansi
   (package
    (name "emacs-diff-ansi")
-   (version "20260529.419")
+   (version "20260713.2340")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-diff-ansi.git")
-           (commit "1019b341897a2abc944a6bf9914fab344a37e5d5")))
-     (sha256 (base32 "13v8ynlp4r6ppj6xi3ndgjykzs26l7i0xcgz9lfljc32i1c5xlh3"))))
+           (commit "86c0b3525b2793b585b548c6e975d6fe6a2cea2a")))
+     (sha256 (base32 "11h1gvm5iz2rd8ap3p745ndygmpay641ibaw9kk09rcr8rqr1cpy"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-diff-ansi")
    (synopsis "Display diffs using alternative diffing tools")
@@ -23875,14 +23875,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260711.1928")
+   (version "20260713.2328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "acc2b0647f4dd0988ba15c2d0f9b5aef5d3ea96f")))
-     (sha256 (base32 "01d4rnx2qj4hla55a6v9ijz8zm936dq979zcqhdd4cwg4f0azil8"))))
+           (commit "f88b4b2a83be8c8024a9780d6b2290ef3ac0b22f")))
+     (sha256 (base32 "1x5n6bawifssm72wkc7ry63jvmfkz0glpaiv5zz504n64zx1j1cd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -30105,14 +30105,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260712.1946")
+   (version "20260714.4")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "a55c082c59ad811f56627400db3018dfba41e8e2")))
-     (sha256 (base32 "051lql2zxazg407kxg50chcih860syidxzapzzxq5x8n391gd3mx"))))
+           (commit "a067dd64854113d01d5945796a7d29c923502d17")))
+     (sha256 (base32 "164ii26klwxhnwyc0qbl04h1wipdy4adc8rki7x7g7r7islxspm6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -30341,14 +30341,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260712.716")
+   (version "20260713.2022")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "0d41dfbbcd0577e7c7969f08703026f299d2eb71")))
-     (sha256 (base32 "06h356rdvy3vyapkckmywpqgbpdqp9vj88k7pchvjikbh5apr1b9"))))
+           (commit "2191afe3049fc785c6fd2b1ab6b826daf500ffbe")))
+     (sha256 (base32 "1fyqpbpv62hs3hqai1j04x30miwdqkkpqfxdh4vbxc331fhrj4dx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -38975,14 +38975,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260712.1814")
+   (version "20260714.5")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "ba74b4e33bcb464a52fd46faf0f0c9cccfbfcdc4")))
-     (sha256 (base32 "055arpckj6p69600asypava1p205c6qvyrdiq62kn5bw0g197xhi"))))
+           (commit "cbb791be02706a20256ae5972f10b46eea3f5b24")))
+     (sha256 (base32 "0sfza56rr1bz00chfm9n5vydsaa9v0qr13sbp4zfcgcb8i8kx05c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -39159,14 +39159,14 @@
 (define-public emacs-gdscript-mode
   (package
    (name "emacs-gdscript-mode")
-   (version "20260615.928")
+   (version "20260713.1755")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/godotengine/emacs-gdscript-mode.git")
-           (commit "6bfea8c477cda3f300b84248b5f56c9d241e8029")))
-     (sha256 (base32 "0wfcyan4qasqfhf70ilcq82f9zb05vhrk61nrb8pq9cmj7kr6xwf"))))
+           (commit "0b3711ad17cac5647875a2de8673e0fe46cd516c")))
+     (sha256 (base32 "1gh0a69ma75i9qd0q13mrgfk2plf5zc04r4lmiv2rdz90h5m06wj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/godotengine/emacs-gdscript-mode/")
    (synopsis "Major mode for Godot's GDScript language")
@@ -39842,14 +39842,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260713.1503")
+   (version "20260713.2022")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "9a4256abd6ee2042475b5ab30b9a73904eb3b28e")))
-     (sha256 (base32 "0r67izj7z4bk2w4arinapkcflg6xgnm22g9y9w3ffdyn3q417hb2"))))
+           (commit "2191afe3049fc785c6fd2b1ab6b826daf500ffbe")))
+     (sha256 (base32 "1fyqpbpv62hs3hqai1j04x30miwdqkkpqfxdh4vbxc331fhrj4dx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -95884,14 +95884,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20260529.230")
+   (version "20260714.144")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "f67824080cb48b4e54c3930319a3ed944f6a5c66")))
-     (sha256 (base32 "113k0ljwmqdwcaqp3xq7qxy1m7dgjrxabycby8iz7ysdcymcfx9b"))))
+           (commit "339277c5240a5c624644214b0f230cfa39511da8")))
+     (sha256 (base32 "10b4iw81x45426rmbzbz8dfca2jly934wvpfxmm6ii8imhg0x4fv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
@@ -96551,14 +96551,14 @@
 (define-public emacs-srs
   (package
    (name "emacs-srs")
-   (version "20260712.1603")
+   (version "20260713.2248")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Duncan-Britt/srs.el.git")
-           (commit "dd90d0948818e2a783aca4900ac95b84bd3f9d99")))
-     (sha256 (base32 "1bwrzgkxqm74a1h2kwgmx828jnw9wih5sbfbh0wqkmkbk88vy716"))))
+           (commit "57cf956a746c2f948b801514f62a55a97fb3ef22")))
+     (sha256 (base32 "02jzidpc56pw54pf2781i4rsgbw7kcbhha2m1p3a1pkrbxjjpyxz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Duncan-Britt/srs.el")
    (synopsis "Spaced repetition in plain text")
@@ -98377,14 +98377,14 @@
 (define-public emacs-synaxis
   (package
    (name "emacs-synaxis")
-   (version "20260712.1653")
+   (version "20260713.1937")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/synaxis")
-           (commit "4a4b98050f74391beb45fe60bae874408f559573")))
-     (sha256 (base32 "0h61lkf31rfk114id3b2qap3ldnpbfarxhh3fid5n22syrqmj8h3"))))
+           (commit "fd0272e9a9dde9e31d592348638f62bcb3baebfe")))
+     (sha256 (base32 "163d6qb3y3vpy72616pymhsriln9rrzawv1rcdf5iaf814qv1sah"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-keymap-popup))
    (home-page "https://git.thanosapollo.org/synaxis")
@@ -106449,14 +106449,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260712.1350")
+   (version "20260713.1820")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "62e8394f87ef1fe45df45bed81d1b3d26ec84f1c")))
-     (sha256 (base32 "1hh8ipiprr88xb73vfk6wd433nq9svyp2migd088n1gnca0a54nk"))))
+           (commit "c3db0a9deceb1b3f8371afc79b3d66d8f3fc457d")))
+     (sha256 (base32 "1y1zkmnjci05rmzn60inj2sgnqj6y1j289n93sq8yf1zcxr6kv7n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
