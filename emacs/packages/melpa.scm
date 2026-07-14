@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260713.847")
+   (version "20260714.1645")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "1f0b802a12df25ff4968dcee90f7a93bdb568f75")))
-     (sha256 (base32 "1rrnil0kyxhq2p1kzj2cbp8sxw65j885zrfnw2djwgyn6h89hmva"))))
+           (commit "102ac73a89f13b49b49542e84abfbd1baf3c2573")))
+     (sha256 (base32 "1gmrh3264dgi4i72y1pbb0yb0j0c5n5m2w5zgy8z6cgsmwix4a03"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -2757,14 +2757,14 @@
 (define-public emacs-anki-editor
   (package
    (name "emacs-anki-editor")
-   (version "20260605.551")
+   (version "20260714.1156")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/anki-editor/anki-editor.git")
-           (commit "7089c15f3151e0318e3d7d801f6b87eeeb25d226")))
-     (sha256 (base32 "0mmnk8dnliad97jw25ck2h61v8065qjgxl3sm1k0l60x5knwl6n3"))))
+           (commit "4a55c3f937b176d31e36d484c196682cae9f9104")))
+     (sha256 (base32 "02q4qh3hliah8h4648vbn13mw5xspps54kwp1k9gvxmnmz8ch85f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/anki-editor/anki-editor")
    (synopsis "Minor mode for making Anki cards with Org")
@@ -11414,14 +11414,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260714.845")
+   (version "20260714.1212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "00782c42a8c122811fa81066e63fce0dd000929b")))
-     (sha256 (base32 "07r9wpl9wjx8gamwrnin806k635fb2dww6wyks388blxqhv1kniq"))))
+           (commit "d75ae93b738fd92f6e3ba480898e89b5c4a44ff1")))
+     (sha256 (base32 "0bpgw3g4cz7qg1fwf9bjzb17ai21fgw57h38bjydwg4z1lxbb8p8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -21132,14 +21132,14 @@
 (define-public emacs-diredc
   (package
    (name "emacs-diredc")
-   (version "20260616.1507")
+   (version "20260714.1154")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Boruch-Baum/emacs-diredc.git")
-           (commit "0b826202e12d6c66ae902d71ab770693cf89c33e")))
-     (sha256 (base32 "0zsgvznmqgbywfar8pxl56ig3zqqd3gaqxg1y6xvwnz27s0ngkhx"))))
+           (commit "0ad972d370e63e9b81909a60c06a147986de84f2")))
+     (sha256 (base32 "0shfb53i53a390yxap2dsa0bpl2bh9614xpx1gk7hrgxr29g5pin"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-key-assist))
    (home-page "https://github.com/Boruch-Baum/emacs-diredc")
@@ -25678,14 +25678,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260702.927")
+   (version "20260714.920")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "149bb4ef375c3461f7ff37620759c33050bfb132")))
-     (sha256 (base32 "1rdcm8cx3v8j130vp4vcq8mnixzhp6l4rayhqpg3y14h0kvxkgw3"))))
+           (commit "e18cbb8cc4bb08e1512571449623f5f03f43f94c")))
+     (sha256 (base32 "1kbhzzf614dd8pz1s90vpqfx75dpv016z474i7l2rsq0an6xxb3s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -38113,14 +38113,14 @@
 (define-public emacs-fpga
   (package
    (name "emacs-fpga")
-   (version "20260407.1246")
+   (version "20260714.1045")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/fpga.git")
-           (commit "6b22e9e034411a03e574b00377ce0bcf5dafb1d3")))
-     (sha256 (base32 "0fxn76jjalhyymhdwqvgm3s97drkm9y44dd9sivqmpbh01r2dslm"))))
+           (commit "fede50a1622295fa9ae6369e8a99c85a1e39f4f4")))
+     (sha256 (base32 "0gsl3bg8n1yx7f7hzjch7i28838imslryc1sl2n4dls88ybmzkh1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gmlarumbe/fpga")
    (synopsis "FPGA & ASIC Utils")
@@ -39842,14 +39842,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260714.756")
+   (version "20260714.1034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "cdd8dc5f47c3704ca851e66ac422053d6746d97c")))
-     (sha256 (base32 "04gsr190ikjyqli28xb9hiqz23b3cgvvg12qy77km53mkgm35yv4"))))
+           (commit "1978b3ed6e3c8be0edc9835a1364a2305ac5f181")))
+     (sha256 (base32 "0hid85cghykfkk11qasazrcnc0b095kprywrg0an5d2dglm0z21m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -63474,14 +63474,14 @@
 (define-public emacs-meow
   (package
    (name "emacs-meow")
-   (version "20260619.1030")
+   (version "20260714.1200")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/meow-edit/meow.git")
-           (commit "96648fa6398222e1376422d01f5249afa2a25680")))
-     (sha256 (base32 "15mp09k5iy4dmmkzsg0ss7k2l5wdh5z1ncnfi5w06apg8x1nkr0a"))))
+           (commit "aa8aec19e70369b547176e625f5b95c4a8565e8e")))
+     (sha256 (base32 "1mgrh9yfhv0nvb0x1ab0bmyl8x7wzb6av5ywkxidnn4jllvf1n07"))))
    (build-system melpa-build-system)
    (home-page "https://www.github.com/DogLooksGood/meow")
    (synopsis "Yet Another modal editing")
@@ -74177,14 +74177,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260714.940")
+   (version "20260714.1317")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "09e14870640f333a6ee468d60f7ed962c0146b02")))
-     (sha256 (base32 "150vn2jrvwf9z61r3vd8q4vfs413lawva3r5bk7nyk6cr7qslzbv"))))
+           (commit "5df7bad9eca52b74f673c1bd5159791e30d34f9d")))
+     (sha256 (base32 "03027i8a184ljp02imrrs8zhdvdrm9brjj1h42fwrba78p8m8s1p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
