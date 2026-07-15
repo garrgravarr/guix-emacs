@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260711.1901")
+   (version "20260715.552")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "af81f794a4047f338a3d382bb2dea30d1695c988")))
-     (sha256 (base32 "1b0h91jy2qnsqy7kbbcvzmb4xwhk8951il24axcw2jlqgi9v45jw"))))
+           (commit "812f4976fdfd204397aa670f6b9ef063fd46e652")))
+     (sha256 (base32 "0ix154ml66vfr1hgp3vcsfg81v92wba0qxb4q77kqk8l9ckj5l0w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -11414,14 +11414,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260714.2017")
+   (version "20260715.426")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "58b74e9718d9b4a9c50dc2081c0c0d775babc6fe")))
-     (sha256 (base32 "007rraz2ii2xdkdzfw5zjv4bq8v45b4glzfkf942bica0gap7rxq"))))
+           (commit "6b1c8466d283b052e2dbba44e6df06f5fe0c16df")))
+     (sha256 (base32 "1baq6i5nsqd4qzp8zdb5zl199jipnjhfwk88nq11pd3v5xskl2my"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -30105,14 +30105,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260714.4")
+   (version "20260715.218")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "a067dd64854113d01d5945796a7d29c923502d17")))
-     (sha256 (base32 "164ii26klwxhnwyc0qbl04h1wipdy4adc8rki7x7g7r7islxspm6"))))
+           (commit "cf84caf44dd1588c10cd14a90223821a691099cc")))
+     (sha256 (base32 "0csc8hknhpxx0jgfbz6b0f0fcyz4dffmzwm94s2vksgz6ymihdm1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -38975,14 +38975,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260714.5")
+   (version "20260714.2214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "cbb791be02706a20256ae5972f10b46eea3f5b24")))
-     (sha256 (base32 "0sfza56rr1bz00chfm9n5vydsaa9v0qr13sbp4zfcgcb8i8kx05c"))))
+           (commit "809f87b988a9ef0f061addff4fcef7d85902515c")))
+     (sha256 (base32 "1q90rj4n9pall8hxd38q8qhh7a2ar50rg81wgs1pz0d63fplz1x1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -39842,14 +39842,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260714.1034")
+   (version "20260714.2158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "1978b3ed6e3c8be0edc9835a1364a2305ac5f181")))
-     (sha256 (base32 "0hid85cghykfkk11qasazrcnc0b095kprywrg0an5d2dglm0z21m"))))
+           (commit "f00d73563524dec28c458b1b22eb1b7ae721e822")))
+     (sha256 (base32 "012kxf441qhxpfwcv931mh3z5jypkx10lf59l891xnr6432plfh6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -42778,14 +42778,14 @@
 (define-public emacs-gptel-cpp-complete
   (package
    (name "emacs-gptel-cpp-complete")
-   (version "20260714.1337")
+   (version "20260715.307")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/gptel-cpp-complete.git")
-           (commit "7c766b513b002aeb251cea2a27c552a0758a1405")))
-     (sha256 (base32 "18cxpk4rr2scyhx8nl11wriz17llgjvkwdx44bhhl6kqing3qcf7"))))
+           (commit "d1d083100a57edc467fb1adf3afe405bf0b2c258")))
+     (sha256 (base32 "1vb464kplxqhnicymgz3gzkdc7422d221imwghi1qxq3i6qsyz9i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (arguments '(#:files (:defaults "treesit-grammars/*.so")))
@@ -58359,14 +58359,14 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20260622.955")
+   (version "20260715.958")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/liberime.git")
-           (commit "8e52f3128e553a9b0cf270ead5c8cca4de2dd0d8")))
-     (sha256 (base32 "0mq106yppl9kkqfyvbxma4d9k88bqpvwk6b6lcyr8kmkd2bd6n8f"))))
+           (commit "64db15eca098f3d3942e9f83422e12711dbe2ecb")))
+     (sha256 (base32 "1nhrxh3wawgxjky2zklkc8qnwjrxxzhsl47lv4yk7wa67k4667nb"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -63317,14 +63317,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260714.1412")
+   (version "20260715.549")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "8917ead8fcc66ba8977a23bb21d7d672025d3111")))
-     (sha256 (base32 "1l8hh1nqsy7vqwcr411x5xwswcanqb5af6xk0dmq6y36r32s9a0i"))))
+           (commit "12b76da7af64b47fd86c86fb8fb9a860c00609d7")))
+     (sha256 (base32 "03bj19db4qsdixghzrq78vm418hrswxh0gy28566bkahq1gd98my"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -65159,14 +65159,14 @@
 (define-public emacs-modus-ewal-theme
   (package
    (name "emacs-modus-ewal-theme")
-   (version "20260626.833")
+   (version "20260715.906")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/deadendpl/modus-ewal-theme.git")
-           (commit "cabad09fa008701a7d84d275614563aca9a0aeeb")))
-     (sha256 (base32 "0f4s9a1p7qg11kljz4h8l8164si79q1djyiz92nhkx6rnalrs3yc"))))
+           (commit "75f4cbe730d16407f0251d3c45297bb83d31f6db")))
+     (sha256 (base32 "1dlqpbc9yn0mpm1rnmy1l1c325jz5hwlnhccsdzc9ai64f4f778d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ewal))
    (home-page "https://github.com/deadendpl/modus-ewal-theme")
@@ -67002,14 +67002,14 @@
 (define-public emacs-mysql
   (package
    (name "emacs-mysql")
-   (version "20260701.1402")
+   (version "20260715.242")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/mysql.el.git")
-           (commit "9aaf2b00b91d16ebde03e9d6e5b5b2a588651cf3")))
-     (sha256 (base32 "177915jynr2k4yqan3mlc2i3pqid65m22d3bl66gxscjd3wipa86"))))
+           (commit "e5b30eb5e3f8712f156822158e2c8cc782eb5c7f")))
+     (sha256 (base32 "008smg74d6gp0xy1g5ljbjpnvvq0drfcd5q5kbpc64k2rbnlxch8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/mysql.el")
    (synopsis "Pure Elisp MySQL wire protocol client")
