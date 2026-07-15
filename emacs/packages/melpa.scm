@@ -11414,14 +11414,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260714.1212")
+   (version "20260714.2017")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "d75ae93b738fd92f6e3ba480898e89b5c4a44ff1")))
-     (sha256 (base32 "0bpgw3g4cz7qg1fwf9bjzb17ai21fgw57h38bjydwg4z1lxbb8p8"))))
+           (commit "58b74e9718d9b4a9c50dc2081c0c0d775babc6fe")))
+     (sha256 (base32 "007rraz2ii2xdkdzfw5zjv4bq8v45b4glzfkf942bica0gap7rxq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -32252,14 +32252,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260702.1229")
+   (version "20260714.2053")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "b9bf4810c9d3f918ffd702bb7d5a1e370d5f7515")))
-     (sha256 (base32 "03nd8i4pwy6dxfg2cj8r146gfcc3idrjajg1w5akd9pifyv79kwc"))))
+           (commit "978204a4d7ce0ad9b3352b975415cb6180e63fca")))
+     (sha256 (base32 "0bngdb5i1x01yzmpf1dmhdgh1jckdkaqb0b7zvcz5q3xkrwr5ywy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -38955,14 +38955,14 @@
 (define-public emacs-fzf-native
   (package
    (name "emacs-fzf-native")
-   (version "20260614.1331")
+   (version "20260714.2328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dangduc/fzf-native.git")
-           (commit "ae9c747e93ca48443792a59f4f59a4cda96949f2")))
-     (sha256 (base32 "1b11javzwlnb1jhvbf0bg8ayfd3wlk3a15gla5dblrj3hdc002hd"))))
+           (commit "39dc386062d6ae942b4a7e8592d26ce11b73bf29")))
+     (sha256 (base32 "04xhv90sbhsx79r6nlkcl71g8sdxcyw20856wd02d71qpf3zmxp4"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -42778,14 +42778,14 @@
 (define-public emacs-gptel-cpp-complete
   (package
    (name "emacs-gptel-cpp-complete")
-   (version "20260713.416")
+   (version "20260714.1337")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/gptel-cpp-complete.git")
-           (commit "650e4077dc35e5be8fc63b3c1cc1323099731ffa")))
-     (sha256 (base32 "1m2n0sq68w1xjkn5bmqdl4ky6p35gx09pja35n13islchyn42knr"))))
+           (commit "7c766b513b002aeb251cea2a27c552a0758a1405")))
+     (sha256 (base32 "18cxpk4rr2scyhx8nl11wriz17llgjvkwdx44bhhl6kqing3qcf7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (arguments '(#:files (:defaults "treesit-grammars/*.so")))
@@ -49603,14 +49603,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260714.648")
+   (version "20260714.1519")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "b2e47ff06255235cbdc303e3abb95a887a418a0c")))
-     (sha256 (base32 "1nhccx8fq3jji0043w0hafh3fsnrdchcic92lawqwcc29s9m0lc5"))))
+           (commit "d0f5a7310c0e77cc740b30997ea4c7e6636b43ab")))
+     (sha256 (base32 "050x5glsg9hd93i1faxdb15vh2nvxx8lyw22qi00cb3vd8fr5qcp"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -51057,14 +51057,14 @@
 (define-public emacs-impostman
   (package
    (name "emacs-impostman")
-   (version "20250412.1521")
+   (version "20260714.1545")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flashcode/impostman.git")
-           (commit "2cb9c520329044cdf51bc75f367138a1facc84fb")))
-     (sha256 (base32 "18nvwnvh1d79cq1p2axpccy2pqq043ymhravrlla69qrgl0x5pxf"))))
+           (commit "9eda5320617c5997e9756fffa347882bad44742c")))
+     (sha256 (base32 "1h3w8kh52cyiq8rs9zr4znb5caa3swjvngzk0zjdikxyvsjxkamd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flashcode/impostman")
    (synopsis "Import Postman collections")
@@ -63317,14 +63317,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260714.632")
+   (version "20260714.1412")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "7b458143706f05b97451fa5e9cd19727d9d58384")))
-     (sha256 (base32 "13ny9ld14sldhfilfzllv15265lqli3bcai3g9kr3mxdf1yiznyj"))))
+           (commit "8917ead8fcc66ba8977a23bb21d7d672025d3111")))
+     (sha256 (base32 "1l8hh1nqsy7vqwcr411x5xwswcanqb5af6xk0dmq6y36r32s9a0i"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -71473,14 +71473,14 @@
 (define-public emacs-ol-bible
   (package
    (name "emacs-ol-bible")
-   (version "20250819.1543")
+   (version "20260714.1429")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~swflint/ol-bible")
-           (commit "b67ff8c45d51af9fa71aa44bacb4a872f6b750c6")))
-     (sha256 (base32 "0ipx60r8vpjqyan40qv78xg3rbra84yf87bqndz87f6n3h52pc6g"))))
+           (commit "7e3acf5ecad8460da533b52c7a12ea9023716da7")))
+     (sha256 (base32 "0zjvxiyqmig9xs36vvkka75yzjry7zv318jjr96i1bhs69yfda2y"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~swflint/ol-bible")
    (synopsis "Org Link support for Bible Passages")
@@ -74177,7 +74177,7 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260714.1317")
+   (version "20260714.1520")
    (source
     (origin
      (method git-fetch)
@@ -80383,14 +80383,14 @@
 (define-public emacs-perspective
   (package
    (name "emacs-perspective")
-   (version "20260624.732")
+   (version "20260714.2241")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nex3/perspective-el.git")
-           (commit "af96b2cdaa0e10953878b17d1eef4bcd382ed6f8")))
-     (sha256 (base32 "1pwn2cz8p5d7n340da64lrp7fsl0lybw4ij8dsa6f23r970ii2n3"))))
+           (commit "d8bc18cd511136fc1b44f5fe85c7691b0aa89083")))
+     (sha256 (base32 "02vk8g7051197rz5vkqknwfsa75gznrkmvhn52ii6db5aqvn8qr3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/nex3/perspective-el")
    (synopsis "Switch between named \"perspectives\" of the editor")
@@ -104060,14 +104060,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260629.1108")
+   (version "20260714.1626")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "2d58c8cf237dfc0e7408f1e62e2dbfaf0dd9e99e")))
-     (sha256 (base32 "0v7md30521s87lrjczljn006xqrz5h50h6xr4f0ixym7y01zv2sx"))))
+           (commit "303de8bff64d2860818d2303b9c5309f4e31f44e")))
+     (sha256 (base32 "006wfdzbyrjhkkfcnf2fxzdv85hpgp2v58v4rj0991ysw9b10vlw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
