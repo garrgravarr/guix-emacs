@@ -10875,14 +10875,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260714.845")
+   (version "20260715.1311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "e90868295c38241e57e63644fa1c8c9c3d3d0459")))
-     (sha256 (base32 "13lbwxynkpy8kirqphn1fvyi91wbg14q2k1sgfbm7lksh2zx8n7k"))))
+           (commit "f4c1e6b97bc58b8837a582d431bec0d350f5056d")))
+     (sha256 (base32 "0dc0mn1hmr2lbx2g4jrg1wla2fz1dvm9vlvch0yqk76p5b0v91lk"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -99162,14 +99162,14 @@
 (define-public emacs-taskpaper-mode
   (package
    (name "emacs-taskpaper-mode")
-   (version "20260517.1410")
+   (version "20260715.1341")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/saf-dmitry/taskpaper-mode.git")
-           (commit "93a3c5fc3dde0c32f7a3b2ad313cb00d5660c5df")))
-     (sha256 (base32 "0sq3mm4hf5sfmaqxnk37qd4w0d2bysm62nvi7fkkx13z0z8haai1"))))
+           (commit "0f8747a8736a6e1bff6cc401144799bdef0e69ed")))
+     (sha256 (base32 "0cwv9s3ss990c26ilp88hb762zv6g221xm0wjhgs4k6jbcn05bi4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/saf-dmitry/taskpaper-mode")
    (synopsis "Major mode for TaskPaper files")
@@ -106449,14 +106449,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260714.543")
+   (version "20260715.949")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "4bf6edeb32aaa5e686c7d4eaf80cecf38b6fd390")))
-     (sha256 (base32 "0yyny41s8w5sk6jcw7lvhx4ysyni6gq9nv0i60cigjvw9hlrram9"))))
+           (commit "68d1fdd30b99e518008347ff4f1c5323e022c24f")))
+     (sha256 (base32 "0z838m070mpsnkzdqs150n6g40ilgykqbz1dh148c6hmdmvq1ppk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -108985,14 +108985,14 @@
 (define-public emacs-x509-mode
   (package
    (name "emacs-x509-mode")
-   (version "20260602.643")
+   (version "20260715.1405")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jobbflykt/x509-mode.git")
-           (commit "a0293e2178bff0c6fc48936c852f42d6d3229589")))
-     (sha256 (base32 "137m5wmqkmjlkppvh83vwbfn0wgx5dxvynzp2ckmn87ccp7f171d"))))
+           (commit "fec2f7281b3224ea950284cf39ba45a355c652f5")))
+     (sha256 (base32 "0p4i7z3jhn2r60lxmva2l227xplkrsi2skqaj6vr3wyvxz18sasd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "*.txt")))
