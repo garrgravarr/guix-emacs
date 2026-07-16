@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260716.50")
+   (version "20260716.400")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "613234c46907728f907006642d615d6256fef2e3")))
-     (sha256 (base32 "130ffydq249c4sdz3ndnv64fxx0dq92ld73y3sv6g5dj703yvn2q"))))
+           (commit "9c64013637a167f59c2f6b4106d40c0c806de260")))
+     (sha256 (base32 "0qbd6k90cafy23bdlzcw0pjdb53lsr08lyh1hikl0iq15x6203wk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -10875,14 +10875,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260715.1543")
+   (version "20260716.552")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "f4c1e6b97bc58b8837a582d431bec0d350f5056d")))
-     (sha256 (base32 "0dc0mn1hmr2lbx2g4jrg1wla2fz1dvm9vlvch0yqk76p5b0v91lk"))))
+           (commit "2155a400f975e7334e120c3b304985453065acf7")))
+     (sha256 (base32 "0bkx3v385czflryld8xp7yq7xswf7in33awfnz9wwd9nqrvw9cci"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -12238,14 +12238,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260713.1152")
+   (version "20260716.713")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "d09315b3827dc2e1db04a0482f5ed374ab2626af")))
-     (sha256 (base32 "0ykwhps5j9mf85wf4880q5a6qnaml3xar0ss0g7l88g05yqy4hg7"))))
+           (commit "e019f292800f8f1782eaa7d8368979420451a598")))
+     (sha256 (base32 "049fv010m6hsphiwzix7j4ld8rjm90acfx1hjazqcsbwxxqk25fv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -13299,14 +13299,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260627.1337")
+   (version "20260716.209")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "a8c75c5d3fd7eb50b57a5b6aecc9aca58a3e9fcf")))
-     (sha256 (base32 "0bn6jbzac8ailhdd5kdndlp01gqbsbnlgz7sp44kkmlpg9w4ra0z"))))
+           (commit "213c3a4637346d3124a67ae049b1fc2629efb772")))
+     (sha256 (base32 "05qsy6641cv616g4hvy2ylw33yiy2ircbbifshsd9wxjmm8k8jci"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -21292,14 +21292,14 @@
 (define-public emacs-dirvish
   (package
    (name "emacs-dirvish")
-   (version "20250504.807")
+   (version "20260716.729")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alexluigit/dirvish.git")
-           (commit "d877433f957a363ad78b228e13a8e5215f2d6593")))
-     (sha256 (base32 "0d9c7i3x4vfl7k4vi29zyrz1d2cx7kfdnir8slqdjbapyacrl4s0"))))
+           (commit "5152c80a32de3965a3e131a9314514af4aa8aa1e")))
+     (sha256 (base32 "0v6l4vxxb5fvqgbrwlzwj7kc1m492vmxp231555hcw589qk3av5y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/*.el")))
@@ -30612,18 +30612,18 @@
 (define-public emacs-evil-mark-replace
   (package
    (name "emacs-evil-mark-replace")
-   (version "20250422.242")
+   (version "20260716.634")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/redguardtoo/evil-mark-replace.git")
-           (commit "90ee84748582be05fa8f9a02872321a08b455282")))
-     (sha256 (base32 "1w2f2df48hvabb750p3c9lsb2clpif4bv11z67wl9vafci53lahh"))))
+           (commit "3221d2c3b304a1cb825f6c79da4d418a8233dcc2")))
+     (sha256 (base32 "1fliqxyzg2sagwva618373ly83rj3xw16ri5s3s21jfm5jva73kz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
-   (home-page "http://github.com/redguardtoo/evil-mark-replace")
-   (synopsis "Replace the thing in marked area")
+   (home-page "https://github.com/redguardtoo/evil-mark-replace")
+   (synopsis "Replace the thing in buffer and defun")
    (description "Documentation at https://melpa.org/#/evil-mark-replace")
    (license #f)))
 
@@ -49603,54 +49603,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260714.1519")
+   (version "20260716.148")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "d0f5a7310c0e77cc740b30997ea4c7e6636b43ab")))
-     (sha256 (base32 "050x5glsg9hd93i1faxdb15vh2nvxx8lyw22qi00cb3vd8fr5qcp"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "0dbfv9n98vw0zbbkph8g1px6bcdc1sb2snagjrkai6nxqf2zhahr"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -60471,14 +60433,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260712.1914")
+   (version "20260716.755")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "8427188741d231a85143dadd66db3aa4b1e48c46")))
-     (sha256 (base32 "02gn532h2c6259zb0k47nff8lj35nwsh39aj7cpcm83z9bb0b7hf"))))
+           (commit "6bfc593d7b1bc0dd656f09ffce52cc085ebced05")))
+     (sha256 (base32 "0n48qdc9y4vq5bmxfxv2gwmv7ngawq30ai280jhdn2ilzqjw4w4d"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -92899,14 +92861,14 @@
 (define-public emacs-sideline
   (package
    (name "emacs-sideline")
-   (version "20260101.540")
+   (version "20260716.349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-sideline/sideline.git")
-           (commit "b4ada1ddf7da96c2e87453130f6ff7b7d577810f")))
-     (sha256 (base32 "1kw3294cz43425zmayv7jsfy9q9466jirdkyfagfh27v20bcp6vy"))))
+           (commit "247cd6f6a0a841c5da20b3cc179d77c118641d66")))
+     (sha256 (base32 "1ab9vhak97qkprg2ayh6s9p4isbiq8glbgvgf1an768cpzlky67y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ht))
    (home-page "https://github.com/emacs-sideline/sideline")
@@ -95884,14 +95846,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20260714.144")
+   (version "20260716.150")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "339277c5240a5c624644214b0f230cfa39511da8")))
-     (sha256 (base32 "10b4iw81x45426rmbzbz8dfca2jly934wvpfxmm6ii8imhg0x4fv"))))
+           (commit "8c19cb0885468fb1d38692739212a8681c50296d")))
+     (sha256 (base32 "0gwrnwm2p0670q762f34smj0l14gl0lh7in0504n57xgv6ymyir8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
