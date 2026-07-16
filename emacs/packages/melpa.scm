@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260714.1645")
+   (version "20260716.1054")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "102ac73a89f13b49b49542e84abfbd1baf3c2573")))
-     (sha256 (base32 "1gmrh3264dgi4i72y1pbb0yb0j0c5n5m2w5zgy8z6cgsmwix4a03"))))
+           (commit "44879403b42255bee61cba488c10e8042238fc18")))
+     (sha256 (base32 "03qzpfpk85mp78fmhar2nm394i9rh9p1ki9qbbhzhrg4n8b8zbd3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -9446,14 +9446,14 @@
 (define-public emacs-cargo-transient
   (package
    (name "emacs-cargo-transient")
-   (version "20260712.1432")
+   (version "20260716.1038")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/peterstuart/cargo-transient.git")
-           (commit "ece657bb0f44f64a273d5334b3423688b7ed9e3e")))
-     (sha256 (base32 "07n3kd2krsvlr1mkh7vn5w5dp2p2y4c7k6kyvywlh69zzqn564yy"))))
+           (commit "1ee9c93418cb31c8f12e6ec8916fb1604a7e6100")))
+     (sha256 (base32 "1xdxjlpvv7f242nr7c7nd9vyglkfzdlmkbqcpbh90qksxp6wxi2s"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/peterstuart/cargo-transient")
    (synopsis "A transient UI for Cargo, Rust's package manager")
@@ -11817,14 +11817,14 @@
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
-   (version "20260712.1423")
+   (version "20260716.1218")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clj-refactor.el.git")
-           (commit "f11383b643a46bb41f657455a55900682e6baf1c")))
-     (sha256 (base32 "0axmnmzx6473vf72sxps91d76bwnk4ing83x4axryklrjxds16cr"))))
+           (commit "2805bd5f505fdb199a8c5a25fca398ec9c161e5b")))
+     (sha256 (base32 "0v4j0y81m0bk3v0rp1f32imymplqd7p1i9p3k9xix254cnpq0ywg"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-yasnippet
@@ -15030,14 +15030,14 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260605.1907")
+   (version "20260716.1105")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult.git")
-           (commit "9bb68cf3941eb618fff18bd7626164951c70eb8a")))
-     (sha256 (base32 "02ain9sqvivhhy1fbxv7ayl6mshaiz484y2gcifvml1wjrnygwr2"))))
+           (commit "8c6787edc690097ccfcf2255fecf623a8ab29c7e")))
+     (sha256 (base32 "0pl4fxggmjjfmad9qwvpsjjihz86j6gcigb1xylml9q9rrnh3yf7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/consult")
@@ -20987,14 +20987,14 @@
 (define-public emacs-dired-rsync
   (package
    (name "emacs-dired-rsync")
-   (version "20260204.1424")
+   (version "20260716.1319")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/stsquad/dired-rsync.git")
-           (commit "24ceb60b168c591d7e2d9440a7f1895880681f48")))
-     (sha256 (base32 "0vrpwk91qrcnkr6cgmal7abi0cmykfr840l4cxvv5jzr8c1m1zhi"))))
+           (commit "17ed6b91b09d8ffb52089273e8e38b91d2e33d66")))
+     (sha256 (base32 "0cjrd8fa6wl6fb70by9ngfrd225ycqpwxfii3rsnqvmr4mwy0nxk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash))
    (arguments '(#:files ("dired-rsync.el")))
@@ -34095,14 +34095,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260604.2002")
+   (version "20260716.1354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "96f1852c7e352c969393e6e66176178177e933be")))
-     (sha256 (base32 "0qar882187wm4yqpabrzc8vkcgh0ybvim1dxxskc2x97zvvqf3mp"))))
+           (commit "829e84955e2438df5413695a84f63efca5de9a37")))
+     (sha256 (base32 "1s440kq5nbh7zds5v8jfhwl07258ybwckwzl84kzfz14pzqj8civ"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -62028,14 +62028,14 @@
 (define-public emacs-makefile-executor
   (package
    (name "emacs-makefile-executor")
-   (version "20230224.1329")
+   (version "20260716.1302")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Olivia5k/makefile-executor.el.git")
-           (commit "d1d98eaf522a767561f6c7cbd8d2526be58b3ec5")))
-     (sha256 (base32 "0wm0i2m124dglwq0szp6pdh2r0dln0xpgscw2immi9cchcmgcy4f"))))
+           (commit "b22e10f528def19da9b1575546f62693555e6b22")))
+     (sha256 (base32 "0h9214mg9mfmpmyrya1fqa5hs4a67mv0fk2z8mp8r68p8i4w2jw8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-f emacs-s))
    (home-page "https://github.com/Olivia5k/makefile-executor.el")
@@ -66964,14 +66964,14 @@
 (define-public emacs-mysql
   (package
    (name "emacs-mysql")
-   (version "20260715.242")
+   (version "20260716.1425")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/mysql.el.git")
-           (commit "e5b30eb5e3f8712f156822158e2c8cc782eb5c7f")))
-     (sha256 (base32 "008smg74d6gp0xy1g5ljbjpnvvq0drfcd5q5kbpc64k2rbnlxch8"))))
+           (commit "af030703c54004d28794c9b259d8fa6c7eaeec19")))
+     (sha256 (base32 "0piq2xb93x7hviip5hyaj7vfgrcwrkd190hydlwvsg1j2sw9y3na"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/mysql.el")
    (synopsis "Pure Elisp MySQL wire protocol client")
@@ -80787,14 +80787,14 @@
 (define-public emacs-php-mode
   (package
    (name "emacs-php-mode")
-   (version "20260715.1812")
+   (version "20260716.1440")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/php-mode.git")
-           (commit "101b3b5cad0d783a91ffc58e0e43115d06d11034")))
-     (sha256 (base32 "0kfwsq32bx6zqbhbw2faa3r4bb0nmsv3753jc1n6dh8bfygfgqia"))))
+           (commit "09855bdbd64ffb8ab77f023929d3a508508d05ac")))
+     (sha256 (base32 "13b02i08aq7fkyb36b32nbki6hpd1msrd69sd7q8yk3c5sxmk4r4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacs-php/php-mode")
    (synopsis "Major mode for editing PHP code")
@@ -90505,14 +90505,14 @@
 (define-public emacs-sayid
   (package
    (name "emacs-sayid")
-   (version "20260711.739")
+   (version "20260716.1006")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/sayid.git")
-           (commit "b0fe109ccd7c8377be02bb9938153d251a7db4b3")))
-     (sha256 (base32 "08sdgi158av9dqk5q0wpx3fm6f37ig8pp0r0m1437zjdgni692f7"))))
+           (commit "241fa2dc15ac6655ee214f226b885e4eb4d06be8")))
+     (sha256 (base32 "0qsy6a69s7kyby1sqgjfbz89d4svd9jrh7i16rlh8wll0l1bgrxj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-cider))
    (arguments '(#:files ("src/el/*.el")))
@@ -100659,14 +100659,14 @@
 (define-public emacs-time-zones
   (package
    (name "emacs-time-zones")
-   (version "20260518.1503")
+   (version "20260716.845")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/time-zones.git")
-           (commit "4ec11f912d8af920d021c6189e59ab74fd404a2d")))
-     (sha256 (base32 "0b12ql9l2xp2ab83d0s1bvidw8hmcrym3xdpjxi92lyslkg8gcaa"))))
+           (commit "4cc37a54ba6447dc0570cd2e42052689d94f09ee")))
+     (sha256 (base32 "0xajsx2363sj6shqv8nwbvcr4z2sq6pa4j7rbncn79qlq8wr26l4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/time-zones")
    (synopsis "Time zone lookups")
@@ -105351,14 +105351,14 @@
 (define-public emacs-verilog-ext
   (package
    (name "emacs-verilog-ext")
-   (version "20260715.1701")
+   (version "20260716.1137")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/verilog-ext.git")
-           (commit "21f1d16840f6f4c544c4ab819a0fc7c86a4127a0")))
-     (sha256 (base32 "0p4ys75vikzqspxrd5hnya3dfgjhcv3sq5l3qf73bglxx3zin349"))))
+           (commit "55ae3e820a33bfa33e7d78a217352095b7f1e8b2")))
+     (sha256 (base32 "12aj4sqmmjx7p9gydjpfa7xj8awfrbgf7v36xx1ixy3sabmrhs9a"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-verilog-ts-mode
@@ -105378,14 +105378,14 @@
 (define-public emacs-verilog-ts-mode
   (package
    (name "emacs-verilog-ts-mode")
-   (version "20260715.1711")
+   (version "20260716.1249")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/verilog-ts-mode.git")
-           (commit "63d5f773f0878dce2022ce19ec722b5af35c31c5")))
-     (sha256 (base32 "1pqszcfwsk2l2f0r7iaa5xffrhv671kyps652xx90p1an1sdxcdz"))))
+           (commit "e5d481d83816007b9e3197a7750ad911f1981a86")))
+     (sha256 (base32 "06hn6b60l1j3hz3dpv5n407v749ldybpliz91kk8kgcp535sbna4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gmlarumbe/verilog-ts-mode")
    (synopsis "Verilog Tree-sitter major mode")
@@ -105563,14 +105563,14 @@
 (define-public emacs-vhdl-ext
   (package
    (name "emacs-vhdl-ext")
-   (version "20260715.1709")
+   (version "20260716.1401")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/vhdl-ext.git")
-           (commit "7aecaa634140af3b69ac29e7e28cd9309dd872a7")))
-     (sha256 (base32 "081kngmqd3rd313x7bpfi3i2vgpkl05hg2lymzdkajf0fw0cnf7j"))))
+           (commit "8a1864c06066b949e38a3ced48364c2006f939c1")))
+     (sha256 (base32 "0l5rzbg29i1nilqs8pkm17w7z5zmcnvpzdwb1kgwws2cfdqxjfs3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-vhdl-ts-mode
@@ -105588,14 +105588,14 @@
 (define-public emacs-vhdl-ts-mode
   (package
    (name "emacs-vhdl-ts-mode")
-   (version "20260715.1712")
+   (version "20260716.1206")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/vhdl-ts-mode.git")
-           (commit "2af6fcabc3deacb4668ea60af4840279b944495d")))
-     (sha256 (base32 "0d3pfvxpiql72q7jjnvmq5qny23izii7l7pvhw7ac2fc2cnz36ml"))))
+           (commit "f45cc96c7a148b954eabcd4d8bb9c0b4c168fa8f")))
+     (sha256 (base32 "11830r2crfqh65gs0n1ln1gmp84ymnj1nngyk8ciy2cpxcls7bpy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gmlarumbe/vhdl-ts-mode")
    (synopsis "VHDL Tree-sitter major mode")
