@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260716.1054")
+   (version "20260717.842")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "44879403b42255bee61cba488c10e8042238fc18")))
-     (sha256 (base32 "03qzpfpk85mp78fmhar2nm394i9rh9p1ki9qbbhzhrg4n8b8zbd3"))))
+           (commit "65253bde9ccb69235c86797c7609c6c1d4f131f0")))
+     (sha256 (base32 "0zqss847anryixwd6abckh6pd9g4l1zxmica99ps777c02yz0dcc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -12238,14 +12238,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260716.713")
+   (version "20260717.744")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "e019f292800f8f1782eaa7d8368979420451a598")))
-     (sha256 (base32 "049fv010m6hsphiwzix7j4ld8rjm90acfx1hjazqcsbwxxqk25fv"))))
+           (commit "f756b46889c7d2ce87d49a087df1185ea160d1e5")))
+     (sha256 (base32 "08zh4jf3dnpy9pkf11qk9vk2k57xn5xg7s2825lzmwp60d0crsxg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -13299,14 +13299,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260716.209")
+   (version "20260717.328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "213c3a4637346d3124a67ae049b1fc2629efb772")))
-     (sha256 (base32 "05qsy6641cv616g4hvy2ylw33yiy2ircbbifshsd9wxjmm8k8jci"))))
+           (commit "5bdbde0565592838e965186a122ae20a1c737886")))
+     (sha256 (base32 "1s8ya7plffxhvd52wxhgi0z2vjlkxinf2lcval8lgp0cnhczggy2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -32252,14 +32252,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260714.2053")
+   (version "20260717.1000")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "978204a4d7ce0ad9b3352b975415cb6180e63fca")))
-     (sha256 (base32 "0bngdb5i1x01yzmpf1dmhdgh1jckdkaqb0b7zvcz5q3xkrwr5ywy"))))
+           (commit "e4549d68501bdef06db615b8674a9bd9f1f70a9d")))
+     (sha256 (base32 "1wyfzp02brpvrxnzkjf0jdscxx1nlglk2g00bw0g5qy6xp36pzbn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -34095,14 +34095,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260716.1354")
+   (version "20260717.456")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "829e84955e2438df5413695a84f63efca5de9a37")))
-     (sha256 (base32 "1s440kq5nbh7zds5v8jfhwl07258ybwckwzl84kzfz14pzqj8civ"))))
+           (commit "5d000be6221c70c2ba65d17f0af5cb0f4440ed37")))
+     (sha256 (base32 "08hdgls18wdszmdcwqjlxhlzmcqiqfj3117iw861rsszp4g0zpkn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -42722,14 +42722,14 @@
 (define-public emacs-gptel-agent
   (package
    (name "emacs-gptel-agent")
-   (version "20260628.830")
+   (version "20260717.506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-agent.git")
-           (commit "5eb9fac975b65df04cf62e2eeffaa79273fbf965")))
-     (sha256 (base32 "05024qizqpxmfml36rmhw5idnmymrb3bpqsprzjzbqxrqlnb3s2i"))))
+           (commit "e833bcaf617baf8c8075eac098231c4457386814")))
+     (sha256 (base32 "165jvz2v88j9j2h76qxj4awk7x699v5ahg4vvg06p6p37zfyfzc1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-gptel emacs-yaml emacs-orderless))
@@ -49603,14 +49603,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260716.2140")
+   (version "20260714.1519")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "ac03a74dd61f2f672d44d0b46f437fa06a7d7fd0")))
-     (sha256 (base32 "1rzsy87ib6lris63cqhgwkrb5ix6xw0wfgla7vhnhb9rycily3cc"))))
+           (commit "d0f5a7310c0e77cc740b30997ea4c7e6636b43ab")))
+     (sha256 (base32 "050x5glsg9hd93i1faxdb15vh2nvxx8lyw22qi00cb3vd8fr5qcp"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -93721,14 +93721,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260711.7")
+   (version "20260717.215")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "c917f01f1d208ae96683150a35e9bc1d4f56b93b")))
-     (sha256 (base32 "167zmhxc3fwgc57q7qf24bcjv69jjjcvfcjyxbhl96k1rhb10d5n"))))
+           (commit "79b0b75f71aac249f00b17d95aa63ae3ff97ef75")))
+     (sha256 (base32 "1vvspjmgdy7p3v57yfhv38cpnplda85p0fdx5z6k6hy2i1n2pjkv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -95884,14 +95884,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20260716.150")
+   (version "20260717.154")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "8c19cb0885468fb1d38692739212a8681c50296d")))
-     (sha256 (base32 "0gwrnwm2p0670q762f34smj0l14gl0lh7in0504n57xgv6ymyir8"))))
+           (commit "e839ca0184713dd954aba57d59c618b7afdb678e")))
+     (sha256 (base32 "04k4jmxx0znh605nzlqkfr9zv2xi0djhp123zgik09zcqdh68hc6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
