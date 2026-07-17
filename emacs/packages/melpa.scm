@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260717.842")
+   (version "20260717.1158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "65253bde9ccb69235c86797c7609c6c1d4f131f0")))
-     (sha256 (base32 "0zqss847anryixwd6abckh6pd9g4l1zxmica99ps777c02yz0dcc"))))
+           (commit "fe1defec8c5c629008d978e7b2f772dadf30b31f")))
+     (sha256 (base32 "0wczhzdw280mldjz2acjw6pa04gmfrwp091kbj2hgwa5ryjv5df0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -32407,14 +32407,14 @@
 (define-public emacs-fancy-dabbrev
   (package
    (name "emacs-fancy-dabbrev")
-   (version "20220211.633")
+   (version "20260717.1243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jrosdahl/fancy-dabbrev.git")
-           (commit "cf4a2f7e3e43e07ab9aa9db16532a21010e9fc8c")))
-     (sha256 (base32 "04z9pwvl68hsisnyf9wlxmkwk8xag36jvcchwcwp4n9vp04z8745"))))
+           (commit "9a9296f0dcfe272cdff1fc2e0a6a62b8cdaf11ab")))
+     (sha256 (base32 "0ix7cdcivkfxgd81hpx8bilz0dh6hgikvh5lgl0dyap9ml4y6br0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-popup))
    (home-page "https://github.com/jrosdahl/fancy-dabbrev")
@@ -34095,7 +34095,7 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260717.456")
+   (version "20260717.938")
    (source
     (origin
      (method git-fetch)
@@ -35530,14 +35530,14 @@
 (define-public emacs-flycheck-phpstan
   (package
    (name "emacs-flycheck-phpstan")
-   (version "20250930.1139")
+   (version "20260717.1311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/phpstan.el.git")
-           (commit "07ef7531f2ec73b90a965ac865cca8c96086f9de")))
-     (sha256 (base32 "1myzqbd00892a604kg88bxglk0w6valdvmaybsixapr5wgg2sbri"))))
+           (commit "47e260480a1d38a5ad56bdad3961ca6655f51370")))
+     (sha256 (base32 "03ycqnd3w391np4x89maqdjhbh7pdyqpdzw7izhn9cydv1zckpcv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck emacs-phpstan))
    (arguments '(#:files ("flycheck-phpstan.el")))
@@ -36950,14 +36950,14 @@
 (define-public emacs-flymake-phpstan
   (package
    (name "emacs-flymake-phpstan")
-   (version "20250930.1139")
+   (version "20260717.1311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/phpstan.el.git")
-           (commit "07ef7531f2ec73b90a965ac865cca8c96086f9de")))
-     (sha256 (base32 "1myzqbd00892a604kg88bxglk0w6valdvmaybsixapr5wgg2sbri"))))
+           (commit "47e260480a1d38a5ad56bdad3961ca6655f51370")))
+     (sha256 (base32 "03ycqnd3w391np4x89maqdjhbh7pdyqpdzw7izhn9cydv1zckpcv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-phpstan))
    (arguments '(#:files ("flymake-phpstan.el")))
@@ -49603,14 +49603,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260714.1519")
+   (version "20260717.702")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "d0f5a7310c0e77cc740b30997ea4c7e6636b43ab")))
-     (sha256 (base32 "050x5glsg9hd93i1faxdb15vh2nvxx8lyw22qi00cb3vd8fr5qcp"))))
+           (commit "5a935fed4e0f44674d2499e5058a43ebf9162e09")))
+     (sha256 (base32 "0vz927h11qjr4k0g7gvz0vsqwaivajih6yrwp161h400471jbr5a"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -65177,14 +65177,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260714.716")
+   (version "20260717.1109")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "9a46f896071f49de934e7a3243547972f907c469")))
-     (sha256 (base32 "0kw9zzph7z4f5samfj72fjlv95815wfwdwj6jybicjwkh9mvj8ag"))))
+           (commit "e81c3c6ce3cdeb02266487a6fc1461cb9194c70e")))
+     (sha256 (base32 "0y7c8dk5m8nn05s0gazpipvhmadn493clx7hr0dfm54cd767bz8d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -76686,14 +76686,14 @@
 (define-public emacs-orgit-forge
   (package
    (name "emacs-orgit-forge")
-   (version "20260701.1432")
+   (version "20260717.1424")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/orgit-forge.git")
-           (commit "c421620af3fb38ab4654f745f51370471b65cf4e")))
-     (sha256 (base32 "1qaq722m0sr1awdgm6fbl52h8h9qa532lisnnnrh578b8aqs3yvv"))))
+           (commit "f812864aae188bbbc36725c87bd92909ff0dda3a")))
+     (sha256 (base32 "030zdna7kx9bcrbgkn8fmkk4bx3mab6gwhly5dzh4wdf908px1d6"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-forge emacs-magit emacs-orgit))
@@ -76812,14 +76812,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260705.1234")
+   (version "20260717.1115")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "90e2767bd7e7c3fc69a723723cab488fbd976f7e")))
-     (sha256 (base32 "1515z3bgwlxzn9djmvb7xv5ddfng93hab7d1g85nxjlnrdvmvjkm"))))
+           (commit "dc2fdb7149b07f0a4454a36a05b3a174efdfcb6e")))
+     (sha256 (base32 "0x7g01yklayxhrsamg3av3sdsdb1077gpddy1098nflvqvsf30kn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -80931,14 +80931,14 @@
 (define-public emacs-phpstan
   (package
    (name "emacs-phpstan")
-   (version "20260218.453")
+   (version "20260717.1311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/phpstan.el.git")
-           (commit "77fba8fe9d63661e940b392a0e4b573e7edafb7b")))
-     (sha256 (base32 "0q08wx0k7n86v4jdspkjdjn1kmjy4cf1qrkj71qi0ga943vwz11l"))))
+           (commit "47e260480a1d38a5ad56bdad3961ca6655f51370")))
+     (sha256 (base32 "03ycqnd3w391np4x89maqdjhbh7pdyqpdzw7izhn9cydv1zckpcv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-php-mode emacs-php-runtime))
    (arguments '(#:files ("phpstan.el")))
@@ -84821,14 +84821,14 @@
 (define-public emacs-purescript-mode
   (package
    (name "emacs-purescript-mode")
-   (version "20250613.944")
+   (version "20260717.1433")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purescript-emacs/purescript-mode.git")
-           (commit "61732e23bd33b7d0d71bc6cff84b612bd2d9dff2")))
-     (sha256 (base32 "19fycmdzyipb1lwdr4p86sg4j6qjy1j2rl8raml5yrbm1cra791a"))))
+           (commit "73a72afa016827343623604025952202dd4e2f3b")))
+     (sha256 (base32 "07xjbq17zfh1sjznyhv6p46155jg9j3i7amxn5492l9c7hkafy59"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "NEWS" "snippets")))
    (home-page "https://github.com/purescript-emacs/purescript-mode")
@@ -90543,14 +90543,14 @@
 (define-public emacs-sayid
   (package
    (name "emacs-sayid")
-   (version "20260716.1006")
+   (version "20260717.1435")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/sayid.git")
-           (commit "241fa2dc15ac6655ee214f226b885e4eb4d06be8")))
-     (sha256 (base32 "0qsy6a69s7kyby1sqgjfbz89d4svd9jrh7i16rlh8wll0l1bgrxj"))))
+           (commit "16fe77228cb3f76eee52d1be336a505f23a31223")))
+     (sha256 (base32 "13gsvd11h5gq2ppgx9sk65vlcv3cgxj45br5izm3kjy6hy9hqbrg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-cider))
    (arguments '(#:files ("src/el/*.el")))
@@ -106447,14 +106447,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260715.949")
+   (version "20260717.1217")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "68d1fdd30b99e518008347ff4f1c5323e022c24f")))
-     (sha256 (base32 "0z838m070mpsnkzdqs150n6g40ilgykqbz1dh148c6hmdmvq1ppk"))))
+           (commit "32d18d5eda0a0826cea1d486c9f44ba3dab74938")))
+     (sha256 (base32 "0lp05wr8ab7lfhzhz7iv59nj8pp54hgq93yj082ymap4sz0fhzyx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -110248,14 +110248,14 @@
 (define-public emacs-youtube-music
   (package
    (name "emacs-youtube-music")
-   (version "20260703.1059")
+   (version "20260717.1039")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cyberkm/emacs-youtube-music.git")
-           (commit "fe58339e78761712ddbbb70914ec981c94f2ef02")))
-     (sha256 (base32 "0rp135mj3l85bdikww1fz4vznkq1j5qmj92gl4flmzcvxa8s0szq"))))
+           (commit "2a962d972d8a59fed718aec039c9c61ef3c0392d")))
+     (sha256 (base32 "126clxww967w2fb3padiabh6qaxfpka3kcx6xfl1k9x2n56927p1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/cyberkm/emacs-youtube-music")
    (synopsis "YouTube Music client")
