@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260716.400")
+   (version "20260716.2230")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "9c64013637a167f59c2f6b4106d40c0c806de260")))
-     (sha256 (base32 "0qbd6k90cafy23bdlzcw0pjdb53lsr08lyh1hikl0iq15x6203wk"))))
+           (commit "0eb46d4a9bd7c9ae6f76424d2ced7cd41797cd12")))
+     (sha256 (base32 "1laay2ivw6qy24ihr39r4nic54vclnms97gdd3svl8kdqihda4x4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -11817,7 +11817,7 @@
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
-   (version "20260716.1218")
+   (version "20260716.1545")
    (source
     (origin
      (method git-fetch)
@@ -15965,14 +15965,14 @@
 (define-public emacs-corfu
   (package
    (name "emacs-corfu")
-   (version "20260519.1053")
+   (version "20260716.2339")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/corfu.git")
-           (commit "4a9c67da16eb64cadaa4bfcc16713188145c83da")))
-     (sha256 (base32 "1qw0xzlxr6fh9iiszqnl4hfjm2h0rd08warhanq99q34nz4iviny"))))
+           (commit "6c2f57eba77f0734fc7d32d365aa0fab5e0cb8a2")))
+     (sha256 (base32 "0848axgk4vi2k063r5p30cdvb3w506drswl4jky177j4dski00g6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/corfu-*.el")))
@@ -23875,14 +23875,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260715.2209")
+   (version "20260716.1447")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "610f61cb0165ca03ff033284fb515fb51c83cc95")))
-     (sha256 (base32 "08j3az878yhmv5j7r0rdisz8k7qfc1c4l8wmjsdak03plyjzpr8m"))))
+           (commit "005fbd8872ca23437e2c5e72f0f9c605bbc7360d")))
+     (sha256 (base32 "1kzk07bkqdd8054441p30xj4aihh6a8b8d4q7pn1aqgk2iprld66"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -33798,14 +33798,14 @@
 (define-public emacs-flex-compile
   (package
    (name "emacs-flex-compile")
-   (version "20260615.2248")
+   (version "20260716.2144")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/plandes/flex-compile.git")
-           (commit "2d9d805ad6d1db8d7eeedf67460e4e13c9b06528")))
-     (sha256 (base32 "0qvfvxc9jb9fwfbj209srzq122z056nwfywhvv0z9pnijv6k11wx"))))
+           (commit "8ece25f4a94b78d39f93d37d0b8330afa568812f")))
+     (sha256 (base32 "0nl18z1p0703pqckankzjia6byvkl4vxxfp5ffkw1wdc1813dpdw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-buffer-manage))
    (home-page "https://github.com/plandes/flex-compile")
@@ -39283,14 +39283,14 @@
 (define-public emacs-geiser-chibi
   (package
    (name "emacs-geiser-chibi")
-   (version "20240521.2252")
+   (version "20260706.27")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://gitlab.com/emacs-geiser/chibi.git")
-           (commit "2502fed1349c2703eea528b74bcc980ad6bceab8")))
-     (sha256 (base32 "1j8vld3s653af8jyvdb3sl16ix3al4fxprawgi3r9rrvrai2wz22"))))
+           (url "https://codeberg.org/geiser/chibi.git")
+           (commit "98cda369db3faf7268dd3b1705bb914dd6dad56a")))
+     (sha256 (base32 "0gx6r9pczy73gl0cnrv3pn1fsj2dnzffi7j340vn54gg4832bpwr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-geiser))
    (arguments '(#:files (:defaults ("src" "src/*"))))
@@ -41264,14 +41264,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260707.108")
+   (version "20260507.2347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/gnosis")
-           (commit "f68bfc5500c38c1edb59ea6eed70b7a765d368f0")))
-     (sha256 (base32 "0y494925dfyrvplw8pfzwdj28cp3998g2hfqgp771m669j9may14"))))
+           (commit "07de9c67536fe3e8c5fef1daf61527f3bcfa46a7")))
+     (sha256 (base32 "1cjm8hj62zm9k89pnsh5hbgjqqnh53byw4mijl76a7cn8args4gy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://codeberg.org/thanosapollo/emacs-gnosis")
@@ -49603,16 +49603,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260716.148")
+   (version "20260716.2140")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "0dbfv9n98vw0zbbkph8g1px6bcdc1sb2snagjrkai6nxqf2zhahr"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "ac03a74dd61f2f672d44d0b46f437fa06a7d7fd0")))
+     (sha256 (base32 "1rzsy87ib6lris63cqhgwkrb5ix6xw0wfgla7vhnhb9rycily3cc"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -61039,14 +61077,14 @@
 (define-public emacs-macher
   (package
    (name "emacs-macher")
-   (version "20260628.2250")
+   (version "20260716.1952")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kmontag/macher.git")
-           (commit "44950accf782b2ae0a29f48bc85fb4842bc38ab1")))
-     (sha256 (base32 "08ywhjbygvjbgw7iz0khi21hrnbggxyd71aqa0inks3cg0m4g88l"))))
+           (commit "d39cf37148ce36f2713bb563711250f44a9b4c4d")))
+     (sha256 (base32 "17rwrgq95v2b336rb6giqd5i4mppqzv21160ggnpgi99prg356j5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (home-page "https://github.com/kmontag/macher")
@@ -61235,14 +61273,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260711.1257")
+   (version "20260716.2248")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "fe56c0d10a91d00aed65f831b8435a7224bc7730")))
-     (sha256 (base32 "0wcmi7c73131l5qd3a2xynsdgfmi7qcg7kkca04bczlfavh0fjac"))))
+           (commit "f8ab44b2942e06a43475024a7c44bf9c45f9ae60")))
+     (sha256 (base32 "19jhfn5jigawhrb5p8h82gjp95lb71p3hncj2spv2sfkv9gh5dp4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -72326,14 +72364,14 @@
 (define-public emacs-org-appear
   (package
    (name "emacs-org-appear")
-   (version "20240716.1413")
+   (version "20260716.2120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/awth13/org-appear.git")
-           (commit "32ee50f8fdfa449bbc235617549c1bccb503cb09")))
-     (sha256 (base32 "1hfhnzhmbxrw4kz977s48x4nbq86vda5dvj00s2ima2i22b8l2z4"))))
+           (commit "77d23efec5f5c25fc0798364d2b51a3ce3d8d518")))
+     (sha256 (base32 "1kfgiaaq7lxjwczc693vv1yddz28zh4gfl48bf5bggka7b22n36c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/awth13/org-appear")
    (synopsis "Auto-toggle Org elements")
@@ -78883,16 +78921,16 @@
 (define-public emacs-pangu-spacing
   (package
    (name "emacs-pangu-spacing")
-   (version "20250124.142")
+   (version "20260717.230")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/coldnew/pangu-spacing.git")
-           (commit "6509df9c90bbdb9321a756f7ea15bb2b60ed2530")))
-     (sha256 (base32 "1i52qmky0azwp5pn20nh1zrikn71m95v4hgfc3l3cgq2rqkzzm8x"))))
+           (commit "72de84e999aafa753a635b14bb199fc46d322945")))
+     (sha256 (base32 "0dg13cqgzw5b49gmrv7fvmji2a23z5irkv7k4plsvsi2ci435zn7"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/coldnew/pangu-spacing")
+   (home-page "https://github.com/coldnew/pangu-spacing")
    (synopsis "Minor-mode to add space between Chinese and English characters")
    (description "Documentation at https://melpa.org/#/pangu-spacing")
    (license #f)))
@@ -80435,14 +80473,14 @@
 (define-public emacs-pet
   (package
    (name "emacs-pet")
-   (version "20251217.2147")
+   (version "20260716.2214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/wyuenho/emacs-pet.git")
-           (commit "222f1da892462d7bea5c7a7bbcb6b5a5f4cb2158")))
-     (sha256 (base32 "0rm2a1cs4gv30968sap84jm0r5m4mmyi9rbwmdwklfb53698x3v9"))))
+           (commit "c0d856782d74d205a9359ae2f5c623d8152d20d1")))
+     (sha256 (base32 "0z50piq8wp239xc5hx51q4907yyqnmijx6x325hp60rk7kdabkga"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f))
    (home-page "https://github.com/wyuenho/emacs-pet/")
@@ -80787,14 +80825,14 @@
 (define-public emacs-php-mode
   (package
    (name "emacs-php-mode")
-   (version "20260716.1440")
+   (version "20260716.1807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/php-mode.git")
-           (commit "09855bdbd64ffb8ab77f023929d3a508508d05ac")))
-     (sha256 (base32 "13b02i08aq7fkyb36b32nbki6hpd1msrd69sd7q8yk3c5sxmk4r4"))))
+           (commit "5c4ebd83871fcff28f9019d5e4309f61241e19e7")))
+     (sha256 (base32 "1s7nvfcy8fjc452fzabaf5wgnazn6wpv8g15w38fsii1p0v26qp6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacs-php/php-mode")
    (synopsis "Major mode for editing PHP code")
@@ -89959,14 +89997,14 @@
 (define-public emacs-russian-calendar
   (package
    (name "emacs-russian-calendar")
-   (version "20260623.1009")
+   (version "20260716.2030")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/Anoncheg/emacs-russian-calendar.git")
-           (commit "23d222041dba8e5dad07542e0dc7dd3fc8419112")))
-     (sha256 (base32 "0hwhs8qx0jp45d39zzbg7ab0nb96v6wyb86hymsahdxp32yhaing"))))
+           (commit "99077f02546a1a3619c46f95be926ceada155478")))
+     (sha256 (base32 "1alk0v36jr3xbd0ykdq8kil35cqdjhcfczlnmwvdkn6ydy5igv3l"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-russian-calendar")
    (synopsis "Russian holidays and conferences. Updated 2025-09-30")
@@ -93606,14 +93644,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260708.1659")
+   (version "20260716.1645")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "48c33ed1d854ae4d020604fae55816d59b05d9ab")))
-     (sha256 (base32 "1p7k2cqmfxygkvw5pwgpfbh3ir5xksbwmqy15j86zdhgvwym8nan"))))
+           (commit "93be9f2a47a576e300568fb82b6d5db53b9f200b")))
+     (sha256 (base32 "0var54x5r8db5vppsg7lq5badzy7sbqj87zg4cjjsks4fwmil8b6"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -96513,14 +96551,14 @@
 (define-public emacs-srs
   (package
    (name "emacs-srs")
-   (version "20260713.2248")
+   (version "20260716.2238")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Duncan-Britt/srs.el.git")
-           (commit "57cf956a746c2f948b801514f62a55a97fb3ef22")))
-     (sha256 (base32 "02jzidpc56pw54pf2781i4rsgbw7kcbhha2m1p3a1pkrbxjjpyxz"))))
+           (commit "72b3db068a3b7a5e0a3f02d5f24434bec984225f")))
+     (sha256 (base32 "1s9pv9y2hlgnwj8yr0f2n7c99cdybg7a63c5rqm86dgfpq03lxp0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Duncan-Britt/srs.el")
    (synopsis "Spaced repetition in plain text")
