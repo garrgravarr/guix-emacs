@@ -9446,14 +9446,14 @@
 (define-public emacs-cargo-transient
   (package
    (name "emacs-cargo-transient")
-   (version "20260716.1038")
+   (version "20260718.1155")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/peterstuart/cargo-transient.git")
-           (commit "1ee9c93418cb31c8f12e6ec8916fb1604a7e6100")))
-     (sha256 (base32 "1xdxjlpvv7f242nr7c7nd9vyglkfzdlmkbqcpbh90qksxp6wxi2s"))))
+           (commit "a1fac6ce76d32317fd9f6bcdcc86fca46460c709")))
+     (sha256 (base32 "1k3mzxj49f680dxzla58xn1yg9s93rs1qj2ig0a9ay12z3zpr5mr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/peterstuart/cargo-transient")
    (synopsis "A transient UI for Cargo, Rust's package manager")
@@ -10875,14 +10875,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260716.552")
+   (version "20260718.1302")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "2155a400f975e7334e120c3b304985453065acf7")))
-     (sha256 (base32 "0bkx3v385czflryld8xp7yq7xswf7in33awfnz9wwd9nqrvw9cci"))))
+           (commit "03bffb62b7c30250979a9b4512c210f165dc36c9")))
+     (sha256 (base32 "1251fs6namlghmgy581mw7lijv9fnwn68pfah6pjgn8vmqdzk041"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -12238,14 +12238,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260718.556")
+   (version "20260718.1216")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "243f7621b5c402db7c21c1876e60576fb5b99368")))
-     (sha256 (base32 "087ahjq5yabn6470fqgzfiyvvdbqzvs97c3499qcmdk9h6yd43mj"))))
+           (commit "69397d14bf869ae6be2d07d04fbaaeaf4e812b1b")))
+     (sha256 (base32 "03l7wrxfdpy4qzsc3x6za8pgkvwpwqxbmvf2knx4m81gq6n4ccy2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -13299,14 +13299,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260718.226")
+   (version "20260718.1243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "400899b6636ff849138725354de18d59096487f7")))
-     (sha256 (base32 "1805ywzlaxr6pdb0phpf61kkc0s0icjcgsn7ky0ay87vvglqsrcf"))))
+           (commit "24a4a6b129546a1ce2fcb3e3c5948259dff00685")))
+     (sha256 (base32 "0qjqk4zh3fk1m7rhkj4sp6wdrsk3ki6jwdc5fly3gng3fjlc5lz1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -15965,14 +15965,14 @@
 (define-public emacs-corfu
   (package
    (name "emacs-corfu")
-   (version "20260716.2339")
+   (version "20260718.726")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/corfu.git")
-           (commit "6c2f57eba77f0734fc7d32d365aa0fab5e0cb8a2")))
-     (sha256 (base32 "0848axgk4vi2k063r5p30cdvb3w506drswl4jky177j4dski00g6"))))
+           (commit "fb799537a1e37bf3740a7f4f04eb90c08a02b8d8")))
+     (sha256 (base32 "1lm4q9nlr771la78gb8a32dmqszacza8wgk11lv448bcqdiz8nhj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/corfu-*.el")))
@@ -34095,14 +34095,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260717.2314")
+   (version "20260718.1404")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "51efdbcf43e1b97a52b828be7906c1abd413d693")))
-     (sha256 (base32 "1hnyhmcsmk6fskib0gm7v96i9vbczv8znhf6n1xhmzgf0p36m4cn"))))
+           (commit "af6b60fd544c29f68c731d709a066317b8ed0628")))
+     (sha256 (base32 "0s2a7qzifz25231pzaq38j8sqnzjid0cxck91kgnazhhp4gdndl7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -61273,14 +61273,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260718.447")
+   (version "20260718.1210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "c3d614b0d509129d0c4b486f471a4ca26f31a8b2")))
-     (sha256 (base32 "0d71m6r0zp2ipi7jymnviy2h0vdxyn4ggpl8k68xj3bliq51fvv5"))))
+           (commit "5429811150cc487603eaae972c0e4937b16651ac")))
+     (sha256 (base32 "094c7qyc0q5qbrxq3xwgkjcvjd5wm2406ajnm0x7pz680yfkjxw6"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -80508,14 +80508,14 @@
 (define-public emacs-pg
   (package
    (name "emacs-pg")
-   (version "20260607.1014")
+   (version "20260718.842")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emarsden/pg-el.git")
-           (commit "7426269673da42ed6706db44d2b7d1696ede95f6")))
-     (sha256 (base32 "1nfbzyidzlrhxvsk2z50l67lss9lgl4fswm23iyfkzbqqxiwm3w3"))))
+           (commit "b6547e6fe09867f5d7a84b5c20d914e69af454bc")))
+     (sha256 (base32 "1fsdjxjw9zqf17rkjl3jwvg1g6pq2xlbay7v76ziihxzx6m7fknl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-peg))
    (home-page "https://github.com/emarsden/pg-el")
@@ -83849,14 +83849,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260713.1548")
+   (version "20260718.904")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "cd674bb9cf979473d6d900911f3e3888b2eb3313")))
-     (sha256 (base32 "0zi8sfdm3v7bf1cm3kjpsiqz7iars3gzrvb7m5bqmj8f97j1nzfp"))))
+           (commit "19de9c3be248cb14489a3b84a7f3a069128c0066")))
+     (sha256 (base32 "12k98j0npd0sp5hk085w1q9q2lqjx1i793y7zbxsc487pldkvp9y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -104060,14 +104060,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260714.1626")
+   (version "20260718.1006")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "303de8bff64d2860818d2303b9c5309f4e31f44e")))
-     (sha256 (base32 "006wfdzbyrjhkkfcnf2fxzdv85hpgp2v58v4rj0991ysw9b10vlw"))))
+           (commit "35983966dc850cec03d37d3d98ff8fddd8f1d099")))
+     (sha256 (base32 "0qmkr4a76hxxs8vm1fxrd2dahk7y6imympd8myd8m36rpx6110sn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
