@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260717.1518")
+   (version "20260718.438")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "2f1aedad87cadbd9c43423e1831c5ce8d8e2f557")))
-     (sha256 (base32 "0pw408mbbwrlrphadxflhn62n3dzx8yzp2nk2j6jab6j1y8igwvz"))))
+           (commit "2c494430ce9e64eaf4d3eac7bd584c7b789a1975")))
+     (sha256 (base32 "17f80v5dzlal144pbfd706iqmdys4yks8dlijz9hqdck5il9n70d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -12238,14 +12238,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260717.1427")
+   (version "20260718.556")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "8a1845ecb0143bfcd776328bc2ae75d25040b6b2")))
-     (sha256 (base32 "1mzankq133fdjlphky25xypf4bap841hvmkwg3p2qcbzc7rh2qml"))))
+           (commit "243f7621b5c402db7c21c1876e60576fb5b99368")))
+     (sha256 (base32 "087ahjq5yabn6470fqgzfiyvvdbqzvs97c3499qcmdk9h6yd43mj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -13299,7 +13299,7 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260718.146")
+   (version "20260718.226")
    (source
     (origin
      (method git-fetch)
@@ -61273,14 +61273,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260717.1908")
+   (version "20260718.447")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "74a06b23602317d9bc58c3d952cc882701922f84")))
-     (sha256 (base32 "0wankvwdsfjp9irhlm5kp35sc4899kmisagq9dhx5mydicw6hsad"))))
+           (commit "c3d614b0d509129d0c4b486f471a4ca26f31a8b2")))
+     (sha256 (base32 "0d71m6r0zp2ipi7jymnviy2h0vdxyn4ggpl8k68xj3bliq51fvv5"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -72783,14 +72783,14 @@
 (define-public emacs-org-change
   (package
    (name "emacs-org-change")
-   (version "20260717.2225")
+   (version "20260718.323")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/org-change.git")
-           (commit "d2b80530d7e6de400142faec4f25092e9564706e")))
-     (sha256 (base32 "1d8v8naqxhwlyz4s923k273j0j48d6jcws7y6ayfg3zcmgphxgmh"))))
+           (commit "0caa38b0772664d647dfa76ee237006bb59ba72c")))
+     (sha256 (base32 "0dd60sxj168wa9bddy6z9248806627k5qi99pycb2w9d9qjm5v0k"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/org-change")
    (synopsis "Annotate changes in text files")
@@ -75108,14 +75108,14 @@
 (define-public emacs-org-repeat-by-cron
   (package
    (name "emacs-org-repeat-by-cron")
-   (version "20260507.721")
+   (version "20260718.441")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/TomoeMami/org-repeat-by-cron.el.git")
-           (commit "889944d9ee09fb4f09c3f7104c133a469dd242fd")))
-     (sha256 (base32 "1j2hvsfzggm7kj7w41k953vfvi3v86qbxqmlf53kfmc5b3p7742i"))))
+           (commit "3009d28e434e1c44cf55490cfa54d5668107aca9")))
+     (sha256 (base32 "0fc3cvcqyg7nqhfhvyy4gcwh2lavpc9af7yvsn82gqjmr8fi366m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/TomoeMami/org-repeat-by-cron.el")
    (synopsis "An Org mode task repeater based on Cron expressions")
@@ -96534,14 +96534,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260708.1054")
+   (version "20260718.410")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "6a68aa5862e589e0fe3e04b793b5f862a0965553")))
-     (sha256 (base32 "18qnpqbl6y0cv4wjijwhwrj3ic8mbd1hd0764jfz3nsl4yn5jvgc"))))
+           (commit "e866eef9526cbfa056a6ed5a5c6506ce5bfe5eb2")))
+     (sha256 (base32 "1q5p6kq5cm6jwbprp0z93vim0w8yrw153xp569yv3fjsf41wfsm9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -106465,14 +106465,14 @@
 (define-public emacs-vulpea-journal
   (package
    (name "emacs-vulpea-journal")
-   (version "20260703.644")
+   (version "20260718.532")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-journal.git")
-           (commit "4f6b195faec8f468047efe76a74fbd60a495c32a")))
-     (sha256 (base32 "0yad7qjam45myc4a2d9jfmcajjb40v9qbhr9gkgbdk82jp3jfbf5"))))
+           (commit "3bd4fbbae8deece4d595f39e6f629b6cfeaf888f")))
+     (sha256 (base32 "0rkzbn9hp9bxyxh6wr2lkpy6dg1glfl87ah3a5r3rrh2dhhs64rv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vulpea-ui emacs-vui emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea-journal")
