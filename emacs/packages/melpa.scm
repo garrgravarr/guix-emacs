@@ -1663,7 +1663,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260717.1158")
+   (version "20260717.1639")
    (source
     (origin
      (method git-fetch)
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260716.2230")
+   (version "20260717.1518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "0eb46d4a9bd7c9ae6f76424d2ced7cd41797cd12")))
-     (sha256 (base32 "1laay2ivw6qy24ihr39r4nic54vclnms97gdd3svl8kdqihda4x4"))))
+           (commit "2f1aedad87cadbd9c43423e1831c5ce8d8e2f557")))
+     (sha256 (base32 "0pw408mbbwrlrphadxflhn62n3dzx8yzp2nk2j6jab6j1y8igwvz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -12238,14 +12238,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260717.744")
+   (version "20260717.1427")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "f756b46889c7d2ce87d49a087df1185ea160d1e5")))
-     (sha256 (base32 "08zh4jf3dnpy9pkf11qk9vk2k57xn5xg7s2825lzmwp60d0crsxg"))))
+           (commit "8a1845ecb0143bfcd776328bc2ae75d25040b6b2")))
+     (sha256 (base32 "1mzankq133fdjlphky25xypf4bap841hvmkwg3p2qcbzc7rh2qml"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -13299,14 +13299,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260717.328")
+   (version "20260718.146")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "5bdbde0565592838e965186a122ae20a1c737886")))
-     (sha256 (base32 "1s8ya7plffxhvd52wxhgi0z2vjlkxinf2lcval8lgp0cnhczggy2"))))
+           (commit "400899b6636ff849138725354de18d59096487f7")))
+     (sha256 (base32 "1805ywzlaxr6pdb0phpf61kkc0s0icjcgsn7ky0ay87vvglqsrcf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -17172,14 +17172,14 @@
 (define-public emacs-csound-mode
   (package
    (name "emacs-csound-mode")
-   (version "20260710.1255")
+   (version "20260717.1816")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hlolli/csound-mode.git")
-           (commit "411e31bb6ca8a4033322c11d2d838c6e8d9f02af")))
-     (sha256 (base32 "0r0vijh6r7xyz4pvdg282qwrlyqa6fr35jwhq7phxmsj4hgha986"))))
+           (commit "8ec473e4dbd10a86e332f63003392b2e89469e69")))
+     (sha256 (base32 "0b8dqm8651sr2ik28lqbrq29sjrcpf4i1dppqfs7c69s8m3why5y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hlolli/csound-mode")
    (synopsis "A major mode for interacting and coding Csound")
@@ -34095,14 +34095,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260717.938")
+   (version "20260717.2314")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "5d000be6221c70c2ba65d17f0af5cb0f4440ed37")))
-     (sha256 (base32 "08hdgls18wdszmdcwqjlxhlzmcqiqfj3117iw861rsszp4g0zpkn"))))
+           (commit "51efdbcf43e1b97a52b828be7906c1abd413d693")))
+     (sha256 (base32 "1hnyhmcsmk6fskib0gm7v96i9vbczv8znhf6n1xhmzgf0p36m4cn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -35530,14 +35530,14 @@
 (define-public emacs-flycheck-phpstan
   (package
    (name "emacs-flycheck-phpstan")
-   (version "20260717.1311")
+   (version "20260717.1734")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/phpstan.el.git")
-           (commit "47e260480a1d38a5ad56bdad3961ca6655f51370")))
-     (sha256 (base32 "03ycqnd3w391np4x89maqdjhbh7pdyqpdzw7izhn9cydv1zckpcv"))))
+           (commit "00942a5d5b28560bd08f7355d131074772bb7a01")))
+     (sha256 (base32 "1hf5jxj1amvv9ac1jm5bly38xfhj5k0rmsg3sd9kd888hi95gph8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck emacs-phpstan))
    (arguments '(#:files ("flycheck-phpstan.el")))
@@ -36950,14 +36950,14 @@
 (define-public emacs-flymake-phpstan
   (package
    (name "emacs-flymake-phpstan")
-   (version "20260717.1311")
+   (version "20260717.1734")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/phpstan.el.git")
-           (commit "47e260480a1d38a5ad56bdad3961ca6655f51370")))
-     (sha256 (base32 "03ycqnd3w391np4x89maqdjhbh7pdyqpdzw7izhn9cydv1zckpcv"))))
+           (commit "00942a5d5b28560bd08f7355d131074772bb7a01")))
+     (sha256 (base32 "1hf5jxj1amvv9ac1jm5bly38xfhj5k0rmsg3sd9kd888hi95gph8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-phpstan))
    (arguments '(#:files ("flymake-phpstan.el")))
@@ -39246,14 +39246,14 @@
 (define-public emacs-geiser
   (package
    (name "emacs-geiser")
-   (version "20260523.1502")
+   (version "20260718.8")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/geiser/geiser.git")
-           (commit "84c25e9683a18d00387b6c16b0cee66269536c3c")))
-     (sha256 (base32 "0gyr7fky3jppk3vy44mq3lfwz0n7r0k6cxim7bdfp9qy8jqw1pr8"))))
+           (commit "3e506d06b34ccda8a50ac3e43c90d722c00065fe")))
+     (sha256 (base32 "0yzl6hirz8x13pm3v9n7flz44pczfc0cmv8ysmxhndk93c925k17"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "doc/dir" "doc/geiser.texi")))
    (home-page "https://gitlab.com/emacs-geiser/")
@@ -43739,14 +43739,14 @@
 (define-public emacs-guix
   (package
    (name "emacs-guix")
-   (version "20260711.616")
+   (version "20260717.1908")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/guix/emacs-guix.git")
-           (commit "90db5c1951886737aa26cc8be8e7ac717182dfef")))
-     (sha256 (base32 "0sm9s1jspqz5i4fq4s4hskyvfnhpzipxq490xx60p8gdnrxvvkny"))))
+           (commit "0fd304b6830890c218d7967f68216588f61db402")))
+     (sha256 (base32 "04r4iqiv7syafpl95fcy75lgkh5dd300r8jw8ig5ywxfhi7g5i19"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -49991,14 +49991,14 @@
 (define-public emacs-ibuffer-sidebar
   (package
    (name "emacs-ibuffer-sidebar")
-   (version "20260612.632")
+   (version "20260717.2306")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/ibuffer-sidebar.git")
-           (commit "1330b0f156e2275acd1a9256fc13a1d22e5e3a9e")))
-     (sha256 (base32 "00nc690aqywxn4rrp2fnd7jq7vik8722ds2c1prq10bwwn6n653h"))))
+           (commit "2781453a6967a7d16a1dddb04cfba6b907110d3e")))
+     (sha256 (base32 "1qb9lzkjx8pi2aii8crpnixyf9kxh1igi6gwd640gni34zqj8gwh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jojojames/ibuffer-sidebar")
    (synopsis "Sidebar for `ibuffer'")
@@ -61273,14 +61273,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260716.2248")
+   (version "20260717.1908")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "f8ab44b2942e06a43475024a7c44bf9c45f9ae60")))
-     (sha256 (base32 "19jhfn5jigawhrb5p8h82gjp95lb71p3hncj2spv2sfkv9gh5dp4"))))
+           (commit "74a06b23602317d9bc58c3d952cc882701922f84")))
+     (sha256 (base32 "0wankvwdsfjp9irhlm5kp35sc4899kmisagq9dhx5mydicw6hsad"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -72783,14 +72783,14 @@
 (define-public emacs-org-change
   (package
    (name "emacs-org-change")
-   (version "20260227.224")
+   (version "20260717.2225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/org-change.git")
-           (commit "1da8d9384c42f559d41d6564e90c03c28b777387")))
-     (sha256 (base32 "17h0rv7gdv3lhfw2cp8d6hqcqwh7lk5dbk1141sk55vxnh45f7l7"))))
+           (commit "d2b80530d7e6de400142faec4f25092e9564706e")))
+     (sha256 (base32 "1d8v8naqxhwlyz4s923k273j0j48d6jcws7y6ayfg3zcmgphxgmh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/org-change")
    (synopsis "Annotate changes in text files")
@@ -74108,14 +74108,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260630.1125")
+   (version "20260717.1827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "f99b31c98c929ccb8babb256681baed0bbcdd3dc")))
-     (sha256 (base32 "1ym6nfkzcd9z7lxsrr29q2jdkm6s2gihky7fgjjmy87hvlpf2a57"))))
+           (commit "d46c02edbdbd9f070b0492ffbe9f4ceea3322737")))
+     (sha256 (base32 "0z5lrb25gd1yd4amja3izj5qqrh8v8pw7q5qqjz064hxkmi83xmx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -76649,14 +76649,14 @@
 (define-public emacs-orgit
   (package
    (name "emacs-orgit")
-   (version "20260701.1430")
+   (version "20260717.1740")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/orgit.git")
-           (commit "7c4827cd04953166f71eaec151ad1c50872fc680")))
-     (sha256 (base32 "1730vha6pa10cnz5j5nyzf8wxnnkck6ncmi4i3sqmhfxalf901xk"))))
+           (commit "47b3568fce775c756fb5bb3545c2edd48b8e2fc1")))
+     (sha256 (base32 "1yd1rk4cfr7n2fxidmpcpza8zwnzmf6sayp2i0mclrx31y88nmhl"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-magit))
@@ -80383,14 +80383,14 @@
 (define-public emacs-perspective
   (package
    (name "emacs-perspective")
-   (version "20260714.2241")
+   (version "20260717.1853")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nex3/perspective-el.git")
-           (commit "d8bc18cd511136fc1b44f5fe85c7691b0aa89083")))
-     (sha256 (base32 "02vk8g7051197rz5vkqknwfsa75gznrkmvhn52ii6db5aqvn8qr3"))))
+           (commit "62e6f6de03423d0cede0ea0f821e6fcd3e195c83")))
+     (sha256 (base32 "0y9119jsnhv424ipx5idjigdmz1jq69abifs0jhf94yp3clg5y3m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/nex3/perspective-el")
    (synopsis "Switch between named \"perspectives\" of the editor")
@@ -80931,14 +80931,14 @@
 (define-public emacs-phpstan
   (package
    (name "emacs-phpstan")
-   (version "20260717.1311")
+   (version "20260717.1734")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/phpstan.el.git")
-           (commit "47e260480a1d38a5ad56bdad3961ca6655f51370")))
-     (sha256 (base32 "03ycqnd3w391np4x89maqdjhbh7pdyqpdzw7izhn9cydv1zckpcv"))))
+           (commit "00942a5d5b28560bd08f7355d131074772bb7a01")))
+     (sha256 (base32 "1hf5jxj1amvv9ac1jm5bly38xfhj5k0rmsg3sd9kd888hi95gph8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-php-mode emacs-php-runtime))
    (arguments '(#:files ("phpstan.el")))
@@ -82587,14 +82587,14 @@
 (define-public emacs-popterm
   (package
    (name "emacs-popterm")
-   (version "20260621.1534")
+   (version "20260717.1502")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/CsBigDataHub/popterm.el.git")
-           (commit "24b9f85226dde1e4fc18c5470ed2971a120d4f27")))
-     (sha256 (base32 "1rxpb6mjpvra6pfby21c7222cpabi856r3n8mjkb41dvcfnas0vx"))))
+           (url "https://github.com/ChetanKoneru/popterm.el.git")
+           (commit "c3f2079bdd5d480a7509b2f28cc104ec7473ffb7")))
+     (sha256 (base32 "06ddkcvji5dz091kblr5h82jipig7q3zjcb20qc1cfv1d9lv9y46"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/CsBigDataHub/popterm.el")
