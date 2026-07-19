@@ -1862,14 +1862,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20260719.655")
+   (version "20260719.1435")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "6accda816d4726f0d4d24ebc49a458f9bb9c6899")))
-     (sha256 (base32 "13wn2r85rmmbrvav4kvhlylxbdbm0wicyqgmkadz0z83ppcxfzz6"))))
+           (commit "c548c5cf0d4a427a9c59d6e384ac1d96c285adbe")))
+     (sha256 (base32 "0rk8h2vjzkrwzmqsrw2pf3hikbj10v5n6z7jjjjil8pqj146whjy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -6903,14 +6903,14 @@
 (define-public emacs-binky
   (package
    (name "emacs-binky")
-   (version "20250123.1928")
+   (version "20260719.1537")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/eki3z/binky.el.git")
-           (commit "29f2492366ced8ff13802faf4a1c6df5e0c9cb07")))
-     (sha256 (base32 "16qvz52lqrv3gv9fvnm8hfxghlnim7gf05y7l0i3zwgcmc2nhk3n"))))
+           (commit "e24c4691d231f4b0f649e155d2c93cd83d3dc073")))
+     (sha256 (base32 "1wrp3ys5lv10ny2fspg5sqbwcxlmn315q7g8icjsjnk64dbdicvs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/eki3z/binky.el")
@@ -11414,14 +11414,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260715.426")
+   (version "20260719.1012")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "6b1c8466d283b052e2dbba44e6df06f5fe0c16df")))
-     (sha256 (base32 "1baq6i5nsqd4qzp8zdb5zl199jipnjhfwk88nq11pd3v5xskl2my"))))
+           (commit "b10547ca89e51914f5b43e85e5c9f4c67be6294b")))
+     (sha256 (base32 "0d3vf5k3bl4c34xzj6gp9hlq209nr9zrg9v0cs58dq1caly1bxwa"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12238,14 +12238,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260718.1409")
+   (version "20260719.1018")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "69397d14bf869ae6be2d07d04fbaaeaf4e812b1b")))
-     (sha256 (base32 "03l7wrxfdpy4qzsc3x6za8pgkvwpwqxbmvf2knx4m81gq6n4ccy2"))))
+           (commit "f64414e20c58a6b92255fd3f634785b0855ea8f5")))
+     (sha256 (base32 "0akgrdhrbmwjwl7g4zlym5blpja3q9p55mygcck17xxqrl40z4fw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -19393,14 +19393,14 @@
 (define-public emacs-denote-explore
   (package
    (name "emacs-denote-explore")
-   (version "20260718.2301")
+   (version "20260719.936")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pprevos/denote-explore.git")
-           (commit "ee5fea4143350ab9cfaa4d089caa55bcf9cfb383")))
-     (sha256 (base32 "0gwdvpyhgmm3g44bwgn68955zcc99mbjypgwjpgqajz5n294x4wv"))))
+           (commit "bd442d761d0ce6efe5cd3b7ce4806a86a49cf8a9")))
+     (sha256 (base32 "1pfvwg1akn59jqrc829fky91kpm0j7maq8s8dsb5z0lfb8i08ksx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-denote emacs-dash emacs-denote-regexp))
    (arguments '(#:files (:defaults "*.html")))
@@ -43738,14 +43738,14 @@
 (define-public emacs-guix
   (package
    (name "emacs-guix")
-   (version "20260717.1908")
+   (version "20260719.1326")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/guix/emacs-guix.git")
-           (commit "0fd304b6830890c218d7967f68216588f61db402")))
-     (sha256 (base32 "04r4iqiv7syafpl95fcy75lgkh5dd300r8jw8ig5ywxfhi7g5i19"))))
+           (commit "5d41b59529548cca88c368fe7975856a49b50a7b")))
+     (sha256 (base32 "00904i5kby3794lfyic80pqwbxk4v3a8p1v5v6wi59fzzpwz26kh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -61272,14 +61272,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260718.1210")
+   (version "20260719.948")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "5429811150cc487603eaae972c0e4937b16651ac")))
-     (sha256 (base32 "094c7qyc0q5qbrxq3xwgkjcvjd5wm2406ajnm0x7pz680yfkjxw6"))))
+           (commit "0988e1564bbe5a08f876fa0d78eb9d587c704121")))
+     (sha256 (base32 "0rnk6kd0q8wmm1n96pvd3qkc7hwkq771vs20qqpcbb9mwqg2faaw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
