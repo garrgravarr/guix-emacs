@@ -1245,14 +1245,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20260709.759")
+   (version "20260719.342")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "5140f4121156707245567b8fc3072d4c3b5c867f")))
-     (sha256 (base32 "0lhf21sq5c9cdqa1s22y8kbk0s21jgg6ydx22y87adij1j7a1plr"))))
+           (commit "a29cb161ac95f1819f34481a98666707661c5cf8")))
+     (sha256 (base32 "0mbhra3nnvfwja3bamhcg8nfgrh4l19sv5cvir452xhab0y9rs7a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260718.2135")
+   (version "20260719.835")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "25899550d3e65aad425efc43664e5888c8edaa6b")))
-     (sha256 (base32 "1gkbll8glsjqb7hhfismqdlnj1pjxrfg5346x3145sl69pnygni1"))))
+           (commit "7e5162d610a4e951aeedbac356f8ae6aa26d0133")))
+     (sha256 (base32 "0i6ih8zq2sj1wya2br18cgcnqcfyh4is186kp61mw2rz252x64l6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1862,14 +1862,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20260718.1734")
+   (version "20260719.655")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "6b805bdaa11c754e5bbfee7a3cc39fbae835b39b")))
-     (sha256 (base32 "159slp71wk9bcg2m2l1wxmckb4rmlcgzwcdbginn5ppis2r09bw6"))))
+           (commit "6accda816d4726f0d4d24ebc49a458f9bb9c6899")))
+     (sha256 (base32 "13wn2r85rmmbrvav4kvhlylxbdbm0wicyqgmkadz0z83ppcxfzz6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -5772,14 +5772,14 @@
 (define-public emacs-base16-theme
   (package
    (name "emacs-base16-theme")
-   (version "20260621.406")
+   (version "20260719.235")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tinted-theming/base16-emacs.git")
-           (commit "93b118e5ae7477361d1120db32508cb9756eb145")))
-     (sha256 (base32 "1lmzfm2yscq1f4xrf47vabaf6r8svc6hrwdn2166zfj42sf3zx2h"))))
+           (commit "0fa7a37a5140cc64f44ef404309b8961d2e46562")))
+     (sha256 (base32 "1ahay37adsv3givhcpc1jzl054sw9n8rslk3m786fjvqn4zn5h92"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "build/*.el")))
    (home-page "https://github.com/tinted-theming/base16-emacs")
@@ -17172,14 +17172,14 @@
 (define-public emacs-csound-mode
   (package
    (name "emacs-csound-mode")
-   (version "20260717.1816")
+   (version "20260719.833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hlolli/csound-mode.git")
-           (commit "8ec473e4dbd10a86e332f63003392b2e89469e69")))
-     (sha256 (base32 "0b8dqm8651sr2ik28lqbrq29sjrcpf4i1dppqfs7c69s8m3why5y"))))
+           (commit "9b12204deb8cede38dbb178f4b9c5f101e06d6a3")))
+     (sha256 (base32 "0w7s3n4l1dw00j7k2f6h0q2dhbn8ydy3dqq20bp647sq2xpdihzp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hlolli/csound-mode")
    (synopsis "A major mode for interacting and coding Csound")
@@ -39841,14 +39841,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260714.2158")
+   (version "20260717.1309")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "f00d73563524dec28c458b1b22eb1b7ae721e822")))
-     (sha256 (base32 "012kxf441qhxpfwcv931mh3z5jypkx10lf59l891xnr6432plfh6"))))
+           (commit "7aa53db6ce82612b868c70e44087ac55f4354d56")))
+     (sha256 (base32 "1f6281qxxbnfmlz30mh51jy8yrn5k2lh3x1irv48r6aqrkhngwcw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49602,14 +49602,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260717.702")
+   (version "20260719.728")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "5a935fed4e0f44674d2499e5058a43ebf9162e09")))
-     (sha256 (base32 "0vz927h11qjr4k0g7gvz0vsqwaivajih6yrwp161h400471jbr5a"))))
+           (commit "1b4d3d93c1922e0067596ddc8060a875d8b5dc43")))
+     (sha256 (base32 "14sc64rk3dgb3ll3zsdxs4ddar7biqqyw7qvss021l97hlwnv2hs"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -93720,14 +93720,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260717.215")
+   (version "20260719.420")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "79b0b75f71aac249f00b17d95aa63ae3ff97ef75")))
-     (sha256 (base32 "1vvspjmgdy7p3v57yfhv38cpnplda85p0fdx5z6k6hy2i1n2pjkv"))))
+           (commit "055c1c98c2b7791162b0e8c994051a7d72208dc1")))
+     (sha256 (base32 "0i6p6g0930rspzhvyhr5m03njin66b56v0jjbm2byr15cc2qxx7b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -96533,7 +96533,7 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260718.1654")
+   (version "20260719.56")
    (source
     (origin
      (method git-fetch)
@@ -97619,14 +97619,14 @@
 (define-public emacs-sumibi
   (package
    (name "emacs-sumibi")
-   (version "20260612.324")
+   (version "20260719.559")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/Sumibi.git")
-           (commit "f5674b69135a49aa3d531d148609942e0b09913b")))
-     (sha256 (base32 "0m2v9wj9yvrkifg953p1w7gm7hgdav4jrs4g6vsp8l3jxfac6grj"))))
+           (commit "9b191439bdaa0f6a36ad95429e725d096d564096")))
+     (sha256 (base32 "0rg6la4fq6m3j2blvscg4kwc32s7va7a10ar825jnsdg5cxriqn3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-popup emacs-unicode-escape emacs-deferred emacs-markdown-mode))
