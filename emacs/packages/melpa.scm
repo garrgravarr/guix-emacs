@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260717.1639")
+   (version "20260718.2135")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "fe1defec8c5c629008d978e7b2f772dadf30b31f")))
-     (sha256 (base32 "0wczhzdw280mldjz2acjw6pa04gmfrwp091kbj2hgwa5ryjv5df0"))))
+           (commit "25899550d3e65aad425efc43664e5888c8edaa6b")))
+     (sha256 (base32 "1gkbll8glsjqb7hhfismqdlnj1pjxrfg5346x3145sl69pnygni1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260718.438")
+   (version "20260718.1445")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "2c494430ce9e64eaf4d3eac7bd584c7b789a1975")))
-     (sha256 (base32 "17f80v5dzlal144pbfd706iqmdys4yks8dlijz9hqdck5il9n70d"))))
+           (commit "a27cf8894f5284c330fc32a0528d964030052cb1")))
+     (sha256 (base32 "1vr828nfska36xrkaby6919q0cz4cll946jqi1fwxzrxkxbfa2q1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -1862,14 +1862,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20260713.2035")
+   (version "20260718.1734")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "da680e6029ee1ec0155adea922b9945824b09b9c")))
-     (sha256 (base32 "0bpv1kqwcs9gphsxjh7aviviihdwvgx2i640v4zps5qlimh9g22j"))))
+           (commit "6b805bdaa11c754e5bbfee7a3cc39fbae835b39b")))
+     (sha256 (base32 "159slp71wk9bcg2m2l1wxmckb4rmlcgzwcdbginn5ppis2r09bw6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -9586,14 +9586,14 @@
 (define-public emacs-casual
   (package
    (name "emacs-casual")
-   (version "20260715.1836")
+   (version "20260718.1803")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/casual.git")
-           (commit "f549babc2bc449b2df5390ab41776f31c711f84e")))
-     (sha256 (base32 "02hv0diyrbqds7lhrni3nmw7f91x3gk6dbiqcy8k2z4fzlccp6mk"))))
+           (commit "cadbeab2ec45804e63a328202c9a82fbed2413c5")))
+     (sha256 (base32 "1dr4bdxm5c69kpn0312a9jxl1ds6m66dr0x1571993qga4m67aqn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-csv-mode))
    (arguments '(#:files (:defaults "docs/images")))
@@ -12238,7 +12238,7 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260718.1216")
+   (version "20260718.1409")
    (source
     (origin
      (method git-fetch)
@@ -19393,17 +19393,16 @@
 (define-public emacs-denote-explore
   (package
    (name "emacs-denote-explore")
-   (version "20260525.2035")
+   (version "20260718.2301")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pprevos/denote-explore.git")
-           (commit "5a6d005fbc9e2131197c20acdffca239f9cd4961")))
-     (sha256 (base32 "12h94rikibs4h3qx173v5l3ljk2iylnnj1jk1p521zk1yxznv9ih"))))
+           (commit "ee5fea4143350ab9cfaa4d089caa55bcf9cfb383")))
+     (sha256 (base32 "0gwdvpyhgmm3g44bwgn68955zcc99mbjypgwjpgqajz5n294x4wv"))))
    (build-system melpa-build-system)
-   (propagated-inputs
-    (list emacs-denote emacs-denote-sequence emacs-dash emacs-denote-regexp))
+   (propagated-inputs (list emacs-denote emacs-dash emacs-denote-regexp))
    (arguments '(#:files (:defaults "*.html")))
    (home-page "https://github.com/pprevos/denote-explore/")
    (synopsis "Explore and visualise Denote files")
@@ -30105,14 +30104,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260715.218")
+   (version "20260718.1612")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "cf84caf44dd1588c10cd14a90223821a691099cc")))
-     (sha256 (base32 "0csc8hknhpxx0jgfbz6b0f0fcyz4dffmzwm94s2vksgz6ymihdm1"))))
+           (commit "68817b926d1be17d613810baaee2315259481b7e")))
+     (sha256 (base32 "1fkyvzvg125rgd60wli2nchhlzn61bzfb6pah4v3cj4y4phnsy6s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -34095,7 +34094,7 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260718.1404")
+   (version "20260718.1430")
    (source
     (origin
      (method git-fetch)
@@ -44837,14 +44836,14 @@
 (define-public emacs-helm-bbdb
   (package
    (name "emacs-helm-bbdb")
-   (version "20190728.1325")
+   (version "20260718.1450")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm-bbdb.git")
-           (commit "db69114ff1af8bf48b5a222242e3a8dd6e101e67")))
-     (sha256 (base32 "1yfz5s83589jazyfzyrzh84iv0db2akbwj796gadpb3yhn17pl4v"))))
+           (commit "e9d9f43cea8e353f79178085fb38587a0fbb9714")))
+     (sha256 (base32 "1ivl8vc0pc9155liy635vjzszyipyp502x6zx967q7v359lf4683"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm emacs-bbdb))
    (home-page "https://github.com/emacs-helm/helm-bbdb")
@@ -49991,14 +49990,14 @@
 (define-public emacs-ibuffer-sidebar
   (package
    (name "emacs-ibuffer-sidebar")
-   (version "20260717.2306")
+   (version "20260718.2134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/ibuffer-sidebar.git")
-           (commit "2781453a6967a7d16a1dddb04cfba6b907110d3e")))
-     (sha256 (base32 "1qb9lzkjx8pi2aii8crpnixyf9kxh1igi6gwd640gni34zqj8gwh"))))
+           (commit "d24edb3e7507f4cc8e6e3b336f49bafc2a6c3c8a")))
+     (sha256 (base32 "1hsqyd4xgx3bfkps6b5ahv2hcyvdpli2b86r7gk79cqim53jhbjg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jojojames/ibuffer-sidebar")
    (synopsis "Sidebar for `ibuffer'")
@@ -61077,14 +61076,14 @@
 (define-public emacs-macher
   (package
    (name "emacs-macher")
-   (version "20260716.1952")
+   (version "20260718.1815")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kmontag/macher.git")
-           (commit "d39cf37148ce36f2713bb563711250f44a9b4c4d")))
-     (sha256 (base32 "17rwrgq95v2b336rb6giqd5i4mppqzv21160ggnpgi99prg356j5"))))
+           (commit "b6e51cb9a01c87e36d8920d947ed171bf21c8287")))
+     (sha256 (base32 "1wxa7zkwj9c8h6qq61wr36c54fq8kabhp47ij6d7b659cc9bhwbz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (home-page "https://github.com/kmontag/macher")
@@ -72783,14 +72782,14 @@
 (define-public emacs-org-change
   (package
    (name "emacs-org-change")
-   (version "20260718.323")
+   (version "20260719.202")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/org-change.git")
-           (commit "0caa38b0772664d647dfa76ee237006bb59ba72c")))
-     (sha256 (base32 "0dd60sxj168wa9bddy6z9248806627k5qi99pycb2w9d9qjm5v0k"))))
+           (commit "70c52b2b1b7a531a7a014bc3b1efb030539eb2e6")))
+     (sha256 (base32 "1dnwfc31vkycyp639k09zcwxp19yg72vjggzcx129bk7jxwyxw9d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/org-change")
    (synopsis "Annotate changes in text files")
@@ -80222,14 +80221,14 @@
 (define-public emacs-persist-text-scale
   (package
    (name "emacs-persist-text-scale")
-   (version "20260701.1531")
+   (version "20260718.1651")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/persist-text-scale.el.git")
-           (commit "1465b30491b03456262861c2b4c2c54251113e5b")))
-     (sha256 (base32 "0pv1071v77nhiq77zackc97l9y6imvngya40vmww8954kbmabcvy"))))
+           (commit "2535c7cda4d196d2c4f6311b27cff88aefabb14f")))
+     (sha256 (base32 "0qrr99ss7pcj2j3azcqy8rimbw0w7k34zc12bkaxd7ky3ah2h614"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/persist-text-scale.el")
    (synopsis "Persist and restore text scale")
@@ -80825,14 +80824,14 @@
 (define-public emacs-php-mode
   (package
    (name "emacs-php-mode")
-   (version "20260716.1807")
+   (version "20260719.209")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/php-mode.git")
-           (commit "5c4ebd83871fcff28f9019d5e4309f61241e19e7")))
-     (sha256 (base32 "1s7nvfcy8fjc452fzabaf5wgnazn6wpv8g15w38fsii1p0v26qp6"))))
+           (commit "6ebe4a618aa64db3e15f809b036c1b1a6d05c030")))
+     (sha256 (base32 "1fcdncv959ssqnbsjkjy2ay82h4qkrr6wzr1911b39gf78s9xn0h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacs-php/php-mode")
    (synopsis "Major mode for editing PHP code")
@@ -81266,14 +81265,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260709.1634")
+   (version "20260718.1804")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "b87cf9856660fbcc83d8297ef33c243a3f4ec4f0")))
-     (sha256 (base32 "0m7kviids256cpl04by36zqb92xqh88l2h7qvjccaawaf2h3qdr1"))))
+           (commit "9834cb04fb59d8cb600059f20bf297522c764deb")))
+     (sha256 (base32 "0h2cg9x8hpjxhdbql9lnncdij65lq70dl0imhqx2xkc32si9v97m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -96534,14 +96533,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260718.410")
+   (version "20260718.1654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "e866eef9526cbfa056a6ed5a5c6506ce5bfe5eb2")))
-     (sha256 (base32 "1q5p6kq5cm6jwbprp0z93vim0w8yrw153xp569yv3fjsf41wfsm9"))))
+           (commit "4b8e56ce6545de9b33ddb841f535c5f1ec301e00")))
+     (sha256 (base32 "0qmn8fr9d1bk0pgfsq4p9y0lw0f1209pwyi4pz37r8za7xfpyld8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
