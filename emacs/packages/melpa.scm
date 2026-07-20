@@ -2580,16 +2580,16 @@
 (define-public emacs-anaphora
   (package
    (name "emacs-anaphora")
-   (version "20240120.1744")
+   (version "20260720.903")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rolandwalker/anaphora.git")
-           (commit "a755afa7db7f3fa515f8dd2c0518113be0b027f6")))
-     (sha256 (base32 "1mmil5ckb623wxxmvw1cfi1fycxiz7aalfjm768h7wc73xfa7ks4"))))
+           (commit "d22ae8afd3b3bf6a383f6a6c27522893b57130b1")))
+     (sha256 (base32 "10nn49csvxqljhj17v1qlqzhmzrx5lz7yzp5fa33xjy7gn7j1v8d"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/rolandwalker/anaphora")
+   (home-page "https://github.com/rolandwalker/anaphora")
    (synopsis "Anaphoric macros providing implicit temp variables")
    (description "Documentation at https://melpa.org/#/anaphora")
    (license #f)))
@@ -11431,14 +11431,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260719.1012")
+   (version "20260720.457")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "b10547ca89e51914f5b43e85e5c9f4c67be6294b")))
-     (sha256 (base32 "0d3vf5k3bl4c34xzj6gp9hlq209nr9zrg9v0cs58dq1caly1bxwa"))))
+           (commit "9b81c45c423755333929dbe4e2e204ae0246c016")))
+     (sha256 (base32 "0qpwslixsbyypc8z67yjnhxz3a2v5yg66q1jii26knkqjg216x32"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260718.1430")
+   (version "20260720.531")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "af6b60fd544c29f68c731d709a066317b8ed0628")))
-     (sha256 (base32 "0s2a7qzifz25231pzaq38j8sqnzjid0cxck91kgnazhhp4gdndl7"))))
+           (commit "0097c0ba01d9ebf503d0998f1322df95b4cf6355")))
+     (sha256 (base32 "1vv0c1qm6118c8lg0al89a25zylkh60a35sf20c2v2ncsrnxb86v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -39025,14 +39025,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260714.2214")
+   (version "20260719.1940")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "809f87b988a9ef0f061addff4fcef7d85902515c")))
-     (sha256 (base32 "1q90rj4n9pall8hxd38q8qhh7a2ar50rg81wgs1pz0d63fplz1x1"))))
+           (commit "427ff74d62abcd4ee1729d8743fde69cd1a722f9")))
+     (sha256 (base32 "1jxdvhq92aa1z16s07zgy7hjkkz2ias153v4554pq2m0crav8h51"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -39209,14 +39209,14 @@
 (define-public emacs-gdscript-mode
   (package
    (name "emacs-gdscript-mode")
-   (version "20260715.2059")
+   (version "20260720.923")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/godotengine/emacs-gdscript-mode.git")
-           (commit "8b5b5682835857e5db28ad6a208d3d7dd3f6d4bf")))
-     (sha256 (base32 "0qp7vhwzx00l6jmmlq45i18rk321345ybdbxzngk67xc99lvhy7y"))))
+           (commit "5ea9bb0a2ee3b3845918084bbb422391dfcc852c")))
+     (sha256 (base32 "1r2zps4x1228pz4v6q3536giiynzz0xz0r69nhmli9aqihg4nv62"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/godotengine/emacs-gdscript-mode/")
    (synopsis "Major mode for Godot's GDScript language")
@@ -48906,14 +48906,14 @@
 (define-public emacs-hnview
   (package
    (name "emacs-hnview")
-   (version "20260718.20")
+   (version "20260720.641")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/hnview.git")
-           (commit "dffdde8ab044368c88fc1142284b1b917fdb7f0e")))
-     (sha256 (base32 "0r5vi1jypn43gdhr3caq7i73yypknbg4smb6xb0cd96rsz0ljhbj"))))
+           (commit "9b835985f9513f6801109b26d2b311f90195a3b3")))
+     (sha256 (base32 "0cwkvasab7js3b47is1s5xhvy4j0lk5jb697dpvfn51c6b3dvm83"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz))
    (home-page "https://github.com/luciuschen/hnview")
@@ -73777,7 +73777,7 @@
 (define-public emacs-org-history
   (package
    (name "emacs-org-history")
-   (version "20260720.107")
+   (version "20260720.250")
    (source
     (origin
      (method git-fetch)
@@ -81139,14 +81139,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260702.1052")
+   (version "20260720.258")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "2b6a27feb6d224aeb9b680941a925c7c42948c59")))
-     (sha256 (base32 "16x82wk0rz7cvwl3y13rjvy06chbzm4301wp4zh1gal7dh7h158y"))))
+           (commit "484a256c98471863b1df26f0f2e43187d0dd2115")))
+     (sha256 (base32 "0pqkpnsj64g16ggsg6k6v1xq5sfz3ck62yl0l1j40wwhn0858mjy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -84002,14 +84002,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260718.904")
+   (version "20260720.549")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "19de9c3be248cb14489a3b84a7f3a069128c0066")))
-     (sha256 (base32 "12k98j0npd0sp5hk085w1q9q2lqjx1i793y7zbxsc487pldkvp9y"))))
+           (commit "c7b801c53ec5acc226ca5c9ff65bb46a8c8d04ed")))
+     (sha256 (base32 "074syiy1pp4zd0x56wyfhvrjpaqw5x0iqx4mpr2hvbwlzsc1002n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -104299,14 +104299,14 @@
 (define-public emacs-unison-ts-mode
   (package
    (name "emacs-unison-ts-mode")
-   (version "20260525.909")
+   (version "20260720.619")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fmguerreiro/unison-ts-mode.git")
-           (commit "31bbb4fbcba02075cebcdedb05d29568420bac9f")))
-     (sha256 (base32 "0bip87ld0dz2l48izbhmy88bwh1fsb1j1cwj6nkpcmy0nmji0pa7"))))
+           (commit "d46a659e2a884bd843da16b21b605755a2c3444f")))
+     (sha256 (base32 "0nqynakmyr31am5zpnvvx4r866vxlivjxlnjrmp0nvb8ixxzybix"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/fmguerreiro/unison-ts-mode")
    (synopsis "Tree-sitter support for Unison")
@@ -106617,14 +106617,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260717.1217")
+   (version "20260720.628")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "32d18d5eda0a0826cea1d486c9f44ba3dab74938")))
-     (sha256 (base32 "0lp05wr8ab7lfhzhz7iv59nj8pp54hgq93yj082ymap4sz0fhzyx"))))
+           (commit "f94a74a5ec555f76808c19c15812d07ba95f14ff")))
+     (sha256 (base32 "0qs755yw0331shyv65bn08xhlx1rr2wazqisxb0xp2qy399mwc6d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
