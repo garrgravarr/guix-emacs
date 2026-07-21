@@ -12255,14 +12255,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260719.1018")
+   (version "20260721.157")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "f64414e20c58a6b92255fd3f634785b0855ea8f5")))
-     (sha256 (base32 "0akgrdhrbmwjwl7g4zlym5blpja3q9p55mygcck17xxqrl40z4fw"))))
+           (commit "98aef2f0d116c73062f588b3c4490510780b1ced")))
+     (sha256 (base32 "18iyf8djwv9chcc3hapc7f2y6yainc448p4rsd88d0mac0pg67wb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -13316,14 +13316,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260718.1243")
+   (version "20260721.100")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "24a4a6b129546a1ce2fcb3e3c5948259dff00685")))
-     (sha256 (base32 "0qjqk4zh3fk1m7rhkj4sp6wdrsk3ki6jwdc5fly3gng3fjlc5lz1"))))
+           (commit "1cc907ac9e46ae4209eb5a341131787e0c678406")))
+     (sha256 (base32 "0fx6wr3lwn9x0b2g1b9vld5hxizl6xzqsgvgxdwmdmykz8n4aqad"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -23054,14 +23054,14 @@
 (define-public emacs-dune
   (package
    (name "emacs-dune")
-   (version "20260621.2057")
+   (version "20260120.2128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml/dune.git")
-           (commit "2d1a7ede52e99c44b1c50b31c398e47bcc2cd3f8")))
-     (sha256 (base32 "11bxp5k31y8kzpgn1jvnx3mkqkcm6swaa56v9p03brysbpdk0wk1"))))
+           (commit "d565a43c2960c024a56a31888bb3033063182693")))
+     (sha256 (base32 "0psqh0yz2scjz0b9ml5p8669v63a4fqsqlqq1s8iv8ss3mlb9rak"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editor-integration/emacs/*.el")))
    (home-page "https://github.com/ocaml/dune")
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260720.1242")
+   (version "20260721.941")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "476cc0095f833880abf35dd16e0befd3e38dc115")))
-     (sha256 (base32 "0lk42hnvdn0kwq3849i7llf6vqmiym51wwcmg55bxnm0pgizx8ca"))))
+           (commit "b38bd952c6f12993ccfd8412bb457c46c3e7cb55")))
+     (sha256 (base32 "0y0q94nb2d5fgs9pn6i5h91ka8dcxa4lxp5lh4fwncc2n1w7qwkr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -49671,16 +49671,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260720.1435")
+   (version "20260721.605")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "1ik3zmnrd1xi766a4yjd5xxhqchi00vlhhqbh3h5jhzs932brvwg"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "ab89df9204d94739843bc87a192809dc7400d3f1")))
+     (sha256 (base32 "1v036pnjsnvblcmv2n8r9sib6gqbsb2296p56y7j1iavxcg23z74"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -63347,14 +63385,12 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260716.112")
+   (version "20260721.33")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "8ddd6a5b61e295e9e423708e66f28e12c6199c8b")))
-     (sha256 (base32 "05xw0c03h90kn6chilin6rr8wdqfkbsvcplcl9sz2ni8rx7mssm7"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/meep-" version ".tar"))
+     (sha256 (base32 "0nbl9f0cnr932d6zk1z5y520nqhr8m2k8cs7nx5901d32p1npjff"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -66717,14 +66753,14 @@
 (define-public emacs-musicbrainz-interactive
   (package
    (name "emacs-musicbrainz-interactive")
-   (version "20260711.830")
+   (version "20260721.357")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zzkt/metabrainz.git")
-           (commit "6c699a9c1a8b9292a732ae1bd662b021fcd8d8b8")))
-     (sha256 (base32 "0xnx60g9l523k5ckx97bv1h3n472da268acl20nq6158w7zh6ni0"))))
+           (commit "b1741fca8bfcfb766391e8f921267a8c396fae47")))
+     (sha256 (base32 "13fvzdssp2bhy1afnrh6lm5g5kxx4pjhvq3k76dysrcrvmbkwp8n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-musicbrainz))
    (arguments '(#:files ("musicbrainz-interactive.el")))
@@ -78684,14 +78720,14 @@
 (define-public emacs-package-build
   (package
    (name "emacs-package-build")
-   (version "20260701.1334")
+   (version "20260710.1826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/melpa/package-build.git")
-           (commit "f19a7f58cf4b2e573a6d551d8d3dbe265c2566b4")))
-     (sha256 (base32 "00v3fi2ssq9z9z5qf40b49z2yw9dsjkhcdfzy7qk1wdgv0pjbq0h"))))
+           (commit "d31dec67631f14ef8be3ad6438e172a07298082b")))
+     (sha256 (base32 "0lx8dp5ckc23sdz37cm1k2wxcxv87fdd2i0p6kw3g36g0lq9ngda"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "package-build.mk")))
@@ -81101,14 +81137,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260720.258")
+   (version "20260721.810")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "484a256c98471863b1df26f0f2e43187d0dd2115")))
-     (sha256 (base32 "0pqkpnsj64g16ggsg6k6v1xq5sfz3ck62yl0l1j40wwhn0858mjy"))))
+           (commit "add73ab18739ce989e461a7af11e8beaf7bf76c9")))
+     (sha256 (base32 "0k7if28s3mn02blmna017xlkc07cid77x3h6f8msag4zwr4rsi9x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -83964,14 +84000,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260720.549")
+   (version "20260721.1010")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "c7b801c53ec5acc226ca5c9ff65bb46a8c8d04ed")))
-     (sha256 (base32 "074syiy1pp4zd0x56wyfhvrjpaqw5x0iqx4mpr2hvbwlzsc1002n"))))
+           (commit "a1036def9946b842917f594b1b9ef6a85cfd9138")))
+     (sha256 (base32 "03mnxcsdfjp939gz2p9hvzhl60qqgzhydmzrn07y9m0j4vzrw901"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -96683,14 +96719,14 @@
 (define-public emacs-srs
   (package
    (name "emacs-srs")
-   (version "20260716.2238")
+   (version "20260721.359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Duncan-Britt/srs.el.git")
-           (commit "72b3db068a3b7a5e0a3f02d5f24434bec984225f")))
-     (sha256 (base32 "1s9pv9y2hlgnwj8yr0f2n7c99cdybg7a63c5rqm86dgfpq03lxp0"))))
+           (commit "f8bf3e3520fea57770411a8aa882985a7f30fe0d")))
+     (sha256 (base32 "0s8xxq2p49ibhbzzzk23avn2chainsm3392q98l7qmi41q2kq0m3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Duncan-Britt/srs.el")
    (synopsis "Spaced repetition in plain text")
@@ -104261,14 +104297,14 @@
 (define-public emacs-unison-ts-mode
   (package
    (name "emacs-unison-ts-mode")
-   (version "20260720.619")
+   (version "20260721.405")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fmguerreiro/unison-ts-mode.git")
-           (commit "d46a659e2a884bd843da16b21b605755a2c3444f")))
-     (sha256 (base32 "0nqynakmyr31am5zpnvvx4r866vxlivjxlnjrmp0nvb8ixxzybix"))))
+           (commit "00cc3b64854afaec6d4ef38afd28ec06ffaa81ed")))
+     (sha256 (base32 "07nhhr3r3lqknk92a1f6d8p54i359prn4h795gkq9ql4gkp1xs4m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/fmguerreiro/unison-ts-mode")
    (synopsis "Tree-sitter support for Unison")
