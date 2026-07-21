@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260720.2212")
+   (version "20260721.1635")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "8a6ea7a22afb6e7aef198a41bba2cc554e96981c")))
-     (sha256 (base32 "0wyh1kpckxqi86r4gwn4p3h27wksir0nk3hmwz9nxmjsjfpjix0m"))))
+           (commit "4977d41ece5caeea449f4cc7655aee7b8617d98a")))
+     (sha256 (base32 "13hdjmngfarn1jc2hg9lwnqxas01g4hgvkq03mj2f2fk99308khz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260721.50")
+   (version "20260721.1420")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "43d721caf5c26843e185426b0ce41191efc833a1")))
-     (sha256 (base32 "1j9iq9bpq219gmwbag2xybm8n4nv44rhw9qxzkl67mp1fncmfq7a"))))
+           (commit "d41a2182ca86b12afe3dd9ed41dde98fd0aa13a0")))
+     (sha256 (base32 "09bnf1qaiv6gcvzqsw58pph23g6df3jc20zn63maks0l2k8daypl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -1862,14 +1862,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20260720.952")
+   (version "20260721.1300")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "3ce8b3c0f8e659d80d6acde4fd8f48fa6a6c0cac")))
-     (sha256 (base32 "0nj6xa0fc4hzwyq7hpflkgmwiz1ss6d99lrp1d5bpw4gk6iabxsn"))))
+           (commit "12c7218e54b5df95a5cd3bd9a0d47a5a60b9d2d1")))
+     (sha256 (base32 "09vbggqpf9vhl7qcawr325gm9idyfiv3p022mhfg7c89zi8mr0a4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260721.941")
+   (version "20260721.1225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "b38bd952c6f12993ccfd8412bb457c46c3e7cb55")))
-     (sha256 (base32 "0y0q94nb2d5fgs9pn6i5h91ka8dcxa4lxp5lh4fwncc2n1w7qwkr"))))
+           (commit "356bdd3570fe38dcff0f2228ced003d54383928d")))
+     (sha256 (base32 "1lg8spcjky52dmqyxkp0z8c3x3kqxa252hlm4n01zcr4x09n5qwk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -39892,14 +39892,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260720.2122")
+   (version "20260721.1255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "93f9cb927a80e0a5a01b4940ced563fdd3a6f424")))
-     (sha256 (base32 "0h4d3ni0cwkan2ls9w2f6m1618mb4a5iv5ldxszfkqy0k7njplva"))))
+           (commit "73123c8ae88695c93ea6e3421cffdc874cf01998")))
+     (sha256 (base32 "0xml3lc8ixf24x0728q1fhnc3k5iaabph41jcn5r652igjd1xzwi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -44887,14 +44887,14 @@
 (define-public emacs-helm-bbdb
   (package
    (name "emacs-helm-bbdb")
-   (version "20260721.28")
+   (version "20260721.1043")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm-bbdb.git")
-           (commit "6dee414bfa905e6fbbacce58de17993f7d6e4314")))
-     (sha256 (base32 "0svya8p1dx0jzzcxivmvkb562p57b7qplrkdz39nfgg53k2353rj"))))
+           (commit "b841014981d205b3847fdaa55f149a5a3ee40988")))
+     (sha256 (base32 "0j1h91rm089kfik0b723jkjdlc68qdy59nmxs7l1nnar95khxadd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm emacs-bbdb))
    (home-page "https://github.com/emacs-helm/helm-bbdb")
@@ -99524,14 +99524,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260720.1026")
+   (version "20260721.732")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "f3e69f4fb5103fafd37a267039e092edf35351c5")))
-     (sha256 (base32 "0jg06finm3mijqhcz6f964n2wrk60mlp4c5jf98js348clr6jn0g"))))
+           (commit "bb3a3c67a3c2a67cea929291f17e1b3348fa9e0b")))
+     (sha256 (base32 "0bqjxrriai1b01d7ris7mkn04cw7n9cvkg9g4ydpj5x2amyq1wh4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -106615,14 +106615,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260720.628")
+   (version "20260721.1440")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "f94a74a5ec555f76808c19c15812d07ba95f14ff")))
-     (sha256 (base32 "0qs755yw0331shyv65bn08xhlx1rr2wazqisxb0xp2qy399mwc6d"))))
+           (commit "5752dfb372f5af8d2d765e61acced69774692983")))
+     (sha256 (base32 "0msy5drly0c6gbpdhc3i5k12l6lrlcra1qpwwiz9a49wmwgf16gz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -110257,14 +110257,14 @@
 (define-public emacs-yeetube
   (package
    (name "emacs-yeetube")
-   (version "20260713.333")
+   (version "20260721.822")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/yeetube")
-           (commit "066bc1c2c06493d10388f8a0ecd8e90f8cd28532")))
-     (sha256 (base32 "0m52fkv7zjz1iicq5qjxfmz3hcns99bc165r9wxy84j83lb6mry0"))))
+           (commit "4adadb44f76e11dd2805aaf4e6656b52c5f97902")))
+     (sha256 (base32 "0b6h1hjwwb47f7cjxq90inybari1y6s6hc3lbrb8v4v4ddln844g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://thanosapollo.org/projects/yeetube/")
