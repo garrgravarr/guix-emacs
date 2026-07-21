@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260720.1009")
+   (version "20260720.2212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "3ed71ccf45103500ebcaa1394c4c2fbf1ece45d5")))
-     (sha256 (base32 "1x9j9lv3vmfs1r1dp0nvcnscjig4k37c3cfkad707gf326ywyr7w"))))
+           (commit "8a6ea7a22afb6e7aef198a41bba2cc554e96981c")))
+     (sha256 (base32 "0wyh1kpckxqi86r4gwn4p3h27wksir0nk3hmwz9nxmjsjfpjix0m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260719.2236")
+   (version "20260721.50")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "7f8723121548c0a6c1305a29aa59fab7e348f569")))
-     (sha256 (base32 "1db44kv5qsp3m08my435383jwfjmiaf69x2906cs5mmsi81r4ff4"))))
+           (commit "43d721caf5c26843e185426b0ce41191efc833a1")))
+     (sha256 (base32 "1j9iq9bpq219gmwbag2xybm8n4nv44rhw9qxzkl67mp1fncmfq7a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -30374,14 +30374,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260713.2022")
+   (version "20260720.2052")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "2191afe3049fc785c6fd2b1ab6b826daf500ffbe")))
-     (sha256 (base32 "1fyqpbpv62hs3hqai1j04x30miwdqkkpqfxdh4vbxc331fhrj4dx"))))
+           (commit "93f9cb927a80e0a5a01b4940ced563fdd3a6f424")))
+     (sha256 (base32 "0h4d3ni0cwkan2ls9w2f6m1618mb4a5iv5ldxszfkqy0k7njplva"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39025,14 +39025,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260719.1945")
+   (version "20260720.2228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "96312c040acc8c1aed14e25762f92e8ef30d276b")))
-     (sha256 (base32 "0n277vgzhp8sgw7xs8s9164xda2lp92bmhvnc1rasbd354zvgrfd"))))
+           (commit "2f671bba99e227e9933d63ea36eb9d995012e805")))
+     (sha256 (base32 "1jy705lfn8jpf5rhpq8cvmr2l7qrmfnnjwgs3l7y91i3w0y04zjk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -39892,14 +39892,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260719.2039")
+   (version "20260720.2122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "af41a8b461bbd353bdf07e27c73521aea7311151")))
-     (sha256 (base32 "0ch7nh8l1aqlxjknbl5n56200fnvw76xrdfhjscy9c5298daglbd"))))
+           (commit "93f9cb927a80e0a5a01b4940ced563fdd3a6f424")))
+     (sha256 (base32 "0h4d3ni0cwkan2ls9w2f6m1618mb4a5iv5ldxszfkqy0k7njplva"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -40412,14 +40412,14 @@
 (define-public emacs-git-link
   (package
    (name "emacs-git-link")
-   (version "20260612.337")
+   (version "20260721.115")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sshaw/git-link.git")
-           (commit "3870ae57408dc72ae2215b0056d6661e2c198e75")))
-     (sha256 (base32 "0qlmmb1h4clg2967ia9mbrpawhmgj6lbzp6hcb5ihwr10msw7s04"))))
+           (commit "4fc690290baa42f06749ae04f1517b504fd88d13")))
+     (sha256 (base32 "1lk4gk2247p1xgxxdslxjf12bqg2xs39dwjimwkbkrdxpnv0m0iy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sshaw/git-link")
    (synopsis "Get the GitHub/Bitbucket/GitLab URL for a buffer location")
@@ -44887,14 +44887,14 @@
 (define-public emacs-helm-bbdb
   (package
    (name "emacs-helm-bbdb")
-   (version "20260719.1537")
+   (version "20260721.28")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm-bbdb.git")
-           (commit "3eb99e36ed18ca2809594d165664af77a02d2bd0")))
-     (sha256 (base32 "0s0rkzf8v135pjk409lbihz9b3wvr8dnjhqq98qris4rvvl0d67h"))))
+           (commit "6dee414bfa905e6fbbacce58de17993f7d6e4314")))
+     (sha256 (base32 "0svya8p1dx0jzzcxivmvkb562p57b7qplrkdz39nfgg53k2353rj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm emacs-bbdb))
    (home-page "https://github.com/emacs-helm/helm-bbdb")
@@ -61303,14 +61303,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260720.1607")
+   (version "20260720.2108")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "41eb13f03827eac7344609e2021661b6e03f8768")))
-     (sha256 (base32 "0ylikh19fqda68b0jbj4blhgdlf7hfavmmpjfh0bbfqqkfwgg1sp"))))
+           (commit "de78e4b2b2a0ce34082ef913ae00d465c8740c1e")))
+     (sha256 (base32 "1pmryrr51c9wby24v2dix68g5ciyw7jvj7bisp2vm9rf7xkwqd0i"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -72847,14 +72847,14 @@
 (define-public emacs-org-change
   (package
    (name "emacs-org-change")
-   (version "20260719.1721")
+   (version "20260721.16")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/org-change.git")
-           (commit "5ee789e00157c7cbd88ae8b97f3408f303f1878e")))
-     (sha256 (base32 "1imfrwqxbffzzshqx3m6c9bsp2bdzfvs2027avkp1j1y5mszlyyh"))))
+           (commit "d03c6dd75a3732ba242924846086b7c1d1817daf")))
+     (sha256 (base32 "1zrndwr7riav19bp9abvqp7m3r9xp2s72p42255739kqkkpmzsms"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/org-change")
    (synopsis "Annotate changes in text files")
@@ -93802,14 +93802,14 @@
 (define-public emacs-sleek-modeline
   (package
    (name "emacs-sleek-modeline")
-   (version "20260712.2128")
+   (version "20260720.2336")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abidanBrito/sleek-modeline.git")
-           (commit "e5981c02498f4922f220f16f062f91512a5c406d")))
-     (sha256 (base32 "1hj0b6gyf56lf0dcambdasg068z2i6jja3w3m6fb6k01cxdppjc2"))))
+           (commit "c32ec1d448c5d673f75d0f7f8297dbc7a881d6fc")))
+     (sha256 (base32 "0gr0pw89p9yiw1crhi9q91fq0vnpkin30j9wgwrnhf6lwf9ay9wi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/abidanBrito/sleek-modeline")
    (synopsis "Minimal and elegant modeline")
@@ -100599,14 +100599,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260713.813")
+   (version "20260720.1054")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "fae76154e95a5ff9051ec7189d19315a88768d16")))
-     (sha256 (base32 "0kdf2gdxrf480zx7v9dpzdrjshf6b1drbysh0zqn1pqwhxsxqbxa"))))
+           (commit "78ab1bbff02c3ba49d3d44a8e2807d7586d7b9ad")))
+     (sha256 (base32 "1p3iwl0bpd1wzsym81qb0m3w83j3cg2l95lg8biadrq3isrcx4sv"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -100977,14 +100977,14 @@
 (define-public emacs-timu-macos-theme
   (package
    (name "emacs-timu-macos-theme")
-   (version "20260118.2236")
+   (version "20260720.2019")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/aimebertrand/timu-macos-theme.git")
-           (commit "3bde6041734afe17de0609fc7388f8ce78451557")))
-     (sha256 (base32 "1xvm2xz9n20jnx5fml45nzbjsy6wnq8aslr1gnsya67k59nzwagp"))))
+           (commit "3f9019a1ea467058388d2919b3d75c1feb859d7d")))
+     (sha256 (base32 "123l8lvirgjjx103m0nb583bwj67bqhkh1csi0299wjsj1gvwk4a"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/aimebertrand/timu-macos-theme")
    (synopsis "Color theme inspired by the macOS UI")
