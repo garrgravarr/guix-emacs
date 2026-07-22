@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260722.142")
+   (version "20260722.147")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "c5bc80bad17aaf9d0cab8a6410b7552ddb0accdd")))
-     (sha256 (base32 "0mwywj57f5xg4wv6z53hccw845rgpl6d0vixvll3knss3iyhxyj0"))))
+           (commit "125523d98aa26f07317cb5742caf29238cbf8f6d")))
+     (sha256 (base32 "1xmvdn6h6zy1vpi8sa64psm4h9rdhjjwcgx4nisivkskaa27v2p1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260721.1420")
+   (version "20260722.325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "d41a2182ca86b12afe3dd9ed41dde98fd0aa13a0")))
-     (sha256 (base32 "09bnf1qaiv6gcvzqsw58pph23g6df3jc20zn63maks0l2k8daypl"))))
+           (commit "868563037cd083f5c5b3377cbc9e38e4275a809a")))
+     (sha256 (base32 "1md8dpnvxp3fp4i4zfzir10rclpzpfdz4yznvqki63ycjv3vg645"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -10892,14 +10892,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260718.1302")
+   (version "20260722.838")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "03bffb62b7c30250979a9b4512c210f165dc36c9")))
-     (sha256 (base32 "1251fs6namlghmgy581mw7lijv9fnwn68pfah6pjgn8vmqdzk041"))))
+           (commit "32170f40fbb8bf9502555512bf465095bacfc023")))
+     (sha256 (base32 "01zkqgsv2kpjppgpnajl6500d6745w086ifzab21516vcc7cwk83"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -23019,14 +23019,14 @@
 (define-public emacs-dumber-jump
   (package
    (name "emacs-dumber-jump")
-   (version "20241028.1822")
+   (version "20260722.720")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zenspider/dumber-jump.git")
-           (commit "37ca96bd065ac6869549e17dec98940edfc59f5a")))
-     (sha256 (base32 "1y9gqy1nyhhlfk5aihp97fzzp1mq81h7mz20ayz9h3s2cm6qmq4v"))))
+           (commit "24f58d5d9d210b9fe4a63100586d95d351ecd43f")))
+     (sha256 (base32 "0v9mnsag6h80dqf9ydgk2f8slqnqnli8m59ysmkg6j2p9bw9yjmq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash))
    (home-page "https://github.com/zenspider/dumber-jump")
@@ -30374,14 +30374,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260720.2052")
+   (version "20260722.957")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "93f9cb927a80e0a5a01b4940ced563fdd3a6f424")))
-     (sha256 (base32 "0h4d3ni0cwkan2ls9w2f6m1618mb4a5iv5ldxszfkqy0k7njplva"))))
+           (commit "62145129843d54d3db9913751ecbabedb47b6e2f")))
+     (sha256 (base32 "0q4a8hbwkkd188i8bskqh4x383b1vsx9nb19wqcs10vflwswjbi7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -60116,14 +60116,14 @@
 (define-public emacs-loopy
   (package
    (name "emacs-loopy")
-   (version "20260704.1904")
+   (version "20260722.144")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/okamsn/loopy.git")
-           (commit "0895cad3714a0d588f24a8bf0d16c3c6a4d15776")))
-     (sha256 (base32 "1b2d37ffxf1ym41yg9h9b81xmmc1iqicvm0hbz8xqi45xf3inh6z"))))
+           (commit "d33417ff4ff436a221eb10c73c283c9c2af3cde1")))
+     (sha256 (base32 "1avb2c0dzki9yphhxbw655ara3fkz6zi5ybv33ylrqlzfb9jlz3c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-stream))
    (home-page "https://codeberg.org/okamsn/loopy")
@@ -63385,12 +63385,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260721.33")
+   (version "20260722.544")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append "https://melpa.org/packages/meep-" version ".tar"))
-     (sha256 (base32 "0nbl9f0cnr932d6zk1z5y520nqhr8m2k8cs7nx5901d32p1npjff"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://codeberg.org/ideasman42/emacs-meep.git")
+           (commit "90025544266eaf47758ad58c7174f7e31bfebefd")))
+     (sha256 (base32 "1ka0zriyya9972msa2vnkd1c0mjpyp0j8qy3f2mxj203vzwxpp8c"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -65243,14 +65245,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260717.1109")
+   (version "20260722.711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "e81c3c6ce3cdeb02266487a6fc1461cb9194c70e")))
-     (sha256 (base32 "0y7c8dk5m8nn05s0gazpipvhmadn493clx7hr0dfm54cd767bz8d"))))
+           (commit "7d53a6959c92b40e3f819b134f7db93ec9a31352")))
+     (sha256 (base32 "12f9k6rzcdsqpz5dnfz3912w75f871qsk4lxvhnja8rg3phws38i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
