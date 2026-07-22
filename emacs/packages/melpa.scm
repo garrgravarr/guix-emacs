@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260721.1635")
+   (version "20260722.142")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "4977d41ece5caeea449f4cc7655aee7b8617d98a")))
-     (sha256 (base32 "13hdjmngfarn1jc2hg9lwnqxas01g4hgvkq03mj2f2fk99308khz"))))
+           (commit "c5bc80bad17aaf9d0cab8a6410b7552ddb0accdd")))
+     (sha256 (base32 "0mwywj57f5xg4wv6z53hccw845rgpl6d0vixvll3knss3iyhxyj0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -44887,14 +44887,14 @@
 (define-public emacs-helm-bbdb
   (package
    (name "emacs-helm-bbdb")
-   (version "20260721.1043")
+   (version "20260721.2037")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm-bbdb.git")
-           (commit "b841014981d205b3847fdaa55f149a5a3ee40988")))
-     (sha256 (base32 "0j1h91rm089kfik0b723jkjdlc68qdy59nmxs7l1nnar95khxadd"))))
+           (commit "2382e11c2fa119b9c3e66adb692a3ffe29d0027d")))
+     (sha256 (base32 "0lp0yasnmkzd825zq0f4p21iyhg8dw4hsym3790n7c42w3ca8n30"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm emacs-bbdb))
    (home-page "https://github.com/emacs-helm/helm-bbdb")
@@ -53456,14 +53456,14 @@
 (define-public emacs-jal
   (package
    (name "emacs-jal")
-   (version "20260629.1417")
+   (version "20260721.2151")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/saulotoledo/java-agent-loader.git")
-           (commit "343b5d2da341a9555a4a36ff0fcf0eeb2c6ef7dd")))
-     (sha256 (base32 "0jw7z7ql4b2ql1x9w34cjanglzkj19yqxwdp7agv820np44jspb8"))))
+           (commit "e2dac4a10a50361f1e9641ff614f4906823e4331")))
+     (sha256 (base32 "17aa4h181isybrdz7vfyn32ncs8n0bcdqzr2jrl5gz1ml4mmnkwq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/saulotoledo/java-agent-loader")
    (synopsis "Java Agent Loader (JAL) for JDTLS")
@@ -58975,14 +58975,14 @@
 (define-public emacs-lisp-chat
   (package
    (name "emacs-lisp-chat")
-   (version "20260425.1217")
+   (version "20260722.115")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ryukinix/lisp-chat.git")
-           (commit "066f2a5d4ca2ff50f6a0a1413182e08f17040e3a")))
-     (sha256 (base32 "0qqnn5pb7qghn3ryrixjzgb9vabgm96n10l189j9izr5zfzg194f"))))
+           (commit "e54265d278af3de1ca6bc895e7b0ebde82c5b5fc")))
+     (sha256 (base32 "05jzdww2q2ak7xsnri7vgf4crxizajphddf5d1qkh6kxs1lwhk92"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-websocket))
    (arguments '(#:files ("emacs/lisp-chat*.el")))
@@ -61341,14 +61341,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260720.2108")
+   (version "20260721.2157")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "de78e4b2b2a0ce34082ef913ae00d465c8740c1e")))
-     (sha256 (base32 "1pmryrr51c9wby24v2dix68g5ciyw7jvj7bisp2vm9rf7xkwqd0i"))))
+           (commit "072ff065510021773059af8cb8387850664d5af0")))
+     (sha256 (base32 "1hcnykr6ddw5rc6d5lxqqv0bw3xsj46jddnnl9xx48lqc1ssk758"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62564,14 +62564,14 @@
 (define-public emacs-markdown-mode
   (package
    (name "emacs-markdown-mode")
-   (version "20260425.954")
+   (version "20260722.40")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jrblevin/markdown-mode.git")
-           (commit "1f72cefa6a4b759f90e335e4908725a721b17ad9")))
-     (sha256 (base32 "100dwx61v5n07i04r9gh9s9c29v1d59lqrqnk88x0v9z9jjpvgnq"))))
+           (commit "f441e8bc9951e73b12c61e9198658488dd8e86e1")))
+     (sha256 (base32 "0a62zhrzq33nrpbvxmlgz6s22fa9dhph5w54n43qs7sjzm5sf2f0"))))
    (build-system melpa-build-system)
    (home-page "https://jblevins.org/projects/markdown-mode/")
    (synopsis "Major mode for Markdown-formatted text")
@@ -75400,14 +75400,14 @@
 (define-public emacs-org-roam-ql
   (package
    (name "emacs-org-roam-ql")
-   (version "20260627.2312")
+   (version "20260721.1955")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ahmed-shariff/org-roam-ql.git")
-           (commit "89bdd60367f95309334e8804b465e80c1aab9a78")))
-     (sha256 (base32 "0ywbih47j81s6zn5x6ilcjx41blx4vg91aqpdiqkhzz8kwpgwggn"))))
+           (commit "7d2494296a774ec86c60f74a4fe004e2bd0bbd23")))
+     (sha256 (base32 "0c1j69hd8q2flc1as885ykwzx2x72xb18yms0izryym8nq3mm1x0"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-org-roam emacs-s emacs-magit-section emacs-dash))
@@ -104228,14 +104228,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260718.1006")
+   (version "20260721.1504")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "35983966dc850cec03d37d3d98ff8fddd8f1d099")))
-     (sha256 (base32 "0qmkr4a76hxxs8vm1fxrd2dahk7y6imympd8myd8m36rpx6110sn"))))
+           (commit "dc31332675769a789da879608276ec7e5b964865")))
+     (sha256 (base32 "1nb2slw8has9bs2xh78zdkhgadqslkgpvlc3iab89a50bpa2mdf1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
