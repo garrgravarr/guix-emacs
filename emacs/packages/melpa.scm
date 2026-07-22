@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260722.147")
+   (version "20260722.1044")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "125523d98aa26f07317cb5742caf29238cbf8f6d")))
-     (sha256 (base32 "1xmvdn6h6zy1vpi8sa64psm4h9rdhjjwcgx4nisivkskaa27v2p1"))))
+           (commit "0a8678d83cb672cfc184b84fa306d5dbfa821afc")))
+     (sha256 (base32 "18ck5mjfdm4by9kmlaf84vn691rk4yl3mgcpxgazy41lxy7dj1nh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10892,14 +10892,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260722.838")
+   (version "20260722.1228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "32170f40fbb8bf9502555512bf465095bacfc023")))
-     (sha256 (base32 "01zkqgsv2kpjppgpnajl6500d6745w086ifzab21516vcc7cwk83"))))
+           (commit "844e5cd9bcc9215f610da85d8b684253f01cd2b9")))
+     (sha256 (base32 "1irpalxvrk1hazpj0mzrn34wjh37kxfagblvn9kb61wmvhskj0mm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -39892,14 +39892,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260721.1255")
+   (version "20260722.1326")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "73123c8ae88695c93ea6e3421cffdc874cf01998")))
-     (sha256 (base32 "0xml3lc8ixf24x0728q1fhnc3k5iaabph41jcn5r652igjd1xzwi"))))
+           (commit "14c399002f47405a623604170314e27d260efb30")))
+     (sha256 (base32 "151a6qlkxgl4rc2g73ny4q2bvybaaw116sha9a14ybbvbwjq9xrw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -44887,14 +44887,14 @@
 (define-public emacs-helm-bbdb
   (package
    (name "emacs-helm-bbdb")
-   (version "20260721.2037")
+   (version "20260722.1100")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm-bbdb.git")
-           (commit "2382e11c2fa119b9c3e66adb692a3ffe29d0027d")))
-     (sha256 (base32 "0lp0yasnmkzd825zq0f4p21iyhg8dw4hsym3790n7c42w3ca8n30"))))
+           (commit "fd44655b6016d955852e4e6e35c8929b7db439ca")))
+     (sha256 (base32 "1l7ml3qc0ymb9fqc2j0wmg1k46d9jrkggga51xxhxjy47zs988hz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm emacs-bbdb))
    (home-page "https://github.com/emacs-helm/helm-bbdb")
@@ -53456,14 +53456,14 @@
 (define-public emacs-jal
   (package
    (name "emacs-jal")
-   (version "20260721.2151")
+   (version "20260722.1158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/saulotoledo/java-agent-loader.git")
-           (commit "e2dac4a10a50361f1e9641ff614f4906823e4331")))
-     (sha256 (base32 "17aa4h181isybrdz7vfyn32ncs8n0bcdqzr2jrl5gz1ml4mmnkwq"))))
+           (commit "2d3f4b23ef4fa3883d2397877ec62ff5fb2b94af")))
+     (sha256 (base32 "0gkyf19aq7zvpk1d0sip1mq9h0p6fpl2azz036n0cm5986y8kiyk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/saulotoledo/java-agent-loader")
    (synopsis "Java Agent Loader (JAL) for JDTLS")
@@ -61341,14 +61341,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260721.2157")
+   (version "20260722.1217")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "072ff065510021773059af8cb8387850664d5af0")))
-     (sha256 (base32 "1hcnykr6ddw5rc6d5lxqqv0bw3xsj46jddnnl9xx48lqc1ssk758"))))
+           (commit "2cefc7920ace23f529d82fbdc7799b7ad6e60762")))
+     (sha256 (base32 "1h096xz34rdxsv43mv6fpfiw41pp2gcx3514r747lnnjgwzhixf7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -74436,14 +74436,14 @@
 (define-public emacs-org-modern
   (package
    (name "emacs-org-modern")
-   (version "20260707.1016")
+   (version "20260722.1411")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/org-modern.git")
-           (commit "1959cd4759d4abc8dd695a560563283d838e44e1")))
-     (sha256 (base32 "137kfrcavzn3q3vgifvbcc87gl5c1lr89mq5hzsbfix1jqsz84in"))))
+           (commit "8775389d085a4ebdf77856b8f86ab4d9679fc55e")))
+     (sha256 (base32 "0393fh1izmg7n7fs681ccv2mslvccr3wmjcpd00aaf4jl7ba6hn4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/org-modern")
@@ -76965,14 +76965,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260717.1115")
+   (version "20260722.1259")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "dc2fdb7149b07f0a4454a36a05b3a174efdfcb6e")))
-     (sha256 (base32 "0x7g01yklayxhrsamg3av3sdsdb1077gpddy1098nflvqvsf30kn"))))
+           (commit "e1d8da613ca274d0d13a10b23ec83fadeff6fdd1")))
+     (sha256 (base32 "03i8aq8z7nhiipz3p8v9ah5ad6w0mdzmifb2n2bdp25awczz02gs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -77016,14 +77016,14 @@
 (define-public emacs-orgtbl-join
   (package
    (name "emacs-orgtbl-join")
-   (version "20260705.1412")
+   (version "20260722.1309")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgtbljoin.git")
-           (commit "cd637a44e69b8ac3bdb9d99bee5066be279da1d8")))
-     (sha256 (base32 "165bb0yhx1fm11cld61lrhfivg4x4pn65r5baciqcfwblsiifxpw"))))
+           (commit "5c3a95d2f549f74546c9ade3b1f09a007530947c")))
+     (sha256 (base32 "14g71zc97l3p8lm8lr1zc9dq06x3lg87fifsndvq1flkqliqry1s"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
    (synopsis "Join columns from other Org Mode tables")
@@ -105698,14 +105698,14 @@
 (define-public emacs-vertico
   (package
    (name "emacs-vertico")
-   (version "20260709.1303")
+   (version "20260722.1410")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/vertico.git")
-           (commit "95bd36e27bafe36158085017b5c5726391089d6b")))
-     (sha256 (base32 "14jjrgmg8ig16b9hpr68sfbwxxsswl6iphy46jiyykbl4yq33bjv"))))
+           (commit "c9ffb9532eacff7f38d94d51e1914a1e948d5066")))
+     (sha256 (base32 "1s2s1krsflwsznjf6x1sy2ga7sza2qnzimc32b7x2dy3z4kk7bvj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/vertico-*.el")))
@@ -106617,14 +106617,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260721.1440")
+   (version "20260722.1244")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "5752dfb372f5af8d2d765e61acced69774692983")))
-     (sha256 (base32 "0msy5drly0c6gbpdhc3i5k12l6lrlcra1qpwwiz9a49wmwgf16gz"))))
+           (commit "041a10e48fde48f66ec62285160c5ef7782d14c3")))
+     (sha256 (base32 "0l2f9hp7sy4vqm7qz8ddwmilffmk54f9rnxnpzs9y2l5c4ac5vhs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
