@@ -10892,14 +10892,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260722.1744")
+   (version "20260723.1407")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "844e5cd9bcc9215f610da85d8b684253f01cd2b9")))
-     (sha256 (base32 "1irpalxvrk1hazpj0mzrn34wjh37kxfagblvn9kb61wmvhskj0mm"))))
+           (commit "26cc96a13dc68772129d3884804485b40af5f2ab")))
+     (sha256 (base32 "03r8n6swjpg7gsazr4xh4cczbrxj0ik5vd6c9yzikdjk2nlwzlfg"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -12255,14 +12255,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260722.1538")
+   (version "20260723.839")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "b6b56397eda2851824821b483f5b20830424af54")))
-     (sha256 (base32 "06lpj5slgns48a4q6178xvdf4bcpwr3jvw8x9sbj8lwbai5qhcya"))))
+           (commit "ef1daae15fe30cd082cac5237d67636ce436402a")))
+     (sha256 (base32 "00346c9c2pj27slhw213f36k88pgsmg0jl5dm6h33lax2hvpk6y1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -15999,14 +15999,14 @@
 (define-public emacs-corfu
   (package
    (name "emacs-corfu")
-   (version "20260722.1412")
+   (version "20260723.1400")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/corfu.git")
-           (commit "8243708421012f15a5f864ec88f6af01e5395dd8")))
-     (sha256 (base32 "0pi5pp0p5dd9x8wkycqy4zw5xwjgv1gdg3vhw75rhahnf8m5ls1b"))))
+           (commit "3724e41bb08c1271372073c0a0eef98178c9c1f1")))
+     (sha256 (base32 "11mrqqn99s1rar1jjnph06668pkj734zqyy7y87laf91d3qyvnfh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/corfu-*.el")))
@@ -29500,14 +29500,14 @@
 (define-public emacs-ess
   (package
    (name "emacs-ess")
-   (version "20260526.1432")
+   (version "20260723.934")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-ess/ESS.git")
-           (commit "da7d7dc1d2cf95760f56cb1763eb543c4dadaa0c")))
-     (sha256 (base32 "0rma9cz44ajiwnbndmc8hqfn61gc6asj38fzd06nhyf2l39gqrcs"))))
+           (commit "c3960e09f37550d300437c46ca03fb28975378a1")))
+     (sha256 (base32 "0swg0f065zjpkr9rb57x2xvgyjhs2fp4fmkjrfhq6vqjs9gh5va3"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -58606,14 +58606,14 @@
 (define-public emacs-ligature
   (package
    (name "emacs-ligature")
-   (version "20260714.655")
+   (version "20260723.1509")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mickeynp/ligature.el.git")
-           (commit "5ef919d3e3e2cf2c4622cbea28e429b29e86fc97")))
-     (sha256 (base32 "1pjq8bka1ppfvijhlv55bzk3rf0xdm10jy4sfslzb4094lvdd3w1"))))
+           (commit "b68eb47c5a29b74c8769e05eae6f5ee6a667f8b3")))
+     (sha256 (base32 "0n58fjsdcrrxrp9ykkp1adhvbclqidh701xymb346b64a1d60aqn"))))
    (build-system melpa-build-system)
    (home-page "https://www.github.com/mickeynp/ligature.el")
    (synopsis "Display typographical ligatures in major modes")
@@ -71575,14 +71575,14 @@
 (define-public emacs-ol-bible
   (package
    (name "emacs-ol-bible")
-   (version "20260714.1429")
+   (version "20260723.1502")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~swflint/ol-bible")
-           (commit "7e3acf5ecad8460da533b52c7a12ea9023716da7")))
-     (sha256 (base32 "0zjvxiyqmig9xs36vvkka75yzjry7zv318jjr96i1bhs69yfda2y"))))
+           (commit "d2db628d7ceec5e1d9c164f95c8a4c1b02438870")))
+     (sha256 (base32 "0v38kbamijzi7srkbsns7llmjywijlb0shxgr5yl2hnkyps0jd1h"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~swflint/ol-bible")
    (synopsis "Org Link support for Bible Passages")
@@ -77161,14 +77161,14 @@
 (define-public emacs-osm
   (package
    (name "emacs-osm")
-   (version "20260705.1259")
+   (version "20260723.1358")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/osm.git")
-           (commit "d6167ca4f99bead657ac6f7f163c1fcf9b34267f")))
-     (sha256 (base32 "11nn4rvjqs8f43gfazpghf67ihd994jd53z2pwfjhk8w8dav0gc2"))))
+           (commit "2041694815e9b143e7703513efd2a620e7d55080")))
+     (sha256 (base32 "0kqk6x4xg0yihz14r3fjj9yladmm44i89aj10dg9vbsidap0935l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/osm")
@@ -94720,14 +94720,14 @@
 (define-public emacs-smartscan
   (package
    (name "emacs-smartscan")
-   (version "20260710.1518")
+   (version "20260723.1509")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mickeynp/smart-scan.git")
-           (commit "5e283b92b5c5826e194043b0314e0d6d88a94a62")))
-     (sha256 (base32 "0dxbwxl3280700my2rcpxga2z4aqs1xqivinr91ia9n0w2jgad31"))))
+           (commit "b330b21c4f6f1785d1da0f74031a2ac3bbc6da55")))
+     (sha256 (base32 "0n7ajh0gwnf4l9lwfv24hdj36qfncgl43zd1xjgazyanw43lykp4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mickeynp/smart-scan")
    (synopsis "Jumps between other symbols found at point")
@@ -101550,14 +101550,14 @@
 (define-public emacs-tokyo-night
   (package
    (name "emacs-tokyo-night")
-   (version "20260528.551")
+   (version "20260723.1518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/tokyo-night-emacs.git")
-           (commit "92037072b6e9a48d5d736bf8a76731936ea94410")))
-     (sha256 (base32 "13ya7p5ppd7p15q91g7a8yky85lzadii0ggchklxh8ipigsamrdh"))))
+           (commit "26f6e949f26c3e63d4e2cddec774d8e5711b8054")))
+     (sha256 (base32 "1c5mjdgwpm1iplpdc639n7j2jjj56f0flv5hm6sb8i0r4kkwn25k"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/tokyo-night-emacs")
    (synopsis "Tokyo Night color themes")
@@ -102941,14 +102941,14 @@
 (define-public emacs-trust-manager
   (package
    (name "emacs-trust-manager")
-   (version "20260426.1205")
+   (version "20260723.1122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/eshelyaron/trust-manager.git")
-           (commit "530c559ffa01b99ced8073ba4c74f1b8152a0ef2")))
-     (sha256 (base32 "0h6v3dcczh8644n09ny9mwx3zb5vy4ydify24zf09f6wlkkhzr5b"))))
+           (url "https://git.sr.ht/~eshel/trust-manager")
+           (commit "e5aaceac51c06c496e64ff10408c9ee84585746f")))
+     (sha256 (base32 "18adg19w7vp5569cvznsgjdzxyx2mvjkvyqphm5rk0731md7xxd1"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~eshel/trust-manager")
    (synopsis "Convenient trust management")
@@ -105698,14 +105698,14 @@
 (define-public emacs-vertico
   (package
    (name "emacs-vertico")
-   (version "20260722.1410")
+   (version "20260723.1358")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/vertico.git")
-           (commit "c9ffb9532eacff7f38d94d51e1914a1e948d5066")))
-     (sha256 (base32 "1s2s1krsflwsznjf6x1sy2ga7sza2qnzimc32b7x2dy3z4kk7bvj"))))
+           (commit "de7b4d1422c51f941ca95419c65968d82f7d4eee")))
+     (sha256 (base32 "1k6zdgnqrjvx1g4m24jvri1vyr2riy2n5h8bk9fxp4bk2f8cq8cn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/vertico-*.el")))
@@ -106635,14 +106635,14 @@
 (define-public emacs-vulpea-journal
   (package
    (name "emacs-vulpea-journal")
-   (version "20260718.532")
+   (version "20260723.1605")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-journal.git")
-           (commit "3bd4fbbae8deece4d595f39e6f629b6cfeaf888f")))
-     (sha256 (base32 "0rkzbn9hp9bxyxh6wr2lkpy6dg1glfl87ah3a5r3rrh2dhhs64rv"))))
+           (commit "59a9f034b2c2ac130d9c4006608862cf42f1a552")))
+     (sha256 (base32 "1kwb675f67nrkkkiqg4418lb4sqjqfdknikl9gfzb266v547gll8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vulpea-ui emacs-vui emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea-journal")
@@ -110607,14 +110607,14 @@
 (define-public emacs-zenburn-theme
   (package
    (name "emacs-zenburn-theme")
-   (version "20260601.1829")
+   (version "20260723.1547")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/zenburn-emacs.git")
-           (commit "8697934a57151de119744ea79fde83120e05b88d")))
-     (sha256 (base32 "0g54j3n2khc470i80diqqdxds0xiysvwdjss3jmgdf73argslj1q"))))
+           (commit "e563d89d8b5349326ccdcb013784bb5f0e986bfc")))
+     (sha256 (base32 "01zkf7pf0f8gjpd9jn6p8vs0qd7cfvxhjmqnpkx9iy20v0xvn1ak"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/zenburn-emacs")
    (synopsis "A low contrast color theme for Emacs")
