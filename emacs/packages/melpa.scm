@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260722.1742")
+   (version "20260723.943")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "0a8678d83cb672cfc184b84fa306d5dbfa821afc")))
-     (sha256 (base32 "18ck5mjfdm4by9kmlaf84vn691rk4yl3mgcpxgazy41lxy7dj1nh"))))
+           (commit "23a757a87ed919ed2a42f2ed4219e5cf41f5cf5e")))
+     (sha256 (base32 "1gbk6j2mr5zy3hmri56w1pf9hk86fznymq4qksahb0rqpwkz73ms"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -30374,14 +30374,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260722.957")
+   (version "20260723.644")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "62145129843d54d3db9913751ecbabedb47b6e2f")))
-     (sha256 (base32 "0q4a8hbwkkd188i8bskqh4x383b1vsx9nb19wqcs10vflwswjbi7"))))
+           (commit "f0b5735a7727edefea7ca7339d5d99a076fa50da")))
+     (sha256 (base32 "143f59m2vmb15gr6m0dzixwmpdadz80vy0jqyvw571man8bjv3s9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39892,14 +39892,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260722.1326")
+   (version "20260723.644")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "14c399002f47405a623604170314e27d260efb30")))
-     (sha256 (base32 "151a6qlkxgl4rc2g73ny4q2bvybaaw116sha9a14ybbvbwjq9xrw"))))
+           (commit "f0b5735a7727edefea7ca7339d5d99a076fa50da")))
+     (sha256 (base32 "143f59m2vmb15gr6m0dzixwmpdadz80vy0jqyvw571man8bjv3s9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -63385,14 +63385,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260722.544")
+   (version "20260723.243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "90025544266eaf47758ad58c7174f7e31bfebefd")))
-     (sha256 (base32 "1ka0zriyya9972msa2vnkd1c0mjpyp0j8qy3f2mxj203vzwxpp8c"))))
+           (commit "8d66476ca6a01d6d7eed9dcd8bbbf6fc48a5e0a2")))
+     (sha256 (base32 "19fmbylx6h0bb2wvi8lvpc1k1vachhib39wrzanxdmljcyr4z2xf"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -92586,14 +92586,14 @@
 (define-public emacs-shexc-ts-mode
   (package
    (name "emacs-shexc-ts-mode")
-   (version "20260705.2334")
+   (version "20260723.741")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ericprud/shexc-mode-for-emacs.git")
-           (commit "d113ddc322a7cca2ef92ee6af95e5755af429ccb")))
-     (sha256 (base32 "0xzfzcc43skcgqm8h9g6c6bnd1qbadd7q7q0sakczal66ndwvrnb"))))
+           (commit "991beb5616d197b61b59ea36c0b23e21ac8026d1")))
+     (sha256 (base32 "05lj2bygcack7i0zybvi15lmyx7zcxiqchqhlpnhyzy79b6lcd3c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults (:exclude "shexc-mode.el"))))
@@ -106617,14 +106617,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260722.1614")
+   (version "20260723.738")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "041a10e48fde48f66ec62285160c5ef7782d14c3")))
-     (sha256 (base32 "0l2f9hp7sy4vqm7qz8ddwmilffmk54f9rnxnpzs9y2l5c4ac5vhs"))))
+           (commit "8f334b1f905f304163033cf5b4c9d1a7c536b3df")))
+     (sha256 (base32 "07zlmz12vpl2srqqwylb3dpq26lx4c3r9rkc2h5w9vzjk4i2f0xk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
