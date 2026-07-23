@@ -1663,7 +1663,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260722.1044")
+   (version "20260722.1742")
    (source
     (origin
      (method git-fetch)
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260722.325")
+   (version "20260722.1634")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "868563037cd083f5c5b3377cbc9e38e4275a809a")))
-     (sha256 (base32 "1md8dpnvxp3fp4i4zfzir10rclpzpfdz4yznvqki63ycjv3vg645"))))
+           (commit "004c680692dfcf6be957bee26ee33c94404b3f41")))
+     (sha256 (base32 "1ginw8jwc20sq58m02i5wxzb92pqk1an23cpf67d77jvg9pg8d1m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -10310,14 +10310,14 @@
 (define-public emacs-chatgpt-shell
   (package
    (name "emacs-chatgpt-shell")
-   (version "20260221.2246")
+   (version "20260722.1649")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/chatgpt-shell.git")
-           (commit "cbad6ffc9cbde1962a7317cf6d1d4d50ac1c1ac2")))
-     (sha256 (base32 "12frn5h8j94nn47586r5b0kn0rflvxbxwcbaak36fbc551vsnb71"))))
+           (commit "eee291648bacd8397795746b083a59a1c24a1e93")))
+     (sha256 (base32 "08fbvyha567fhmg1frnpjxq7hppkm822h9skha02q5h3ixxq2cx1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker))
    (arguments
@@ -10892,7 +10892,7 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260722.1228")
+   (version "20260722.1744")
    (source
     (origin
      (method git-fetch)
@@ -12255,14 +12255,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260721.157")
+   (version "20260722.1538")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "98aef2f0d116c73062f588b3c4490510780b1ced")))
-     (sha256 (base32 "18iyf8djwv9chcc3hapc7f2y6yainc448p4rsd88d0mac0pg67wb"))))
+           (commit "b6b56397eda2851824821b483f5b20830424af54")))
+     (sha256 (base32 "06lpj5slgns48a4q6178xvdf4bcpwr3jvw8x9sbj8lwbai5qhcya"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -14649,14 +14649,14 @@
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
-   (version "20260710.1459")
+   (version "20260722.1659")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/compile-angel.el.git")
-           (commit "fc469061a294a2a9888736d9b9c4ff9b9e6971ce")))
-     (sha256 (base32 "0xcq3pbw52fbk54xk1hdq24wbcg87yl8zk3j02xhi65dqih8qj3m"))))
+           (commit "fa7905817ac6437b96a654dd6fe3278817ed803b")))
+     (sha256 (base32 "10z9s3q0bwaa76jrv7j52nbyqhqv21fzqkg1y72xwn6psk18rydd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/compile-angel.el")
    (synopsis "Automatically Compile Elisp files (auto-compile alternative)")
@@ -15999,14 +15999,14 @@
 (define-public emacs-corfu
   (package
    (name "emacs-corfu")
-   (version "20260720.1240")
+   (version "20260722.1412")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/corfu.git")
-           (commit "44b926838376626c661e2ddbe9082a0ef097928c")))
-     (sha256 (base32 "16dj6f9kpvl45n52ap1vvaddnafawwah5k4jnsxf2dnlyhd2jyqs"))))
+           (commit "8243708421012f15a5f864ec88f6af01e5395dd8")))
+     (sha256 (base32 "0pi5pp0p5dd9x8wkycqy4zw5xwjgv1gdg3vhw75rhahnf8m5ls1b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/corfu-*.el")))
@@ -20008,14 +20008,14 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20260627.208")
+   (version "20260723.238")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "2d7d0714d9637f54af672987c65b6973b31e56a2")))
-     (sha256 (base32 "1w6vqdcqwrbaxm70j6klhnmn3i2h4rx8b2g1ymj1dsclabw6i3rl"))))
+           (commit "91fcd4fa42fef895a754e80c4435ae6314be7822")))
+     (sha256 (base32 "0b1h9i7j6q4iix5a58phfpk2qnnpxnq5p4d1irlksg7jx37h535h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
    (synopsis "Highlight uncommitted changes using VC")
@@ -33866,14 +33866,14 @@
 (define-public emacs-flex-x
   (package
    (name "emacs-flex-x")
-   (version "20260720.1421")
+   (version "20260722.2152")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kn66/flex-x.git")
-           (commit "309518313636ee56ac3a311d34960aa23f2b1a78")))
-     (sha256 (base32 "0dnlcphkg7rdk9kvb30gga6nzr54jaqsrq1mszgjhalfw63j2i6k"))))
+           (commit "e75c9fd9760fbdc6d8c89d7880076d02cca1dd5b")))
+     (sha256 (base32 "1r45sk883w5xc4kc6hni09cry6jp5d06kym52rnldfkynrszbd7f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kn66/flex-x")
    (synopsis "Extended flex completion style")
@@ -49671,14 +49671,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260721.605")
+   (version "20260722.1804")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "ab89df9204d94739843bc87a192809dc7400d3f1")))
-     (sha256 (base32 "1v036pnjsnvblcmv2n8r9sib6gqbsb2296p56y7j1iavxcg23z74"))))
+           (commit "f076ff8c5997e9e9401d02da5034c1c10ba070f4")))
+     (sha256 (base32 "0cdarcb6ps5szj6g1iswvnj76k81s1j3gs6vdz7xpr24zj9m311g"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -61341,14 +61341,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260722.1217")
+   (version "20260722.2131")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "2cefc7920ace23f529d82fbdc7799b7ad6e60762")))
-     (sha256 (base32 "1h096xz34rdxsv43mv6fpfiw41pp2gcx3514r747lnnjgwzhixf7"))))
+           (commit "639ea6c61598f196c363c9299d21a7301b7d9fa0")))
+     (sha256 (base32 "0w84i3lxv2js1vb4j80jl0fx4mx6j80ibkz4yh5q23d98yz9icin"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -61825,14 +61825,14 @@
 (define-public emacs-magit-section
   (package
    (name "emacs-magit-section")
-   (version "20260709.950")
+   (version "20260722.2131")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "2d03acf96546640a46e4ab8e7b3632e1d8782a16")))
-     (sha256 (base32 "1p9qr9iw1v4pzwcri2dwmziq246psxbnwlmdzx2qf79b4b5lln4q"))))
+           (commit "639ea6c61598f196c363c9299d21a7301b7d9fa0")))
+     (sha256 (base32 "0w84i3lxv2js1vb4j80jl0fx4mx6j80ibkz4yh5q23d98yz9icin"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (arguments
@@ -62134,14 +62134,14 @@
 (define-public emacs-makefile-executor
   (package
    (name "emacs-makefile-executor")
-   (version "20260716.1302")
+   (version "20260722.1556")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Olivia5k/makefile-executor.el.git")
-           (commit "b22e10f528def19da9b1575546f62693555e6b22")))
-     (sha256 (base32 "0h9214mg9mfmpmyrya1fqa5hs4a67mv0fk2z8mp8r68p8i4w2jw8"))))
+           (commit "6514a34f21ffba5746cb0c7b3148bc656fd7c811")))
+     (sha256 (base32 "13yi5wvg41gyvqwmd9p69jfdsj4qnk976kb56gams0q7c3fnhd2c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-f emacs-s))
    (home-page "https://github.com/Olivia5k/makefile-executor.el")
@@ -83809,14 +83809,14 @@
 (define-public emacs-project-cmake
   (package
    (name "emacs-project-cmake")
-   (version "20260529.1744")
+   (version "20260722.1614")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lucius-martius/project-cmake.git")
-           (commit "a1888d8ef6c32a8cf39e0056594179be1e9865ee")))
-     (sha256 (base32 "1bs7pv2k0alh234haff7pg1j16j1jzcw53acrca99fxmvvhj33g9"))))
+           (commit "530295d483bc67d9c27f41d22d9ad5167b643837")))
+     (sha256 (base32 "1gcrl45n76phcwf2g575nz66lm21dpc0zvrq8k3pwpnc717700sn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/lucius-martius/project-cmake")
    (synopsis "A cmake backend for project.el")
@@ -93814,14 +93814,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260716.1645")
+   (version "20260722.1556")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "93be9f2a47a576e300568fb82b6d5db53b9f200b")))
-     (sha256 (base32 "0var54x5r8db5vppsg7lq5badzy7sbqj87zg4cjjsks4fwmil8b6"))))
+           (commit "ea26be60dd606d2cb9d1f03e9f97e3696946c2a3")))
+     (sha256 (base32 "133rvnrzsagia9yp9mbdm4p8x9aig7riyyr60rg3ckj2a80j75dd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -106617,7 +106617,7 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260722.1244")
+   (version "20260722.1614")
    (source
     (origin
      (method git-fetch)
@@ -111503,14 +111503,14 @@
 (define-public emacs-ztree
   (package
    (name "emacs-ztree")
-   (version "20250209.1933")
+   (version "20260722.2128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/fourier/ztree.git")
-           (commit "9905f1be006fe02417fc6598be4990746053bbec")))
-     (sha256 (base32 "0nhhiznr0ls26as1l6550idccmjvrsv4hh2amdw5lwakyz2lsz70"))))
+           (commit "05794afc97a14505c05bee2601b90fa04027bfe0")))
+     (sha256 (base32 "04cccacm5w66kxj3ixdnqdvqa3q6gf338nyppk03yyd888i071c2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/fourier/ztree")
    (synopsis "Text mode directory tree")
