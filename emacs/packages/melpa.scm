@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260723.943")
+   (version "20260724.1019")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "23a757a87ed919ed2a42f2ed4219e5cf41f5cf5e")))
-     (sha256 (base32 "1gbk6j2mr5zy3hmri56w1pf9hk86fznymq4qksahb0rqpwkz73ms"))))
+           (commit "e82b4fea6c3790b57bb6071fbf9aad365163c153")))
+     (sha256 (base32 "0cznip0d8601mkzzkj0j1c1jwv556vdp7b4gyshi0ig0wf4cy92f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10892,14 +10892,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260723.1638")
+   (version "20260724.856")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "8b35372d0a9b243772da94748dde0ce83f37d504")))
-     (sha256 (base32 "0qkzwc9s6pwzbhcv565687m023c7975ili80c2ygzwnhfjlwkwmx"))))
+           (commit "315bbd902fb5464b1a6278e8241d8d143ff4a6aa")))
+     (sha256 (base32 "1rck2ykq60v28lbb0byfnf238s1v1kwf45n08w8cf5gdrizjwhwz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -17592,14 +17592,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260715.1931")
+   (version "20260724.953")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "f68f1261f4618fee1d061b22a3a4155589b52259")))
-     (sha256 (base32 "1spzw7c2x47axlj52a10wvzvcx0x485bsw515i78h4ggi1kf4ri6"))))
+           (commit "fb4d521a3f85f839100d52a8495bc2ec69aff784")))
+     (sha256 (base32 "0nydzm28mjrahzvfailygkya0r026f0caa99hfcar4vag19i31fn"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -42754,14 +42754,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260715.1547")
+   (version "20260724.1012")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "8701e2bd80c5d2091ce2decef5d34d6fce4a3ada")))
-     (sha256 (base32 "0sy58l4ixv01g7n9ybzcp7y3mhwm3p9353aj0wn46nharji4nca5"))))
+           (commit "fa2e26fec0a5327d8808b5006e4633dfb92e792c")))
+     (sha256 (base32 "1b3v5jc1b44xxr29annrh9s6c4jhd54kz00c21178z0lng8lnz1n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -73473,7 +73473,7 @@
 (define-public emacs-org-emms
   (package
    (name "emacs-org-emms")
-   (version "20260724.133")
+   (version "20260724.1030")
    (source
     (origin
      (method git-fetch)
@@ -84002,14 +84002,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260721.1010")
+   (version "20260724.904")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "a1036def9946b842917f594b1b9ef6a85cfd9138")))
-     (sha256 (base32 "03mnxcsdfjp939gz2p9hvzhl60qqgzhydmzrn07y9m0j4vzrw901"))))
+           (commit "1393c9b40b4c6d620e7d303c07f728f14e101a52")))
+     (sha256 (base32 "10mjva8i6md1p973631vxw8gyz2j0d71rki8apkkl3hyrr1gix05"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
