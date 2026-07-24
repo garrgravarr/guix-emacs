@@ -5897,14 +5897,14 @@
 (define-public emacs-batppuccin
   (package
    (name "emacs-batppuccin")
-   (version "20260703.608")
+   (version "20260723.1547")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/batppuccin-emacs.git")
-           (commit "8cec343cad7df1a690ef1468a2d5de63ea2016a6")))
-     (sha256 (base32 "0n2fmwclcz8cpc3cn1sw4rx8fwzxs2223k2nkvssflviqgxmyajw"))))
+           (commit "c22d6de036cff232d991dae11bee11961ccfdf25")))
+     (sha256 (base32 "0s3l1h9jzkgsmj8j1z45aik17nc0hdqw1vyvlwkzap6045djzxa2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/batppuccin-emacs")
    (synopsis "Batppuccin (Catppuccin) color themes")
@@ -10892,14 +10892,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260723.1407")
+   (version "20260723.1638")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "26cc96a13dc68772129d3884804485b40af5f2ab")))
-     (sha256 (base32 "03r8n6swjpg7gsazr4xh4cczbrxj0ik5vd6c9yzikdjk2nlwzlfg"))))
+           (commit "8b35372d0a9b243772da94748dde0ce83f37d504")))
+     (sha256 (base32 "0qkzwc9s6pwzbhcv565687m023c7975ili80c2ygzwnhfjlwkwmx"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -23054,14 +23054,14 @@
 (define-public emacs-dune
   (package
    (name "emacs-dune")
-   (version "20260120.2128")
+   (version "20260721.729")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml/dune.git")
-           (commit "d565a43c2960c024a56a31888bb3033063182693")))
-     (sha256 (base32 "0psqh0yz2scjz0b9ml5p8669v63a4fqsqlqq1s8iv8ss3mlb9rak"))))
+           (commit "83cd7b5dae9b48a14317ca6e2d46acda12ef36d4")))
+     (sha256 (base32 "12m6x51ajn58l8fm4rszw299zm2lq3sxnxvvqrbi8rwjmkgqx6dj"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editor-integration/emacs/*.el")))
    (home-page "https://github.com/ocaml/dune")
@@ -23908,14 +23908,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260720.1516")
+   (version "20260723.1828")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "b49b4af3a95c3db7b20161c2d1e47b305d028d32")))
-     (sha256 (base32 "0l7zpxhrnqn615khlhcr9l7y1kf4qpc99636vi0ijf6i3kj05wm9"))))
+           (commit "7361d5dc849c1973ec5a97d5371b86201c42ebcb")))
+     (sha256 (base32 "07nyhqr36ghx1srx9dj5b11s971xk8f6i4ak8vm0ar9a4hf8hk9w"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -23945,14 +23945,14 @@
 (define-public emacs-echo-bar
   (package
    (name "emacs-echo-bar")
-   (version "20260720.1423")
+   (version "20260723.1521")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/benzanol/echo-bar.el.git")
-           (commit "518ba97f790f0816c7df229b578ccc7e1a8e4f7e")))
-     (sha256 (base32 "0wadqmn6q5la490fxwy6h596zzxig90bw8r33v4d7p1sn81a0486"))))
+           (commit "25348c0220b58eea196ae79cab22e934817fdc89")))
+     (sha256 (base32 "117bvdaf1r6wza30vjiarpqmx6ag8hknx5j2jjvg15i3s5d8isx8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/qaiviq/echo-bar.el")
    (synopsis "Turn the echo area into a custom status bar")
@@ -24772,14 +24772,14 @@
 (define-public emacs-eide
   (package
    (name "emacs-eide")
-   (version "20260319.2023")
+   (version "20260723.2036")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://forge.tedomum.net/hjuvi/eide.git")
-           (commit "2e7abd954ffa496b3ed0029e60bd0e2ff49125ec")))
-     (sha256 (base32 "08v0l663a5y43zcfdsjx8jjh62gbb66wmyfxddkpsm1iyhbsidfy"))))
+           (commit "74448bb8c2e3674c3b9d332b250cd27a34850b67")))
+     (sha256 (base32 "1mgch05nbkviy0205zsqp721xd0rdqdz881wicxh1wlicngpmnpb"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("src/*.el" "src/themes/*.el")))
    (home-page "https://forge.tedomum.net/hjuvi/eide")
@@ -40412,14 +40412,14 @@
 (define-public emacs-git-link
   (package
    (name "emacs-git-link")
-   (version "20260721.115")
+   (version "20260723.2213")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sshaw/git-link.git")
-           (commit "4fc690290baa42f06749ae04f1517b504fd88d13")))
-     (sha256 (base32 "1lk4gk2247p1xgxxdslxjf12bqg2xs39dwjimwkbkrdxpnv0m0iy"))))
+           (commit "ca01d013bd575710e2cd47001ee1ef6ee41667cf")))
+     (sha256 (base32 "07s3skx9dz5dv7lpr0rbb6n558im9dq0s5z7icywlfmbidhdsxbz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sshaw/git-link")
    (synopsis "Get the GitHub/Bitbucket/GitLab URL for a buffer location")
@@ -43789,14 +43789,14 @@
 (define-public emacs-guix
   (package
    (name "emacs-guix")
-   (version "20260719.1326")
+   (version "20260723.1811")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/guix/emacs-guix.git")
-           (commit "5d41b59529548cca88c368fe7975856a49b50a7b")))
-     (sha256 (base32 "00904i5kby3794lfyic80pqwbxk4v3a8p1v5v6wi59fzzpwz26kh"))))
+           (commit "6833de3d97619191a06c589aa2aa7c79feb9ff79")))
+     (sha256 (base32 "0yqzp4yzns6pnz6rpx25ay41rhl96mrsya4hfasi1fwc3mk9fb79"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -49671,14 +49671,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260722.1804")
+   (version "20260723.1547")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "f076ff8c5997e9e9401d02da5034c1c10ba070f4")))
-     (sha256 (base32 "0cdarcb6ps5szj6g1iswvnj76k81s1j3gs6vdz7xpr24zj9m311g"))))
+           (commit "030b5c405cbd1555f209cb1a6513f825d4d82301")))
+     (sha256 (base32 "1aqx32l0wp8cf2v5a2lipgjzwyv4sx0zsd1x3zrlpv099zrl4xpw"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -63385,14 +63385,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260723.243")
+   (version "20260723.2329")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "8d66476ca6a01d6d7eed9dcd8bbbf6fc48a5e0a2")))
-     (sha256 (base32 "19fmbylx6h0bb2wvi8lvpc1k1vachhib39wrzanxdmljcyr4z2xf"))))
+           (commit "1d579a62178fb412e2368efaf9566e7ed70f6cca")))
+     (sha256 (base32 "0wfk81xlfj2qhhbdwrhpghydz1qr3scdanhgk6ijcjibw3lyl21n"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -72885,14 +72885,14 @@
 (define-public emacs-org-change
   (package
    (name "emacs-org-change")
-   (version "20260721.16")
+   (version "20260723.2115")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/org-change.git")
-           (commit "d03c6dd75a3732ba242924846086b7c1d1817daf")))
-     (sha256 (base32 "1zrndwr7riav19bp9abvqp7m3r9xp2s72p42255739kqkkpmzsms"))))
+           (commit "fcdde8a2896441652f1485cb8ed7992e61590787")))
+     (sha256 (base32 "0snpapkv8hpsrx5f5ssyvjdkkibynxdd9xs3vg73x1b0qlqd6802"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/org-change")
    (synopsis "Annotate changes in text files")
@@ -92586,14 +92586,14 @@
 (define-public emacs-shexc-ts-mode
   (package
    (name "emacs-shexc-ts-mode")
-   (version "20260723.741")
+   (version "20260723.1909")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ericprud/shexc-mode-for-emacs.git")
-           (commit "991beb5616d197b61b59ea36c0b23e21ac8026d1")))
-     (sha256 (base32 "05lj2bygcack7i0zybvi15lmyx7zcxiqchqhlpnhyzy79b6lcd3c"))))
+           (commit "3cfc18f84bee276d707c95a22b9a557863a67304")))
+     (sha256 (base32 "1cfd7qx7iykckh04zccnlg2kaz8fws0g8g5blbkyph93hxn12vxc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults (:exclude "shexc-mode.el"))))
@@ -99526,14 +99526,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260721.732")
+   (version "20260723.2134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "bb3a3c67a3c2a67cea929291f17e1b3348fa9e0b")))
-     (sha256 (base32 "0bqjxrriai1b01d7ris7mkn04cw7n9cvkg9g4ydpj5x2amyq1wh4"))))
+           (commit "25db1bce569c962a6d14933457f1e3fa694217d0")))
+     (sha256 (base32 "06v2is78zdn7v8b8z1xswmgd9jln70samk9jh1aycs2r8fvjp6xj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -99686,16 +99686,16 @@
 (define-public emacs-template-dumper
   (package
    (name "emacs-template-dumper")
-   (version "20240630.2236")
+   (version "20260723.1912")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/natelastname/template-dumper.git")
-           (commit "92fb170d572f044aaedaa2535990eba556347dfe")))
-     (sha256 (base32 "1ai27rlll766vp1njwzhvayad4k386j9x1hx550j1a8in9kk3wbh"))))
+           (commit "a60b7f840ffc1f2908e06baeff794f4026a0ca45")))
+     (sha256 (base32 "0np64ingja8492jni21fr4rpnxggbj124y05z9hm5dgvlryl5s2k"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-yasnippet emacs-f))
+   (propagated-inputs (list emacs-yasnippet emacs-f emacs-templatel))
    (home-page "https://resultsmotivated.com/")
    (synopsis "Create files from yasnippet templates")
    (description "Documentation at https://melpa.org/#/template-dumper")
