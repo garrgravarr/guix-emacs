@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260722.1634")
+   (version "20260724.426")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "004c680692dfcf6be957bee26ee33c94404b3f41")))
-     (sha256 (base32 "1ginw8jwc20sq58m02i5wxzb92pqk1an23cpf67d77jvg9pg8d1m"))))
+           (commit "410ed297157a205eeb1b2f79f74ae82910a81ecc")))
+     (sha256 (base32 "139gc221s1328njhcgdk1jaapp3pwq8bxypap9zmnhmi5rr7897y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -33831,14 +33831,14 @@
 (define-public emacs-flex-compile
   (package
    (name "emacs-flex-compile")
-   (version "20260716.2144")
+   (version "20260724.34")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/plandes/flex-compile.git")
-           (commit "8ece25f4a94b78d39f93d37d0b8330afa568812f")))
-     (sha256 (base32 "0nl18z1p0703pqckankzjia6byvkl4vxxfp5ffkw1wdc1813dpdw"))))
+           (commit "c9f6b00d6da0192a52f17a0b9c2a8753d7bbced8")))
+     (sha256 (base32 "12w7z6pc3k5y6cbaik1n4mn13r4r5bzzj54930nasfgrw9d4f5jq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-buffer-manage))
    (home-page "https://github.com/plandes/flex-compile")
@@ -46874,14 +46874,14 @@
 (define-public emacs-helm-projectile
   (package
    (name "emacs-helm-projectile")
-   (version "20260708.1251")
+   (version "20260724.27")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/helm-projectile.git")
-           (commit "9b2b8f19cdb83d12535e90f01f4a7f6f1e613ae4")))
-     (sha256 (base32 "00mqr3c1q4njfrnaw26n99mxgmv8644r8jm6cr2wq60qzvlqiq5s"))))
+           (commit "4dae1d072cc2650749846cfcab1f60686471cc45")))
+     (sha256 (base32 "1smcgv7g94g3aksm089c555mjwhnbfdw2qb586v37xzm6jxfsb6n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm emacs-projectile))
    (home-page "https://github.com/bbatsov/helm-projectile")
@@ -61304,14 +61304,14 @@
 (define-public emacs-magik-company
   (package
    (name "emacs-magik-company")
-   (version "20250922.1311")
+   (version "20260724.714")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/reinierkof/magik-company.git")
-           (commit "f11e7054fc9038ab34eae1702bbc0fb30fa34246")))
-     (sha256 (base32 "1a5bmh45xqixyv59m9sb5604ji7zdc728linwm5s36zgvdssqpi0"))))
+           (commit "959c0030a4fffbad61013394492ba42ca46e3180")))
+     (sha256 (base32 "0kimcq78crbl2brz58yw5mc0jh3vzb8pcwk2ahx8j0vaha8mnz4n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magik-mode emacs-company emacs-yasnippet))
    (home-page "https://github.com/reinierkof/magik-company")
@@ -62407,14 +62407,14 @@
 (define-public emacs-marginalia
   (package
    (name "emacs-marginalia")
-   (version "20260519.1044")
+   (version "20260724.810")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/marginalia.git")
-           (commit "feb66c02bbd88dba867cdd92b94fe24279ed578a")))
-     (sha256 (base32 "11w1avjwqbv1pbsvhlw3vrc7ka41nmgaqa90zjvfgf69z46ycgsx"))))
+           (commit "10b170ad8006bad535599e5b3e007e643e34345a")))
+     (sha256 (base32 "1yp0f8nmh6xrb837f3r2gr68av798z77qvi9dymidvx952mz3np7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/marginalia")
@@ -63385,7 +63385,7 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260723.2329")
+   (version "20260724.302")
    (source
     (origin
      (method git-fetch)
@@ -73473,14 +73473,14 @@
 (define-public emacs-org-emms
   (package
    (name "emacs-org-emms")
-   (version "20230626.1102")
+   (version "20260724.133")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~jagrg/org-emms")
-           (commit "13c8f245885a7f4f87bf88c5ad5612af03be1e77")))
-     (sha256 (base32 "0aff2a65crc2w9gsah9wv2i28ryx1dvzxkcfhwj18psnanba90xi"))))
+           (commit "a2353886f5b0986a48080e0cf882db4bebc993b0")))
+     (sha256 (base32 "0hqfbbiqmbwp0zlrkzr518b598z0dnw0qi5jck90vgvdwwhw3lqw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emms))
    (home-page "https://git.sr.ht/~jagrg/org-emms")
