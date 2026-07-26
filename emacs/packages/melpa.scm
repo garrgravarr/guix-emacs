@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260724.426")
+   (version "20260725.1655")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "410ed297157a205eeb1b2f79f74ae82910a81ecc")))
-     (sha256 (base32 "139gc221s1328njhcgdk1jaapp3pwq8bxypap9zmnhmi5rr7897y"))))
+           (commit "e4dead6999898c559c9a88bb45fea713fb688588")))
+     (sha256 (base32 "08yxcajm7srrv3p0h1hjh75303ljjlcxnpx92lxzg53dbi5rnqn2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -8079,14 +8079,23 @@
 (define-public emacs-browsel
   (package
    (name "emacs-browsel")
+<<<<<<< Updated upstream
    (version "20260725.429")
+=======
+   (version "20260726.11")
+>>>>>>> Stashed changes
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dmgerman/browsel.git")
+<<<<<<< Updated upstream
            (commit "3c1287f0180fd9fb4dc432782554c077971ce4dc")))
      (sha256 (base32 "03ic5yir0zjj28wjmwb6sfzijlrk6rd2a3zwfyn70d2cgrn2fy82"))))
+=======
+           (commit "a47714929333b162e2490b8424b14b19e5e81bc7")))
+     (sha256 (base32 "1c37sdcgv5z2nzlnsjkws3vg3rlxxak20pyy789ybvbnaxs8fhb4"))))
+>>>>>>> Stashed changes
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-websocket))
    (home-page "https://github.com/dmgerman/browsel")
@@ -9357,14 +9366,23 @@
 (define-public emacs-cape
   (package
    (name "emacs-cape")
+<<<<<<< Updated upstream
    (version "20260725.942")
+=======
+   (version "20260725.2124")
+>>>>>>> Stashed changes
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/cape.git")
+<<<<<<< Updated upstream
            (commit "36114163cec8b767e98d796696e455039468213b")))
      (sha256 (base32 "0fijd66xyh8p6s4r99vzkbpc6la18vz1w2cd502gmvzng5fgyzvr"))))
+=======
+           (commit "d3dd033dd261b31cf6f87df35cd83c8a6e31573b")))
+     (sha256 (base32 "0sf24cbcwjblv2w86sd377i9dpgpbfkcc3fkyxxs3d5675c9i7xw"))))
+>>>>>>> Stashed changes
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/cape")
@@ -10898,8 +10916,13 @@
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
+<<<<<<< Updated upstream
            (commit "0e36e56428a7f3192fcf3ac7b42557ea09d4383c")))
      (sha256 (base32 "18mwb3h2xr1ccv708gghagdc88nix1kmid1sc7zrmpl9vahb6af5"))))
+=======
+           (commit "41d038f72d8251134503f3aac9fe376f8482cfbd")))
+     (sha256 (base32 "0iqyy1yy7jmv2l0233syzza313wxidilmhaw1is55z3mcfzpg9qr"))))
+>>>>>>> Stashed changes
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -15999,14 +16022,14 @@
 (define-public emacs-corfu
   (package
    (name "emacs-corfu")
-   (version "20260723.1400")
+   (version "20260725.1734")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/corfu.git")
-           (commit "3724e41bb08c1271372073c0a0eef98178c9c1f1")))
-     (sha256 (base32 "11mrqqn99s1rar1jjnph06668pkj734zqyy7y87laf91d3qyvnfh"))))
+           (commit "86aacc85b11be1fbeb43b33128347b4c220070ca")))
+     (sha256 (base32 "1gbm1h69aisvn8qk43waqxs70wabjrz4r0p2pq21gpmyfj7qaprd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/corfu-*.el")))
@@ -26568,14 +26591,14 @@
 (define-public emacs-elot
   (package
    (name "emacs-elot")
-   (version "20260709.1716")
+   (version "20260725.1947")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johanwk/elot.git")
-           (commit "cc0c0332acf61bbd85c093d58de45fe81d7c373e")))
-     (sha256 (base32 "111c8c7nm1h1mdlfmilw19l3lsh9wm9ddq9gs774x05k8rvirsq0"))))
+           (commit "a2e24117802a5b3f3d771a01a27da41b868732a5")))
+     (sha256 (base32 "169l71kvyf2fldvzybnhxjmsifjxmb9zggnc83yv2x6zfg5k2jvp"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -34145,14 +34168,23 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
+<<<<<<< Updated upstream
    (version "20260725.1551")
+=======
+   (version "20260725.1853")
+>>>>>>> Stashed changes
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
+<<<<<<< Updated upstream
            (commit "a2256f46cb3ed7078ae9d8c6eaf17450dd0a50b9")))
      (sha256 (base32 "1lmjls1x2f1pc4j1966kar7y69dxyq8hvi9095fw0s82dgvvb4s1"))))
+=======
+           (commit "293f651864f81c4952c5866419a22f8ed5d456ca")))
+     (sha256 (base32 "1hf8d2il3qd7ws1gprvdh35a6i8xnmixb97ibiw81rcrnjay34mc"))))
+>>>>>>> Stashed changes
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -49671,14 +49703,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260723.1547")
+   (version "20260725.2235")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "030b5c405cbd1555f209cb1a6513f825d4d82301")))
-     (sha256 (base32 "1aqx32l0wp8cf2v5a2lipgjzwyv4sx0zsd1x3zrlpv099zrl4xpw"))))
+           (commit "586fafde0f3313cfdc8571ddd5ac8bda455fc748")))
+     (sha256 (base32 "1sn2rsh0q3wgipz7rldw1h1l6zvmwaz0dx231b7z4nv89m829dyj"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -63385,14 +63417,23 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
+<<<<<<< Updated upstream
    (version "20260725.1338")
+=======
+   (version "20260726.47")
+>>>>>>> Stashed changes
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
+<<<<<<< Updated upstream
            (commit "5920ed22f3535bb6f5c765fe0a0b5e1413a43d13")))
      (sha256 (base32 "16qv5ga1h5vrldfbxsw9ps68z3bhj2pcp5r0mixcrzxa1x88yg4g"))))
+=======
+           (commit "e58f72737b2f89539785aa3bb3ba608769c9b96f")))
+     (sha256 (base32 "0nwgk0w4160ajznl758psi2x9k7xwr7qwawm3rak6rdbnhwfxdn3"))))
+>>>>>>> Stashed changes
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -75261,14 +75302,14 @@
 (define-public emacs-org-repeat-by-cron
   (package
    (name "emacs-org-repeat-by-cron")
-   (version "20260718.441")
+   (version "20260725.1725")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/TomoeMami/org-repeat-by-cron.el.git")
-           (commit "3009d28e434e1c44cf55490cfa54d5668107aca9")))
-     (sha256 (base32 "0fc3cvcqyg7nqhfhvyy4gcwh2lavpc9af7yvsn82gqjmr8fi366m"))))
+           (commit "154efcb85c77ff7159402a3a1a89af403132dd5a")))
+     (sha256 (base32 "0vkwyslm050i5xcqc5d76lmvlgkwn1907wa3pyrjiag5wv7k0r54"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/TomoeMami/org-repeat-by-cron.el")
    (synopsis "An Org mode task repeater based on Cron expressions")
@@ -84002,14 +84043,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260724.904")
+   (version "20260725.1657")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "1393c9b40b4c6d620e7d303c07f728f14e101a52")))
-     (sha256 (base32 "10mjva8i6md1p973631vxw8gyz2j0d71rki8apkkl3hyrr1gix05"))))
+           (commit "329d9a6e35d81ec16b530d559dbce8d67adc15ea")))
+     (sha256 (base32 "096q4xb4rk6q54d7qfq8nd6cbyhxks7zmjq8aqn6c7h9fqgbyabb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -86062,14 +86103,14 @@
 (define-public emacs-qrencode
   (package
    (name "emacs-qrencode")
-   (version "20260628.2140")
+   (version "20260725.1543")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ruediger/qrencode-el.git")
-           (commit "7df905c77f590278d301679db354a3d7662407c9")))
-     (sha256 (base32 "1vsj6vq003anbwhaqcfl4sswkn8zl6fazwyvy6dk1xf87nll6540"))))
+           (commit "d96e458305c07ce845f3ebff573416972d1f8834")))
+     (sha256 (base32 "0vnjfx7dmafgvpwcgl34a9djpdra8bk3mj7yz9xyznvdfv3js54d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ruediger/qrencode-el")
    (synopsis "QRCode encoder")
@@ -87220,14 +87261,14 @@
 (define-public emacs-realgud
   (package
    (name "emacs-realgud")
-   (version "20260609.1331")
+   (version "20260725.1354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/realgud/realgud.git")
-           (commit "bc3fbafc190a1a38fd12459bf323ffe4dcb159af")))
-     (sha256 (base32 "0y1kbmk4wyffbyzlhjn86bbvps5v4hapsmlfl35304kji24ydgia"))))
+           (commit "4b6bae3728fd7f81f162b0e0852fc088c1a68db1")))
+     (sha256 (base32 "0lwwpm4fv1wl1y79kqjh91lzmqf7l44zp6agb44gch4599q5lxzc"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-load-relative emacs-loc-changes emacs-test-simple))
@@ -87302,14 +87343,14 @@
 (define-public emacs-realgud-jdb
   (package
    (name "emacs-realgud-jdb")
-   (version "20200722.1120")
+   (version "20260725.1431")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/realgud/realgud-jdb.git")
-           (commit "1c183b2f8aae0de60942ea01444b896bf182c66a")))
-     (sha256 (base32 "1i80llf9bncd5hkrk0wj3xswd36q1rkv5gaqgfqq4r1f8dkrhrz1"))))
+           (commit "af014859343e77f5eea408398314a066db92e253")))
+     (sha256 (base32 "0nxhjl34cgssiais5k3fcfzyalzij6jpl518445q156ag4f4q7hd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-realgud emacs-load-relative))
    (arguments '(#:files (:defaults ("realgud-jdb" "realgud-jdb/*.el"))))
@@ -90219,14 +90260,14 @@
 (define-public emacs-rust-mode
   (package
    (name "emacs-rust-mode")
-   (version "20260521.745")
+   (version "20260725.1442")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rust-lang/rust-mode.git")
-           (commit "ed401a65743359b8de11ee9ced0e1da39946cefd")))
-     (sha256 (base32 "1srgvdg3mhgs9v4g5yan4p510gaw5mj56smy2i5lil1zzbrk0kd6"))))
+           (commit "0058837c048cc031ca1a13f598a6a6604777458b")))
+     (sha256 (base32 "0icpywlxvc6waf7mxx13c15awnifr7c9kcw3swz9c8wkjn2am4yq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/rust-lang/rust-mode")
    (synopsis "A major-mode for editing Rust source code")
