@@ -29,7 +29,7 @@ jobs:
                   "BBB0 2DDF 2CEA F6A8 0D1D  E643 A2A0 6DF2 A33A 54FA")))))
 
       - name: Import GPG key
-        uses: crazy-max/ghaction-import-gpg@v4
+        uses: crazy-max/ghaction-import-gpg@v7.0.0
         with:
           gpg_private_key: ${{ secrets.BOT_PRIVATE_KEY }}
           passphrase: ${{ secrets.BOT_PASSPHRASE }}
