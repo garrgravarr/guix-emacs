@@ -12255,14 +12255,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260723.839")
+   (version "20260726.1707")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "ef1daae15fe30cd082cac5237d67636ce436402a")))
-     (sha256 (base32 "00346c9c2pj27slhw213f36k88pgsmg0jl5dm6h33lax2hvpk6y1"))))
+           (commit "b083deabff2b937e6b0eaae0f7daa6d09c3c4c64")))
+     (sha256 (base32 "1z44iybzydf0mmvrk20x8algnpn31y02dvqxz9pqm4s2yhlrv130"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -15248,14 +15248,14 @@
 (define-public emacs-consult-gh
   (package
    (name "emacs-consult-gh")
-   (version "20260625.257")
+   (version "20260727.101")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/armindarvish/consult-gh.git")
-           (commit "7042619362cd47314d3d0f706fa9cac5bf07950c")))
-     (sha256 (base32 "0xa7z2zhz44i2fhgiag3a96jkhz71z294qfnphqjxw96cqcq3mb7"))))
+           (commit "fca05ab7598717a9aee91a54b7e49d2a175f2e98")))
+     (sha256 (base32 "1cdfva4mf3g5n73yvpsp10p0s0jd0zqdrabdalv612fh2hb5yzci"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-consult emacs-markdown-mode emacs-ox-gfm emacs-yaml))
@@ -22602,14 +22602,14 @@
 (define-public emacs-dpkg-dev-el
   (package
    (name "emacs-dpkg-dev-el")
-   (version "20260713.1140")
+   (version "20260727.749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git")
-           (commit "c0f75faea0f54b221bec3976b4e0e365b693b546")))
-     (sha256 (base32 "0xz3zzn7c98idjqjln10n3w72lkf1p16c5i0gph9pg9b4y14wg8r"))))
+           (commit "04562a1cd19a14303e5650042dfec5c841966990")))
+     (sha256 (base32 "0fpjrfvchkamnhvdkwi5i5x6zqq2pqq125h4fgnszavwg0lxxqpx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-debian-el))
    (home-page "unspecified")
@@ -58089,14 +58089,14 @@
 (define-public emacs-ledger-mode
   (package
    (name "emacs-ledger-mode")
-   (version "20260709.1534")
+   (version "20260727.518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ledger/ledger-mode.git")
-           (commit "f7761ab7070e8c0c1cfb97e571ba81c3377a7447")))
-     (sha256 (base32 "1qb4lrp5f2p1gcfrpbh86xcwggc8ffz62rq4lj6v4klyjyk52h2y"))))
+           (commit "b0e71b7e9ee612ccb0b0e5f8bfefcfddb69ae861")))
+     (sha256 (base32 "1izybqhsg4gl2jlp7xgbybazxxh96xgqc31f3l19244ppc73g2kr"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("ledger-*.el" "doc/*.texi")))
    (home-page "https://github.com/ledger/ledger-mode")
@@ -84088,14 +84088,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260726.641")
+   (version "20260727.800")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "0d481cb8675d5f6176ebdead79d3689874176675")))
-     (sha256 (base32 "0g90ic4shj3yzcc5h5pscrkl09n4d750gwqgb97d3rzjbqzys94d"))))
+           (commit "40fbd1595706006c4ce15ee731e51b945324b8cd")))
+     (sha256 (base32 "1lfg81mg4krqrhm5dkv94d298bvk4j42fd3mi6k3pfd2w4plwqa4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -93736,14 +93736,14 @@
 (define-public emacs-sixcolors-theme
   (package
    (name "emacs-sixcolors-theme")
-   (version "20251028.1442")
+   (version "20260727.522")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mastro35/sixcolors-theme.git")
-           (commit "be8db0ca5f7868a9f139056cb8067d24aeffe67e")))
-     (sha256 (base32 "1vkwp8vzzw2j1py4s2cxkx51q1x4ix9wk0d9hv96x3jdhwhxyapc"))))
+           (commit "b547ee2c9501dbf0f70e2189d4a4eb189ebb3d1b")))
+     (sha256 (base32 "12i7a4djkd0vx4sdqlbhp78l2rl6vfkm0v9mg9gafqn7v416zh8y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mastro35/sixcolors-theme")
    (synopsis "Just another theme")
@@ -106738,14 +106738,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260723.738")
+   (version "20260727.601")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "8f334b1f905f304163033cf5b4c9d1a7c536b3df")))
-     (sha256 (base32 "07zlmz12vpl2srqqwylb3dpq26lx4c3r9rkc2h5w9vzjk4i2f0xk"))))
+           (commit "c5bb04388a17e853f57183cd1cb9e9d37ea22dfd")))
+     (sha256 (base32 "090x8n1rcbix9v16f64n5l009j4s5678ds6v23r51hckqg0wsiz6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
