@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260727.2040")
+   (version "20260728.953")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "04455dd3fa9871c0dcb53d367fad170e4f626d5e")))
-     (sha256 (base32 "1698dzb7nbawk9jgqiwy2sgak6zin9y1lgd54b7gdwp1fcgwnxx7"))))
+           (commit "09da0dd7ddb21d07cd2b13d4aaf6621c4d2306ad")))
+     (sha256 (base32 "0v2mkpdn0pmmjram2fc4p0zs1mzvh1gf0la5xmzilf9s6nnyfx6g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10892,14 +10892,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260727.1208")
+   (version "20260728.944")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "57d42e3c405c3d4c56c1554d0f984434f96c2a0a")))
-     (sha256 (base32 "15hshk5bky99rb8kq80pkg9hkk1yzjkyyba25v7ffq5hknn0sxpq"))))
+           (commit "e9b82874cf51e29fd316606a3a8c5a7362e0aa6b")))
+     (sha256 (base32 "19f1xi61iqcvia63nsfg4v5xymf3kcb9j04hhj44q1ny72kkjymz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -11431,14 +11431,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260720.1609")
+   (version "20260728.724")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "cc1fdc014e9421a9c3d96929af7eb6c5149b2281")))
-     (sha256 (base32 "0s9c23m2f6jjm46h3iln4cwx2h1lkb1fs6v8285jgd809llcnrsp"))))
+           (commit "48ce55f2e70a225d8e4b8094f818d8871048d013")))
+     (sha256 (base32 "0xyi0n66k1q0hlxq0hlxd6y8vbhha4clbny90ln0y72jwigq7lgb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12255,14 +12255,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260726.1707")
+   (version "20260728.555")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "b083deabff2b937e6b0eaae0f7daa6d09c3c4c64")))
-     (sha256 (base32 "1z44iybzydf0mmvrk20x8algnpn31y02dvqxz9pqm4s2yhlrv130"))))
+           (commit "bb90fa1a5b4a4f8e0a739a63ab9fb25c1e92451f")))
+     (sha256 (base32 "1ddx2hvldil1awg7w4gnjsgaa6fzqij6473p1xrqii5l9s0pk3wa"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -15925,14 +15925,14 @@
 (define-public emacs-copy-file-on-save
   (package
    (name "emacs-copy-file-on-save")
-   (version "20230402.1829")
+   (version "20260728.802")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/emacs-auto-deployment.git")
-           (commit "a4b5b758035652810bee8916101b0846579e4e6d")))
-     (sha256 (base32 "1kqf8wzvp7h3mxmammhigz8a0i2y1898h96mml4g7faiq7svbrbj"))))
+           (commit "5c9b80897ecaad2c4f47a2a473b88c25ee7885e2")))
+     (sha256 (base32 "090a7mzdgjs57c2lxmffhwxxhdnvgvizhvdsdnbwaxn71xijza5s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/emacs-php/emacs-auto-deployment")
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260727.2152")
+   (version "20260728.931")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "b9eb2f24ff56ba44b2acac482efbacc35ba7ac35")))
-     (sha256 (base32 "05a80ig56qxvgk6sw6bhl72rjzf8p12a33wdi68iq9wwqx6ysrbv"))))
+           (commit "a48e6e5e017ec2c91ef69a3004fdf81e67b693ad")))
+     (sha256 (base32 "0s2m0pjkq8iqvv7fylfmfv7zslb7a0yixkarz3lr75ai0vd6dmpa"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -38650,14 +38650,14 @@
 (define-public emacs-fsharp-ts-mode
   (package
    (name "emacs-fsharp-ts-mode")
-   (version "20260624.924")
+   (version "20260728.827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/fsharp-ts-mode.git")
-           (commit "a7a4f0612456e992c5e3420b3296ed2c1d3c472c")))
-     (sha256 (base32 "1zqw57r4gg2rwg8z2p3i2j73rybg3zmm5554s2xs6jf72zvn7mb5"))))
+           (commit "5f6652d60c6eff44a2b44693d8229648f0875b48")))
+     (sha256 (base32 "1r37frzkhd29p6jpj2xdzg7zxd8d2xjzdqlc96y7zrxrj4p10sx9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/fsharp-ts-mode")
    (synopsis "Major mode for F# code")
@@ -39227,14 +39227,14 @@
 (define-public emacs-gdscript-mode
   (package
    (name "emacs-gdscript-mode")
-   (version "20260720.923")
+   (version "20260728.814")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/godotengine/emacs-gdscript-mode.git")
-           (commit "5ea9bb0a2ee3b3845918084bbb422391dfcc852c")))
-     (sha256 (base32 "1r2zps4x1228pz4v6q3536giiynzz0xz0r69nhmli9aqihg4nv62"))))
+           (commit "2a7efd55946b61e0a3e40700db5c53ce3b8807b9")))
+     (sha256 (base32 "17v1x4ays82rr01lbf5qlrx2d02347m81wwaiqp6bm8sjpzpysmn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/godotengine/emacs-gdscript-mode/")
    (synopsis "Major mode for Godot's GDScript language")
@@ -84088,14 +84088,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260727.2157")
+   (version "20260728.945")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "13f9a59bf99d044d95de694bcc9d031d3198833c")))
-     (sha256 (base32 "005fbwyycyggzn5v8jam9iyaiqzpg5aaji8syk8kx9gp3vqk25ym"))))
+           (commit "54a3d85389f63f63f34e1632f7e361f943e25839")))
+     (sha256 (base32 "1008agbz4d6w7h9ydxjhqkypdfvdckqipvcz739hn3c4lzvx4c8q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -95537,14 +95537,14 @@
 (define-public emacs-solarized-theme
   (package
    (name "emacs-solarized-theme")
-   (version "20260610.1943")
+   (version "20260728.833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/solarized-emacs.git")
-           (commit "0d9d9efff196d8d8ee4ac606e70bf062a057136b")))
-     (sha256 (base32 "12679vralilqxzdfkkylcxfj6qf74na0pakrbc4wqkqx8gak11vf"))))
+           (commit "1443d6dce378ad2d65a8a8c45d5279481a79dfab")))
+     (sha256 (base32 "1fya8yagymd3dvgnvbrrz2mxj9mjf981xdfp5dis57i6j69ifhks"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/solarized-emacs")
    (synopsis "The Solarized color theme")
@@ -106738,14 +106738,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260727.601")
+   (version "20260728.1005")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "c5bb04388a17e853f57183cd1cb9e9d37ea22dfd")))
-     (sha256 (base32 "090x8n1rcbix9v16f64n5l009j4s5678ds6v23r51hckqg0wsiz6"))))
+           (commit "46376588cdc842318232a2d9e279f081cf66daec")))
+     (sha256 (base32 "0gpcl66w16kka8wp67r153vdd3f4qbx97hhhvs6zr5pkq0fp0hw4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
