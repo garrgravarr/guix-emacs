@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260728.953")
+   (version "20260728.1344")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "09da0dd7ddb21d07cd2b13d4aaf6621c4d2306ad")))
-     (sha256 (base32 "0v2mkpdn0pmmjram2fc4p0zs1mzvh1gf0la5xmzilf9s6nnyfx6g"))))
+           (commit "bcb91e53cc9753423a5c8638e517d21fc7800b18")))
+     (sha256 (base32 "11fckyabkbayanmzkvpyn3fz2h8v1k4vw4cvmxy473qps37vhaha"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10892,14 +10892,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260728.944")
+   (version "20260728.1333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "e9b82874cf51e29fd316606a3a8c5a7362e0aa6b")))
-     (sha256 (base32 "19f1xi61iqcvia63nsfg4v5xymf3kcb9j04hhj44q1ny72kkjymz"))))
+           (commit "4227f33b19ad9c8137c3e9fe3624658aa4d46d4d")))
+     (sha256 (base32 "0lhsg2gf9vd3q9ibjlalqc1acyrxvsaz7i168h2w6dn4ljfpp8in"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -21058,16 +21058,16 @@
 (define-public emacs-dired-sidebar
   (package
    (name "emacs-dired-sidebar")
-   (version "20260619.56")
+   (version "20260728.1316")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/dired-sidebar.git")
-           (commit "1852a0b17bf2619607f6b4dfc437e279ba04e93c")))
-     (sha256 (base32 "0br2a2nccbbmp5mgj4b0q28k0gaq10w1mrsyabfk9va9dqb8iscn"))))
+           (commit "28a322a73224c63b6196296457f270a9dca63790")))
+     (sha256 (base32 "0i6igm5gibczblv520xzid00xki4f3y9i9zrknvmqv5qdxg5yh1f"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-dired-subtree emacs-compat))
+   (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/jojojames/dired-sidebar")
    (synopsis "Tree browser leveraging dired")
    (description "Documentation at https://melpa.org/#/dired-sidebar")
@@ -30374,14 +30374,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260727.953")
+   (version "20260728.1312")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "787a24701ecf693c27117148c3ab4a74add57fc5")))
-     (sha256 (base32 "0bls3d8jm8dyg1cfv8gi2g9bkx6a8d268sjm4hnhribxzf5dwpb7"))))
+           (commit "a2fe16d781de7b2e2eafb3d9139987a57cded319")))
+     (sha256 (base32 "1p5zb0hxlkxqsigjgxkam0rsi9bqd40hxycbwjkrdyy4ihh2v7zz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260728.931")
+   (version "20260728.1339")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "a48e6e5e017ec2c91ef69a3004fdf81e67b693ad")))
-     (sha256 (base32 "0s2m0pjkq8iqvv7fylfmfv7zslb7a0yixkarz3lr75ai0vd6dmpa"))))
+           (commit "d983b24eaf9603b02fae0c46356657a3c0bb5034")))
+     (sha256 (base32 "1lyvf0900xv79z8mhdpkkixrv4889bpaz0v9vq4ls7n01igmhhwp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -39910,14 +39910,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260727.2114")
+   (version "20260728.1312")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "787a24701ecf693c27117148c3ab4a74add57fc5")))
-     (sha256 (base32 "0bls3d8jm8dyg1cfv8gi2g9bkx6a8d268sjm4hnhribxzf5dwpb7"))))
+           (commit "a2fe16d781de7b2e2eafb3d9139987a57cded319")))
+     (sha256 (base32 "1p5zb0hxlkxqsigjgxkam0rsi9bqd40hxycbwjkrdyy4ihh2v7zz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -61410,14 +61410,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260724.2338")
+   (version "20260728.922")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "4453f3d6dccc5be7fb00bf98e18272a4ff532ded")))
-     (sha256 (base32 "05n24xl81yb6pavpgnwdx5hlym6qwkhm20y9bv7jlmg40mcppmp8"))))
+           (commit "b6c8bbcc7deec1f8bb266c1b6765857056d82304")))
+     (sha256 (base32 "06xmp6ksy0g9kp6kx4g03cfaxwlpma3hwcm5v7hdilv191gdr3wk"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63454,14 +63454,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260726.400")
+   (version "20260728.1149")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "661eccd771ea14b5fe517417261b153aed41d2e5")))
-     (sha256 (base32 "11hr8kd1w8m6is1358i56ja2nw8b5gcsm3d1pbj76shrc9vw2l9c"))))
+           (commit "c1db7470bcebed3f1aec272c9e2c2d595554c5cf")))
+     (sha256 (base32 "0hjmrr2c17y4f88618wj47v855jwd22wwcm8nsjm3nvxv142l5j0"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -81208,14 +81208,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260721.810")
+   (version "20260728.1438")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "add73ab18739ce989e461a7af11e8beaf7bf76c9")))
-     (sha256 (base32 "0k7if28s3mn02blmna017xlkc07cid77x3h6f8msag4zwr4rsi9x"))))
+           (commit "df5ce0a176ce634ccb4883042c415a74a5637c37")))
+     (sha256 (base32 "0g444siyk3dqg9w6kmba83xq0j4c8lj6d055xlvgxizy06jhqy9a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -84071,14 +84071,14 @@
 (define-public emacs-project-x
   (package
    (name "emacs-project-x")
-   (version "20260726.1808")
+   (version "20260728.1427")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vmargb/project-x.git")
-           (commit "bfdc18435d0f224bfa4eb3dda2ebb9690f2ebfa3")))
-     (sha256 (base32 "1flk3zm5dsf4rf1w41hq0krfmx305iwcrfa3cxkbvxw3mz1dq693"))))
+           (commit "fbea13f33f820c6294927fcff32dbb6a2b5b9849")))
+     (sha256 (base32 "0sw1c0p3maiysfc2h6rz2qq906q0gk96qri7qrhwcqbg2m5j37ic"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/vmargb/project-x")
    (synopsis "Extra convenience features for project.el")
@@ -84088,14 +84088,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260728.945")
+   (version "20260728.1325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "54a3d85389f63f63f34e1632f7e361f943e25839")))
-     (sha256 (base32 "1008agbz4d6w7h9ydxjhqkypdfvdckqipvcz739hn3c4lzvx4c8q"))))
+           (commit "e3e5afc36d6598a23d15d6ff1b60a7e5c1d15661")))
+     (sha256 (base32 "1va4hjps8fkrcjqg760zh93rn9y8gjs6rhki51m2dbyqb5kkgp3g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
