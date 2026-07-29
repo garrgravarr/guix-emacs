@@ -12255,14 +12255,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260728.555")
+   (version "20260729.257")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "bb90fa1a5b4a4f8e0a739a63ab9fb25c1e92451f")))
-     (sha256 (base32 "1ddx2hvldil1awg7w4gnjsgaa6fzqij6473p1xrqii5l9s0pk3wa"))))
+           (commit "1216b0912659f183cccfbe9d16b13516633949b7")))
+     (sha256 (base32 "10c9299l8akavvrm9zah6816spwrpprpyy90jqlhky3q7sdqz5x6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -23908,14 +23908,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260724.1616")
+   (version "20260729.112")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "49a05fbedf4605251c3b4d1a90dd7ebaa621eccb")))
-     (sha256 (base32 "11gd9qzf1x5zqkvigydhg6y55s497n3aj04wvkhr2x1r0g096339"))))
+           (commit "59791eede954a3ea8767b09131fdb4ce391e1d07")))
+     (sha256 (base32 "1s38n69icixy1vz7sj9dwksbw7mqx5m0fhrfjg4gs068asib6xbk"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -26058,14 +26058,14 @@
 (define-public emacs-elisp-autofmt
   (package
    (name "emacs-elisp-autofmt")
-   (version "20260611.427")
+   (version "20260728.2357")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-elisp-autofmt.git")
-           (commit "fdae9054c55804def507cf7045c8460573d876a9")))
-     (sha256 (base32 "1m43xcddswr7kl218w06rmix833jfhyr6car173ln00ggd5yvnf7"))))
+           (commit "217f5486b1652d6a6afac1a9966aa6a92ab355d2")))
+     (sha256 (base32 "1gdkrpccwq0dwyjgbaqisd8cd8sn45fgvq12va37pn7hafpgj95g"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "elisp-autofmt.py" "elisp-autofmt.overrides.json")))
@@ -56158,17 +56158,17 @@
 (define-public emacs-keycoach
   (package
    (name "emacs-keycoach")
-   (version "20260721.1501")
+   (version "20260728.2350")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/keycoach.git")
-           (commit "fbd7bc410b2101f56b93e8bc3cc9afee76018ef2")))
-     (sha256 (base32 "19dyci7z7f73w9bckkp8flxif9r4ripy1yzcl4fm1llkh9aywyq9"))))
+           (commit "9a10d6f4678b54c773b8b3744b0d3785af341907")))
+     (sha256 (base32 "09a986fnbiqp7w1hdnjkcpmk4s9zxa0y2riavkp5mz7xccw12q5z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/keycoach")
-   (synopsis "Learn keybindings")
+   (synopsis "Remember and learn new keybindings")
    (description "Documentation at https://melpa.org/#/keycoach")
    (license #f)))
 
@@ -59435,14 +59435,14 @@
 (define-public emacs-literate-elisp
   (package
    (name "emacs-literate-elisp")
-   (version "20260728.123")
+   (version "20260729.513")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jingtaozf/literate-elisp.git")
-           (commit "423df58f7e4565f842b9a220af04abce3c3dc818")))
-     (sha256 (base32 "0vqcpbpjj01mzpfrvnl5qf9ixkffb041kpdq517wb7hiz1apk02j"))))
+           (commit "9fcfe78b9bf8a7cfc85ef2074f72a49e8ea6d2b7")))
+     (sha256 (base32 "07ijfbs7r22dizfkjnls9amq4k9i898s5mngrllkyn1l961grk36"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jingtaozf/literate-elisp")
    (synopsis "Load Emacs Lisp code blocks from Org files")
@@ -63454,14 +63454,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260728.1149")
+   (version "20260729.337")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "c1db7470bcebed3f1aec272c9e2c2d595554c5cf")))
-     (sha256 (base32 "0hjmrr2c17y4f88618wj47v855jwd22wwcm8nsjm3nvxv142l5j0"))))
+           (commit "8306e240c213d1b3693be15c744a629af4ad89df")))
+     (sha256 (base32 "0kanvsayyksp5zrsd3silmp4zjppbps6ig1f85zwzv3yxyx2v6j7"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -74382,14 +74382,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260714.1520")
+   (version "20260729.514")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "5df7bad9eca52b74f673c1bd5159791e30d34f9d")))
-     (sha256 (base32 "03027i8a184ljp02imrrs8zhdvdrm9brjj1h42fwrba78p8m8s1p"))))
+           (commit "13ef5d3076f59dc6e9788e330f937c51479eb7cd")))
+     (sha256 (base32 "09q4fxai26l8ijhr0hqbwlb2pf0rhmf574217gzq8g20k1mk0r00"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -84088,14 +84088,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260728.1325")
+   (version "20260729.800")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "e3e5afc36d6598a23d15d6ff1b60a7e5c1d15661")))
-     (sha256 (base32 "1va4hjps8fkrcjqg760zh93rn9y8gjs6rhki51m2dbyqb5kkgp3g"))))
+           (commit "3ae0ce7ee050c0e98d6a605383a2f07c01e16862")))
+     (sha256 (base32 "1ic7xlwwm7l2ss5v6wmyq5kwnv48hkaxl5404ip4jjqr00pz5j65"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -96842,14 +96842,14 @@
 (define-public emacs-srs
   (package
    (name "emacs-srs")
-   (version "20260721.359")
+   (version "20260729.409")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Duncan-Britt/srs.el.git")
-           (commit "f8bf3e3520fea57770411a8aa882985a7f30fe0d")))
-     (sha256 (base32 "0s8xxq2p49ibhbzzzk23avn2chainsm3392q98l7qmi41q2kq0m3"))))
+           (commit "29faab8fb32ca34ac21e736bb60b7267dc424209")))
+     (sha256 (base32 "0hm80rqvgcld0dbfdy0nciqz6fl7r5pdwq6q32qbwy6djlhgjlak"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Duncan-Britt/srs.el")
    (synopsis "Spaced repetition in plain text")
@@ -102615,14 +102615,14 @@
 (define-public emacs-tree-sitter-langs
   (package
    (name "emacs-tree-sitter-langs")
-   (version "20260719.1913")
+   (version "20260728.2204")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-tree-sitter/tree-sitter-langs.git")
-           (commit "7a2b658586ad2108ff90fc978af1c4a33a44e07a")))
-     (sha256 (base32 "1sik64yq1gv8rv4qhdlai40p1qck35yhb2vjvrbj8a87i2r5q97a"))))
+           (commit "685c2da186cd1af050836bc7edb1fac65a8141e7")))
+     (sha256 (base32 "1y9naqzig1br6zbj725xvvn1gj3p2mx0rpfxdbwd4qpafr1csn8z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tree-sitter))
    (arguments '(#:files (:defaults "queries")))
