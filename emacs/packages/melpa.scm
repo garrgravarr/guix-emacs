@@ -11431,14 +11431,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260729.1838")
+   (version "20260730.1212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "0a51a93f8b76ca1dd05568b298090a76852d197f")))
-     (sha256 (base32 "17ww7637k7q97h50j4f8z9zvmfr0kiw161rncmm1rbvhwizxpx72"))))
+           (commit "b3c28e1f01b16454ed26ce99c8646382a028f174")))
+     (sha256 (base32 "1rxagdm4a35vb60aaizqjpgnvcb0j0xfzsl6m5d21xm6kqvl20rr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -23778,14 +23778,14 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260715.1819")
+   (version "20260730.1526")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/easysession.el.git")
-           (commit "a722fad8a087b7036657dc22015d0fffbd63d893")))
-     (sha256 (base32 "1yafwq7cqkxawd3f2jsvbj2z6vz29ypq2bmas37q8babby4knk1n"))))
+           (commit "efe20131f2e69ca5323078afe81c73bbd09fa689")))
+     (sha256 (base32 "15rinnxii5p9x20nmqa7l8j0cw8i531is7dgpigjmcsd1rd1fn36"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "extensions/easysession*.el")))
    (home-page "https://github.com/jamescherti/easysession.el")
@@ -32368,6 +32368,23 @@
    (description "Documentation at https://melpa.org/#/factlog")
    (license #f)))
 
+(define-public emacs-faff-theme
+  (package
+   (name "emacs-faff-theme")
+   (version "20260730.1513")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
+           (commit "49cf5b6a8c46f6b315818ae06df160c3caefb213")))
+     (sha256 (base32 "0q0b3r16c4z9b2zkya69f1yi6pap18v6vwz2jnnmrkfrq25zpw02"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/WJCFerguson/emacs-faff-theme")
+   (synopsis "Light cornsilk theme with warm, earthy colors")
+   (description "Documentation at https://melpa.org/#/faff-theme")
+   (license #f)))
+
 (define-public emacs-fakir
   (package
    (name "emacs-fakir")
@@ -33849,14 +33866,14 @@
 (define-public emacs-flex-x
   (package
    (name "emacs-flex-x")
-   (version "20260725.9")
+   (version "20260730.1240")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kn66/flex-x.git")
-           (commit "40034af091ad4acdf92aafbfe3a1ca1409e92821")))
-     (sha256 (base32 "1ca0cf0n3pc837qacd2lb29sqhp62pkjpshldnm63h4ijs7gzp58"))))
+           (commit "42ec8532099230f47d770039de377684a2e4f732")))
+     (sha256 (base32 "0m0bda05dkwk1z1ivga3cp9nbjkqs6b0q5a76h81k5zz9zsla28q"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kn66/flex-x")
    (synopsis "Extended flex completion style")
@@ -34128,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260730.104")
+   (version "20260730.1722")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "6efe52439deca570e77ca76b2ce9070efea1a536")))
-     (sha256 (base32 "0j189h3vvfbgfl26jp6ji1qnv6iv275rblznxl6vw8rpl8nwsks6"))))
+           (commit "638e4fec75a34063045fe56670be0fea36be2107")))
+     (sha256 (base32 "15dxvmv4wavlff6wpjqnk6k01qckkp9485h5c996cj8a1grh75zz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -37958,14 +37975,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260701.1425")
+   (version "20260730.1603")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "9628f76740aec9270e9fb31457ff4cb38d9f3f16")))
-     (sha256 (base32 "1xmq50026z47imlwi6an50h2yp6b894m84kfq6bf4878qbfmfw2w"))))
+           (commit "303cec4136bbfc6ddd7a4dfb184beb0629ddb55e")))
+     (sha256 (base32 "12kggwshr5g005mf8m5v6gins38qhzyl69v13wmljsxjlzg8whib"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -39938,14 +39955,14 @@
 (define-public emacs-ghub
   (package
    (name "emacs-ghub")
-   (version "20260701.1318")
+   (version "20260730.1244")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/ghub.git")
-           (commit "59d0b9b33e780d6cff5131886904ff26033dd2e6")))
-     (sha256 (base32 "0xcdwm383907hxvxxdx0f1jk1ppdch2pai5csfl97wdzqdg278ah"))))
+           (commit "04e0fe5a0cafa9cc0fb596217d8bad67f6bb2461")))
+     (sha256 (base32 "1dkcr7f1cgwap16hl8v8rdirqn6p1viizvbj9h4c7x6ksjmxj2md"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-treepy))
@@ -63437,14 +63454,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260729.337")
+   (version "20260730.1216")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "8306e240c213d1b3693be15c744a629af4ad89df")))
-     (sha256 (base32 "0kanvsayyksp5zrsd3silmp4zjppbps6ig1f85zwzv3yxyx2v6j7"))))
+           (commit "a2d821a0765d5f076ed777d22cecd914ad9106d8")))
+     (sha256 (base32 "1jbmxc8lsn08fhid3ypawrj86pz4q65mdd16cqjaiw6vjjhdg0kf"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -84071,14 +84088,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260729.1418")
+   (version "20260730.1007")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "e27c473471f2f449b26f6b496d5ec685ed9fbeb1")))
-     (sha256 (base32 "09c6jgzyyrrprn8ks20sxx9h7a9dvd7n43fbkch8fvqcpwwx4gpn"))))
+           (commit "c94499f4f627112fdaae1cdb67e564c231174109")))
+     (sha256 (base32 "0kbwbwfx1yhv077zbbrqa168iv2n1lhrcbxb1ad6cpdbxx8q13vk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -88263,14 +88280,14 @@
 (define-public emacs-repeat-fu
   (package
    (name "emacs-repeat-fu")
-   (version "20260617.256")
+   (version "20260730.1339")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-repeat-fu.git")
-           (commit "4d30d92a1fc3b5f0207866685de16cb78b83337c")))
-     (sha256 (base32 "1dc3g7fagzll24ws39gwy5zl3bxmca1njky4gw5s5yb5gd40cypk"))))
+           (commit "195c80fd945031aaa8793e2a33f4b4fa2216862c")))
+     (sha256 (base32 "1rsghn54fr6rpav35wqzdwa90gymsldxma9m657pxd4qid8lkbys"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-repeat-fu")
    (synopsis "Minor mode to repeat typing or commands")
@@ -89174,14 +89191,14 @@
 (define-public emacs-rimel
   (package
    (name "emacs-rimel")
-   (version "20260706.343")
+   (version "20260730.1007")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/rimel.git")
-           (commit "4d7bbad3e9b70fe0755174a79d5b7e59dfb6d3f7")))
-     (sha256 (base32 "19rqq53akvrzdj74ajqvgb4dz1rmiqyivs9vcpaz43s56q00sa5c"))))
+           (commit "4fbc1977713704c7fe452195b377bc67e5de846a")))
+     (sha256 (base32 "1kmg7iggg35hxm3x7d3975vspmvhdf1hmfl9c3pisha9fkpjvbqx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-liberime))
    (home-page "https://github.com/jixiuf/rimel")
@@ -91251,14 +91268,14 @@
 (define-public emacs-scroll-on-jump
   (package
    (name "emacs-scroll-on-jump")
-   (version "20260108.1309")
+   (version "20260730.1224")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-scroll-on-jump.git")
-           (commit "3e4e13fab04ab5acc7653d0474bf7b8b685d07d3")))
-     (sha256 (base32 "1pa6s6c0k5ng6w1j3ms8vmg01dxasp51a474j337xg5c4pl5g9x6"))))
+           (commit "4f903331db2c15fb4427ededca2d764d8f65db64")))
+     (sha256 (base32 "1m5ly2gbfnaz7yrmvkiiin7xsgxyvj94k2d4r49q2sbcyp5xgqg4"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-scroll-on-jump")
    (synopsis "Scroll when jumping to a new point")
@@ -98651,14 +98668,14 @@
 (define-public emacs-synaxis
   (package
    (name "emacs-synaxis")
-   (version "20260713.1937")
+   (version "20260730.1047")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/synaxis")
-           (commit "fd0272e9a9dde9e31d592348638f62bcb3baebfe")))
-     (sha256 (base32 "163d6qb3y3vpy72616pymhsriln9rrzawv1rcdf5iaf814qv1sah"))))
+           (commit "5f2edb9b19a2ea0c6e3cfdce1100ab160ca3a552")))
+     (sha256 (base32 "0cgd2lxklhb5q3pla47g8fq2pbkgrjdj9zh4wmhvs74h8wdkhqmb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-keymap-popup))
    (home-page "https://git.thanosapollo.org/synaxis")
@@ -106721,14 +106738,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260728.1005")
+   (version "20260730.1305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "46376588cdc842318232a2d9e279f081cf66daec")))
-     (sha256 (base32 "0gpcl66w16kka8wp67r153vdd3f4qbx97hhhvs6zr5pkq0fp0hw4"))))
+           (commit "cb844caf7194092c590e4c35b86436e94775e81d")))
+     (sha256 (base32 "0p9qiws2lca7j9cxh2xckqdipr34ippq3pf3kim9lg11cki26mkx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
