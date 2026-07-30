@@ -12255,14 +12255,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260729.1529")
+   (version "20260730.340")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "34a9c01ee1efddb4522358005836cca77370a3a3")))
-     (sha256 (base32 "0ri5ghnqg244wmgjp63zqsr5c2zmwlx1bl1k2x5xvq7mbnq9r17g"))))
+           (commit "6798a93cd4f171b8eb142934c79ac84351ccb5d5")))
+     (sha256 (base32 "0jnmfwb55jk8idpkp578nv5rls6p27y0fba4njf4x19djn0hnlm6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -34128,14 +34128,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260729.2216")
+   (version "20260730.104")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "6f8d455e5312248fa28c373d14d42ce33e0d58b4")))
-     (sha256 (base32 "1praiq2108z2gs6rxand53j7r1qxwppwllimy33rvmk14mdbxsvc"))))
+           (commit "6efe52439deca570e77ca76b2ce9070efea1a536")))
+     (sha256 (base32 "0j189h3vvfbgfl26jp6ji1qnv6iv275rblznxl6vw8rpl8nwsks6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -64686,14 +64686,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260519.111")
+   (version "20260730.554")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "13fb314a795951b9190c53c59ef281abf7a2cb4f")))
-     (sha256 (base32 "13maiy40n4sgmwwp83xc4pwgmdv0jd1j7ca75cna9swqq28dmfgi"))))
+           (commit "68381b4a041170bf6ab727806bd59194fd8760f6")))
+     (sha256 (base32 "0bhg4cfr1flmgapbjs6ys38n3kar1lhq86a64qzbgaplwc5lfgx8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -65297,14 +65297,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260722.711")
+   (version "20260730.719")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "7d53a6959c92b40e3f819b134f7db93ec9a31352")))
-     (sha256 (base32 "12f9k6rzcdsqpz5dnfz3912w75f871qsk4lxvhnja8rg3phws38i"))))
+           (commit "75aa3fa79efd04ddf7980a1d3ec0cef6e4f4af90")))
+     (sha256 (base32 "1swik3x9gq6yyzmdyqm61rwj7jrdfpm5df1hv0k9m7d5dhzgf98y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -74665,14 +74665,14 @@
 (define-public emacs-org-noter
   (package
    (name "emacs-org-noter")
-   (version "20260413.213")
+   (version "20260730.237")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/org-noter/org-noter.git")
-           (commit "ab9628e449d76af8b2e5a9d5fead4e03ca76a03d")))
-     (sha256 (base32 "1a5q6imw3bcgb6hbz8ns91qlk6qxkzlz071ypd0jkabxs5y04x05"))))
+           (commit "feae91ca4ee6fdc7fd2489fa751dd96bc1f3ddf2")))
+     (sha256 (base32 "08wlbxgy3w8721nzv5gsjfg5hl9vcqjil65n3lwj55iv04jhizcn"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files ("*.el" "modules" (:exclude "*-test-utils.el" "*-devel.el"))))
@@ -93883,14 +93883,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260728.1541")
+   (version "20260730.923")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "6a00c60c716626d638b421179f33077eb77e44f5")))
-     (sha256 (base32 "0jhhr8q6gdgjh587b3apivsa78qmjxc3j6b0gz9wa9fcwn5s52vc"))))
+           (commit "80dd276947aabe3089e0b34cc9e29e3103c45cd4")))
+     (sha256 (base32 "0gj9qjwlrn7jgn3har4i2ng9m54jc0v75kwj4dlxyzi6984iqf7r"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -93960,14 +93960,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260719.420")
+   (version "20260730.306")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "055c1c98c2b7791162b0e8c994051a7d72208dc1")))
-     (sha256 (base32 "0i6p6g0930rspzhvyhr5m03njin66b56v0jjbm2byr15cc2qxx7b"))))
+           (commit "957f61d8b8b57c1f463b56620a274eb77a09bc16")))
+     (sha256 (base32 "1ffwpqg2nwxbcikxixxfxr5rclaly0rr4bzgwnyx1zhnsdrfpph3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
