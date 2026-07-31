@@ -4651,14 +4651,14 @@
 (define-public emacs-auto-dim-other-buffers
   (package
    (name "emacs-auto-dim-other-buffers")
-   (version "20260624.950")
+   (version "20260731.1220")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mina86/auto-dim-other-buffers.el.git")
-           (commit "cf0263073470190b85f6013066856126aac67d19")))
-     (sha256 (base32 "047zvky0m51c31y6ai7g2y2y4zndrx3fv9ymvv1nlk595qc4rg4r"))))
+           (commit "640a32f6ccdd9d93279342882be2389e1d3abd01")))
+     (sha256 (base32 "0cwj97yphh9mnach26m6sg830wf880k3hy17b9dx73r236dlz23n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mina86/auto-dim-other-buffers.el")
    (synopsis "Makes windows without focus less prominent")
@@ -11448,14 +11448,14 @@
 (define-public emacs-claude-code
   (package
    (name "emacs-claude-code")
-   (version "20260526.1329")
+   (version "20260731.1230")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/yuya373/claude-code-emacs.git")
-           (commit "4d460e2fa56e6919a9fc4f9b985592a983f9f724")))
-     (sha256 (base32 "076xb0193bjav8g03l6sjlb4pgwhnkbvri69lj3lcn8mqj2swxcz"))))
+           (commit "77b3edc129f947859e500a363ce767d0555e57e1")))
+     (sha256 (base32 "04jag5vf8ma5z438cihmxyzxhsnawqw5i90h1pawbr7nkkk08nxn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projectile emacs-vterm emacs-markdown-mode))
    (arguments '(#:files (:defaults (:exclude "install-deps.el"))))
@@ -12255,14 +12255,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260730.340")
+   (version "20260731.648")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "6798a93cd4f171b8eb142934c79ac84351ccb5d5")))
-     (sha256 (base32 "0jnmfwb55jk8idpkp578nv5rls6p27y0fba4njf4x19djn0hnlm6"))))
+           (commit "d26c7d330e6aa43094651e2af62dc11015d32882")))
+     (sha256 (base32 "0mncmgvbf2k9yhwvhr3pkjd7w2dsjac4v1lf3an7vgscdiyadacc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -12325,14 +12325,14 @@
 (define-public emacs-cmake-mode
   (package
    (name "emacs-cmake-mode")
-   (version "20260728.1426")
+   (version "20260731.1301")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.kitware.com/cmake/cmake.git")
-           (commit "b5efecc945e1d6b1ca97829e6fa2166c4eb112f3")))
-     (sha256 (base32 "0xvizk2a51mp0i2q685k89f6h15v3a7jfc2fsvamz5paxqcwy61p"))))
+           (commit "8e7b683c67a0174a50dda93247d36ab118c70256")))
+     (sha256 (base32 "18qahdilxsvs6r29gdzcciksbkii8c0d9flk9mlf2grp6j1xxm9r"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("Auxiliary/*.el")))
    (home-page "unspecified")
@@ -15047,14 +15047,14 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260716.1105")
+   (version "20260731.722")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult.git")
-           (commit "8c6787edc690097ccfcf2255fecf623a8ab29c7e")))
-     (sha256 (base32 "0pl4fxggmjjfmad9qwvpsjjihz86j6gcigb1xylml9q9rrnh3yf7"))))
+           (commit "42d55c206907303959d885b2f28bd46bf5468409")))
+     (sha256 (base32 "15wkl22zanazhjzjxq5y2ff0776gwsvcz82p6fxfbgpdf67yvly3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/consult")
@@ -15473,16 +15473,16 @@
 (define-public emacs-consult-notes
   (package
    (name "emacs-consult-notes")
-   (version "20260726.1546")
+   (version "20260731.1506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/mclear-tools/consult-notes.git")
-           (commit "80c0beb618ca2216280b24fd1669683c29cd3d86")))
-     (sha256 (base32 "1cgyf194k74pmc0w4zbqmg9jqlmria4s60kj1djx92vqbjk49dw1"))))
+           (commit "4a9b7e2990fa9c9be0df482c2342d24bf9ddc32a")))
+     (sha256 (base32 "0ir6bvkr0fcclh8srrz5mqr1h52xjb6clb3l1032ihy3yb0pv985"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-consult emacs-s emacs-dash))
+   (propagated-inputs (list emacs-consult))
    (home-page "https://codeberg.org/mclear-tools/consult-notes")
    (synopsis "Manage notes with consult")
    (description "Documentation at https://melpa.org/#/consult-notes")
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260730.1930")
+   (version "20260731.1316")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "17f89b0400b79259b9d5bb79c97dc5e022698d45")))
-     (sha256 (base32 "0xpxw9lk4vlnzyssr3mm7jd3m0x84d3xrs13hyv2z6884lq7fir0"))))
+           (commit "62e8f1cf99ac9b67b62cf205affb0260c8838a10")))
+     (sha256 (base32 "1ikrn0rqi3qphssp11pcnhzfrqs7i0xxdr22a7277kvf82yn3sm4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -35325,14 +35325,14 @@
 (define-public emacs-flycheck-languagetool
   (package
    (name "emacs-flycheck-languagetool")
-   (version "20260327.1302")
+   (version "20260731.1347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-languagetool/flycheck-languagetool.git")
-           (commit "a53b3e509c63e82680843978694a1099ee3591eb")))
-     (sha256 (base32 "1fhpkl6agrcjzz70i62nahpij94apw24675miqh795aqgzgm0w9w"))))
+           (commit "28b376e4337c93149fb2620001afb284d739ce94")))
+     (sha256 (base32 "030i40pxxvc036qqa9blcghr3jzqkg6xyy37a47xd0cyqb1vw7pj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck))
    (home-page "https://github.com/emacs-languagetool/flycheck-languagetool")
@@ -42772,14 +42772,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260728.211")
+   (version "20260731.933")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "513a6b74310d7bcc2a6138ccc1860b4577e73800")))
-     (sha256 (base32 "1p51rgd51mvz30a5gxbbryw4qb8skvb7z29xvndnj8img9v9zyfd"))))
+           (commit "9cafa41e7172a995e4eeadb5049a8c05bf7c30ba")))
+     (sha256 (base32 "0ync5hl1x8s80mf815i440jpfvz6fliikxjwgn6ca9gkanl7hm60"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -61391,14 +61391,14 @@
 (define-public emacs-magik-mode
   (package
    (name "emacs-magik-mode")
-   (version "20260706.1226")
+   (version "20260731.648")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/roadrunner1776/magik.git")
-           (commit "ed8e8dce0e7bb552beda9649790b8ff9a6e1ae3b")))
-     (sha256 (base32 "0pij6wn1m1pvdg16plls6z64jhffq95clwsdkci1gzall0ddm7dj"))))
+           (commit "6b03728ad53e30dd686aa710bba7c4be211ab348")))
+     (sha256 (base32 "13a81d6sbaiswickdg8qmb4l53cwb2cslpc7l7vpf6srfw74cjl8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-yasnippet))
    (arguments '(#:files (:defaults "snippets")))
@@ -61410,14 +61410,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260728.922")
+   (version "20260731.1203")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "b6c8bbcc7deec1f8bb266c1b6765857056d82304")))
-     (sha256 (base32 "06xmp6ksy0g9kp6kx4g03cfaxwlpma3hwcm5v7hdilv191gdr3wk"))))
+           (commit "2520e5e4fdfb08e9c944648c7bff657f9bcf96e1")))
+     (sha256 (base32 "1da2ak15racx4ppsmpfcljc9idgs6vyig0lmgbasxqwxm8fgpkw1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -70015,14 +70015,14 @@
 (define-public emacs-ob-cfengine3
   (package
    (name "emacs-ob-cfengine3")
-   (version "20230226.1954")
+   (version "20260731.418")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nickanderson/ob-cfengine3.git")
-           (commit "52aa32fdfa412860837e795d17d50dac237e56e4")))
-     (sha256 (base32 "1gskkxm3ah8x5flhwzf6x4i7v75fzls20g20bg6r8xranyp7av8v"))))
+           (commit "3d2576546312193456405af5d1acc446a59d71bc")))
+     (sha256 (base32 "1d7f4zr6yvfgx89li370w6chpdryg7mhrnqirhpmcl3afdlzzraq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/nickanderson/ob-cfengine3")
    (synopsis "Org Babel functions for CFEngine 3")
@@ -77443,14 +77443,14 @@
 (define-public emacs-otpp
   (package
    (name "emacs-otpp")
-   (version "20260606.13")
+   (version "20260731.1021")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abougouffa/one-tab-per-project.git")
-           (commit "ef1460cf7cd978554f894325303a46e629ea2633")))
-     (sha256 (base32 "0qg4ysrcgw252flsr5hh0diy7f8wgplnib6r0rfdqswfprnhwlqm"))))
+           (commit "7f3257d8da96a380ca88406e80d60d71e31e5e0e")))
+     (sha256 (base32 "0mpry65sr82izmx59vkkzlk15s5q07814hcb8k8s2lhvdbkpsjqs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/abougouffa/one-tab-per-project")
@@ -97335,14 +97335,14 @@
 (define-public emacs-stillness-mode
   (package
    (name "emacs-stillness-mode")
-   (version "20260730.1451")
+   (version "20260731.1405")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/neeasade/stillness-mode.el.git")
-           (commit "aa875fa971c88ad1f79d3a523f0e71fff5511a16")))
-     (sha256 (base32 "0x948454977mdmidkxf2img3b8pyq09xv35y277hdy65rqd6pmdp"))))
+           (commit "a4dde63e4f6632f5476a236d0647e16a3c8d846b")))
+     (sha256 (base32 "0k51ynjns10laaj20f3pqd7y2zlac5dx4y2vgdynzw2g2wgc8lgb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/neeasade/stillness-mode.el")
@@ -105819,14 +105819,14 @@
 (define-public emacs-vertico
   (package
    (name "emacs-vertico")
-   (version "20260723.1358")
+   (version "20260731.724")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/vertico.git")
-           (commit "de7b4d1422c51f941ca95419c65968d82f7d4eee")))
-     (sha256 (base32 "1k6zdgnqrjvx1g4m24jvri1vyr2riy2n5h8bk9fxp4bk2f8cq8cn"))))
+           (commit "77808caeaa658e95e04b1c6a519be1722e9f1a70")))
+     (sha256 (base32 "0xm17za570cnzd62w6ds364zmgglawylm168fyk5xqvgfa0xfh3n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/vertico-*.el")))
@@ -106738,14 +106738,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260730.1941")
+   (version "20260731.1018")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "c23d01652ce1b67f0acacbe4936c33792f256739")))
-     (sha256 (base32 "1wmcmn8lvj765ji24b6km8fa8cq7ffas30ysiz1r5p8jc32wbxgv"))))
+           (commit "292a8f7d4a859ce417d8b19179b4f20f39d8ba9f")))
+     (sha256 (base32 "1h550z5yk0qc3nz9jd1pnq30k0wgw378m8bdjrf2fff9z278k0qr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
