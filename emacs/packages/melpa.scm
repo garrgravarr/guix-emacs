@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260801.45")
+   (version "20260801.1150")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "4ffd013ed54c79a184d5deee264e8bcfd4082d27")))
-     (sha256 (base32 "0dzvfz4pjl31isx35dnkdfmzg6wl0s7j66pdjiwzvnccrvnbwh0y"))))
+           (commit "ad993f740cc55ac84c08439d265333ba135e3b59")))
+     (sha256 (base32 "11lx4aj8n9m4b1kxd2xm3nr5mw072549yqkrhri300da528lpmjz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260729.1444")
+   (version "20260801.1437")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "8a3d6cb912a075b84bd84a373b983ec524688ef8")))
-     (sha256 (base32 "1smm4kzckz0a4qhcxp8hzmq93571v5xfask4c9xad9kmrnp94sla"))))
+           (commit "948693eb48046120e539ee38a32ebf822aba2fff")))
+     (sha256 (base32 "0kx6fcdq2qg13jccjq79dl42a415ghzsq3pz75yzjg6sxbfj2qiq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -1862,14 +1862,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20260729.755")
+   (version "20260801.1423")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "04c31616481fe55b4362859af01241041b755a6a")))
-     (sha256 (base32 "0hrjpwhqgl5q8bp8snyyiikg53077rzz4sl61jl4b3ly1jbjdvdj"))))
+           (commit "0816a26a4bef4406f7cbd0de02b3c81847acd1e2")))
+     (sha256 (base32 "1rs4lnnzv0ds7j6qn9257xlr1627wgkn1pzam0m9qcx6b25byjbq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -15248,14 +15248,14 @@
 (define-public emacs-consult-gh
   (package
    (name "emacs-consult-gh")
-   (version "20260727.101")
+   (version "20260801.1654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/armindarvish/consult-gh.git")
-           (commit "fca05ab7598717a9aee91a54b7e49d2a175f2e98")))
-     (sha256 (base32 "1cdfva4mf3g5n73yvpsp10p0s0jd0zqdrabdalv612fh2hb5yzci"))))
+           (commit "c8707e86d36ea4ec38e177ca8fa0313a5374a0a9")))
+     (sha256 (base32 "0vmbs5434il02zrsz3fiq7hknkkf5k9a88ianrn5sr4mg2xmh7qm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-consult emacs-markdown-mode emacs-ox-gfm emacs-yaml))
@@ -15268,14 +15268,14 @@
 (define-public emacs-consult-gh-embark
   (package
    (name "emacs-consult-gh-embark")
-   (version "20260623.1820")
+   (version "20260801.1654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/armindarvish/consult-gh.git")
-           (commit "7b0fba0dc81a446c95cd39fa2a6adcd39501df9d")))
-     (sha256 (base32 "18bmk52z2fx23mnbg8c8cv78fp68l958j2zkhk7wxcip7zzjnr7q"))))
+           (commit "c8707e86d36ea4ec38e177ca8fa0313a5374a0a9")))
+     (sha256 (base32 "0vmbs5434il02zrsz3fiq7hknkkf5k9a88ianrn5sr4mg2xmh7qm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-consult emacs-consult-gh emacs-embark-consult emacs-which-key))
@@ -15288,14 +15288,14 @@
 (define-public emacs-consult-gh-forge
   (package
    (name "emacs-consult-gh-forge")
-   (version "20250906.1805")
+   (version "20260801.1654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/armindarvish/consult-gh.git")
-           (commit "2b625a0331c9a92c67fef8ea2e694b28d5006421")))
-     (sha256 (base32 "1p9lcjrzwxgscxpy0x992g8sxy6h3mcin1vffxf6nx28akwz13in"))))
+           (commit "c8707e86d36ea4ec38e177ca8fa0313a5374a0a9")))
+     (sha256 (base32 "0vmbs5434il02zrsz3fiq7hknkkf5k9a88ianrn5sr4mg2xmh7qm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult emacs-forge emacs-consult-gh))
    (arguments '(#:files ("consult-gh-forge.el")))
@@ -15307,14 +15307,14 @@
 (define-public emacs-consult-gh-nerd-icons
   (package
    (name "emacs-consult-gh-nerd-icons")
-   (version "20250915.2241")
+   (version "20260801.1654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/armindarvish/consult-gh.git")
-           (commit "feba9c563f3919401c89dd4008d23ae0896c47ce")))
-     (sha256 (base32 "123nyka78j2851rbyyrhak0jvhzjy833ccqgy7gpc0qa2lbrld1r"))))
+           (commit "c8707e86d36ea4ec38e177ca8fa0313a5374a0a9")))
+     (sha256 (base32 "0vmbs5434il02zrsz3fiq7hknkkf5k9a88ianrn5sr4mg2xmh7qm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-consult-gh))
    (arguments '(#:files ("consult-gh-nerd-icons.el")))
@@ -15326,14 +15326,14 @@
 (define-public emacs-consult-gh-with-pr-review
   (package
    (name "emacs-consult-gh-with-pr-review")
-   (version "20260623.1742")
+   (version "20260801.1654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/armindarvish/consult-gh.git")
-           (commit "7b0fba0dc81a446c95cd39fa2a6adcd39501df9d")))
-     (sha256 (base32 "18bmk52z2fx23mnbg8c8cv78fp68l958j2zkhk7wxcip7zzjnr7q"))))
+           (commit "c8707e86d36ea4ec38e177ca8fa0313a5374a0a9")))
+     (sha256 (base32 "0vmbs5434il02zrsz3fiq7hknkkf5k9a88ianrn5sr4mg2xmh7qm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult emacs-pr-review emacs-consult-gh))
    (arguments '(#:files ("consult-gh-with-pr-review.el")))
@@ -63454,14 +63454,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260731.2359")
+   (version "20260801.1042")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "8cb0381150c29b1535f556065cd6cbadb3891208")))
-     (sha256 (base32 "0sxnajxbk2s7v078kljk8frpp8m1vbnbzgpr4f8q61mfwkzaw08k"))))
+           (commit "bbd6af53ff612a20b03a900ed14fd32ef0db3f4f")))
+     (sha256 (base32 "1dw5nfgsjy5r4f7hb3i4cb54kmr1h3s6g4ppm850p2ha7xzjddm6"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -80622,14 +80622,14 @@
 (define-public emacs-perspective-exwm
   (package
    (name "emacs-perspective-exwm")
-   (version "20231225.2313")
+   (version "20260801.1237")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SqrtMinusOne/perspective-exwm.el.git")
-           (commit "68fb0ca2d482e0f4a92c4ceb19bf2262ea937e95")))
-     (sha256 (base32 "1sq00ifmdf61m3vpj59b2fc14djy1sxqnwk5wjg4zbkvml9hf7d2"))))
+           (commit "db1e196d11a701d0aa528444affc60c2516c0e6e")))
+     (sha256 (base32 "1inxp8xbkizn7qdrj6kp0yg486qwadrw6nalvqd5fnzgfy7sd4i4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-burly emacs-exwm emacs-perspective))
    (home-page "https://github.com/SqrtMinusOne/perspective-exwm.el")
@@ -86148,14 +86148,14 @@
 (define-public emacs-qrencode
   (package
    (name "emacs-qrencode")
-   (version "20260725.1543")
+   (version "20260801.1030")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ruediger/qrencode-el.git")
-           (commit "d96e458305c07ce845f3ebff573416972d1f8834")))
-     (sha256 (base32 "0vnjfx7dmafgvpwcgl34a9djpdra8bk3mj7yz9xyznvdfv3js54d"))))
+           (commit "677939b0566295e1ff227de115edfcfeceb52bab")))
+     (sha256 (base32 "18mxdq6iz2mz1bwh6ljljhg9zzixf83qwjp5m8dlv0cw3csfd9qq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ruediger/qrencode-el")
    (synopsis "QRCode encoder")
@@ -88878,14 +88878,14 @@
 (define-public emacs-reverso
   (package
    (name "emacs-reverso")
-   (version "20250610.1032")
+   (version "20260801.1240")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SqrtMinusOne/reverso.el.git")
-           (commit "40ed3d83c4f04c39e05d69d84595761ae2956a64")))
-     (sha256 (base32 "1agsscrkqnmz8shibfy8df5f34xwixiyfad381k04aibadh742yb"))))
+           (commit "a21f17162b5a391ae1220c6b1133af76ed3573a8")))
+     (sha256 (base32 "0fg44hq4wcn6391fha4cwiy7hr08sr9l6c9cka6whw1p61xd71iq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request))
    (home-page "https://github.com/SqrtMinusOne/reverso.el")
@@ -98317,14 +98317,14 @@
 (define-public emacs-swift-mode
   (package
    (name "emacs-swift-mode")
-   (version "20260801.908")
+   (version "20260801.1244")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/swift-emacs/swift-mode.git")
-           (commit "5ee70779cd6d4f643016d6d0f4d5ed7d33766334")))
-     (sha256 (base32 "0zlli28xn9ndhzxmslcxx7cdmh07g9qm2ngv7aqlvdkfz0mx0f3y"))))
+           (commit "610b2c24433c11c30a39a6799af69b10cd3bec97")))
+     (sha256 (base32 "1qjkka6fx9sw14gzjqmyiny0z1mvcyyzmr74a96vndfbx576i9xp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/swift-emacs/swift-mode")
    (synopsis "Major-mode for Apple's Swift programming language")
@@ -99242,14 +99242,14 @@
 (define-public emacs-tabspaces
   (package
    (name "emacs-tabspaces")
-   (version "20260801.125")
+   (version "20260801.1243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/mclear-tools/tabspaces.git")
-           (commit "358790847e4e0791eb5db6870215fe2415f3300a")))
-     (sha256 (base32 "0ja6dw8s03lz42pmqb1aqglsq7m425vila48n093nkjmfq9yjfl2"))))
+           (commit "03ffcc781f7e075d3cfc04a31641c3676ad173d4")))
+     (sha256 (base32 "13cx341wyxdr48r33x5mnqzgdh9qya5vmsgpaxiwrrzr24l3dy84"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/mclear-tools/tabspaces")
    (synopsis "Leverage tab-bar and project for buffer-isolated workspaces")
