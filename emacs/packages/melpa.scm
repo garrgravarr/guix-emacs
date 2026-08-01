@@ -9357,14 +9357,14 @@
 (define-public emacs-cape
   (package
    (name "emacs-cape")
-   (version "20260725.2124")
+   (version "20260801.751")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/cape.git")
-           (commit "d3dd033dd261b31cf6f87df35cd83c8a6e31573b")))
-     (sha256 (base32 "0sf24cbcwjblv2w86sd377i9dpgpbfkcc3fkyxxs3d5675c9i7xw"))))
+           (commit "5a3aa3058eb47bd10ae72c8919921e3fb40952a5")))
+     (sha256 (base32 "0sv9n9zb2pzm5kqcmpl9imn06xacczdcxjj2ndpfm7wgv89ypgrf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/cape")
@@ -15999,14 +15999,14 @@
 (define-public emacs-corfu
   (package
    (name "emacs-corfu")
-   (version "20260725.1734")
+   (version "20260801.753")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/corfu.git")
-           (commit "86aacc85b11be1fbeb43b33128347b4c220070ca")))
-     (sha256 (base32 "1gbm1h69aisvn8qk43waqxs70wabjrz4r0p2pq21gpmyfj7qaprd"))))
+           (commit "f6306d8c5ba540e75c208c8069b3b677de48a183")))
+     (sha256 (base32 "01dm0y45rx96ya33scv8ww9qcp4chx87cfjs03jldkpj7gylchjv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/corfu-*.el")))
@@ -25711,14 +25711,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260731.2115")
+   (version "20260801.754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "df5cca56d4f5b1d9e11a207d102724ddb0940598")))
-     (sha256 (base32 "0a8qagikds3kp6rh0549sl64cn10767lsdvqz4qbkbafsfgjvh80"))))
+           (commit "fdf477f99fe1e152f7fbcb098fae1de00fa09efb")))
+     (sha256 (base32 "0kbxpfg7v6aqakqn810czrk0hq12f004achy5iyghc6bx939gk11"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -39910,14 +39910,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260731.2210")
+   (version "20260731.2326")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "ebd6466f46e15a28acfc1cdc28ae187090ced830")))
-     (sha256 (base32 "1gga3x5g7zzzwq7bfcdi9fbhmq408l49hlz7xxjrgnjjjgwbx9gj"))))
+           (commit "9af3ba8e2ef8b1512c8a103d84ebe71a53e95fd6")))
+     (sha256 (base32 "05biiibpsjd290d81l26l95hh8h35j51xavhbvwqf6ybihj0g2pq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -54142,14 +54142,14 @@
 (define-public emacs-jinx
   (package
    (name "emacs-jinx")
-   (version "20260729.1638")
+   (version "20260801.751")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/jinx.git")
-           (commit "ab922067c58ef88ae69d1c288c35202c5fef2c55")))
-     (sha256 (base32 "1r9schb8y4mc4kf2fn2w4w19xzl5qsw6dzqa2a3fc04q866vbk1r"))))
+           (commit "270866399c959a583caec0115d7dbc069f01ff29")))
+     (sha256 (base32 "0f9v2ad198m3hpl0b511asy48zrg4id4i0sv7gmi28qd2sszf99z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "jinx-mod.c" "emacs-module.h")))
@@ -77230,14 +77230,14 @@
 (define-public emacs-osm
   (package
    (name "emacs-osm")
-   (version "20260723.1358")
+   (version "20260801.757")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/osm.git")
-           (commit "2041694815e9b143e7703513efd2a620e7d55080")))
-     (sha256 (base32 "0kqk6x4xg0yihz14r3fjj9yladmm44i89aj10dg9vbsidap0935l"))))
+           (commit "117a00204afd95c9ac2ef1016e31c67d5cd01268")))
+     (sha256 (base32 "1cypxjmkxkz414mf74fdmg23j575hwygch44xxhjn86fcii6grlf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/osm")
@@ -98317,14 +98317,14 @@
 (define-public emacs-swift-mode
   (package
    (name "emacs-swift-mode")
-   (version "20260726.751")
+   (version "20260801.908")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/swift-emacs/swift-mode.git")
-           (commit "875fa67d36b196703e1106c35f29095f06b8371e")))
-     (sha256 (base32 "0rc2s4lrrj12qi1faaqcw49cz6ql3gv822l1byjkka71kpz6vfwh"))))
+           (commit "5ee70779cd6d4f643016d6d0f4d5ed7d33766334")))
+     (sha256 (base32 "0zlli28xn9ndhzxmslcxx7cdmh07g9qm2ngv7aqlvdkfz0mx0f3y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/swift-emacs/swift-mode")
    (synopsis "Major-mode for Apple's Swift programming language")
@@ -106738,14 +106738,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260731.1018")
+   (version "20260801.552")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "292a8f7d4a859ce417d8b19179b4f20f39d8ba9f")))
-     (sha256 (base32 "1h550z5yk0qc3nz9jd1pnq30k0wgw378m8bdjrf2fff9z278k0qr"))))
+           (commit "111942d27d9d71758f31e84842af7bfab6de3d1d")))
+     (sha256 (base32 "1m9vj099f5qkl3l6yrwd7ffybr5yzrvmc4hd6mqwhc3xc191f9w9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -110270,12 +110270,12 @@
 (define-public emacs-yatex
   (package
    (name "emacs-yatex")
-   (version "20250224.1034")
+   (version "20260801.451")
    (source
     (origin
      (method url-fetch)
      (uri (string-append "https://melpa.org/packages/yatex-" version ".tar"))
-     (sha256 (base32 "1qaapc2zb00xkwki9gnvd6nr6ng3sz73p1zdca5v1kv7ijrxd88q"))))
+     (sha256 (base32 "0skkzgngsfwi3znxcyh8rnb2a029nz1c801652gqzx2bwklypylh"))))
    (build-system melpa-build-system)
    (home-page "unspecified")
    (synopsis "Yet Another tex-mode for emacs //野鳥//")
