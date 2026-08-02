@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260801.1150")
+   (version "20260801.2207")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "ad993f740cc55ac84c08439d265333ba135e3b59")))
-     (sha256 (base32 "11lx4aj8n9m4b1kxd2xm3nr5mw072549yqkrhri300da528lpmjz"))))
+           (commit "86e306298a000f3af38aa0c7dc691b1179e4d9de")))
+     (sha256 (base32 "1p9anqcw2mgb8y389pz82xnf3swi5s7m2fdzwnj37a42j53f711h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -30519,14 +30519,14 @@
 (define-public emacs-evil-keypad
   (package
    (name "emacs-evil-keypad")
-   (version "20250731.552")
+   (version "20260802.18")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/achyudh/evil-keypad.git")
-           (commit "f384b88180154f86bf70adf5f018faed6c68a509")))
-     (sha256 (base32 "1n8bi6va7p56090z7r9444in72gqjgc65pnc5hg1qi361p6w76rc"))))
+           (commit "0a9f3873d67ba7b9ab4281bcb6d000ec9a1dbd04")))
+     (sha256 (base32 "0nxfrvdzinkhpdhq7m8nnhmm8q6igd3i5h92pmk6nh1l9yxnmx3p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (home-page "https://github.com/achyudh/evil-keypad")
@@ -39910,14 +39910,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260731.2326")
+   (version "20260801.1501")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "9af3ba8e2ef8b1512c8a103d84ebe71a53e95fd6")))
-     (sha256 (base32 "05biiibpsjd290d81l26l95hh8h35j51xavhbvwqf6ybihj0g2pq"))))
+           (commit "f3da49c5a10479bb490c0ddb320a1f87680c765d")))
+     (sha256 (base32 "0fkj2lzymsslmqra14pvagfigwg3dk0grjzx7wxj4bh9z8rdi63i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -72954,14 +72954,14 @@
 (define-public emacs-org-change
   (package
    (name "emacs-org-change")
-   (version "20260724.2118")
+   (version "20260802.131")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/org-change.git")
-           (commit "660b9fa5504a1af77231becb4d9b44be6b0682cf")))
-     (sha256 (base32 "1skawwkjwjzha02rjxwzy5fq0zd9ba0la93x1qyj1v36kh8988pp"))))
+           (commit "625dfedf2f01349daebb7021d738fa308a49704c")))
+     (sha256 (base32 "1za7288byqv2ims9c08c3mdkddsv010k4iq15zn91l764p3wlqj8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/org-change")
    (synopsis "Annotate changes in text files")
@@ -73846,14 +73846,14 @@
 (define-public emacs-org-history
   (package
    (name "emacs-org-history")
-   (version "20260720.250")
+   (version "20260801.1934")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-history.git")
-           (commit "8a24e4c85c3cce0c91e6aaf37748abccd0cea3ba")))
-     (sha256 (base32 "0qk21l399d6whcb8q9qrgyzffkzf3mbv7y4ljm4isy5hng3qffmj"))))
+           (commit "5f4e29893ecfb511efdaed160ec2b713eeaae9f8")))
+     (sha256 (base32 "0wxyb764giy8jgwbn6ihv4r8wpqbh5y932wjjdliplx016bdasy7"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-org-history")
    (synopsis "Show Dates for Org headers from vcs + auto-commit")
@@ -86114,14 +86114,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260620.531")
+   (version "20260801.2143")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "ca73cb94f8391ebfb2a60537f8c51b244cbad9d9")))
-     (sha256 (base32 "06n6vf0xx61vzpmxdn1s7psanilmg30n1v8ach1za3996wmdx214"))))
+           (commit "160313fb252a98c9109720dfdf528ee408591fc3")))
+     (sha256 (base32 "1ixqgd3hkr8wf5rb0b485zam61bjzn5d3mll16pp9cnjnym9y9cr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -90416,14 +90416,14 @@
 (define-public emacs-s
   (package
    (name "emacs-s")
-   (version "20220902.1511")
+   (version "20260522.135")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magnars/s.el.git")
-           (commit "dda84d38fffdaf0c9b12837b504b402af910d01d")))
-     (sha256 (base32 "0n9vhjfvv6382y5ldhjd6xd8nv4gar6aphd3154244ph4d5pzcbx"))))
+           (commit "d7c04b84d03481a1ed62ee13dbe595224ccbe57c")))
+     (sha256 (base32 "1831pxlbxqchd53zxl8m8crhq4l9nyb45ly6l3f8pl9d3lbgb90b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/magnars/s.el")
    (synopsis "The long lost Emacs string manipulation library")
@@ -92672,14 +92672,14 @@
 (define-public emacs-shexc-ts-mode
   (package
    (name "emacs-shexc-ts-mode")
-   (version "20260726.1116")
+   (version "20260801.2313")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ericprud/shexc-mode-for-emacs.git")
-           (commit "815011eb9abf9a42d6bb681d41d21640530a6c70")))
-     (sha256 (base32 "1ma2gqbjvy59f6j6yg8nh0sqhfn0swi096p7k7fvi1nd2ff5siqx"))))
+           (commit "626b85466d7885855288e0763c7783721052f2f1")))
+     (sha256 (base32 "164c7izhfqdpg74p936wawh39qld0bq94my86xcbba1pzps4r7xd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults (:exclude "shexc-mode.el"))))
@@ -99242,14 +99242,14 @@
 (define-public emacs-tabspaces
   (package
    (name "emacs-tabspaces")
-   (version "20260801.1243")
+   (version "20260801.1711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/mclear-tools/tabspaces.git")
-           (commit "03ffcc781f7e075d3cfc04a31641c3676ad173d4")))
-     (sha256 (base32 "13cx341wyxdr48r33x5mnqzgdh9qya5vmsgpaxiwrrzr24l3dy84"))))
+           (commit "09e65cbf7ad7ec2d62a1919d9082e216f0c6082d")))
+     (sha256 (base32 "1kb99ny96hbg2khv2inarga0mznyjfgdi6f2jiwsnv6gz5vg0isl"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/mclear-tools/tabspaces")
    (synopsis "Leverage tab-bar and project for buffer-isolated workspaces")
