@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260801.2207")
+   (version "20260802.800")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "86e306298a000f3af38aa0c7dc691b1179e4d9de")))
-     (sha256 (base32 "1p9anqcw2mgb8y389pz82xnf3swi5s7m2fdzwnj37a42j53f711h"))))
+           (commit "58d410e84de70a91d13fcd7c9389833c9206e8b0")))
+     (sha256 (base32 "1rfcyhnj6x61xcxf77wirs2hqvr64119r6hzrbikzis90nn334d0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -5772,14 +5772,14 @@
 (define-public emacs-base16-theme
   (package
    (name "emacs-base16-theme")
-   (version "20260726.239")
+   (version "20260802.238")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tinted-theming/base16-emacs.git")
-           (commit "c9dd7fe377b49d4079c72fb698013f642e2bf989")))
-     (sha256 (base32 "13pdsfgf6lnliyq4ciqdzcmzdz5vpbzizrss0vmr8233hs9is3id"))))
+           (commit "53a8b553b364964ffb97c5f84de34f01e4d5b2eb")))
+     (sha256 (base32 "1pl3rkihqw4yrj6swa5jxv2sy1y2zidqg8f897nsmz2zw0vz6gvk"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "build/*.el")))
    (home-page "https://github.com/tinted-theming/base16-emacs")
@@ -10110,14 +10110,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260705.807")
+   (version "20260802.806")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "407094bd072103d43fddb3e186077d65f4f62f26")))
-     (sha256 (base32 "0igcfj6c89mbvw5wpfhqihfwjxi851k89dagj3mfchdwrbfn7xvs"))))
+           (commit "46776788b43391ae6a2d6223360d1f144d2bcd69")))
+     (sha256 (base32 "0l83pf26an1zvry1dgs9h02ggk1yq3fs1knif5g9pn6fkqsxnv8z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -11431,14 +11431,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260730.2133")
+   (version "20260802.848")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "5cc795be12f4e46b6cc2f2053986597f620254c6")))
-     (sha256 (base32 "1p9nai3lzns4d19pnwvmhh5dz635yiak225a02m04nm3pxx47dgm"))))
+           (commit "1c4f76a6645df5636070ce0d481648dd31d7409c")))
+     (sha256 (base32 "0wr5kw66a4dlgr0zlrpikc1rril0dki2wy4vgagcwvyycknr4r38"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260731.1316")
+   (version "20260802.923")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "62e8f1cf99ac9b67b62cf205affb0260c8838a10")))
-     (sha256 (base32 "1ikrn0rqi3qphssp11pcnhzfrqs7i0xxdr22a7277kvf82yn3sm4"))))
+           (commit "e840457417bddb737d5527adfb4bb8e70121903a")))
+     (sha256 (base32 "0x7a647dv4rc7piy7hr3rxdcrx7kjacn0q5c5p5nnzz0kyrd27r5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -51032,14 +51032,14 @@
 (define-public emacs-immaterial-theme
   (package
    (name "emacs-immaterial-theme")
-   (version "20260315.922")
+   (version "20260802.918")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/petergardfjall/emacs-immaterial-theme.git")
-           (commit "0c8c8f44a76c6171723f7f4111d990b237349a13")))
-     (sha256 (base32 "011xcz59zbk2bqih33fmlws18izr5hvh3ik2jvckvc4agyrj4dvc"))))
+           (commit "1dcbade9c4b4dd1bb3c112f0f82c7bf9264036b2")))
+     (sha256 (base32 "12jm09ymhkjygmlr7v0w1v0372rbgybcfh31als3kknkna1m0h09"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/petergardfjall/emacs-immaterial-theme")
    (synopsis "A family of themes loosely based on material colors")
@@ -56473,14 +56473,14 @@
 (define-public emacs-kill-or-bury-alive
   (package
    (name "emacs-kill-or-bury-alive")
-   (version "20230606.1503")
+   (version "20260802.939")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrkkrp/kill-or-bury-alive.git")
-           (commit "1ebb4fd9944136c6a1fcfa1fce3e04dbb818d4c5")))
-     (sha256 (base32 "0r19jmkl5q4rakh829ybagvbx3n1zvjb19rzlnp72jwnzjq4yim9"))))
+           (commit "0d69edb0148246b239d2c720ed8077cb4e797033")))
+     (sha256 (base32 "1xsixhvh6chwsg54bacsvniqhj64bznsx84xc4bv2k3xdysiq90l"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrkkrp/kill-or-bury-alive")
    (synopsis "Precise control over buffer killing")
@@ -63454,14 +63454,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260801.1042")
+   (version "20260802.843")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "bbd6af53ff612a20b03a900ed14fd32ef0db3f4f")))
-     (sha256 (base32 "1dw5nfgsjy5r4f7hb3i4cb54kmr1h3s6g4ppm850p2ha7xzjddm6"))))
+           (commit "e5a27b12b6676eb552d009174fc112e7ec9f15b1")))
+     (sha256 (base32 "0vkp0n5f0mkxna3yh900rzhvr7zg9si1sz7vycz2v9hyn1vpygwa"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -64703,14 +64703,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260731.2202")
+   (version "20260802.826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "d83e647b0a4e35b79dec4d879e280dc17bb809c8")))
-     (sha256 (base32 "0vdk4c0zh3957gsq7630wir0xn92rbn32bvcg7fy0wqkqddfjsys"))))
+           (commit "eb1cae8f8ce8d640a558bdf1a663d195b357b8f4")))
+     (sha256 (base32 "1zw7vpvybz8k227wvxv2xk4ywm9avsbhay6xz5jn7pdg1pan01n2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -65087,14 +65087,14 @@
 (define-public emacs-modalka
   (package
    (name "emacs-modalka")
-   (version "20260321.729")
+   (version "20260802.936")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrkkrp/modalka.git")
-           (commit "2de5bedc764e318b44dda5e9b70a234432245011")))
-     (sha256 (base32 "00n2a4k652g8grs8iliq807z5skf1rdlbk5aahfilw9lj98c3y2z"))))
+           (commit "85d0901645982238341ba94b7c14439825dd95b5")))
+     (sha256 (base32 "0g1s2k22jzfb1namjpnz9ijbbi5rbdx5s0n09j5jr2flw8jixwvi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrkkrp/modalka")
    (synopsis "Modal editing your way")
@@ -69651,14 +69651,14 @@
 (define-public emacs-nushell-mode
   (package
    (name "emacs-nushell-mode")
-   (version "20231204.1233")
+   (version "20260802.937")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrkkrp/nushell-mode.git")
-           (commit "3499f64e4f750da62c20f513ff1fbdf87bb1eea9")))
-     (sha256 (base32 "0wd6h583hyzxwy9jrw4las3lh8aq3aalczk9q0wwrr86l0i9j27z"))))
+           (commit "79f7fd4b2920e3947e85ba34f4b6538c85388187")))
+     (sha256 (base32 "0dnkiaqirv2cixdsbpbz3shdk0w0538qg5353zzcl62cyqq34h8z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrkkrp/nushell-mode")
    (synopsis "Major mode for Nushell scripts")
@@ -72954,14 +72954,14 @@
 (define-public emacs-org-change
   (package
    (name "emacs-org-change")
-   (version "20260802.131")
+   (version "20260802.302")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/org-change.git")
-           (commit "625dfedf2f01349daebb7021d738fa308a49704c")))
-     (sha256 (base32 "1za7288byqv2ims9c08c3mdkddsv010k4iq15zn91l764p3wlqj8"))))
+           (commit "d5dbee013afc2c29facf1581a542a48f9f39e49f")))
+     (sha256 (base32 "06asmbmhd1caj21mrl7f1f9dddl9sx40whqxyq2x3zz43ii92jyf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/org-change")
    (synopsis "Annotate changes in text files")
@@ -76073,14 +76073,15 @@
 (define-public emacs-org-tag-beautify
   (package
    (name "emacs-org-tag-beautify")
-   (version "20260606.516")
+   (version "20260802.617")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://repo.or.cz/org-tag-beautify.git")
-           (commit "af491d225771af377d65961e8a5f251b82a0a09a")))
-     (sha256 (base32 "1q2bw2s0hs75babxs0wj7hylx0f98gnfv269bifymz6k7y2smwwx"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/org-tag-beautify-"
+           version
+           ".tar"))
+     (sha256 (base32 "0bw4ql3f5yni3acwanv86av0z76wbqbhawqldswdhg5s14lj9vyc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons))
    (home-page "https://repo.or.cz/org-tag-beautify.git")
@@ -80622,14 +80623,14 @@
 (define-public emacs-perspective-exwm
   (package
    (name "emacs-perspective-exwm")
-   (version "20260801.1237")
+   (version "20260802.944")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SqrtMinusOne/perspective-exwm.el.git")
-           (commit "db1e196d11a701d0aa528444affc60c2516c0e6e")))
-     (sha256 (base32 "1inxp8xbkizn7qdrj6kp0yg486qwadrw6nalvqd5fnzgfy7sd4i4"))))
+           (commit "c0357efbde56ab3aac456f122138e639cb2b8aac")))
+     (sha256 (base32 "1fzjkjjsvmacirqmbd5g1glx4sac5dqgbiv35iqz428b1y7j6qmy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-burly emacs-exwm emacs-perspective))
    (home-page "https://github.com/SqrtMinusOne/perspective-exwm.el")
@@ -103572,14 +103573,14 @@
 (define-public emacs-typespec-ts-mode
   (package
    (name "emacs-typespec-ts-mode")
-   (version "20251227.2213")
+   (version "20260802.453")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pradyuman/typespec-ts-mode.git")
-           (commit "fcd43e13568c61772dbb344c6391c2933bd0a72e")))
-     (sha256 (base32 "1xqssx6lvds261ym68pq6aq11njbr4qxajn0snblzidh53mvlk3i"))))
+           (commit "2da8117b717f290a585a136bf03a6f0a23a4bb82")))
+     (sha256 (base32 "00faqh2dsmavx98gs8w6iwndphvjyd3gaciclpb7af9x433dqfw8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/pradyuman/typespec-ts-mode")
    (synopsis "Major mode for TypeSpec (using tree-sitter)")
