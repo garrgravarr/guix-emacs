@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260802.1944")
+   (version "20260803.716")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "2d3d1ae0e78f2366cc22019e977b5c56b7b548c6")))
-     (sha256 (base32 "1zlbfspbw8wbx3wgjmardjgpkgnj03m3yqbhvak93gqbnv9xccxs"))))
+           (commit "d69ba850675586ddc4882d8cadb591335573c799")))
+     (sha256 (base32 "0ss8vb0m03raanvy51hq2nssbk8scbybd88zqqadas9px6q6rjav"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -6286,14 +6286,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260725.1606")
+   (version "20260803.928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "6c6106e115c5497f710e37c1d93df75ce483a944")))
-     (sha256 (base32 "1qg26h8i4m0m4ixl913bvk8vyfydmmkvv6m9gmkb05swlf1mfxqy"))))
+           (commit "d98b5be60d52d00a4808c25762cd0b51b516bb59")))
+     (sha256 (base32 "17pcdzdlsah3103y2q3hikv28hcvb0jny5zg5lv364dx1ilva8bq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -22000,14 +22000,14 @@
 (define-public emacs-docker
   (package
    (name "emacs-docker")
-   (version "20260709.1426")
+   (version "20260803.930")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Silex/docker.el.git")
-           (commit "f32940100035438934d626adb99cfc63036de490")))
-     (sha256 (base32 "07wsf9p7dy7qws7jdksra3xh6lwlkh0dxmjskmbzd6wz86c2vx1i"))))
+           (commit "8a51aee19a7931bc16aa63cf076b109cdd6a1c62")))
+     (sha256 (base32 "07rvl9pi7g7srsbw8ki1cnvmiazmyklw0brjivf8kwf2hy3pb3av"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-aio emacs-dash emacs-s emacs-tablist))
    (home-page "https://github.com/Silex/docker.el")
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260802.1442")
+   (version "20260803.841")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "a45491a6ef01c0b6ed87d3962be68542925d97b3")))
-     (sha256 (base32 "1izanv4m0ljvacjp1bsjg66xp80by9i1as43splks3vmk8f9ynf4"))))
+           (commit "8a392a9d3ee501c60bc2e086473d4910c587a88e")))
+     (sha256 (base32 "0zzy7pfz5g8qzskifspdr8p34p1aqp54sxkig394ckbj99fpi09v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -66824,14 +66824,14 @@
 (define-public emacs-musicbrainz-interactive
   (package
    (name "emacs-musicbrainz-interactive")
-   (version "20260721.357")
+   (version "20260803.342")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zzkt/metabrainz.git")
-           (commit "b1741fca8bfcfb766391e8f921267a8c396fae47")))
-     (sha256 (base32 "13fvzdssp2bhy1afnrh6lm5g5kxx4pjhvq3k76dysrcrvmbkwp8n"))))
+           (commit "47f290b3901e30e1ae93c0f7d8b4598defe285bf")))
+     (sha256 (base32 "0fprbl3l0rkks3w3dlp3xk51pxx9ygmnj8n34jf8xji34znhb1fz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-musicbrainz))
    (arguments '(#:files ("musicbrainz-interactive.el")))
@@ -67866,14 +67866,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20260710.1627")
+   (version "20260803.325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "674909974637ff0ec2b5ebf43f9a8aefa35d93e9")))
-     (sha256 (base32 "14rd0nj7v29mq78gvmsqys650fz1q44hqk6ymhlr380wjhsx8jpx"))))
+           (commit "f12d1e4619aa5ed7d1c1ddf837d4335015bdfd4d")))
+     (sha256 (base32 "1czrlgqlq4qxyckzpaadn23p7zl009ff8s9gmjdaqxf8vn44w401"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -93771,14 +93771,14 @@
 (define-public emacs-sis
   (package
    (name "emacs-sis")
-   (version "20260711.608")
+   (version "20260803.523")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laishulu/emacs-smart-input-source.git")
-           (commit "7ca3e115f159f22ddb4bcea85a22246ee03c422c")))
-     (sha256 (base32 "1s8sy3vv55hh63rrpprd24p934lmvll2m5wspwfi2pibvx9jajkv"))))
+           (commit "a2c9010d3c1cc282ce364dcafcd9b6c4ac45a643")))
+     (sha256 (base32 "0hhvvm1vrw6bq6c4ix6bani02lm4pdkixw0nyslajva3di9krfr7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/laishulu/emacs-smart-input-source")
    (synopsis "Minimize manual input source (input method) switching")
@@ -106826,14 +106826,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260802.2121")
+   (version "20260803.600")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "3246e673deea8590b4e65c1e3b388c81b6e1bd56")))
-     (sha256 (base32 "1ff16hyq97054h4mwnwmvplrbxpz6vkkcvbcxgbpmpbrjkjvawqc"))))
+           (commit "cff736f210d3dff6c3c4b3b170ed340d3d0f5318")))
+     (sha256 (base32 "0fk8qvmd76law1mj1yi4ydcmh6c58dfwdpk1sibgwz7p4z3myqpw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
