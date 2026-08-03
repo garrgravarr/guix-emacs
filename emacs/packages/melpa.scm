@@ -6544,14 +6544,14 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20260729.722")
+   (version "20260803.1300")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kristjoc/bible-gateway.git")
-           (commit "793183b1768da6896c14943c00dde7fb1bb1d7ae")))
-     (sha256 (base32 "02z4phw2ig3zs75x5yyj6a95ljnvvysmv8xbi3msz1sd1xhgmr6j"))))
+           (commit "7c17a93324351024ad36ebb522b8b566d6b7a920")))
+     (sha256 (base32 "0fw10mxj8vh2ridzql95p5bq3q5zx3cnlv4vk7bdxgiizy8w3fwc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kristjoc/bible-gateway")
    (synopsis "A Simple BibleGateway Client")
@@ -23054,14 +23054,14 @@
 (define-public emacs-dune
   (package
    (name "emacs-dune")
-   (version "20260721.729")
+   (version "20260803.1048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml/dune.git")
-           (commit "83cd7b5dae9b48a14317ca6e2d46acda12ef36d4")))
-     (sha256 (base32 "12m6x51ajn58l8fm4rszw299zm2lq3sxnxvvqrbi8rwjmkgqx6dj"))))
+           (commit "8db6fe925e600051372e2e4e0ebd7987a8cbd451")))
+     (sha256 (base32 "1c9b5w7p9mpb5426wcdzzkx4fgvlyamh1gi2qdqb0mv97hqxpwas"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editor-integration/emacs/*.el")))
    (home-page "https://github.com/ocaml/dune")
@@ -23908,14 +23908,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260729.2331")
+   (version "20260803.1303")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "0d11063a9ba2d78961b9c7f1862ba82dc724d234")))
-     (sha256 (base32 "0fjvwakl4zkl2yqi5m08dc4gxy93i870hr7lrzdaq7s8bwbiwxxx"))))
+           (commit "dca540f621ead503ab160690f6ef77fd56312f52")))
+     (sha256 (base32 "1ji0m928yzshg148vwg48b9c41ffzclmb2lmd2fciaj54zbwq2gs"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -30374,14 +30374,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260802.1114")
+   (version "20260803.1214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "ccc371ba61213412954e785f5b472d84dbbf0d51")))
-     (sha256 (base32 "0mpkjshh2mk5kz1bpq8bszib5n153cvmwv0wc74a3xp58cy6jwld"))))
+           (commit "37a82caa25c41fa4fda768ddb727b1cbe117ceba")))
+     (sha256 (base32 "1wkp0j55ybq5m2s5c7yb1lsw4yi37fkl5kwk61cmfz0w05d2qb98"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -32371,14 +32371,14 @@
 (define-public emacs-faff-theme
   (package
    (name "emacs-faff-theme")
-   (version "20260730.1513")
+   (version "20260803.1446")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
-           (commit "49cf5b6a8c46f6b315818ae06df160c3caefb213")))
-     (sha256 (base32 "0q0b3r16c4z9b2zkya69f1yi6pap18v6vwz2jnnmrkfrq25zpw02"))))
+           (commit "374759dc41af124480d1ea383d8118f9010f58d2")))
+     (sha256 (base32 "1q17pvr0rr2zfcljjgy6jbk3j50fi1l8ky69qrbbrfjf517r15ll"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/WJCFerguson/emacs-faff-theme")
    (synopsis "Light cornsilk theme with warm, earthy colors")
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260803.841")
+   (version "20260803.1346")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "8a392a9d3ee501c60bc2e086473d4910c587a88e")))
-     (sha256 (base32 "0zzy7pfz5g8qzskifspdr8p34p1aqp54sxkig394ckbj99fpi09v"))))
+           (commit "51a4cdde3db1680eb760393a1438fcc440aa5200")))
+     (sha256 (base32 "088z8q50pvk30d78in9fwv8qdpv3hb5df9kmj79d8pr3qm31lybl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -39910,14 +39910,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260802.1114")
+   (version "20260803.1326")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "ccc371ba61213412954e785f5b472d84dbbf0d51")))
-     (sha256 (base32 "0mpkjshh2mk5kz1bpq8bszib5n153cvmwv0wc74a3xp58cy6jwld"))))
+           (commit "37a82caa25c41fa4fda768ddb727b1cbe117ceba")))
+     (sha256 (base32 "1wkp0j55ybq5m2s5c7yb1lsw4yi37fkl5kwk61cmfz0w05d2qb98"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -63454,14 +63454,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260802.1119")
+   (version "20260803.1209")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "9e3507a130c83dfd3b6c6b7f639161625c869c8d")))
-     (sha256 (base32 "1mkb2da4jqkpfbxwh777g71nn06byjwpm2nzwrkgq2ir740ah0k6"))))
+           (commit "4190f3e74a41346983b396c57d7d0f173012ea4e")))
+     (sha256 (base32 "1cb2g0jymc3a2lkxhdhhwrczpnf98rrj0d2zdfy3mmri71w0mn1l"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -69686,14 +69686,14 @@
 (define-public emacs-nushell-mode
   (package
    (name "emacs-nushell-mode")
-   (version "20260802.937")
+   (version "20260803.917")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrkkrp/nushell-mode.git")
-           (commit "79f7fd4b2920e3947e85ba34f4b6538c85388187")))
-     (sha256 (base32 "0dnkiaqirv2cixdsbpbz3shdk0w0538qg5353zzcl62cyqq34h8z"))))
+           (commit "1fbc56d406c4ec9ad699e19735203a1478c31e49")))
+     (sha256 (base32 "1f75z29yihay9r4nvbbqhy15q1d57wm7n0m68cc5fkn9jda5j0jh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrkkrp/nushell-mode")
    (synopsis "Major mode for Nushell scripts")
@@ -73007,14 +73007,14 @@
 (define-public emacs-org-change
   (package
    (name "emacs-org-change")
-   (version "20260802.302")
+   (version "20260803.1456")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/org-change.git")
-           (commit "d5dbee013afc2c29facf1581a542a48f9f39e49f")))
-     (sha256 (base32 "06asmbmhd1caj21mrl7f1f9dddl9sx40whqxyq2x3zz43ii92jyf"))))
+           (commit "86c55896bbc99b3fd54fd11dc89205ffa9a349e4")))
+     (sha256 (base32 "1n4mwzc6gx358ahai7fmc0szqv8hkwkicqz7lhvzgdmkbb74fggs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/org-change")
    (synopsis "Annotate changes in text files")
@@ -100846,14 +100846,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260726.1633")
+   (version "20260803.944")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "c51850dda9a58ff8b07380ff2a1b89de79cfa674")))
-     (sha256 (base32 "1d6v0y3zzkm3vdn7p8nb2bdz6zfr7dkqcb636wxz765d666pphj8"))))
+           (commit "859043109479dcf466588f219a1b0d0e369a8b5f")))
+     (sha256 (base32 "1p6k3r9ggdnnkq349nn9g7d0hpckrp413q855aav465r5db33s46"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -106826,14 +106826,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260803.600")
+   (version "20260803.1557")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "cff736f210d3dff6c3c4b3b170ed340d3d0f5318")))
-     (sha256 (base32 "0fk8qvmd76law1mj1yi4ydcmh6c58dfwdpk1sibgwz7p4z3myqpw"))))
+           (commit "40c0bc69aa078f3fac407ca023e95e41fdbbecda")))
+     (sha256 (base32 "0202pzgj7c3x9hwqlvd4kk5xyjhvg0j9c6v2wqq59fjvvb9nqsan"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
