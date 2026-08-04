@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260804.607")
+   (version "20260804.1116")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "e8f374c023356ca57222e56ed777d152ccfa5173")))
-     (sha256 (base32 "09xxc9ii9ia3gph1n91855kb69rd9l0a62x9s1ygqrqnzjyw91fb"))))
+           (commit "8396bd00ece59c0a56a41eec9ed0c6eeaf4ef312")))
+     (sha256 (base32 "0b397qardp4yxxz0i0417skbc23q2dqmfb1n14w5m7g6ii2kk5n5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260801.1437")
+   (version "20260804.1641")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "948693eb48046120e539ee38a32ebf822aba2fff")))
-     (sha256 (base32 "0kx6fcdq2qg13jccjq79dl42a415ghzsq3pz75yzjg6sxbfj2qiq"))))
+           (commit "1ff20801cdc1e14de16567c9e0ac5f08545bef98")))
+     (sha256 (base32 "0wjzrd97mihkhl0jl1bxkxrv8d26xazkc69472974psi36ph6jla"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -11431,14 +11431,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260802.1233")
+   (version "20260804.1315")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "f701e192a9ba1f1ec5d98388fff44cf22fc77dc1")))
-     (sha256 (base32 "0japdwkra6wswbickvjd5lq5kcyd6qw4pjls8shd6b5pdx5j64l2"))))
+           (commit "7f38461fe14a2143093bebb1c13f75442bc0c4d2")))
+     (sha256 (base32 "071pw5qg2rn9xzkx7zaipacj9bya9q3x51zfi257b7jijpy19af3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -26568,14 +26568,14 @@
 (define-public emacs-elot
   (package
    (name "emacs-elot")
-   (version "20260728.2101")
+   (version "20260804.900")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johanwk/elot.git")
-           (commit "17ec3c65c5c02c4dd25b6d7a1d34bf4fe257724e")))
-     (sha256 (base32 "161wipvjb336f83c2vv2ggvg0f3gxd4dqlbxk96hvagjh84n0749"))))
+           (commit "1c94cb4e961cbb1d79879d30f5ced6fd86945237")))
+     (sha256 (base32 "1hrl3n2fl7rxr0bj7sa7rh658261pgc7mki9pip3fmhsxshcqgzk"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -28652,14 +28652,14 @@
 (define-public emacs-erlang
   (package
    (name "emacs-erlang")
-   (version "20260724.1508")
+   (version "20260803.934")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erlang/otp.git")
-           (commit "94f56fe53620567046ddb2222cec8f68ee10790d")))
-     (sha256 (base32 "1dd12g75k59zg9nxsrzb7dad0fmi8qx711wzg3r58238pkcnmhi9"))))
+           (commit "9f1853a7c4801a7d7d41cb6cde799ff80f700dc5")))
+     (sha256 (base32 "0ziaiw9qdvscqa6h7hvk85cvhwrjyd73cry8mhcxz31bp1mma4ap"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260804.535")
+   (version "20260804.1031")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "6a8f0ebd5d7e83d0b15554d196a976ac9f607410")))
-     (sha256 (base32 "0rc5nn1grh345197xkjg98hhmzgdlq4a6nf48d1m9h4bhz343x3a"))))
+           (commit "816ea80ca24703c6e3fcbb75ff9eec5a9b0149ef")))
+     (sha256 (base32 "00ljpw1j1z4bjqdpasvn19jx3yq145r9aq7inpckfzsy4l7rbmwf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -64703,14 +64703,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260802.826")
+   (version "20260804.856")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "eb1cae8f8ce8d640a558bdf1a663d195b357b8f4")))
-     (sha256 (base32 "1zw7vpvybz8k227wvxv2xk4ywm9avsbhay6xz5jn7pdg1pan01n2"))))
+           (commit "c22e773b6a9dcccdbeb901172d5e347d4c013984")))
+     (sha256 (base32 "132zqi9wyh0jdxl0mql98n9qxbgx9qxrip3llaf11d52j42zsry6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -91797,7 +91797,7 @@
 (define-public emacs-sema-mode
   (package
    (name "emacs-sema-mode")
-   (version "20260804.736")
+   (version "20260804.925")
    (source
     (origin
      (method git-fetch)
@@ -110468,14 +110468,14 @@
 (define-public emacs-yeetube
   (package
    (name "emacs-yeetube")
-   (version "20260721.822")
+   (version "20260804.953")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/yeetube")
-           (commit "4adadb44f76e11dd2805aaf4e6656b52c5f97902")))
-     (sha256 (base32 "0b6h1hjwwb47f7cjxq90inybari1y6s6hc3lbrb8v4v4ddln844g"))))
+           (commit "f26e5db739af35c99d44607ef0fe992bf69bb8dd")))
+     (sha256 (base32 "193k3pjbvdwa9cjxzi9krmdr41rp9kcb7nzgl7iq5fyf4jj1xmgl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://thanosapollo.org/projects/yeetube/")
