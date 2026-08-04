@@ -1245,14 +1245,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20260719.342")
+   (version "20260803.2034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "a29cb161ac95f1819f34481a98666707661c5cf8")))
-     (sha256 (base32 "0mbhra3nnvfwja3bamhcg8nfgrh4l19sv5cvir452xhab0y9rs7a"))))
+           (commit "7d5c16ebcf2af86aa0f14ad9ae0ce45df4e8c8a5")))
+     (sha256 (base32 "19bwir0mg159ypdqva6pm118ynk15dqr4p5cxz1pgwm6532k0d3y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260803.716")
+   (version "20260803.1826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "d69ba850675586ddc4882d8cadb591335573c799")))
-     (sha256 (base32 "0ss8vb0m03raanvy51hq2nssbk8scbybd88zqqadas9px6q6rjav"))))
+           (commit "5339d7fb7b7d3b97991ffa48a3c7ff8054a8ec38")))
+     (sha256 (base32 "08i5z90dghhrgjaqqqv3ddww6qddn79aszbnhm0g0fp0z74gh98k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3209,14 +3209,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260619.1935")
+   (version "20260803.1927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "14a0bb4454fb2cc3b5b377619288b742ce117da5")))
-     (sha256 (base32 "0yp74vmwiav15igwcmgjngzylixw11ayrhyj3wg97w07sqxivlcr"))))
+           (commit "0d64f2c99d886bf7aa1a64a2aa73d52bb8e8f912")))
+     (sha256 (base32 "1jd269gy8zzig0rmqrbiw0phx2iqgnywr2700wczql8xnfqs89q4"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -5968,14 +5968,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260802.1034")
+   (version "20260803.2014")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "c8d1e64ab10b10b7c58ae0995402a50dd2960f40")))
-     (sha256 (base32 "1ll30k9m6f1v72zs8nhq3v4fymbpv4zi9l75xry5mc0im7jzrydf"))))
+           (commit "f70ebbe9e97931fcd71a8dcab39959c979fd5d33")))
+     (sha256 (base32 "1iii3f06jhz1kai825amia5bzwp9grnnam8xm52sd1j8dr6mv9s9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazelbuild/emacs-bazel-mode")
    (synopsis "Bazel support for Emacs")
@@ -6544,14 +6544,14 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20260803.1300")
+   (version "20260803.1931")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kristjoc/bible-gateway.git")
-           (commit "7c17a93324351024ad36ebb522b8b566d6b7a920")))
-     (sha256 (base32 "0fw10mxj8vh2ridzql95p5bq3q5zx3cnlv4vk7bdxgiizy8w3fwc"))))
+           (commit "6deb9b868c0ffa1e346952de6bf18f51580794a3")))
+     (sha256 (base32 "1gmlc192bb3rz4p5d1ma4bsnri4c506l9v0i7hhrmpay2czm19zw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kristjoc/bible-gateway")
    (synopsis "A Simple BibleGateway Client")
@@ -73899,14 +73899,14 @@
 (define-public emacs-org-history
   (package
    (name "emacs-org-history")
-   (version "20260801.1934")
+   (version "20260803.1832")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-history.git")
-           (commit "5f4e29893ecfb511efdaed160ec2b713eeaae9f8")))
-     (sha256 (base32 "0wxyb764giy8jgwbn6ihv4r8wpqbh5y932wjjdliplx016bdasy7"))))
+           (commit "3049ba97830e8dd19a56add34ad2538cf11a0ac8")))
+     (sha256 (base32 "09wi60840fc95f0rycx72h9s4v888ccrvh3acn3p29j9ia7lzigp"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-org-history")
    (synopsis "Show Dates for Org headers from vcs + auto-commit")
@@ -92570,14 +92570,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260802.1257")
+   (version "20260803.1829")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "9847508e1acb83f352a871dfcd631f051611dae5")))
-     (sha256 (base32 "0n2pf9q28s5a53l1fxpnnszgnpyk74bczc0q9vl2m3g8ys8k5jrw"))))
+           (commit "9b769dc078f1dec9588e50838d278d236ba17a3b")))
+     (sha256 (base32 "0glf3g3pagm9ip9x7zrd58dz099dripbd0ajljzn31qyswakw10y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
