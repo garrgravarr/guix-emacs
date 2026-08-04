@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260803.1826")
+   (version "20260804.607")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "5339d7fb7b7d3b97991ffa48a3c7ff8054a8ec38")))
-     (sha256 (base32 "08i5z90dghhrgjaqqqv3ddww6qddn79aszbnhm0g0fp0z74gh98k"))))
+           (commit "e8f374c023356ca57222e56ed777d152ccfa5173")))
+     (sha256 (base32 "09xxc9ii9ia3gph1n91855kb69rd9l0a62x9s1ygqrqnzjyw91fb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1862,14 +1862,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20260801.1423")
+   (version "20260804.612")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "0816a26a4bef4406f7cbd0de02b3c81847acd1e2")))
-     (sha256 (base32 "1rs4lnnzv0ds7j6qn9257xlr1627wgkn1pzam0m9qcx6b25byjbq"))))
+           (commit "2fc993932d2df9270c3f85f8215f73600b78145c")))
+     (sha256 (base32 "0gj8dzc8nxwnl9p5sv6fxd8kg0jix2jq8qfk7aa49bfxrmi7wc8q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -32285,14 +32285,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260717.1000")
+   (version "20260804.516")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "e4549d68501bdef06db615b8674a9bd9f1f70a9d")))
-     (sha256 (base32 "1wyfzp02brpvrxnzkjf0jdscxx1nlglk2g00bw0g5qy6xp36pzbn"))))
+           (commit "90947017ad68c10e47c48928b9833e7436940327")))
+     (sha256 (base32 "1hbf42a1ms8nbf7y27qk1pkn4x5qsyqi40nlhip7xa1bw7qb0vyx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260803.1346")
+   (version "20260804.535")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "51a4cdde3db1680eb760393a1438fcc440aa5200")))
-     (sha256 (base32 "088z8q50pvk30d78in9fwv8qdpv3hb5df9kmj79d8pr3qm31lybl"))))
+           (commit "6a8f0ebd5d7e83d0b15554d196a976ac9f607410")))
+     (sha256 (base32 "0rc5nn1grh345197xkjg98hhmzgdlq4a6nf48d1m9h4bhz343x3a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -63454,14 +63454,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260803.1209")
+   (version "20260804.506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "4190f3e74a41346983b396c57d7d0f173012ea4e")))
-     (sha256 (base32 "1cb2g0jymc3a2lkxhdhhwrczpnf98rrj0d2zdfy3mmri71w0mn1l"))))
+           (commit "bf25b5a749ff1edf77bcebc82ec7365e55fd1e60")))
+     (sha256 (base32 "1fmk5acrr319qz7y9m07pybc53mqnqzrry06gk5ik1y788p121gi"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -86654,14 +86654,14 @@
 (define-public emacs-r-ts-mode
   (package
    (name "emacs-r-ts-mode")
-   (version "20260729.728")
+   (version "20260804.336")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/R-for-emacs/r-ts-mode.git")
-           (commit "b53a9ca883cfd94c7e4b581ebb97e9dd866ffa72")))
-     (sha256 (base32 "1ywxzfxjcnpa5i7x1pb0kq5bwln4mwhnh3gh6hmnnvq9j52wh3vs"))))
+           (commit "0a86bdd3083095576810dfa586be5b712d838332")))
+     (sha256 (base32 "0sq9w2bqd8grkaai3ipd8yc205vflc28pri8kfvrhywjg1k3w34j"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/R-for-emacs/r-ts-mode")
    (synopsis "R treesitter mode")
@@ -91797,14 +91797,14 @@
 (define-public emacs-sema-mode
   (package
    (name "emacs-sema-mode")
-   (version "20260727.1208")
+   (version "20260804.736")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sema-lisp/emacs-sema.git")
-           (commit "c0065adcb866d3d132c9034d89e8fa6a20b06a8f")))
-     (sha256 (base32 "1ryjf22cr0617ylvjhw95cm8ispp5rzfxh74jnnwcfg64hldmd4l"))))
+           (commit "308b0075837a63fc49c2787e3255a5afa317831f")))
+     (sha256 (base32 "0bq8w2nr7x8j066jksnvzpxmkq3p0jylnvj7pd51fscpwa1rs4bk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sema-lisp/emacs-sema")
    (synopsis "Major mode for editing Sema files")
@@ -100236,14 +100236,14 @@
 (define-public emacs-termint
   (package
    (name "emacs-termint")
-   (version "20260802.807")
+   (version "20260804.551")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/termint.el.git")
-           (commit "b640da2a32b0a25cd7cee1ee96a2e35d363ad3fc")))
-     (sha256 (base32 "1yrwsm27khcmkaxg777gyl10ksgrmcf0l95lc2695cgh7hp5kbl7"))))
+           (commit "bf97d0a417902417febc2b6925152dab5610057f")))
+     (sha256 (base32 "1wfvri7gwy0ag5pdadhcwfj3071ffnrrqn7d1hsyvkjykg6snpki"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/milanglacier/termint.el")
    (synopsis "Run REPLs in a terminal backend")
@@ -106826,14 +106826,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260803.1557")
+   (version "20260804.551")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "40c0bc69aa078f3fac407ca023e95e41fdbbecda")))
-     (sha256 (base32 "0202pzgj7c3x9hwqlvd4kk5xyjhvg0j9c6v2wqq59fjvvb9nqsan"))))
+           (commit "2fc27b8492fb5178ee09259d65c0eefe6a79229b")))
+     (sha256 (base32 "1rb5yvg5vwsgi43m5j4hr7vrphzn7m050v2jicqaq1m6afdfh9ln"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
