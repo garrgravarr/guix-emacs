@@ -9357,14 +9357,14 @@
 (define-public emacs-cape
   (package
    (name "emacs-cape")
-   (version "20260801.751")
+   (version "20260804.2303")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/cape.git")
-           (commit "5a3aa3058eb47bd10ae72c8919921e3fb40952a5")))
-     (sha256 (base32 "0sv9n9zb2pzm5kqcmpl9imn06xacczdcxjj2ndpfm7wgv89ypgrf"))))
+           (commit "96c26eb54ef27c404554272489b8f9d78f113a2b")))
+     (sha256 (base32 "11f6wglrib0hzs2ypz650hfh4zbbcanyw3kh1kkwk75kz8qdaayl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/cape")
@@ -22303,14 +22303,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260708.823")
+   (version "20260805.643")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "017854c6484dd6a38e4b039dad04ce6dbec02f08")))
-     (sha256 (base32 "0mvyi6r1599fsz6hfgbvq1i8z569xsh9iwwzz8pwd15c9v8i71v6"))))
+           (commit "2d6828870bce42c3de6feebe1e70d9edc46515a6")))
+     (sha256 (base32 "0jnfnvwcvwmxm0xjqqdn73xyl3mms07y1xcww746pgywyjp3krmq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -25711,14 +25711,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260801.754")
+   (version "20260805.830")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "fdf477f99fe1e152f7fbcb098fae1de00fa09efb")))
-     (sha256 (base32 "0kbxpfg7v6aqakqn810czrk0hq12f004achy5iyghc6bx939gk11"))))
+           (commit "2970e5d1aa2a6f5c4cb607e0b835b91a6bffec4f")))
+     (sha256 (base32 "02clfww8kkrryr6lw7qk98mc2chhksqx2yz626liyybdmbxqdqnn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -32285,14 +32285,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260804.516")
+   (version "20260805.722")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "90947017ad68c10e47c48928b9833e7436940327")))
-     (sha256 (base32 "1hbf42a1ms8nbf7y27qk1pkn4x5qsyqi40nlhip7xa1bw7qb0vyx"))))
+           (commit "9bc0cca11b6061257e4d287857b9a5a73193ecb5")))
+     (sha256 (base32 "023hbrhpi2x1nyjlbxh47p6sv3dypvwh8khf32ignsg3da06f8x7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260804.1031")
+   (version "20260805.828")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "816ea80ca24703c6e3fcbb75ff9eec5a9b0149ef")))
-     (sha256 (base32 "00ljpw1j1z4bjqdpasvn19jx3yq145r9aq7inpckfzsy4l7rbmwf"))))
+           (commit "e3295eab195829f41507f143cab46ba0539c89de")))
+     (sha256 (base32 "17r3zncdz8pn7a6h15b7y4p5vmr04mmajjriln03qssdpq3hbfag"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -39910,14 +39910,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260804.2129")
+   (version "20260805.802")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "963f37fcea83979664c229b14cb352c02069a3fe")))
-     (sha256 (base32 "0bjql0yjmwlw9f5dqj7chi9gdg9z41al0798jjzbcd60d1547m0z"))))
+           (commit "ba802e9128444ef9bb94ce382139b17a0db08cb8")))
+     (sha256 (base32 "0q16rjx5vgckma4qww8nifywchl20caw83qcxxic9n39pvwacd3x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -42772,14 +42772,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260802.1730")
+   (version "20260805.313")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "3c93bccf9a117535f2573e5a9753d6324474689a")))
-     (sha256 (base32 "0akqr3zaykn2bzy8sw2fs6bs4d8q5nqppg3kanjy6d57lrx8mkws"))))
+           (commit "fc6963634af2f76a9909ad674e2c0b3f005e60b5")))
+     (sha256 (base32 "1n90ar2frskbsp0nm54l9fl5l68a68a64s6ajxld2scyvdh1q360"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -63454,14 +63454,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260804.506")
+   (version "20260805.356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "bf25b5a749ff1edf77bcebc82ec7365e55fd1e60")))
-     (sha256 (base32 "1fmk5acrr319qz7y9m07pybc53mqnqzrry06gk5ik1y788p121gi"))))
+           (commit "3d5e80690131211ed7fa79b8bb7e6028b9a47d1a")))
+     (sha256 (base32 "0hs3mgrqvpqsxnif15gw94rh8z62mx6sdkki9sykqg4xhwsjas0x"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -67866,14 +67866,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20260803.325")
+   (version "20260805.635")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "f12d1e4619aa5ed7d1c1ddf837d4335015bdfd4d")))
-     (sha256 (base32 "1czrlgqlq4qxyckzpaadn23p7zl009ff8s9gmjdaqxf8vn44w401"))))
+           (commit "1e75075e323dedaf9f2fd5837082c60a2d0dfae3")))
+     (sha256 (base32 "1rzj4qxz0swq174y9hyvsv371k6ny3kpgrfzqb7mrgncl4iz5l9f"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -71572,14 +71572,14 @@
 (define-public emacs-ocp-indent
   (package
    (name "emacs-ocp-indent")
-   (version "20251001.1320")
+   (version "20260805.738")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OCamlPro/ocp-indent.git")
-           (commit "e2ac9daae2579151ad258b40071e5074a4b1c3fa")))
-     (sha256 (base32 "1gd20nm4h6rkc2pap6skcwwip7455mvafzlndqhzam03ckb5bb9d"))))
+           (commit "d5f0d27b3caf7ae2397f8b26ecc5776997643945")))
+     (sha256 (base32 "0rlz9f58s11hdzsq6qwwl4105lm61b1qcwf7vrc16gby3mzm62by"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("tools/ocp-indent.el")))
    (home-page "http://www.typerex.org/ocp-indent.html")
@@ -96930,14 +96930,14 @@
 (define-public emacs-srs
   (package
    (name "emacs-srs")
-   (version "20260729.409")
+   (version "20260805.231")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Duncan-Britt/srs.el.git")
-           (commit "29faab8fb32ca34ac21e736bb60b7267dc424209")))
-     (sha256 (base32 "0hm80rqvgcld0dbfdy0nciqz6fl7r5pdwq6q32qbwy6djlhgjlak"))))
+           (commit "6523b4a29b61cd0399110c0d401ed576a58b0d5d")))
+     (sha256 (base32 "0p7mznr9wmb3dfxpw1bzf08378z0j0hb25cadsbsihprvq4cdaxx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Duncan-Britt/srs.el")
    (synopsis "Spaced repetition in plain text")
@@ -106826,14 +106826,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260804.551")
+   (version "20260805.801")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "2fc27b8492fb5178ee09259d65c0eefe6a79229b")))
-     (sha256 (base32 "1rb5yvg5vwsgi43m5j4hr7vrphzn7m050v2jicqaq1m6afdfh9ln"))))
+           (commit "59e549a84aac390091d288629f7f84fdc82454c9")))
+     (sha256 (base32 "001asmcxbjd544vn5zmz9csdyx6jlv2prvv4hb860nmhmji98xrp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
