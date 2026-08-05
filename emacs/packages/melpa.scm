@@ -7586,14 +7586,14 @@
 (define-public emacs-boogie-friends
   (package
    (name "emacs-boogie-friends")
-   (version "20260730.2332")
+   (version "20260804.2236")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/boogie-org/boogie-friends.git")
-           (commit "c53a1548df1a55d513ee89e83175c1803dbd2c3f")))
-     (sha256 (base32 "1g8kb3l9vg5c11f415niw60vhcvfbz6467220j1rl20c9qq2yxcg"))))
+           (commit "39bacece3b6a3ee5169b4b76751cf73aaccaa7a9")))
+     (sha256 (base32 "188w841c8bb0w34xls9qqnf3bzp5wfqj9ncmg6r4d3qzh7xz3fd4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-company emacs-dash emacs-flycheck emacs-yasnippet))
@@ -30374,14 +30374,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260803.1214")
+   (version "20260804.2129")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "37a82caa25c41fa4fda768ddb727b1cbe117ceba")))
-     (sha256 (base32 "1wkp0j55ybq5m2s5c7yb1lsw4yi37fkl5kwk61cmfz0w05d2qb98"))))
+           (commit "963f37fcea83979664c229b14cb352c02069a3fe")))
+     (sha256 (base32 "0bjql0yjmwlw9f5dqj7chi9gdg9z41al0798jjzbcd60d1547m0z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39910,14 +39910,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260803.1326")
+   (version "20260804.2129")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "37a82caa25c41fa4fda768ddb727b1cbe117ceba")))
-     (sha256 (base32 "1wkp0j55ybq5m2s5c7yb1lsw4yi37fkl5kwk61cmfz0w05d2qb98"))))
+           (commit "963f37fcea83979664c229b14cb352c02069a3fe")))
+     (sha256 (base32 "0bjql0yjmwlw9f5dqj7chi9gdg9z41al0798jjzbcd60d1547m0z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49723,14 +49723,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260730.1835")
+   (version "20260804.1348")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "229f38ee94a8a9112d97564556049f039d684eb2")))
-     (sha256 (base32 "0jvf89ll4a9wj5ppjpkcgpnvf5bn0dwdag2165afisj1cs32abk2"))))
+           (commit "5e7da602760c64b75d62924e19a039ad48991a20")))
+     (sha256 (base32 "1rnz9025nq300b0a1vqlqyaccbw8ipnnk3zdas525iz8g04ad4sq"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -57202,14 +57202,14 @@
 (define-public emacs-lab
   (package
    (name "emacs-lab")
-   (version "20260802.1416")
+   (version "20260804.1909")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/lab.el.git")
-           (commit "d17adf0a86f716527187c1504423b8b56d3d415c")))
-     (sha256 (base32 "1c8p3a7md4ljm8prjzk7xqv9qzhd3krl1brlh24j6k2rc006rcxm"))))
+           (commit "bde40714ebdf896d497dd0ebc8db6fc365c97f0c")))
+     (sha256 (base32 "13g9rd1fpy2wnhrnkzp9zcfm6yia8fknb2l02nal0gkhfwp1pch4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-request
@@ -73007,14 +73007,14 @@
 (define-public emacs-org-change
   (package
    (name "emacs-org-change")
-   (version "20260803.1456")
+   (version "20260804.1808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/org-change.git")
-           (commit "86c55896bbc99b3fd54fd11dc89205ffa9a349e4")))
-     (sha256 (base32 "1n4mwzc6gx358ahai7fmc0szqv8hkwkicqz7lhvzgdmkbb74fggs"))))
+           (commit "0ad1a79934627eb40dbde1ff8c3dad9b8e790f16")))
+     (sha256 (base32 "0nfpc5433s5jhf545f9lm2jrc1k2xyzadm7znhifk8njy1mapwnx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/org-change")
    (synopsis "Annotate changes in text files")
@@ -81101,14 +81101,14 @@
 (define-public emacs-php-mode
   (package
    (name "emacs-php-mode")
-   (version "20260719.209")
+   (version "20260804.1415")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/php-mode.git")
-           (commit "6ebe4a618aa64db3e15f809b036c1b1a6d05c030")))
-     (sha256 (base32 "1fcdncv959ssqnbsjkjy2ay82h4qkrr6wzr1911b39gf78s9xn0h"))))
+           (commit "4bc3f18bc93574f4bd0575fc9642a5e92b60c59a")))
+     (sha256 (base32 "0mns63sp2k9r0mckdzigl7zbrv846184bc4k8n8s7f9skms8pis7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacs-php/php-mode")
    (synopsis "Major mode for editing PHP code")
@@ -98756,14 +98756,14 @@
 (define-public emacs-synaxis
   (package
    (name "emacs-synaxis")
-   (version "20260730.1047")
+   (version "20260804.1538")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/synaxis")
-           (commit "5f2edb9b19a2ea0c6e3cfdce1100ab160ca3a552")))
-     (sha256 (base32 "0cgd2lxklhb5q3pla47g8fq2pbkgrjdj9zh4wmhvs74h8wdkhqmb"))))
+           (commit "3d727c9e2ded7e9bd08c0d19ae3ccaabe5ca6e67")))
+     (sha256 (base32 "0acjgrnhcwhhfcngv56vkzp0fvgddpcyj8k7hrfybkzl5mab9r1n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-keymap-popup))
    (home-page "https://git.thanosapollo.org/synaxis")
@@ -99330,14 +99330,14 @@
 (define-public emacs-tabspaces
   (package
    (name "emacs-tabspaces")
-   (version "20260802.1404")
+   (version "20260804.2140")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/mclear-tools/tabspaces.git")
-           (commit "5254c8b8352bcb036cc6096af2d35e7e4da02c2c")))
-     (sha256 (base32 "16qkv78hrw8sr5nvg5wp5fzk5n75fvr51wixkrr12yqf462fsrl6"))))
+           (commit "ef19a5dc4147f6e69442bd2e64c00672438ebe04")))
+     (sha256 (base32 "0clc1fy26dd2qm8rwsv0k1ln8rxz07lvkb2l5h7d03kaygmn8b4i"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/mclear-tools/tabspaces")
    (synopsis "Leverage tab-bar and project for buffer-isolated workspaces")
@@ -99735,14 +99735,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260727.1036")
+   (version "20260804.1357")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "878ae3c7acdc3edcf6d7ac89695473888a4a0103")))
-     (sha256 (base32 "17lz04cprr9bfxyn385dylcfd6f01p4ghabsqjracax93sskvwyk"))))
+           (commit "0e9e87de9a8a4ad47788af23869431a8ed4a7972")))
+     (sha256 (base32 "1ipxny4xn0pmhl8l8gl4iikz6d0bf233zd5w6srnvl0f65k4dcb0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
