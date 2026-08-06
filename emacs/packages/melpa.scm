@@ -4879,14 +4879,14 @@
 (define-public emacs-auto-space-mode
   (package
    (name "emacs-auto-space-mode")
-   (version "20260204.255")
+   (version "20260806.638")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/wowhxj/auto-space-mode.git")
-           (commit "0bb2e94cebccbc0140363170ee395e27e77ad17c")))
-     (sha256 (base32 "1lx7jgp7qswkxhwrbm9k7md7iwkb2kgd6pa409r65mcjszgc8f63"))))
+           (commit "9c474bc294d77ca6af7fcb248919765d96d3bb5f")))
+     (sha256 (base32 "0vy432bgkjb4xx789hr7rns8pnlg2wic2gp4ybfd78p0q30q8p51"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/wowhxj/auto-space-mode")
    (synopsis "Auto add space between CJK and ASCII")
@@ -32285,14 +32285,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260805.722")
+   (version "20260806.619")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "9bc0cca11b6061257e4d287857b9a5a73193ecb5")))
-     (sha256 (base32 "023hbrhpi2x1nyjlbxh47p6sv3dypvwh8khf32ignsg3da06f8x7"))))
+           (commit "904f190f9ca1941f5176cd850a4bf54cd929d688")))
+     (sha256 (base32 "0g4y0s8sir7c8bf9yr5av5k8lhr80g9hiva0vmfpdk6407c6i4hm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -64083,14 +64083,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260707.2341")
+   (version "20260806.448")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "880d4af5cadadfa3b0348c340f187aa45c0a870c")))
-     (sha256 (base32 "0sl6w556znxgxy4j0simmn3kgrh0w81aspnqh00yd7iqwcf9yllw"))))
+           (commit "29b779c9b0fabae92a75cee72c54701a75f43e12")))
+     (sha256 (base32 "0i037rn7s71dljwcmwqbckrc64fraw7mmxxhw5507h81ki3ylbdm"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -92570,14 +92570,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260805.1035")
+   (version "20260806.844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "6ed92d410ab52f656d8c79a7bd9a912ebcf5b1a1")))
-     (sha256 (base32 "102mj7irdsqygb478kmk02652fwlsncsf9pqx74h6xb1gq9xsbr8"))))
+           (commit "bb5e3aef17686c1c859c366eb83831b0046dc75a")))
+     (sha256 (base32 "11wymhj3zq4qzxfw5z4z20y2rq9jg1x85vm6dh9f4p6pnvd40dgv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -99735,14 +99735,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260804.1357")
+   (version "20260806.845")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "0e9e87de9a8a4ad47788af23869431a8ed4a7972")))
-     (sha256 (base32 "1ipxny4xn0pmhl8l8gl4iikz6d0bf233zd5w6srnvl0f65k4dcb0"))))
+           (commit "c7273cce799d60b6c8bb470cfa26ed267324ff02")))
+     (sha256 (base32 "12dli34j15d0rn32h5rbnlqj273rlfa1bmy0gaw0z6a57kksrw3a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
