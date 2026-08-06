@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260804.1641")
+   (version "20260805.1621")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "1ff20801cdc1e14de16567c9e0ac5f08545bef98")))
-     (sha256 (base32 "0wjzrd97mihkhl0jl1bxkxrv8d26xazkc69472974psi36ph6jla"))))
+           (commit "4b17df0e71365c4b05aeccc608d8c401792d4817")))
+     (sha256 (base32 "0nds7kwm8ai1aqw0sq0qqyph5k2kvjymaw8fdq671acpk1d0c2iv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -11431,14 +11431,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260804.1315")
+   (version "20260805.1931")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "7f38461fe14a2143093bebb1c13f75442bc0c4d2")))
-     (sha256 (base32 "071pw5qg2rn9xzkx7zaipacj9bya9q3x51zfi257b7jijpy19af3"))))
+           (commit "f378593822da56d1cfaf2f741468842d6c36a830")))
+     (sha256 (base32 "0s2rmlnls71b4454ss0da9alq08nwhbk0my047j676fn0y2a416v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12255,7 +12255,7 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260805.1158")
+   (version "20260805.1534")
    (source
     (origin
      (method git-fetch)
@@ -17592,14 +17592,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260724.953")
+   (version "20260805.1734")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "fb4d521a3f85f839100d52a8495bc2ec69aff784")))
-     (sha256 (base32 "0nydzm28mjrahzvfailygkya0r026f0caa99hfcar4vag19i31fn"))))
+           (commit "4d82b4ee9f837d449c6e13852477c261e91dad02")))
+     (sha256 (base32 "1hmynxn1phhfl87ivla2iijqdh26k83nmv9lxf77w884fqwlcv51"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -23908,14 +23908,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260803.1303")
+   (version "20260805.1842")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "dca540f621ead503ab160690f6ef77fd56312f52")))
-     (sha256 (base32 "1ji0m928yzshg148vwg48b9c41ffzclmb2lmd2fciaj54zbwq2gs"))))
+           (commit "b96182186db24506f4343c772abb6cedb89abc46")))
+     (sha256 (base32 "0ajsw5dl4fz59ncwyi86nx7fr9993llj00mxdlifc36lynmzcz2q"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -28191,14 +28191,14 @@
 (define-public emacs-epx
   (package
    (name "emacs-epx")
-   (version "20260306.1300")
+   (version "20260805.1957")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~alex-iam/epx")
-           (commit "300aa795f6ff130b1a21aa637c1831b8aa866d6a")))
-     (sha256 (base32 "1vm1hk5pkmkw5lw0y9qm10n84n0pzb8yx5ds6xngkyirdz3fkjc2"))))
+           (commit "ef8cfb41bf2064c56a61cc0cf96c51f9cc008675")))
+     (sha256 (base32 "1mblpr8j24sayxfdllj7rynmg7hs90xxs5j77cgahb192jx107bk"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~alex-iam/epx")
    (synopsis "Manage and run project-specific shell commands")
@@ -33866,14 +33866,14 @@
 (define-public emacs-flex-x
   (package
    (name "emacs-flex-x")
-   (version "20260730.2223")
+   (version "20260805.1439")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kn66/flex-x.git")
-           (commit "3dc1b28d08f57282a79d4da180219944d4ba87f4")))
-     (sha256 (base32 "09q6x72qykqyabcskxqdqrjvjjg11d2bl926mb31dncmz9ahr2kx"))))
+           (commit "dc8e7949663cc5892a8f3736a98a5f96d0f89e5c")))
+     (sha256 (base32 "1g5k0xc3z9ygfmdjmskz6b0ic15862yhbwldhwb2w8l6sic5ajy5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kn66/flex-x")
    (synopsis "Extended flex completion style")
@@ -34145,7 +34145,7 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260805.1019")
+   (version "20260805.1505")
    (source
     (origin
      (method git-fetch)
@@ -39910,14 +39910,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260805.802")
+   (version "20260805.1728")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "ba802e9128444ef9bb94ce382139b17a0db08cb8")))
-     (sha256 (base32 "0q16rjx5vgckma4qww8nifywchl20caw83qcxxic9n39pvwacd3x"))))
+           (commit "26f1ff9b2456633d006d02f1dd22b2a416fde3e9")))
+     (sha256 (base32 "0zp6xq8f7wsxff3qkmaw5ygqdabkfdrjh0zz77yksbwys19zrxlk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -86236,14 +86236,14 @@
 (define-public emacs-qso
   (package
    (name "emacs-qso")
-   (version "20260707.1515")
+   (version "20260805.2330")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/K6SM/Emacs-QSO-Logger.git")
-           (commit "a3b0d1f0b103cd00e0980637d75b6e3092d07b48")))
-     (sha256 (base32 "0m2g5lbwi5kp54kldm13swwrgx3q126bqdax0ik9q45fv69x3q5c"))))
+           (commit "984c6c1266299021af3fd768426cdb413dfa7a7d")))
+     (sha256 (base32 "0qm9d8xjhnc3g5jxp1v7r48id8j1xs0ww0f2dvvn77inj3ccnajc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/K6SM/Emacs-QSO-Logger")
    (synopsis "Amateur radio QSO logging")
