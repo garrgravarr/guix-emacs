@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260806.917")
+   (version "20260807.857")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "0d078df3aa2f99f207294629d3f6e8a299497fa4")))
-     (sha256 (base32 "165r4ap0nklsbg0pdbfvhqsy557yvczvcypggqy3wi3l41cinyb1"))))
+           (commit "6a83589393fb67725f288d08d6f12d136564db0e")))
+     (sha256 (base32 "0b6k8vg440y6qy8mldzqbsxfil3cnd1ksl2qm9nqsc8af99sywih"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -5968,14 +5968,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260806.1737")
+   (version "20260807.500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "62b2067025f1d6a2b0d13a92c28959f910d2f819")))
-     (sha256 (base32 "1jwv0kzzxxhq6dlbksqq7mk6vfkzldw00rydc35s6kaljkzwf109"))))
+           (commit "da00930b754e7a45ebaa8d1ea6e50c7dd134bb1f")))
+     (sha256 (base32 "01lffpg16i4qgjy2rqf1nxlz70difpf3xv6ma0yy2pv6r7f42di0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -12255,14 +12255,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260805.1534")
+   (version "20260807.210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "88c69d6d515b30b564b4f0b2cb54d13ce8349c8b")))
-     (sha256 (base32 "04c651bl911d17ygjvyq65fkpr6n83lqjnznj5d7hl0y7idi5n3m"))))
+           (commit "2e50906947e17908f49e6c29e626a29bf3ac538f")))
+     (sha256 (base32 "17paq56gm6y2pak64mdz93imsbb1s94z6v2y9hg31bxnvgngm1nv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -22340,14 +22340,14 @@
 (define-public emacs-doom-themes
   (package
    (name "emacs-doom-themes")
-   (version "20260117.2323")
+   (version "20260807.136")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/doomemacs/themes.git")
-           (commit "53645a905dfb3055db52f5d418d5ef612027e062")))
-     (sha256 (base32 "1pqmk6mi1nk3axkb0zfcy7x8vqz5984km0vqp6mmh0sd2ysc4rdl"))))
+           (commit "a9b7144a4b6fe03be144b1610e0a6840e2b24d41")))
+     (sha256 (base32 "1wzpc5l98fcdlljm0s4a30l2lis88x8fx53i5q0dg4is5imb4m9b"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "themes/*.el" "themes/*/*.el" "extensions/*.el")))
