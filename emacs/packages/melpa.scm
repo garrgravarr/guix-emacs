@@ -12255,14 +12255,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260807.210")
+   (version "20260808.826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "2e50906947e17908f49e6c29e626a29bf3ac538f")))
-     (sha256 (base32 "17paq56gm6y2pak64mdz93imsbb1s94z6v2y9hg31bxnvgngm1nv"))))
+           (commit "9c622e9eef271d8a0ad37ce69c189eda6c770722")))
+     (sha256 (base32 "0k3ykgsdad30x2pkgky9pi6qzycgm1sjfqxmh1bcm0ah08cdd34h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -14873,7 +14873,7 @@
 (define-public emacs-conda
   (package
    (name "emacs-conda")
-   (version "20260807.2245")
+   (version "20260808.51")
    (source
     (origin
      (method git-fetch)
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260807.1456")
+   (version "20260808.721")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "3a795a580a0e2f7d313eaca309e4774951dbb1f3")))
-     (sha256 (base32 "11aa237pm7ipq636xmjyjivxr9q10l4b0h1j7vxm5mcagmp14ik2"))))
+           (commit "c0791f7f9552001775dac3cf8599b8c91bfae6fa")))
+     (sha256 (base32 "1aj27j8n0myannbj4s6m7mdi39g15h2z1j0fqfx0fpjqlh61zmz4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -61410,14 +61410,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260731.2248")
+   (version "20260808.323")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "67f203853e74e926e2c99f60ed508840714f7ced")))
-     (sha256 (base32 "0a2b0jfgsvkbg9i5k2q8i1xhrwwmqrb1yqag7mcpvzi95zcqmv4a"))))
+           (commit "b1742562074e794348bdc56da838ac9d3ae40364")))
+     (sha256 (base32 "0b144dclh5bff2n2cmkjgx5p4z4nl6jv0kwk2mwb4w5vpbrhffsi"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63454,14 +63454,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260807.1425")
+   (version "20260808.300")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "74c6783e826a998d01a5aade6fac2a105b88514a")))
-     (sha256 (base32 "0r0fx4xf93ym8hi0f9mhfq3slvlpgc5k1ziyvyi68kddq5wz9x98"))))
+           (commit "8782f2d2f39ebd06958ebe144fa33e08f9699c20")))
+     (sha256 (base32 "1vf5dqv1zi5yq26i410vcx8jz5fi9hh7b9dwwvavlywn83hc7p7i"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
