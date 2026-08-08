@@ -16651,14 +16651,14 @@
 (define-public emacs-countdown-modeline
   (package
    (name "emacs-countdown-modeline")
-   (version "20260615.1455")
+   (version "20260808.1211")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jholland82/countdown-modeline.git")
-           (commit "7485863972bd941a786bc595d566e02a490bb352")))
-     (sha256 (base32 "03nq1l4m2cc5r0mhgq1bc4zjfxak6rsnq2hm1lgyazrwsgk6kyi1"))))
+           (commit "a07cf0b1d0e71cca21255a599a91c28d7e8ed2d8")))
+     (sha256 (base32 "0y1sg1gh80xfbcpaxzp9r17xbhx09iql3rfmk0mxpm4qx241d8h3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jholland82/countdown-modeline")
    (synopsis "Display a color-coded countdown in the modeline")
@@ -62948,14 +62948,14 @@
 (define-public emacs-mastodon
   (package
    (name "emacs-mastodon")
-   (version "20260509.749")
+   (version "20260808.1205")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/mastodon.el.git")
-           (commit "4b30b2d96625e23325ff3727daa30969b6fe2eed")))
-     (sha256 (base32 "1pz0ac5r6g34x0nlwwh55c369swiv8h3dr6ndkkm7k2ql7f75xdv"))))
+           (commit "5ddf28b9454ad9ee12738f9467e3ad013b788ee3")))
+     (sha256 (base32 "1gj9mvdgxyr81nfabnb1x5j6qkaaa90g343b54jmajb1l8gyn8as"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-persist emacs-tp))
    (home-page "https://codeberg.org/martianh/mastodon.el")
@@ -63454,14 +63454,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260808.300")
+   (version "20260808.1056")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "8782f2d2f39ebd06958ebe144fa33e08f9699c20")))
-     (sha256 (base32 "1vf5dqv1zi5yq26i410vcx8jz5fi9hh7b9dwwvavlywn83hc7p7i"))))
+           (commit "6a4c1a088ae3d8640f6d50794bc772c045ee26aa")))
+     (sha256 (base32 "0idr9a879nq2cf7r62g9vvw96hgwahw5gin97khpyaj730f00pd2"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -106826,14 +106826,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260807.1118")
+   (version "20260808.656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "50148723f24ee6632f5962f37dfed03025bc45c7")))
-     (sha256 (base32 "15f7wwsb17p1jiw3wayqrmfm0adhpj3nkb7al1fbqkwvapzxgv5m"))))
+           (commit "070f592cfe79c3d8761fe75f090b65f824c44146")))
+     (sha256 (base32 "15n95lv11q8qmgm2nhbkxsc6cz2fyji8wy70q3nkkl43i0vdhswk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -106844,14 +106844,14 @@
 (define-public emacs-vulpea-journal
   (package
    (name "emacs-vulpea-journal")
-   (version "20260730.1852")
+   (version "20260808.656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-journal.git")
-           (commit "48bdabab3bf61abe4c854128759f5e789d46b98e")))
-     (sha256 (base32 "1g9br2c8c89cidgfc7whkprl8p84fagl3zhg4r513lan40w5fscc"))))
+           (commit "ec7131ad4bb8d70028ed765991286a0e16530288")))
+     (sha256 (base32 "0b4nc0yb1m9clvnv53kxpdaigz1irf7xm9s6my05xc1ldimb3bq9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vulpea-ui emacs-vui emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea-journal")
