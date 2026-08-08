@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260806.1646")
+   (version "20260807.1511")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "1d26606bedb86b9fb65b80018464277ad52c02c7")))
-     (sha256 (base32 "0y7rfc04b3ddfdiy33my8gxmrzrgkvj5r8xxl38y92l1idpp3hjy"))))
+           (commit "adb438b0b5597624ad3dc46b73c20aef4f52d8c9")))
+     (sha256 (base32 "04cqpwlfb2zhk5jbjzjmrpkzb3ym1pdg959b8zrcljaml1b5fwx5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -14873,17 +14873,17 @@
 (define-public emacs-conda
   (package
    (name "emacs-conda")
-   (version "20251201.2104")
+   (version "20260807.2245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/necaris/conda.el.git")
-           (commit "82b9f77a7f7d5c6ea91e06c5bd54d8a43a75f977")))
-     (sha256 (base32 "0d2kbr6kvacyd6skdgwm14z7hy7xdqlz6mvjzsfa1pfn84yigvd8"))))
+           (commit "58b43d5020b8a7cc55065031bae9d0a5020528e0")))
+     (sha256 (base32 "1kp5il10w02yqnv7a0y2vpbn005ybka39zldyspj7fgy4vf5mpw2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-pythonic emacs-dash emacs-s emacs-f))
-   (home-page "http://github.com/necaris/conda.el")
+   (home-page "https://github.com/necaris/conda.el")
    (synopsis "Work with your conda environments")
    (description "Documentation at https://melpa.org/#/conda")
    (license #f)))
@@ -23778,14 +23778,14 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260730.1526")
+   (version "20260807.2229")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/easysession.el.git")
-           (commit "efe20131f2e69ca5323078afe81c73bbd09fa689")))
-     (sha256 (base32 "15rinnxii5p9x20nmqa7l8j0cw8i531is7dgpigjmcsd1rd1fn36"))))
+           (commit "83a15da810f88d095b9e21619b70b6d801b0aac0")))
+     (sha256 (base32 "0sgb29hq4ilnrllqcncfl3wc2v1hy7y3hdjwaq91ld4z1yw85njx"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "extensions/easysession*.el")))
    (home-page "https://github.com/jamescherti/easysession.el")
@@ -34145,7 +34145,7 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260807.1237")
+   (version "20260807.1456")
    (source
     (origin
      (method git-fetch)
@@ -39910,14 +39910,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260806.1645")
+   (version "20260807.2147")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "ddee01b8ec2dac9c5e9f748864bdacfe826efbcc")))
-     (sha256 (base32 "0ij3i3357bsh6v568y9c2lms02li1p6ihgsgjks4airihypcyj8p"))))
+           (commit "037378b44ceedf1c8bf15e365fc62c7f5c92363d")))
+     (sha256 (base32 "1ridc5d7qfjnmvd66imhlghwklj1m9xxw1y3vdn8zyf741rl6i87"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49870,14 +49870,14 @@
 (define-public emacs-hyperstitional-themes
   (package
    (name "emacs-hyperstitional-themes")
-   (version "20260701.1314")
+   (version "20260807.2300")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/hyperstitional-themes.git")
-           (commit "18b5ee327f6e7e3d82fe3a274c351137e6e0cecd")))
-     (sha256 (base32 "0qjp85836gv4kbq580xrqvdx92h4f0m0k2pyg8cw28nd1mwj85ma"))))
+           (commit "adde296858f4c468008eb8ed92ccad416e7e0391")))
+     (sha256 (base32 "0b14slfnjb8s38k1qz8bzsbnw930gn7h5451rkjh786dvlbql3n5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/hyperstitional-themes")
    (synopsis "Weird themes with incremental palettes")
@@ -91443,14 +91443,14 @@
 (define-public emacs-sculpture-themes
   (package
    (name "emacs-sculpture-themes")
-   (version "20260701.1308")
+   (version "20260807.1622")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/sculpture-themes.git")
-           (commit "8fa20dc87a86ea4576debb38a75d71f1ee6ae273")))
-     (sha256 (base32 "1mw1wf62jxs3nb84b9d4ziyn6xqj4g8skg9n1dpyw6yiy3ycaazj"))))
+           (commit "bc1a1b8ab9e9e63944e554bb5253f74066ed191d")))
+     (sha256 (base32 "1dzb06grrggwkij11n1328nk8l441rnmxazz5l396xjik43xnfln"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/sculpture-theme")
    (synopsis "Themes with vivid colors")
