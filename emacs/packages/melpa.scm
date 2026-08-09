@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260807.941")
+   (version "20260808.1602")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "5b8e2e3abf591ecad557f3bcf780bb05150fc0ec")))
-     (sha256 (base32 "0bqbjr7xrf9hxisz51vid76yh2akv1xfhqblw4hmmfjg3brra9rd"))))
+           (commit "8cb20f20265f40e5ec1891d032ecca626c05a2e1")))
+     (sha256 (base32 "0d0ikgss6nimbqv4y5z8gwj6vy48m5jldb2mhwha27vzl928h6vv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -11431,14 +11431,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260805.1931")
+   (version "20260808.1527")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "f378593822da56d1cfaf2f741468842d6c36a830")))
-     (sha256 (base32 "0s2rmlnls71b4454ss0da9alq08nwhbk0my047j676fn0y2a416v"))))
+           (commit "7284e039dca46a512e25288c9d644ce8f21aeea1")))
+     (sha256 (base32 "0c1bgmj956z99s4cvfald6m49438xrg1ikw2qyavyj0d9v82l5cs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -34145,14 +34145,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260808.721")
+   (version "20260808.1346")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "c0791f7f9552001775dac3cf8599b8c91bfae6fa")))
-     (sha256 (base32 "1aj27j8n0myannbj4s6m7mdi39g15h2z1j0fqfx0fpjqlh61zmz4"))))
+           (commit "8d2323e0c97a39ee5353dea2be60db5cde844e97")))
+     (sha256 (base32 "14a2l3yg934vpqfk7ch809piacadlbky22mmcvvan36jjrg7kswl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -76662,14 +76662,14 @@
 (define-public emacs-org-window-habit
   (package
    (name "emacs-org-window-habit")
-   (version "20260620.108")
+   (version "20260808.2040")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/colonelpanic8/org-window-habit.git")
-           (commit "19a6e070502e2b0d9aa85f12eda48debb44a479b")))
-     (sha256 (base32 "16lhsvdi0niaab5cy3ga0h6y63lwqpjiav6ks95lhkf9fjrwa80z"))))
+           (commit "0f3e9101fed8e51680bfecb4c90849df87d48da8")))
+     (sha256 (base32 "0q46gy8c2b9zng28xaggiczjsnbmvk57l1krkh6ns5y43y5kf8wk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/colonelpanic8/org-window-habit")
@@ -78881,14 +78881,14 @@
 (define-public emacs-package-lint
   (package
    (name "emacs-package-lint")
-   (version "20260619.1246")
+   (version "20260808.1622")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/package-lint.git")
-           (commit "35996f478d81e51dae4fa30d051f741895d07399")))
-     (sha256 (base32 "10yp7x36d0zj6pkr8asnyjfh9is40869vmyyx5k6vg0ar294x9l0"))))
+           (commit "87bf02ca387a37094e1a0057adefa9735d880cec")))
+     (sha256 (base32 "1asbhs0gmps627w8i6mgj3ws1d4j92ma4cmq2q31zpisd9v6s33j"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data" (:exclude "*flymake.el"))))
    (home-page "https://github.com/purcell/package-lint")
@@ -93988,14 +93988,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260807.1358")
+   (version "20260808.1935")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "8cd7d72bcc82bbb433e3ba5865e0dcb931c82738")))
-     (sha256 (base32 "1yc3qcpjj4gkdx3j5k9lwgh5s8f2q9xvp4ls78rp2j93wb5zl2zj"))))
+           (commit "90dc2b9e9aae1c6be47b16ca2948dced265eb7c2")))
+     (sha256 (base32 "06qcxw553vdx5vr8ag8rc5c2a3ianpxaz7gav6apk5nwljwsjw9j"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -94065,14 +94065,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260730.306")
+   (version "20260808.2219")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "957f61d8b8b57c1f463b56620a274eb77a09bc16")))
-     (sha256 (base32 "1ffwpqg2nwxbcikxixxfxr5rclaly0rr4bzgwnyx1zhnsdrfpph3"))))
+           (commit "32740772e0b669679df835d38044493b9b090487")))
+     (sha256 (base32 "0g9gxfv9q7dg31qcs98h2dx8x7dci5lynagqy7a8aa7gn5gr0dhd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -96245,14 +96245,14 @@
 (define-public emacs-spatial-window
   (package
    (name "emacs-spatial-window")
-   (version "20260221.1439")
+   (version "20260808.2306")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lewang/spatial-window.git")
-           (commit "2a6a4cec766a3ebcd41ab637c3eb9946e80b22b2")))
-     (sha256 (base32 "1g1yfl99cmmnzgwd1avpwrpvm1s8g4qybdzf68fkqp3hckxb724a"))))
+           (commit "62cde160ca14a3527902605e6e45b64ead87f2fa")))
+     (sha256 (base32 "00klrsv67fkmf3fv0vh7fhhh4ph490w1y1kalizgps0smzlhib7z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/lewang/spatial-window")
