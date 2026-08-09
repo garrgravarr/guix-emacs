@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260807.1511")
+   (version "20260808.2310")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "adb438b0b5597624ad3dc46b73c20aef4f52d8c9")))
-     (sha256 (base32 "04cqpwlfb2zhk5jbjzjmrpkzb3ym1pdg959b8zrcljaml1b5fwx5"))))
+           (commit "bba26b245839b663ae047e0f54e489b1d417bd68")))
+     (sha256 (base32 "08iwm7hijjr1m24z3dx4sv9fw7v78xyd5y3nlzbxidr7vwz6ln32"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -18546,14 +18546,14 @@
 (define-public emacs-dashboard
   (package
    (name "emacs-dashboard")
-   (version "20260402.436")
+   (version "20260809.447")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-dashboard/dashboard.git")
-           (commit "176d641a55543bda1f0c7506fb954702350c1857")))
-     (sha256 (base32 "0s5b3z62l0zscbly0l3zqvkc5ar9q1hcl930h591l7x5vjsl86zl"))))
+           (commit "a2c49ba27f3a906fd8b059da55104c1ec562b8b6")))
+     (sha256 (base32 "0z2gm1m99f1rkddina937zwngd396xxj9pylr1vy4shj53vl0804"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "banners")))
    (home-page "https://github.com/emacs-dashboard/dashboard")
@@ -26058,14 +26058,14 @@
 (define-public emacs-elisp-autofmt
   (package
    (name "emacs-elisp-autofmt")
-   (version "20260728.2357")
+   (version "20260809.525")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-elisp-autofmt.git")
-           (commit "217f5486b1652d6a6afac1a9966aa6a92ab355d2")))
-     (sha256 (base32 "1gdkrpccwq0dwyjgbaqisd8cd8sn45fgvq12va37pn7hafpgj95g"))))
+           (commit "e08250a58b684ad105e2914ca44ddbc24c003e68")))
+     (sha256 (base32 "1yb5n4qg0c9p1c9ilrslq09xxbsj1m8l5y67iwv7a7dgwp4dvpg3"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "elisp-autofmt.py" "elisp-autofmt.overrides.json")))
@@ -48819,14 +48819,14 @@
 (define-public emacs-hl-prog-extra
   (package
    (name "emacs-hl-prog-extra")
-   (version "20260730.1351")
+   (version "20260809.509")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-hl-prog-extra.git")
-           (commit "d7c857f3e18d2de83afe582412466dd1c8cbfa67")))
-     (sha256 (base32 "14z4hh4d03z8xnssmi86d0qdma09srmb43sf7npll6i9s0jvnk67"))))
+           (commit "72c35715942ebf2b6d6ff2a7122bbc36b16992f2")))
+     (sha256 (base32 "0x7gmjwzpm67wy8lcbpp4wp27a0hrd4brqyndpdrdi7gvl9v7w68"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-hl-prog-extra")
    (synopsis "Customizable highlighting for source-code")
