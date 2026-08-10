@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260810.130")
+   (version "20260810.452")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "d4aedaefc86eab8fd303dfdf1033f94758103887")))
-     (sha256 (base32 "15wig5qylj36qyf5vsb4sglwbbissdqihfhyl0gmj76n60zxh29h"))))
+           (commit "253bf2c550a2e08d4af837d3e7818b340e49791f")))
+     (sha256 (base32 "18yyjygpj4ycp9zg140hgfgf81xdxyyd0gv2r68ld9rccydsmd02"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -11449,14 +11449,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260809.1503")
+   (version "20260810.404")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "c2204dbcec0260b34e799a3c4f68b941522fed27")))
-     (sha256 (base32 "1jd2dy62vz8418dkqblmdbac47ml5xfbk74w2xg593k7inq8cl6k"))))
+           (commit "97c4f7fafa5599f781454b1d41861514efa0425e")))
+     (sha256 (base32 "0hg94289icjjz5h3alzxsn2jhpdavgs41ghydr5khq5nlrd3xbl5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -34182,14 +34182,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260808.1346")
+   (version "20260810.556")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "8d2323e0c97a39ee5353dea2be60db5cde844e97")))
-     (sha256 (base32 "14a2l3yg934vpqfk7ch809piacadlbky22mmcvvan36jjrg7kswl"))))
+           (commit "4914553f6705493811e74ca961f47dd51c117f1e")))
+     (sha256 (base32 "186rn3i57n857av4igzihh46m5pf14pz2jdprxvbxsm6cgfml435"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -68571,16 +68571,16 @@
 (define-public emacs-nix-mode
   (package
    (name "emacs-nix-mode")
-   (version "20230421.2036")
+   (version "20260810.417")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/NixOS/nix-mode.git")
-           (commit "719feb7868fb567ecfe5578f6119892c771ac5e5")))
-     (sha256 (base32 "1i2yh8wgn97q9hwaihznb5d7jql9acdjyj5q375gqwpq144g3xjv"))))
+           (commit "4b66989ba2ac67b9f9dae7f89afe9fdc056c01fe")))
+     (sha256 (base32 "03wl5ci138qa39g99h50cbpwqg1l4613s3w3m8bggf8d88kagk8w"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-magit-section))
+   (propagated-inputs (list emacs-magit-section emacs-reformatter))
    (arguments
     '(#:files (:defaults (:exclude "nix-company.el" "nix-mode-mmm.el"))))
    (home-page "https://github.com/NixOS/nix-mode")
@@ -70683,14 +70683,14 @@
 (define-public emacs-ob-julia-vterm
   (package
    (name "emacs-ob-julia-vterm")
-   (version "20251226.916")
+   (version "20260810.701")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/shg/ob-julia-vterm.el.git")
-           (commit "dbcabdf4502a7b6089b0537bc7ea8ef4f4526233")))
-     (sha256 (base32 "1y8wvc8fs9npdjnpj1gjd8f4h7npzczqdzfifbxkb21y32wpvbi3"))))
+           (commit "5752ed9b3ca44d5b314b1cbb426c664b8bae8f63")))
+     (sha256 (base32 "1sk07hk3zi900d9r4hfgf0sp4x68j2v5vlm6fa8mnblz064ryncm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-julia-vterm emacs-queue))
    (home-page "https://github.com/shg/ob-julia-vterm.el")
@@ -81316,14 +81316,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260805.1239")
+   (version "20260809.2332")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "60c53bde4500214db0afb7495c20c634bb90f7fe")))
-     (sha256 (base32 "07rkg1qlv5xwnd30zzvbzwlhrxamyrk8y9g3pnv49ixk4l2y5qwq"))))
+           (commit "a7b533fb8ab5a5e2fabb6c925ad2d7385456c1bd")))
+     (sha256 (base32 "0wbq4dmn1xd9px8hkbbx2y7xhz5fzlnr6piz7d6fkch5znwx6z3z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -81474,14 +81474,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260809.948")
+   (version "20260810.308")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "b99a592b0f6da253884d884de96311aa1ea71d11")))
-     (sha256 (base32 "1ji2p2gyzcw27nv5wrkzywsi54zvc71618fqyjqaw01h1mdfpz8j"))))
+           (commit "77d60de683d78e3595a9b995f5b1075b939a346b")))
+     (sha256 (base32 "0jyq3janqd474xwr01zv23v1rcykby10za50fgs3di2ibb3cv2l4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -84219,14 +84219,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260807.1455")
+   (version "20260810.604")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "112955495d5aa720caf9aed2daffded24b0ea4bc")))
-     (sha256 (base32 "0j2bwzcifibz6sa2q6xmw0igm13s7k8lfrjjz837b4ikzd76jn3r"))))
+           (commit "4cc310b2d02332a61965eaaef11519a4603b7987")))
+     (sha256 (base32 "1arf07qxd87kdh0qrijayvk0kv1pcj74593mgf9a6d8570x2k72m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -86262,7 +86262,7 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260809.1858")
+   (version "20260810.39")
    (source
     (origin
      (method git-fetch)
