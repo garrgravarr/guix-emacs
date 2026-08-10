@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260809.2146")
+   (version "20260810.1425")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "81de2124cd155cc2f5f8ca6d2a3cf1063470e048")))
-     (sha256 (base32 "1797pxn3sk4nx22pwgih1lwjiizmi22xm9j6mb388ji9mwzb1yyg"))))
+           (commit "a896bcc1781125ce9d09a78d8f28339cabce1533")))
+     (sha256 (base32 "037kk25c1x1j8bdngzf1xg17vxjfwf29aih5ylds1dnhvm20gvzn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -5968,14 +5968,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260809.2344")
+   (version "20260810.1338")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "984343f657e4ba24e1c84bc8b3b2d04f55f517d7")))
-     (sha256 (base32 "05cqal9dqx4736n3mnab0lldxxn1y8a8qjy5bsy1vnffp73bi1l7"))))
+           (commit "816e1571ed530b41fcef102cd6d9974c4343eb7d")))
+     (sha256 (base32 "0fsg8l8dd8dgdnx1qdm81y0x12mk2zakz6wm4zwyjk9g7352r8bs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -11449,14 +11449,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260810.404")
+   (version "20260810.1355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "97c4f7fafa5599f781454b1d41861514efa0425e")))
-     (sha256 (base32 "0hg94289icjjz5h3alzxsn2jhpdavgs41ghydr5khq5nlrd3xbl5"))))
+           (commit "2c2fef8209def9de6e77ad91bb86fc4f01297617")))
+     (sha256 (base32 "1mqp0s3gkfy5b6vqpzsarcd3h228ml7lvpg8pyl37arjq1jy3bcl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12273,14 +12273,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260808.826")
+   (version "20260810.917")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "9c622e9eef271d8a0ad37ce69c189eda6c770722")))
-     (sha256 (base32 "0k3ykgsdad30x2pkgky9pi6qzycgm1sjfqxmh1bcm0ah08cdd34h"))))
+           (commit "60e21a2feb0eb728183dff1331f72953c46a1e2a")))
+     (sha256 (base32 "023jiaxvmqqv2zk59rbigl1g97f3fi4yg6sn9160l2bjbzi0rq58"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -26095,14 +26095,14 @@
 (define-public emacs-elisp-autofmt
   (package
    (name "emacs-elisp-autofmt")
-   (version "20260809.1124")
+   (version "20260810.802")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-elisp-autofmt.git")
-           (commit "67a078fcd4199879189d602d8068f9d4c5d72616")))
-     (sha256 (base32 "0f2r4rdw4incfsjcz8li0q8zw9h9ym1l81rwddyhpwjb44qzawhy"))))
+           (commit "6e6753959c1f53d285a8552603265c58773790f6")))
+     (sha256 (base32 "1azmx9ch8hm0z916h7n24q9wgld5s9sq4ym2n0lymlw1zjs29953"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults "elisp-autofmt.py" "elisp-autofmt.overrides.json")))
@@ -34182,14 +34182,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260810.556")
+   (version "20260810.1125")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "4914553f6705493811e74ca961f47dd51c117f1e")))
-     (sha256 (base32 "186rn3i57n857av4igzihh46m5pf14pz2jdprxvbxsm6cgfml435"))))
+           (commit "e6fe520a21df70854055468a77c2dfe8adf02297")))
+     (sha256 (base32 "0xw8054ls2pp7i9qkb72mwh36p0iz1l2ga6kjriz33c7mzxyz5ng"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -34638,14 +34638,14 @@
 (define-public emacs-flycheck-d-unittest
   (package
    (name "emacs-flycheck-d-unittest")
-   (version "20160522.417")
+   (version "20260810.759")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck-d-unittest.git")
-           (commit "3e614f23cb4a5566fd7988dbcaaf254af81c7718")))
-     (sha256 (base32 "0lrxyrvdkj88qh78jmamrnji770vjsr6h01agl7hvd4n2xvlxcym"))))
+           (commit "4ebaabedfd52d63d7e4f62c8dce279eaef635e45")))
+     (sha256 (base32 "1dql83q97y1x9196k6yb5x9npn8z256hzh1y6j4xc7bv5g0jrna8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck emacs-dash))
    (home-page "https://github.com/tom-tan/flycheck-d-unittest/")
@@ -35235,14 +35235,14 @@
 (define-public emacs-flycheck-inline
   (package
    (name "emacs-flycheck-inline")
-   (version "20250724.650")
+   (version "20260810.759")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck-inline.git")
-           (commit "8af846984375c9bf5786cc57f7ce00bc6a6a4555")))
-     (sha256 (base32 "0nqx2qss0b87ryp4s5bfqll1p257rr1b297yw5n8h0qkmka8jq7q"))))
+           (commit "ac651c6b3101c32eb615d454a4214c4fbd9e1260")))
+     (sha256 (base32 "0q1j9dd9iw8ifjwz6ks49fx9l3aiprp845jcv81ldvlnmx7j456j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck))
    (home-page "https://github.com/flycheck/flycheck-inline")
@@ -35544,14 +35544,14 @@
 (define-public emacs-flycheck-ocaml
   (package
    (name "emacs-flycheck-ocaml")
-   (version "20220730.542")
+   (version "20260810.1135")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck-ocaml.git")
-           (commit "77f8ddbd9bfc3a11957ac7ec7e45d5fa9179b192")))
-     (sha256 (base32 "0ndqd5s43la6nyrzff7w4d7kb7ya77i0givi8p8cik4r8nfxwjnd"))))
+           (commit "e302792ba72ad57b262e1ab79799960d49a4278d")))
+     (sha256 (base32 "0az2ps6qhzxcim4np3cfy0gxi3hvlkbirjyvqv7q09ibic7cj93b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck emacs-merlin))
    (home-page "https://github.com/flycheck/flycheck-ocaml")
@@ -35690,14 +35690,14 @@
 (define-public emacs-flycheck-popup-tip
   (package
    (name "emacs-flycheck-popup-tip")
-   (version "20170812.2351")
+   (version "20260810.759")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck-popup-tip.git")
-           (commit "ef86aad907f27ca076859d8d9416f4f7727619c6")))
-     (sha256 (base32 "1bi6f9nm4bylsbjv4qnkar35s6xzdf2cc2cxi3g691p9527apdz6"))))
+           (commit "79a70cf1f3b7b8db4eeb7cec01f6dedc0a38cabb")))
+     (sha256 (base32 "1lasqqwh12lb859bmbyj3p5d57g9y13w8mj35ajb72qx1n4f5kmx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck emacs-popup))
    (home-page "https://github.com/flycheck/flycheck-popup-tip/")
@@ -35708,14 +35708,14 @@
 (define-public emacs-flycheck-pos-tip
   (package
    (name "emacs-flycheck-pos-tip")
-   (version "20200516.1600")
+   (version "20260810.759")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck-pos-tip.git")
-           (commit "dc57beac0e59669926ad720c7af38b27c3a30467")))
-     (sha256 (base32 "15h4m5cfk0vh1g630vlwfxmcpa1jdalrrldnvijsqla99mb2jm1w"))))
+           (commit "16f1757a76320ae6082d06f9a18195a316d81258")))
+     (sha256 (base32 "1gsfa7pzdbw96sfqqvq5h36ksg4yw08011dyf6x7y3i6jqws74qq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck emacs-pos-tip))
    (home-page "https://github.com/flycheck/flycheck-pos-tip")
@@ -48873,14 +48873,14 @@
 (define-public emacs-hl-prog-extra
   (package
    (name "emacs-hl-prog-extra")
-   (version "20260809.509")
+   (version "20260810.948")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-hl-prog-extra.git")
-           (commit "72c35715942ebf2b6d6ff2a7122bbc36b16992f2")))
-     (sha256 (base32 "0x7gmjwzpm67wy8lcbpp4wp27a0hrd4brqyndpdrdi7gvl9v7w68"))))
+           (commit "2896595512b4e0fe36f915227bd5db4d158cc658")))
+     (sha256 (base32 "0qhch6x4gqax256sf5x3p4vlkanwkz28p0nb741m0cp9zv8jq8v9"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-hl-prog-extra")
    (synopsis "Customizable highlighting for source-code")
@@ -53562,14 +53562,14 @@
 (define-public emacs-jal
   (package
    (name "emacs-jal")
-   (version "20260722.1158")
+   (version "20260810.1507")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/saulotoledo/java-agent-loader.git")
-           (commit "2d3f4b23ef4fa3883d2397877ec62ff5fb2b94af")))
-     (sha256 (base32 "0gkyf19aq7zvpk1d0sip1mq9h0p6fpl2azz036n0cm5986y8kiyk"))))
+           (commit "00cb7be8facea246906f74d70e07f84e16222b08")))
+     (sha256 (base32 "1ixlxyhcxc1sl28d33qidqa6n4q4a0zs8vhm721k2d8b6fl6h619"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/saulotoledo/java-agent-loader")
    (synopsis "Java Agent Loader (JAL) for JDTLS")
@@ -56778,14 +56778,14 @@
 (define-public emacs-koishi-theme
   (package
    (name "emacs-koishi-theme")
-   (version "20260730.1557")
+   (version "20260810.1337")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gynamics/koishi-theme.el.git")
-           (commit "ce7463a8146157da1b2606bca325d0980ae912f8")))
-     (sha256 (base32 "1sfbna4l3xfm9y62v3davgi370w25a3wkqd4l880lcm4na7nn7sk"))))
+           (commit "c719c98750ac41d4e3718a4aba5e4887e1d37c1b")))
+     (sha256 (base32 "0ym42lccnpbarsphw900w2b5jk4gv867lzyxwgjicji2n2qc9lah"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gynamics/koishi-theme.el")
    (synopsis "A sweet theme inspired by Koishi's color tone")
@@ -63852,14 +63852,14 @@
 (define-public emacs-meshmonitor-chat
   (package
    (name "emacs-meshmonitor-chat")
-   (version "20260809.1045")
+   (version "20260810.1354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/andros/meshmonitor-chat.el.git")
-           (commit "fefeee9cc080ef4ef6f912da72845ded639bf9f5")))
-     (sha256 (base32 "0fgvqnawv5hrbxxl9asmsj14v7n2k3pnvsfn2nhbrs4k1gkn9abb"))))
+           (commit "9de674409e20cbe8efa400443f53d8fa1285577a")))
+     (sha256 (base32 "0gkqxppscm1mjcmszjxfdxa0qnfn825mybpddi30fmikyrfyml1a"))))
    (build-system melpa-build-system)
    (home-page "https://git.andros.dev/andros/meshmonitor-chat.el")
    (synopsis "Chat client for MeshMonitor (Meshtastic)")
@@ -80838,14 +80838,14 @@
 (define-public emacs-pg
   (package
    (name "emacs-pg")
-   (version "20260719.1514")
+   (version "20260810.1614")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emarsden/pg-el.git")
-           (commit "6d4b528cfd1e7f776eb0e4c14d84668fa69a041b")))
-     (sha256 (base32 "1v19h9q7lsiqaxpfqhlvg16iqjj47hin4h1qgmw8kngy68l6w4js"))))
+           (commit "53299f3484304a95eccb63f57269b730b09dea5b")))
+     (sha256 (base32 "0r4n8phqaxrmm1i7p3ljqxli562iy7mpjpxzh97cy0wvpwixwah1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-peg))
    (home-page "https://github.com/emarsden/pg-el")
@@ -81155,14 +81155,14 @@
 (define-public emacs-php-mode
   (package
    (name "emacs-php-mode")
-   (version "20260805.1304")
+   (version "20260810.1325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/php-mode.git")
-           (commit "a3658f63d85b1558a9dbdec45f33eed8f0d56041")))
-     (sha256 (base32 "14yf3qd7yy45rpd9yxbf1prq63arn8xz8mqjyqqgxbwhljh1sisq"))))
+           (commit "f92c0acf51a36c30b8dd8b7a2b61c2785be45780")))
+     (sha256 (base32 "0imdlka1ixxp4b3cz8g1w4d6kdrjcq2r6ly4dw9szm4r18w6dh2n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacs-php/php-mode")
    (synopsis "Major mode for editing PHP code")
@@ -81474,14 +81474,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260810.308")
+   (version "20260810.1651")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "77d60de683d78e3595a9b995f5b1075b939a346b")))
-     (sha256 (base32 "0jyq3janqd474xwr01zv23v1rcykby10za50fgs3di2ibb3cv2l4"))))
+           (commit "099f5a74238e43a79048c6ba2b291ddb3f318e85")))
+     (sha256 (base32 "1plpxi7j8szcxlw93v0w09gsjs42ii0pr23wffamfhhcm4n49hzb"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -84219,14 +84219,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260810.604")
+   (version "20260810.1149")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "4cc310b2d02332a61965eaaef11519a4603b7987")))
-     (sha256 (base32 "1arf07qxd87kdh0qrijayvk0kv1pcj74593mgf9a6d8570x2k72m"))))
+           (commit "f954c2f0f347500e1b5b482d9492075447de5256")))
+     (sha256 (base32 "1bk7x8w5fiwjxb8szc70lcg5ph5sb15v2rq2m59wp7nka5wdjhyn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -84610,14 +84610,14 @@
 (define-public emacs-promptu
   (package
    (name "emacs-promptu")
-   (version "20260802.2345")
+   (version "20260810.1345")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/promptu.el.git")
-           (commit "37a3c801596d6f0fdab5ae74d2c631c8d65643d7")))
-     (sha256 (base32 "14blssg6sw6ljd39ksf7v86xsa3dvji32mgrfic1r5b98vl8n1dc"))))
+           (commit "926bf7507d550efc7c86a84a3aa906e91116d663")))
+     (sha256 (base32 "0kwva5ac47s3kgkjgarxchqjg7s1pnpxnwk2fd6s5q85z35lfm1h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/promptu.el")
    (synopsis "Compose LLM prompts from building blocks")
