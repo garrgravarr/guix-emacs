@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260810.452")
+   (version "20260811.425")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "253bf2c550a2e08d4af837d3e7818b340e49791f")))
-     (sha256 (base32 "18yyjygpj4ycp9zg140hgfgf81xdxyyd0gv2r68ld9rccydsmd02"))))
+           (commit "6e9da1ad6126614867e4efde4af8327dca347382")))
+     (sha256 (base32 "0rys0198j5lwjjfr8abxhkk5ghqzljm8h51phi0zyrwavxjf6sxb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -20045,14 +20045,14 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20260723.238")
+   (version "20260811.347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "91fcd4fa42fef895a754e80c4435ae6314be7822")))
-     (sha256 (base32 "0b1h9i7j6q4iix5a58phfpk2qnnpxnq5p4d1irlksg7jx37h535h"))))
+           (commit "6f1df2b83d1140a2938409b35de7f4c9c7b1defd")))
+     (sha256 (base32 "01id1wch4jc1y6zcn4ddzdw1iq0sfar7w2s6yarg0q5nbzydpsi0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
    (synopsis "Highlight uncommitted changes using VC")
@@ -62024,14 +62024,14 @@
 (define-public emacs-magit-tbdiff
   (package
    (name "emacs-magit-tbdiff")
-   (version "20260315.55")
+   (version "20260811.44")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit-tbdiff.git")
-           (commit "e7391536e23a0d6d28cc4b153db3f446a51da8b7")))
-     (sha256 (base32 "10kcqcamg4jf24kdsp7zah8v9rvjs7a76ryq98vyx8hxkfx9qs4z"))))
+           (commit "62e2c726a26eb7b8c39048e091062d206610649d")))
+     (sha256 (base32 "1ssjwm4cbg0m16f6l8fxg0lsyv92apy46a48w2bvv6nz61c1hpfr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (home-page "https://github.com/magit/magit-tbdiff")
@@ -81474,14 +81474,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260810.1651")
+   (version "20260811.250")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "099f5a74238e43a79048c6ba2b291ddb3f318e85")))
-     (sha256 (base32 "1plpxi7j8szcxlw93v0w09gsjs42ii0pr23wffamfhhcm4n49hzb"))))
+           (commit "d0b405cf9ca396b1a15efc390a5aebb72a0e2580")))
+     (sha256 (base32 "0g40lyilksmgwxpg9303bvvfbh0fk9d0rhgkyn5l1m2j1v6rkv4l"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -99829,14 +99829,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260806.845")
+   (version "20260811.721")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "c7273cce799d60b6c8bb470cfa26ed267324ff02")))
-     (sha256 (base32 "12dli34j15d0rn32h5rbnlqj273rlfa1bmy0gaw0z6a57kksrw3a"))))
+           (commit "bc46f93733e63b20a4d95eb13a49b99b3b309ca6")))
+     (sha256 (base32 "1xh9a0j2zp0vhrgkg2h3ycfwfgrra2kvv26aghj7pjq4yj5klsna"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
