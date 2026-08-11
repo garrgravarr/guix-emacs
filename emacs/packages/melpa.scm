@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260810.1425")
+   (version "20260811.1508")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "a896bcc1781125ce9d09a78d8f28339cabce1533")))
-     (sha256 (base32 "037kk25c1x1j8bdngzf1xg17vxjfwf29aih5ylds1dnhvm20gvzn"))))
+           (commit "b6eb936a10be8ed3340f62e23be983dc5de2289f")))
+     (sha256 (base32 "0gy4l5jxygb5h7vpqqx8byncfp0xwr11dnsq9amz6lgh7m50k7ca"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -9251,14 +9251,14 @@
 (define-public emacs-calibredb
   (package
    (name "emacs-calibredb")
-   (version "20260412.622")
+   (version "20260811.1404")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/chenyanming/calibredb.el.git")
-           (commit "af6fc49edf72f0ebc42d9d3983ad00c268541092")))
-     (sha256 (base32 "0ba6iqhb94a3rlkbp0v3bp6pk68yp7mmxcq8hvl51543q9w88310"))))
+           (commit "18d146481d0176935fde1baebec6d1a65151cff6")))
+     (sha256 (base32 "01lraclkxs52i8j7rszrafjs7ns579w853jc3gcpk1qhc6aqrs1c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-request emacs-esxml))
    (home-page "https://github.com/chenyanming/calibredb.el")
@@ -23945,14 +23945,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260805.1842")
+   (version "20260811.1456")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "b96182186db24506f4343c772abb6cedb89abc46")))
-     (sha256 (base32 "0ajsw5dl4fz59ncwyi86nx7fr9993llj00mxdlifc36lynmzcz2q"))))
+           (commit "f1455057000612a8ef5f9ba0b4eebf3368b0f0fd")))
+     (sha256 (base32 "1ixi44zpkfj1rzpzwnipa0vnwscc38nwvjrrxbs42z3nyspaszkg"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -27991,14 +27991,14 @@
 (define-public emacs-envrc
   (package
    (name "emacs-envrc")
-   (version "20260622.1004")
+   (version "20260811.1221")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/envrc.git")
-           (commit "77e9dec1563bc204cc9e086cd8a7d3622196224c")))
-     (sha256 (base32 "11ksm8049332a9j5p1xmrwwvmmn74kxwc7v4gaza131kx271jr19"))))
+           (commit "e4f9fd79a612c8f81b4ba5b12ee7261fc33568f0")))
+     (sha256 (base32 "1fxvcyjqxkpsg7praknyyarbsqrq48gnzh14q0z36jh7ws1g9rhi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://github.com/purcell/envrc")
@@ -32322,14 +32322,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260807.1211")
+   (version "20260811.905")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "2d9a53a15e8cd391547fcbc28d0be2a278fc2e95")))
-     (sha256 (base32 "183dbfk8g0zgjnzya9g9a7y8n548f2yv7nrp5gwcr3qd5i7krpw0"))))
+           (commit "6b11fa589cfa5d4830df86ade3c5b050c1f96704")))
+     (sha256 (base32 "0n7r14rsdbs4szg47vhcmwbspv8jmg0yg53q3nc916x9wjcqljax"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -34182,14 +34182,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260810.1125")
+   (version "20260811.1254")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "e6fe520a21df70854055468a77c2dfe8adf02297")))
-     (sha256 (base32 "0xw8054ls2pp7i9qkb72mwh36p0iz1l2ga6kjriz33c7mzxyz5ng"))))
+           (commit "d7860ed0c116f1660b43fb0c4d8f37009d3f08fc")))
+     (sha256 (base32 "0lg74rahryv3vj6rn1p1lx17k8bv0z3vxarlzbf8zxdi156rz14x"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -49777,14 +49777,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260809.1848")
+   (version "20260811.1331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "fa9bc5a5ba75006c8a2fb61802c0af28833bc435")))
-     (sha256 (base32 "0n0wj6yvgk4s714nlymaa1qyypmhahnz0hbffanfdmvxa6hlp3al"))))
+           (commit "ca94a43632ba60074601f46682d8faf1007f7c1d")))
+     (sha256 (base32 "0nca3dgh18idnhc0wj189ag92hnad6jwvga4ycv59zjryy4a7dkd"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -84219,14 +84219,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260810.1149")
+   (version "20260811.743")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "f954c2f0f347500e1b5b482d9492075447de5256")))
-     (sha256 (base32 "1bk7x8w5fiwjxb8szc70lcg5ph5sb15v2rq2m59wp7nka5wdjhyn"))))
+           (commit "fcd8f2b7d9e67623bfcdcb3ab874d31016badeae")))
+     (sha256 (base32 "19b7lkn25fwf6zx8xy4r7yvf5j0yd412nl5d1qmbxvwjb2mr7cna"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -95580,16 +95580,15 @@
 (define-public emacs-soccer
   (package
    (name "emacs-soccer")
-   (version "20231108.1633")
+   (version "20260811.1656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/md-arif-shaikh/soccer.git")
-           (commit "96dd98a34238c8019d48507071df5d2b199360cd")))
-     (sha256 (base32 "1ys401q58wm8sc3ly7w3vvpxcgz3i6gifcf19f2v6jd7pikcifrv"))))
+           (commit "a830179501ef8e636986ae2fe05e76a6ceb63405")))
+     (sha256 (base32 "189kr0i7spgxcm4138zcvi7b8sryap5w3d0bi6x7is854n2id90j"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/md-arif-shaikh/soccer")
    (synopsis "Fixtures, results, table etc for soccer")
    (description "Documentation at https://melpa.org/#/soccer")
@@ -99829,14 +99828,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260811.721")
+   (version "20260811.1139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "bc46f93733e63b20a4d95eb13a49b99b3b309ca6")))
-     (sha256 (base32 "1xh9a0j2zp0vhrgkg2h3ycfwfgrra2kvv26aghj7pjq4yj5klsna"))))
+           (commit "97406c7aab68dabb7d72a3394f7bbfa0470fbd8b")))
+     (sha256 (base32 "0p9np0w4c7rjshmvpslqz6wz7dw7104yyfiimijb1zcmj28725ir"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -106001,14 +106000,14 @@
 (define-public emacs-vertico
   (package
    (name "emacs-vertico")
-   (version "20260805.1129")
+   (version "20260811.1003")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/vertico.git")
-           (commit "be96000c2b0b3501723291b3721ceba12f784dcd")))
-     (sha256 (base32 "11np54843v3hh868d2chrvajgdrrcz8czfg9l9vcf46d2wmbwc78"))))
+           (commit "9adb8188c4aa926c15b8d68097c13f66c0d72071")))
+     (sha256 (base32 "1ddkjf29l5jy3f3144a7ghsqd7b62whjwpigylnhd2xzd06mv7a7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/vertico-*.el")))
@@ -107043,14 +107042,14 @@
 (define-public emacs-w3m
   (package
    (name "emacs-w3m")
-   (version "20251201.129")
+   (version "20260811.923")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-w3m/emacs-w3m.git")
-           (commit "87cacb2a0e59db00b8deb3f40a2a9f8141f3217b")))
-     (sha256 (base32 "1maw0dqyl5gflmvxp9n5xi870pq6m8gl1fxw06021qpjvwhkzzlv"))))
+           (commit "bb01ba0329ee5b02c2ff260d8881bbc6f389d80a")))
+     (sha256 (base32 "02js8pqx9mh45wmn43az42r15xad6q6bq51blpmixh21ynpz4vsx"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
