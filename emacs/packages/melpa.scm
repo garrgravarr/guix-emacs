@@ -11466,14 +11466,14 @@
 (define-public emacs-claude-code
   (package
    (name "emacs-claude-code")
-   (version "20260731.1230")
+   (version "20260812.1216")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/yuya373/claude-code-emacs.git")
-           (commit "77b3edc129f947859e500a363ce767d0555e57e1")))
-     (sha256 (base32 "04jag5vf8ma5z438cihmxyzxhsnawqw5i90h1pawbr7nkkk08nxn"))))
+           (commit "ebc13e87c4c04e5df2c486c118570e1076fbc945")))
+     (sha256 (base32 "0kf54d7mw4qby7jfhpc4gimymxbrd5q55iplvsj0hncdakhl31jn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projectile emacs-vterm emacs-markdown-mode))
    (arguments '(#:files (:defaults (:exclude "install-deps.el"))))
@@ -25748,14 +25748,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260805.830")
+   (version "20260812.1145")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "2970e5d1aa2a6f5c4cb607e0b835b91a6bffec4f")))
-     (sha256 (base32 "02clfww8kkrryr6lw7qk98mc2chhksqx2yz626liyybdmbxqdqnn"))))
+           (commit "f35317b73b0c6c9d590b67a989c36b83011be4ab")))
+     (sha256 (base32 "1q2vria65yj1xm1b9lh2z692cn77m9azbbf3qigvlzf6bakm6f0x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -39947,14 +39947,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260807.2147")
+   (version "20260812.1355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "037378b44ceedf1c8bf15e365fc62c7f5c92363d")))
-     (sha256 (base32 "1ridc5d7qfjnmvd66imhlghwklj1m9xxw1y3vdn8zyf741rl6i87"))))
+           (commit "fd53e45e098e6efd8ce0dac29f23ddd1819b9695")))
+     (sha256 (base32 "02gcmyj1f3qzfmifygqgsdc8ka0g8ylh4nffqdksgzcmz3v1cazi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -58390,14 +58390,14 @@
 (define-public emacs-leuven-theme
   (package
    (name "emacs-leuven-theme")
-   (version "20260213.1052")
+   (version "20260812.849")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fniessen/emacs-leuven-theme.git")
-           (commit "c3546e6a84c138fd8cdbd33998fefcf834c45018")))
-     (sha256 (base32 "0lrgbhqr8v59f6brcd21a9answgax7gii0pwqblf889x7js5jd0z"))))
+           (commit "34d03aba2babc1d6982e620ecedb7da2ef24f606")))
+     (sha256 (base32 "0a2hzd7hv7yprsiji57b2l3yl2w8mpgdqcb7l0xqcvs0qnrq7ggd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/fniessen/emacs-leuven-theme")
    (synopsis "Elegant Emacs color theme for a white background")
@@ -58550,14 +58550,14 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20260715.958")
+   (version "20260812.1115")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/liberime.git")
-           (commit "64db15eca098f3d3942e9f83422e12711dbe2ecb")))
-     (sha256 (base32 "1nhrxh3wawgxjky2zklkc8qnwjrxxzhsl47lv4yk7wa67k4667nb"))))
+           (commit "f805e3bf7ba1e809939a3fe059dd112f8167e849")))
+     (sha256 (base32 "120p25mfbap44hmxcmb7jczhzxv75x3v4ilq5rjm4vh131mwqr08"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -80838,14 +80838,14 @@
 (define-public emacs-pg
   (package
    (name "emacs-pg")
-   (version "20260810.1614")
+   (version "20260812.941")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emarsden/pg-el.git")
-           (commit "53299f3484304a95eccb63f57269b730b09dea5b")))
-     (sha256 (base32 "0r4n8phqaxrmm1i7p3ljqxli562iy7mpjpxzh97cy0wvpwixwah1"))))
+           (commit "17e82d7557cc8d86abdf0679c6a54be3bc25cf5f")))
+     (sha256 (base32 "0nms8sqqkyb2pjfdbi1v79rp3p0h1b5pg9n5zlamfg38khbzwcjw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-peg))
    (home-page "https://github.com/emarsden/pg-el")
@@ -86555,14 +86555,14 @@
 (define-public emacs-quick-sdcv
   (package
    (name "emacs-quick-sdcv")
-   (version "20260601.1608")
+   (version "20260812.1458")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/quick-sdcv.el.git")
-           (commit "f0583c0ca6a9c155ea0037c9c59e0665a884e33d")))
-     (sha256 (base32 "0x0z124d4gp9d3dakxb9ghwssk3cwdh20r2xiwddgxxx77p4b5nw"))))
+           (commit "c5de920c8c139799ec6a1e80bad4afed5fcbe6ee")))
+     (sha256 (base32 "09yissi2dfmjf75lidnkndpipp8chg0ymga0csyha7sr49mdmp7k"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/quick-sdcv.el")
    (synopsis "Offline dictionary using 'sdcv' (StartDict cli dictionary)")
@@ -96201,14 +96201,14 @@
 (define-public emacs-spacemacs-theme
   (package
    (name "emacs-spacemacs-theme")
-   (version "20260523.1256")
+   (version "20260812.1549")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nashamri/spacemacs-theme.git")
-           (commit "cbd290dfde96f53a7b41730c7840850a8a7b8a02")))
-     (sha256 (base32 "07a15mx6p1s3dpbqplv24p7blqvdcr8b92g9ds60za6p25yrfmgs"))))
+           (commit "c1617a86bc18ae611b0c0cf1d51e5906a2676c6b")))
+     (sha256 (base32 "1xa3x3ilfmdnzanmv1mh1ag0lj46xm9c4lhgrsqnpg7vcbg84kyx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/nashamri/spacemacs-theme")
    (synopsis "Color theme with a dark and light versions")
@@ -99828,14 +99828,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260812.642")
+   (version "20260812.1107")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "38084ca7f0c03097fe0cf0f5a49b5af14f90895a")))
-     (sha256 (base32 "0874da9q7nw6war53szfkid2ndbmprj7zfnqgnzwq7p4agfw5nzj"))))
+           (commit "693712fb0c20ffe3f74edcd6b37f091d5a112279")))
+     (sha256 (base32 "1h54chab8ph2qw9iwffssqf0s6wys2naax6na37inwb7nnmhvghn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -106883,14 +106883,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260812.640")
+   (version "20260812.1220")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "d026eac87d1b25992891e1e276ad08653cca38f0")))
-     (sha256 (base32 "18vzjjs7xjyb009jbax9aas23rrz20isq535c1aq5g2cpvxjiz69"))))
+           (commit "d0c2fea0a2b245acb22d6d8e2a2441fd6508b8b0")))
+     (sha256 (base32 "19l7s0mr5g5zl3c0aiy5l2pa2a54csribb24h43s11fv9c1hlkpz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -106919,14 +106919,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260810.1646")
+   (version "20260812.835")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "5fbbb3235b7bf2fdc345a45195608d452c4432ab")))
-     (sha256 (base32 "1q04y8rvbla97j7kzw0k41zbdy3nk751kix4dzsimsnsai97q09x"))))
+           (commit "96a163a6c08a2f8b4d2833cde598624ea8643f01")))
+     (sha256 (base32 "080sa2nfr19ahzbc91km57wr48qmsj8qqgfnab4r4cyy8alnhxkh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -106955,14 +106955,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260708.1156")
+   (version "20260812.917")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "e734d083e2838250f3ca2ec6da616ce8dcbb96d8")))
-     (sha256 (base32 "1lpz2pidglzxfky20ljxqvipldg54765b9allkmysy21gl37hy67"))))
+           (commit "d0068de942cc750cd4f3e7b00627bf5cc68a2d0d")))
+     (sha256 (base32 "1hdhxq04ryks53czzim8mimlxv9hm7k3p7ryi3iarypdmhf7nwm8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
