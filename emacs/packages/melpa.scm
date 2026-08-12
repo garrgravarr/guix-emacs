@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260811.1508")
+   (version "20260811.2209")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "b6eb936a10be8ed3340f62e23be983dc5de2289f")))
-     (sha256 (base32 "0gy4l5jxygb5h7vpqqx8byncfp0xwr11dnsq9amz6lgh7m50k7ca"))))
+           (commit "ab620f37dd88089afa559de2b0f189dc8c9566e5")))
+     (sha256 (base32 "09x7daczcz6zpsm0rwzg8igdfdgd4ygp1ngjsp5lmhfa6qz3gj70"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -28627,14 +28627,14 @@
 (define-public emacs-ergoemacs-mode
   (package
    (name "emacs-ergoemacs-mode")
-   (version "20240809.2246")
+   (version "20260811.2315")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ergoemacs/ergoemacs-mode.git")
-           (commit "97d856bbf081de1d387ec646d06aac7bcce3f675")))
-     (sha256 (base32 "19akh95hgm0fb4akhdyn66sh6r9aff7wlmq4chpqpdq0cxdgyhw8"))))
+           (commit "5e83523752a47231af64c352fe4af57ad44dc456")))
+     (sha256 (base32 "0wlv7ypsj733h5rk17v6pq6xaaf3llr9nvshjappwsphs0pbnclq"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -34182,7 +34182,7 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260811.1254")
+   (version "20260811.1629")
    (source
     (origin
      (method git-fetch)
@@ -65385,14 +65385,14 @@
 (define-public emacs-moe-theme
   (package
    (name "emacs-moe-theme")
-   (version "20260515.841")
+   (version "20260811.1919")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kuanyui/moe-theme.el.git")
-           (commit "c7d711e940a6c4e7a2270830aeaf52c1ce789455")))
-     (sha256 (base32 "141jzhfpcah0lw17lwgsd31jp93qr02371rjm2k92vawhx90hir6"))))
+           (commit "d091865eeb97b0894e6517137dc0544560bc57fb")))
+     (sha256 (base32 "0q3fv28dr9cgr1fyf93j8ylh1yp7l7q31s085qi9zy5nz5yljqd9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kuanyui/moe-theme.el")
    (synopsis "A colorful eye-candy theme. Moe, moe, kyun!")
@@ -73095,14 +73095,14 @@
 (define-public emacs-org-cite-overlay
   (package
    (name "emacs-org-cite-overlay")
-   (version "20260630.558")
+   (version "20260811.1640")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~swflint/org-cite-overlay")
-           (commit "40dde06e57f4b7f5335e9d5e076e7c2a2dcc7861")))
-     (sha256 (base32 "05wa8apw2h4xgj5038gvfv9lvjad0db50y150a9s04frf08jy8ml"))))
+           (commit "2b902937caf2b47b82b2f2a8a8aee97900069178")))
+     (sha256 (base32 "0yqkxgyxx20zhyinf9dma0b2i44c955p4pwyzgxchlv287pwf155"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-citeproc))
    (arguments '(#:files ("org-cite-overlay.el")))
@@ -73114,14 +73114,14 @@
 (define-public emacs-org-cite-overlay-sidecar
   (package
    (name "emacs-org-cite-overlay-sidecar")
-   (version "20251130.300")
+   (version "20260811.1640")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~swflint/org-cite-overlay")
-           (commit "452f467f044866b169314d6b691e22f95c94e2b5")))
-     (sha256 (base32 "01payrd42n1qa1j6s2p5h48plq2y9n1bsmbk1h79a2k2jz78jlk3"))))
+           (commit "2b902937caf2b47b82b2f2a8a8aee97900069178")))
+     (sha256 (base32 "0yqkxgyxx20zhyinf9dma0b2i44c955p4pwyzgxchlv287pwf155"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-citeproc
@@ -95580,14 +95580,14 @@
 (define-public emacs-soccer
   (package
    (name "emacs-soccer")
-   (version "20260811.1656")
+   (version "20260811.1723")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/md-arif-shaikh/soccer.git")
-           (commit "a830179501ef8e636986ae2fe05e76a6ceb63405")))
-     (sha256 (base32 "189kr0i7spgxcm4138zcvi7b8sryap5w3d0bi6x7is854n2id90j"))))
+           (commit "fd00b49d63faef7137f883d571f2ed692337cd68")))
+     (sha256 (base32 "1ny1pv1f5p9i7spqa5d52s509jnpd8v797xdlx98ilb7f5qpj5rn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/md-arif-shaikh/soccer")
    (synopsis "Fixtures, results, table etc for soccer")
