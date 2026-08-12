@@ -12273,14 +12273,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260811.121")
+   (version "20260812.349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "9b3f7889ce7de99326b2f5ee23af9db40c47b4db")))
-     (sha256 (base32 "0p198fkw9vxfi4m5vn6y0b8zkhyrvrkzrq77rvwc7sxywd9ah3kb"))))
+           (commit "3887c8c1a98128af619ef2e64952dfbf148a8508")))
+     (sha256 (base32 "1z2vha70zngyy8mazzmzg7wh3rcfvybhfs9b13jmw8hkpind0jdk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -32322,14 +32322,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260811.905")
+   (version "20260812.607")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "6b11fa589cfa5d4830df86ade3c5b050c1f96704")))
-     (sha256 (base32 "0n7r14rsdbs4szg47vhcmwbspv8jmg0yg53q3nc916x9wjcqljax"))))
+           (commit "6752741314e3adfba5e36832c35164d7238f7ed2")))
+     (sha256 (base32 "1azj0x5nqczl84wy23asbpri1r2n0kwyv29k2dkj9phhg6hx95z8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -49777,14 +49777,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260811.1331")
+   (version "20260812.619")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "ca94a43632ba60074601f46682d8faf1007f7c1d")))
-     (sha256 (base32 "0nca3dgh18idnhc0wj189ag92hnad6jwvga4ycv59zjryy4a7dkd"))))
+           (commit "38d4dbf41e52cfd3e5213de6133232b143df32e4")))
+     (sha256 (base32 "1xkv76i0bv3vfb2l04k4i00an313k1n3m28qhhdblnma0kw94yc8"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -76268,14 +76268,14 @@
 (define-public emacs-org-tempus
   (package
    (name "emacs-org-tempus")
-   (version "20260601.1225")
+   (version "20260812.519")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rul/org-tempus.git")
-           (commit "b5562ca4e3344dde465b5cbd86275336aeac44df")))
-     (sha256 (base32 "1gl4bcs7xq0bq4bs7mhmkr24a8n44v7iip2qfp423r4v1a3qk0ry"))))
+           (commit "df2ab9dd52622e8a06a9a2e0b8a8e294e8ccd977")))
+     (sha256 (base32 "1hhlhrm4kbxnhfn4x6prn4r91x40s97mj84yi5z024p30s0rhx3c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/rul/org-tempus")
    (synopsis "Enhance Org time tracking")
@@ -81474,14 +81474,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260811.250")
+   (version "20260812.139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "d0b405cf9ca396b1a15efc390a5aebb72a0e2580")))
-     (sha256 (base32 "0g40lyilksmgwxpg9303bvvfbh0fk9d0rhgkyn5l1m2j1v6rkv4l"))))
+           (commit "838c5bb60b07a0b14443176321c300d1d8bbc31d")))
+     (sha256 (base32 "129la2vfhnl6sqq9n3b6brpi987pm9x02dw5y48r2ah6fy04193v"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -97006,14 +97006,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260719.56")
+   (version "20260812.245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "4b8e56ce6545de9b33ddb841f535c5f1ec301e00")))
-     (sha256 (base32 "0qmn8fr9d1bk0pgfsq4p9y0lw0f1209pwyi4pz37r8za7xfpyld8"))))
+           (commit "d2ea9a3f6bc574de604a6610538c9a5f4dcd318d")))
+     (sha256 (base32 "1v8qsxi75a1w8k85rslsv6pvs5whab0xiz559gy58faq1hw7fzjm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -99828,14 +99828,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260811.1139")
+   (version "20260812.642")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "97406c7aab68dabb7d72a3394f7bbfa0470fbd8b")))
-     (sha256 (base32 "0p9np0w4c7rjshmvpslqz6wz7dw7104yyfiimijb1zcmj28725ir"))))
+           (commit "38084ca7f0c03097fe0cf0f5a49b5af14f90895a")))
+     (sha256 (base32 "0874da9q7nw6war53szfkid2ndbmprj7zfnqgnzwq7p4agfw5nzj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -106883,14 +106883,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260702.1513")
+   (version "20260812.640")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "9101db52a29c4276b45f85e63924008f0e41c39c")))
-     (sha256 (base32 "1xlnp9myjw4p90lir78p0kwl0shfglwm6wb3afd2wk1l3bf8882b"))))
+           (commit "d026eac87d1b25992891e1e276ad08653cca38f0")))
+     (sha256 (base32 "18vzjjs7xjyb009jbax9aas23rrz20isq535c1aq5g2cpvxjiz69"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
