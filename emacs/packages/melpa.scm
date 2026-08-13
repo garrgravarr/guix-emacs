@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260811.2209")
+   (version "20260812.2212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "ab620f37dd88089afa559de2b0f189dc8c9566e5")))
-     (sha256 (base32 "09x7daczcz6zpsm0rwzg8igdfdgd4ygp1ngjsp5lmhfa6qz3gj70"))))
+           (commit "e57d6a851cc460307c100d5ff0649fd978b65b85")))
+     (sha256 (base32 "1q8v2hq46162im4pysw40140r3fl9bxqi318fp0i5dgx3xnf8a55"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260811.425")
+   (version "20260812.2039")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "6e9da1ad6126614867e4efde4af8327dca347382")))
-     (sha256 (base32 "0rys0198j5lwjjfr8abxhkk5ghqzljm8h51phi0zyrwavxjf6sxb"))))
+           (commit "c9e88eb9fe113049981b4f88676e26e9127ecf6b")))
+     (sha256 (base32 "115v2h9pbpyf1dzafi6yzg87zyslyjfk9fd3paany55y9gqj2l4a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -6544,14 +6544,14 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20260803.1931")
+   (version "20260812.2113")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kristjoc/bible-gateway.git")
-           (commit "6deb9b868c0ffa1e346952de6bf18f51580794a3")))
-     (sha256 (base32 "1gmlc192bb3rz4p5d1ma4bsnri4c506l9v0i7hhrmpay2czm19zw"))))
+           (commit "28af97571e8ba9eb5d190b675110c9f1d0ebe7f3")))
+     (sha256 (base32 "0qijwf6ilzfaj7mgwfi0a58yjcy6inc40dln0skssydr1diwfp6f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kristjoc/bible-gateway")
    (synopsis "A Simple BibleGateway Client")
@@ -15437,14 +15437,14 @@
 (define-public emacs-consult-hn
   (package
    (name "emacs-consult-hn")
-   (version "20250716.104")
+   (version "20260812.2247")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/consult-hn.git")
-           (commit "7e02d69296b880dd0cfbdaed45c0365d6daca647")))
-     (sha256 (base32 "1wiwgpbnl0p00p9zp43c7i90z7yspsamfxlxcwdxf2pj07svhd5k"))))
+           (commit "adbb48802a2b000df2340dc0a1b51396c0b0c0c3")))
+     (sha256 (base32 "1l1pdjbpxjp36b40cssx915d62f9gnlrr1wcg1hrdsybr8lawnxv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult emacs-ts))
    (home-page "https://github.com/agzam/consult-hn")
@@ -20028,14 +20028,15 @@
 (define-public emacs-diff-at-point
   (package
    (name "emacs-diff-at-point")
-   (version "20251216.111")
+   (version "20260813.359")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://codeberg.org/ideasman42/emacs-diff-at-point.git")
-           (commit "9c1617f0fba88c1f7daef78276c86d4447c99d48")))
-     (sha256 (base32 "0hczq10isqzvj8p4vdxp51pd5698lqwzrnqyjdqiq048h7clsr2b"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/diff-at-point-"
+           version
+           ".tar"))
+     (sha256 (base32 "129zf1wai1p2ghrxgkmh4dphaz8f0dg0wc9b9kwmgnlj138vy2pd"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-diff-at-point")
    (synopsis "Diff navigation")
@@ -26399,14 +26400,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260720.1655")
+   (version "20260812.2136")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "5d32a48a8d1797fec776ba56279dc99dd58f399a")))
-     (sha256 (base32 "1q739dpljnn2wbkfnd9rckr3jfnjm17ib1y6l2jfyx0kbjm6xzbi"))))
+           (commit "a86e9154ae88907d3de2710195810cda986ef0d8")))
+     (sha256 (base32 "0pdfpark9r45cx17j9lyfs5r5sgg8a96lf0f58px84zgwb4sbhhc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -42809,14 +42810,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260805.313")
+   (version "20260812.1855")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "fc6963634af2f76a9909ad674e2c0b3f005e60b5")))
-     (sha256 (base32 "1n90ar2frskbsp0nm54l9fl5l68a68a64s6ajxld2scyvdh1q360"))))
+           (commit "dc0280821c344ec10547e13179ea2095f6165f05")))
+     (sha256 (base32 "1546p9xmw36z420b1n2628949ag5cnbwkac6296hs1j046jkczrw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -65211,14 +65212,15 @@
 (define-public emacs-mode-line-idle
   (package
    (name "emacs-mode-line-idle")
-   (version "20260106.30")
+   (version "20260813.307")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://codeberg.org/ideasman42/emacs-mode-line-idle.git")
-           (commit "4af21d0edf553c7f6c0ced61295bd402d6f3283a")))
-     (sha256 (base32 "0466b4r85jz5ck3pwr4sl3s8w7a2jg5liacamkwxxdxzl4hlk87v"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/mode-line-idle-"
+           version
+           ".tar"))
+     (sha256 (base32 "1927jpjashz5162qai6a5ly5s06b8syxd2m1pagh8ca4731hn6vb"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-mode-line-idle")
    (synopsis "Evaluate mode line content when idle")
@@ -73061,14 +73063,14 @@
 (define-public emacs-org-change
   (package
    (name "emacs-org-change")
-   (version "20260804.1808")
+   (version "20260812.2351")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/org-change.git")
-           (commit "0ad1a79934627eb40dbde1ff8c3dad9b8e790f16")))
-     (sha256 (base32 "0nfpc5433s5jhf545f9lm2jrc1k2xyzadm7znhifk8njy1mapwnx"))))
+           (commit "567858fdf8f8966811bf9737ca5927c2597c1332")))
+     (sha256 (base32 "009afd2nasqlawrakl20r83pjj5k4hsda8ipc9sa55k8n5kqs8qr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/org-change")
    (synopsis "Annotate changes in text files")
@@ -73865,14 +73867,14 @@
 (define-public emacs-org-grimoire
   (package
    (name "emacs-org-grimoire")
-   (version "20260402.309")
+   (version "20260812.1624")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/spiperac/org-grimoire.git")
-           (commit "0a15e6be54ded80882b4b25d00c48c29b34f4692")))
-     (sha256 (base32 "0d2bl2dq4pi5pghnhbfpzvwxjrh8r398ag9n6jbiiphcpgsy3lin"))))
+           (commit "23075cbdacc65e1fbc22dd7a3c0b3ced4d96a74d")))
+     (sha256 (base32 "1259f5hx14vf4m8g32pdg01hawjf081liknishl5ixbr8b3nfnwh"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("org-grimoire.el" "themes")))
    (home-page "https://github.com/spiperac/org-grimoire")
@@ -93550,14 +93552,14 @@
 (define-public emacs-simple-call-tree
   (package
    (name "emacs-simple-call-tree")
-   (version "20260321.1821")
+   (version "20260813.19")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vapniks/simple-call-tree.git")
-           (commit "e25817d4ee692ec32b637dfc5c0989aa7ada546d")))
-     (sha256 (base32 "0dim6sijl8g5asbjm04420rnjiz7vxgv1x9q7m9r61x3v3cnpcm0"))))
+           (commit "2365b14457340548529ad86728b52ba4bb2460e2")))
+     (sha256 (base32 "04g80g01lin3vrmrzl11i4and0qpbczsg9s76cdwhkix4fcfpr6n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-anaphora))
    (home-page "http://www.emacswiki.org/emacs/download/simple-call-tree.el")
