@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260814.912")
+   (version "20260814.2137")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "5afffb8ba9bc89137ce1f6c14b533a5e37c9b9ab")))
-     (sha256 (base32 "075cfqaplsscykqbmcn0rx865vwx6p017z5wl7snk15r074zccg1"))))
+           (commit "6929073c9a4b0898ac62f160e1c0779f19461df8")))
+     (sha256 (base32 "09s75qir6486nmnwy04ysaq5k8i5mjvx9cbiwqbgkagx6qi37wp7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260814.334")
+   (version "20260814.1924")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "9d046a302c2902fa819d988309078361a6aef9fe")))
-     (sha256 (base32 "14lqydhr1jv5syc1hwkgg0nj5c9jqm1w4cahma8sk0wfkal3s1mk"))))
+           (commit "1ff5d91f1107ab6a1872c77790e88a9620a18dbe")))
+     (sha256 (base32 "0wxrmvc8lph1895k0kv5p9s3fjsi44wg1iwil2cf5cp019ab48s0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -23946,14 +23946,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260811.1456")
+   (version "20260814.1754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "f1455057000612a8ef5f9ba0b4eebf3368b0f0fd")))
-     (sha256 (base32 "1ixi44zpkfj1rzpzwnipa0vnwscc38nwvjrrxbs42z3nyspaszkg"))))
+           (commit "d49dad0c7357836c6ce6c43daa4e3c299cf50aa0")))
+     (sha256 (base32 "05v7j7q9jg0prw9frc2i5ajvms017dv9740dz0g6jqpamp89hrrf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -25749,14 +25749,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260814.1136")
+   (version "20260814.2134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "a901e326e52f46e619450a7802cf4903b87d0b7e")))
-     (sha256 (base32 "0pr3v2498kgi4al51v38zgbbak40i1j8mqs9mwhmll2jcd2n7vf7"))))
+           (commit "a40da551f3a948209e1cc8dbb9a151dc429bb3e5")))
+     (sha256 (base32 "1j6lywbglmv11jv6d6kvpslmh5wqbzxk9al8m24nxdpf7r4fbci0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -28082,14 +28082,14 @@
 (define-public emacs-epkg
   (package
    (name "emacs-epkg")
-   (version "20260731.2251")
+   (version "20260814.2044")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/epkg.git")
-           (commit "a94d4b0ff889c20f059b9ac9848369741d115a96")))
-     (sha256 (base32 "1dssk3lvzn6drdzccpf7h7psca4x0qf5bka379xnpf6ajm2dm50i"))))
+           (commit "a01ce8e73231e33778a5f8fa2ef366b94da4f52b")))
+     (sha256 (base32 "00i3hb6w0kizqaqi05m0gvsmjrjyvw43q67y4q4z9fcxdivr9mnk"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-closql emacs-cond-let emacs-emacsql emacs-llama))
@@ -38013,14 +38013,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260731.2255")
+   (version "20260814.1500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "29f45d8f247079a1d8d2247efdacb5b50a3b1e51")))
-     (sha256 (base32 "1j3kvhh77z7yw6zqxp1ban5n9x6iz5l5x5wfy8v3h3d3gzy1jnvv"))))
+           (commit "43fa2a80ad291a30a2a04f20fa8ed66543576981")))
+     (sha256 (base32 "10ckax07n5c25cwhqk87p8l24qxjmjzv8w54ncgayiy6ddcnsljf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -61465,14 +61465,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260813.2147")
+   (version "20260814.2108")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "a68e9de623b2b59e9afb7329d0c947826b26a604")))
-     (sha256 (base32 "1wq2pnkbff95dfvcyf5c8lm6wrxhxk91v75c8saxjsvd6g8z58j5"))))
+           (commit "c138f0acefbf09efb582c596691fa54d73784ec8")))
+     (sha256 (base32 "0ws3354k56i6vjdz8cmjdj4s9h5zxxncqpw39wb3s0p64sar5vbf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -94084,14 +94084,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260810.1654")
+   (version "20260815.0")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "1010d958e9d24f66da9315f1bd098dca7acc4d4b")))
-     (sha256 (base32 "0n7q4ddbfw5vwzr75pqjb1d0n09829hilrxaxhqva2fgm5awpnzi"))))
+           (commit "226f113af04bfef85859b678dc89bc1106fdfbea")))
+     (sha256 (base32 "17f9hi51lgzmz8dankjangxpik5s0rw8nbjzjjhzyrmrjbyi2ncj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
