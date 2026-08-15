@@ -56633,14 +56633,14 @@
 (define-public emacs-kiwix
   (package
    (name "emacs-kiwix")
-   (version "20220316.847")
+   (version "20260815.236")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/kiwix.el.git")
-           (commit "444f686a7f75db788d54f544b923a3532732eb8b")))
-     (sha256 (base32 "1pdm69ghdfzv738c5y1b61d12cfafkvcmmjf0v4m3qai2xxqk4sn"))))
+           (commit "f6becc2abf733b9e631c687c431dabd2097d1fba")))
+     (sha256 (base32 "1ass0n9b9gka26izah8vjmbv8vzi5rdps49wq4gfz8bz3crab00i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request))
    (home-page "https://repo.or.cz/kiwix.el.git")
@@ -81476,14 +81476,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260813.1716")
+   (version "20260815.204")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "243dab9c679bbe8f21e03e1556ea7bb6acdd85f5")))
-     (sha256 (base32 "16miprmvc7qxy6bdw86f2wy2zr20zy0qvb8srb79mwzx97kyb29l"))))
+           (commit "2b88c7d5f0fcdd2e540a8d42ddd150ccf7ba3be0")))
+     (sha256 (base32 "1ws794vsp92wyr1fwbm8h5xcrr43i6bqz9a84ccnvm8wb1ska0kp"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -88025,14 +88025,14 @@
 (define-public emacs-reddigg
   (package
    (name "emacs-reddigg")
-   (version "20240730.2339")
+   (version "20260815.323")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/thanhvg/emacs-reddigg.git")
-           (commit "4d22e06a6e2523fe6d83c0280847d3bde19fabb5")))
-     (sha256 (base32 "05i5nh2hr4janlhj4vqjnkabfq2y6py1vs5s1x9wpb8aaknhiww6"))))
+           (commit "b554e05736539b92e55f223818e64da5e9c0b7c8")))
+     (sha256 (base32 "1nj00l4dmk4phgzrb3lkxaknvkjsx92xk3iyrr8nz7xnsxiyvh9v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-promise emacs-ht))
    (home-page "https://github.com/thanhvg/emacs-reddigg")
