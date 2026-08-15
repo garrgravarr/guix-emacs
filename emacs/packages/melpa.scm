@@ -5215,14 +5215,14 @@
 (define-public emacs-avy-flycheck
   (package
    (name "emacs-avy-flycheck")
-   (version "20160720.1500")
+   (version "20260815.506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magicdirac/avy-flycheck.git")
-           (commit "5522f3bbbed1801d9278ed696ec0cbba38352985")))
-     (sha256 (base32 "1nwc8xid0k6bnnpgsrrlwx71a04llkiapjsbchp9jgcf11l5mghw"))))
+           (commit "2279e2461d4a1ec1481e760c911defd84fc91742")))
+     (sha256 (base32 "1rjx9km7733gff4mf3z2immd79wah9fz0gm9gb2ljfwhq9xpq97q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck emacs-avy))
    (home-page "https://github.com/magicdirac/avy-flycheck")
@@ -7712,14 +7712,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260731.2251")
+   (version "20260815.1424")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "af234cc3b741eda11016a666c03ab238e8763bf2")))
-     (sha256 (base32 "15gayajcf91winj1x62kwrghxsvdl1p92gdpnyqi2bkvkh6ji4i0"))))
+           (commit "07dc2ca5ac766d30c8e3148b9d55b1861a33f977")))
+     (sha256 (base32 "1cd2ndcs3dfnjc9193370j32sca0hyl53szgw2zx7dcs12p13sga"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -7870,14 +7870,14 @@
 (define-public emacs-bracket-face
   (package
    (name "emacs-bracket-face")
-   (version "20260601.1519")
+   (version "20260815.1330")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/paren-face.git")
-           (commit "57307b5ea75e07d2dc0c64c7e3eeadee3369a7aa")))
-     (sha256 (base32 "11g3wg79kvg4nkm2knabpzsf0lcpnak94kkdb5cscp3w3fg3x5a7"))))
+           (commit "f9475c6a6e52e5047d9e87e31dec04833b1a0d4d")))
+     (sha256 (base32 "1zph9bzvpmmhpw4day0rxxf600vyyfy0f8n3clr6apd9bf2g8wvx"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("bracket-face.el")))
    (home-page "https://github.com/tarsius/paren-face")
@@ -9251,14 +9251,14 @@
 (define-public emacs-calibredb
   (package
    (name "emacs-calibredb")
-   (version "20260811.1404")
+   (version "20260815.633")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/chenyanming/calibredb.el.git")
-           (commit "18d146481d0176935fde1baebec6d1a65151cff6")))
-     (sha256 (base32 "01lraclkxs52i8j7rszrafjs7ns579w853jc3gcpk1qhc6aqrs1c"))))
+           (commit "4a9df521985739053c6c9f879fb949ceb2e479b1")))
+     (sha256 (base32 "05hg52zklr1yf5xzg6vczzryg4jyyzmm640b4l9psxrwd4cfm1hc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-request emacs-esxml))
    (home-page "https://github.com/chenyanming/calibredb.el")
@@ -11449,14 +11449,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260813.1021")
+   (version "20260815.518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "d28abf72e52558027f125f988bf8e8db55405970")))
-     (sha256 (base32 "0dhrjhlgmcas6bgl2j1hwl78s6ixbp1hf68ay60a3ifl2avc3ymz"))))
+           (commit "30acda5aa115eaf395a40795cf3b5ed88bd2c2c3")))
+     (sha256 (base32 "06zq9864z8jzy4y21l4p94fz35q8j7hfihlc9akrbagrslg4gkv2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -29652,14 +29652,14 @@
 (define-public emacs-ess-view-data
   (package
    (name "emacs-ess-view-data")
-   (version "20251219.1514")
+   (version "20260815.1414")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ShuguangSun/ess-view-data.git")
-           (commit "7dcbd23d4cef2030753d16e1ca1811d3466484e7")))
-     (sha256 (base32 "02aaf2lqcl3a7zwqi906x5v9jj2g0rnnj2n50nzzck9mk9jnhp04"))))
+           (commit "2f368460aff9ccc4a841839ffa4372ca9df14f76")))
+     (sha256 (base32 "0in5f4pi4h5fhfm5a9rw2gbbckhf2v6bb9m1nvlsfgxnivg67ysm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ess emacs-csv-mode))
    (home-page "https://github.com/ShuguangSun/ess-view-data")
@@ -44681,14 +44681,14 @@
 (define-public emacs-hatty
   (package
    (name "emacs-hatty")
-   (version "20260420.1134")
+   (version "20260815.1327")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ErikPrantare/hatty.el.git")
-           (commit "8af8aa074bf56c2aafd81238be2c6c2df6003664")))
-     (sha256 (base32 "1aq8fiidbw051x5jnjynmq3lgf7kxp226c2vf64s80g25529vzcb"))))
+           (commit "b13bb27a61cde5ad745bcac0d23a5791100badb9")))
+     (sha256 (base32 "1lginhqg4wsvzxri66lj1sw95fqbb3ymcwpvp85w8fc2qyh0zdd1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ErikPrantare/hatty.el")
    (synopsis "Query positions through hats")
@@ -49778,14 +49778,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260812.619")
+   (version "20260815.958")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "38d4dbf41e52cfd3e5213de6133232b143df32e4")))
-     (sha256 (base32 "1xkv76i0bv3vfb2l04k4i00an313k1n3m28qhhdblnma0kw94yc8"))))
+           (commit "37615fa192e2cafcb11cd0d3c6bea1dbfaff388a")))
+     (sha256 (base32 "1wpnq1p36zfks4fcmrchi8457fp4k71fa486gswfi7c4bcfhyasx"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -55945,14 +55945,14 @@
 (define-public emacs-kdl-mode
   (package
    (name "emacs-kdl-mode")
-   (version "20250620.259")
+   (version "20260815.1456")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/taquangtrung/emacs-kdl-mode.git")
-           (commit "2d849e298199f490e4894c01764a8a83decd704a")))
-     (sha256 (base32 "18va5ipay9grbv84kwq9ji4dn1sabnzydj4hb1mjd9mbbibw1wg4"))))
+           (commit "9ddca206e5fba05fc1a16e5dddb1fa375911550e")))
+     (sha256 (base32 "0jyhmspj73sdcbfb087lfg8hn2q42sjs55lfsvk3ayj5g8939sif"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/taquangtrung/emacs-kdl-mode")
    (synopsis "Major mode for editing KDL files")
@@ -79449,14 +79449,14 @@
 (define-public emacs-parenthesis-face
   (package
    (name "emacs-parenthesis-face")
-   (version "20260601.1519")
+   (version "20260815.1330")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/paren-face.git")
-           (commit "57307b5ea75e07d2dc0c64c7e3eeadee3369a7aa")))
-     (sha256 (base32 "11g3wg79kvg4nkm2knabpzsf0lcpnak94kkdb5cscp3w3fg3x5a7"))))
+           (commit "f9475c6a6e52e5047d9e87e31dec04833b1a0d4d")))
+     (sha256 (base32 "1zph9bzvpmmhpw4day0rxxf600vyyfy0f8n3clr6apd9bf2g8wvx"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("parenthesis-face.el")))
    (home-page "https://github.com/tarsius/paren-face")
