@@ -1862,14 +1862,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20260804.612")
+   (version "20260816.420")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "2fc993932d2df9270c3f85f8215f73600b78145c")))
-     (sha256 (base32 "0gj8dzc8nxwnl9p5sv6fxd8kg0jix2jq8qfk7aa49bfxrmi7wc8q"))))
+           (commit "2d8c28d3fbd64260cbfd5a1477aea3bff55ba54f")))
+     (sha256 (base32 "02qkjrbd06d1lzl4hzdrw0sqqkn94x8vw15gid4ly5wf75c7m3d7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -5772,14 +5772,14 @@
 (define-public emacs-base16-theme
   (package
    (name "emacs-base16-theme")
-   (version "20260802.238")
+   (version "20260816.111")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tinted-theming/base16-emacs.git")
-           (commit "53a8b553b364964ffb97c5f84de34f01e4d5b2eb")))
-     (sha256 (base32 "1pl3rkihqw4yrj6swa5jxv2sy1y2zidqg8f897nsmz2zw0vz6gvk"))))
+           (commit "17acf7f6efd7a73dadb902d2f5586aec4e32051e")))
+     (sha256 (base32 "1gf7ysp15wqj835wa0kd71ylsm7zri9fsj78zbwzdndvv7qs5cf6"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "build/*.el")))
    (home-page "https://github.com/tinted-theming/base16-emacs")
