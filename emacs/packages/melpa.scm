@@ -10128,14 +10128,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260809.808")
+   (version "20260816.806")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "b9b3456d42f1a6a9e6046a1cfeab5f569e6d92b9")))
-     (sha256 (base32 "1birb61gh9f8pm7r6fy1m9clg8s1za3kv2v50hfw54hh62zwyy3q"))))
+           (commit "dc291f8b61eae270393dc1a316e791ca5985c4fe")))
+     (sha256 (base32 "0ff3mnarii12c91kgkwmsqaadccci48p305vfmrvjk6q6gpa7k7w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -25749,14 +25749,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260815.2022")
+   (version "20260816.1424")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "ccfdbf753819fe1ce2f97a1317749003c001443f")))
-     (sha256 (base32 "0jnbnwv0jsgssnl876snjnzmrvmxvrawzps5xjnnzmz703pwd5yk"))))
+           (commit "943a5acf49b286a129a78f7142672126781578c0")))
+     (sha256 (base32 "0qw3lvnckswvw6qln9w27rcg8flh893v0iidg90dga1ap5fyymzf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -29652,14 +29652,14 @@
 (define-public emacs-ess-view-data
   (package
    (name "emacs-ess-view-data")
-   (version "20260815.1414")
+   (version "20260816.1321")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ShuguangSun/ess-view-data.git")
-           (commit "2f368460aff9ccc4a841839ffa4372ca9df14f76")))
-     (sha256 (base32 "0in5f4pi4h5fhfm5a9rw2gbbckhf2v6bb9m1nvlsfgxnivg67ysm"))))
+           (commit "831be384d0045ae9ff1f4b8ae2b5090377938475")))
+     (sha256 (base32 "0vna3qswdsrn6ffr4mzs0pl8jr1bilq7k863ywq2qx5y0rvry1h4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ess emacs-csv-mode))
    (home-page "https://github.com/ShuguangSun/ess-view-data")
@@ -39948,14 +39948,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260814.810")
+   (version "20260816.1009")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "57c320310f5eec0c5826d613b2806d7237606469")))
-     (sha256 (base32 "065h03b80y9z3mhyvxw34q1rymzrqx70ggq745s0xhazi0qd94cr"))))
+           (commit "ff3d83e7f60326c93c22a1ef23aa4cc22907374d")))
+     (sha256 (base32 "0p77gb7l329lcq7hwc9rqchb65msa52qbzn9ihh33znisi0cxcn4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -40539,14 +40539,14 @@
 (define-public emacs-git-overleaf
   (package
    (name "emacs-git-overleaf")
-   (version "20260806.1209")
+   (version "20260816.1318")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/git-overleaf.el.git")
-           (commit "d1cafbd967981e6323d81e63d871247c8da8d62a")))
-     (sha256 (base32 "0k15pvkfsf8zg8rwl1r4f7wnhc4za93c0j99dcxhlfxb4snig5w3"))))
+           (commit "bb0f38d83140a4816e0b7b4728416799311a182c")))
+     (sha256 (base32 "1jlijk0y7wfy7fc03vbgsr98dz67g8x4m2khb0k1nf8511fwi1p6"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket emacs-webdriver emacs-magit-section))
@@ -47129,14 +47129,14 @@
 (define-public emacs-helm-raindrop
   (package
    (name "emacs-helm-raindrop")
-   (version "20260211.606")
+   (version "20260816.854")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/masutaka/emacs-helm-raindrop.git")
-           (commit "0c87eddc7f15c2046b9b03b83a8a7ee0551a0747")))
-     (sha256 (base32 "0z3323fq0vvm2n8qy8q3n94k158pmznwxi820wdpl1scjc1rxrmp"))))
+           (commit "0a5c984eee85d71e3239356a8a61b357b97b6474")))
+     (sha256 (base32 "0x6sx0w85d534kpjsrggrmlhhvkg4p2wkaw33cj6ikbgg1w71578"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm emacs-request))
    (home-page "https://github.com/masutaka/emacs-helm-raindrop")
@@ -50829,14 +50829,14 @@
 (define-public emacs-igist
   (package
    (name "emacs-igist")
-   (version "20260508.1037")
+   (version "20260816.757")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/KarimAziev/igist.git")
-           (commit "0735363f6b24910655e42e086e3a82ca5267dfc0")))
-     (sha256 (base32 "1319nprmnrqwlqslrrm8wdzbjpyyj5gndrxnn7akkbg7x3lpsrp9"))))
+           (commit "2c19cf33044cda8408e15bca48771c13c09d71a1")))
+     (sha256 (base32 "0m21jk89rmz9m8jm6bj29lsnxi4wzx4q3qwwnnwn6nym4wp9377r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ghub))
    (home-page "https://github.com/KarimAziev/igist")
@@ -65370,14 +65370,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260730.719")
+   (version "20260816.1054")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "75aa3fa79efd04ddf7980a1d3ec0cef6e4f4af90")))
-     (sha256 (base32 "1swik3x9gq6yyzmdyqm61rwj7jrdfpm5df1hv0k9m7d5dhzgf98y"))))
+           (commit "8ebcedea65c2609af1c7a23257007c1e2a910add")))
+     (sha256 (base32 "05bl90pg3pdbzbpvl12aqmax0qnv3a55j5y90mm9hyw8f073rhwl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -71413,14 +71413,14 @@
 (define-public emacs-oboe
   (package
    (name "emacs-oboe")
-   (version "20260611.1508")
+   (version "20260816.1143")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gynamics/oboe.el.git")
-           (commit "4d104a38abe582214585df2773b60a53725a0cf3")))
-     (sha256 (base32 "18xrni97lcs0h16nhnc9sns93ylnjs90zd5srk34hzxklx7csfyv"))))
+           (commit "b81cc19f474ed33a10958853f503428d271d1c2c")))
+     (sha256 (base32 "0mnjrm367a7c07zrwyqx080fr0dn1dzvy3936j1ks0dvkzzh03y3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gynamics/oboe.el")
    (synopsis "A simple temporary buffer management framework")
@@ -86158,16 +86158,15 @@
 (define-public emacs-python-view-data
   (package
    (name "emacs-python-view-data")
-   (version "20230508.543")
+   (version "20260816.1213")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ShuguangSun/python-view-data.git")
-           (commit "8274fd50051742faa79e7cd3529ba668bee31d35")))
-     (sha256 (base32 "1zrsriqjgfj8f8v6vy9xy2j1cy3dvmbcw6yb90ffw99bv4nav5lz"))))
+           (commit "999c90738cc0c8682a01ef518fa33fca24cbdb34")))
+     (sha256 (base32 "168h16qysn279xhyzwx84fhbaf72dxc8qdqfnrilz6khy540vqr5"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-csv-mode))
    (home-page "https://github.com/ShuguangSun/python-view-data")
    (synopsis "View data in python")
    (description "Documentation at https://melpa.org/#/python-view-data")
@@ -104534,14 +104533,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260727.1729")
+   (version "20260816.737")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "7760d4ae1d111ac60e9d2ff6820315df72369b77")))
-     (sha256 (base32 "15mml5d251k29l3vgxb38pg7n938lnk8xnjvjml36092a7k0inq4"))))
+           (commit "2a10eb42f95a5e9e96e7a39df982bab0d28cc383")))
+     (sha256 (base32 "17kf15g1dkqiw6yf2vdhfd1zlvmr7spsgis2s75g1lfy6mvgq5q6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
