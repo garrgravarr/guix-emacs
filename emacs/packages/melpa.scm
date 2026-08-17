@@ -843,14 +843,14 @@
 (define-public emacs-ac-php-core
   (package
    (name "emacs-ac-php-core")
-   (version "20260210.846")
+   (version "20260817.501")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "b053bd3723acf13a6c1a3e9cec221f4e0b24ea2c")))
-     (sha256 (base32 "1zxk1r8a1p3pcn4xh727x490z0vwm0aljnm9vi018vh2012453wr"))))
+           (commit "8d9354f2f851d087cf11a95f98a0e65f8203f065")))
+     (sha256 (base32 "1wxingmh79c06i90w0vhgnb1ji890k7yhsla6cglrxhlvxyhyl2w"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-php-mode emacs-s emacs-f emacs-popup emacs-xcscope))
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260816.2350")
+   (version "20260817.201")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "9cf99c953aeba7349ff633da92308ba426501324")))
-     (sha256 (base32 "0s5sqqbbiy22q122lv3iwb7my4kyqx5llvfbrlsqvybs0pm9hbp7"))))
+           (commit "d9eb2457b0c63f74eaf42cdd60a4fb810fe87737")))
+     (sha256 (base32 "195j59y6pcc8495nmh09m23418nk5lhqs629mmp9lppslk0n5kyb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -2880,17 +2880,17 @@
 (define-public emacs-annotated-completing-read
   (package
    (name "emacs-annotated-completing-read")
-   (version "20260815.2134")
+   (version "20260817.235")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tychoish/annotated-completing-read.git")
-           (commit "a33de85488dd5ab7adf8904aebbd8d81f1de5bfd")))
-     (sha256 (base32 "0c1ln3isagk25s44vbgzrzp60pralqc27vpwdbjr47lpqadjpmfi"))))
+           (commit "e93c3d71d59a4a01c0a28c3d4c9ecca00e5d83fc")))
+     (sha256 (base32 "0ddr2dgdgar8m9vhbzc8rqnx8qp0dv9z3v2blr8bh55735rh5pw8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tychoish/annotated-completing-read")
-   (synopsis "Completing-read with aligned annotations")
+   (synopsis "Ergonomic completing-read wrapper/helper")
    (description
     "Documentation at https://melpa.org/#/annotated-completing-read")
    (license #f)))
@@ -12326,14 +12326,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260812.349")
+   (version "20260817.551")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "3887c8c1a98128af619ef2e64952dfbf148a8508")))
-     (sha256 (base32 "1z2vha70zngyy8mazzmzg7wh3rcfvybhfs9b13jmw8hkpind0jdk"))))
+           (commit "736c3a84ab2386b1e3e2985ccb8b4ab24a9281f7")))
+     (sha256 (base32 "0bvypfw4nc4b5j813lv8xmjp4n93dylspb0hs10fs7dpwx4d5h33"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -14927,14 +14927,14 @@
 (define-public emacs-cond-let
   (package
    (name "emacs-cond-let")
-   (version "20260701.1237")
+   (version "20260817.452")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/cond-let.git")
-           (commit "c48600dfab6372670225f046cace263700c78eab")))
-     (sha256 (base32 "1d5daj00qkpyjqhdy24rng08ynpqxc44d30sv5f1y92nmlhswmdv"))))
+           (commit "bbe1f1c7389b16ad0e6c3bc7b28ba8fb27afb6f5")))
+     (sha256 (base32 "074jaz5r6l5pwqrl6hara3k110q6r9gkj8z3pppc4j9gbgb328pl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tarsius/cond-let")
    (synopsis "Additional and improved binding conditionals")
@@ -25571,14 +25571,14 @@
 (define-public emacs-eldoc-mouse
   (package
    (name "emacs-eldoc-mouse")
-   (version "20260612.945")
+   (version "20260817.547")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/huangfeiyu/eldoc-mouse.git")
-           (commit "6b7bddc4b16c0b3d6f4203e03e659b5211cab516")))
-     (sha256 (base32 "1y4lfk2k3qhpjav0b3vhlfhvl1zy74lg64cbmhs6kmiajrn578rv"))))
+           (commit "a7ba5ad987c94d456868fd6c1a4def78b7f835b7")))
+     (sha256 (base32 "1mbp8y1a9zy80dm2gd1czff918h8g6jncpk6pg6qrzsvdw2cqx9f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/huangfeiyu/eldoc-mouse")
@@ -61518,14 +61518,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260815.1852")
+   (version "20260817.435")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "bb426845dc2c182da316d64ea19efc837b303e85")))
-     (sha256 (base32 "1dzv0lr4ni5fxgw0cb9s94vrhkfa269nz4njfy4yyjsih52y5ns6"))))
+           (commit "93f7e0bbe8b05ead51bd5621c2b8c69d0f6dca9a")))
+     (sha256 (base32 "17w0hcz334a58s27j6wssfbdnj3b6by131rsfrfdm9syx4nd9rpf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62199,14 +62199,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20260807.630")
+   (version "20260816.2202")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "2b02315cef72649cfa56d33cfbbb5e2d6bbd5ba6")))
-     (sha256 (base32 "0z5439wiwdpf0883hngav621rc1kn77g3my3gqmfzdxjnpbadkwl"))))
+           (commit "8470a035426ecb10b6960ade8a7cbb39c99be148")))
+     (sha256 (base32 "07phhrb6552ic6m8krdfi8dbbw1csajl348nfa27cy3yq369ap73"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm emacs-magit-section))
    (home-page "https://github.com/hrishikeshs/magnus")
@@ -68892,14 +68892,14 @@
 (define-public emacs-no-littering
   (package
    (name "emacs-no-littering")
-   (version "20260815.2121")
+   (version "20260817.404")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/no-littering.git")
-           (commit "4740025b560c91d7e45c7c378d5539d26561e47e")))
-     (sha256 (base32 "0vra1v0sbakbrds772jc2ml9rwsx2adzkirzfqbpwhalfn3rrdaa"))))
+           (commit "22235d2790d086db418c1b487e6cd700a8fa8237")))
+     (sha256 (base32 "00g8s6a6w2fi1pkmkmms9k3rhm4ggny7pwwrs8ylzjbi37hz664m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/emacscollective/no-littering")
@@ -80945,14 +80945,14 @@
 (define-public emacs-pgsql
   (package
    (name "emacs-pgsql")
-   (version "20260808.909")
+   (version "20260817.136")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/pgsql.el.git")
-           (commit "bbd7975552684e5e0f9e02668c3d37c389265bc6")))
-     (sha256 (base32 "1pc5g80bindlma6h0hg01dxl52cadxcb8kbmsbm7mjkh3m3ckgpz"))))
+           (commit "8a282e565f139f3794ff219237b0f962f2a0a9b5")))
+     (sha256 (base32 "02qhrl2d879pj2wrwgm3yq7aicf7m23qm9iwi38drr7idfikjp24"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/pgsql.el")
    (synopsis "Native PostgreSQL protocol client")
@@ -81563,14 +81563,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260815.503")
+   (version "20260817.314")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "5ada3b27e8a157162fd348a5647ea21efd70d6d5")))
-     (sha256 (base32 "00p5ghm2ay7q5rs4r309b8id7fyr4dsn1jm4yzmlgnriaxvgb6ah"))))
+           (commit "ea6ef1aefce4301f24ef8368da3a36d0421ecb5a")))
+     (sha256 (base32 "0xn0g6d6qid2ka37z4r3rv0xc8zqqnvg3gxfxagkfkwdwi9l4517"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -83257,14 +83257,14 @@
 (define-public emacs-posframe
   (package
    (name "emacs-posframe")
-   (version "20260527.857")
+   (version "20260816.2356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tumashu/posframe.git")
-           (commit "74c8c56131ed866db47ae4191364b72dd4852456")))
-     (sha256 (base32 "10a6n3pgh36j3smizgh48p2bbi680dsdssz1563ijxj01cy2b0hv"))))
+           (commit "ec0ec37c0d6397422a07def499e87591ca037af7")))
+     (sha256 (base32 "0hmvi1r4f249ww5c4rdb68n8jmrgq0jyj9zpnvqxh47dfq21xiw7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tumashu/posframe")
    (synopsis "Pop a posframe (just a frame) at point")
@@ -99916,14 +99916,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260812.1107")
+   (version "20260817.621")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "693712fb0c20ffe3f74edcd6b37f091d5a112279")))
-     (sha256 (base32 "1h54chab8ph2qw9iwffssqf0s6wys2naax6na37inwb7nnmhvghn"))))
+           (commit "79c173562d3bd14e00e9d05d28bfe6d8dc2a9736")))
+     (sha256 (base32 "00bync74r7ywj6c2i9h61rxnxd322zmc416v6ygf7j4psj0xrygq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
