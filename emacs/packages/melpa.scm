@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260814.2137")
+   (version "20260817.1240")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "6929073c9a4b0898ac62f160e1c0779f19461df8")))
-     (sha256 (base32 "09s75qir6486nmnwy04ysaq5k8i5mjvx9cbiwqbgkagx6qi37wp7"))))
+           (commit "71669673d769f6bf37cb6d911e29b76f7cf995b5")))
+     (sha256 (base32 "1acsz7s8kdzlx72wrp215992x6al72hsiykd00hm904hx8i3x2dq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -4880,14 +4880,14 @@
 (define-public emacs-auto-side-windows
   (package
    (name "emacs-auto-side-windows")
-   (version "20260815.545")
+   (version "20260817.1434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MArpogaus/auto-side-windows.git")
-           (commit "af2bfcefeffc2fc46e3660cbd8c1b6bc6790d246")))
-     (sha256 (base32 "1bbch4f5bvjx8aiaknvfn663prs73m09fw78qmfzqhjl2gds0vjy"))))
+           (commit "cf06db76c65aef2443557340cb06c3a6527186b2")))
+     (sha256 (base32 "1ilcwyn02p4ayp7csryvajn0sqyq85gzwd205m0cxvv7n44rri4g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/MArpogaus/auto-side-windows")
    (synopsis "Simplified buffer management for side windows")
@@ -5721,14 +5721,14 @@
 (define-public emacs-bank-buddy
   (package
    (name "emacs-bank-buddy")
-   (version "20250526.1515")
+   (version "20260817.937")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/bank-buddy.git")
-           (commit "762ad9e24fa2fe38991513b6b5166c0df8fdd689")))
-     (sha256 (base32 "1ibj2zxh98l7qck9nw4k9zpx025pbilr1b584f2690q2bwbizkrd"))))
+           (commit "7b1567e85f5dfa40120a109b0dd15e885500fdfe")))
+     (sha256 (base32 "127wy2bcx4bkphddglmzkihx88rnxwzmzcs45avh09cpgcm6qkkk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (home-page "https://github.com/captainflasmr/bank-buddy")
@@ -12326,14 +12326,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260817.551")
+   (version "20260817.1338")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "736c3a84ab2386b1e3e2985ccb8b4ab24a9281f7")))
-     (sha256 (base32 "0bvypfw4nc4b5j813lv8xmjp4n93dylspb0hs10fs7dpwx4d5h33"))))
+           (commit "c2c098bfc86a05c8deb1970445435a3493f52270")))
+     (sha256 (base32 "0j866077pjp46pfb9hm9ahj4jv40hnfcl6jcd068cdph9ilm055v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -23999,14 +23999,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260814.1754")
+   (version "20260817.1416")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "d49dad0c7357836c6ce6c43daa4e3c299cf50aa0")))
-     (sha256 (base32 "05v7j7q9jg0prw9frc2i5ajvms017dv9740dz0g6jqpamp89hrrf"))))
+           (commit "50e8519d0616a380278d567ee24b08445bc5335d")))
+     (sha256 (base32 "0xpbw7vxpxdz2ad7mk0cnaqwj8w5z1kql20csfm1fsiv332wkxbb"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -34236,14 +34236,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260813.644")
+   (version "20260817.706")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "bed4c3b735d7a6285e3ed6ee1012007ae590c663")))
-     (sha256 (base32 "03kl2699ffhv15ddbb0qrancz1i705zfl0rc04lyvdm4cv4h5c7x"))))
+           (commit "61d125ba2582f456208470ca659d34381000e189")))
+     (sha256 (base32 "047r39yzczcc7zsvaqj5a8jx2d1yr66bgk6sp0nl6y10v4bacywx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -40592,14 +40592,14 @@
 (define-public emacs-git-overleaf
   (package
    (name "emacs-git-overleaf")
-   (version "20260816.1318")
+   (version "20260817.808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/git-overleaf.el.git")
-           (commit "bb0f38d83140a4816e0b7b4728416799311a182c")))
-     (sha256 (base32 "1jlijk0y7wfy7fc03vbgsr98dz67g8x4m2khb0k1nf8511fwi1p6"))))
+           (commit "cdfaf78e6eb13f8026dab9017cbee9e799ecf6c7")))
+     (sha256 (base32 "097szwzx5hvkr5p534582vahfzh30zlnhi13jhhsyp4cshv90rhv"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket emacs-webdriver emacs-magit-section))
@@ -84308,14 +84308,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260813.1423")
+   (version "20260817.933")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "10fa39917aa3a5c7f64aae31da49b4dfd9f6eb55")))
-     (sha256 (base32 "1qss60m68r3ldmqsi0h1qi3jn94l03r0dba9r52dbrs2cy86wvny"))))
+           (commit "a99daedfd4ea2a865ae12be06ecc5c61321cb47c")))
+     (sha256 (base32 "1lwl8yj8zs2wi4yckd17vr2a750qszbqnv0d2b25hydn53m49rpy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -89804,14 +89804,14 @@
 (define-public emacs-ronny-theme
   (package
    (name "emacs-ronny-theme")
-   (version "20260813.1124")
+   (version "20260817.859")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/judaew/ronny.el.git")
-           (commit "3446ad504128dbf4a37d23109eafc9056e95602d")))
-     (sha256 (base32 "1rshkcgyi88x9fkn0a9lylafi36z4lh6gfn6f68sdgn2v5xmf5kr"))))
+           (commit "e1e499b829907cc7d8ccec18b8a9f06be043800b")))
+     (sha256 (base32 "0ln1nzs28wxbwqvzsmpfipj2b0hi2zp4y8pmd4lmkn45ggnmqidi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/judaew/ronny.el")
    (synopsis "A dark colorscheme inspired by Monokai")
@@ -92752,14 +92752,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260810.1424")
+   (version "20260817.1110")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "e7c11e029f3fb54f2c04803d3833e0ccaff4ed3e")))
-     (sha256 (base32 "1cfs197z637qgg4xrp57ax362z3jxqqn1f9sz6hsqisz8l4d13pv"))))
+           (commit "a92260d92ef61274e3a7bc3b00b28588784ba6b9")))
+     (sha256 (base32 "13rlph0m125sadqpbx1zch898zs44fzcra9cwvix1vrw5gcrxfpr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -107024,14 +107024,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260813.1545")
+   (version "20260817.930")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "ab26c3b4d4d256ec547e5ba79f3d392dfab07d8c")))
-     (sha256 (base32 "0k54l8mlw81235r8dl4jjq0z7sh7r4c9xh1b484acl0dpkyk5f91"))))
+           (commit "2ea4a8b268b84d668863868c5fbda56155ef6711")))
+     (sha256 (base32 "1y25ybz6hs6n41ji2b2m9ml37qff8a61blavmv2lks16dfwm41dn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -107060,14 +107060,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260814.635")
+   (version "20260817.934")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "f04426c60a4b1b3375f095c72a89fa8096f35785")))
-     (sha256 (base32 "0kp0pld7m5l0gcn073nwjvf6sl10xqmq3a205xv8ailnhfn0n7n7"))))
+           (commit "1b475c6d6f8e45935b5728986db190df366649a4")))
+     (sha256 (base32 "1f8p2a9g1aiz2j61v2kvz1m7slhv5psb43sc3l217py69ji1pk18"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
