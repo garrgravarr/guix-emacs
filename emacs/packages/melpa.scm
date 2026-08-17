@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260815.1706")
+   (version "20260816.2350")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "02d11b03b633c556c825eda54e2d43ab60c3a9bd")))
-     (sha256 (base32 "0hn4nbly86l15v3i95gq4k9g371bmdfxm5hsix9k7yvlhx9srzps"))))
+           (commit "9cf99c953aeba7349ff633da92308ba426501324")))
+     (sha256 (base32 "0s5sqqbbiy22q122lv3iwb7my4kyqx5llvfbrlsqvybs0pm9hbp7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -2875,6 +2875,24 @@
    (home-page "https://github.com/netromdk/annotate-depth")
    (synopsis "Annotate buffer if indentation depth is beyond threshold")
    (description "Documentation at https://melpa.org/#/annotate-depth")
+   (license #f)))
+
+(define-public emacs-annotated-completing-read
+  (package
+   (name "emacs-annotated-completing-read")
+   (version "20260815.2134")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/tychoish/annotated-completing-read.git")
+           (commit "a33de85488dd5ab7adf8904aebbd8d81f1de5bfd")))
+     (sha256 (base32 "0c1ln3isagk25s44vbgzrzp60pralqc27vpwdbjr47lpqadjpmfi"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/tychoish/annotated-completing-read")
+   (synopsis "Completing-read with aligned annotations")
+   (description
+    "Documentation at https://melpa.org/#/annotated-completing-read")
    (license #f)))
 
 (define-public emacs-annotation
@@ -4857,6 +4875,23 @@
    (synopsis
     "Run the shell command asynchronously that you specified when you save the file")
    (description "Documentation at https://melpa.org/#/auto-shell-command")
+   (license #f)))
+
+(define-public emacs-auto-side-windows
+  (package
+   (name "emacs-auto-side-windows")
+   (version "20260815.545")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/MArpogaus/auto-side-windows.git")
+           (commit "af2bfcefeffc2fc46e3660cbd8c1b6bc6790d246")))
+     (sha256 (base32 "1bbch4f5bvjx8aiaknvfn663prs73m09fw78qmfzqhjl2gds0vjy"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/MArpogaus/auto-side-windows")
+   (synopsis "Simplified buffer management for side windows")
+   (description "Documentation at https://melpa.org/#/auto-side-windows")
    (license #f)))
 
 (define-public emacs-auto-sort-mode
@@ -9443,6 +9478,24 @@
    (description "Documentation at https://melpa.org/#/carbon-now-sh")
    (license #f)))
 
+(define-public emacs-card-games
+  (package
+   (name "emacs-card-games")
+   (version "20260816.1451")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://code.bru.st/corwin/card-game.el.git")
+           (commit "1a5d23d39eb3d7dfcdeabc8e99c2673fd4937434")))
+     (sha256 (base32 "1hyl53xm4xrq9ny2labgydvpbvn6aj6nmxxpf44pcagbmn2pghz9"))))
+   (build-system melpa-build-system)
+   (arguments '(#:files (:defaults (:exclude "build.el" "card-games-pkg.el"))))
+   (home-page "https://code.bru.st/corwin/card-game.el")
+   (synopsis "Play card games (console UNICODE and graphical SVG)")
+   (description "Documentation at https://melpa.org/#/card-games")
+   (license #f)))
+
 (define-public emacs-cargo
   (package
    (name "emacs-cargo")
@@ -11449,14 +11502,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260815.1459")
+   (version "20260816.1814")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "30acda5aa115eaf395a40795cf3b5ed88bd2c2c3")))
-     (sha256 (base32 "06zq9864z8jzy4y21l4p94fz35q8j7hfihlc9akrbagrslg4gkv2"))))
+           (commit "2d662c0740df0692a95baa3ca15400d75f82da64")))
+     (sha256 (base32 "04r7ykjp4gf5cnjvw684654s75wdv8mjcr4nc2f5h576q5pypqws"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -14667,14 +14720,14 @@
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
-   (version "20260815.1951")
+   (version "20260816.236")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/compile-angel.el.git")
-           (commit "b16d9e65b62fe7b978c3af65c1188726b2e9e499")))
-     (sha256 (base32 "1b7cfcp2mk936i20x2rpa1mwz7dv021l93ddhss5cpzwg7i4nssh"))))
+           (commit "8bf2bf6ccf9f85634ef7b096c6284d2f9065790a")))
+     (sha256 (base32 "0wdkrcqx2l5kw4zn1x3p93z0mzybm5c7zmlczvl3279c1g3pcghd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/compile-angel.el")
    (synopsis "Automatically Compile Elisp files (auto-compile alternative)")
@@ -17610,14 +17663,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260805.1734")
+   (version "20260816.1543")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "4d82b4ee9f837d449c6e13852477c261e91dad02")))
-     (sha256 (base32 "1hmynxn1phhfl87ivla2iijqdh26k83nmv9lxf77w884fqwlcv51"))))
+           (commit "303fa461f40ed82113392b62c7912ec9af41062d")))
+     (sha256 (base32 "1ysapjycdm8pqbixi8lw0x9djf7kw5wm3s34bbr6sjfr4gmf9wrd"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -39948,14 +40001,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260816.1009")
+   (version "20260816.2109")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "ff3d83e7f60326c93c22a1ef23aa4cc22907374d")))
-     (sha256 (base32 "0p77gb7l329lcq7hwc9rqchb65msa52qbzn9ihh33znisi0cxcn4"))))
+           (commit "8809cd88d3bb0add97eb37e5f9194c388f511ff8")))
+     (sha256 (base32 "0gi634cp5m11n4bnfwigjcdsfq97n4c9s1l4lv6zzvk00qbcyx0m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -70682,6 +70735,23 @@
    (description "Documentation at https://melpa.org/#/ob-ipython")
    (license #f)))
 
+(define-public emacs-ob-janet
+  (package
+   (name "emacs-ob-janet")
+   (version "20260803.608")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://codeberg.org/zzkt/ob-janet.git")
+           (commit "9e849604ecef65775bf06565c29f001848f1aad1")))
+     (sha256 (base32 "1asywhmcxi4j0qh909m1krbjk80wjn6kkdnnb8s0z9v2mypjd3kq"))))
+   (build-system melpa-build-system)
+   (home-page "https://codeberg.org/zzkt/ob-janet")
+   (synopsis "Org-Babel support for the Janet language")
+   (description "Documentation at https://melpa.org/#/ob-janet")
+   (license #f)))
+
 (define-public emacs-ob-julia-vterm
   (package
    (name "emacs-ob-julia-vterm")
@@ -80870,6 +80940,23 @@
    (home-page "https://github.com/dimitri/pgdevenv-el")
    (synopsis "Manage your PostgreSQL development envs")
    (description "Documentation at https://melpa.org/#/pgdevenv")
+   (license #f)))
+
+(define-public emacs-pgsql
+  (package
+   (name "emacs-pgsql")
+   (version "20260808.909")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/LuciusChen/pgsql.el.git")
+           (commit "bbd7975552684e5e0f9e02668c3d37c389265bc6")))
+     (sha256 (base32 "1pc5g80bindlma6h0hg01dxl52cadxcb8kbmsbm7mjkh3m3ckgpz"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/LuciusChen/pgsql.el")
+   (synopsis "Native PostgreSQL protocol client")
+   (description "Documentation at https://melpa.org/#/pgsql")
    (license #f)))
 
 (define-public emacs-phabricator
@@ -106128,6 +106215,23 @@
    (home-page "https://github.com/syl20bnr/vi-tilde-fringe")
    (synopsis "Displays tildes in the fringe on empty lines a la Vi")
    (description "Documentation at https://melpa.org/#/vi-tilde-fringe")
+   (license #f)))
+
+(define-public emacs-vice-mode
+  (package
+   (name "emacs-vice-mode")
+   (version "20260810.1820")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/gpapadok/vice.git")
+           (commit "1de53ed04d7c2f084e6177e53e18d72e9716cb68")))
+     (sha256 (base32 "0yqbvbymd4m7xbd0vvk71rymsn4cxf4h0gr948c4lv9gyyv1rl9m"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/gpapadok/vice")
+   (synopsis "VIm-like Commands Extension")
+   (description "Documentation at https://melpa.org/#/vice-mode")
    (license #f)))
 
 (define-public emacs-viewer
