@@ -34236,14 +34236,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260817.706")
+   (version "20260818.1307")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "61d125ba2582f456208470ca659d34381000e189")))
-     (sha256 (base32 "047r39yzczcc7zsvaqj5a8jx2d1yr66bgk6sp0nl6y10v4bacywx"))))
+           (commit "c13a6dde068c21f67230db99cf85a56ef91382db")))
+     (sha256 (base32 "175pr7zgyc2nchw7hbsvfpzim6663p2h1qp037z1np8ax1s9iy9n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -47182,14 +47182,14 @@
 (define-public emacs-helm-raindrop
   (package
    (name "emacs-helm-raindrop")
-   (version "20260816.854")
+   (version "20260818.1217")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/masutaka/emacs-helm-raindrop.git")
-           (commit "0a5c984eee85d71e3239356a8a61b357b97b6474")))
-     (sha256 (base32 "0x6sx0w85d534kpjsrggrmlhhvkg4p2wkaw33cj6ikbgg1w71578"))))
+           (commit "ebfe81d19c3d4b84564c38add1093e5b71d72c2e")))
+     (sha256 (base32 "1r5v3bmpy7b82zjdqhdfk20r4j478il8h2dvv88i5h3y28sfqg0h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm emacs-request))
    (home-page "https://github.com/masutaka/emacs-helm-raindrop")
@@ -84304,14 +84304,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260817.933")
+   (version "20260818.1310")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "a99daedfd4ea2a865ae12be06ecc5c61321cb47c")))
-     (sha256 (base32 "1lwl8yj8zs2wi4yckd17vr2a750qszbqnv0d2b25hydn53m49rpy"))))
+           (commit "a770b83830250ea5d4ebccaaf3199c31f45040f8")))
+     (sha256 (base32 "1isximgiqdy3jaamnbbqla4vbkqcz9693g7gmgisyyyl2aqm7np4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -101848,14 +101848,14 @@
 (define-public emacs-toggle-term
   (package
    (name "emacs-toggle-term")
-   (version "20241112.635")
+   (version "20260818.1002")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/justinlime/toggle-term.el.git")
-           (commit "64f7022d214d5701c6babfe4a975baa60ec999c8")))
-     (sha256 (base32 "0kw1pyd8vywlad4kkh8rw7l941jmc86y6ahs76l1xzxs4lgwsm2s"))))
+           (commit "e9c90e4f476fededcaa921882b214d264a42980d")))
+     (sha256 (base32 "1n3xpv4z0zzrf1vr1kh29j67yx7cy51gqfkidb0p3hh11mffryd5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/justinlime/toggle-term.el")
    (synopsis "Quickly toggle persistent term and shell buffers")
@@ -104616,14 +104616,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260816.737")
+   (version "20260818.1405")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "2a10eb42f95a5e9e96e7a39df982bab0d28cc383")))
-     (sha256 (base32 "17kf15g1dkqiw6yf2vdhfd1zlvmr7spsgis2s75g1lfy6mvgq5q6"))))
+           (commit "a3912b532d4ce6700eac8789216ef6beac218b4d")))
+     (sha256 (base32 "009gr3l16nwrkfnviqbm4mza9jvidzy3b8867kqqnf4xy35isc4h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
@@ -106984,14 +106984,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260813.1003")
+   (version "20260818.1412")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "85629098045154680e16f9e8a7a3e0aeffe7a0ae")))
-     (sha256 (base32 "18w9ihnhvbjy42ipbp9bqrykw6aga096w5dggnxvhp2bwldlfb3w"))))
+           (commit "8cecdcafeb306f654c5eed1847a0c36cb6ff370b")))
+     (sha256 (base32 "15hmhryz7fhbnsy1p1fwvb4yp94mhrzml574hl45aflfab42r5jj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -107020,14 +107020,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260817.930")
+   (version "20260818.1228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "2ea4a8b268b84d668863868c5fbda56155ef6711")))
-     (sha256 (base32 "1y25ybz6hs6n41ji2b2m9ml37qff8a61blavmv2lks16dfwm41dn"))))
+           (commit "cfc9e0629176532dbe07e2ac675eb718751a3cac")))
+     (sha256 (base32 "14hxvxsdxbq5rf5m3bi237xkq9dj1cf6x03zybzimgj2b5mkhp5f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -109556,14 +109556,14 @@
 (define-public emacs-x509-mode
   (package
    (name "emacs-x509-mode")
-   (version "20260715.1405")
+   (version "20260818.1234")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jobbflykt/x509-mode.git")
-           (commit "fec2f7281b3224ea950284cf39ba45a355c652f5")))
-     (sha256 (base32 "0p4i7z3jhn2r60lxmva2l227xplkrsi2skqaj6vr3wyvxz18sasd"))))
+           (commit "4f44db115e8ab34e4721c0a46d81b902b320477d")))
+     (sha256 (base32 "1b367af2q6vy3q2rlz0z81kswyryn1gxwsyw5nqggz8rwk3dyvr3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "*.txt")))
