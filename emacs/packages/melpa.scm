@@ -3227,14 +3227,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260803.1927")
+   (version "20260817.2331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "0d64f2c99d886bf7aa1a64a2aa73d52bb8e8f912")))
-     (sha256 (base32 "1jd269gy8zzig0rmqrbiw0phx2iqgnywr2700wczql8xnfqs89q4"))))
+           (commit "5789d6066aea23c5dd669372c5081ab55dec6f5a")))
+     (sha256 (base32 "0yxd09njynjk2b6y4ligkb4kk3nzw240zdlx2zmh32cz8k0caz7h"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -9674,14 +9674,14 @@
 (define-public emacs-casual
   (package
    (name "emacs-casual")
-   (version "20260718.1803")
+   (version "20260818.526")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/casual.git")
-           (commit "cadbeab2ec45804e63a328202c9a82fbed2413c5")))
-     (sha256 (base32 "1dr4bdxm5c69kpn0312a9jxl1ds6m66dr0x1571993qga4m67aqn"))))
+           (commit "4360a3f8bd8dc775bd1c41a0fb26f2397785ad7f")))
+     (sha256 (base32 "02bsfn81mn1wrhirkfqgqnf96fxi18kvic6wzw18p1a0vcbyhisf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-csv-mode))
    (arguments '(#:files (:defaults "docs/images")))
@@ -15762,14 +15762,14 @@
 (define-public emacs-consult-vulpea
   (package
    (name "emacs-consult-vulpea")
-   (version "20260809.1842")
+   (version "20260818.19")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fabcontigiani/consult-vulpea.git")
-           (commit "3effef56dedf3df80667eec4c319f3fc55f5b5db")))
-     (sha256 (base32 "1ysg5nzavsldvhzmmzr3gnc5n1z437bv72rgng49xicykbxnzx8n"))))
+           (commit "ffb093ee9f1de1e68eaee16dfaf41635ad6bc711")))
+     (sha256 (base32 "1va47s9mkv5rxz878apda5wblwlw6g3sf3z6jyby8gfqsscprgy4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-consult))
    (home-page "https://github.com/fabcontigiani/consult-vulpea")
@@ -18251,14 +18251,14 @@
 (define-public emacs-danneskjold-theme
   (package
    (name "emacs-danneskjold-theme")
-   (version "20260326.915")
+   (version "20260818.609")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rails-to-cosmos/danneskjold-theme.git")
-           (commit "0427edf9e115d31f3197be3059843038dd598697")))
-     (sha256 (base32 "19641vaqdffxk34ms5pwz1y5h0g15mjapny26cy56vczrg41yh99"))))
+           (commit "6c2fe929bfd0757163e1b7c5c7cbcd4dd18a256b")))
+     (sha256 (base32 "196gzj632b3cx4avsgib6q385jwqknagd3wl5k0lyswz7amxn6p2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/rails-to-cosmos/danneskjold-theme")
    (synopsis "Beautiful high-contrast Emacs theme")
@@ -30229,14 +30229,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260729.1654")
+   (version "20260818.145")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "fa8da0ebba4bbf2a84a78183420d8303179ef427")))
-     (sha256 (base32 "07rqmz87159z0gq75i036v079fdws6x726na6sw37amd4lhqf87p"))))
+           (commit "0a9a4c46e274584f66a2e0c313819697c0ab0d2d")))
+     (sha256 (base32 "0zxm026c03hkarz9f6sg3zcndby4zpjr8diddwg6wkkspj1ch6bp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -35416,14 +35416,14 @@
 (define-public emacs-flycheck-languagetool
   (package
    (name "emacs-flycheck-languagetool")
-   (version "20260814.1228")
+   (version "20260818.50")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-languagetool/flycheck-languagetool.git")
-           (commit "722071e6c49331cc2c9ee14ed9f228dd6ac489d9")))
-     (sha256 (base32 "15my1ysm1vd09vfm2ksn2cgsl5cw12pfkla202j4423g28m3b4yv"))))
+           (commit "42c0757d1365f4a98a1eefc621eee69456de8815")))
+     (sha256 (base32 "03r5ajyyhz88hwcx4y6pbhm3ivw2l66427in7jfk9ldgnxnvp1m6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck))
    (home-page "https://github.com/emacs-languagetool/flycheck-languagetool")
@@ -55998,14 +55998,14 @@
 (define-public emacs-kdl-mode
   (package
    (name "emacs-kdl-mode")
-   (version "20260815.1456")
+   (version "20260818.637")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/taquangtrung/emacs-kdl-mode.git")
-           (commit "9ddca206e5fba05fc1a16e5dddb1fa375911550e")))
-     (sha256 (base32 "0jyhmspj73sdcbfb087lfg8hn2q42sjs55lfsvk3ayj5g8939sif"))))
+           (commit "c6ef2a0375b1e179c08a2e0f3809d318d8a0c090")))
+     (sha256 (base32 "1kjxw7c1xy2h6y9s5zk9r36977jz87989bb7zvqnvinkjk52xw3h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/taquangtrung/emacs-kdl-mode")
    (synopsis "Major mode for editing KDL files")
@@ -61696,14 +61696,14 @@
 (define-public emacs-magit-gh
   (package
    (name "emacs-magit-gh")
-   (version "20260221.522")
+   (version "20260818.436")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jonathanchu/magit-gh.git")
-           (commit "5b3cb8f367e3d9fbb5d9593683b492bd7b5399c7")))
-     (sha256 (base32 "15nyflvr86cpd2ym57jfkg6fav2r4npvdri93gjbpfyhqxs9xyv6"))))
+           (commit "17edb32ace7d4374559e337c927c6e34550c52ba")))
+     (sha256 (base32 "0inmarc4jcgi5wvpys665p947hahn0857cvaqpzdbqws2rg4gvkr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (home-page "https://github.com/jonathanchu/magit-gh")
@@ -81563,21 +81563,17 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260817.314")
+   (version "20260818.257")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "ea6ef1aefce4301f24ef8368da3a36d0421ecb5a")))
-     (sha256 (base32 "0xn0g6d6qid2ka37z4r3rv0xc8zqqnvg3gxfxagkfkwdwi9l4517"))))
+           (commit "2a1fc8de4aa28f4199bc73f8c31206c8137dec0f")))
+     (sha256 (base32 "0qa8qhrm668rahvkshfdg2crjdwywr8ryapbh5n13qrvrs30hci0"))))
    (build-system melpa-build-system)
    (propagated-inputs
-    (list emacs-compat
-          emacs-markdown-mode
-          emacs-timeout
-          emacs-pcre2el
-          emacs-spinner))
+    (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
    (home-page "https://github.com/ananthakumaran/pimacs.el")
    (synopsis "Emacs Client for Pi")
    (description "Documentation at https://melpa.org/#/pimacs")
@@ -83029,14 +83025,14 @@
 (define-public emacs-popterm
   (package
    (name "emacs-popterm")
-   (version "20260717.1502")
+   (version "20260817.2331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ChetanKoneru/popterm.el.git")
-           (commit "c3f2079bdd5d480a7509b2f28cc104ec7473ffb7")))
-     (sha256 (base32 "06ddkcvji5dz091kblr5h82jipig7q3zjcb20qc1cfv1d9lv9y46"))))
+           (commit "07410f12057c5ec80f2f81a17f5b66d94ecbc6d0")))
+     (sha256 (base32 "105w3yqhd5b4lh7hgk09qphkdzidhy6089fnw2m06x3k4spxkqwh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/CsBigDataHub/popterm.el")
