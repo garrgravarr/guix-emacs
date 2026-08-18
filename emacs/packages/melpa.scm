@@ -6003,14 +6003,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260810.1338")
+   (version "20260817.1833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "816e1571ed530b41fcef102cd6d9974c4343eb7d")))
-     (sha256 (base32 "0fsg8l8dd8dgdnx1qdm81y0x12mk2zakz6wm4zwyjk9g7352r8bs"))))
+           (commit "c9eb422f2da13e5a2c661ba594ed39a43c39e73c")))
+     (sha256 (base32 "0il3306mf8swbibmlbi4xbazhwp9sysggnw7v4z62z11andrbk9g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -8417,14 +8417,14 @@
 (define-public emacs-buffer-sets
   (package
    (name "emacs-buffer-sets")
-   (version "20250226.2053")
+   (version "20260817.2118")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~swflint/buffer-sets")
-           (commit "8d67ed8c9ea182abdcf457e0c247ab44675def9e")))
-     (sha256 (base32 "07rjf3j44kpgcizx0cmdhccbyf0dd9pxv7i6zic2vlq1jvhj9mci"))))
+           (commit "9c30f12feaa4182d845b70c5be459a07d3be5db3")))
+     (sha256 (base32 "0lm2zm5vksagfdzv2k6ahx1ilkgyhqdrzv871y9mcx751ipz7pfh"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~swflint/buffer-sets")
    (synopsis "Sets of Buffers for Buffer Management")
@@ -40001,14 +40001,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260816.2109")
+   (version "20260817.2000")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "8809cd88d3bb0add97eb37e5f9194c388f511ff8")))
-     (sha256 (base32 "0gi634cp5m11n4bnfwigjcdsfq97n4c9s1l4lv6zzvk00qbcyx0m"))))
+           (commit "b4b82f4ebe415aa62ef35509047c49b0a482bebb")))
+     (sha256 (base32 "14wgk7j0bzn3y1fdmixdx7l6mnkwjsj8l3zi09rw5xpdfi275ylk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -61518,14 +61518,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260817.435")
+   (version "20260817.1910")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "93f7e0bbe8b05ead51bd5621c2b8c69d0f6dca9a")))
-     (sha256 (base32 "17w0hcz334a58s27j6wssfbdnj3b6by131rsfrfdm9syx4nd9rpf"))))
+           (commit "1b50adfcc1435c3767a3105a27d86e558947df22")))
+     (sha256 (base32 "1piiq1yd2s3s6q4xmsfvxg3msrjd644xwm6sgjwaibq634lk29xn"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -75509,14 +75509,14 @@
 (define-public emacs-org-repeat-by-cron
   (package
    (name "emacs-org-repeat-by-cron")
-   (version "20260725.1725")
+   (version "20260817.1415")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/TomoeMami/org-repeat-by-cron.el.git")
-           (commit "154efcb85c77ff7159402a3a1a89af403132dd5a")))
-     (sha256 (base32 "0vkwyslm050i5xcqc5d76lmvlgkwn1907wa3pyrjiag5wv7k0r54"))))
+           (commit "5f4588f690c60f47f9488c4a88a2a5f49e6111c6")))
+     (sha256 (base32 "11g9fav6s0sascpbz06brm8ndklvibv313s467vssjw8yfpm2043"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/TomoeMami/org-repeat-by-cron.el")
    (synopsis "An Org mode task repeater based on Cron expressions")
@@ -88111,14 +88111,14 @@
 (define-public emacs-reddigg
   (package
    (name "emacs-reddigg")
-   (version "20260815.323")
+   (version "20260817.2127")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/thanhvg/emacs-reddigg.git")
-           (commit "b554e05736539b92e55f223818e64da5e9c0b7c8")))
-     (sha256 (base32 "1nj00l4dmk4phgzrb3lkxaknvkjsx92xk3iyrr8nz7xnsxiyvh9v"))))
+           (commit "307b95026da1cb2450d153e0b77eb26d0d5a0980")))
+     (sha256 (base32 "034gihaxr9i856gwl8mx347apv66ayvqqidx73dfvncmqy66dby6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-promise emacs-ht))
    (home-page "https://github.com/thanhvg/emacs-reddigg")
@@ -97604,14 +97604,14 @@
 (define-public emacs-stillness-mode
   (package
    (name "emacs-stillness-mode")
-   (version "20260813.2043")
+   (version "20260817.1547")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/neeasade/stillness-mode.el.git")
-           (commit "91ef22692967ab2099d2fa87313976bffa6afe66")))
-     (sha256 (base32 "1fwz51hxandll2gj8ca0cl0skgzgwri2mcdqxl7rninbrqvm12h6"))))
+           (commit "3d014c504884fae408c9316f27be855fc809cc87")))
+     (sha256 (base32 "0kgrzp8d3fqxz3ayk0ldvjhb4j5scqr90ygwm1xbklqcpjvlhdx2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/neeasade/stillness-mode.el")
@@ -100577,14 +100577,14 @@
 (define-public emacs-test-cockpit
   (package
    (name "emacs-test-cockpit")
-   (version "20260313.1904")
+   (version "20260817.1924")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/test-cockpit.el.git")
-           (commit "eaa2c9346085ccf1fb7e7a9430255b50c057ea15")))
-     (sha256 (base32 "0ahkc3pqm1iym82jvkxrs3jjq4bfj10jq5c88aang5b1xsyglrxw"))))
+           (commit "2187ace87a6bcc04cd61bd5a4f8d76221286682d")))
+     (sha256 (base32 "1vzwzchwm6jg19ylv1yr3l77carszh9rarjvfaggq5wyjs444v7h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projectile emacs-toml))
    (home-page "https://github.com/johannes-mueller/test-cockpit.el")
@@ -101027,14 +101027,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260803.944")
+   (version "20260817.1145")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "859043109479dcf466588f219a1b0d0e369a8b5f")))
-     (sha256 (base32 "1p6k3r9ggdnnkq349nn9g7d0hpckrp413q855aav465r5db33s46"))))
+           (commit "ee22dc9a1ec65193bec9830424a1fc4f42820db4")))
+     (sha256 (base32 "0hj2wy41vp4777pc59m39dqhcf10ps5p4y6qj3jgjkfv0h7viivi"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -103158,14 +103158,14 @@
 (define-public emacs-treesit-auto
   (package
    (name "emacs-treesit-auto")
-   (version "20260210.2010")
+   (version "20260817.1304")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/renzmann/treesit-auto.git")
-           (commit "31466e4ccfd4f896ce3145c95c4c1f8b59d4bfdf")))
-     (sha256 (base32 "12fipf9kxxkwam0l9c1z0abik0gxjaqaxxf08m8svanfd0pvky8y"))))
+           (commit "c227806dddd4b413009a453c450285d1123e7d72")))
+     (sha256 (base32 "13226wq3qyf8kf8v34ain7grdmvylfb3zgnprdc7416jgdi2mhpq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/renzmann/treesit-auto.git")
    (synopsis "Automatically use tree-sitter enhanced major modes")
