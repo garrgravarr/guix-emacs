@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260817.1240")
+   (version "20260818.1953")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "71669673d769f6bf37cb6d911e29b76f7cf995b5")))
-     (sha256 (base32 "1acsz7s8kdzlx72wrp215992x6al72hsiykd00hm904hx8i3x2dq"))))
+           (commit "bb4fa12a0cb8ff285a9c9446767bb3324df0477d")))
+     (sha256 (base32 "009nziy91z0zggz4zn7yncm9vv0fxzmb4wqiffglh2hqaswhp272"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -2721,14 +2721,14 @@
 (define-public emacs-anju
   (package
    (name "emacs-anju")
-   (version "20260701.2139")
+   (version "20260818.1900")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/anju.git")
-           (commit "f5d27108ffe5facb6886fab191068efd1faea39f")))
-     (sha256 (base32 "0agkin9ph1mhfl3dr4p2ljs48npjgm70kpxd43vl5xgyz1dhkkfl"))))
+           (commit "0dd7b55e54031e5e1db364f80150f004733abf22")))
+     (sha256 (base32 "010yf1w1j96siqmhhcvfxvjv5gvr4mj7g5dx8687p6vn92pwv9q0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-casual emacs-markdown-mode))
    (arguments '(#:files (:defaults "docs/images")))
@@ -6003,14 +6003,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260817.1833")
+   (version "20260818.2250")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "c9eb422f2da13e5a2c661ba594ed39a43c39e73c")))
-     (sha256 (base32 "0il3306mf8swbibmlbi4xbazhwp9sysggnw7v4z62z11andrbk9g"))))
+           (commit "350444711bda2be1604582a365d9beccfd09a62d")))
+     (sha256 (base32 "02x7z0cmmzhs62vr0c2v0dnwn9f8hz30dfpaq35a27pjcgdvn1s4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -29591,14 +29591,14 @@
 (define-public emacs-ess
   (package
    (name "emacs-ess")
-   (version "20260723.934")
+   (version "20260818.1451")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-ess/ESS.git")
-           (commit "c3960e09f37550d300437c46ca03fb28975378a1")))
-     (sha256 (base32 "0swg0f065zjpkr9rb57x2xvgyjhs2fp4fmkjrfhq6vqjs9gh5va3"))))
+           (commit "61024e1ef8e673c68500b5ea28fba5fe5cfd27af")))
+     (sha256 (base32 "0l861w41iq17jh91z0dqfr0rar94qm9skzk375axmlynffkw3l99"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -32376,14 +32376,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260813.1041")
+   (version "20260818.1934")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "a312dc80048ad66275596c0fe0a0366ba3ced895")))
-     (sha256 (base32 "0xc5dvid52g11dhjaszz4rq2w4c6xnbbijsskqj7233nwif07g4f"))))
+           (commit "8af18a455d3847b07af2dc4b813841ba930d5a3e")))
+     (sha256 (base32 "0v5f5g8yj0ahdnplym0wzrwb6bbzpba8nk52cjzx4dhbjwspn9gy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -34236,7 +34236,7 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260818.1307")
+   (version "20260818.1340")
    (source
     (origin
      (method git-fetch)
@@ -105856,14 +105856,14 @@
 (define-public emacs-verb
   (package
    (name "emacs-verb")
-   (version "20260708.1918")
+   (version "20260818.1921")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/federicotdn/verb.git")
-           (commit "ef09a5804cac4816ca9a0d1fb9c71c8ed3d3df8f")))
-     (sha256 (base32 "0cli080ndalc7xc96f017xk6b5b00hfz0831r64jx8ci9xscwr5a"))))
+           (commit "8eca8cdb9eaebc49a7da068c74cfe52f2d37d76e")))
+     (sha256 (base32 "0xna9nv3zz1g9jay9a2fcsym4qdqqzbq9zdybpahgp2j0kdkly1z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/federicotdn/verb")
    (synopsis "Organize and send HTTP requests")
@@ -106984,7 +106984,7 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260818.1412")
+   (version "20260818.1535")
    (source
     (origin
      (method git-fetch)
