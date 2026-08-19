@@ -6003,14 +6003,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260818.2250")
+   (version "20260819.1411")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "350444711bda2be1604582a365d9beccfd09a62d")))
-     (sha256 (base32 "02x7z0cmmzhs62vr0c2v0dnwn9f8hz30dfpaq35a27pjcgdvn1s4"))))
+           (commit "f186e91a4941016690fdb1b6eaddb4604db1c8da")))
+     (sha256 (base32 "17x4z2l7pb60hmimwh3m5yxcc7jkdgx5kl7f16zcp7y5sy84yh40"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -10963,14 +10963,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260807.1133")
+   (version "20260819.1516")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "501e1686962ce2613f7478b2a3a0f63c546b812e")))
-     (sha256 (base32 "0ivpp3laykcs98z3b9vy9hxm4fy24fvlpks4zkx83kkz7ppwaq6d"))))
+           (commit "96238051df176784483fe5b518083d744cb3ccb6")))
+     (sha256 (base32 "1jvccvxzrz2mizmcrw0a0izp0fzvb6mfmcniz11lc70vp5hvgxx7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -32376,14 +32376,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260818.1934")
+   (version "20260819.1040")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "8af18a455d3847b07af2dc4b813841ba930d5a3e")))
-     (sha256 (base32 "0v5f5g8yj0ahdnplym0wzrwb6bbzpba8nk52cjzx4dhbjwspn9gy"))))
+           (commit "b2feaf74edcb57e5c766801589bbdd1396a5acad")))
+     (sha256 (base32 "1cq78xx9wkr6ncr4k2sf54lq8gjggy9wa3ing0jvgl191hn7qqxf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -33922,14 +33922,14 @@
 (define-public emacs-flex-compile
   (package
    (name "emacs-flex-compile")
-   (version "20260724.34")
+   (version "20260819.1449")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/plandes/flex-compile.git")
-           (commit "c9f6b00d6da0192a52f17a0b9c2a8753d7bbced8")))
-     (sha256 (base32 "12w7z6pc3k5y6cbaik1n4mn13r4r5bzzj54930nasfgrw9d4f5jq"))))
+           (commit "6e56021cfa5a9f1e2f3fa063ba610331eb20047d")))
+     (sha256 (base32 "12sj3ws94g40a7zp8s9dsqrx6lvylih5nva9wfa3fpbjyg8pc55a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-buffer-manage))
    (home-page "https://github.com/plandes/flex-compile")
@@ -34236,14 +34236,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260818.1340")
+   (version "20260819.636")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "c13a6dde068c21f67230db99cf85a56ef91382db")))
-     (sha256 (base32 "175pr7zgyc2nchw7hbsvfpzim6663p2h1qp037z1np8ax1s9iy9n"))))
+           (commit "740fc32056ddd9f705b975f686b144bb84efa6a2")))
+     (sha256 (base32 "1isypvgkyql9q5ccghgbyp1hzbkqm2hlc2a6nwz49328si2yj8q4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -40592,14 +40592,14 @@
 (define-public emacs-git-overleaf
   (package
    (name "emacs-git-overleaf")
-   (version "20260819.444")
+   (version "20260819.857")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/git-overleaf.el.git")
-           (commit "04576f1d7fe30e61acfa1a6532b6011b41dd6e0a")))
-     (sha256 (base32 "1h8k6982gh4j3hzlrdckpixf0y8jfmhagq20x1x95d34bc3bxqpq"))))
+           (commit "df667e84262041a574f94e8917df3ee439efa8c5")))
+     (sha256 (base32 "0j0p77dvlqa8cbdn9mirp04dhg65c9v7dv0v1xzhczp88wlpg9dz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket emacs-webdriver emacs-magit-section))
@@ -61518,14 +61518,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260817.1910")
+   (version "20260819.1312")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "1b50adfcc1435c3767a3105a27d86e558947df22")))
-     (sha256 (base32 "1piiq1yd2s3s6q4xmsfvxg3msrjd644xwm6sgjwaibq634lk29xn"))))
+           (commit "2d9d48fec6acf5e545395d7c514fd8b70f6ad028")))
+     (sha256 (base32 "1db4bra9s83wk629j4nj147cglpxc3mgxckwf6xal6xhfy0w6qc0"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63401,14 +63401,14 @@
 (define-public emacs-mcp-server-lib
   (package
    (name "emacs-mcp-server-lib")
-   (version "20260630.1141")
+   (version "20260819.1306")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/mcp-server-lib.el.git")
-           (commit "dec55e6405987250256a81efe92d65bdfa8a140c")))
-     (sha256 (base32 "1hw6wj62nwvjap3yjqjm7ybkwpnh7xi2q21rg2hi36cnzarb59yd"))))
+           (commit "f7c34f5ab6ae4620cfa88a25ef9cbd47313322e4")))
+     (sha256 (base32 "1s81xi9k4jfz49a1zqnw8rr5q20jbp0840qy59974h4r3vkz1kf1"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "emacs-mcp-stdio.sh")))
    (home-page "https://github.com/laurynas-biveinis/mcp-server-lib.el")
@@ -65440,14 +65440,14 @@
 (define-public emacs-moe-theme
   (package
    (name "emacs-moe-theme")
-   (version "20260811.1919")
+   (version "20260819.1554")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kuanyui/moe-theme.el.git")
-           (commit "d091865eeb97b0894e6517137dc0544560bc57fb")))
-     (sha256 (base32 "0q3fv28dr9cgr1fyf93j8ylh1yp7l7q31s085qi9zy5nz5yljqd9"))))
+           (commit "6a5c85c89855ff1fba6aa57d68346b9b7bb7cec0")))
+     (sha256 (base32 "0q3ncz4lg4695b35111q2dn94w6v749dq7flsczgngnlr1z3ic7v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kuanyui/moe-theme.el")
    (synopsis "A colorful eye-candy theme. Moe, moe, kyun!")
@@ -74825,14 +74825,14 @@
 (define-public emacs-org-node
   (package
    (name "emacs-org-node")
-   (version "20260309.1528")
+   (version "20260819.1204")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/meedstrom/org-node.git")
-           (commit "10ea878528a24ae9bf6903da198f347d093f2b11")))
-     (sha256 (base32 "1svfniagrb3xak2bnjvz7avdc6dznrssj19kln7fh0q180vibbdq"))))
+           (commit "7466daf5ec82504eab0fe2a68652830776f0baa8")))
+     (sha256 (base32 "1xrxnr7c28wpxvvcz5jgkqfh3nja2nwrlizy7wq2pyzlsjl5y836"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-cond-let emacs-llama emacs-magit-section emacs-org-mem))
@@ -86346,14 +86346,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260819.239")
+   (version "20260819.1101")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "4b879cf99feefc6f7b7a22327e9f01e64110d396")))
-     (sha256 (base32 "0bmcd10dmn95kblxxrdi7lzjhg6scvxrs12f7vjaijd2wjc5mn55"))))
+           (commit "e0f6a052c476d7ab0a16a0c62cc52a01a373f4e9")))
+     (sha256 (base32 "1f5w2935w3b78yg94wi7b0lbjdpziibr1nzazbajjqbsjyxj61by"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -93688,14 +93688,14 @@
 (define-public emacs-simple-modeline
   (package
    (name "emacs-simple-modeline")
-   (version "20210312.1048")
+   (version "20260819.628")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gexplorer/simple-modeline.git")
-           (commit "119d8224a8ae0ee17b09ac1fed6cdb9cb1d048fd")))
-     (sha256 (base32 "1rnzrx7gcaw056cqvnb1wai4hala0r0gpk3a4kyyghyp9hmrxbb5"))))
+           (commit "db5a5f4f90ac4c383cfcbd938c1ea64cb1ec653f")))
+     (sha256 (base32 "0r7ycwncm8gb8m7c6487afhlajnfbk8wykvyv3y9h272hjpawisj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gexplorer/simple-modeline")
    (synopsis "A simple mode-line configuration for Emacs")
@@ -107020,14 +107020,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260818.1228")
+   (version "20260819.1015")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "cfc9e0629176532dbe07e2ac675eb718751a3cac")))
-     (sha256 (base32 "14hxvxsdxbq5rf5m3bi237xkq9dj1cf6x03zybzimgj2b5mkhp5f"))))
+           (commit "be90bbaa9d3428f173de337c889e2af07f6a0835")))
+     (sha256 (base32 "1jf65ixfzmlhwpf23ffna2snwqxajxyh8xm16vlvqq9faq0l0sqg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
