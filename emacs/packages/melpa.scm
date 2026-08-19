@@ -12326,14 +12326,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260817.1338")
+   (version "20260819.309")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "c2c098bfc86a05c8deb1970445435a3493f52270")))
-     (sha256 (base32 "0j866077pjp46pfb9hm9ahj4jv40hnfcl6jcd068cdph9ilm055v"))))
+           (commit "833fcb0709959281a713da0d262a2e7d70640cff")))
+     (sha256 (base32 "1j51xmj3bh8235fngmgc1wk6zwb486sbg228zndcjh0lh1wghfq0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -40592,14 +40592,14 @@
 (define-public emacs-git-overleaf
   (package
    (name "emacs-git-overleaf")
-   (version "20260817.808")
+   (version "20260819.444")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/git-overleaf.el.git")
-           (commit "cdfaf78e6eb13f8026dab9017cbee9e799ecf6c7")))
-     (sha256 (base32 "097szwzx5hvkr5p534582vahfzh30zlnhi13jhhsyp4cshv90rhv"))))
+           (commit "04576f1d7fe30e61acfa1a6532b6011b41dd6e0a")))
+     (sha256 (base32 "1h8k6982gh4j3hzlrdckpixf0y8jfmhagq20x1x95d34bc3bxqpq"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket emacs-webdriver emacs-magit-section))
@@ -42863,14 +42863,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260813.2132")
+   (version "20260819.446")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "ac4e1fe736f37cf6d3927cd3ebc26f54d383425a")))
-     (sha256 (base32 "1wl5r8qbz18v2xc9w7gl5r8k3l5inwwsrpvcb6g1n4695cpqgcls"))))
+           (commit "df4c9d8b768675bcde4a02b65eea67e2f6dcc6d4")))
+     (sha256 (base32 "0p9dk1bd45dc03rnsr7m2fl2hz344cl8130kz50rxzv0yzqk3m1k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -81563,14 +81563,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260818.257")
+   (version "20260819.255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "2a1fc8de4aa28f4199bc73f8c31206c8137dec0f")))
-     (sha256 (base32 "0qa8qhrm668rahvkshfdg2crjdwywr8ryapbh5n13qrvrs30hci0"))))
+           (commit "086aa4e481e44c5fc8fdee2345f05ffb8e2bac12")))
+     (sha256 (base32 "03jahzp641x9kfjn9zb0y3zmjr7j2vjiqdbpn0janzsz169aqzrw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -86346,14 +86346,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260810.39")
+   (version "20260819.239")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "d951be62b2625dadd0a398ab6c93512f6d9e4f3c")))
-     (sha256 (base32 "0fs9989rzyq4idgzjx87105p831mprhvdip4g212iz2warza2h7s"))))
+           (commit "4b879cf99feefc6f7b7a22327e9f01e64110d396")))
+     (sha256 (base32 "0bmcd10dmn95kblxxrdi7lzjhg6scvxrs12f7vjaijd2wjc5mn55"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -101848,14 +101848,14 @@
 (define-public emacs-toggle-term
   (package
    (name "emacs-toggle-term")
-   (version "20260818.1002")
+   (version "20260819.415")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/justinlime/toggle-term.el.git")
-           (commit "e9c90e4f476fededcaa921882b214d264a42980d")))
-     (sha256 (base32 "1n3xpv4z0zzrf1vr1kh29j67yx7cy51gqfkidb0p3hh11mffryd5"))))
+           (commit "6859d9bab523b2f821a59e2d0a59321ad7fed948")))
+     (sha256 (base32 "1k5lbbcayl0vlydbqhm3a08kacc1g9fpqd28w34j5ryxd51ghqvv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/justinlime/toggle-term.el")
    (synopsis "Quickly toggle persistent term and shell buffers")
