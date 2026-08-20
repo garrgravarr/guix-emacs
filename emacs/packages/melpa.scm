@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260817.201")
+   (version "20260819.1545")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "d9eb2457b0c63f74eaf42cdd60a4fb810fe87737")))
-     (sha256 (base32 "195j59y6pcc8495nmh09m23418nk5lhqs629mmp9lppslk0n5kyb"))))
+           (commit "6c515b3061806240f64fd4d21954b543c077d21f")))
+     (sha256 (base32 "0rfzq7ksddsiqzd82w2jjxl88l0iddkwvvzqpcgcq4dbn3vca25g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -10963,7 +10963,7 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260819.1516")
+   (version "20260819.1531")
    (source
     (origin
      (method git-fetch)
@@ -19073,14 +19073,14 @@
 (define-public emacs-decl
   (package
    (name "emacs-decl")
-   (version "20221027.1823")
+   (version "20260819.1858")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/preetpalS/decl.el.git")
-           (commit "9594fe3d6e094b20cb29d2f55fc1417b7628f011")))
-     (sha256 (base32 "150f8bl85qq15ylq0vrzcf24l8rp6hpjh6hkhz5m4n5dh7xxxj9s"))))
+           (commit "491fab9d6a8debe266e0f7ed8590becfa2157353")))
+     (sha256 (base32 "19mfn1j2dank7d1xrd80wlyg2x04dpzr1j12h7x0a7iwc81f7z1b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/preetpalS/decl.el")
@@ -23999,14 +23999,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260817.1416")
+   (version "20260819.1807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "50e8519d0616a380278d567ee24b08445bc5335d")))
-     (sha256 (base32 "0xpbw7vxpxdz2ad7mk0cnaqwj8w5z1kql20csfm1fsiv332wkxbb"))))
+           (commit "231637c8f8a43266f1a8ba57fa6d105c266b335f")))
+     (sha256 (base32 "1fpg3mhx8g16fxqj62mh3acg1p15z50h0i2grijnlfyazpbiv0lw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -65423,14 +65423,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260816.1054")
+   (version "20260819.2003")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "8ebcedea65c2609af1c7a23257007c1e2a910add")))
-     (sha256 (base32 "05bl90pg3pdbzbpvl12aqmax0qnv3a55j5y90mm9hyw8f073rhwl"))))
+           (commit "75ad3771352ed4b61a141f8d4d63e1b08a6c5cbc")))
+     (sha256 (base32 "16cjcpzp3868psajvlmryla5yp8dklf9b86jhingch60aainzgjl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -71542,14 +71542,14 @@
 (define-public emacs-ocaml-eglot
   (package
    (name "emacs-ocaml-eglot")
-   (version "20260526.2031")
+   (version "20260819.1639")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarides/ocaml-eglot.git")
-           (commit "1edc88567f45dba18f220fc705acd93e652e12ff")))
-     (sha256 (base32 "0w8ca8d8hyyl6mglxyqwbgzbpd1hsjx6h0k602k1m38jc8l7zbbi"))))
+           (commit "909a786934e7b02d5b8556a4f242a1fa3374d095")))
+     (sha256 (base32 "1ai29b6d9yiz3qw4hymfkvcx8x35iq75p4ai77lk1649fvyk5v35"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tarides/ocaml-eglot")
    (synopsis "An OCaml companion for Eglot")
@@ -91621,14 +91621,14 @@
 (define-public emacs-sculpture-themes
   (package
    (name "emacs-sculpture-themes")
-   (version "20260807.1622")
+   (version "20260819.1348")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/sculpture-themes.git")
-           (commit "bc1a1b8ab9e9e63944e554bb5253f74066ed191d")))
-     (sha256 (base32 "1dzb06grrggwkij11n1328nk8l441rnmxazz5l396xjik43xnfln"))))
+           (commit "b5bfd886bf253141a9a333836a542fced1fd8290")))
+     (sha256 (base32 "07ha30xb16zharfb4k96741n51azd6h1x9l3q3iklaaawlfr0c1q"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/sculpture-theme")
    (synopsis "Themes with vivid colors")
