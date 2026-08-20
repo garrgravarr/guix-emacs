@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260819.1545")
+   (version "20260820.310")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "6c515b3061806240f64fd4d21954b543c077d21f")))
-     (sha256 (base32 "0rfzq7ksddsiqzd82w2jjxl88l0iddkwvvzqpcgcq4dbn3vca25g"))))
+           (commit "617ac49c15e0caa7310ad7c13525a9b8639c4005")))
+     (sha256 (base32 "02dxhx6awz2gbg1rya4x6yd4k339fdbc5ssjfp013gc92mz3la7z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -6003,14 +6003,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260819.1411")
+   (version "20260819.2359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "f186e91a4941016690fdb1b6eaddb4604db1c8da")))
-     (sha256 (base32 "17x4z2l7pb60hmimwh3m5yxcc7jkdgx5kl7f16zcp7y5sy84yh40"))))
+           (commit "d95170a90b86ad1a4550e579f7379a3f40bd1c0d")))
+     (sha256 (base32 "08zjcq01mxbv644nda0fld2fm8i9q823biz487i1x47p6ds174zz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -27790,14 +27790,14 @@
 (define-public emacs-empv
   (package
    (name "emacs-empv")
-   (version "20260802.1816")
+   (version "20260819.2256")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/empv.el.git")
-           (commit "5fc13f164592c9df6c846cce06874751ef6aad76")))
-     (sha256 (base32 "1j86np9xlyx1pb7di2wbahdyah2f2mgpw9l2hmcx5p25y0agr340"))))
+           (commit "a1c76aa8d29b8759fe9363e83043c7571deaaea4")))
+     (sha256 (base32 "13cxvjg9zn7skf5i2k8yynczyxzf5d4cd2314j652wk6j1991479"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-compat))
    (home-page "https://github.com/isamert/empv.el")
@@ -49708,14 +49708,14 @@
 (define-public emacs-hutch
   (package
    (name "emacs-hutch")
-   (version "20260630.1048")
+   (version "20260820.745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/adjaecent/magit-hutch.git")
-           (commit "ee06a06093c66f2c4c5873434aba44b62e11bf76")))
-     (sha256 (base32 "0g1h5laqwd14dvdpwn0nj3picygqf6dgvg9lcbk727v2i9qvpssm"))))
+           (commit "454af68bd583098b821ac46c55f0bd78e7f19aa3")))
+     (sha256 (base32 "118yghw93j717k2ij8i26g2bzdr8idw5frw349f0zqyr0ryb77x0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit emacs-gptel emacs-svg-lib))
    (home-page "https://github.com/adjaecent/magit-hutch")
@@ -61518,14 +61518,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260819.1312")
+   (version "20260820.359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "2d9d48fec6acf5e545395d7c514fd8b70f6ad028")))
-     (sha256 (base32 "1db4bra9s83wk629j4nj147cglpxc3mgxckwf6xal6xhfy0w6qc0"))))
+           (commit "7813d89a17bf06dffaba7a44808a4c5bc881d684")))
+     (sha256 (base32 "0fd02a29m888xxwbmx4wl1lkl9haylh76nvd09afrvyqd4zchv7q"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -74561,14 +74561,14 @@
 (define-public emacs-org-mcp
   (package
    (name "emacs-org-mcp")
-   (version "20260729.911")
+   (version "20260820.803")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/org-mcp.git")
-           (commit "13ef5d3076f59dc6e9788e330f937c51479eb7cd")))
-     (sha256 (base32 "09q4fxai26l8ijhr0hqbwlb2pf0rhmf574217gzq8g20k1mk0r00"))))
+           (commit "b02d20d190ecaa6c40f044d04a1502576cdca7bb")))
+     (sha256 (base32 "1b9a29rp503h4xddrm7mcamqdnqsfn6g2nzj2m38l4v9pizxligb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-mcp-server-lib))
    (home-page "https://github.com/laurynas-biveinis/org-mcp")
@@ -81563,14 +81563,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260819.255")
+   (version "20260820.210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "086aa4e481e44c5fc8fdee2345f05ffb8e2bac12")))
-     (sha256 (base32 "03jahzp641x9kfjn9zb0y3zmjr7j2vjiqdbpn0janzsz169aqzrw"))))
+           (commit "f040f3c97af96997f33a860c20ee0bddf7ba8101")))
+     (sha256 (base32 "11h9bs5qxwvxsgajl7dfhw7g733v5rdb6jw47015d7d770wlpfgc"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
