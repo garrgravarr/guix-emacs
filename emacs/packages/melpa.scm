@@ -1245,14 +1245,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20260803.2034")
+   (version "20260820.906")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "7d5c16ebcf2af86aa0f14ad9ae0ce45df4e8c8a5")))
-     (sha256 (base32 "19bwir0mg159ypdqva6pm118ynk15dqr4p5cxz1pgwm6532k0d3y"))))
+           (commit "2c68f25dfe138ab5ec8f8decd23ea1426e349e7e")))
+     (sha256 (base32 "1n78z25wvcy6hpv53c7nds3nkqqi7j27xw6zx4w05v01da41l7nm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260818.1953")
+   (version "20260820.905")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "bb4fa12a0cb8ff285a9c9446767bb3324df0477d")))
-     (sha256 (base32 "009nziy91z0zggz4zn7yncm9vv0fxzmb4wqiffglh2hqaswhp272"))))
+           (commit "26969ef21808218a439d6bb86face1333ae76169")))
+     (sha256 (base32 "1l6kfmhz4pxx14mv9383giljl62nivnxpl6df3hqir6hvvc9dzrb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -23999,14 +23999,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260819.1807")
+   (version "20260820.1307")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "231637c8f8a43266f1a8ba57fa6d105c266b335f")))
-     (sha256 (base32 "1fpg3mhx8g16fxqj62mh3acg1p15z50h0i2grijnlfyazpbiv0lw"))))
+           (commit "fa2703b68cb8bb7bb6655207fb1afb0b591427ac")))
+     (sha256 (base32 "1yi7yfjpb6lx4id9x5wq7700yyfwkrmqxvmhqswrr55lhnvx9mng"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -30465,14 +30465,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260813.818")
+   (version "20260820.1035")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "5be34cbbfd18c3e39fffc46bbc824d42bbe35f9b")))
-     (sha256 (base32 "1rz18cljkmzxhvl6nmhqdfgc6009kx3yvig8ybndjnnlg1qddn09"))))
+           (commit "02d0e3743dbe1a8c607adcfdc526367d798f4c23")))
+     (sha256 (base32 "06mk8005dm9amjcw487xbxqs3gxdy12fk6hf90p15n58ikkrhm3b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -32376,14 +32376,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260819.1040")
+   (version "20260820.1257")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "b2feaf74edcb57e5c766801589bbdd1396a5acad")))
-     (sha256 (base32 "1cq78xx9wkr6ncr4k2sf54lq8gjggy9wa3ing0jvgl191hn7qqxf"))))
+           (commit "8004f7d345839c774850efe00d42ad777b0c3b2d")))
+     (sha256 (base32 "18ygi67xvrfagqcwx9bjcpb3zwfx16n373vpq4zdyp53i9w0rsa5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -34236,14 +34236,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260819.636")
+   (version "20260820.1221")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "740fc32056ddd9f705b975f686b144bb84efa6a2")))
-     (sha256 (base32 "1isypvgkyql9q5ccghgbyp1hzbkqm2hlc2a6nwz49328si2yj8q4"))))
+           (commit "ac7a53aa2d69680d38261be4f26a9404675bfaed")))
+     (sha256 (base32 "1ydp69f3c00d0qsyjx9ws6nk8844rh8qalzk1qj5fis4iszb2b3d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -40001,14 +40001,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260817.2000")
+   (version "20260820.1035")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "b4b82f4ebe415aa62ef35509047c49b0a482bebb")))
-     (sha256 (base32 "14wgk7j0bzn3y1fdmixdx7l6mnkwjsj8l3zi09rw5xpdfi275ylk"))))
+           (commit "02d0e3743dbe1a8c607adcfdc526367d798f4c23")))
+     (sha256 (base32 "06mk8005dm9amjcw487xbxqs3gxdy12fk6hf90p15n58ikkrhm3b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49978,14 +49978,14 @@
 (define-public emacs-hyperstitional-themes
   (package
    (name "emacs-hyperstitional-themes")
-   (version "20260807.2300")
+   (version "20260820.1048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/hyperstitional-themes.git")
-           (commit "adde296858f4c468008eb8ed92ccad416e7e0391")))
-     (sha256 (base32 "0b14slfnjb8s38k1qz8bzsbnw930gn7h5451rkjh786dvlbql3n5"))))
+           (commit "fb828b43e32aa693344b2530062ba62ee6595f62")))
+     (sha256 (base32 "0j53g6vr6smpzv8l94d3jlb4wjaxb9k775vcg26dlbazn47hjpz1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/hyperstitional-themes")
    (synopsis "Weird themes with incremental palettes")
@@ -61518,14 +61518,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260820.359")
+   (version "20260820.1220")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "7813d89a17bf06dffaba7a44808a4c5bc881d684")))
-     (sha256 (base32 "0fd02a29m888xxwbmx4wl1lkl9haylh76nvd09afrvyqd4zchv7q"))))
+           (commit "d5d2b44a9ee70441a46e853af2c690eeb8e9b4c5")))
+     (sha256 (base32 "1g0i9x85f5arhjj4lp494azbqb1iijzf0nxl4g14is5bxcykmvds"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -84304,14 +84304,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260818.1310")
+   (version "20260820.1418")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "a770b83830250ea5d4ebccaaf3199c31f45040f8")))
-     (sha256 (base32 "1isximgiqdy3jaamnbbqla4vbkqcz9693g7gmgisyyyl2aqm7np4"))))
+           (commit "c1ad79b7c98bba4e8382fc993556ca62b71e19ea")))
+     (sha256 (base32 "1sqwgn9ihq9valmb98z5byhaixj9dcngl8by4h9s53albk4qdaj0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -92748,14 +92748,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260817.1110")
+   (version "20260820.1245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "a92260d92ef61274e3a7bc3b00b28588784ba6b9")))
-     (sha256 (base32 "13rlph0m125sadqpbx1zch898zs44fzcra9cwvix1vrw5gcrxfpr"))))
+           (commit "ab4f8ebaf4ef7a7db4762c5d5075baea580044ba")))
+     (sha256 (base32 "11riixlxsvrkba0phiji4wjw7d1ggg500am0s9fcszgviwcrlg9r"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -93688,14 +93688,14 @@
 (define-public emacs-simple-modeline
   (package
    (name "emacs-simple-modeline")
-   (version "20260819.628")
+   (version "20210312.1048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gexplorer/simple-modeline.git")
-           (commit "db5a5f4f90ac4c383cfcbd938c1ea64cb1ec653f")))
-     (sha256 (base32 "0r7ycwncm8gb8m7c6487afhlajnfbk8wykvyv3y9h272hjpawisj"))))
+           (commit "119d8224a8ae0ee17b09ac1fed6cdb9cb1d048fd")))
+     (sha256 (base32 "1rnzrx7gcaw056cqvnb1wai4hala0r0gpk3a4kyyghyp9hmrxbb5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gexplorer/simple-modeline")
    (synopsis "A simple mode-line configuration for Emacs")
@@ -93949,14 +93949,14 @@
 (define-public emacs-sis
   (package
    (name "emacs-sis")
-   (version "20260803.523")
+   (version "20260820.950")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laishulu/emacs-smart-input-source.git")
-           (commit "a2c9010d3c1cc282ce364dcafcd9b6c4ac45a643")))
-     (sha256 (base32 "0hhvvm1vrw6bq6c4ix6bani02lm4pdkixw0nyslajva3di9krfr7"))))
+           (commit "13bc51610390271e8e9f2e177de12117f7ce9bcb")))
+     (sha256 (base32 "0plyab9w3dd2zwiqx6nnjybj9aaqxlg41xcbk6y0ns3waizxjdpl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/laishulu/emacs-smart-input-source")
    (synopsis "Minimize manual input source (input method) switching")
@@ -94243,14 +94243,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260808.2219")
+   (version "20260820.902")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "32740772e0b669679df835d38044493b9b090487")))
-     (sha256 (base32 "0g9gxfv9q7dg31qcs98h2dx8x7dci5lynagqy7a8aa7gn5gr0dhd"))))
+           (commit "ec7d59f50007cf899ebe7539a639bdb88392baf4")))
+     (sha256 (base32 "0573yfygjgz2grq4y2v984vmx38k3n19drnbs16dwmzfzz8hdyla"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -101848,14 +101848,14 @@
 (define-public emacs-toggle-term
   (package
    (name "emacs-toggle-term")
-   (version "20260819.415")
+   (version "20260820.1011")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/justinlime/toggle-term.el.git")
-           (commit "6859d9bab523b2f821a59e2d0a59321ad7fed948")))
-     (sha256 (base32 "1k5lbbcayl0vlydbqhm3a08kacc1g9fpqd28w34j5ryxd51ghqvv"))))
+           (commit "ebfce6283e53fda7f69ccda73109a02b646623af")))
+     (sha256 (base32 "140mbqg5mjpngn0gw6zidp6fcjr5zlzqirdh05b3lhzi6q2p8b71"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/justinlime/toggle-term.el")
    (synopsis "Quickly toggle persistent term and shell buffers")
