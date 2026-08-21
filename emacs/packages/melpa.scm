@@ -1663,7 +1663,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260820.905")
+   (version "20260820.1445")
    (source
     (origin
      (method git-fetch)
@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260820.310")
+   (version "20260820.1501")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "617ac49c15e0caa7310ad7c13525a9b8639c4005")))
-     (sha256 (base32 "02dxhx6awz2gbg1rya4x6yd4k339fdbc5ssjfp013gc92mz3la7z"))))
+           (commit "3e16991109f716afca249551651045cc799a6d64")))
+     (sha256 (base32 "0xj66cn7p7pnkwb9383x4vrm2bz2002q2n7hs9s8vjq79b1m4yli"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -4081,14 +4081,14 @@
 (define-public emacs-atom-one-dark-theme
   (package
    (name "emacs-atom-one-dark-theme")
-   (version "20260119.1824")
+   (version "20260821.7")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jonathanchu/atom-one-dark-theme.git")
-           (commit "e5b1edaf183f940ee2af1d44a2c0de4a69ee88ab")))
-     (sha256 (base32 "1c6b3271sm46qwia6d4bxi3m7xg4v38icrgln38c7dbqbkq0jvid"))))
+           (commit "54a714405e8696aea555f11fe2aa983b8d4372fa")))
+     (sha256 (base32 "1plzygqb889zjq1pi9y0nwhk14z4w904r48l8vi27c0ich58sbya"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jonathanchu/atom-one-dark-theme")
    (synopsis "Atom One Dark color theme")
@@ -6003,14 +6003,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260819.2359")
+   (version "20260820.1428")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "d95170a90b86ad1a4550e579f7379a3f40bd1c0d")))
-     (sha256 (base32 "08zjcq01mxbv644nda0fld2fm8i9q823biz487i1x47p6ds174zz"))))
+           (commit "0a5dec6508afdbcc79d98300717c5be530f12497")))
+     (sha256 (base32 "0kdrqx9n19lnf0n72pi355yq5iw0wdn0c86yiviypabw1pxl9zyd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -6781,14 +6781,14 @@
 (define-public emacs-bicycle
   (package
    (name "emacs-bicycle")
-   (version "20260601.1451")
+   (version "20260820.2024")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/bicycle.git")
-           (commit "b8919e56e7f20e4164002e9b4dba0268779b5645")))
-     (sha256 (base32 "1mw1826lfvqibg0gxwa39mbas4d3m83xix3pgmscvpphidpnl61h"))))
+           (commit "4b0efa33a9da40a327deb40fbf229e64b01dd650")))
+     (sha256 (base32 "0axha3v2yq2y711c746y3kcfnhaag9ri6jh99dlaqcdr746j514l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/tarsius/bicycle")
@@ -33957,14 +33957,14 @@
 (define-public emacs-flex-x
   (package
    (name "emacs-flex-x")
-   (version "20260807.1156")
+   (version "20260820.2207")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kn66/flex-x.git")
-           (commit "905df04dd7abd4135e1c52a1fa209b49065c0080")))
-     (sha256 (base32 "17ms4igpiwd3mhkg9bap7phngx9ip9j7bwbm680bxdnzwbd84g8r"))))
+           (commit "647390f8f7b6fd3dd28b0e898e8d33be65759d0a")))
+     (sha256 (base32 "18z4fszc5nsz73xflyl30jnbszchvn86g83nhqz8ynp7sc1dcvjw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kn66/flex-x")
    (synopsis "Extended flex completion style")
@@ -34199,14 +34199,14 @@
 (define-public emacs-flx-ido
   (package
    (name "emacs-flx-ido")
-   (version "20240205.356")
+   (version "20260820.2237")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lewang/flx.git")
-           (commit "4b1346eb9a8a76ee9c9dede69738c63ad97ac5b6")))
-     (sha256 (base32 "0q49p1y3kpx140h0f97kfw4kfx8mlzzxbninbarvygmlg2fkfi1n"))))
+           (commit "6803eca89d0c4c7871433c993463e66aabf77443")))
+     (sha256 (base32 "0g093yp6ghk2ir0kilj7rncqsiqbaqwad8mggfb2zcq5axvsf9pf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx))
    (arguments '(#:files ("flx-ido.el")))
@@ -34236,7 +34236,7 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260820.1221")
+   (version "20260820.1503")
    (source
     (origin
      (method git-fetch)
@@ -62741,14 +62741,14 @@
 (define-public emacs-markdown-mode
   (package
    (name "emacs-markdown-mode")
-   (version "20260722.40")
+   (version "20260821.11")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jrblevin/markdown-mode.git")
-           (commit "f441e8bc9951e73b12c61e9198658488dd8e86e1")))
-     (sha256 (base32 "0a62zhrzq33nrpbvxmlgz6s22fa9dhph5w54n43qs7sjzm5sf2f0"))))
+           (commit "6995b8d095eceace0b947c1217646781ab021c10")))
+     (sha256 (base32 "1pys4l3a7nf90b69bda18y9d0122xi7lkbr308m9sw6q9n8v8yl8"))))
    (build-system melpa-build-system)
    (home-page "https://jblevins.org/projects/markdown-mode/")
    (synopsis "Major mode for Markdown-formatted text")
@@ -70738,14 +70738,14 @@
 (define-public emacs-ob-janet
   (package
    (name "emacs-ob-janet")
-   (version "20260803.608")
+   (version "20260820.855")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/zzkt/ob-janet.git")
-           (commit "9e849604ecef65775bf06565c29f001848f1aad1")))
-     (sha256 (base32 "1asywhmcxi4j0qh909m1krbjk80wjn6kkdnnb8s0z9v2mypjd3kq"))))
+           (commit "3dbf225cd32bb60b4fe76fabd89fdac72c6aa84f")))
+     (sha256 (base32 "16ryk5z2a2lm2pliq8vgb6kmcvhbhciqrc8dp1q1zw3y41cl15sr"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/zzkt/ob-janet")
    (synopsis "Org-Babel support for the Janet language")
@@ -84304,7 +84304,7 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260820.1418")
+   (version "20260820.1509")
    (source
     (origin
      (method git-fetch)
