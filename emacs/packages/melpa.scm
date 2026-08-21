@@ -4081,14 +4081,14 @@
 (define-public emacs-atom-one-dark-theme
   (package
    (name "emacs-atom-one-dark-theme")
-   (version "20260821.7")
+   (version "20260821.341")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jonathanchu/atom-one-dark-theme.git")
-           (commit "54a714405e8696aea555f11fe2aa983b8d4372fa")))
-     (sha256 (base32 "1plzygqb889zjq1pi9y0nwhk14z4w904r48l8vi27c0ich58sbya"))))
+           (commit "7f2ea3d9cc09d41e96e239b6b1586a346e2418ef")))
+     (sha256 (base32 "18nxf7ym4892r4834jpk2jfqm0hqq9cpgbw5h0ab9q6wi9j2k5kk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jonathanchu/atom-one-dark-theme")
    (synopsis "Atom One Dark color theme")
@@ -9286,14 +9286,14 @@
 (define-public emacs-calibredb
   (package
    (name "emacs-calibredb")
-   (version "20260815.633")
+   (version "20260821.518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/chenyanming/calibredb.el.git")
-           (commit "4a9df521985739053c6c9f879fb949ceb2e479b1")))
-     (sha256 (base32 "05hg52zklr1yf5xzg6vczzryg4jyyzmm640b4l9psxrwd4cfm1hc"))))
+           (commit "4fefffd7018365677e6fc4cdbcd8b6041a4c0b18")))
+     (sha256 (base32 "1sx2ilvp0vmdk9i403gxl94lzzj195mclpvr674xzlh5mmy50rls"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-request emacs-esxml))
    (home-page "https://github.com/chenyanming/calibredb.el")
@@ -10963,14 +10963,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260819.1531")
+   (version "20260821.530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "96238051df176784483fe5b518083d744cb3ccb6")))
-     (sha256 (base32 "1jvccvxzrz2mizmcrw0a0izp0fzvb6mfmcniz11lc70vp5hvgxx7"))))
+           (commit "9e3f20ed60b03d545de01111769ce848034b871e")))
+     (sha256 (base32 "0qy7183h6cpfiglwkfm5barz00yp8bjv6mgd3a0lw8hfgxy9gkpw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -34236,14 +34236,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260820.1503")
+   (version "20260821.530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "ac7a53aa2d69680d38261be4f26a9404675bfaed")))
-     (sha256 (base32 "1ydp69f3c00d0qsyjx9ws6nk8844rh8qalzk1qj5fis4iszb2b3d"))))
+           (commit "c3988601a16089305cf4e8bd4d4b8542181b363d")))
+     (sha256 (base32 "11vlkisxa4szk1xgqybf17jlwx8kqd48i8a88xm0lzhbwklxcgqz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -43597,14 +43597,14 @@
 (define-public emacs-grove
   (package
    (name "emacs-grove")
-   (version "20260509.358")
+   (version "20260821.417")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jonathanchu/grove.git")
-           (commit "8cb33df4e39c51265b8021ecf858ab4bde27f41e")))
-     (sha256 (base32 "0g2s3hyc8nhxc0ga33snvh2ybccapc9fc62giw496mzw2x75d3hp"))))
+           (commit "b396cf6a19f804d1cc71bdd2a2229a6ca63abd2d")))
+     (sha256 (base32 "11lf7a3kn42a133d4qn4g89iyszc2b3zfmx0rz3nx0dh4xqw0nn6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jonathanchu/grove")
    (synopsis "Obsidian-like note-taking for org files")
@@ -81563,14 +81563,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260820.210")
+   (version "20260820.1505")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "f040f3c97af96997f33a860c20ee0bddf7ba8101")))
-     (sha256 (base32 "11h9bs5qxwvxsgajl7dfhw7g733v5rdb6jw47015d7d770wlpfgc"))))
+           (commit "6f4a55b71d26327c591bbbea9348d52c5744a43a")))
+     (sha256 (base32 "1gp5fjbq9xblm1psaf7m98vaf3a9znqmnf3sd2p8igwd9ybxkhsy"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -83025,14 +83025,14 @@
 (define-public emacs-popterm
   (package
    (name "emacs-popterm")
-   (version "20260817.2331")
+   (version "20260820.2036")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ChetanKoneru/popterm.el.git")
-           (commit "07410f12057c5ec80f2f81a17f5b66d94ecbc6d0")))
-     (sha256 (base32 "105w3yqhd5b4lh7hgk09qphkdzidhy6089fnw2m06x3k4spxkqwh"))))
+           (commit "90c3ace5f00f6388473c8f02f10b3e450db05803")))
+     (sha256 (base32 "1b5qjqph4k3z4bq1lb2gn9096kkhrslm5vmbsrxk35nbri4i6693"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/CsBigDataHub/popterm.el")
@@ -97090,14 +97090,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260812.245")
+   (version "20260820.2259")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "d2ea9a3f6bc574de604a6610538c9a5f4dcd318d")))
-     (sha256 (base32 "1v8qsxi75a1w8k85rslsv6pvs5whab0xiz559gy58faq1hw7fzjm"))))
+           (commit "c39323f0caa6969fdcdcaf534fb3f6cc2c41703f")))
+     (sha256 (base32 "0rb5q1abccvdnz05pf2q1f2hvjb2s4zq4wq5m1aw0dc023x6isnk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
