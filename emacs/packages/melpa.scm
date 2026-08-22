@@ -1645,14 +1645,14 @@
 (define-public emacs-agent-recall
   (package
    (name "emacs-agent-recall")
-   (version "20260730.1820")
+   (version "20260821.1916")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/Marx-A00/agent-recall.git")
-           (commit "c7d2cb68cff163f58895515cc781bb6f9414868a")))
-     (sha256 (base32 "1xvlz0z31801wq0bclykzw6scl03y8rs3gyfxhsvy1b5hfginp5d"))))
+           (url "https://github.com/mrx-xo/agent-recall.git")
+           (commit "8c9cfc200a5c08bffd6d9415f2719382cf481640")))
+     (sha256 (base32 "1sv780dqa9f73y9bh9g3sg8wjvrkdnskqvyf2v0iss8z3v84b7fb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell))
    (home-page "https://github.com/Marx-A00/agent-recall")
@@ -7747,14 +7747,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260821.1558")
+   (version "20260821.1619")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "2524a7be022618134652e0b25184757843f3812a")))
-     (sha256 (base32 "0yzm8xkxgwazf1dm8gg3aqv62z47h0bbxcv792srkllz0vkhcpl7"))))
+           (commit "b6c56b7acfa708a2ce4709bed4b3b3e80f707dbd")))
+     (sha256 (base32 "1w6dwyl7pik1182rr0xzg3hlvhwf02sccargnx7gr1l6ad5wzky7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -11502,14 +11502,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260816.1814")
+   (version "20260821.1703")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "2d662c0740df0692a95baa3ca15400d75f82da64")))
-     (sha256 (base32 "04r7ykjp4gf5cnjvw684654s75wdv8mjcr4nc2f5h576q5pypqws"))))
+           (commit "9ed770ea32395db9dbc1260185759e2927abaa6e")))
+     (sha256 (base32 "0ziar75fzrhnar3lqmawkx5c1gz11l1v4xczgflf29ayhkzj5xx1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -61500,14 +61500,14 @@
 (define-public emacs-magik-mode
   (package
    (name "emacs-magik-mode")
-   (version "20260731.648")
+   (version "20260821.1224")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/roadrunner1776/magik.git")
-           (commit "6b03728ad53e30dd686aa710bba7c4be211ab348")))
-     (sha256 (base32 "13a81d6sbaiswickdg8qmb4l53cwb2cslpc7l7vpf6srfw74cjl8"))))
+           (commit "b646ce87b747a6fa4b264e319a80ef3417a99703")))
+     (sha256 (base32 "0qbp50hy4bq1q5ddy9s086cgl03a8m1md111ygpvzn3ivihhw4gr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-yasnippet))
    (arguments '(#:files (:defaults "snippets")))
@@ -61519,14 +61519,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260821.1036")
+   (version "20260821.2115")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "7239fbcc82a6592efcaf6977151fda711bcff724")))
-     (sha256 (base32 "0mwknpfgly4niwlraqqn4r937xw9xgll9yq1px4sydi3365jldkh"))))
+           (commit "7ade2f49abd34395ddd51dde68510c3016523ba1")))
+     (sha256 (base32 "1kjd8drl6w1wi71hwbcrirlmj5ld0c26scyghbpck9hi4gmqlv3n"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62585,14 +62585,14 @@
 (define-public emacs-marginalia
   (package
    (name "emacs-marginalia")
-   (version "20260724.810")
+   (version "20260821.1231")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/marginalia.git")
-           (commit "10b170ad8006bad535599e5b3e007e643e34345a")))
-     (sha256 (base32 "1yp0f8nmh6xrb837f3r2gr68av798z77qvi9dymidvx952mz3np7"))))
+           (commit "7ec0b70afb43a756ecd45a958c6ebe797717fc91")))
+     (sha256 (base32 "0glwbzidmahlsm82aqi826l2m595ww0ni1jmgngl1jgvmfx8sjz3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/marginalia")
@@ -90631,14 +90631,14 @@
 (define-public emacs-rutils
   (package
    (name "emacs-rutils")
-   (version "20241027.1606")
+   (version "20260821.1405")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ShuguangSun/rutils.el.git")
-           (commit "e39ca3c953ef395f28176f740ebf500d62edb429")))
-     (sha256 (base32 "1ld22yz85ds0syf9cyldhc40rg1fd993dza52i8dj49q1jnby2xc"))))
+           (commit "49a964683694853a2f9de69d53a37e66c208b99c")))
+     (sha256 (base32 "0wkd7zbd0l14fdr0f37ry3kd0gw2zdr2svjmny5kx9vmxfv0x4br"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ess))
    (home-page "https://github.com/ShuguangSun/rutils.el")
