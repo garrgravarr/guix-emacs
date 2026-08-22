@@ -7747,14 +7747,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260821.1619")
+   (version "20260822.1141")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "b6c56b7acfa708a2ce4709bed4b3b3e80f707dbd")))
-     (sha256 (base32 "1w6dwyl7pik1182rr0xzg3hlvhwf02sccargnx7gr1l6ad5wzky7"))))
+           (commit "02aa8c5ab237181ac264ba977e75bd28332ced22")))
+     (sha256 (base32 "1vd0jnzznlyn59h109c4skn3fz8zdg06kkv2ink61gwr3qc7d4jw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -21238,14 +21238,14 @@
 (define-public emacs-dired-view-data
   (package
    (name "emacs-dired-view-data")
-   (version "20240328.328")
+   (version "20260822.1255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ShuguangSun/dired-view-data.git")
-           (commit "2dadb995c3f32c572f5483adab21bdff3ac64186")))
-     (sha256 (base32 "0yvg0i2cc6y1nk4mzmn9imnhh3y9yzvb5c3z80jnm76mz4xmnm4h"))))
+           (commit "dd1aeb67a59321e82d755e065181af074f661efa")))
+     (sha256 (base32 "1yxlzx6180vji8f29y1rw25xnkxxwrnq5n8611zki7fwwyrgfwlw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ess emacs-ess-view-data))
    (home-page "https://github.com/ShuguangSun/dired-view-data")
@@ -39319,14 +39319,14 @@
 (define-public emacs-gdscript-mode
   (package
    (name "emacs-gdscript-mode")
-   (version "20260728.814")
+   (version "20260822.915")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/godotengine/emacs-gdscript-mode.git")
-           (commit "2a7efd55946b61e0a3e40700db5c53ce3b8807b9")))
-     (sha256 (base32 "17v1x4ays82rr01lbf5qlrx2d02347m81wwaiqp6bm8sjpzpysmn"))))
+           (commit "2ecb74363851e551ed8176376e5b72725fe3e910")))
+     (sha256 (base32 "1fz26jmr2pm218lp4mrzm8ijg1ibk0g9qr07dhcmi94yb29qg45k"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/godotengine/emacs-gdscript-mode/")
    (synopsis "Major mode for Godot's GDScript language")
@@ -49832,54 +49832,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260815.958")
+   (version "20260822.359")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "37615fa192e2cafcb11cd0d3c6bea1dbfaff388a")))
-     (sha256 (base32 "1wpnq1p36zfks4fcmrchi8457fp4k71fa486gswfi7c4bcfhyasx"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "1pdh8804nn06daparvc5xn8igg7s46qva0l1kbksiq1cgmkw9sfs"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -61519,14 +61481,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260821.2115")
+   (version "20260822.1158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "7ade2f49abd34395ddd51dde68510c3016523ba1")))
-     (sha256 (base32 "1kjd8drl6w1wi71hwbcrirlmj5ld0c26scyghbpck9hi4gmqlv3n"))))
+           (commit "137f137dccb37097ae9caa31018cafa071ff4ec1")))
+     (sha256 (base32 "1hg1awhdsl4agravkk41wcn1ks399z6lpigzlcwl1gqlvwdgvx9w"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -81564,14 +81526,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260820.1505")
+   (version "20260822.508")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "6f4a55b71d26327c591bbbea9348d52c5744a43a")))
-     (sha256 (base32 "1gp5fjbq9xblm1psaf7m98vaf3a9znqmnf3sd2p8igwd9ybxkhsy"))))
+           (commit "1aa6180ddf7dcb2f5deb971a8f3cea50730e813e")))
+     (sha256 (base32 "00dcrri4cnggsk9zx025qay5azdbf6v6jllvwh6i2cgd5q4g3d5z"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -89231,14 +89193,14 @@
 (define-public emacs-rg
   (package
    (name "emacs-rg")
-   (version "20260517.1310")
+   (version "20260822.839")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dajva/rg.el.git")
-           (commit "e46a16b8bdba111c9c0036d0e209490dd7a3690f")))
-     (sha256 (base32 "12niibbw7d1ncj8l6pm21wv61js9kmikphn9b7md1mpvbhz78bxy"))))
+           (commit "e980246ebed6d71840d839c6d973775b06b5079f")))
+     (sha256 (base32 "1kd644v4hhq8lfpzl20dlg8afx0jp9h91pvrm2k6zz7rg80ykkyp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-wgrep))
    (home-page "https://github.com/dajva/rg.el")
@@ -98583,14 +98545,14 @@
 (define-public emacs-swift-mode
   (package
    (name "emacs-swift-mode")
-   (version "20260801.1244")
+   (version "20260822.1011")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/swift-emacs/swift-mode.git")
-           (commit "610b2c24433c11c30a39a6799af69b10cd3bec97")))
-     (sha256 (base32 "1qjkka6fx9sw14gzjqmyiny0z1mvcyyzmr74a96vndfbx576i9xp"))))
+           (commit "053336346073e6e2849c19cadd6c6e3e79985c2d")))
+     (sha256 (base32 "0q94c3gj6qvdkar4b2m9gfvw12pi137wkchg8p8z69x72s67mknx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/swift-emacs/swift-mode")
    (synopsis "Major-mode for Apple's Swift programming language")
@@ -106985,14 +106947,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260821.1010")
+   (version "20260822.1108")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "413bfd18996a2ec72dc1b4aa793532953099aa14")))
-     (sha256 (base32 "14wcc0cc4bpb8l49yckz2qfgas9a0z1jj5gh3958bl5jw84njxf8"))))
+           (commit "506718e69235a0cc7ab8ada4423c0b8e499621da")))
+     (sha256 (base32 "1lgfmy4ik0cs8y49qsk0lyp7xyxhcgxbck3i7rqbkk2lq1j74xnl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -107021,14 +106983,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260819.1015")
+   (version "20260822.1103")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "be90bbaa9d3428f173de337c889e2af07f6a0835")))
-     (sha256 (base32 "1jf65ixfzmlhwpf23ffna2snwqxajxyh8xm16vlvqq9faq0l0sqg"))))
+           (commit "75cce1f846bafe0c4bf84e897b1e078085cf1767")))
+     (sha256 (base32 "0qvydiy7q4b2vzdhj47q6awxcci7g079xmv8j7qkv0z9j5lfjs3d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
