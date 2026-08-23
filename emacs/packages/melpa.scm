@@ -10181,14 +10181,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260816.806")
+   (version "20260823.806")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "dc291f8b61eae270393dc1a316e791ca5985c4fe")))
-     (sha256 (base32 "0ff3mnarii12c91kgkwmsqaadccci48p305vfmrvjk6q6gpa7k7w"))))
+           (commit "1652cda225eba6180e8b586ec59c3b152e2a4c9b")))
+     (sha256 (base32 "16ay21q38p61g1s0pgcryhnymf3sv5lkbvzc08c8cpl2cl4mgwr2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -11502,14 +11502,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260822.2109")
+   (version "20260823.722")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "bf9eff69596f4a957197cf262a5ed3cb20a229dd")))
-     (sha256 (base32 "1a9zf7w3q8wjfbiyp0n0cqz2g8lhbx4hgs80sw2dwaciw3a9lj0b"))))
+           (commit "70dfb1c6989685875f2e3f8b5b427a27f01eb7d4")))
+     (sha256 (base32 "135m43q430q6bm74y45xpacqwh5wq9nmmpq56adg9jwwhc2dh9qd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12203,14 +12203,14 @@
 (define-public emacs-clojure-ts-mode
   (package
    (name "emacs-clojure-ts-mode")
-   (version "20260616.1927")
+   (version "20260823.431")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clojure-ts-mode.git")
-           (commit "af00860cd85a46d7b95af1e4f966d3ddccdab9b4")))
-     (sha256 (base32 "0fxl153gszq8clnqmhzp7lnki34zzfa788x3jh6wiw2nd0hidsvl"))))
+           (commit "2bce67a68c270157d940ac9374ab393804c7e00d")))
+     (sha256 (base32 "0xsf3gvaz97p7dig2y6vnyji5ighkngbzs7sgplk7l4qr7vff8n1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/clojure-emacs/clojure-ts-mode")
    (synopsis "Major mode for Clojure code")
@@ -17663,14 +17663,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260816.1543")
+   (version "20260823.1109")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "303fa461f40ed82113392b62c7912ec9af41062d")))
-     (sha256 (base32 "1ysapjycdm8pqbixi8lw0x9djf7kw5wm3s34bbr6sjfr4gmf9wrd"))))
+           (commit "39d6585dd837e9c88852859562d6b5fe3832d1f2")))
+     (sha256 (base32 "0rx2pp3yjnpqraancix749wvi8h9xq69m5980413ac6f6d39qnsb"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -19922,14 +19922,14 @@
 (define-public emacs-dialog-mode
   (package
    (name "emacs-dialog-mode")
-   (version "20260619.1559")
+   (version "20260823.1237")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~mew/dialog-mode")
-           (commit "e092fe2c3915e28ae9151f856d340c2ba17ecb68")))
-     (sha256 (base32 "12qfbyk9f8s77y8q09xg674xbc9b23a32672v7z9f92bl64x0nd2"))))
+           (commit "3cf51316db1dcef64a01399ec82499b742d911e9")))
+     (sha256 (base32 "0i3ja4jk32skv8vq6wn2hdk0avsqdbj1hgvcjjslsajywfpv5101"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("doc/dialog-mode.texi" "dialog-mode.el")))
    (home-page "https://git.sr.ht/~mew/dialog-mode")
@@ -42882,14 +42882,14 @@
 (define-public emacs-gptel-agent
   (package
    (name "emacs-gptel-agent")
-   (version "20260814.743")
+   (version "20260823.823")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-agent.git")
-           (commit "7a74b695909c0e3304eb8cbd583a1f53e0802c60")))
-     (sha256 (base32 "038nrmf44ngza9xrqcbjiv6d1nlrgqc4jk5svj9dm1x5mldz7kn9"))))
+           (commit "30e986b7052d9c58323833cfa17e92f101d9b9d3")))
+     (sha256 (base32 "0vmbf2dx2arph9hk8dc685b5x5kkniajr5pfbz9a0qibfqbca6nm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-gptel emacs-yaml emacs-orderless))
@@ -56705,14 +56705,14 @@
 (define-public emacs-kixtart-mode
   (package
    (name "emacs-kixtart-mode")
-   (version "20260324.2018")
+   (version "20260823.1231")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~mew/kixtart-mode")
-           (commit "ddae1136812659e1bb0fb97da7b4b5db786a763d")))
-     (sha256 (base32 "0x01n0kqar8a36b7jmcxdy1d08c51x8byh043cfrxa8rixjmzvv2"))))
+           (commit "a450b436e2cdb1b18d16fd273b1ce405d095c0f9")))
+     (sha256 (base32 "1yz3svw50advkr4r8s9kfxjs1vhd340f1yx65z13pgqr5ch7a8fs"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -81406,14 +81406,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260809.2332")
+   (version "20260823.758")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "a7b533fb8ab5a5e2fabb6c925ad2d7385456c1bd")))
-     (sha256 (base32 "0wbq4dmn1xd9px8hkbbx2y7xhz5fzlnr6piz7d6fkch5znwx6z3z"))))
+           (commit "136c7942bda7449d237f69560ac31e8d9223b991")))
+     (sha256 (base32 "1abscr74xbbh7zykmh46a1fdas4zrdz0hh16r7par7b1cn5wg2l4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -81564,14 +81564,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260822.508")
+   (version "20260823.1124")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "1aa6180ddf7dcb2f5deb971a8f3cea50730e813e")))
-     (sha256 (base32 "00dcrri4cnggsk9zx025qay5azdbf6v6jllvwh6i2cgd5q4g3d5z"))))
+           (commit "7a35a356efacb507b6f21a385d5c153063378694")))
+     (sha256 (base32 "002crnizimqf74ff1h5f4j30mjv8b8h24gmixpj2hmf873k24lc5"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -86347,14 +86347,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260819.1101")
+   (version "20260823.103")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "e0f6a052c476d7ab0a16a0c62cc52a01a373f4e9")))
-     (sha256 (base32 "1f5w2935w3b78yg94wi7b0lbjdpziibr1nzazbajjqbsjyxj61by"))))
+           (commit "67dd45bb91f05909f6e0913201565e1c9e1e6729")))
+     (sha256 (base32 "1adi0amarwcs9qardrzwdvwx3qxcw4p46py67d3aai3dk2cms42j"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -95665,14 +95665,14 @@
 (define-public emacs-soccer
   (package
    (name "emacs-soccer")
-   (version "20260811.1723")
+   (version "20260823.615")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/md-arif-shaikh/soccer.git")
-           (commit "fd00b49d63faef7137f883d571f2ed692337cd68")))
-     (sha256 (base32 "1ny1pv1f5p9i7spqa5d52s509jnpd8v797xdlx98ilb7f5qpj5rn"))))
+           (commit "55fa7c959cd51fb05fd1a65ce7ba24de8113caad")))
+     (sha256 (base32 "1xav3fss1q2gf578fq89zb17gcah7nnslwk08pnlbjb9kxsgrzhk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/md-arif-shaikh/soccer")
    (synopsis "Fixtures, results, table etc for soccer")
