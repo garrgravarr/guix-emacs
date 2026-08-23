@@ -4081,14 +4081,14 @@
 (define-public emacs-atom-one-dark-theme
   (package
    (name "emacs-atom-one-dark-theme")
-   (version "20260821.342")
+   (version "20260821.352")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jonathanchu/atom-one-dark-theme.git")
-           (commit "7f2ea3d9cc09d41e96e239b6b1586a346e2418ef")))
-     (sha256 (base32 "18nxf7ym4892r4834jpk2jfqm0hqq9cpgbw5h0ab9q6wi9j2k5kk"))))
+           (commit "c1877f4a969598bb0beeca17bf6b73afd471878b")))
+     (sha256 (base32 "1zxi8firbj48qv5jlvr3cwg0n777w48pzycpp10023mzl65b10fz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jonathanchu/atom-one-dark-theme")
    (synopsis "Atom One Dark color theme")
@@ -43598,14 +43598,14 @@
 (define-public emacs-grove
   (package
    (name "emacs-grove")
-   (version "20260821.417")
+   (version "20260823.313")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jonathanchu/grove.git")
-           (commit "b396cf6a19f804d1cc71bdd2a2229a6ca63abd2d")))
-     (sha256 (base32 "11lf7a3kn42a133d4qn4g89iyszc2b3zfmx0rz3nx0dh4xqw0nn6"))))
+           (commit "1c93f2876c537356971724d050f6c3353f4f0fb5")))
+     (sha256 (base32 "1gpqxd9qgb3zjipry1x391n7cbcnvklc0p5ia7bxbim46rz01plp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jonathanchu/grove")
    (synopsis "Obsidian-like note-taking for org files")
@@ -67976,14 +67976,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20260805.635")
+   (version "20260823.17")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "1e75075e323dedaf9f2fd5837082c60a2d0dfae3")))
-     (sha256 (base32 "1rzj4qxz0swq174y9hyvsv371k6ny3kpgrfzqb7mrgncl4iz5l9f"))))
+           (commit "17faac7977242b470732efd417d3bcc8eb5a830e")))
+     (sha256 (base32 "1m9wnnysr66alnz3z4qcvpl7n99qmnr1zwzz8ga2x3iv28qpiq1s"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -109645,14 +109645,14 @@
 (define-public emacs-xcscope
   (package
    (name "emacs-xcscope")
-   (version "20230626.2109")
+   (version "20260823.51")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dkogan/xcscope.el.git")
-           (commit "2f35b26428dd82c016941744f03aad97df80c47b")))
-     (sha256 (base32 "12gj38dwlsfmaf2zdz28y4l0vbvpc8r4py8w18m2n6i9pafrlwcg"))))
+           (commit "e27bf918978ac9d5e3383997dcb49d88d6135d91")))
+     (sha256 (base32 "1xsp601jm2jwixnq57czdb7gw89x9831zy69kdjqy58sx4clpin4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dkogan/xcscope.el")
    (synopsis "Cscope interface for (X)Emacs")
