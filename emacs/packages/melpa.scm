@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260821.1448")
+   (version "20260822.1916")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "bfd4c8f77c042e69b30320973dab9616ac389ced")))
-     (sha256 (base32 "08fvkc1q90zx1h962bw5r26gdga913jddw5sm1bvvdansp5jgrfr"))))
+           (commit "d7e152ca13cac10334aa41344314e97d89d592b7")))
+     (sha256 (base32 "1nmh56qnyzixs707mqz2shcgixzgc7zzydww8asp3p1lwm2f5261"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10963,14 +10963,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260821.1430")
+   (version "20260822.1520")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "3fce442f0fe0e3908aa221daba95168e1fb57965")))
-     (sha256 (base32 "1d8iml0r84b8rgimrx2vgvcdpc21q60f9akcrdhnpm10m6dc4krr"))))
+           (commit "646435c9b875d9aaa7ed5dffe941bbb37db13394")))
+     (sha256 (base32 "1qyajkhw0cqplmrq7q4n9l4pglpmd96wp8023r0yiwq32nazm9nn"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -11502,14 +11502,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260821.1703")
+   (version "20260822.2109")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "9ed770ea32395db9dbc1260185759e2927abaa6e")))
-     (sha256 (base32 "0ziar75fzrhnar3lqmawkx5c1gz11l1v4xczgflf29ayhkzj5xx1"))))
+           (commit "bf9eff69596f4a957197cf262a5ed3cb20a229dd")))
+     (sha256 (base32 "1a9zf7w3q8wjfbiyp0n0cqz2g8lhbx4hgs80sw2dwaciw3a9lj0b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -39135,14 +39135,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260720.2228")
+   (version "20260822.1949")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "2f671bba99e227e9933d63ea36eb9d995012e805")))
-     (sha256 (base32 "1jy705lfn8jpf5rhpq8cvmr2l7qrmfnnjwgs3l7y91i3w0y04zjk"))))
+           (commit "99274680596209a0c0be80bba3ed470ed1e11ba2")))
+     (sha256 (base32 "0lkli72p2q2aj4qdsnhlkisvrss298n40lfi77sxr6dfp1agdy1l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -49832,16 +49832,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260822.359")
+   (version "20260822.1645")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "1pdh8804nn06daparvc5xn8igg7s46qva0l1kbksiq1cgmkw9sfs"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "498ccb4c2e547aad20766eec64e802453987a40c")))
+     (sha256 (base32 "0dh3263xba24jr57b21lsis7ca5srz3nc0hzpzg61jgbs5b7x5rm"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -73096,14 +73134,14 @@
 (define-public emacs-org-change
   (package
    (name "emacs-org-change")
-   (version "20260812.2351")
+   (version "20260822.1405")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/org-change.git")
-           (commit "567858fdf8f8966811bf9737ca5927c2597c1332")))
-     (sha256 (base32 "009afd2nasqlawrakl20r83pjj5k4hsda8ipc9sa55k8n5kqs8qr"))))
+           (commit "c122e2be04978ff64e4058ec7eb3a165e628da21")))
+     (sha256 (base32 "0pgsnmm3jvw3zbr3148vrjqggyp6bn9j3qhh8kcdwzrq5xy662d4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/org-change")
    (synopsis "Annotate changes in text files")
@@ -104150,14 +104188,14 @@
 (define-public emacs-ultra-scroll
   (package
    (name "emacs-ultra-scroll")
-   (version "20260810.1234")
+   (version "20260822.2031")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jdtsmith/ultra-scroll.git")
-           (commit "0222f429955f5a2a3810f3c84d59ca441aa16eb2")))
-     (sha256 (base32 "1nai5961ib353fqddsqpjjnsnqa1sl0an151cmxm2g1bfcb8mp47"))))
+           (commit "af8dd38480f251a2a99b10b765ce8fd5eeab22ca")))
+     (sha256 (base32 "1iwfixrkvi3y1nl2z124sfw6453qv4py08rzr4mimrx61s5rq7af"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jdtsmith/ultra-scroll")
    (synopsis "Fast and smooth scrolling")
