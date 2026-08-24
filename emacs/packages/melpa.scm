@@ -7765,14 +7765,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260822.1141")
+   (version "20260824.1421")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "02aa8c5ab237181ac264ba977e75bd28332ced22")))
-     (sha256 (base32 "1vd0jnzznlyn59h109c4skn3fz8zdg06kkv2ink61gwr3qc7d4jw"))))
+           (commit "b85c8894eaf8416c8d98a99ada6fa76fffa004cd")))
+     (sha256 (base32 "0lmiv57v8frrvnzqq284d681wlnckjrzdzzbv03d3ijifyi6v8f8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -10981,14 +10981,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260822.1520")
+   (version "20260824.709")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "646435c9b875d9aaa7ed5dffe941bbb37db13394")))
-     (sha256 (base32 "1qyajkhw0cqplmrq7q4n9l4pglpmd96wp8023r0yiwq32nazm9nn"))))
+           (commit "4dc6e271c0e30f0db3398ecd0bfe33171543c548")))
+     (sha256 (base32 "058r4haygygj0jkc20cdjmxqrbfjqd9w6shg48gzsbpgq0049lnh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -11520,14 +11520,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260823.722")
+   (version "20260824.1229")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "70dfb1c6989685875f2e3f8b5b427a27f01eb7d4")))
-     (sha256 (base32 "135m43q430q6bm74y45xpacqwh5wq9nmmpq56adg9jwwhc2dh9qd"))))
+           (commit "4146cbbb439c56f390d3fa0c31d592c517911f90")))
+     (sha256 (base32 "17nrydrda2cmwk4lh1f3j5hil2s52gidc9b5a2hps7ma86n2a33z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -24034,14 +24034,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260820.1307")
+   (version "20260824.1451")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "fa2703b68cb8bb7bb6655207fb1afb0b591427ac")))
-     (sha256 (base32 "1yi7yfjpb6lx4id9x5wq7700yyfwkrmqxvmhqswrr55lhnvx9mng"))))
+           (commit "04ed718f1ae5b8c737d624f80633fc12e7d91db2")))
+     (sha256 (base32 "0c703xyh2yq9bjmv871yr0rajp1cwlzrd57a73vijxzyvlcizih1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -32022,14 +32022,14 @@
 (define-public emacs-expenses
   (package
    (name "emacs-expenses")
-   (version "20230903.306")
+   (version "20260824.616")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/md-arif-shaikh/expenses.git")
-           (commit "68f24f91054c6ce7624aaa841e2a435e6e1350a7")))
-     (sha256 (base32 "0bfqfmras66k00mq1c7ms5pqsbhlgls258pnbb7al6zg5ypl4p99"))))
+           (commit "a3a67b38aff539818e8a220459519687165bb5da")))
+     (sha256 (base32 "071d3dcav8agwxn27y52czmvzc2szz2wxdmzn253nxw0nn7mv3li"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-ht))
    (home-page "https://github.com/md-arif-shaikh/expenses")
@@ -34289,14 +34289,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260821.1002")
+   (version "20260824.1106")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "7074b82cc82b6c3258f0f436514eca5236101336")))
-     (sha256 (base32 "11gw7knk5gczm0l3q8c2vawww411ip42bwxjklwvpp5a9z4kfph8"))))
+           (commit "a7fb756679d65a05744d75a1e3d488e44329d23a")))
+     (sha256 (base32 "195al14d6zf9qzzpfg5dxxamv6i6igkiaginjg8vmkaikm2m2ayi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -42954,19 +42954,19 @@
 (define-public emacs-gptel-agent-harness
   (package
    (name "emacs-gptel-agent-harness")
-   (version "20260824.211")
+   (version "20260824.1312")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/gptel-agent-harness.git")
-           (commit "895a80b0012170a8271a2185768bdf61542a2a67")))
-     (sha256 (base32 "1ihpjspl4rs16d8x98jgaa3xn95xhs74i6is2pcp37pw0myq35gm"))))
+           (commit "cb2dc386610df8f50a1f26e0e06ee3a43e4363d1")))
+     (sha256 (base32 "17cm4nb5shjy0kscjfc27jrn4bwk9dg1gmlsajq3rkgjiy142zh5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-gptel emacs-gptel-agent))
    (arguments '(#:files (:defaults "agents" "prompts" "rules")))
    (home-page "https://github.com/beacoder/gptel-agent-harness")
-   (synopsis "Agent execution harness for gptel-agent")
+   (synopsis "Autonomous coding-agent harness for gptel-agent")
    (description "Documentation at https://melpa.org/#/gptel-agent-harness")
    (license #f)))
 
@@ -57060,14 +57060,14 @@
 (define-public emacs-kotlin-ts-mode
   (package
    (name "emacs-kotlin-ts-mode")
-   (version "20260512.1409")
+   (version "20260824.1024")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/bricka/emacs-kotlin-ts-mode.git")
-           (commit "39e30e4cf803910c2f6716efd7a5cd408a9d996b")))
-     (sha256 (base32 "1zabj07ffmi9g0vv74xkrwim7dwx3hsirr9abaxh6acwykp2ma6d"))))
+           (commit "292c9a05ff2243c39a48201b277840b1d25e1ea0")))
+     (sha256 (base32 "0jypfbkc30xw5cij9mwzqmpb6r62kxlc8qchyyfc6kb1s7nih3hk"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/bricka/emacs-kotlin-ts-mode")
    (synopsis "A mode for editing Kotlin files based on tree-sitter")
@@ -64014,14 +64014,14 @@
 (define-public emacs-meshmonitor-chat
   (package
    (name "emacs-meshmonitor-chat")
-   (version "20260814.942")
+   (version "20260824.957")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/andros/meshmonitor-chat.el.git")
-           (commit "398a33e0cece33a1ca978d98497bef9bd9013f8d")))
-     (sha256 (base32 "1xiysf173my1gi55w3mynldsi2i65748l20sv0cacdd2jlnxikb7"))))
+           (commit "d1dedb2d06f552fb45b278ee34fabaf0ac791c27")))
+     (sha256 (base32 "15a9m73dwmsri5as7xv6ws429xbi825pi6agfab36d4x0vzi3fn8"))))
    (build-system melpa-build-system)
    (home-page "https://git.andros.dev/andros/meshmonitor-chat.el")
    (synopsis "Chat client for MeshMonitor (Meshtastic)")
@@ -64708,14 +64708,14 @@
 (define-public emacs-minibuffer-frame
   (package
    (name "emacs-minibuffer-frame")
-   (version "20260823.1356")
+   (version "20260824.557")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zHaOdANiuu/minibuffer-frame.git")
-           (commit "69bb3b62b74e6272ed350284d591f2b28e1b8269")))
-     (sha256 (base32 "0k1iyndxjawn5lh1cypv7h4fmygrri5chad3b9czp4mcgn6p4v70"))))
+           (commit "cfaba2bd56b2ff5c9fd3f6efd65f1f653b0527ab")))
+     (sha256 (base32 "1r0p0risi8yc3z1qsv9w8ayz3ai1i8nb0dnngzbc9m7lf5jq3m4n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/zHaOdANiuu/minibuffer-frame")
    (synopsis "Minibuffer in centered child frame")
@@ -66603,14 +66603,14 @@
 (define-public emacs-mu4e-autotask
   (package
    (name "emacs-mu4e-autotask")
-   (version "20260821.739")
+   (version "20260824.747")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/mu4e-autotask.git")
-           (commit "caab869aaf670ff919ed960dd699e0d21b3142dd")))
-     (sha256 (base32 "01kanh4lzvfn169dx8xff33x8dr1pkv3mswx6kbdx42545fh5ig4"))))
+           (commit "7041ec86d3f06a747b6c58991a2c8ba856799a5c")))
+     (sha256 (base32 "1qdppw8yk571cz5a42gxga8rfmr1hk72a0kq7gwi2ks34m2378h2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/laurynas-biveinis/mu4e-autotask")
    (synopsis "Email automation for mu4e")
@@ -76100,20 +76100,20 @@
 (define-public emacs-org-social
   (package
    (name "emacs-org-social")
-   (version "20260525.725")
+   (version "20260824.732")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tanrax/org-social.el.git")
-           (commit "754f16c45585fb733fd521558b572f03bc964708")))
-     (sha256 (base32 "0m5nrhp1d6ndj48fyh547fdk8gcldwxxczki8hklbpiv1w9s4jsb"))))
+           (commit "3aa0cbff76f1bd1ac738d31768018056d565761b")))
+     (sha256 (base32 "1cphly1f7xcwlq6kjgnz2izza2q17sk2rlab0vpfswpk3ybz9cli"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-request emacs-emojify emacs-async-http-queue))
    (arguments
     '(#:files (:defaults "ui/org-social*.el" "ui/buffers/org-social*.el")))
-   (home-page "https://github.com/tanrax/org-social.el")
+   (home-page "https://git.andros.dev/org-social/org-social.el")
    (synopsis "An Org-social client for Emacs")
    (description "Documentation at https://melpa.org/#/org-social")
    (license #f)))
@@ -84463,14 +84463,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260820.1509")
+   (version "20260824.913")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "c1ad79b7c98bba4e8382fc993556ca62b71e19ea")))
-     (sha256 (base32 "1sqwgn9ihq9valmb98z5byhaixj9dcngl8by4h9s53albk4qdaj0"))))
+           (commit "f60f47f2f72d60201679e8c3b50ad00bae3889dd")))
+     (sha256 (base32 "1wyd2fdvmappg7zxyq4lvwmxa6z2ndl95askg633rvqkn8caj6mb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -101217,14 +101217,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260817.1145")
+   (version "20260823.311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "ee22dc9a1ec65193bec9830424a1fc4f42820db4")))
-     (sha256 (base32 "0hj2wy41vp4777pc59m39dqhcf10ps5p4y6qj3jgjkfv0h7viivi"))))
+           (commit "e65db4764a1bbc67f76dad2c41ec5a7eafec0d42")))
+     (sha256 (base32 "1xg2ygzkjzb5xcdp0y39fzvall6kfc5nx3r420qkp8c4ysc6mazp"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -107898,14 +107898,14 @@
 (define-public emacs-web-mode
   (package
    (name "emacs-web-mode")
-   (version "20260623.932")
+   (version "20260824.1135")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fxbois/web-mode.git")
-           (commit "aeee2d4c82a791ff69657c1413873bf9265544df")))
-     (sha256 (base32 "0bpm6njk1pmqckvmk7zwcfms8csb9rzj3zylh3pl7xr2k25gaj1x"))))
+           (commit "e417e389474f934f4f3c11c88ad6c476642e1f90")))
+     (sha256 (base32 "0sdyvwx07mb8wprqh08fmc96ykd53j3y1csc1sqg1rs864gr1w6i"))))
    (build-system melpa-build-system)
    (home-page "https://web-mode.org")
    (synopsis "Major mode for editing web templates")
