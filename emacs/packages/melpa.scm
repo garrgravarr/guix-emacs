@@ -42934,14 +42934,14 @@
 (define-public emacs-gptel-agent
   (package
    (name "emacs-gptel-agent")
-   (version "20260823.823")
+   (version "20260824.106")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-agent.git")
-           (commit "30e986b7052d9c58323833cfa17e92f101d9b9d3")))
-     (sha256 (base32 "0vmbf2dx2arph9hk8dc685b5x5kkniajr5pfbz9a0qibfqbca6nm"))))
+           (commit "326e0abb8c6db0e5c4c421bd9af495932ae94b62")))
+     (sha256 (base32 "1jb01g3sw5f3ch7j5nn0j9p56zd3p9y11n7xlp7c1klvqza9isnr"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-gptel emacs-yaml emacs-orderless))
@@ -42954,16 +42954,16 @@
 (define-public emacs-gptel-agent-harness
   (package
    (name "emacs-gptel-agent-harness")
-   (version "20260815.306")
+   (version "20260824.211")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/gptel-agent-harness.git")
-           (commit "fdda9996de71e060a20ac2f3d9604ac1e1d6132a")))
-     (sha256 (base32 "0v71r1jkp7krxdg08mfaqlfrwd8sfgw2s4rb5sw3pl0yfqylczag"))))
+           (commit "895a80b0012170a8271a2185768bdf61542a2a67")))
+     (sha256 (base32 "1ihpjspl4rs16d8x98jgaa3xn95xhs74i6is2pcp37pw0myq35gm"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-compat emacs-gptel-agent))
+   (propagated-inputs (list emacs-compat emacs-gptel emacs-gptel-agent))
    (arguments '(#:files (:defaults "agents" "prompts" "rules")))
    (home-page "https://github.com/beacoder/gptel-agent-harness")
    (synopsis "Agent execution harness for gptel-agent")
@@ -45955,14 +45955,14 @@
 (define-public emacs-helm-firefox
   (package
    (name "emacs-helm-firefox")
-   (version "20260102.537")
+   (version "20260818.901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm-firefox.git")
-           (commit "9356ace9fac469b94121c36e5960cc1f5ce14663")))
-     (sha256 (base32 "06y9c4csg4q5ilayvkzb9xrq02r86hs1g09ps4hyrckngwx0rmig"))))
+           (commit "d299622ceba33636ed67ef2dc70d5cf3291bea6e")))
+     (sha256 (base32 "089dc03nsf4kkwz21yyf15rw0y39d45ajgn643hbw53q3nf3acxg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm))
    (home-page "https://github.com/emacs-helm/helm-firefox")
@@ -64299,7 +64299,7 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260824.16")
+   (version "20260824.19")
    (source
     (origin
      (method git-fetch)
@@ -88266,14 +88266,14 @@
 (define-public emacs-reddigg
   (package
    (name "emacs-reddigg")
-   (version "20260817.2127")
+   (version "20260824.222")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/thanhvg/emacs-reddigg.git")
-           (commit "307b95026da1cb2450d153e0b77eb26d0d5a0980")))
-     (sha256 (base32 "034gihaxr9i856gwl8mx347apv66ayvqqidx73dfvncmqy66dby6"))))
+           (commit "cae4026c72c9e7e36c365d16141c5c2cc79f2712")))
+     (sha256 (base32 "1q70j0b6my0l89xvrly5lpdvr4cw4r52smcxhcilsn78m9c686d1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-promise emacs-ht))
    (home-page "https://github.com/thanhvg/emacs-reddigg")
@@ -92855,14 +92855,14 @@
 (define-public emacs-shazam
   (package
    (name "emacs-shazam")
-   (version "20260820.2025")
+   (version "20260824.255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/shazam.git")
-           (commit "a2488513bfb2df0fc125c51a2b1f5655a0ebbe26")))
-     (sha256 (base32 "1rv0aw86wqh2i5slw52vrnc9zprq423320kzllvm2lb64vif0wkj"))))
+           (commit "0e5a97c59b5972a728138fc06b2ff371d42c8b55")))
+     (sha256 (base32 "016lhmibpngsz8a5z3nmjxx9l12k2m82r406zz0xg4zd02pzmvff"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "docs/images")))
    (home-page "https://github.com/kickingvegas/shazam")
