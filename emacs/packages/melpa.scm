@@ -6597,14 +6597,14 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20260814.753")
+   (version "20260824.2028")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kristjoc/bible-gateway.git")
-           (commit "ee4e4b1ad727b42315baa392f66e6b3a906c5253")))
-     (sha256 (base32 "0l5p8vk5cpf5xkiykaii3m20ma56w5b3kwhds1h75gydj4k65kml"))))
+           (commit "e3d8e596097a9b23654ff0d4088100c284bd474e")))
+     (sha256 (base32 "0lk52mlkpv7vyhd4sn8r0l7j04s4l38pwf96lblgngpwcg4iy70g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kristjoc/bible-gateway")
    (synopsis "A Simple BibleGateway Client")
@@ -7765,14 +7765,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260824.1421")
+   (version "20260824.2111")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "b85c8894eaf8416c8d98a99ada6fa76fffa004cd")))
-     (sha256 (base32 "0lmiv57v8frrvnzqq284d681wlnckjrzdzzbv03d3ijifyi6v8f8"))))
+           (commit "40cd0b9f59a431916b4acb3286b67d6240332fd2")))
+     (sha256 (base32 "1s3c956nfhkbw70kbynm3nw3l3l6nq8hi2cf0gq22716l2d1r9bp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -17681,14 +17681,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260823.1109")
+   (version "20260824.1652")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "39d6585dd837e9c88852859562d6b5fe3832d1f2")))
-     (sha256 (base32 "0rx2pp3yjnpqraancix749wvi8h9xq69m5980413ac6f6d39qnsb"))))
+           (commit "6157934b1901e645f9ec0627b38d7c8a202cbbee")))
+     (sha256 (base32 "0mimlcz4av0nzppdgxhf3jciw47d05sgdcrb4mg10hns6ypnz6b6"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -22126,14 +22126,14 @@
 (define-public emacs-docker
   (package
    (name "emacs-docker")
-   (version "20260803.930")
+   (version "20260824.1516")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Silex/docker.el.git")
-           (commit "8a51aee19a7931bc16aa63cf076b109cdd6a1c62")))
-     (sha256 (base32 "07rvl9pi7g7srsbw8ki1cnvmiazmyklw0brjivf8kwf2hy3pb3av"))))
+           (commit "e476b1bf73e917aaae43daab763696629d864425")))
+     (sha256 (base32 "14wy0pc5ixhhdswswgi9ljq13ds1ys5y19bzgzhpmhw7niizvqcw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-aio emacs-dash emacs-s emacs-tablist))
    (home-page "https://github.com/Silex/docker.el")
@@ -24034,14 +24034,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260824.1451")
+   (version "20260824.2041")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "04ed718f1ae5b8c737d624f80633fc12e7d91db2")))
-     (sha256 (base32 "0c703xyh2yq9bjmv871yr0rajp1cwlzrd57a73vijxzyvlcizih1"))))
+           (commit "c62c39fcbbcaf63cf886d1a89130ed9a8d381cef")))
+     (sha256 (base32 "1fb76xrsm9py9fcp3j0nrkpxhbg4r6zbjvazzc6f8w18jrn9vzah"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -40054,14 +40054,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260823.1350")
+   (version "20260823.2325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "447cacd64370e5fc3ee3fa71719d7d6e3da7a624")))
-     (sha256 (base32 "05hzj36n8gp4hg0h72nld8fy94chksk44wgy5g174dypmjabbv5j"))))
+           (commit "245438b0245028f701522b2cbddc9f07c81211e3")))
+     (sha256 (base32 "0s4i2xbqykq4zflssx62a9hwmhjcxmnxyw3m59rznkgwzx0743yd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49156,14 +49156,14 @@
 (define-public emacs-hnreader
   (package
    (name "emacs-hnreader")
-   (version "20250703.328")
+   (version "20260824.2055")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/thanhvg/emacs-hnreader.git")
-           (commit "a56f67a99a855ca656da1c1985e09f44509e4bbb")))
-     (sha256 (base32 "1abqjrzq75ijhn3sfmy0wy6acp8x7nj5gihqy34mickz4v5wqbil"))))
+           (commit "3a1ad5f3711b89e3e2f8506cc485ce9f8e8ca216")))
+     (sha256 (base32 "01cj815iy6bslmhrjhqzn1j499y0lzsyli92ng0dsm3k14jmqpj8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-promise emacs-request))
    (home-page "https://github.com/thanhvg/emacs-hnreader/")
@@ -78009,14 +78009,14 @@
 (define-public emacs-overleaf
   (package
    (name "emacs-overleaf")
-   (version "20260604.1734")
+   (version "20260824.1709")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vale981/overleaf.el.git")
-           (commit "506fe07b79ceefce3e53196711e10700da344d49")))
-     (sha256 (base32 "0hrn0dvk7pqhw63s015hfav7d8fcsfn9sx46dzjn59mfqy9qwm5c"))))
+           (commit "c9757254a9a27a11a36a889cbe6095d67b78bc65")))
+     (sha256 (base32 "15fv4q36q7mg9iin3b6r759izp9vg7b4vynlx8p2v6l59z9hbkid"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-plz emacs-websocket emacs-webdriver emacs-posframe))
@@ -81403,14 +81403,14 @@
 (define-public emacs-php-mode
   (package
    (name "emacs-php-mode")
-   (version "20260810.1850")
+   (version "20260824.1843")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/php-mode.git")
-           (commit "fdcba033490bf974c465f09f1590277772d46eb0")))
-     (sha256 (base32 "1yajs33h478rl2d4xbk8hzb9nppp1y9q4607p47y6i3428qrdmbl"))))
+           (commit "3d57e94aa7ec2b94c6b0f39d39a70c79c7326e25")))
+     (sha256 (base32 "0hzi6lc466924bmc049h54q7x71f74c1qlha4z60z3d4b4wp701h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacs-php/php-mode")
    (synopsis "Major mode for editing PHP code")
@@ -81564,14 +81564,14 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260823.758")
+   (version "20260824.2034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "136c7942bda7449d237f69560ac31e8d9223b991")))
-     (sha256 (base32 "1abscr74xbbh7zykmh46a1fdas4zrdz0hh16r7par7b1cn5wg2l4"))))
+           (commit "1824dad6178548daf15286b0b0dc4430ede67c32")))
+     (sha256 (base32 "0kxxrgwkriy2w971jk0cm173712anwab41yfidg0kgb63bqy0cgk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
@@ -86505,14 +86505,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260823.103")
+   (version "20260824.2319")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "67dd45bb91f05909f6e0913201565e1c9e1e6729")))
-     (sha256 (base32 "1adi0amarwcs9qardrzwdvwx3qxcw4p46py67d3aai3dk2cms42j"))))
+           (commit "aea6db7a7ea78fbf0633aa224c0d896162647d58")))
+     (sha256 (base32 "0lfan404nhwaq28chxisldnd5p5dhkx7plqrnw07knq8yk7n30qw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -97794,14 +97794,14 @@
 (define-public emacs-stillness-mode
   (package
    (name "emacs-stillness-mode")
-   (version "20260817.1547")
+   (version "20260824.1927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/neeasade/stillness-mode.el.git")
-           (commit "3d014c504884fae408c9316f27be855fc809cc87")))
-     (sha256 (base32 "0kgrzp8d3fqxz3ayk0ldvjhb4j5scqr90ygwm1xbklqcpjvlhdx2"))))
+           (commit "2f8682a4358ba778021feaa6afc36d249d2316eb")))
+     (sha256 (base32 "0p533xcl4nhj21w4cp3jf33ava70602zddjb3jp24gxgahnny6fd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/neeasade/stillness-mode.el")
@@ -108665,14 +108665,14 @@
 (define-public emacs-wiktionary-bro
   (package
    (name "emacs-wiktionary-bro")
-   (version "20260615.1744")
+   (version "20260824.2344")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/wiktionary-bro.el.git")
-           (commit "bf53a1b3ce71ecf13d3b8a7aa0ba3a66bcf3f2a1")))
-     (sha256 (base32 "1dyyp85jika15kq4cyjnm53zqfilsxbsljg38ib36r3hiic896x7"))))
+           (commit "3e76e8171e306b6b1105b1dd63cc27f673b5f204")))
+     (sha256 (base32 "0b0ivhr3d85wm67y4rb3kg1wyj1gdss9b5ilaq7liqmcx96an8mq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request))
    (home-page "https://github.com/agzam/wiktionary-bro.el")
