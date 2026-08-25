@@ -4275,14 +4275,14 @@
 (define-public emacs-auth-source-1password
   (package
    (name "emacs-auth-source-1password")
-   (version "20260221.2058")
+   (version "20260825.439")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dlobraico/auth-source-1password.git")
-           (commit "10961bdc8a3ed551dde29fde416843058bea2374")))
-     (sha256 (base32 "19s59j2d8wdvpdd2yajmlbhm2ihf3jvf5ra8l2p9sn4db7ri95qb"))))
+           (commit "957bd9b3da51022a9d74610117621738fcec2de4")))
+     (sha256 (base32 "1d5041bv7i1a6yfx94g8jikzab0n9iqhgv7x18f2xgpxh3indypm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dlobraico")
    (synopsis "1password integration for auth-source")
@@ -7765,14 +7765,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260824.2111")
+   (version "20260825.741")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "40cd0b9f59a431916b4acb3286b67d6240332fd2")))
-     (sha256 (base32 "1s3c956nfhkbw70kbynm3nw3l3l6nq8hi2cf0gq22716l2d1r9bp"))))
+           (commit "a5f37eea56039cf47c0de71d097afca5140cdc78")))
+     (sha256 (base32 "0ff7wi5x7k8mqp3ghzgan64i11s6gap3bczyrmpy03asn22mrp24"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -96634,14 +96634,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20260717.154")
+   (version "20260825.45")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "e839ca0184713dd954aba57d59c618b7afdb678e")))
-     (sha256 (base32 "04k4jmxx0znh605nzlqkfr9zv2xi0djhp123zgik09zcqdh68hc6"))))
+           (commit "4f425ea54133444c5bc6a1377239c984778581c6")))
+     (sha256 (base32 "100b19dwnr84i490pdd7q44wfj9x9c4497qva9hkhbnz01p1d3k8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
