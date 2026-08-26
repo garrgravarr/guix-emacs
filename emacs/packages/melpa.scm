@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260823.1819")
+   (version "20260825.1604")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "0d5db15cdcb5cb84894e9ca773f7fb98343a8695")))
-     (sha256 (base32 "0a1p2w5qgq8mfv744ink0b0q9yipq9l8ycid93bal6kyj6jrhrdg"))))
+           (commit "e9d19814be477e5bb27798a0d14ef8b653a6c38d")))
+     (sha256 (base32 "0y2fs3cb3kpkd2z1kphl0d4zn9zqrgiid576q0rb9hapgrzic932"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -7765,14 +7765,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260825.741")
+   (version "20260825.1834")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "a5f37eea56039cf47c0de71d097afca5140cdc78")))
-     (sha256 (base32 "0ff7wi5x7k8mqp3ghzgan64i11s6gap3bczyrmpy03asn22mrp24"))))
+           (commit "92501666a293f611c56fa3a0dda4f4159295ccb5")))
+     (sha256 (base32 "0bg3486bjrpnap11zdfld9d73jmb4pql1qsvshblbbf86999f6b6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -8452,14 +8452,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260722.2117")
+   (version "20260825.2350")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "c69a568cd4668466b3fde1e8a21f3637ab6e7f84")))
-     (sha256 (base32 "1sr3f0cixw58bhbqcjwnbiy674dg0lzg7sfr07hkvls10530srym"))))
+           (commit "c658fc4ab2595c2b92089d8dede4a4ef246728ad")))
+     (sha256 (base32 "1xdmcjw3pixsldsirnp4x758wjb7d81bzb3bjs0rrrg5z73kbqr8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -11520,14 +11520,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260825.913")
+   (version "20260825.2124")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "497cb4498add27c2cfb667ccbb265d947f751edb")))
-     (sha256 (base32 "1663d5af0rp94ixir5r8zj3q8d5ws304lyv64ac0f21hgix2l8r6"))))
+           (commit "3a06f15a6599679232873e89e043a37ec19e2c5e")))
+     (sha256 (base32 "1nyqz4ph5q19s0mlhnnfq6ckvh5g5zz3fga1khxahwvq4ypqgrbd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12414,14 +12414,14 @@
 (define-public emacs-cmake-mode
   (package
    (name "emacs-cmake-mode")
-   (version "20260731.1301")
+   (version "20260825.1510")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.kitware.com/cmake/cmake.git")
-           (commit "8e7b683c67a0174a50dda93247d36ab118c70256")))
-     (sha256 (base32 "18qahdilxsvs6r29gdzcciksbkii8c0d9flk9mlf2grp6j1xxm9r"))))
+           (commit "a584d8ed750baf9ecea4d632666028786e19828f")))
+     (sha256 (base32 "099fbcsiys5p1jxqif5y4zpmsd95ngxbrffb98d3h71br435vkqb"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("Auxiliary/*.el")))
    (home-page "unspecified")
@@ -15136,14 +15136,14 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260805.1130")
+   (version "20260825.2010")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult.git")
-           (commit "3ddec5493bce5445f099537be50b7a4f79c68321")))
-     (sha256 (base32 "01j8xfpai31im4knjz3hvm9bydrrl5rmvg7npwal0jgfhfdfg14y"))))
+           (commit "dcbc3b8e5347d0c4b5c6187d0e150b1c26c385ff")))
+     (sha256 (base32 "1p7rykwvrj8xhrf9faxqbizaxghgfhfyrr74gn80f0s913a3vggq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/consult")
@@ -40054,14 +40054,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260825.1124")
+   (version "20260825.1200")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "484a4c15fcd2a1dddc9571bfe05c07ea56c486ce")))
-     (sha256 (base32 "1ijz8i92kc0s5c764scrwax8rzbc49pc45k08jqivwc7866syznl"))))
+           (commit "d8ee7a9ef523e054d35987349ed14ee1d791aad2")))
+     (sha256 (base32 "04dlgadpxcj5vmi0dhk9inji0nw8mffjs0zqqsw1gf3irivjswa8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -43772,14 +43772,14 @@
 (define-public emacs-gruvbox-theme
   (package
    (name "emacs-gruvbox-theme")
-   (version "20250117.222")
+   (version "20260825.2353")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/greduan/emacs-theme-gruvbox.git")
-           (commit "6cbf80b6cde3c2390502dc94a911ab7378495249")))
-     (sha256 (base32 "0w86zp5hvj7s8irb2y4rcggm8m5znljlv53vqhwzfv87piyqbl61"))))
+           (commit "b34b8c0d9fe84190bb69cf084d7354d5e948fd94")))
+     (sha256 (base32 "1a744cmg5aawjsw1b2y2f991ic885acg4k50ll1i8bs21r99wdxa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (home-page "https://github.com/greduan/emacs-theme-gruvbox")
@@ -56723,14 +56723,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260613.1820")
+   (version "20260825.2110")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "948cccf6499415005a43112e5daadc6ecc57fa1c")))
-     (sha256 (base32 "0203slgl1wal7x6hygwc2hkkm92i95cq6n0abgc0x8bnkkm7n0v5"))))
+           (commit "f83b717218d582349bc137bca6f042addb8a9375")))
+     (sha256 (base32 "1rl02fd824apizjgyj8xkzglbqcxkpva4ygl9a31ljhd2bhzba9v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -63164,14 +63164,14 @@
 (define-public emacs-mastodon
   (package
    (name "emacs-mastodon")
-   (version "20260808.1205")
+   (version "20260825.1806")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/mastodon.el.git")
-           (commit "5ddf28b9454ad9ee12738f9467e3ad013b788ee3")))
-     (sha256 (base32 "1gj9mvdgxyr81nfabnb1x5j6qkaaa90g343b54jmajb1l8gyn8as"))))
+           (commit "b3c19403378f9b465302274fb6dda71243c4cfce")))
+     (sha256 (base32 "05h47zzpn93mjf7mqbms66q8n3yqgvclhk52lwm0q646656ggqkv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-persist emacs-tp))
    (home-page "https://codeberg.org/martianh/mastodon.el")
@@ -81403,7 +81403,7 @@
 (define-public emacs-php-mode
   (package
    (name "emacs-php-mode")
-   (version "20260825.1443")
+   (version "20260825.1535")
    (source
     (origin
      (method git-fetch)
@@ -81863,14 +81863,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260718.1804")
+   (version "20260825.1950")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "9834cb04fb59d8cb600059f20bf297522c764deb")))
-     (sha256 (base32 "0h2cg9x8hpjxhdbql9lnncdij65lq70dl0imhqx2xkc32si9v97m"))))
+           (commit "96487d65adfb7f3119ff078e09234abec651226f")))
+     (sha256 (base32 "06f4nk8xcc7bv3jdb2gxix0qs1i9qn2qqfvfn3a4if2nlb24b671"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -94360,14 +94360,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260815.1611")
+   (version "20260825.1520")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "22ae94de5ddf0c9012afe298b5eb8b2e18d45931")))
-     (sha256 (base32 "12gpmlg9k2xfjd57bj4jmyrpks00p92h8ip6lcimjqwkl4vf2dwk"))))
+           (commit "c0a18be3aea898f79a38fee4907e6b4d54d555cb")))
+     (sha256 (base32 "1c9pv00yppprwli4ahrnh9z2cbpi7qzs2smsvxj3vnhqafyjd5p7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -94437,14 +94437,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260820.902")
+   (version "20260825.1808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "ec7d59f50007cf899ebe7539a639bdb88392baf4")))
-     (sha256 (base32 "0573yfygjgz2grq4y2v984vmx38k3n19drnbs16dwmzfzz8hdyla"))))
+           (commit "06e46196ad7d972c10559291d8a82f8beb735463")))
+     (sha256 (base32 "1bcv8faa67p5py7kcylqfa8i2qpq3k4c8b5ia71vcqzm2053abx2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -107250,14 +107250,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260825.1240")
+   (version "20260825.1747")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "5bdc8cffbe24b25a1ad31415ece33f7fb78ae210")))
-     (sha256 (base32 "1fg5xcx0bx8xxjfmr6qh6vpsvscaif1k6npw3msc3x75d1frp2xn"))))
+           (commit "31ee4bd8ff820ada28bef9a116d746d7f8d133b3")))
+     (sha256 (base32 "0qvvqd92v3kg8jr6airgcwsh95ddham6wcs44kp21kf2zz2g9zsn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
