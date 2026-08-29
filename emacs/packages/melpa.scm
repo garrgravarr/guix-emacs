@@ -1862,14 +1862,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20260826.1614")
+   (version "20260829.1530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "d6f0489efba1ecbf70f2db9ae7ee0c64eb7d98df")))
-     (sha256 (base32 "0vkagwnw040la79l02zzkvnbaiz8rkqgpwzr0180ay4jvn3s6ww2"))))
+           (commit "7c9422a464bfd0e41da0ad630f5784885cd6cc1f")))
+     (sha256 (base32 "0bak30n8jnxwcqynng48gzm91qh7c6rcvkzvdnqsvz5fsz9v2x27"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -15136,14 +15136,14 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260829.1143")
+   (version "20260829.1558")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult.git")
-           (commit "7fb35a92bb92a05b46fc363136437ffaedf3c7cb")))
-     (sha256 (base32 "06am8y1q9c1271za3j0mpby232pqgg8bm0w2yc6bfqkfgn4bs8fx"))))
+           (commit "3a2441ddb08d9897eb266cda4935fa91a767e1d5")))
+     (sha256 (base32 "0796vzciswzsj90wdl6xr6zpmsm5ijr89yrm9m37f0znbhadd94h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/consult")
@@ -25535,14 +25535,14 @@
 (define-public emacs-eldev
   (package
    (name "emacs-eldev")
-   (version "20260612.1624")
+   (version "20260829.1605")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-eldev/eldev.git")
-           (commit "7ce62b0a71f75c8568e391e45eafe0687f610076")))
-     (sha256 (base32 "0hch4cp47a4hrc1604cryq0yq8a9518a0wjkaz9s0a9ajlvx13y6"))))
+           (commit "129d26489b1749839b203ac40ae3cc609c737036")))
+     (sha256 (base32 "0gwarjhwzfcfxlkpp376zy21irs8dip5il4qwdw9pl2xj5z3x172"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults ("bin" "bin/*") (:exclude "bin/*.in" "bin/*.part"))))
@@ -25854,14 +25854,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260827.113")
+   (version "20260829.1230")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "bff7a9852ddee43188781034109cabf937cb8baf")))
-     (sha256 (base32 "0rbb1hwsb9liia5cj8iscsnps5ckpxw7v7dpcj0p5ppl5rrvcaf7"))))
+           (commit "e61600ac3ec738b617109440304772bd02f031ba")))
+     (sha256 (base32 "0al5ylpz8420n79zjkvddzyqqzq5ijkry9bm6ciir0zjzylsrb1a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -28098,14 +28098,14 @@
 (define-public emacs-envrc
   (package
    (name "emacs-envrc")
-   (version "20260829.1025")
+   (version "20260829.1417")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/envrc.git")
-           (commit "ed33d42a6315bbf7f51cc6a7dd03d1e3a3c6f22b")))
-     (sha256 (base32 "19r4133q392w5p09kzvz4kmdvasaxrkvq22i62maqjrispj8p2bg"))))
+           (commit "914b2e51945eb356b7b7fef552acd3c54ff23f14")))
+     (sha256 (base32 "1y29pk21chd5cs0jicc4qxwzrfsyri668y28ddac7fk3xhr128zf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://github.com/purcell/envrc")
@@ -34289,14 +34289,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260828.1427")
+   (version "20260829.1425")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "53d8077d44e78f8dcf1d8c2f55cb91c2845b6158")))
-     (sha256 (base32 "1hrqivqdjzg5hb8ilyy6kwk78whky0wv42rm0jv0lsqqqvhf0z92"))))
+           (commit "4d61699dd10f85d6e53361754675bb3a18e16254")))
+     (sha256 (base32 "06nkkhxw9ivxj7l7y7qgahima1114p2wma8rha8qn1vq34ccxkay"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -39167,14 +39167,14 @@
 (define-public emacs-fzf-native
   (package
    (name "emacs-fzf-native")
-   (version "20260829.443")
+   (version "20260829.1557")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dangduc/fzf-native.git")
-           (commit "6c5d4be5fb28afb00cb1aea0a3a6c4e2291957c3")))
-     (sha256 (base32 "1zpvxbj9rh3f95dqy23wzpar225h3h5rbf3s29zy4ii3h2hp4nfw"))))
+           (commit "4ba4061421f5eec24cc4f2ac8fdc972a936a8ffa")))
+     (sha256 (base32 "1nrngq5mi7966vlkjyrhk9hkkych92iv2xpbq3bn0k2j0cd9l8j9"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -60741,14 +60741,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260829.845")
+   (version "20260829.1731")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "a4815b4b628d462f9e2ee8a117d644267e0fd14c")))
-     (sha256 (base32 "1rzpqk0drp3d56jr2b66xf9k626cqnjgslknjq7advdbqmlx1srk"))))
+           (commit "2007e4d386e0807ecefa74f3ba8cab6e04a911dc")))
+     (sha256 (base32 "18jbkqncr8ak3myinajh0p4l6km3l3ll03m9ydzimcghid4vjcd4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
@@ -84425,14 +84425,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260829.842")
+   (version "20260829.1426")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "65976a4e0be7dbb7074ea7489e4a6accefa6aaed")))
-     (sha256 (base32 "1ymyfkxp2aq68p5bay7yalimxscxr8pdqb6fijyhl930mvl9wsmn"))))
+           (commit "8bd8491a44186937bccdcea0620e83bbca35fb17")))
+     (sha256 (base32 "159nibq1irpxpgl73vcmcizfp0sgwnvb28zq91nvfrfc4nwk4dgd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -95923,14 +95923,14 @@
 (define-public emacs-solaire-mode
   (package
    (name "emacs-solaire-mode")
-   (version "20260403.16")
+   (version "20260829.1703")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hlissner/emacs-solaire-mode.git")
-           (commit "1bd0134194e48c8fe4089e9d505517935b2b15e3")))
-     (sha256 (base32 "1ya579plwjrwxhzbwbsgc5wfx68blzpin78nhh1fz2grxzirp4d2"))))
+           (commit "1a4e5a93b3ec280cf05aa36e39ad4c3b4e115fd4")))
+     (sha256 (base32 "0az44fv8gsm9wgpn146421dfg9h6rcnh3pcqlhh3dp9mkjsdmvan"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hlissner/emacs-solaire-mode")
    (synopsis "Make certain buffers grossly incandescent")
