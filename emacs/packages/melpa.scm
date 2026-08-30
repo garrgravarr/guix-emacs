@@ -6339,14 +6339,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260803.928")
+   (version "20260830.827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "d98b5be60d52d00a4808c25762cd0b51b516bb59")))
-     (sha256 (base32 "17pcdzdlsah3103y2q3hikv28hcvb0jny5zg5lv364dx1ilva8bq"))))
+           (commit "8cd9b28a43a392f2bd2c83f6fddafb603f9ec35c")))
+     (sha256 (base32 "0y0axmklprfsr0icilbabfr1gl351ib62jx7lmg3liadnqqnmyi8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -7818,14 +7818,14 @@
 (define-public emacs-boxes
   (package
    (name "emacs-boxes")
-   (version "20241003.847")
+   (version "20260829.1932")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ascii-boxes/boxes.git")
-           (commit "ba901ba5e76e60c420c37363032eb038b9cc961f")))
-     (sha256 (base32 "0nlqmfmd4imz7lzljizpd4qcasx6sa9x2zlpjpix75kbx8pfjl82"))))
+           (commit "cebddf7abf4d6a5e0846678263f9e420424b57bd")))
+     (sha256 (base32 "01znimkp6ca1x0fcxlz1vjrj3iwdvyyd7r68jyvpzzrnwn6j5vmg"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("doc/*.el")))
    (home-page "https://boxes.thomasjensen.com")
@@ -34289,14 +34289,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260829.1425")
+   (version "20260830.713")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "4d61699dd10f85d6e53361754675bb3a18e16254")))
-     (sha256 (base32 "06nkkhxw9ivxj7l7y7qgahima1114p2wma8rha8qn1vq34ccxkay"))))
+           (commit "b35e23b825ba06657033efa348f395a297ea31a4")))
+     (sha256 (base32 "1f0alafnh0wgkzr5w6hvgwc1spdfy9rz7335dp473a4iaj1kqqf2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -49939,7 +49939,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260828.1851")
+   (version "20260830.1306")
    (source
     (origin
      (method url-fetch)
@@ -49947,7 +49947,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "0ghbaf4m115gw96r3z0sgcmfv2xab12izhr27ddfz8ci699lhlag"))))
+     (sha256 (base32 "18vnj23kddjqka4flsrwiv7n9crwqfwadx6hfn4vk0baqmmnyj2y"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -53546,14 +53546,14 @@
 (define-public emacs-iwd-manager
   (package
    (name "emacs-iwd-manager")
-   (version "20260113.1101")
+   (version "20260830.545")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sarg/wifi-manager.git")
-           (commit "e947dff1f5593b3b01b380cc195108649392b89a")))
-     (sha256 (base32 "1kfcxbjx1xgqbxx3s921nbkk1fqhndr91cckps5wk12d3mh98lqw"))))
+           (commit "c3d53040c7be1222bab8b80a9646eac7dd9cc522")))
+     (sha256 (base32 "110p1hbpzzi0fimkibw4ac8vxxim2piaa1063badxkcnkwr5zs8l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-promise))
    (arguments '(#:files ("iwd-manager.el")))
@@ -56685,14 +56685,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20260826.246")
+   (version "20260830.1339")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "11ff03c676b439b2267d65ddfe1e897232451b02")))
-     (sha256 (base32 "1vfg1jhnf7wlk5s6h5aa210xaf4br448gfi277i42237gm7y42na"))))
+           (commit "64af455922935d83b5c77d2b8aec5ab11b246962")))
+     (sha256 (base32 "05djsiwxjmb3dhahnc51f0wb8ps92zs913ykmb3lx223disxyyvp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -81684,14 +81684,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260829.735")
+   (version "20260830.342")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "cfee8d4e64d6f0b142608e22f9f9a64659ce05ea")))
-     (sha256 (base32 "0vrln7zbh7wlz93n5hfjd0glgi5b57mi4dcbhx6dq8v2953jb01h"))))
+           (commit "cd3c5c4d823c31896b141751cd551d09116478f6")))
+     (sha256 (base32 "01zc82pqw4jp61l95aqkp51jihhiy79rrsp4xdish488xgq58i62"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -86467,14 +86467,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260828.306")
+   (version "20260830.248")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "6430b36140ca9fac0109bbb63efa7b9cc27edf62")))
-     (sha256 (base32 "04xnmzr38p36f654frd26jln2mfxc5zxjgizymz725r8bvhwz2i6"))))
+           (commit "0c9656d5bf80e998b4de426ee1885c724a3c5b43")))
+     (sha256 (base32 "1d7m7liib6xmzasa0a9gfnb772w9f6i8jgmzdi8q6an7kabl7ynv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -102092,14 +102092,14 @@
 (define-public emacs-tokyo-night
   (package
    (name "emacs-tokyo-night")
-   (version "20260729.1522")
+   (version "20260830.821")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/tokyo-night-emacs.git")
-           (commit "23b3fc9ed280c969a21d2897329f3779a3c95167")))
-     (sha256 (base32 "10g5qfcvszxcvjknl634f53hd2qc4b41drvmald4vjydk4ndz77l"))))
+           (commit "9afd86f3ce8baaf4932e8e4eec883047dd2f8635")))
+     (sha256 (base32 "199sk29clwqys08n0w3iij8rr3vhp19hjm87pdv9xf5g01h44888"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/tokyo-night-emacs")
    (synopsis "Tokyo Night color themes")
@@ -106240,14 +106240,14 @@
 (define-public emacs-vertico
   (package
    (name "emacs-vertico")
-   (version "20260828.1545")
+   (version "20260830.123")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/vertico.git")
-           (commit "a7425c2865d2dbc36d8a12e09695b278b0142637")))
-     (sha256 (base32 "1qfd4naf2hxc3pv294lfqj0n7nl3f2bb0g770z9k2h1qb4yy4cn1"))))
+           (commit "cd2eb6daff6a5a68a11740aa363729ec6f8702d3")))
+     (sha256 (base32 "0q5sa9l40f5vjwndidchajbnmarz1qbrfis77hjjcwn50qblhqs4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/vertico-*.el")))
