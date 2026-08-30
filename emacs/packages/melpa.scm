@@ -7079,14 +7079,14 @@
 (define-public emacs-bitbucket-devops
   (package
    (name "emacs-bitbucket-devops")
-   (version "20260823.1649")
+   (version "20260829.2005")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/will-abb/bitbucket-devops.el.git")
-           (commit "e362baf75ebf9ca32ddd5a5fde17fe53cebfaad9")))
-     (sha256 (base32 "0zjzxzrswd47izsak6g88lqw4rz0sp5if3rmwkxcx4v8sav604gm"))))
+           (commit "f0e3322a2db359b9e82e09f8f55490f251f5d122")))
+     (sha256 (base32 "15masbc3ynrh6ic95sr2i94nvdz9qhkxyligai1v3mi33cql5kp4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit emacs-markdown-mode emacs-yaml))
    (home-page "https://github.com/will-abb/bitbucket-devops.el")
@@ -38119,14 +38119,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260815.1911")
+   (version "20260829.1841")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "71e182e40186cc2a79fea298586905f26f48ae15")))
-     (sha256 (base32 "1l0hfk892dw356kqby8gbbsz957l0gx6d3p3yyxjm7lcfk594yaf"))))
+           (commit "2bd8c14d648c9c5f666bfb45fb88f74ba2cef946")))
+     (sha256 (base32 "0c9gkqq96xzw5w78hs4a15g7lz0iif52n25649d9frcyn98cppdx"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -45155,14 +45155,14 @@
 (define-public emacs-helm-bbdb
   (package
    (name "emacs-helm-bbdb")
-   (version "20260728.2016")
+   (version "20260829.2201")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm-bbdb.git")
-           (commit "8d5e5e35af18d61870f00e06ce272d90d4006506")))
-     (sha256 (base32 "14khcv02cg35s10rsilhs1g1vw87idp5d9sm6ngz899g5gmgvbr7"))))
+           (commit "e05e35872f5f854fc137d7c3e5afc747a8ec3cee")))
+     (sha256 (base32 "0d26vd82aprfsk0bwq5481zagpvvfsph7m7f5d365wp52k8yq92i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm emacs-bbdb))
    (home-page "https://github.com/emacs-helm/helm-bbdb")
@@ -60741,14 +60741,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260829.1731")
+   (version "20260829.2114")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "2007e4d386e0807ecefa74f3ba8cab6e04a911dc")))
-     (sha256 (base32 "18jbkqncr8ak3myinajh0p4l6km3l3ll03m9ydzimcghid4vjcd4"))))
+           (commit "291716a1e74de5ac7a8df063c1e4c0685855ca9d")))
+     (sha256 (base32 "0p4vl0s9kr1njy495wnsmvncl8167rqwf9ylns1ddwis45hw56jz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
@@ -64243,14 +64243,14 @@
 (define-public emacs-metronome
   (package
    (name "emacs-metronome")
-   (version "20230515.1850")
+   (version "20260829.2211")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~jagrg/metronome")
-           (commit "a8c2dcbbd58826f6605eeccf0abc411d7c3770b8")))
-     (sha256 (base32 "1avqdl6a41fv0f7d0cjhckg1cys3py8ivas9imr0vbdc816nabn7"))))
+           (commit "3c601454086f0e6fc29c3c976820e87beedf3c9d")))
+     (sha256 (base32 "058qjc66a45nj6d9cpxh7lkswnbm5gb3b2p5h5y9l8b203vczx0d"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "sounds")))
    (home-page "https://git.sr.ht/~jagrg/metronome")
@@ -65510,14 +65510,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260825.724")
+   (version "20260829.1926")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "b86cace43523b5809ac5d62ca5ab01e9eb2727bc")))
-     (sha256 (base32 "1apygfdbkqd2x9swl0aqxwf1xf90wahhrqyx1fcz94myjynczgiy"))))
+           (commit "9a3cd56cc2305c66cd3aa8097fa793518dd0ed6c")))
+     (sha256 (base32 "0cxnmvhf7yx80lmkdxy4d7zj0qdk06rxx9rav2fwgx78k728zxr1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -73825,14 +73825,14 @@
 (define-public emacs-org-emms
   (package
    (name "emacs-org-emms")
-   (version "20260725.1523")
+   (version "20260829.2213")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~jagrg/org-emms")
-           (commit "92b86f3e2dc4b04019935e49b13890e5d36cd5cc")))
-     (sha256 (base32 "1sq4dy49i67acdhlwlwq2rd7br1x2m6qljx4zrcgp0xy39lp432y"))))
+           (commit "5f4d71a1654e71b1ad6885ffbadf46b6d271fa57")))
+     (sha256 (base32 "0jv4z7jx3nif8vhrdhrc0hs7pr8jri58nrvfnjycpmbsa070lzgr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emms))
    (home-page "https://git.sr.ht/~jagrg/org-emms")
@@ -95923,7 +95923,7 @@
 (define-public emacs-solaire-mode
   (package
    (name "emacs-solaire-mode")
-   (version "20260829.1703")
+   (version "20260829.1840")
    (source
     (origin
      (method git-fetch)
