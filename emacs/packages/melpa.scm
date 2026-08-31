@@ -4397,14 +4397,14 @@
 (define-public emacs-auto-capitalize
   (package
    (name "emacs-auto-capitalize")
-   (version "20260830.1556")
+   (version "20260830.1746")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abdulnafe-t/auto-capitalize.el.git")
-           (commit "d6d62194f024810fbe4a20ec93e7ad575f49bbee")))
-     (sha256 (base32 "0gy9wlpzamn2cd54sfx5jx28yp1hji0b62syfdp1jjzzc2qzv0cb"))))
+           (commit "d6521cf6b8b96684f2e31f5b25d3f4a5f7aa2775")))
+     (sha256 (base32 "12i81y86kr7si2wmcv9yy7h0f46a174fa0156zwhkd2kq73b4lm9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/abdulnafe-t/auto-capitalize.el")
@@ -12344,14 +12344,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260819.309")
+   (version "20260831.345")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "833fcb0709959281a713da0d262a2e7d70640cff")))
-     (sha256 (base32 "1j51xmj3bh8235fngmgc1wk6zwb486sbg228zndcjh0lh1wghfq0"))))
+           (commit "b01d8d097e31a47d338e56a0f8fc9be5305914b5")))
+     (sha256 (base32 "11ddxfdc55sn5lj71n95w1yj5qi1yrjbv6j0vcc3xk7w4p0za4is"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -30553,14 +30553,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260820.1035")
+   (version "20260830.2209")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "02d0e3743dbe1a8c607adcfdc526367d798f4c23")))
-     (sha256 (base32 "06mk8005dm9amjcw487xbxqs3gxdy12fk6hf90p15n58ikkrhm3b"))))
+           (commit "20cf11e7b6f44342b20c3f0b7838f7c9f357ee62")))
+     (sha256 (base32 "0sd5xmb7341x2sjpcqvk7wfdykc8w06wb150shqr7p4xzlbhzqv7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -40106,14 +40106,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260828.1132")
+   (version "20260830.2209")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "7c4cbd9f487b545c3d0452ab749f65eaa3c18b7e")))
-     (sha256 (base32 "1r5kpin64rk688mj6z7gdfgvlbh6fshbf9dqfqc20cpf43dj9wpf"))))
+           (commit "20cf11e7b6f44342b20c3f0b7838f7c9f357ee62")))
+     (sha256 (base32 "0sd5xmb7341x2sjpcqvk7wfdykc8w06wb150shqr7p4xzlbhzqv7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -51994,17 +51994,17 @@
 (define-public emacs-init-dir
   (package
    (name "emacs-init-dir")
-   (version "20260104.1727")
+   (version "20260830.2045")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/chaosemer/init-dir.git")
-           (commit "cc5a4676cbc698144c7a9bca465fccb5bdd4ace4")))
-     (sha256 (base32 "0y94qwjj1lxm6acmiwhbfra5r4r5qyh8bairh7r9qaqrxlnpnx58"))))
+           (commit "c3218e445fe851c007e7f7981b239d69bb8033b3")))
+     (sha256 (base32 "0d5wzhi3gcyjz186js0i3v50013g22afdpmnk1zx451gdy17x2pc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-benchmark-init))
-   (home-page "http://github.com/chaosemer/init-dir")
+   (home-page "https://github.com/chaosemer/init-dir")
    (synopsis "Init directory instead of just a single file")
    (description "Documentation at https://melpa.org/#/init-dir")
    (license #f)))
@@ -81967,14 +81967,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260827.1923")
+   (version "20260830.1954")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "3e9ca21623b36a36ed8d0254a4d1b84ef058cb15")))
-     (sha256 (base32 "0cib4f3gyjy8088k4v98w7w5m69crslv0s49i9anrgmld5g2dl5h"))))
+           (commit "06ffefb25481857d3e244190997bf0cc3aec55bf")))
+     (sha256 (base32 "1pdfqzppl6xca73qxqvdkryzq70haw3fzj1wxsg824z5wsnsa1wk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -94464,14 +94464,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260829.55")
+   (version "20260830.2328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "9ed2e40e9a5c43a6b54d3333dde37f0d6f6e251f")))
-     (sha256 (base32 "04lcjg1y756cjfc42c76s3ap0349vcwpjy4dxbq2ixbf59l8f26y"))))
+           (commit "945c266247f73f8aad31a1437b0033a2d60f0896")))
+     (sha256 (base32 "1x7rg21mbn01l992xi50vzk91b9y7idzlayzsajl2amjl72nk5r3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -95486,24 +95486,6 @@
    (description "Documentation at https://melpa.org/#/smex")
    (license #f)))
 
-(define-public emacs-smilefjes
-  (package
-   (name "emacs-smilefjes")
-   (version "20240826.2107")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/themkat/smilefjes.el.git")
-           (commit "601210a2412e4715861598a72ad768be0b8763d5")))
-     (sha256 (base32 "1m9iky33m47v1kni7fh0n7g4gkxi1mzjsrwnqp44plydh7rvzfjb"))))
-   (build-system melpa-build-system)
-   (propagated-inputs (list emacs-request emacs-ht emacs-dash emacs-helm))
-   (home-page "https://github.com/themkat/smilefjes.el")
-   (synopsis "View Norwegian Food Safety Authority restaurant ratings")
-   (description "Documentation at https://melpa.org/#/smilefjes")
-   (license #f)))
-
 (define-public emacs-smiles-mode
   (package
    (name "emacs-smiles-mode")
@@ -96065,14 +96047,14 @@
 (define-public emacs-solaire-mode
   (package
    (name "emacs-solaire-mode")
-   (version "20260829.1840")
+   (version "20260830.2048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hlissner/emacs-solaire-mode.git")
-           (commit "1a4e5a93b3ec280cf05aa36e39ad4c3b4e115fd4")))
-     (sha256 (base32 "0az44fv8gsm9wgpn146421dfg9h6rcnh3pcqlhh3dp9mkjsdmvan"))))
+           (commit "ea97e01e1f978d0cde63049c0d66a6fed2c672a6")))
+     (sha256 (base32 "120ibalg5imkkydr2c56ggkj7syhjky69pzfkab3qsdqg3qhgxla"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hlissner/emacs-solaire-mode")
    (synopsis "Make certain buffers grossly incandescent")
@@ -110588,14 +110570,14 @@
 (define-public emacs-yaml-mode
   (package
    (name "emacs-yaml-mode")
-   (version "20260809.1724")
+   (version "20260830.2340")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/yoshiki/yaml-mode.git")
-           (commit "5d7347519c94eac1c9383a3b9bebe218d3e43318")))
-     (sha256 (base32 "05mbxjiig4ls1325p25a3w8vaj07m22dfd6n12avg70wdk2q9xfh"))))
+           (commit "93dba98c050e9abfc623ec66aa499dbbb46b2fe1")))
+     (sha256 (base32 "1685335z9zp6l4ldzy1hnc5r6rgghc1nmy2hffswisq9jalc6582"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/yoshiki/yaml-mode")
    (synopsis "Major mode for editing YAML files")
