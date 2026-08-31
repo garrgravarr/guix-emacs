@@ -12344,7 +12344,7 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260831.434")
+   (version "20260831.1531")
    (source
     (origin
      (method git-fetch)
@@ -32464,14 +32464,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260821.1115")
+   (version "20260831.1738")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "756c299f7cd284c0b5af26f15bf88522f1870bc2")))
-     (sha256 (base32 "1qp61igizs2nkq2024sa2gaids2llig190i95nbczdkrk2al1b3f"))))
+           (commit "6e644520266cdf4cc4152d866b6c677a9d59ecbb")))
+     (sha256 (base32 "1cgarcyiciack73n874rry96n2bjsky7fzxk5q24l6hv9k5i7cyp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -38154,14 +38154,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260829.1841")
+   (version "20260831.1655")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "2bd8c14d648c9c5f666bfb45fb88f74ba2cef946")))
-     (sha256 (base32 "0c9gkqq96xzw5w78hs4a15g7lz0iif52n25649d9frcyn98cppdx"))))
+           (commit "12f0ea0f46528b7f7ab4225fd693895637e4daec")))
+     (sha256 (base32 "1zrmb3ba39fndfvpikk69k1iqbzqqqh37wcwhlckhfnb5aqd0ynz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -38939,14 +38939,14 @@
 (define-public emacs-full-gtd
   (package
    (name "emacs-full-gtd")
-   (version "20260824.1804")
+   (version "20260831.1655")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/full-gtd.git")
-           (commit "39d9008e7732686e2bdc46943f6a5755a65b90b5")))
-     (sha256 (base32 "0ln6y0h0gfcc5iz4f27vb99yjksrr9axhpz1l51khzqjkraxm5d1"))))
+           (commit "249b333d4e49bcd913811a343edffe5a9da4c324")))
+     (sha256 (base32 "1zl1gznmy5spj0hr1pdrnqrapwh343ymfxbvs8903nvp5lxh4vi8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/full-gtd")
    (synopsis "Complete Getting Things Done (GTD) workflow for org-mode")
@@ -39219,14 +39219,14 @@
 (define-public emacs-fzf-native
   (package
    (name "emacs-fzf-native")
-   (version "20260829.1557")
+   (version "20260831.1556")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dangduc/fzf-native.git")
-           (commit "4ba4061421f5eec24cc4f2ac8fdc972a936a8ffa")))
-     (sha256 (base32 "1nrngq5mi7966vlkjyrhk9hkkych92iv2xpbq3bn0k2j0cd9l8j9"))))
+           (commit "16caa6e448bb7dc3b556f314acbc323c125871e5")))
+     (sha256 (base32 "17hblad2rzyvgxxjxbyyxc0c9a4lghc030cg6dc9fxldh0z7aldz"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -40106,14 +40106,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260830.2209")
+   (version "20260831.1753")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "20cf11e7b6f44342b20c3f0b7838f7c9f357ee62")))
-     (sha256 (base32 "0sd5xmb7341x2sjpcqvk7wfdykc8w06wb150shqr7p4xzlbhzqv7"))))
+           (commit "94eace59046c275d6c8f3c065489f6bbdb4f037b")))
+     (sha256 (base32 "1va0dry1xacql5l04zz4b3x4d9c9wxq8b4wr4j5z1y9n50g9pnbg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -61714,14 +61714,14 @@
 (define-public emacs-magik-mode
   (package
    (name "emacs-magik-mode")
-   (version "20260829.131")
+   (version "20260831.1647")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/roadrunner1776/magik.git")
-           (commit "1f39b0b9587251441f7cfb751d47ac1a4f133e42")))
-     (sha256 (base32 "1pa3vaayww8p9p3wnzx89n9nwj6gi5ikb8zxvqpwm130mys7nlv4"))))
+           (commit "5a8598f36cf8c691270125c8d6254cc0263a8e70")))
+     (sha256 (base32 "13kyz70ilb1avnda69k66zyaicvhpfdz7v03252gbi5058riab5x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-yasnippet))
    (arguments '(#:files (:defaults "snippets")))
@@ -65655,14 +65655,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260829.1926")
+   (version "20260831.1613")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "9a3cd56cc2305c66cd3aa8097fa793518dd0ed6c")))
-     (sha256 (base32 "0cxnmvhf7yx80lmkdxy4d7zj0qdk06rxx9rav2fwgx78k728zxr1"))))
+           (commit "24e4b4b9e47a382cba6dfb3dc41d68a8ba7912d2")))
+     (sha256 (base32 "1bbvs7zs58v4w91gxhn026wpq1xghdvq3z728yhx55pcz80c3j7i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -86698,14 +86698,14 @@
 (define-public emacs-qso
   (package
    (name "emacs-qso")
-   (version "20260805.2330")
+   (version "20260831.1536")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/K6SM/Emacs-QSO-Logger.git")
-           (commit "984c6c1266299021af3fd768426cdb413dfa7a7d")))
-     (sha256 (base32 "0qm9d8xjhnc3g5jxp1v7r48id8j1xs0ww0f2dvvn77inj3ccnajc"))))
+           (commit "1e47fae4d60ff51a772f330ff2dc9c0ca058082f")))
+     (sha256 (base32 "0f33jkn5acf29m9s1g5ii1g6pqdinjjch123hbrqh96p21airxh3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/K6SM/Emacs-QSO-Logger")
    (synopsis "Amateur radio QSO logging")
@@ -100356,14 +100356,14 @@
 (define-public emacs-tempel-collection
   (package
    (name "emacs-tempel-collection")
-   (version "20260516.1317")
+   (version "20260831.2000")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Crandel/tempel-collection.git")
-           (commit "4ea6f92ecb69dc38c666bfa6c4a253ff94699c80")))
-     (sha256 (base32 "1gvw02sfnvsfi32fqw13hxb9kwkpag195kils9rlxyq3r23pp07c"))))
+           (commit "d7a4f361fc35fb3a29cc0b905515c558e685e766")))
+     (sha256 (base32 "0ygfhlh1ciq51w5dhmsa18iyp3zlyid03kfqj93fnrj17215bid0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tempel))
    (arguments '(#:files (:defaults "templates")))
