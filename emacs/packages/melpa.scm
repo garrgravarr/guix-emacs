@@ -4397,14 +4397,14 @@
 (define-public emacs-auto-capitalize
   (package
    (name "emacs-auto-capitalize")
-   (version "20260830.1746")
+   (version "20260831.1328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abdulnafe-t/auto-capitalize.el.git")
-           (commit "d6521cf6b8b96684f2e31f5b25d3f4a5f7aa2775")))
-     (sha256 (base32 "12i81y86kr7si2wmcv9yy7h0f46a174fa0156zwhkd2kq73b4lm9"))))
+           (commit "00d699357f3b0afec5533c22848ce0fd879b9ee3")))
+     (sha256 (base32 "1xaw4asl6hpxn6qxd88lx3c7g4alnd0wf01p4r0zlhnpyybwprdh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/abdulnafe-t/auto-capitalize.el")
@@ -10199,14 +10199,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260823.806")
+   (version "20260830.807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "1652cda225eba6180e8b586ec59c3b152e2a4c9b")))
-     (sha256 (base32 "16ay21q38p61g1s0pgcryhnymf3sv5lkbvzc08c8cpl2cl4mgwr2"))))
+           (commit "bbdd731d1a78eecc07ec612743130de6401a4bc6")))
+     (sha256 (base32 "12jwi58yvbxdy5f8vcyp60lcr3s8px8qg1q30k4czzsz07x95xfv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -12344,14 +12344,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260831.345")
+   (version "20260831.434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "b01d8d097e31a47d338e56a0f8fc9be5305914b5")))
-     (sha256 (base32 "11ddxfdc55sn5lj71n95w1yj5qi1yrjbv6j0vcc3xk7w4p0za4is"))))
+           (commit "89d1d3442c8670dc7aa938b05bab907137f10615")))
+     (sha256 (base32 "1a3y5qrb48cp9ag2k036dfxpn1w5sfkz27jllkkjzblqjm24viaa"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -34324,14 +34324,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20260830.713")
+   (version "20260831.1141")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "b35e23b825ba06657033efa348f395a297ea31a4")))
-     (sha256 (base32 "1f0alafnh0wgkzr5w6hvgwc1spdfy9rz7335dp473a4iaj1kqqf2"))))
+           (commit "2a9a860400b29df67a91b7b20902f72f68c37b39")))
+     (sha256 (base32 "1jm9rd0c82i3z0zv87h9q1p0av597gan1sxrrzm05jzydifjfbn6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -40697,14 +40697,14 @@
 (define-public emacs-git-overleaf
   (package
    (name "emacs-git-overleaf")
-   (version "20260819.857")
+   (version "20260830.2356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/git-overleaf.el.git")
-           (commit "df667e84262041a574f94e8917df3ee439efa8c5")))
-     (sha256 (base32 "0j0p77dvlqa8cbdn9mirp04dhg65c9v7dv0v1xzhczp88wlpg9dz"))))
+           (commit "fd95a80bd2c15c9c4aa189b257654be02d041c7e")))
+     (sha256 (base32 "15fx8h7ljamlmdbvkkq3r61dgkk6ccgv35bcg93ri0shnf6q6yh6"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket emacs-webdriver emacs-magit-section))
@@ -43116,14 +43116,14 @@
 (define-public emacs-gptel-inline
   (package
    (name "emacs-gptel-inline")
-   (version "20260830.1800")
+   (version "20260831.625")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-inline.git")
-           (commit "11763858eda358e9481ce4938024f84e506e1cde")))
-     (sha256 (base32 "0g6nz6wgfc17qw378zkshdryms063rj274y3f9iyh1g59wxz5a0g"))))
+           (commit "3e7cd46681e57a3c56f720c6dd6ed589dec76307")))
+     (sha256 (base32 "02i7lkhid7bilwy20rpq9qkjjdhhc376rb9fsdrv9f0khd7w920g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-gptel))
    (home-page "https://github.com/karthink/gptel-inline")
@@ -50009,16 +50009,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260830.1306")
+   (version "20260831.337")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "18vnj23kddjqka4flsrwiv7n9crwqfwadx6hfn4vk0baqmmnyj2y"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "5670b645ce1a5b46656b1401c4db83e787ea9513")))
+     (sha256 (base32 "1h6qgks078ynxzfcyfag7nrdj812gdlbmgw6dknq2vracvpaq2fw"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -61602,14 +61640,14 @@
 (define-public emacs-magent
   (package
    (name "emacs-magent")
-   (version "20260828.702")
+   (version "20260831.915")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/magent.git")
-           (commit "0959570cb2ba87854d4cfb650a29937834defac1")))
-     (sha256 (base32 "0iikr35njyynidfkmy2lb59m255c0jgfkib4xfb9gvlv9qbngznm"))))
+           (commit "59c2082d99a92a6e2d582a70c46d94ee6207bddd")))
+     (sha256 (base32 "0b0l6g8rwi0rh0vnr9nibswv2nd1ivqzknqicm0p58l1hcfl4fln"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-gptel emacs-yaml emacs-compat emacs-acp emacs-agent-shell))
@@ -62761,14 +62799,14 @@
 (define-public emacs-marginalia
   (package
    (name "emacs-marginalia")
-   (version "20260821.1231")
+   (version "20260831.1055")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/marginalia.git")
-           (commit "7ec0b70afb43a756ecd45a958c6ebe797717fc91")))
-     (sha256 (base32 "0glwbzidmahlsm82aqi826l2m595ww0ni1jmgngl1jgvmfx8sjz3"))))
+           (commit "d76d7e36185ab552240c14fb08f7abcbf9a2910c")))
+     (sha256 (base32 "0wihxq0pkccy6mfaifnigd7xqypm38bib63mrl4hwybwryfa1w83"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/marginalia")
@@ -74668,14 +74706,14 @@
 (define-public emacs-org-link-beautify
   (package
    (name "emacs-org-link-beautify")
-   (version "20260830.1309")
+   (version "20260831.514")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-link-beautify.git")
-           (commit "7c0fb6c9add55270f75c80cd36b79d5ac6f6c6ce")))
-     (sha256 (base32 "1h80j7840lalfwkqk1zi21r1psr306v0pwfwgmilxs4n0irpkkdv"))))
+           (commit "d37bf04fd7db89d11b948b89b334523ae9082891")))
+     (sha256 (base32 "1sm84jdykfdriw8zi01ly7ny4630l3q11sv4g7raj5f96rdn0022"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-qrencode))
    (arguments '(#:files (:defaults "scripts")))
@@ -79464,14 +79502,14 @@
 (define-public emacs-palimpsest
   (package
    (name "emacs-palimpsest")
-   (version "20260830.1517")
+   (version "20260831.354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/danielsz/Palimpsest.git")
-           (commit "8d1acaf72b7691b6f2291036587158c3b65b5d99")))
-     (sha256 (base32 "1svdk65m7d6plzhrb1yy8114pmzvwai5s7xngmryziqw744k61n3"))))
+           (commit "5c61147bf22e63fc3789dc84b51e5246404c2174")))
+     (sha256 (base32 "082b56vdnx2y2vmbyxi0sb5k7xpmk0011ngbpxkvjwjxphxfsjqq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/danielsz/Palimpsest")
    (synopsis "Various deletion strategies when editing")
@@ -81967,14 +82005,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260830.1954")
+   (version "20260831.951")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "06ffefb25481857d3e244190997bf0cc3aec55bf")))
-     (sha256 (base32 "1pdfqzppl6xca73qxqvdkryzq70haw3fzj1wxsg824z5wsnsa1wk"))))
+           (commit "55b9c765e7284de03269bdc4404e5bc5a384b042")))
+     (sha256 (base32 "0jan83xr5x1apqdk2b0c808j8zrx0mr07a9v61vmxgyscsq9jsvy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -82910,14 +82948,14 @@
 (define-public emacs-poly-gams
   (package
    (name "emacs-poly-gams")
-   (version "20240812.1540")
+   (version "20260831.625")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ShiroTakeda/poly-gams.git")
-           (commit "46a13806893830ccf057e4a6861c1043bb7a9f87")))
-     (sha256 (base32 "1hgxf6h91cvhyqjq11a7h66wc6inkjclzj2mr8qy82vhfq6dgnn8"))))
+           (commit "d081611a0ba716fd43e500e05cf70829271775a9")))
+     (sha256 (base32 "1vx3yga21c131rch6izvcpa3k24r62ljby39ppzkjnkbsb8chjjw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-polymode emacs-gams-mode))
    (home-page "https://github.com/ShiroTakeda/poly-gams")
@@ -84567,14 +84605,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260829.1426")
+   (version "20260831.641")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "8bd8491a44186937bccdcea0620e83bbca35fb17")))
-     (sha256 (base32 "159nibq1irpxpgl73vcmcizfp0sgwnvb28zq91nvfrfc4nwk4dgd"))))
+           (commit "3a6a99926809d8ed0aecf802bdc2942ce0d82009")))
+     (sha256 (base32 "07fpyz2y6j8yilhfm63k3ygqadd9n65a9crgdr04z80qxyl64lij"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -94874,7 +94912,7 @@
 (define-public emacs-sly-macrostep
   (package
    (name "emacs-sly-macrostep")
-   (version "20191211.1630")
+   (version "20191013.2138")
    (source
     (origin
      (method git-fetch)
@@ -94884,7 +94922,9 @@
      (sha256 (base32 "1nxf28gn4f3n0wnv7nb5sgl36fz175y470zs9hig4kq8cp0yal0r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-sly emacs-macrostep))
-   (arguments '(#:files (:defaults "*.lisp" "*.asd")))
+   (arguments
+    '(#:files
+      (:defaults "*.lisp" "*.asd" (:exclude "sly-macrostep-autoloads.el"))))
    (home-page "https://github.com/capitaomorte/sly-macrostep")
    (synopsis "Fancy macro-expansion via macrostep.el")
    (description "Documentation at https://melpa.org/#/sly-macrostep")
@@ -97370,14 +97410,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260820.2259")
+   (version "20260831.450")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "c39323f0caa6969fdcdcaf534fb3f6cc2c41703f")))
-     (sha256 (base32 "0rb5q1abccvdnz05pf2q1f2hvjb2s4zq4wq5m1aw0dc023x6isnk"))))
+           (commit "4b513b1ec369d07a785453ff9d0c045da5d47229")))
+     (sha256 (base32 "1wxj7g4q62x94v7rpv1ghpp7x4w5hpf0i3lj2n9msj55f6x692j8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -101303,14 +101343,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260823.311")
+   (version "20260831.513")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "e65db4764a1bbc67f76dad2c41ec5a7eafec0d42")))
-     (sha256 (base32 "1xg2ygzkjzb5xcdp0y39fzvall6kfc5nx3r420qkp8c4ysc6mazp"))))
+           (commit "3de249c884d36c370efddae76ba131063888fb0f")))
+     (sha256 (base32 "1lcy7khc0vhkpkmjw58llk9icxmm0xzgx56s1yhc5lpjn86qfncs"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -102216,14 +102256,14 @@
 (define-public emacs-tokyo-night
   (package
    (name "emacs-tokyo-night")
-   (version "20260830.821")
+   (version "20260831.1237")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/tokyo-night-emacs.git")
-           (commit "9afd86f3ce8baaf4932e8e4eec883047dd2f8635")))
-     (sha256 (base32 "199sk29clwqys08n0w3iij8rr3vhp19hjm87pdv9xf5g01h44888"))))
+           (commit "c3bd26f0b4b7bd6f0d7fdded6d8b9ba9f475120c")))
+     (sha256 (base32 "0hiappphy05jlf5gaswn4rcry25pan8y0965027pbwpcfms285zi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/tokyo-night-emacs")
    (synopsis "Tokyo Night color themes")
@@ -103434,14 +103474,14 @@
 (define-public emacs-treesit-auto
   (package
    (name "emacs-treesit-auto")
-   (version "20260817.1304")
+   (version "20260831.1012")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/renzmann/treesit-auto.git")
-           (commit "c227806dddd4b413009a453c450285d1123e7d72")))
-     (sha256 (base32 "13226wq3qyf8kf8v34ain7grdmvylfb3zgnprdc7416jgdi2mhpq"))))
+           (commit "3106c739c2a84bec2cb671997fe074e5dd5dd967")))
+     (sha256 (base32 "1b7kx2mm0xpab8vhnsysral0bgp3ydk01k42j7w0as7ip3m0pkxf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/renzmann/treesit-auto.git")
    (synopsis "Automatically use tree-sitter enhanced major modes")
@@ -107984,14 +108024,14 @@
 (define-public emacs-web-mode
   (package
    (name "emacs-web-mode")
-   (version "20260824.1135")
+   (version "20260831.219")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fxbois/web-mode.git")
-           (commit "e417e389474f934f4f3c11c88ad6c476642e1f90")))
-     (sha256 (base32 "0sdyvwx07mb8wprqh08fmc96ykd53j3y1csc1sqg1rs864gr1w6i"))))
+           (commit "ce24723eb900c455b488d224910519bd36af580a")))
+     (sha256 (base32 "0kd8f0c5xxy8ads23zzj5fgigk4ngpq41swa3p4ags4mjbcq9q9f"))))
    (build-system melpa-build-system)
    (home-page "https://web-mode.org")
    (synopsis "Major mode for editing web templates")
