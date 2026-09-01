@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260829.1116")
+   (version "20260831.2131")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "f28ca5f5e7eb718de0884412f672e4db5e01234a")))
-     (sha256 (base32 "133agig6jiy0cpbmi8vf8rd3icgxb435h5ibvnmrrg15qqgw0793"))))
+           (commit "fa5cf61ec52e679e054c2901f0af12187aa8fc4c")))
+     (sha256 (base32 "1536qv23hk1dpnirlx14ckmivh2rjihfbzcpd7byvr0gfsvxnl5w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -9692,14 +9692,14 @@
 (define-public emacs-casual
   (package
    (name "emacs-casual")
-   (version "20260818.526")
+   (version "20260831.2129")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/casual.git")
-           (commit "4360a3f8bd8dc775bd1c41a0fb26f2397785ad7f")))
-     (sha256 (base32 "02bsfn81mn1wrhirkfqgqnf96fxi18kvic6wzw18p1a0vcbyhisf"))))
+           (commit "60259e256e34d4f6ae64ef950c740cacbe8b4d37")))
+     (sha256 (base32 "137bj210fhqncf5fzvrdg3jycdvxijd29a54r7z7c47a0dwg25pv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-csv-mode))
    (arguments '(#:files (:defaults "docs/images")))
@@ -9711,14 +9711,14 @@
 (define-public emacs-casual-avy
   (package
    (name "emacs-casual-avy")
-   (version "20250830.2115")
+   (version "20260831.2151")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/casual-avy.git")
-           (commit "c5bc8e9d57a843f75e6125f097550414af3d5ec7")))
-     (sha256 (base32 "0zi4s8gk352yhnrdsbg48c7hg3yamaqs4x34ldd9kfrzrasmb7fl"))))
+           (commit "cfa3168ad1ff05baefc276d683ac9cca6ab68d47")))
+     (sha256 (base32 "0sp8c2r4308ci601nhjw2954s8ph4p0hyfmr5clrr9pfigp639ni"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-avy emacs-casual))
    (home-page "https://github.com/kickingvegas/casual-avy")
@@ -9729,17 +9729,16 @@
 (define-public emacs-casual-suite
   (package
    (name "emacs-casual-suite")
-   (version "20241022.3")
+   (version "20260831.2146")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/casual-suite.git")
-           (commit "c590e78d756bc6b3d43ab5cf8618e41b2a5bc88b")))
-     (sha256 (base32 "0i1n0bnlmgzp9yk0kgss3pyffwc42gbh1ymha2yjqjf4kf9004aq"))))
+           (commit "ea305a1242cc68133f530ea049e1f7fc121333d0")))
+     (sha256 (base32 "16hk6dhq6a4rhfggd1rsg07llswb3qaa07nlchmr1mk5xxdjfqkb"))))
    (build-system melpa-build-system)
-   (propagated-inputs
-    (list emacs-casual emacs-casual-avy emacs-casual-symbol-overlay))
+   (propagated-inputs (list emacs-casual-avy emacs-casual-symbol-overlay))
    (home-page "https://github.com/kickingvegas/casual-suite")
    (synopsis "A suite of opinionated Transient UIs")
    (description "Documentation at https://melpa.org/#/casual-suite")
@@ -9748,14 +9747,14 @@
 (define-public emacs-casual-symbol-overlay
   (package
    (name "emacs-casual-symbol-overlay")
-   (version "20241021.2358")
+   (version "20260831.2152")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/casual-symbol-overlay.git")
-           (commit "1453e7486dd0921f0319f21dd8c8b603e4eb7300")))
-     (sha256 (base32 "0pdck93ijdxjcmss763cg0ap4wm5pqymylbqkkwjib3cmas6fvsv"))))
+           (commit "7e706755324f1ff1d44d81f6b69e9978acd0104b")))
+     (sha256 (base32 "1lysx5j2cn7asnm5hxw5j8a2wjkapzmv5b0zfha3b9zax0wj4bc9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-casual emacs-symbol-overlay))
    (home-page "https://github.com/kickingvegas/casual-symbol-overlay")
@@ -45082,14 +45081,14 @@
 (define-public emacs-hel
   (package
    (name "emacs-hel")
-   (version "20260826.1524")
+   (version "20260901.5")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/helheim-emacs/hel.git")
-           (commit "28aac5b39cf582b0781bd61e6bce457625392e0e")))
-     (sha256 (base32 "1dmq0v8yswd7wq97rrdzk8mrij7hknkcl0sa3mlg9r33jv6brf7s"))))
+           (commit "08b4a750ba3c255f8c2a1bcfaa423335bd70c537")))
+     (sha256 (base32 "0aq056nrgkqgh4fsm29zldswx2ll8zm23482pf8x2k751cp9kknm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-avy emacs-pcre2el emacs-ultra-scroll))
@@ -81864,14 +81863,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260830.342")
+   (version "20260830.747")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "cd3c5c4d823c31896b141751cd551d09116478f6")))
-     (sha256 (base32 "01zc82pqw4jp61l95aqkp51jihhiy79rrsp4xdish488xgq58i62"))))
+           (commit "db58cdd918fd83e18f4b81c43c5f3e78a9a1da38")))
+     (sha256 (base32 "1izrnj9yv32snwkj84yyn27jyya1xd5cdzx791p502zmrslzjm0f"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -94502,14 +94501,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260830.2328")
+   (version "20260831.2232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "945c266247f73f8aad31a1437b0033a2d60f0896")))
-     (sha256 (base32 "1x7rg21mbn01l992xi50vzk91b9y7idzlayzsajl2amjl72nk5r3"))))
+           (commit "1543c19369466755c5057c0b5669ad27f7b07749")))
+     (sha256 (base32 "152zhjzhxshl925y60vqidg48hkdx3q05a9jbrpjfadsa4a99dw8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -97410,14 +97409,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260831.450")
+   (version "20260901.8")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "4b513b1ec369d07a785453ff9d0c045da5d47229")))
-     (sha256 (base32 "1wxj7g4q62x94v7rpv1ghpp7x4w5hpf0i3lj2n9msj55f6x692j8"))))
+           (commit "1adee01451c17dca7e4a670d8a426efde8b276c4")))
+     (sha256 (base32 "1yyx1nkraiaflkffgq0irl1f9rhvsnizy4qzyrcx5ls4hbsq9xl4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
