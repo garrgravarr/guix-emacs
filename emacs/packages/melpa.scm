@@ -4397,14 +4397,14 @@
 (define-public emacs-auto-capitalize
   (package
    (name "emacs-auto-capitalize")
-   (version "20260901.2015")
+   (version "20260902.841")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abdulnafe-t/auto-capitalize.el.git")
-           (commit "a9167faa094bb72aa8c8aef41bc24d9c5143c161")))
-     (sha256 (base32 "0lravkr4w6xqp2pmgn6nn51h506r3h8jzf4ndj292020vxq5dk0j"))))
+           (commit "de5ca6762e2f5c1a6e40086e14b024b6ad487d03")))
+     (sha256 (base32 "08g9xyvfhclsilcxwm8ssn1bcp25mk5j2gz6jc6w82b38sxyixz5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/abdulnafe-t/auto-capitalize.el")
@@ -6021,7 +6021,7 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260901.1652")
+   (version "20260901.2322")
    (source
     (origin
      (method git-fetch)
@@ -22371,14 +22371,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260828.1146")
+   (version "20260902.808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "6f911e982bdf5518f8416b15a3e845909d219f59")))
-     (sha256 (base32 "0ky8y43y4pci1pdlnf20ymz78jvy924wbwcqav8c5d69b4zjyqjc"))))
+           (commit "adbd6325be5f84eafbc85efb5685452a5ba489bf")))
+     (sha256 (base32 "07pqhg3bq6pbmjs0ax8fdskqji4y65c8zb4jc86z9zscggkyylg7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -25422,14 +25422,14 @@
 (define-public emacs-elcord
   (package
    (name "emacs-elcord")
-   (version "20260506.2048")
+   (version "20260902.44")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Mstrodl/elcord.git")
-           (commit "033be3dc076fdb3de335d3b12bac5f783ebec820")))
-     (sha256 (base32 "0x17jrv7pblrd8r2kgky1ndwi8fnz8p88hd6hmghdrwbl7ffpdlw"))))
+           (commit "e151753674883cc1420279981c0f719332122ea1")))
+     (sha256 (base32 "0gpfvp6gshcwf5vj0ywf1lspkx89m4q62hc68c1jjhwswnbamr92"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "stdpipe.ps1")))
    (home-page "https://github.com/Mstrodl/elcord")
@@ -38827,14 +38827,14 @@
 (define-public emacs-full-gtd
   (package
    (name "emacs-full-gtd")
-   (version "20260901.1936")
+   (version "20260902.356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/full-gtd.git")
-           (commit "9f400091bd9e1cfa33b762c1ea33753236352555")))
-     (sha256 (base32 "1aa718y2lx9bslg8sdvma2sxm4y3cmk4haiaysyq24qsdnz2ab5v"))))
+           (commit "9b6563986f085eea7e1f7ec2681468c0f217d587")))
+     (sha256 (base32 "148sav74f38l95rzwxs2rc1s13wa8k4byygibkql24vnz8bhvg46"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/full-gtd")
    (synopsis "Complete Getting Things Done (GTD) workflow for org-mode")
@@ -61528,14 +61528,14 @@
 (define-public emacs-magent
   (package
    (name "emacs-magent")
-   (version "20260901.1102")
+   (version "20260902.503")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/magent.git")
-           (commit "43cc580fde2a655759d210426c558d0312597abf")))
-     (sha256 (base32 "03fibyfs1694380bq36ka6hqi9fxmcjvb67klynbw9b7lyys909l"))))
+           (commit "40d8e092ed97024ebd4c496fd1a19eedb8f0225a")))
+     (sha256 (base32 "1x479701ljgs7w624dfi9y2sal490qjdffj6hly0y2psnmiykb0b"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-gptel emacs-yaml emacs-compat emacs-acp emacs-agent-shell))
@@ -92091,14 +92091,14 @@
 (define-public emacs-selected-window-contrast
   (package
    (name "emacs-selected-window-contrast")
-   (version "20260330.1542")
+   (version "20260902.601")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/Anoncheg/selected-window-contrast.git")
-           (commit "ccf6687020dae9a6c36af4a5ae53e79d56ad8719")))
-     (sha256 (base32 "1f249nwkl3hqk5dyh1j21wqzg503cxd69ppfd9qb6p364lxmq3rv"))))
+           (commit "484a21c502eb3d136008e45b36112b0fb0a77aad")))
+     (sha256 (base32 "0nmwsd2qy2wwzm7q1jabb9yqcb446qr00qfsyr09b0l8w7slmjlc"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/selected-window-contrast")
    (synopsis "Highlight window and cursor at switching")
@@ -102091,14 +102091,14 @@
 (define-public emacs-tok-theme
   (package
    (name "emacs-tok-theme")
-   (version "20260216.949")
+   (version "20260902.930")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/topikettunen/tok-theme.git")
-           (commit "f2af92c73108a55c383f3687b96b21e7f89e0782")))
-     (sha256 (base32 "14giqd950j0cvciiw5rfq1yisagf22ar6y3ii820wgmns1dw3nhc"))))
+           (commit "8f69cc911866ac2520da6b9a10db80970b744541")))
+     (sha256 (base32 "0l0rwl1kqbvzg1d5yxcard1vk4sapj75r1n5sfb7p9z8mhbd6bp4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/topikettunen/tok-theme")
    (synopsis "Minimal monochromatic theme with restrained color highlights")
@@ -104150,14 +104150,14 @@
 (define-public emacs-tzc
   (package
    (name "emacs-tzc")
-   (version "20260212.715")
+   (version "20260902.356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/md-arif-shaikh/tzc.git")
-           (commit "05f97298e7b20aefb41c16abe3eeae162dd1e2f9")))
-     (sha256 (base32 "1xjqyspyjhvf1cq0jsaglggz2l6mwf8yd8vh13gi8vzfch2yv1vy"))))
+           (commit "26e9627f572f724273c920bd83df5f676ff45871")))
+     (sha256 (base32 "08yzi7zjaxc2ri90w9q614hfxfjic590ivx601c4824axsfj6585"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/md-arif-shaikh/tzc")
    (synopsis "Converts time between different time zones")
