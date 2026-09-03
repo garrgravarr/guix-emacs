@@ -81575,19 +81575,17 @@
 (define-public emacs-pi-coding-agent
   (package
    (name "emacs-pi-coding-agent")
-   (version "20260901.1842")
+   (version "20260902.1852")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/dnouri/pi-coding-agent.git")
-           (commit "0a7076cb17d1a841acecf63ce4e24e80104a26f5")))
-     (sha256 (base32 "0lhgpz6ghnik5mansb7idnac6rg4vninqr0668kj9gqc58brwfmy"))))
+           (url "https://github.com/dnouri/piem.git")
+           (commit "be3ca87badb5438535897d85232e59f9edec385b")))
+     (sha256 (base32 "17ndhzrb51i4ipxdvnlnabvznnylc1zgqp7300hds8ir2a22zggn"))))
    (build-system melpa-build-system)
-   (propagated-inputs
-    (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
    (home-page "https://github.com/dnouri/pi-coding-agent")
-   (synopsis "Emacs frontend for pi coding agent")
+   (synopsis "Deprecated aliases for piem")
    (description "Documentation at https://melpa.org/#/pi-coding-agent")
    (license #f)))
 
@@ -81875,14 +81873,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260831.951")
+   (version "20260902.1850")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "55b9c765e7284de03269bdc4404e5bc5a384b042")))
-     (sha256 (base32 "0jan83xr5x1apqdk2b0c808j8zrx0mr07a9v61vmxgyscsq9jsvy"))))
+           (commit "194f95f14ba50a4fbb98ee61eb97946a2c5a230e")))
+     (sha256 (base32 "1vjyg6sjpqc4xnwpg043c9gs96dy7alrq00yjgic0ayyvfnlsb6g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -91028,17 +91026,17 @@
 (define-public emacs-samskritam
   (package
    (name "emacs-samskritam")
-   (version "20260701.225")
+   (version "20260902.1740")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/thapakrish/samskritam.el.git")
-           (commit "30bbd177d2664c5a0d33f17b42c07705b8473b66")))
-     (sha256 (base32 "0126jqcr9gjyd8sg0dmdg2j1pcgd55i7kxmrw81ysy6x586h3h1q"))))
+           (commit "ebd4e688c242e6cfcde08c8563473be9283e893e")))
+     (sha256 (base32 "1ynacarqwx351zanlml8vy4awd92hik7d1krcl8i7n90ci61xspg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/thapakrish/samskritam")
-   (synopsis "Show samskrit word definitions")
+   (synopsis "Sanskrit dictionaries, translation, and input")
    (description "Documentation at https://melpa.org/#/samskritam")
    (license #f)))
 
@@ -107174,14 +107172,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260827.1842")
+   (version "20260902.1706")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "f010659c6b0173e153f622830a603008a759b014")))
-     (sha256 (base32 "08cazsldd7aam3dn9wh7wm338ha70gfngn18qm44l5yzxb88a8kf"))))
+           (commit "d8e76e7ccc784ab0441caab04fcf36aba73f5bdb")))
+     (sha256 (base32 "1i2bxbmy5v9pacp90kf9zzqyv55ayzdcz1h6yz3raj3axfpl7hxr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
