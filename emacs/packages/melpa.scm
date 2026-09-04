@@ -14737,14 +14737,14 @@
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
-   (version "20260826.245")
+   (version "20260904.1327")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/compile-angel.el.git")
-           (commit "0b44cc6042dd6846cf44598defa1f71cf40fdb8f")))
-     (sha256 (base32 "00qfdsqk2l9vssqrjfd7mcgj9sxk245m2dp3jhiq4ndhyb3agirk"))))
+           (commit "1c99eece72a3f57a1be7187a07f70073b43e1589")))
+     (sha256 (base32 "19azlfkzpk4gb40gw7mc95vj2qg0zz9p3xzm4n9prrhj2zk0bz2x"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/compile-angel.el")
    (synopsis "Automatically Compile Elisp files (auto-compile alternative)")
@@ -16594,14 +16594,14 @@
 (define-public emacs-counsel-projectile
   (package
    (name "emacs-counsel-projectile")
-   (version "20260725.1809")
+   (version "20260904.1240")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/ericdanan/counsel-projectile.git")
-           (commit "5d86232d52d25790ee333f8f361507db39555291")))
-     (sha256 (base32 "0r3jfv912d23i8k76y6ilsmdnka5k3l6j01ammzna2zcap53wpam"))))
+           (url "https://github.com/lafrenierejm/counsel-projectile.git")
+           (commit "713d504a4d9e0e2e0fda97160a85cd27abf63da7")))
+     (sha256 (base32 "03h4sm436il224z5yjamv5wim7rj9m8rwgp1kg0gszywcalrdhwl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-counsel emacs-projectile))
    (home-page "https://github.com/ericdanan/counsel-projectile")
@@ -38827,14 +38827,14 @@
 (define-public emacs-full-gtd
   (package
    (name "emacs-full-gtd")
-   (version "20260904.429")
+   (version "20260904.1436")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/full-gtd.git")
-           (commit "670da04b3d822006330057e9f9499a06c9e80c84")))
-     (sha256 (base32 "1rvl3k0faw6qp2y2kr8drgj9rpk6jmn0x0s3qd957m18llb26wwp"))))
+           (commit "988c892b95638e3454096f8f5b26816769131612")))
+     (sha256 (base32 "0bjsnrmbdxaamjy8988gaan68rnlxc6mp6yllc3daka7l310ryjb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/full-gtd")
    (synopsis "Complete Getting Things Done (GTD) workflow for org-mode")
@@ -44692,14 +44692,14 @@
 (define-public emacs-haskell-mode
   (package
    (name "emacs-haskell-mode")
-   (version "20260829.851")
+   (version "20260904.1042")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/haskell/haskell-mode.git")
-           (commit "d252d4a6feb3b15e4d0be88e6a42b98d8f5766ba")))
-     (sha256 (base32 "06ic6w36db2h0bfavwrrcnas8va95cdwfsiw736mn7m8qbcy7xli"))))
+           (commit "4bdd38c22d8a54d3284b517e889863a1d3971998")))
+     (sha256 (base32 "1ip15f908bzqjbiw7qq97vnis7m5ama74r09710vxljsl5fng695"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "NEWS" "logo.svg")))
    (home-page "https://github.com/haskell/haskell-mode")
@@ -55905,14 +55905,14 @@
 (define-public emacs-kaolin-themes
   (package
    (name "emacs-kaolin-themes")
-   (version "20260826.814")
+   (version "20260904.1130")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ogdenwebb/emacs-kaolin-themes.git")
-           (commit "9ced044fdf092b9cfa5f6692eedd8b908569f84a")))
-     (sha256 (base32 "0wkn1fj8h7qrhrxnc2njh4x7dn24hfja6dsm8q0p7a4c0rf4vrbd"))))
+           (commit "316bb3119ebbf845504cfc932ff187cdd646f45f")))
+     (sha256 (base32 "1k9mypf2iv9isvk3kyl4d8s67a3sj0dm7dyhrs8psfb9dkg52sd0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (arguments '(#:files (:defaults "themes/*.el")))
@@ -61584,14 +61584,14 @@
 (define-public emacs-magik-company
   (package
    (name "emacs-magik-company")
-   (version "20260724.714")
+   (version "20260904.1039")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/reinierkof/magik-company.git")
-           (commit "959c0030a4fffbad61013394492ba42ca46e3180")))
-     (sha256 (base32 "0kimcq78crbl2brz58yw5mc0jh3vzb8pcwk2ahx8j0vaha8mnz4n"))))
+           (commit "96fbd0c04fb392d20bbf8e82934dc561ed47509f")))
+     (sha256 (base32 "06q3vacndm7i9g377wzw13sb8hrcyksarssgnrrjbp5xs05mmf3d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magik-mode emacs-company emacs-yasnippet))
    (home-page "https://github.com/reinierkof/magik-company")
@@ -61602,14 +61602,14 @@
 (define-public emacs-magik-mode
   (package
    (name "emacs-magik-mode")
-   (version "20260831.1647")
+   (version "20260904.1447")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/roadrunner1776/magik.git")
-           (commit "5a8598f36cf8c691270125c8d6254cc0263a8e70")))
-     (sha256 (base32 "13kyz70ilb1avnda69k66zyaicvhpfdz7v03252gbi5058riab5x"))))
+           (commit "7ddf1e4d62609fa807057d369d64c47a76a2aea9")))
+     (sha256 (base32 "14bryjzd9n4djniaf2ghlma85gc1afi21m3zxnhx6kk5sy6jyka5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-yasnippet))
    (arguments '(#:files (:defaults "snippets")))
@@ -65543,14 +65543,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260901.944")
+   (version "20260904.1349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "a3e7ba280524dfd4bdaf3169ef5901ac91dadb01")))
-     (sha256 (base32 "0r5yiwb8h4nqqd5kr6g1rxirfibbkhjmgh14z32jlgqbkdnbgrfg"))))
+           (commit "bcf065b803439524ebe8b96f4584643562fee343")))
+     (sha256 (base32 "1id8f1yra4nr5ywy3qv9cg84lxicqzr1vwlb894kpdppdjpgbypi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -79275,14 +79275,14 @@
 (define-public emacs-page-break-lines
   (package
    (name "emacs-page-break-lines")
-   (version "20250218.1607")
+   (version "20260904.1100")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/page-break-lines.git")
-           (commit "84b872a056404f11cacbf3fc2b0788aa7feac635")))
-     (sha256 (base32 "0265rjnxa6l37b2n11rwbapjp7ssjcvh1kh25x4wpnxi3sxk2iav"))))
+           (commit "bd5eecd6580481fc37ed41c32d3c18cb49f4af57")))
+     (sha256 (base32 "1prypr8n029gwijxqwx4gi1x0qr5aya7mql4pnnvy2gks53rl5ba"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/purcell/page-break-lines")
    (synopsis "Display ^L page breaks as tidy horizontal lines")
@@ -81873,14 +81873,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260903.1703")
+   (version "20260904.1139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "ca9cac6c641ba6ef463ef3b2044a382b997f85e4")))
-     (sha256 (base32 "1w31mgmcvixbqzyshzxfif7mcjvaidxzn6ssri0505i8igy5f6q0"))))
+           (commit "fc9b05037d976f6cf16573981b8fd4eb30528955")))
+     (sha256 (base32 "0xq7a05h2v0akczfxf4sb9wy3bvia7kz093cbj3mxkyw001y66av"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
