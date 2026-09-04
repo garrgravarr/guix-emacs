@@ -1823,7 +1823,7 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260903.1617")
+   (version "20260904.241")
    (source
     (origin
      (method git-fetch)
@@ -22427,14 +22427,14 @@
 (define-public emacs-dorgygen
   (package
    (name "emacs-dorgygen")
-   (version "20260422.45")
+   (version "20260904.40")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/dorgygen.git")
-           (commit "84815fda133c15fe967c6f132e146992827de1c9")))
-     (sha256 (base32 "0xsljqndjgz9ccx8nslv9kckb6w8cizcqlqglgg2q7bgmhwhg742"))))
+           (commit "2548e715405d082090eb9ea39d723e90bb05d0eb")))
+     (sha256 (base32 "1ahpk2cb503ara7ch85b365fi58g9p4l9gw80jlcwqw9s684kxkz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/dorgygen")
    (synopsis "Source code documentation in org-mode")
@@ -38827,14 +38827,14 @@
 (define-public emacs-full-gtd
   (package
    (name "emacs-full-gtd")
-   (version "20260903.1901")
+   (version "20260904.429")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/full-gtd.git")
-           (commit "e1395caa10fcb0516239831e3d6b87c6013b064b")))
-     (sha256 (base32 "0vwhlb8jfyfn8xcdfw5gxqkmfzq9inbzjdakk0lvxjhha38bh2vq"))))
+           (commit "670da04b3d822006330057e9f9499a06c9e80c84")))
+     (sha256 (base32 "1rvl3k0faw6qp2y2kr8drgj9rpk6jmn0x0s3qd957m18llb26wwp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/full-gtd")
    (synopsis "Complete Getting Things Done (GTD) workflow for org-mode")
@@ -42856,14 +42856,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260903.2323")
+   (version "20260904.334")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "c4aa904d69d0ac4a812f652d5cba0fa25988cdb2")))
-     (sha256 (base32 "04gcaif4nca82v02fypmpw5yfpldan594853hzj08ja2ayg9sgiv"))))
+           (commit "cf0eb7d2289581e7d1f0eed52b29870d8739d4f2")))
+     (sha256 (base32 "05fhkg6jfdwbhay9rpbkyx3j37z4ymmxhp28s02410sd9bfs7qq1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -63540,14 +63540,14 @@
 (define-public emacs-md-ts-mode
   (package
    (name "emacs-md-ts-mode")
-   (version "20260823.1701")
+   (version "20260904.930")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/md-ts-mode.git")
-           (commit "13e175beebe3ab2cbfa65186949b990bb26e1fd4")))
-     (sha256 (base32 "128mav5q3qnh2y60w4244cd5limxzyyychcjlg6vy61dj76xc644"))))
+           (commit "e593fdeef5b8a9805c33af1f35041b5d501398ee")))
+     (sha256 (base32 "01xgwiyjczs32cbcddxb6n7flavkjaw4s5dm5l13kfjkfgd6zq0b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dnouri/md-ts-mode")
    (synopsis "Major mode for Markdown using tree-sitter")
@@ -65018,14 +65018,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20260715.1804")
+   (version "20260904.916")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "4d32106dc2a60183c0df8716502ed4048a45d50f")))
-     (sha256 (base32 "1iis26fcdxy0vialyfzfhrdangxqw04ss395rfcxhxyy3w81622l"))))
+           (commit "7b5cdd836ba1ef76a14f268a2ec6309af35bc8f2")))
+     (sha256 (base32 "1jxwvji57i1v84id5jwf3kziwrz8l1780w5k74jx6iagzw82lp9y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -94447,14 +94447,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260901.1240")
+   (version "20260904.320")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "4a5b4fb0b536da711fa536760137f5424301f087")))
-     (sha256 (base32 "0p259y469xxn9jc5rk6b4lxlqwmkdwb727fjddw5s12qdd9zkjgb"))))
+           (commit "990ad02bd5b9830245e4df6bcdbfe96ce05d1c5f")))
+     (sha256 (base32 "0qvl526dlw8fzr3mbq87yrq2dvhjjdsg0lhri26ml2qzihavzy8g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -96628,7 +96628,7 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20260903.215")
+   (version "20260904.210")
    (source
     (origin
      (method git-fetch)
