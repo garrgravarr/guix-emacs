@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260904.241")
+   (version "20260905.9")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "f743c958dc062943e8ca77392d81c158ff7ca538")))
-     (sha256 (base32 "0pjr7fxhc6c5013r6s481xw8harjzbzv16bm5n5y5ahka51ghl9a"))))
+           (commit "e229500e6264dea6c57b1b1eb11b35e35f6bc68c")))
+     (sha256 (base32 "0gsq31k6pr7l7s5bgjjy5wvsd8qx826kbcw2cc7q9fpxsky6rfd1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -4898,14 +4898,14 @@
 (define-public emacs-auto-side-windows
   (package
    (name "emacs-auto-side-windows")
-   (version "20260817.1434")
+   (version "20260904.2152")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MArpogaus/auto-side-windows.git")
-           (commit "cf06db76c65aef2443557340cb06c3a6527186b2")))
-     (sha256 (base32 "1ilcwyn02p4ayp7csryvajn0sqyq85gzwd205m0cxvv7n44rri4g"))))
+           (commit "12f3dd7f447e390069744c2925d4eeb2edcfbe51")))
+     (sha256 (base32 "10x3hiklpqafgifdh6haycs1ycp43p2jjwsqfrqaly002vnpy41m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/MArpogaus/auto-side-windows")
    (synopsis "Simplified buffer management for side windows")
@@ -17433,14 +17433,14 @@
 (define-public emacs-ct
   (package
    (name "emacs-ct")
-   (version "20260330.1943")
+   (version "20260904.1923")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/neeasade/ct.el.git")
-           (commit "d47271cc1b5ef55cf74a3e25ac45a187b36910d5")))
-     (sha256 (base32 "17wm1hvxddwf6nhaiyjd4b2s5lakng74ikwrraqkxjbpyqwsk7ha"))))
+           (commit "ffa4dc1789a404e92941b7721009b1facad49ac3")))
+     (sha256 (base32 "13jxmpvmcjds73dd4j73cmcjwdbvx4rama20bn1hwfr78d6zkas3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-hsluv))
    (home-page "https://github.com/neeasade/ct.el")
@@ -20417,14 +20417,14 @@
 (define-public emacs-diminish
   (package
    (name "emacs-diminish")
-   (version "20220909.847")
+   (version "20260904.1820")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/myrjola/diminish.el.git")
-           (commit "fbd5d846611bad828e336b25d2e131d1bc06b83d")))
-     (sha256 (base32 "1n4gwyhnn273ni6xnqmwx245wafjv4qgjri4ih0016bf7dny7ycq"))))
+           (commit "43d0b9e0d18e4d124e3f7dad9d73275fb678fa50")))
+     (sha256 (base32 "1y43q98k08g1mmdfnxdra784dd0jds5w0crpaiajx72hgzi47n6n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/myrjola/diminish.el")
    (synopsis "Diminished modes are minor modes with no modeline display")
@@ -27802,14 +27802,14 @@
 (define-public emacs-empv
   (package
    (name "emacs-empv")
-   (version "20260819.2256")
+   (version "20260904.2327")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/empv.el.git")
-           (commit "a1c76aa8d29b8759fe9363e83043c7571deaaea4")))
-     (sha256 (base32 "13cxvjg9zn7skf5i2k8yynczyxzf5d4cd2314j652wk6j1991479"))))
+           (commit "876f9d39077216d5bcec9d96e1f5dfad8be2a60d")))
+     (sha256 (base32 "1g1550i3ww0w0ffv836j516cfxybhki3kq7iz7qlc3ylfl4jwqil"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-compat))
    (home-page "https://github.com/isamert/empv.el")
@@ -30241,14 +30241,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260818.145")
+   (version "20260905.250")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "0a9a4c46e274584f66a2e0c313819697c0ab0d2d")))
-     (sha256 (base32 "0zxm026c03hkarz9f6sg3zcndby4zpjr8diddwg6wkkspj1ch6bp"))))
+           (commit "945ca6e408f89946c9d99d2c3168a92cf065f874")))
+     (sha256 (base32 "1kw4rc23iwd46y3nl85qk5pwshklnffklpj9ahm6rf1cyw6iqwfr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -38827,7 +38827,7 @@
 (define-public emacs-full-gtd
   (package
    (name "emacs-full-gtd")
-   (version "20260904.1436")
+   (version "20260904.1713")
    (source
     (origin
      (method git-fetch)
@@ -38913,14 +38913,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260613.1231")
+   (version "20260905.220")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "c106bc71c3ea2dcb60bfce66eef3ef31a956a4f9")))
-     (sha256 (base32 "0r6qn00slwl8nsz490mbwyraax9dmw4zx7vldk7c6y0ayvgbdwdd"))))
+           (commit "022529e84b28d9af001a36844e1d35d36efd87fe")))
+     (sha256 (base32 "04g34351qh029kjl1bdwyq7932k5gqjads11sw5x9mkslz6mgjz3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -39127,14 +39127,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260903.144")
+   (version "20260905.242")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "caec167393d7162089268a04541a2fd18dd422a4")))
-     (sha256 (base32 "1bqijfz6mmghgqmdjzn95nfgyj373zbbgxbgsbj9j7ss5bpsndnw"))))
+           (commit "a4d23f49d2892edd643b7aa87f4386eccdb36a09")))
+     (sha256 (base32 "10m8vgjxwsjh1vablisknbhw9jxq270440mnk2j21f6spbpwq2q4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -43314,14 +43314,14 @@
 (define-public emacs-graphviz-dot-mode
   (package
    (name "emacs-graphviz-dot-mode")
-   (version "20250925.1226")
+   (version "20260904.1519")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ppareit/graphviz-dot-mode.git")
-           (commit "516c151b845a3eb2da73eb4ee648ad99172087ac")))
-     (sha256 (base32 "05faf6x5fsjy77k576xdwqnxbpcjlhl5bp8snvsbm6y8ac7wz2ml"))))
+           (commit "0a4509e9f63c8eae8d050acc62eac642fd77ae59")))
+     (sha256 (base32 "12rk1x1g505ban8b3j44dp0cypka62jwv216ivza6kc2xj4jp5fw"))))
    (build-system melpa-build-system)
    (home-page "https://ppareit.github.io/graphviz-dot-mode/")
    (synopsis "Mode for the dot-language used by graphviz (att)")
@@ -43996,14 +43996,14 @@
 (define-public emacs-guix
   (package
    (name "emacs-guix")
-   (version "20260724.1820")
+   (version "20260904.1540")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/guix/emacs-guix.git")
-           (commit "addac35e3fcb7a812b239c4aa76eada1743d0921")))
-     (sha256 (base32 "0i0kcmhz65lriw5rzln1fng3645my3mrqk6wdkkfss1mlpjdayzn"))))
+           (commit "c70d2fd14e1d88df937affb7cc0972df5b4e7d3d")))
+     (sha256 (base32 "1335yfs3z3gpnvwz4b89ibcnaiix8ig2c6m37wjsqhpxz7jrvapr"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -58527,14 +58527,14 @@
 (define-public emacs-leuven-theme
   (package
    (name "emacs-leuven-theme")
-   (version "20260826.856")
+   (version "20260904.1721")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fniessen/emacs-leuven-theme.git")
-           (commit "8cd77776d6574596cf37a39e3546f8d88ab9b240")))
-     (sha256 (base32 "0m5ml7698r2inmbawhcxhxl2k46fndqm5qjbc1z89c8n69yazaya"))))
+           (commit "c696b5b41e32ec23d535f3fcdd0d720678d90909")))
+     (sha256 (base32 "11l8xicxppy9nhxd27ynidkqffdcv5qwwmm4vhg4zczar8zfp4jh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/fniessen/emacs-leuven-theme")
    (synopsis "Elegant Emacs color theme for a white background")
@@ -68130,14 +68130,14 @@
 (define-public emacs-nerd-icons-corfu
   (package
    (name "emacs-nerd-icons-corfu")
-   (version "20260823.1748")
+   (version "20260904.1927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuigiPiucco/nerd-icons-corfu.git")
-           (commit "e1197d6c1db673f4ec7ee20cb2c4297f479420e7")))
-     (sha256 (base32 "0rsk67chbii7hb4pabafs4nd5garc02ygrw7hbjaar7fsvqcwcsz"))))
+           (commit "9b089b31a810328d9b740b35a19eb796eb7a2d8a")))
+     (sha256 (base32 "0686n0raq4mwxhk8dipgrvx17jqny7bs1ia6v8cvskbp91l9n8py"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons))
    (home-page "https://github.com/LuigiPiucco/nerd-icons-corfu")
@@ -84864,14 +84864,14 @@
 (define-public emacs-promptu
   (package
    (name "emacs-promptu")
-   (version "20260810.1345")
+   (version "20260904.1920")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/promptu.el.git")
-           (commit "926bf7507d550efc7c86a84a3aa906e91116d663")))
-     (sha256 (base32 "0kwva5ac47s3kgkjgarxchqjg7s1pnpxnwk2fd6s5q85z35lfm1h"))))
+           (commit "3d1c6c70e84bfdb1633029f04354473f9d947929")))
+     (sha256 (base32 "0yylamk39a1gvmm0c84k9ml0q7vwmrabaq0sc1n3c28fr06zhns5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/promptu.el")
    (synopsis "Compose LLM prompts from building blocks")
@@ -93856,14 +93856,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20260623.1110")
+   (version "20260904.1925")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "ceb208f96601be09397fc9e64fa96014ac1c8739")))
-     (sha256 (base32 "0svqrd4a7xmxjnqdbj3sbx5glrg1b9gsr6rxy9rz5r1yz2nq1pzk"))))
+           (commit "0c17124cefddf2d50defcec5f2bd25fa6d1db756")))
+     (sha256 (base32 "1s00xpp0gqnyiaq22ybixf59gy71fma774nvkh6ad4v40bdvhh4c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
@@ -101572,14 +101572,14 @@
 (define-public emacs-timu-line
   (package
    (name "emacs-timu-line")
-   (version "20260131.1904")
+   (version "20260904.1930")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/aimebertrand/timu-line.git")
-           (commit "745f38f27e9bf73323d25d9624d462ba977131c3")))
-     (sha256 (base32 "0cs91pwjb8lp4dr8b4mwcj9awsh9rk9f5y17p21b8zw0lc250yx6"))))
+           (commit "7fa9af7ae295446572019c403f89852c506624df")))
+     (sha256 (base32 "10qkib3k5yh61dx4ya80dfvc8ij0z4wkqyp35rn5bnvy95lf3pj0"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/aimebertrand/timu-line")
    (synopsis "Custom and simple mode line")
@@ -105322,14 +105322,14 @@
 (define-public emacs-use-package-x
   (package
    (name "emacs-use-package-x")
-   (version "20260525.1628")
+   (version "20260904.2104")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/DevelopmentCool2449/use-package-x.git")
-           (commit "45ed391f1d6816b1fff0a3104c6c0d94d9bebd64")))
-     (sha256 (base32 "1cipdps4d2rxvqa8px26522sly55zchj6ag7n5g67i6xalw3nyf5"))))
+           (commit "84fa4a4ed65a5f6c13a90d1827d6d2a90af3a5a9")))
+     (sha256 (base32 "10hpg65dc7qdhmz3nnhxrsjs3mx299h7zbdjcsby7kpc0fh7gizb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/DevelopmentCool2449/use-package-x")
