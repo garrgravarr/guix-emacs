@@ -4397,14 +4397,14 @@
 (define-public emacs-auto-capitalize
   (package
    (name "emacs-auto-capitalize")
-   (version "20260905.957")
+   (version "20260905.1359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abdulnafe-t/auto-capitalize.el.git")
-           (commit "93883bbe531bd3dc42009dedf65c1354eea4243a")))
-     (sha256 (base32 "0j427xwyxwinpnif5xhki1jz8h4x9f6ka3jim7p1p1x8zhgwckkv"))))
+           (commit "c04e98f8c8d08f032e43e5aa76feb9ca95afe22a")))
+     (sha256 (base32 "0jlq1wxxv4ih41f0mvnnv441s7m64bmzi04mswmac3hp18ylk6gw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/abdulnafe-t/auto-capitalize.el")
@@ -7441,6 +7441,24 @@
    (home-page "https://codeberg.org/lapislazuli/blue.el")
    (synopsis "BLUE build system interface")
    (description "Documentation at https://melpa.org/#/blue")
+   (license #f)))
+
+(define-public emacs-bluesky
+  (package
+   (name "emacs-bluesky")
+   (version "20260618.147")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/ahyatt/emacs-bluesky.git")
+           (commit "b4b7957a3af0533918535486f44afcb808d38d24")))
+     (sha256 (base32 "1vrbspbn58b90fx6vvwnndlvzp05znvsr0gyz3akk7p9s8a0svvn"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-plz emacs-futur emacs-vui))
+   (home-page "https://github.com/ahyatt/emacs-bluesky")
+   (synopsis "A Bluesky client")
+   (description "Documentation at https://melpa.org/#/bluesky")
    (license #f)))
 
 (define-public emacs-bluesound
@@ -12343,14 +12361,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260831.1531")
+   (version "20260905.1432")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "89d1d3442c8670dc7aa938b05bab907137f10615")))
-     (sha256 (base32 "1a3y5qrb48cp9ag2k036dfxpn1w5sfkz27jllkkjzblqjm24viaa"))))
+           (commit "e75e33b4de83fb5431c1cc31472195755c2833ae")))
+     (sha256 (base32 "05vk3k0z71p10mfxcn25dp6dr8izqicbig8psxbmclhi9ksqx0xq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -28057,14 +28075,14 @@
 (define-public emacs-envrc
   (package
    (name "emacs-envrc")
-   (version "20260903.2104")
+   (version "20260905.1236")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/envrc.git")
-           (commit "d8988cfdf85dfc5759be043567822ab40f84f316")))
-     (sha256 (base32 "1r450bm48nr7yhwj3npbjgzxvp2chpy83y4ncwial7dy4445y33r"))))
+           (commit "0ccdd131fb642323527e67aa9e854c9a82598507")))
+     (sha256 (base32 "1gcyc2l0sdzcgsw2fgqjlga9cy0s3yayja3l2n89h348s32skx1d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://github.com/purcell/envrc")
@@ -42175,17 +42193,18 @@
 (define-public emacs-go-template-helper-mode
   (package
    (name "emacs-go-template-helper-mode")
-   (version "20260124.2229")
+   (version "20260905.954")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/rch/go-template-helper-mode.git")
-           (commit "e13b09d9176dd88e65c4bea5eb5c878242ea7e13")))
-     (sha256 (base32 "07x19icrir88h6kxgx57rg8m6f48xvlqkrwncq92ff3m7jma1yhv"))))
+           (commit "0292682841d3d44b83b3aa88fcc1018fb9761890")))
+     (sha256 (base32 "0rp5xamadf741hprxawclrk1alrrk1zb235vhp5751nfs8975194"))))
    (build-system melpa-build-system)
+   (propagated-inputs (list emacs-go-template-mode))
    (home-page "https://codeberg.org/rch/go-template-helper-mode")
-   (synopsis "Go text/template overlay highlighting (Helm/YAML)")
+   (synopsis "Go template highlighting in host modes (Helm/YAML)")
    (description "Documentation at https://melpa.org/#/go-template-helper-mode")
    (license #f)))
 
@@ -59235,14 +59254,14 @@
 (define-public emacs-lisp-chat
   (package
    (name "emacs-lisp-chat")
-   (version "20260722.115")
+   (version "20260905.1551")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ryukinix/lisp-chat.git")
-           (commit "e54265d278af3de1ca6bc895e7b0ebde82c5b5fc")))
-     (sha256 (base32 "05jzdww2q2ak7xsnri7vgf4crxizajphddf5d1qkh6kxs1lwhk92"))))
+           (commit "316cdd52134eca84e2782f6d7f7fa57549ebe92b")))
+     (sha256 (base32 "08pkqjf0xd4vsi2s5bqjya39sacn1m0g1768a9hl1m3d6ws9l6pa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-websocket))
    (arguments '(#:files ("emacs/lisp-chat*.el")))
@@ -59852,6 +59871,25 @@
    (home-page "https://github.com/kurnevsky/llama.el")
    (synopsis "A client for llama-cpp server")
    (description "Documentation at https://melpa.org/#/llama-cpp")
+   (license #f)))
+
+(define-public emacs-llm-test
+  (package
+   (name "emacs-llm-test")
+   (version "20260413.2012")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/ahyatt/llm-test.git")
+           (commit "66700eb59b45cb1667b1d7c0cd475f34c74a4dd3")))
+     (sha256 (base32 "0z1wfdv1yslxk9jfqd4s6cvr0w6hnhhvldnv69x7prgw6zmhj3cx"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-llm emacs-yaml emacs-futur))
+   (arguments '(#:files ("llm-test.el")))
+   (home-page "https://github.com/ahyatt/llm-test")
+   (synopsis "LLM-driven testing for packages")
+   (description "Documentation at https://melpa.org/#/llm-test")
    (license #f)))
 
 (define-public emacs-llvm-ts-mode
@@ -67384,14 +67422,14 @@
 (define-public emacs-mysql
   (package
    (name "emacs-mysql")
-   (version "20260726.1544")
+   (version "20260905.1413")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/mysql.el.git")
-           (commit "a59dd867884938b2c6d7ea528ffb2a8b093674f5")))
-     (sha256 (base32 "1jd2fcy3j1vwn8ivxyssjgv3r99a88761307ywynkac431dl26hn"))))
+           (commit "443aa06a9a6b36de4141b5096e02502812c4a4a8")))
+     (sha256 (base32 "033fzlbd0g51cm8p2yp124bw22wwddh4zd9k6w0fqqvqyz8k9vrb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/mysql.el")
    (synopsis "Pure Elisp MySQL wire protocol client")
@@ -68042,14 +68080,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260905.500")
+   (version "20260905.1509")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "392afa69e861998c488f32cb395b8864bd9117c6")))
-     (sha256 (base32 "0jbpnsv8saq11l89gsrg7cv1kiczvpvyvjn577x1wfdc3vys17ig"))))
+           (commit "da9e39e1008bcbe8f2510345ec19bdab5002f87c")))
+     (sha256 (base32 "0ggfykj6chz679hwh26mmrddvf0a5iw2agkbw8jyvc8q7ni112pz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -73078,14 +73116,14 @@
 (define-public emacs-org-bookmarks
   (package
    (name "emacs-org-bookmarks")
-   (version "20260102.1353")
+   (version "20260905.1550")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-bookmarks.git")
-           (commit "b54d1e296bb0fcaf33452838de83f69c1ab58f0d")))
-     (sha256 (base32 "0lc6nkmx79vmsynkwpdigncr758q6c1cvsmbni7cdwl1hmqhyfzr"))))
+           (commit "e0bf976214011e521bc450b96212906b6a6fb48c")))
+     (sha256 (base32 "045lhwskqbik5nfddmhvmaqv0z9qrqwzmrap2dfhrm5nsyyahca9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons))
    (home-page "https://repo.or.cz/org-bookmarks.git")
@@ -73471,14 +73509,14 @@
 (define-public emacs-org-contacts
   (package
    (name "emacs-org-contacts")
-   (version "20260829.315")
+   (version "20260905.1342")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-contacts.git")
-           (commit "886d78099e4cf5ed620379b81097134fea4b8e83")))
-     (sha256 (base32 "1bpg9gvia79rqy493idb78bd3ly81i0zv8vfay0a09a7i1h3drwk"))))
+           (commit "bc21e333851a92ce77c9f00b86c2f7a8795891a1")))
+     (sha256 (base32 "0lvnrl5c77fkrsaf2h07js86qcj43xr1lm19va2f7ajjxwygcmvr"))))
    (build-system melpa-build-system)
    (home-page "https://repo.or.cz/org-contacts.git")
    (synopsis "Contacts management system for Org mode")
