@@ -1823,14 +1823,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260905.9")
+   (version "20260905.518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "e229500e6264dea6c57b1b1eb11b35e35f6bc68c")))
-     (sha256 (base32 "0gsq31k6pr7l7s5bgjjy5wvsd8qx826kbcw2cc7q9fpxsky6rfd1"))))
+           (commit "f934e2cc0c5a1a18cbcbeb097f19fdb573ec78ef")))
+     (sha256 (base32 "0l77lax159lz7rygjrjirza8l4bni0yab879ry1scnqb76rhg6jm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -4397,14 +4397,14 @@
 (define-public emacs-auto-capitalize
   (package
    (name "emacs-auto-capitalize")
-   (version "20260902.841")
+   (version "20260905.957")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abdulnafe-t/auto-capitalize.el.git")
-           (commit "de5ca6762e2f5c1a6e40086e14b024b6ad487d03")))
-     (sha256 (base32 "08g9xyvfhclsilcxwm8ssn1bcp25mk5j2gz6jc6w82b38sxyixz5"))))
+           (commit "93883bbe531bd3dc42009dedf65c1354eea4243a")))
+     (sha256 (base32 "0j427xwyxwinpnif5xhki1jz8h4x9f6ka3jim7p1p1x8zhgwckkv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/abdulnafe-t/auto-capitalize.el")
@@ -9428,14 +9428,14 @@
 (define-public emacs-cape
   (package
    (name "emacs-cape")
-   (version "20260821.1208")
+   (version "20260905.500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/cape.git")
-           (commit "f0135abaf95a22b9fb2c951751a5d0733ce61bbd")))
-     (sha256 (base32 "1hx3yc5v01nj1zzv5s2nxfbq11zylbrz5h6vapyqq0x2v3bpv89m"))))
+           (commit "1c543fce9151821e8400258aefcfdee2fb24920d")))
+     (sha256 (base32 "0x0n0mkw13d7g44jc457as8hkawripbb05z9yr9gr4qq2nk7snh7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/cape")
@@ -16105,14 +16105,14 @@
 (define-public emacs-corfu
   (package
    (name "emacs-corfu")
-   (version "20260903.1218")
+   (version "20260905.450")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/corfu.git")
-           (commit "4303506204bdf5df8f5e7d1457f6fca465a4da8e")))
-     (sha256 (base32 "1v287pfcnb8ninf3wlg2lrmiqb32dfqi79a58w48557dvs0k3c8m"))))
+           (commit "5869254349a035e16d656eb232a52cf0e163d531")))
+     (sha256 (base32 "0jl3lb92azwql3w888ggifyq6xl42qkamx8n8lsafwvzq18jvl1h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/corfu-*.el")))
@@ -19550,14 +19550,14 @@
 (define-public emacs-denote-explore
   (package
    (name "emacs-denote-explore")
-   (version "20260719.936")
+   (version "20260905.847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pprevos/denote-explore.git")
-           (commit "bd442d761d0ce6efe5cd3b7ce4806a86a49cf8a9")))
-     (sha256 (base32 "1pfvwg1akn59jqrc829fky91kpm0j7maq8s8dsb5z0lfb8i08ksx"))))
+           (commit "45b61e1f312db37c4a1569dcebc02112ce3fea04")))
+     (sha256 (base32 "0d2gcb6lk9lphkayc69fc76d92vhi7hpr79q48rn8m1f8ckwli4j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-denote emacs-dash emacs-denote-regexp))
    (arguments '(#:files (:defaults "*.html")))
@@ -23653,14 +23653,14 @@
 (define-public emacs-eask
   (package
    (name "emacs-eask")
-   (version "20260222.1247")
+   (version "20260905.1007")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-eask/eask.git")
-           (commit "664704775ce2318f7a76b65077e8559ada542814")))
-     (sha256 (base32 "0w4m3sgsivp0kd95bs2bgfhm2zd3vm4mcvahghlgprrgc7dj089r"))))
+           (commit "c9dd19aed2276d80a7d6ff79cb5a7489b78a3cd5")))
+     (sha256 (base32 "0xzj9dzdd7idbgpa7kkni2id4yqx6fd41748g6766vfqs0p1c0rw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacs-eask/eask")
    (synopsis "Core Eask APIs, for Eask CLI development")
@@ -42192,14 +42192,14 @@
 (define-public emacs-go-template-mode
   (package
    (name "emacs-go-template-mode")
-   (version "20260102.1442")
+   (version "20260905.953")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/rch/go-template-mode.git")
-           (commit "f33b953f5301d079463b428393efcd83767a128c")))
-     (sha256 (base32 "1s9b0z9i6mf1dqa1f3wzdmmqgwyq34q3vkfj6cbzsi3kzrq8s9nr"))))
+           (commit "9cafcdf69d4c9cc9367f8d52a0dd3e34624aeabd")))
+     (sha256 (base32 "1jdkv133rfnxyz6c7hmll702lphc8jlx51zp03sqqc1147nynsdk"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/rch/go-template-mode")
    (synopsis "Major mode for Go templates")
@@ -42856,14 +42856,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260904.334")
+   (version "20260905.117")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "cf0eb7d2289581e7d1f0eed52b29870d8739d4f2")))
-     (sha256 (base32 "05fhkg6jfdwbhay9rpbkyx3j37z4ymmxhp28s02410sd9bfs7qq1"))))
+           (commit "9417813e279f81d1ee1909f848b7c42f69d68d20")))
+     (sha256 (base32 "05m73j106xr7hk5j09y2h5cjaxv6pn68qcipbpvk4fm2vhn4v22r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -60799,14 +60799,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260716.755")
+   (version "20260905.531")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "6bfc593d7b1bc0dd656f09ffce52cc085ebced05")))
-     (sha256 (base32 "0n48qdc9y4vq5bmxfxv2gwmv7ngawq30ai280jhdn2ilzqjw4w4d"))))
+           (commit "d0835388732fcd39e951173ac1f6792cdf346706")))
+     (sha256 (base32 "0n6f3vv8grbl4b61911nb24snrm2a1d3pv8z1qpk5jc3q905wk83"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -61602,14 +61602,14 @@
 (define-public emacs-magik-mode
   (package
    (name "emacs-magik-mode")
-   (version "20260904.1447")
+   (version "20260905.821")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/roadrunner1776/magik.git")
-           (commit "7ddf1e4d62609fa807057d369d64c47a76a2aea9")))
-     (sha256 (base32 "14bryjzd9n4djniaf2ghlma85gc1afi21m3zxnhx6kk5sy6jyka5"))))
+           (commit "75245de0543f2b8fd3c740a7ab0d2b2d2d336d8b")))
+     (sha256 (base32 "0c0hlcxvijf9jf4glidpc3gp8x4miz7fdxpfmf36kn0zqgbm0lcl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-yasnippet))
    (arguments '(#:files (:defaults "snippets")))
@@ -63159,14 +63159,14 @@
 (define-public emacs-mastodon
   (package
    (name "emacs-mastodon")
-   (version "20260825.1806")
+   (version "20260905.930")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/mastodon.el.git")
-           (commit "b3c19403378f9b465302274fb6dda71243c4cfce")))
-     (sha256 (base32 "05h47zzpn93mjf7mqbms66q8n3yqgvclhk52lwm0q646656ggqkv"))))
+           (commit "47438191baf258ad0b53d47b0845c47eccf0300b")))
+     (sha256 (base32 "1l0l59vf8156cxla2kfm5sr91lqzil5rl70cmrb8wh0hqx4s0032"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-persist emacs-tp))
    (home-page "https://codeberg.org/martianh/mastodon.el")
@@ -68042,14 +68042,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20260710.532")
+   (version "20260905.500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "32acab3624160a7d0bb04c42babaa791729ab8b5")))
-     (sha256 (base32 "0jib25g15aj65jvsfb0ngkiwh85nlyz18qb6wjdd3rfmxb68wrjh"))))
+           (commit "392afa69e861998c488f32cb395b8864bd9117c6")))
+     (sha256 (base32 "0jbpnsv8saq11l89gsrg7cv1kiczvpvyvjn577x1wfdc3vys17ig"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -80901,14 +80901,14 @@
 (define-public emacs-persp-mode
   (package
    (name "emacs-persp-mode")
-   (version "20250830.955")
+   (version "20260830.105")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Bad-ptr/persp-mode.el.git")
-           (commit "fab4bf76927445d2e431f06e74572acba81f47d5")))
-     (sha256 (base32 "137nqrkg31pczyqk1mccmk5x42dzq9yy3vzy7hz0mbif20dz4a4h"))))
+           (commit "4cd5f47bd7208e4dbefe8053ec6d26271ce2ea88")))
+     (sha256 (base32 "0wm2fn5rcxjk6bqnyl5jhz9l53cb9l03k2kq0xhix9nsg6wgylp3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Bad-ptr/persp-mode.el")
    (synopsis "Windows/buffers sets shared among frames + save/load")
@@ -81732,14 +81732,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260901.211")
+   (version "20260905.705")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "db58cdd918fd83e18f4b81c43c5f3e78a9a1da38")))
-     (sha256 (base32 "1izrnj9yv32snwkj84yyn27jyya1xd5cdzx791p502zmrslzjm0f"))))
+           (commit "88db148db5e074e71040731a0734469722e89ef5")))
+     (sha256 (base32 "0fwrgc2l93by1yfccyc4avbrbswj8qbiyy8bjy0hcmmivk1gkand"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
