@@ -1245,14 +1245,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20260828.937")
+   (version "20260906.1056")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "42f5c268537220b94cb1f17e29d3f1f89e6ff0a0")))
-     (sha256 (base32 "0fz2vlb1a6d8y9yvbgfx5zh5l8kn7j074s9q2ji28lwn4m34c5ys"))))
+           (commit "2a59373ddf252c78e8d6b25b094458f67aba9e10")))
+     (sha256 (base32 "1xhnjviynyfqqx7iv9q49fl3j6fb55ssq4hy7qdd9dmdaizkgddp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -7428,14 +7428,14 @@
 (define-public emacs-blue
   (package
    (name "emacs-blue")
-   (version "20260709.1248")
+   (version "20260906.1453")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/lapislazuli/blue.el.git")
-           (commit "3668ca7f627f3497d907293f38dcfbe33fb6f4f7")))
-     (sha256 (base32 "1gqcbxr3dr2wi1r0fqzm4zvgsqhw6l9zph81h5k23nzw62aryx0i"))))
+           (commit "822a965f17f1860661b788a9caee5f1996ab0c1d")))
+     (sha256 (base32 "1gidvklp4k0glzabl5966raz53pv7msd03az40rl9bww91rccfv7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit-section))
    (home-page "https://codeberg.org/lapislazuli/blue.el")
@@ -15153,14 +15153,14 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260906.955")
+   (version "20260906.1502")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult.git")
-           (commit "cc0f6fd4dc6c1514519701427571fc13dc6010fa")))
-     (sha256 (base32 "02jd29wnmgy3kd8q9rn26j4axn6qaap99h7zlscg82i9lbpr3zwi"))))
+           (commit "be3021db13b4c96050f97fa147e65fa53f50fb36")))
+     (sha256 (base32 "0ryn0h8ps1z2hyjf0rfdbbb4264yxqraiddfhhh35bni6i3qmc3r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/consult")
@@ -38845,14 +38845,14 @@
 (define-public emacs-full-gtd
   (package
    (name "emacs-full-gtd")
-   (version "20260904.1713")
+   (version "20260906.1351")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/full-gtd.git")
-           (commit "988c892b95638e3454096f8f5b26816769131612")))
-     (sha256 (base32 "0bjsnrmbdxaamjy8988gaan68rnlxc6mp6yllc3daka7l310ryjb"))))
+           (commit "624df07a45e3289d395ee54baeba88087d0b0cd6")))
+     (sha256 (base32 "03aq8m66knp7ax3pflrbv2dk0xhk54hx3i403krig3j04g5zsv0z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/full-gtd")
    (synopsis "Complete Getting Things Done (GTD) workflow for org-mode")
@@ -43926,14 +43926,14 @@
 (define-public emacs-guard
   (package
    (name "emacs-guard")
-   (version "20260817.2119")
+   (version "20260906.1107")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Dspil/guard.el.git")
-           (commit "98b9bd434eee7f32ed98c61f074ef26cc801b0d0")))
-     (sha256 (base32 "0dp4p94mlm3awdkb098w0wsrdjdyxl6ygj813w1zg4gnxabm8rl7"))))
+           (commit "3d7b3c34c629071c4fe72855b4f26f60d4c4593f")))
+     (sha256 (base32 "1r2w0dybm43j7jiims2yymh1i5w4hrxhv8p9admfrb45c6jawya2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Dspil/guard.el")
    (synopsis "Custom modular init framework")
@@ -81911,14 +81911,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260904.1139")
+   (version "20260906.1440")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "fc9b05037d976f6cf16573981b8fd4eb30528955")))
-     (sha256 (base32 "0xq7a05h2v0akczfxf4sb9wy3bvia7kz093cbj3mxkyw001y66av"))))
+           (commit "dbf9a0b28f6552f7427bad4e4be58c2a725b889f")))
+     (sha256 (base32 "06l2lfyrqn7las520mhv1njvf3djkcfc2v5sbhi4g4psyqz7f80k"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -86604,14 +86604,14 @@
 (define-public emacs-qso
   (package
    (name "emacs-qso")
-   (version "20260831.1536")
+   (version "20260906.1603")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/K6SM/Emacs-QSO-Logger.git")
-           (commit "1e47fae4d60ff51a772f330ff2dc9c0ca058082f")))
-     (sha256 (base32 "0f33jkn5acf29m9s1g5ii1g6pqdinjjch123hbrqh96p21airxh3"))))
+           (commit "3dfaba1062de00b939a45a88e95158272b928bf0")))
+     (sha256 (base32 "0r67pcy2xzgghj7c1y9hvvzxy6kmf2imbp1aczg27dxy0mmbq4fq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/K6SM/Emacs-QSO-Logger")
    (synopsis "Amateur radio QSO logging")
