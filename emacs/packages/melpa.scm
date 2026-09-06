@@ -19568,14 +19568,14 @@
 (define-public emacs-denote-explore
   (package
    (name "emacs-denote-explore")
-   (version "20260905.847")
+   (version "20260905.1128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pprevos/denote-explore.git")
-           (commit "45b61e1f312db37c4a1569dcebc02112ce3fea04")))
-     (sha256 (base32 "0d2gcb6lk9lphkayc69fc76d92vhi7hpr79q48rn8m1f8ckwli4j"))))
+           (commit "a94fab28ef0017ea9103f4f283d3b8503b1598f1")))
+     (sha256 (base32 "1w6vb26y6lgnn9chfn1c03bl7j8c2n519pcr0861814sbil3gxgc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-denote emacs-dash emacs-denote-regexp))
    (arguments '(#:files (:defaults "*.html")))
@@ -22445,14 +22445,14 @@
 (define-public emacs-dorgygen
   (package
    (name "emacs-dorgygen")
-   (version "20260904.40")
+   (version "20260905.2358")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/drghirlanda/dorgygen.git")
-           (commit "2548e715405d082090eb9ea39d723e90bb05d0eb")))
-     (sha256 (base32 "1ahpk2cb503ara7ch85b365fi58g9p4l9gw80jlcwqw9s684kxkz"))))
+           (commit "69d2ffc538fe104022604b409d7bd16ea74705b4")))
+     (sha256 (base32 "1f0698kq82cd1z73k2nsdzsy6d99q58v46s7as5lwi2rffmslj0f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/drghirlanda/dorgygen")
    (synopsis "Source code documentation in org-mode")
@@ -23370,14 +23370,14 @@
 (define-public emacs-dynamic-graphs
   (package
    (name "emacs-dynamic-graphs")
-   (version "20250701.853")
+   (version "20260905.1626")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zellerin/dynamic-graphs.git")
-           (commit "5aa3182174de28b6c034a43cd9ef2f26024911b1")))
-     (sha256 (base32 "1jb2kc9z00ni660ff9bva6dkfsghlv490yyyd2bd85pzfhjvb3mk"))))
+           (commit "eeca8fa68dc404af127382ebdc9f0397b4c364f1")))
+     (sha256 (base32 "19jp5zz6mbx6a7akhp2a0y2w1r7dv9270ks7wrd2s09vq5w38q2g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/zellerin/dynamic-graphs")
    (synopsis "Manipulation with graphviz graphs")
@@ -28075,14 +28075,14 @@
 (define-public emacs-envrc
   (package
    (name "emacs-envrc")
-   (version "20260905.1236")
+   (version "20260905.2028")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/envrc.git")
-           (commit "0ccdd131fb642323527e67aa9e854c9a82598507")))
-     (sha256 (base32 "1gcyc2l0sdzcgsw2fgqjlga9cy0s3yayja3l2n89h348s32skx1d"))))
+           (commit "55a69ae6325c06fdde9a94b55c8f3dbc901686ff")))
+     (sha256 (base32 "0fvwi9l6f01y0ghkn67v8w29581cdjklv310m4qnxhijkwjhsx8j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://github.com/purcell/envrc")
@@ -30259,14 +30259,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260905.250")
+   (version "20260905.2034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "945ca6e408f89946c9d99d2c3168a92cf065f874")))
-     (sha256 (base32 "1kw4rc23iwd46y3nl85qk5pwshklnffklpj9ahm6rf1cyw6iqwfr"))))
+           (commit "783c96b9901417cb8b6df63ab606387fa72dc922")))
+     (sha256 (base32 "1jkbjviv68lfvyam9qiv74g03aiajxq4hx9v0mzaqzshk56xs4ry"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -39416,14 +39416,14 @@
 (define-public emacs-geiser
   (package
    (name "emacs-geiser")
-   (version "20260823.2028")
+   (version "20260905.2256")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/geiser/geiser.git")
-           (commit "584f78b103037e8bc6f4b22a6fae23e09f619d6d")))
-     (sha256 (base32 "04kliqq28ggiff9vda02r78n3y4h4zx3fakqvsbr77fazpn3jxcn"))))
+           (commit "1d7b08e989df3933ea0b4414ebfbdd99c3cc24ed")))
+     (sha256 (base32 "0rp0qs79fsj29zxc74my67ih1qp8zpjp4is20ldhw58idxsiffby"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "doc/dir" "doc/geiser.texi")))
    (home-page "https://gitlab.com/emacs-geiser/")
@@ -65056,14 +65056,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20260904.916")
+   (version "20260905.1851")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "7b5cdd836ba1ef76a14f268a2ec6309af35bc8f2")))
-     (sha256 (base32 "1jxwvji57i1v84id5jwf3kziwrz8l1780w5k74jx6iagzw82lp9y"))))
+           (commit "2d985b50c7c34aee4fddea8742a8754b9c248790")))
+     (sha256 (base32 "0scc5achbcsnza24y2d73z2bxzli1s0f7kizyxpmqqzy8l0giv38"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -107649,14 +107649,14 @@
 (define-public emacs-warm-mode
   (package
    (name "emacs-warm-mode")
-   (version "20260209.1810")
+   (version "20260906.28")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/smallwat3r/emacs-warm-mode.git")
-           (commit "27362826e970ed0e902bee3512d97dc02f196a7b")))
-     (sha256 (base32 "0ivlsrmlmpcjf1nz7r8hf6ph2f0k9i4pvbg0wmk5wmsy37gbnr6h"))))
+           (commit "56309813b86daf20b663b457221569b49c5199f2")))
+     (sha256 (base32 "0zi86rbbjnpmc5w0y6z2mhmypfkgxk8rmnjf3bcx7h8ym8spfak5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/smallwat3r/emacs-warm-mode")
    (synopsis "Warm colors for nighttime coding")
