@@ -15153,14 +15153,14 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260903.1219")
+   (version "20260906.955")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult.git")
-           (commit "788735b54e5ad9d33137613aebae055443e3e05e")))
-     (sha256 (base32 "0cd8rww058g94lg2zsqd6c08j9aaj2x19di15ji8fz8jrxdc35ng"))))
+           (commit "cc0f6fd4dc6c1514519701427571fc13dc6010fa")))
+     (sha256 (base32 "02jd29wnmgy3kd8q9rn26j4axn6qaap99h7zlscg82i9lbpr3zwi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/consult")
@@ -42875,14 +42875,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260905.117")
+   (version "20260906.334")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "9417813e279f81d1ee1909f848b7c42f69d68d20")))
-     (sha256 (base32 "05m73j106xr7hk5j09y2h5cjaxv6pn68qcipbpvk4fm2vhn4v22r"))))
+           (commit "4799c8018835f2e1af3da89513d7904dcc7a56f8")))
+     (sha256 (base32 "16l6a87v6a0a6lxlyk66n6a738nghp0gasngkdpy9mvg9fdfngk0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -51888,14 +51888,14 @@
 (define-public emacs-inhibit-mouse
   (package
    (name "emacs-inhibit-mouse")
-   (version "20260826.246")
+   (version "20260906.245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/inhibit-mouse.el.git")
-           (commit "383919fdb0ab261deb4deb50e4652f1678df0e47")))
-     (sha256 (base32 "1fjk5w9jcl953cvzr8jj2j4p7pp6avkwcy7gzpaw02i0g80vakv5"))))
+           (commit "0fa6082b4da1de468a014f9fd1a46165dca5fc5f")))
+     (sha256 (base32 "0paj2mcrv18vw7hc2jpdw8dvh23zxk63jdsa3cr5jnp9m7kffd43"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/inhibit-mouse.el")
    (synopsis "Deactivate mouse input (alternative to disable-mouse)")
@@ -65056,14 +65056,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20260905.1851")
+   (version "20260906.953")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "2d985b50c7c34aee4fddea8742a8754b9c248790")))
-     (sha256 (base32 "0scc5achbcsnza24y2d73z2bxzli1s0f7kizyxpmqqzy8l0giv38"))))
+           (commit "0062d5168e4990a71925de5cdbd62bb5c13cd036")))
+     (sha256 (base32 "10f5b4yvzdngry00crjx4wnqwvnjiir8ksgsbc61q721pb2pnbls"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -81770,14 +81770,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260905.705")
+   (version "20260906.704")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "88db148db5e074e71040731a0734469722e89ef5")))
-     (sha256 (base32 "0fwrgc2l93by1yfccyc4avbrbswj8qbiyy8bjy0hcmmivk1gkand"))))
+           (commit "b5e1650d27ead47084605ca6ce5c8e1214c4a5d3")))
+     (sha256 (base32 "06z9w1mx0m36md4n06vq41qaqnhvm7203v1r2b6kngminija1kp3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
