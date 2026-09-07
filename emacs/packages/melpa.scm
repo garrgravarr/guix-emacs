@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260902.1551")
+   (version "20260907.1057")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "d027d8de2b74019ae83e36b1edcd0b968295ac31")))
-     (sha256 (base32 "0n1z7f2qrwj6fn0d2nggw1lj9i05448pzrd1j5iajgbknzs1c88r"))))
+           (commit "7eda18b6a67e303729fe19128f94882cec4889f1")))
+     (sha256 (base32 "179d1av3v82nq1isykk57x6nyhpblxpy1fslgnxckf69aqdsjcib"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -2776,14 +2776,14 @@
 (define-public emacs-anki-editor
   (package
    (name "emacs-anki-editor")
-   (version "20260714.1156")
+   (version "20260907.1045")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/anki-editor/anki-editor.git")
-           (commit "4a55c3f937b176d31e36d484c196682cae9f9104")))
-     (sha256 (base32 "02q4qh3hliah8h4648vbn13mw5xspps54kwp1k9gvxmnmz8ch85f"))))
+           (commit "defeab61dfff355622779448add1dfe01c13ddaf")))
+     (sha256 (base32 "0a4q3kgf9zxmnni72dwqksc09hmkjkkm0z9xzzrzx9p7vrxpg0ff"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/anki-editor/anki-editor")
    (synopsis "Minor mode for making Anki cards with Org")
@@ -17769,14 +17769,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260827.1748")
+   (version "20260906.1257")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "fa96d96714b391cbe85a1c956520985eae3cc18a")))
-     (sha256 (base32 "0k937pmxz8n3sa8skz03nvpsa953snniskk3v24d23l2ijx31ymh"))))
+           (commit "84448c69c312d633d5515bbc6fb429d95f256f37")))
+     (sha256 (base32 "0fpi9pnw4a0gw6mdb0f8dnm6b1qm8z28zayaws5wp2f9xv5bb6nv"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -61637,7 +61637,7 @@
 (define-public emacs-magent
   (package
    (name "emacs-magent")
-   (version "20260907.524")
+   (version "20260907.1123")
    (source
     (origin
      (method git-fetch)
@@ -61712,14 +61712,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260901.1810")
+   (version "20260907.1411")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "659f89955cf60fe3d4326d881c412df06c69680d")))
-     (sha256 (base32 "09h6q0y1q4gw1g7zckr0liizpp1hrabdslwwf2dildaikcsrdp5a"))))
+           (commit "9cb07d820d2b9ebbe9940e4d493293522d4e21d2")))
+     (sha256 (base32 "1w8phzqxj64cwxr679pav3xyy0gc1kaj23xxvbapkwdqllm3y739"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63263,6 +63263,24 @@
    (home-page "https://codeberg.org/martianh/mastodon.el")
    (synopsis "Client for fediverse services using the Mastodon API")
    (description "Documentation at https://melpa.org/#/mastodon")
+   (license #f)))
+
+(define-public emacs-material-icons
+  (package
+   (name "emacs-material-icons")
+   (version "20260907.853")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/zHaOdANiuu/material-icons.el.git")
+           (commit "bce68b2a83698d59ebc5292024cbbd58623d3891")))
+     (sha256 (base32 "12s1dfjycar0g6vivnx183g3g68r0nkndzqz8dyar6ij87lz01fk"))))
+   (build-system melpa-build-system)
+   (arguments '(#:files (:defaults "icons.tar.gz")))
+   (home-page "https://github.com/zHaOdANiuu/material-icons.el")
+   (synopsis "Material Icon Theme integration")
+   (description "Documentation at https://melpa.org/#/material-icons")
    (license #f)))
 
 (define-public emacs-material-theme
@@ -68955,6 +68973,25 @@
    (home-page "https://github.com/jwiegley/nix-update-el")
    (synopsis "Update \"fetch\" blocks in .nix expressions")
    (description "Documentation at https://melpa.org/#/nix-update")
+   (license #f)))
+
+(define-public emacs-nix3
+  (package
+   (name "emacs-nix3")
+   (version "20260907.849")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/emacs-twist/nix3.el.git")
+           (commit "ffd3be0803e9238ceaca31338e194d34099042de")))
+     (sha256 (base32 "1qj76ayqfk9sl57wl8w57d5mgv0ga79n6bzf7lckvva28f7fdbnw"))))
+   (build-system melpa-build-system)
+   (propagated-inputs
+    (list emacs-promise emacs-compat emacs-magit-section emacs-s))
+   (home-page "https://github.com/emacs-twist/nix3.el")
+   (synopsis "Frontend to experimental commands of Nix")
+   (description "Documentation at https://melpa.org/#/nix3")
    (license #f)))
 
 (define-public emacs-nixfmt
@@ -75788,14 +75825,14 @@
 (define-public emacs-org-repeat-by-cron
   (package
    (name "emacs-org-repeat-by-cron")
-   (version "20260817.1415")
+   (version "20260907.1508")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/TomoeMami/org-repeat-by-cron.el.git")
-           (commit "5f4588f690c60f47f9488c4a88a2a5f49e6111c6")))
-     (sha256 (base32 "11g9fav6s0sascpbz06brm8ndklvibv313s467vssjw8yfpm2043"))))
+           (commit "962f80e39a0b2a9f4c635cefc47212ab9b7bb7f9")))
+     (sha256 (base32 "0ww2d3apxn89vnhwl6j2mz0gjnp75ha9fppznff4blyd78zzj9f3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/TomoeMami/org-repeat-by-cron.el")
    (synopsis "An Org mode task repeater based on Cron expressions")
@@ -81840,14 +81877,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20260906.2023")
+   (version "20260907.1612")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "043dd368f0f58de8a183398bbd24468361a657d5")))
-     (sha256 (base32 "1f012nf6ffr38r4midlgmw4i67fnvnchbvxhnqzl8dsg9v0nq9xq"))))
+           (commit "3c13bb0f03a602226ab638c1bf096e32304e0a26")))
+     (sha256 (base32 "0qldzjxx8cydrfnrijvsyjy4lv0d18543lx48bqvkyf0jm16m2j4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -82019,14 +82056,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260906.1440")
+   (version "20260907.1509")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "dbf9a0b28f6552f7427bad4e4be58c2a725b889f")))
-     (sha256 (base32 "06l2lfyrqn7las520mhv1njvf3djkcfc2v5sbhi4g4psyqz7f80k"))))
+           (commit "f90625bfaf74a90e06b62d03f23190cb4b1af665")))
+     (sha256 (base32 "16p92zg1nbfjr7shj52030qg2r4hmmh3dsbzwyyyapxca45qnh7s"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -101375,14 +101412,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260831.513")
+   (version "20260907.807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "3de249c884d36c370efddae76ba131063888fb0f")))
-     (sha256 (base32 "1lcy7khc0vhkpkmjw58llk9icxmm0xzgx56s1yhc5lpjn86qfncs"))))
+           (commit "e258e266de77405c0e932c3dcdf83e059cac16dd")))
+     (sha256 (base32 "06lxa8dfnba93whlsiq0vy25mb2lr6v1nj6cwh9jbdfhv4a1ny6j"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -104968,14 +105005,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260825.819")
+   (version "20260907.1654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "7760962c0c2fd81fa9b001c343dd1a540dc68329")))
-     (sha256 (base32 "0fxpna0p2yj2nm9n1syrws65brf0g2cf0m7cv5l9c8pxbyymk01g"))))
+           (commit "de69977255b9074d5d01eb291eb0bfd92575fea2")))
+     (sha256 (base32 "0qjr9nvll95442biwk6k3drnvzkq9b59d4q5pkksj1g8frpvjkg7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
