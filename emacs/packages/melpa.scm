@@ -33765,14 +33765,14 @@
 (define-public emacs-fj
   (package
    (name "emacs-fj")
-   (version "20260509.741")
+   (version "20260908.626")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fj.el.git")
-           (commit "4832dcfcd167d1975bb44a024881c75fef64182e")))
-     (sha256 (base32 "09ff20am16ysjpbqx7b92qgmvyar9b6blm32flkvzqxccqqinxya"))))
+           (commit "665af2b3d0019b9bcb2297cc1f3aff81a62cea6f")))
+     (sha256 (base32 "1m310ywm8yafcj2x0mclgm899hja1rq7awj9pdmc3zh8adj5vklc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fedi emacs-tp emacs-magit))
    (home-page "https://codeberg.org/martianh/fj.el")
@@ -39196,14 +39196,14 @@
 (define-public emacs-fzf-native
   (package
    (name "emacs-fzf-native")
-   (version "20260908.226")
+   (version "20260908.752")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dangduc/fzf-native.git")
-           (commit "b21edb6d2dbc38e3ca61f19cb2fac3c10a8c5eb2")))
-     (sha256 (base32 "0nwwn7s4ldh70aafq0cd6c9i4q2jcsfpd0f44mm4f2fs07ikmb0r"))))
+           (commit "4b9236e8cd1e9f9f3aaf5f2ebf83f1fc5995d38d")))
+     (sha256 (base32 "0sna07mmgh1za89g199483p61rnmzi5g81awa2wmk4x0px9lqwq0"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -42984,17 +42984,17 @@
 (define-public emacs-gptel-agent-harness
   (package
    (name "emacs-gptel-agent-harness")
-   (version "20260827.132")
+   (version "20260908.728")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/gptel-agent-harness.git")
-           (commit "c2ce62d30d38999babb1b6af721a0fc003361ccc")))
-     (sha256 (base32 "15n3yzm67livljwcfw2v6xlc8bl5hpxv2l68mrbswki1a3gilbyj"))))
+           (commit "9720fe92babcc655dc0d072729ea41c90dd3fb1a")))
+     (sha256 (base32 "1cgyq2i3k39nw2bfhhz0xarqlj43pin3i28sabr010h5xpdl81fd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-gptel emacs-gptel-agent))
-   (arguments '(#:files (:defaults "agents" "prompts" "rules")))
+   (arguments '(#:files (:defaults "agents" "prompts")))
    (home-page "https://github.com/beacoder/gptel-agent-harness")
    (synopsis "Autonomous coding-agent harness for gptel-agent")
    (description "Documentation at https://melpa.org/#/gptel-agent-harness")
@@ -61675,14 +61675,14 @@
 (define-public emacs-magic-latex-buffer
   (package
    (name "emacs-magic-latex-buffer")
-   (version "20210306.422")
+   (version "20260908.843")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zk-phi/magic-latex-buffer.git")
-           (commit "903ec91872760e47c0e5715795f8465173615098")))
-     (sha256 (base32 "0n2f3y6b6n8ipvk99ai1hwqddkwg5y97ks068wvp4rr4fspxkm9k"))))
+           (commit "31eb152b61b33a4017dd254a560be67e4b5ddd3c")))
+     (sha256 (base32 "13h06nva61d1pr3inw1dm7z1ys7162f9ydagc92jd3cv4qpq2c1z"))))
    (build-system melpa-build-system)
    (home-page "http://zk-phi.github.io/")
    (synopsis
@@ -64420,7 +64420,7 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260907.2247")
+   (version "20260907.2350")
    (source
     (origin
      (method git-fetch)
@@ -71892,14 +71892,14 @@
 (define-public emacs-occult
   (package
    (name "emacs-occult")
-   (version "20260421.1414")
+   (version "20260908.327")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/occult.el.git")
-           (commit "74006325af1d96af3f26dc2dbf02baccc03d83f1")))
-     (sha256 (base32 "02arn9y3i5agp4bg89rs57njqd1cvis2vvnh4l7386v319rcz2v1"))))
+           (commit "9d12eed668acf7decaae6dd19a3f2fecaa1d3c68")))
+     (sha256 (base32 "0f0zbcjx7fsm8l710z6xqzyjaqnfr6z1mxcf3bszwa8b6lamw9sh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/agzam/occult.el")
    (synopsis "Collapse and reveal buffer regions")
@@ -83605,14 +83605,14 @@
 (define-public emacs-posframe
   (package
    (name "emacs-posframe")
-   (version "20260829.203")
+   (version "20260908.156")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tumashu/posframe.git")
-           (commit "6f89c0acd29306cb2cd023418d18134cfc507800")))
-     (sha256 (base32 "1xbfpmjcw2csw6d65h5k3i4kjdzmqrnc3wh1vi8rqvkqanyckxhj"))))
+           (commit "435055dd6894fd4e8b21b355d40c0b289211b714")))
+     (sha256 (base32 "0cj6b8pk1ksnh959rzagd75wmxrms5cx4mppwrfs6n2n9k5g7whv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tumashu/posframe")
    (synopsis "Pop a posframe (just a frame) at point")
