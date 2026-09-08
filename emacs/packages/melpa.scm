@@ -1881,14 +1881,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20260829.1530")
+   (version "20260908.1446")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "7c9422a464bfd0e41da0ad630f5784885cd6cc1f")))
-     (sha256 (base32 "0bak30n8jnxwcqynng48gzm91qh7c6rcvkzvdnqsvz5fsz9v2x27"))))
+           (commit "b9a2512e54d8366a0b0472c418d1d2610c98c3ae")))
+     (sha256 (base32 "0d800ggmx7z3xnarmjfhkfsv3w71s1n0rvsrgmxk8n86ns80npkv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -3264,14 +3264,14 @@
 (define-public emacs-api-credit
   (package
    (name "emacs-api-credit")
-   (version "20260907.505")
+   (version "20260908.1434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/api-credit.git")
-           (commit "2d3f36975f122518219ee350de9423b84a07c213")))
-     (sha256 (base32 "096grkh7jvgzn5fq6akgwzrqs9rp72wa0jr05fqknryw4i7fsa75"))))
+           (commit "2ac9925d2d2f1fcdd42ace6980efdb8ea220b4d5")))
+     (sha256 (base32 "06nl9fbbmavf2cyzp1hc50ji8rfsgmnpi53mimwkzsp5yxpnvl4c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/api-credit")
    (synopsis "AI API balance in the modeline")
@@ -24065,14 +24065,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260903.1938")
+   (version "20260908.1531")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "bca35bef87872965d884389b76cd3ad855f0e829")))
-     (sha256 (base32 "0vgs0plsn9xwvfhwy7i16mip5zsvrr9ka9zljm5kg7wn9svhsqbk"))))
+           (commit "836e7e09d64362568ade71c6590f8ae772306c50")))
+     (sha256 (base32 "163rj6zfah4vifia05lkdzqnnbfpwxgkpyl0fgn2k8q3q0qygwcz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -25671,14 +25671,14 @@
 (define-public emacs-eldoc-mouse
   (package
    (name "emacs-eldoc-mouse")
-   (version "20260825.1036")
+   (version "20260908.932")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/huangfeiyu/eldoc-mouse.git")
-           (commit "0bcefa8d1bc33f251ea10b138fc4e5dbfedb92ed")))
-     (sha256 (base32 "0dhvr7z6s1k1lsvfqnpbivirvr4ydrn8a5xrw4b3h7y60xvqwbsw"))))
+           (commit "582ad79432959dc437bfa084c887178df608c62e")))
+     (sha256 (base32 "05qj9p9gkzbfgzzngj5c12vnyfmhajywlf9k4miz45jb3cx8j6ys"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/huangfeiyu/eldoc-mouse")
@@ -33765,14 +33765,14 @@
 (define-public emacs-fj
   (package
    (name "emacs-fj")
-   (version "20260908.626")
+   (version "20260908.1835")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fj.el.git")
-           (commit "665af2b3d0019b9bcb2297cc1f3aff81a62cea6f")))
-     (sha256 (base32 "1m310ywm8yafcj2x0mclgm899hja1rq7awj9pdmc3zh8adj5vklc"))))
+           (commit "6b86044174c55820149fb256d12f55ac81ea6805")))
+     (sha256 (base32 "0ssp9s66ilb4h5as5wxsypy7xy3gn3qfi5n6bvh3sq6cnj1lp9cg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fedi emacs-tp emacs-magit))
    (home-page "https://codeberg.org/martianh/fj.el")
@@ -39196,7 +39196,7 @@
 (define-public emacs-fzf-native
   (package
    (name "emacs-fzf-native")
-   (version "20260908.752")
+   (version "20260908.1042")
    (source
     (origin
      (method git-fetch)
@@ -39216,14 +39216,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260905.242")
+   (version "20260908.1021")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "a4d23f49d2892edd643b7aa87f4386eccdb36a09")))
-     (sha256 (base32 "10m8vgjxwsjh1vablisknbhw9jxq270440mnk2j21f6spbpwq2q4"))))
+           (commit "8d4fd2cf7e58d8055bbcccbeb54c31978f9413bf")))
+     (sha256 (base32 "12a4khdqwgzybf9i1ywl3d5qncfdi4xlapwpc9qvdrcflycv00mh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -42984,7 +42984,7 @@
 (define-public emacs-gptel-agent-harness
   (package
    (name "emacs-gptel-agent-harness")
-   (version "20260908.728")
+   (version "20260908.956")
    (source
     (origin
      (method git-fetch)
@@ -77547,14 +77547,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260825.836")
+   (version "20260908.1426")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "a4348971a8f0645d41ebe143e4de808c0eaeaa03")))
-     (sha256 (base32 "15s60m8n15d2rywxab5ky7hgxjsh3kcp2m9rjp5248gnbqi8hidc"))))
+           (commit "eb5cb1a1396fc9c09f5ad0bb1430075c2a031de3")))
+     (sha256 (base32 "07bak7afsgp5w3jifpjc9d6aidmgppnfbfm20xx3b94p71j2hbza"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -94630,14 +94630,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260904.320")
+   (version "20260908.1828")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "990ad02bd5b9830245e4df6bcdbfe96ce05d1c5f")))
-     (sha256 (base32 "0qvl526dlw8fzr3mbq87yrq2dvhjjdsg0lhri26ml2qzihavzy8g"))))
+           (commit "1a1e0e3a5e5600138d9205291e2d9befdb269bea")))
+     (sha256 (base32 "03c114qqviyagiirzbiwmwn8qvj08a1iqdsqk5agklrzfyw4fs1m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -107409,14 +107409,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260826.942")
+   (version "20260908.1415")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "db0f08fe836067296d494ca90e5888930832cb06")))
-     (sha256 (base32 "055hpkmld5lb7kad7778mlg98z3hhfaa42yrgyrv26rkbsqbyn1p"))))
+           (commit "6e8b664f091134cf01b92dee214de642ae9a46a1")))
+     (sha256 (base32 "181n7gjwqd389d1lp7jkgqljpml6m1mjmr77pb9vd71xiil2di2q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -107445,14 +107445,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260902.1014")
+   (version "20260908.1357")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "919f0655e796892d23cc16003d5fadc9c66db3ed")))
-     (sha256 (base32 "1z2ll9xwhfagif4f99z6dsjp3fa9r2z7gi0lmjmh9wpk1k6acrfx"))))
+           (commit "2cf209817c601c77f53302f20773235f9c8f680a")))
+     (sha256 (base32 "0j33zvbcw0yrs3l30cj5whqk3nrh8y7kbwm63dc1mf9q042g1dvn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
