@@ -17504,14 +17504,14 @@
 (define-public emacs-ct
   (package
    (name "emacs-ct")
-   (version "20260904.1923")
+   (version "20260908.1343")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/neeasade/ct.el.git")
-           (commit "ffa4dc1789a404e92941b7721009b1facad49ac3")))
-     (sha256 (base32 "13jxmpvmcjds73dd4j73cmcjwdbvx4rama20bn1hwfr78d6zkas3"))))
+           (commit "6c74ed036abf6c5d6caf2cae249d2f1832a25471")))
+     (sha256 (base32 "0yqvn9q6cpzgsmg13liw34625hbmv71j215sf4zhmlrzr8844al9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-hsluv))
    (home-page "https://github.com/neeasade/ct.el")
@@ -65144,14 +65144,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20260907.1938")
+   (version "20260908.2238")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "dcba7b0506f36ba0edeb358a3cf63ca7951f3434")))
-     (sha256 (base32 "0v900k8i33fyrcd5kl9by7azv7zmb80p68r3wbq5qr1arlywk43d"))))
+           (commit "87211c9752fa4c40b92d5ca5a816a2f9cfeec59b")))
+     (sha256 (base32 "1ydmklxpaznp2kkc9cvlrr2mxs8bg04gfs197aw265i9vpss68mc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -82056,14 +82056,14 @@
 (define-public emacs-pinyin-isearch
   (package
    (name "emacs-pinyin-isearch")
-   (version "20260907.1509")
+   (version "20260908.1917")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/pinyin-isearch.git")
-           (commit "f90625bfaf74a90e06b62d03f23190cb4b1af665")))
-     (sha256 (base32 "16p92zg1nbfjr7shj52030qg2r4hmmh3dsbzwyyyapxca45qnh7s"))))
+           (commit "d0654d137f68577449206ea99c53220f7c161c48")))
+     (sha256 (base32 "1gk8r6xx5l0hiapcr9vd3s9mix60c72m9cg6p7ydpsy3wn60hsiv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/pinyin-isearch")
    (synopsis "Pinyin mode for isearch")
@@ -99896,14 +99896,14 @@
 (define-public emacs-tabspaces
   (package
    (name "emacs-tabspaces")
-   (version "20260804.2140")
+   (version "20260908.2027")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/mclear-tools/tabspaces.git")
-           (commit "ef19a5dc4147f6e69442bd2e64c00672438ebe04")))
-     (sha256 (base32 "0clc1fy26dd2qm8rwsv0k1ln8rxz07lvkb2l5h7d03kaygmn8b4i"))))
+           (commit "2bfb7361b8d82f660eca8bd2e131b5ca53d56916")))
+     (sha256 (base32 "0ds6rlfdw7xhn9d2qwah3h9pl29z5skxcxlw4b6rcb5fvk43gpx8"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/mclear-tools/tabspaces")
    (synopsis "Leverage tab-bar and project for buffer-isolated workspaces")
@@ -107409,7 +107409,7 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260908.1415")
+   (version "20260908.1504")
    (source
     (origin
      (method git-fetch)
