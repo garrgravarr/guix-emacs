@@ -1681,14 +1681,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20260903.1149")
+   (version "20260909.1534")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "d35fb02d2a10cad7fee5fe101f7ca3f4396919fe")))
-     (sha256 (base32 "1m0kanb5z5p6acnrc2m8rs1pahpr52an7pp4437r932mvsf6k09d"))))
+           (commit "b65d2544d89ce9ab8f953cb4e545a453ea9eac92")))
+     (sha256 (base32 "1fcvwc3hd5x56nig8yhi74y4xydv62kqgiirxpj2xv55756f2xly"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -3264,14 +3264,14 @@
 (define-public emacs-api-credit
   (package
    (name "emacs-api-credit")
-   (version "20260908.1434")
+   (version "20260909.1530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/api-credit.git")
-           (commit "2ac9925d2d2f1fcdd42ace6980efdb8ea220b4d5")))
-     (sha256 (base32 "06nl9fbbmavf2cyzp1hc50ji8rfsgmnpi53mimwkzsp5yxpnvl4c"))))
+           (commit "f865e03874ba7b06eb29bf62f5b67f305fc61e4c")))
+     (sha256 (base32 "1ik7yw1nx6mldkdr6gprsal424p27r8hwqcnxvn6hjphqziyw3lj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/api-credit")
    (synopsis "AI API balance in the modeline")
@@ -24065,14 +24065,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260908.1531")
+   (version "20260909.1305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "836e7e09d64362568ade71c6590f8ae772306c50")))
-     (sha256 (base32 "163rj6zfah4vifia05lkdzqnnbfpwxgkpyl0fgn2k8q3q0qygwcz"))))
+           (commit "41fa04593f8840230ed9f3052920387f31c5c65a")))
+     (sha256 (base32 "03mg61v7dp680krgbwp6fqyp099g6cva19dv03qvy0ij12k4bb6m"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -33765,14 +33765,14 @@
 (define-public emacs-fj
   (package
    (name "emacs-fj")
-   (version "20260908.1835")
+   (version "20260909.1243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fj.el.git")
-           (commit "6b86044174c55820149fb256d12f55ac81ea6805")))
-     (sha256 (base32 "0ssp9s66ilb4h5as5wxsypy7xy3gn3qfi5n6bvh3sq6cnj1lp9cg"))))
+           (commit "98bc65cd29d4adf96f0c922e69885506103cf475")))
+     (sha256 (base32 "0dgssvgrp0c3jg854lzyr10fn70qc2c8yqs1nkzj2n538rp2jqrk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fedi emacs-tp emacs-magit))
    (home-page "https://codeberg.org/martianh/fj.el")
@@ -72794,14 +72794,14 @@
 (define-public emacs-orderless
   (package
    (name "emacs-orderless")
-   (version "20260830.1156")
+   (version "20260909.1506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/oantolin/orderless.git")
-           (commit "51f677f464424ce3c46e3deacb7709784795a03b")))
-     (sha256 (base32 "11li0pnxhyhar7hmdygqivh3833bp1fcqz8p1g4fdkbk2dmd6h21"))))
+           (commit "5806e3f9401606d16962cffae68188c92deb1272")))
+     (sha256 (base32 "1bnlafm67xlkiw9dv17w546zrafy2gnk7bh54nhnkvb1hw0dgsph"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/oantolin/orderless")
@@ -77329,14 +77329,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20260906.2318")
+   (version "20260909.1435")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "2426439da283997f66d8c93ca845ab25fd00999d")))
-     (sha256 (base32 "08a7f7v6m75ac8a9jybdyi5hic9y6gl6hynr4gvfyq68lhh98y2l"))))
+           (commit "b0fe9c9e1486ba5b1446224050cfc600692e1dfb")))
+     (sha256 (base32 "1b4f90anp54a50hl8pll2ncb04ividzykv57idwm4x19hz2mx47q"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -87202,14 +87202,14 @@
 (define-public emacs-racket-mode
   (package
    (name "emacs-racket-mode")
-   (version "20260726.2002")
+   (version "20260829.1650")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/greghendershott/racket-mode.git")
-           (commit "f92a33dcc3b604f53ef23a538e26e1f25c4fea47")))
-     (sha256 (base32 "1iirdbqv1hlv33k0z2wmkjm9pg85z8bsi7wswsb1lsvi2vqlsdjc"))))
+           (commit "747b922221991c9eaff37976de325a6d7e571dd9")))
+     (sha256 (base32 "15blvi17s435x2l5ajzb4yrxir92mhb46gwhny4k8z3n7w31xj4z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
