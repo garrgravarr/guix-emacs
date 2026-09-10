@@ -1419,14 +1419,14 @@
 (define-public emacs-ado-mode
   (package
    (name "emacs-ado-mode")
-   (version "20260210.1431")
+   (version "20260909.1524")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/louabill/ado-mode.git")
-           (commit "371441d27027fd4783a8c828458a5af098babca4")))
-     (sha256 (base32 "09f8glzsln16kyhk4jiixhg2jcslxs989kq09pmhvxi4z1cvvchw"))))
+           (commit "927df1cd62c5e21c287ddbe815f246b19e24920c")))
+     (sha256 (base32 "16zlll0l5pcxib6b60yb02s5xj39hpp1amvnn891cxgh8dk8lvs0"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "scripts" "templates")))
    (home-page "https://github.com/louabill/ado-mode")
@@ -14906,14 +14906,14 @@
 (define-public emacs-compiler-explorer
   (package
    (name "emacs-compiler-explorer")
-   (version "20260325.2318")
+   (version "20260908.2247")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mkcms/compiler-explorer.el.git")
-           (commit "e26a4dac90ca2ceed26b77470bdbea097e877aa4")))
-     (sha256 (base32 "0dlqrv39d99x53mwsdq3rlldz15qdp1ifc99bppiw5kkbp8p4v5w"))))
+           (commit "7e4195a5ef2604f8f97392e62029e9e79c36d3bf")))
+     (sha256 (base32 "1yh9mahwv8b6vam4h4wkhx6xj1zrfm80rxinnxman9zrfr2x8gnk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz))
    (home-page "https://github.com/mkcms/compiler-explorer.el")
@@ -49987,14 +49987,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260831.337")
+   (version "20260909.2232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "5670b645ce1a5b46656b1401c4db83e787ea9513")))
-     (sha256 (base32 "1h6qgks078ynxzfcyfag7nrdj812gdlbmgw6dknq2vracvpaq2fw"))))
+           (commit "ea68374c34dd4af000b9502d65cf55d5cbc530cd")))
+     (sha256 (base32 "04zacx4mqm88ici8l9b0zlkzs47qzjz2d4smfsv4zirfl8x6779f"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -57914,14 +57914,14 @@
 (define-public emacs-latex-to-svg-backend
   (package
    (name "emacs-latex-to-svg-backend")
-   (version "20260901.1412")
+   (version "20260909.1530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg-backend.git")
-           (commit "8fed2fc99568fb36a86d6fff978aa33ea8eeb800")))
-     (sha256 (base32 "0ynpvylz755hya1r6rf93y3g9qzkx5d7apjx1qhqrqxzw5p7a4jl"))))
+           (commit "bb2cf7343bb193f863584a3cc4db688ad4cff6db")))
+     (sha256 (base32 "0lfwx49fc5dlbrzkg2f9yaycdwzgg545zw6041pia595cq6g99x7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alberti42/latex-to-svg-backend")
    (synopsis "LaTeX-to-SVG rendering engine with caching")
@@ -94551,14 +94551,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260901.1147")
+   (version "20260909.2247")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "a7c971ef6f92ec1b9dca164512cd276a95cdfaa5")))
-     (sha256 (base32 "0bq8m6v2xn5al0bbmwl08svi7yc7d98ammgj3vgxbkq9m8nfrisx"))))
+           (commit "b66f63b76f6aa0db833262c55beb951cdcbf82b2")))
+     (sha256 (base32 "0dff0rk8q4280lzlkbskrcrvxw82jdxp53cdzs55sfbw9r5hkn5p"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
