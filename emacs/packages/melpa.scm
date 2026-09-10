@@ -3822,14 +3822,14 @@
 (define-public emacs-ast-grep
   (package
    (name "emacs-ast-grep")
-   (version "20260702.238")
+   (version "20260910.855")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SunskyXH/ast-grep.el.git")
-           (commit "28bc6e9ac21acf1d1ef58b962b6acd670c27e80f")))
-     (sha256 (base32 "1li2aj2aaicpc291igzkfsvjdr85nnd27kc976389zn0ngqngyd4"))))
+           (commit "0f3e68622f5a83165bf017fe43d8050344cbb411")))
+     (sha256 (base32 "19665xigcqzpjz4m1b6kzvfd9vdiic66fmpqr7lq5fzrqalp0rxg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sunskyxh/ast-grep.el")
    (synopsis "Search code using ast-grep with completing-read interface")
@@ -25671,14 +25671,14 @@
 (define-public emacs-eldoc-mouse
   (package
    (name "emacs-eldoc-mouse")
-   (version "20260908.932")
+   (version "20260910.859")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/huangfeiyu/eldoc-mouse.git")
-           (commit "582ad79432959dc437bfa084c887178df608c62e")))
-     (sha256 (base32 "05qj9p9gkzbfgzzngj5c12vnyfmhajywlf9k4miz45jb3cx8j6ys"))))
+           (commit "0c2285ba8f974ee3a295a6626f989e2b7c8a184e")))
+     (sha256 (base32 "0c0q4xzfc20w6p7917nwvqw3iz66scph5qi33jq6lv2gidl6f0v6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (home-page "https://github.com/huangfeiyu/eldoc-mouse")
@@ -74736,17 +74736,17 @@
 (define-public emacs-org-link-beautify
   (package
    (name "emacs-org-link-beautify")
-   (version "20260901.235")
+   (version "20260910.239")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/org-link-beautify-"
-           version
-           ".tar"))
-     (sha256 (base32 "1vwkrwbibhf4nzzv2gw4mi1y0v995ybj0hxmh1zhnqqrw2k4sxsz"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://repo.or.cz/org-link-beautify.git")
+           (commit "6885b67af6bd66ce307dbe3127edb4d78bea192b")))
+     (sha256 (base32 "17b4c2w6s39y9566cjh9n0ch786dsabpb6xxa4ks817pf2nhfx7c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-qrencode))
+   (arguments '(#:files (:defaults "scripts")))
    (home-page "https://repo.or.cz/org-link-beautify.git")
    (synopsis "Beautify Org Links")
    (description "Documentation at https://melpa.org/#/org-link-beautify")
@@ -93133,14 +93133,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260820.1245")
+   (version "20260910.119")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "ab4f8ebaf4ef7a7db4762c5d5075baea580044ba")))
-     (sha256 (base32 "11riixlxsvrkba0phiji4wjw7d1ggg500am0s9fcszgviwcrlg9r"))))
+           (commit "f448a74a8eded23aa42f8d60a41c5d8d3a183d07")))
+     (sha256 (base32 "0k2bkha7v2fvzmilgk14z1dhj4gh9iixb5wmsaajz1xdw9hhwzf0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -96171,14 +96171,14 @@
 (define-public emacs-solarized-theme
   (package
    (name "emacs-solarized-theme")
-   (version "20260902.1017")
+   (version "20260910.602")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/solarized-emacs.git")
-           (commit "7ca8e84dc489e3dc2b806c0e2d43ab7dd293d6e3")))
-     (sha256 (base32 "05ri5ac8wc948b2plwpgxm66d0m5z1hr9yq79km9qxrl5hcpjdy5"))))
+           (commit "9df935bede27abcaa1b1ca9035ac17f39d2f64c9")))
+     (sha256 (base32 "0nwllicsa5vqvffy25bxnjmh0pdmm9mhyhzphvyp6lpgnsw7wisd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/solarized-emacs")
    (synopsis "The Solarized color theme")
@@ -101640,14 +101640,14 @@
 (define-public emacs-time-zones
   (package
    (name "emacs-time-zones")
-   (version "20260716.845")
+   (version "20260910.135")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/time-zones.git")
-           (commit "4cc37a54ba6447dc0570cd2e42052689d94f09ee")))
-     (sha256 (base32 "0xajsx2363sj6shqv8nwbvcr4z2sq6pa4j7rbncn79qlq8wr26l4"))))
+           (commit "dc6c438031f5c279bf1bbf39c053f22807460bbf")))
+     (sha256 (base32 "1l6yrihwmspkdxy8mqp2qnbhh8d0ahg23fxmpdrly8g5crfmy89q"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/time-zones")
    (synopsis "Time zone lookups")
