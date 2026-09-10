@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260908.226")
+   (version "20260910.1048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "cc24345e9db2a205f7b8821015f89be3de7dd1e4")))
-     (sha256 (base32 "1caikr6qka9yb9pnvzwd9lxh1a4vm3m7447qyhpkk57y9zka9s7v"))))
+           (commit "82364bc1ff94a8f15210f74a336b7ecc85c076d8")))
+     (sha256 (base32 "0rv79himpnnizmjzvp1n0wwnh0qgyvznp5qp5xa5nlasms1z4xk1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -8523,14 +8523,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20260826.245")
+   (version "20260910.1344")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "6b6b648127c3d3ac4b7e6ce0a701ddbb8325151c")))
-     (sha256 (base32 "1zk8csdnp893hxzyryzd6vsm12lki3ml941wx7vhdg4iy6m321wz"))))
+           (commit "8e1c3b2c73c4acdd9326e8d9f38e38a9fd58ef0b")))
+     (sha256 (base32 "003x1i3699p916g8psz50q1mlq0nngm6ns9qpr6ik09jjanrg1ds"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -11051,14 +11051,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260903.952")
+   (version "20260910.1543")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "d0dbbcc5f103424ff7bae97933bcb140d1703823")))
-     (sha256 (base32 "04q8rz4hmvp0n8v797km8ydy7gr57mqgg3q7l9zd2r76z2k7nfmq"))))
+           (commit "c51d827861e392379baa7286fd5eff31b920efeb")))
+     (sha256 (base32 "04am31dm4xjqabw0qnvayzmyshwfnhanqkwwhn7rpj096bxhgzrf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -15206,14 +15206,14 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260906.2048")
+   (version "20260910.1121")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult.git")
-           (commit "4587c6ef80f042d1ae8af2cf6c5a20544865b294")))
-     (sha256 (base32 "10g2g53v03bbmsspqch5112aismwwnkc7v6wfxdkpy56ixwpljia"))))
+           (commit "f10cf28d3df1e43a8069f5a507c82654834c8b09")))
+     (sha256 (base32 "199fp8wpg2a1n3fjycn01a8wxz0aywk330rrz4bfhxhinvq4h65z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/consult")
@@ -17504,14 +17504,14 @@
 (define-public emacs-ct
   (package
    (name "emacs-ct")
-   (version "20260908.1343")
+   (version "20260910.1219")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/neeasade/ct.el.git")
-           (commit "6c74ed036abf6c5d6caf2cae249d2f1832a25471")))
-     (sha256 (base32 "0yqvn9q6cpzgsmg13liw34625hbmv71j215sf4zhmlrzr8844al9"))))
+           (commit "c6036ca586cfb13b3bd83cfed0640e875dfe62cf")))
+     (sha256 (base32 "10b56z67x1s8rajwg7mla0jwl6iygxakg3vxbnvgldaja4w1dznn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-hsluv))
    (home-page "https://github.com/neeasade/ct.el")
@@ -17769,14 +17769,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260909.620")
+   (version "20260910.1444")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "59d9bd8783238817df3f34583b5ae3d9600768e4")))
-     (sha256 (base32 "1qqik0qjljx356nada1xgi1s5vw79665n5sqvgvrvjj7xi9lyhrq"))))
+           (commit "0fdee4a5a28cf8dcebfbf336c7a3df890899979b")))
+     (sha256 (base32 "0drv4jzzh7ljzj1glbrvc4vsyfvj2c6v966p3gjgxw954d6wza9f"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -42984,14 +42984,14 @@
 (define-public emacs-gptel-agent-harness
   (package
    (name "emacs-gptel-agent-harness")
-   (version "20260909.136")
+   (version "20260910.1400")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/gptel-agent-harness.git")
-           (commit "a28434754a8bcf6b4a3f11b9c98f010f9ad0ab0c")))
-     (sha256 (base32 "1ylz84wsprqzh72q4h26ssj5n0xrqc9sbr4v53m602b1858c5idh"))))
+           (commit "6abadc72125262cf65a455f30e5d3adf7ad63967")))
+     (sha256 (base32 "0hlya7cmnw1d9z1ww2glgcm73464isxgbrkk4mfx117cq1cwc1l6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-gptel emacs-gptel-agent))
    (arguments '(#:files (:defaults "agents" "prompts")))
@@ -57397,14 +57397,14 @@
 (define-public emacs-kusanagi-theme
   (package
    (name "emacs-kusanagi-theme")
-   (version "20260629.307")
+   (version "20260910.1453")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LionyxML/kusanagi-theme.git")
-           (commit "2f8871b982bbdc453984c9c4dbdacbfe771dbcee")))
-     (sha256 (base32 "14krmqhjr40y1mkvcmmzswv9afhbbfphbsrq1s1ybygfpxkf80bk"))))
+           (commit "db50fec23553c5028c19463bfcf983036ed15552")))
+     (sha256 (base32 "06h0bw78gscsh0rxahfshlv5009q441n5vkl3646x8gl1v7g9f00"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LionyxML/kusanagi-theme")
    (synopsis "Ghost in the Shell inspired dark theme built on Modus")
@@ -65144,14 +65144,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20260908.2238")
+   (version "20260910.1153")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "87211c9752fa4c40b92d5ca5a816a2f9cfeec59b")))
-     (sha256 (base32 "1ydmklxpaznp2kkc9cvlrr2mxs8bg04gfs197aw265i9vpss68mc"))))
+           (commit "e878f82bb7512448f794bf9f7f79f08708a9bf2a")))
+     (sha256 (base32 "1rxkss2lx8412zbkvqm0qqzm8i2limhhnx6cckllgfna26hl7338"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -65441,14 +65441,14 @@
 (define-public emacs-modalka
   (package
    (name "emacs-modalka")
-   (version "20260802.936")
+   (version "20260910.1443")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrkkrp/modalka.git")
-           (commit "85d0901645982238341ba94b7c14439825dd95b5")))
-     (sha256 (base32 "0g1s2k22jzfb1namjpnz9ijbbi5rbdx5s0n09j5jr2flw8jixwvi"))))
+           (commit "9bc73786bbd038e97bae7e31d3341a01085a300e")))
+     (sha256 (base32 "1lf6i6c84gpw1vrlg48hmbg87cjqgrhcnachgpjpdbspxyyrk7z6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrkkrp/modalka")
    (synopsis "Modal editing your way")
@@ -65686,14 +65686,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260904.1349")
+   (version "20260910.1228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "bcf065b803439524ebe8b96f4584643562fee343")))
-     (sha256 (base32 "1id8f1yra4nr5ywy3qv9cg84lxicqzr1vwlb894kpdppdjpgbypi"))))
+           (commit "4fdacb698bf6d71c945c8d5ff8b356581439dff9")))
+     (sha256 (base32 "0rvva2w6lkzam1gcddpk81m7vircqc78xmc0310g0kk8s2k8xnnf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -85045,14 +85045,14 @@
 (define-public emacs-promptu
   (package
    (name "emacs-promptu")
-   (version "20260904.1920")
+   (version "20260910.1641")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/promptu.el.git")
-           (commit "3d1c6c70e84bfdb1633029f04354473f9d947929")))
-     (sha256 (base32 "0yylamk39a1gvmm0c84k9ml0q7vwmrabaq0sc1n3c28fr06zhns5"))))
+           (commit "79013d1b9cfe5cfe1a19bdb33ca4b9dfde4a2fa9")))
+     (sha256 (base32 "1qaqvcg3fvmg52rsd2nzzm1fx2scp7jvr31s3s3lg5wgjlj40vnj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/promptu.el")
    (synopsis "Compose LLM prompts from building blocks")
@@ -95947,14 +95947,14 @@
 (define-public emacs-snippy
   (package
    (name "emacs-snippy")
-   (version "20260727.1742")
+   (version "20260910.1328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MiniApollo/snippy.git")
-           (commit "62ae0641a2a7872b891122d7fbe1451df89cb907")))
-     (sha256 (base32 "1gnvq5lvw7fp3cz4siz81cid1p4zjlbz9168rirllhh74h0p3dxj"))))
+           (commit "2cacd95fb8d5f6c3c5ae69b2508248bfd92ba64b")))
+     (sha256 (base32 "1zsspaaks1rs2ss9s38xs7x9n46wxfa3z2yb5yfi47fijdrj74cd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-yasnippet))
    (home-page "https://github.com/MiniApollo/snippy")
