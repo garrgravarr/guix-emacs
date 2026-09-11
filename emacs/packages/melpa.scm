@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260910.1048")
+   (version "20260911.42")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "82364bc1ff94a8f15210f74a336b7ecc85c076d8")))
-     (sha256 (base32 "0rv79himpnnizmjzvp1n0wwnh0qgyvznp5qp5xa5nlasms1z4xk1"))))
+           (commit "9716a9e6cdaf72429fcab3f4eae6e076d966404e")))
+     (sha256 (base32 "1wjrc9fyimaazqf4qa4jxr95i6iix0irhf2bb29h6nr74xnm1sa4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -15206,7 +15206,7 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260910.1121")
+   (version "20260910.1909")
    (source
     (origin
      (method git-fetch)
@@ -30330,14 +30330,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260905.2034")
+   (version "20260910.2204")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "783c96b9901417cb8b6df63ab606387fa72dc922")))
-     (sha256 (base32 "1jkbjviv68lfvyam9qiv74g03aiajxq4hx9v0mzaqzshk56xs4ry"))))
+           (commit "1513aae3652101caf3227bcf7349e2e6fded3210")))
+     (sha256 (base32 "0p23yx3nwwl92zpqvnsdp41bj0xkbmmzgsdwb9l0s3cx9rv17d9s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -49987,14 +49987,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260909.2232")
+   (version "20260910.2208")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "ea68374c34dd4af000b9502d65cf55d5cbc530cd")))
-     (sha256 (base32 "04zacx4mqm88ici8l9b0zlkzs47qzjz2d4smfsv4zirfl8x6779f"))))
+           (commit "600afd51a23ba1928ca49f9b977d2c2648839f59")))
+     (sha256 (base32 "18kgjxkwx5aysnjcff0sxm5dcp8k48arja3hnbb76rzfmhrshaw2"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -74648,17 +74648,17 @@
 (define-public emacs-org-kanban
   (package
    (name "emacs-org-kanban")
-   (version "20250329.2201")
+   (version "20260910.2202")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gizmomogwai/org-kanban.git")
-           (commit "bc7864f2140d3ed510ec0ecd60c6d3d8b8589ea4")))
-     (sha256 (base32 "0sibmj1phzxa01awb0r32v2s1ysv2nph1zzgkhi3ai5gb47hfqaz"))))
+           (commit "331a5789f1a159449726c01d047cbad14090c0f7")))
+     (sha256 (base32 "1wig8cy8n0gv0cdacbabd607xqmi9qg2a55ibl832nscc1vfl94r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash))
-   (home-page "http://github.com/gizmomogwai/org-kanban")
+   (home-page "https://github.com/gizmomogwai/org-kanban")
    (synopsis "Kanban dynamic block for org-mode")
    (description "Documentation at https://melpa.org/#/org-kanban")
    (license #f)))
@@ -85045,14 +85045,14 @@
 (define-public emacs-promptu
   (package
    (name "emacs-promptu")
-   (version "20260910.1641")
+   (version "20260910.2252")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/promptu.el.git")
-           (commit "79013d1b9cfe5cfe1a19bdb33ca4b9dfde4a2fa9")))
-     (sha256 (base32 "1qaqvcg3fvmg52rsd2nzzm1fx2scp7jvr31s3s3lg5wgjlj40vnj"))))
+           (commit "2a69977071fa7345e186eb0a187abb8b0a38224f")))
+     (sha256 (base32 "0wdr7vrjkhm85bzkwin191k46kn74imnnq3bxrjql3dxnawh2w10"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/promptu.el")
    (synopsis "Compose LLM prompts from building blocks")
@@ -94628,14 +94628,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260909.239")
+   (version "20260911.53")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "a93bb5e00235b72ce086faca13b33955f44b416e")))
-     (sha256 (base32 "039x5da4lb8bmws2gh7m4f2358cmz7a0jygbg6kv0si44ngqajdf"))))
+           (commit "b7c25d3cf9d29f9babd0431de00e44ad744a81fd")))
+     (sha256 (base32 "0xnq8hzab24w2n6nzf0hab5pi7pvz6b982c91sjwwqq2mvi1f0n0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -96809,14 +96809,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20260904.210")
+   (version "20260911.213")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "d5aab09bfc8db29ef75b1028aa6dfc1344ff4e2d")))
-     (sha256 (base32 "0z8p5c3nlxkq2i7q6jfa6knjwx7wxqh9qsjd9d56186w2ra61jp8"))))
+           (commit "eb1bf43f781abf882f041c3239db038d0f97a591")))
+     (sha256 (base32 "1bhwb0gwc4qna71dhigj2sw8iz6pi118ahy4clh39l3wmbcm33bn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
