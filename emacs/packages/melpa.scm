@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260911.42")
+   (version "20260911.1130")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "9716a9e6cdaf72429fcab3f4eae6e076d966404e")))
-     (sha256 (base32 "1wjrc9fyimaazqf4qa4jxr95i6iix0irhf2bb29h6nr74xnm1sa4"))))
+           (commit "7377ba827c315fe1aff214f9ba8096068b03a68b")))
+     (sha256 (base32 "1y9sqil3sbvkj6r0q4sapvq5fbldnkyryld87pf0kgrx6fnlmh4g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -24065,14 +24065,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260909.1305")
+   (version "20260911.1500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "41fa04593f8840230ed9f3052920387f31c5c65a")))
-     (sha256 (base32 "03mg61v7dp680krgbwp6fqyp099g6cva19dv03qvy0ij12k4bb6m"))))
+           (commit "b0851744294bbba7429a2f837a1d86223dd6a59f")))
+     (sha256 (base32 "0qdkbkiv9ysx5aqw5qv7w7r0nwrxsndvv30y06mk9wgnmwkaqhrf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -49987,14 +49987,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260910.2208")
+   (version "20260911.1506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "600afd51a23ba1928ca49f9b977d2c2648839f59")))
-     (sha256 (base32 "18kgjxkwx5aysnjcff0sxm5dcp8k48arja3hnbb76rzfmhrshaw2"))))
+           (commit "50945472c3600dcce3bd8f823aaf9906ff4e74df")))
+     (sha256 (base32 "16chra3hkpj107ii67is35p4jvyr2r8ym9lfhpn96v8x3873vxnb"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -63250,16 +63250,16 @@
 (define-public emacs-mastodon
   (package
    (name "emacs-mastodon")
-   (version "20260906.1728")
+   (version "20260911.1530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/mastodon.el.git")
-           (commit "8047ceebe9cc18e2fb3daa2e0ac15669851c480f")))
-     (sha256 (base32 "1bmlw92wn3ymhavxdm5dg52d67j02dsvrk91qvjfzh717hpqffcn"))))
+           (commit "020cdc49a6a9f35b106fc97a73acef5038dd071a")))
+     (sha256 (base32 "0rxgwcaqz91p9d5gxsnymqpf9ad87kfn4kbrbldhr7bacri9hicr"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-persist emacs-tp))
+   (propagated-inputs (list emacs-compat emacs-persist emacs-tp))
    (home-page "https://codeberg.org/martianh/mastodon.el")
    (synopsis "Client for fediverse services using the Mastodon API")
    (description "Documentation at https://melpa.org/#/mastodon")
