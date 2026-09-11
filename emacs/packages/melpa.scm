@@ -823,14 +823,14 @@
 (define-public emacs-ac-php
   (package
    (name "emacs-ac-php")
-   (version "20260828.607")
+   (version "20260911.454")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "a2a89494fd2e53111a81227d2e35290e0825c3fb")))
-     (sha256 (base32 "0wpxn21sgva48pw6hljx3lahrfbrvvpm1xv478yjvaidfdslppkd"))))
+           (commit "b626cc6b3a343b2431f2e13b241b1612da5fc3f4")))
+     (sha256 (base32 "0j6mzs0agmbnvcxdjxlp03ndpw7yp3pq1x458l39q2k4crdw5sx8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-ac-php-core emacs-auto-complete emacs-yasnippet))
@@ -843,14 +843,14 @@
 (define-public emacs-ac-php-core
   (package
    (name "emacs-ac-php-core")
-   (version "20260828.607")
+   (version "20260911.454")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "a2a89494fd2e53111a81227d2e35290e0825c3fb")))
-     (sha256 (base32 "0wpxn21sgva48pw6hljx3lahrfbrvvpm1xv478yjvaidfdslppkd"))))
+           (commit "b626cc6b3a343b2431f2e13b241b1612da5fc3f4")))
+     (sha256 (base32 "0j6mzs0agmbnvcxdjxlp03ndpw7yp3pq1x458l39q2k4crdw5sx8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-php-mode emacs-s emacs-f emacs-popup emacs-xcscope))
@@ -5197,14 +5197,14 @@
 (define-public emacs-autothemer
   (package
    (name "emacs-autothemer")
-   (version "20260530.2349")
+   (version "20260911.529")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jasonm23/autothemer.git")
-           (commit "811beeca5b273903516d393fc39401f100343aea")))
-     (sha256 (base32 "0xr0x6ab3n7jhmqnmj0d555wjqp9v4li70cpylb65i0yjjrrrrgb"))))
+           (commit "d5917521c1a0431d59431bbf1e8296affd7ddddb")))
+     (sha256 (base32 "0fl3y6g1im2qr7x9a6ic6bdi4schvj87gs5qgwfggaj28lvs2c77"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/jasonm23/autothemer")
@@ -14233,14 +14233,14 @@
 (define-public emacs-company-php
   (package
    (name "emacs-company-php")
-   (version "20260828.607")
+   (version "20260911.454")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "a2a89494fd2e53111a81227d2e35290e0825c3fb")))
-     (sha256 (base32 "0wpxn21sgva48pw6hljx3lahrfbrvvpm1xv478yjvaidfdslppkd"))))
+           (commit "b626cc6b3a343b2431f2e13b241b1612da5fc3f4")))
+     (sha256 (base32 "0j6mzs0agmbnvcxdjxlp03ndpw7yp3pq1x458l39q2k4crdw5sx8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ac-php-core emacs-company))
    (arguments '(#:files ("company-php.el")))
@@ -24927,14 +24927,14 @@
 (define-public emacs-eglotx
   (package
    (name "emacs-eglotx")
-   (version "20260824.219")
+   (version "20260911.1047")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cxa/eglotx.git")
-           (commit "2d5d2fbbd0ebbf2d07972a6b260ff6d9023a4586")))
-     (sha256 (base32 "1cf96ndzzz6hia9w6dyh791d89mdm2h7qiahkaygcpqlddkijali"))))
+           (commit "35375c8d4aac8d4515cc8e43ab052a053b897eb5")))
+     (sha256 (base32 "19bi3p0wjqcmp4072dpvn8rdv3g7f02yq9ri57k64b4p9nahdpi2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/cxa/eglotx")
    (synopsis "Native LSP multiplexer for Eglot")
@@ -42946,14 +42946,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260909.353")
+   (version "20260911.202")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "b907507d0e417218a9a1c372d72354c23c096036")))
-     (sha256 (base32 "08sh7zpqz6wvf429hkbwhj0kra0mq6ab7gni6j13fp9jb768c6m7"))))
+           (commit "ecc693d69e0f9737fa637abc88ec4ce0c3187b8e")))
+     (sha256 (base32 "1gcnk6hdmp7cpjydpryvp3abkbv9nw445msy5b6i3ripnann3xal"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -43820,14 +43820,14 @@
 (define-public emacs-gruvbox-theme
   (package
    (name "emacs-gruvbox-theme")
-   (version "20260825.2353")
+   (version "20260911.539")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/greduan/emacs-theme-gruvbox.git")
-           (commit "b34b8c0d9fe84190bb69cf084d7354d5e948fd94")))
-     (sha256 (base32 "1a744cmg5aawjsw1b2y2f991ic885acg4k50ll1i8bs21r99wdxa"))))
+           (commit "e629403d6f56f1483f86893b6a50f8d172d7c7a3")))
+     (sha256 (base32 "0gy55ds00g08q40l0a0f6nlhb2mpzmfbc64sq4x8p570as2c2b6h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-autothemer))
    (home-page "https://github.com/greduan/emacs-theme-gruvbox")
@@ -57720,16 +57720,16 @@
 (define-public emacs-languagetool
   (package
    (name "emacs-languagetool")
-   (version "20250924.1813")
+   (version "20260911.854")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/PillFall/languagetool.el.git")
-           (commit "fa3c08c369bf53f3311f1f365b54271cf126e4dd")))
-     (sha256 (base32 "1s1cgjy8k0xygkdwzvq27818rv7ahn73ag06wnqk2gg15a8f36d9"))))
+           (commit "4be8f9e6da54867b03b26135008be91b0e7da675")))
+     (sha256 (base32 "02q41qk46l1bl7ypm93dbqmwikly530dp5bhgs2j7cbshvwynzjk"))))
    (build-system melpa-build-system)
-   (home-page "https://github.com/PillFall/Emacs-LanguageTool.el")
+   (home-page "https://github.com/PillFall/languagetool.el")
    (synopsis "LanguageTool integration for grammar and spell check")
    (description "Documentation at https://melpa.org/#/languagetool")
    (license #f)))
@@ -62393,14 +62393,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20260816.2202")
+   (version "20260911.656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "8470a035426ecb10b6960ade8a7cbb39c99be148")))
-     (sha256 (base32 "07phhrb6552ic6m8krdfi8dbbw1csajl348nfa27cy3yq369ap73"))))
+           (commit "bdd4a98779c4c53254493bf2abc755b911972ea4")))
+     (sha256 (base32 "1ca9vpy5lkbr1q4j1pj6jxshli63824cw8pzzqali1b8ix3pqawz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm emacs-magit-section))
    (home-page "https://github.com/hrishikeshs/magnus")
@@ -65686,14 +65686,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260910.1228")
+   (version "20260911.443")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "4fdacb698bf6d71c945c8d5ff8b356581439dff9")))
-     (sha256 (base32 "0rvva2w6lkzam1gcddpk81m7vircqc78xmc0310g0kk8s2k8xnnf"))))
+           (commit "ca6f09900a2abe5de161f9f68d94cf5126c47885")))
+     (sha256 (base32 "1lx0a5p4z5jkbbbbwp8360w21z2wxfzanwzxsiici6pfvkrb4amg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -71892,14 +71892,14 @@
 (define-public emacs-occult
   (package
    (name "emacs-occult")
-   (version "20260908.327")
+   (version "20260911.625")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/occult.el.git")
-           (commit "9d12eed668acf7decaae6dd19a3f2fecaa1d3c68")))
-     (sha256 (base32 "0f0zbcjx7fsm8l710z6xqzyjaqnfr6z1mxcf3bszwa8b6lamw9sh"))))
+           (commit "f7a7a87a4e1fa0f07d8571bba40aba1ce89cc1fb")))
+     (sha256 (base32 "0alvk9xyajmyp7xmsp3zbwsz7sxkqzklx1899v6blr6mms73lldh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/agzam/occult.el")
    (synopsis "Collapse and reveal buffer regions")
@@ -91988,14 +91988,14 @@
 (define-public emacs-sculpture-themes
   (package
    (name "emacs-sculpture-themes")
-   (version "20260906.2204")
+   (version "20260911.909")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/sculpture-themes.git")
-           (commit "8fc579d1f42487288ab467f0f6ef050f6ab81801")))
-     (sha256 (base32 "19rq781n5dvrx2xa2i4cvzmbxvsw6c4dpzpda22n7bs0jabjwmlq"))))
+           (commit "baa252d926f1aee202ebae2f7276f7c1dbea7433")))
+     (sha256 (base32 "1dxn64kc0sa3j7mdriqlpykv3vin4zh6y9df0lgxahxjafzb821f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/sculpture-theme")
    (synopsis "Themes with vivid colors")
