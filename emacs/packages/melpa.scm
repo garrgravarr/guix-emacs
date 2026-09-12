@@ -101638,14 +101638,14 @@
 (define-public emacs-time-zones
   (package
    (name "emacs-time-zones")
-   (version "20260910.135")
+   (version "20260912.1438")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/time-zones.git")
-           (commit "dc6c438031f5c279bf1bbf39c053f22807460bbf")))
-     (sha256 (base32 "1l6yrihwmspkdxy8mqp2qnbhh8d0ahg23fxmpdrly8g5crfmy89q"))))
+           (commit "6fe85710c9dd4b87c613a345e5c0191ecb6ec386")))
+     (sha256 (base32 "01is0p0wibqwmp7m9vd29y4x4r0a9q0qvwgfkiva59sxpzq570jr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/time-zones")
    (synopsis "Time zone lookups")
