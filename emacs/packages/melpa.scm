@@ -20063,14 +20063,14 @@
 (define-public emacs-dialog-mode
   (package
    (name "emacs-dialog-mode")
-   (version "20260906.1244")
+   (version "20260911.1903")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~mew/dialog-mode")
-           (commit "e3dd89b6a13efb5073b5a36f316a9e7c0f98aa4c")))
-     (sha256 (base32 "0d7myh7lyxj478n24kbxpywdw0l7j1h1mxsvz317jr63i247yh34"))))
+           (commit "f768a627eb8a687959bceb1ea2e84e4bb1179cb1")))
+     (sha256 (base32 "0xdvzw9q4v7n3la9njc14vb637vyiszh39jyh68abybiwq4i0s0l"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("doc/dialog-mode.texi" "dialog-mode.el")))
    (home-page "https://git.sr.ht/~mew/dialog-mode")
@@ -22460,14 +22460,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260902.808")
+   (version "20260911.1831")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "adbd6325be5f84eafbc85efb5685452a5ba489bf")))
-     (sha256 (base32 "07pqhg3bq6pbmjs0ax8fdskqji4y65c8zb4jc86z9zscggkyylg7"))))
+           (commit "c07049eef28caa499625895f530a02acf66843f0")))
+     (sha256 (base32 "1kyxcfhjhh237vl5kv8sb6pnj2l0knzr1s8r9cl811imhnbpwzwy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -24065,7 +24065,7 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260911.1500")
+   (version "20260911.1528")
    (source
     (origin
      (method git-fetch)
@@ -38131,14 +38131,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260901.1514")
+   (version "20260911.1701")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "7dc4855437315cb932cbc1d6a903f7d2de03ec5f")))
-     (sha256 (base32 "0wy1i6897i6bw7s86bq4j5v7mn8h2hghkn60536ppq3dfbyykkz1"))))
+           (commit "3d4e66fb72112a2ece50375a8e089512f2866259")))
+     (sha256 (base32 "0m5i6m2w7ziwxj36kli1v203d22jjjp7ldy2fp8wmz90la35gmcj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -38916,14 +38916,14 @@
 (define-public emacs-full-gtd
   (package
    (name "emacs-full-gtd")
-   (version "20260907.608")
+   (version "20260912.749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/full-gtd.git")
-           (commit "1643da6b9de4df8ec7990fddaa9124c1ff669858")))
-     (sha256 (base32 "1i09cc10dldl4hbn3f4hbylrvlq2q559llxgfalzns9dmjsvvg74"))))
+           (commit "deb29ede5cec8ce2fcb7e94b8c57c52085c794bc")))
+     (sha256 (base32 "0q6c6cddqvwlxzw9il6apnnrf3g5x4c7pc8sdfbchfyi4l8mzw9f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/full-gtd")
    (synopsis "Complete Getting Things Done (GTD) workflow for org-mode")
@@ -45079,14 +45079,14 @@
 (define-public emacs-helix
   (package
    (name "emacs-helix")
-   (version "20260827.229")
+   (version "20260911.1659")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mgmarlow/helix-mode.git")
-           (commit "52441ed6ac2a347e4459d7f946a2b22b298e05e8")))
-     (sha256 (base32 "1myb3w7a0rp7jvrsdi01p4wizw43pap3448l89x6yhvxm4zz1rh0"))))
+           (commit "2a4b4b8bcdab33ae168e5084c8ee76348ef5358a")))
+     (sha256 (base32 "0rff0ga1rd9nzjx7za2zi39n03p0sggyjrs9pbdfal01bzrajv0a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mgmarlow/helix-mode")
    (synopsis "A minor mode emulating Helix keybindings")
@@ -50134,14 +50134,14 @@
 (define-public emacs-hyperstitional-themes
   (package
    (name "emacs-hyperstitional-themes")
-   (version "20260906.2241")
+   (version "20260911.2025")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/hyperstitional-themes.git")
-           (commit "5548ac116209f942780841a43e0183df5a42553a")))
-     (sha256 (base32 "09pxcq1xsdwl8dpldjpwj3li2wsrjr2phh87cil7kv4d67xsa3d5"))))
+           (commit "83b56d201ddd1d6ff9e5888c007eb5443dc2b78a")))
+     (sha256 (base32 "0zc933gha7hknp1bxdkj4jvkgncikvda99qrfah2q2anrqdgvgks"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/hyperstitional-themes")
    (synopsis "Weird themes with incremental palettes")
@@ -61637,14 +61637,14 @@
 (define-public emacs-magent
   (package
    (name "emacs-magent")
-   (version "20260907.1123")
+   (version "20260912.322")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/magent.git")
-           (commit "4a37cd366c2c303e48a88caa8f80e2334acb2565")))
-     (sha256 (base32 "11zz05jm2mrygfvmdhiq9irfff76cdnfjgqgjf75zfc9q793znx0"))))
+           (commit "9805f3a7201d2acca1e525a27ec92d121c0a35ce")))
+     (sha256 (base32 "02x3a5a53kgvfygkjvnjxvni2w428llvjvv5dm7sylvb7lkwi18c"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-gptel emacs-yaml emacs-compat emacs-acp emacs-agent-shell))
@@ -61712,14 +61712,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260907.1411")
+   (version "20260911.1701")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "9cb07d820d2b9ebbe9940e4d493293522d4e21d2")))
-     (sha256 (base32 "1w8phzqxj64cwxr679pav3xyy0gc1kaj23xxvbapkwdqllm3y739"))))
+           (commit "83ba66c8ab6fcdbd809077ae4db1f7e2ed832655")))
+     (sha256 (base32 "0x4wavacwd80br9fgl200av1sxxlhlbc1bsxwwjndqcvmd56j89z"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63774,14 +63774,12 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260826.506")
+   (version "20260912.441")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "ddd765698505e2460ea315e55570adac2e10ffec")))
-     (sha256 (base32 "1d7p57v46wjhmafxlfjsvym6m4g1x6fb2naj8r558phphbcjlklb"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/meep-" version ".tar"))
+     (sha256 (base32 "00zdr670c7q88yqwzc5vbrq25m83j705w28ry3bnwwzrzwp7nym7"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -77545,14 +77543,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20260908.1426")
+   (version "20260911.1910")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "eb5cb1a1396fc9c09f5ad0bb1430075c2a031de3")))
-     (sha256 (base32 "07bak7afsgp5w3jifpjc9d6aidmgppnfbfm20xx3b94p71j2hbza"))))
+           (commit "83e1ad8a4c1bb6e0cd7ffabd5b0375fc0448931f")))
+     (sha256 (base32 "0s2fsgcnghcqzr1b2zapbdcw01x9528sbljh099xm06ca7pi1ia0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -91988,14 +91986,14 @@
 (define-public emacs-sculpture-themes
   (package
    (name "emacs-sculpture-themes")
-   (version "20260911.909")
+   (version "20260911.2013")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/sculpture-themes.git")
-           (commit "baa252d926f1aee202ebae2f7276f7c1dbea7433")))
-     (sha256 (base32 "1dxn64kc0sa3j7mdriqlpykv3vin4zh6y9df0lgxahxjafzb821f"))))
+           (commit "89efb6bca369bb6240735e6228eb97d261a0e491")))
+     (sha256 (base32 "0wf24n0lcdpv2929pa8q3rk6bscm6armsqqa1ph25qzm0zmpk1b0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/sculpture-theme")
    (synopsis "Themes with vivid colors")
