@@ -5878,18 +5878,18 @@
 (define-public emacs-base16-theme
   (package
    (name "emacs-base16-theme")
-   (version "20260816.111")
+   (version "20260913.317")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tinted-theming/base16-emacs.git")
-           (commit "17acf7f6efd7a73dadb902d2f5586aec4e32051e")))
-     (sha256 (base32 "1gf7ysp15wqj835wa0kd71ylsm7zri9fsj78zbwzdndvv7qs5cf6"))))
+           (commit "c66ddd7415bddfecfc4e1095b50cde5391270375")))
+     (sha256 (base32 "18gzp1ym1gsl2a6pl45y33rkfr79l63q69p1a6mf9ahmh2gzadwj"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "build/*.el")))
    (home-page "https://github.com/tinted-theming/base16-emacs")
-   (synopsis "Collection of themes built on combinations of 16 base colors")
+   (synopsis "A set of base16 themes for your favorite editor")
    (description "Documentation at https://melpa.org/#/base16-theme")
    (license #f)))
 
@@ -15206,14 +15206,14 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260910.1909")
+   (version "20260913.1523")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult.git")
-           (commit "f10cf28d3df1e43a8069f5a507c82654834c8b09")))
-     (sha256 (base32 "199fp8wpg2a1n3fjycn01a8wxz0aywk330rrz4bfhxhinvq4h65z"))))
+           (commit "887ada3b684b233375435cf8f38eaafd240edcb4")))
+     (sha256 (base32 "0qhzczcj9qrsx3ai23fv0jn6y84kcy06g9xirav7bpnbik90vk7k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/consult")
@@ -16176,14 +16176,14 @@
 (define-public emacs-corfu
   (package
    (name "emacs-corfu")
-   (version "20260905.450")
+   (version "20260913.1527")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/corfu.git")
-           (commit "5869254349a035e16d656eb232a52cf0e163d531")))
-     (sha256 (base32 "0jl3lb92azwql3w888ggifyq6xl42qkamx8n8lsafwvzq18jvl1h"))))
+           (commit "b468efac023dda39332acc943edc9895c80b5a6f")))
+     (sha256 (base32 "1nwmc24cl11035s03qck3mdf5n2s1svikx09sd3z25q5al3jq2r7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/corfu-*.el")))
@@ -16320,14 +16320,14 @@
 (define-public emacs-counsel
   (package
    (name "emacs-counsel")
-   (version "20260214.1004")
+   (version "20260913.715")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abo-abo/swiper.git")
-           (commit "ee79f68215ae7e2b8a38ba6bf7f82b3fe57dc16c")))
-     (sha256 (base32 "0qs73g9d5c1rmjmmlkgx11qs25nb10azh841ybjllsyqa9ilch8l"))))
+           (commit "7b267e29cd47b2036eafbc212683a721bd2b7dd0")))
+     (sha256 (base32 "0h1k8xgjrwkwginz7a5qch4d0yqhgr32hrvzm71l173kpim2bbww"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ivy emacs-swiper))
    (arguments '(#:files ("counsel.el")))
@@ -26046,6 +26046,30 @@
    (description "Documentation at https://melpa.org/#/elfeed-protocol")
    (license #f)))
 
+(define-public emacs-elfeed-protocol-freshrss
+  (package
+   (name "emacs-elfeed-protocol-freshrss")
+   (version "20260911.2247")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://codeberg.org/lou/elfeed-protocol-freshrss.git")
+           (commit "997db2e6849daccdcc7d936f15ce8ed892ad7bbe")))
+     (sha256 (base32 "1g03vwalzpzwcj7624lavlgk3g95mjf938v8gcvgkhi4np307p9k"))))
+   (build-system melpa-build-system)
+   (propagated-inputs
+    (list emacs-elfeed
+          emacs-elfeed-protocol
+          emacs-deferred
+          emacs-request
+          emacs-request-deferred))
+   (home-page "https://codeberg.org/lou/elfeed-protocol-freshrss")
+   (synopsis "FreshRSS protocol for elfeed")
+   (description
+    "Documentation at https://melpa.org/#/elfeed-protocol-freshrss")
+   (license #f)))
+
 (define-public emacs-elfeed-score
   (package
    (name "emacs-elfeed-score")
@@ -32477,14 +32501,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260903.1127")
+   (version "20260913.1117")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "ab0606abcb60713dfd7e67db4d72f370d0ae8913")))
-     (sha256 (base32 "1p51g4il25zjkw1s9s4jyq2yqhmcq84r6nl3pk02586czsp4sk6j"))))
+           (commit "cfe908956c44ddcd04b69fb565e16f668b319a88")))
+     (sha256 (base32 "0vwnbvpprs9kwg86v91628pflvj7bwwkis5b4bvhkf5isg8a0m4p"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -33765,16 +33789,16 @@
 (define-public emacs-fj
   (package
    (name "emacs-fj")
-   (version "20260909.1243")
+   (version "20260913.1611")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fj.el.git")
-           (commit "98bc65cd29d4adf96f0c922e69885506103cf475")))
-     (sha256 (base32 "0dgssvgrp0c3jg854lzyr10fn70qc2c8yqs1nkzj2n538rp2jqrk"))))
+           (commit "ab7e2f03bbb966649f682c44aaf22690d24fd021")))
+     (sha256 (base32 "00j6m9s29d99wds2s8p8i3d1y79m1bn40nki7c8gwh731j6zxfwd"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-fedi emacs-tp emacs-magit))
+   (propagated-inputs (list emacs-compat emacs-fedi emacs-tp emacs-magit))
    (home-page "https://codeberg.org/martianh/fj.el")
    (synopsis "Client for Forgejo instances")
    (description "Documentation at https://melpa.org/#/fj")
@@ -38916,14 +38940,14 @@
 (define-public emacs-full-gtd
   (package
    (name "emacs-full-gtd")
-   (version "20260912.749")
+   (version "20260913.1656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/full-gtd.git")
-           (commit "deb29ede5cec8ce2fcb7e94b8c57c52085c794bc")))
-     (sha256 (base32 "0q6c6cddqvwlxzw9il6apnnrf3g5x4c7pc8sdfbchfyi4l8mzw9f"))))
+           (commit "91a4bea06d93cfec81657d9dec8688f2b70e33ba")))
+     (sha256 (base32 "1xr5gqz3jf35ma426qjbajfswlp0xjlw6na2lwbjn66bwkw4p7wi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/full-gtd")
    (synopsis "Complete Getting Things Done (GTD) workflow for org-mode")
@@ -40083,14 +40107,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260902.1753")
+   (version "20260913.1652")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "2bea18f3b52bf97d8222fea706da6fabdfc2cbb8")))
-     (sha256 (base32 "0ph1gjl3915wgf7qz2c389gnm64yn07q9jb69dyqy6r8fkzmyd37"))))
+           (commit "9bf8c7a7f624eaba60d46b7b1123d29c39a2f4da")))
+     (sha256 (base32 "1jxfyvy39wd5l3k4gx35v53npd9bzz0icj2wnm6468lib4lh3blz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -49987,16 +50011,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260912.1451")
+   (version "20260913.1533")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "1pnz1p7x9rz6k7mqnxq9lshq3hqbjhjzd6a894bipzlzmxlc8426"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "d36fb6c0aef0085a203bd9cd10d652f4cd92a69f")))
+     (sha256 (base32 "0yqfjrkf98p0ildid9s7cq9q1s56vcmm7zsiqvhgnsfzqin02l8p"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -52987,14 +53049,14 @@
 (define-public emacs-ivy
   (package
    (name "emacs-ivy")
-   (version "20260413.2102")
+   (version "20260913.715")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abo-abo/swiper.git")
-           (commit "0d02f5063d36ff4fa6138f0973c83c6d3874fba0")))
-     (sha256 (base32 "11p878gxwbpxkxg01jrvhkxk6wq891qwcyryrasjn4nh3nlc1vvx"))))
+           (commit "7b267e29cd47b2036eafbc212683a721bd2b7dd0")))
+     (sha256 (base32 "0h1k8xgjrwkwginz7a5qch4d0yqhgr32hrvzm71l173kpim2bbww"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -57890,6 +57952,25 @@
    (description "Documentation at https://melpa.org/#/latex-to-svg-backend")
    (license #f)))
 
+(define-public emacs-latex-to-svg-frontend
+  (package
+   (name "emacs-latex-to-svg-frontend")
+   (version "20260912.1350")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/alberti42/latex-to-svg.git")
+           (commit "e395700ca77f54a2140fb701b1251fded6e96af2")))
+     (sha256 (base32 "0pxhqlhxcyqr454ckx73mxpv26i3ijpv932sbz571q5jxc026d0i"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-latex-to-svg-backend))
+   (arguments '(#:files ("latex-to-svg-frontend.el")))
+   (home-page "https://github.com/alberti42/latex-to-svg")
+   (synopsis "Preview LaTeX math in markup buffers as SVG")
+   (description "Documentation at https://melpa.org/#/latex-to-svg-frontend")
+   (license #f)))
+
 (define-public emacs-latex-unicode-math-mode
   (package
    (name "emacs-latex-unicode-math-mode")
@@ -60825,16 +60906,15 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260901.2128")
+   (version "20260913.1719")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "77543b26ba95c6e7686a72a78fe55abdd8efe9c4")))
-     (sha256 (base32 "0ak597ha4lh0ipbj9hlnyx1qiphiyjvxg6hyp58ak6xq15bxa9ar"))))
+           (commit "ac5f25389713a653e80433d2fd1ee22d14f4dea5")))
+     (sha256 (base32 "1c485jp79gc3bg0vs3h0v0gcyav5dmq4khpx8sisakxc0jkzk1gg"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
    (synopsis "Grammar and spell checking for LaTeX, Markdown, Org and more")
    (description "Documentation at https://melpa.org/#/lsp-ltex-plus")
@@ -61599,7 +61679,7 @@
 (define-public emacs-magent
   (package
    (name "emacs-magent")
-   (version "20260913.645")
+   (version "20260913.1042")
    (source
     (origin
      (method git-fetch)
@@ -63212,14 +63292,14 @@
 (define-public emacs-mastodon
   (package
    (name "emacs-mastodon")
-   (version "20260911.1530")
+   (version "20260913.1502")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/mastodon.el.git")
-           (commit "020cdc49a6a9f35b106fc97a73acef5038dd071a")))
-     (sha256 (base32 "0rxgwcaqz91p9d5gxsnymqpf9ad87kfn4kbrbldhr7bacri9hicr"))))
+           (commit "156a4e2c76a2cd2c69c4e4fe35800a08afb17bfe")))
+     (sha256 (base32 "0lahl7x7nlvqwa5pjcrsh140wlnq3vb2v717m02sfifhg90mdimi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-persist emacs-tp))
    (home-page "https://codeberg.org/martianh/mastodon.el")
@@ -70979,14 +71059,14 @@
 (define-public emacs-ob-janet
   (package
    (name "emacs-ob-janet")
-   (version "20260820.855")
+   (version "20260913.1258")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/zzkt/ob-janet.git")
-           (commit "3dbf225cd32bb60b4fe76fabd89fdac72c6aa84f")))
-     (sha256 (base32 "16ryk5z2a2lm2pliq8vgb6kmcvhbhciqrc8dp1q1zw3y41cl15sr"))))
+           (commit "f972eb760f3293b9883ffcd3b19ab05cbb8f9404")))
+     (sha256 (base32 "1n1f10ka8d9lhzbk52i3k8dvpyla01z8j3janxj780wgawh6pgsf"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/zzkt/ob-janet")
    (synopsis "Org-Babel support for the Janet language")
@@ -87125,14 +87205,14 @@
 (define-public emacs-r-ts-mode
   (package
    (name "emacs-r-ts-mode")
-   (version "20260907.1025")
+   (version "20260913.1314")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/R-for-emacs/r-ts-mode.git")
-           (commit "327dee7a359b61520e44343a82443ea516191e5b")))
-     (sha256 (base32 "1fnkazclvsg42fn3nja48w4dnnwk8w1xq0sm6clpf86j46x9av6b"))))
+           (commit "50ceffa2b79fa316752ae0f49408cac2080ceada")))
+     (sha256 (base32 "1rnfh66nfpglgh00kfh2qf12hd8gh4cjnr8ym6slqz9cf8f1lhgz"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/R-for-emacs/r-ts-mode")
    (synopsis "R treesitter mode")
