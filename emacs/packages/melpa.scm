@@ -23527,14 +23527,14 @@
 (define-public emacs-e2ansi
   (package
    (name "emacs-e2ansi")
-   (version "20260912.2126")
+   (version "20260913.757")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Lindydancer/e2ansi.git")
-           (commit "9edc8eb3dbd33be09864ff660b44d9d0f5002b3c")))
-     (sha256 (base32 "0g6ji5vbrjim0f3rc0g6kz6n77qvd6ac0xq7kzqwfv5kjbkfbnif"))))
+           (commit "3de5bbe723e7a229b096c37098db89b06af1a228")))
+     (sha256 (base32 "1427idbxi3y60psn5x8d52381iy84rmq6jn475x4bg43s6qr6y0q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-face-explorer))
    (arguments '(#:files (:defaults "bin")))
@@ -25902,14 +25902,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260909.758")
+   (version "20260913.900")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "48dc501cdb52cec9aa75038e1a368da24eec87d8")))
-     (sha256 (base32 "188i67gjagsvpn36nyhiacy4kip7psyq8x07pzvl8ddd53svyz4y"))))
+           (commit "df5965d71585acabd02888cb971273ffabe7e36f")))
+     (sha256 (base32 "1j3vllbxvz9wkl5spnvy34cfp5mjn613chi4q272rmwkrwd5zjmz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -58739,14 +58739,14 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20260814.1041")
+   (version "20260913.550")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/liberime.git")
-           (commit "24b0f2e9f535af305767f56a417532b8165eaea8")))
-     (sha256 (base32 "1hwmj0alairvs8p2caiswghlnw3j3xa24nxa2d9m6kph89x9p85p"))))
+           (commit "77efeb09fe25f8c713dce32d93d52da9fd79084f")))
+     (sha256 (base32 "16276gj8afdnycv548if4m7k7s6c5rwfg2m2qsfrs83nfxymcbnb"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -61599,14 +61599,14 @@
 (define-public emacs-magent
   (package
    (name "emacs-magent")
-   (version "20260912.322")
+   (version "20260913.645")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/magent.git")
-           (commit "9805f3a7201d2acca1e525a27ec92d121c0a35ce")))
-     (sha256 (base32 "02x3a5a53kgvfygkjvnjxvni2w428llvjvv5dm7sylvb7lkwi18c"))))
+           (commit "851fff0bfc62d2d41486dc2633a227544aaa66b6")))
+     (sha256 (base32 "089k0b8f0vf0g3342azc3arv6bxj67jl63pgls2y0hywwk6l8vwc"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-gptel emacs-yaml emacs-compat emacs-acp emacs-agent-shell))
@@ -67828,14 +67828,14 @@
 (define-public emacs-naquadah-theme
   (package
    (name "emacs-naquadah-theme")
-   (version "20260912.1819")
+   (version "20260913.729")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jd/naquadah-theme.git")
-           (commit "e46fd3fbc3a982d3c9d94647dd6e491593ce293c")))
-     (sha256 (base32 "0cwp1id7lk6p8gi23wshf9nvz1p17zlz1kw9j4n2vfqim70n0nnm"))))
+           (commit "e097c227b43520d7a08e86224432346c10b49aea")))
+     (sha256 (base32 "04vg83zn339nm04gkri4alhgk0579vng7rkwqyxfkx0321wv6ii6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jd/naquadah-theme")
    (synopsis "A theme based on Tango color set")
@@ -71852,14 +71852,14 @@
 (define-public emacs-occult
   (package
    (name "emacs-occult")
-   (version "20260911.625")
+   (version "20260913.546")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/occult.el.git")
-           (commit "f7a7a87a4e1fa0f07d8571bba40aba1ce89cc1fb")))
-     (sha256 (base32 "0alvk9xyajmyp7xmsp3zbwsz7sxkqzklx1899v6blr6mms73lldh"))))
+           (commit "41fd9afdd6a3a8c6e9e3d0ccae89592a8757ad34")))
+     (sha256 (base32 "0c5xc2hir7l6cnj4mjj9f7zmp4b0qww9n5wlmh1p04xjvfccv510"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/agzam/occult.el")
    (synopsis "Collapse and reveal buffer regions")
@@ -81873,14 +81873,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260906.704")
+   (version "20260913.347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "b5e1650d27ead47084605ca6ce5c8e1214c4a5d3")))
-     (sha256 (base32 "06z9w1mx0m36md4n06vq41qaqnhvm7203v1r2b6kngminija1kp3"))))
+           (commit "aacc6fad91c484f13671acf9c5a5f176578a65a3")))
+     (sha256 (base32 "044wmsqwlnyk89byrzdg74gb9rlvzgz2i6y1apb0c1zsjlm457ln"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
