@@ -23527,14 +23527,14 @@
 (define-public emacs-e2ansi
   (package
    (name "emacs-e2ansi")
-   (version "20250120.2241")
+   (version "20260912.2126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Lindydancer/e2ansi.git")
-           (commit "53c9c2aff5bf66864446a02a75e2e431aaef59d5")))
-     (sha256 (base32 "10143qpqkhl1qig1nwrl70byfyrc2kg211hq66wa9jn9jl8lcikx"))))
+           (commit "9edc8eb3dbd33be09864ff660b44d9d0f5002b3c")))
+     (sha256 (base32 "0g6ji5vbrjim0f3rc0g6kz6n77qvd6ac0xq7kzqwfv5kjbkfbnif"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-face-explorer))
    (arguments '(#:files (:defaults "bin")))
@@ -32511,14 +32511,14 @@
 (define-public emacs-face-explorer
   (package
    (name "emacs-face-explorer")
-   (version "20250117.932")
+   (version "20260912.2037")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Lindydancer/face-explorer.git")
-           (commit "4dc83bffbaf41c22795556fed63f8dc938efd9b8")))
-     (sha256 (base32 "0qph9ajhy9a132dwx1q09n4yd6ialnyjy8snlx104dlf7mp76nvj"))))
+           (commit "8a92383db3df635f2d988ad5a312db945cd4fe4f")))
+     (sha256 (base32 "17p65xwx6yyx4h659ai6r1wjb8mnyhlr4f4ib7yz0749mj02kzmf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Lindydancer/face-explorer")
    (synopsis "Tools for faces and text properties")
@@ -45639,14 +45639,14 @@
 (define-public emacs-helm-core
   (package
    (name "emacs-helm-core")
-   (version "20260902.1430")
+   (version "20260912.1435")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm.git")
-           (commit "90712c571f21ccf024b7eb6dcb9ccb5bffbad073")))
-     (sha256 (base32 "0b7sb23ji3yw05cza1nk975if827qxzgk92d4y54wfrs6803msdq"))))
+           (commit "e4d5625c2d65ea8725435e1352ce86ab462e4884")))
+     (sha256 (base32 "1l0b022dk7llxpr2jqb3wm9cal2clbvbn5zgpwnrxbk8ifgq7bd8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (arguments
@@ -49987,54 +49987,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260911.1506")
+   (version "20260912.1451")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "50945472c3600dcce3bd8f823aaf9906ff4e74df")))
-     (sha256 (base32 "16chra3hkpj107ii67is35p4jvyr2r8ym9lfhpn96v8x3873vxnb"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "1pnz1p7x9rz6k7mqnxq9lshq3hqbjhjzd6a894bipzlzmxlc8426"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -67866,14 +67828,14 @@
 (define-public emacs-naquadah-theme
   (package
    (name "emacs-naquadah-theme")
-   (version "20190225.1427")
+   (version "20260912.1819")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jd/naquadah-theme.git")
-           (commit "430c3b7bd51922cb616b3f60301f4e2604816ed8")))
-     (sha256 (base32 "0z2dn05xgbdfw6rwgsq31rm5dr098dk411qk83fbx2bkdxxfr60w"))))
+           (commit "e46fd3fbc3a982d3c9d94647dd6e491593ce293c")))
+     (sha256 (base32 "0cwp1id7lk6p8gi23wshf9nvz1p17zlz1kw9j4n2vfqim70n0nnm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jd/naquadah-theme")
    (synopsis "A theme based on Tango color set")
