@@ -15206,14 +15206,14 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260913.1523")
+   (version "20260913.2232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult.git")
-           (commit "887ada3b684b233375435cf8f38eaafd240edcb4")))
-     (sha256 (base32 "0qhzczcj9qrsx3ai23fv0jn6y84kcy06g9xirav7bpnbik90vk7k"))))
+           (commit "9979fbb02e633267d0f6bc6cafa266fe87a0007f")))
+     (sha256 (base32 "0g1w5dbfj50dxvlcsk3njx6z6mw8wwv47982ccpdpd5pr5d5rv16"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/consult")
@@ -15868,14 +15868,14 @@
 (define-public emacs-consult-vulpea
   (package
    (name "emacs-consult-vulpea")
-   (version "20260906.2053")
+   (version "20260913.1934")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fabcontigiani/consult-vulpea.git")
-           (commit "9a8423390c94eca5583ef81bf0582c7161f63563")))
-     (sha256 (base32 "0mqmnvr1p61nz4cc0s1mn2kj8d962blmj7ccy7i66527ksyyvhzq"))))
+           (commit "5f680838394fff51a9fb5c98ade3ddb29add7ac5")))
+     (sha256 (base32 "0pbp9f0a81jds1daxhml0dxpzw95m9cj1w84a6cya4pim20b5fsa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-consult))
    (home-page "https://github.com/fabcontigiani/consult-vulpea")
@@ -41529,17 +41529,17 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260507.2347")
+   (version "20260914.23")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://git.thanosapollo.org/gnosis")
-           (commit "07de9c67536fe3e8c5fef1daf61527f3bcfa46a7")))
-     (sha256 (base32 "1cjm8hj62zm9k89pnsh5hbgjqqnh53byw4mijl76a7cn8args4gy"))))
+           (url "https://git.thanosapollo.org/emacs-gnosis")
+           (commit "190a68ecaa0fc3f30255985764317c73e558c575")))
+     (sha256 (base32 "0bmi9an51xkk7hax7hyldckfsp59qwmbyn0frhmqv6xq48k5dnwm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
-   (home-page "https://codeberg.org/thanosapollo/emacs-gnosis")
+   (home-page "https://git.thanosapollo.org/emacs-gnosis")
    (synopsis "Knowledge System")
    (description "Documentation at https://melpa.org/#/gnosis")
    (license #f)))
@@ -69486,6 +69486,24 @@
    (description "Documentation at https://melpa.org/#/non-edit-mode")
    (license #f)))
 
+(define-public emacs-nonogram
+  (package
+   (name "emacs-nonogram")
+   (version "20260909.654")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.andros.dev/andros/nonogram.el.git")
+           (commit "b72785e325d4ad1f61bc2c49e24e8e5bc5e16305")))
+     (sha256 (base32 "1r785pksxa62l60ymyj677wzlb77s7j1c24jib82xw96b494gb7b"))))
+   (build-system melpa-build-system)
+   (arguments '(#:files (:defaults ("puzzles" "puzzles/*.non"))))
+   (home-page "https://git.andros.dev/andros/nonogram.el")
+   (synopsis "Play nonogram (picross) puzzles with SVG graphics")
+   (description "Documentation at https://melpa.org/#/nonogram")
+   (license #f)))
+
 (define-public emacs-nord-theme
   (package
    (name "emacs-nord-theme")
@@ -69935,14 +69953,14 @@
 (define-public emacs-nu-mode
   (package
    (name "emacs-nu-mode")
-   (version "20250211.1243")
+   (version "20260913.1919")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pyluyten/emacs-nu.git")
-           (commit "6510bc3f22e921aeb8ef3190bca1f432acc2870e")))
-     (sha256 (base32 "0i636xql6s9fg9ggs5a1j70bsn6qgabdhqdic8vmxy1sjggiv2g7"))))
+           (commit "157c414bb451a84fc4add88c328da33ef76058fc")))
+     (sha256 (base32 "0rlpazzkxa4jhq0a3gh314sfylc0n030a7m0miblj78hi6h7zw1r"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-undo-tree
@@ -73383,14 +73401,14 @@
 (define-public emacs-org-caldav
   (package
    (name "emacs-org-caldav")
-   (version "20260501.8")
+   (version "20260914.307")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dengste/org-caldav.git")
-           (commit "14f541814df597395fddb44b6e4bdb7c20f72cbe")))
-     (sha256 (base32 "09gc1q2zs4b66lnjmhbil5c0z84cl44si4qrjh30f6i21gbbbsnq"))))
+           (commit "30906b8c6eb213c540ba2d014cefdb5451f2a1f3")))
+     (sha256 (base32 "10mnf06b0h024kmb83asnjingd2xr36iz9f07i60hrb1m4hvf4c8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dengste/org-caldav/")
    (synopsis "Sync org files with external calendar through CalDAV")
@@ -73594,6 +73612,23 @@
    (home-page "https://github.com/atheriel/org-clock-csv")
    (synopsis "Export `org-mode' clock entries to CSV format")
    (description "Documentation at https://melpa.org/#/org-clock-csv")
+   (license #f)))
+
+(define-public emacs-org-clock-dbus
+  (package
+   (name "emacs-org-clock-dbus")
+   (version "20260913.1237")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/pjones/org-clock-dbus.git")
+           (commit "4f19fadbaecb8afdd3b4751518139bdc5992f018")))
+     (sha256 (base32 "11ivs9m8q5qzpv2ybzpa2a6hrizndl1i86blqwyfc8yy71j40v4m"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/pjones/org-clock-db")
+   (synopsis "Monitor org-clock from D-Bus")
+   (description "Documentation at https://melpa.org/#/org-clock-dbus")
    (license #f)))
 
 (define-public emacs-org-clock-reminder
@@ -86736,14 +86771,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260830.248")
+   (version "20260913.2233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "0c9656d5bf80e998b4de426ee1885c724a3c5b43")))
-     (sha256 (base32 "1d7m7liib6xmzasa0a9gfnb772w9f6i8jgmzdi8q6an7kabl7ynv"))))
+           (commit "1044565ea1aba5ee46447840717bbda368fd81ff")))
+     (sha256 (base32 "183zkhqacynf65wjnnz7m6rcq9vn2rn32cp5xh724clzxrybja11"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -94335,6 +94370,23 @@
    (home-page "https://github.com/ErikPrantare/simulacrum.el")
    (synopsis "Inject custom event types into the event stream")
    (description "Documentation at https://melpa.org/#/simulacrum")
+   (license #f)))
+
+(define-public emacs-single-window
+  (package
+   (name "emacs-single-window")
+   (version "20260913.1919")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/jamescherti/single-window.el.git")
+           (commit "a0bd2a516370a630ad007ccd467e9b4b395c57b1")))
+     (sha256 (base32 "1hjbgwhpvqf3wqy12risw8b1ycw21hmg9qiv7rvbgii93ybd94dm"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/jamescherti/single-window.el")
+   (synopsis "Always open buffers in the current window")
+   (description "Documentation at https://melpa.org/#/single-window")
    (license #f)))
 
 (define-public emacs-sink
@@ -106511,14 +106563,14 @@
 (define-public emacs-vertico
   (package
    (name "emacs-vertico")
-   (version "20260907.519")
+   (version "20260913.1525")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/vertico.git")
-           (commit "8581ed12e9190005ea9afaef19f2a22951aa1bfb")))
-     (sha256 (base32 "1m6wym0k6p6zk7a8drqzkqvnqm4l219m8gm88zxidyfczbl62cjh"))))
+           (commit "a9998a777f1d92348f84d091bb15b87df933a7a2")))
+     (sha256 (base32 "0sccw9xc12gzshfc6sbyqhphsx8lkbpx2n0pfwwq4n8nwqy343ay"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/vertico-*.el")))
