@@ -1245,14 +1245,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20260908.137")
+   (version "20260914.1318")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "0f2cac4f9ee7998145a1d4710eb1ea5b2fa9d98f")))
-     (sha256 (base32 "09030phdxh8cpi943fpqhw24yc2z74bdfrcv3vlwvbn55s3aj7x8"))))
+           (commit "242cef63d76cc1073485847f67a21f6d8406d158")))
+     (sha256 (base32 "021af4igln3pfsgkq08j7j50vrz6pjcbpxshzsfyss4ykzg2wgqv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -1663,7 +1663,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260914.403")
+   (version "20260914.1450")
    (source
     (origin
      (method git-fetch)
@@ -16966,14 +16966,14 @@
 (define-public emacs-cppinsights
   (package
    (name "emacs-cppinsights")
-   (version "20260628.722")
+   (version "20260914.1250")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ignity21/cppinsights.el.git")
-           (commit "552d959a7313e746b2a343991bffb9c2271dba47")))
-     (sha256 (base32 "0rp3xbklgbaacwlzimb6hhizb4qjzhjmdgbypa0h7bkqkwv0l7fi"))))
+           (commit "528a5e61fffc2e0302cead4b8ab4105f9f8a14a2")))
+     (sha256 (base32 "1ipxf55icrjbn64hnq24h37cr9bmk888pvqqn6krpmdnqh7d8lb6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ignity21/cppinsights.el")
    (synopsis "Integration with cppinsights tool")
@@ -26049,14 +26049,14 @@
 (define-public emacs-elfeed-protocol-freshrss
   (package
    (name "emacs-elfeed-protocol-freshrss")
-   (version "20260911.2247")
+   (version "20260914.1357")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/lou/elfeed-protocol-freshrss.git")
-           (commit "997db2e6849daccdcc7d936f15ce8ed892ad7bbe")))
-     (sha256 (base32 "1g03vwalzpzwcj7624lavlgk3g95mjf938v8gcvgkhi4np307p9k"))))
+           (commit "04b373d1b4deae95e4ea3ede001e74fabbc3ba66")))
+     (sha256 (base32 "0l19iyvfvliaax3hkwpmdyxl0qxr1fjqyxmgf6djs309g6xrbalf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-elfeed
@@ -26065,7 +26065,7 @@
           emacs-request
           emacs-request-deferred))
    (home-page "https://codeberg.org/lou/elfeed-protocol-freshrss")
-   (synopsis "FreshRSS protocol for elfeed")
+   (synopsis "FreshRSS compatible gReader protocol implementation for elfeed")
    (description
     "Documentation at https://melpa.org/#/elfeed-protocol-freshrss")
    (license #f)))
@@ -32501,14 +32501,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260914.1013")
+   (version "20260914.1514")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "fa18b7ca2196de56b1696d52372eeea1f5cee7b3")))
-     (sha256 (base32 "0yx7hx9xnbhdpi2h24570y5m4z4g2wbp52lf4b9ardsqnjg28hv1"))))
+           (commit "0653186672e7ccf4e593175bb5444a2940e4f662")))
+     (sha256 (base32 "10lmrspzajyp30nx515xqv675s2lf0g4caiv1jym951ldmlzch0n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -50158,14 +50158,14 @@
 (define-public emacs-hyperstitional-themes
   (package
    (name "emacs-hyperstitional-themes")
-   (version "20260911.2025")
+   (version "20260914.1532")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/hyperstitional-themes.git")
-           (commit "83b56d201ddd1d6ff9e5888c007eb5443dc2b78a")))
-     (sha256 (base32 "0zc933gha7hknp1bxdkj4jvkgncikvda99qrfah2q2anrqdgvgks"))))
+           (commit "c9271e63f2869ea6787d4ef9ba834958fd565474")))
+     (sha256 (base32 "075f077ixdmzi9l1z033w49fw7088j7v2fygbsivargbiiwjf1lv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/hyperstitional-themes")
    (synopsis "Weird themes with incremental palettes")
@@ -81987,7 +81987,7 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260914.836")
+   (version "20260914.1250")
    (source
     (origin
      (method git-fetch)
@@ -94642,14 +94642,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260909.2247")
+   (version "20260914.1711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "b66f63b76f6aa0db833262c55beb951cdcbf82b2")))
-     (sha256 (base32 "0dff0rk8q4280lzlkbskrcrvxw82jdxp53cdzs55sfbw9r5hkn5p"))))
+           (commit "15a6728b6d34497c44b86320290e140855bc573e")))
+     (sha256 (base32 "013b4d708rks20birda2y3l2k4zsc57d4lzs9p0jrbqxk1xvfi95"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -101501,14 +101501,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260907.807")
+   (version "20260913.1633")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "e258e266de77405c0e932c3dcdf83e059cac16dd")))
-     (sha256 (base32 "06lxa8dfnba93whlsiq0vy25mb2lr6v1nj6cwh9jbdfhv4a1ny6j"))))
+           (commit "6791e210ddb972cf1e9314464b03f1da263a7ce4")))
+     (sha256 (base32 "022cfm49iz6v73dvy28b81das18aygxx4856f8sqyad9wp4gg7zq"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -107305,14 +107305,14 @@
 (define-public emacs-vterm
   (package
    (name "emacs-vterm")
-   (version "20260730.1414")
+   (version "20260914.1641")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/akermu/emacs-libvterm.git")
-           (commit "70921114908ebb260d6686db8cbe2445a64f90a2")))
-     (sha256 (base32 "02xxrfvpm4kzgc5yxvi027q6dn7xwwd4birbkhwpr9yb7sj6kyr3"))))
+           (commit "6d715a93fa0e5182bc137d4db09f376e06938aa5")))
+     (sha256 (base32 "1mxarcj4qgpl3mqxl532jqjj3spyy9p1gdgpil58rgx89hy99gbw"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -107498,7 +107498,7 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260914.1248")
+   (version "20260914.1423")
    (source
     (origin
      (method git-fetch)
