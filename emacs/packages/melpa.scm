@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260911.1130")
+   (version "20260914.403")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "7377ba827c315fe1aff214f9ba8096068b03a68b")))
-     (sha256 (base32 "1y9sqil3sbvkj6r0q4sapvq5fbldnkyryld87pf0kgrx6fnlmh4g"))))
+           (commit "6ae364b57b399b803f757a5634b301e8656e19a2")))
+     (sha256 (base32 "1s32c00k12hjf2njly5jqgaaj11w8b94d1397a2z4b8yddpzqs3k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1842,14 +1842,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260906.1837")
+   (version "20260914.300")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "e79f1af6820ac18278c2ff60458a0bcbc733216b")))
-     (sha256 (base32 "0i3hz2z69d7w3lz5p85mqn46i4fvrv54bcl7gbd53c4kvzs5dmsp"))))
+           (commit "56859707a090cbd01083023287dd2a4bb4c54691")))
+     (sha256 (base32 "1n7h71wzj910cs6d74i8szkm9bvzrg2xlv6jn3szmp2rh0s7z218"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -12414,14 +12414,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260907.203")
+   (version "20260914.644")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "4cc6e93c4e6357016d9da9e57bc8102dc0181b44")))
-     (sha256 (base32 "1dym7fvyjb4pxk7sc06jchv5y6xkrj93a2lx8ka6k3fnfbyz3d6f"))))
+           (commit "8cad904556c9ea059bb9259bffadc067b08c3595")))
+     (sha256 (base32 "0fms9dx2q0r0861zkj8s7jlwkfqni0anr5f5rrmixnkrnn40hrc7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -18473,14 +18473,14 @@
 (define-public emacs-darcula-theme
   (package
    (name "emacs-darcula-theme")
-   (version "20260617.1603")
+   (version "20260914.934")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fommil/darcula-theme.el.git")
-           (commit "89e81a156f375306aa0aa639b3d0161543ce514f")))
-     (sha256 (base32 "0i8x4a9kds8v0j3rdlrs3rl2k4vkksp1w4ik61r5zk79ip8lnpy0"))))
+           (commit "33a1b12ea0823cfa82ab8d6d5b67c2d2217994f3")))
+     (sha256 (base32 "0sk80g0qhhgkwah4qqrngy1blcydy3arl9vxsqqw7qx5a8idla9q"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/fommil/emacs-darcula-theme")
    (synopsis "Inspired by IntelliJ's Darcula theme")
@@ -24927,14 +24927,14 @@
 (define-public emacs-eglotx
   (package
    (name "emacs-eglotx")
-   (version "20260911.1047")
+   (version "20260914.409")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cxa/eglotx.git")
-           (commit "35375c8d4aac8d4515cc8e43ab052a053b897eb5")))
-     (sha256 (base32 "19bi3p0wjqcmp4072dpvn8rdv3g7f02yq9ri57k64b4p9nahdpi2"))))
+           (commit "445f9e149ebd21bd9ff6bb3851bb0cdad060b785")))
+     (sha256 (base32 "157lvb9fw5jzkwlv9czw11k6f79zw5hrs849av6dycpmgfr9lz0x"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/cxa/eglotx")
    (synopsis "Native LSP multiplexer for Eglot")
@@ -32501,14 +32501,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260913.1117")
+   (version "20260914.1013")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "cfe908956c44ddcd04b69fb565e16f668b319a88")))
-     (sha256 (base32 "0vwnbvpprs9kwg86v91628pflvj7bwwkis5b4bvhkf5isg8a0m4p"))))
+           (commit "fa18b7ca2196de56b1696d52372eeea1f5cee7b3")))
+     (sha256 (base32 "0yx7hx9xnbhdpi2h24570y5m4z4g2wbp52lf4b9ardsqnjg28hv1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -33789,14 +33789,14 @@
 (define-public emacs-fj
   (package
    (name "emacs-fj")
-   (version "20260913.1611")
+   (version "20260914.1038")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fj.el.git")
-           (commit "ab7e2f03bbb966649f682c44aaf22690d24fd021")))
-     (sha256 (base32 "00j6m9s29d99wds2s8p8i3d1y79m1bn40nki7c8gwh731j6zxfwd"))))
+           (commit "0884ccdfb85ad27e66e72417b2a225b7bdb8b389")))
+     (sha256 (base32 "1gncfdb70dslm9bdda5382mbrrqy13svy4c9d8r42p6160bpxkl7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-fedi emacs-tp emacs-magit))
    (home-page "https://codeberg.org/martianh/fj.el")
@@ -40107,14 +40107,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260913.1652")
+   (version "20260914.1114")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "9bf8c7a7f624eaba60d46b7b1123d29c39a2f4da")))
-     (sha256 (base32 "1jxfyvy39wd5l3k4gx35v53npd9bzz0icj2wnm6468lib4lh3blz"))))
+           (commit "7531ba4d1f854923dce3eedd024d3f28fbca5931")))
+     (sha256 (base32 "11ii3ry8xw9jscnh9d8sc15s1xrz136i4xlm4d5wq5nii9k2h5x7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -52397,17 +52397,16 @@
 (define-public emacs-intellij-theme
   (package
    (name "emacs-intellij-theme")
-   (version "20171017.1415")
+   (version "20260914.935")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/intellij-theme-"
-           version
-           ".tar"))
-     (sha256 (base32 "1ssz7rbg37mjvbi78x3vzr6yc6ld58mi8zb410zwpkxb4a0jl5rs"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/fommil/intellij-theme.el.git")
+           (commit "c1db433761b7a63ca1efed956b05c2c1366932ae")))
+     (sha256 (base32 "0agl26lzbkg7kfapwj3kgx350ha4wjkkqqhv2rjz4am6qax66lkf"))))
    (build-system melpa-build-system)
-   (home-page "https://gitlab.com/fommil/emacs-intellij-theme")
+   (home-page "https://github.com/fommil/intellij-theme.el")
    (synopsis "Inspired by IntelliJ's default theme")
    (description "Documentation at https://melpa.org/#/intellij-theme")
    (license #f)))
@@ -60906,14 +60905,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260913.1719")
+   (version "20260914.1046")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "ac5f25389713a653e80433d2fd1ee22d14f4dea5")))
-     (sha256 (base32 "1c485jp79gc3bg0vs3h0v0gcyav5dmq4khpx8sisakxc0jkzk1gg"))))
+           (commit "5943024b7df4617d3ef302c78761727a205f56d8")))
+     (sha256 (base32 "1qfq0zz14pcq0w14knfz2jwlhqncsfa8v0bhql4xq7rggpsnzx35"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
    (synopsis "Grammar and spell checking for LaTeX, Markdown, Org and more")
@@ -69489,14 +69488,14 @@
 (define-public emacs-nonogram
   (package
    (name "emacs-nonogram")
-   (version "20260909.654")
+   (version "20260914.727")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/andros/nonogram.el.git")
-           (commit "b72785e325d4ad1f61bc2c49e24e8e5bc5e16305")))
-     (sha256 (base32 "1r785pksxa62l60ymyj677wzlb77s7j1c24jib82xw96b494gb7b"))))
+           (commit "4fdb98adbe5272884ec698fee369d8dfe7b3a289")))
+     (sha256 (base32 "08d3n10079zsbxzbzpd232yk99q4fzhpn7gxlc6v04298chrnyyz"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("puzzles" "puzzles/*.non"))))
    (home-page "https://git.andros.dev/andros/nonogram.el")
@@ -73617,16 +73616,16 @@
 (define-public emacs-org-clock-dbus
   (package
    (name "emacs-org-clock-dbus")
-   (version "20260913.1237")
+   (version "20260914.956")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pjones/org-clock-dbus.git")
-           (commit "4f19fadbaecb8afdd3b4751518139bdc5992f018")))
-     (sha256 (base32 "11ivs9m8q5qzpv2ybzpa2a6hrizndl1i86blqwyfc8yy71j40v4m"))))
+           (commit "608017dd753a9ef4ae1781773b38fd23d3d7520a")))
+     (sha256 (base32 "0ff66ayww1g608zhyb6626x5wwa4cdywfr05jdf0j19cxl385cks"))))
    (build-system melpa-build-system)
-   (home-page "https://github.com/pjones/org-clock-db")
+   (home-page "https://github.com/pjones/org-clock-dbus")
    (synopsis "Monitor org-clock from D-Bus")
    (description "Documentation at https://melpa.org/#/org-clock-dbus")
    (license #f)))
@@ -79377,14 +79376,14 @@
 (define-public emacs-package-build
   (package
    (name "emacs-package-build")
-   (version "20260901.1127")
+   (version "20260914.913")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/melpa/package-build.git")
-           (commit "c22bc81e571385b8e7ea857a4d7c18c265f82794")))
-     (sha256 (base32 "1ar0jsyyc1dildaz43jg86qhgwrrmypd0byn6g0gzvlwfj0kz58r"))))
+           (commit "8df11f0c3aff221441967133878cb5a4e1cd8dd4")))
+     (sha256 (base32 "1fd56y2sclc55hv8clsvvc1v0hzgny44aqrzbgfw35blbwy309r5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "package-build.mk")))
@@ -81988,14 +81987,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260913.347")
+   (version "20260914.836")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "aacc6fad91c484f13671acf9c5a5f176578a65a3")))
-     (sha256 (base32 "044wmsqwlnyk89byrzdg74gb9rlvzgz2i6y1apb0c1zsjlm457ln"))))
+           (commit "6200165139db53f1bafabfcc6236bde696237db7")))
+     (sha256 (base32 "0nbfgdhw0l6hagadbwhl9q01fdib1banl62hwvyr2sy1mwzh007j"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -89865,14 +89864,14 @@
 (define-public emacs-rimel
   (package
    (name "emacs-rimel")
-   (version "20260907.144")
+   (version "20260914.618")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/rimel.git")
-           (commit "af5cf35e0ed3f5cd3dc040bfc19051d564223e52")))
-     (sha256 (base32 "1p51m0i1yy3g4s0r8x2s0hjzpsmfg4aa4dfpmr6mlaj0sww7yrwb"))))
+           (commit "e05f4b0eb2d6d5f9212e91bab5e4b3314db8ff0e")))
+     (sha256 (base32 "1x09w77b0gbi9xswbk6kn8g4jdcichrd96hkc1cjdjlfvm7xy1q6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-liberime))
    (home-page "https://github.com/emacs-rime/rimel")
@@ -94375,7 +94374,7 @@
 (define-public emacs-single-window
   (package
    (name "emacs-single-window")
-   (version "20260913.1919")
+   (version "20260914.322")
    (source
     (origin
      (method git-fetch)
@@ -107499,14 +107498,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260908.1504")
+   (version "20260914.1248")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "6e8b664f091134cf01b92dee214de642ae9a46a1")))
-     (sha256 (base32 "181n7gjwqd389d1lp7jkgqljpml6m1mjmr77pb9vd71xiil2di2q"))))
+           (commit "aaf2743ebcd046426b9b9877828ba7c25c6104f5")))
+     (sha256 (base32 "1g97vlz6y7q4k90q599a5yj1b8shicvfcpd3msizfabr80b4iczr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
