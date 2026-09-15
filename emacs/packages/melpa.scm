@@ -20327,14 +20327,14 @@
 (define-public emacs-difftastic
   (package
    (name "emacs-difftastic")
-   (version "20260408.950")
+   (version "20260915.1549")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pkryger/difftastic.el.git")
-           (commit "7db20929cac31687a529943c3d8d5b44fd8d69e2")))
-     (sha256 (base32 "0x9xsc491y2z6z7pyq372y3ppawf8k7xlv62c111cyhgz24m92wd"))))
+           (commit "98c61e7dfac8d1ad4451423395da6bc14caa41df")))
+     (sha256 (base32 "12adlrsy2wlb0n4dv6f6sjh64zvs22w2nx6lq8kc1zi5l8yslcpv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-magit))
    (home-page "https://github.com/pkryger/difftastic.el")
@@ -24065,14 +24065,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260914.2329")
+   (version "20260915.1625")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "c9f06b01bacc6fff9846633413761b0b324bb30b")))
-     (sha256 (base32 "13yw2bq2dzflkjfncgvvf31q9w97dp53h0g18n2jjpj8c8hm8ilh"))))
+           (commit "3f2567bc4d601c09702bf77f50dade7e4fc1054b")))
+     (sha256 (base32 "1bx109qhk9wxck5vqd4b3kbmk19pf4d5nn54akdk06kplzbh108r"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -77403,14 +77403,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20260915.29")
+   (version "20260915.1525")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "35fa2e076df2623b3134ffa8887b7ce8dcc4bc55")))
-     (sha256 (base32 "1992h77wqk4jj4p0r84lr51d6wq9f10jg39b4i99gj7fd6s9bfy1"))))
+           (commit "1fda1b85e5d5f7aae9bae2aed17c0efa15d2c7ca")))
+     (sha256 (base32 "1mn6fayyrvb491xcdgsjgs9n1qlmdy1px6zijlcwbnaj5p7asiwc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -87239,14 +87239,14 @@
 (define-public emacs-r-ts-mode
   (package
    (name "emacs-r-ts-mode")
-   (version "20260913.1314")
+   (version "20260915.1234")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/R-for-emacs/r-ts-mode.git")
-           (commit "50ceffa2b79fa316752ae0f49408cac2080ceada")))
-     (sha256 (base32 "1rnfh66nfpglgh00kfh2qf12hd8gh4cjnr8ym6slqz9cf8f1lhgz"))))
+           (commit "f5e4f6395a09a4d20a7dd41b5d8606ba56e39057")))
+     (sha256 (base32 "1nbq4s2qwggwyf7q88vkb46hfzrwmbmycg0ab8w8m9mqcf6j07dn"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/R-for-emacs/r-ts-mode")
    (synopsis "R treesitter mode")
