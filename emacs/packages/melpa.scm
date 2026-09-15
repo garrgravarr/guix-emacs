@@ -24065,14 +24065,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260911.1528")
+   (version "20260914.2329")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "b0851744294bbba7429a2f837a1d86223dd6a59f")))
-     (sha256 (base32 "0qdkbkiv9ysx5aqw5qv7w7r0nwrxsndvv30y06mk9wgnmwkaqhrf"))))
+           (commit "c9f06b01bacc6fff9846633413761b0b324bb30b")))
+     (sha256 (base32 "13yw2bq2dzflkjfncgvvf31q9w97dp53h0g18n2jjpj8c8hm8ilh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -33789,14 +33789,14 @@
 (define-public emacs-fj
   (package
    (name "emacs-fj")
-   (version "20260914.1038")
+   (version "20260914.1700")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fj.el.git")
-           (commit "0884ccdfb85ad27e66e72417b2a225b7bdb8b389")))
-     (sha256 (base32 "1gncfdb70dslm9bdda5382mbrrqy13svy4c9d8r42p6160bpxkl7"))))
+           (commit "fc8f28f5f62a2f9f88e6215bd38ff409f049b4e6")))
+     (sha256 (base32 "121cq2vygcwzq6a179nlq7vkdi3lq087djnk0lrav18a38gc32n8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-fedi emacs-tp emacs-magit))
    (home-page "https://codeberg.org/martianh/fj.el")
@@ -41529,14 +41529,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260914.23")
+   (version "20260914.946")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/emacs-gnosis")
-           (commit "190a68ecaa0fc3f30255985764317c73e558c575")))
-     (sha256 (base32 "0bmi9an51xkk7hax7hyldckfsp59qwmbyn0frhmqv6xq48k5dnwm"))))
+           (commit "78e34bbdd5f442447270c19c4df1883665294dd0")))
+     (sha256 (base32 "100p3zhb3zm5ck7g8icxpg8p3kcvhs8p27izzrxhjh9gkr40k9xy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://git.thanosapollo.org/emacs-gnosis")
@@ -73705,14 +73705,14 @@
 (define-public emacs-org-contacts
   (package
    (name "emacs-org-contacts")
-   (version "20260905.1342")
+   (version "20260915.201")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-contacts.git")
-           (commit "bc21e333851a92ce77c9f00b86c2f7a8795891a1")))
-     (sha256 (base32 "0lvnrl5c77fkrsaf2h07js86qcj43xr1lm19va2f7ajjxwygcmvr"))))
+           (commit "a9a29e6374eb4e7baa28ef82b8613acd6eac5c6b")))
+     (sha256 (base32 "11r98kgkl4vcyhc5nnkmqh9kqyqi1w1w06xwzka5zcxi4zwj5g36"))))
    (build-system melpa-build-system)
    (home-page "https://repo.or.cz/org-contacts.git")
    (synopsis "Contacts management system for Org mode")
@@ -77403,14 +77403,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20260909.1435")
+   (version "20260915.29")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "b0fe9c9e1486ba5b1446224050cfc600692e1dfb")))
-     (sha256 (base32 "1b4f90anp54a50hl8pll2ncb04ividzykv57idwm4x19hz2mx47q"))))
+           (commit "35fa2e076df2623b3134ffa8887b7ce8dcc4bc55")))
+     (sha256 (base32 "1992h77wqk4jj4p0r84lr51d6wq9f10jg39b4i99gj7fd6s9bfy1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -85119,14 +85119,14 @@
 (define-public emacs-promptu
   (package
    (name "emacs-promptu")
-   (version "20260910.2252")
+   (version "20260914.2126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/promptu.el.git")
-           (commit "2a69977071fa7345e186eb0a187abb8b0a38224f")))
-     (sha256 (base32 "0wdr7vrjkhm85bzkwin191k46kn74imnnq3bxrjql3dxnawh2w10"))))
+           (commit "dab2146367083e610d587e065f041a6e2c948e53")))
+     (sha256 (base32 "0chqrqgqqgqzq2mvv1y7fw0rm6li72fwz49zqdkc1wjg4lfay4zd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/promptu.el")
    (synopsis "Compose LLM prompts from building blocks")
@@ -94874,14 +94874,14 @@
 (define-public emacs-slothbar
   (package
    (name "emacs-slothbar")
-   (version "20251124.353")
+   (version "20260913.1248")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/agnes-li/slothbar.git")
-           (commit "52010da65a4688b2b2f16427f81dfeedf4443077")))
-     (sha256 (base32 "0g31a46j3d782sbppmv5yrbzxch8fc4wjp3g1dp7x8v2ggm9mn9x"))))
+           (commit "5b1b7f5c45e5e468754c6e676e97223529cd4575")))
+     (sha256 (base32 "10yvivyakskm6b889fhi7b4qpylafzka5vkhb70hj2k40xxqc7yp"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-all-the-icons
@@ -100621,14 +100621,14 @@
 (define-public emacs-temporary-persistent
   (package
    (name "emacs-temporary-persistent")
-   (version "20230115.1425")
+   (version "20260914.1800")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://gitlab.com/kostafey/temporary-persistent.git")
-           (commit "edbde738769e79ac212ae84ae7898ffd5f19e0f1")))
-     (sha256 (base32 "0v99azfslg8p6wxs3yf3qq3dzy0f6n9dw5ydj94jrys2ka5gbw1s"))))
+           (url "https://github.com/kostafey/temporary-persistent.git")
+           (commit "36010e0ce2d6dffc321d7a0b4e7426f53ab3936b")))
+     (sha256 (base32 "0w52c8vma67ql5i4syfcmay9cvzpnylml6s3a8d12ql8w2r0lmh3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-names emacs-dash emacs-s))
    (home-page "https://github.com/kostafey/temporary-persistent")
