@@ -3246,14 +3246,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260903.56")
+   (version "20260915.1628")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "d97806bf2b5b72f1e3df01e9a045a4d242906b65")))
-     (sha256 (base32 "1hr6xdm036fnz50pgj881mnlgb4a95m0crxvxnbbjil26814a679"))))
+           (commit "047119b7c6f18ffdbf5f88116a427f7e38653cc6")))
+     (sha256 (base32 "1dpr109rw7cilhq4bkjc5hw2qxzi5ccm7218ia7jp5j72m16cmgi"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -10269,14 +10269,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260830.807")
+   (version "20260913.806")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "bbdd731d1a78eecc07ec612743130de6401a4bc6")))
-     (sha256 (base32 "12jwi58yvbxdy5f8vcyp60lcr3s8px8qg1q30k4czzsz07x95xfv"))))
+           (commit "30b32e519a33a7659212148edc738044ba091336")))
+     (sha256 (base32 "1dyi5y14gx5wbzlzabnlcsr1g7x4y98ny5vn74s5vb4j7xdhwwj4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -32501,14 +32501,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260914.1514")
+   (version "20260915.2111")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "0653186672e7ccf4e593175bb5444a2940e4f662")))
-     (sha256 (base32 "10lmrspzajyp30nx515xqv675s2lf0g4caiv1jym951ldmlzch0n"))))
+           (commit "a3c7c836e825713210b9d4dba55526b85855a011")))
+     (sha256 (base32 "1zbrw55la36xcw613mhlxa8g69vcnv6qz84mmljdgf0vdfvsn5yb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -33789,14 +33789,14 @@
 (define-public emacs-fj
   (package
    (name "emacs-fj")
-   (version "20260914.1700")
+   (version "20260915.1800")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fj.el.git")
-           (commit "fc8f28f5f62a2f9f88e6215bd38ff409f049b4e6")))
-     (sha256 (base32 "121cq2vygcwzq6a179nlq7vkdi3lq087djnk0lrav18a38gc32n8"))))
+           (commit "d13fd40e2a546ec654a24ad450d052f9eebe8904")))
+     (sha256 (base32 "0cdn9mmqsx52jr586yrd0jzmcffhy831g1n9pc8h90c4ypwfnnws"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-fedi emacs-tp emacs-magit))
    (home-page "https://codeberg.org/martianh/fj.el")
@@ -40107,14 +40107,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260915.554")
+   (version "20260915.2000")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "f1b03e52c4c48bd66772317ebedfa374a4083afe")))
-     (sha256 (base32 "0vq68pxmr9hywi1vw1ighl6kyq6kll7f5l1bh7xvrdi663m1lcr3"))))
+           (commit "378320a5d10a1e868cfaee0f7fb71c1ca59b5828")))
+     (sha256 (base32 "0zkk87nws9rg7zmcdbyz4dmzzvcbklkygspbc046hwb7x9v0n0nv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -56392,17 +56392,17 @@
 (define-public emacs-key-seq
   (package
    (name "emacs-key-seq")
-   (version "20150907.756")
+   (version "20260915.2033")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vlevit/key-seq.el.git")
-           (commit "e29b083a6427d061638749194fc249ef69ad2cc0")))
-     (sha256 (base32 "05vpydcgiaya35b62cdjxna9y02vnwzzg6p8jh0dkr9k44h4iy3f"))))
+           (commit "f16103e00caa0fe250c64f690a19b662e011012f")))
+     (sha256 (base32 "0hlf9ffhwyvh8bgph12v1q2krsasr5hi31zjavg66piihyd994qi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-key-chord))
-   (home-page "http://github.com/vlevit/key-seq.el")
+   (home-page "https://github.com/vlevit/key-seq.el")
    (synopsis "Map pairs of sequentially pressed keys to commands")
    (description "Documentation at https://melpa.org/#/key-seq")
    (license #f)))
@@ -63432,14 +63432,14 @@
 (define-public emacs-matlab-mode
   (package
    (name "emacs-matlab-mode")
-   (version "20260428.1740")
+   (version "20260915.1705")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mathworks/Emacs-MATLAB-Mode.git")
-           (commit "83ea45983975bc6d17a908bf4acddfc47d51763a")))
-     (sha256 (base32 "1r9ky4rdjp4vzbzkzi0xjr5arjwmih22bq1qsnch3gq83x3yxxnj"))))
+           (commit "83d0aca7f6c817c0a418c773a59bd08e8f5dca5c")))
+     (sha256 (base32 "009gm8wkw3p05a8q82yz8vzqhkcjh101xn53d83wlq4i5rlx3zb0"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -63970,14 +63970,14 @@
 (define-public emacs-meow
   (package
    (name "emacs-meow")
-   (version "20260714.1200")
+   (version "20260915.2338")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/meow-edit/meow.git")
-           (commit "aa8aec19e70369b547176e625f5b95c4a8565e8e")))
-     (sha256 (base32 "1mgrh9yfhv0nvb0x1ab0bmyl8x7wzb6av5ywkxidnn4jllvf1n07"))))
+           (commit "8aebed9f8cd8d865501b780e63acbeef55da231b")))
+     (sha256 (base32 "0y7mc922s2ndnkq5r7qk3g1yxqbd7cq97382a4vn42z478cj7l83"))))
    (build-system melpa-build-system)
    (home-page "https://www.github.com/DogLooksGood/meow")
    (synopsis "Yet Another modal editing")
@@ -65183,14 +65183,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20260915.1201")
+   (version "20260915.2242")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "66ba3d802c69ad0f81e07520c2eba38daf373eba")))
-     (sha256 (base32 "1r1nv4fgdds2rb8rmkscf1p0lfxnfqqn087b1b6595zis63lxxhi"))))
+           (commit "b1e6dd9136c9591294da4a797d2114c7c33d3302")))
+     (sha256 (base32 "0pwpjb4rbfr782ibhrvy3v2x2by9iksslq1hb91lydrgxmq1ivq3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -65725,14 +65725,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260911.443")
+   (version "20260915.1808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "ca6f09900a2abe5de161f9f68d94cf5126c47885")))
-     (sha256 (base32 "1lx0a5p4z5jkbbbbwp8360w21z2wxfzanwzxsiici6pfvkrb4amg"))))
+           (commit "7d739dba47397fcf16a50ac87e09b016c83560e3")))
+     (sha256 (base32 "0l7n87a9kpksa9qypzgm2svfqqxdmq9yhspz7020lcz5n1i0jxzg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -76096,14 +76096,14 @@
 (define-public emacs-org-roam-timeline
   (package
    (name "emacs-org-roam-timeline")
-   (version "20260103.123")
+   (version "20260916.23")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/GerardoCendejas/org-roam-timeline.git")
-           (commit "8252fb48d482c55c662eaa2e757b035479eb32e7")))
-     (sha256 (base32 "0qsw32hxh8kllp6f3ic5vac8g9m4qq06pv8rjy9z5sxid73c1416"))))
+           (commit "0c7fc0a77fac5ac42966f550bbc4fa8883835194")))
+     (sha256 (base32 "017nbyw09w75d9f3dy76d3x67yv65dx3q2bdbzg6q4y7q2lphfzs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-org-roam emacs-json-mode emacs-simple-httpd))
    (arguments '(#:files (:defaults "html")))
@@ -77403,14 +77403,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20260915.1525")
+   (version "20260915.2146")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "1fda1b85e5d5f7aae9bae2aed17c0efa15d2c7ca")))
-     (sha256 (base32 "1mn6fayyrvb491xcdgsjgs9n1qlmdy1px6zijlcwbnaj5p7asiwc"))))
+           (commit "faecaf5df1d208b3814220bfa52acd3094c70649")))
+     (sha256 (base32 "111p9sd1hlr7zyrw0555ixq5k7qjw0spq40zgng5hw4fchqgwjan"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -97550,14 +97550,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260907.329")
+   (version "20260915.2223")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "6b77411c4191dc26113658bae101a92828427c46")))
-     (sha256 (base32 "1hi4iayxd8xni7n28yg6rc9w1np6lny7wimc2hyrdp9cnpyzixrp"))))
+           (commit "9a3987e73465dded7fd5370e017e42501cf433d9")))
+     (sha256 (base32 "0w68mci95r70bc4wfslnnlzwhlfz7wvjf8nwmj64k816cyipkhl2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -106423,14 +106423,14 @@
 (define-public emacs-verilog-ext
   (package
    (name "emacs-verilog-ext")
-   (version "20260716.1137")
+   (version "20260915.1813")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/verilog-ext.git")
-           (commit "55ae3e820a33bfa33e7d78a217352095b7f1e8b2")))
-     (sha256 (base32 "12aj4sqmmjx7p9gydjpfa7xj8awfrbgf7v36xx1ixy3sabmrhs9a"))))
+           (commit "25bae4107e7aa644baebd7c41fe5003cd55c3b66")))
+     (sha256 (base32 "0vmjf2i8d3nrazak3qz7i874yki3fhgyjq4c6kl9h8slpawn2zbq"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-verilog-ts-mode
@@ -106635,14 +106635,14 @@
 (define-public emacs-vhdl-ext
   (package
    (name "emacs-vhdl-ext")
-   (version "20260716.1401")
+   (version "20260915.1814")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/vhdl-ext.git")
-           (commit "8a1864c06066b949e38a3ced48364c2006f939c1")))
-     (sha256 (base32 "0l5rzbg29i1nilqs8pkm17w7z5zmcnvpzdwb1kgwws2cfdqxjfs3"))))
+           (commit "cf36dd1a1001e53af02e74f487a85194d6ba87ab")))
+     (sha256 (base32 "1g9gx80mw7x5hvx9ysd02rq737fnal1sdm01xhdi8k6c5z6abcsj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-vhdl-ts-mode
