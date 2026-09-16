@@ -843,14 +843,14 @@
 (define-public emacs-ac-php-core
   (package
    (name "emacs-ac-php-core")
-   (version "20260911.454")
+   (version "20260916.626")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "b626cc6b3a343b2431f2e13b241b1612da5fc3f4")))
-     (sha256 (base32 "0j6mzs0agmbnvcxdjxlp03ndpw7yp3pq1x458l39q2k4crdw5sx8"))))
+           (commit "291595d9de6649f60d0363c1c75e6326ee4d4fff")))
+     (sha256 (base32 "11zf7pqpr9azhzwlz3mwsxg03mwdnwy9w6g9dp476v45960axqnm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-php-mode emacs-s emacs-f emacs-popup emacs-xcscope))
@@ -10497,14 +10497,14 @@
 (define-public emacs-chatu
   (package
    (name "emacs-chatu")
-   (version "20251113.2350")
+   (version "20260916.242")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kimim/chatu.git")
-           (commit "54fde21a03de78fc234ff3ce25a84fc4833adbca")))
-     (sha256 (base32 "0ab2h59d4vampalp1mx6mzlyjap9azc9b39qid3br89m4w2qkikf"))))
+           (commit "ba58f2ca0d27676b11afc9fe071227424f5b369f")))
+     (sha256 (base32 "0v5j1y1bxlj1a4nhr9q2jcgyjydpgwmy0fawwyg2jil03qx3wsma"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plantuml-mode))
    (home-page "https://github.com/kimim/chatu")
@@ -12414,14 +12414,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260914.644")
+   (version "20260916.804")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "8cad904556c9ea059bb9259bffadc067b08c3595")))
-     (sha256 (base32 "0fms9dx2q0r0861zkj8s7jlwkfqni0anr5f5rrmixnkrnn40hrc7"))))
+           (commit "3ea2db4f8b1f31d95301de070bbde95251187727")))
+     (sha256 (base32 "0kwyhk9ii2j3kdjxi8y0z839b4d0szwsmb8lp46ixk3mjhc5nnxs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -22460,14 +22460,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260911.1831")
+   (version "20260916.654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "c07049eef28caa499625895f530a02acf66843f0")))
-     (sha256 (base32 "1kyxcfhjhh237vl5kv8sb6pnj2l0knzr1s8r9cl811imhnbpwzwy"))))
+           (commit "7241374940605300fa5e372d0e836b2c409a9728")))
+     (sha256 (base32 "1a7xypjq2yjgnslf0y1rkzx70qg138fwid5a3knnjncal8ap0vj2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -41529,14 +41529,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260915.1034")
+   (version "20260916.735")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/emacs-gnosis")
-           (commit "847727f08329bbcea9e22bfc53578f9d3a13697c")))
-     (sha256 (base32 "1gy0j93m46wix31zmxdmlqr8mrbzqciza86hlgbi6fggmgrmwdl0"))))
+           (commit "3bbd5489d9c3208a62852302bcac65e7085dfa9d")))
+     (sha256 (base32 "1s4vy7nhd7larfy8x2nh5zgqdb6abg75gwy6cc264za7ihqbhviz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://git.thanosapollo.org/emacs-gnosis")
@@ -65183,14 +65183,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20260915.2242")
+   (version "20260916.906")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "b1e6dd9136c9591294da4a797d2114c7c33d3302")))
-     (sha256 (base32 "0pwpjb4rbfr782ibhrvy3v2x2by9iksslq1hb91lydrgxmq1ivq3"))))
+           (commit "9a501016cf219b8dd99cc51083992100f889d5b1")))
+     (sha256 (base32 "1p8ib2a5dr2ni1ra01jvydz6gxv247pq8cbvd11xv9b0i3qjmq8h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -81949,14 +81949,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20260915.949")
+   (version "20260916.951")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "1be0e08bf0e84363f7a5dc818c1e0cd218f65dff")))
-     (sha256 (base32 "0yyr2wb32w0i1zry0had3v9kfb8dkzibgswr847bg6h40xd75whv"))))
+           (commit "c795351037df4ff9c49ea7ac89ca217770c3757e")))
+     (sha256 (base32 "1y85x8gwhrqjriywgiszgndnqbxih6k4jy0cygncn428ws8j2sk8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -84728,14 +84728,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260903.915")
+   (version "20260916.1153")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "641af5869549deb975e50e36a174693c24b2b305")))
-     (sha256 (base32 "06j2kgmy0xxs2ahf4hr7a13bcz5iqmw6171iq6128h47kgpj12jk"))))
+           (commit "847aacbd11b3b6b50537bd9a68036d718df3b42b")))
+     (sha256 (base32 "16h5n78cyc6rg4xn782c5w0h2iss6s64w12nfpaxaiyyffl7xq1c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -106423,14 +106423,14 @@
 (define-public emacs-verilog-ext
   (package
    (name "emacs-verilog-ext")
-   (version "20260915.1813")
+   (version "20260916.1022")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/verilog-ext.git")
-           (commit "25bae4107e7aa644baebd7c41fe5003cd55c3b66")))
-     (sha256 (base32 "0vmjf2i8d3nrazak3qz7i874yki3fhgyjq4c6kl9h8slpawn2zbq"))))
+           (commit "168fcee51bede972235e96dfccf7ab8c0c835e9d")))
+     (sha256 (base32 "05hfpbcnadmh6ahnjnhhf4x3yvaidcswqgj5aqz0ns8vx94ia0l2"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-verilog-ts-mode
@@ -106635,14 +106635,14 @@
 (define-public emacs-vhdl-ext
   (package
    (name "emacs-vhdl-ext")
-   (version "20260915.1814")
+   (version "20260916.1032")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/vhdl-ext.git")
-           (commit "cf36dd1a1001e53af02e74f487a85194d6ba87ab")))
-     (sha256 (base32 "1g9gx80mw7x5hvx9ysd02rq737fnal1sdm01xhdi8k6c5z6abcsj"))))
+           (commit "70718eb2320662c6f2de80e5872c3d9bb989c7b9")))
+     (sha256 (base32 "0hrlq7pc24874qm8s4gf8d8ipjy51pp2gqy59cj2d9jgxqlsq0ks"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-vhdl-ts-mode
