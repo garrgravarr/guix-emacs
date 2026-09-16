@@ -11590,14 +11590,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260915.751")
+   (version "20260916.1224")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "37148afd595ab41625c73e6b6460028d9bc30db4")))
-     (sha256 (base32 "188hcv2q6nhl6idgz4armmjn58kffpz4xlrynrjzip7jdmf9bqr2"))))
+           (commit "2369e80459ba98f7827032fb3068648b27d591f7")))
+     (sha256 (base32 "0fd6d9ih7vcy2krgs1airyfmd21f2qvwh0qj1sxfwdxfm56qpybn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -17504,14 +17504,14 @@
 (define-public emacs-ct
   (package
    (name "emacs-ct")
-   (version "20260910.1219")
+   (version "20260916.1445")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/neeasade/ct.el.git")
-           (commit "c6036ca586cfb13b3bd83cfed0640e875dfe62cf")))
-     (sha256 (base32 "10b56z67x1s8rajwg7mla0jwl6iygxakg3vxbnvgldaja4w1dznn"))))
+           (commit "0183c1120a5b405c9886fa3ec3fabef4dc4f9ec6")))
+     (sha256 (base32 "0pv0icivadbq0wikvzdx77nwbb5k5v4b38w10dx20cmmms1k980k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-hsluv))
    (home-page "https://github.com/neeasade/ct.el")
@@ -22460,14 +22460,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260916.654")
+   (version "20260916.1147")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "7241374940605300fa5e372d0e836b2c409a9728")))
-     (sha256 (base32 "1a7xypjq2yjgnslf0y1rkzx70qg138fwid5a3knnjncal8ap0vj2"))))
+           (commit "64024735985ecb03d8d514b606a1539b8ef7b4d2")))
+     (sha256 (base32 "1nvhidqgc1ax3l40h7694q9sjz7nj7j1k826wkpgsg63m2ivjjax"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -24065,14 +24065,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260915.1625")
+   (version "20260916.1400")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "3f2567bc4d601c09702bf77f50dade7e4fc1054b")))
-     (sha256 (base32 "1bx109qhk9wxck5vqd4b3kbmk19pf4d5nn54akdk06kplzbh108r"))))
+           (commit "0dc74a863a3729c4397f7fe6264a366dbb8504c3")))
+     (sha256 (base32 "1lcjsdy7pqldnxd3bhkw11b3xwvma0dg2g4qqfr9wd0sxi7jfgwc"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -40107,14 +40107,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260915.2000")
+   (version "20260916.1042")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "378320a5d10a1e868cfaee0f7fb71c1ca59b5828")))
-     (sha256 (base32 "0zkk87nws9rg7zmcdbyz4dmzzvcbklkygspbc046hwb7x9v0n0nv"))))
+           (commit "9ba6fb3062145a9884aab8c9e11731c748689ce3")))
+     (sha256 (base32 "1cci3lcc2hmps9hhjg2i9rw2gyrxwr7cl4j3nrdk3k3d8fdb7jvd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -81949,14 +81949,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20260916.951")
+   (version "20260916.1621")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "c795351037df4ff9c49ea7ac89ca217770c3757e")))
-     (sha256 (base32 "1y85x8gwhrqjriywgiszgndnqbxih6k4jy0cygncn428ws8j2sk8"))))
+           (commit "ef41a0c121cc316d317fac804d7f6808effde90e")))
+     (sha256 (base32 "1sx2qkwghfk7gphka3qwx18h0bx88nn2c5nbxfcsg28n63nlmly7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -100390,14 +100390,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260906.1937")
+   (version "20260916.1221")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "77530cb45bba4c7f5a591533e6b4413c7658c41c")))
-     (sha256 (base32 "1f6gidg75jrmkzx9d58i5rkljh1mv9pcs4j9kgyqzax9bw32vm88"))))
+           (commit "bf4b3659d6c02ac6a558f58e852de01923b3951f")))
+     (sha256 (base32 "01wla1b67v655cxa9gs2bgd5i0k3rwrh7g0c228l94i1jhlbjykz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -100621,14 +100621,14 @@
 (define-public emacs-temporary-persistent
   (package
    (name "emacs-temporary-persistent")
-   (version "20260914.1800")
+   (version "20260916.1324")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/temporary-persistent.git")
-           (commit "36010e0ce2d6dffc321d7a0b4e7426f53ab3936b")))
-     (sha256 (base32 "0w52c8vma67ql5i4syfcmay9cvzpnylml6s3a8d12ql8w2r0lmh3"))))
+           (commit "f4bfecdf5ed99109da02e6c707882a08f50eefbc")))
+     (sha256 (base32 "09mnzjj96aj9n1hx0l6ycfgd6xf3f9ls1hpr0wvw688pxf067ws1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-names emacs-dash emacs-s))
    (home-page "https://github.com/kostafey/temporary-persistent")
