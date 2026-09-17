@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260914.1450")
+   (version "20260917.1410")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "6ae364b57b399b803f757a5634b301e8656e19a2")))
-     (sha256 (base32 "1s32c00k12hjf2njly5jqgaaj11w8b94d1397a2z4b8yddpzqs3k"))))
+           (commit "d8176098fe1651811cf1767f297c320aa0102929")))
+     (sha256 (base32 "0r5ysln1f6q6qd7vcpicjmbkddvkh3649dkl20k568cf2pfbm22v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -4224,14 +4224,14 @@
 (define-public emacs-audacious
   (package
    (name "emacs-audacious")
-   (version "20210917.51")
+   (version "20260917.1247")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/shishimaru/audacious.el.git")
-           (commit "65c37f12a5c774a0ae434beee27ff7737006dd2f")))
-     (sha256 (base32 "1pj3ryi1crnfvq3m8wyysb6pyvsp0x2wrvddlnpj031qk7xxdd6h"))))
+           (commit "634db44efbcd9899cd6f45fc9cb57f9d5c2b8074")))
+     (sha256 (base32 "184lqprya9xb4ysw6lg2hrbc37fcpfqjf9ziijqdfgap3gncx6ni"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-helm))
    (home-page "https://github.com/shishimaru/audacious.el")
@@ -22460,7 +22460,7 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260917.1017")
+   (version "20260917.1055")
    (source
     (origin
      (method git-fetch)
@@ -26784,14 +26784,14 @@
 (define-public emacs-elot
   (package
    (name "emacs-elot")
-   (version "20260804.900")
+   (version "20260917.1127")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johanwk/elot.git")
-           (commit "1c94cb4e961cbb1d79879d30f5ced6fd86945237")))
-     (sha256 (base32 "1hrl3n2fl7rxr0bj7sa7rh658261pgc7mki9pip3fmhsxshcqgzk"))))
+           (commit "a6a66f28ab7223b1caa275bb4c5e456b8f1c158d")))
+     (sha256 (base32 "0q989gvl6545mjzn730ywmg518jg9w68860cdm3y783x7qf80vg3"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -40107,14 +40107,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260917.650")
+   (version "20260917.1307")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "755c61a4bffa3d461d4c36d69c9f95cc9e31ea95")))
-     (sha256 (base32 "065swxsqdhkvbjp676fp3k3h6zhp5snid741ihhhl1cyy8fnjw35"))))
+           (commit "026e345c6c7dce958c0cbdca687a859dfd7f5063")))
+     (sha256 (base32 "1agjfdvvm8gzim6yr3khbgilgiaz9gd94pl7qafmlc48hgw79w92"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -50158,14 +50158,14 @@
 (define-public emacs-hyperstitional-themes
   (package
    (name "emacs-hyperstitional-themes")
-   (version "20260914.1532")
+   (version "20260917.1138")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/hyperstitional-themes.git")
-           (commit "c9271e63f2869ea6787d4ef9ba834958fd565474")))
-     (sha256 (base32 "075f077ixdmzi9l1z033w49fw7088j7v2fygbsivargbiiwjf1lv"))))
+           (commit "3e871497d31542b7485df826b5204903575617be")))
+     (sha256 (base32 "1b0nhgvx3036cih0ab3ag3yfrl2lm4zinsj4s0f7hn21zvm9d2g4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/hyperstitional-themes")
    (synopsis "Weird themes with incremental palettes")
@@ -77403,14 +77403,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20260917.1122")
+   (version "20260917.1350")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "61a479424d7cdd0a25b07dfc28cc837c7fbb058d")))
-     (sha256 (base32 "1f83sda10zjfmff7kxnz41w795vc1c5ibvalhx6vrxlwkx40i00y"))))
+           (commit "b9c7665c13c5a5b58c0d1bc67221574801e90022")))
+     (sha256 (base32 "0md156mbnplb3i8jjgw1h9phns9wmcap6bl1mnbi3rwhhdfdsn9q"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -100621,14 +100621,14 @@
 (define-public emacs-temporary-persistent
   (package
    (name "emacs-temporary-persistent")
-   (version "20260916.1324")
+   (version "20260917.1357")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/temporary-persistent.git")
-           (commit "f4bfecdf5ed99109da02e6c707882a08f50eefbc")))
-     (sha256 (base32 "09mnzjj96aj9n1hx0l6ycfgd6xf3f9ls1hpr0wvw688pxf067ws1"))))
+           (commit "2e2e5d950de345f320bb419c5894a3aae26010d8")))
+     (sha256 (base32 "03wi7dvha305fmgdssq6sf6hs7f8v65xngajc5lj5hmpf382vd6l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-names emacs-dash emacs-s))
    (home-page "https://github.com/kostafey/temporary-persistent")
