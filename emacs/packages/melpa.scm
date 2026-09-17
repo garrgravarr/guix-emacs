@@ -843,14 +843,14 @@
 (define-public emacs-ac-php-core
   (package
    (name "emacs-ac-php-core")
-   (version "20260916.626")
+   (version "20260917.528")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "291595d9de6649f60d0363c1c75e6326ee4d4fff")))
-     (sha256 (base32 "11zf7pqpr9azhzwlz3mwsxg03mwdnwy9w6g9dp476v45960axqnm"))))
+           (commit "0959afc45f24eec4ace3600609ce939c3ba77410")))
+     (sha256 (base32 "13hpg2n84flpwq6gmjybh9fmvhq13hsp5320qsb0279671q1ll66"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-php-mode emacs-s emacs-f emacs-popup emacs-xcscope))
@@ -1842,14 +1842,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260915.342")
+   (version "20260917.430")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "9fd89a5a35600247f7fc7dc67d815d8523c89c22")))
-     (sha256 (base32 "08iw5ym972fpx46bmpa5y5n1gjjfiszmmvfc356dgvjhn11z5r3l"))))
+           (commit "f83b1f7b693d91284f34965187e31768099f3382")))
+     (sha256 (base32 "1dcj4inab3rhxpdpawvv21ydfjbmhxiv88sgfgyf1j6aflc3qs6x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -15686,14 +15686,14 @@
 (define-public emacs-consult-org-roam
   (package
    (name "emacs-consult-org-roam")
-   (version "20260209.1805")
+   (version "20260917.441")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jgru/consult-org-roam.git")
-           (commit "781d9c1cfee8631bc125fa45bab92de320d3941e")))
-     (sha256 (base32 "18gwyv6zbbh4kqf8g8gz2rdi4sihmv7z9cmlksyg5j41a2l6imjg"))))
+           (commit "611d9a12e8dd4f4a53c89ffd9dba921267592cc4")))
+     (sha256 (base32 "0g0gxz3wfj28zfbmbbcz7dflw7azwmj412pglirg42py0fiw762v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-org-roam emacs-consult))
    (home-page "https://github.com/jgru/consult-org-roam")
@@ -22460,14 +22460,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260917.56")
+   (version "20260917.1017")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "8abd249fbdf5e9e8401069f48ae9729b7cec1261")))
-     (sha256 (base32 "1q2snh81fsf0vdl37z69ja6r1x00s3fdhygfixv4246x5w7kv0vx"))))
+           (commit "f80a74fdea1734962ee91678ae68b6bcd3d1c450")))
+     (sha256 (base32 "0glya2k0qi6ygbadiv3dyk931wqd9b1wmvb560qcry8xfd8fyhs4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -30590,14 +30590,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260915.554")
+   (version "20260917.650")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "f1b03e52c4c48bd66772317ebedfa374a4083afe")))
-     (sha256 (base32 "0vq68pxmr9hywi1vw1ighl6kyq6kll7f5l1bh7xvrdi663m1lcr3"))))
+           (commit "755c61a4bffa3d461d4c36d69c9f95cc9e31ea95")))
+     (sha256 (base32 "065swxsqdhkvbjp676fp3k3h6zhp5snid741ihhhl1cyy8fnjw35"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -40107,14 +40107,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260916.2007")
+   (version "20260917.650")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "4925190c930c36f683b19fdc72b0783b5d17a96b")))
-     (sha256 (base32 "0r699r8sdjp0b42gfs9kfzda4vcgif3mzj6xnwxx3kafxai3r32v"))))
+           (commit "755c61a4bffa3d461d4c36d69c9f95cc9e31ea95")))
+     (sha256 (base32 "065swxsqdhkvbjp676fp3k3h6zhp5snid741ihhhl1cyy8fnjw35"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -41529,14 +41529,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260916.735")
+   (version "20260917.739")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/emacs-gnosis")
-           (commit "3bbd5489d9c3208a62852302bcac65e7085dfa9d")))
-     (sha256 (base32 "1s4vy7nhd7larfy8x2nh5zgqdb6abg75gwy6cc264za7ihqbhviz"))))
+           (commit "b7a89ad0a94d200996c746540b52f6d3740b0aa5")))
+     (sha256 (base32 "0b2vawb50z35fij8jbzmh08z3jn2h55hv9ni78x8bkn0m6mkkz9x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://git.thanosapollo.org/emacs-gnosis")
@@ -77403,14 +77403,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20260915.2146")
+   (version "20260917.1122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "faecaf5df1d208b3814220bfa52acd3094c70649")))
-     (sha256 (base32 "111p9sd1hlr7zyrw0555ixq5k7qjw0spq40zgng5hw4fchqgwjan"))))
+           (commit "61a479424d7cdd0a25b07dfc28cc837c7fbb058d")))
+     (sha256 (base32 "1f83sda10zjfmff7kxnz41w795vc1c5ibvalhx6vrxlwkx40i00y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -86770,14 +86770,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260913.2233")
+   (version "20260917.256")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "1044565ea1aba5ee46447840717bbda368fd81ff")))
-     (sha256 (base32 "183zkhqacynf65wjnnz7m6rcq9vn2rn32cp5xh724clzxrybja11"))))
+           (commit "9928f507d2759fd6dacc04e4daa255356834bca1")))
+     (sha256 (base32 "09vg3v28qppr2y30hi8c8gad7nl2z4m6q48k526b24lm4wijnz9b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
@@ -92062,14 +92062,14 @@
 (define-public emacs-sculpture-themes
   (package
    (name "emacs-sculpture-themes")
-   (version "20260911.2013")
+   (version "20260917.1057")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/sculpture-themes.git")
-           (commit "89efb6bca369bb6240735e6228eb97d261a0e491")))
-     (sha256 (base32 "0wf24n0lcdpv2929pa8q3rk6bscm6armsqqa1ph25qzm0zmpk1b0"))))
+           (commit "da25ba4045f77a7880284732c3605c5686efdb61")))
+     (sha256 (base32 "1c57zdc1n8ywyr0jji5j5pd79vlv4sv7arll3rqxldq4vscflasc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/sculpture-theme")
    (synopsis "Themes with vivid colors")
@@ -96900,14 +96900,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20260911.213")
+   (version "20260917.237")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "eb1bf43f781abf882f041c3239db038d0f97a591")))
-     (sha256 (base32 "1bhwb0gwc4qna71dhigj2sw8iz6pi118ahy4clh39l3wmbcm33bn"))))
+           (commit "95eeba8ce68732c2c6de9f7f2804c017f1c729d2")))
+     (sha256 (base32 "1p8pm3x5r1n41yfbzs8q519xpbjx0x6fky7cidxrhhrsdp5chhdh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
@@ -97550,14 +97550,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260915.2223")
+   (version "20260917.332")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "9a3987e73465dded7fd5370e017e42501cf433d9")))
-     (sha256 (base32 "0w68mci95r70bc4wfslnnlzwhlfz7wvjf8nwmj64k816cyipkhl2"))))
+           (commit "a04b9d99291cf73afa1ae7ddceed51e3455fffd6")))
+     (sha256 (base32 "0rzqbs155j67bkzls7cpisk9bqpf82f8b5vz12jiz8xrbx8b4iji"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
