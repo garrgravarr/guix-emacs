@@ -16665,14 +16665,14 @@
 (define-public emacs-counsel-projectile
   (package
    (name "emacs-counsel-projectile")
-   (version "20260904.1240")
+   (version "20260917.19")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lafrenierejm/counsel-projectile.git")
-           (commit "713d504a4d9e0e2e0fda97160a85cd27abf63da7")))
-     (sha256 (base32 "03h4sm436il224z5yjamv5wim7rj9m8rwgp1kg0gszywcalrdhwl"))))
+           (commit "329118c32468b3c53ccd317df6699b58f1172a8d")))
+     (sha256 (base32 "1ab6mwg0xn9282szh337bs6kz4dcm5h48br024rllblm0izbl3yk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-counsel emacs-projectile))
    (home-page "https://github.com/ericdanan/counsel-projectile")
@@ -22460,14 +22460,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260916.1147")
+   (version "20260917.56")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "64024735985ecb03d8d514b606a1539b8ef7b4d2")))
-     (sha256 (base32 "1nvhidqgc1ax3l40h7694q9sjz7nj7j1k826wkpgsg63m2ivjjax"))))
+           (commit "8abd249fbdf5e9e8401069f48ae9729b7cec1261")))
+     (sha256 (base32 "1q2snh81fsf0vdl37z69ja6r1x00s3fdhygfixv4246x5w7kv0vx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -39026,14 +39026,14 @@
 (define-public emacs-fussy
   (package
    (name "emacs-fussy")
-   (version "20260905.220")
+   (version "20260916.2247")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fussy.git")
-           (commit "022529e84b28d9af001a36844e1d35d36efd87fe")))
-     (sha256 (base32 "04g34351qh029kjl1bdwyq7932k5gqjads11sw5x9mkslz6mgjz3"))))
+           (commit "4e2a5e70c80da35d2ac7ddc0e3146bead827d564")))
+     (sha256 (base32 "0hrzahcm5ddi16zb9bl6p5wqpfkx09iczr5g1fh481pzm9gr6pgb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flx emacs-compat))
    (home-page "https://github.com/jojojames/fussy")
@@ -40107,14 +40107,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260916.1042")
+   (version "20260916.2007")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "9ba6fb3062145a9884aab8c9e11731c748689ce3")))
-     (sha256 (base32 "1cci3lcc2hmps9hhjg2i9rw2gyrxwr7cl4j3nrdk3k3d8fdb7jvd"))))
+           (commit "4925190c930c36f683b19fdc72b0783b5d17a96b")))
+     (sha256 (base32 "0r699r8sdjp0b42gfs9kfzda4vcgif3mzj6xnwxx3kafxai3r32v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -50011,14 +50011,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260915.754")
+   (version "20260916.1705")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "375492bb75243751d4153574c73a47c9d086da53")))
-     (sha256 (base32 "07ci7pxrnrl4841bfjcfd8mf13hjsw4pc2mh28ifbclqlf6sjz94"))))
+           (commit "2412b9ae68d0a9f2f70e3ad3f4c543cc07c332a4")))
+     (sha256 (base32 "1mxgvsf3hz4crjhjlrsrcmzjfpbxka7amc40azn6jzr3ampw7gqa"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -54429,14 +54429,14 @@
 (define-public emacs-jinx
   (package
    (name "emacs-jinx")
-   (version "20260813.954")
+   (version "20260916.2109")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/jinx.git")
-           (commit "23f6d028decb6081ee30659e7e841f6046e5f511")))
-     (sha256 (base32 "1igha49rva7j8k4mhi45mnhp64jrvkn0ln3aadgp8p5rvw12fys4"))))
+           (commit "deacd6770efec5d9f98fc74df781fc0836124d79")))
+     (sha256 (base32 "0ag2bbb151bmgsh02gq9qvn7fbkxza5p2ki8yz4085yzykq6p9sc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "jinx-mod.c" "emacs-module.h")))
@@ -74231,14 +74231,14 @@
 (define-public emacs-org-gcal
   (package
    (name "emacs-org-gcal")
-   (version "20260612.1823")
+   (version "20260916.1715")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kidd/org-gcal.el.git")
-           (commit "7304b592c283944db54ac83201d7be6f13a1f447")))
-     (sha256 (base32 "1b701j2m4cn17bh8n3xmxh5d4bwg5i4spc1v9i9rcq96kpj4mkbj"))))
+           (commit "5c230a1ef5902f2440d4521cb3a3588c6e5459b7")))
+     (sha256 (base32 "0fv2b8h09hvdxn2jbqczv0qc8m2hv5407im8d8fwp1qxwwy43k0l"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-aio
@@ -85119,14 +85119,14 @@
 (define-public emacs-promptu
   (package
    (name "emacs-promptu")
-   (version "20260914.2126")
+   (version "20260916.1647")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/promptu.el.git")
-           (commit "dab2146367083e610d587e065f041a6e2c948e53")))
-     (sha256 (base32 "0chqrqgqqgqzq2mvv1y7fw0rm6li72fwz49zqdkc1wjg4lfay4zd"))))
+           (commit "84553657a65eb730f799a7cd3a251cef659ab5ea")))
+     (sha256 (base32 "1bnv08pf6vpxqdv1x25j8wy66ndfid7z567p216vdlsyj28l9g7z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/promptu.el")
    (synopsis "Compose LLM prompts from building blocks")
@@ -94642,14 +94642,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260914.1711")
+   (version "20260916.2347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "15a6728b6d34497c44b86320290e140855bc573e")))
-     (sha256 (base32 "013b4d708rks20birda2y3l2k4zsc57d4lzs9p0jrbqxk1xvfi95"))))
+           (commit "397660bca3b7d181613352d0e0a79479d709abd2")))
+     (sha256 (base32 "1lrvhjhwpbw97r81sw71i1z3vn0ya9issc7cirwqdrqd9g31k711"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
