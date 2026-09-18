@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260917.1410")
+   (version "20260917.1910")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "d8176098fe1651811cf1767f297c320aa0102929")))
-     (sha256 (base32 "0r5ysln1f6q6qd7vcpicjmbkddvkh3649dkl20k568cf2pfbm22v"))))
+           (commit "fc5aee4a3615f42552d880efa0d8e479e82cea11")))
+     (sha256 (base32 "1085m9rcmjmcanj218zlmvg9dp2wd6mrzckq2w62amgr3qnzpcg6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -12308,14 +12308,14 @@
 (define-public emacs-clomacs
   (package
    (name "emacs-clomacs")
-   (version "20220415.1035")
+   (version "20260917.2156")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clomacs.git")
-           (commit "2b59130b92e12cb8bc9f51aedaa86e7e9253ef21")))
-     (sha256 (base32 "15z4441816fghqgxl0zc9570nh9ldnqf0fbj7cab7vw7ns0n8qkw"))))
+           (commit "d4656579f6433d3205fbd81a3ac2b0285ded7508")))
+     (sha256 (base32 "0icgby2zycph9l6bngpkq9iqpcdbk76sq1zn7q3k0gavy30b87zx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-cider emacs-s emacs-simple-httpd emacs-dash))
    (arguments '(#:files ("src/elisp/*.el")))
@@ -25040,14 +25040,14 @@
 (define-public emacs-ejc-sql
   (package
    (name "emacs-ejc-sql")
-   (version "20260906.2135")
+   (version "20260917.2217")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/ejc-sql.git")
-           (commit "f6927a9bb70537090c73abf64df071aa7cfe8617")))
-     (sha256 (base32 "0rsvz6wnrkc702yv4xhw4sd3zv9f6am2wwrv9mnzfapyqjfqm5db"))))
+           (commit "5375714deb211bf1ee7c7d8ba05cd78ce6ab98cc")))
+     (sha256 (base32 "18jb5n5rr1sd6jzkiz5kd5h2xamaa34f6gal2r4grmh64mvjvvvv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-clomacs emacs-dash emacs-spinner))
    (arguments '(#:files (:defaults "project.clj" "src" "snippets")))
@@ -38155,14 +38155,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260911.1701")
+   (version "20260917.1717")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "3d4e66fb72112a2ece50375a8e089512f2866259")))
-     (sha256 (base32 "0m5i6m2w7ziwxj36kli1v203d22jjjp7ldy2fp8wmz90la35gmcj"))))
+           (commit "5abd6d4e623c88d346479b7841bf5479ed9045b9")))
+     (sha256 (base32 "0f1m5qqgb4mcrkj0bqpnwaivcw8cmfappsasx3cgfkkigk7xh5w9"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -41529,14 +41529,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260917.739")
+   (version "20260917.2205")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/emacs-gnosis")
-           (commit "b7a89ad0a94d200996c746540b52f6d3740b0aa5")))
-     (sha256 (base32 "0b2vawb50z35fij8jbzmh08z3jn2h55hv9ni78x8bkn0m6mkkz9x"))))
+           (commit "78f5c62be6b6d1a9fa34f42b6a2f121c58471c7b")))
+     (sha256 (base32 "1n7zgib9p6bjb0yyd4ka6b39p8288aa01r7bh22c4dr5058y391l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://git.thanosapollo.org/emacs-gnosis")
@@ -48916,16 +48916,16 @@
 (define-public emacs-hippo-themes
   (package
    (name "emacs-hippo-themes")
-   (version "20250929.1221")
+   (version "20260918.38")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kimim/emacs-hippo-theme.git")
-           (commit "8eb27d6bf632bb466d242334adfbbe9c027dd8c5")))
-     (sha256 (base32 "11n84sa079lpq7d2pkmd4nhvys2zifj0y0vsgiy9ja6yg91fhrc5"))))
+           (commit "1ba5d9641833930dd0487fa1b6a4440b63b0bc00")))
+     (sha256 (base32 "1842hzwcrzp2iapidly978klr4ahfg5d7vhv0k3df8kq8p4fd8ra"))))
    (build-system melpa-build-system)
-   (home-page "http://github.com/kimim/emacs-hippo-theme")
+   (home-page "https://github.com/kimim/emacs-hippo-theme")
    (synopsis "Hippo color theme")
    (description "Documentation at https://melpa.org/#/hippo-themes")
    (license #f)))
@@ -58659,14 +58659,14 @@
 (define-public emacs-leuven-theme
   (package
    (name "emacs-leuven-theme")
-   (version "20260904.1721")
+   (version "20260917.1945")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fniessen/emacs-leuven-theme.git")
-           (commit "c696b5b41e32ec23d535f3fcdd0d720678d90909")))
-     (sha256 (base32 "11l8xicxppy9nhxd27ynidkqffdcv5qwwmm4vhg4zczar8zfp4jh"))))
+           (commit "2f969a336527abbdce05b19b6c4f6ae0e9641f46")))
+     (sha256 (base32 "1iiqix3zbhi5mvq2vm6wrgp1qisp5ddb7r9afy2zv4kvhn530k9w"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/fniessen/emacs-leuven-theme")
    (synopsis "Elegant Emacs color theme for a white background")
@@ -60905,14 +60905,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260914.1046")
+   (version "20260917.2319")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "5943024b7df4617d3ef302c78761727a205f56d8")))
-     (sha256 (base32 "1qfq0zz14pcq0w14knfz2jwlhqncsfa8v0bhql4xq7rggpsnzx35"))))
+           (commit "6ec1983e50cd6d59eb7e310023089b970b86de1d")))
+     (sha256 (base32 "1fq12c5jv98dfzwcn0vb80pm5r0l6qdjv7x3ds4wy5pp45dgn0d6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
    (synopsis "Grammar and spell checking for LaTeX, Markdown, Org and more")
@@ -61753,14 +61753,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260911.1701")
+   (version "20260917.1730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "83ba66c8ab6fcdbd809077ae4db1f7e2ed832655")))
-     (sha256 (base32 "0x4wavacwd80br9fgl200av1sxxlhlbc1bsxwwjndqcvmd56j89z"))))
+           (commit "532adafa244b013bd10604ff885bd2806c9eec6e")))
+     (sha256 (base32 "0nfqv56h2zkwfj5x3gq1iz7i8nhl5k7xllhslyas8b1vrgc8bslv"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -83449,17 +83449,17 @@
 (define-public emacs-popterm
   (package
    (name "emacs-popterm")
-   (version "20260820.2036")
+   (version "20260917.1931")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ChetanKoneru/popterm.el.git")
-           (commit "90c3ace5f00f6388473c8f02f10b3e450db05803")))
-     (sha256 (base32 "1b5qjqph4k3z4bq1lb2gn9096kkhrslm5vmbsrxk35nbri4i6693"))))
+           (commit "d086833f7762d7f9a96954451328ee9a57378b93")))
+     (sha256 (base32 "1sr0q33r99k8xhgri4yw6lyhgbd907syk0b38hzfbw9iqd68s8sl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
-   (home-page "https://github.com/CsBigDataHub/popterm.el")
+   (home-page "https://github.com/ChetanKoneru/popterm.el")
    (synopsis "Posframe terminal toggler with smart backends")
    (description "Documentation at https://melpa.org/#/popterm")
    (license #f)))
@@ -85119,14 +85119,14 @@
 (define-public emacs-promptu
   (package
    (name "emacs-promptu")
-   (version "20260916.1647")
+   (version "20260917.1950")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/promptu.el.git")
-           (commit "84553657a65eb730f799a7cd3a251cef659ab5ea")))
-     (sha256 (base32 "1bnv08pf6vpxqdv1x25j8wy66ndfid7z567p216vdlsyj28l9g7z"))))
+           (commit "103a77d6cab489d70d96b2e666b65c1ea762940d")))
+     (sha256 (base32 "1f5r2hzcrvqp96nnv9ma9bfp88q6sf6kkic6asfqg14mz58d9yzs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/promptu.el")
    (synopsis "Compose LLM prompts from building blocks")
@@ -89637,14 +89637,14 @@
 (define-public emacs-rfc-mode
   (package
    (name "emacs-rfc-mode")
-   (version "20260617.1030")
+   (version "20260917.1749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/galdor/rfc-mode.git")
-           (commit "0ab3e0b5eca45e7baaea748063b8590d08b55789")))
-     (sha256 (base32 "005006yz8yq7b0a0ds8k1p50in3yassds6p7jq45cwbblmchyv11"))))
+           (commit "cd2cd1a8d9cf08634c3b9ff768f085ffdacbac0c")))
+     (sha256 (base32 "0r4xqbjjsqywfcrx4a1ncl4cg1dv3da3bxyyfb39np7qfpq4q50y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/galdor/rfc-mode")
    (synopsis "RFC document browser and viewer")
