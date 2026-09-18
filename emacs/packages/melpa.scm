@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260917.1910")
+   (version "20260918.351")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "fc5aee4a3615f42552d880efa0d8e479e82cea11")))
-     (sha256 (base32 "1085m9rcmjmcanj218zlmvg9dp2wd6mrzckq2w62amgr3qnzpcg6"))))
+           (commit "76c80976067efe5a780c342a7bd6da8a84e8641d")))
+     (sha256 (base32 "13nhncj4azrp2bg52q00vvyfbc0l4mdqsa5j1g6mzywfmq9j6sf1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1842,14 +1842,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260917.430")
+   (version "20260918.344")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "f83b1f7b693d91284f34965187e31768099f3382")))
-     (sha256 (base32 "1dcj4inab3rhxpdpawvv21ydfjbmhxiv88sgfgyf1j6aflc3qs6x"))))
+           (commit "2d9b30853a274f7b9a13070942451f8d23d2d9ca")))
+     (sha256 (base32 "1bhz9rw44ljpf5x7icdsmkrvxcx87ac4z9lcah96n90pipf85iby"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -16665,17 +16665,17 @@
 (define-public emacs-counsel-projectile
   (package
    (name "emacs-counsel-projectile")
-   (version "20260917.19")
+   (version "20260918.709")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/lafrenierejm/counsel-projectile.git")
-           (commit "329118c32468b3c53ccd317df6699b58f1172a8d")))
-     (sha256 (base32 "1ab6mwg0xn9282szh337bs6kz4dcm5h48br024rllblm0izbl3yk"))))
+           (commit "283352a5bd6d7df9f69974000323123845f894bb")))
+     (sha256 (base32 "1ngidihn41ppn1lnxx9ridvcc0iw70njf2xapdzf7cfasbqspg9k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-counsel emacs-projectile))
-   (home-page "https://github.com/ericdanan/counsel-projectile")
+   (home-page "https://github.com/lafrenierejm/counsel-projectile")
    (synopsis "Ivy integration for Projectile")
    (description "Documentation at https://melpa.org/#/counsel-projectile")
    (license #f)))
@@ -32501,14 +32501,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260915.2111")
+   (version "20260918.1025")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "a3c7c836e825713210b9d4dba55526b85855a011")))
-     (sha256 (base32 "1zbrw55la36xcw613mhlxa8g69vcnv6qz84mmljdgf0vdfvsn5yb"))))
+           (commit "e6195edbb42203cb2a0e10b3cf997a5f1198ff79")))
+     (sha256 (base32 "0i8kmqif92axkpccksrzx5yn0jl0pr5vlc3r61xg2s9407w16kc8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -40107,14 +40107,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260917.1307")
+   (version "20260918.915")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "026e345c6c7dce958c0cbdca687a859dfd7f5063")))
-     (sha256 (base32 "1agjfdvvm8gzim6yr3khbgilgiaz9gd94pl7qafmlc48hgw79w92"))))
+           (commit "67f43b3e83c15eface911389a291b08fb8311475")))
+     (sha256 (base32 "198i33pz13r3jrck8775wsg9vzmn5vjwa3sq368jy5yfbnlxjxbh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -41529,7 +41529,7 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260917.2205")
+   (version "20260918.148")
    (source
     (origin
      (method git-fetch)
@@ -48916,14 +48916,14 @@
 (define-public emacs-hippo-themes
   (package
    (name "emacs-hippo-themes")
-   (version "20260918.38")
+   (version "20260918.623")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kimim/emacs-hippo-theme.git")
-           (commit "1ba5d9641833930dd0487fa1b6a4440b63b0bc00")))
-     (sha256 (base32 "1842hzwcrzp2iapidly978klr4ahfg5d7vhv0k3df8kq8p4fd8ra"))))
+           (commit "d03228c028148cac69c05f1d1aa46b68041940e2")))
+     (sha256 (base32 "17wkp8886wyng6qmn0hdjfvwgakphmkhyj8s0fjk3pirpmzlrahg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kimim/emacs-hippo-theme")
    (synopsis "Hippo color theme")
@@ -60905,14 +60905,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260917.2319")
+   (version "20260918.554")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "6ec1983e50cd6d59eb7e310023089b970b86de1d")))
-     (sha256 (base32 "1fq12c5jv98dfzwcn0vb80pm5r0l6qdjv7x3ds4wy5pp45dgn0d6"))))
+           (commit "7912b3a1eba8f4aadd00185b5126f4bba9f1c5ab")))
+     (sha256 (base32 "032jzf13sqmq8rvvn9pk7h2r5wq1kfjdsak5ps5dcnin7qs1vy3f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
    (synopsis "Grammar and spell checking for LaTeX, Markdown, Org and more")
@@ -65725,14 +65725,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260915.1808")
+   (version "20260918.844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "7d739dba47397fcf16a50ac87e09b016c83560e3")))
-     (sha256 (base32 "0l7n87a9kpksa9qypzgm2svfqqxdmq9yhspz7020lcz5n1i0jxzg"))))
+           (commit "9427ba44964a292f03273e5be4d7a0f3c00b5029")))
+     (sha256 (base32 "0a1nb3sa0fr1iz0xsl70zdaa7k9cyd78iw8qsibbyd27zfpy302j"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
