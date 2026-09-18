@@ -1681,14 +1681,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20260909.1534")
+   (version "20260918.1212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "b65d2544d89ce9ab8f953cb4e545a453ea9eac92")))
-     (sha256 (base32 "1fcvwc3hd5x56nig8yhi74y4xydv62kqgiirxpj2xv55756f2xly"))))
+           (commit "89e8322caceae73ec4f5171b63a620a0b730eece")))
+     (sha256 (base32 "0lcbbgrqcpxfybgp6b7f23kmdnyz274j4fjnfgy7bk4bj1wv0gqn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -32501,7 +32501,7 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260918.1025")
+   (version "20260918.1132")
    (source
     (origin
      (method git-fetch)
@@ -36720,14 +36720,14 @@
 (define-public emacs-flymake-go
   (package
    (name "emacs-flymake-go")
-   (version "20150714.733")
+   (version "20130314.1441")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/robert-zaremba/flymake-go.git")
-           (commit "ae83761aa908c1a50ff34af04f00dcc46bca2ce9")))
-     (sha256 (base32 "03gh0y988pksghmmvb5av2vnlbcsncafvn4nwihsis0bhys8k28q"))))
+           (commit "3112d9c2ea7523045790b7a78a2ef7f1d8c8e5ee")))
+     (sha256 (base32 "0mhdv0lrqmkha4xdizpzc2nplijp3wsifvgrj2py6w9yxgzvchfs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/robert-zaremba/flymake-go")
    (synopsis "A flymake handler for go-mode files")
@@ -57954,14 +57954,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20260912.1350")
+   (version "20260918.1457")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "e395700ca77f54a2140fb701b1251fded6e96af2")))
-     (sha256 (base32 "0pxhqlhxcyqr454ckx73mxpv26i3ijpv932sbz571q5jxc026d0i"))))
+           (commit "74cd984e85b7b6a2274ad425d2785a237636c008")))
+     (sha256 (base32 "1cclmcj7gzpf31pv5ksvdfz4igrkyr3f3c85x3cv5pxslx0dyhrd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -65183,14 +65183,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20260916.906")
+   (version "20260918.1608")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "9a501016cf219b8dd99cc51083992100f889d5b1")))
-     (sha256 (base32 "1p8ib2a5dr2ni1ra01jvydz6gxv247pq8cbvd11xv9b0i3qjmq8h"))))
+           (commit "37fd8765e112f3125f2500a1e08328066dd56b19")))
+     (sha256 (base32 "0i29cw7h56c4b85y70cm2g61m2znkxk0100wf92jiwrgwhspzbd2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -81949,14 +81949,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20260916.1621")
+   (version "20260918.1617")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "ef41a0c121cc316d317fac804d7f6808effde90e")))
-     (sha256 (base32 "1sx2qkwghfk7gphka3qwx18h0bx88nn2c5nbxfcsg28n63nlmly7"))))
+           (commit "0540bf2e05043350e6f2d9b6e5dd70c2b287c4dd")))
+     (sha256 (base32 "0jllbps4rwajdsrp2d3wr2pmmh7zgqd7nzzmr9y02cngij9923hy"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -94425,14 +94425,14 @@
 (define-public emacs-sis
   (package
    (name "emacs-sis")
-   (version "20260826.1753")
+   (version "20260918.1409")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laishulu/emacs-smart-input-source.git")
-           (commit "2becb4d66fdcfe89eccf43ac592557c6a402420a")))
-     (sha256 (base32 "1f0vsnqmjg3cdr9xkywb6b8hlrbvsp5i48bchlq4591p0hhywnhr"))))
+           (commit "787b724579d871fa0e647db2bf309f030842ff5c")))
+     (sha256 (base32 "12lghrhc2jqkn57vqyky6jxq1d489g8qvld7n36417gwkl739k7p"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/laishulu/emacs-smart-input-source")
    (synopsis "Minimize manual input source (input method) switching")
