@@ -1121,6 +1121,7 @@ pcvs-info
 pcvs-parse
 pcvs-util
 pc-win
+peg
 perl-mode
 pgg
 pgg-def
