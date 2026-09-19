@@ -10469,14 +10469,14 @@
 (define-public emacs-chatgpt-shell
   (package
    (name "emacs-chatgpt-shell")
-   (version "20260725.1136")
+   (version "20260918.2023")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/chatgpt-shell.git")
-           (commit "49827c8d0746a2f3e1bc68f5f3d73363b7db3db6")))
-     (sha256 (base32 "0cbwd0s8i2z1gy05gzyxag8a3zl7jlxdl2y04dnl1psgs0s847xp"))))
+           (commit "ed3bd8104c0e476b6cdf5787ba72b5e5dd1d39b0")))
+     (sha256 (base32 "022lrg3fmlvhpqb8bal4kh2ps2ling7c0cqd5d0ykswqryka3yiz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker))
    (arguments
@@ -23935,14 +23935,14 @@
 (define-public emacs-easysession
   (package
    (name "emacs-easysession")
-   (version "20260906.1821")
+   (version "20260916.1639")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/easysession.el.git")
-           (commit "7904fd83afcacedfdabe59a99356c92efc9b49f6")))
-     (sha256 (base32 "1qj85wil4iqscxd1x97qpj2jiqa5pcw0irghbbj3plzgb8lb9ch3"))))
+           (commit "c8a4a43f3106ca667e03439301181c2b887996bc")))
+     (sha256 (base32 "1j39yyb96cqyxqcd7z43sk9w609b1b9h210d9r3cxmv2ryzmivqv"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "extensions/easysession*.el")))
    (home-page "https://github.com/jamescherti/easysession.el")
@@ -40107,14 +40107,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260918.915")
+   (version "20260918.2046")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "67f43b3e83c15eface911389a291b08fb8311475")))
-     (sha256 (base32 "198i33pz13r3jrck8775wsg9vzmn5vjwa3sq368jy5yfbnlxjxbh"))))
+           (commit "6be56484c5375ea08a4888c949d118327ff3d1c4")))
+     (sha256 (base32 "0y646khfn1mnm8y1qksbsc1pypg8sllkzy1q0ajqkdvx5xmbwdjc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -42970,14 +42970,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260911.202")
+   (version "20260918.1901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "ecc693d69e0f9737fa637abc88ec4ce0c3187b8e")))
-     (sha256 (base32 "1gcnk6hdmp7cpjydpryvp3abkbv9nw445msy5b6i3ripnann3xal"))))
+           (commit "1230375331c911d721b54a54d6a30d1ae0283787")))
+     (sha256 (base32 "1hj3xm1r8b45pdx28zixaa0aiamp19wcj7f3c2irv6j223g50670"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -50158,14 +50158,14 @@
 (define-public emacs-hyperstitional-themes
   (package
    (name "emacs-hyperstitional-themes")
-   (version "20260917.1138")
+   (version "20260918.2016")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/hyperstitional-themes.git")
-           (commit "3e871497d31542b7485df826b5204903575617be")))
-     (sha256 (base32 "1b0nhgvx3036cih0ab3ag3yfrl2lm4zinsj4s0f7hn21zvm9d2g4"))))
+           (commit "0177bf058868d292b20ad0747123b22f9bf98aca")))
+     (sha256 (base32 "0vby02di5bbbkyb729b3f5dh3dymxpqs7qhvsv9776sjlcmz157y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/hyperstitional-themes")
    (synopsis "Weird themes with incremental palettes")
@@ -81949,7 +81949,7 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20260918.1617")
+   (version "20260918.1806")
    (source
     (origin
      (method git-fetch)
@@ -81987,14 +81987,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260914.1250")
+   (version "20260919.121")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "6200165139db53f1bafabfcc6236bde696237db7")))
-     (sha256 (base32 "0nbfgdhw0l6hagadbwhl9q01fdib1banl62hwvyr2sy1mwzh007j"))))
+           (commit "1aee8306a09455e412d158179d7f865a45250290")))
+     (sha256 (base32 "1gya05p4hxygxsd6q9l5r7kxwdnv6xhcw7r5qygb5j695dk3zaal"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -85119,14 +85119,14 @@
 (define-public emacs-promptu
   (package
    (name "emacs-promptu")
-   (version "20260917.1950")
+   (version "20260918.2040")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/promptu.el.git")
-           (commit "103a77d6cab489d70d96b2e666b65c1ea762940d")))
-     (sha256 (base32 "1f5r2hzcrvqp96nnv9ma9bfp88q6sf6kkic6asfqg14mz58d9yzs"))))
+           (commit "138103dbf7bea1d37b389d4d5b29e252b6144966")))
+     (sha256 (base32 "0j17yzzzdkbv9bvh4a4yr0vvvjkw38z7if9xy7h5lgk8ap0761ad"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/promptu.el")
    (synopsis "Compose LLM prompts from building blocks")
@@ -92062,14 +92062,14 @@
 (define-public emacs-sculpture-themes
   (package
    (name "emacs-sculpture-themes")
-   (version "20260917.1057")
+   (version "20260918.2011")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/sculpture-themes.git")
-           (commit "da25ba4045f77a7880284732c3605c5686efdb61")))
-     (sha256 (base32 "1c57zdc1n8ywyr0jji5j5pd79vlv4sv7arll3rqxldq4vscflasc"))))
+           (commit "2260322bb94f6dad80074da2066e35986b3c275d")))
+     (sha256 (base32 "1l52iiad6jmjmg9b3lym9nv1xp0dy6p5246bbx09f61xqz76bf08"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/sculpture-theme")
    (synopsis "Themes with vivid colors")
@@ -97550,14 +97550,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260917.332")
+   (version "20260919.9")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "a04b9d99291cf73afa1ae7ddceed51e3455fffd6")))
-     (sha256 (base32 "0rzqbs155j67bkzls7cpisk9bqpf82f8b5vz12jiz8xrbx8b4iji"))))
+           (commit "37f78e1b7b56b1e8fb7caf8d0aa8cda6c3212dd9")))
+     (sha256 (base32 "0zf73sah5zp751nx56h0gcaqnyw4g9aqsj0wkgjnjc2vm99wd5wj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
