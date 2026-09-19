@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260918.351")
+   (version "20260919.218")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "76c80976067efe5a780c342a7bd6da8a84e8641d")))
-     (sha256 (base32 "13nhncj4azrp2bg52q00vvyfbc0l4mdqsa5j1g6mzywfmq9j6sf1"))))
+           (commit "e78b43487007d59415d34c3cec4fadf814b8a373")))
+     (sha256 (base32 "0ryz4x9qgazdqbsmi2lsnypgcxkpbh5ynxd1a4vp6h8xrx9c3kdm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -7836,14 +7836,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260901.1445")
+   (version "20260919.942")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "a83fbcfa6bf519a318b3c443c2defff20a671335")))
-     (sha256 (base32 "1lzrgshaxr9055rpm9yb7nchmblxswp07jizy389j7j79y9s1zsd"))))
+           (commit "153fd27001c8b0cfaa447debffa5e7144b82e7b7")))
+     (sha256 (base32 "08k9k6yyp5nn35a18gsx4k6h7pkf93ni2lvwpzkpd7558ln64lfb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -38155,14 +38155,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260917.1717")
+   (version "20260919.933")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "5abd6d4e623c88d346479b7841bf5479ed9045b9")))
-     (sha256 (base32 "0f1m5qqgb4mcrkj0bqpnwaivcw8cmfappsasx3cgfkkigk7xh5w9"))))
+           (commit "3b15c7432fd909aed5da900a2ea9c5e9a8e104f8")))
+     (sha256 (base32 "1bbcc9jpgqfq6709m15gmih6lgf9mq6wwzfk8k1nx4vd21nzxb18"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -41529,14 +41529,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260918.148")
+   (version "20260919.847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/emacs-gnosis")
-           (commit "78f5c62be6b6d1a9fa34f42b6a2f121c58471c7b")))
-     (sha256 (base32 "1n7zgib9p6bjb0yyd4ka6b39p8288aa01r7bh22c4dr5058y391l"))))
+           (commit "31a69f6d8c834a901e5d919baab4e4e981af6d86")))
+     (sha256 (base32 "18qqs37j06s13k3a4pqig4l429a76605pi42cblsmqjw82svqgr7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://git.thanosapollo.org/emacs-gnosis")
@@ -61753,14 +61753,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260917.1730")
+   (version "20260919.934")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "532adafa244b013bd10604ff885bd2806c9eec6e")))
-     (sha256 (base32 "0nfqv56h2zkwfj5x3gq1iz7i8nhl5k7xllhslyas8b1vrgc8bslv"))))
+           (commit "2ac81c731e05963e3db80ea547570b1b841a5aca")))
+     (sha256 (base32 "1gm2q0a1ismjrjxkiwdvbh6f7vnbvv50dxd7904xz1qxvm0bvbqv"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -68681,14 +68681,14 @@
 (define-public emacs-nice-org-html
   (package
    (name "emacs-nice-org-html")
-   (version "20260625.1926")
+   (version "20260919.906")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ewantown/nice-org-html.git")
-           (commit "16c9efdd92a12c78a55364f3d5e8e310585aa012")))
-     (sha256 (base32 "0skahzl2ai7v92cl40p8hxs2qj82dbpf9gmq7314s2gbdibklpk3"))))
+           (commit "e3981802f4f80b40066e18f992034e483708a964")))
+     (sha256 (base32 "0hf5rzmgdq0jmhyrk5jfh9i4fayz0d6x3h6hpy8cg47fhhf0cdbg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-htmlize emacs-uuidgen))
    (arguments '(#:files (:defaults "code/*.el" "code/*.css" "code/*.js")))
@@ -74810,14 +74810,14 @@
 (define-public emacs-org-link-beautify
   (package
    (name "emacs-org-link-beautify")
-   (version "20260910.239")
+   (version "20260919.327")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-link-beautify.git")
-           (commit "6885b67af6bd66ce307dbe3127edb4d78bea192b")))
-     (sha256 (base32 "17b4c2w6s39y9566cjh9n0ch786dsabpb6xxa4ks817pf2nhfx7c"))))
+           (commit "aac88b3921ac98260d47dc29a4b8b32bb555db38")))
+     (sha256 (base32 "08nmy1ll0wv7xri5yipk6lw3f1abgkp6119rnand9cp37j61h5lr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-qrencode))
    (arguments '(#:files (:defaults "scripts")))
@@ -96954,14 +96954,14 @@
 (define-public emacs-speed-type
   (package
    (name "emacs-speed-type")
-   (version "20260611.1554")
+   (version "20260919.230")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/speed-type.git")
-           (commit "f004cce95e0f5c5048d38f973b654587ed73abf6")))
-     (sha256 (base32 "1a1fmnlkgrya86hw9alccfjhldg5lx1bbffvlhk5hqkgsm1dx627"))))
+           (commit "4c7bc4876b03af3c57b6963d59c93fb7c60a367e")))
+     (sha256 (base32 "0mb0sab7smf2kdjd54ar5jv01k6nj3qqqicmcwkx773qxqf87y3i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/dakra/speed-type")
@@ -103001,14 +103001,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260909.901")
+   (version "20260919.938")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "03c8ccc6aab24021787aada2be12d64cb1f436e8")))
-     (sha256 (base32 "0ahqdfhn1j91dsdlcgfz0cnravrba57nki2cy97hz5dy0cl5riqi"))))
+           (commit "a3e26414f2516f6443182e13e1d98882e1b209d6")))
+     (sha256 (base32 "1nrdv8r261dw5pl69v6jfm8fiqwyr2xarwixnbpg8kvs5jpwx5bh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/transient")
@@ -109368,14 +109368,14 @@
 (define-public emacs-with-editor
   (package
    (name "emacs-with-editor")
-   (version "20260901.1435")
+   (version "20260919.936")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/with-editor.git")
-           (commit "5021ef6885381cf5b2852f7a3f67ca8c4be1dca2")))
-     (sha256 (base32 "1ccmm7nqbjapbh9fl8skfpkihdzna4y9z8y11662rxfxdpvl1w4g"))))
+           (commit "53115f978576e043e050fd04d0cb7517296727e9")))
+     (sha256 (base32 "0zh8v39vp1l9r5hn7pqsi0jd72j26931b2alvpq7sh2k6hwwar4p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/with-editor")
