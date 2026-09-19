@@ -22460,14 +22460,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260917.1055")
+   (version "20260919.1506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "f80a74fdea1734962ee91678ae68b6bcd3d1c450")))
-     (sha256 (base32 "0glya2k0qi6ygbadiv3dyk931wqd9b1wmvb560qcry8xfd8fyhs4"))))
+           (commit "8185cbb4a01b5a73e308fa88391dcea0554c2c49")))
+     (sha256 (base32 "1l1y4xwg25q6q8cjpan1clnw3c23yvfxdx9rf654ijjgw1z964bk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -25902,14 +25902,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260913.900")
+   (version "20260919.1336")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "df5965d71585acabd02888cb971273ffabe7e36f")))
-     (sha256 (base32 "1j3vllbxvz9wkl5spnvy34cfp5mjn613chi4q272rmwkrwd5zjmz"))))
+           (commit "b39ca98c0ab05170cba943d6e31c5c2a3e285133")))
+     (sha256 (base32 "0n1qydjf88lfd8n2y760lbcm64rmjackn6frqvyim11wkf7g8vm5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -45847,14 +45847,14 @@
 (define-public emacs-helm-eca
   (package
    (name "emacs-helm-eca")
-   (version "20260228.137")
+   (version "20260919.1404")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/PalaceChan/helm-eca.git")
-           (commit "e2e327ee9198e0a3cd8a36835fe781963182788a")))
-     (sha256 (base32 "113nymy2amqfy2bx885iq93dabcp0l05ra2zk8a4d5v2bf7fsmxm"))))
+           (commit "1709548d481319563c101a8177b02ccb8697ea48")))
+     (sha256 (base32 "160zc17a34hp911y52zplk2420vlqdmghj52n5xb3kxsvq91b363"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-eca emacs-helm))
    (home-page "https://github.com/PalaceChan/helm-eca")
@@ -111299,14 +111299,14 @@
 (define-public emacs-youtube-music
   (package
    (name "emacs-youtube-music")
-   (version "20260717.1039")
+   (version "20260919.1322")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cyberkm/emacs-youtube-music.git")
-           (commit "2a962d972d8a59fed718aec039c9c61ef3c0392d")))
-     (sha256 (base32 "126clxww967w2fb3padiabh6qaxfpka3kcx6xfl1k9x2n56927p1"))))
+           (commit "c71ed8180d14acb9fc7d7b4d64b708e1f25d1bea")))
+     (sha256 (base32 "0n086y6pygfmbqcyyn29q9k5havn5r9ib53hai578aj1qrd6qqy7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/cyberkm/emacs-youtube-music")
    (synopsis "YouTube Music client")
