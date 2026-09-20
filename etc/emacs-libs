@@ -1576,6 +1576,7 @@ wdired-tests
 webjump
 webjump-tests
 which-func
+which-key
 whitespace
 whitespace-tests
 wid-browse
