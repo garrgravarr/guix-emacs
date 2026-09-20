@@ -843,14 +843,14 @@
 (define-public emacs-ac-php-core
   (package
    (name "emacs-ac-php-core")
-   (version "20260917.528")
+   (version "20260920.656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "0959afc45f24eec4ace3600609ce939c3ba77410")))
-     (sha256 (base32 "13hpg2n84flpwq6gmjybh9fmvhq13hsp5320qsb0279671q1ll66"))))
+           (commit "48785207045b31311f7ea298106bc9d04071122d")))
+     (sha256 (base32 "04wmz8nzv7iqbbbjb638v2x55ml8rlir258r3jlhn27fp4q4l1gy"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-php-mode emacs-s emacs-f emacs-popup emacs-xcscope))
@@ -11051,14 +11051,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260910.1543")
+   (version "20260920.725")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "c51d827861e392379baa7286fd5eff31b920efeb")))
-     (sha256 (base32 "04am31dm4xjqabw0qnvayzmyshwfnhanqkwwhn7rpj096bxhgzrf"))))
+           (commit "9e049baa1c2c136724d7538b1df6898ee77de6e7")))
+     (sha256 (base32 "1xxxj0brsdqm8ch50q4hjyc6cnd6abwkdx0mkigf1znyhz4n32cj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -12414,14 +12414,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260916.804")
+   (version "20260920.158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "3ea2db4f8b1f31d95301de070bbde95251187727")))
-     (sha256 (base32 "0kwyhk9ii2j3kdjxi8y0z839b4d0szwsmb8lp46ixk3mjhc5nnxs"))))
+           (commit "069cf1e0a665261fb8684badd9dd1c9b2982170f")))
+     (sha256 (base32 "15l9qr2xyba4i7qr225wvcxwgi4k6yqq555003igqgcgbdb600bk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -14233,14 +14233,14 @@
 (define-public emacs-company-php
   (package
    (name "emacs-company-php")
-   (version "20260911.454")
+   (version "20260920.444")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "b626cc6b3a343b2431f2e13b241b1612da5fc3f4")))
-     (sha256 (base32 "0j6mzs0agmbnvcxdjxlp03ndpw7yp3pq1x458l39q2k4crdw5sx8"))))
+           (commit "48785207045b31311f7ea298106bc9d04071122d")))
+     (sha256 (base32 "04wmz8nzv7iqbbbjb638v2x55ml8rlir258r3jlhn27fp4q4l1gy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ac-php-core emacs-company))
    (arguments '(#:files ("company-php.el")))
@@ -26049,7 +26049,7 @@
 (define-public emacs-elfeed-protocol-freshrss
   (package
    (name "emacs-elfeed-protocol-freshrss")
-   (version "20260919.2202")
+   (version "20260920.119")
    (source
     (origin
      (method git-fetch)
@@ -30354,14 +30354,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260910.2204")
+   (version "20260920.145")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "1513aae3652101caf3227bcf7349e2e6fded3210")))
-     (sha256 (base32 "0p23yx3nwwl92zpqvnsdp41bj0xkbmmzgsdwb9l0s3cx9rv17d9s"))))
+           (commit "2cca4b8e479b1e7923bcef40d3006f6b7e33d996")))
+     (sha256 (base32 "0c9kmdz9znxv1c5bfbh6c5jwxk7krvasyhzwxcqihnkywwzn8v5v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -40107,14 +40107,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260919.1611")
+   (version "20260920.730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "829ac98a3e3183249028f9f4e029e7e9c0869be3")))
-     (sha256 (base32 "1v6g18jl30kxidyadwcxx4kw8lx8p15fv66vqd6khw8012bfg5rn"))))
+           (commit "402ca634960142f13388fa24d223b6c7b0b2511e")))
+     (sha256 (base32 "1lsazb6fnwvn2rdbvxxzarjkwihy604gmdgysbg0yzmwr91a82hx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -81987,14 +81987,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260919.121")
+   (version "20260919.1919")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "1aee8306a09455e412d158179d7f865a45250290")))
-     (sha256 (base32 "1gya05p4hxygxsd6q9l5r7kxwdnv6xhcw7r5qygb5j695dk3zaal"))))
+           (commit "28f9eeaf25766119814bf9a8cd3bc804928c17d3")))
+     (sha256 (base32 "1rzxx9vg5nsag7nxcdr03rwljflj1wli8mah3pi478r0rjfrz45p"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -83677,14 +83677,14 @@
 (define-public emacs-posframe
   (package
    (name "emacs-posframe")
-   (version "20260908.156")
+   (version "20260920.706")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tumashu/posframe.git")
-           (commit "435055dd6894fd4e8b21b355d40c0b289211b714")))
-     (sha256 (base32 "0cj6b8pk1ksnh959rzagd75wmxrms5cx4mppwrfs6n2n9k5g7whv"))))
+           (commit "bdabcec96f127b2daa2f8bf988a71ec146e301d5")))
+     (sha256 (base32 "1bfrd3sbip3ifgbz6x6gciyfbga3x3n9m5kdjq3wl4cdhyv8qrz5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tumashu/posframe")
    (synopsis "Pop a posframe (just a frame) at point")
