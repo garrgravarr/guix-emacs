@@ -843,7 +843,7 @@
 (define-public emacs-ac-php-core
   (package
    (name "emacs-ac-php-core")
-   (version "20260920.656")
+   (version "20260920.1106")
    (source
     (origin
      (method git-fetch)
@@ -1663,14 +1663,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260919.218")
+   (version "20260920.1357")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "e78b43487007d59415d34c3cec4fadf814b8a373")))
-     (sha256 (base32 "0ryz4x9qgazdqbsmi2lsnypgcxkpbh5ynxd1a4vp6h8xrx9c3kdm"))))
+           (commit "3bd32a16f4eededd54e190d94318f536ed4fac7c")))
+     (sha256 (base32 "0h0489n22ayi5w6kwsaw23p0ccc8khqjdmg6s4pbxkhav5n386pv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -2412,6 +2412,23 @@
    (home-page "https://github.com/madara123pain/unique-emacs-theme-pack")
    (synopsis "A warm and inviting theme")
    (description "Documentation at https://melpa.org/#/amber-glow-theme")
+   (license #f)))
+
+(define-public emacs-amber-mode
+  (package
+   (name "emacs-amber-mode")
+   (version "20260913.1947")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://codeberg.org/GeorgGD/amber-mode.git")
+           (commit "58e1b6068601951881478568297913fd777095d2")))
+     (sha256 (base32 "1gcvha950w316y2n4gdjqkhbmpqd3vlvr9s5l3c80m1xf7q7d0g2"))))
+   (build-system melpa-build-system)
+   (home-page "https://codeberg.org/GeorgGD/amber-mode")
+   (synopsis "A major mode for the Amber programming language")
+   (description "Documentation at https://melpa.org/#/amber-mode")
    (license #f)))
 
 (define-public emacs-amd-mode
@@ -10269,14 +10286,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20260913.806")
+   (version "20260920.806")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "30b32e519a33a7659212148edc738044ba091336")))
-     (sha256 (base32 "1dyi5y14gx5wbzlzabnlcsr1g7x4y98ny5vn74s5vb4j7xdhwwj4"))))
+           (commit "e3691987ec8cfecb87168cb0d6205367a64ec28f")))
+     (sha256 (base32 "08l9yp2qb3njkpz7qm2f7r6530nxazjllf7hijscncnnzwv92whn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -14233,7 +14250,7 @@
 (define-public emacs-company-php
   (package
    (name "emacs-company-php")
-   (version "20260920.444")
+   (version "20260920.1104")
    (source
     (origin
      (method git-fetch)
@@ -19959,14 +19976,14 @@
 (define-public emacs-devcontainer
   (package
    (name "emacs-devcontainer")
-   (version "20260418.621")
+   (version "20260920.1006")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/devcontainer.el.git")
-           (commit "bc598413a18baa3ec9ef7e1a0cf0115685d23a22")))
-     (sha256 (base32 "029cglg8jgi32p68b7rfpslp55ccfky5pwzmwafz75r07zq15x4z"))))
+           (commit "3e49e8a7b9c5a970769c92dba6d03a7bf2c18eb4")))
+     (sha256 (base32 "0rlambglv3fk7h704wlli9mx17dpa6k6n7mhpsg0kff322skfa9b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/johannes-mueller/devcontainer.el")
    (synopsis "Support for devcontainer")
@@ -41529,14 +41546,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260919.847")
+   (version "20260920.1233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/emacs-gnosis")
-           (commit "31a69f6d8c834a901e5d919baab4e4e981af6d86")))
-     (sha256 (base32 "18qqs37j06s13k3a4pqig4l429a76605pi42cblsmqjw82svqgr7"))))
+           (commit "1eb319966ccfb7b5d1e5f50f3738d5962dc21441")))
+     (sha256 (base32 "14fvxl128d63wbjsf3vc129wbny9p937hm5jx7rjkkvx8yjr4fnj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://git.thanosapollo.org/emacs-gnosis")
@@ -60527,14 +60544,14 @@
 (define-public emacs-loopy
   (package
    (name "emacs-loopy")
-   (version "20260722.144")
+   (version "20260920.1430")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/okamsn/loopy.git")
-           (commit "d33417ff4ff436a221eb10c73c283c9c2af3cde1")))
-     (sha256 (base32 "1avb2c0dzki9yphhxbw655ara3fkz6zi5ybv33ylrqlzfb9jlz3c"))))
+           (commit "c50c15d87709ece2bee7f45d6a6d906bb8524aac")))
+     (sha256 (base32 "110f7cb4ls0fp1dbwdsy35pqcv2cah4fsngrylnl205wj4m1gi4l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-stream))
    (home-page "https://codeberg.org/okamsn/loopy")
@@ -81987,14 +82004,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260919.1919")
+   (version "20260920.1256")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "28f9eeaf25766119814bf9a8cd3bc804928c17d3")))
-     (sha256 (base32 "1rzxx9vg5nsag7nxcdr03rwljflj1wli8mah3pi478r0rjfrz45p"))))
+           (commit "26f116cdf0c5d7bf775613753029681d7d4a80cb")))
+     (sha256 (base32 "0sl3lc05swg0wzd305cnl5j0aff2wb5583dcwnk2bipnpjk4dsan"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
