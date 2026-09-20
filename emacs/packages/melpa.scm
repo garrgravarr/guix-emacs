@@ -1611,14 +1611,14 @@
 (define-public emacs-age
   (package
    (name "emacs-age")
-   (version "20250806.1723")
+   (version "20260919.1901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/anticomputer/age.el.git")
-           (commit "e99165ef5274bc4512b8d77ba2ac208c59b5d456")))
-     (sha256 (base32 "09rfk9aijjgacff7n8d1cmsg7yb6cc3fppjxzs07dm9vcakcdvbh"))))
+           (commit "afe3bf43fab7ff988419762f851129048c396ccc")))
+     (sha256 (base32 "08fvx91a0nm622r79s3zq5qr1x49z9h8x3qgasg3hn0d265zjdiz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/anticomputer/age.el")
    (synopsis "The Age Encryption Library")
@@ -25040,14 +25040,14 @@
 (define-public emacs-ejc-sql
   (package
    (name "emacs-ejc-sql")
-   (version "20260917.2217")
+   (version "20260919.1534")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/ejc-sql.git")
-           (commit "5375714deb211bf1ee7c7d8ba05cd78ce6ab98cc")))
-     (sha256 (base32 "18jb5n5rr1sd6jzkiz5kd5h2xamaa34f6gal2r4grmh64mvjvvvv"))))
+           (commit "73ae31671ac58846841ab0da06db748eb6fe9fa3")))
+     (sha256 (base32 "1k8yijmlxz6vgl11sarj4yna7l7ij2pmp5mjhivl5clqspdfr3cj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-clomacs emacs-dash emacs-spinner))
    (arguments '(#:files (:defaults "project.clj" "src" "snippets")))
@@ -26049,14 +26049,14 @@
 (define-public emacs-elfeed-protocol-freshrss
   (package
    (name "emacs-elfeed-protocol-freshrss")
-   (version "20260914.1357")
+   (version "20260919.2202")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/lou/elfeed-protocol-freshrss.git")
-           (commit "04b373d1b4deae95e4ea3ede001e74fabbc3ba66")))
-     (sha256 (base32 "0l19iyvfvliaax3hkwpmdyxl0qxr1fjqyxmgf6djs309g6xrbalf"))))
+           (commit "5b282ae09f994d9d63ac2f7aa0d07414d9802464")))
+     (sha256 (base32 "103cg4r63fmpyba71sfmz4qz87s3670y6gbck4fi235haanq7miz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-elfeed
@@ -30590,14 +30590,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260917.650")
+   (version "20260919.1611")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "755c61a4bffa3d461d4c36d69c9f95cc9e31ea95")))
-     (sha256 (base32 "065swxsqdhkvbjp676fp3k3h6zhp5snid741ihhhl1cyy8fnjw35"))))
+           (commit "829ac98a3e3183249028f9f4e029e7e9c0869be3")))
+     (sha256 (base32 "1v6g18jl30kxidyadwcxx4kw8lx8p15fv66vqd6khw8012bfg5rn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -38155,14 +38155,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260919.933")
+   (version "20260919.1834")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "3b15c7432fd909aed5da900a2ea9c5e9a8e104f8")))
-     (sha256 (base32 "1bbcc9jpgqfq6709m15gmih6lgf9mq6wwzfk8k1nx4vd21nzxb18"))))
+           (commit "3662e218c808bd3497a8aa05f3ccb533fa60eaa4")))
+     (sha256 (base32 "1w6h5rhai737220s0qyhf81hd3ww620ylik5jfyd6sxgdvzjza51"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -40107,14 +40107,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260918.2046")
+   (version "20260919.1611")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "6be56484c5375ea08a4888c949d118327ff3d1c4")))
-     (sha256 (base32 "0y646khfn1mnm8y1qksbsc1pypg8sllkzy1q0ajqkdvx5xmbwdjc"))))
+           (commit "829ac98a3e3183249028f9f4e029e7e9c0869be3")))
+     (sha256 (base32 "1v6g18jl30kxidyadwcxx4kw8lx8p15fv66vqd6khw8012bfg5rn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -42970,14 +42970,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260918.1901")
+   (version "20260919.1615")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "1230375331c911d721b54a54d6a30d1ae0283787")))
-     (sha256 (base32 "1hj3xm1r8b45pdx28zixaa0aiamp19wcj7f3c2irv6j223g50670"))))
+           (commit "44deae37928175764bbe8314dbbc79bdec28ab4c")))
+     (sha256 (base32 "0md9hjpmnv3xi6wgdqam1xyacqqdbjcfix10p8fnvr8yk1w0wnbr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -57268,14 +57268,14 @@
 (define-public emacs-kubel
   (package
    (name "emacs-kubel")
-   (version "20260508.2043")
+   (version "20260919.1933")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abrochard/kubel.git")
-           (commit "ceb35d50e7ff736a7a707e22407cd9542bf50ffd")))
-     (sha256 (base32 "1fznwj39r704hfgxqkhbfg8x5jpxzwp21j5jjk68kn3xs33cz30y"))))
+           (commit "23f8ee2cffd6080e39ac2ac06ab74f0de32a4da6")))
+     (sha256 (base32 "0rfqdjvzyyj5n8b03jww38lp7dqvif95jxjwqf27g21wa12ji6k8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-s emacs-yaml-mode))
    (arguments '(#:files (:defaults (:exclude "kubel-evil.el"))))
@@ -61753,14 +61753,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260919.934")
+   (version "20260919.1302")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "2ac81c731e05963e3db80ea547570b1b841a5aca")))
-     (sha256 (base32 "1gm2q0a1ismjrjxkiwdvbh6f7vnbvv50dxd7904xz1qxvm0bvbqv"))))
+           (commit "fe66e74a9cf50fe224d043039df85de20e3913b1")))
+     (sha256 (base32 "07i457343k9ci2srqn5ar0n2bf2yshlgnvwi9l1cf10mdcc3wpi6"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -96020,14 +96020,14 @@
 (define-public emacs-sniem
   (package
    (name "emacs-sniem")
-   (version "20250204.1138")
+   (version "20260919.1812")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SpringHan/sniem.git")
-           (commit "89161d8b3c19ffba8b52411de36f28aec1e401f2")))
-     (sha256 (base32 "1ip0n50ja1gky3rdqc0y7fgm9f8ihakc48y8rqbhcq439m278jpv"))))
+           (commit "b6def98bdf6af44193f11ffec45c66bbbc6b1a83")))
+     (sha256 (base32 "04l08wbghy25l5sng6qy2dsrd6wx6g4q784fqrjqzgqp8wjrvsql"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash))
    (home-page "https://github.com/SpringHan/sniem.git")
