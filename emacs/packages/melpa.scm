@@ -1661,7 +1661,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260920.1338")
+   (version "20260920.1357")
    (source
     (origin
      (method git-fetch)
@@ -26583,14 +26583,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260812.2136")
+   (version "20260920.1841")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "a86e9154ae88907d3de2710195810cda986ef0d8")))
-     (sha256 (base32 "0pdfpark9r45cx17j9lyfs5r5sgg8a96lf0f58px84zgwb4sbhhc"))))
+           (commit "b98cb4a904b70def4f21050d5d202005ee00b3b4")))
+     (sha256 (base32 "1sl824krdj6gvsfh4azr6x6fnkqhmll6gy8xh4m2blnlgdypmy30"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -40663,6 +40663,23 @@
    (description "Documentation at https://melpa.org/#/git-messenger")
    (license #f)))
 
+(define-public emacs-git-modeline
+  (package
+   (name "emacs-git-modeline")
+   (version "20260914.629")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/djangoliv/git-modeline.git")
+           (commit "c0ee693ff96d2ac9819c50e70f3fd73521dc72f6")))
+     (sha256 (base32 "12lhfs60nwaj17sss4lsca7p1cqisw85qbyy2mcl1ffrkcz96168"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/djangoliv/git-modeline")
+   (synopsis "Show the git status of the current file in the modeline")
+   (description "Documentation at https://melpa.org/#/git-modeline")
+   (license #f)))
+
 (define-public emacs-git-modes
   (package
    (name "emacs-git-modes")
@@ -41533,7 +41550,7 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260920.1233")
+   (version "20260920.1417")
    (source
     (origin
      (method git-fetch)
@@ -57941,6 +57958,25 @@
    (description "Documentation at https://melpa.org/#/latex-to-svg-backend")
    (license #f)))
 
+(define-public emacs-latex-to-svg-for-org
+  (package
+   (name "emacs-latex-to-svg-for-org")
+   (version "20260918.1457")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/alberti42/latex-to-svg.git")
+           (commit "74cd984e85b7b6a2274ad425d2785a237636c008")))
+     (sha256 (base32 "1cclmcj7gzpf31pv5ksvdfz4igrkyr3f3c85x3cv5pxslx0dyhrd"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-latex-to-svg-frontend))
+   (arguments '(#:files ("latex-to-svg-for-org.el")))
+   (home-page "https://github.com/alberti42/latex-to-svg")
+   (synopsis "Preview Org LaTeX math as SVG")
+   (description "Documentation at https://melpa.org/#/latex-to-svg-for-org")
+   (license #f)))
+
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
@@ -62245,6 +62281,24 @@
    (description "Documentation at https://melpa.org/#/magit-section")
    (license #f)))
 
+(define-public emacs-magit-standup
+  (package
+   (name "emacs-magit-standup")
+   (version "20260919.1913")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/function-artisans/magit-standup.git")
+           (commit "37f4b7d0f1694255c0e1fea4256777dd0eb4f0cd")))
+     (sha256 (base32 "1ida8ay768xkjmczw882cjchfffqfbw576knhr76zgpqlk7mwbfn"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-magit))
+   (home-page "https://github.com/function-artisans/magit-standup")
+   (synopsis "Collect recent git commits for standup notes")
+   (description "Documentation at https://melpa.org/#/magit-standup")
+   (license #f)))
+
 (define-public emacs-magit-stats
   (package
    (name "emacs-magit-stats")
@@ -66152,14 +66206,14 @@
 (define-public emacs-morlock
   (package
    (name "emacs-morlock")
-   (version "20260909.907")
+   (version "20260920.1635")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/morlock.git")
-           (commit "390e9e01df7c21c1d25a1f55f0f29824cb27cbb1")))
-     (sha256 (base32 "19jwd84d0w3pqp00zn9yb5f1djx718hzw4l3vgzpawpf5mivkw8h"))))
+           (commit "a7d8e24954cf2e71dc6156995cd602234b6109c5")))
+     (sha256 (base32 "162k88d90x1r1xgsfvpplxhpmma6w838b2mdfpmd5pbibqbjzl7v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tarsius/morlock")
    (synopsis "More font-lock keywords for elisp")
@@ -68752,6 +68806,23 @@
    (home-page "https://github.com/aaronjensen/night-owl-theme")
    (synopsis "A color theme for the night owls out there")
    (description "Documentation at https://melpa.org/#/night-owl-theme")
+   (license #f)))
+
+(define-public emacs-nightpanel-theme
+  (package
+   (name "emacs-nightpanel-theme")
+   (version "20260801.22")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/gregfelice/nightpanel-theme.git")
+           (commit "37e3b40e437408fc0aeb511b3a5b4df9f945bef1")))
+     (sha256 (base32 "03nqf44247llgr9cbhxg81y9prk2jw99sj6pkc10gvb6l6nvnasg"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/gregfelice/nightpanel-theme")
+   (synopsis "Saab instrument cluster colorscheme")
+   (description "Documentation at https://melpa.org/#/nightpanel-theme")
    (license #f)))
 
 (define-public emacs-nikki
@@ -76067,6 +76138,25 @@
    (home-page "https://github.com/ahmed-shariff/org-roam-ql")
    (synopsis "Integrating org-roam and org-ql")
    (description "Documentation at https://melpa.org/#/org-roam-ql-ql")
+   (license #f)))
+
+(define-public emacs-org-roam-stats
+  (package
+   (name "emacs-org-roam-stats")
+   (version "20260918.2030")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/GerardoCendejas/org-roam-stats.git")
+           (commit "5a09e6eb9d7f2006a436fc1403d7c86978dbd3eb")))
+     (sha256 (base32 "0sjnyx6zcrj44lc4qy4xx9rnz3hd7gck06mk46gdmg4r1gsnxqb1"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-org-roam emacs-simple-httpd))
+   (arguments '(#:files (:defaults "web")))
+   (home-page "https://github.com/GerardoCendejas/org-roam-stats")
+   (synopsis "Personal Knowledge Management Dashboard")
+   (description "Documentation at https://melpa.org/#/org-roam-stats")
    (license #f)))
 
 (define-public emacs-org-roam-timeline
@@ -88903,6 +88993,24 @@
    (description "Documentation at https://melpa.org/#/remind-bindings")
    (license #f)))
 
+(define-public emacs-remoto
+  (package
+   (name "emacs-remoto")
+   (version "20260917.141")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/agzam/remoto.el.git")
+           (commit "af795f3f7c086b4cca2b7ad866acc87dfe1b1633")))
+     (sha256 (base32 "08dmfhq9is5j5gdmjxjw0m05f8pfira0b4wsf6w2xfm05y8qy8gy"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-ghub))
+   (home-page "https://github.com/agzam/remoto.el")
+   (synopsis "Browse GitHub repos without cloning")
+   (description "Documentation at https://melpa.org/#/remoto")
+   (license #f)))
+
 (define-public emacs-renpy-mode
   (package
    (name "emacs-renpy-mode")
@@ -89374,6 +89482,23 @@
    (home-page "https://github.com/simenheg/restclient-test.el")
    (synopsis "Run tests with restclient.el")
    (description "Documentation at https://melpa.org/#/restclient-test")
+   (license #f)))
+
+(define-public emacs-restlib
+  (package
+   (name "emacs-restlib")
+   (version "20260914.1526")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/kickingvegas/restlib.git")
+           (commit "3bde75339f0e6f64698f0d829f13a675ac4042a8")))
+     (sha256 (base32 "1vsf1awd0bbjair9hxnhqvqfsm7kvz24z49qgg91mpj1gxw5pa8d"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/kickingvegas/restlib")
+   (synopsis "Utility library for building REST clients")
+   (description "Documentation at https://melpa.org/#/restlib")
    (license #f)))
 
 (define-public emacs-retraction-viewer
@@ -101074,6 +101199,23 @@
    (description "Documentation at https://melpa.org/#/test-simple")
    (license #f)))
 
+(define-public emacs-testcover-audit
+  (package
+   (name "emacs-testcover-audit")
+   (version "20260920.1757")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/OverbearingPearl/testcover-audit.git")
+           (commit "926f31e4e45a8337d13d3cc29561109245392cd2")))
+     (sha256 (base32 "1wbd87a57w3fp4wgkipps46hjlrr6gnvkc76vb4yn69k5d9mjn0q"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/OverbearingPearl/testcover-audit")
+   (synopsis "Quantitative coverage statistics for testcover.el")
+   (description "Documentation at https://melpa.org/#/testcover-audit")
+   (license #f)))
+
 (define-public emacs-tetris-60
   (package
    (name "emacs-tetris-60")
@@ -103973,16 +104115,16 @@
 (define-public emacs-ttl-mode
   (package
    (name "emacs-ttl-mode")
-   (version "20260210.1513")
+   (version "20201103.1236")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/emacsattic/ttl-mode.git")
-           (commit "66a9a27c828b6cc08cdd0184cfcf05beb5c2ac60")))
-     (sha256 (base32 "0gfx8ns59vigpv53z4ps9v3wsfy33ivn73lh5dycib3g3ffrsfsb"))))
+           (url "https://github.com/jeeger/ttl-mode.git")
+           (commit "5f7604e4c88c8d5a8c899a4b4aa95c8fc0bfb09c")))
+     (sha256 (base32 "120n2ws9spk14li9ywz7dnhci28m931fasb51ga1w54imjdzw9ip"))))
    (build-system melpa-build-system)
-   (home-page "https://github.com/emacsattic/ttl-mode")
+   (home-page "https://github.com/jeeger/ttl-mode")
    (synopsis "Mode for Turtle (and Notation 3)")
    (description "Documentation at https://melpa.org/#/ttl-mode")
    (license #f)))
