@@ -27294,14 +27294,14 @@
 (define-public emacs-emacsql
   (package
    (name "emacs-emacsql")
-   (version "20260601.1722")
+   (version "20260920.2146")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/emacsql.git")
-           (commit "d811bbefcb5e27841af55cae53aa939ba720de77")))
-     (sha256 (base32 "0spinavna6k6b43lcj92w1sc0jlffzqyj9byxyayg4g6md995dhi"))))
+           (commit "5430450af72ebe4917ff87a6bf3ac8f613f6dced")))
+     (sha256 (base32 "11wpvyn4vwjc9pngsikz9dg8xh2mnsbqfkvnzc3sw708zbwka57k"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "README.md" "sqlite")))
    (home-page "https://github.com/magit/emacsql")
@@ -76143,14 +76143,14 @@
 (define-public emacs-org-roam-stats
   (package
    (name "emacs-org-roam-stats")
-   (version "20260918.2030")
+   (version "20260920.2341")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/GerardoCendejas/org-roam-stats.git")
-           (commit "5a09e6eb9d7f2006a436fc1403d7c86978dbd3eb")))
-     (sha256 (base32 "0sjnyx6zcrj44lc4qy4xx9rnz3hd7gck06mk46gdmg4r1gsnxqb1"))))
+           (commit "42f6388d377efc31837e3d571e461dec1dccc9bf")))
+     (sha256 (base32 "17rq9n6gf78z5nfk86m4kxrc4cx7yd28w9l510v38fx4w2hi4hvz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-org-roam emacs-simple-httpd))
    (arguments '(#:files (:defaults "web")))
@@ -96500,14 +96500,14 @@
 (define-public emacs-sops
   (package
    (name "emacs-sops")
-   (version "20260518.350")
+   (version "20260920.2121")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/djgoku/sops.git")
-           (commit "95b2178a71dcbf3e69729c52cba2bc23171e059d")))
-     (sha256 (base32 "01wd7qglz3z5ip9mviy92bhfvmnhfm3mwfirxrhjb9y4jxyq9da3"))))
+           (commit "07fd550969fe164f71aab89c93338f8993fbd9e6")))
+     (sha256 (base32 "17ik8b4k3lkgws63zmnbslp4s4d7zrslvc0frlp334fz8l76gy30"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/djgoku/sops")
    (synopsis "Edit SOPS-encrypted files transparently")
@@ -97663,14 +97663,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260919.9")
+   (version "20260921.7")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "37f78e1b7b56b1e8fb7caf8d0aa8cda6c3212dd9")))
-     (sha256 (base32 "0zf73sah5zp751nx56h0gcaqnyw4g9aqsj0wkgjnjc2vm99wd5wj"))))
+           (commit "fe8be7dc7165609a338415aaab2f846653481a2e")))
+     (sha256 (base32 "19kdzax5q1zprmrxxqwlmg3bvifbhl07c4zylylv4lp9f6m1p1c3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
