@@ -12426,14 +12426,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260921.1113")
+   (version "20260922.555")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "fc26edad6fda900649f70232eaa35d478419448e")))
-     (sha256 (base32 "06k90v2s9zfjrli9iyk8dbj0gvlyvs1d6s4zhzkdpy66sbpk07nj"))))
+           (commit "5af73121be1ccc488189d847dca3a9fcdaf4a9a6")))
+     (sha256 (base32 "124lgbd2a3ah0smnz5v6qds7nsh15hsappcd0xfklggpz9cxzi7g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -22470,14 +22470,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260919.1506")
+   (version "20260922.229")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "8185cbb4a01b5a73e308fa88391dcea0554c2c49")))
-     (sha256 (base32 "1l1y4xwg25q6q8cjpan1clnw3c23yvfxdx9rf654ijjgw1z964bk"))))
+           (commit "8af4db0f7ee63b9382c28f6db1f5b60e6203e0b3")))
+     (sha256 (base32 "07z9ngsjdiycn13jl81yraszsacxwryyy7c8n0dk696fjsqs8lm5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -26674,14 +26674,14 @@
 (define-public emacs-elmacro
   (package
    (name "emacs-elmacro")
-   (version "20210716.639")
+   (version "20260922.912")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Silex/elmacro.git")
-           (commit "d2e05012cee4f54fab6d8d8d6aced6e5eeef4f31")))
-     (sha256 (base32 "1mmhgl85880bhhwibf9ksifghdc7w22vrhpg8y8rvpjh91fdg0lz"))))
+           (commit "c1966740ad94f2232581d622d09f8d4cfaecd016")))
+     (sha256 (base32 "0rw4814av64qgr1c9p6aiqab5z26prnnwxyb1w6bgc38988h9jpv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash))
    (home-page "https://github.com/Silex/elmacro")
@@ -58438,14 +58438,14 @@
 (define-public emacs-ledger-mode
   (package
    (name "emacs-ledger-mode")
-   (version "20260727.518")
+   (version "20260922.356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ledger/ledger-mode.git")
-           (commit "b0e71b7e9ee612ccb0b0e5f8bfefcfddb69ae861")))
-     (sha256 (base32 "1izybqhsg4gl2jlp7xgbybazxxh96xgqc31f3l19244ppc73g2kr"))))
+           (commit "0dd5947e030d005efe1888331e84bd5a7e3e79b5")))
+     (sha256 (base32 "1fgi2qkwhr57lzmwlkrdlf323vrm8qy81dc81p2g0gkza0s0kgw8"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("ledger-*.el" "doc/*.texi")))
    (home-page "https://github.com/ledger/ledger-mode")
@@ -61702,14 +61702,14 @@
 (define-public emacs-magent
   (package
    (name "emacs-magent")
-   (version "20260921.1527")
+   (version "20260922.1058")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/magent.git")
-           (commit "6f903645301976fba594f657ef3e4a14243ca707")))
-     (sha256 (base32 "04b8fapq3p04gh98bffmams1by5b4a6lizrn0zbw74xg4y58v2ad"))))
+           (commit "850f3d6d18c093ec63255a1a8ff2138d9fa6e354")))
+     (sha256 (base32 "0y36nfg7ya91j8sgi17sv91i2zmgmckw70hzs4cq6v4fyj4dqvzw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-gptel emacs-yaml emacs-compat emacs-acp emacs-agent-shell))
@@ -64503,14 +64503,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260922.239")
+   (version "20260922.1101")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "cb363a6ac3394ca55984d2cf447c6bef85067246")))
-     (sha256 (base32 "0f7jawhslbkjh0fhmnngxnc3hqw2dc6vz853gxhlb5ag05n0ap06"))))
+           (commit "66261fb2eead0abfbf3d8c435b2f615c8bc7fe4b")))
+     (sha256 (base32 "1hj4kx1kckdik7swx4dchp955m0mkqq316cz932a27q16g6ahxyz"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -77099,14 +77099,14 @@
 (define-public emacs-org-upcoming-modeline
   (package
    (name "emacs-org-upcoming-modeline")
-   (version "20260921.1029")
+   (version "20260922.748")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/unhammer/org-upcoming-modeline.git")
-           (commit "d4b52d40e9d6fd252094a856d24e2a2334a6dd47")))
-     (sha256 (base32 "0nkipbjsdgihxqdd9fvbcffxyvab7s5ybszc90cpfkygra4vy97j"))))
+           (commit "1ca60020e0e92eddb1c4fed4018a4c80441fdefa")))
+     (sha256 (base32 "09538z3zh8vfwxf67flxdzzm3lpflca8c82b97ma5l7qf512kqvw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ts emacs-org-ql))
    (home-page "https://github.com/unhammer/org-upcoming-modeline")
@@ -82052,14 +82052,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260920.1256")
+   (version "20260922.311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "26f116cdf0c5d7bf775613753029681d7d4a80cb")))
-     (sha256 (base32 "0sl3lc05swg0wzd305cnl5j0aff2wb5583dcwnk2bipnpjk4dsan"))))
+           (commit "5b52ee86071a1b751d9228eff8be6bc807049917")))
+     (sha256 (base32 "04bk0z5yh5ac030z3b95wazf89wxkzvaa43fyjs0p1g61ndbhicy"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -100505,14 +100505,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260921.1153")
+   (version "20260922.738")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "901d99f12d46a3eec7333fea1e09fe54c635f327")))
-     (sha256 (base32 "0dlnx6swnybnzaz76avp0dvpc8w0b81gq196bn5k7ypz6vhvrw82"))))
+           (commit "ef4b94cb2ff06d54fc28c3966241819761889097")))
+     (sha256 (base32 "0ff8ngdwc0ixkv5qsj54c2l99i6y2v9jvvddna4gch8f3ir8na9i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -107647,14 +107647,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260921.1823")
+   (version "20260922.549")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "7de5f6fc21b2a3054cc7fa4363a27c123560f0f5")))
-     (sha256 (base32 "1z8v93kg5qhcnx88wgskqdc92fippqyyxsf963nw9ziwjc2wfkc2"))))
+           (commit "279933f80caad19854f015738257496e0cd44e72")))
+     (sha256 (base32 "1jnn13dkrgn1py26niadg55sh0h7m33byhxmm116ann34qbr7gbm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
