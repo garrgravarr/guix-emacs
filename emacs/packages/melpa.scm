@@ -11308,14 +11308,14 @@
 (define-public emacs-citar
   (package
    (name "emacs-citar")
-   (version "20260921.617")
+   (version "20260922.132")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-citar/citar.git")
-           (commit "a8be76d04f4343776afef77154bf6bda4a696b5f")))
-     (sha256 (base32 "0za037d8y2zj10c9p10mdzsawi5r96q9am2w7sn5xfjl9jxplsbq"))))
+           (commit "5efc5ac78f235cdaafe361758d03c7a51a015dd1")))
+     (sha256 (base32 "1ghd5ddvynqwr71q0bxkamhhlz50vg5i2iva5l8b747f4acajqam"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-parsebib emacs-citeproc))
    (arguments '(#:files (:defaults (:exclude "citar-embark.el"))))
@@ -61777,14 +61777,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260919.1302")
+   (version "20260921.2144")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "fe66e74a9cf50fe224d043039df85de20e3913b1")))
-     (sha256 (base32 "07i457343k9ci2srqn5ar0n2bf2yshlgnvwi9l1cf10mdcc3wpi6"))))
+           (commit "5a4defc82ba221c71c9d1903f26dfdf1501e3448")))
+     (sha256 (base32 "1b3bzpvbb4hx5p1dcv9xg457w8lcchd1l83slpvzys6q161nbnl2"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -64503,14 +64503,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260907.2350")
+   (version "20260922.239")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "5fd9336e13d54f1359d47c9d8bc98a27b2d368ee")))
-     (sha256 (base32 "02xvm4ngnb27m6qpqwlmympbfrfr204bxbgn1vlrylzidfyblj19"))))
+           (commit "cb363a6ac3394ca55984d2cf447c6bef85067246")))
+     (sha256 (base32 "0f7jawhslbkjh0fhmnngxnc3hqw2dc6vz853gxhlb5ag05n0ap06"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -68336,14 +68336,14 @@
 (define-public emacs-nerd-icons-completion
   (package
    (name "emacs-nerd-icons-completion")
-   (version "20260412.243")
+   (version "20260921.2012")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons-completion.git")
-           (commit "45b585d972192a3eaeb239e15e55de7f46f8920a")))
-     (sha256 (base32 "0vipmrxmk6i1by32ygqlg3kj2qx9hdz9f8y5pp33g7qvy4vmavw6"))))
+           (commit "f924dd490c8c4c1066fd97a76e0dc31e303fca30")))
+     (sha256 (base32 "13d03mnxzqqxwcw9wk04kpz1nq8in98k8l30c3bv23rzx69kg10f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-compat))
    (home-page "https://github.com/rainstormstudio/nerd-icons-completion")
@@ -104149,14 +104149,14 @@
 (define-public emacs-ttx-mode
   (package
    (name "emacs-ttx-mode")
-   (version "20260724.1803")
+   (version "20260922.242")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/wmedrano/ttx-mode.git")
-           (commit "ba9b25a63abdbd97775cd8f0a7e2b81b9410d872")))
-     (sha256 (base32 "07ciflrn1wrkwn2d1x1chgj1j3a57cz23kqprs65kqy91d7clck3"))))
+           (commit "62e53f57656aed47aa4ef000cb565cf8e31abc8a")))
+     (sha256 (base32 "0947dn24y7c2mayv1qkj63mwvvk0qm74vvhg91kz66vgcds1amhj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/wmedrano/ttx-mode")
    (synopsis "TrueType/OpenType font viewer using ttx")
