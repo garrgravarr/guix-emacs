@@ -1661,14 +1661,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260921.1420")
+   (version "20260923.1428")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "868850f5fa577c3178bcf75b00d0ad29db6a8ae4")))
-     (sha256 (base32 "1grs76bc5vz6782f8ifsx3xzl7h2db55fv20jphylnzrrxd0kw8h"))))
+           (commit "4cbcd12d84a2eed03a842944e9a9494f2852ac46")))
+     (sha256 (base32 "0kdnz5flc8wcrkkrg6m5alnkblhjns3spxh2mgs7kmq330lygvfn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1840,14 +1840,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260918.344")
+   (version "20260923.1503")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "2d9b30853a274f7b9a13070942451f8d23d2d9ca")))
-     (sha256 (base32 "1bhz9rw44ljpf5x7icdsmkrvxcx87ac4z9lcah96n90pipf85iby"))))
+           (commit "317887a8845c4d4614c4483691f01b9a081d491a")))
+     (sha256 (base32 "17b61jaydwsli0szs4ysd9h7cv4bva31954f9s3zkaf0qb2ddkwd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -12426,7 +12426,7 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260923.1140")
+   (version "20260923.1155")
    (source
     (origin
      (method git-fetch)
@@ -15218,14 +15218,14 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260913.2232")
+   (version "20260923.1359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult.git")
-           (commit "9979fbb02e633267d0f6bc6cafa266fe87a0007f")))
-     (sha256 (base32 "0g1w5dbfj50dxvlcsk3njx6z6mw8wwv47982ccpdpd5pr5d5rv16"))))
+           (commit "24eed02c31e80df16aed5f741b77b66e270de6eb")))
+     (sha256 (base32 "08wpbcdv9xbdyk4fv68llj2fcqcdg37s195ypdvslg72vk31wn0l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/consult")
@@ -101202,14 +101202,14 @@
 (define-public emacs-testcover-audit
   (package
    (name "emacs-testcover-audit")
-   (version "20260920.1757")
+   (version "20260923.1647")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/testcover-audit.git")
-           (commit "926f31e4e45a8337d13d3cc29561109245392cd2")))
-     (sha256 (base32 "1wbd87a57w3fp4wgkipps46hjlrr6gnvkc76vb4yn69k5d9mjn0q"))))
+           (commit "e910fa6ee162a99cf47644ce945519ae60acb0f5")))
+     (sha256 (base32 "1cb9jacrgdsbx6kglfkf4akavsy0c77h6vaqh0sgasyfmj3yqsqc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/testcover-audit")
    (synopsis "Quantitative coverage statistics for testcover.el")
@@ -101846,14 +101846,14 @@
 (define-public emacs-time-uuid-mode
   (package
    (name "emacs-time-uuid-mode")
-   (version "20240112.1005")
+   (version "20260923.1347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/RobertPlant/time-uuid-mode.git")
-           (commit "e30f50229c617bdd31a1edcd849cba1f3423fea1")))
-     (sha256 (base32 "1ry1v86qw6xf245nkpjrnjinnbhcj57g3xabsv4q566cdi9l3hwy"))))
+           (commit "54f7fc6093163b88042fa7dbaa33f32a35709290")))
+     (sha256 (base32 "0d50cslsj0kjm295rd6wy5sf266kq8n2x7clm55zj2rp6yd46dfd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/RobertPlant/time-uuid-mode")
    (synopsis "Minor mode for previewing time uuids as an overlay")
@@ -107033,14 +107033,14 @@
 (define-public emacs-virtual-comment
   (package
    (name "emacs-virtual-comment")
-   (version "20220921.221")
+   (version "20260923.1312")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/thanhvg/emacs-virtual-comment.git")
-           (commit "b0c2ac4a9d625b5f4f329bbab879ad86cd7056bd")))
-     (sha256 (base32 "052djdwlg2bx0smy4xbcniqb48q0nwfbigf98s2330ngpjk7112a"))))
+           (commit "cfc627ccf5abe8ef0492652f9d6024612b2dc226")))
+     (sha256 (base32 "0zyfh22msnzv8kz31rgx3r9x9rcnka60f9v2kly12p79bkpln9xk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/thanhvg/emacs-virtual-comment")
    (synopsis "Virtual Comments")
@@ -107647,14 +107647,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260923.1049")
+   (version "20260923.1808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "8fd122f042f3af2d7d56dbb2f4fb59300ec08a9e")))
-     (sha256 (base32 "1wx3bgw4mbsq2fvrj0y7v2f878ssl6vvsnkh3x8cwsqgv4fyz5pv"))))
+           (commit "21747c2db2164cd044593578032159c3e02997e2")))
+     (sha256 (base32 "1pb9s78irkgh7ziig6ar900hbw8cndn3jk5dwr43nwml9dx0mzw6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
