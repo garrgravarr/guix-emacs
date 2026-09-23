@@ -24074,14 +24074,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260916.1400")
+   (version "20260922.1807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "0dc74a863a3729c4397f7fe6264a366dbb8504c3")))
-     (sha256 (base32 "1lcjsdy7pqldnxd3bhkw11b3xwvma0dg2g4qqfr9wd0sxi7jfgwc"))))
+           (commit "d7632c8bb8a093df1fde0c52fd1fd7662ead7e76")))
+     (sha256 (base32 "00q23c7cs3g8j7ksmiy6az48dff1185xricyx57n94fnr835babg"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -38150,14 +38150,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260919.1834")
+   (version "20260922.2225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "3662e218c808bd3497a8aa05f3ccb533fa60eaa4")))
-     (sha256 (base32 "1w6h5rhai737220s0qyhf81hd3ww620ylik5jfyd6sxgdvzjza51"))))
+           (commit "ebff9cc776e57f6721f9ec85f16bf935cd7f6bef")))
+     (sha256 (base32 "1svwwcps7b2hai4gbxxzb8xcy185c1dhjxlhh2j894y3akq0ka9l"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -55430,14 +55430,14 @@
 (define-public emacs-julia-repl
   (package
    (name "emacs-julia-repl")
-   (version "20260921.852")
+   (version "20260922.1252")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tpapp/julia-repl.git")
-           (commit "a3a0582691f343d5984a34a85263165c2fe44f43")))
-     (sha256 (base32 "0vp9mh7c2dqi5mw5q2f48n8j915a33rsxnmy6na208dc7wa7d2ck"))))
+           (commit "7c818163388c732aeaee0b629b4559e5087c00ba")))
+     (sha256 (base32 "1bagcs98vnmlsq8dvlzksscgb39a8rshnpc7g1yp0sngj6d13wr5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-compat))
    (home-page "https://github.com/tpapp/julia-repl")
@@ -61702,14 +61702,14 @@
 (define-public emacs-magent
   (package
    (name "emacs-magent")
-   (version "20260922.1058")
+   (version "20260922.1552")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Jamie-Cui/magent.git")
-           (commit "850f3d6d18c093ec63255a1a8ff2138d9fa6e354")))
-     (sha256 (base32 "0y36nfg7ya91j8sgi17sv91i2zmgmckw70hzs4cq6v4fyj4dqvzw"))))
+           (commit "7b8f661900cecb59d209d1ba2f0c10e7627030df")))
+     (sha256 (base32 "06khdbz8m21q2rai3hyhxavzzq2vxq1snp5p6d1wmfamvjlwa4dz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-gptel emacs-yaml emacs-compat emacs-acp emacs-agent-shell))
@@ -61777,14 +61777,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260921.2144")
+   (version "20260922.1955")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "5a4defc82ba221c71c9d1903f26dfdf1501e3448")))
-     (sha256 (base32 "1b3bzpvbb4hx5p1dcv9xg457w8lcchd1l83slpvzys6q161nbnl2"))))
+           (commit "cd9117e3a8eb9b50814474d5addfd2ca92af5605")))
+     (sha256 (base32 "1xh990ny0ahjbms62bpcpl2l4fxjk0cq6pgxc5vvbjns023amhjm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62284,14 +62284,14 @@
 (define-public emacs-magit-standup
   (package
    (name "emacs-magit-standup")
-   (version "20260919.1913")
+   (version "20260922.1748")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/function-artisans/magit-standup.git")
-           (commit "37f4b7d0f1694255c0e1fea4256777dd0eb4f0cd")))
-     (sha256 (base32 "1ida8ay768xkjmczw882cjchfffqfbw576knhr76zgpqlk7mwbfn"))))
+           (commit "fba45b21733efbb1ae8ebe639505a2e0073f5270")))
+     (sha256 (base32 "1vx1gjfyqm1frvpi86h0cw7nc9v79rc4hb81a0xrar4pjcw4al54"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (home-page "https://github.com/function-artisans/magit-standup")
@@ -81219,14 +81219,14 @@
 (define-public emacs-persp-mode
   (package
    (name "emacs-persp-mode")
-   (version "20260830.105")
+   (version "20260922.825")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Bad-ptr/persp-mode.el.git")
-           (commit "4cd5f47bd7208e4dbefe8053ec6d26271ce2ea88")))
-     (sha256 (base32 "0wm2fn5rcxjk6bqnyl5jhz9l53cb9l03k2kq0xhix9nsg6wgylp3"))))
+           (commit "703f3b5ad502cfe5b027586611421900bed1fb40")))
+     (sha256 (base32 "0l49m99pqp8j844dwdqx6xv80ph939367iizykyi8j6nrbs46206"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Bad-ptr/persp-mode.el")
    (synopsis "Windows/buffers sets shared among frames + save/load")
@@ -89487,14 +89487,14 @@
 (define-public emacs-restlib
   (package
    (name "emacs-restlib")
-   (version "20260921.347")
+   (version "20260922.1706")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/restlib.git")
-           (commit "a2ee43ecab7fb7fb4b230cd2697db15adfcf32ff")))
-     (sha256 (base32 "1yfsixv7sbjz0dng7x9f53wbjsh66qnap85gm8w9j7pspf8s251x"))))
+           (commit "b1da37d9296cbf8cab4d447ff5a2b4ce95e3e061")))
+     (sha256 (base32 "17zz1yklsja260k7ndzmmkni44xnr0rqcxh8cvd5grrz49g5qci2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kickingvegas/restlib")
    (synopsis "Utility library for building REST clients")
@@ -94573,14 +94573,14 @@
 (define-public emacs-sixcolors-theme
   (package
    (name "emacs-sixcolors-theme")
-   (version "20260727.522")
+   (version "20260922.1452")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mastro35/sixcolors-theme.git")
-           (commit "b547ee2c9501dbf0f70e2189d4a4eb189ebb3d1b")))
-     (sha256 (base32 "12i7a4djkd0vx4sdqlbhp78l2rl6vfkm0v9mg9gafqn7v416zh8y"))))
+           (commit "f0208f375ca4167097a6204010e55189396c3aac")))
+     (sha256 (base32 "0hds3ya0781r2sb8c58wiw0kspz81bj9bxia62x1a78j0134ybpn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mastro35/sixcolors-theme")
    (synopsis "Just another theme")
@@ -94737,14 +94737,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260921.1504")
+   (version "20260922.2350")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "56cebf4cd54f583e29f04fb6cb7005bb12b324bf")))
-     (sha256 (base32 "0bf697lnqkyjvpgir5gj67kvxk50gxkrp2zy2x6cvyp3mbbhs2ay"))))
+           (commit "9a5f2011b84029a76b43fd2b0116b9cd47f478dd")))
+     (sha256 (base32 "17hwzkh3wjsx06gr8m4gprmvcyw0hgqwbn1fkay6n5hxwnaf7rri"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
