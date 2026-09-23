@@ -822,14 +822,14 @@
 (define-public emacs-ac-php
   (package
    (name "emacs-ac-php")
-   (version "20260921.522")
+   (version "20260923.612")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "ef5654e63a48098dfc42a4a4bbe17c503070f8c5")))
-     (sha256 (base32 "12zn4cmkjbikd0c9ivh2g6r8ml8n1jq0ywwnba3myjs12nrswbpz"))))
+           (commit "579063ac92f3cba9816edd31f24c759aac3a64b2")))
+     (sha256 (base32 "0kvi4sir57k4wi4vqpl4wyz73qinashhldbymjdjs77ldx7sa7f9"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-ac-php-core emacs-auto-complete emacs-yasnippet))
@@ -842,14 +842,14 @@
 (define-public emacs-ac-php-core
   (package
    (name "emacs-ac-php-core")
-   (version "20260921.1039")
+   (version "20260923.612")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "ef5654e63a48098dfc42a4a4bbe17c503070f8c5")))
-     (sha256 (base32 "12zn4cmkjbikd0c9ivh2g6r8ml8n1jq0ywwnba3myjs12nrswbpz"))))
+           (commit "579063ac92f3cba9816edd31f24c759aac3a64b2")))
+     (sha256 (base32 "0kvi4sir57k4wi4vqpl4wyz73qinashhldbymjdjs77ldx7sa7f9"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-php-mode emacs-s emacs-f emacs-popup emacs-xcscope))
@@ -11602,14 +11602,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260921.1658")
+   (version "20260923.530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "df92d5c153b4321d2a4e287fed7adaef0f0242ca")))
-     (sha256 (base32 "0wmd2q2c73ljw54dw39mhl5ycwbiyn9pw6ac0c13w4r4ypqgbiii"))))
+           (commit "163db9c7539cd6bd29c559192c65702bae2e81b8")))
+     (sha256 (base32 "10x7z55jlb8cd33dpg6d5jc5gcznjyhhqjqsncq7gljb4ia56klg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12426,14 +12426,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260922.555")
+   (version "20260923.1140")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "5af73121be1ccc488189d847dca3a9fcdaf4a9a6")))
-     (sha256 (base32 "124lgbd2a3ah0smnz5v6qds7nsh15hsappcd0xfklggpz9cxzi7g"))))
+           (commit "bfe30d6541baa61173c197e95c9026db3f11be1a")))
+     (sha256 (base32 "1wzlqy551mnrw7xffn7iq8nvs0rs7wx99hwb2b33dmafix2ypylx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -14245,14 +14245,14 @@
 (define-public emacs-company-php
   (package
    (name "emacs-company-php")
-   (version "20260921.522")
+   (version "20260923.612")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "ef5654e63a48098dfc42a4a4bbe17c503070f8c5")))
-     (sha256 (base32 "12zn4cmkjbikd0c9ivh2g6r8ml8n1jq0ywwnba3myjs12nrswbpz"))))
+           (commit "579063ac92f3cba9816edd31f24c759aac3a64b2")))
+     (sha256 (base32 "0kvi4sir57k4wi4vqpl4wyz73qinashhldbymjdjs77ldx7sa7f9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ac-php-core emacs-company))
    (arguments '(#:files ("company-php.el")))
@@ -22470,14 +22470,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260922.229")
+   (version "20260923.736")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "8af4db0f7ee63b9382c28f6db1f5b60e6203e0b3")))
-     (sha256 (base32 "07z9ngsjdiycn13jl81yraszsacxwryyy7c8n0dk696fjsqs8lm5"))))
+           (commit "27ba834ba3887fb573eaba5eb54434d8df42e8b3")))
+     (sha256 (base32 "1b252agdc7yd5wwhl7gqvz7jgbqxbf6mpm6q74vsdqb0mziaxva9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -41550,14 +41550,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260921.456")
+   (version "20260923.453")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/emacs-gnosis")
-           (commit "497149ab7ab88c2acbd398803b15c3f9b9ab910a")))
-     (sha256 (base32 "03vvig5y7bh4b5jzng9hv5kljbk38y98mbcr5dn2ranzd5zv4xkb"))))
+           (commit "dd81341093c6428e0b5a1faca43802e6fa485f5a")))
+     (sha256 (base32 "0nmb7fyr0800x2lpiybdl5kpdly6z019gzqjmyhwiwyy6aj1ani3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://git.thanosapollo.org/emacs-gnosis")
@@ -58845,14 +58845,14 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20260913.550")
+   (version "20260923.938")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/liberime.git")
-           (commit "77efeb09fe25f8c713dce32d93d52da9fd79084f")))
-     (sha256 (base32 "16276gj8afdnycv548if4m7k7s6c5rwfg2m2qsfrs83nfxymcbnb"))))
+           (commit "61997ed192afa3a107c4cfe70c28f145e7368388")))
+     (sha256 (base32 "034g5b7axz9qalkfdwa1gny2bk7125bchkgacxi3cm92scwf0vjv"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -75927,14 +75927,14 @@
 (define-public emacs-org-relative-date
   (package
    (name "emacs-org-relative-date")
-   (version "20260830.1852")
+   (version "20260923.1103")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/RobertPlant/org-relative-date.git")
-           (commit "159fe6fd7311fabec3e85864cf69ea12a1692811")))
-     (sha256 (base32 "16nd0z68axa0w5rfsfq98vdc57015q4mc9jsqylw6348psr2d9ly"))))
+           (commit "dd36792afc93b1dd97f9755ae373210327b38f7f")))
+     (sha256 (base32 "0mfqj5b25ar73m62zmh4zs6azx0bhdx8yq0vgr7k62qg6vq2b7qm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/RobertPlant/org-relative-date")
    (synopsis "Live relative-date overlays on org timestamps")
@@ -76430,14 +76430,14 @@
 (define-public emacs-org-social
   (package
    (name "emacs-org-social")
-   (version "20260824.735")
+   (version "20260923.849")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/org-social/org-social.el.git")
-           (commit "561efb44ff5199096b6ec06a0477fb8565a56d7f")))
-     (sha256 (base32 "1cphly1f7xcwlq6kjgnz2izza2q17sk2rlab0vpfswpk3ybz9cli"))))
+           (commit "1037ec1b03d3afbb418bec7aa3e21d2b10a1bbba")))
+     (sha256 (base32 "1hbyd307kav467l32262hmaillf49jfxcqbzzzjw9g2mllzlcvkh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-request emacs-emojify emacs-async-http-queue))
@@ -82014,14 +82014,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20260918.1806")
+   (version "20260923.825")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "0540bf2e05043350e6f2d9b6e5dd70c2b287c4dd")))
-     (sha256 (base32 "0jllbps4rwajdsrp2d3wr2pmmh7zgqd7nzzmr9y02cngij9923hy"))))
+           (commit "e743d5d6ce06af362c641285573ff0ecd4d2e20c")))
+     (sha256 (base32 "1nra09z2wf795pq82nsdzn05gc6lb51jj2f9gbqih8047n4r281b"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -100505,14 +100505,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260922.738")
+   (version "20260923.1229")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "ef4b94cb2ff06d54fc28c3966241819761889097")))
-     (sha256 (base32 "0ff8ngdwc0ixkv5qsj54c2l99i6y2v9jvvddna4gch8f3ir8na9i"))))
+           (commit "9eb898240be27619311253d4972a00803ae2e03d")))
+     (sha256 (base32 "1pyirh1y6zqk91r8hr2fqv3psvpf4h21d7zb62iw6igabqj4pk5z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -107647,14 +107647,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260922.549")
+   (version "20260923.1049")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "279933f80caad19854f015738257496e0cd44e72")))
-     (sha256 (base32 "1jnn13dkrgn1py26niadg55sh0h7m33byhxmm116ann34qbr7gbm"))))
+           (commit "8fd122f042f3af2d7d56dbb2f4fb59300ec08a9e")))
+     (sha256 (base32 "1wx3bgw4mbsq2fvrj0y7v2f878ssl6vvsnkh3x8cwsqgv4fyz5pv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -109518,14 +109518,14 @@
 (define-public emacs-with-editor
   (package
    (name "emacs-with-editor")
-   (version "20260919.936")
+   (version "20260923.845")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/with-editor.git")
-           (commit "53115f978576e043e050fd04d0cb7517296727e9")))
-     (sha256 (base32 "0zh8v39vp1l9r5hn7pqsi0jd72j26931b2alvpq7sh2k6hwwar4p"))))
+           (commit "3195a545b6c9bec7f3fbb68eaba14a172e0ea3ef")))
+     (sha256 (base32 "1dzc78c7h9wlh7jcvcd6wd5kaqd68hn7nr34svmkk4qd9v9c8cqg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/with-editor")
@@ -111449,14 +111449,14 @@
 (define-public emacs-youtube-music
   (package
    (name "emacs-youtube-music")
-   (version "20260919.1322")
+   (version "20260923.1109")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cyberkm/emacs-youtube-music.git")
-           (commit "c71ed8180d14acb9fc7d7b4d64b708e1f25d1bea")))
-     (sha256 (base32 "0n086y6pygfmbqcyyn29q9k5havn5r9ib53hai578aj1qrd6qqy7"))))
+           (commit "d13cf01d58f6c399a7217f708c84d741f8cd4f63")))
+     (sha256 (base32 "12nj45bq1kb4kvghc7hkrfbraps79d3rhgbzj4ww10xz1sgvfz1z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/cyberkm/emacs-youtube-music")
    (synopsis "YouTube Music client")
