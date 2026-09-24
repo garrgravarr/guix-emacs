@@ -1661,14 +1661,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260924.118")
+   (version "20260924.1210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "f0854f6492c58979396833b979d50a81672e7bfc")))
-     (sha256 (base32 "1vcsyawmk74b52rwmp9zkrn231s2kdx0ak0cz4b2v38737ay83xx"))))
+           (commit "19e9d0175a5392af9999447f6be99f65e43f37bb")))
+     (sha256 (base32 "0aps9ldzk4l703yqnpygn7rhpdjhbycm21cc1r8w56px2lv7lggz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1840,20 +1840,20 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260923.1503")
+   (version "20260924.438")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "317887a8845c4d4614c4483691f01b9a081d491a")))
-     (sha256 (base32 "17b61jaydwsli0szs4ysd9h7cv4bva31954f9s3zkaf0qb2ddkwd"))))
+           (commit "72c49e6f7c5817c81c2d425dcefeea2107d7c94a")))
+     (sha256 (base32 "0hs86dmppml8icvrd05wkzddaix5pns79rgr35laaw2dzfsyd6f0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
    (home-page "https://github.com/tninja/ai-code-interface.el")
    (synopsis
-    "Unified interface for AI coding backends such as Codex CLI, Antigravity CLI, Claude Code, Opencode, etc")
+    "Unified interface for AI coding backends such as Codex CLI, Pi, Antigravity CLI, Claude Code, etc")
    (description "Documentation at https://melpa.org/#/ai-code")
    (license #f)))
 
@@ -12426,14 +12426,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260923.1155")
+   (version "20260924.546")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "bfe30d6541baa61173c197e95c9026db3f11be1a")))
-     (sha256 (base32 "1wzlqy551mnrw7xffn7iq8nvs0rs7wx99hwb2b33dmafix2ypylx"))))
+           (commit "4f72f569bbb4b62d84b8562c9e954fcd5bab9f09")))
+     (sha256 (base32 "1dr90hmr7r9iazijxivhiyf3igxyw1wnhbvlfkak3zarhfxbmhqm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -64503,14 +64503,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260924.302")
+   (version "20260924.810")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "2bc105b712b2894bfeb3f23c3eee0987b9fa6977")))
-     (sha256 (base32 "0asiqwvkvyvzm9ldyw09h8rwhgcy1lz0pw1aapiwcqcnn406csyw"))))
+           (commit "bceed3e808d0b9da3b9aaaf2d8fb8fe0a08302e0")))
+     (sha256 (base32 "0jnizcb77x6z9d07khmdhhmzflkh5ksk3yra2x6q7df68g9rrd2h"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -65227,14 +65227,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20260918.1608")
+   (version "20260924.926")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "37fd8765e112f3125f2500a1e08328066dd56b19")))
-     (sha256 (base32 "0i29cw7h56c4b85y70cm2g61m2znkxk0100wf92jiwrgwhspzbd2"))))
+           (commit "baba2dcd18cac75fc9953da20e8c0a9886441319")))
+     (sha256 (base32 "0mhf33xmmp8zrwixxxanl2xmhkfqwm8q3m0w8hkyp22nhqi04x5b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -79442,14 +79442,14 @@
 (define-public emacs-package-build
   (package
    (name "emacs-package-build")
-   (version "20260914.913")
+   (version "20260924.1014")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/melpa/package-build.git")
-           (commit "8df11f0c3aff221441967133878cb5a4e1cd8dd4")))
-     (sha256 (base32 "1fd56y2sclc55hv8clsvvc1v0hzgny44aqrzbgfw35blbwy309r5"))))
+           (commit "292a18aadaf727a0ce967c3c064fb78b3986b1d7")))
+     (sha256 (base32 "02mrxzwckird1bvw1xcmmv0lk1a25grm4wkb2ddhqhi531j2mmp8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "package-build.mk")))
@@ -94737,14 +94737,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260922.2350")
+   (version "20260924.1230")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "9a5f2011b84029a76b43fd2b0116b9cd47f478dd")))
-     (sha256 (base32 "17hwzkh3wjsx06gr8m4gprmvcyw0hgqwbn1fkay6n5hxwnaf7rri"))))
+           (commit "ed627b414217556470785fa49e4637ceda027c60")))
+     (sha256 (base32 "1shbqa2j7nydlbqqmhdyljh0nl2yb6qz0a3l56pgjm6gisc0smss"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -100505,14 +100505,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260923.1229")
+   (version "20260924.445")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "9eb898240be27619311253d4972a00803ae2e03d")))
-     (sha256 (base32 "1pyirh1y6zqk91r8hr2fqv3psvpf4h21d7zb62iw6igabqj4pk5z"))))
+           (commit "4721c9322ce0f988aca0058be4e5f9865eaf83f3")))
+     (sha256 (base32 "17cqgrhqmv8pxsf1mdahlm9sv11j38r3710zrh4zrmszbqng26vw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -107647,14 +107647,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260923.1808")
+   (version "20260924.524")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "21747c2db2164cd044593578032159c3e02997e2")))
-     (sha256 (base32 "1pb9s78irkgh7ziig6ar900hbw8cndn3jk5dwr43nwml9dx0mzw6"))))
+           (commit "091828df34fac9b2ba8016d6303d685807adfa02")))
+     (sha256 (base32 "14axn21lj63bic4s91zx0n1lc0ax4mcf0982k3g1r0cd8i1a67hx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
