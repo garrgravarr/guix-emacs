@@ -1661,14 +1661,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260923.1428")
+   (version "20260924.118")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "4cbcd12d84a2eed03a842944e9a9494f2852ac46")))
-     (sha256 (base32 "0kdnz5flc8wcrkkrg6m5alnkblhjns3spxh2mgs7kmq330lygvfn"))))
+           (commit "f0854f6492c58979396833b979d50a81672e7bfc")))
+     (sha256 (base32 "1vcsyawmk74b52rwmp9zkrn231s2kdx0ak0cz4b2v38737ay83xx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -32497,14 +32497,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260918.1132")
+   (version "20260923.1730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "e6195edbb42203cb2a0e10b3cf997a5f1198ff79")))
-     (sha256 (base32 "0i8kmqif92axkpccksrzx5yn0jl0pr5vlc3r61xg2s9407w16kc8"))))
+           (commit "ca6474d1bc68a7e329828f5ddd5c6c535a82c433")))
+     (sha256 (base32 "1b329p4rhq8x3dz27ajj8rj6c50ifg0q53i4lvjwxkh03r6f0dv5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -50019,14 +50019,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260916.1705")
+   (version "20260923.1433")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "2412b9ae68d0a9f2f70e3ad3f4c543cc07c332a4")))
-     (sha256 (base32 "1mxgvsf3hz4crjhjlrsrcmzjfpbxka7amc40azn6jzr3ampw7gqa"))))
+           (commit "fdb4b9df16a09d743995b45385ac37420b6e7673")))
+     (sha256 (base32 "1k3prgxm6bnlslzw1d1v78xm0p4s6i4j660ajr3kkjarpbhp1nj3"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -63732,14 +63732,14 @@
 (define-public emacs-md-ts-mode
   (package
    (name "emacs-md-ts-mode")
-   (version "20260904.930")
+   (version "20260923.2013")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/md-ts-mode.git")
-           (commit "f9030a0765f1cbb24ba24c05570ca3cf25769d17")))
-     (sha256 (base32 "0w8z7cn55cmcmqlf48qdgjf610jj56dypxdr6ss3019601cqv4i2"))))
+           (commit "c6f0bc5cb505ac82802ef588a6a9bc085c823c2f")))
+     (sha256 (base32 "00y06zicppn46n0pzbcn8xnjznv7nryf83qzb84ff86rbas4gym6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dnouri/md-ts-mode")
    (synopsis "Major mode for Markdown using tree-sitter")
@@ -64503,14 +64503,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260922.1101")
+   (version "20260924.302")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "66261fb2eead0abfbf3d8c435b2f615c8bc7fe4b")))
-     (sha256 (base32 "1hj4kx1kckdik7swx4dchp955m0mkqq316cz932a27q16g6ahxyz"))))
+           (commit "2bc105b712b2894bfeb3f23c3eee0987b9fa6977")))
+     (sha256 (base32 "0asiqwvkvyvzm9ldyw09h8rwhgcy1lz0pw1aapiwcqcnn406csyw"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -82014,14 +82014,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20260923.825")
+   (version "20260923.2012")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "e743d5d6ce06af362c641285573ff0ecd4d2e20c")))
-     (sha256 (base32 "1nra09z2wf795pq82nsdzn05gc6lb51jj2f9gbqih8047n4r281b"))))
+           (commit "7ca4ee574d6a2b14032a9769c5c4cada97b97977")))
+     (sha256 (base32 "0536va9vwk8mszyzpkgc81wzijf8spjfzv48nvqns9kp1ks0vki3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -82052,14 +82052,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260922.311")
+   (version "20260924.218")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "5b52ee86071a1b751d9228eff8be6bc807049917")))
-     (sha256 (base32 "04bk0z5yh5ac030z3b95wazf89wxkzvaa43fyjs0p1g61ndbhicy"))))
+           (commit "2afd0d2f3e5eac573add173f6b5857ad20e46c15")))
+     (sha256 (base32 "0w81s4bc3vvq6m2ycji59qq6z2zaqg7x8r3vzc4fyij6a5bz7g6l"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -103151,14 +103151,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260919.938")
+   (version "20260923.1836")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "a3e26414f2516f6443182e13e1d98882e1b209d6")))
-     (sha256 (base32 "1nrdv8r261dw5pl69v6jfm8fiqwyr2xarwixnbpg8kvs5jpwx5bh"))))
+           (commit "db34982dd7d38b3275ae432e23cd708e28303b81")))
+     (sha256 (base32 "0drmwzz3z3rhfqcifraks3zgxdkah25khyqr1p4pc0hi5hn7m27z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/transient")
