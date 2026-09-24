@@ -11619,14 +11619,14 @@
 (define-public emacs-claude-code
   (package
    (name "emacs-claude-code")
-   (version "20260812.1216")
+   (version "20260924.1703")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/yuya373/claude-code-emacs.git")
-           (commit "ebc13e87c4c04e5df2c486c118570e1076fbc945")))
-     (sha256 (base32 "0kf54d7mw4qby7jfhpc4gimymxbrd5q55iplvsj0hncdakhl31jn"))))
+           (commit "2e29b77e2930d679f8a3fa3f171fa0cf67a48aca")))
+     (sha256 (base32 "1ny2hjzpnjng12ags4wvdlxp67gg6i6zpyj2v7262904p4fmhqb9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projectile emacs-vterm emacs-markdown-mode))
    (arguments '(#:files (:defaults (:exclude "install-deps.el"))))
@@ -12426,14 +12426,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260924.546")
+   (version "20260924.1408")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "4f72f569bbb4b62d84b8562c9e954fcd5bab9f09")))
-     (sha256 (base32 "1dr90hmr7r9iazijxivhiyf3igxyw1wnhbvlfkak3zarhfxbmhqm"))))
+           (commit "cea36eb3534477bb07cd7aba0a73b3ce2c2a25ee")))
+     (sha256 (base32 "0f6zxpighmy8b5f2k3gr5vfrqrn1iw6hpbhddz3r0v0cdb8hx1hk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -24074,14 +24074,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260922.1807")
+   (version "20260924.1516")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "d7632c8bb8a093df1fde0c52fd1fd7662ead7e76")))
-     (sha256 (base32 "00q23c7cs3g8j7ksmiy6az48dff1185xricyx57n94fnr835babg"))))
+           (commit "4647946db593a0a1e45f77b1a996d4843f6e24a9")))
+     (sha256 (base32 "1qz70rl5v79y447wrzlp1m39pca75ksbg89a2ahvd19d6iyzahnq"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -27911,14 +27911,14 @@
 (define-public emacs-empv
   (package
    (name "emacs-empv")
-   (version "20260904.2327")
+   (version "20260924.1449")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/empv.el.git")
-           (commit "876f9d39077216d5bcec9d96e1f5dfad8be2a60d")))
-     (sha256 (base32 "1g1550i3ww0w0ffv836j516cfxybhki3kq7iz7qlc3ylfl4jwqil"))))
+           (commit "30ee88712364cd347e6e5880d85acbac275d66ce")))
+     (sha256 (base32 "0ccadqz92ji71g51g5h3n0r2q5s51cf1f85b4qkinpg37pwc7akx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-compat))
    (home-page "https://github.com/isamert/empv.el")
@@ -32497,14 +32497,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260923.1730")
+   (version "20260924.1639")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "ca6474d1bc68a7e329828f5ddd5c6c535a82c433")))
-     (sha256 (base32 "1b329p4rhq8x3dz27ajj8rj6c50ifg0q53i4lvjwxkh03r6f0dv5"))))
+           (commit "2265f40de237a4967a9ae379e1a5b60f5b5370ae")))
+     (sha256 (base32 "0p7iw6r9d5h69wi3b8arjf087038isc5aq6g7xbpn7gibazw4bks"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -41550,14 +41550,14 @@
 (define-public emacs-gnosis
   (package
    (name "emacs-gnosis")
-   (version "20260923.453")
+   (version "20260924.630")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/emacs-gnosis")
-           (commit "dd81341093c6428e0b5a1faca43802e6fa485f5a")))
-     (sha256 (base32 "0nmb7fyr0800x2lpiybdl5kpdly6z019gzqjmyhwiwyy6aj1ani3"))))
+           (commit "5f030c9ff27187a5c1aa7131b9cc0719bbd73852")))
+     (sha256 (base32 "0mxv9lk22r2y3nm74i2jdlk3hdr3xwdwfpgj4jm2qng54i1yv14f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://git.thanosapollo.org/emacs-gnosis")
@@ -73754,14 +73754,14 @@
 (define-public emacs-org-contacts
   (package
    (name "emacs-org-contacts")
-   (version "20260915.201")
+   (version "20260924.1754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-contacts.git")
-           (commit "a9a29e6374eb4e7baa28ef82b8613acd6eac5c6b")))
-     (sha256 (base32 "11r98kgkl4vcyhc5nnkmqh9kqyqi1w1w06xwzka5zcxi4zwj5g36"))))
+           (commit "7b93522b6f9d0f3343fd34e5fd1be2ce2f66b279")))
+     (sha256 (base32 "1q6c573pilc7r0b00h9cxigyrd8jgbzbzspym0gvjnlc7s0v44bq"))))
    (build-system melpa-build-system)
    (home-page "https://repo.or.cz/org-contacts.git")
    (synopsis "Contacts management system for Org mode")
@@ -76013,14 +76013,14 @@
 (define-public emacs-org-rich-yank
   (package
    (name "emacs-org-rich-yank")
-   (version "20250923.919")
+   (version "20260924.1340")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/unhammer/org-rich-yank.git")
-           (commit "fe2ba1c9d9f1f7943d8f76879a1b2b9b15928147")))
-     (sha256 (base32 "018vm4yr8s6phdmmvyqav3a6ajrz33373nfvkqqcjal68hlyz4ny"))))
+           (commit "f246cd3d27b8ca61f0a1ccff83309b3e3ef3d45e")))
+     (sha256 (base32 "0891dyinrdc6jvhbmqa13nk5yap1lag8bc73sr33svd94nc7qdgd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/unhammer/org-rich-yank")
    (synopsis "Paste with org-mode markup and link to source")
@@ -103151,14 +103151,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260923.1836")
+   (version "20260924.935")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "db34982dd7d38b3275ae432e23cd708e28303b81")))
-     (sha256 (base32 "0drmwzz3z3rhfqcifraks3zgxdkah25khyqr1p4pc0hi5hn7m27z"))))
+           (commit "d1ab36958ddfd6c85aab00dbc130cd3e1a97615f")))
+     (sha256 (base32 "15ci0rlmjikv30bw6k096fymybkq64r1fl4yc9xid16ax27jsb35"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/transient")
@@ -107647,14 +107647,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260924.524")
+   (version "20260924.1419")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "091828df34fac9b2ba8016d6303d685807adfa02")))
-     (sha256 (base32 "14axn21lj63bic4s91zx0n1lc0ax4mcf0982k3g1r0cd8i1a67hx"))))
+           (commit "bf97d624101a582ff682d832c1e0a5baf43824f7")))
+     (sha256 (base32 "0jrfadl08pm2q3ysnrf1qb8p8j8wvcz456ymjvh1668hpwqn02pb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -109518,14 +109518,14 @@
 (define-public emacs-with-editor
   (package
    (name "emacs-with-editor")
-   (version "20260923.845")
+   (version "20260924.937")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/with-editor.git")
-           (commit "3195a545b6c9bec7f3fbb68eaba14a172e0ea3ef")))
-     (sha256 (base32 "1dzc78c7h9wlh7jcvcd6wd5kaqd68hn7nr34svmkk4qd9v9c8cqg"))))
+           (commit "5e6b398c06609ad6b294b393d5af7fb6304b0d81")))
+     (sha256 (base32 "1ixgnpz8mnp47sp4lrvbgw012sbdycib4nhkv4m6zfc0lxr705bp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/with-editor")
