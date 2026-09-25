@@ -1661,7 +1661,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260925.51")
+   (version "20260925.336")
    (source
     (origin
      (method git-fetch)
@@ -12426,14 +12426,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260924.1408")
+   (version "20260925.829")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "cea36eb3534477bb07cd7aba0a73b3ce2c2a25ee")))
-     (sha256 (base32 "0f6zxpighmy8b5f2k3gr5vfrqrn1iw6hpbhddz3r0v0cdb8hx1hk"))))
+           (commit "8a16661bcb27730137a8ec8b27bebdb4f4ed34b6")))
+     (sha256 (base32 "1b42csa5c8y6d6d3dkn8zzxadm3r2mpdqnz6ngh5s6fy3jwdkb3y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -28864,14 +28864,14 @@
 (define-public emacs-erlang
   (package
    (name "emacs-erlang")
-   (version "20260921.1150")
+   (version "20260925.831")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erlang/otp.git")
-           (commit "0a39177debca1a8fb831609f86d6a5b6d3a46be9")))
-     (sha256 (base32 "0hcz1rjc3m2r0d49rlb11hzndwkkih5fxikbv522krq5w06j6k0w"))))
+           (commit "de741b771b0018d395c7d99eb985e26b426dc650")))
+     (sha256 (base32 "01zf8cvndy0qc7nswwgy46sbzhrmzagwhx8pfkcnc5axbnbr677w"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -42991,14 +42991,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260925.231")
+   (version "20260925.357")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "6c2ff661c14e17ddc35e85d542dc470be6a90dff")))
-     (sha256 (base32 "1xws43ap9bq5xgyfrmzjwwbc9i133vsybmb3a73g30vh6h1ndgdg"))))
+           (commit "ec25a41fb8bebf5ea08341a9d8c70c0ee907ee23")))
+     (sha256 (base32 "1xs308jmn1qy3ybghwcfv80nqzz442p7w2rzwaj4m0f5r8b67630"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -67608,14 +67608,14 @@
 (define-public emacs-mysql
   (package
    (name "emacs-mysql")
-   (version "20260907.203")
+   (version "20260925.938")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/mysql.el.git")
-           (commit "3a9ef57705cdfeba6560aa0bd10b807f2594ea38")))
-     (sha256 (base32 "0wwyxf86xi63jhyp7rg7scdd0dnz35wisd2ssjfzf3bfjrc5xrx2"))))
+           (commit "0f8f3c0fff6d9016c9c04ab6094d9354cca82c2c")))
+     (sha256 (base32 "0ahwky7jp9n23ds3ak4bdg42jsv0ildmpynwl7idsg4h65v9kgq7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/mysql.el")
    (synopsis "Pure Elisp MySQL wire protocol client")
@@ -81432,14 +81432,14 @@
 (define-public emacs-pgsql
   (package
    (name "emacs-pgsql")
-   (version "20260817.136")
+   (version "20260925.826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/pgsql.el.git")
-           (commit "8a282e565f139f3794ff219237b0f962f2a0a9b5")))
-     (sha256 (base32 "02qhrl2d879pj2wrwgm3yq7aicf7m23qm9iwi38drr7idfikjp24"))))
+           (commit "9dbf135d16393c9d849ebd85543a6143fc42a8f9")))
+     (sha256 (base32 "02wlj3xcfxj75b3shb2nblsdh0id91x9z9m04z81zhf2xk6ya51l"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/pgsql.el")
    (synopsis "Native PostgreSQL protocol client")
