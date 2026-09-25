@@ -44047,14 +44047,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260701.2352")
+   (version "20260925.1736")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "49339c87d895d0726280811b325bb631f08aec69")))
-     (sha256 (base32 "0svr8sa8k1w37ijv46bsshkax2zkjgd9821azr4bqq306iirin5n"))))
+           (commit "d401ff659609c5f7c3b8af641c4e91ff61912fad")))
+     (sha256 (base32 "0s0012jzggx4y5rka6c62q2lrci2dmar272c7q2zcf0q810ia64l"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -94814,14 +94814,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20260911.53")
+   (version "20260925.1542")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "b7c25d3cf9d29f9babd0431de00e44ad744a81fd")))
-     (sha256 (base32 "0xnq8hzab24w2n6nzf0hab5pi7pvz6b982c91sjwwqq2mvi1f0n0"))))
+           (commit "6bcb626f1a7e2b4f39146f6f9c3d9460858f7ab1")))
+     (sha256 (base32 "0vphn2cpzxm2wl3knic6qpw21fyx4fp2wn98q8gc33hjbhrqnmrq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -105312,14 +105312,14 @@
 (define-public emacs-unison-ts-mode
   (package
    (name "emacs-unison-ts-mode")
-   (version "20260721.405")
+   (version "20260925.931")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fmguerreiro/unison-ts-mode.git")
-           (commit "00cc3b64854afaec6d4ef38afd28ec06ffaa81ed")))
-     (sha256 (base32 "07nhhr3r3lqknk92a1f6d8p54i359prn4h795gkq9ql4gkp1xs4m"))))
+           (commit "bca6aeb0688e977259a67fde2f9e1495e730f170")))
+     (sha256 (base32 "021nl1sqbj1p2nwc203zff7ib8fvx6ky4qxmgv5zpl5c0a1yrnjk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/fmguerreiro/unison-ts-mode")
    (synopsis "Tree-sitter support for Unison")
