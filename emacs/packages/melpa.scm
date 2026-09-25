@@ -1661,14 +1661,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260924.1210")
+   (version "20260925.51")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "19e9d0175a5392af9999447f6be99f65e43f37bb")))
-     (sha256 (base32 "0aps9ldzk4l703yqnpygn7rhpdjhbycm21cc1r8w56px2lv7lggz"))))
+           (commit "55d7148505da2433a30b1228092e17b0775ffa25")))
+     (sha256 (base32 "1hcvdbckvc6z4mqz1xfby2d4gbkraq744ahv60afiqyghch4nn22"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -35319,14 +35319,14 @@
 (define-public emacs-flycheck-hledger
   (package
    (name "emacs-flycheck-hledger")
-   (version "20241029.1710")
+   (version "20260924.1845")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/DamienCassou/flycheck-hledger.git")
-           (commit "66e12fce7d4875327bce06b2fc33043924c710ed")))
-     (sha256 (base32 "1r3g9v5035nyp0gb7g4qjspag9cn5nf0xz1c12q3hinn21c69yna"))))
+           (commit "af4038838f2c3d3e4bfae89d65212fa8ec6b2341")))
+     (sha256 (base32 "19yrp039dk12awmis81bgmgsvbn54rcp4abqzi88x94vjdvc2gi4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck))
    (home-page "https://github.com/DamienCassou/flycheck-hledger/")
@@ -39571,14 +39571,14 @@
 (define-public emacs-geiser-chicken
   (package
    (name "emacs-geiser-chicken")
-   (version "20260819.530")
+   (version "20260924.2025")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/geiser/chicken.git")
-           (commit "ba0c16df8ce21f1722e27e4591656c9b64fafdff")))
-     (sha256 (base32 "02dqjly5qms6kxivw1al1l6kzjs7gblb2xv1f2ikhkab3mpxrs9x"))))
+           (commit "74610c900b671dd40c1bd7114c991781e0621102")))
+     (sha256 (base32 "0939srazvmsz8m7jmvzmh6s962c7q6g4jadqxi78f4yg90rrkppv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-geiser))
    (arguments '(#:files (:defaults "src")))
@@ -42991,14 +42991,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260919.1615")
+   (version "20260925.231")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "44deae37928175764bbe8314dbbc79bdec28ab4c")))
-     (sha256 (base32 "0md9hjpmnv3xi6wgdqam1xyacqqdbjcfix10p8fnvr8yk1w0wnbr"))))
+           (commit "6c2ff661c14e17ddc35e85d542dc470be6a90dff")))
+     (sha256 (base32 "1xws43ap9bq5xgyfrmzjwwbc9i133vsybmb3a73g30vh6h1ndgdg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -74858,14 +74858,14 @@
 (define-public emacs-org-link-beautify
   (package
    (name "emacs-org-link-beautify")
-   (version "20260919.327")
+   (version "20260924.1945")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-link-beautify.git")
-           (commit "aac88b3921ac98260d47dc29a4b8b32bb555db38")))
-     (sha256 (base32 "08nmy1ll0wv7xri5yipk6lw3f1abgkp6119rnand9cp37j61h5lr"))))
+           (commit "f1d5f10e07365785f60332aff3c4ddc191ab48a6")))
+     (sha256 (base32 "18vs60cvyqq1bxksavp9iwavk1pz36j8p1s5pzjb1923jwwdw4hv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-qrencode))
    (arguments '(#:files (:defaults "scripts")))
@@ -86865,14 +86865,14 @@
 (define-public emacs-qrencode
   (package
    (name "emacs-qrencode")
-   (version "20260906.2310")
+   (version "20260924.2214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ruediger/qrencode-el.git")
-           (commit "a63a44020f48cd178c762a30104d09f0cfa584fa")))
-     (sha256 (base32 "1k42d6ify16p4q8q4d1a52x5kc6mg61jpk96pi3jy5fy49ir1vzj"))))
+           (commit "60cc1b9d0a7a0026c20a7446072cf94e3b1f63c7")))
+     (sha256 (base32 "1x1r9nf78xixbdyhz0571jyshkslzvlm8ic8pnwir7ky624gv496"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ruediger/qrencode-el")
    (synopsis "QRCode encoder")
