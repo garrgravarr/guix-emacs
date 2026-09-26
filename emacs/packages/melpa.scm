@@ -1661,14 +1661,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260925.336")
+   (version "20260926.215")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "55d7148505da2433a30b1228092e17b0775ffa25")))
-     (sha256 (base32 "1hcvdbckvc6z4mqz1xfby2d4gbkraq744ahv60afiqyghch4nn22"))))
+           (commit "d551202139dc0ad5f671fd19ca237515eb4ae762")))
+     (sha256 (base32 "0r5337rkjyml0qnd7vk1bb08p2dxwg32q3cz8xwg9y1h9a3xid0y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -4465,14 +4465,14 @@
 (define-public emacs-auto-compile
   (package
    (name "emacs-auto-compile")
-   (version "20260601.1449")
+   (version "20260925.1514")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/auto-compile.git")
-           (commit "4db3a0e497feecc8b3dbeeefacdf363ae60a6392")))
-     (sha256 (base32 "1kcmr2jb79qg6jx8pfw2yxgsiwx3hwgwglbjwamr8hv9swj5jdl1"))))
+           (commit "1ad058fbb5e4a89e9be5cdcdd47023ec7ba6098f")))
+     (sha256 (base32 "0hya3sg0jcv5vsppiixj9zfvb2jkdmll0cx364jzklnp7m8gf6di"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacscollective/auto-compile")
    (synopsis "Automatically compile Emacs Lisp libraries")
@@ -7850,14 +7850,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260919.942")
+   (version "20260925.1831")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "153fd27001c8b0cfaa447debffa5e7144b82e7b7")))
-     (sha256 (base32 "08k9k6yyp5nn35a18gsx4k6h7pkf93ni2lvwpzkpd7558ln64lfb"))))
+           (commit "dfcf1a65069fa09f52f80523a90fae10d1b5ea20")))
+     (sha256 (base32 "16qak685z3d7xav95agn5nl3g0p42q3gq7fp9cwxq7bfw3xlzmw8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -11602,14 +11602,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20260923.530")
+   (version "20260925.1853")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "163db9c7539cd6bd29c559192c65702bae2e81b8")))
-     (sha256 (base32 "10x7z55jlb8cd33dpg6d5jc5gcznjyhhqjqsncq7gljb4ia56klg"))))
+           (commit "fb0d3e24b0b585d99bee2bdf80df7429f7929c47")))
+     (sha256 (base32 "14vmlpw01xnk0xkjh9885hyr76xjpbbvhdb29f8hy2q3fgzrzglb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12339,14 +12339,14 @@
 (define-public emacs-closql
   (package
    (name "emacs-closql")
-   (version "20260601.1540")
+   (version "20260925.1458")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/closql.git")
-           (commit "d382e7427f5d375ffc872851b049e9f9c4a43dfc")))
-     (sha256 (base32 "0jh5qkcxxmdql7jfizqfkiix6ikwli8qgk5z5k9sxn4kpniisvjk"))))
+           (commit "54de2a7b3a092a88a87b8194827c3ae3d7585cd3")))
+     (sha256 (base32 "181ghk9cxnvbarx1rr017vzc6gqcln51zvv1d1wbz1zl512rc3py"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-emacsql emacs-llama))
@@ -20604,14 +20604,14 @@
 (define-public emacs-dir-treeview
   (package
    (name "emacs-dir-treeview")
-   (version "20241025.2251")
+   (version "20260926.112")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tilmanrassy/emacs-dir-treeview.git")
-           (commit "09cf976b0f5999e378141bb66361395f1832aeae")))
-     (sha256 (base32 "020ywr028af4kqy4n1hh3m7j9gg2c10118bwr37q3dcwy6mg1dm2"))))
+           (commit "15c8b15e6e3f97f467d3e8b65313cb0795bb18ff")))
+     (sha256 (base32 "1yhbs0aha7jgs7dd68nw24m8s8aqmlzmg3d8chapdh28v5lgf2lc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-treeview))
    (home-page "https://github.com/tilmanrassy/emacs-dir-treeview")
@@ -27206,14 +27206,14 @@
 (define-public emacs-elx
   (package
    (name "emacs-elx")
-   (version "20260601.1500")
+   (version "20260925.1831")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/elx.git")
-           (commit "99ea4bde756a3ae4a0cae96e9fffe6b13421d25f")))
-     (sha256 (base32 "0ni8agxcf64cgpmy4jhqsss2d90bd0hfg48187idfq7clhnxl07i"))))
+           (commit "4cea75fc56d5a0f84abd1d5f59df6a5371892e29")))
+     (sha256 (base32 "01n6wycwpbygs7a3690lif7ks68h3bpw82g47x5vdpis7ylyawff"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/emacscollective/elx")
@@ -27294,14 +27294,14 @@
 (define-public emacs-emacsql
   (package
    (name "emacs-emacsql")
-   (version "20260920.2146")
+   (version "20260925.1105")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/emacsql.git")
-           (commit "5430450af72ebe4917ff87a6bf3ac8f613f6dced")))
-     (sha256 (base32 "11wpvyn4vwjc9pngsikz9dg8xh2mnsbqfkvnzc3sw708zbwka57k"))))
+           (commit "a7e9d82e3334058ccc8c63fad9a42e953d4de0b4")))
+     (sha256 (base32 "0yg2hdidwqqjq20jg8q3sw8k068bqg1w4zfyipdnrdwjvzrgh356"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "README.md" "sqlite")))
    (home-page "https://github.com/magit/emacsql")
@@ -28256,14 +28256,14 @@
 (define-public emacs-epkg
   (package
    (name "emacs-epkg")
-   (version "20260901.1449")
+   (version "20260925.1831")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/epkg.git")
-           (commit "20d401d600e84e110fe4d2957dd389352e011ea3")))
-     (sha256 (base32 "106zhal3vrqywry0p312fvavhn9pa7m5kvgmxf6794ffx0w76ycw"))))
+           (commit "86b9f299b6ecb1ab62e5934025b3eaa27b69fb8f")))
+     (sha256 (base32 "0fjf7cc3yfldily0lsvbpddpn1s0isix3mciiyc94ysm09g3rxly"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-closql emacs-cond-let emacs-emacsql emacs-llama))
@@ -38150,14 +38150,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260922.2225")
+   (version "20260925.1832")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "ebff9cc776e57f6721f9ec85f16bf935cd7f6bef")))
-     (sha256 (base32 "1svwwcps7b2hai4gbxxzb8xcy185c1dhjxlhh2j894y3akq0ka9l"))))
+           (commit "20842c184688fd7f7d89854f10ff76741b887709")))
+     (sha256 (base32 "0i9z6r2fpji641vaqjcmyn4z6y0rqjgavw6ykjc5b2gq4x5xfg2a"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -38478,14 +38478,14 @@
 (define-public emacs-frameshot
   (package
    (name "emacs-frameshot")
-   (version "20260601.1501")
+   (version "20260925.1912")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/frameshot.git")
-           (commit "6e1f45af13ebaf6ff6f13207c74ed4c5fb8e10c9")))
-     (sha256 (base32 "0fqkq3wj4h6qfdd69gz18g7jl4vxy392hp64c6bnk8h38basfs2h"))))
+           (commit "19eb7525a1fe556bf2e6f40656b76f2abdb4e095")))
+     (sha256 (base32 "0jd678hwkhvmij1mdwvl6ljydqjqslh7a91wci68s2w7wajlxdy7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/tarsius/frameshot")
@@ -40156,14 +40156,14 @@
 (define-public emacs-ghub
   (package
    (name "emacs-ghub")
-   (version "20260902.1834")
+   (version "20260925.1500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/ghub.git")
-           (commit "c282b2fcaa35ee871a465b79f7d8bdb5afaa50dd")))
-     (sha256 (base32 "17sm0ikxc054aia6f6d9zrq2cjgrl92rfcmn56ib1ifj9wznf35v"))))
+           (commit "dc5f05b03e2d3fd57313861c91b616ec51e17aff")))
+     (sha256 (base32 "0agm9vxkb719jxwag0rm3d30zbvvfiw101yk9mxjmnmzxshmppkh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-treepy))
@@ -44047,14 +44047,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260925.1736")
+   (version "20260925.2142")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "d401ff659609c5f7c3b8af641c4e91ff61912fad")))
-     (sha256 (base32 "0s0012jzggx4y5rka6c62q2lrci2dmar272c7q2zcf0q810ia64l"))))
+           (commit "c3faccde138eb5d9b35d1c68676199b22070decb")))
+     (sha256 (base32 "1p1cq9llbjx2w9cabfpkscwi1wkj5af88k0ipwmyj4qlpnamw1y6"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -49149,14 +49149,14 @@
 (define-public emacs-hl-todo
   (package
    (name "emacs-hl-todo")
-   (version "20260601.1508")
+   (version "20260925.1501")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/hl-todo.git")
-           (commit "527d545b8c2f36243194cbe4a8d0e6ac9d50e6a7")))
-     (sha256 (base32 "0zn5mk2m9gk7dyx04hmn8jfq0b4ai6l0nd9xss4gdzcdxh74779s"))))
+           (commit "42fac05556151c0cbd40e16f2473b9f85e190337")))
+     (sha256 (base32 "0bbv73msb88yc41c5bzpmq04iqsnk66ccvqyagj6a062qck4ww7l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/tarsius/hl-todo")
@@ -51190,14 +51190,14 @@
 (define-public emacs-imake
   (package
    (name "emacs-imake")
-   (version "20260901.1813")
+   (version "20260925.1501")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/imake.git")
-           (commit "4b72c5a40c0b43b45ddb53811e01ed63c0d95242")))
-     (sha256 (base32 "1l73schsnc233hiqg086raw4q0z4dmvrzlgnm31z1hzj0wivm488"))))
+           (commit "2c795535ce577b09f8e0dac8da627a5230339586")))
+     (sha256 (base32 "0a3iw83xyn9bavdxyglps8pj63gh9whxki2vzpkdsigam01mv07q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-marginalia))
    (home-page "https://github.com/tarsius/imake")
@@ -56418,14 +56418,14 @@
 (define-public emacs-keycast
   (package
    (name "emacs-keycast")
-   (version "20260601.1510")
+   (version "20260925.1912")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/keycast.git")
-           (commit "a6518e1b48b08ba883e9b1a2db0872d5bf3d85f4")))
-     (sha256 (base32 "1q4mfxy0022hw07nh2rqii1wkmk5za5hx5jdaqmb7xkj5z12cxj3"))))
+           (commit "e70b9231b5a3083f0cb335d474e9872c59689aa1")))
+     (sha256 (base32 "1h29mzcmaavdzz6z4vizmzpnjmv38zwsqv3yig76cg830f5s1fc1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/tarsius/keycast")
@@ -59976,14 +59976,14 @@
 (define-public emacs-llama
   (package
    (name "emacs-llama")
-   (version "20260909.859")
+   (version "20260925.1854")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/llama.git")
-           (commit "cfea618f14bc8317f8e4947fe10000b229b9a447")))
-     (sha256 (base32 "0sdkx95ih1bh2d2aaslj65d6nwrlbxyhwhrmw4j3dqr2bh3kh0s5"))))
+           (commit "8e4aeb81824a1d08e183220258fdfad1a0e03ada")))
+     (sha256 (base32 "087wgpnq9mqyc9fc0a6p67gfhdhg5amgyxq3zjfga0zznxp0l92n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files ("llama.el" ".dir-locals.el")))
@@ -61777,14 +61777,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260922.1955")
+   (version "20260925.1935")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "cd9117e3a8eb9b50814474d5addfd2ca92af5605")))
-     (sha256 (base32 "1xh990ny0ahjbms62bpcpl2l4fxjk0cq6pgxc5vvbjns023amhjm"))))
+           (commit "328019647f4625c41b0f9bb0e61d812952722102")))
+     (sha256 (base32 "1za55cpm00fs4nnlfd2p4ag9lnpr4f4kh0822cv6n8q4d2g6xkci"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62261,14 +62261,14 @@
 (define-public emacs-magit-section
   (package
    (name "emacs-magit-section")
-   (version "20260901.1810")
+   (version "20260925.1834")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "fe66e74a9cf50fe224d043039df85de20e3913b1")))
-     (sha256 (base32 "07i457343k9ci2srqn5ar0n2bf2yshlgnvwi9l1cf10mdcc3wpi6"))))
+           (commit "328019647f4625c41b0f9bb0e61d812952722102")))
+     (sha256 (base32 "1za55cpm00fs4nnlfd2p4ag9lnpr4f4kh0822cv6n8q4d2g6xkci"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (arguments
@@ -65015,14 +65015,14 @@
 (define-public emacs-minions
   (package
    (name "emacs-minions")
-   (version "20260601.1513")
+   (version "20260925.906")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/minions.git")
-           (commit "7ec2810c9b3019f8e379022b0ca7ce61e9e7c810")))
-     (sha256 (base32 "11y569lmrm7fj42janr9n4fggvi3jh5zzxs33n9q49kg50hclh4s"))))
+           (commit "5e2d856dd40aadf4fb46c6e627f76e05f43b29ec")))
+     (sha256 (base32 "1pi3i83isq5qm9klip96wa11d5fpg1bx477bxp9s2jhsbwhxkj6f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/tarsius/minions")
@@ -69810,14 +69810,14 @@
 (define-public emacs-notmuch-transient
   (package
    (name "emacs-notmuch-transient")
-   (version "20260701.1305")
+   (version "20260925.1832")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/notmuch-transient.git")
-           (commit "e60942fce3cb1f6a11533500c670ca4ac22186e5")))
-     (sha256 (base32 "16kkqvr4bm52vmkz0rpy7icwzk2b796v13pgk1nnpvlq2z6j364n"))))
+           (commit "8b83d8b1cc8e815c240d1afe49bbbfaa2a213c6b")))
+     (sha256 (base32 "17f3bzldjad7mw19a2f6dzdw7rw7h6y9agxysv977a0c4qmw7m0d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-notmuch))
    (home-page "https://github.com/tarsius/notmuch-transient")
@@ -77522,14 +77522,14 @@
 (define-public emacs-orgit
   (package
    (name "emacs-orgit")
-   (version "20260731.2256")
+   (version "20260925.1832")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/orgit.git")
-           (commit "c948819a7cad37a654ada275ebf7c003abf782d0")))
-     (sha256 (base32 "1b5ifk04irpcfc5acp2hdjci3qpdigmwmk9v5h850q6lkvad2njw"))))
+           (commit "417986691dffb29f673a9d14f3c2aea13a326f88")))
+     (sha256 (base32 "0rvvijaja1r4lx800xvkzi69ax4rkjmlfmjk5l6df1m5f34djfg3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-magit))
@@ -77578,14 +77578,14 @@
 (define-public emacs-orglink
   (package
    (name "emacs-orglink")
-   (version "20260731.2257")
+   (version "20260925.941")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/orglink.git")
-           (commit "2e66d4cae10e54a49380fd7b552b641ebd731a15")))
-     (sha256 (base32 "1b4gr9mq99jmbjvkvx0x84w4nl7dx7jz49q5ygnvpb22ci0swj7k"))))
+           (commit "7aacbcd8190311db0ebfad941d967c7db0c558a0")))
+     (sha256 (base32 "0dwjnf4xi2c33al2dc3d9vx5hv8sn8cmv22bkbngg8jm069c1np2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-llama))
    (home-page "https://github.com/tarsius/orglink")
@@ -78183,16 +78183,16 @@
 (define-public emacs-outline-minor-faces
   (package
    (name "emacs-outline-minor-faces")
-   (version "20260601.1519")
+   (version "20260925.1053")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/outline-minor-faces.git")
-           (commit "71705d0708459f765403968567a329a76c38cf62")))
-     (sha256 (base32 "0xp8vk85kby4gvxb97hs4lpc1kd67m4jw185l87ssvc52v9yq9kv"))))
+           (commit "3045eeb59e53d86e63bddcbaeb693a5568f46af5")))
+     (sha256 (base32 "1rhn4gqqcjncdzjcky2qph6riaisn6bwf3v0fkls3rm6h96mhkaa"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-compat))
+   (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/tarsius/outline-minor-faces")
    (synopsis "Highlight only section headings")
    (description "Documentation at https://melpa.org/#/outline-minor-faces")
@@ -79442,14 +79442,14 @@
 (define-public emacs-package-build
   (package
    (name "emacs-package-build")
-   (version "20260924.1014")
+   (version "20260925.1502")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/melpa/package-build.git")
-           (commit "292a18aadaf727a0ce967c3c064fb78b3986b1d7")))
-     (sha256 (base32 "02mrxzwckird1bvw1xcmmv0lk1a25grm4wkb2ddhqhi531j2mmp8"))))
+           (commit "44b058f0d4d91baed23322feef224096c3b975b0")))
+     (sha256 (base32 "15m7076whn95w40x8mhdpp585rp4j5r0fksypgphskcy4silm9bj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "package-build.mk")))
@@ -82014,14 +82014,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20260923.2012")
+   (version "20260925.2149")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "7ca4ee574d6a2b14032a9769c5c4cada97b97977")))
-     (sha256 (base32 "0536va9vwk8mszyzpkgc81wzijf8spjfzv48nvqns9kp1ks0vki3"))))
+           (commit "335044dce7a4f89b12d0a12377d7adc248b3e797")))
+     (sha256 (base32 "0xsx7rfbsq4bnpv37x9vpcmn36h2lmpvq9vbskxwk9n121faj1qm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -103151,14 +103151,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260924.935")
+   (version "20260925.1834")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "d1ab36958ddfd6c85aab00dbc130cd3e1a97615f")))
-     (sha256 (base32 "15ci0rlmjikv30bw6k096fymybkq64r1fl4yc9xid16ax27jsb35"))))
+           (commit "6f69527a4d39f1244fb86a55657f70679d8577e0")))
+     (sha256 (base32 "0635wph5a58v76qvpnkwwzpp1fza84ss75vwz357n5sx91d3q96g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/transient")
@@ -109518,14 +109518,14 @@
 (define-public emacs-with-editor
   (package
    (name "emacs-with-editor")
-   (version "20260924.937")
+   (version "20260925.1502")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/with-editor.git")
-           (commit "5e6b398c06609ad6b294b393d5af7fb6304b0d81")))
-     (sha256 (base32 "1ixgnpz8mnp47sp4lrvbgw012sbdycib4nhkv4m6zfc0lxr705bp"))))
+           (commit "7bec41144ea197961c76c769cfc0acaf689ebac0")))
+     (sha256 (base32 "0snn7a0d7zfnj02q12g2rq7wh1s8j8bkszgzhxljbhjwc7g2chnp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/with-editor")
