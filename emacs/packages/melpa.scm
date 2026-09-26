@@ -1840,14 +1840,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260924.438")
+   (version "20260926.545")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "72c49e6f7c5817c81c2d425dcefeea2107d7c94a")))
-     (sha256 (base32 "0hs86dmppml8icvrd05wkzddaix5pns79rgr35laaw2dzfsyd6f0"))))
+           (commit "024722baaf7249b666cf255ed11b2cf4f4235a04")))
+     (sha256 (base32 "188p6w5g6q93icgq7cj4spc98sf96268m301f85fvyriz63kfl7p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -12687,14 +12687,14 @@
 (define-public emacs-code-compass
   (package
    (name "emacs-code-compass")
-   (version "20260724.1822")
+   (version "20260926.841")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ag91/code-compass.git")
-           (commit "9004c885ac20e10237c97b66b5dd4e61f4e8a1e1")))
-     (sha256 (base32 "1p3limz93k61rqwn0iycxdfb47ciz41m11jvf01kyfm667cn8fp0"))))
+           (commit "5c4f7035d5d4652a4d1151ebb85fc3719bc98bbd")))
+     (sha256 (base32 "1d1psi51nfdi6pwf3n5bs8d46hmv8w8h1w42az3yj5pnfys70in5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-async emacs-simple-httpd))
    (arguments '(#:files (:defaults "scripts" "pages")))
@@ -54437,14 +54437,14 @@
 (define-public emacs-jinx
   (package
    (name "emacs-jinx")
-   (version "20260916.2109")
+   (version "20260926.912")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/jinx.git")
-           (commit "deacd6770efec5d9f98fc74df781fc0836124d79")))
-     (sha256 (base32 "0ag2bbb151bmgsh02gq9qvn7fbkxza5p2ki8yz4085yzykq6p9sc"))))
+           (commit "bccb08062a3372629015bcd2c197490b7d005f37")))
+     (sha256 (base32 "1sq7gam0yihddsfwfirqyfj6h8lyxwdgpkx55aajd6pi4bzqa568"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "jinx-mod.c" "emacs-module.h")))
@@ -58685,14 +58685,14 @@
 (define-public emacs-leuven-theme
   (package
    (name "emacs-leuven-theme")
-   (version "20260917.1945")
+   (version "20260926.839")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fniessen/emacs-leuven-theme.git")
-           (commit "2f969a336527abbdce05b19b6c4f6ae0e9641f46")))
-     (sha256 (base32 "1iiqix3zbhi5mvq2vm6wrgp1qisp5ddb7r9afy2zv4kvhn530k9w"))))
+           (commit "bc61caaf7ad0c7afa053f7056ce835ea9231fe27")))
+     (sha256 (base32 "1p8agkambw65f392q00vyq2aq0b1w32v6igz9v8xsmvdksdmhanj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/fniessen/emacs-leuven-theme")
    (synopsis "Elegant Emacs color theme for a white background")
@@ -82052,14 +82052,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260924.218")
+   (version "20260926.639")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "2afd0d2f3e5eac573add173f6b5857ad20e46c15")))
-     (sha256 (base32 "0w81s4bc3vvq6m2ycji59qq6z2zaqg7x8r3vzc4fyij6a5bz7g6l"))))
+           (commit "24cf822d5fd1575b80eccd26cceec444ade29518")))
+     (sha256 (base32 "155d2hbk1nc04gnxl10di6csm6ck34l1vrib14mk69gxmxyccwba"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -103815,14 +103815,14 @@
 (define-public emacs-treeview
   (package
    (name "emacs-treeview")
-   (version "20241101.115")
+   (version "20260926.112")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tilmanrassy/emacs-treeview.git")
-           (commit "9a1a16f84fc3c368443641f7a71aa2407ad91d38")))
-     (sha256 (base32 "1m1xxkhvd3pb6j2ljsf57jzksb2iap1ssnsy1l7amknnwfdk9hsi"))))
+           (commit "23f34fb3bc3ed7c9f6bad39b942b520cd20675f3")))
+     (sha256 (base32 "0a74v96p1big2q1dz25gfhp4494xbdmqwkssmm8kkmri2kfy0bfw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tilmanrassy/emacs-treeview")
    (synopsis "A generic tree navigation library")
@@ -107033,14 +107033,14 @@
 (define-public emacs-virtual-comment
   (package
    (name "emacs-virtual-comment")
-   (version "20260923.1312")
+   (version "20260926.122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/thanhvg/emacs-virtual-comment.git")
-           (commit "cfc627ccf5abe8ef0492652f9d6024612b2dc226")))
-     (sha256 (base32 "0zyfh22msnzv8kz31rgx3r9x9rcnka60f9v2kly12p79bkpln9xk"))))
+           (commit "3d4d19f464661352e34fd351557c0af9922c1bb2")))
+     (sha256 (base32 "02wj5s8rhan39afynmrr8618qk2i7qk00a78jfg3pxivbca6rkig"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/thanhvg/emacs-virtual-comment")
    (synopsis "Virtual Comments")
@@ -107647,14 +107647,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260924.1419")
+   (version "20260926.947")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "bf97d624101a582ff682d832c1e0a5baf43824f7")))
-     (sha256 (base32 "0jrfadl08pm2q3ysnrf1qb8p8j8wvcz456ymjvh1668hpwqn02pb"))))
+           (commit "cda0f2f563606ba6bd07ba3dbeb2c249d7850a29")))
+     (sha256 (base32 "1fdpmdjbpn120339y49jl1ll6h00fxqrrj89l7cvi14fk2kbslwa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -107683,14 +107683,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260915.637")
+   (version "20260926.957")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "d0cc70fcb4f1b06e05897288c33783c4cf4a571d")))
-     (sha256 (base32 "1vn2ag5n7dl0q849pl0w1djkzgki7cx9zyg0771i9j19847ram73"))))
+           (commit "e8766faf0edaac7e5f8dafb82676ea8ba812daa1")))
+     (sha256 (base32 "11m6035i77qz3wqhzwpx0yia08y646xja1lgi6v4lf3kaprhvzc0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
