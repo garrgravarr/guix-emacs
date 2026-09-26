@@ -1679,14 +1679,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20260918.1212")
+   (version "20260926.1553")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "89e8322caceae73ec4f5171b63a620a0b730eece")))
-     (sha256 (base32 "0lcbbgrqcpxfybgp6b7f23kmdnyz274j4fjnfgy7bk4bj1wv0gqn"))))
+           (commit "0d989803370d5c278d57c5203aa436320992f9b6")))
+     (sha256 (base32 "01nsx26z9l6hkqhrh0j8k3q1l4aaciw2256ylgsnhwjpps2nsagd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -7850,14 +7850,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20260925.1831")
+   (version "20260926.1359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "dfcf1a65069fa09f52f80523a90fae10d1b5ea20")))
-     (sha256 (base32 "16qak685z3d7xav95agn5nl3g0p42q3gq7fp9cwxq7bfw3xlzmw8"))))
+           (commit "07c305e426f83b607911f2ac4cfedab6aae2b47b")))
+     (sha256 (base32 "0bak8s3l3zh7g4masciq7ricjdnccnjcxx0b82xjm682b72n59vj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -12426,14 +12426,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260925.829")
+   (version "20260926.855")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "8a16661bcb27730137a8ec8b27bebdb4f4ed34b6")))
-     (sha256 (base32 "1b42csa5c8y6d6d3dkn8zzxadm3r2mpdqnz6ngh5s6fy3jwdkb3y"))))
+           (commit "84420697005c0e0b2545b9940b612a331682a48d")))
+     (sha256 (base32 "06xy9vld4s9pr4nf0x0v33dsclww4x0hm6x7f9h4q4h5rq41cx7s"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -15218,14 +15218,14 @@
 (define-public emacs-consult
   (package
    (name "emacs-consult")
-   (version "20260923.1359")
+   (version "20260926.910")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/consult.git")
-           (commit "24eed02c31e80df16aed5f741b77b66e270de6eb")))
-     (sha256 (base32 "08wpbcdv9xbdyk4fv68llj2fcqcdg37s195ypdvslg72vk31wn0l"))))
+           (commit "3c64214db5cd61a8f8186e4dce89c0e04be1652c")))
+     (sha256 (base32 "1g0mr2n13p4q27j6sfkp2r4i5avd1a27rn3q7mvj2la3qjxag71m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/consult")
@@ -22470,14 +22470,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260923.736")
+   (version "20260926.1647")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "27ba834ba3887fb573eaba5eb54434d8df42e8b3")))
-     (sha256 (base32 "1b252agdc7yd5wwhl7gqvz7jgbqxbf6mpm6q74vsdqb0mziaxva9"))))
+           (commit "1a30a313f8236be51184e6993cf5ea418d537349")))
+     (sha256 (base32 "16p9jjnl4991zwvw8zv7zb5dlb0r36dxp8dwqz1iydl7szlf3fs9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -25907,14 +25907,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260919.1336")
+   (version "20260926.1226")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "b39ca98c0ab05170cba943d6e31c5c2a3e285133")))
-     (sha256 (base32 "0n1qydjf88lfd8n2y760lbcm64rmjackn6frqvyim11wkf7g8vm5"))))
+           (commit "acbb86e342d2b8f85dfb30dce9df01db9a829c77")))
+     (sha256 (base32 "0c875wsh6rxwzbhsascwwhljrjjd66z5zg60l1jwlphph1yj3184"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -31747,14 +31747,14 @@
 (define-public emacs-evil-visualstar
   (package
    (name "emacs-evil-visualstar")
-   (version "20160223.48")
+   (version "20260926.1446")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bling/evil-visualstar.git")
-           (commit "06c053d8f7381f91c53311b1234872ca96ced752")))
-     (sha256 (base32 "0mkbzw12fav945icibc2293m5haxqr3hzkyli2cf4ssk6yvn0x4c"))))
+           (commit "e9f043361c4fd0ab6b7e7a52801c39f05c1e52c3")))
+     (sha256 (base32 "09v3wic8ph5i3nrk895mjs7s7pwa5pi5k68vcsfangszp7pral3v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (home-page "https://github.com/bling/evil-visualstar")
@@ -38150,14 +38150,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260925.1832")
+   (version "20260926.1226")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "20842c184688fd7f7d89854f10ff76741b887709")))
-     (sha256 (base32 "0i9z6r2fpji641vaqjcmyn4z6y0rqjgavw6ykjc5b2gq4x5xfg2a"))))
+           (commit "3074fce813037fdefa0b128e7eee4be4f727ae7f")))
+     (sha256 (base32 "049m30mn7fjbmgg2285agmrynv4mnwcs5kcswdrmkxfdhxc88azm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -45672,14 +45672,14 @@
 (define-public emacs-helm-core
   (package
    (name "emacs-helm-core")
-   (version "20260912.1435")
+   (version "20260926.1128")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm.git")
-           (commit "4f53c80b636a93bd09bbd45eb150f385834cb494")))
-     (sha256 (base32 "04zpxirg11rhf1gwylxw48rgak85z3rrsbsbdbqphjyfy0wkl19y"))))
+           (commit "519e20239d3f4ac21cd9849361622d9c4c8f0e37")))
+     (sha256 (base32 "0k4axzqhrkgyaqyayak55hm08k3wmwn34ydnmv67grzgv8ljmvfc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (arguments
@@ -55136,14 +55136,14 @@
 (define-public emacs-json-par
   (package
    (name "emacs-json-par")
-   (version "20260418.849")
+   (version "20260926.1347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/taku0/json-par.git")
-           (commit "a6d874cdc94a1709fdbafe7ed9fa4ebe7119672a")))
-     (sha256 (base32 "1avmwbx5g2n1dsfh1x0p6898fdgfimcgjfd99k8vj5b79qxzgika"))))
+           (commit "d488d706322bb49a4eda63a878fd7abbc1bde7f5")))
+     (sha256 (base32 "0hl4fb790wzxf8hjmaq9b820n0f37ixfhxjgh2v61bb7k2icdwvn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/taku0/json-par")
    (synopsis "Minor mode for structural editing of JSON")
@@ -57944,31 +57944,31 @@
 (define-public emacs-latex-to-svg-backend
   (package
    (name "emacs-latex-to-svg-backend")
-   (version "20260909.1530")
+   (version "20260926.1551")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg-backend.git")
-           (commit "471895e53d3893ea655df914fcfd49ac96c7ae2e")))
-     (sha256 (base32 "0gnxpb937hg78s3567ccvbs5k6fia72h1c2gcmj7cy6mw5w2bgkh"))))
+           (commit "82ebce7b31b0e41ac9ced3db23cdb3fa5b2b0940")))
+     (sha256 (base32 "1db8d7h0gw0gfrwmirck23rr7gghvwarv76szg7r3jpppry2pp2c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alberti42/latex-to-svg-backend")
-   (synopsis "LaTeX-to-SVG rendering engine with caching")
+   (synopsis "LaTeX-to-SVG rendering backend with caching")
    (description "Documentation at https://melpa.org/#/latex-to-svg-backend")
    (license #f)))
 
 (define-public emacs-latex-to-svg-for-org
   (package
    (name "emacs-latex-to-svg-for-org")
-   (version "20260918.1457")
+   (version "20260926.1452")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "74cd984e85b7b6a2274ad425d2785a237636c008")))
-     (sha256 (base32 "1cclmcj7gzpf31pv5ksvdfz4igrkyr3f3c85x3cv5pxslx0dyhrd"))))
+           (commit "323d0ea84b6bcb83cabbfebee84debf2abbb6427")))
+     (sha256 (base32 "1h5y15h6hcfm6yv3jpf67nqppivy73ms1s4hkwwmih2jfdxqdzs0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-org.el")))
@@ -57980,14 +57980,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20260918.1457")
+   (version "20260926.1553")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "74cd984e85b7b6a2274ad425d2785a237636c008")))
-     (sha256 (base32 "1cclmcj7gzpf31pv5ksvdfz4igrkyr3f3c85x3cv5pxslx0dyhrd"))))
+           (commit "323d0ea84b6bcb83cabbfebee84debf2abbb6427")))
+     (sha256 (base32 "1h5y15h6hcfm6yv3jpf67nqppivy73ms1s4hkwwmih2jfdxqdzs0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -58771,14 +58771,14 @@
 (define-public emacs-lfe-mode
   (package
    (name "emacs-lfe-mode")
-   (version "20250702.1243")
+   (version "20260926.1354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rvirding/lfe.git")
-           (commit "38150ec10107d5e5bbcd478261de0919830cae33")))
-     (sha256 (base32 "0vc6l4cx9i8s00x0hvzsywcwn11r1n3knj27lwa0y3skrx71vk82"))))
+           (commit "387d0aa1092bdda0ca17481869e833b24f11971a")))
+     (sha256 (base32 "0218p47a99lnvf71i41kiagccmnn60mfaycs8hzxnm24vdlmbdjf"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -61777,14 +61777,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20260925.1935")
+   (version "20260926.1436")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "328019647f4625c41b0f9bb0e61d812952722102")))
-     (sha256 (base32 "1za55cpm00fs4nnlfd2p4ag9lnpr4f4kh0822cv6n8q4d2g6xkci"))))
+           (commit "f33c312118c96b216427244fe94d0a6b0cd49a47")))
+     (sha256 (base32 "11qn7ag29aqh1za8vf9ji4pk0r9cdzpa3cly3j57113mq769n43b"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62261,14 +62261,14 @@
 (define-public emacs-magit-section
   (package
    (name "emacs-magit-section")
-   (version "20260925.1834")
+   (version "20260926.1436")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "328019647f4625c41b0f9bb0e61d812952722102")))
-     (sha256 (base32 "1za55cpm00fs4nnlfd2p4ag9lnpr4f4kh0822cv6n8q4d2g6xkci"))))
+           (commit "f33c312118c96b216427244fe94d0a6b0cd49a47")))
+     (sha256 (base32 "11qn7ag29aqh1za8vf9ji4pk0r9cdzpa3cly3j57113mq769n43b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (arguments
@@ -62861,14 +62861,14 @@
 (define-public emacs-marginalia
   (package
    (name "emacs-marginalia")
-   (version "20260907.511")
+   (version "20260926.1228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/marginalia.git")
-           (commit "c5d0139012d2a84f8040219b9aee17db4e145e5c")))
-     (sha256 (base32 "1w3mjdvn9fw94418jf63r43jlz4hdwkmf0fk8nkxl719zy0c6s2d"))))
+           (commit "42eafcfddbe88d92ed96521a00a5a90a49bac4dd")))
+     (sha256 (base32 "16mhcdhdhl4rqzzs31bj4cx918dff8zvfyb6d9dqbq99zzdj9smk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/marginalia")
@@ -64503,14 +64503,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20260924.810")
+   (version "20260926.1059")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "bceed3e808d0b9da3b9aaaf2d8fb8fe0a08302e0")))
-     (sha256 (base32 "0jnizcb77x6z9d07khmdhhmzflkh5ksk3yra2x6q7df68g9rrd2h"))))
+           (commit "5cb062e183f93f5ebc03c1344255bbadc94f9b81")))
+     (sha256 (base32 "005wizc12wq2xq3gmih6p8bq5ivz5dbn7k08xv3mpzqj1xx27cma"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -107647,7 +107647,7 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260926.947")
+   (version "20260926.1221")
    (source
     (origin
      (method git-fetch)
