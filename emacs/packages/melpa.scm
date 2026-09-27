@@ -5892,14 +5892,14 @@
 (define-public emacs-base16-theme
   (package
    (name "emacs-base16-theme")
-   (version "20260913.317")
+   (version "20260927.347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tinted-theming/base16-emacs.git")
-           (commit "c66ddd7415bddfecfc4e1095b50cde5391270375")))
-     (sha256 (base32 "18gzp1ym1gsl2a6pl45y33rkfr79l63q69p1a6mf9ahmh2gzadwj"))))
+           (commit "81f77672e7b07fefa7aca90d334c31abd0cf0ff1")))
+     (sha256 (base32 "03jj16cghl6ga0jjp6qvss1hm9nvvq09hsjk0izg860vig4hk43a"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "build/*.el")))
    (home-page "https://github.com/tinted-theming/base16-emacs")
@@ -31747,14 +31747,14 @@
 (define-public emacs-evil-visualstar
   (package
    (name "emacs-evil-visualstar")
-   (version "20260926.1446")
+   (version "20260926.2354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bling/evil-visualstar.git")
-           (commit "e9f043361c4fd0ab6b7e7a52801c39f05c1e52c3")))
-     (sha256 (base32 "09v3wic8ph5i3nrk895mjs7s7pwa5pi5k68vcsfangszp7pral3v"))))
+           (commit "1584f0c4842dbdf67fc9414a59ac0375f2a00a3c")))
+     (sha256 (base32 "14xkrhcwsl95511h2234npq6zdjdr6s5bjmw727654gi7rllsw3p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (home-page "https://github.com/bling/evil-visualstar")
@@ -77522,14 +77522,14 @@
 (define-public emacs-orgit
   (package
    (name "emacs-orgit")
-   (version "20260925.1832")
+   (version "20260926.1400")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/orgit.git")
-           (commit "417986691dffb29f673a9d14f3c2aea13a326f88")))
-     (sha256 (base32 "0rvvijaja1r4lx800xvkzi69ax4rkjmlfmjk5l6df1m5f34djfg3"))))
+           (commit "ebba35e2fd3fe831eff9a14e088f3cb0b593e215")))
+     (sha256 (base32 "0qhqp6f5wpav4sm2wa1q0xcvcz0sn9jwppx4pf39mnf892c3bk4n"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-magit))
@@ -79442,14 +79442,14 @@
 (define-public emacs-package-build
   (package
    (name "emacs-package-build")
-   (version "20260925.1502")
+   (version "20260926.1400")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/melpa/package-build.git")
-           (commit "44b058f0d4d91baed23322feef224096c3b975b0")))
-     (sha256 (base32 "15m7076whn95w40x8mhdpp585rp4j5r0fksypgphskcy4silm9bj"))))
+           (commit "0e4d3f13bdde166b70e0ac8bc3c5eef15063d37d")))
+     (sha256 (base32 "0qh2sgfi7jjw45vfjddi48ra8z980qjd3a181b3kjkzqkwk7s4gm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "package-build.mk")))
@@ -82014,14 +82014,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20260925.2149")
+   (version "20260926.2022")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "335044dce7a4f89b12d0a12377d7adc248b3e797")))
-     (sha256 (base32 "0xsx7rfbsq4bnpv37x9vpcmn36h2lmpvq9vbskxwk9n121faj1qm"))))
+           (commit "e1165f7e24a5adb745aa7f6d04f1f4c401440771")))
+     (sha256 (base32 "0ag47wc9ssvkfvznhxpvs289nimzr081wpqri0bhmxh2rvzx04jm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -86865,14 +86865,14 @@
 (define-public emacs-qrencode
   (package
    (name "emacs-qrencode")
-   (version "20260924.2214")
+   (version "20260926.2355")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ruediger/qrencode-el.git")
-           (commit "60cc1b9d0a7a0026c20a7446072cf94e3b1f63c7")))
-     (sha256 (base32 "1x1r9nf78xixbdyhz0571jyshkslzvlm8ic8pnwir7ky624gv496"))))
+           (commit "daae774935d0425a1c3607e79a1deee27f53e10b")))
+     (sha256 (base32 "1gc0jilh05s8dwbyg334rc6p8q3aylbaf9s17rr1y225mx0wcldb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ruediger/qrencode-el")
    (synopsis "QRCode encoder")
@@ -92157,14 +92157,14 @@
 (define-public emacs-sculpture-themes
   (package
    (name "emacs-sculpture-themes")
-   (version "20260918.2011")
+   (version "20260926.1716")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/sculpture-themes.git")
-           (commit "2260322bb94f6dad80074da2066e35986b3c275d")))
-     (sha256 (base32 "1l52iiad6jmjmg9b3lym9nv1xp0dy6p5246bbx09f61xqz76bf08"))))
+           (commit "7f7fd917c21ff49477b904431e1e5a55a72283f7")))
+     (sha256 (base32 "104jwnpa85b2xm083gcfp7p4wq8m9qxb0g7wfq5ciigk6pn5z4my"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/sculpture-theme")
    (synopsis "Themes with vivid colors")
@@ -103151,14 +103151,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20260925.1834")
+   (version "20260926.1400")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "6f69527a4d39f1244fb86a55657f70679d8577e0")))
-     (sha256 (base32 "0635wph5a58v76qvpnkwwzpp1fza84ss75vwz357n5sx91d3q96g"))))
+           (commit "a789ecb5485085adcbb404c736b95f71dee04329")))
+     (sha256 (base32 "18g2d24a3v0g8z01jsl9kc7ajnn40sd0byq34sy9g8z7nhjvgw2z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/transient")
@@ -111290,14 +111290,14 @@
 (define-public emacs-yeetube
   (package
    (name "emacs-yeetube")
-   (version "20260804.953")
+   (version "20260906.708")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.thanosapollo.org/yeetube")
-           (commit "1dc391252c0845f4e7b5420eb2dcf138d7fcbcfe")))
-     (sha256 (base32 "1jvabbjrq897i0ih079afi5xyd3dkc1az03kp5f1nvrx5yrg6i7c"))))
+           (commit "62d9f228ce4e1d8e5442884b95d55893ebaf0fb9")))
+     (sha256 (base32 "0dw45h23w133a6sq5h3yzg8r2zp1ian5rzvid8580ggrl1mfkz9x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-keymap-popup))
    (home-page "https://thanosapollo.org/projects/yeetube/")
