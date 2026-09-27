@@ -1414,6 +1414,23 @@
    (description "Documentation at https://melpa.org/#/addressbook-bookmark")
    (license #f)))
 
+(define-public emacs-adif
+  (package
+   (name "emacs-adif")
+   (version "20260920.2342")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/K6SM/adif-mode.git")
+           (commit "e692c3e423e1af6c00a1b88f039450d468baea6d")))
+     (sha256 (base32 "0d9a6qfck5dasf5h0kl4qvlzpsbmjhln948sl33vbfmpdrarxkg4"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/K6SM/adif-mode")
+   (synopsis "Major mode for viewing and editing ADIF log files")
+   (description "Documentation at https://melpa.org/#/adif")
+   (license #f)))
+
 (define-public emacs-ado-mode
   (package
    (name "emacs-ado-mode")
@@ -1661,7 +1678,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260927.1241")
+   (version "20260927.1336")
    (source
     (origin
      (method git-fetch)
@@ -1679,14 +1696,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20260927.934")
+   (version "20260927.1632")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "d78eff583fc54e5f7b49d2b309d1ffbc7604f5cb")))
-     (sha256 (base32 "1iyv65dmd4pdnnp5p5yixsbisbslwmfxzvya7xrb3da7zinfdc8s"))))
+           (commit "b16e836ebca53644162516f4ff2048f56bbf6584")))
+     (sha256 (base32 "0lcydvgza5n1iaxszhcp6jsz23kk2miqigz31givf1hs0vws175y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -1932,14 +1949,14 @@
 (define-public emacs-aio
   (package
    (name "emacs-aio")
-   (version "20260214.1529")
+   (version "20260927.1333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-aio.git")
-           (commit "0e94a06bb035953cbbb4242568b38ca15443ad4c")))
-     (sha256 (base32 "1fwv0ajc0zbjiyna5zpixp5sal0g43vhk830xiijy91mvz9f7hs4"))))
+           (commit "d76914b08339e24b3ad7d24ced17e22d13492a37")))
+     (sha256 (base32 "072ql6dnlcijb5hsxnpcqdff13w842nqwia1r9klrl0lmpg6q9az"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("aio.el" "README.md" "UNLICENSE")))
    (home-page "https://github.com/skeeto/emacs-aio")
@@ -3464,6 +3481,24 @@
    (home-page "https://github.com/zzkt/aqi")
    (synopsis "Air quality data from the World Air Quality Index")
    (description "Documentation at https://melpa.org/#/aqi")
+   (license #f)))
+
+(define-public emacs-aqui
+  (package
+   (name "emacs-aqui")
+   (version "20260916.16")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/kickingvegas/aqui.git")
+           (commit "c8966ed2571ffae1099cc119bceccb8df586dbb2")))
+     (sha256 (base32 "1hjqj97hrkpm2982pwijd6cfnqhzd4kwxvl2whkj9j50m13p37q0"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-restlib))
+   (home-page "https://github.com/kickingvegas/aqui")
+   (synopsis "Location update (optimized for macOS)")
+   (description "Documentation at https://melpa.org/#/aqui")
    (license #f)))
 
 (define-public emacs-arch-packer
@@ -15514,6 +15549,25 @@
     "Documentation at https://melpa.org/#/consult-gh-with-pr-review")
    (license #f)))
 
+(define-public emacs-consult-ghostel
+  (package
+   (name "emacs-consult-ghostel")
+   (version "20260921.1634")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/dakra/ghostel.git")
+           (commit "eb53ff37994d5e43851432a710468bc1445453fa")))
+     (sha256 (base32 "1jc1hdc6i5h67xq6qgv1hbmcfsfw0b8dfhcdnxpvbw6342kyqi5y"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-consult emacs-ghostel))
+   (arguments '(#:files ("extensions/consult-ghostel/consult-ghostel.el")))
+   (home-page "https://github.com/dakra/ghostel")
+   (synopsis "Consult integration for ghostel")
+   (description "Documentation at https://melpa.org/#/consult-ghostel")
+   (license #f)))
+
 (define-public emacs-consult-ghq
   (package
    (name "emacs-consult-ghq")
@@ -15911,6 +15965,24 @@
    (home-page "https://github.com/mohkale/consult-yasnippet")
    (synopsis "A consulting-read interface for yasnippet")
    (description "Documentation at https://melpa.org/#/consult-yasnippet")
+   (license #f)))
+
+(define-public emacs-consult-zoxide
+  (package
+   (name "emacs-consult-zoxide")
+   (version "20260921.2333")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/agzam/consult-zoxide.el.git")
+           (commit "4db0560e217dc478b206dc55d0670566ec341045")))
+     (sha256 (base32 "116942ms2nqjylpvbsagvl6qh725gx0d6wis1c7fmadk6bdnzm6y"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-consult))
+   (home-page "https://github.com/agzam/consult-zoxide.el")
+   (synopsis "Jump to zoxide directories with Consult")
+   (description "Documentation at https://melpa.org/#/consult-zoxide")
    (license #f)))
 
 (define-public emacs-context-clues
@@ -20070,6 +20142,23 @@
    (home-page "https://github.com/psibi/dhall-mode")
    (synopsis "Major mode for the dhall configuration language")
    (description "Documentation at https://melpa.org/#/dhall-mode")
+   (license #f)))
+
+(define-public emacs-dharmamitra
+  (package
+   (name "emacs-dharmamitra")
+   (version "20260924.549")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/dharmamitra/dharmamitra-emacs.git")
+           (commit "170d91c99a59acb933660b1c0c45cf8e07195f80")))
+     (sha256 (base32 "0y16ph3y98jyrd76y8ac5qjmxd1195skks6lcsj0fms9h0nbi49l"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/dharmamitra/dharmamitra-emacs")
+   (synopsis "Sanskrit/Pāli/Tibetan/Chinese analysis via dharmamitra.org")
+   (description "Documentation at https://melpa.org/#/dharmamitra")
    (license #f)))
 
 (define-public emacs-dialog-mode
@@ -31747,14 +31836,14 @@
 (define-public emacs-evil-visualstar
   (package
    (name "emacs-evil-visualstar")
-   (version "20260926.2354")
+   (version "20260927.1656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bling/evil-visualstar.git")
-           (commit "1584f0c4842dbdf67fc9414a59ac0375f2a00a3c")))
-     (sha256 (base32 "14xkrhcwsl95511h2234npq6zdjdr6s5bjmw727654gi7rllsw3p"))))
+           (commit "2b804e317700896116e88ae751df4a36ac8c3934")))
+     (sha256 (base32 "19zmjfbv3ipvgflc9fb9yszc9sisf7z4xmr53zwxgnpwhqgixl43"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (home-page "https://github.com/bling/evil-visualstar")
@@ -57944,31 +58033,51 @@
 (define-public emacs-latex-to-svg-backend
   (package
    (name "emacs-latex-to-svg-backend")
-   (version "20260926.1551")
+   (version "20260927.1335")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg-backend.git")
-           (commit "82ebce7b31b0e41ac9ced3db23cdb3fa5b2b0940")))
-     (sha256 (base32 "1db8d7h0gw0gfrwmirck23rr7gghvwarv76szg7r3jpppry2pp2c"))))
+           (commit "a165f80e471cc982f1df4c3c6985939eeb0eb215")))
+     (sha256 (base32 "14k1cyjkjy0c9sjbw16xhk30dm6jf812jbfcnbvkyywl644vi7lp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alberti42/latex-to-svg-backend")
    (synopsis "LaTeX-to-SVG rendering backend with caching")
    (description "Documentation at https://melpa.org/#/latex-to-svg-backend")
    (license #f)))
 
-(define-public emacs-latex-to-svg-for-org
+(define-public emacs-latex-to-svg-for-markdown
   (package
-   (name "emacs-latex-to-svg-for-org")
-   (version "20260926.1452")
+   (name "emacs-latex-to-svg-for-markdown")
+   (version "20260927.1623")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "323d0ea84b6bcb83cabbfebee84debf2abbb6427")))
-     (sha256 (base32 "1h5y15h6hcfm6yv3jpf67nqppivy73ms1s4hkwwmih2jfdxqdzs0"))))
+           (commit "5af22fe722f78d1b515179464bd15b69eadf62ad")))
+     (sha256 (base32 "0b5xyi9m4p1cjg8j3166mb5dvsg608m2siv166f0arqca6ag94x5"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-latex-to-svg-frontend))
+   (arguments '(#:files ("latex-to-svg-for-markdown.el")))
+   (home-page "https://github.com/alberti42/latex-to-svg")
+   (synopsis "Preview Markdown LaTeX math as SVG")
+   (description
+    "Documentation at https://melpa.org/#/latex-to-svg-for-markdown")
+   (license #f)))
+
+(define-public emacs-latex-to-svg-for-org
+  (package
+   (name "emacs-latex-to-svg-for-org")
+   (version "20260927.1623")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/alberti42/latex-to-svg.git")
+           (commit "5af22fe722f78d1b515179464bd15b69eadf62ad")))
+     (sha256 (base32 "0b5xyi9m4p1cjg8j3166mb5dvsg608m2siv166f0arqca6ag94x5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-org.el")))
@@ -57980,14 +58089,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20260926.1553")
+   (version "20260927.1623")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "323d0ea84b6bcb83cabbfebee84debf2abbb6427")))
-     (sha256 (base32 "1h5y15h6hcfm6yv3jpf67nqppivy73ms1s4hkwwmih2jfdxqdzs0"))))
+           (commit "5af22fe722f78d1b515179464bd15b69eadf62ad")))
+     (sha256 (base32 "0b5xyi9m4p1cjg8j3166mb5dvsg608m2siv166f0arqca6ag94x5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -84264,6 +84373,23 @@
    (description "Documentation at https://melpa.org/#/preview-dvisvgm")
    (license #f)))
 
+(define-public emacs-preview-tab
+  (package
+   (name "emacs-preview-tab")
+   (version "20260925.932")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/ismd/preview-tab.el.git")
+           (commit "650a571544003cbf630dc35fda52ddff3f8caacf")))
+     (sha256 (base32 "0dfsr6fa5ls3l3gj2mvisbchh57fwblhdnz66mp73jqfkxk1xf8r"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/ismd/preview-tab.el")
+   (synopsis "Temporary file buffers, like VS Code's preview tab")
+   (description "Documentation at https://melpa.org/#/preview-tab")
+   (license #f)))
+
 (define-public emacs-prism
   (package
    (name "emacs-prism")
@@ -93302,14 +93428,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260910.119")
+   (version "20260927.1654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "f448a74a8eded23aa42f8d60a41c5d8d3a183d07")))
-     (sha256 (base32 "0k2bkha7v2fvzmilgk14z1dhj4gh9iixb5wmsaajz1xdw9hhwzf0"))))
+           (commit "965671461820006269bef16c6d104d55fb18a691")))
+     (sha256 (base32 "1fw86w4wmjfzyx9lf03dpdlm8dp8nafmncpzim451w71dvw1a5z3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
