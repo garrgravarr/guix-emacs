@@ -1661,14 +1661,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260926.215")
+   (version "20260927.1241")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "d551202139dc0ad5f671fd19ca237515eb4ae762")))
-     (sha256 (base32 "0r5337rkjyml0qnd7vk1bb08p2dxwg32q3cz8xwg9y1h9a3xid0y"))))
+           (commit "9c4e060e84569e9bead8b8cb492e779faf354a70")))
+     (sha256 (base32 "0n32ac7yz8jqb5w9ng2fpkq7hszbrpw7r1q6casnlw9g86i2s3cd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1679,14 +1679,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20260926.1553")
+   (version "20260927.934")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "0d989803370d5c278d57c5203aa436320992f9b6")))
-     (sha256 (base32 "01nsx26z9l6hkqhrh0j8k3q1l4aaciw2256ylgsnhwjpps2nsagd"))))
+           (commit "d78eff583fc54e5f7b49d2b309d1ffbc7604f5cb")))
+     (sha256 (base32 "1iyv65dmd4pdnnp5p5yixsbisbslwmfxzvya7xrb3da7zinfdc8s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -22187,14 +22187,14 @@
 (define-public emacs-docker
   (package
    (name "emacs-docker")
-   (version "20260824.1516")
+   (version "20260927.555")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Silex/docker.el.git")
-           (commit "e476b1bf73e917aaae43daab763696629d864425")))
-     (sha256 (base32 "14wy0pc5ixhhdswswgi9ljq13ds1ys5y19bzgzhpmhw7niizvqcw"))))
+           (commit "9c197392d5ef8c68e8923ac1de01a7e5383f1f85")))
+     (sha256 (base32 "06d6dv50xhx2y3c0r5vkigfyh93d7na8m4ms6vbvqynangadbl8n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-aio emacs-dash emacs-s emacs-tablist))
    (home-page "https://github.com/Silex/docker.el")
@@ -32497,14 +32497,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260924.1639")
+   (version "20260927.1203")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "2265f40de237a4967a9ae379e1a5b60f5b5370ae")))
-     (sha256 (base32 "0p7iw6r9d5h69wi3b8arjf087038isc5aq6g7xbpn7gibazw4bks"))))
+           (commit "fffcbe266a883f3ada3379bf4338ca29ebb88329")))
+     (sha256 (base32 "1xqsd9f0nyiprch7zq3hmss90vnlf3rciv0wgn62h5xp1lq3wmsk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -45672,14 +45672,14 @@
 (define-public emacs-helm-core
   (package
    (name "emacs-helm-core")
-   (version "20260926.1128")
+   (version "20260927.558")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm.git")
-           (commit "519e20239d3f4ac21cd9849361622d9c4c8f0e37")))
-     (sha256 (base32 "0k4axzqhrkgyaqyayak55hm08k3wmwn34ydnmv67grzgv8ljmvfc"))))
+           (commit "d7c91f23211a64fcff0ee5d9bb09fc1063f85a62")))
+     (sha256 (base32 "1zpcm156gajrn1s4g5cl8dphs5d2lafj6lsd40w5mspwzgr3kpzr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (arguments
@@ -67452,14 +67452,14 @@
 (define-public emacs-mw-thesaurus
   (package
    (name "emacs-mw-thesaurus")
-   (version "20230426.1752")
+   (version "20260927.221")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/mw-thesaurus.el.git")
-           (commit "c44d793595c2d0f6789621da457da065920968ac")))
-     (sha256 (base32 "02drf3xzjyq230s0w8yza7pq6nny1faj93lhznll0r3zmvmnn3h1"))))
+           (commit "5c85f8069747a9cbb96b124e46547c459345a638")))
+     (sha256 (base32 "1hw70ncnnw97rk9wnbkppw64s918v73j02r7aybw5vdnk7l2x001"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request emacs-dash))
    (home-page "https://github.com/agzam/mw-thesaurus.el")
@@ -82052,14 +82052,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20260926.639")
+   (version "20260927.400")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "24cf822d5fd1575b80eccd26cceec444ade29518")))
-     (sha256 (base32 "155d2hbk1nc04gnxl10di6csm6ck34l1vrib14mk69gxmxyccwba"))))
+           (commit "4daf8db7bc0e1a879f5d516eab649a489822eff9")))
+     (sha256 (base32 "0l9qmpniayjzdyngiwzsf9fgrmmxnm5zsfbs63phvrgnlvj4m4i0"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -109099,14 +109099,14 @@
 (define-public emacs-wiktionary-bro
   (package
    (name "emacs-wiktionary-bro")
-   (version "20260824.2344")
+   (version "20260927.222")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/wiktionary-bro.el.git")
-           (commit "3e76e8171e306b6b1105b1dd63cc27f673b5f204")))
-     (sha256 (base32 "0b0ivhr3d85wm67y4rb3kg1wyj1gdss9b5ilaq7liqmcx96an8mq"))))
+           (commit "fca1963f43f4cde895513f0c03eca2cbc8196b20")))
+     (sha256 (base32 "04gy06d3is2qc1jk7k4m92k6yf9fdan518avbh52y5nnkn388fbv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request))
    (home-page "https://github.com/agzam/wiktionary-bro.el")
