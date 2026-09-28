@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260927.1336")
+   (version "20260928.10")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "9c4e060e84569e9bead8b8cb492e779faf354a70")))
-     (sha256 (base32 "0n32ac7yz8jqb5w9ng2fpkq7hszbrpw7r1q6casnlw9g86i2s3cd"))))
+           (commit "5535365534d0bf9f6e0257316af86e11399d3eba")))
+     (sha256 (base32 "16a9g1ddbsi2mcr2q2rry8r3h8lgc0pr1if7m08ab6cf6bzi4yvx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -2931,14 +2931,14 @@
 (define-public emacs-annotated-completing-read
   (package
    (name "emacs-annotated-completing-read")
-   (version "20260817.235")
+   (version "20260927.1823")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tychoish/annotated-completing-read.git")
-           (commit "0635eff357208fa1067ac444ec0802683ada7ee9")))
-     (sha256 (base32 "13g6b77fqz5d86s1ik0nk3igljvwqfvvvpqfl8g20mqkq7hrk94b"))))
+           (commit "4fabacb55b6b1e96cf81b7e217c347e140c501f1")))
+     (sha256 (base32 "17fja347hc3jx43cvj219gfgm86nmaknhkkp4nxl9dmk7vfq33yv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tychoish/annotated-completing-read")
    (synopsis "Ergonomic completing-read wrapper/helper")
@@ -3486,7 +3486,7 @@
 (define-public emacs-aqui
   (package
    (name "emacs-aqui")
-   (version "20260916.16")
+   (version "20260927.1838")
    (source
     (origin
      (method git-fetch)
@@ -9547,14 +9547,14 @@
 (define-public emacs-cape
   (package
    (name "emacs-cape")
-   (version "20260905.500")
+   (version "20260927.2347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/cape.git")
-           (commit "1c543fce9151821e8400258aefcfdee2fb24920d")))
-     (sha256 (base32 "0x0n0mkw13d7g44jc457as8hkawripbb05z9yr9gr4qq2nk7snh7"))))
+           (commit "50bc6187daf9af9df1a802fcbbd91fe4b952fc69")))
+     (sha256 (base32 "17v0vw03cs6d5wvrm54xakrgkdh8snxrixjz1b6ncpv3w95rjc3g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/cape")
@@ -15934,14 +15934,14 @@
 (define-public emacs-consult-vulpea
   (package
    (name "emacs-consult-vulpea")
-   (version "20260913.1934")
+   (version "20260927.1911")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fabcontigiani/consult-vulpea.git")
-           (commit "5f680838394fff51a9fb5c98ade3ddb29add7ac5")))
-     (sha256 (base32 "0pbp9f0a81jds1daxhml0dxpzw95m9cj1w84a6cya4pim20b5fsa"))))
+           (commit "1a5546866a7a89cd77b07e0eb4d524f47faa2ae1")))
+     (sha256 (base32 "04nmxx0nqmj1i3r30d9b3j28lx79n4ixzirvccvclcx78nbrxdvl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-consult))
    (home-page "https://github.com/fabcontigiani/consult-vulpea")
@@ -17853,14 +17853,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260910.1444")
+   (version "20260927.1837")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "0fdee4a5a28cf8dcebfbf336c7a3df890899979b")))
-     (sha256 (base32 "0drv4jzzh7ljzj1glbrvc4vsyfvj2c6v966p3gjgxw954d6wza9f"))))
+           (commit "745bb2b392323323220ac1b07371f79795085c16")))
+     (sha256 (base32 "07lia81332zv5gx4kx9l9nf5q5wxrn5k98ggwh16j1bkdvs6z4xk"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -22276,14 +22276,14 @@
 (define-public emacs-docker
   (package
    (name "emacs-docker")
-   (version "20260927.555")
+   (version "20260927.2016")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Silex/docker.el.git")
-           (commit "9c197392d5ef8c68e8923ac1de01a7e5383f1f85")))
-     (sha256 (base32 "06d6dv50xhx2y3c0r5vkigfyh93d7na8m4ms6vbvqynangadbl8n"))))
+           (commit "d293ba202bcef95ed4766b6ea2ac940e5a2c9387")))
+     (sha256 (base32 "116f7f8g7s5cnfyilry51i65r6kfxzja76hr141hkrpgsfmiy4ml"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-aio emacs-dash emacs-s emacs-tablist))
    (home-page "https://github.com/Silex/docker.el")
@@ -30439,14 +30439,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260920.145")
+   (version "20260927.2359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "2cca4b8e479b1e7923bcef40d3006f6b7e33d996")))
-     (sha256 (base32 "0c9kmdz9znxv1c5bfbh6c5jwxk7krvasyhzwxcqihnkywwzn8v5v"))))
+           (commit "a24e38cebd7a474423898fae7f58ddfd98d87ace")))
+     (sha256 (base32 "0bilcchhrrizpgvzc30lk63yin186948xwjcpfachz00fmih1sx6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -40200,14 +40200,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260920.730")
+   (version "20260927.1848")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "402ca634960142f13388fa24d223b6c7b0b2511e")))
-     (sha256 (base32 "1lsazb6fnwvn2rdbvxxzarjkwihy604gmdgysbg0yzmwr91a82hx"))))
+           (commit "eb53ff37994d5e43851432a710468bc1445453fa")))
+     (sha256 (base32 "1jc1hdc6i5h67xq6qgv1hbmcfsfw0b8dfhcdnxpvbw6342kyqi5y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -58547,14 +58547,14 @@
 (define-public emacs-ledger-mode
   (package
    (name "emacs-ledger-mode")
-   (version "20260922.356")
+   (version "20260928.205")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ledger/ledger-mode.git")
-           (commit "0dd5947e030d005efe1888331e84bd5a7e3e79b5")))
-     (sha256 (base32 "1fgi2qkwhr57lzmwlkrdlf323vrm8qy81dc81p2g0gkza0s0kgw8"))))
+           (commit "9539ff67a9ac491be4b382530bdbba9558379700")))
+     (sha256 (base32 "0d6p5z0gzwaxiv5gzxvagqadbnsdwliwsdqjphnllv7n3bj8pvqf"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("ledger-*.el" "doc/*.texi")))
    (home-page "https://github.com/ledger/ledger-mode")
@@ -60660,14 +60660,14 @@
 (define-public emacs-loopy
   (package
    (name "emacs-loopy")
-   (version "20260920.1430")
+   (version "20260927.2157")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/okamsn/loopy.git")
-           (commit "c50c15d87709ece2bee7f45d6a6d906bb8524aac")))
-     (sha256 (base32 "110f7cb4ls0fp1dbwdsy35pqcv2cah4fsngrylnl205wj4m1gi4l"))))
+           (commit "f02d09667489011e412321ee9331b5163c4c1b36")))
+     (sha256 (base32 "0w588z0hajagilinv7h2wqqzyl4nv6kac4vhj4b7vc6qz172ihw2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-stream))
    (home-page "https://codeberg.org/okamsn/loopy")
@@ -85306,14 +85306,14 @@
 (define-public emacs-promptu
   (package
    (name "emacs-promptu")
-   (version "20260918.2040")
+   (version "20260927.2015")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/promptu.el.git")
-           (commit "138103dbf7bea1d37b389d4d5b29e252b6144966")))
-     (sha256 (base32 "0j17yzzzdkbv9bvh4a4yr0vvvjkw38z7if9xy7h5lgk8ap0761ad"))))
+           (commit "acc904a4b74bd4f28111757fc0bb7c9f54dde994")))
+     (sha256 (base32 "0g2fxan23y934gk27l6mjclq5lchqvqpfgph2wldlcxb12d1qz79"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/promptu.el")
    (synopsis "Compose LLM prompts from building blocks")
@@ -86991,14 +86991,14 @@
 (define-public emacs-qrencode
   (package
    (name "emacs-qrencode")
-   (version "20260926.2355")
+   (version "20260927.2156")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ruediger/qrencode-el.git")
-           (commit "daae774935d0425a1c3607e79a1deee27f53e10b")))
-     (sha256 (base32 "1gc0jilh05s8dwbyg334rc6p8q3aylbaf9s17rr1y225mx0wcldb"))))
+           (commit "b197c5d1d9e258ecd431713419ebacffffe492d5")))
+     (sha256 (base32 "1hignzw0m36064x3jbf74yv2j6rda64s13j79k93am3q38x0hhzz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ruediger/qrencode-el")
    (synopsis "QRCode encoder")
