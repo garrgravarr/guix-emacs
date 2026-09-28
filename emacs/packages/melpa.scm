@@ -1696,14 +1696,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20260927.1632")
+   (version "20260928.831")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "b16e836ebca53644162516f4ff2048f56bbf6584")))
-     (sha256 (base32 "0lcydvgza5n1iaxszhcp6jsz23kk2miqigz31givf1hs0vws175y"))))
+           (commit "1a13d2d68ac6e8f02a537ddb974b67aa173c636d")))
+     (sha256 (base32 "1nq3an9qiqjwl9r947qxf6r57vvrrgz5r428d9gj866i9jqdzrf6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -2093,17 +2093,17 @@
 (define-public emacs-alect-themes
   (package
    (name "emacs-alect-themes")
-   (version "20251205.1503")
+   (version "20260928.557")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alezost/alect-themes.git")
-           (commit "b1f97e4bc0dc6ec91c7e9999fbe9fa371016463b")))
-     (sha256 (base32 "1xzvndk9iyblvgv2snw8r82dw6xjd9lwdmv99j3j3lanxbc1i58p"))))
+           (commit "c1730e30bb96c578fc984ce533d2253fd83517b2")))
+     (sha256 (base32 "1897g5pg3cyb22rawqyzrggpvxjrxpxdhmsrramgj6yqn849jfiv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alezost/alect-themes")
-   (synopsis "Configurable light, dark and black themes for Emacs 24 or later")
+   (synopsis "Configurable light, dark and black themes")
    (description "Documentation at https://melpa.org/#/alect-themes")
    (license #f)))
 
@@ -19298,14 +19298,14 @@
 (define-public emacs-decl
   (package
    (name "emacs-decl")
-   (version "20260819.1858")
+   (version "20260928.1250")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/preetpalS/decl.el.git")
-           (commit "491fab9d6a8debe266e0f7ed8590becfa2157353")))
-     (sha256 (base32 "19mfn1j2dank7d1xrd80wlyg2x04dpzr1j12h7x0a7iwc81f7z1b"))))
+           (commit "20afeb13df1b4eff0d7c7910f1c69d32677654b5")))
+     (sha256 (base32 "0lfkvr4kwyh6zpmssfbp8zvp2mks9ny13iq1xwapdg4l2w54l8js"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/preetpalS/decl.el")
@@ -29801,14 +29801,14 @@
 (define-public emacs-ess
   (package
    (name "emacs-ess")
-   (version "20260818.1451")
+   (version "20260928.1214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-ess/ESS.git")
-           (commit "254d3297836f2a2a509fe78fc393ba9037d73614")))
-     (sha256 (base32 "04sf7is1kz08sb3k2xw0dbn2grf9pywzrssba07n54kpq4vhczh0"))))
+           (commit "bb8f50f08798928c71fce20c7ea92fa16dbece0a")))
+     (sha256 (base32 "07zjhn9nwcll37jh07x086sfj6bx2br2ai6wnj531m3k55d9fb6x"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -32759,14 +32759,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260921.1324")
+   (version "20260928.857")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "77acadb199baad90880546c2a4fd7243957b6660")))
-     (sha256 (base32 "1wk37apmaydj8118bk5b97n71pjpr5qq5jml8c7czm9z0gsyrdsd"))))
+           (commit "64d4bae94fd5f1976c3170a9223daa98aece7c24")))
+     (sha256 (base32 "0pzx36ynzw54503zqyn00qv2rzsmv5pdmpbyxgp5kxwagmf8z17l"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -39517,14 +39517,14 @@
 (define-public emacs-gdscript-mode
   (package
    (name "emacs-gdscript-mode")
-   (version "20260822.915")
+   (version "20260928.857")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/godotengine/emacs-gdscript-mode.git")
-           (commit "2ecb74363851e551ed8176376e5b72725fe3e910")))
-     (sha256 (base32 "1fz26jmr2pm218lp4mrzm8ijg1ibk0g9qr07dhcmi94yb29qg45k"))))
+           (commit "fc7b7ece95da9ca0ffaafc602ac9c861f533f331")))
+     (sha256 (base32 "160xyz278ifil9q2nn3qgcvbh1qxd8i20pya8xs32747cdda7976"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/godotengine/emacs-gdscript-mode/")
    (synopsis "Major mode for Godot's GDScript language")
@@ -44208,14 +44208,14 @@
 (define-public emacs-guix
   (package
    (name "emacs-guix")
-   (version "20260904.1540")
+   (version "20260927.1639")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/guix/emacs-guix.git")
-           (commit "c70d2fd14e1d88df937affb7cc0972df5b4e7d3d")))
-     (sha256 (base32 "1335yfs3z3gpnvwz4b89ibcnaiix8ig2c6m37wjsqhpxz7jrvapr"))))
+           (commit "ee189ece587c6630e0c9c83bf4570f4571d78487")))
+     (sha256 (base32 "1rwwi5lil1g08l8cg5c7qx9cqm4iljkz714g30s0x6bg38jxy9q1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -58050,14 +58050,14 @@
 (define-public emacs-latex-to-svg-for-markdown
   (package
    (name "emacs-latex-to-svg-for-markdown")
-   (version "20260927.1623")
+   (version "20260928.809")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "5af22fe722f78d1b515179464bd15b69eadf62ad")))
-     (sha256 (base32 "0b5xyi9m4p1cjg8j3166mb5dvsg608m2siv166f0arqca6ag94x5"))))
+           (commit "20315d2f4922e55f489016bc40704430e6766cad")))
+     (sha256 (base32 "1i2j34dywh7zrdnihqv2ln108azdr2ddsiz4gxgyjw8spkvs31b9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-markdown.el")))
@@ -58070,14 +58070,14 @@
 (define-public emacs-latex-to-svg-for-org
   (package
    (name "emacs-latex-to-svg-for-org")
-   (version "20260927.1623")
+   (version "20260928.809")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "5af22fe722f78d1b515179464bd15b69eadf62ad")))
-     (sha256 (base32 "0b5xyi9m4p1cjg8j3166mb5dvsg608m2siv166f0arqca6ag94x5"))))
+           (commit "20315d2f4922e55f489016bc40704430e6766cad")))
+     (sha256 (base32 "1i2j34dywh7zrdnihqv2ln108azdr2ddsiz4gxgyjw8spkvs31b9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-org.el")))
@@ -58089,14 +58089,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20260927.1623")
+   (version "20260928.809")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "5af22fe722f78d1b515179464bd15b69eadf62ad")))
-     (sha256 (base32 "0b5xyi9m4p1cjg8j3166mb5dvsg608m2siv166f0arqca6ag94x5"))))
+           (commit "20315d2f4922e55f489016bc40704430e6766cad")))
+     (sha256 (base32 "1i2j34dywh7zrdnihqv2ln108azdr2ddsiz4gxgyjw8spkvs31b9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -73010,14 +73010,14 @@
 (define-public emacs-orderless
   (package
    (name "emacs-orderless")
-   (version "20260909.1506")
+   (version "20260927.2344")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/oantolin/orderless.git")
-           (commit "5806e3f9401606d16962cffae68188c92deb1272")))
-     (sha256 (base32 "1bnlafm67xlkiw9dv17w546zrafy2gnk7bh54nhnkvb1hw0dgsph"))))
+           (commit "3d2c2e6468ddf51e69c78e8212e5fd9006d2ce8a")))
+     (sha256 (base32 "0djv3ylif5gqxyz71qvdvc85cs3yg6xdrzh8wafckcll17rxvrrf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/oantolin/orderless")
@@ -84376,14 +84376,14 @@
 (define-public emacs-preview-tab
   (package
    (name "emacs-preview-tab")
-   (version "20260925.932")
+   (version "20260928.1038")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ismd/preview-tab.el.git")
-           (commit "650a571544003cbf630dc35fda52ddff3f8caacf")))
-     (sha256 (base32 "0dfsr6fa5ls3l3gj2mvisbchh57fwblhdnz66mp73jqfkxk1xf8r"))))
+           (commit "07cd13e5b999544a9da90a1f6d673628c3444b3a")))
+     (sha256 (base32 "1bzywbxdzp4zbp2f962rfdps8v20vi4qly6xlv175bzgspl9hsx2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ismd/preview-tab.el")
    (synopsis "Temporary file buffers, like VS Code's preview tab")
@@ -93428,14 +93428,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260927.1654")
+   (version "20260928.9")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "965671461820006269bef16c6d104d55fb18a691")))
-     (sha256 (base32 "1fw86w4wmjfzyx9lf03dpdlm8dp8nafmncpzim451w71dvw1a5z3"))))
+           (commit "a76d4d6b620927ff5e635449466015340bc2fe44")))
+     (sha256 (base32 "1d4kg4rbizrn36xc4k5hzqi4cvc8p19sl4h1p40mqjnvz3wjib2v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -94646,14 +94646,14 @@
 (define-public emacs-sis
   (package
    (name "emacs-sis")
-   (version "20260918.1409")
+   (version "20260928.612")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laishulu/emacs-smart-input-source.git")
-           (commit "787b724579d871fa0e647db2bf309f030842ff5c")))
-     (sha256 (base32 "12lghrhc2jqkn57vqyky6jxq1d489g8qvld7n36417gwkl739k7p"))))
+           (commit "51596b82b59d56317d4c6af93efd4bafb850b529")))
+     (sha256 (base32 "0isj1cyknn87jwzd40dxz2ykcv3841f3h6115p6j09nzklnnclxy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/laishulu/emacs-smart-input-source")
    (synopsis "Minimize manual input source (input method) switching")
@@ -94863,14 +94863,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20260924.1230")
+   (version "20260928.1328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "ed627b414217556470785fa49e4637ceda027c60")))
-     (sha256 (base32 "1shbqa2j7nydlbqqmhdyljh0nl2yb6qz0a3l56pgjm6gisc0smss"))))
+           (commit "992a922e061c4dcb0de45174c80949422ad8ab51")))
+     (sha256 (base32 "1mn0c4gfqf1ya7gnh6klawx5rxadqw0g4nbb0x520z6bcgyyzcbb"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -100631,14 +100631,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260924.445")
+   (version "20260928.106")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "4721c9322ce0f988aca0058be4e5f9865eaf83f3")))
-     (sha256 (base32 "17cqgrhqmv8pxsf1mdahlm9sv11j38r3710zrh4zrmszbqng26vw"))))
+           (commit "dcb98d34485cfcbd4fb72ac91adb322675cbcca4")))
+     (sha256 (base32 "1z5bnzjmxzjxbkl5jbn6h6ipy5j37rkgasljrii1kjyr5ai24715"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
