@@ -1417,14 +1417,14 @@
 (define-public emacs-adif
   (package
    (name "emacs-adif")
-   (version "20260920.2342")
+   (version "20260928.1624")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/K6SM/adif-mode.git")
-           (commit "e692c3e423e1af6c00a1b88f039450d468baea6d")))
-     (sha256 (base32 "0d9a6qfck5dasf5h0kl4qvlzpsbmjhln948sl33vbfmpdrarxkg4"))))
+           (commit "f886a36589d49bb843e2531170a8363af915b7f9")))
+     (sha256 (base32 "1yk0pm3q0fnqddhmmx3m29w1cmbnx069n8axfl3pnib1cbggbid6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/K6SM/adif-mode")
    (synopsis "Major mode for viewing and editing ADIF log files")
@@ -1857,14 +1857,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260926.545")
+   (version "20260928.1608")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "024722baaf7249b666cf255ed11b2cf4f4235a04")))
-     (sha256 (base32 "188p6w5g6q93icgq7cj4spc98sf96268m301f85fvyriz63kfl7p"))))
+           (commit "46e849c99d3c21e154fd9157515311926abc64e8")))
+     (sha256 (base32 "00b02vj4pncmqcsj2mdnhh74br75p3i4izrgz3c23a6vljkzb7xc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -6123,14 +6123,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260901.2322")
+   (version "20260929.57")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "77afb8c8cf7620a198f123cc4f1d87937e189797")))
-     (sha256 (base32 "0bpkzwd6w25ij5b5m2jihh6qhm18l7kb5bnwkqxqaazdv7a3pvhc"))))
+           (commit "5953a052ac361c095de111681aa4bb4a1a1f2ce2")))
+     (sha256 (base32 "1w3hhkbmc84sv5czlis1w8hbxqinf0rivmgl54gj0p0q19zkl5jw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -22559,14 +22559,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260926.1647")
+   (version "20260928.1632")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "1a30a313f8236be51184e6993cf5ea418d537349")))
-     (sha256 (base32 "16p9jjnl4991zwvw8zv7zb5dlb0r36dxp8dwqz1iydl7szlf3fs9"))))
+           (commit "802bb927e1b05b657e6ddceb6d9867dc9b421bc9")))
+     (sha256 (base32 "0mafmjc16shg8zjbnx794rnd713kqd0gsm26rq21zyl9mf8ivv9l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -24163,14 +24163,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20260924.1516")
+   (version "20260928.1827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "4647946db593a0a1e45f77b1a996d4843f6e24a9")))
-     (sha256 (base32 "1qz70rl5v79y447wrzlp1m39pca75ksbg89a2ahvd19d6iyzahnq"))))
+           (commit "d4356ae7d20b8f0630ffafec7500aabeda59bbad")))
+     (sha256 (base32 "0yynlrqkj8b580sj3s6kz8gj53pqyyxa8p4nk23j0jn11cidfacq"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -26672,14 +26672,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260920.1841")
+   (version "20260928.1522")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "b98cb4a904b70def4f21050d5d202005ee00b3b4")))
-     (sha256 (base32 "1sl824krdj6gvsfh4azr6x6fnkqhmll6gy8xh4m2blnlgdypmy30"))))
+           (commit "72f91cf436a025fec5c5fbd0bb47df0556468bf7")))
+     (sha256 (base32 "06cmi6yxp96gf03k3s433ih9r4jg80d5h7gmf4ll9my2kfhddhxr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -87008,15 +87008,16 @@
 (define-public emacs-qso
   (package
    (name "emacs-qso")
-   (version "20260906.2119")
+   (version "20260928.2219")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/K6SM/Emacs-QSO-Logger.git")
-           (commit "a8945aa7855d913215c406fca4c604f4662df2b3")))
-     (sha256 (base32 "1wwlp7d8h8bzy7rg984mgjfs9wyaflysb7l652f1dc4fw9mpgs1a"))))
+           (commit "1cfa9190df5c52cf6b1f8253e1cb4916663e80af")))
+     (sha256 (base32 "1kh5fylhinxbw40wj9vzbv32jf8yyfxkgjj0n5p5bnpkm11qgn0b"))))
    (build-system melpa-build-system)
+   (propagated-inputs (list emacs-adif))
    (home-page "https://github.com/K6SM/Emacs-QSO-Logger")
    (synopsis "Amateur radio QSO logging")
    (description "Documentation at https://melpa.org/#/qso")
@@ -101759,14 +101760,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260921.1352")
+   (version "20260928.608")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "c3aba9fe899f8b74bd3676b54df1a9020ddc09be")))
-     (sha256 (base32 "09avwg0pj7767gg2lgkji4ycfvk95y3l0gkvgf3bd0f4gy7n2c2i"))))
+           (commit "ab5913e25dca9dbecc64afe98b03cbe9478faec8")))
+     (sha256 (base32 "0arbrssbnnlcy3zcwj61za86vl2qrlpkjmyr3z1i5jccyhk2wsz1"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
