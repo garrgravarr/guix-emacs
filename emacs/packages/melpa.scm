@@ -1678,7 +1678,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260929.559")
+   (version "20260929.1342")
    (source
     (origin
      (method git-fetch)
@@ -1857,14 +1857,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260928.1608")
+   (version "20260929.1451")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "46e849c99d3c21e154fd9157515311926abc64e8")))
-     (sha256 (base32 "00b02vj4pncmqcsj2mdnhh74br75p3i4izrgz3c23a6vljkzb7xc"))))
+           (commit "d2dbe345b93b4d45bfed9ccb9055a693fa895d9f")))
+     (sha256 (base32 "0lgvz9qj8bniriarr69h9mrngbj3zsa24ckqi0744failfn0hpp5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -4482,14 +4482,14 @@
 (define-public emacs-auto-capitalize
   (package
    (name "emacs-auto-capitalize")
-   (version "20260905.1359")
+   (version "20260929.1154")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abdulnafe-t/auto-capitalize.el.git")
-           (commit "c04e98f8c8d08f032e43e5aa76feb9ca95afe22a")))
-     (sha256 (base32 "0jlq1wxxv4ih41f0mvnnv441s7m64bmzi04mswmac3hp18ylk6gw"))))
+           (commit "dc64ad5c3512bcf1766cdff01d7838c75d7b2b71")))
+     (sha256 (base32 "1rzyljbds6z89dadw5cmx2pp6yb4dhm1rnp422rx8c0ix95zcrwy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/abdulnafe-t/auto-capitalize.el")
@@ -6123,14 +6123,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260929.57")
+   (version "20260929.1225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "5953a052ac361c095de111681aa4bb4a1a1f2ce2")))
-     (sha256 (base32 "1w3hhkbmc84sv5czlis1w8hbxqinf0rivmgl54gj0p0q19zkl5jw"))))
+           (commit "67d37ac73d8530ed21c7e9d921837dbea2700c5e")))
+     (sha256 (base32 "175sjx7aaya0da4qxm3yrs9f0k4fjznjhal4mc3slr273ilswvrx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -17853,14 +17853,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20260927.1837")
+   (version "20260929.1137")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "745bb2b392323323220ac1b07371f79795085c16")))
-     (sha256 (base32 "07lia81332zv5gx4kx9l9nf5q5wxrn5k98ggwh16j1bkdvs6z4xk"))))
+           (commit "cdafcf62ec4df36b1cae24a2245c18d24b8d738e")))
+     (sha256 (base32 "037zlpwl41ig96q54s08l6sml9bdzfd95qj21mrcsc60yfsw30c0"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -25641,14 +25641,14 @@
 (define-public emacs-elcute
   (package
    (name "emacs-elcute")
-   (version "20260102.1001")
+   (version "20260929.2020")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/vilij/slurpbarf-elcute.git")
-           (commit "5ec0f75a308ab8ae1f29bbb3c18b63514fc83c20")))
-     (sha256 (base32 "0aksjg9wrl0aifwdw4m41al1yqcp8nz2bmfxd5jvx89rl1a6ijpb"))))
+           (commit "a3cadb03249878ce4777504018d4948e8f9148f6")))
+     (sha256 (base32 "1r16i4dknw188qmzqnyxiqkz5wnjhly3banyh3izlps4mldykzhm"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elcute.el")))
    (home-page "https://codeberg.org/vilij/slurpbarf-elcute")
@@ -32586,14 +32586,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260927.1203")
+   (version "20260929.1814")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "fffcbe266a883f3ada3379bf4338ca29ebb88329")))
-     (sha256 (base32 "1xqsd9f0nyiprch7zq3hmss90vnlf3rciv0wgn62h5xp1lq3wmsk"))))
+           (commit "3815dc52119467c6b01268c2eed94d86a5bc4bb0")))
+     (sha256 (base32 "09kajx95n5jmaipgvqkky1j06vnjdzabvl7xqx4j94m78hfqzyd8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -45182,14 +45182,14 @@
 (define-public emacs-hel
   (package
    (name "emacs-hel")
-   (version "20260902.1345")
+   (version "20260929.1054")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/helheim-emacs/hel.git")
-           (commit "7c133defda8c0e3c6c791cde05450c3d43616f06")))
-     (sha256 (base32 "0kclva87lv0m7vkjx40i41mlkjxc6rkciyw8glrn15s44dn9cb8j"))))
+           (commit "8e0a5cd6780cc4ec0d899632968176075d4d9ed0")))
+     (sha256 (base32 "0mmra0px7zyxbrwn5brabzydan2gax5xwv5jyjjkbzxx2zkprnys"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-avy emacs-pcre2el emacs-ultra-scroll))
@@ -63841,14 +63841,14 @@
 (define-public emacs-md-ts-mode
   (package
    (name "emacs-md-ts-mode")
-   (version "20260923.2013")
+   (version "20260929.1359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/md-ts-mode.git")
-           (commit "c6f0bc5cb505ac82802ef588a6a9bc085c823c2f")))
-     (sha256 (base32 "00y06zicppn46n0pzbcn8xnjznv7nryf83qzb84ff86rbas4gym6"))))
+           (commit "b0a39248e614113711e4f197b6c39eb48604de0b")))
+     (sha256 (base32 "0xhix649iwr7g9cxnpwcqgkpfk8xwynpa4ir7s6njzdgwppzs89n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dnouri/md-ts-mode")
    (synopsis "Major mode for Markdown using tree-sitter")
@@ -71235,14 +71235,14 @@
 (define-public emacs-ob-janet
   (package
    (name "emacs-ob-janet")
-   (version "20260913.1258")
+   (version "20260929.1158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/zzkt/ob-janet.git")
-           (commit "f972eb760f3293b9883ffcd3b19ab05cbb8f9404")))
-     (sha256 (base32 "1n1f10ka8d9lhzbk52i3k8dvpyla01z8j3janxj780wgawh6pgsf"))))
+           (commit "b39af99ed865e68a93f83f149ae0d2e13bf8f411")))
+     (sha256 (base32 "007n2zvghs3ywmbpwaczvmv93c1ydzwdff7hpcf44kpnwqf16knr"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/zzkt/ob-janet")
    (synopsis "Org-Babel support for the Janet language")
@@ -75125,14 +75125,14 @@
 (define-public emacs-org-mime
   (package
    (name "emacs-org-mime")
-   (version "20251201.245")
+   (version "20260929.1213")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/org-mime/org-mime.git")
-           (commit "ffaad784a8597ee52842a578c01bd347d3e0281d")))
-     (sha256 (base32 "1jbcv7mh5w2bnxrwsynv1gyfwyansfvzxampmnywvmrgs1656sky"))))
+           (commit "18b421f9a73428a49d9a534d3920e63ca21bea5b")))
+     (sha256 (base32 "0y506lhf940arv2f5xmkwkicl3mpfhxgi0mj3vjid3j0f2ygs0ax"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/org-mime/org-mime")
    (synopsis "Org html export for text/html MIME emails")
@@ -84915,14 +84915,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260916.1153")
+   (version "20260929.1544")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "f902073c1d10bb125875470c9dcbdcd7c9a1eefb")))
-     (sha256 (base32 "0xckza5wnr781xxr91xybd9d4a0ax0b8nix551m5fgyscad355s9"))))
+           (commit "7a33281b1efcba42d4355e465258e1a7dc1899aa")))
+     (sha256 (base32 "0fgb8nk27vcxly8abd5p24d45msk2sdi5qgkxsg7vdaa25xx08gf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -93429,14 +93429,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20260928.9")
+   (version "20260929.1341")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "a76d4d6b620927ff5e635449466015340bc2fe44")))
-     (sha256 (base32 "1d4kg4rbizrn36xc4k5hzqi4cvc8p19sl4h1p40mqjnvz3wjib2v"))))
+           (commit "2fa9c3f72339fd7bc755bc166428b139720e5d0d")))
+     (sha256 (base32 "0ddvzlmg3nqgh7szm0g9dd38sg8bgi98jain6gszxsg8crvxdrph"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -107810,14 +107810,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260926.957")
+   (version "20260929.1339")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "e8766faf0edaac7e5f8dafb82676ea8ba812daa1")))
-     (sha256 (base32 "11m6035i77qz3wqhzwpx0yia08y646xja1lgi6v4lf3kaprhvzc0"))))
+           (commit "c21204116b3cf3e921fa8f7849c932c8b0ad3181")))
+     (sha256 (base32 "0f78x9g8m5ly055js6zmsnddx1r2x4lf7pr8jfhy53c7dywbw1nq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
