@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260928.10")
+   (version "20260929.559")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "5535365534d0bf9f6e0257316af86e11399d3eba")))
-     (sha256 (base32 "16a9g1ddbsi2mcr2q2rry8r3h8lgc0pr1if7m08ab6cf6bzi4yvx"))))
+           (commit "634b667d16a7523f237cf29bc0aab950d199f907")))
+     (sha256 (base32 "1w0m4pvk13m9pjj8zb690m67ybvfxdvykypqvblhvwxmdy1rrk59"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -12461,14 +12461,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260926.855")
+   (version "20260929.730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "84420697005c0e0b2545b9940b612a331682a48d")))
-     (sha256 (base32 "06xy9vld4s9pr4nf0x0v33dsclww4x0hm6x7f9h4q4h5rq41cx7s"))))
+           (commit "1cf619cc08b1cfb9800ce1f0d00bbd40be774c0c")))
+     (sha256 (base32 "05d205syikx88nr9wsx2bvvjd5db8h2q2p3jf2d4cknhi52lfx1g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -25996,14 +25996,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260926.1226")
+   (version "20260929.831")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "acbb86e342d2b8f85dfb30dce9df01db9a829c77")))
-     (sha256 (base32 "0c875wsh6rxwzbhsascwwhljrjjd66z5zg60l1jwlphph1yj3184"))))
+           (commit "f69b4da9b89be04e3b5bd0fecac77a48d914e64c")))
+     (sha256 (base32 "10yb59x25svj0i5nqj7f822zrkc9m3n3vkwf094zpkg6swjkaysg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -26672,14 +26672,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260928.1522")
+   (version "20260929.711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "72f91cf436a025fec5c5fbd0bb47df0556468bf7")))
-     (sha256 (base32 "06cmi6yxp96gf03k3s433ih9r4jg80d5h7gmf4ll9my2kfhddhxr"))))
+           (commit "549fd2688cd3e71a27f0addc0587fd248e1d7900")))
+     (sha256 (base32 "02f771dkhqvs1wzq2zw9l8qw26q19crn4d0jgxjbxfhmzw298k1r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -32759,14 +32759,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260928.857")
+   (version "20260929.110")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "64d4bae94fd5f1976c3170a9223daa98aece7c24")))
-     (sha256 (base32 "0pzx36ynzw54503zqyn00qv2rzsmv5pdmpbyxgp5kxwagmf8z17l"))))
+           (commit "b98f1e76bbc110dabdd13b8fcf14a70b643557cf")))
+     (sha256 (base32 "1df6ajhdv7x3mqxs1g6szihjxqf44rx8y1j07zf5lsk6kbc6vfj4"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -61038,14 +61038,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260918.554")
+   (version "20260929.1012")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "7912b3a1eba8f4aadd00185b5126f4bba9f1c5ab")))
-     (sha256 (base32 "032jzf13sqmq8rvvn9pk7h2r5wq1kfjdsak5ps5dcnin7qs1vy3f"))))
+           (commit "686261e09503144e25cce35784bcd4a130b2cabb")))
+     (sha256 (base32 "1f2riwgjlzr7vwhlvqz52k6x6xxj0bc8qpgaq33yn1cv52cpc2ix"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
    (synopsis "Grammar and spell checking for LaTeX, Markdown, Org and more")
@@ -81541,14 +81541,14 @@
 (define-public emacs-pgsql
   (package
    (name "emacs-pgsql")
-   (version "20260925.826")
+   (version "20260929.716")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/pgsql.el.git")
-           (commit "9dbf135d16393c9d849ebd85543a6143fc42a8f9")))
-     (sha256 (base32 "02wlj3xcfxj75b3shb2nblsdh0id91x9z9m04z81zhf2xk6ya51l"))))
+           (commit "fb7a22f6dd61ab81be9b992716c27ac590cb5920")))
+     (sha256 (base32 "15n0mdappxxad049589pdb76hhk3lm9iqiqz5k07ahdylq6hkhrk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/pgsql.el")
    (synopsis "Native PostgreSQL protocol client")
@@ -82123,14 +82123,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20260926.2022")
+   (version "20260929.901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "e1165f7e24a5adb745aa7f6d04f1f4c401440771")))
-     (sha256 (base32 "0ag47wc9ssvkfvznhxpvs289nimzr081wpqri0bhmxh2rvzx04jm"))))
+           (commit "a8757d3a42ccab8fb246429df8fde8f7cf1bbb49")))
+     (sha256 (base32 "1sa34mwip90cwyxfy3ia2vw9h09zij3gav59pabyjappyv3qfh7c"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -107774,14 +107774,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260926.1221")
+   (version "20260929.958")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "cda0f2f563606ba6bd07ba3dbeb2c249d7850a29")))
-     (sha256 (base32 "1fdpmdjbpn120339y49jl1ll6h00fxqrrj89l7cvi14fk2kbslwa"))))
+           (commit "c71f49ccd3d63635c46a7404115a7fd18b1c90d5")))
+     (sha256 (base32 "1rm77mmp7ldkc28n2k6nhyxlj6cv80fjk7wqpk8c15pc9kjx0xjg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
