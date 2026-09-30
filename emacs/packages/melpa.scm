@@ -1417,14 +1417,14 @@
 (define-public emacs-adif
   (package
    (name "emacs-adif")
-   (version "20260928.1624")
+   (version "20260930.250")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/K6SM/adif-mode.git")
-           (commit "f886a36589d49bb843e2531170a8363af915b7f9")))
-     (sha256 (base32 "1yk0pm3q0fnqddhmmx3m29w1cmbnx069n8axfl3pnib1cbggbid6"))))
+           (commit "fb129a2dbb6e4d985a6c078d8759682baa722575")))
+     (sha256 (base32 "18nr69s6pakx5sqiyndsmsjb2rmvvqpxn5xcfx36icligc98gks9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/K6SM/adif-mode")
    (synopsis "Major mode for viewing and editing ADIF log files")
@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20260929.1342")
+   (version "20260930.710")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "634b667d16a7523f237cf29bc0aab950d199f907")))
-     (sha256 (base32 "1w0m4pvk13m9pjj8zb690m67ybvfxdvykypqvblhvwxmdy1rrk59"))))
+           (commit "1b931b49172180aef95551641a84db88f8daef5a")))
+     (sha256 (base32 "0i09dwzb0sxydkqfg115qz41p1jr2qgshm9j0imqs472qivmfbix"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -25023,14 +25023,14 @@
 (define-public emacs-eglotx
   (package
    (name "emacs-eglotx")
-   (version "20260914.409")
+   (version "20260930.931")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cxa/eglotx.git")
-           (commit "445f9e149ebd21bd9ff6bb3851bb0cdad060b785")))
-     (sha256 (base32 "157lvb9fw5jzkwlv9czw11k6f79zw5hrs849av6dycpmgfr9lz0x"))))
+           (commit "58033308a8c4611d9dd99cbebf8aa8d1fad40cb2")))
+     (sha256 (base32 "1m3f9y7qizfjivn2m5k0hpiw2r1dyx3im6q4q56n0rw0bdfqicxd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/cxa/eglotx")
    (synopsis "Native LSP multiplexer for Eglot")
@@ -27348,14 +27348,14 @@
 (define-public emacs-emacsc
   (package
    (name "emacs-emacsc")
-   (version "20260909.242")
+   (version "20260930.1006")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/knu/emacsc.git")
-           (commit "21dc5f44220a3df33cecb76c2521ea6ff4481d19")))
-     (sha256 (base32 "029c92prb66ipn75jwxygs0dxg573ixnyq2v6x7vajq6qxvmkikz"))))
+           (commit "94cee7ce11d7eb699e1619dd02b75e95cacdaaa5")))
+     (sha256 (base32 "1f8grcz8yj9yirq21npwvbw6slc76ncnf7p76ww52mdcagi37irk"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "bin")))
    (home-page "https://github.com/knu/emacsc")
@@ -30675,14 +30675,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20260919.1611")
+   (version "20260930.742")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "402ca634960142f13388fa24d223b6c7b0b2511e")))
-     (sha256 (base32 "1lsazb6fnwvn2rdbvxxzarjkwihy604gmdgysbg0yzmwr91a82hx"))))
+           (commit "8cc917321a8ba5d704c72e3dd6d9d186ece7a692")))
+     (sha256 (base32 "1r4mgffrpay0fy4bhmhhyf4xjc10l5q13vhgyp0p8icmswc09lql"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -39024,14 +39024,14 @@
 (define-public emacs-full-gtd
   (package
    (name "emacs-full-gtd")
-   (version "20260913.1656")
+   (version "20260930.524")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/full-gtd.git")
-           (commit "91a4bea06d93cfec81657d9dec8688f2b70e33ba")))
-     (sha256 (base32 "1xr5gqz3jf35ma426qjbajfswlp0xjlw6na2lwbjn66bwkw4p7wi"))))
+           (commit "41dfa01dd8584d740e037cc891877995406e6ce2")))
+     (sha256 (base32 "0rj4zh7kqz3agld3rcs50x679ixa3w1yls5x9wy4ywjbrmhq2wgp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/full-gtd")
    (synopsis "Complete Getting Things Done (GTD) workflow for org-mode")
@@ -40200,14 +40200,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20260927.1848")
+   (version "20260930.742")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "eb53ff37994d5e43851432a710468bc1445453fa")))
-     (sha256 (base32 "1jc1hdc6i5h67xq6qgv1hbmcfsfw0b8dfhcdnxpvbw6342kyqi5y"))))
+           (commit "8cc917321a8ba5d704c72e3dd6d9d186ece7a692")))
+     (sha256 (base32 "1r4mgffrpay0fy4bhmhhyf4xjc10l5q13vhgyp0p8icmswc09lql"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -56507,14 +56507,14 @@
 (define-public emacs-keycast
   (package
    (name "emacs-keycast")
-   (version "20260925.1912")
+   (version "20260930.910")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/keycast.git")
-           (commit "e70b9231b5a3083f0cb335d474e9872c59689aa1")))
-     (sha256 (base32 "1h29mzcmaavdzz6z4vizmzpnjmv38zwsqv3yig76cg830f5s1fc1"))))
+           (commit "39dfd8359cfb03377c8c1a772491169c7f66cd9f")))
+     (sha256 (base32 "1chn27yg5qca1akj4fg5sbihvim1bw3i7p9vfvjdj0ifi06q0v5q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let))
    (home-page "https://github.com/tarsius/keycast")
@@ -76122,14 +76122,14 @@
 (define-public emacs-org-rich-yank
   (package
    (name "emacs-org-rich-yank")
-   (version "20260924.1340")
+   (version "20260930.947")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/unhammer/org-rich-yank.git")
-           (commit "f246cd3d27b8ca61f0a1ccff83309b3e3ef3d45e")))
-     (sha256 (base32 "0891dyinrdc6jvhbmqa13nk5yap1lag8bc73sr33svd94nc7qdgd"))))
+           (commit "a8adcac661ca3c862a517010eef006bf929c6638")))
+     (sha256 (base32 "14ny02yvvr31zwhxjdkdvyjhipssbxa0cycjyryfw84x9ad0gzv4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/unhammer/org-rich-yank")
    (synopsis "Paste with org-mode markup and link to source")
@@ -77578,14 +77578,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20260929.2123")
+   (version "20260930.937")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "4a2f671446b51b13f17796dbf99e577ebac6b267")))
-     (sha256 (base32 "1gxwihqvk60b3f7npzpj3y0qrzkigmy1ij7rw12b2apww2j66mn1"))))
+           (commit "931fe7af5508f6f85dec3e160a8a84c0bc342e8b")))
+     (sha256 (base32 "10zg1b3s02yvim0w96askq4d8ac9n0f6z2rq6cn2dwvd1ljhpszk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -84915,14 +84915,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260929.1544")
+   (version "20260930.434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "7a33281b1efcba42d4355e465258e1a7dc1899aa")))
-     (sha256 (base32 "0fgb8nk27vcxly8abd5p24d45msk2sdi5qgkxsg7vdaa25xx08gf"))))
+           (commit "4d2be8680fe445c4ca88177f0ed838051cadfe58")))
+     (sha256 (base32 "1535ad13pkjpm2z6p4xvl9ka536fm87bzs3li7vgsxz7ry5hi1l2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -87008,14 +87008,14 @@
 (define-public emacs-qso
   (package
    (name "emacs-qso")
-   (version "20260928.2219")
+   (version "20260930.255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/K6SM/Emacs-QSO-Logger.git")
-           (commit "1cfa9190df5c52cf6b1f8253e1cb4916663e80af")))
-     (sha256 (base32 "1kh5fylhinxbw40wj9vzbv32jf8yyfxkgjj0n5p5bnpkm11qgn0b"))))
+           (commit "018a5cab088db58c50656e2704edd94baab8b3e0")))
+     (sha256 (base32 "1fksi13kw570kjvpff5mnb4rz9i3078p7jk3bsy6fikmvkhg84s0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-adif))
    (home-page "https://github.com/K6SM/Emacs-QSO-Logger")
@@ -107774,14 +107774,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260929.958")
+   (version "20260930.1110")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "c71f49ccd3d63635c46a7404115a7fd18b1c90d5")))
-     (sha256 (base32 "1rm77mmp7ldkc28n2k6nhyxlj6cv80fjk7wqpk8c15pc9kjx0xjg"))))
+           (commit "d2b07bdeed5bbf899349ee0bdd57e68b2dc507b8")))
+     (sha256 (base32 "0k813mnbjxz3wwazrq5kf02w3d11r7x47yjv0ilgf3rcp9f0isgw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
