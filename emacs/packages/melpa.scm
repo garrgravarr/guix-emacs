@@ -77578,14 +77578,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20260917.1350")
+   (version "20260929.2123")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "b9c7665c13c5a5b58c0d1bc67221574801e90022")))
-     (sha256 (base32 "0md156mbnplb3i8jjgw1h9phns9wmcap6bl1mnbi3rwhhdfdsn9q"))))
+           (commit "4a2f671446b51b13f17796dbf99e577ebac6b267")))
+     (sha256 (base32 "1gxwihqvk60b3f7npzpj3y0qrzkigmy1ij7rw12b2apww2j66mn1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -86957,14 +86957,14 @@
 (define-public emacs-q-mode
   (package
    (name "emacs-q-mode")
-   (version "20260917.256")
+   (version "20260929.1851")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/psaris/q-mode.git")
-           (commit "9928f507d2759fd6dacc04e4daa255356834bca1")))
-     (sha256 (base32 "09vg3v28qppr2y30hi8c8gad7nl2z4m6q48k526b24lm4wijnz9b"))))
+           (commit "9b86222d5fca4e329a5eb1884fb775eb4e5e333d")))
+     (sha256 (base32 "0x8zi2k2c8l6lmwj7gvabm600xp01gi8sw6zgx9s3baaxzldnnhk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/psaris/q-mode")
    (synopsis "A q editing mode")
