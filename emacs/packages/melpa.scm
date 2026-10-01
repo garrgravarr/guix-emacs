@@ -1857,7 +1857,7 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20260930.1449")
+   (version "20261001.435")
    (source
     (origin
      (method git-fetch)
@@ -17346,14 +17346,14 @@
 (define-public emacs-crux
   (package
    (name "emacs-crux")
-   (version "20260930.1257")
+   (version "20261001.519")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/crux.git")
-           (commit "aa04bddd6f88934e4cddcd3b366efd15d27b3ab0")))
-     (sha256 (base32 "1889dvqvsckwd0dinvklshvw297mw3xihi0s085i0rcp8knmvjy8"))))
+           (commit "3298e8db6d5346f78c9408df8b869636faf1d990")))
+     (sha256 (base32 "1a4nhqq4qsil9kg3zxr219lgf34xf0qzpw4fssdrw98d722vc5zq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/crux")
    (synopsis "A Collection of Ridiculously Useful eXtensions")
@@ -22276,14 +22276,14 @@
 (define-public emacs-docker
   (package
    (name "emacs-docker")
-   (version "20260930.2002")
+   (version "20261001.727")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Silex/docker.el.git")
-           (commit "d5799e444133f172f1c544021820b990694e2ff0")))
-     (sha256 (base32 "1z40dmqhbsmk4l2b7r3lxp83l1yrim8pkbyvciqp71qc1mp17n2a"))))
+           (commit "08b9ae67f01431b3b07e7181388a08f3faba6824")))
+     (sha256 (base32 "1hqamav8y7nj1v22k2ssbxs85bqncgsidy1522v8xa2smr6bq0dr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-aio emacs-dash emacs-s emacs-tablist))
    (home-page "https://github.com/Silex/docker.el")
@@ -32586,14 +32586,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20260929.1814")
+   (version "20261001.1036")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "3815dc52119467c6b01268c2eed94d86a5bc4bb0")))
-     (sha256 (base32 "09kajx95n5jmaipgvqkky1j06vnjdzabvl7xqx4j94m78hfqzyd8"))))
+           (commit "a4fa6cc9e0dc654d267e7e952c4eb6ab173c9ee8")))
+     (sha256 (base32 "0rccrw4ybikqiqclhkx0m75zqckxwa3alm8mpxjcfmm70knipl87"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -38239,14 +38239,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20260926.1226")
+   (version "20260930.1744")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "3074fce813037fdefa0b128e7eee4be4f727ae7f")))
-     (sha256 (base32 "049m30mn7fjbmgg2285agmrynv4mnwcs5kcswdrmkxfdhxc88azm"))))
+           (commit "161c21f40a65984c9063553df4ba2e47a75a99b1")))
+     (sha256 (base32 "0rn7fvlq4b44rayq2xa0iwbaga71n5l6q9qc50yfh6bksdy41yp8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -50109,54 +50109,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20260930.1652")
+   (version "20261001.729")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "0240f3ce82758d11973b8fdcf9acdb72ac9ef935")))
-     (sha256 (base32 "1xslppcbgnzljvm3ks8j6r127krlrjdqv1960zhjvwqxwr6vfcvi"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "16c3mr8klpz32spc7pa4bv6awvv63mnzfpa4imkh9qsp8x0a7g0a"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -82144,14 +82106,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20261001.227")
+   (version "20261001.300")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "c44eace0f50f62e6dca937672f66d8a06eb21aa6")))
-     (sha256 (base32 "1lbcmh6qfrch3msv72qjpfcdy5jbgv0j57cmzaswldyrhqdz1pih"))))
+           (commit "0fa021b62f3f71b420fa41821960678f10b6e38b")))
+     (sha256 (base32 "0nx6519v2adhbqn6lcknmvc92w1in0vpkc71fv4ddsqv0rlp7qav"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -84954,14 +84916,14 @@
 (define-public emacs-projectile-rails
   (package
    (name "emacs-projectile-rails")
-   (version "20260930.2012")
+   (version "20261001.756")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/asok/projectile-rails.git")
-           (commit "131444202a3c94bb4014ea53db247964e66a26f2")))
-     (sha256 (base32 "0i3qa30h0ksd79ddww1lakqva1qfrxyynpfx08pr8zakld5xh7vg"))))
+           (url "https://github.com/Silex/projectile-rails.git")
+           (commit "3b00118bec7e3578e1152e057f324903e7bd7c90")))
+     (sha256 (base32 "0ysw66hmvhm3n6ncizzmqhg4d5ar055cchnzfgd3isklrmnp3q0q"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-projectile
@@ -107757,14 +107719,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20260930.1110")
+   (version "20261001.952")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "d2b07bdeed5bbf899349ee0bdd57e68b2dc507b8")))
-     (sha256 (base32 "0k813mnbjxz3wwazrq5kf02w3d11r7x47yjv0ilgf3rcp9f0isgw"))))
+           (commit "769b1a766d59fc482a15be3c69a653ec33764ebf")))
+     (sha256 (base32 "0brv6slgax0jn6n8hl0a010032q90njvbcgmbmv3ajcki3k54x8x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
