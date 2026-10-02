@@ -6123,14 +6123,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20261002.303")
+   (version "20261002.1510")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "25f0b901a41e389509b55ff69800490648c5b3b2")))
-     (sha256 (base32 "0sak4jhsnwxzkwd0xzvzabrm2f9y23rag33903nd34w8gmb5lywr"))))
+           (commit "0774f603066d4331348e031cb330ab98f55f31d9")))
+     (sha256 (base32 "1mjs25ng2k68f2bj6brdczv7vic5kl9627yxzkmn7kdnq1vdwccl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -12461,14 +12461,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261002.201")
+   (version "20261002.1557")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "b4a80a2be46f4f03d1e7de2fbe3f9a1c8330e745")))
-     (sha256 (base32 "0h0fnyxm3sxbdizqbjay11wl34bxwn6h61x5x1lvz7bjhpqvcrxf"))))
+           (commit "75f895b51cbe74400f446805a320741d2f35c307")))
+     (sha256 (base32 "08pq4g3a3f8y0s2rix9qfa9mb0h01cn4m2pgm8k8va2mbm3gmjq5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -12531,14 +12531,14 @@
 (define-public emacs-cmake-mode
   (package
    (name "emacs-cmake-mode")
-   (version "20260825.1510")
+   (version "20261002.1529")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.kitware.com/cmake/cmake.git")
-           (commit "8683efde41b5efcfdd609849bd42bbfa4f094e29")))
-     (sha256 (base32 "10x1b1d2650s4dshk2n7ni776m1cs61lmfwfjmicyw3q7a3bhffj"))))
+           (commit "5c710a430e922d0dbb2e08e81000a5bfa63d2e90")))
+     (sha256 (base32 "1kgnm6gcwrmqgvgpxdr2gg2plqr8qgqb1j519kg82bk548akdp14"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("Auxiliary/*.el")))
    (home-page "unspecified")
@@ -13522,14 +13522,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20260721.100")
+   (version "20261002.1605")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "1cc907ac9e46ae4209eb5a341131787e0c678406")))
-     (sha256 (base32 "0fx6wr3lwn9x0b2g1b9vld5hxizl6xzqsgvgxdwmdmykz8n4aqad"))))
+           (commit "0c6388bb3b7766a88b11e51a628895aa6253d684")))
+     (sha256 (base32 "1kkfdzbz3n66c3876haasn7z6idg3rhmjq1022ndyrkvwa65g0wp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -17346,14 +17346,14 @@
 (define-public emacs-crux
   (package
    (name "emacs-crux")
-   (version "20261001.1256")
+   (version "20261002.1340")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/crux.git")
-           (commit "3298e8db6d5346f78c9408df8b869636faf1d990")))
-     (sha256 (base32 "1a4nhqq4qsil9kg3zxr219lgf34xf0qzpw4fssdrw98d722vc5zq"))))
+           (commit "e769fe4a40813c8b1d1d869acbfee2323d2ed182")))
+     (sha256 (base32 "1ilpn63fxly8akvm9pvmqydzw89f4ajvslh0aaqpcnqazrqj6f0j"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/crux")
    (synopsis "A Collection of Ridiculously Useful eXtensions")
@@ -57960,14 +57960,14 @@
 (define-public emacs-latex-table-wizard
   (package
    (name "emacs-latex-table-wizard")
-   (version "20260504.128")
+   (version "20261002.1459")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/enricoflor/latex-table-wizard.git")
-           (commit "0ccd242ba521ed3b323d1dc84f49febe80b2eec7")))
-     (sha256 (base32 "0mf7r22n51wyrdbsb5jm1jfhcivifz6d5l029wv3p5p88mylx2ks"))))
+           (commit "2fb1bd37f3bd267bd5b8c41e02d2b82507328824")))
+     (sha256 (base32 "1q2d38hdxabsb13g8s94nh7ggb17az6cxxs5qbw3xz6bd9q4xcla"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-auctex))
    (home-page "https://github.com/enricoflor/latex-table-wizard")
@@ -63750,14 +63750,14 @@
 (define-public emacs-mcp-server-lib
   (package
    (name "emacs-mcp-server-lib")
-   (version "20260819.1306")
+   (version "20261002.1428")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/mcp-server-lib.el.git")
-           (commit "714f04fff23daff2cb236baff9a3579b958db462")))
-     (sha256 (base32 "0jxm0xg1kk7k5va8hh5afgs6ch25kpxvrq8a34giy2mq2jyx6rbi"))))
+           (commit "d9d052552bb99f6d70bc1f4dbd0e3ab84bbd6555")))
+     (sha256 (base32 "1s15y4hk9rp77jyaydb2kxi2237wfkqnb5lzgkk34khaax6sgrz9"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "emacs-mcp-stdio.sh")))
    (home-page "https://github.com/laurynas-biveinis/mcp-server-lib.el")
@@ -66662,14 +66662,14 @@
 (define-public emacs-mpdmacs
   (package
    (name "emacs-mpdmacs")
-   (version "20250917.32")
+   (version "20261002.1745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sp1ff/mpdmacs.git")
-           (commit "e11d46925ce711de37352fb0a243a2cb55f873a3")))
-     (sha256 (base32 "03r6lq7kzjxc1bz4wr1yw30knm6ivb6l3b06ag38xax160qphkgb"))))
+           (commit "22c56517d870343e44d61909dbff1f4b69b85b5e")))
+     (sha256 (base32 "0745g135ba698yfcpn2r4lajirgghc1m93z07gw0cp09wssqi53i"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-elmpd))
    (home-page "https://github.com/sp1ff/mpdmacs")
@@ -80169,14 +80169,14 @@
 (define-public emacs-parseclj
   (package
    (name "emacs-parseclj")
-   (version "20260526.1843")
+   (version "20261002.1230")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/parseclj.git")
-           (commit "ca828c202c026e45bd60503984cf510d904cae50")))
-     (sha256 (base32 "1j992kbnl4f25cfb0bjjv2pcl6zxrlg4fvf2r3740a9vmigrl82q"))))
+           (commit "249079da5c2655a8e503b33280c1ab1341e72de2")))
+     (sha256 (base32 "0b7f8x2wdw09dyiwq2jafs32kpqhds5y8zkf9qn75janjvi99d7y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/clojure-emacs/parseclj")
    (synopsis "Clojure/EDN parser")
@@ -82106,14 +82106,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20261002.258")
+   (version "20261002.1417")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "1cec448afe66ba7cadf282037cbad8f4c9403bda")))
-     (sha256 (base32 "0zmkrkjhskrp3d2wmisczqc1miwmx683ar32svc7zawvz0k8wblw"))))
+           (commit "f44dc884ea2b41e600236fc676a23236085bc9de")))
+     (sha256 (base32 "18w83i09jdfnhiw2rpkn05v7a22i9jfvxzp5zy6l6ry4m4p5mq9l"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -84321,14 +84321,14 @@
 (define-public emacs-preview-tab
   (package
    (name "emacs-preview-tab")
-   (version "20260928.1038")
+   (version "20261002.1829")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ismd/preview-tab.el.git")
-           (commit "07cd13e5b999544a9da90a1f6d673628c3444b3a")))
-     (sha256 (base32 "1bzywbxdzp4zbp2f962rfdps8v20vi4qly6xlv175bzgspl9hsx2"))))
+           (commit "4b10a95c2cae577ece000b0e777a95ba4887b747")))
+     (sha256 (base32 "0s9zrad9202k3qwyzkfap4p685qss9ncp7is2d4c6w3qwxf1iw3d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ismd/preview-tab.el")
    (synopsis "Temporary file buffers, like VS Code's preview tab")
@@ -92246,14 +92246,14 @@
 (define-public emacs-sdcv
   (package
    (name "emacs-sdcv")
-   (version "20241227.319")
+   (version "20261002.1500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/sdcv.el.git")
-           (commit "941ac2fbbb1be9ad595aed6dd782a842c4676a1a")))
-     (sha256 (base32 "13z0ql5h0rd7saf9ibfmpqymf0nflshxs81j7f16wqc3pxcafv7k"))))
+           (commit "f0dd10f1ecdca7fc20a95fb05fb4b0d5a3fae579")))
+     (sha256 (base32 "0v7lczz21mjyv2x28wysjib537qb30shq3121kkcgwhdl0dagmbs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-popup emacs-showtip emacs-pos-tip))
    (home-page "https://repo.or.cz/sdcv.el.git")
@@ -107719,14 +107719,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20261002.621")
+   (version "20261002.1625")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "8e70ec07bcf665062535addb17db3b5b86331622")))
-     (sha256 (base32 "0s91ink6vncc670shs9mniapnw6rb322g7dvb5ibxqbvvippd2ll"))))
+           (commit "f3af60a6dcfdababa74232b3b58fd44c511cfc4a")))
+     (sha256 (base32 "0k8ixm4s92cryghmfagk7zk7y1rhbwcs9i9xlpf31hrnzc68aqac"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
