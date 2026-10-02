@@ -6123,7 +6123,7 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20261002.123")
+   (version "20261002.303")
    (source
     (origin
      (method git-fetch)
@@ -6441,14 +6441,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20260830.827")
+   (version "20261002.756")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "8cd9b28a43a392f2bd2c83f6fddafb603f9ec35c")))
-     (sha256 (base32 "0y0axmklprfsr0icilbabfr1gl351ib62jx7lmg3liadnqqnmyi8"))))
+           (commit "2b28ee37e55166f903c3c1c2c113f3f2823f718c")))
+     (sha256 (base32 "09506axvks0gzzpr58fd11qc6k3gm8c8vm309dx4miywjzv4vf07"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -11099,14 +11099,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20260920.725")
+   (version "20261002.1115")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "9e049baa1c2c136724d7538b1df6898ee77de6e7")))
-     (sha256 (base32 "1xxxj0brsdqm8ch50q4hjyc6cnd6abwkdx0mkigf1znyhz4n32cj"))))
+           (commit "2baf573e06d1f818f45680e9b49aed76e076645b")))
+     (sha256 (base32 "19kzywmsq6nk3gs2b6j2kffch5kz9h1lrirvpvf1bx9li5xng09r"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -26672,14 +26672,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20260930.2316")
+   (version "20261002.613")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "b35e238972d3f1a91eb4aa8fb5b12c3e4a85e748")))
-     (sha256 (base32 "0is9lz28mayxgxjpv47wlg5vqgwnf4i1vk70ahkypyywd2ackb7p"))))
+           (commit "b0a00300f15403fbeaa3802ab6d894ea0f4dc639")))
+     (sha256 (base32 "1g138amimm8xlnhfbp7dhlyl619xis3kf6b1zqpkqdw1fcr5j7d6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -43080,14 +43080,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20260925.357")
+   (version "20261002.545")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "ec25a41fb8bebf5ea08341a9d8c70c0ee907ee23")))
-     (sha256 (base32 "1xs308jmn1qy3ybghwcfv80nqzz442p7w2rzwaj4m0f5r8b67630"))))
+           (commit "edb3fee3b5266e9060f6d121e9b3914eb7c3409d")))
+     (sha256 (base32 "1ppr9cpn5mz232yr5vcsdap4w0hsysnqgi31jdy82vb3p5m15gmp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -56219,14 +56219,14 @@
 (define-public emacs-kdl-mode
   (package
    (name "emacs-kdl-mode")
-   (version "20260818.637")
+   (version "20261002.646")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/taquangtrung/emacs-kdl-mode.git")
-           (commit "c6ef2a0375b1e179c08a2e0f3809d318d8a0c090")))
-     (sha256 (base32 "1kjxw7c1xy2h6y9s5zk9r36977jz87989bb7zvqnvinkjk52xw3h"))))
+           (commit "e966ed4b53f8a72b88a016e61bcadec42f317e39")))
+     (sha256 (base32 "070ngannx77m39hwvsdr4pk17ki1l4nzsi746w21q5mfbp8gl9w1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/taquangtrung/emacs-kdl-mode")
    (synopsis "Major mode for editing KDL files")
@@ -61831,14 +61831,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261001.1331")
+   (version "20261002.807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "8496438615eb613043a15a311181e33cf3acd66a")))
-     (sha256 (base32 "050vb309wlx0gafbg0rzsihrfpzvb30l79v8qxpqajd86ssjkrk2"))))
+           (commit "8802df2ebcde3d1d90ba2f8a31f64eb95ea0124b")))
+     (sha256 (base32 "1vrdaybq5x2sys485lxvlayjzcak2i0ifbw0zlyvbjf2n1kmpkwx"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -82068,14 +82068,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20260929.901")
+   (version "20261002.731")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "a8757d3a42ccab8fb246429df8fde8f7cf1bbb49")))
-     (sha256 (base32 "1sa34mwip90cwyxfy3ia2vw9h09zij3gav59pabyjappyv3qfh7c"))))
+           (commit "ec016f7173a46de391bb86a167abb75640647588")))
+     (sha256 (base32 "1na4ng7wx59l3ys51bgk5s0w0rkmpd1nrigrzkh0mk3mnp4wzqzl"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -100577,14 +100577,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20260928.106")
+   (version "20261002.909")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "dcb98d34485cfcbd4fb72ac91adb322675cbcca4")))
-     (sha256 (base32 "1z5bnzjmxzjxbkl5jbn6h6ipy5j37rkgasljrii1kjyr5ai24715"))))
+           (commit "a6abce419828fc63c7698c7d4951614e8d12d2ff")))
+     (sha256 (base32 "0c3iffam5ra0wgzz96fddw93yib3v01jscqhk1h7zy7agl863z5s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -107719,14 +107719,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20261001.952")
+   (version "20261002.621")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "769b1a766d59fc482a15be3c69a653ec33764ebf")))
-     (sha256 (base32 "0brv6slgax0jn6n8hl0a010032q90njvbcgmbmv3ajcki3k54x8x"))))
+           (commit "8e70ec07bcf665062535addb17db3b5b86331622")))
+     (sha256 (base32 "0s91ink6vncc670shs9mniapnw6rb322g7dvb5ibxqbvvippd2ll"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
