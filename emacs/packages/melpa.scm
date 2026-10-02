@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261001.1556")
+   (version "20261002.59")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "d3c6708197b70e2d23c1b2b7ef2c37f499d0c087")))
-     (sha256 (base32 "0q2lgya8dc9qqfpw4496y787nvd9xgm30w02fz7bq4jynagy57i2"))))
+           (commit "6c91b1fd3d0eaf6c41aadd23e111e37ff737d6b4")))
+     (sha256 (base32 "0v1i5vhdqx4l6b6bwlxyg2sygzrdphc6f50iqzhxvmp279ri009m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -6123,14 +6123,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20260930.1934")
+   (version "20261002.123")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "c71e002b1d252a5e3d2ba72c3178865adf1e78d0")))
-     (sha256 (base32 "07gnkhpwchp2g81r09flw25gb2i8fdp6w1wa89zd7k8ix4m30hzr"))))
+           (commit "25f0b901a41e389509b55ff69800490648c5b3b2")))
+     (sha256 (base32 "0sak4jhsnwxzkwd0xzvzabrm2f9y23rag33903nd34w8gmb5lywr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -8659,14 +8659,14 @@
 (define-public emacs-bufferfile
   (package
    (name "emacs-bufferfile")
-   (version "20260826.245")
+   (version "20261002.232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/bufferfile.el.git")
-           (commit "52c1af463cdd29f8f36250189a489e8ad6ac30fe")))
-     (sha256 (base32 "0pm73cl4ywz4s32hzc0mf6nal0n5wc8xidamc2lifd60hsxhcn53"))))
+           (commit "853aae7059e485eb2031c7465cf52ca14798343e")))
+     (sha256 (base32 "1wy4disab4kdr71w822lzij07lrpqwvr9hl9pf7xhpsg3nmjbffd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/bufferfile.el")
    (synopsis "Rename/Delete/Copy Files and Associated Buffers")
@@ -12461,14 +12461,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20260929.730")
+   (version "20261002.201")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "1cf619cc08b1cfb9800ce1f0d00bbd40be774c0c")))
-     (sha256 (base32 "05d205syikx88nr9wsx2bvvjd5db8h2q2p3jf2d4cknhi52lfx1g"))))
+           (commit "b4a80a2be46f4f03d1e7de2fbe3f9a1c8330e745")))
+     (sha256 (base32 "0h0fnyxm3sxbdizqbjay11wl34bxwn6h61x5x1lvz7bjhpqvcrxf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -61027,14 +61027,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20260905.531")
+   (version "20261002.228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "d0835388732fcd39e951173ac1f6792cdf346706")))
-     (sha256 (base32 "0n6f3vv8grbl4b61911nb24snrm2a1d3pv8z1qpk5jc3q905wk83"))))
+           (commit "638393e51decca14184b07513156652fa13215e4")))
+     (sha256 (base32 "0yh17fy4h4yi3ir3abmsxx01fq1715yip6h0hi6kp816izl8kax3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -67662,14 +67662,14 @@
 (define-public emacs-mysql
   (package
    (name "emacs-mysql")
-   (version "20260925.938")
+   (version "20261002.145")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/mysql.el.git")
-           (commit "0f8f3c0fff6d9016c9c04ab6094d9354cca82c2c")))
-     (sha256 (base32 "0ahwky7jp9n23ds3ak4bdg42jsv0ildmpynwl7idsg4h65v9kgq7"))))
+           (commit "bf4a57aa88eeca9c4f08aa392bf1d10a9fd04dd5")))
+     (sha256 (base32 "01qkcazm27nva27xfk859lia9r6mmp1hgiyrhm73j685g53rwa13"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/mysql.el")
    (synopsis "Pure Elisp MySQL wire protocol client")
@@ -81486,14 +81486,14 @@
 (define-public emacs-pgsql
   (package
    (name "emacs-pgsql")
-   (version "20260929.716")
+   (version "20261002.154")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/pgsql.el.git")
-           (commit "fb7a22f6dd61ab81be9b992716c27ac590cb5920")))
-     (sha256 (base32 "15n0mdappxxad049589pdb76hhk3lm9iqiqz5k07ahdylq6hkhrk"))))
+           (commit "86fa3054061e4b17eb2faa98bdf4d602d209d912")))
+     (sha256 (base32 "1yqz42zxjcchg1p5gg8bjv32ilz3ckc85jpsrcxf6drhycfpwq1a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/pgsql.el")
    (synopsis "Native PostgreSQL protocol client")
@@ -82106,14 +82106,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20261001.1435")
+   (version "20261002.258")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "e0d204735ebe8e770ebe895f1524cc899973c7a3")))
-     (sha256 (base32 "19z4b7qncm7vdylc6bn1fn6kgm2m5jc1n51d1vzvjida8n4lfvb1"))))
+           (commit "1cec448afe66ba7cadf282037cbad8f4c9403bda")))
+     (sha256 (base32 "0zmkrkjhskrp3d2wmisczqc1miwmx683ar32svc7zawvz0k8wblw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -86936,14 +86936,14 @@
 (define-public emacs-qrencode
   (package
    (name "emacs-qrencode")
-   (version "20260927.2156")
+   (version "20261001.2346")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ruediger/qrencode-el.git")
-           (commit "b197c5d1d9e258ecd431713419ebacffffe492d5")))
-     (sha256 (base32 "1hignzw0m36064x3jbf74yv2j6rda64s13j79k93am3q38x0hhzz"))))
+           (commit "3ba67bdf376c9e1445bcc4710c7c8c4bd3c5c65c")))
+     (sha256 (base32 "0zgc6kfqxxh3lqdrndfzjsdm5mdvv6ld1nlc59vf13njy81fah5z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ruediger/qrencode-el")
    (synopsis "QRCode encoder")
