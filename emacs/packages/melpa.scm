@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261002.59")
+   (version "20261003.201")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "6c91b1fd3d0eaf6c41aadd23e111e37ff737d6b4")))
-     (sha256 (base32 "0v1i5vhdqx4l6b6bwlxyg2sygzrdphc6f50iqzhxvmp279ri009m"))))
+           (commit "1b276055f9fb87b58235515dabb087a213799883")))
+     (sha256 (base32 "10d1fl64lrg16f5xwvbj1wxv27k4k16bcr78idkg763j0gd7n4l1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -61633,14 +61633,14 @@
 (define-public emacs-macher
   (package
    (name "emacs-macher")
-   (version "20260726.1942")
+   (version "20261002.1924")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kmontag/macher.git")
-           (commit "fe3622449d73d5404cd34d3e5cdc3419c624b81e")))
-     (sha256 (base32 "0xj41h78278sz8wsa3ks5dl0aqxaln5nj3y4avs4aswm5w7skkl7"))))
+           (commit "66fac138a09f02edc0750218180db65ec3e25b1f")))
+     (sha256 (base32 "10xiywz455166p1hiycv4qbiraldvzf8ybnny5lwn3vfzsszprc9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (home-page "https://github.com/kmontag/macher")
@@ -61831,14 +61831,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261002.807")
+   (version "20261002.2031")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "8802df2ebcde3d1d90ba2f8a31f64eb95ea0124b")))
-     (sha256 (base32 "1vrdaybq5x2sys485lxvlayjzcak2i0ifbw0zlyvbjf2n1kmpkwx"))))
+           (commit "f5f9afe0fb838f6a5a4349255743a605f8cdb50b")))
+     (sha256 (base32 "1blyxx5wsvqp91i2jim4ccvn1y39an1d3i6why4ilx46msq2c18i"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -78392,14 +78392,14 @@
 (define-public emacs-overleaf
   (package
    (name "emacs-overleaf")
-   (version "20260824.1709")
+   (version "20261002.1849")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vale981/overleaf.el.git")
-           (commit "c9757254a9a27a11a36a889cbe6095d67b78bc65")))
-     (sha256 (base32 "15fv4q36q7mg9iin3b6r759izp9vg7b4vynlx8p2v6l59z9hbkid"))))
+           (commit "42a1fdd33335764f6065ff4828cfa5be25bddd72")))
+     (sha256 (base32 "1pprvgidpxjg8q4f1d0p80xawmk8dfpz30s6d83q6i5q2s0s80xn"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-plz emacs-websocket emacs-webdriver emacs-posframe))
@@ -109590,14 +109590,14 @@
 (define-public emacs-with-editor
   (package
    (name "emacs-with-editor")
-   (version "20260925.1502")
+   (version "20261002.2059")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/with-editor.git")
-           (commit "7bec41144ea197961c76c769cfc0acaf689ebac0")))
-     (sha256 (base32 "0snn7a0d7zfnj02q12g2rq7wh1s8j8bkszgzhxljbhjwc7g2chnp"))))
+           (commit "b9163645d8ae44065cd7fee09a7ee8eb0c372592")))
+     (sha256 (base32 "1p34gvb1d419zl2w29a8v8d6y4pv6nsba205kaxz0lh6ygszjm8j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/with-editor")
