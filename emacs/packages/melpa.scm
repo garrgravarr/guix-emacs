@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261003.201")
+   (version "20261003.1625")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "1b276055f9fb87b58235515dabb087a213799883")))
-     (sha256 (base32 "10d1fl64lrg16f5xwvbj1wxv27k4k16bcr78idkg763j0gd7n4l1"))))
+           (commit "6cb9d9adc9f002a363353303047fab33d920db56")))
+     (sha256 (base32 "097yffs6zi2w9mjwzyfy78apgxqaflsww60ibi5cl4jdrgq296g7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1857,14 +1857,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261001.435")
+   (version "20261003.1427")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "ae17d6215d9e5b441a03e7066a56413aa25da47c")))
-     (sha256 (base32 "0hcy04cycg9wsrr1gcn0a46vnb20w050zwzyjy3832ir85lnyl59"))))
+           (commit "2402d4cb00448fee11674aa8c9ac81312a6a09ec")))
+     (sha256 (base32 "0wy9lm4q096kidlk79pg11rmkcd3183l430sja5i3a9js51ms1ar"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -3766,14 +3766,14 @@
 (define-public emacs-asciidoc-mode
   (package
    (name "emacs-asciidoc-mode")
-   (version "20260612.645")
+   (version "20261003.1543")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/asciidoc-mode.git")
-           (commit "8914fad451f9c7f9c2286cf18db5edaa51a92cd7")))
-     (sha256 (base32 "07mmc2xg0dyrxsas5xqvfa3bmscww240707l5kf0l1k18dbxa06f"))))
+           (commit "6efaf40f8ec378b3a655ead34a7f734e886b7991")))
+     (sha256 (base32 "11q2gf4zgf6q0778r3nfmldzvl2xvbk303z76rvzq09xcminbpkq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/asciidoc-mode")
    (synopsis "Major mode for AsciiDoc markup")
@@ -12461,14 +12461,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261003.1114")
+   (version "20261003.1401")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "53face32dae847f33a6069c5965f5d8a50a82bdd")))
-     (sha256 (base32 "145vwskily30d5033yr9wjwcrnb58rpmvrgdj4dwmwawwbdpvs97"))))
+           (commit "9c21ff355ba14972aa72e4695498a591546659dd")))
+     (sha256 (base32 "0yph4rzb8zmr9yqid4s7may3g0c2hgav4zjyfz68zin0f7iyvf2n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
