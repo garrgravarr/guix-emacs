@@ -2432,14 +2432,14 @@
 (define-public emacs-amber-mode
   (package
    (name "emacs-amber-mode")
-   (version "20260913.1947")
+   (version "20261003.711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/GeorgGD/amber-mode.git")
-           (commit "58e1b6068601951881478568297913fd777095d2")))
-     (sha256 (base32 "1gcvha950w316y2n4gdjqkhbmpqd3vlvr9s5l3c80m1xf7q7d0g2"))))
+           (commit "0848359c32c230194a708d7c572a54cc47e771dd")))
+     (sha256 (base32 "1yn6s0c74gbdv1k8xhyvk5yr150i872mdsifyng9qrdf8i7pzzd4"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/GeorgGD/amber-mode")
    (synopsis "A major mode for the Amber programming language")
@@ -11099,14 +11099,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20261002.1115")
+   (version "20261003.844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "2baf573e06d1f818f45680e9b49aed76e076645b")))
-     (sha256 (base32 "19kzywmsq6nk3gs2b6j2kffch5kz9h1lrirvpvf1bx9li5xng09r"))))
+           (commit "14d4a48c9c5f53d23be505302623fe72738e687b")))
+     (sha256 (base32 "1c8kbhwa22nv3gzcmrachgdzjipib4bvxqh2kqqjwgxywbnrf14v"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -12461,14 +12461,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261002.1557")
+   (version "20261003.1114")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "75f895b51cbe74400f446805a320741d2f35c307")))
-     (sha256 (base32 "08pq4g3a3f8y0s2rix9qfa9mb0h01cn4m2pgm8k8va2mbm3gmjq5"))))
+           (commit "53face32dae847f33a6069c5965f5d8a50a82bdd")))
+     (sha256 (base32 "145vwskily30d5033yr9wjwcrnb58rpmvrgdj4dwmwawwbdpvs97"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -61831,14 +61831,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261002.2031")
+   (version "20261003.936")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "f5f9afe0fb838f6a5a4349255743a605f8cdb50b")))
-     (sha256 (base32 "1blyxx5wsvqp91i2jim4ccvn1y39an1d3i6why4ilx46msq2c18i"))))
+           (commit "3991aa153113c54abe407ac3988e031236625174")))
+     (sha256 (base32 "18csgl8489xmajy5i28bnjwsilrqabzng0fgp2glvq45l4rj8xnf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -65281,14 +65281,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20260924.926")
+   (version "20261003.912")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "baba2dcd18cac75fc9953da20e8c0a9886441319")))
-     (sha256 (base32 "0mhf33xmmp8zrwixxxanl2xmhkfqwm8q3m0w8hkyp22nhqi04x5b"))))
+           (commit "b95846865a067cafef9e894debb54fe38300b53d")))
+     (sha256 (base32 "0wlgangzcb02xzmv451ra9y82rm03al5ja8qpn0qgpp1pj9h23ic"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -82106,14 +82106,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20261002.1417")
+   (version "20261003.1048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "f44dc884ea2b41e600236fc676a23236085bc9de")))
-     (sha256 (base32 "18w83i09jdfnhiw2rpkn05v7a22i9jfvxzp5zy6l6ry4m4p5mq9l"))))
+           (commit "70e880141d214c54bd9dff63dba3022f9129e5bf")))
+     (sha256 (base32 "0azhhiir5f7zb0xiqwlxm4aw4mm4nkg5yzfg2sdnmscsysbmgcyh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -101238,14 +101238,14 @@
 (define-public emacs-test-cockpit
   (package
    (name "emacs-test-cockpit")
-   (version "20260817.1924")
+   (version "20261003.1228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/test-cockpit.el.git")
-           (commit "2187ace87a6bcc04cd61bd5a4f8d76221286682d")))
-     (sha256 (base32 "1vzwzchwm6jg19ylv1yr3l77carszh9rarjvfaggq5wyjs444v7h"))))
+           (commit "33a42ab44c509ee15c723f186781559b51319dca")))
+     (sha256 (base32 "0cx6h8j7ng5q83j04n38a5gc9b88hvf5m9hgzkvq60kfz1ckvys1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projectile emacs-toml))
    (home-page "https://github.com/johannes-mueller/test-cockpit.el")
