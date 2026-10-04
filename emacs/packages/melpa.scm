@@ -1678,7 +1678,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261004.208")
+   (version "20261004.1353")
    (source
     (origin
      (method git-fetch)
@@ -8144,6 +8144,23 @@
    (description "Documentation at https://melpa.org/#/brec-mode")
    (license #f)))
 
+(define-public emacs-brewpage
+  (package
+   (name "emacs-brewpage")
+   (version "20260910.1644")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/kochetkov-ma/brewpage-emacs.git")
+           (commit "cc096fe8cefd39fde35189910467b018eddf6b25")))
+     (sha256 (base32 "1qsxxakxvfsqi0yka2mrz8fjnj7s5gnkvixinfwhmd88avn2v9z8"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/kochetkov-ma/brewpage-emacs")
+   (synopsis "Publish buffers/regions to brewpage.app")
+   (description "Documentation at https://melpa.org/#/brewpage")
+   (license #f)))
+
 (define-public emacs-brf
   (package
    (name "emacs-brf")
@@ -11637,14 +11654,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20261001.1057")
+   (version "20261004.1606")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "a1ae27f6dd6927dacbf64812b3733031cd609f99")))
-     (sha256 (base32 "0ydvdkh0miixppl1ianli6apdhj87srppach4mg7k7h6psbvasn8"))))
+           (commit "cd53806fad981ac91af15408ee42eea099fc3321")))
+     (sha256 (base32 "1qbi6jywdky58m831vryl12g47k05pz5jhcis7mwc9alrz81laqb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -11826,6 +11843,24 @@
    (home-page "https://github.com/xuchunyang/clear-text.el")
    (synopsis "Make you use clear text")
    (description "Documentation at https://melpa.org/#/clear-text")
+   (license #f)))
+
+(define-public emacs-clel
+  (package
+   (name "emacs-clel")
+   (version "20261001.239")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/BuddhiLW/clojure-elisp.git")
+           (commit "a6a65777e2ee432ac9bd273ec9baa849f1d1f2bc")))
+     (sha256 (base32 "1mpmpcmib7mip7d580vw04i7a58p8drz0prf18f6s5jdzv2wy8y2"))))
+   (build-system melpa-build-system)
+   (arguments '(#:files ("resources/clojure-elisp/clel.el")))
+   (home-page "https://github.com/BuddhiLW/clojure-elisp")
+   (synopsis "Runtime library for ClojureElisp")
+   (description "Documentation at https://melpa.org/#/clel")
    (license #f)))
 
 (define-public emacs-clevercss
@@ -12461,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261003.1401")
+   (version "20261004.1303")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "9c21ff355ba14972aa72e4695498a591546659dd")))
-     (sha256 (base32 "0yph4rzb8zmr9yqid4s7may3g0c2hgav4zjyfz68zin0f7iyvf2n"))))
+           (commit "3b256b80dd06dcde25d78f601368a32dbf39c236")))
+     (sha256 (base32 "0fsgrjv42hcjvbj5q7pyyjych32bmph3xr577nm44npmj66h95i2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -63824,14 +63859,14 @@
 (define-public emacs-md-ts-mode
   (package
    (name "emacs-md-ts-mode")
-   (version "20260929.1359")
+   (version "20261004.1506")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/md-ts-mode.git")
-           (commit "b0a39248e614113711e4f197b6c39eb48604de0b")))
-     (sha256 (base32 "0xhix649iwr7g9cxnpwcqgkpfk8xwynpa4ir7s6njzdgwppzs89n"))))
+           (commit "769ef52965c46e9346bf19d04adc6fef9d23b01c")))
+     (sha256 (base32 "0jq05ng4kxii5p2jl8qjqyj77mphnv6p7zy3i7avr6s5b3m68532"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dnouri/md-ts-mode")
    (synopsis "Major mode for Markdown using tree-sitter")
@@ -82106,14 +82141,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261004.1056")
+   (version "20261004.1450")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "6812eddb76e422a2f046a534f62c3ca87b6b7650")))
-     (sha256 (base32 "02rpdl3i3zkhm02lm7nb5dkz36z7mlgiwxq085pqvlghkh3dmhdv"))))
+           (commit "b8ab7fcdb2f7e177133200acbcd9c85b03f1c052")))
+     (sha256 (base32 "0abwa7w332ijx3njl2lwdnj18169jwrlxmlcgkaqkfj7w73fakvw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
