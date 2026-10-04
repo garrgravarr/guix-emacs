@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261003.1625")
+   (version "20261003.1627")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "6cb9d9adc9f002a363353303047fab33d920db56")))
-     (sha256 (base32 "097yffs6zi2w9mjwzyfy78apgxqaflsww60ibi5cl4jdrgq296g7"))))
+           (commit "ae31cf850b3a06178d28e6be72311991ee680ee9")))
+     (sha256 (base32 "0bwilllzraldg2imadjcm3i9mv9vabkkgb6pdr16j3ainzb1sag2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -12840,14 +12840,14 @@
 (define-public emacs-codespaces
   (package
    (name "emacs-codespaces")
-   (version "20260305.2229")
+   (version "20261003.2138")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/f4ban/codespaces.el.git")
-           (commit "33161d6ac6fd3b57df896f8969566f50f37bd3ce")))
-     (sha256 (base32 "1rdb313na34pacn5slvi01ggcv9j2mbhzvra43nvjq30dxxahdh0"))))
+           (commit "7ec1aa6fed6c0a4dc92db94d46773b77d5ad1b97")))
+     (sha256 (base32 "07g7w1a4l9sc52l1xkqgc8b6jdr0g0kcp07nibwa5rip8zm6llkl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/F4ban/codespaces.el")
    (synopsis "Connect to GitHub Codespaces via TRAMP")
@@ -50109,16 +50109,54 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20261001.729")
+   (version "20261004.208")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "16c3mr8klpz32spc7pa4bv6awvv63mnzfpa4imkh9qsp8x0a7g0a"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "98713bbb937cdf0e8ac27791bd0bf33271b819c8")))
+     (sha256 (base32 "0n851srirmdj04mx141hx5xg5p68vknrjdpy5nwrkb8gkn7zlsgq"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.md"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -61831,14 +61869,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261003.936")
+   (version "20261003.2004")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "3991aa153113c54abe407ac3988e031236625174")))
-     (sha256 (base32 "18csgl8489xmajy5i28bnjwsilrqabzng0fgp2glvq45l4rj8xnf"))))
+           (commit "e9ed99c5e3cdd3fab31204f2809ce9d01d672c89")))
+     (sha256 (base32 "0167sbi936ci7wiqgm00vjc8jds0b7d13pbzx958f90pdabfi2gd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -65281,14 +65319,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20261003.912")
+   (version "20261003.1912")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "b95846865a067cafef9e894debb54fe38300b53d")))
-     (sha256 (base32 "0wlgangzcb02xzmv451ra9y82rm03al5ja8qpn0qgpp1pj9h23ic"))))
+           (commit "532c2e91f30b5088e6fc2fe232ceb37d4ed032db")))
+     (sha256 (base32 "0fpaiva0ig832rnym82nh49wag3cbr5l0q8f3i11n4cjqvq4nd30"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -66944,14 +66982,14 @@
 (define-public emacs-mu4e-llm
   (package
    (name "emacs-mu4e-llm")
-   (version "20260121.1539")
+   (version "20261003.1948")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sillyfellow/mu4e-llm.git")
-           (commit "290657310d4041c23d627572d6fb780da8ed02f8")))
-     (sha256 (base32 "1jj6jif4sjqb1rihqf5ckj11n7k40w79cngd81sqbbhrhxbdv0j6"))))
+           (commit "9b87454d984b3f0ef00a95442b4ae7fd1beaefa0")))
+     (sha256 (base32 "0aa3ahqab7g4kj9c5vfax5l2zdd2fhnhnrzg2hls07a5wahd6zrs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm))
    (home-page "https://github.com/sillyfellow/mu4e-llm")
@@ -74859,14 +74897,14 @@
 (define-public emacs-org-lark
   (package
    (name "emacs-org-lark")
-   (version "20260614.319")
+   (version "20261004.154")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbw9n/org-lark.git")
-           (commit "ebbe9ed102be2bf00b698f1280a305d8f3b0d38d")))
-     (sha256 (base32 "1a4njnhr9cih9v4mnrf9fpdqbfv5x3rywrs7pk3nhggl81890j40"))))
+           (commit "3ae8836da75607c4c5f4a6404977e06d78bf8b43")))
+     (sha256 (base32 "1sdpdhp1n2jxa076vfal5akmrr6rs6xir5dk4dx59cc2d8dps327"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbw9n/org-lark")
    (synopsis "Export Lark docs to Org")
@@ -82068,14 +82106,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261002.731")
+   (version "20261003.2111")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "ec016f7173a46de391bb86a167abb75640647588")))
-     (sha256 (base32 "1na4ng7wx59l3ys51bgk5s0w0rkmpd1nrigrzkh0mk3mnp4wzqzl"))))
+           (commit "24d30e6fe87134555ebab99a08402ef3c91e8a18")))
+     (sha256 (base32 "1qj6gn2pjcnivy8pynk9ayyn5nyr2zfgsvm4b12zi9wy4cba5kp7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -97103,14 +97141,14 @@
 (define-public emacs-speechd-el
   (package
    (name "emacs-speechd-el")
-   (version "20250118.1141")
+   (version "20261003.2001")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/brailcom/speechd-el.git")
-           (commit "0e509d392c7f82ca2451a59b97d551382136d2d5")))
-     (sha256 (base32 "0xh8hvpdy1k054pfkl00imf43nvflh2ykzj3z83h8j2i0ngxn80h"))))
+           (commit "ac938ce803680c52599f47ae0fa0b054e58fba15")))
+     (sha256 (base32 "08dapvfbqq9rwb87y8jlpd7pf5xghvp6b41pvijmbv3281hnalip"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults (:exclude "*.texi"))))
    (home-page "https://github.com/brailcom/speechd-el")
@@ -109590,14 +109628,14 @@
 (define-public emacs-with-editor
   (package
    (name "emacs-with-editor")
-   (version "20261002.2059")
+   (version "20261003.1832")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/with-editor.git")
-           (commit "b9163645d8ae44065cd7fee09a7ee8eb0c372592")))
-     (sha256 (base32 "1p34gvb1d419zl2w29a8v8d6y4pv6nsba205kaxz0lh6ygszjm8j"))))
+           (commit "ca956bbfd1c9f163d2a8390716fcd39799d23f34")))
+     (sha256 (base32 "0x8iw14sz58h5vg21vjb2gpnrdcaich3x1ambhx11zq3n20203i2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/with-editor")
