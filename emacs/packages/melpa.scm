@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261004.1353")
+   (version "20261005.1257")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "1cd4f20e0ebbebe72829f163b1447cf432587c17")))
-     (sha256 (base32 "0wlb5kkkp7d80v19ax4x93hyla08r5ijbz91yfhhqjbkbjvn4k9m"))))
+           (commit "c9def6efb656a0688e65a8d54b00a37fb8372648")))
+     (sha256 (base32 "0a8ivg1rq16dnsn3zacgmlkhh8iadihzv4cwkvkww6alz9qv53iz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -4983,14 +4983,14 @@
 (define-public emacs-auto-side-windows
   (package
    (name "emacs-auto-side-windows")
-   (version "20260904.2152")
+   (version "20261005.1041")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MArpogaus/auto-side-windows.git")
-           (commit "12f3dd7f447e390069744c2925d4eeb2edcfbe51")))
-     (sha256 (base32 "10x3hiklpqafgifdh6haycs1ycp43p2jjwsqfrqaly002vnpy41m"))))
+           (commit "fb63e3a279c79dc5bc0953903e15840a6f8cf146")))
+     (sha256 (base32 "0ag5h98419wpvd7s4kfjngpz0nmmyb3q5nb8qivma9fmzpna10sm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/MArpogaus/auto-side-windows")
    (synopsis "Simplified buffer management for side windows")
@@ -12496,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261005.8")
+   (version "20261005.1312")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "434d42dfad5e9d6b6e400d29df50f34d151f2d34")))
-     (sha256 (base32 "0asc8w3nh98gijh4q77g6ga2wcw5ciyca81iy08hjn0v4pk2j28i"))))
+           (commit "d62e585441fcfc983f39c20f1649a922501fa75a")))
+     (sha256 (base32 "0mj6lki7jvzjk7bvv9j18q9swxjp8vfbm4wrjsw01wz762xk3jxh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -21387,14 +21387,14 @@
 (define-public emacs-dired-rsync
   (package
    (name "emacs-dired-rsync")
-   (version "20260716.1319")
+   (version "20261005.758")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/stsquad/dired-rsync.git")
-           (commit "17ed6b91b09d8ffb52089273e8e38b91d2e33d66")))
-     (sha256 (base32 "0cjrd8fa6wl6fb70by9ngfrd225ycqpwxfii3rsnqvmr4mwy0nxk"))))
+           (commit "6d962d4814b040a6fa4302c3dd285ee7b5eb4b43")))
+     (sha256 (base32 "1kcfd2j7jlmiw6vgdbqhl1zv4nv424dqffp1nmpknjwhqc4v7mvr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash))
    (arguments '(#:files ("dired-rsync.el")))
@@ -25170,14 +25170,14 @@
 (define-public emacs-ejc-sql
   (package
    (name "emacs-ejc-sql")
-   (version "20260919.1534")
+   (version "20261005.1229")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/ejc-sql.git")
-           (commit "73ae31671ac58846841ab0da06db748eb6fe9fa3")))
-     (sha256 (base32 "1k8yijmlxz6vgl11sarj4yna7l7ij2pmp5mjhivl5clqspdfr3cj"))))
+           (commit "84759a0e7c5ca6360e04144e18c78044c39ab5bc")))
+     (sha256 (base32 "0py8zky1a5ff723z0dvzfddhd5cgfl7g91r564r4rhi061chpby9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-clomacs emacs-dash emacs-spinner))
    (arguments '(#:files (:defaults "project.clj" "src" "snippets")))
@@ -28290,18 +28290,18 @@
 (define-public emacs-envrc
   (package
    (name "emacs-envrc")
-   (version "20260921.1016")
+   (version "20261005.1129")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/envrc.git")
-           (commit "1ecb82e01745d700578754eb35d6c1758290b869")))
-     (sha256 (base32 "13k4prjwhx2s54710zbmvd214w1rcpqw9j63ca16hw75d53bw2kp"))))
+           (commit "ab2853255e376719778ff94d8b718a37cf3e719a")))
+     (sha256 (base32 "0y70siwankhi6ny2m364h3gdjfsw1vlk4b4lg5glxsxhqnk5z1xk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://github.com/purcell/envrc")
-   (synopsis "Support for `direnv' that operates buffer-locally")
+   (synopsis "Buffer-local `direnv' support with choice of sync/async")
    (description "Documentation at https://melpa.org/#/envrc")
    (license #f)))
 
@@ -38274,14 +38274,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20261004.1652")
+   (version "20261005.753")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "1252b1ddac687595e590ad2fe7a75ab67a725701")))
-     (sha256 (base32 "09sjb3qmj4wlwlqlgcl0lwr1nwabcs3isz0qbif0qrsv093ikgpd"))))
+           (commit "206756d30af543e660e660bb66569a2afeb7fd0a")))
+     (sha256 (base32 "1g3ky0k7vxws2lzmr86d2snfq0d9sc0nszmwrcivb1isv1mzcjwg"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -61941,14 +61941,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261003.2004")
+   (version "20261005.508")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "e9ed99c5e3cdd3fab31204f2809ce9d01d672c89")))
-     (sha256 (base32 "0167sbi936ci7wiqgm00vjc8jds0b7d13pbzx958f90pdabfi2gd"))))
+           (commit "bd9bce524cce1557db37c4e2260b0a7874c1075c")))
+     (sha256 (base32 "01p1hfpp2crcf4l3c07sxz4vy3qihxibni221fs6g7c3anpikbq3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63860,14 +63860,14 @@
 (define-public emacs-mcp-server-lib
   (package
    (name "emacs-mcp-server-lib")
-   (version "20261002.1428")
+   (version "20261005.1212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/mcp-server-lib.el.git")
-           (commit "d9d052552bb99f6d70bc1f4dbd0e3ab84bbd6555")))
-     (sha256 (base32 "1s15y4hk9rp77jyaydb2kxi2237wfkqnb5lzgkk34khaax6sgrz9"))))
+           (commit "e93ef3a2c0b9d4e965321608f2b1c19ea655bb52")))
+     (sha256 (base32 "0j2h147z8lrlz9cf5642qmv6vyq4zx1sxz55g7qd4yfjjs9zcgmk"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "emacs-mcp-stdio.sh")))
    (home-page "https://github.com/laurynas-biveinis/mcp-server-lib.el")
@@ -65932,14 +65932,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20260921.912")
+   (version "20261005.1000")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "4fcc8d00540a81936a213d608a69c4c85df8f970")))
-     (sha256 (base32 "07ra0vl36hjsr30wapzjxxya5ckg46lb09gmdwqq2cy778kdkp6k"))))
+           (commit "aedb41742ff326fa4884136300155ca21a0bd628")))
+     (sha256 (base32 "0jwv9k98wj6pdyid9k52w1xsc0mliay455gg7d8fzzjijrdhpjvq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -92374,14 +92374,14 @@
 (define-public emacs-sculpture-themes
   (package
    (name "emacs-sculpture-themes")
-   (version "20260926.1716")
+   (version "20261005.1416")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/precompute/sculpture-themes.git")
-           (commit "7f7fd917c21ff49477b904431e1e5a55a72283f7")))
-     (sha256 (base32 "104jwnpa85b2xm083gcfp7p4wq8m9qxb0g7wfq5ciigk6pn5z4my"))))
+           (commit "3eb0cf4cfaca9a7768cb7b8472b0021311b8c2d4")))
+     (sha256 (base32 "17m043djjmhpslly60cpfic9nq96k653zpnr3nvqdqsrxmm06117"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/precompute/sculpture-theme")
    (synopsis "Themes with vivid colors")
@@ -92728,14 +92728,14 @@
 (define-public emacs-sema-mode
   (package
    (name "emacs-sema-mode")
-   (version "20260804.925")
+   (version "20261005.1028")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/sema-lisp/emacs-sema.git")
-           (commit "308b0075837a63fc49c2787e3255a5afa317831f")))
-     (sha256 (base32 "0bq8w2nr7x8j066jksnvzpxmkq3p0jylnvj7pd51fscpwa1rs4bk"))))
+           (commit "6ecdc887be79960671b1014f9d6eed2caab35b88")))
+     (sha256 (base32 "19dc5qarn2hymgf3qyx2d3s2lr6xq7l9xpmvhmjs7pn7v6w6x60g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/sema-lisp/emacs-sema")
    (synopsis "Major mode for editing Sema files")
@@ -104101,7 +104101,7 @@
 (define-public emacs-triode
   (package
    (name "emacs-triode")
-   (version "20261004.1820")
+   (version "20261005.339")
    (source
     (origin
      (method git-fetch)
@@ -107883,14 +107883,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20261004.1832")
+   (version "20261005.1151")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "ae761bb847b645522a9b234fdd90ae95c554ae32")))
-     (sha256 (base32 "0jh0gj1wb5hlm1x0bkhnfq8vchc9sdsh8aa6j6bzh9scwrjma2xn"))))
+           (commit "47512ef849731b406598a39823c235a43fda8e12")))
+     (sha256 (base32 "003xc3572w38z1cxkhvwdl61bjklkf6958hyak4ksg92322xsdxx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
