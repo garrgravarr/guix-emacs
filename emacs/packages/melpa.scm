@@ -1857,14 +1857,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261003.1427")
+   (version "20261005.345")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "2402d4cb00448fee11674aa8c9ac81312a6a09ec")))
-     (sha256 (base32 "0wy9lm4q096kidlk79pg11rmkcd3183l430sja5i3a9js51ms1ar"))))
+           (commit "c06ddf9b39b42d8d514103191dc075571d6fb2fb")))
+     (sha256 (base32 "0hghnsh4r7krinxzalr8q60z07pf7a3v9yk39gyfbbs49lvm08zb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -9635,14 +9635,14 @@
 (define-public emacs-card-games
   (package
    (name "emacs-card-games")
-   (version "20260816.1451")
+   (version "20261004.1909")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://code.bru.st/corwin/card-game.el.git")
-           (commit "1a5d23d39eb3d7dfcdeabc8e99c2673fd4937434")))
-     (sha256 (base32 "1hyl53xm4xrq9ny2labgydvpbvn6aj6nmxxpf44pcagbmn2pghz9"))))
+           (commit "e78fe3838101d343fa1aff5c0bec7d4bc490eacf")))
+     (sha256 (base32 "0pjq3brb8b83jrj8jncxnc04s5199222ykkjrg3xyqfxy8c31gsl"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults (:exclude "build.el" "card-games-pkg.el"))))
    (home-page "https://code.bru.st/corwin/card-game.el")
@@ -12496,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261004.1303")
+   (version "20261005.8")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "3b256b80dd06dcde25d78f601368a32dbf39c236")))
-     (sha256 (base32 "0fsgrjv42hcjvbj5q7pyyjych32bmph3xr577nm44npmj66h95i2"))))
+           (commit "434d42dfad5e9d6b6e400d29df50f34d151f2d34")))
+     (sha256 (base32 "0asc8w3nh98gijh4q77g6ga2wcw5ciyca81iy08hjn0v4pk2j28i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -13557,14 +13557,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20261002.1605")
+   (version "20261005.348")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "0c6388bb3b7766a88b11e51a628895aa6253d684")))
-     (sha256 (base32 "1kkfdzbz3n66c3876haasn7z6idg3rhmjq1022ndyrkvwa65g0wp"))))
+           (commit "276b5b44a467d072904cefa28779b89fb469319a")))
+     (sha256 (base32 "0fcp6f07fs8877iv52qjda32z7nxy2xqa2k7x8gg27q4yqfd3057"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -38274,14 +38274,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20261004.847")
+   (version "20261004.1652")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "be7dad4c2d9f8e0349679a5b3d3ae2d7a8625f40")))
-     (sha256 (base32 "1lkypdi3f4cscqp7k902db0ahllmv9k5y7cllgxx02xj9781z7fg"))))
+           (commit "1252b1ddac687595e590ad2fe7a75ab67a725701")))
+     (sha256 (base32 "09sjb3qmj4wlwlqlgcl0lwr1nwabcs3isz0qbif0qrsv093ikgpd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -43185,6 +43185,24 @@
    (home-page "https://github.com/dolmens/gptel-aibo")
    (synopsis "An AI Writing Assistant")
    (description "Documentation at https://melpa.org/#/gptel-aibo")
+   (license #f)))
+
+(define-public emacs-gptel-annotate
+  (package
+   (name "emacs-gptel-annotate")
+   (version "20260928.121")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/karthink/gptel-annotate.git")
+           (commit "ec65d175b7a1b83fa6f256f5454b2e5f082b4841")))
+     (sha256 (base32 "1k7x6v1y7fzz8ad5z36qyy6njyw65gzwa7i5hvqcv7r4f36avdfn"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-compat emacs-gptel))
+   (home-page "https://github.com/karthink/gptel-annotate")
+   (synopsis "Annotate files or buffers with LLMs")
+   (description "Documentation at https://melpa.org/#/gptel-annotate")
    (license #f)))
 
 (define-public emacs-gptel-commit
@@ -54563,14 +54581,14 @@
 (define-public emacs-jira
   (package
    (name "emacs-jira")
-   (version "20260315.1613")
+   (version "20261004.1907")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/unmonoqueteclea/jira.el.git")
-           (commit "1b1a43600ca138f3f8e56481bea6f629a4d877ec")))
-     (sha256 (base32 "0qghm4a013ir1rhd3ifcr6h4rjidz83x5xlfjn5gjlhs2y205gqy"))))
+           (commit "ea01072d1492e0d0d5832ede596655c8bcc9e4ed")))
+     (sha256 (base32 "1s3y7v18inqxf0pj8mcbq4a2igwl5xyrgi2rpla1jwjs34p2c4fz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request emacs-tablist emacs-magit-section))
    (home-page "https://github.com/unmonoqueteclea/jira.el")
@@ -58063,6 +58081,25 @@
    (home-page "https://github.com/alberti42/latex-to-svg-backend")
    (synopsis "LaTeX-to-SVG rendering backend with caching")
    (description "Documentation at https://melpa.org/#/latex-to-svg-backend")
+   (license #f)))
+
+(define-public emacs-latex-to-svg-for-latex
+  (package
+   (name "emacs-latex-to-svg-for-latex")
+   (version "20260928.1811")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/alberti42/latex-to-svg.git")
+           (commit "22967fc0fe922695215a2bad4d216967cbf948a9")))
+     (sha256 (base32 "1pvx048p24iv2x2qrzflgjgy78057m7g1qcgkd96ipbnw9j0m5b5"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-latex-to-svg-frontend))
+   (arguments '(#:files ("latex-to-svg-for-latex.el")))
+   (home-page "https://github.com/alberti42/latex-to-svg")
+   (synopsis "Preview LaTeX math as SVG in LaTeX buffers")
+   (description "Documentation at https://melpa.org/#/latex-to-svg-for-latex")
    (license #f)))
 
 (define-public emacs-latex-to-svg-for-markdown
@@ -68405,6 +68442,23 @@
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
    (description "Documentation at https://melpa.org/#/neocaml")
+   (license #f)))
+
+(define-public emacs-neofetch
+  (package
+   (name "emacs-neofetch")
+   (version "20260916.2218")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://codeberg.org/benja2998/neofetch.el.git")
+           (commit "6467d0cd74cfc2bd330679412562a768fe3e4af3")))
+     (sha256 (base32 "0x7h7d2rrx9f9qfacv3r2766i3g40nr7cl0w29w4vj4vnha3s6dd"))))
+   (build-system melpa-build-system)
+   (home-page "https://codeberg.org/benja2998/neofetch.el")
+   (synopsis "Pretty system information tool for the Eshell")
+   (description "Documentation at https://melpa.org/#/neofetch")
    (license #f)))
 
 (define-public emacs-neon-mode
@@ -86314,6 +86368,24 @@
    (description "Documentation at https://melpa.org/#/pyenv-mode")
    (license #f)))
 
+(define-public emacs-pyfun-mode
+  (package
+   (name "emacs-pyfun-mode")
+   (version "20260925.1114")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/simontreanor/Pyfun.git")
+           (commit "59be391dba03987406f2abe61401b631a9fcb4fa")))
+     (sha256 (base32 "1vc64kakj9xcr2wyrqd1l535igy87z0s8qzjnvpwvahg37c32lm6"))))
+   (build-system melpa-build-system)
+   (arguments '(#:files ("editors/emacs/pyfun-mode.el")))
+   (home-page "https://github.com/simontreanor/Pyfun")
+   (synopsis "Major mode for the Pyfun language")
+   (description "Documentation at https://melpa.org/#/pyfun-mode")
+   (license #f)))
+
 (define-public emacs-pygen
   (package
    (name "emacs-pygen")
@@ -89894,14 +89966,14 @@
 (define-public emacs-rg
   (package
    (name "emacs-rg")
-   (version "20260823.1828")
+   (version "20261004.2129")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dajva/rg.el.git")
-           (commit "6b00e2ae98c47cf7ea04d26636e11b7fa2a540e3")))
-     (sha256 (base32 "04956rihrr4m916lay576rhyw03lzhwzg1yi432pkdq6vb5973gs"))))
+           (commit "7d4839686031754ff86e4ad3ab76da108777edb3")))
+     (sha256 (base32 "1y1wwwf3mygc5pwqyl4ynsfc0q6jmz4mbzjvcwjxzrvrhzdvyil4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-wgrep))
    (home-page "https://github.com/dajva/rg.el")
@@ -101311,14 +101383,14 @@
 (define-public emacs-test-cockpit
   (package
    (name "emacs-test-cockpit")
-   (version "20261003.1228")
+   (version "20261004.2105")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/test-cockpit.el.git")
-           (commit "33a42ab44c509ee15c723f186781559b51319dca")))
-     (sha256 (base32 "0cx6h8j7ng5q83j04n38a5gc9b88hvf5m9hgzkvq60kfz1ckvys1"))))
+           (commit "a3f7e876cbd719cf393ed7d1ea527caaf57b6a60")))
+     (sha256 (base32 "16rgwlcqd5iysvyq025iakp69z4wnj050x60l9gq4frhibzm9iqg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projectile emacs-toml))
    (home-page "https://github.com/johannes-mueller/test-cockpit.el")
@@ -104024,6 +104096,25 @@
    (home-page "https://github.com/emacs-elsa/trinary-logic")
    (synopsis "Trinary logic")
    (description "Documentation at https://melpa.org/#/trinary")
+   (license #f)))
+
+(define-public emacs-triode
+  (package
+   (name "emacs-triode")
+   (version "20261004.1820")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/kickingvegas/triode.git")
+           (commit "1c8af892bd8ba477fccd281271a9bbaee9f606ec")))
+     (sha256 (base32 "1n1q4fv78z2iphh65px04anqxvn39fd13v3qmf0yvfzr421fbvar"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-restlib emacs-shazam))
+   (arguments '(#:files (:defaults "docs/images")))
+   (home-page "https://github.com/kickingvegas/triode")
+   (synopsis "Interface to Triode app, macOS internet radio")
+   (description "Documentation at https://melpa.org/#/triode")
    (license #f)))
 
 (define-public emacs-tron-legacy-theme
@@ -107792,14 +107883,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20261004.1042")
+   (version "20261004.1832")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "5907f46de3b1c07e3008370000060c87c42c5c86")))
-     (sha256 (base32 "1irn69lsqvj3s9zv7wb1g7iswck19r22260qfgc5p1n6438xkp66"))))
+           (commit "ae761bb847b645522a9b234fdd90ae95c554ae32")))
+     (sha256 (base32 "0jh0gj1wb5hlm1x0bkhnfq8vchc9sdsh8aa6j6bzh9scwrjma2xn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
