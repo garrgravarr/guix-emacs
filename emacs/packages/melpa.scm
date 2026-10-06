@@ -1065,17 +1065,17 @@
 (define-public emacs-ace-jump-mode
   (package
    (name "emacs-ace-jump-mode")
-   (version "20140616.815")
+   (version "20261005.2010")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/winterTTr/ace-jump-mode.git")
-           (commit "8351e2df4fbbeb2a4003f2fb39f46d33803f3dac")))
-     (sha256 (base32 "17axrgd99glnl6ma4ls3k01ysdqmiqr581wnrbsn3s4gp53mm2x6"))))
+           (commit "da6c660ee82d43aede926ad3b3eabc192a58dd2c")))
+     (sha256 (base32 "16i4rnk8dkfxblm5i8n93jh1ksr4nq7025ylb5l4wh4yk43dhb4a"))))
    (build-system melpa-build-system)
-   (home-page "https://github.com/winterTTr/ace-jump-mode/")
-   (synopsis "A quick cursor location minor mode for emacs")
+   (home-page "https://github.com/winterTTr/ace-jump-mode")
+   (synopsis "A quick cursor location minor mode")
    (description "Documentation at https://melpa.org/#/ace-jump-mode")
    (license #f)))
 
@@ -9635,14 +9635,14 @@
 (define-public emacs-card-games
   (package
    (name "emacs-card-games")
-   (version "20261004.1909")
+   (version "20261006.45")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://code.bru.st/corwin/card-game.el.git")
-           (commit "e78fe3838101d343fa1aff5c0bec7d4bc490eacf")))
-     (sha256 (base32 "0pjq3brb8b83jrj8jncxnc04s5199222ykkjrg3xyqfxy8c31gsl"))))
+           (commit "ee02437e3dfef0adda19430a2890398acddebcce")))
+     (sha256 (base32 "02rpzpq6vzaq592afg5sia1y0aymngd7g0kbprb2lv42rmirj5in"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults (:exclude "build.el" "card-games-pkg.el"))))
    (home-page "https://code.bru.st/corwin/card-game.el")
@@ -21387,7 +21387,7 @@
 (define-public emacs-dired-rsync
   (package
    (name "emacs-dired-rsync")
-   (version "20261005.758")
+   (version "20261005.1453")
    (source
     (origin
      (method git-fetch)
@@ -33125,14 +33125,14 @@
 (define-public emacs-fedi
   (package
    (name "emacs-fedi")
-   (version "20260509.801")
+   (version "20261005.2040")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fedi.el.git")
-           (commit "91f28ee199a499b8d6e1b9c7a0f1c15f8a382198")))
-     (sha256 (base32 "0xlsh4a42mymi4jrb32ak4srbm28hq67jwijnpbyfzfkchjsqimj"))))
+           (commit "c79f66c8196723fc135053b4a8eec085fcc613ca")))
+     (sha256 (base32 "0dmr3jqj36j3mxzyb741nf1qqccri4fmkmnqn31n6p72s9x3l3lz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-markdown-mode))
    (home-page "https://codeberg.org/martianh/fedi.el")
@@ -44172,14 +44172,14 @@
 (define-public emacs-guard
   (package
    (name "emacs-guard")
-   (version "20260906.1107")
+   (version "20261005.1630")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Dspil/guard.el.git")
-           (commit "3d7b3c34c629071c4fe72855b4f26f60d4c4593f")))
-     (sha256 (base32 "1r2w0dybm43j7jiims2yymh1i5w4hrxhv8p9admfrb45c6jawya2"))))
+           (commit "80cea13d380f3dae169b0f099a47a00b4f5d0693")))
+     (sha256 (base32 "01sjqhz94s5lk193d0snivbn0v8i5v57s31wq6s3zg8i7pp6qqxn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Dspil/guard.el")
    (synopsis "Custom modular init framework")
@@ -45255,14 +45255,14 @@
 (define-public emacs-helix
   (package
    (name "emacs-helix")
-   (version "20260911.1659")
+   (version "20261005.1637")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mgmarlow/helix-mode.git")
-           (commit "2a4b4b8bcdab33ae168e5084c8ee76348ef5358a")))
-     (sha256 (base32 "0rff0ga1rd9nzjx7za2zi39n03p0sggyjrs9pbdfal01bzrajv0a"))))
+           (commit "a258ba88cf55e22fa67ff9c50538dd71dd0d4683")))
+     (sha256 (base32 "14h2dm3598vgrpqniyixk9swmackyf3b06092jqfz0kqjb45fwfn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mgmarlow/helix-mode")
    (synopsis "A minor mode emulating Helix keybindings")
@@ -50162,54 +50162,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20261004.208")
+   (version "20261005.1629")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "98713bbb937cdf0e8ac27791bd0bf33271b819c8")))
-     (sha256 (base32 "0n851srirmdj04mx141hx5xg5p68vknrjdpy5nwrkb8gkn7zlsgq"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "04d46iq5hbvk37z8lzkydpn2abv9va7a158rcskdm1dazz1hzsjn"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -61093,14 +61055,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20260929.1012")
+   (version "20261005.2240")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "686261e09503144e25cce35784bcd4a130b2cabb")))
-     (sha256 (base32 "1f2riwgjlzr7vwhlvqz52k6x6xxj0bc8qpgaq33yn1cv52cpc2ix"))))
+           (commit "f03d4a38124750426646789e96f7771f83ef6744")))
+     (sha256 (base32 "1153ahk7vj3pn58q3pxhhq6kxl13yzqrn0qqp850zny4ld4h5qvd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
    (synopsis "Grammar and spell checking for LaTeX, Markdown, Org and more")
@@ -69062,14 +69024,14 @@
 (define-public emacs-nimbus-theme
   (package
    (name "emacs-nimbus-theme")
-   (version "20260906.2223")
+   (version "20261005.1426")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/nimbus-theme.git")
-           (commit "a790b0fded9db3fb6c1df43515389602222affa2")))
-     (sha256 (base32 "1s8ckbps5j0aqn6cqwc9zx8n1s4anxa6m5afqjp88c63832i85j8"))))
+           (commit "01ae94eff6ae78f784ca6e1231408ee0df8216e8")))
+     (sha256 (base32 "0h52aka5gmx3ckrx9jxbjxgms1f60lx03fvwq97p8cm3n4vgk0x7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/nimbus-theme")
    (synopsis "Nimbus dark theme")
@@ -101850,14 +101812,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20260928.608")
+   (version "20261005.943")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "ab5913e25dca9dbecc64afe98b03cbe9478faec8")))
-     (sha256 (base32 "0arbrssbnnlcy3zcwj61za86vl2qrlpkjmyr3z1i5jccyhk2wsz1"))))
+           (commit "ff5e6b69dd6fdc3f5a706019b3d3e77e270765f9")))
+     (sha256 (base32 "0b41fhc5v6b8lirzpnx19rrvdzdp8frcvlxiadgl55s51xnlqn6h"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -105479,14 +105441,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20260921.624")
+   (version "20261005.1513")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "f0126fc99c4d107f3fcb14e68cada6571c38390e")))
-     (sha256 (base32 "1b27iz2nkjiqk56iv7kvxavgqmg99rq1ywrl6ndp8dg7fgzxk8vn"))))
+           (commit "3b63e3bfc348037c3d244cd235370e93105e0fd0")))
+     (sha256 (base32 "1f0yr83k6f84zylv1s7jzcmljlf22zz7mwnjw2zm8yv52m0rvwpz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
