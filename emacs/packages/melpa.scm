@@ -12496,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261006.1319")
+   (version "20261006.1556")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "03a78275f9c227bd165543cb09003579eab62299")))
-     (sha256 (base32 "090p9vkm3i6gm90hafzlm9737kk87jdglnw2bl94j820jw6nxcrg"))))
+           (commit "ab2965725d00bdffcd4d4600a8c060ac2f8d2250")))
+     (sha256 (base32 "0vh3din07z5zdp1l7gmwmnj2ryn5dqp9sn037x5zgkixsi28jwgf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -25170,14 +25170,14 @@
 (define-public emacs-ejc-sql
   (package
    (name "emacs-ejc-sql")
-   (version "20261005.1229")
+   (version "20261006.1704")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/ejc-sql.git")
-           (commit "84759a0e7c5ca6360e04144e18c78044c39ab5bc")))
-     (sha256 (base32 "0py8zky1a5ff723z0dvzfddhd5cgfl7g91r564r4rhi061chpby9"))))
+           (commit "db21d60790e67f4bc41582d15188bc72b41ed048")))
+     (sha256 (base32 "1a3lmrm97gyfbhzk2qv05nh6mwawlcqc529zafpcsiimvg0y0qrg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-clomacs emacs-dash emacs-spinner))
    (arguments '(#:files (:defaults "project.clj" "src" "snippets")))
@@ -61055,14 +61055,14 @@
 (define-public emacs-lsp-ltex-plus
   (package
    (name "emacs-lsp-ltex-plus")
-   (version "20261005.2240")
+   (version "20261006.1727")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ltex-plus/emacs-ltex-plus.git")
-           (commit "f03d4a38124750426646789e96f7771f83ef6744")))
-     (sha256 (base32 "1153ahk7vj3pn58q3pxhhq6kxl13yzqrn0qqp850zny4ld4h5qvd"))))
+           (commit "343c8fe114b325cd865aca989b3160b3c72261de")))
+     (sha256 (base32 "1i3i7dyfr6z3kjwfffayvvph2lwhfxn8h88gn6ybppd9h9186mbj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ltex-plus/emacs-ltex-plus")
    (synopsis "Grammar and spell checking for LaTeX, Markdown, Org and more")
@@ -61866,14 +61866,14 @@
 (define-public emacs-magic-latex-buffer
   (package
    (name "emacs-magic-latex-buffer")
-   (version "20260908.843")
+   (version "20261006.1650")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zk-phi/magic-latex-buffer.git")
-           (commit "31eb152b61b33a4017dd254a560be67e4b5ddd3c")))
-     (sha256 (base32 "13h06nva61d1pr3inw1dm7z1ys7162f9ydagc92jd3cv4qpq2c1z"))))
+           (commit "e80a2b98e714a975ace23790f4278f1fbdd7c258")))
+     (sha256 (base32 "02i2vl3x5zaccc0c9nmlnlg6bhx3g67g2czc0yiry0n4fkp5dy73"))))
    (build-system melpa-build-system)
    (home-page "http://zk-phi.github.io/")
    (synopsis
@@ -77612,14 +77612,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20261001.1416")
+   (version "20261006.1756")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "858fbb67da99835836f6128b6438deaee9636499")))
-     (sha256 (base32 "15151q9r73lbwijmm3nikh8sch2459yb29sxk11j2mf3ic97y0jp"))))
+           (commit "e0a1feeed58ce7d3eb26f96bb4d048b732c14fcc")))
+     (sha256 (base32 "15nvgrisamhd9i6jngvdf26cwxj9vz3ma7gyi2k7lnp24jwpiqr0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
