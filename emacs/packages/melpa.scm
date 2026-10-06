@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261005.1257")
+   (version "20261006.1254")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "c9def6efb656a0688e65a8d54b00a37fb8372648")))
-     (sha256 (base32 "0a8ivg1rq16dnsn3zacgmlkhh8iadihzv4cwkvkww6alz9qv53iz"))))
+           (commit "f44c96b2ab577065d5f5409629b4df588af88433")))
+     (sha256 (base32 "0xj6hs4y2pzana8145fqfk3scwhx6dix0jyp52x9dvyy56nfxw6w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -12496,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261005.1312")
+   (version "20261006.1319")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "d62e585441fcfc983f39c20f1649a922501fa75a")))
-     (sha256 (base32 "0mj6lki7jvzjk7bvv9j18q9swxjp8vfbm4wrjsw01wz762xk3jxh"))))
+           (commit "03a78275f9c227bd165543cb09003579eab62299")))
+     (sha256 (base32 "090p9vkm3i6gm90hafzlm9737kk87jdglnw2bl94j820jw6nxcrg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -38274,14 +38274,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20261005.753")
+   (version "20261006.1249")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "206756d30af543e660e660bb66569a2afeb7fd0a")))
-     (sha256 (base32 "1g3ky0k7vxws2lzmr86d2snfq0d9sc0nszmwrcivb1isv1mzcjwg"))))
+           (commit "4233cbba4f566988d78cdb9c5f85af8a171f518d")))
+     (sha256 (base32 "1hwlhsh62r0dhlmphaxbvzq4fb3mg4bx3g1rmgd012b8bm8na62m"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -95263,14 +95263,14 @@
 (define-public emacs-sly
   (package
    (name "emacs-sly")
-   (version "20260402.2249")
+   (version "20261006.745")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/joaotavora/sly.git")
-           (commit "3ffa216d0818972f7a7fea38a566a6b570349f3b")))
-     (sha256 (base32 "04djdv6vr7g31nsna0icpaw8x1s3cvfb8mrmk0wgpdfa48vf8jsl"))))
+           (commit "191fe38eaa83e4e7556a940aa4b234666215cced")))
+     (sha256 (base32 "00p4ddqrnm0r62zyijvsiy0rrb31a1gi7vygn7p11d5h537sdh1x"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -98580,14 +98580,14 @@
 (define-public emacs-stripspace
   (package
    (name "emacs-stripspace")
-   (version "20260826.244")
+   (version "20261006.1349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/stripspace.el.git")
-           (commit "2286cab28317283f1aa54a59cd4bbfcad106c50b")))
-     (sha256 (base32 "0zyfpbvl4n4ws7jssqlrmh4nblp7nnpxwab4vhbg6p8zxv9d6az3"))))
+           (commit "3c720ff4b674bb4b489f993f8e0681d1ffbbab8c")))
+     (sha256 (base32 "1hls9wm6n9p92bhsbd52nca2jycy0yx2fj22hv8sdacclpd1i0xv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/stripspace.el")
    (synopsis "Auto remove trailing whitespace and restore column")
@@ -101624,14 +101624,14 @@
 (define-public emacs-the-matrix-theme
   (package
    (name "emacs-the-matrix-theme")
-   (version "20260615.1213")
+   (version "20261006.1134")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/monkeyjunglejuice/matrix-emacs-theme.git")
-           (commit "fe0b8776191744359767ecc4113dda1ade4a5adb")))
-     (sha256 (base32 "0yyd4z2acz48h3d6j6d7kbb4kacqhy5b47vrbsw4xnvmzyjfsiik"))))
+           (commit "5dae3ee8210c320d99cb0da8e2a4292a20c94f24")))
+     (sha256 (base32 "1ncq886ws8hbincarqnf5001fmvzkszymw87vh4cz2zmx353vqil"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/monkeyjunglejuice/matrix-emacs-theme")
    (synopsis "Green-on-black dark theme inspired by \"The Matrix\" movie")
