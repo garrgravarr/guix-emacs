@@ -12496,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261006.1556")
+   (version "20261007.133")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "ab2965725d00bdffcd4d4600a8c060ac2f8d2250")))
-     (sha256 (base32 "0vh3din07z5zdp1l7gmwmnj2ryn5dqp9sn037x5zgkixsi28jwgf"))))
+           (commit "dce218673fc517068b8793ccd5d40ee13674b2b9")))
+     (sha256 (base32 "1byirrw20gjv9yv3q9s276zrx7n7wvca39jsqbypzr5zfr9cmi96"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -33908,14 +33908,14 @@
 (define-public emacs-fj
   (package
    (name "emacs-fj")
-   (version "20260921.1150")
+   (version "20261006.1914")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fj.el.git")
-           (commit "73ea6263be5c0959e94688ca24a89265b4a172ad")))
-     (sha256 (base32 "1809n4gh0vwplz23xnr09wkwwl1j7fqwm9xid6b6002knqphc3p0"))))
+           (commit "e3e2b461102b050aead991a065d513c6109c25da")))
+     (sha256 (base32 "0z4xjw8v97qjv2d6d9mwnp965rlk7xn1ig3qqgar0a6z5kxyw6p9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-fedi emacs-tp emacs-magit))
    (home-page "https://codeberg.org/martianh/fj.el")
@@ -44189,14 +44189,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20260925.2142")
+   (version "20261006.2204")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "c3faccde138eb5d9b35d1c68676199b22070decb")))
-     (sha256 (base32 "1p1cq9llbjx2w9cabfpkscwi1wkj5af88k0ipwmyj4qlpnamw1y6"))))
+           (commit "3a572193bcf78f226126ca83efac8f8b82e9e612")))
+     (sha256 (base32 "1bn7icqi3ii4wzs2yhwi3wccw5gxp4z9cg4fcgsycqnm0gvwqclq"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -81416,14 +81416,14 @@
 (define-public emacs-perspective
   (package
    (name "emacs-perspective")
-   (version "20260717.1853")
+   (version "20261006.2017")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nex3/perspective-el.git")
-           (commit "62e6f6de03423d0cede0ea0f821e6fcd3e195c83")))
-     (sha256 (base32 "0y9119jsnhv424ipx5idjigdmz1jq69abifs0jhf94yp3clg5y3m"))))
+           (commit "37437b339abfc23a37aa5803a09563ccdfab1f9a")))
+     (sha256 (base32 "068iygyf62jzhc4ghmms2i1mqvi817885gkgbkh49lqlp72b2mlm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/nex3/perspective-el")
    (synopsis "Switch between named \"perspectives\" of the editor")
@@ -102025,14 +102025,14 @@
 (define-public emacs-time-uuid-mode
   (package
    (name "emacs-time-uuid-mode")
-   (version "20260923.1347")
+   (version "20261006.2040")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/RobertPlant/time-uuid-mode.git")
-           (commit "54f7fc6093163b88042fa7dbaa33f32a35709290")))
-     (sha256 (base32 "0d50cslsj0kjm295rd6wy5sf266kq8n2x7clm55zj2rp6yd46dfd"))))
+           (commit "bf29490fc85d5c88e88fe4af65199f9f5cdc8b01")))
+     (sha256 (base32 "02rpjhahrifv43hgsy8n34ipky95l5fdn0diyrdy9yzjpqqrlypl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/RobertPlant/time-uuid-mode")
    (synopsis "Minor mode for previewing time uuids as an overlay")
