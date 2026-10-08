@@ -1452,14 +1452,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20261007.1718")
+   (version "20261008.1429")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "e11f4bc21f786c34abe3e369f74b0fb3715bf7cf")))
-     (sha256 (base32 "0pd30l0iv2rp7zrdyzhxb0zn9kshc2p1rqs7p4dvxyb0cx7fz66k"))))
+           (commit "e4a5333de9d87e4d128153d94f7b74fd6173a204")))
+     (sha256 (base32 "15wv2h9cjf7b4dhw9bfh026nayr1lp7r2mfaph991r21mb73812n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -12496,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261007.935")
+   (version "20261008.1231")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "c2bc7e16f33e396845ebe0f0c0cb3962c3696c7c")))
-     (sha256 (base32 "0ddsscvcsfpjpv4j5li6s5jd4ysggjrk1kn4nxssfx2qrawhs37p"))))
+           (commit "185828f57fbb9256f0e77d3d2105f3743db1da2f")))
+     (sha256 (base32 "1axkbvdzlixsi2nbl4lji2kv88acppvwidwz7brjzk4854f74gzc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -14988,14 +14988,14 @@
 (define-public emacs-compiler-explorer
   (package
    (name "emacs-compiler-explorer")
-   (version "20260908.2247")
+   (version "20261008.1016")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mkcms/compiler-explorer.el.git")
-           (commit "7e4195a5ef2604f8f97392e62029e9e79c36d3bf")))
-     (sha256 (base32 "1yh9mahwv8b6vam4h4wkhx6xj1zrfm80rxinnxman9zrfr2x8gnk"))))
+           (commit "3d85bb87d7b1ac3f942a5eaea82d6a0ab8853dcc")))
+     (sha256 (base32 "0qwyxknzr8rfqman5zxndvh1x6jabld4s32zzj23z5d634p76v35"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz))
    (home-page "https://github.com/mkcms/compiler-explorer.el")
@@ -32707,14 +32707,14 @@
 (define-public emacs-faff-theme
   (package
    (name "emacs-faff-theme")
-   (version "20260803.1446")
+   (version "20261008.1435")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/WJCFerguson/emacs-faff-theme.git")
-           (commit "374759dc41af124480d1ea383d8118f9010f58d2")))
-     (sha256 (base32 "1q17pvr0rr2zfcljjgy6jbk3j50fi1l8ky69qrbbrfjf517r15ll"))))
+           (commit "165b8f4b9e22e51bc2ec3888120e9b0a9c4483e9")))
+     (sha256 (base32 "02s60lm1rs8gk299n59nh5vjpg08c9nz0bwaxw5zzpx19ksidshh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/WJCFerguson/emacs-faff-theme")
    (synopsis "Light cornsilk theme with warm, earthy colors")
@@ -43153,7 +43153,7 @@
 (define-public emacs-gptel-agent-harness
   (package
    (name "emacs-gptel-agent-harness")
-   (version "20261008.215")
+   (version "20261008.304")
    (source
     (origin
      (method git-fetch)
@@ -58849,14 +58849,14 @@
 (define-public emacs-leuven-theme
   (package
    (name "emacs-leuven-theme")
-   (version "20260926.839")
+   (version "20261008.912")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fniessen/emacs-leuven-theme.git")
-           (commit "bc61caaf7ad0c7afa053f7056ce835ea9231fe27")))
-     (sha256 (base32 "1p8agkambw65f392q00vyq2aq0b1w32v6igz9v8xsmvdksdmhanj"))))
+           (commit "5cedf3c02dd33386c74ef3de3fb37ac0ddee85be")))
+     (sha256 (base32 "1xqc6kwynaw0ndfvj32bxbgvxlll9z039gh6v0jmffr0abnnh0vd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/fniessen/emacs-leuven-theme")
    (synopsis "Elegant Emacs color theme for a white background")
@@ -67772,14 +67772,14 @@
 (define-public emacs-mysql
   (package
    (name "emacs-mysql")
-   (version "20261007.929")
+   (version "20261008.412")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/mysql.el.git")
-           (commit "be8d9c9598dcd03906858d64ea4d3aebee252058")))
-     (sha256 (base32 "1lqhdkq1nfjr4sgv4f2v2ry0syh9jgdbcy158gynk58acbdylmim"))))
+           (commit "ede699b3143c7a49e3ee0703598f06655c3b8e7c")))
+     (sha256 (base32 "14snp9jwgnbnd1lhxg7gn9hx6zw4r3683ps73jz2csk90hd2bly3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/mysql.el")
    (synopsis "Pure Elisp MySQL wire protocol client")
@@ -75039,17 +75039,17 @@
 (define-public emacs-org-link-beautify
   (package
    (name "emacs-org-link-beautify")
-   (version "20260924.1945")
+   (version "20261008.1032")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://repo.or.cz/org-link-beautify.git")
-           (commit "f1d5f10e07365785f60332aff3c4ddc191ab48a6")))
-     (sha256 (base32 "18vs60cvyqq1bxksavp9iwavk1pz36j8p1s5pzjb1923jwwdw4hv"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/org-link-beautify-"
+           version
+           ".tar"))
+     (sha256 (base32 "16x6j9pbng23qlph53ka275bja9z5h8mb7s1rsbsxc8h1vvb1ci0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-qrencode))
-   (arguments '(#:files (:defaults "scripts")))
    (home-page "https://repo.or.cz/org-link-beautify.git")
    (synopsis "Beautify Org Links")
    (description "Documentation at https://melpa.org/#/org-link-beautify")
@@ -82233,14 +82233,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20261004.1038")
+   (version "20261008.304")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "5e94d80b30cecb597759b37656992989516727e4")))
-     (sha256 (base32 "0mjmsiwp3rg7fb190lxv8icw8xijhpnlmj68bzc49kd15jm6p2bn"))))
+           (commit "a0c6530a1e52f33da37c0fff83dc588d86c6cf2a")))
+     (sha256 (base32 "16v9wa09l1vp027mpdsziq5mc6jc7l2zm597c0n685qy3mxcifys"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -83922,14 +83922,14 @@
 (define-public emacs-posframe
   (package
    (name "emacs-posframe")
-   (version "20260930.2214")
+   (version "20261008.904")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tumashu/posframe.git")
-           (commit "4b69cc261f5a1675b8f0f54e2634b1451cbc8c32")))
-     (sha256 (base32 "0y94vfyz0vf3wch7jz348d9c2hajkld62lqni1xh36l0kfjmvdzx"))))
+           (commit "45450ee132d060d297550b7c43f3d72ba77df3c7")))
+     (sha256 (base32 "1xqn5fk90cnpxx4hf3y482g1rj1h9p8k3n7pjnca6j51b13l67fy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tumashu/posframe")
    (synopsis "Pop a posframe (just a frame) at point")
@@ -107883,14 +107883,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20261005.1151")
+   (version "20261008.945")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "47512ef849731b406598a39823c235a43fda8e12")))
-     (sha256 (base32 "003xc3572w38z1cxkhvwdl61bjklkf6958hyak4ksg92322xsdxx"))))
+           (commit "d9be36367be3d91fa964756c6425309a034cc3b2")))
+     (sha256 (base32 "1ff2zybjxmn50qg3f3icpm765k04cd8kq6fkswrnncnajzx5r6mc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
