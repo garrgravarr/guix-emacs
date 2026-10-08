@@ -6123,14 +6123,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20261002.1510")
+   (version "20261008.23")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "0774f603066d4331348e031cb330ab98f55f31d9")))
-     (sha256 (base32 "1mjs25ng2k68f2bj6brdczv7vic5kl9627yxzkmn7kdnq1vdwccl"))))
+           (commit "5986655b5785e3fff3770af0fada2173a96d4030")))
+     (sha256 (base32 "0hscq408v8npy3nksdqzzmq6mrpmcqhcdzvr1gb1qygl5zv8g6fs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -8929,14 +8929,14 @@
 (define-public emacs-buttercup
   (package
    (name "emacs-buttercup")
-   (version "20260512.2141")
+   (version "20261007.2210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jorgenschaefer/emacs-buttercup.git")
-           (commit "39c8e762408a166a5afa03b8e79dd8d1a0de5caa")))
-     (sha256 (base32 "1k5x12mn8xp4wyalxwjc86zl96ai3f62ia06mfavkkzm7s90smlg"))))
+           (commit "3bcf6cf0e164d558072a484f467169a0e77bd791")))
+     (sha256 (base32 "0bffsszxibv00bxk807n9zk23qjnrzi3jzk1l207ls0njn4bwh67"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "bin")))
    (home-page "https://github.com/jorgenschaefer/emacs-buttercup")
@@ -11654,14 +11654,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20261004.1606")
+   (version "20261007.1819")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "cd53806fad981ac91af15408ee42eea099fc3321")))
-     (sha256 (base32 "1qbi6jywdky58m831vryl12g47k05pz5jhcis7mwc9alrz81laqb"))))
+           (commit "1a589d20f787c985e149ba368fc519b1a746e4a2")))
+     (sha256 (base32 "004wpqvfvmyynnhyfqd6v4afcsnlqkjmrxf4pvvrlkwysx0pglql"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -14334,14 +14334,14 @@
 (define-public emacs-company-phpactor
   (package
    (name "emacs-company-phpactor")
-   (version "20240407.1015")
+   (version "20261007.2046")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/phpactor.el.git")
-           (commit "a4371b525afd5cd74c24461c50a489a1f459bd38")))
-     (sha256 (base32 "11iz49m0hgrinp3x5sgjl6b43h0s280v577p9rh4jng5bjxp6nnp"))))
+           (commit "00c74783c152bb568d4bda76ce8438c03fdf97fa")))
+     (sha256 (base32 "1vf4a41fjc4pfilgcrw7xmhlrd4rwmsyxaypjww87qck3bqmpw24"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-company emacs-phpactor))
    (arguments '(#:files ("company-phpactor.el")))
@@ -20078,14 +20078,14 @@
 (define-public emacs-devcontainer
   (package
    (name "emacs-devcontainer")
-   (version "20261004.739")
+   (version "20261007.1807")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/devcontainer.el.git")
-           (commit "1a8cc6aaac43663ca19f783f2846e35f9bd066c3")))
-     (sha256 (base32 "0i53rdikqyjvpr9bzka9rmlc8yswwxp1kyx4qnzyzhi15q50h9gh"))))
+           (commit "fb6e7c93c2365272c087875e5d1eecb975a6bce2")))
+     (sha256 (base32 "14rpiam9vzw7ax76gfkn40qypgmgx0y6kcpkh685j6zlsybm3r4j"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/johannes-mueller/devcontainer.el")
    (synopsis "Support for devcontainer")
@@ -21031,14 +21031,14 @@
 (define-public emacs-dired-gitignore
   (package
    (name "emacs-dired-gitignore")
-   (version "20230909.1408")
+   (version "20261007.1743")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/dired-gitignore.el.git")
-           (commit "ba69ea8bd11507cb29054a4eed2d7afdd6db0747")))
-     (sha256 (base32 "1ds4zvnmxj1b3i0ccmxxr0wzqijxja9d4jyzrrmdqx43rkdyb643"))))
+           (commit "0c26270f74232645512674a48cf51fa3660c1f8f")))
+     (sha256 (base32 "0a30ab948y1wh97f8wwxlcjswxqfs0k04sargcv2wgp4pghkfifp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/johannes-mueller/dired-gitignore.el")
    (synopsis "A minor mode to hide gitignored files in a dired buffer")
@@ -21387,14 +21387,14 @@
 (define-public emacs-dired-rsync
   (package
    (name "emacs-dired-rsync")
-   (version "20261005.1453")
+   (version "20261007.1900")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/stsquad/dired-rsync.git")
-           (commit "6d962d4814b040a6fa4302c3dd285ee7b5eb4b43")))
-     (sha256 (base32 "1kcfd2j7jlmiw6vgdbqhl1zv4nv424dqffp1nmpknjwhqc4v7mvr"))))
+           (commit "52833b7f1ee288f23df129cbeae9759bac83f42c")))
+     (sha256 (base32 "13x83385s429kb08di9pwmmr17flsfabnn72cvsx67sq34fvn05f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash))
    (arguments '(#:files ("dired-rsync.el")))
@@ -43153,14 +43153,14 @@
 (define-public emacs-gptel-agent-harness
   (package
    (name "emacs-gptel-agent-harness")
-   (version "20260910.1400")
+   (version "20261008.215")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/gptel-agent-harness.git")
-           (commit "6abadc72125262cf65a455f30e5d3adf7ad63967")))
-     (sha256 (base32 "0hlya7cmnw1d9z1ww2glgcm73464isxgbrkk4mfx117cq1cwc1l6"))))
+           (commit "958afdad7f469eb58f697457b256acb7a77179d1")))
+     (sha256 (base32 "0hlc405q7kqmbkrbjp66rq7057sgmcc42rxnb51p40h030n1cb4f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-gptel emacs-gptel-agent))
    (arguments '(#:files (:defaults "agents" "prompts")))
@@ -44189,14 +44189,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261006.2204")
+   (version "20261007.2120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "3a572193bcf78f226126ca83efac8f8b82e9e612")))
-     (sha256 (base32 "1bn7icqi3ii4wzs2yhwi3wccw5gxp4z9cg4fcgsycqnm0gvwqclq"))))
+           (commit "34f6b01f3ad80f7173688ea6f3d50e9e7221035e")))
+     (sha256 (base32 "14qgk60giss4zicpfhxqjblf6mia7ak21r9l79v535sa166av267"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -61137,14 +61137,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20261002.228")
+   (version "20261007.2144")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "638393e51decca14184b07513156652fa13215e4")))
-     (sha256 (base32 "0yh17fy4h4yi3ir3abmsxx01fq1715yip6h0hi6kp816izl8kax3"))))
+           (commit "bfc712f6e6272b08080c2c897686666b62375b34")))
+     (sha256 (base32 "1yv8w7dy221chy0bk01rfqwvav9nvm79ikd33xdmh7573i5af2cw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -61941,14 +61941,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261005.508")
+   (version "20261007.1811")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "bd9bce524cce1557db37c4e2260b0a7874c1075c")))
-     (sha256 (base32 "01p1hfpp2crcf4l3c07sxz4vy3qihxibni221fs6g7c3anpikbq3"))))
+           (commit "49504a982b7d8948da297e1ab515bece4008273d")))
+     (sha256 (base32 "11ljn0zqpf4xkjilmjshpsbqyphbbbn6bf06h9w6s1s1zyv4hxxd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63182,14 +63182,14 @@
 (define-public emacs-markdown-mode
   (package
    (name "emacs-markdown-mode")
-   (version "20260827.909")
+   (version "20261008.23")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jrblevin/markdown-mode.git")
-           (commit "76cb4ffecfdf95ee769e5cb4608e04202c3c1521")))
-     (sha256 (base32 "0bbywipmx9gcym497ivcqz71mnmvj9902anrbp81qcnvfcjqdsyk"))))
+           (commit "aa79129f3de38d40daeb7cd6333c785e585b5d25")))
+     (sha256 (base32 "0h5gkxz58679inm4nnik07fxj2sda47mscphbxfb3ccr50k4s6p9"))))
    (build-system melpa-build-system)
    (home-page "https://jblevins.org/projects/markdown-mode/")
    (synopsis "Major mode for Markdown-formatted text")
@@ -65304,14 +65304,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20260814.654")
+   (version "20261007.1956")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "2614e70f5e3f52a621c8ea12bacb24ebd6a69e13")))
-     (sha256 (base32 "0lb9cvf9cfmsx60dg1cyqh0yrp5a22fjhsv46xxqh6mj6p5wr51l"))))
+           (commit "df21253d0f20b8be6da4a2494329998852fba369")))
+     (sha256 (base32 "1qlwzwypsx66fnc68nk25dfq04mqvvx218s76r46zax0ijg96p9c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -68499,14 +68499,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20260823.17")
+   (version "20261008.247")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "17faac7977242b470732efd417d3bcc8eb5a830e")))
-     (sha256 (base32 "1m9wnnysr66alnz3z4qcvpl7n99qmnr1zwzz8ga2x3iv28qpiq1s"))))
+           (commit "63e76023274e9d4806f3d84f8f3b69b7b63bbfb9")))
+     (sha256 (base32 "0mz5bl45b50s7xzkmcfxzpc01hadxn002if6zq5hf1ksxkmdmrnv"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -81999,14 +81999,14 @@
 (define-public emacs-phpactor
   (package
    (name "emacs-phpactor")
-   (version "20251226.855")
+   (version "20261007.2046")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/phpactor.el.git")
-           (commit "a4371b525afd5cd74c24461c50a489a1f459bd38")))
-     (sha256 (base32 "11iz49m0hgrinp3x5sgjl6b43h0s280v577p9rh4jng5bjxp6nnp"))))
+           (commit "00c74783c152bb568d4bda76ce8438c03fdf97fa")))
+     (sha256 (base32 "1vf4a41fjc4pfilgcrw7xmhlrd4rwmsyxaypjww87qck3bqmpw24"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-php-runtime emacs-composer emacs-async))
    (arguments '(#:files ("phpactor.el" "composer.json" "composer.lock")))
