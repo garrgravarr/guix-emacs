@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261007.1302")
+   (version "20261009.141")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "9a52907d7c6c00e06e570d2d37a50c1a0174fa47")))
-     (sha256 (base32 "0s43p9f8l684c5x8kccridml9c5b9fwd0m5llsrafhjb2x4nn9zl"))))
+           (commit "d9493d8921a6ade0c3a4c561db092803f0595e83")))
+     (sha256 (base32 "0hxqcy293rvf2xwslg00fajndssdhvkxx2ma0scrk8w0fgchrd39"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -11848,14 +11848,14 @@
 (define-public emacs-clel
   (package
    (name "emacs-clel")
-   (version "20261001.239")
+   (version "20261008.2339")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/BuddhiLW/clojure-elisp.git")
-           (commit "a6a65777e2ee432ac9bd273ec9baa849f1d1f2bc")))
-     (sha256 (base32 "1mpmpcmib7mip7d580vw04i7a58p8drz0prf18f6s5jdzv2wy8y2"))))
+           (commit "f0494ba0f39b4d21579b45d94fe607f526dff88e")))
+     (sha256 (base32 "0m0jlh9y7g81y21ylh305v4dv4y80kg5y1lkjrq00mymy96901q8"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("resources/clojure-elisp/clel.el")))
    (home-page "https://github.com/BuddhiLW/clojure-elisp")
@@ -12496,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261008.1539")
+   (version "20261008.2357")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "b5c4323a46c99a63c9e5c42e99f53a6b84ba9a9f")))
-     (sha256 (base32 "0ic99k7g2j8g3j291sqijy4jg0vih41yh51acscfdkrkifsxdiwf"))))
+           (commit "9be1b3303f54aee47bdea366750f883720f932e2")))
+     (sha256 (base32 "1szsjgavpqrr84jz91ixj0mdg854qvasg2dpzqy66y0l8vyw4qhd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -13156,14 +13156,14 @@
 (define-public emacs-color-theme-sanityinc-tomorrow
   (package
    (name "emacs-color-theme-sanityinc-tomorrow")
-   (version "20260826.1451")
+   (version "20261008.2124")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/color-theme-sanityinc-tomorrow.git")
-           (commit "e3a94c399c0c490aa3be7b05c28952c520b65786")))
-     (sha256 (base32 "1w5y739wynsrv7if8y3rh41xr7asir24issz5012r4xwvcmamafn"))))
+           (commit "3b7af324a7391fba53d07bef4495e9e4e8cbcece")))
+     (sha256 (base32 "1b3drm8s145m7h4rgwiawv9mfjj4lzzq94gj5bw69q3zfxsd8cz0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/purcell/color-theme-sanityinc-tomorrow")
    (synopsis "A version of Chris Kempson's \"tomorrow\" themes")
@@ -44189,14 +44189,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261007.2120")
+   (version "20261008.1835")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "34f6b01f3ad80f7173688ea6f3d50e9e7221035e")))
-     (sha256 (base32 "14qgk60giss4zicpfhxqjblf6mia7ak21r9l79v535sa166av267"))))
+           (commit "1d7e210a383f4764734da072713dfd583101c2fd")))
+     (sha256 (base32 "1rnckzz7vsna0fix6xk046ml57qvidy64xcqdkqh9vzbvlb3xl3g"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -50162,14 +50162,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20261007.834")
+   (version "20261008.2016")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "6e1d7ba31e9d23d885e37406dc7a2f3eefe37aaa")))
-     (sha256 (base32 "0fclvdrnfpqjmqyxnjdiglh3hyxvqiawcim86ncslqlk0v8nfgil"))))
+           (commit "98aed932e8f0dce9678c13892c46821229ef7315")))
+     (sha256 (base32 "076qc3ai3ypbi530106gr67q7x7d40bhs7qmpsh55bvnjnkfk6n5"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -58086,7 +58086,7 @@
 (define-public emacs-latex-to-svg-for-latex
   (package
    (name "emacs-latex-to-svg-for-latex")
-   (version "20261008.1604")
+   (version "20261008.2114")
    (source
     (origin
      (method git-fetch)
@@ -58105,7 +58105,7 @@
 (define-public emacs-latex-to-svg-for-markdown
   (package
    (name "emacs-latex-to-svg-for-markdown")
-   (version "20261008.1604")
+   (version "20261008.2114")
    (source
     (origin
      (method git-fetch)
@@ -58125,7 +58125,7 @@
 (define-public emacs-latex-to-svg-for-org
   (package
    (name "emacs-latex-to-svg-for-org")
-   (version "20261008.1604")
+   (version "20261008.2114")
    (source
     (origin
      (method git-fetch)
@@ -58144,7 +58144,7 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261008.1604")
+   (version "20261008.2114")
    (source
     (origin
      (method git-fetch)
@@ -63182,14 +63182,14 @@
 (define-public emacs-markdown-mode
   (package
    (name "emacs-markdown-mode")
-   (version "20261008.23")
+   (version "20261009.18")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jrblevin/markdown-mode.git")
-           (commit "aa79129f3de38d40daeb7cd6333c785e585b5d25")))
-     (sha256 (base32 "0h5gkxz58679inm4nnik07fxj2sda47mscphbxfb3ccr50k4s6p9"))))
+           (commit "1d22840d588be29aa57eca36f28a32bede331550")))
+     (sha256 (base32 "0hvdlgin20ff5kknhz2566na9v5n50yv9nzh0mf6gp8x5ardx6ij"))))
    (build-system melpa-build-system)
    (home-page "https://jblevins.org/projects/markdown-mode/")
    (synopsis "Major mode for Markdown-formatted text")
@@ -77650,14 +77650,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20261006.1756")
+   (version "20261008.2331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "e0a1feeed58ce7d3eb26f96bb4d048b732c14fcc")))
-     (sha256 (base32 "15nvgrisamhd9i6jngvdf26cwxj9vz3ma7gyi2k7lnp24jwpiqr0"))))
+           (commit "da793dca2d36f46bf83508a3468e31466d91f02f")))
+     (sha256 (base32 "0zpzzwalqpnvrzjb8jv6dis6nbwz03xfhhakfsy3ra99zzhppkn2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -97880,14 +97880,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20260930.2042")
+   (version "20261008.2148")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "289960e5a20a3ecc82bde1d1e85d250255e2da63")))
-     (sha256 (base32 "0lafrlc5ssf4scm2l6vk2hxikkmfpp2n1bmvv1kk3bj0vyvzjl1b"))))
+           (commit "46aa6fdaa75e7ddc2b0a519aaa561b1fe54d4f0a")))
+     (sha256 (base32 "1ldamcbcl840ir5rgfzm2j6m2hv3yak2wl2nsb8lpzphxqawphls"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -100722,14 +100722,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20261004.846")
+   (version "20261008.2239")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "94cea3cc4444b0df575b108ea346ac7d8cd90c74")))
-     (sha256 (base32 "0g2w2s3b47kqqwkysqqnmpnhw09ak82dbgwmry36n908abg7i5yd"))))
+           (commit "20a2f0762743a1dc6effd767b9caaec7e4dff69c")))
+     (sha256 (base32 "1jnkwv25rzl445ssrk289vi0qnb3wf76gwwsgrkb3zix98q01l8v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
