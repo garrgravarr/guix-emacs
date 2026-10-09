@@ -1065,14 +1065,14 @@
 (define-public emacs-ace-jump-mode
   (package
    (name "emacs-ace-jump-mode")
-   (version "20261005.2010")
+   (version "20261009.1328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/winterTTr/ace-jump-mode.git")
-           (commit "da6c660ee82d43aede926ad3b3eabc192a58dd2c")))
-     (sha256 (base32 "16i4rnk8dkfxblm5i8n93jh1ksr4nq7025ylb5l4wh4yk43dhb4a"))))
+           (commit "be9afca392e6c3a069c8bd7fb2b1250f9957c760")))
+     (sha256 (base32 "1bi6v0qgn7z46fvn0m8ycd18pbrjcvlzdqq3k4gmxqkx6hsbbpxh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/winterTTr/ace-jump-mode")
    (synopsis "A quick cursor location minor mode")
@@ -1678,7 +1678,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261009.1224")
+   (version "20261009.1244")
    (source
     (origin
      (method git-fetch)
@@ -11116,7 +11116,7 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20261009.638")
+   (version "20261009.1341")
    (source
     (origin
      (method git-fetch)
@@ -22594,14 +22594,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20260928.1632")
+   (version "20261009.1639")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "802bb927e1b05b657e6ddceb6d9867dc9b421bc9")))
-     (sha256 (base32 "0mafmjc16shg8zjbnx794rnd713kqd0gsm26rq21zyl9mf8ivv9l"))))
+           (commit "c46dba3358010ecc025774fbae0db9695299cbf2")))
+     (sha256 (base32 "0v5ba0a6lvyhnwm83sw0jbpzgnfvj1a7zx9dbg41x37blzz8hbrv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -44189,14 +44189,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261008.1835")
+   (version "20261009.1527")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "1d7e210a383f4764734da072713dfd583101c2fd")))
-     (sha256 (base32 "1rnckzz7vsna0fix6xk046ml57qvidy64xcqdkqh9vzbvlb3xl3g"))))
+           (commit "7dd25f3051d442a2856b98e40b07e256fd2b9f18")))
+     (sha256 (base32 "0r53ckz7qp51vq0bv4m4vxzs81ckhlmg2m5czx3m24qdg2qsk65l"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -58069,7 +58069,7 @@
 (define-public emacs-latex-to-svg-backend
   (package
    (name "emacs-latex-to-svg-backend")
-   (version "20261009.646")
+   (version "20261009.1344")
    (source
     (origin
      (method git-fetch)
@@ -58086,14 +58086,14 @@
 (define-public emacs-latex-to-svg-for-latex
   (package
    (name "emacs-latex-to-svg-for-latex")
-   (version "20261008.2114")
+   (version "20261009.1347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "38af3f5c05fb4afa555d6a22d3ecb45d251dd3ae")))
-     (sha256 (base32 "0cv20wj67173im35aqdjjlxabffd29ybmzcr7s9mmk90n10jakp7"))))
+           (commit "61329e6b95810acaf85da8343276f667d8122bb7")))
+     (sha256 (base32 "03h5sfbdpq2f32c9kvp590k43gv55z5ir44ays1r2vf5zpwkqg9p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-latex.el")))
@@ -58105,14 +58105,14 @@
 (define-public emacs-latex-to-svg-for-markdown
   (package
    (name "emacs-latex-to-svg-for-markdown")
-   (version "20261008.2114")
+   (version "20261009.1347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "38af3f5c05fb4afa555d6a22d3ecb45d251dd3ae")))
-     (sha256 (base32 "0cv20wj67173im35aqdjjlxabffd29ybmzcr7s9mmk90n10jakp7"))))
+           (commit "61329e6b95810acaf85da8343276f667d8122bb7")))
+     (sha256 (base32 "03h5sfbdpq2f32c9kvp590k43gv55z5ir44ays1r2vf5zpwkqg9p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-markdown.el")))
@@ -58125,14 +58125,14 @@
 (define-public emacs-latex-to-svg-for-org
   (package
    (name "emacs-latex-to-svg-for-org")
-   (version "20261008.2114")
+   (version "20261009.1347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "38af3f5c05fb4afa555d6a22d3ecb45d251dd3ae")))
-     (sha256 (base32 "0cv20wj67173im35aqdjjlxabffd29ybmzcr7s9mmk90n10jakp7"))))
+           (commit "61329e6b95810acaf85da8343276f667d8122bb7")))
+     (sha256 (base32 "03h5sfbdpq2f32c9kvp590k43gv55z5ir44ays1r2vf5zpwkqg9p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-org.el")))
@@ -58144,14 +58144,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261008.2114")
+   (version "20261009.1347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "38af3f5c05fb4afa555d6a22d3ecb45d251dd3ae")))
-     (sha256 (base32 "0cv20wj67173im35aqdjjlxabffd29ybmzcr7s9mmk90n10jakp7"))))
+           (commit "61329e6b95810acaf85da8343276f667d8122bb7")))
+     (sha256 (base32 "03h5sfbdpq2f32c9kvp590k43gv55z5ir44ays1r2vf5zpwkqg9p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -61137,14 +61137,14 @@
 (define-public emacs-lsp-mode
   (package
    (name "emacs-lsp-mode")
-   (version "20261007.2144")
+   (version "20261009.1332")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-lsp/lsp-mode.git")
-           (commit "bfc712f6e6272b08080c2c897686666b62375b34")))
-     (sha256 (base32 "1yv8w7dy221chy0bk01rfqwvav9nvm79ikd33xdmh7573i5af2cw"))))
+           (commit "a6c47c7867955fea450f833ba4f38b93411d7ea5")))
+     (sha256 (base32 "15w77b92clq5f15kjmbazcpx0zb2mci7n06ri7c68giaqm57hxng"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
