@@ -1243,14 +1243,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20261009.1205")
+   (version "20261010.330")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "62e33d8ca6ab6d7c458b6fb89a847d5ab49ee427")))
-     (sha256 (base32 "1djjnnxp7j7l88vr6l9zdbqlifir5ivgw0a7vadwf26f8jv7ik4y"))))
+           (commit "5b3abb2956d16f39ed76bc53fe31d3c2ee7fecfd")))
+     (sha256 (base32 "0y0wmf053pq493dnnz1gkri9zn2wj53ak6m84fnvi5y0zl0d86xx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -1452,14 +1452,14 @@
 (define-public emacs-adoc-mode
   (package
    (name "emacs-adoc-mode")
-   (version "20261009.637")
+   (version "20261010.652")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/adoc-mode.git")
-           (commit "4f70ef9b4f15d38d8a8e6f81ec030c57d4ebc3d3")))
-     (sha256 (base32 "06sa02qb74sxi22q4i5mkbcz6ay3954bg4xwz8l174jz6ka3i5fx"))))
+           (commit "0a09281d337a2512858c096225b60d9e7a0e7911")))
+     (sha256 (base32 "1l4mxmfp51sjhzrziigyz0fl69vw29n0w1j5kjc1rradb4v80rs1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/adoc-mode")
    (synopsis "A major-mode for editing AsciiDoc files")
@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261010.3")
+   (version "20261010.331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "99b9922285f5c5c5b38e5e4a0016cb9ef3c16ef7")))
-     (sha256 (base32 "0bdafj70pnpini6mfrndhazzqq141siqaz2f339pagmwkf00q42f"))))
+           (commit "cba82e8a8af1aafb07cc3ff6e511f5e8d9acc7c9")))
+     (sha256 (base32 "0xagr3qsjizbrcp37lljq9q4rzj31m053gybgpkgczxmr4ffxdya"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -12373,14 +12373,14 @@
 (define-public emacs-clojure-ts-mode
   (package
    (name "emacs-clojure-ts-mode")
-   (version "20260823.431")
+   (version "20261010.550")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clojure-ts-mode.git")
-           (commit "2bce67a68c270157d940ac9374ab393804c7e00d")))
-     (sha256 (base32 "0xsf3gvaz97p7dig2y6vnyji5ighkngbzs7sgplk7l4qr7vff8n1"))))
+           (commit "36bd7088145419086d24ec8367b63dbafecb2f14")))
+     (sha256 (base32 "0vh7b6phws4b2fcbs5qhkscglp5pgmcvzwn9a6ykxl815l6p6p1g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/clojure-emacs/clojure-ts-mode")
    (synopsis "Major mode for Clojure code")
@@ -12496,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261009.1156")
+   (version "20261010.1336")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "4e21242833efb5e4360595be3e2b32fbec0c4192")))
-     (sha256 (base32 "0l5qxrihcgih45zmqd0qga2p92xswxv06i66ylj9sv81vrg5czvx"))))
+           (commit "5285554ae3e39cdd6ed8a81973d0af0a872c9d06")))
+     (sha256 (base32 "0ydqnf4cqww4780gjzn7q809h41za6x5kdqmpgdwwsf8n7fa8yd0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -16160,14 +16160,14 @@
 (define-public emacs-copilot
   (package
    (name "emacs-copilot")
-   (version "20261009.726")
+   (version "20261010.649")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/copilot-emacs/copilot.el.git")
-           (commit "57d3c921d87d68568732b2e72810173d0aad652d")))
-     (sha256 (base32 "0x4hx7r54a913ymx5c16cp9ys31zlvdgv7h91z438cv8cydcq52f"))))
+           (commit "56c043ae5078c4f8e13538c45f2a4227c9c1eb00")))
+     (sha256 (base32 "1k4skrjgy2h55lm077f3iibj0mss9649bn7x7xqwxxbd6f2jm524"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-editorconfig emacs-compat emacs-track-changes))
@@ -26031,14 +26031,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20260929.831")
+   (version "20261010.1010")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "f69b4da9b89be04e3b5bd0fecac77a48d914e64c")))
-     (sha256 (base32 "10yb59x25svj0i5nqj7f822zrkc9m3n3vkwf094zpkg6swjkaysg"))))
+           (commit "4c962a423c9f3eef9472555fccecf268f9d380fe")))
+     (sha256 (base32 "0m0725gnrbw333p3xzklm73h2x2f3n8xdjsk2jq20q884am9j4vq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -58144,14 +58144,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261009.1753")
+   (version "20261010.953")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "61329e6b95810acaf85da8343276f667d8122bb7")))
-     (sha256 (base32 "03h5sfbdpq2f32c9kvp590k43gv55z5ir44ays1r2vf5zpwkqg9p"))))
+           (commit "0db30bbbdd549a2e712c2f1b5af38bac0a8cbd11")))
+     (sha256 (base32 "0x91h3dd7y3mpl6dn6p9a4wq9k4w2hmqjjzvifby18dkhzsacjb0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -77440,16 +77440,15 @@
 (define-public emacs-org-window-habit
   (package
    (name "emacs-org-window-habit")
-   (version "20260903.1658")
+   (version "20261010.255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/colonelpanic8/org-window-habit.git")
-           (commit "a4ee6158ecafc89a934dd00f3b86dd1154e99d3e")))
-     (sha256 (base32 "0ygvhbq6rcd91k6wwi6xq979hdadq39n5hbrbbinq6299qm4sk2s"))))
+           (commit "6f3cb7b6fbeee67168a14e190fb403a18f100552")))
+     (sha256 (base32 "0wk987swqhv961cxlkpal8r2abzz52lamn4hsq7giqfsv7d2x8hc"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/colonelpanic8/org-window-habit")
    (synopsis "Time window based habits")
    (description "Documentation at https://melpa.org/#/org-window-habit")
@@ -81613,14 +81612,14 @@
 (define-public emacs-pgsql
   (package
    (name "emacs-pgsql")
-   (version "20261002.154")
+   (version "20261010.606")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/pgsql.el.git")
-           (commit "86fa3054061e4b17eb2faa98bdf4d602d209d912")))
-     (sha256 (base32 "1yqz42zxjcchg1p5gg8bjv32ilz3ckc85jpsrcxf6drhycfpwq1a"))))
+           (commit "aabac885a0d848c9819b2ebe24096bff3be3415d")))
+     (sha256 (base32 "1mz97j1qspgja9y5xi6hrcbqv4zq3kl08lz9b7r0rk2nwdzw98qf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/pgsql.el")
    (synopsis "Native PostgreSQL protocol client")
