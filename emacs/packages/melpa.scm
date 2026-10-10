@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261009.1244")
+   (version "20261010.3")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "2ab0aba06a4dbf4225efdff47380f40a5d1f8898")))
-     (sha256 (base32 "1clx9yw0ms9k5ap80hgf062v10r3fxnnm38agwiwhz74x20ljgna"))))
+           (commit "99b9922285f5c5c5b38e5e4a0016cb9ef3c16ef7")))
+     (sha256 (base32 "0bdafj70pnpini6mfrndhazzqq141siqaz2f339pagmwkf00q42f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -43649,14 +43649,14 @@
 (define-public emacs-greader
   (package
    (name "emacs-greader")
-   (version "20260627.1651")
+   (version "20261009.2254")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/michelangelo-rodriguez/greader.git")
-           (commit "5c304ad008d8688e4eccd9947ba5e410399bf021")))
-     (sha256 (base32 "150d9jjb3famg1phvdn4gifd5xcc3zm543m6w5czfy44khps4ll0"))))
+           (commit "f5deabe3b490fa72365922ce76f6df3dd0b5a27c")))
+     (sha256 (base32 "1zcsf4r1hcyasnwhvz6nmbgh8lbpvav2nhcf6c5vd1rw6591d3fs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://gitlab.com/michelangelo-rodriguez/greader")
@@ -58125,7 +58125,7 @@
 (define-public emacs-latex-to-svg-for-org
   (package
    (name "emacs-latex-to-svg-for-org")
-   (version "20261009.1347")
+   (version "20261009.1745")
    (source
     (origin
      (method git-fetch)
@@ -58144,7 +58144,7 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261009.1347")
+   (version "20261009.1753")
    (source
     (origin
      (method git-fetch)
@@ -77650,14 +77650,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20261008.2331")
+   (version "20261009.1830")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "da793dca2d36f46bf83508a3468e31466d91f02f")))
-     (sha256 (base32 "0zpzzwalqpnvrzjb8jv6dis6nbwz03xfhhakfsy3ra99zzhppkn2"))))
+           (commit "3240cda37d6511b1679a4eedfdf439c5ae633969")))
+     (sha256 (base32 "1aiyj7dhx9gaakjlvmr2ynlzk94f7vqkkg7j9yag0mclnnj76n1n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -83922,14 +83922,14 @@
 (define-public emacs-posframe
   (package
    (name "emacs-posframe")
-   (version "20261008.904")
+   (version "20261010.114")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tumashu/posframe.git")
-           (commit "45450ee132d060d297550b7c43f3d72ba77df3c7")))
-     (sha256 (base32 "1xqn5fk90cnpxx4hf3y482g1rj1h9p8k3n7pjnca6j51b13l67fy"))))
+           (commit "1d833af5c43313e401be2e5c456bf03d4ce9519c")))
+     (sha256 (base32 "15qarw3hdz959qryy9kk5s18harf54f3cwhz9zh4gjfzh47w9xn8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tumashu/posframe")
    (synopsis "Pop a posframe (just a frame) at point")
