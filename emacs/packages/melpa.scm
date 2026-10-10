@@ -1678,7 +1678,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261010.331")
+   (version "20261010.1430")
    (source
     (origin
      (method git-fetch)
@@ -1696,14 +1696,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20260928.831")
+   (version "20261009.1350")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "1a13d2d68ac6e8f02a537ddb974b67aa173c636d")))
-     (sha256 (base32 "1nq3an9qiqjwl9r947qxf6r57vvrrgz5r428d9gj866i9jqdzrf6"))))
+           (commit "85e83df6dd3914d01e748ea9ba43e7ed6640d1ea")))
+     (sha256 (base32 "0cy1hcbkf1mzlll30rxmgrpq18m7f08ybxk5bcpi8y2lmw5s57gb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -57621,14 +57621,14 @@
 (define-public emacs-lab
   (package
    (name "emacs-lab")
-   (version "20260809.1506")
+   (version "20261010.1233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/lab.el.git")
-           (commit "8c33f35b490a12a8d4bc57954a946fe4d12abb81")))
-     (sha256 (base32 "1r3z1i3rkk75qhhjlcgagvww45z1sn06b4cx4ann539yvf4k6asd"))))
+           (commit "180148f2b6fe6e52149decf70dadfd5ac51b3c0a")))
+     (sha256 (base32 "04zykg62nl67rw7kblmi64mxndh28bamivq2xnbxflyc3iw5zsq0"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-request
@@ -58069,14 +58069,14 @@
 (define-public emacs-latex-to-svg-backend
   (package
    (name "emacs-latex-to-svg-backend")
-   (version "20261009.1344")
+   (version "20261010.1356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg-backend.git")
-           (commit "3d44ba691e15ce58bd90e8e95c8f2dbc38e9f1c5")))
-     (sha256 (base32 "0pm0k5z73mlwpdpmppvaj15662r9s083qd24b3swdk9znciri8sl"))))
+           (commit "cf497497d36588fd9f3fb136fad581f931a9853c")))
+     (sha256 (base32 "11bw0sqjcf6f133fkr2m2l697msqwlg5i1rrmym9gyhsfra8fkyc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alberti42/latex-to-svg-backend")
    (synopsis "LaTeX-to-SVG rendering backend with caching")
@@ -58086,14 +58086,14 @@
 (define-public emacs-latex-to-svg-for-latex
   (package
    (name "emacs-latex-to-svg-for-latex")
-   (version "20261009.1347")
+   (version "20261010.1034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "61329e6b95810acaf85da8343276f667d8122bb7")))
-     (sha256 (base32 "03h5sfbdpq2f32c9kvp590k43gv55z5ir44ays1r2vf5zpwkqg9p"))))
+           (commit "3172421958f61bcd85ac61e8c6dfc72c3ea31a5a")))
+     (sha256 (base32 "1vx47hmhpjv4cywp646md2dgnx1iag4zk9l6lnfv6kf2w13mabx7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-latex.el")))
@@ -58105,14 +58105,14 @@
 (define-public emacs-latex-to-svg-for-markdown
   (package
    (name "emacs-latex-to-svg-for-markdown")
-   (version "20261009.1347")
+   (version "20261010.1034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "61329e6b95810acaf85da8343276f667d8122bb7")))
-     (sha256 (base32 "03h5sfbdpq2f32c9kvp590k43gv55z5ir44ays1r2vf5zpwkqg9p"))))
+           (commit "3172421958f61bcd85ac61e8c6dfc72c3ea31a5a")))
+     (sha256 (base32 "1vx47hmhpjv4cywp646md2dgnx1iag4zk9l6lnfv6kf2w13mabx7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-markdown.el")))
@@ -58125,14 +58125,14 @@
 (define-public emacs-latex-to-svg-for-org
   (package
    (name "emacs-latex-to-svg-for-org")
-   (version "20261009.1745")
+   (version "20261010.1034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "61329e6b95810acaf85da8343276f667d8122bb7")))
-     (sha256 (base32 "03h5sfbdpq2f32c9kvp590k43gv55z5ir44ays1r2vf5zpwkqg9p"))))
+           (commit "3172421958f61bcd85ac61e8c6dfc72c3ea31a5a")))
+     (sha256 (base32 "1vx47hmhpjv4cywp646md2dgnx1iag4zk9l6lnfv6kf2w13mabx7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-org.el")))
@@ -58144,14 +58144,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261010.953")
+   (version "20261010.1034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "0db30bbbdd549a2e712c2f1b5af38bac0a8cbd11")))
-     (sha256 (base32 "0x91h3dd7y3mpl6dn6p9a4wq9k4w2hmqjjzvifby18dkhzsacjb0"))))
+           (commit "3172421958f61bcd85ac61e8c6dfc72c3ea31a5a")))
+     (sha256 (base32 "1vx47hmhpjv4cywp646md2dgnx1iag4zk9l6lnfv6kf2w13mabx7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -63025,14 +63025,14 @@
 (define-public emacs-marginalia
   (package
    (name "emacs-marginalia")
-   (version "20260926.1228")
+   (version "20261010.1524")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/marginalia.git")
-           (commit "42eafcfddbe88d92ed96521a00a5a90a49bac4dd")))
-     (sha256 (base32 "16mhcdhdhl4rqzzs31bj4cx918dff8zvfyb6d9dqbq99zzdj9smk"))))
+           (commit "381af583d2530796b9955ff2fe0cba3ad3119943")))
+     (sha256 (base32 "0c3fjvpl4mmhi4gk40igv6ng47k4pnc1q5fnn64l738pdcfh1c28"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/marginalia")
@@ -94753,14 +94753,14 @@
 (define-public emacs-sisyphus
   (package
    (name "emacs-sisyphus")
-   (version "20261001.1637")
+   (version "20261010.1844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/sisyphus.git")
-           (commit "39f54bf415dcdb93f9c1ddc153470468eb198c29")))
-     (sha256 (base32 "0g8qxmwbb8pippww7mzb6xdi8nih48vlz5zllc8fk5i4gwfp97lv"))))
+           (commit "8249691acf372ddab6d976b47e97316d910c7940")))
+     (sha256 (base32 "1jmgz612vgz22l2494zc4cdx13hii4846bpkhipwap8mn9kwcwbi"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-magit))
@@ -109614,14 +109614,14 @@
 (define-public emacs-winnow
   (package
    (name "emacs-winnow")
-   (version "20250502.1745")
+   (version "20261010.1307")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgtized/winnow.el.git")
-           (commit "858e74314c06c060596d6e6119471deef759be4d")))
-     (sha256 (base32 "1klplaqi6q3a4dxjmw19h6g2a92qp6wjj18l49is9rsks3s6rv3j"))))
+           (commit "ade5481da960c646bdad4a26ee3848085075da2d")))
+     (sha256 (base32 "043v9mmnj826lk28kdjndzyiwxmcprpkvimgqa67pnj3rk0zn292"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgtized/winnow.el")
    (synopsis "Winnow ag/grep results by matching/excluding lines")
