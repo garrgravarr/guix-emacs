@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261010.1430")
+   (version "20261010.2141")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "cba82e8a8af1aafb07cc3ff6e511f5e8d9acc7c9")))
-     (sha256 (base32 "0xagr3qsjizbrcp37lljq9q4rzj31m053gybgpkgczxmr4ffxdya"))))
+           (commit "ee760a022f8b8a0b3126c692460094451efc1605")))
+     (sha256 (base32 "1qlq8qpf0fgzxl3cmh1w29d29ax15rqzrzn8x2bmwam1ha2kclic"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1857,14 +1857,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261005.345")
+   (version "20261011.101")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "c06ddf9b39b42d8d514103191dc075571d6fb2fb")))
-     (sha256 (base32 "0hghnsh4r7krinxzalr8q60z07pf7a3v9yk39gyfbbs49lvm08zb"))))
+           (commit "fd3decaf652dce018571d6e06808bb56830d4ecb")))
+     (sha256 (base32 "1cy3b04s90fcihm4jr4qgvwsap2jyxv0i528n9i8yqmv52c22mi3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -34371,14 +34371,14 @@
 (define-public emacs-flutter
   (package
    (name "emacs-flutter")
-   (version "20240823.1231")
+   (version "20261010.2349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/amake/flutter.el.git")
-           (commit "e71235d400787d977da7ed792709437899c2a03c")))
-     (sha256 (base32 "1d6iyy8igg59gm19y4xilmh83gny5rkq2yjcvlci8zqda1pcg2ww"))))
+           (commit "13c0c7c604f67f32ec658f94a3c846ad6e718428")))
+     (sha256 (base32 "1s76czd0mld83icm4iy5pj0ly0n6ykkmmi0j65ar4pkfa2c0qiha"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("flutter.el" "flutter-project.el" "flutter-l10n.el")))
    (home-page "https://github.com/amake/flutter.el")
@@ -34389,14 +34389,14 @@
 (define-public emacs-flutter-l10n-flycheck
   (package
    (name "emacs-flutter-l10n-flycheck")
-   (version "20240823.1231")
+   (version "20261010.2349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/amake/flutter.el.git")
-           (commit "e71235d400787d977da7ed792709437899c2a03c")))
-     (sha256 (base32 "1d6iyy8igg59gm19y4xilmh83gny5rkq2yjcvlci8zqda1pcg2ww"))))
+           (commit "13c0c7c604f67f32ec658f94a3c846ad6e718428")))
+     (sha256 (base32 "1s76czd0mld83icm4iy5pj0ly0n6ykkmmi0j65ar4pkfa2c0qiha"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-flycheck emacs-flutter))
    (arguments '(#:files ("flutter-l10n-flycheck.el")))
@@ -61761,14 +61761,14 @@
 (define-public emacs-macports
   (package
    (name "emacs-macports")
-   (version "20260313.58")
+   (version "20261011.3")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/amake/macports.el.git")
-           (commit "6de6616e6aeb762dfd287f72c09efce15e8c26f4")))
-     (sha256 (base32 "1vdaj37rqwxcqcxdafsh2sxnj6mi86mllzhcld64biv1q6kj4k1d"))))
+           (commit "fb49f0c5bb35bf7bd3370ab46c6ab83136fd3297")))
+     (sha256 (base32 "0r4ypx5h6zkv8npx6xqljsd9a781ipnys5hisafk59qryxd73wcc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/amake/macports.el")
    (synopsis "A porcelain for MacPorts")
@@ -61941,14 +61941,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261009.1317")
+   (version "20261010.1116")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "f8962486cd0089aa51fc1a2138aab11336d64422")))
-     (sha256 (base32 "1g0hj4mq99gxx45hxbx3wli2nm03q1lch5wvxgyw6lxhdxv29qd5"))))
+           (commit "58a469820bc3dc388f0193e3024147fb55a6c98f")))
+     (sha256 (base32 "0bmkb2kc8lrap1lbndlpv69927frcsazz4bm3r4hq2dm8gb7q1g3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -68992,14 +68992,14 @@
 (define-public emacs-nightpanel-theme
   (package
    (name "emacs-nightpanel-theme")
-   (version "20260801.22")
+   (version "20261010.2119")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gregfelice/nightpanel-theme.git")
-           (commit "37e3b40e437408fc0aeb511b3a5b4df9f945bef1")))
-     (sha256 (base32 "03nqf44247llgr9cbhxg81y9prk2jw99sj6pkc10gvb6l6nvnasg"))))
+           (commit "9835406644e0f6ab99619c86925f3182df4db9f7")))
+     (sha256 (base32 "0m87wkdk04h2vzzvmla86iwxylpf2pmkgwnp0fajczjiga7w45i0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gregfelice/nightpanel-theme")
    (synopsis "Saab instrument cluster colorscheme")
@@ -79622,14 +79622,14 @@
 (define-public emacs-package-build
   (package
    (name "emacs-package-build")
-   (version "20261001.1622")
+   (version "20261010.1908")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/melpa/package-build.git")
-           (commit "fe9592c844d7a8834e7cc74dc01c4747e2b90c5e")))
-     (sha256 (base32 "1rb7p9y4qzd4di2avgq549j38j51adznjrldhljlv4sghv0mir84"))))
+           (commit "4e9248a949531b1c781926dcbcf3768c4eccfc75")))
+     (sha256 (base32 "0xqk1xg66h7p5qxy16qz643lr8hasak2dbknz3y1j4i9j0nhj302"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "package-build.mk")))
@@ -95030,14 +95030,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20261001.47")
+   (version "20261011.214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "82dfda1a83e22de6fad93f54f3201f5dec6754fb")))
-     (sha256 (base32 "1lpv5icmzjmpgrrsgzd4k29ai1j22kgqxhjf40rfygp0x890s9kk"))))
+           (commit "56d528fefd8057a025437b4330ebf506f46ca27d")))
+     (sha256 (base32 "1dy8l99v0f9krgii5c0hhgd5c4hn69wclk3pmvabd25h5jkn8g8n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
