@@ -44189,14 +44189,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261009.1527")
+   (version "20261011.409")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "7dd25f3051d442a2856b98e40b07e256fd2b9f18")))
-     (sha256 (base32 "0r53ckz7qp51vq0bv4m4vxzs81ckhlmg2m5czx3m24qdg2qsk65l"))))
+           (commit "839c2c57b65396f17a257c7b9317430baff6398b")))
+     (sha256 (base32 "1hr625vvvz79wz322him7n7pq337xgp75ynrd8dwy523gsgnja7i"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -82232,14 +82232,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20261008.304")
+   (version "20261011.758")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "a0c6530a1e52f33da37c0fff83dc588d86c6cf2a")))
-     (sha256 (base32 "16v9wa09l1vp027mpdsziq5mc6jc7l2zm597c0n685qy3mxcifys"))))
+           (commit "1f0957c3fec78506c9b4b49fbad1d82f7a4cc4e7")))
+     (sha256 (base32 "1yc84y25lwhmpiirs1im36pzwbp87iq4ryzfw2192l3xwby28h0i"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
