@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261012.1454")
+   (version "20261013.250")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "3e4b4ddf8a534ac287916663a246500444da284b")))
-     (sha256 (base32 "0gp23pjqhyj7n20wpd1zp4r2w63zkgjh66aga0bcf46nc3455b6i"))))
+           (commit "956a0be6b56e21b6de47a74a2a52fed0288b2abb")))
+     (sha256 (base32 "0qllzb6qpx912nk2p1jykavrqdvzj7ssf2g1qm2p3702bkapxns7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -11654,14 +11654,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20261012.1332")
+   (version "20261013.359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "bb7bfcf729beebf822eabfb22830f8389f4efb3c")))
-     (sha256 (base32 "1v05kxpal2xq2409y23axss2m900r7zjfw1gbnp1kh9r17cwghrh"))))
+           (commit "cb4147f2f2a59a252bf8982600ecaf3c730a567c")))
+     (sha256 (base32 "1dsxdhzpysqyasd3ihkwqgr05w68d25m2yldv2vkgas13hj7k6gc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12496,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261012.1400")
+   (version "20261013.316")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "3809d208d884987cc53a54715b674ebdb5c2254b")))
-     (sha256 (base32 "0v0drf9qc438xb08fw2pw6f6ibn7b5a1h9sk8vbx90yq8bg2mxsl"))))
+           (commit "93bd4ec9b0bb1da708e8888b9b197f796705187b")))
+     (sha256 (base32 "1n3x53r7qrzjss50b6hxpgx1prbrszgm0cf71izwp944g0z2k78l"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -22594,14 +22594,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20261009.1639")
+   (version "20261013.257")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "c46dba3358010ecc025774fbae0db9695299cbf2")))
-     (sha256 (base32 "0v5ba0a6lvyhnwm83sw0jbpzgnfvj1a7zx9dbg41x37blzz8hbrv"))))
+           (commit "973ab9fc0da44baae091d565a4624c0239df9205")))
+     (sha256 (base32 "18lh48n7wndcl7xz9k4w5nl21m2jcyndam35cjcvsc01ni8nbnhv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -32794,14 +32794,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260929.110")
+   (version "20260929.2315")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "b98f1e76bbc110dabdd13b8fcf14a70b643557cf")))
-     (sha256 (base32 "1df6ajhdv7x3mqxs1g6szihjxqf44rx8y1j07zf5lsk6kbc6vfj4"))))
+           (commit "ec15bcaaa25edfaac4caceefd6c6ff50af0cee08")))
+     (sha256 (base32 "1mmihrcszv2jyibsvx3mjfi57khw5k9s0spkjcc9aslkandc4af6"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -58144,14 +58144,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261011.1906")
+   (version "20261012.1912")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "cb2be59737281784c242501c9486c742403ab026")))
-     (sha256 (base32 "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"))))
+           (commit "62a067dc0ec9ca7709e545095552854166dad116")))
+     (sha256 (base32 "0ykvb27acyj5j10gycm5vylmhn9pz2rqsvz9plzagwznjgbkrk29"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -76650,14 +76650,14 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20250715.1754")
+   (version "20261013.211")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/org-special-block-extras.git")
-           (commit "1a236c783958782a4027e29dafc1efe488f443f1")))
-     (sha256 (base32 "1km4dr78j9wy3w1hpvcm9kgrvgfvp975rzgy4pb1phgqx0xq89l4"))))
+           (commit "2b9dd174a1504d4f77dc2e410f3ec64005b77d2b")))
+     (sha256 (base32 "1wplzqr18f5gi54c41h4zkwnab5qwb0vi052jqgbky9qzm2hkv2b"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-s emacs-dash emacs-lf emacs-dad-joke emacs-lolcat))
@@ -77099,14 +77099,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261005.445")
+   (version "20261013.214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "6ff46d4e8d75c5986de8b4df0d445bbe03650de5")))
-     (sha256 (base32 "1y40bzdfpwlzijmq54gqja1y28pl2jak5rhcxbbvb55m17z8r2vk"))))
+           (commit "561b3b2f9ca2b7a148d4aa8d98f2943e79d059d3")))
+     (sha256 (base32 "05iqvcg621mzim3hg5cyqxji726f7fx1pkz13kzqkrx5w838fpnj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -81047,14 +81047,14 @@
 (define-public emacs-pdffontetc
   (package
    (name "emacs-pdffontetc")
-   (version "20261012.327")
+   (version "20261012.2145")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacsomancer/pdffontetc.git")
-           (commit "253fb3b9c68f0bbfb8ee4eb77161bc0bdb5d5d18")))
-     (sha256 (base32 "0agmhqzmnhdphha6y3ngz2s9ad9kbfmx42p26j5ha0vpl23lq762"))))
+           (commit "b98d272b4c0b9d9c718ce04facee85c71f789340")))
+     (sha256 (base32 "1anzbizggnzxdi6z904f3d8n0vv7mbj2g8mvpllfj682f3ni4z5h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-pdf-tools))
    (home-page "https://github.com/emacsomancer/pdffontetc")
@@ -91940,14 +91940,14 @@
 (define-public emacs-scala-ts-mode
   (package
    (name "emacs-scala-ts-mode")
-   (version "20260826.1159")
+   (version "20261013.316")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/KaranAhlawat/scala-ts-mode.git")
-           (commit "e14bc7c6a2a7404111ee124b83b4acf55c80321e")))
-     (sha256 (base32 "1izi7r94hcaffkna9cd849bm4p22sgwgk4bambjqy23kvp3wayzl"))))
+           (commit "a1f25865a3c2772b91f5bf95457411b45244ea1e")))
+     (sha256 (base32 "0awwizvp6074hlddf93i9dgf0l54kxay9iimbclrqpnkk8zacqnp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/KaranAhlawat/scala-ts-mode")
    (synopsis "An tree-sitter based major-mode for Scala")
@@ -95352,14 +95352,14 @@
 (define-public emacs-sly
   (package
    (name "emacs-sly")
-   (version "20261006.745")
+   (version "20261013.22")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/joaotavora/sly.git")
-           (commit "191fe38eaa83e4e7556a940aa4b234666215cced")))
-     (sha256 (base32 "00p4ddqrnm0r62zyijvsiy0rrb31a1gi7vygn7p11d5h537sdh1x"))))
+           (commit "9b3477a5dc6c9a4496d4fbb6804349961e861835")))
+     (sha256 (base32 "0bhp5zlvzqdvjdnycsf5w2bmcpcnndy177d93w3k8gb04nc5nnpm"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -107970,14 +107970,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20260929.1339")
+   (version "20261012.2004")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "c21204116b3cf3e921fa8f7849c932c8b0ad3181")))
-     (sha256 (base32 "0f78x9g8m5ly055js6zmsnddx1r2x4lf7pr8jfhy53c7dywbw1nq"))))
+           (commit "7b332ce86c114e69f462bf3b44ef2f0de4363ea0")))
+     (sha256 (base32 "01dx6y64c6x4cfr1g98kkqx6lfa5c2778g4gyx2z0vl2n2hjcjmf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
