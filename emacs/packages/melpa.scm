@@ -40235,14 +40235,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261012.1316")
+   (version "20261013.1113")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "74007dcb20872c51c7a9b948aef2cedf9a61ccaf")))
-     (sha256 (base32 "1q3x3xn8k4973bk6ypg2dkrc3lxjdrvzvnxy2ljfs742gf2d4ghq"))))
+           (commit "7de74d4ab208eb6f93b6bf79e02770e841bb4a53")))
+     (sha256 (base32 "0b3c41gb6949gmwx8zihzg40g5nalnvlzy9n9d5rzzk5yykg9din"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -58086,14 +58086,14 @@
 (define-public emacs-latex-to-svg-for-latex
   (package
    (name "emacs-latex-to-svg-for-latex")
-   (version "20261011.1906")
+   (version "20261013.618")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "cb2be59737281784c242501c9486c742403ab026")))
-     (sha256 (base32 "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"))))
+           (commit "b9cf5af2471f06e24fb14ca2fefc41fb3a404b5d")))
+     (sha256 (base32 "192k3s3wv0yi05j9jyncvq6cfmacnac1q671mj3fy5zwyz40az6n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-latex.el")))
@@ -58144,14 +58144,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261012.1912")
+   (version "20261013.621")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "62a067dc0ec9ca7709e545095552854166dad116")))
-     (sha256 (base32 "0ykvb27acyj5j10gycm5vylmhn9pz2rqsvz9plzagwznjgbkrk29"))))
+           (commit "b9cf5af2471f06e24fb14ca2fefc41fb3a404b5d")))
+     (sha256 (base32 "192k3s3wv0yi05j9jyncvq6cfmacnac1q671mj3fy5zwyz40az6n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -58917,14 +58917,14 @@
 (define-public emacs-lf
   (package
    (name "emacs-lf")
-   (version "20260502.1103")
+   (version "20261013.1228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/lf.git")
-           (commit "6483c717cbb7a8de1cd13105a7eec9f66eddc23e")))
-     (sha256 (base32 "1rjx9vpniapvca8bblfrmcrcx490ww57rbvy49pmvfv1z0jc32nj"))))
+           (commit "ce9d6e3a32251f807dd93007d9fd4445116ec087")))
+     (sha256 (base32 "1qigahqrvdycm6rcdcf5vainka965xj8nsb3lvl0mf24nl0c9333"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash))
    (home-page "https://alhassy.github.io/lf.el/")
@@ -61941,14 +61941,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261010.1116")
+   (version "20261013.900")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "58a469820bc3dc388f0193e3024147fb55a6c98f")))
-     (sha256 (base32 "0bmkb2kc8lrap1lbndlpv69927frcsazz4bm3r4hq2dm8gb7q1g3"))))
+           (commit "be42a74513f15221dc364aa668822e05890e3a2f")))
+     (sha256 (base32 "0sfa0fr9qh9d6jh1x105zs9iq4fgwzm4qfkdnvv0yydp41wrfbnc"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63289,14 +63289,14 @@
 (define-public emacs-markdown-ts-appear
   (package
    (name "emacs-markdown-ts-appear")
-   (version "20261012.825")
+   (version "20261013.1302")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Thysrael/markdown-ts-appear.git")
-           (commit "0c44f3e842c1af026209beb2349a730df7a69cfa")))
-     (sha256 (base32 "1l2w8x9azkch7646vs5jflw00yvcdg0k90rgx6brmkhx46bd07jk"))))
+           (commit "5af4ad99b0c1bc26b4f6b16acff4638ca252cfb4")))
+     (sha256 (base32 "1psa0gc6w5rxyqzaqmiw6r2lrg7ys0z0kr8dvq936v2p7ld38qb1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-markdown-table-wrap))
    (home-page "https://github.com/Thysrael/markdown-ts-appear")
@@ -69462,14 +69462,14 @@
 (define-public emacs-no-littering
   (package
    (name "emacs-no-littering")
-   (version "20261001.1557")
+   (version "20261013.843")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/no-littering.git")
-           (commit "ca39a217864e8320db9a6e8f07ff58d76c2f7e8a")))
-     (sha256 (base32 "0kgv1sixsq4n8af80p89qzjxy1spzk09cibvwf5jry1xbbf5dznh"))))
+           (commit "fe0adc238f3ddd92422013a3cc39af2733924208")))
+     (sha256 (base32 "0mfircfilwwqw45j38lg0y4fd1hlavm317h83grw2b2mdqp62cw9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/emacscollective/no-littering")
@@ -76650,14 +76650,14 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261013.211")
+   (version "20261013.1218")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/org-special-block-extras.git")
-           (commit "2b9dd174a1504d4f77dc2e410f3ec64005b77d2b")))
-     (sha256 (base32 "1wplzqr18f5gi54c41h4zkwnab5qwb0vi052jqgbky9qzm2hkv2b"))))
+           (commit "bf4c16418145761f821089b057ee9ebcfebceffc")))
+     (sha256 (base32 "1fqs2mi1db8y24plaqbk6z337mkh1zbnhza1iii0qc599a3b57s2"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-s emacs-dash emacs-lf emacs-dad-joke emacs-lolcat))
@@ -77684,14 +77684,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20261012.827")
+   (version "20261013.1142")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "df3e17f618fcb6867c59e00eb279158b89d5c903")))
-     (sha256 (base32 "1ljjg1v3vc65wb0vsl85q2ygcgvrfijrh5vdlz298qkk5gx423if"))))
+           (commit "4bc8e1e6a4988dcc3845a695b24c5d907a6371a2")))
+     (sha256 (base32 "07xccwqm89w0wj61r4ixwagv25shrhvnrwm2n83a6p0qy591ddja"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -100773,14 +100773,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20261008.2239")
+   (version "20261013.1133")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "20a2f0762743a1dc6effd767b9caaec7e4dff69c")))
-     (sha256 (base32 "1jnkwv25rzl445ssrk289vi0qnb3wf76gwwsgrkb3zix98q01l8v"))))
+           (commit "ab3aaeffebd61c23d127b0b0a0a1e9111a511208")))
+     (sha256 (base32 "0w3f737yj1bwa2vgszwf4nnm3kz4r25z9nc5s9q6xsd0d070m7al"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -107898,14 +107898,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20260902.1706")
+   (version "20261013.958")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "d8e76e7ccc784ab0441caab04fcf36aba73f5bdb")))
-     (sha256 (base32 "1i2bxbmy5v9pacp90kf9zzqyv55ayzdcz1h6yz3raj3axfpl7hxr"))))
+           (commit "361d682ae976ee6903f5f4fe9e6b8a65b2b169fb")))
+     (sha256 (base32 "0x8mxlpbj9qczqg3nn4308609ycwir8gl6zh2qcd6l2zwn26hbj2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -110471,14 +110471,14 @@
 (define-public emacs-x509-mode
   (package
    (name "emacs-x509-mode")
-   (version "20260828.634")
+   (version "20261013.657")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jobbflykt/x509-mode.git")
-           (commit "fe1fdfbd3b0dd6b696f286f7ed64993cfef6cc9d")))
-     (sha256 (base32 "199r55rndlcc74c3110h8gfz59hx4zhkxi6qsr4c0npj1my3g4sd"))))
+           (commit "376ee4f294bc4b9013bb781804471b2c6fda5a18")))
+     (sha256 (base32 "1vw0gaw01glnrp11ywar0c03ygln4wfgmskdp7jhakbwzfkj95b9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "*.txt")))
