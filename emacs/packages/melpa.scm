@@ -12496,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261013.316")
+   (version "20261013.1444")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "93bd4ec9b0bb1da708e8888b9b197f796705187b")))
-     (sha256 (base32 "1n3x53r7qrzjss50b6hxpgx1prbrszgm0cf71izwp944g0z2k78l"))))
+           (commit "07e2ca23799c0f352f2b87cb1751a86034079da5")))
+     (sha256 (base32 "024vvmgpq6lg9s36v91ahli29b3gqx3fi44wiavvhw5fgy7l77km"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -24198,14 +24198,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20261008.1921")
+   (version "20261013.1546")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "c4c30b53b0bbec2b41bd7e1a7f31f8381018f38e")))
-     (sha256 (base32 "1c1rg3rc6zdkz2fmijyxf6xkraacx4zdnck065wcx59x1lly98k5"))))
+           (commit "589233a7724af9464dc94a5ae8177cdfddc2e926")))
+     (sha256 (base32 "1b8fniq9jqfj8izlc6drza1103cjkb9j6zhj5z0p6drx4bzg2rv0"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -40235,7 +40235,7 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261013.1113")
+   (version "20261013.1318")
    (source
     (origin
      (method git-fetch)
@@ -58917,14 +58917,14 @@
 (define-public emacs-lf
   (package
    (name "emacs-lf")
-   (version "20261013.1228")
+   (version "20261013.1600")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/lf.git")
-           (commit "ce9d6e3a32251f807dd93007d9fd4445116ec087")))
-     (sha256 (base32 "1qigahqrvdycm6rcdcf5vainka965xj8nsb3lvl0mf24nl0c9333"))))
+           (commit "d48230ba3871f6744feee63da622e60b8b49b16f")))
+     (sha256 (base32 "0fr6s9j8x49djanyl5x7zjzwff2v4galpwdz06mqvn61wyjjfmi7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash))
    (home-page "https://alhassy.github.io/lf.el/")
@@ -63289,7 +63289,7 @@
 (define-public emacs-markdown-ts-appear
   (package
    (name "emacs-markdown-ts-appear")
-   (version "20261013.1302")
+   (version "20261013.1531")
    (source
     (origin
      (method git-fetch)
@@ -76650,7 +76650,7 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261013.1218")
+   (version "20261013.1447")
    (source
     (origin
      (method git-fetch)
@@ -88860,14 +88860,14 @@
 (define-public emacs-reddigg
   (package
    (name "emacs-reddigg")
-   (version "20260824.222")
+   (version "20261013.1621")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/thanhvg/emacs-reddigg.git")
-           (commit "cae4026c72c9e7e36c365d16141c5c2cc79f2712")))
-     (sha256 (base32 "1q70j0b6my0l89xvrly5lpdvr4cw4r52smcxhcilsn78m9c686d1"))))
+           (commit "c0749b0e4db1a1bc36742002a24be119a090bdea")))
+     (sha256 (base32 "0c24kfclhfdaa0jh5xwzhf4nxphffh7kjpa0riqwfmks5acif66n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-promise emacs-ht))
    (home-page "https://github.com/thanhvg/emacs-reddigg")
