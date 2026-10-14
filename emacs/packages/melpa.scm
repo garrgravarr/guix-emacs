@@ -1696,14 +1696,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20261011.1924")
+   (version "20261014.1332")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "4d92db00a8430726d63ab50c4b5d8fc03fcd2620")))
-     (sha256 (base32 "0nv7nk7w6n28dci0438l92kq8gvvavzlq20b8rs8z87qqi8y3y4w"))))
+           (commit "31b99b470764eda3906fa985e49a051ee380bc57")))
+     (sha256 (base32 "0x0jc4f7dkklw2xi66nwvqkipk8cvmjrlv4vz2598jngh7i2wqws"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -1857,14 +1857,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261012.1422")
+   (version "20261014.1558")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "5f6dd6dbd7a4ee5be5939422bae3461ca9f5e26e")))
-     (sha256 (base32 "0yy4szshks85inr7i32yiw8snzxlb578cw881srakw5wm8s2frh0"))))
+           (commit "71c440e5ab1c6cbeb6e008db15bcd7520d079b7f")))
+     (sha256 (base32 "0q5p69hg2p4gyhn01j3kswgarzzs5jks1ggv1cbhvbgnl8ggbg1f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -16295,14 +16295,14 @@
 (define-public emacs-corfu
   (package
    (name "emacs-corfu")
-   (version "20261014.732")
+   (version "20261014.1751")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/corfu.git")
-           (commit "92c1febc7fabacc07b6c4b5b100d9367d9c0404e")))
-     (sha256 (base32 "0fdkr524y4g8czhrdx0c5yhj58603b9qgv93zggd78999rabnv41"))))
+           (commit "9c2bf9add6c182ae524eb378d0d0f45ecc805eef")))
+     (sha256 (base32 "04rkd5d9l4b58n4lfgzygv5mvl0r5glysydncx3gmzs64rdnzc07"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/corfu-*.el")))
@@ -24198,14 +24198,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20261013.1546")
+   (version "20261014.1646")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "589233a7724af9464dc94a5ae8177cdfddc2e926")))
-     (sha256 (base32 "1b8fniq9jqfj8izlc6drza1103cjkb9j6zhj5z0p6drx4bzg2rv0"))))
+           (commit "d016aa56ce53c8cec3d67c1efe6346b5b53a7163")))
+     (sha256 (base32 "1affnrz1f925rakbzzijka9p5iw6if7dpyk7rsfrzh11c95grbgk"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -33300,14 +33300,14 @@
 (define-public emacs-file-info
   (package
    (name "emacs-file-info")
-   (version "20260509.754")
+   (version "20261014.1443")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Artawower/file-info.el.git")
-           (commit "c20ab17ee23e7e1b07975cce9a3c2d5e3dff14f6")))
-     (sha256 (base32 "19msd6iaadnxg8rdvlj12vdwpq3jk81q23hz68pdz1yp9spndbc5"))))
+           (commit "1eb781f5b0c38a947a3c34df2101ced0b75236d7")))
+     (sha256 (base32 "11l8fasyx8k4pn4n458kqcsp1jlz6cl22x85c6rg4hrq5xgxcnhi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra emacs-browse-at-remote))
    (home-page "https://github.com/artawower/file-info.el")
@@ -43153,14 +43153,14 @@
 (define-public emacs-gptel-agent-harness
   (package
    (name "emacs-gptel-agent-harness")
-   (version "20261008.304")
+   (version "20261014.1251")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/gptel-agent-harness.git")
-           (commit "958afdad7f469eb58f697457b256acb7a77179d1")))
-     (sha256 (base32 "0hlc405q7kqmbkrbjp66rq7057sgmcc42rxnb51p40h030n1cb4f"))))
+           (commit "e649ed7e063e9e1476c5c3abf7dd826cf22557f9")))
+     (sha256 (base32 "1v6zi4dzlpk01v4jaq5iwybgqb9xsp5300m4gmplg172223g931p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-gptel emacs-gptel-agent))
    (arguments '(#:files (:defaults "agents" "prompts")))
@@ -58069,14 +58069,14 @@
 (define-public emacs-latex-to-svg-backend
   (package
    (name "emacs-latex-to-svg-backend")
-   (version "20261011.1724")
+   (version "20261014.1334")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg-backend.git")
-           (commit "a5c886daff1c16686038e2915b472022138e73d6")))
-     (sha256 (base32 "0p3lcf0g91xw1hnx2q0qvf1vdaigp8i3p2ng1gi9wsp76l0wc0hy"))))
+           (commit "d67a23e18008719a0677ce964cd60422874bb00d")))
+     (sha256 (base32 "178z9hlq8xfzjghvg0y9kfrkcwggcbsj1mih8y1pnixryxpzvzgv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alberti42/latex-to-svg-backend")
    (synopsis "LaTeX-to-SVG rendering backend with caching")
@@ -63289,14 +63289,14 @@
 (define-public emacs-markdown-ts-appear
   (package
    (name "emacs-markdown-ts-appear")
-   (version "20261014.754")
+   (version "20261014.1400")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Thysrael/markdown-ts-appear.git")
-           (commit "eafdabe1619b8bc34401f209153ac143f9fd2651")))
-     (sha256 (base32 "15zd21v2h7yms8f3iq6dqynv3zdgbcycv0dzvl739yxyc9w2z9xm"))))
+           (commit "3ad20271aa39fa664cfe30b53d6a307f347f7073")))
+     (sha256 (base32 "0ccs3krhcnbz784cd20p34mlg4shhkgxpcyv8pdxr33vn8zl9l08"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-markdown-table-wrap))
    (home-page "https://github.com/Thysrael/markdown-ts-appear")
@@ -95005,14 +95005,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20261009.1314")
+   (version "20261014.1603")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "f6a1434e4bc46bcdd77bdd99e85d967890e1f852")))
-     (sha256 (base32 "1hnydfhs4nsgbcijnkkx4zflvs4scpvzn3m9rzrj15sxw01v1iqc"))))
+           (commit "8163416ce7d1074d62df764b9071d92c63fc8888")))
+     (sha256 (base32 "0lfgq039szb63ad845l4q7kqjc7c77yfd1fn61a59h80l0vc306y"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -107934,14 +107934,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20261012.1027")
+   (version "20261014.1400")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "2dac1fc5397904e93871ff351ec88b466e2dcdeb")))
-     (sha256 (base32 "0ixdgs2a4hlnzlac3jk0ccn13w2r5jjnaid2k59mjqyq6gcg3zy1"))))
+           (commit "f40c5bc5283755410e0b0320fa34382c50ede758")))
+     (sha256 (base32 "08ywjyvjr4kfs7q5varmfz3z951vr7rd8hjjay69c98vbsvk5izi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
