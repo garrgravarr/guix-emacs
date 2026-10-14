@@ -16295,14 +16295,14 @@
 (define-public emacs-corfu
   (package
    (name "emacs-corfu")
-   (version "20260913.1527")
+   (version "20261014.732")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/corfu.git")
-           (commit "b468efac023dda39332acc943edc9895c80b5a6f")))
-     (sha256 (base32 "1nwmc24cl11035s03qck3mdf5n2s1svikx09sd3z25q5al3jq2r7"))))
+           (commit "92c1febc7fabacc07b6c4b5b100d9367d9c0404e")))
+     (sha256 (base32 "0fdkr524y4g8czhrdx0c5yhj58603b9qgv93zggd78999rabnv41"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/corfu-*.el")))
@@ -30474,14 +30474,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20260927.2359")
+   (version "20261014.225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "a24e38cebd7a474423898fae7f58ddfd98d87ace")))
-     (sha256 (base32 "0bilcchhrrizpgvzc30lk63yin186948xwjcpfachz00fmih1sx6"))))
+           (commit "3948a7890960d389dffa637203a6760df68b1c1c")))
+     (sha256 (base32 "1swhl466sjczjsa9v6nlvsbxd1x6p0qjb560q1fcfdgpcq4r1jy8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -43115,14 +43115,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20261012.236")
+   (version "20261013.2205")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "cd372be78471f948c3c2fddf652e511e39932f7c")))
-     (sha256 (base32 "15k1nx85mji3w0ymsycmb4n2cb5qzgjbk8jd48svbyn1c5jqhrf8"))))
+           (commit "8c6a4846893d18820f2d994084f5b95918cd5c0f")))
+     (sha256 (base32 "1crvd832q1846hjnrf60w3h177n1fiqdpr6v54pbxbymqkzmbb8y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -63289,14 +63289,14 @@
 (define-public emacs-markdown-ts-appear
   (package
    (name "emacs-markdown-ts-appear")
-   (version "20261014.3")
+   (version "20261014.754")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Thysrael/markdown-ts-appear.git")
-           (commit "a07a360bfb7b980d39c0b52abce052294adb6bd6")))
-     (sha256 (base32 "1zks1ls9m55fjbhm35h9km7jngp3swmw8rcaiq4kpq51y44x8834"))))
+           (commit "eafdabe1619b8bc34401f209153ac143f9fd2651")))
+     (sha256 (base32 "15zd21v2h7yms8f3iq6dqynv3zdgbcycv0dzvl739yxyc9w2z9xm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-markdown-table-wrap))
    (home-page "https://github.com/Thysrael/markdown-ts-appear")
@@ -65862,17 +65862,17 @@
 (define-public emacs-modern-fringes
   (package
    (name "emacs-modern-fringes")
-   (version "20220401.202")
+   (version "20261014.848")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SpecialBomb/emacs-modern-fringes.git")
-           (commit "98473694a33922cfdddb18b4791028e4854b53b5")))
-     (sha256 (base32 "0j1lyzia3i37q6b35pd06j5bkz2yji0f0r6xcgg79177zyyqj0lp"))))
+           (commit "1fa5e3ce022089558c853f7830f72b7201e66a78")))
+     (sha256 (base32 "0qfi77x5sfhjr5cvn9i8pj0q8icwvvsw2cyjq4dkx8k5i2w9kyqd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/specialbomb/emacs-modern-fringes")
-   (synopsis "Replaces default fringe bitmaps with better looking ones")
+   (synopsis "Modern fringe bitmaps")
    (description "Documentation at https://melpa.org/#/modern-fringes")
    (license #f)))
 
@@ -72354,14 +72354,14 @@
 (define-public emacs-oer-reveal
   (package
    (name "emacs-oer-reveal")
-   (version "20260327.1514")
+   (version "20261014.1125")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/oer/oer-reveal.git")
-           (commit "35f8e50dea185f4df0ac5ef08dd4ad26179c4e75")))
-     (sha256 (base32 "1h9yyy9xlm2b980bczsk2jbi8brp12w4k4xqsj4g5bzmvcyw101n"))))
+           (commit "e66b37ab804f9332a7ed8711552cac8d6ef05c4c")))
+     (sha256 (base32 "0l4sw74ksgynnqyj7vxn6xhs2ady4n2vbkk2ldnx86qdpsm3gc1d"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-org-re-reveal))
    (arguments
@@ -75057,17 +75057,17 @@
 (define-public emacs-org-link-beautify
   (package
    (name "emacs-org-link-beautify")
-   (version "20261008.1214")
+   (version "20261014.11")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://repo.or.cz/org-link-beautify.git")
-           (commit "11f715c61d0a1920688c7bd6d712ba371cfa85b5")))
-     (sha256 (base32 "0pavq5r0j1h2rj7zwjb4pn6mkipbzkkhyrgb57wbsgc744dff76y"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/org-link-beautify-"
+           version
+           ".tar"))
+     (sha256 (base32 "0jpmppjcn8k1g9awpr2aq9mg0gcd4f2xah1mjcr278qyb69pghjm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-qrencode))
-   (arguments '(#:files (:defaults "scripts")))
    (home-page "https://repo.or.cz/org-link-beautify.git")
    (synopsis "Beautify Org Links")
    (description "Documentation at https://melpa.org/#/org-link-beautify")
@@ -107898,14 +107898,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261013.958")
+   (version "20261014.1210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "361d682ae976ee6903f5f4fe9e6b8a65b2b169fb")))
-     (sha256 (base32 "0x8mxlpbj9qczqg3nn4308609ycwir8gl6zh2qcd6l2zwn26hbj2"))))
+           (commit "f42b4d87a3e9eac9114d8aa52bc721731277904f")))
+     (sha256 (base32 "1c2my7d6jvc45ca177i16h9dxfvvrw654al8ch9ag2xlpdy18z3p"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
