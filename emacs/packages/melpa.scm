@@ -10334,14 +10334,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20261004.806")
+   (version "20261011.806")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "81b7bd08f3a2f6a96cbc4bfaa8c2c3a9040a4991")))
-     (sha256 (base32 "14w7y4xlwxz8xa5l7w1hmgfr3zkn1qxpjlsaxp4h3dhlfw7g2kwr"))))
+           (commit "26b00d2b853eaafdaee583313e51cb0267363db7")))
+     (sha256 (base32 "14kp7pjzpcisjzzlzxxjxdh4zgc5s5nc3hp5r39y09qj0syy2dp9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -12875,14 +12875,14 @@
 (define-public emacs-codespaces
   (package
    (name "emacs-codespaces")
-   (version "20261003.2138")
+   (version "20261013.2132")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/f4ban/codespaces.el.git")
-           (commit "7ec1aa6fed6c0a4dc92db94d46773b77d5ad1b97")))
-     (sha256 (base32 "07g7w1a4l9sc52l1xkqgc8b6jdr0g0kcp07nibwa5rip8zm6llkl"))))
+           (commit "f87830fe735779aab0bc5abfc8e5e9ed57593bb0")))
+     (sha256 (base32 "0yahpdg1lr7gr7r4prjwvrvdidhd4wyaa3sbn7scvpvp2kbc6m5h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/F4ban/codespaces.el")
    (synopsis "Connect to GitHub Codespaces via TRAMP")
@@ -58144,14 +58144,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261013.621")
+   (version "20261013.1836")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "b9cf5af2471f06e24fb14ca2fefc41fb3a404b5d")))
-     (sha256 (base32 "192k3s3wv0yi05j9jyncvq6cfmacnac1q671mj3fy5zwyz40az6n"))))
+           (commit "16f8ac99a5b2456442eb5e8cd4100b11a8e4cb58")))
+     (sha256 (base32 "0722k1kzrpyvnf4q3a984aphg8pq5zjyzryflmb17i348phc32ml"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -58917,7 +58917,7 @@
 (define-public emacs-lf
   (package
    (name "emacs-lf")
-   (version "20261013.1600")
+   (version "20261013.1851")
    (source
     (origin
      (method git-fetch)
@@ -63289,14 +63289,14 @@
 (define-public emacs-markdown-ts-appear
   (package
    (name "emacs-markdown-ts-appear")
-   (version "20261013.1531")
+   (version "20261014.3")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Thysrael/markdown-ts-appear.git")
-           (commit "5af4ad99b0c1bc26b4f6b16acff4638ca252cfb4")))
-     (sha256 (base32 "1psa0gc6w5rxyqzaqmiw6r2lrg7ys0z0kr8dvq936v2p7ld38qb1"))))
+           (commit "a07a360bfb7b980d39c0b52abce052294adb6bd6")))
+     (sha256 (base32 "1zks1ls9m55fjbhm35h9km7jngp3swmw8rcaiq4kpq51y44x8834"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-markdown-table-wrap))
    (home-page "https://github.com/Thysrael/markdown-ts-appear")
@@ -73100,14 +73100,14 @@
 (define-public emacs-orderless
   (package
    (name "emacs-orderless")
-   (version "20260927.2344")
+   (version "20261013.1927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/oantolin/orderless.git")
-           (commit "3d2c2e6468ddf51e69c78e8212e5fd9006d2ce8a")))
-     (sha256 (base32 "0djv3ylif5gqxyz71qvdvc85cs3yg6xdrzh8wafckcll17rxvrrf"))))
+           (commit "e271a8ec938929b726331236cf56d1c44571122e")))
+     (sha256 (base32 "1c9rynz7q7yaa5bd6y7kg95amkwfnyl4ifs2mbiflbphr8ghikdi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/oantolin/orderless")
@@ -95082,14 +95082,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20261011.214")
+   (version "20261014.148")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "56d528fefd8057a025437b4330ebf506f46ca27d")))
-     (sha256 (base32 "1dy8l99v0f9krgii5c0hhgd5c4hn69wclk3pmvabd25h5jkn8g8n"))))
+           (commit "579d609ecb3e4df695f2c45c9ab47229bab13a2e")))
+     (sha256 (base32 "0azmhfp394p5vr1ah4izvcdjiav830dfz6wl7052c2mfkmmxysf4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
