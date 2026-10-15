@@ -12496,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261013.1444")
+   (version "20261015.1606")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "07e2ca23799c0f352f2b87cb1751a86034079da5")))
-     (sha256 (base32 "024vvmgpq6lg9s36v91ahli29b3gqx3fi44wiavvhw5fgy7l77km"))))
+           (commit "ea43c059bc3c679cf7612c9cc1301dc6cf764023")))
+     (sha256 (base32 "1swsjlxqc1inzk3vcq8gaplvnw3rziz2qqj507ys8hbifjm4bpgd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -63251,14 +63251,14 @@
 (define-public emacs-markdown-ts-appear
   (package
    (name "emacs-markdown-ts-appear")
-   (version "20261015.844")
+   (version "20261015.1533")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Thysrael/markdown-ts-appear.git")
-           (commit "20fb5694ffec23e1b6dfb96cf3a9539ea494b588")))
-     (sha256 (base32 "1yqma93ia1x782q7s1yn2p2xrw6xzdd3vq4l8jfmidqdl13wy2rj"))))
+           (commit "419c73f976a112aab11d1f00b20bc6d5063aabd2")))
+     (sha256 (base32 "1qr123csqck0jm5iy9jcvh6y19msqd6rmfrpqjvkng1v7flzvsjf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-markdown-table-wrap))
    (home-page "https://github.com/Thysrael/markdown-ts-appear")
@@ -76612,14 +76612,14 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261015.310")
+   (version "20261015.1713")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/org-special-block-extras.git")
-           (commit "4ffb3bcad92ca6d1ae3873f0524f2fa8f91a0055")))
-     (sha256 (base32 "1k98v00xm497gcsgsjnabj1zx9b7n2g8ynb9kwfpgdfmzi70432z"))))
+           (commit "f3f51c58da0c63515730e8e56aa5f1859645482f")))
+     (sha256 (base32 "00yvn991q7c5qnkr2g70wyh4yjqpxxa6n3ysp8r6q2iirss62y2f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-lf))
    (home-page "https://alhassy.github.io/org-special-block-extras")
@@ -77645,14 +77645,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20261013.1142")
+   (version "20261015.1657")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "4bc8e1e6a4988dcc3845a695b24c5d907a6371a2")))
-     (sha256 (base32 "07xccwqm89w0wj61r4ixwagv25shrhvnrwm2n83a6p0qy591ddja"))))
+           (commit "5ae7fbf3df5e6581997e96a7f7fcca4936efee8d")))
+     (sha256 (base32 "1qm2arqfryv16fkqlj5w3py91rk127y245rs299w22yklshlwici"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -81608,14 +81608,14 @@
 (define-public emacs-pgsql
   (package
    (name "emacs-pgsql")
-   (version "20261010.606")
+   (version "20261015.1601")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/pgsql.el.git")
-           (commit "aabac885a0d848c9819b2ebe24096bff3be3415d")))
-     (sha256 (base32 "1mz97j1qspgja9y5xi6hrcbqv4zq3kl08lz9b7r0rk2nwdzw98qf"))))
+           (commit "a3d719766dd71155f11cc2405e0b179f994bc384")))
+     (sha256 (base32 "0ib3va011i7mbymwsqfc2dg27jzxsyclaff7xsi290w54c5kz8az"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/pgsql.el")
    (synopsis "Native PostgreSQL protocol client")
@@ -100330,14 +100330,14 @@
 (define-public emacs-tabspaces
   (package
    (name "emacs-tabspaces")
-   (version "20260908.2027")
+   (version "20261015.1404")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/mclear-tools/tabspaces.git")
-           (commit "2bfb7361b8d82f660eca8bd2e131b5ca53d56916")))
-     (sha256 (base32 "0ds6rlfdw7xhn9d2qwah3h9pl29z5skxcxlw4b6rcb5fvk43gpx8"))))
+           (commit "d45bf0db847ed7de47b85dee61926506e3c1995a")))
+     (sha256 (base32 "0w8sfv26rnydw7w4ddij7xasprikzf15r07i9g5wh33bg1yjsm1d"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/mclear-tools/tabspaces")
    (synopsis "Leverage tab-bar and project for buffer-isolated workspaces")
@@ -107859,7 +107859,7 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261015.804")
+   (version "20261015.1035")
    (source
     (origin
      (method git-fetch)
@@ -107895,7 +107895,7 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20261015.936")
+   (version "20261015.1023")
    (source
     (origin
      (method git-fetch)
