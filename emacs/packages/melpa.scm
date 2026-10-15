@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261013.250")
+   (version "20261015.1055")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "956a0be6b56e21b6de47a74a2a52fed0288b2abb")))
-     (sha256 (base32 "0qllzb6qpx912nk2p1jykavrqdvzj7ssf2g1qm2p3702bkapxns7"))))
+           (commit "6c35ec02775e0c1767f1c71ffbc860fe2e222f0b")))
+     (sha256 (base32 "13l5mql4k9s1pd3f4g2mxv959qx5n9yz3zq2x0516m42mfrd0hvq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1877,19 +1877,19 @@
 (define-public emacs-aider
   (package
    (name "emacs-aider")
-   (version "20251201.133")
+   (version "20250506.1333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/aider.el.git")
-           (commit "ac10526c5cfcc2f4288d3539853ff23f4ee7f915")))
-     (sha256 (base32 "1q2wrai0m14d5kspsqhvy1db4ayr7jszs8lhyam9bq9v1zkdg573"))))
+           (commit "0f3e7b0d6ea70f02bcc0356eda3e80ac6acb084c")))
+     (sha256 (base32 "00zbppjvd1ki77cs3gmk9pv8rd9257d9vd4jvrcl6d00cqyvc2xr"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-magit emacs-markdown-mode emacs-s))
+   (propagated-inputs (list emacs-magit emacs-markdown-mode))
    (arguments '(#:files (:defaults "snippets")))
    (home-page "https://github.com/tninja/aider.el")
-   (synopsis "AI assisted programming with Aider and LLM")
+   (synopsis "AI assisted programming in Emacs with Aider")
    (description "Documentation at https://melpa.org/#/aider")
    (license #f)))
 
@@ -5052,14 +5052,14 @@
 (define-public emacs-auto-tab-groups
   (package
    (name "emacs-auto-tab-groups")
-   (version "20260907.933")
+   (version "20261015.711")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MArpogaus/auto-tab-groups.git")
-           (commit "4cdf0f121efe2e32854bb6e198eabb3230906f48")))
-     (sha256 (base32 "13cxaw9721bj0vrccjx9xm6aqa9ymafhngmyvmzqj8w9g0b5rf80"))))
+           (commit "170397f4d10c53f8faf66c6690b5837d24967875")))
+     (sha256 (base32 "1r4h948iq13f3yc2f8kin01s8a89xi36s4j631y22fbrf8aw7qib"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/MArpogaus/auto-tab-groups")
    (synopsis "Simple auto tab group creator for specified commands")
@@ -11360,14 +11360,14 @@
 (define-public emacs-citar
   (package
    (name "emacs-citar")
-   (version "20260922.132")
+   (version "20261015.55")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-citar/citar.git")
-           (commit "5efc5ac78f235cdaafe361758d03c7a51a015dd1")))
-     (sha256 (base32 "1ghd5ddvynqwr71q0bxkamhhlz50vg5i2iva5l8b747f4acajqam"))))
+           (commit "347469e036d3ec15fb7a5a21b0cff6bebf04b661")))
+     (sha256 (base32 "1icy4h2szwxpalrpa1ln7lbbgyy3lfrf900hwm787db1sp9clhl0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-parsebib emacs-citeproc))
    (arguments '(#:files (:defaults (:exclude "citar-embark.el"))))
@@ -32214,14 +32214,14 @@
 (define-public emacs-expenses
   (package
    (name "emacs-expenses")
-   (version "20260824.616")
+   (version "20261015.1004")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/md-arif-shaikh/expenses.git")
-           (commit "a3a67b38aff539818e8a220459519687165bb5da")))
-     (sha256 (base32 "071d3dcav8agwxn27y52czmvzc2szz2wxdmzn253nxw0nn7mv3li"))))
+           (commit "0d20d57d654a561fb842e0b6f57d3e58543dcc49")))
+     (sha256 (base32 "0345f2jvra5ws4zbx892z62m5mj8px5d06gq6xkjy52l77zbffds"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-ht))
    (home-page "https://github.com/md-arif-shaikh/expenses")
@@ -43153,14 +43153,14 @@
 (define-public emacs-gptel-agent-harness
   (package
    (name "emacs-gptel-agent-harness")
-   (version "20261014.1251")
+   (version "20261015.221")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/gptel-agent-harness.git")
-           (commit "e649ed7e063e9e1476c5c3abf7dd826cf22557f9")))
-     (sha256 (base32 "1v6zi4dzlpk01v4jaq5iwybgqb9xsp5300m4gmplg172223g931p"))))
+           (commit "cc2074ab82ff8dfc38ea388610492b14eeea30d9")))
+     (sha256 (base32 "1azyrmgjnr1crd0bsa5c0fpj07hjxaiv8f14aav3dkgdk4snqdhz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-gptel emacs-gptel-agent))
    (arguments '(#:files (:defaults "agents" "prompts")))
@@ -43458,14 +43458,14 @@
 (define-public emacs-graph-fa2
   (package
    (name "emacs-graph-fa2")
-   (version "20260902.1418")
+   (version "20261015.537")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/elij/graph-fa2.git")
-           (commit "09e207210094a297949eaa1729dd1a995cc3d6e7")))
-     (sha256 (base32 "07a8lcjxkn8vky8gzxvf6rhirfiy336aqw3cz9w1fx7cb6lmniia"))))
+           (commit "32040244072200f3a70faad142b98bb88738b1ba")))
+     (sha256 (base32 "12yyxbbxkxrd9rn3796j7ahsyga922n5wacv7wlqnrp8w9mwglk0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/elij/graph-fa2")
    (synopsis "ForceAtlas2 pure-elisp background-cached engine")
@@ -43821,14 +43821,14 @@
 (define-public emacs-grip-mode
   (package
    (name "emacs-grip-mode")
-   (version "20261007.1445")
+   (version "20261015.803")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/grip-mode.git")
-           (commit "f249df1f59866f55620afbf0d7dfb07546ac9a32")))
-     (sha256 (base32 "1g10xnq3c0zpyvahc0m4xivxyvwc4wyzfnlxv4zrb3d5h4dyv5a1"))))
+           (commit "70e3a6e8978a09dfd5d5d5ca675304f5c8993539")))
+     (sha256 (base32 "0sf403d5by96r0yi2fayp9zhsq1f4iyv4a3qlrxaixxjijprb9yq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/seagle0128/grip-mode")
    (synopsis "Instant GitHub-flavored Markdown/Org preview using grip")
@@ -45815,14 +45815,14 @@
 (define-public emacs-helm-core
   (package
    (name "emacs-helm-core")
-   (version "20261007.1124")
+   (version "20261015.1228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm.git")
-           (commit "eb7f3a91146d07c4c06cf7eed5efd4a30c289807")))
-     (sha256 (base32 "0hxk4niy6pgvi4w3cl33iwm2abkjdylnikyis968zf5zmziw06pm"))))
+           (commit "789a3abafc0beb83c375fb780f1de6478dd88af8")))
+     (sha256 (base32 "07c2di1ww5f9w1whag78bbavnhaggw0gnhgf0l4wpx7j3pp8rd7k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (arguments
@@ -49223,14 +49223,14 @@
 (define-public emacs-hl-indent-scope
   (package
    (name "emacs-hl-indent-scope")
-   (version "20260726.536")
+   (version "20261015.624")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-hl-indent-scope.git")
-           (commit "5e0e0d293231169b27c96d13cf2ccdf3b4d01353")))
-     (sha256 (base32 "1rspm3lad3bnchk3378jx13xlzdqjwwwbslsxr6384i8hs0hdq75"))))
+           (commit "944964aaf79c040aa38e662cf2da36839d999774")))
+     (sha256 (base32 "1h9pvd56600in05mdyy2f5bpib000akyy4nh18l1spxg6ymhkjll"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-hl-indent-scope")
    (synopsis "Highlight indentation by scope")
@@ -49449,14 +49449,14 @@
 (define-public emacs-holy-books
   (package
    (name "emacs-holy-books")
-   (version "20211025.127")
+   (version "20261015.356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/holy-books.git")
-           (commit "02c2956d36631d3d8c8b4bacdcf0a5cdd1f3136d")))
-     (sha256 (base32 "011a9wg0b68cf2pcr2w5my4dlawaa9yzz98mnsv71v8ny42rzgs6"))))
+           (commit "4f88779b5beabad81d6b08def3162a83539d9311")))
+     (sha256 (base32 "1ginhmk0aidsrh6bmc9vrxskjr6s4vc9a9nrhwh0ncq45lhs1ym4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash))
    (home-page "https://alhassy.github.io/holy-books/")
@@ -58067,14 +58067,14 @@
 (define-public emacs-latex-to-svg-for-markdown
   (package
    (name "emacs-latex-to-svg-for-markdown")
-   (version "20261014.2006")
+   (version "20261015.707")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "b74cb8a99a49751c2ceb099185b128f6a15c0fe4")))
-     (sha256 (base32 "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"))))
+           (commit "2dda5c546909ea4579d7efec24e372413ab8d3a9")))
+     (sha256 (base32 "0h50s5pxz8v9d323flrkrsqs4grv7ysvb7l6xyds32cfrdhbbdrn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-markdown.el")))
@@ -63251,14 +63251,14 @@
 (define-public emacs-markdown-ts-appear
   (package
    (name "emacs-markdown-ts-appear")
-   (version "20261014.1400")
+   (version "20261015.844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Thysrael/markdown-ts-appear.git")
-           (commit "3ad20271aa39fa664cfe30b53d6a307f347f7073")))
-     (sha256 (base32 "0ccs3krhcnbz784cd20p34mlg4shhkgxpcyv8pdxr33vn8zl9l08"))))
+           (commit "20fb5694ffec23e1b6dfb96cf3a9539ea494b588")))
+     (sha256 (base32 "1yqma93ia1x782q7s1yn2p2xrw6xzdd3vq4l8jfmidqdl13wy2rj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-markdown-table-wrap))
    (home-page "https://github.com/Thysrael/markdown-ts-appear")
@@ -65912,14 +65912,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20261005.1000")
+   (version "20261015.953")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "aedb41742ff326fa4884136300155ca21a0bd628")))
-     (sha256 (base32 "0jwv9k98wj6pdyid9k52w1xsc0mliay455gg7d8fzzjijrdhpjvq"))))
+           (commit "6272f81ae3fee14e267441a14337be45e904adad")))
+     (sha256 (base32 "0z7nnhkax1qzfjwqbgv5dg969hkyy10jg70a88qq79m95qjwmmbz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -75177,14 +75177,14 @@
 (define-public emacs-org-mime
   (package
    (name "emacs-org-mime")
-   (version "20260929.1213")
+   (version "20261015.420")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/org-mime/org-mime.git")
-           (commit "18b421f9a73428a49d9a534d3920e63ca21bea5b")))
-     (sha256 (base32 "0y506lhf940arv2f5xmkwkicl3mpfhxgi0mj3vjid3j0f2ygs0ax"))))
+           (commit "8447fe96f95c17d52e60e0ef14a8ae49e0880dce")))
+     (sha256 (base32 "02qybdsmslpm14hlzcxaan28nfi32j1hkyijxq8w6y0hr1k84zbx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/org-mime/org-mime")
    (synopsis "Org html export for text/html MIME emails")
@@ -76612,17 +76612,16 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261013.1447")
+   (version "20261015.310")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/org-special-block-extras.git")
-           (commit "bf4c16418145761f821089b057ee9ebcfebceffc")))
-     (sha256 (base32 "1fqs2mi1db8y24plaqbk6z337mkh1zbnhza1iii0qc599a3b57s2"))))
+           (commit "4ffb3bcad92ca6d1ae3873f0524f2fa8f91a0055")))
+     (sha256 (base32 "1k98v00xm497gcsgsjnabj1zx9b7n2g8ynb9kwfpgdfmzi70432z"))))
    (build-system melpa-build-system)
-   (propagated-inputs
-    (list emacs-s emacs-dash emacs-lf emacs-dad-joke emacs-lolcat))
+   (propagated-inputs (list emacs-s emacs-dash emacs-lf))
    (home-page "https://alhassy.github.io/org-special-block-extras")
    (synopsis "30 new custom blocks & 34 link types for Org-mode")
    (description
@@ -95044,14 +95043,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20261014.148")
+   (version "20261015.426")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "579d609ecb3e4df695f2c45c9ab47229bab13a2e")))
-     (sha256 (base32 "0azmhfp394p5vr1ah4izvcdjiav830dfz6wl7052c2mfkmmxysf4"))))
+           (commit "73699f4b39b4718eaeeb11677c051e6334cd0d50")))
+     (sha256 (base32 "0gnfwayglaix1yacjryrqcck14aiqd0zyg30168xmnb5lya5bm6s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -107860,14 +107859,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261014.1210")
+   (version "20261015.804")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "f42b4d87a3e9eac9114d8aa52bc721731277904f")))
-     (sha256 (base32 "1c2my7d6jvc45ca177i16h9dxfvvrw654al8ch9ag2xlpdy18z3p"))))
+           (commit "6ae6dd9579016215ee14a6a5d378db9e461a3071")))
+     (sha256 (base32 "1dcg3m84f3xvlz6p4ybfs7lgv5icwd68xdywvzla39a3bhnmn1k1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -107896,14 +107895,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20261014.1400")
+   (version "20261015.936")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "f40c5bc5283755410e0b0320fa34382c50ede758")))
-     (sha256 (base32 "08ywjyvjr4kfs7q5varmfz3z951vr7rd8hjjay69c98vbsvk5izi"))))
+           (commit "74d77d11c11f93745fdf88e3a8d00599aee80960")))
+     (sha256 (base32 "1s9c8pj8616ydwgdcr4giv2h4qd6fqfkyxl9xpcz04i3j3sfkmim"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
