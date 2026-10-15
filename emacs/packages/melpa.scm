@@ -1696,7 +1696,7 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20261014.1332")
+   (version "20261014.1525")
    (source
     (origin
      (method git-fetch)
@@ -50162,54 +50162,16 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20261008.2016")
+   (version "20261014.2135")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "98aed932e8f0dce9678c13892c46821229ef7315")))
-     (sha256 (base32 "076qc3ai3ypbi530106gr67q7x7d40bhs7qmpsh55bvnjnkfk6n5"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hyperbole-"
+           version
+           ".tar"))
+     (sha256 (base32 "0k9w6jf1z232k7xw7b03pgp1ghxj56izay1c63jsw3cmjmfh29al"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      ("*.el"
-       "MANIFEST"
-       "dir"
-       "ChangeLog"
-       "Makefile"
-       "HY-ABOUT"
-       "HY-ANNOUNCE"
-       "HY-CONCEPTS.kotl"
-       "HY-NEWS"
-       "HY-WHY.kotl"
-       "INSTALL"
-       "DEMO"
-       "DEMO-ROLO.otl"
-       "FAST-DEMO"
-       "README.md"
-       "_hypb"
-       ".hypb"
-       "hyrolo.py"
-       "smart-clib-sym"
-       "topwin.py"
-       "hyperbole-banner.png"
-       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
-       ("man"
-        "man/hyperbole.texi"
-        "man/hyperbole.css"
-        "man/hkey-help.txt"
-        "man/hyperbole.info"
-        "man/hyperbole.html"
-        "man/hyperbole.pdf")
-       ("man/im" "man/im/*.png")
-       ("HY-TALK"
-        "HY-TALK/.hypb"
-        "HY-TALK/HYPB"
-        "HY-TALK/HY-TALK.org"
-        "HY-TALK/HYPERAMP.org"
-        "HY-TALK/HYPERORG.org")
-       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -58086,14 +58048,14 @@
 (define-public emacs-latex-to-svg-for-latex
   (package
    (name "emacs-latex-to-svg-for-latex")
-   (version "20261013.618")
+   (version "20261014.2006")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "b9cf5af2471f06e24fb14ca2fefc41fb3a404b5d")))
-     (sha256 (base32 "192k3s3wv0yi05j9jyncvq6cfmacnac1q671mj3fy5zwyz40az6n"))))
+           (commit "b74cb8a99a49751c2ceb099185b128f6a15c0fe4")))
+     (sha256 (base32 "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-latex.el")))
@@ -58105,14 +58067,14 @@
 (define-public emacs-latex-to-svg-for-markdown
   (package
    (name "emacs-latex-to-svg-for-markdown")
-   (version "20261011.1906")
+   (version "20261014.2006")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "cb2be59737281784c242501c9486c742403ab026")))
-     (sha256 (base32 "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"))))
+           (commit "b74cb8a99a49751c2ceb099185b128f6a15c0fe4")))
+     (sha256 (base32 "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-markdown.el")))
@@ -58125,14 +58087,14 @@
 (define-public emacs-latex-to-svg-for-org
   (package
    (name "emacs-latex-to-svg-for-org")
-   (version "20261011.1906")
+   (version "20261014.2006")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "cb2be59737281784c242501c9486c742403ab026")))
-     (sha256 (base32 "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"))))
+           (commit "b74cb8a99a49751c2ceb099185b128f6a15c0fe4")))
+     (sha256 (base32 "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-org.el")))
@@ -58144,14 +58106,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261013.1836")
+   (version "20261014.2006")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "16f8ac99a5b2456442eb5e8cd4100b11a8e4cb58")))
-     (sha256 (base32 "0722k1kzrpyvnf4q3a984aphg8pq5zjyzryflmb17i348phc32ml"))))
+           (commit "b74cb8a99a49751c2ceb099185b128f6a15c0fe4")))
+     (sha256 (base32 "1w1yd327aqp6jyg95wkd2y14nb9igi1z5dy2lmxfylx6ry603f2j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -75110,14 +75072,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20260717.1827")
+   (version "20261014.1800")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "d46c02edbdbd9f070b0492ffbe9f4ceea3322737")))
-     (sha256 (base32 "0z5lrb25gd1yd4amja3izj5qqrh8v8pw7q5qqjz064hxkmi83xmx"))))
+           (commit "31c2a36f00dd5d232b07efa7745a2b387e237b85")))
+     (sha256 (base32 "1lc3ciamv3ncp6ziirm0bw2i4hj35bkh4fhghm7zmknkzmjjgkzx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -104593,14 +104555,14 @@
 (define-public emacs-turtles
   (package
    (name "emacs-turtles")
-   (version "20250315.1650")
+   (version "20261014.1749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/turtles.git")
-           (commit "7dca66a67173c63b27d5c6d8aa3e0248fd7f8b83")))
-     (sha256 (base32 "1p87ll90v30z62a3wqs0s3zyabz4a38p56zkgqx3pxgfk82drzsf"))))
+           (commit "4da375c5dede7e4854302a7d02e3ff77a30d20c2")))
+     (sha256 (base32 "10rkdlhyajcwkpj30v5kixsj8prp611fnsz57v20zbf979mipqfz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/szermatt/turtles")
@@ -107320,14 +107282,14 @@
 (define-public emacs-virtual-comment
   (package
    (name "emacs-virtual-comment")
-   (version "20260926.122")
+   (version "20261014.1659")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/thanhvg/emacs-virtual-comment.git")
-           (commit "3d4d19f464661352e34fd351557c0af9922c1bb2")))
-     (sha256 (base32 "02wj5s8rhan39afynmrr8618qk2i7qk00a78jfg3pxivbca6rkig"))))
+           (commit "5d595844cf0d6c5a48c5039e9f02c6aca2c5acc2")))
+     (sha256 (base32 "07a3kxh0blqhvpsc16pwmdp9wscmskc8hhpjdilbhykhsbwpafl8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/thanhvg/emacs-virtual-comment")
    (synopsis "Virtual Comments")
