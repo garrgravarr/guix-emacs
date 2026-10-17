@@ -6441,14 +6441,14 @@
 (define-public emacs-ben
   (package
    (name "emacs-ben")
-   (version "20261002.756")
+   (version "20261017.1358")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/pastor/ben.el.git")
-           (commit "2b28ee37e55166f903c3c1c2c113f3f2823f718c")))
-     (sha256 (base32 "09506axvks0gzzpr58fd11qc6k3gm8c8vm309dx4miywjzv4vf07"))))
+           (commit "320c03201b8fd764ab0b75b8c0c2830d907b1959")))
+     (sha256 (base32 "0ikc6qv6rhhkjsy393dxsn7zlicxxzqg2nbpvh2135bffr628myn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://codeberg.org/pastor/ben.el")
@@ -24986,14 +24986,14 @@
 (define-public emacs-eglot-python-preset
   (package
    (name "emacs-eglot-python-preset")
-   (version "20260617.148")
+   (version "20261017.1457")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-python-preset.git")
-           (commit "719b3aa8fd47aec6c1c3094e2468f41b9d588b09")))
-     (sha256 (base32 "08y0y1bsbyrlp704ajjkyd0ki8bfpcm9ncb7796fc61ajmz26ak2"))))
+           (commit "7d3df66de4b6dec103546617c02416e7ac4aa828")))
+     (sha256 (base32 "12h4apafyqdqpz31q9nyh6i9mbhaijxvzyhhk47ymvc65q1vr7kv"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
    (home-page "https://github.com/mwolson/eglot-python-preset")
@@ -25040,14 +25040,14 @@
 (define-public emacs-eglot-typescript-preset
   (package
    (name "emacs-eglot-typescript-preset")
-   (version "20260617.128")
+   (version "20261017.1457")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-typescript-preset.git")
-           (commit "cc780650223cf08f2268bca3de16509c61ef885d")))
-     (sha256 (base32 "18vsmjfsa6fm5lsdpfh05gckllppj5b048da04wmvnb2l4xbmsis"))))
+           (commit "85ba68bfbe98dcca0f0a2b1104a2662dae27c650")))
+     (sha256 (base32 "1656qqqyksvnrpanyhbfg4144ig87hc1984bn8mx0sphkizjhp8k"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
    (home-page "https://github.com/mwolson/eglot-typescript-preset")
@@ -32794,14 +32794,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20260929.2315")
+   (version "20261017.928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "ec15bcaaa25edfaac4caceefd6c6ff50af0cee08")))
-     (sha256 (base32 "1mmihrcszv2jyibsvx3mjfi57khw5k9s0spkjcc9aslkandc4af6"))))
+           (commit "82458756502a7d5dd3c8959e53b7f5c57eea7345")))
+     (sha256 (base32 "0mxgyhqfnbzhram09s5r23x6gzx0d5zrhzc9xa468sfaff0gxzak"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -39639,14 +39639,14 @@
 (define-public emacs-geiser
   (package
    (name "emacs-geiser")
-   (version "20260905.2256")
+   (version "20261017.249")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/geiser/geiser.git")
-           (commit "1d7b08e989df3933ea0b4414ebfbdd99c3cc24ed")))
-     (sha256 (base32 "0rp0qs79fsj29zxc74my67ih1qp8zpjp4is20ldhw58idxsiffby"))))
+           (commit "0365a23e2fd090188aad02540b862db372085911")))
+     (sha256 (base32 "1yzg78yai819bjs4ixjy7v8rlyvfhsn7yi67j78a59hqr8b6wmr2"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "doc/dir" "doc/geiser.texi")))
    (home-page "https://gitlab.com/emacs-geiser/")
@@ -63293,14 +63293,14 @@
 (define-public emacs-markdown-ts-appear
   (package
    (name "emacs-markdown-ts-appear")
-   (version "20261016.1821")
+   (version "20261017.1535")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Thysrael/markdown-ts-appear.git")
-           (commit "2e53a9abba5b494231b60b66ee646b171bbb601c")))
-     (sha256 (base32 "0pgnqy4mkvsn4xz12dlvbr2xnqk3jrkg6zgqjjwmswwacrirwdlj"))))
+           (commit "a11f6e9e5da51da8655a0e1339e1ccd11ae71300")))
+     (sha256 (base32 "1wm0lxf0nciw74xnrixfcw1r88l8va1n6s6kg1xnhb6idl910jn8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-markdown-table-wrap))
    (home-page "https://github.com/Thysrael/markdown-ts-appear")
@@ -81861,14 +81861,14 @@
 (define-public emacs-phony
   (package
    (name "emacs-phony")
-   (version "20260630.1002")
+   (version "20261017.1518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ErikPrantare/phony.el.git")
-           (commit "b155ee3686c732cfe02a4bcd5f3e07fdc39dca35")))
-     (sha256 (base32 "058lmswkvx22vlwk149hb3n8wmph9rp18n925ghy46w4qhvqd0s5"))))
+           (commit "ec26a6faa1a31fc12d80e2910305f28f522d171a")))
+     (sha256 (base32 "1r5lfka6nda283n9h47vmxz3r729lykp09nbbad61c5sjw9ag0f5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-simulacrum))
    (home-page "https://github.com/ErikPrantare/phony.el")
@@ -98620,14 +98620,14 @@
 (define-public emacs-string-utils
   (package
    (name "emacs-string-utils")
-   (version "20140508.2041")
+   (version "20261017.1424")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rolandwalker/string-utils.git")
-           (commit "c2232d691617973ecf12a970c6008a161c21da14")))
-     (sha256 (base32 "1frdspm1qgksa8cpx5gkj50xk9mgz8202pgp11lqir6l3yjcj3wq"))))
+           (commit "d9403eeb5b0093f7cb519bf0be42f6b30b894ec0")))
+     (sha256 (base32 "001hc6zaq20wjcrmlqn5sym7gzsrhyqaczxpvxsilvcm92cx3540"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-list-utils))
    (home-page "https://github.com/rolandwalker/string-utils")
@@ -101437,14 +101437,14 @@
 (define-public emacs-test-cockpit
   (package
    (name "emacs-test-cockpit")
-   (version "20261004.2105")
+   (version "20261017.1554")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/test-cockpit.el.git")
-           (commit "a3f7e876cbd719cf393ed7d1ea527caaf57b6a60")))
-     (sha256 (base32 "16rgwlcqd5iysvyq025iakp69z4wnj050x60l9gq4frhibzm9iqg"))))
+           (commit "3bc8478d348e0f72a102c4d7c25de8af3c3728a5")))
+     (sha256 (base32 "0phhf11qyrhpj56p4p6qkbqv3f80fjkfjk6lra1qnd9k46mwppjg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projectile emacs-toml))
    (home-page "https://github.com/johannes-mueller/test-cockpit.el")
@@ -107901,14 +107901,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261017.1157")
+   (version "20261017.1559")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "f14f616bc3ce141a64d8dc604d5625bb0f23e367")))
-     (sha256 (base32 "0xh2mv8d7qgar1hzpx8r6r6wbp0ys65mkqygaz352ri49vkgjzk0"))))
+           (commit "ef758d8ec1769d14fa30b6fe77c6e1afb23ccf05")))
+     (sha256 (base32 "1dhq17320l55vm2ia2xkhmfx8j2iyish62bs1mf809r1g6ngzv3s"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
