@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261017.42")
+   (version "20261018.208")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "63401768b28d956157c4d78dc2be0e2136cc81ce")))
-     (sha256 (base32 "1x6sbkdxxf6z8fcvp5w70a7b8w5l4rw36b8mx4x50xh6l7gg3w8a"))))
+           (commit "3dfa9c43ca23d5cb3c1f6b385110b5fbf70549ab")))
+     (sha256 (base32 "0blk597zgzcn53gd4lnkjfks50a81kqmfa726spw5fbx8v7ynh7w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3278,14 +3278,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20260915.1628")
+   (version "20261017.2152")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "047119b7c6f18ffdbf5f88116a427f7e38653cc6")))
-     (sha256 (base32 "1dpr109rw7cilhq4bkjc5hw2qxzi5ccm7218ia7jp5j72m16cmgi"))))
+           (commit "21e42e64247452d1586294072b0062d60b3b0de2")))
+     (sha256 (base32 "0j6gcyc766z0g0flmzr7csgzgn8c9159f3y28f78fdmja2nc3xgf"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -7181,14 +7181,14 @@
 (define-public emacs-bitbucket-devops
   (package
    (name "emacs-bitbucket-devops")
-   (version "20260829.2005")
+   (version "20261017.1727")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/will-abb/bitbucket-devops.el.git")
-           (commit "f0e3322a2db359b9e82e09f8f55490f251f5d122")))
-     (sha256 (base32 "15masbc3ynrh6ic95sr2i94nvdz9qhkxyligai1v3mi33cql5kp4"))))
+           (commit "763e6c8095e41a259f7f907c3db3886b6719c5d6")))
+     (sha256 (base32 "1xxy7hfaqbnmakj8jnbfjhzz46v4w7sa7qqj6kh082xgk3828cd5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit emacs-markdown-mode emacs-yaml))
    (home-page "https://github.com/will-abb/bitbucket-devops.el")
@@ -21031,14 +21031,14 @@
 (define-public emacs-dired-gitignore
   (package
    (name "emacs-dired-gitignore")
-   (version "20261007.1743")
+   (version "20261017.1549")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/dired-gitignore.el.git")
-           (commit "0c26270f74232645512674a48cf51fa3660c1f8f")))
-     (sha256 (base32 "0a30ab948y1wh97f8wwxlcjswxqfs0k04sargcv2wgp4pghkfifp"))))
+           (commit "87bf4a1818ec402837c7b51a1267f64f686a2bed")))
+     (sha256 (base32 "1d1ngd72zbr8hr6y1bbswjww20fmygwam010vhrjpnnrnyxhas6d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/johannes-mueller/dired-gitignore.el")
    (synopsis "A minor mode to hide gitignored files in a dired buffer")
@@ -24986,14 +24986,14 @@
 (define-public emacs-eglot-python-preset
   (package
    (name "emacs-eglot-python-preset")
-   (version "20261017.1457")
+   (version "20261017.2202")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-python-preset.git")
-           (commit "7d3df66de4b6dec103546617c02416e7ac4aa828")))
-     (sha256 (base32 "12h4apafyqdqpz31q9nyh6i9mbhaijxvzyhhk47ymvc65q1vr7kv"))))
+           (commit "8705fa523e2b92850d399aff0180856f3e63f875")))
+     (sha256 (base32 "1jyq111vs7s6f0lz50m2mklpjs6c2lmz5ak6cv7dhwrfgx768mjz"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
    (home-page "https://github.com/mwolson/eglot-python-preset")
@@ -25040,14 +25040,14 @@
 (define-public emacs-eglot-typescript-preset
   (package
    (name "emacs-eglot-typescript-preset")
-   (version "20261017.1457")
+   (version "20261017.2202")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mwolson/eglot-typescript-preset.git")
-           (commit "85ba68bfbe98dcca0f0a2b1104a2662dae27c650")))
-     (sha256 (base32 "1656qqqyksvnrpanyhbfg4144ig87hc1984bn8mx0sphkizjhp8k"))))
+           (commit "8314dac762d8621eb59293652243c6c8507d6cff")))
+     (sha256 (base32 "0gqsqag6xiydjdxxhjk8nca0728iqb6ngzrgsqnncqg2cj56aj8d"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("templates" "templates/*.tpl.py"))))
    (home-page "https://github.com/mwolson/eglot-typescript-preset")
@@ -25712,14 +25712,14 @@
 (define-public emacs-eldev
   (package
    (name "emacs-eldev")
-   (version "20261016.2103")
+   (version "20261017.1721")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-eldev/eldev.git")
-           (commit "f771fd1722937f9e575f2a3634207b7d4e0dc353")))
-     (sha256 (base32 "1j45zaf1sm7ayf8xafwf85spphwn9fmxcjgqxvqncw2hsbxnab26"))))
+           (commit "5f739885621b4b9f5f58302e02bdff86123eefc5")))
+     (sha256 (base32 "1k2nxpjr9x0qbr3n0kk7cr37q2y0wsw636znkd7wdz7hy429293q"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults ("bin" "bin/*") (:exclude "bin/*.in" "bin/*.part"))))
@@ -39368,14 +39368,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20260908.1021")
+   (version "20261017.1713")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "8d4fd2cf7e58d8055bbcccbeb54c31978f9413bf")))
-     (sha256 (base32 "12a4khdqwgzybf9i1ywl3d5qncfdi4xlapwpc9qvdrcflycv00mh"))))
+           (commit "8afe418c42e42a8f4aff324badc87099e7522497")))
+     (sha256 (base32 "0sq6wlsjmjfkis23l0grr5wcqmbwbf9mljb1mghis13l0s10bg0v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -41502,14 +41502,14 @@
 (define-public emacs-glsl-mode
   (package
    (name "emacs-glsl-mode")
-   (version "20260603.1348")
+   (version "20261017.1608")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jimhourihan/glsl-mode.git")
-           (commit "515a2ba4dab3ec89c83a962902a123ddf81e3cfe")))
-     (sha256 (base32 "1lf2ydjw5vlvn50l0lag0n31zmy3m6wlhih54q05brzaf2m8rrni"))))
+           (commit "854e6e5c9a971634c9d40501b4ef3ca71881739b")))
+     (sha256 (base32 "1y1yp1yhvz8gx7rz0wmi1k3rfgdzskiq3la166blwbhwn2ja58hs"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jimhourihan/glsl-mode")
    (synopsis "Major mode for Open GLSL shader files")
@@ -44189,14 +44189,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261012.1218")
+   (version "20261017.336")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "1e0802cd06f2dc468491f6ccfe1981e865518597")))
-     (sha256 (base32 "08ivlla0dv26lj4jhdjswv2v27gwygmisyf8kffm2zzv7rpzl47y"))))
+           (commit "5979da8ba864301f96760dd945e918e653904815")))
+     (sha256 (base32 "0g6s4kfa44za3173xaz7c2qg7pxl6y6w7sqvw7rlrvjskylw510c"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -86425,14 +86425,14 @@
 (define-public emacs-pyfun-mode
   (package
    (name "emacs-pyfun-mode")
-   (version "20260925.1114")
+   (version "20261018.6")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/simontreanor/Pyfun.git")
-           (commit "59be391dba03987406f2abe61401b631a9fcb4fa")))
-     (sha256 (base32 "1vc64kakj9xcr2wyrqd1l535igy87z0s8qzjnvpwvahg37c32lm6"))))
+           (commit "d6d64e85c0135216508ed2e798613d149ee2cc98")))
+     (sha256 (base32 "0121picqxjhwi5qhx1mmbdsij5hi0gmj3jk5qfb1zxcab37b1qfy"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editors/emacs/pyfun-mode.el")))
    (home-page "https://github.com/simontreanor/Pyfun")
@@ -95085,14 +95085,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20261015.426")
+   (version "20261017.2353")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "73699f4b39b4718eaeeb11677c051e6334cd0d50")))
-     (sha256 (base32 "0gnfwayglaix1yacjryrqcck14aiqd0zyg30168xmnb5lya5bm6s"))))
+           (commit "abaa3d07cc05470ec471511a3626a48d25f198fd")))
+     (sha256 (base32 "0p0kq3nixm0wj7ixwzssb86wl12czzphmn2gz8wgsm0fn6x9psz0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -97934,14 +97934,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20261015.1914")
+   (version "20261017.1814")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "f42ac3c1b222da72a1900665dece8741c425c2ae")))
-     (sha256 (base32 "14kvpz1b40p3gwnw734fsz7and59irgfy516k5fap17ghz4d3b2c"))))
+           (commit "0c2e834dda0f5298747a077734cb9d5281dcef5e")))
+     (sha256 (base32 "1cwv683fjab2hx1vvlxyc8ksy0qzfnpgy4b1jswa2mmjp98bpdkf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -107901,14 +107901,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261017.1559")
+   (version "20261017.2232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "ef758d8ec1769d14fa30b6fe77c6e1afb23ccf05")))
-     (sha256 (base32 "1dhq17320l55vm2ia2xkhmfx8j2iyish62bs1mf809r1g6ngzv3s"))))
+           (commit "8258ebc360e364e3ab7ca37eb976341486f8abae")))
+     (sha256 (base32 "137kkgdw10vjw3b3w0f0yg3q8fdabv8f5dqmpn0jrg3rnywials2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
