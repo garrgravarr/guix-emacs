@@ -1243,14 +1243,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20261010.330")
+   (version "20261018.1243")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "5b3abb2956d16f39ed76bc53fe31d3c2ee7fecfd")))
-     (sha256 (base32 "0y0wmf053pq493dnnz1gkri9zn2wj53ak6m84fnvi5y0zl0d86xx"))))
+           (commit "73940c8905b930b2386c1d2e355cf44c0feabfb2")))
+     (sha256 (base32 "039zqvhd1lhfk3dhnngzzxj439avn7pgh4mpvjy9ichxyyw7gv98"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261018.208")
+   (version "20261018.1349")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "3dfa9c43ca23d5cb3c1f6b385110b5fbf70549ab")))
-     (sha256 (base32 "0blk597zgzcn53gd4lnkjfks50a81kqmfa726spw5fbx8v7ynh7w"))))
+           (commit "1cfb5697e8410485f317967c3c67a05d0eb0645f")))
+     (sha256 (base32 "15lis111mnwkkchi83sd8m6w7zp7ap4s2l8h66rmr0vmicm7qrf2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10334,14 +10334,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20261011.806")
+   (version "20261018.808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "26b00d2b853eaafdaee583313e51cb0267363db7")))
-     (sha256 (base32 "14kp7pjzpcisjzzlzxxjxdh4zgc5s5nc3hp5r39y09qj0syy2dp9"))))
+           (commit "6e00227c58a68bca4347c799cad96b46b1219f48")))
+     (sha256 (base32 "0jxa5d7jgpjqyvbc1arj4g2rqp922875hajc0z32qalrp8gircz9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -12496,14 +12496,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261016.1126")
+   (version "20261018.1421")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "52f93507083decde82535c3554174f6c88f70e6d")))
-     (sha256 (base32 "1lpiblnz35z89g6pmj0yvm8lcx6dvapp08j25s16w65744whc2sq"))))
+           (commit "67796f7baad38d6bcae67ecae77a89861e816bda")))
+     (sha256 (base32 "0in10bf3y4p740jmmag7pxhccvd246kmymi6zkznc30m3lwjnk6d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -17482,23 +17482,6 @@
    (description "Documentation at https://melpa.org/#/csgo-conf-mode")
    (license #f)))
 
-(define-public emacs-csharp-mode
-  (package
-   (name "emacs-csharp-mode")
-   (version "20221126.2005")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/emacs-csharp/csharp-mode.git")
-           (commit "02c61c219b2c22491eff9b7315fed661fab423d4")))
-     (sha256 (base32 "1imx2vzry187lnx0i53y9yd24j5ynb6jzprln3gr2mc0vr6fh3hh"))))
-   (build-system melpa-build-system)
-   (home-page "https://github.com/emacs-csharp/csharp-mode")
-   (synopsis "C# mode derived mode")
-   (description "Documentation at https://melpa.org/#/csharp-mode")
-   (license #f)))
-
 (define-public emacs-csound-mode
   (package
    (name "emacs-csound-mode")
@@ -17888,14 +17871,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261001.1337")
+   (version "20261018.1334")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "d135d0b4159019e42a45a7604f904dee34c6637a")))
-     (sha256 (base32 "1fzd8g769zkhf78371jbs4j0bm5dhiks151b9gz048050vlck1w7"))))
+           (commit "e41318fe636e34a8c0131fa0e8c9f35999fc421c")))
+     (sha256 (base32 "1qd2ybl5755226x4qa0bj250l80c6yw5g8wkdyq4c28rfwjwhgmg"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -20300,25 +20283,6 @@
    (home-page "https://github.com/martenlienen/dictcc.el")
    (synopsis "Look up translations on dict.cc")
    (description "Documentation at https://melpa.org/#/dictcc")
-   (license #f)))
-
-(define-public emacs-dictionary
-  (package
-   (name "emacs-dictionary")
-   (version "20201001.1727")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/myrkr/dictionary-el.git")
-           (commit "bdf0aa7761d1c1a3bc0652b2fdc4a54b3acdb06a")))
-     (sha256 (base32 "1vm9m36ab7hs58xqzr4g8lp2s78qzlcsy57f8yajrhibwfh5jrs6"))))
-   (build-system melpa-build-system)
-   (propagated-inputs (list emacs-connection emacs-link))
-   (arguments '(#:files ("dictionary.el")))
-   (home-page "https://github.com/myrkr/dictionary-el")
-   (synopsis "Client for rfc2229 dictionary servers")
-   (description "Documentation at https://melpa.org/#/dictionary")
    (license #f)))
 
 (define-public emacs-didyoumean
@@ -26649,24 +26613,6 @@
    (description "Documentation at https://melpa.org/#/elixir-mode")
    (license #f)))
 
-(define-public emacs-elixir-ts-mode
-  (package
-   (name "emacs-elixir-ts-mode")
-   (version "20241228.919")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/wkirschbaum/elixir-ts-mode.git")
-           (commit "e518e9a086d3d3c427411fbe3aa22f34c2e85614")))
-     (sha256 (base32 "16sl8il0bhm21lzqkdgkjp1x156n20lck6jnq6c1hs3nscmp8472"))))
-   (build-system melpa-build-system)
-   (propagated-inputs (list emacs-heex-ts-mode))
-   (home-page "https://github.com/wkirschbaum/elixir-ts-mode")
-   (synopsis "Major mode for Elixir with tree-sitter support")
-   (description "Documentation at https://melpa.org/#/elixir-ts-mode")
-   (license #f)))
-
 (define-public emacs-elixir-yasnippets
   (package
    (name "emacs-elixir-yasnippets")
@@ -32669,23 +32615,6 @@
    (description "Documentation at https://melpa.org/#/face-explorer")
    (license #f)))
 
-(define-public emacs-faceup
-  (package
-   (name "emacs-faceup")
-   (version "20170925.1946")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/Lindydancer/faceup.git")
-           (commit "6c92dad56a133e14e7b27831e1bcf9b3a71ff154")))
-     (sha256 (base32 "1yzmy7flrhrh0i10bdszx8idx6r8h6czm4vm4q0z6fp5fw94zwrx"))))
-   (build-system melpa-build-system)
-   (home-page "https://github.com/Lindydancer/faceup")
-   (synopsis "Markup language for faces and font-lock regression testing")
-   (description "Documentation at https://melpa.org/#/faceup")
-   (license #f)))
-
 (define-public emacs-factlog
   (package
    (name "emacs-factlog")
@@ -36736,14 +36665,14 @@
 (define-public emacs-flymake-elisp-config
   (package
    (name "emacs-flymake-elisp-config")
-   (version "20250621.1609")
+   (version "20261018.1557")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ROCKTAKEY/flymake-elisp-config.git")
-           (commit "1f9100e855aff8877c1af111fcdde6968038b4d2")))
-     (sha256 (base32 "1zk1qsgm2zsz1xsxp8xq08m2rprjr2kkahlsz7bay9knwh4v204s"))))
+           (commit "b5a22131c36d71d82da7fc6473a684dae56e4bff")))
+     (sha256 (base32 "1h0n9j1caqxqpdsi8xic8c7l3s3v5r9ysjw0j3669xv0v4q3gzwb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ROCKTAKEY/flymake-elisp-config")
    (synopsis "Setup load-path for flymake on Emacs Lisp mode")
@@ -45047,14 +44976,14 @@
 (define-public emacs-hatty
   (package
    (name "emacs-hatty")
-   (version "20260815.1327")
+   (version "20261018.1309")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ErikPrantare/hatty.el.git")
-           (commit "b13bb27a61cde5ad745bcac0d23a5791100badb9")))
-     (sha256 (base32 "1lginhqg4wsvzxri66lj1sw95fqbb3ymcwpvp85w8fc2qyh0zdd1"))))
+           (commit "65e3548e33e83ed2932733e708ad5f7ae3fe7b8a")))
+     (sha256 (base32 "13l2cii232ds5l0rcbxf25q6zp15q7gfxmx9h5krbrca38rgsszv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ErikPrantare/hatty.el")
    (synopsis "Query positions through hats")
@@ -45214,23 +45143,6 @@
    (home-page "https://github.com/valignatev/heaven-and-hell")
    (synopsis "Easy toggle light/dark themes")
    (description "Documentation at https://melpa.org/#/heaven-and-hell")
-   (license #f)))
-
-(define-public emacs-heex-ts-mode
-  (package
-   (name "emacs-heex-ts-mode")
-   (version "20250511.643")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/wkirschbaum/heex-ts-mode.git")
-           (commit "7496adcad0339978ef462b92160b6d40c3595841")))
-     (sha256 (base32 "1aam3h468ci8cpf1hpzlk02wgm3dj5m8rlf6hiy68sl2m6ad08pr"))))
-   (build-system melpa-build-system)
-   (home-page "https://github.com/wkirschbaum/elixir-ts-mode")
-   (synopsis "Major mode for Heex with tree-sitter support")
-   (description "Documentation at https://melpa.org/#/heex-ts-mode")
    (license #f)))
 
 (define-public emacs-hel
@@ -58031,14 +57943,14 @@
 (define-public emacs-latex-to-svg-backend
   (package
    (name "emacs-latex-to-svg-backend")
-   (version "20261014.1334")
+   (version "20261018.1615")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg-backend.git")
-           (commit "d67a23e18008719a0677ce964cd60422874bb00d")))
-     (sha256 (base32 "178z9hlq8xfzjghvg0y9kfrkcwggcbsj1mih8y1pnixryxpzvzgv"))))
+           (commit "ac7b671610bbb64b0641d508741f107e7ff425a6")))
+     (sha256 (base32 "14jm55gzx3844j226vg624skgc0m7ql9snbzbcdrr1zbgwlszz2h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alberti42/latex-to-svg-backend")
    (synopsis "LaTeX-to-SVG rendering backend with caching")
@@ -58048,14 +57960,14 @@
 (define-public emacs-latex-to-svg-for-latex
   (package
    (name "emacs-latex-to-svg-for-latex")
-   (version "20261018.1141")
+   (version "20261018.1317")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "52bb011a2ad9cd5a408a9d7f2569c3a82938ea9f")))
-     (sha256 (base32 "15kpfnpyg3wccacla322smx5ghn2vyf2dzkjhdc8zl32719jy6s6"))))
+           (commit "5368c0dad8dbc0f76af313c86644f3b810ce6b5f")))
+     (sha256 (base32 "1jary9gzclz85jx4897j80bc9mci0pwwrs3alnk3h6q572wz3pff"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-latex.el")))
@@ -58067,14 +57979,14 @@
 (define-public emacs-latex-to-svg-for-markdown
   (package
    (name "emacs-latex-to-svg-for-markdown")
-   (version "20261018.1141")
+   (version "20261018.1423")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "52bb011a2ad9cd5a408a9d7f2569c3a82938ea9f")))
-     (sha256 (base32 "15kpfnpyg3wccacla322smx5ghn2vyf2dzkjhdc8zl32719jy6s6"))))
+           (commit "5368c0dad8dbc0f76af313c86644f3b810ce6b5f")))
+     (sha256 (base32 "1jary9gzclz85jx4897j80bc9mci0pwwrs3alnk3h6q572wz3pff"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-markdown.el")))
@@ -58106,14 +58018,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261018.1141")
+   (version "20261018.1403")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "52bb011a2ad9cd5a408a9d7f2569c3a82938ea9f")))
-     (sha256 (base32 "15kpfnpyg3wccacla322smx5ghn2vyf2dzkjhdc8zl32719jy6s6"))))
+           (commit "5368c0dad8dbc0f76af313c86644f3b810ce6b5f")))
+     (sha256 (base32 "1jary9gzclz85jx4897j80bc9mci0pwwrs3alnk3h6q572wz3pff"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -58738,23 +58650,6 @@
    (home-page "https://github.com/drghirlanda/lesim-mode")
    (synopsis "Major mode for Learning Simulator scripts")
    (description "Documentation at https://melpa.org/#/lesim-mode")
-   (license #f)))
-
-(define-public emacs-less-css-mode
-  (package
-   (name "emacs-less-css-mode")
-   (version "20161001.453")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/purcell/less-css-mode.git")
-           (commit "c78b88ff9af245daf05d45f5adf4befc11c1d4ef")))
-     (sha256 (base32 "1ghg4mhz23wya3iwb927173l3acal7xg16cs89mgrbcx7ixd8x7c"))))
-   (build-system melpa-build-system)
-   (home-page "https://github.com/purcell/less-css-mode")
-   (synopsis "Major mode for editing LESS CSS files (lesscss.org)")
-   (description "Documentation at https://melpa.org/#/less-css-mode")
    (license #f)))
 
 (define-public emacs-let-completion
@@ -61019,14 +60914,14 @@
 (define-public emacs-lsp-latex
   (package
    (name "emacs-lsp-latex")
-   (version "20251104.1507")
+   (version "20261018.1603")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ROCKTAKEY/lsp-latex.git")
-           (commit "a9ac457141f0aa15505b61ded3f12d0ad477b771")))
-     (sha256 (base32 "006a0z98flc3ygx4a5xw8ip5s27n5x7sclqf1cr28f46c0ngra6l"))))
+           (commit "e57cf3a2330fd05a906b2b7ad74972ce0642d284")))
+     (sha256 (base32 "05rz6d3bwfwvw4hs6rqz08d06l6gk0z88216fhshilphfla77ngh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode emacs-consult))
    (home-page "https://github.com/ROCKTAKEY/lsp-latex")
@@ -76611,18 +76506,18 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261018.1201")
+   (version "20261018.1246")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/org-special-block-extras.git")
-           (commit "7c1d1b504b028abfce6d90acfe58c1a447b05cc9")))
-     (sha256 (base32 "174j0zs1m61jdzgh0gqfbschgbf41vfhj7ghz7qckzfadzl3a53n"))))
+           (commit "2025efaa6f23051084730db70ae1a47815a90d75")))
+     (sha256 (base32 "1b606z223xa940s6n3cdj31sqzanjjx1g6c0q7q4sb1l35vxv831"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-lf))
    (home-page "https://alhassy.com/org-special-block-extras")
-   (synopsis "46 new custom blocks & 57 link types for Org-mode")
+   (synopsis "46 new custom blocks & 56 link types for Org-mode")
    (description
     "Documentation at https://melpa.org/#/org-special-block-extras")
    (license #f)))
@@ -98577,14 +98472,14 @@
 (define-public emacs-string-utils
   (package
    (name "emacs-string-utils")
-   (version "20261017.1424")
+   (version "20261018.1641")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rolandwalker/string-utils.git")
-           (commit "d9403eeb5b0093f7cb519bf0be42f6b30b894ec0")))
-     (sha256 (base32 "001hc6zaq20wjcrmlqn5sym7gzsrhyqaczxpvxsilvcm92cx3540"))))
+           (commit "9a804861bf93fb5fe6bd8020afa68b15ea02003a")))
+     (sha256 (base32 "0fxn7lqsjd108p4k64hd1dbpdx4hq4c53kls5893al8kpbavy442"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-list-utils))
    (home-page "https://github.com/rolandwalker/string-utils")
@@ -105181,7 +105076,7 @@
 (define-public emacs-undo-fu
   (package
    (name "emacs-undo-fu")
-   (version "20261018.526")
+   (version "20261018.913")
    (source
     (origin
      (method git-fetch)
@@ -107858,14 +107753,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261017.2232")
+   (version "20261018.1556")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "8258ebc360e364e3ab7ca37eb976341486f8abae")))
-     (sha256 (base32 "137kkgdw10vjw3b3w0f0yg3q8fdabv8f5dqmpn0jrg3rnywials2"))))
+           (commit "c518c65d60ae244ea0f8a7a492f619f20b2a7c9a")))
+     (sha256 (base32 "0bdgpmyvxczy572ly0r2n61yynv0b4vmzvghr7j60wgqpfpbhir1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -108192,23 +108087,6 @@
    (home-page "https://github.com/chenyanming/wallabag.el")
    (synopsis "Save and manage articles with wallabag")
    (description "Documentation at https://melpa.org/#/wallabag")
-   (license #f)))
-
-(define-public emacs-wallpaper
-  (package
-   (name "emacs-wallpaper")
-   (version "20201019.2123")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/farlado/emacs-wallpaper.git")
-           (commit "cc0101726dd2fa2b4eda06924c7abfae54f663e2")))
-     (sha256 (base32 "0k6jysr9sdz3x8h0pslpssjr23hwp358472vmgd2jmfzvjk3m21i"))))
-   (build-system melpa-build-system)
-   (home-page "https://github.com/farlado/emacs-wallpaper")
-   (synopsis "Setting the wallpaper")
-   (description "Documentation at https://melpa.org/#/wallpaper")
    (license #f)))
 
 (define-public emacs-wallpreview
@@ -109048,23 +108926,6 @@
    (home-page "http://barbarito.me/")
    (synopsis "Random commit message generator")
    (description "Documentation at https://melpa.org/#/what-the-commit")
-   (license #f)))
-
-(define-public emacs-which-key
-  (package
-   (name "emacs-which-key")
-   (version "20240620.2145")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/justbur/emacs-which-key.git")
-           (commit "38d4308d1143b61e4004b6e7a940686784e51500")))
-     (sha256 (base32 "08mdlchrbgm4b9jrhmdcg9ll3krgb4f4m77bw462yjjfxpk3hkkw"))))
-   (build-system melpa-build-system)
-   (home-page "https://github.com/justbur/emacs-which-key")
-   (synopsis "Display available keybindings in popup")
-   (description "Documentation at https://melpa.org/#/which-key")
    (license #f)))
 
 (define-public emacs-which-key-posframe
