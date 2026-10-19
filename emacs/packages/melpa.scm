@@ -24197,14 +24197,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20261014.1646")
+   (version "20261019.1547")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "d016aa56ce53c8cec3d67c1efe6346b5b53a7163")))
-     (sha256 (base32 "1affnrz1f925rakbzzijka9p5iw6if7dpyk7rsfrzh11c95grbgk"))))
+           (commit "a9e9edaa98b10df2aad94c7f77bdd3e397ee8f43")))
+     (sha256 (base32 "0azvqvn284pgf216q3dagfh89bzg6d3qnjc7lsgafzgi0bmfx52m"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -61833,14 +61833,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261018.1900")
+   (version "20261019.1743")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "fade602ed5621094402cab2068979164362ae6d4")))
-     (sha256 (base32 "1wci1rq4q6hhx9hhjmfzq9q0kxfv6p2a3g4adlqwf9jnwvklzmg6"))))
+           (commit "1760a5281d09c0a79a363915231ccdb7a4c7cb1d")))
+     (sha256 (base32 "117gs1bbnn41br4vhzvqfd4sm67l5kxv1xg99ngqvgsc636hrj7f"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -72458,14 +72458,14 @@
 (define-public emacs-ollama-buddy
   (package
    (name "emacs-ollama-buddy")
-   (version "20260715.1551")
+   (version "20261019.1424")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/ollama-buddy.git")
-           (commit "12eaf7f27904f39194ef248246794bd0916cf982")))
-     (sha256 (base32 "1ymvfnh1qwv96zvy4kprrxdg7lz7gymh6hjln5drk9qf9jc2rbrx"))))
+           (commit "20121360ea56a5422c530e8a439e48c1bc761d44")))
+     (sha256 (base32 "1cmmhw8ya3rw2zlcaygsfz300y1658w3zfwlw3kgkackar54k1x9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/ollama-buddy")
    (synopsis "Friendly AI assistant for Ollama and cloud LLMs")
@@ -76555,14 +76555,14 @@
 (define-public emacs-org-social
   (package
    (name "emacs-org-social")
-   (version "20260923.849")
+   (version "20261019.1359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/org-social/org-social.el.git")
-           (commit "1037ec1b03d3afbb418bec7aa3e21d2b10a1bbba")))
-     (sha256 (base32 "1hbyd307kav467l32262hmaillf49jfxcqbzzzjw9g2mllzlcvkh"))))
+           (commit "5883d53646faeb048d91ce052d15bcdde50d5f1a")))
+     (sha256 (base32 "1izl010rlm7pmhz5xlzmpr2gf7731c7kx228s9cg6ilbyi5m7c3x"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-request emacs-emojify emacs-async-http-queue))
@@ -76576,14 +76576,14 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261019.247")
+   (version "20261019.1630")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/org-special-block-extras.git")
-           (commit "dc2a1b8fbe1806bca5317ac2b4cc1ddb2210d85d")))
-     (sha256 (base32 "1gfx200kl9yvzspiskx81w209bfb5smwbp4vb5qylb1ksj56kxqx"))))
+           (commit "2f772097f1ba35c1ca9b463183f2efe009109f5b")))
+     (sha256 (base32 "04vmyl07n2m83w0phmckn43cxq7cixhzls5mahahr30zh24jdy1a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-lf))
    (home-page "https://alhassy.com/org-special-block-extras")
@@ -101844,14 +101844,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20261012.1345")
+   (version "20261019.1311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "b70896739a0daec731de08f672a5e2558be1a96d")))
-     (sha256 (base32 "1x0nlzk0v51vx1wwfv9fdkss721m1pb6q3m8k4gd0a3w841qjync"))))
+           (commit "75e0607962dd19e0baadb87d8f41524c374c471f")))
+     (sha256 (base32 "0ki4pwayz9y17ism5zip9dsc4cbx8dzbr4bzvvpqnzbiw2wl2zs7"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -107858,14 +107858,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261019.1205")
+   (version "20261019.1551")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "49cbd91f2b1e7180ef1f20da868ae18d00bc980e")))
-     (sha256 (base32 "1i7ydyj2iimcgyvf97f9jc2j6wvcgrgisjqivp8pky339s7j28xz"))))
+           (commit "f9278ae923b0673924859366ba9d7f76427d40cb")))
+     (sha256 (base32 "0pi1i0dgf299hw94rcvryh0v8ygww0jyvw1lay25flb01j8dq5n8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
