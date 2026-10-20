@@ -15006,14 +15006,14 @@
 (define-public emacs-compiler-explorer
   (package
    (name "emacs-compiler-explorer")
-   (version "20261008.1016")
+   (version "20261019.2114")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mkcms/compiler-explorer.el.git")
-           (commit "3d85bb87d7b1ac3f942a5eaea82d6a0ab8853dcc")))
-     (sha256 (base32 "0qwyxknzr8rfqman5zxndvh1x6jabld4s32zzj23z5d634p76v35"))))
+           (commit "5455b3757a837a3c87c20001c580e0187dbfffbd")))
+     (sha256 (base32 "0bvm6qqfpd46y4k225c9lg42vz74vzqgw3b5smrqwhjhzggrc681"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz))
    (home-page "https://github.com/mkcms/compiler-explorer.el")
@@ -24197,14 +24197,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20261019.1547")
+   (version "20261019.2222")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "a9e9edaa98b10df2aad94c7f77bdd3e397ee8f43")))
-     (sha256 (base32 "0azvqvn284pgf216q3dagfh89bzg6d3qnjc7lsgafzgi0bmfx52m"))))
+           (commit "976b765252d124af33be4d147638cc371b2f120a")))
+     (sha256 (base32 "0nmb0id2v80hmi1bn2qp810xjfs1b86lnssh08m8q2iqhs8phl7i"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -32758,14 +32758,14 @@
 (define-public emacs-fancy-fill-paragraph
   (package
    (name "emacs-fancy-fill-paragraph")
-   (version "20261017.928")
+   (version "20261019.950")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph.git")
-           (commit "82458756502a7d5dd3c8959e53b7f5c57eea7345")))
-     (sha256 (base32 "0mxgyhqfnbzhram09s5r23x6gzx0d5zrhzc9xa468sfaff0gxzak"))))
+           (commit "4c0287a180656671792b77091e1803f22e43a7a7")))
+     (sha256 (base32 "1rgcx0z8azszzwkx6va2kp3pn7ngwmb4mx0xa28546wbmrqpnrid"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-fancy-fill-paragraph")
    (synopsis "Fancy paragraph fill")
@@ -34044,14 +34044,14 @@
 (define-public emacs-flatui-dark-theme
   (package
    (name "emacs-flatui-dark-theme")
-   (version "20170513.1422")
+   (version "20261019.2101")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/theasp/flatui-dark-theme.git")
-           (commit "5b959a9f743f891e4660b1b432086417947872ea")))
-     (sha256 (base32 "0nz4ql7qf49cwsgjb7dg0jhipr5d472r4fddy6fhr1h17s1cd9qy"))))
+           (commit "3cf2c1dbe107f0de8aaac8c7290a89d376b6056a")))
+     (sha256 (base32 "1nc872ylb40107n86cj972w4bvw9f6za9jp7h4z4w62p96dpysyp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/theasp/flatui-dark-theme")
    (synopsis "Dark color theme with colors from https://flatuicolors.com/")
@@ -61833,14 +61833,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261019.1743")
+   (version "20261019.2143")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "1760a5281d09c0a79a363915231ccdb7a4c7cb1d")))
-     (sha256 (base32 "117gs1bbnn41br4vhzvqfd4sm67l5kxv1xg99ngqvgsc636hrj7f"))))
+           (commit "d745ed24aa1c0b1fbc104a1d26ca609541ab9ed9")))
+     (sha256 (base32 "18rpids9hbj4zsdwq0qvacb94dpfvnix7jmg051nywfqrvk5764p"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -76576,7 +76576,7 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261019.1630")
+   (version "20261019.1948")
    (source
     (origin
      (method git-fetch)
@@ -81783,14 +81783,14 @@
 (define-public emacs-phony
   (package
    (name "emacs-phony")
-   (version "20261017.1518")
+   (version "20261020.22")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ErikPrantare/phony.el.git")
-           (commit "ec26a6faa1a31fc12d80e2910305f28f522d171a")))
-     (sha256 (base32 "1r5lfka6nda283n9h47vmxz3r729lykp09nbbad61c5sjw9ag0f5"))))
+           (commit "0cdf57b3b7fd9ba083cd2150078f79d74bf199af")))
+     (sha256 (base32 "0ajyqkjazv3bavxvfwds5c13fwmzq82d2i8n0nivvs865i6mpnl6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-simulacrum))
    (home-page "https://github.com/ErikPrantare/phony.el")
@@ -89189,14 +89189,14 @@
 (define-public emacs-remoto
   (package
    (name "emacs-remoto")
-   (version "20261016.2246")
+   (version "20261019.2244")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/remoto.el.git")
-           (commit "914046738749c0ffd5a2ca18986809b616cac45b")))
-     (sha256 (base32 "1hs9rv8x6s5sbjhxs9mh58gr9hs4252xvfnf73vc28gjbd1660z6"))))
+           (commit "524fd13f1160d75ce83a018ae0f72289f97f7068")))
+     (sha256 (base32 "07dn7vyax2mmy67bs3mlrvczcawbigdhia5smvaj9xrsjz7a0410"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ghub))
    (home-page "https://github.com/agzam/remoto.el")
@@ -98594,14 +98594,14 @@
 (define-public emacs-stripspace
   (package
    (name "emacs-stripspace")
-   (version "20261006.1349")
+   (version "20261019.2035")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/stripspace.el.git")
-           (commit "3c720ff4b674bb4b489f993f8e0681d1ffbbab8c")))
-     (sha256 (base32 "1hls9wm6n9p92bhsbd52nca2jycy0yx2fj22hv8sdacclpd1i0xv"))))
+           (commit "d51aa55f2388264fe582136643f9deec76cfe364")))
+     (sha256 (base32 "0l5xzj9sx666wnsvjxw9759rb9xx35rs7hnnay5f35qcjawyf2p0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/stripspace.el")
    (synopsis "Auto remove trailing whitespace and restore column")
@@ -105181,14 +105181,14 @@
 (define-public emacs-undo-fu
   (package
    (name "emacs-undo-fu")
-   (version "20261018.526")
+   (version "20261018.913")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-undo-fu.git")
-           (commit "81cf03e81775a67a1386fd51bca7414508ff9c22")))
-     (sha256 (base32 "10wzxai71vnwicwdnqsxfq036ffcwvabzzpyyyj4jbp0pbrfkc86"))))
+           (commit "cf9a342972237d8a25fb7ba9418ec659a4273115")))
+     (sha256 (base32 "0k9wnjnmb51laspn0zvni4y8xd4ifjlyvmgxl74k18g8wa58f0jv"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-undo-fu")
    (synopsis "Undo helper with redo")
@@ -107858,14 +107858,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261019.1551")
+   (version "20261019.2354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "f9278ae923b0673924859366ba9d7f76427d40cb")))
-     (sha256 (base32 "0pi1i0dgf299hw94rcvryh0v8ygww0jyvw1lay25flb01j8dq5n8"))))
+           (commit "2529f0370de45e6ecb87192cd8c6a789381d0daf")))
+     (sha256 (base32 "0p0hamw6s190220kvfhfhbdhgj22fvw79yg14bwwr38fwdm45a5w"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
