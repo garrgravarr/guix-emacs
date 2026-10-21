@@ -7903,14 +7903,14 @@
 (define-public emacs-borg
   (package
    (name "emacs-borg")
-   (version "20261001.1635")
+   (version "20261021.806")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/borg.git")
-           (commit "04ca0586896d2ccc2feae28c95b59dba8af31c00")))
-     (sha256 (base32 "0fdaqg0y59nqa95m1p3vwbxvzibw9x157y20d3v2x6igs183v6r5"))))
+           (commit "b0e0f5235011b94f74f96dc9667e25924ee2a3b1")))
+     (sha256 (base32 "05rf3rpaa4ji7865s9dgrsz9gl16dkdn6jq2yp9i4d4sgmv1fczl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-epkg emacs-magit))
    (arguments '(#:files (:defaults "borg.mk")))
@@ -12427,14 +12427,14 @@
 (define-public emacs-closql
   (package
    (name "emacs-closql")
-   (version "20261001.1545")
+   (version "20261021.848")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/closql.git")
-           (commit "48955ae02cfc7dad93b6bdc9ffd8d4b760dfb62b")))
-     (sha256 (base32 "04ii0q6qyfwdz34hplwaw14zvfb92vgycgs9b3m04wammfylx1kz"))))
+           (commit "5422039720c55b69a762947d926ebdf4f0781c6c")))
+     (sha256 (base32 "033zlsp05pny6phqkl65f7lfwvdvbrbdyihsda62310m5jc4pikq"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-emacsql emacs-llama))
@@ -22593,14 +22593,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20261020.1002")
+   (version "20261021.1048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "f7b1da5d63388a78963a437246096f594143c244")))
-     (sha256 (base32 "082b6ij9if17r5h58mbhhnjrx1q1al95n5w5vymvxp8ym6s180mv"))))
+           (commit "11f09c58016b2219d3ebd8af078ae78d775f06ec")))
+     (sha256 (base32 "17d0w9q17vir5hs1xjqsb7256cdcgy4ghwlidh3xnal4hfj2q7b9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -28362,14 +28362,14 @@
 (define-public emacs-epkg
   (package
    (name "emacs-epkg")
-   (version "20261001.1610")
+   (version "20261021.853")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacscollective/epkg.git")
-           (commit "cb4225846daaf809ea904b575eb4fe177e9cf71b")))
-     (sha256 (base32 "1amvbpmbna1mpjgjk7fd6nz8prl5d7x1lpxfq6ai7h6mc11xv91a"))))
+           (commit "05358ce16c7e7f60bd307ee14078b32408c40e44")))
+     (sha256 (base32 "0xkx42gmadb3fgsx85lqgfda40ddbj7zynmiam0401dzc4hypmnq"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-closql emacs-cond-let emacs-emacsql emacs-llama))
@@ -57996,14 +57996,14 @@
 (define-public emacs-latex-to-svg-backend
   (package
    (name "emacs-latex-to-svg-backend")
-   (version "20261020.1833")
+   (version "20261021.937")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg-backend.git")
-           (commit "0b8e4ed975d89135c0467c64270cdd39b256a527")))
-     (sha256 (base32 "160vz1c9km80p2ajv5dgjd5cnw9gjm0v6khj6baq3xwa7hq4h0ss"))))
+           (commit "4b5d30a94ff951d7d1294ae379a7133daa65f771")))
+     (sha256 (base32 "07d3jyzbvwvwwmz35z7y4rgy0fcr77wb23p4z8d50gzlnrmyhc0x"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alberti42/latex-to-svg-backend")
    (synopsis "LaTeX-to-SVG rendering backend with caching")
@@ -75142,14 +75142,14 @@
 (define-public emacs-org-mime
   (package
    (name "emacs-org-mime")
-   (version "20261015.420")
+   (version "20261021.516")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/org-mime/org-mime.git")
-           (commit "8447fe96f95c17d52e60e0ef14a8ae49e0880dce")))
-     (sha256 (base32 "02qybdsmslpm14hlzcxaan28nfi32j1hkyijxq8w6y0hr1k84zbx"))))
+           (commit "1073e4fbed1afa99e4c1aad6940b90dcf198df64")))
+     (sha256 (base32 "1bv3k3dxs9hkga30r2bdwachilybj0ww1rlc1ck3bliaq2vm0sdk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/org-mime/org-mime")
    (synopsis "Org html export for text/html MIME emails")
@@ -76434,14 +76434,14 @@
 (define-public emacs-org-semantic
   (package
    (name "emacs-org-semantic")
-   (version "20261018.1855")
+   (version "20261021.1032")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/org-semantic.git")
-           (commit "53e478004d193d5d3497b58081391377785de831")))
-     (sha256 (base32 "1mhgzvmllin7ggjcmz8rql7wifdmysqmakhsr3ks89jc18s030bl"))))
+           (commit "d3615d30296831646ff019952a2cbddbf35d4836")))
+     (sha256 (base32 "1y663px52ag67bzvjk5hr9lds2825sqnsm8crblm6bjyxbna51cj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alberti42/org-semantic")
    (synopsis "Search org notes by meaning, or by word")
@@ -81801,14 +81801,14 @@
 (define-public emacs-phony
   (package
    (name "emacs-phony")
-   (version "20261020.22")
+   (version "20261021.1100")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ErikPrantare/phony.el.git")
-           (commit "0cdf57b3b7fd9ba083cd2150078f79d74bf199af")))
-     (sha256 (base32 "0ajyqkjazv3bavxvfwds5c13fwmzq82d2i8n0nivvs865i6mpnl6"))))
+           (commit "3a4625225fd710d31d9e90affcd77a7325864365")))
+     (sha256 (base32 "0ivydwyfv4izh3b2b02xh64j4wln6im659bjs1jfr99b8racw4r5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-simulacrum))
    (home-page "https://github.com/ErikPrantare/phony.el")
@@ -83899,14 +83899,14 @@
 (define-public emacs-posframe
   (package
    (name "emacs-posframe")
-   (version "20261019.601")
+   (version "20261021.935")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tumashu/posframe.git")
-           (commit "9a0ff305c528b8dde37c3962db4c65c0199903a6")))
-     (sha256 (base32 "1wc0xm7q8hx160l3w8ma9qw3yvrwc6wq5iig7njq205rd7ygg6km"))))
+           (commit "1a6a25c58559ef43821a071c43b23de5cbc3cc3a")))
+     (sha256 (base32 "0ppcjvhr40fpn5dj8xap3prm024slmpw405ahxa5lpirif22xnx7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tumashu/posframe")
    (synopsis "Pop a posframe (just a frame) at point")
@@ -89207,14 +89207,14 @@
 (define-public emacs-remoto
   (package
    (name "emacs-remoto")
-   (version "20261020.1615")
+   (version "20261021.328")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/remoto.el.git")
-           (commit "ceaf310e12bdda479694f619264c637f81beb129")))
-     (sha256 (base32 "045dxpxdkbh1jkbsri448rba1zsq2x3h3lajasgr9nspf36yiady"))))
+           (commit "ced1c937d35201e2750b95910defa8e83c0891e2")))
+     (sha256 (base32 "10d9n0wqwbcv8w91cgi2cfrljgjmnd8bx398148y9cprmy6psicp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ghub))
    (home-page "https://github.com/agzam/remoto.el")
@@ -110415,14 +110415,14 @@
 (define-public emacs-x509-mode
   (package
    (name "emacs-x509-mode")
-   (version "20261013.657")
+   (version "20261021.728")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jobbflykt/x509-mode.git")
-           (commit "376ee4f294bc4b9013bb781804471b2c6fda5a18")))
-     (sha256 (base32 "1vw0gaw01glnrp11ywar0c03ygln4wfgmskdp7jhakbwzfkj95b9"))))
+           (commit "c34975bbe74b6489266d7568b3faec98d5a4d238")))
+     (sha256 (base32 "1mifv62dfmwpqjq3naq8n9b06h59f0m5da9r1qv8n55zip5iswdh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "*.txt")))
