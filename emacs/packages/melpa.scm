@@ -1714,14 +1714,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20261020.609")
+   (version "20261020.2037")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "288dc041f2d9ca986c8899cf99d016b883888801")))
-     (sha256 (base32 "1s6zhza1bsqwj52lx7i6lfzhznc93jmc0b8sy08hpjiyf1k2h9z7"))))
+           (commit "974322dfd058c8e2baf4b6c1b996c015375b48f9")))
+     (sha256 (base32 "1b3v3as91wrd3c8jl7c9xvv18d866plqgy85fhharlr24l9qjdv9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -1875,14 +1875,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261014.1558")
+   (version "20261020.2333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "71c440e5ab1c6cbeb6e008db15bcd7520d079b7f")))
-     (sha256 (base32 "0q5p69hg2p4gyhn01j3kswgarzzs5jks1ggv1cbhvbgnl8ggbg1f"))))
+           (commit "9c0b2cbc3a1db5cbc6e03fc2575feaaffb23caef")))
+     (sha256 (base32 "1zqmlk9kzsmlay7830h5qv7gwv2hlcj91py67mdzd983x8wiscc4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -12514,14 +12514,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261020.1055")
+   (version "20261021.246")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "cd2fe561d07fb72e89ccd01cad1341b9e5e689ac")))
-     (sha256 (base32 "0fa88jilwiwcy7xin41iag0yw2xhqm0315lysga8kmxzmbj0x3sn"))))
+           (commit "f29ce7a025524046500643ed65c1527b45d5342b")))
+     (sha256 (base32 "0qgyamqs2ba7mj3wmaxwaqjsfmnm23ay1sjxfyvg6wwymk93lhll"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -13575,14 +13575,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20261020.224")
+   (version "20261021.155")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "8be2cac7ba975cd7ee8e758f2432e1ae7e5fb15c")))
-     (sha256 (base32 "0pnk3w6jv8ql46cnkg1a4528602c49ff9qar1bdnqdk3jivclfzk"))))
+           (commit "e50ea7a3222020cef8e7f320f9870bb20c61e451")))
+     (sha256 (base32 "05y09bhhi4b54mzc0s6llbqdpijnnp0w9q6br8chl59l7x1p1zii"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -24197,14 +24197,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20261020.1811")
+   (version "20261021.19")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "ac605f305315b79e7680f939de900117cb8544ce")))
-     (sha256 (base32 "0wpxbifipydr0abwnrp82i68yfkhmcz4g5m2wi1b3gdgbl9p6v37"))))
+           (commit "561535c60fe18abe23f16c04e08a5052095af9a4")))
+     (sha256 (base32 "1bb3x7f82zw5z5aqzgyski3jazvz3snwrz84zx79dxibvzrgwwf1"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -30094,14 +30094,14 @@
 (define-public emacs-ethan-wspace
   (package
    (name "emacs-ethan-wspace")
-   (version "20201106.2059")
+   (version "20261021.234")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/glasserc/ethan-wspace.git")
-           (commit "d205f7781f18f6746d50e562dc5e3595189ccd64")))
-     (sha256 (base32 "0979lmrfx2wzv35l4wjw6xk6wipankpqyr2xsss0qvi24dddmm7g"))))
+           (commit "9e34a9d6c5dada2b67552b60f9f2eaa7465589f4")))
+     (sha256 (base32 "0k3nl3gp3h12dnmqcma02xcp2lp1q15pkh38j3pyr5jlshq0lv8g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/glasserc/ethan-wspace")
    (synopsis "Whitespace customizations for emacs")
@@ -38256,7 +38256,7 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20261020.1716")
+   (version "20261020.1944")
    (source
     (origin
      (method git-fetch)
@@ -43135,14 +43135,14 @@
 (define-public emacs-gptel-agent-harness
   (package
    (name "emacs-gptel-agent-harness")
-   (version "20261020.1209")
+   (version "20261021.305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/beacoder/gptel-agent-harness.git")
-           (commit "7ed559b64f10321e6bc1e3707ef239aecc558ee3")))
-     (sha256 (base32 "1f598g25321rd1vynd7a92zk99zk1zfqy0vl3hclbqqxs70x25lf"))))
+           (commit "ad2eaf3a7e1f3b30e2f220b0689db76b75005aca")))
+     (sha256 (base32 "01c2z1ninnvm19rrna8x5vkfhb9zvwdk8v7a20wp1hi45w2li49p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-gptel emacs-gptel-agent))
    (arguments '(#:files (:defaults "agents" "prompts")))
@@ -58013,14 +58013,14 @@
 (define-public emacs-latex-to-svg-for-latex
   (package
    (name "emacs-latex-to-svg-for-latex")
-   (version "20261020.1341")
+   (version "20261020.1847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "be4fd0906cf6e295ef64a72d96b01b5a964bd916")))
-     (sha256 (base32 "04k2388209jd7fx2zc9hdrk88q13iakc8y3xc451xl0nkbihn0xl"))))
+           (commit "40eacb69d15f189a93d7529955ef715e5c82b4a9")))
+     (sha256 (base32 "17c42ysfdxwn5i0xhw2z8bdb8q29w7jzn4qpbn381jmdrpvj49k3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-latex.el")))
@@ -58032,14 +58032,14 @@
 (define-public emacs-latex-to-svg-for-markdown
   (package
    (name "emacs-latex-to-svg-for-markdown")
-   (version "20261020.1341")
+   (version "20261020.1847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "be4fd0906cf6e295ef64a72d96b01b5a964bd916")))
-     (sha256 (base32 "04k2388209jd7fx2zc9hdrk88q13iakc8y3xc451xl0nkbihn0xl"))))
+           (commit "40eacb69d15f189a93d7529955ef715e5c82b4a9")))
+     (sha256 (base32 "17c42ysfdxwn5i0xhw2z8bdb8q29w7jzn4qpbn381jmdrpvj49k3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-markdown.el")))
@@ -58052,14 +58052,14 @@
 (define-public emacs-latex-to-svg-for-org
   (package
    (name "emacs-latex-to-svg-for-org")
-   (version "20261020.1341")
+   (version "20261020.1847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "be4fd0906cf6e295ef64a72d96b01b5a964bd916")))
-     (sha256 (base32 "04k2388209jd7fx2zc9hdrk88q13iakc8y3xc451xl0nkbihn0xl"))))
+           (commit "40eacb69d15f189a93d7529955ef715e5c82b4a9")))
+     (sha256 (base32 "17c42ysfdxwn5i0xhw2z8bdb8q29w7jzn4qpbn381jmdrpvj49k3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-org.el")))
@@ -58071,14 +58071,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261020.1815")
+   (version "20261020.1847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "be4fd0906cf6e295ef64a72d96b01b5a964bd916")))
-     (sha256 (base32 "04k2388209jd7fx2zc9hdrk88q13iakc8y3xc451xl0nkbihn0xl"))))
+           (commit "40eacb69d15f189a93d7529955ef715e5c82b4a9")))
+     (sha256 (base32 "17c42ysfdxwn5i0xhw2z8bdb8q29w7jzn4qpbn381jmdrpvj49k3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
