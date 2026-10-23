@@ -1678,7 +1678,7 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261023.531")
+   (version "20261023.1228")
    (source
     (origin
      (method git-fetch)
@@ -1714,14 +1714,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20261021.957")
+   (version "20261023.1802")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "f5fc96e1fe241767903c29e1457dee28fc20d000")))
-     (sha256 (base32 "0if810ya4g4hywnh5w83rwms680chbf7cmkyj5y30c22vw52c1zm"))))
+           (commit "dee33f819c3bc01b8df7ee9b3e4d834dc0256bf6")))
+     (sha256 (base32 "0hhm6sz185dahsx3jynwzrfiqs1081spzj2g0xqzn9g4vyakkqrk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -1822,14 +1822,14 @@
 (define-public emacs-ahg
   (package
    (name "emacs-ahg")
-   (version "20241113.748")
+   (version "20261023.1244")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://bitbucket.org/agriggio/ahg")
-           (commit "d57b91d52e5c2c501cb7112af53c6549397ea1b5")))
-     (sha256 (base32 "1whzlwad6fgg88fby7fsbzqdipz6s6xhqlnjna9vlcckbdzhs23b"))))
+           (commit "b55f7e3a066a7117beac00100fd7a11fb348cc00")))
+     (sha256 (base32 "1ms4j8xvrwvkz6dsmsw0ni49y8vij516znwdrg22i9h1vwp2is1h"))))
    (build-system melpa-build-system)
    (home-page "https://bitbucket.org/agriggio/ahg")
    (synopsis "Alberto's Emacs interface for Mercurial (Hg)")
@@ -28016,14 +28016,14 @@
 (define-public emacs-empv
   (package
    (name "emacs-empv")
-   (version "20261020.1400")
+   (version "20261023.1233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/empv.el.git")
-           (commit "c30926dcd2bcbc7c2d89d3e5d2b631735bd1c92b")))
-     (sha256 (base32 "02hm6bwvf7nrjpfhv2has3j8rkbaff2z08nic8326hgnr5wm7mjl"))))
+           (commit "d2f532a35e70de4741bc76e2deca115d590a7e57")))
+     (sha256 (base32 "1sz7b36mzpg0z930qd54r78b3i2wlpw9znqjb9i7yqw30x38wvyn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-compat))
    (arguments '(#:files (:defaults ("ivjs" "ivjs/main.ts"))))
@@ -28272,14 +28272,14 @@
 (define-public emacs-envrc
   (package
    (name "emacs-envrc")
-   (version "20261005.1129")
+   (version "20261023.1024")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/envrc.git")
-           (commit "ab2853255e376719778ff94d8b718a37cf3e719a")))
-     (sha256 (base32 "0y70siwankhi6ny2m364h3gdjfsw1vlk4b4lg5glxsxhqnk5z1xk"))))
+           (commit "af7e0a699060c8128fdd8318d28a7401b82bb3fd")))
+     (sha256 (base32 "0l7gkcqx5lgfzbqjk4mcqcgvnfm9mpszfg8iwk2j8gi8xcwlk4zz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://github.com/purcell/envrc")
@@ -41448,14 +41448,14 @@
 (define-public emacs-gleam-ts-mode
   (package
    (name "emacs-gleam-ts-mode")
-   (version "20261022.2105")
+   (version "20261023.1431")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gleam-lang/gleam-mode.git")
-           (commit "149421378ee1b31d952fd6ccbffe34b22b5b385d")))
-     (sha256 (base32 "1km19k80rna4yhd60xyhagmbrl4fp2syp2ihq7xx1bcs9ql9fy4p"))))
+           (commit "0249335394d97b9abf8ffab546ce1b9df92c5f0f")))
+     (sha256 (base32 "0a0v5l3sl6ba47a376rri0zfm4mngm2ii8n6cqki745slk5wxgi2"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("gleam-ts-mode.el")))
    (home-page "https://github.com/gleam-lang/gleam-mode")
@@ -58055,14 +58055,14 @@
 (define-public emacs-latex-to-svg-for-latex
   (package
    (name "emacs-latex-to-svg-for-latex")
-   (version "20261021.1002")
+   (version "20261023.1606")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "7383bea4ae0c4cb6c8a45f7f9c87ff2d54dbfe87")))
-     (sha256 (base32 "1xf7kr80ixvb8jgh6y1jbn312vwzjr8jqrpmrd9031i7if5cqbjr"))))
+           (commit "527fcac9afd65c4c1bd9692f16250b31fdce7bc0")))
+     (sha256 (base32 "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-latex.el")))
@@ -58074,14 +58074,14 @@
 (define-public emacs-latex-to-svg-for-markdown
   (package
    (name "emacs-latex-to-svg-for-markdown")
-   (version "20261021.1002")
+   (version "20261023.1606")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "7383bea4ae0c4cb6c8a45f7f9c87ff2d54dbfe87")))
-     (sha256 (base32 "1xf7kr80ixvb8jgh6y1jbn312vwzjr8jqrpmrd9031i7if5cqbjr"))))
+           (commit "527fcac9afd65c4c1bd9692f16250b31fdce7bc0")))
+     (sha256 (base32 "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-markdown.el")))
@@ -58094,14 +58094,14 @@
 (define-public emacs-latex-to-svg-for-org
   (package
    (name "emacs-latex-to-svg-for-org")
-   (version "20261021.1002")
+   (version "20261023.1606")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "7383bea4ae0c4cb6c8a45f7f9c87ff2d54dbfe87")))
-     (sha256 (base32 "1xf7kr80ixvb8jgh6y1jbn312vwzjr8jqrpmrd9031i7if5cqbjr"))))
+           (commit "527fcac9afd65c4c1bd9692f16250b31fdce7bc0")))
+     (sha256 (base32 "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-org.el")))
@@ -58113,14 +58113,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261021.1002")
+   (version "20261023.1606")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "7383bea4ae0c4cb6c8a45f7f9c87ff2d54dbfe87")))
-     (sha256 (base32 "1xf7kr80ixvb8jgh6y1jbn312vwzjr8jqrpmrd9031i7if5cqbjr"))))
+           (commit "527fcac9afd65c4c1bd9692f16250b31fdce7bc0")))
+     (sha256 (base32 "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -69049,14 +69049,14 @@
 (define-public emacs-nimbus-theme
   (package
    (name "emacs-nimbus-theme")
-   (version "20261005.1426")
+   (version "20261023.1755")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrcnski/nimbus-theme.git")
-           (commit "01ae94eff6ae78f784ca6e1231408ee0df8216e8")))
-     (sha256 (base32 "0h52aka5gmx3ckrx9jxbjxgms1f60lx03fvwq97p8cm3n4vgk0x7"))))
+           (commit "71196dbef44ff0368984a90688414b8047e7669e")))
+     (sha256 (base32 "1q7al4w3lhb7xfrphssqi6kx17bml0122r1nv4lc563470nx5fly"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mrcnski/nimbus-theme")
    (synopsis "Nimbus dark theme")
@@ -77084,7 +77084,7 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261023.505")
+   (version "20261023.1121")
    (source
     (origin
      (method git-fetch)
