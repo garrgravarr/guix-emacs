@@ -1875,14 +1875,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261023.154")
+   (version "20261023.2337")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "86b6a9c1067a6744a5b5b948e12b693b5a04f3fb")))
-     (sha256 (base32 "13m6dhh4yz08y9hvlm49jysqvchz5m66cd484jm7iscz85b3xrly"))))
+           (commit "5121314ebcedbe30cacfa8446766632f30915adf")))
+     (sha256 (base32 "0akh4clv2d7hrqbvjn0mdf7mw77nlhzsw1ka8lbl50jbsqfcgrqa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -24234,14 +24234,14 @@
 (define-public emacs-echo-bar
   (package
    (name "emacs-echo-bar")
-   (version "20260723.1521")
+   (version "20261024.237")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/benzanol/echo-bar.el.git")
-           (commit "25348c0220b58eea196ae79cab22e934817fdc89")))
-     (sha256 (base32 "117bvdaf1r6wza30vjiarpqmx6ag8hknx5j2jjvg15i3s5d8isx8"))))
+           (commit "458256176583f8f6c9089eb59603267e8c0e5f4d")))
+     (sha256 (base32 "0n5r46m3sk0rf1rbqivmkplldyf7m5d90b2a1vbn8k2iidqpblvv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/qaiviq/echo-bar.el")
    (synopsis "Turn the echo area into a custom status bar")
@@ -42903,14 +42903,14 @@
 (define-public emacs-goto-last-change
   (package
    (name "emacs-goto-last-change")
-   (version "20150109.1823")
+   (version "20261023.2339")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/camdez/goto-last-change.el.git")
-           (commit "58b0928bc255b47aad318cd183a5dce8f62199cc")))
-     (sha256 (base32 "1f0zlvva7d7iza1v79yjp0bm7vd011q4cy14g1saryll32z115z5"))))
+           (commit "f330d2793739ab7e7417b32c293eefa00bca4770")))
+     (sha256 (base32 "1a9jqnzpdi4hjh5syr6fhw2b2fi5gy9807p9p7s4986f5xnhym00"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/camdez/goto-last-change.el")
    (synopsis "Move point through buffer-undo-list positions")
@@ -64654,14 +64654,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20261023.843")
+   (version "20261023.2255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "ba433110c9f3e2086f0a104554e6fbf5f8c4d83b")))
-     (sha256 (base32 "197vcphk722ihasihw2m8c3gpjqdyaf4h379j9lbnnp74kspm1k5"))))
+           (commit "bb194827d8b6345ef1857949703b4091c31f684c")))
+     (sha256 (base32 "16c8nlh6k518cjd8zm0bk3k7gf9pal16h38h0vqb4anlpy97gvf2"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -66282,14 +66282,14 @@
 (define-public emacs-moonscript
   (package
    (name "emacs-moonscript")
-   (version "20170831.2226")
+   (version "20261023.2036")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/k2052/moonscript-mode.git")
-           (commit "56f90471e2ced2b0a177aed4d8c2f854797e9cc7")))
-     (sha256 (base32 "1v2phdpfngrb01x4qygpfgxdzpgvbprki2kbmpc83vlqxlmkvvjk"))))
+           (commit "8c27a902b9319022126e14b5c328599fe46574ff")))
+     (sha256 (base32 "1rc98sa3hw62pnz25pgin9jmwqrr3rbazx6mi2kh6a6m9dz5ksla"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/k2052/moonscript-mode")
    (synopsis "Major mode for editing MoonScript code")
@@ -72167,14 +72167,14 @@
 (define-public emacs-occult
   (package
    (name "emacs-occult")
-   (version "20260913.546")
+   (version "20261023.1953")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/occult.el.git")
-           (commit "41fd9afdd6a3a8c6e9e3d0ccae89592a8757ad34")))
-     (sha256 (base32 "0c5xc2hir7l6cnj4mjj9f7zmp4b0qww9n5wlmh1p04xjvfccv510"))))
+           (commit "5a3364d5addeef21ca68964e677fdf8f8b0314be")))
+     (sha256 (base32 "1g4945ldbh3fd561ippzyl8cavgblipchar2wzww7pjs45fylyqf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/agzam/occult.el")
    (synopsis "Collapse and reveal buffer regions")
