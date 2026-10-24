@@ -11134,7 +11134,7 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20261024.912")
+   (version "20261024.1139")
    (source
     (origin
      (method git-fetch)
@@ -40217,14 +40217,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261022.1537")
+   (version "20261024.1235")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "706be5d877f7372adf725eb24b087ac5006b5428")))
-     (sha256 (base32 "0q3p4yb1bz0hhhlsw842fnqf6rwals37bp2dvr39s47jgh7ddv1f"))))
+           (commit "7c55ea50103c0fdd5c406000712d0a3f246e54f1")))
+     (sha256 (base32 "14mm03vqha36y694lmhing4g4n6kqlm6hdlgg5wmslbcyyxksyil"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -56896,14 +56896,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20261022.1453")
+   (version "20261024.1411")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "2f7eaae4eea8a0008df4be57918feae228059f25")))
-     (sha256 (base32 "13p5g28r744f5kd8kb77dm1n1r29201zlkmrjvz87yw6ncdsxpha"))))
+           (commit "ac0cff106805d729d08b9c287750e1f4958128c9")))
+     (sha256 (base32 "0xz6pb8zxzwm92q4kw2dacgvxr2lz2629rl47hx633fm3qxrywm0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -61893,14 +61893,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261024.1003")
+   (version "20261024.1444")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "70e5b635068949a6347e6e93f1758b11f561aba2")))
-     (sha256 (base32 "1a4v49i1j1dcriv3v6awdmi2d5pdm07iivp22cs6dnm4l42s66ry"))))
+           (commit "65232f488caae960029cc68bcc607aea340fa3b1")))
+     (sha256 (base32 "03vv94ghjw8q6fhh3af48v860rwzyrhbjlwzwvdl17285j8hm2yr"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -82210,14 +82210,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261022.2332")
+   (version "20261024.1301")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "1d55b65dece0ca66353cfc83e652b32acaa25196")))
-     (sha256 (base32 "1apxm0qx70hsf7m1b6xyl0w3ik0kmkiwr5wh4dfhsxfa54slzk61"))))
+           (commit "46e53397188d1bf1ec51a39d737d66d55b1ee230")))
+     (sha256 (base32 "15sprqba3lf677v54903k9g4qx6yamyq155gw5gvlnbsq8hj7sqh"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -94786,14 +94786,14 @@
 (define-public emacs-sisyphus
   (package
    (name "emacs-sisyphus")
-   (version "20261018.1018")
+   (version "20261023.1816")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/sisyphus.git")
-           (commit "56a8547635d7fdf0396a29a8f19a394c4a8e9859")))
-     (sha256 (base32 "191xxrr4l466rglladhy0827ia2l52y3sgr9y6ix5a9mdq96qlrr"))))
+           (commit "8159b6c312e4d7bb85182754954528c975bb50da")))
+     (sha256 (base32 "16i6kzpp0r18flf30879xmz9pkgsafdwwk4d5c8n4ywpjz6sbvnk"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-magit))
@@ -107914,14 +107914,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261024.1120")
+   (version "20261024.1417")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "e5c5fca58e256b0503dd4d8b6b17f7582fb556f4")))
-     (sha256 (base32 "1xnwxh3f21xq8jjba9g2vq1vqhkc2chcqzi1cza967m02xhjy5cm"))))
+           (commit "1c7a3a04d2be174685878e4ba5be964e00bdb81c")))
+     (sha256 (base32 "07zi162i4pgljfkp4759g22sc58pifshkyf6ynm27wjjihvcgn4w"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
