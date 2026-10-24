@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261023.1228")
+   (version "20261024.1110")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "78a2c94daa255b97ea001bd8a6507c60af20e89d")))
-     (sha256 (base32 "1b4rpryss4a6m0whkyck8bncrwlc6zymchxzjlg3gxgd0k6bfmfx"))))
+           (commit "b3553916e7b6b8fe7ed00bba3811f4c5a1e43496")))
+     (sha256 (base32 "0f9r4k6f3ijj25s096s0bwzkrql0fr38y7wzjy1z5qxh0hdnjcki"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1875,14 +1875,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261023.2337")
+   (version "20261024.425")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "5121314ebcedbe30cacfa8446766632f30915adf")))
-     (sha256 (base32 "0akh4clv2d7hrqbvjn0mdf7mw77nlhzsw1ka8lbl50jbsqfcgrqa"))))
+           (commit "365afd5d8cbd97731fbab9ca7580c87d62dd2251")))
+     (sha256 (base32 "0xmi1lhbgn87lm6n3dhaibibr346518n1g6lffc9jlvhqzwv8sxb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -11134,14 +11134,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20261019.838")
+   (version "20261024.912")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "d35d5567ac1daaa50398d8d5a40f0620ee367038")))
-     (sha256 (base32 "0impmb5r3ib50wq38fw9dp4qyayk951vx1bg4yrncikmyps57sm8"))))
+           (commit "de5a400770f9c8df583392ea307ec96feb3d51a7")))
+     (sha256 (base32 "009640j4nac411m2kssxmq776qq8n9qh30dc6w8bl4wvr3555pp3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -20958,14 +20958,14 @@
 (define-public emacs-dired-explorer
   (package
    (name "emacs-dired-explorer")
-   (version "20260306.522")
+   (version "20261024.957")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jidaikobo-shibata/dired-explorer.git")
-           (commit "4d36d3ad18a310843f96bd35ff3aabc4406b4854")))
-     (sha256 (base32 "16alfwscf4rlcwv9gpqcdypfbdiqaldahs6c97vzix3lgrka3vik"))))
+           (commit "5739314327b1d1cc8977a8593275248f7790f1f1")))
+     (sha256 (base32 "0726x1hcmgjfbbykkq7q7f6lll5jfh9prs6fnmmg785xkl7c2pv9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jidaikobo-shibata/dired-explorer")
    (synopsis "Provide Explorer-like file selection in Dired")
@@ -45780,14 +45780,14 @@
 (define-public emacs-helm-core
   (package
    (name "emacs-helm-core")
-   (version "20261023.448")
+   (version "20261023.2028")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm.git")
-           (commit "0088242718d20263b94f8d6ab263c315cf04913b")))
-     (sha256 (base32 "1nshajq6qkl2c4665d9rriqh6kklx8yzj89zi2w9h1vv31dprih1"))))
+           (commit "a6444b66cb1df41cd2465626e69f5e0a00fda9ca")))
+     (sha256 (base32 "0s04p1nh8cm6cn5gi3g83nzl6cssyxdrxydvpfz73jwyrwgwbgl4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (arguments
@@ -61893,14 +61893,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261022.827")
+   (version "20261024.1003")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "4a889060a11d6192e95716c48ee1f72bde36b8b1")))
-     (sha256 (base32 "1n2adqphs0v1vv29jxpndq71jb6q28f4l4qr8yccd2lgxygggwxj"))))
+           (commit "70e5b635068949a6347e6e93f1758b11f561aba2")))
+     (sha256 (base32 "1a4v49i1j1dcriv3v6awdmi2d5pdm07iivp22cs6dnm4l42s66ry"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62395,21 +62395,17 @@
 (define-public emacs-magit-section
   (package
    (name "emacs-magit-section")
-   (version "20261018.807")
+   (version "20261024.1048")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "5616506921afb39933f02ccba2c2f8b769b7efff")))
-     (sha256 (base32 "061mlzspi0kh4nk8js0hwcpwfc1mjfmaa2562scnil1ffgccfdlk"))))
+           (commit "70e5b635068949a6347e6e93f1758b11f561aba2")))
+     (sha256 (base32 "1a4v49i1j1dcriv3v6awdmi2d5pdm07iivp22cs6dnm4l42s66ry"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
-   (arguments
-    '(#:files
-      ("lisp/magit-section.el"
-       "docs/magit-section.texi"
-       "magit-section-pkg.el")))
+   (arguments '(#:files ("lisp/magit-section.el" "docs/magit-section.texi")))
    (home-page "https://github.com/magit/magit")
    (synopsis "Sections for read-only buffers")
    (description "Documentation at https://melpa.org/#/magit-section")
@@ -64654,14 +64650,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20261023.2255")
+   (version "20261024.728")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "bb194827d8b6345ef1857949703b4091c31f684c")))
-     (sha256 (base32 "16c8nlh6k518cjd8zm0bk3k7gf9pal16h38h0vqb4anlpy97gvf2"))))
+           (commit "a9a82848cd125ef8aa1404b05f2ce15cfc8dddf1")))
+     (sha256 (base32 "01v912gi4r8jpbaii3by94hgjg592s6rpkkdg2w8qwlj0c4vcxly"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -75079,14 +75075,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20261014.1800")
+   (version "20261024.655")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "31c2a36f00dd5d232b07efa7745a2b387e237b85")))
-     (sha256 (base32 "1lc3ciamv3ncp6ziirm0bw2i4hj35bkh4fhghm7zmknkzmjjgkzx"))))
+           (commit "c1f9318ffc3129169d9e9c0e59d01d5b1e3abbba")))
+     (sha256 (base32 "1pgpi2qvi41vpqvnb5d61pyy0a051gpjiirrx81qzijmd12ip861"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -82252,14 +82248,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20261020.511")
+   (version "20261024.848")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "6c64a6e3e957f7243db67f9071af42c7e8dd0494")))
-     (sha256 (base32 "1pwz18kasrwncs7bdfkc6ayd1cigr2pd01a3pvazvicsip8d9gip"))))
+           (commit "c9a1ba97141f1e5a439a619e693fdfa26694bc7c")))
+     (sha256 (base32 "16svbini5zrdxb1nlrz05wm30k03x7mifhnrkamkhq5w43d9660s"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -90002,14 +89998,14 @@
 (define-public emacs-rg
   (package
    (name "emacs-rg")
-   (version "20261004.2129")
+   (version "20261024.856")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dajva/rg.el.git")
-           (commit "7d4839686031754ff86e4ad3ab76da108777edb3")))
-     (sha256 (base32 "1y1wwwf3mygc5pwqyl4ynsfc0q6jmz4mbzjvcwjxzrvrhzdvyil4"))))
+           (commit "039ac6214b7cc6bec42f728df87ee0acb4bf9153")))
+     (sha256 (base32 "1avjrzn4slaxpa2k2sijz6w5wy67psgviqnplrmn12ka1qpr47yp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-wgrep))
    (home-page "https://github.com/dajva/rg.el")
@@ -107918,14 +107914,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261023.932")
+   (version "20261024.1120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "11f0af1a3e7c9df0b99272ba8f069fa3abe5a4c7")))
-     (sha256 (base32 "1hszwpygz1h04k84ink7m7rdl1n9jx40bz3653bpidf4a4spk0z8"))))
+           (commit "e5c5fca58e256b0503dd4d8b6b17f7582fb556f4")))
+     (sha256 (base32 "1xnwxh3f21xq8jjba9g2vq1vqhkc2chcqzi1cza967m02xhjy5cm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
