@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261024.1110")
+   (version "20261025.1303")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "b3553916e7b6b8fe7ed00bba3811f4c5a1e43496")))
-     (sha256 (base32 "0f9r4k6f3ijj25s096s0bwzkrql0fr38y7wzjy1z5qxh0hdnjcki"))))
+           (commit "aeadc345254a1c5277095227d23631ca0a6da61a")))
+     (sha256 (base32 "1m1qljd1ck3z8w8m3b50b7r1wb29n4n5fcmjms49bbag7rffjh9l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -3975,14 +3975,14 @@
 (define-public emacs-async
   (package
    (name "emacs-async")
-   (version "20260729.1431")
+   (version "20261025.1538")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jwiegley/emacs-async.git")
-           (commit "4fdcb061a166e0d6ccc27d3829a28e04415ae825")))
-     (sha256 (base32 "1mcc8qqn53wj2rqywhv7j5vcax8vvfzpfnhh6gxp75pb32qw1q0s"))))
+           (commit "93be69563f6f25ee48977878110de3912b1d6d72")))
+     (sha256 (base32 "1an8wq5g693ylnb2cw4w0aajffwlj4vlindx16rghamfk23rwvfv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jwiegley/emacs-async")
    (synopsis "Asynchronous processing in Emacs")
@@ -12514,7 +12514,7 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261025.308")
+   (version "20261025.1302")
    (source
     (origin
      (method git-fetch)
@@ -17674,6 +17674,23 @@
    (description "Documentation at https://melpa.org/#/ctags-update")
    (license #f)))
 
+(define-public emacs-ctftime
+  (package
+   (name "emacs-ctftime")
+   (version "20261019.911")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/giovanni-iannaccone/ctftime.el.git")
+           (commit "67763c4c45cf5425fb8f28e2219d3e175f3de770")))
+     (sha256 (base32 "12p6vgkgl5bmxafqpfsc3xak3dx1qdiy0qjgr2d5j5n33rjh9lhl"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/giovanni-iannaccone/ctftime.el")
+   (synopsis "CTFtime dashboard")
+   (description "Documentation at https://melpa.org/#/ctftime")
+   (license #f)))
+
 (define-public emacs-ctl-mode
   (package
    (name "emacs-ctl-mode")
@@ -20674,14 +20691,14 @@
 (define-public emacs-dimmer
   (package
    (name "emacs-dimmer")
-   (version "20260618.1559")
+   (version "20261025.1615")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gonewest818/dimmer.el.git")
-           (commit "bbab62f01d45086b9098f6a0ab765282d9c7bc45")))
-     (sha256 (base32 "1azpm377q2qvwfgfpc01fgma66s52xy829r2kjadqsw0px0gjkq4"))))
+           (commit "5525d29bac335a67040bcfc6a5c7083ebe5ac2f8")))
+     (sha256 (base32 "1ch3cq0zk3ikgmh16r9psvs0sca4l43izabxk1bj4z4dq49lvgac"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gonewest818/dimmer.el")
    (synopsis "Visually highlight the selected buffer")
@@ -25581,6 +25598,31 @@
    (home-page "https://github.com/tumashu/el2org")
    (synopsis "Convert elisp file to org file")
    (description "Documentation at https://melpa.org/#/el2org")
+   (license #f)))
+
+(define-public emacs-elark
+  (package
+   (name "emacs-elark")
+   (version "20261013.549")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/bbw9n/elark.git")
+           (commit "eafcccfa3b78079fa61223e757435e4f55e4fd23")))
+     (sha256 (base32 "08qa127jz6aiiajp5k388lzf1hrqqv43aww7nhlcb653f2hr49zb"))))
+   (build-system melpa-build-system)
+   (propagated-inputs (list emacs-org-lark emacs-shell-maker))
+   (arguments
+    '(#:files
+      ("elark*.el"
+       "core/elark*.el"
+       "ui/elark*.el"
+       "domain/elark*.el"
+       "ai/elark*.el")))
+   (home-page "https://github.com/bbw9n/elark")
+   (synopsis "Emacs interface to Lark/Feishu via lark-cli")
+   (description "Documentation at https://melpa.org/#/elark")
    (license #f)))
 
 (define-public emacs-elbank
@@ -36962,14 +37004,14 @@
 (define-public emacs-flymake-hledger
   (package
    (name "emacs-flymake-hledger")
-   (version "20241226.1937")
+   (version "20261025.1641")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/DamienCassou/flymake-hledger.git")
-           (commit "3dd9d58ccd8e4c22c14553ebfac0ca1be3efebc5")))
-     (sha256 (base32 "0dysfq6k5dgcv1chshs99b9hc816dk5a8pbx1m08jsdjsy92zaaw"))))
+           (commit "4b0051589126a8f9178da7e271bac597ba1356e4")))
+     (sha256 (base32 "0pmkq8sxv9r41ppk319w4r8p531y4096w1mz2gdsywi64b3a3zql"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/DamienCassou/flymake-hledger")
    (synopsis "Flymake module to check hledger journals")
@@ -39299,6 +39341,25 @@
    (home-page "https://github.com/mooz/fyure")
    (synopsis "An interface to fix Japanese hyoki-yure")
    (description "Documentation at https://melpa.org/#/fyure")
+   (license #f)))
+
+(define-public emacs-fz-index
+  (package
+   (name "emacs-fz-index")
+   (version "20261012.124")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/uppet/fz-index.git")
+           (commit "a08e8237d0bfeaa2c1c45a5a4df8e94da81bd888")))
+     (sha256 (base32 "12iahpb60bs3a6djb123h3vclirn2bfvmbvvz61hhlwxqbbz0qg3"))))
+   (build-system melpa-build-system)
+   (arguments
+    '(#:files ("fz-index.el" "fz-index.c" "emacs-module.h" "Makefile")))
+   (home-page "https://github.com/uppet/fz-index")
+   (synopsis "Sublime-style fuzzy file open with a native index")
+   (description "Documentation at https://melpa.org/#/fz-index")
    (license #f)))
 
 (define-public emacs-fzf
@@ -45780,14 +45841,14 @@
 (define-public emacs-helm-core
   (package
    (name "emacs-helm-core")
-   (version "20261023.2028")
+   (version "20261025.1539")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-helm/helm.git")
-           (commit "a6444b66cb1df41cd2465626e69f5e0a00fda9ca")))
-     (sha256 (base32 "0s04p1nh8cm6cn5gi3g83nzl6cssyxdrxydvpfz73jwyrwgwbgl4"))))
+           (commit "a1e8724ed20d1f8024ff7530047374e1d7e994b0")))
+     (sha256 (base32 "1mphz1mjc9l08qnkxkb5vzhx9wa6nvpwkqlaimlxm8swxl4nlfl4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async))
    (arguments
@@ -65857,6 +65918,23 @@
    (home-page "https://github.com/damon-kwok/modern-sh")
    (synopsis "Minor mode for editing shell script")
    (description "Documentation at https://melpa.org/#/modern-sh")
+   (license #f)))
+
+(define-public emacs-modern-tab
+  (package
+   (name "emacs-modern-tab")
+   (version "20261019.924")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/MArpogaus/modern-tab.git")
+           (commit "5fc30aed02db604ea9788e1a1f2f23477918b7b1")))
+     (sha256 (base32 "0bv1z65v6c2ai3whaix6mzii9xnk1hdyw507zd3zjp4cnj70db02"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/MArpogaus/modern-tab")
+   (synopsis "The common part of the two tab modes")
+   (description "Documentation at https://melpa.org/#/modern-tab")
    (license #f)))
 
 (define-public emacs-modtime-skip-mode
@@ -87113,14 +87191,14 @@
 (define-public emacs-qrencode
   (package
    (name "emacs-qrencode")
-   (version "20261001.2346")
+   (version "20261025.1545")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ruediger/qrencode-el.git")
-           (commit "3ba67bdf376c9e1445bcc4710c7c8c4bd3c5c65c")))
-     (sha256 (base32 "0zgc6kfqxxh3lqdrndfzjsdm5mdvv6ld1nlc59vf13njy81fah5z"))))
+           (commit "15b2476c09324fba78f0cd253560fee4207c5cf2")))
+     (sha256 (base32 "0sc5y1ylhh6ckgrbkjmd6vv4mlbhx65mcg1clficyj78bbara7ys"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ruediger/qrencode-el")
    (synopsis "QRCode encoder")
@@ -89064,6 +89142,23 @@
    (home-page "https://github.com/zonuexe/right-click-context")
    (synopsis "Convert string in region by Lisp function")
    (description "Documentation at https://melpa.org/#/region-convert")
+   (license #f)))
+
+(define-public emacs-region-cursors
+  (package
+   (name "emacs-region-cursors")
+   (version "20261019.2012")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/abidanBrito/region-cursors.git")
+           (commit "9718708045f2fb7071cb18649a478284e183edb8")))
+     (sha256 (base32 "0icsrwma1l8477nf7v9yxkjvl5q2nzh0yyn899wd5nxrc90igqsz"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/abidanBrito/region-cursors")
+   (synopsis "Display point and active mark using overlays")
+   (description "Documentation at https://melpa.org/#/region-cursors")
    (license #f)))
 
 (define-public emacs-region-occurrences-highlighter
@@ -96606,14 +96701,14 @@
 (define-public emacs-solarized-theme
   (package
    (name "emacs-solarized-theme")
-   (version "20260910.602")
+   (version "20261025.1447")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/solarized-emacs.git")
-           (commit "9df935bede27abcaa1b1ca9035ac17f39d2f64c9")))
-     (sha256 (base32 "0nwllicsa5vqvffy25bxnjmh0pdmm9mhyhzphvyp6lpgnsw7wisd"))))
+           (commit "d8bc6f72dc3e3800a2119bae9733c333d215b04d")))
+     (sha256 (base32 "1zc84wsfhi96zzcl95krdv72axqa08954ib0ppvykd8006avd8nd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/solarized-emacs")
    (synopsis "The Solarized color theme")
