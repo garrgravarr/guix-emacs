@@ -1875,14 +1875,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261024.425")
+   (version "20261025.337")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "365afd5d8cbd97731fbab9ca7580c87d62dd2251")))
-     (sha256 (base32 "0xmi1lhbgn87lm6n3dhaibibr346518n1g6lffc9jlvhqzwv8sxb"))))
+           (commit "90030b5dfd7e556b0a12e4399b09498265685115")))
+     (sha256 (base32 "1mxfyhbdmzg1fhikrlirid4j6qawfnppb6ijrzwgk5apyjf6883k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -20079,14 +20079,14 @@
 (define-public emacs-devcontainer
   (package
    (name "emacs-devcontainer")
-   (version "20261007.1807")
+   (version "20261024.2210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/devcontainer.el.git")
-           (commit "fb6e7c93c2365272c087875e5d1eecb975a6bce2")))
-     (sha256 (base32 "14rpiam9vzw7ax76gfkn40qypgmgx0y6kcpkh685j6zlsybm3r4j"))))
+           (commit "f2711c333df4ef644ff59d0d7e58080e670a889a")))
+     (sha256 (base32 "0965hgi0015j494dh9rbhcidhk6lhhi05qm8a0fa6aa8dvmxqyvk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/johannes-mueller/devcontainer.el")
    (synopsis "Support for devcontainer")
@@ -22593,14 +22593,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20261021.1048")
+   (version "20261024.1549")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "11f09c58016b2219d3ebd8af078ae78d775f06ec")))
-     (sha256 (base32 "17d0w9q17vir5hs1xjqsb7256cdcgy4ghwlidh3xnal4hfj2q7b9"))))
+           (commit "5a415f8d66a8e9fa78a2067c24c9187af4ac0743")))
+     (sha256 (base32 "0p61i9r57669jz4sr8mx91fsqy07gng3yllkk0hcfw4lnnp7cs92"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -40217,7 +40217,7 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261024.1235")
+   (version "20261024.1517")
    (source
     (origin
      (method git-fetch)
@@ -75075,14 +75075,14 @@
 (define-public emacs-org-links
   (package
    (name "emacs-org-links")
-   (version "20261024.655")
+   (version "20261024.2244")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-org-links.git")
-           (commit "c1f9318ffc3129169d9e9c0e59d01d5b1e3abbba")))
-     (sha256 (base32 "1pgpi2qvi41vpqvnb5d61pyy0a051gpjiirrx81qzijmd12ip861"))))
+           (commit "ab92f671cbcba1b3601135c66b6ea6725a14e600")))
+     (sha256 (base32 "10pw0hbikhcig98y2mc95s4pxjdb6nqdimych9v6q63j8d5yq3ds"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Anoncheg1/emacs-org-links")
    (synopsis "Better manage line numbers in links of Org mode")
@@ -76091,14 +76091,14 @@
 (define-public emacs-org-relative-date
   (package
    (name "emacs-org-relative-date")
-   (version "20261007.901")
+   (version "20261024.1831")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/RobertPlant/org-relative-date.git")
-           (commit "b2ff8be7cb076f3e09c70f843aa410b9714e7ff6")))
-     (sha256 (base32 "1njm4nhz327g5qv3lnxvkgbkifc7swyqsfan5wkc4dnwh359kr0k"))))
+           (commit "3ef9c94299145beeb49dc8f869d518e489701a36")))
+     (sha256 (base32 "1wskdhsbhczwvdcs48g2bx9gcsk9zk6vw9lc0i87crvhihg2rb7i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/RobertPlant/org-relative-date")
    (synopsis "Live relative-date overlays on org timestamps")
@@ -82210,14 +82210,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261024.1301")
+   (version "20261025.21")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "46e53397188d1bf1ec51a39d737d66d55b1ee230")))
-     (sha256 (base32 "15sprqba3lf677v54903k9g4qx6yamyq155gw5gvlnbsq8hj7sqh"))))
+           (commit "c79cc5c843c40d1b809f66eb9c158a3ddd946ba1")))
+     (sha256 (base32 "1m6vyszzikyjjn3n8r83jc6809qwcb45lycpzlx2vbgvs0glviz0"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -102113,14 +102113,14 @@
 (define-public emacs-time-uuid-mode
   (package
    (name "emacs-time-uuid-mode")
-   (version "20261006.2040")
+   (version "20261024.1743")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/RobertPlant/time-uuid-mode.git")
-           (commit "bf29490fc85d5c88e88fe4af65199f9f5cdc8b01")))
-     (sha256 (base32 "02rpjhahrifv43hgsy8n34ipky95l5fdn0diyrdy9yzjpqqrlypl"))))
+           (commit "eb43b94f18f3e468dde15c5de55ee7a1474915ed")))
+     (sha256 (base32 "1m1w8j11rs8fmx6nxr6ybhmwhp3aa5lx9pg9ipp9h672d0xsjrq5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/RobertPlant/time-uuid-mode")
    (synopsis "Minor mode for previewing time uuids as an overlay")
@@ -103418,14 +103418,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20261001.1359")
+   (version "20261024.2032")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "3ad7c35404028cf4b0a34b8eece303e94ed7449a")))
-     (sha256 (base32 "1f7yzxfif1an3vi0i9znppmfcwq4g0sc8x5pqlcaaz5jjs63rngy"))))
+           (commit "318b039872a419feaf3ca3584e89936642627ca9")))
+     (sha256 (base32 "13msh2ripqj5b67hswr00l4b068s08005i3nnvvpkg972ah5nq96"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/transient")
