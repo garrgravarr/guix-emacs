@@ -3296,14 +3296,14 @@
 (define-public emacs-apheleia
   (package
    (name "emacs-apheleia")
-   (version "20261017.2152")
+   (version "20261025.308")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/radian-software/apheleia.git")
-           (commit "21e42e64247452d1586294072b0062d60b3b0de2")))
-     (sha256 (base32 "0j6gcyc766z0g0flmzr7csgzgn8c9159f3y28f78fdmja2nc3xgf"))))
+           (commit "4ba89aea2266c51400bee0489165ef334f81bac5")))
+     (sha256 (base32 "1by0gnh61d7n1qxaz344gzf7s7p4fr5qqlifs077zga9mk42496f"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults ("scripts" "scripts/formatters"))))
    (home-page "https://github.com/radian-software/apheleia")
@@ -12514,14 +12514,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261021.246")
+   (version "20261025.308")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "f29ce7a025524046500643ed65c1527b45d5342b")))
-     (sha256 (base32 "0qgyamqs2ba7mj3wmaxwaqjsfmnm23ay1sjxfyvg6wwymk93lhll"))))
+           (commit "4ece93a1e7450ca45ff5f2e48b88a0447f71a2c8")))
+     (sha256 (base32 "1x4mkqpd8pa9zm5m4g58pahz5rxh1agdi3pj83bfc7ljd1aad99p"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -13575,14 +13575,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20261021.155")
+   (version "20261025.259")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "e50ea7a3222020cef8e7f320f9870bb20c61e451")))
-     (sha256 (base32 "05y09bhhi4b54mzc0s6llbqdpijnnp0w9q6br8chl59l7x1p1zii"))))
+           (commit "0790d828bf74c49cc270934b6d2eafbd4640e75d")))
+     (sha256 (base32 "1rhlapzln94l1v7hc4hajj5yvcy79iv29qf13ifhci3l9sd61rnh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -17889,14 +17889,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261023.718")
+   (version "20261025.1111")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "c3fcfaef759eaf0ce158afa425dbbb29354702da")))
-     (sha256 (base32 "0prwy3294zqdjh4m9kxqaxfjgwfjny3ajqh9bmqfr09x6bfcjpwq"))))
+           (commit "d3d7711547b59b4c59731852850fb374960b3a22")))
+     (sha256 (base32 "1nxj5bqrh0ffq1h6181w5q25cygjwk2x94qardxvhakxmmjlc9ir"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -24197,14 +24197,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20261021.1436")
+   (version "20261025.326")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "3c5168aea0fac84bffcb0ebe448f512a9086020d")))
-     (sha256 (base32 "1sp2fzq25v920h0z7xi3m9g08x8cini2pyhvig1jhrb43zpg2239"))))
+           (commit "b353d444dca3e1f54c6c724a20eda372ee5443d7")))
+     (sha256 (base32 "131wddkdpq79s2sy4wr9xr8pwsmygcywbjz01yw451jr26d89dcq"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -25057,14 +25057,14 @@
 (define-public emacs-eglotx
   (package
    (name "emacs-eglotx")
-   (version "20260930.931")
+   (version "20261025.453")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cxa/eglotx.git")
-           (commit "58033308a8c4611d9dd99cbebf8aa8d1fad40cb2")))
-     (sha256 (base32 "1m3f9y7qizfjivn2m5k0hpiw2r1dyx3im6q4q56n0rw0bdfqicxd"))))
+           (commit "79affcc86904839a452ab09e68c176739faa4a59")))
+     (sha256 (base32 "1vnwxp2729ias5kxz945hggyn4wgk79npwdh5lw2xs5l8l4038cz"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/cxa/eglotx")
    (synopsis "Native LSP multiplexer for Eglot")
@@ -27364,14 +27364,14 @@
 (define-public emacs-emacsc
   (package
    (name "emacs-emacsc")
-   (version "20260930.1006")
+   (version "20261025.706")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/knu/emacsc.git")
-           (commit "94cee7ce11d7eb699e1619dd02b75e95cacdaaa5")))
-     (sha256 (base32 "1f8grcz8yj9yirq21npwvbw6slc76ncnf7p76ww52mdcagi37irk"))))
+           (commit "ee29327b6f4617fbd68e49ea91f9d4bfc9d65225")))
+     (sha256 (base32 "10gvij5lmkmvvnv60mb9aghqkx3jvb4s4jvga24mfnbqvn3cy422"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "bin")))
    (home-page "https://github.com/knu/emacsc")
@@ -51440,14 +51440,14 @@
 (define-public emacs-immaterial-theme
   (package
    (name "emacs-immaterial-theme")
-   (version "20260802.918")
+   (version "20261025.749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/petergardfjall/emacs-immaterial-theme.git")
-           (commit "6d425e634e10258413e195de81f1360e2dc07725")))
-     (sha256 (base32 "08nf5mwg6dqr42xfaq0jm053b6080p49fx1r5vxmacgpy5nmq665"))))
+           (commit "1ca35bbaa3e5236203c3d3ffaae8e6aa4ee2ae45")))
+     (sha256 (base32 "1hlh7hkad8a250a8zdl5pfjsp15j47c613j2grgc2ybf8n7fjiw4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/petergardfjall/emacs-immaterial-theme")
    (synopsis "A family of themes loosely based on material colors")
@@ -54957,14 +54957,14 @@
 (define-public emacs-js-import
   (package
    (name "emacs-js-import")
-   (version "20230131.1900")
+   (version "20261025.720")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jakoblind/js-import.git")
-           (commit "9f8b6bc4f080c7146ce7ee5dd5a6572aeb6f1cc7")))
-     (sha256 (base32 "1nlcfqy4wciai7g9zdjy4lx50dipv6yq74fladgsw7yq98hpg501"))))
+           (commit "068e95edd47fe5838effba0e14631ad7cddff628")))
+     (sha256 (base32 "1l5diy7hh5m3d3kc328jspwgllqf4nc5z1ldpaq0q73w22lp3nlm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-projectile emacs-dash))
    (home-page "https://github.com/jakoblind/js-import")
@@ -55230,14 +55230,14 @@
 (define-public emacs-json-par
   (package
    (name "emacs-json-par")
-   (version "20260926.1347")
+   (version "20261025.802")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/taku0/json-par.git")
-           (commit "d488d706322bb49a4eda63a878fd7abbc1bde7f5")))
-     (sha256 (base32 "0hl4fb790wzxf8hjmaq9b820n0f37ixfhxjgh2v61bb7k2icdwvn"))))
+           (commit "92a161874ecda5389cabc0e631caaed8e2981cf2")))
+     (sha256 (base32 "0q6cil8k9zcaxr6paramxsrk1ikd8p1h7ip8d41valsrb50axgz1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/taku0/json-par")
    (synopsis "Minor mode for structural editing of JSON")
@@ -61962,14 +61962,14 @@
 (define-public emacs-magit-commit-mark
   (package
    (name "emacs-magit-commit-mark")
-   (version "20260511.839")
+   (version "20261025.417")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-magit-commit-mark.git")
-           (commit "9712db3fd09fe493d2ac5644b40e9cd451877180")))
-     (sha256 (base32 "09bx5l7d4ilsxx3gqrj5j3c2ivbrx5gbxaa0x8pfgg46x7zbbx1m"))))
+           (commit "c45a5772fdec028dba914ed92e7b4c4ba7ecc6c5")))
+     (sha256 (base32 "19naxxg23idv5ww5kd4v41wdpaly5cy7jcrlqq3pnqhpq9217nq7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (home-page "https://codeberg.org/ideasman42/emacs-magit-commit-mark")
@@ -68923,14 +68923,14 @@
 (define-public emacs-nickel-mode
   (package
    (name "emacs-nickel-mode")
-   (version "20240514.1236")
+   (version "20261025.1108")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nickel-lang/nickel-mode.git")
-           (commit "e2dcd6cf66d9b5bcde3e3cd69efe053f73b081ab")))
-     (sha256 (base32 "04367gca4y3ga55sdgc7flli1qn41ix4xxrrh1fh8cq7783ax017"))))
+           (commit "4e890cc504c38135cf2a61cae327e87c692a092c")))
+     (sha256 (base32 "00br07r01573ax42hlhz60p4xnahvlzkvjnazh9rybrh84g986j6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/nickel-lang/nickel-mode")
    (synopsis "A major mode for editing Nickel source code")
@@ -77080,14 +77080,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261023.1121")
+   (version "20261025.1040")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "f8f5076a56a0ca21c807904dbb5eb009646e8a82")))
-     (sha256 (base32 "0qqv8kgg88ybnw2k1z3gsnij4cbfvdrkdm011pqarjgnq6fsynmz"))))
+           (commit "b3dec6286e72fb4111b9894e2d220a55f2011e1b")))
+     (sha256 (base32 "14dji8bdr469ls5rypvw0fwbi1inhibxmw9k5sk71x8isvq5p4dk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -78077,14 +78077,14 @@
 (define-public emacs-osm
   (package
    (name "emacs-osm")
-   (version "20260801.757")
+   (version "20261025.1024")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/osm.git")
-           (commit "6aa44a0776e5d94739ab93c992eefbef0914fc8b")))
-     (sha256 (base32 "0p08ixq3l1f6xd4bx0jxvp0zg4ahyq3zbjcx78nsaj43h7grd6dr"))))
+           (commit "9616cbbab33a8fcd52c981e5a6ff567f43520826")))
+     (sha256 (base32 "1n7n8ggmawyv72bcv3cwa40iznna3nywqbwggx4xxpfjrpincqf5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/osm")
