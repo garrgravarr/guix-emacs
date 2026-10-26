@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261025.1303")
+   (version "20261026.1123")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "aeadc345254a1c5277095227d23631ca0a6da61a")))
-     (sha256 (base32 "1m1qljd1ck3z8w8m3b50b7r1wb29n4n5fcmjms49bbag7rffjh9l"))))
+           (commit "642dfe2257332d55d5ea258d0d07812c3d571518")))
+     (sha256 (base32 "1wphhrjwwbphfaag1680cr7wk7adzbqkd8flzxslbndyvdzi6laa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -10267,14 +10267,14 @@
 (define-public emacs-cern-ldap
   (package
    (name "emacs-cern-ldap")
-   (version "20230626.1158")
+   (version "20261026.1329")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~nbarrientos/cern-ldap.el")
-           (commit "0f1fc3c6ff2a6c24613336397f52175b8bc818a3")))
-     (sha256 (base32 "0lwmyd27rdh6n5axd7d0rjiqz7w691jjgpmc2xbcra9jshhhmp29"))))
+           (commit "4e59da1e886bf77e60416c1c61176a1d8e56a8a6")))
+     (sha256 (base32 "1bzy2wmjhnlal73diqldpng4qqxkqmc1liy50ndwi5rh0ywnbwav"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~nbarrientos/cern-ldap.el")
    (synopsis "Library to interact with CERN's LDAP servers")
@@ -44249,14 +44249,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261022.2145")
+   (version "20261026.958")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "7249ededfda01cf27fbb5188f0515ec4e26452c5")))
-     (sha256 (base32 "09g9dipi0k8ggnqywzwn5ai2ikav9v1p08ixann4rrdpi2cgknc4"))))
+           (commit "4e6768c8740881b7a5f298fb7bc666aa56f970e7")))
+     (sha256 (base32 "0kyiziwxyjxn21hsa9x431bq10pjmijvy52y8h5rq7dds8gk1hz4"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -102259,14 +102259,14 @@
 (define-public emacs-time-zones
   (package
    (name "emacs-time-zones")
-   (version "20260912.1438")
+   (version "20261026.951")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/time-zones.git")
-           (commit "6fe85710c9dd4b87c613a345e5c0191ecb6ec386")))
-     (sha256 (base32 "01is0p0wibqwmp7m9vd29y4x4r0a9q0qvwgfkiva59sxpzq570jr"))))
+           (commit "85502669cc991805061afa1c479ec1c526be3ba4")))
+     (sha256 (base32 "12inmfp8gfvdb6xyjrq7jvqi06f5l54jbmxfiy5b9kk6z8hw7y2c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/time-zones")
    (synopsis "Time zone lookups")
@@ -111000,14 +111000,14 @@
 (define-public emacs-xref-rst
   (package
    (name "emacs-xref-rst")
-   (version "20260528.14")
+   (version "20261026.529")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-xref-rst.git")
-           (commit "e54656eff9138d71c5d9ad7717675575b9f2b636")))
-     (sha256 (base32 "08kw6ksgr9rjg56a377fvl5qb0x0c6zqcsv3v9zi4hqhqnycwri4"))))
+           (commit "41aa52e73d339141eee88b1cb9dfbdaacf7b28c8")))
+     (sha256 (base32 "0b9iq2agwpfmxya71vh068mm5mlfac280pwd0vazwmfgjsf4icij"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-xref-rst")
    (synopsis "Lookup reStructuredText symbols")
