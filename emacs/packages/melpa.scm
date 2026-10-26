@@ -10352,14 +10352,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20261018.808")
+   (version "20261025.911")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "6e00227c58a68bca4347c799cad96b46b1219f48")))
-     (sha256 (base32 "0jxa5d7jgpjqyvbc1arj4g2rqp922875hajc0z32qalrp8gircz9"))))
+           (commit "262b9222d55038cd75b50fbdf3bb07199fce2968")))
+     (sha256 (base32 "1ipl2k32cf9bvhw4fg5dbwf7b0008hqm2jk4lj5qr0p4f99vl53q"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -17677,14 +17677,14 @@
 (define-public emacs-ctftime
   (package
    (name "emacs-ctftime")
-   (version "20261019.911")
+   (version "20261025.1812")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/giovanni-iannaccone/ctftime.el.git")
-           (commit "67763c4c45cf5425fb8f28e2219d3e175f3de770")))
-     (sha256 (base32 "12p6vgkgl5bmxafqpfsc3xak3dx1qdiy0qjgr2d5j5n33rjh9lhl"))))
+           (commit "a5fb3d304084a441b227822915fd7b230f748df3")))
+     (sha256 (base32 "1fyp52hg49djbw6m2s8bwf1v19j8wqylrd95hyaj6gmkxx3fmsy4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/giovanni-iannaccone/ctftime.el")
    (synopsis "CTFtime dashboard")
@@ -17906,14 +17906,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261025.1111")
+   (version "20261025.1945")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "d3d7711547b59b4c59731852850fb374960b3a22")))
-     (sha256 (base32 "1nxj5bqrh0ffq1h6181w5q25cygjwk2x94qardxvhakxmmjlc9ir"))))
+           (commit "35ecd25b4a0b1ff8042a089cd8533039fe9b330e")))
+     (sha256 (base32 "18y5fh205n854yhhzdzxqiskkpvlqzwm7fhim3ds74z17398c4kq"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -20420,6 +20420,23 @@
    (home-page "https://github.com/ber-ro/diffed")
    (synopsis "Diffed is for recursive diff like Dired is for ls")
    (description "Documentation at https://melpa.org/#/diffed")
+   (license #f)))
+
+(define-public emacs-difflayer
+  (package
+   (name "emacs-difflayer")
+   (version "20261023.1601")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/precompute/difflayer.git")
+           (commit "b27ec3bafa41cd2ccd45336efbe77823fc124927")))
+     (sha256 (base32 "1hg3mh40k3vca1nwhlk6f6bsy9dd8jacj957x3db8q5zbgg4y18h"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/precompute/legit")
+   (synopsis "Overlay diffs on selected regions")
+   (description "Documentation at https://melpa.org/#/difflayer")
    (license #f)))
 
 (define-public emacs-difflib
@@ -25603,7 +25620,7 @@
 (define-public emacs-elark
   (package
    (name "emacs-elark")
-   (version "20261013.549")
+   (version "20261025.1800")
    (source
     (origin
      (method git-fetch)
@@ -31202,14 +31219,14 @@
 (define-public emacs-evil-org
   (package
    (name "emacs-evil-org")
-   (version "20221001.2335")
+   (version "20261025.2229")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Somelauw/evil-org-mode.git")
-           (commit "b1f309726b1326e1a103742524ec331789f2bf94")))
-     (sha256 (base32 "1xjmar7zny1g62881ym2dpp3f0cmwh8y8d14phja8y4w6nhiz3s4"))))
+           (commit "7ed69cd872642c1c3d7c1d1e3465989a8db5f171")))
+     (sha256 (base32 "1c6cvnh8qbkgfaxzl49ma8b334qy86hggfwxmpdhijyvqwx4g1pg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (home-page "https://github.com/Somelauw/evil-org-mode.git")
@@ -50188,14 +50205,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20261022.1645")
+   (version "20261025.1521")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "c3e66a48f8ee994538e74fdc582f49ed14d2800a")))
-     (sha256 (base32 "1zjib8nlkn7c6mmxa8gfklc6wjn97z79mh02bq3khxz7l3wqwshn"))))
+           (commit "a88cef59a57121b866ce91d2df68e1a82e59e757")))
+     (sha256 (base32 "1qwisb5axnbi9wkj7jgk6gy4ca9lalg531b2rm34g9bsvkgrg75w"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -75522,14 +75539,14 @@
 (define-public emacs-org-noter
   (package
    (name "emacs-org-noter")
-   (version "20260730.237")
+   (version "20261025.1902")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/org-noter/org-noter.git")
-           (commit "feae91ca4ee6fdc7fd2489fa751dd96bc1f3ddf2")))
-     (sha256 (base32 "08wlbxgy3w8721nzv5gsjfg5hl9vcqjil65n3lwj55iv04jhizcn"))))
+           (commit "525f978cbc9cec3f2c1e23dbc3388c670667cb80")))
+     (sha256 (base32 "1zs3yah0z2v1ph5hl07b2rjhgk1b9vjhhnlww7fh6gax3wbr64zv"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files ("*.el" "modules" (:exclude "*-test-utils.el" "*-devel.el"))))
@@ -82288,14 +82305,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261025.21")
+   (version "20261025.1822")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "c79cc5c843c40d1b809f66eb9c158a3ddd946ba1")))
-     (sha256 (base32 "1m6vyszzikyjjn3n8r83jc6809qwcb45lycpzlx2vbgvs0glviz0"))))
+           (commit "d19416529bc9e81b6c28edd65971901edd368c91")))
+     (sha256 (base32 "09y5wrx9fs04s6m2iccz1i6n8m46j4hpxvdp2h74ap4h052mc3by"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -87664,14 +87681,14 @@
 (define-public emacs-racket-mode
   (package
    (name "emacs-racket-mode")
-   (version "20260926.1912")
+   (version "20261025.1652")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/greghendershott/racket-mode.git")
-           (commit "112ede7765c19011f58d67b4dac9a5435846a07d")))
-     (sha256 (base32 "13waazx14i62v5g699y3irr02wgl84avyp61axv13mln18hagbi1"))))
+           (commit "1ba63e2fa6dd146b71640fefbd0315e0334106e8")))
+     (sha256 (base32 "02nz6fkh2nc7jw8dwkjm9h94k1l8hsba9y91g5dipls7sdmg1lrl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -89340,18 +89357,18 @@
 (define-public emacs-remoto
   (package
    (name "emacs-remoto")
-   (version "20261022.2315")
+   (version "20261025.2022")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/remoto.el.git")
-           (commit "db53bb63ed29662d3d8e5b1cbdfa3f1cb947b127")))
-     (sha256 (base32 "0wd0khylxbg1mhy4z8xjn40hm7lvx084nvrinysm6fcs1hg8frpv"))))
+           (commit "f9845422db502eb765231f5fbc735dd0eb9c8a19")))
+     (sha256 (base32 "04rci47nkg4rklwrzzn0i457zsxr72kqph0hsad465i8n2xnk2km"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ghub))
    (home-page "https://github.com/agzam/remoto.el")
-   (synopsis "Browse GitHub repos without cloning")
+   (synopsis "Browse GitHub and Codeberg repos without cloning")
    (description "Documentation at https://melpa.org/#/remoto")
    (license #f)))
 
@@ -90612,14 +90629,14 @@
 (define-public emacs-romanian-holidays
   (package
    (name "emacs-romanian-holidays")
-   (version "20250102.1029")
+   (version "20261025.1917")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/petrem/romanian-holidays.git")
-           (commit "96c9983ea170503abbd5b3cd79bfe4481c72f43d")))
-     (sha256 (base32 "1g747pkx6a31x1xybs6fq4yaqgz3ngx87rg97i15v3ff2mc5lcr7"))))
+           (commit "4082ba1cec02706dbce48d30554f626fac00111a")))
+     (sha256 (base32 "0676baxcmyl3g11w5f7y8n77yspjhyn2i0wvhicb9bsi6yvyzrh4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/petrem/romanian-holidays")
    (synopsis "Romanian holidays")
@@ -98007,14 +98024,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20261017.1814")
+   (version "20261025.1901")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "0c2e834dda0f5298747a077734cb9d5281dcef5e")))
-     (sha256 (base32 "1cwv683fjab2hx1vvlxyc8ksy0qzfnpgy4b1jswa2mmjp98bpdkf"))))
+           (commit "12099e40ea265a44cdac42b77e2621dad1adfa8b")))
+     (sha256 (base32 "182sxsvsn5v0dy10czp8c4cs66rp95paacziamf196lqc4g5325j"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -98600,6 +98617,23 @@
    (home-page "https://github.com/pkmoore/strace-mode")
    (synopsis "Strace output syntax highlighting")
    (description "Documentation at https://melpa.org/#/strace-mode")
+   (license #f)))
+
+(define-public emacs-straight-overview
+  (package
+   (name "emacs-straight-overview")
+   (version "20261025.1908")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/alberti42/straight-overview.git")
+           (commit "57c6309ecc409d3abf259947a5da583257fbc460")))
+     (sha256 (base32 "1pxlczi9042jjv3gy4wy2l84lhvc0f0ym4ypzdi9v8f81adbsdqk"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/alberti42/straight-overview")
+   (synopsis "Selective upgrade UI for straight.el packages")
+   (description "Documentation at https://melpa.org/#/straight-overview")
    (license #f)))
 
 (define-public emacs-streak
@@ -100867,14 +100901,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20261018.1904")
+   (version "20261025.1905")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "382276c2443f644a981f67f1f2340115696453e2")))
-     (sha256 (base32 "19fvcf35g9cikcdwlrn295kav440p89vdlgnqfp6pdsli06f5cwj"))))
+           (commit "6a400a34a095a9dd359b9b10e7598313e7c92e86")))
+     (sha256 (base32 "0fl599c7g58jc5rd52l03dfp70ppgmnvs5j2bk4vb7gqwnzmyvmf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -104962,6 +104996,23 @@
    (home-page "https://github.com/kadircancetin/typo-suggest")
    (synopsis "Don't make typos with the help of helm and company")
    (description "Documentation at https://melpa.org/#/typo-suggest")
+   (license #f)))
+
+(define-public emacs-typst-overlay
+  (package
+   (name "emacs-typst-overlay")
+   (version "20261025.2009")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/hesampakdaman/typst-overlay.git")
+           (commit "efa1824c23f8a79a525a5a6763b3d92f32ef17a4")))
+     (sha256 (base32 "0d5jx75sn1p4fzq09f7am0csp69nyjnxqvapp6ybw6iwfzb6kj1f"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/hesampakdaman/typst-overlay")
+   (synopsis "Overlay Typst equations")
+   (description "Documentation at https://melpa.org/#/typst-overlay")
    (license #f)))
 
 (define-public emacs-typst-preview
