@@ -11672,14 +11672,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20261013.359")
+   (version "20261027.1401")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "cb4147f2f2a59a252bf8982600ecaf3c730a567c")))
-     (sha256 (base32 "1dsxdhzpysqyasd3ihkwqgr05w68d25m2yldv2vkgas13hj7k6gc"))))
+           (commit "2a88f98c53bca9f831e2c3c491bc1ee2a825df42")))
+     (sha256 (base32 "1civlqf6swk80dipbcm15pd5zyqg548j560r4mkal7hw04vxwip2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12584,14 +12584,14 @@
 (define-public emacs-cmake-mode
   (package
    (name "emacs-cmake-mode")
-   (version "20261002.1529")
+   (version "20261027.1528")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.kitware.com/cmake/cmake.git")
-           (commit "5c710a430e922d0dbb2e08e81000a5bfa63d2e90")))
-     (sha256 (base32 "1kgnm6gcwrmqgvgpxdr2gg2plqr8qgqb1j519kg82bk548akdp14"))))
+           (commit "9c097d77b4c7163420924f392dfc8b4a89f2f140")))
+     (sha256 (base32 "1a3hwzqswfwirjsx7d3qmv7kh5lavl13g0ck1mp6vi10n14yjyb0"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("Auxiliary/*.el")))
    (home-page "unspecified")
@@ -21565,14 +21565,14 @@
 (define-public emacs-diredc
   (package
    (name "emacs-diredc")
-   (version "20261018.714")
+   (version "20261027.1725")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Boruch-Baum/emacs-diredc.git")
-           (commit "29b90c68a9548cd8005319fa44b42b55dc7657c1")))
-     (sha256 (base32 "1r8gwkbq6gqh56idmwfgl4jb4a4l7gjqd8rmxm4mmaqvb17a5ybw"))))
+           (commit "2acd5697407863cf902b3f1af52725b08b152b2e")))
+     (sha256 (base32 "16y06gpmg9j9khdsir9argdxy5x79j9zbh18779k0as9jaz50djj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-key-assist))
    (home-page "https://github.com/Boruch-Baum/emacs-diredc")
@@ -24231,14 +24231,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20261025.326")
+   (version "20261027.1520")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "b353d444dca3e1f54c6c724a20eda372ee5443d7")))
-     (sha256 (base32 "131wddkdpq79s2sy4wr9xr8pwsmygcywbjz01yw451jr26d89dcq"))))
+           (commit "d08930b63ec91898019a931f13556deca7433828")))
+     (sha256 (base32 "0d1arns4dc8sr8g8kqxl6a9qk8v1ihmip7bxfks9w3bljf9kjn78"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -66690,15 +66690,16 @@
 (define-public emacs-mozc
   (package
    (name "emacs-mozc")
-   (version "20260624.1355")
+   (version "20261016.1233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/google/mozc.git")
-           (commit "76887c679e1e4f156102e4bc62ea9cf9174678a3")))
-     (sha256 (base32 "18v2vlxcs0pxq84mydqdzrfn5jf7waav6ykrawd74mfhlwjp3f4v"))))
+           (commit "d766d25d253141eff71e25c593aaf753f8d91cee")))
+     (sha256 (base32 "0qjfswwkwspcddy7pwx4s461b37j9yis7nv20wh3875m3yk86mp5"))))
    (build-system melpa-build-system)
+   (arguments '(#:files ("src/unix/emacs/mozc.el")))
    (home-page "https://github.com/google/mozc")
    (synopsis "Minor mode to input Japanese with Mozc")
    (description "Documentation at https://melpa.org/#/mozc")
@@ -68473,14 +68474,14 @@
 (define-public emacs-neil
   (package
    (name "emacs-neil")
-   (version "20260524.1246")
+   (version "20261027.1204")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/babashka/neil.git")
-           (commit "ea7cd2ec2794c1c5e4a924e7579dde7356ffee50")))
-     (sha256 (base32 "1famg4jjhpfms8cpxprl48n2kh7is5h9m6wib8c66xhba5f930cj"))))
+           (commit "7661200e98b9380db8092ce7f614c5dcb63e10bf")))
+     (sha256 (base32 "1fka57sf09xsbna2vyyhcp4ayvgs0dcnc512q24fh20dvkprk8b8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/babashka/neil")
    (synopsis "Companion for Babashka Neil")
@@ -69018,14 +69019,14 @@
 (define-public emacs-nickel-mode
   (package
    (name "emacs-nickel-mode")
-   (version "20261025.1108")
+   (version "20261027.1210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/nickel-lang/nickel-mode.git")
-           (commit "4e890cc504c38135cf2a61cae327e87c692a092c")))
-     (sha256 (base32 "00br07r01573ax42hlhz60p4xnahvlzkvjnazh9rybrh84g986j6"))))
+           (commit "ff523bc1def96ff76d909ec661ab358a7695f631")))
+     (sha256 (base32 "09zdjwk5hf2h12mzfxi0h7vnax8x1h4biszd9n53lx3q5g2gs5sc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/nickel-lang/nickel-mode")
    (synopsis "A major mode for editing Nickel source code")
@@ -98622,14 +98623,14 @@
 (define-public emacs-straight-overview
   (package
    (name "emacs-straight-overview")
-   (version "20261025.1908")
+   (version "20261027.1126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/straight-overview.git")
-           (commit "57c6309ecc409d3abf259947a5da583257fbc460")))
-     (sha256 (base32 "1pxlczi9042jjv3gy4wy2l84lhvc0f0ym4ypzdi9v8f81adbsdqk"))))
+           (commit "02ba4061c1534a46f0354109bd2e5bdf6dc4f2c0")))
+     (sha256 (base32 "0axgxfqrfpr5rsqznz40dkl83m2kjb3rmplyffprnaxjsrykdljn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alberti42/straight-overview")
    (synopsis "Selective upgrade UI for straight.el packages")
@@ -108059,14 +108060,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261027.1026")
+   (version "20261027.1532")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "a3f1bae4856a041202e5f2d5af4390d5d0e70d72")))
-     (sha256 (base32 "11piic28vw9fma4vgb8zpw3xkzn8x2h6adm1wanxk035gkvw0cz6"))))
+           (commit "765fdf6d0340beced7595351527eac530d628697")))
+     (sha256 (base32 "0a8r4219bxa8wj1vx2sd46pcmmpmjbg5zjjyk25wxak6j8rxpz6v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -108095,14 +108096,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20261015.1023")
+   (version "20261027.1556")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "74d77d11c11f93745fdf88e3a8d00599aee80960")))
-     (sha256 (base32 "1s9c8pj8616ydwgdcr4giv2h4qd6fqfkyxl9xpcz04i3j3sfkmim"))))
+           (commit "e8d00d8415275d5ac4606c8b1b3aeff2ee9699dd")))
+     (sha256 (base32 "1202ic1lnidwp7jrzwaakqymakjns9yizljmjz7czxrr3yca9q5z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -110598,14 +110599,14 @@
 (define-public emacs-x509-mode
   (package
    (name "emacs-x509-mode")
-   (version "20261022.456")
+   (version "20261027.1858")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jobbflykt/x509-mode.git")
-           (commit "fd1473813f5088ecbed93045c4f8a239eef41af9")))
-     (sha256 (base32 "1mch9vzn9yhfagf42wnz3xyx05y0fhgkg0h9i0gr7bzw21qxwj4y"))))
+           (commit "26a6811270f38463ede0470d0901dab83650d4a4")))
+     (sha256 (base32 "1l2w96gyv8dvsjc724k9m6ylzqdar0v3i4kph244cqn36d3s4vhy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "*.txt")))
