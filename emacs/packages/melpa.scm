@@ -1714,14 +1714,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20261023.1802")
+   (version "20261027.1120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "dee33f819c3bc01b8df7ee9b3e4d834dc0256bf6")))
-     (sha256 (base32 "0hhm6sz185dahsx3jynwzrfiqs1081spzj2g0xqzn9g4vyakkqrk"))))
+           (commit "f90ab117669b75f7426a4084e5b7adeab3b57dda")))
+     (sha256 (base32 "1q4d9ll93jc23rd7g52hh31gzmci9n5dw954gpa1s5p6vafms3hs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -11134,14 +11134,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20261024.1139")
+   (version "20261027.1019")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "de5a400770f9c8df583392ea307ec96feb3d51a7")))
-     (sha256 (base32 "009640j4nac411m2kssxmq776qq8n9qh30dc6w8bl4wvr3555pp3"))))
+           (commit "11c5c9e5549a856c76fdbb109caa04d8555f8dfc")))
+     (sha256 (base32 "034105hz6lsfz0ck67gw797qjsmdxnr2r2bdd917fdc732z3b7ki"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -22627,14 +22627,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20261024.1549")
+   (version "20261027.813")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "5a415f8d66a8e9fa78a2067c24c9187af4ac0743")))
-     (sha256 (base32 "0p61i9r57669jz4sr8mx91fsqy07gng3yllkk0hcfw4lnnp7cs92"))))
+           (commit "5461335f28f3655331877a29d67db98675ed8f61")))
+     (sha256 (base32 "1d8aa2w6pqnc5cxqhm2xpkws4yg4rz4mzr6rmds76clpwx2992p9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -40295,14 +40295,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261026.1802")
+   (version "20261027.833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "42de3eb31ef65a96c3c4d846ac5eeb5636c0438d")))
-     (sha256 (base32 "1vqj5xa2lxrq8kjc6xcxn7mh6123ggipgmr0w958l0rvxm4a8mnx"))))
+           (commit "97ec8f16eb90cd0de87dbf5643d7371cf9895686")))
+     (sha256 (base32 "0p75h3adiq43k40jkmayxaii3s69l81gbn2i4f5czd1mxyxirbrn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -100901,14 +100901,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20261026.1634")
+   (version "20261027.538")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "9c4f2f308a93963e8273858fc6bbbd9c1eb51a06")))
-     (sha256 (base32 "0sqkqp4qy795939qfdsnnspwszx7ry15dyqv77fqf6hq4cgxfy9f"))))
+           (commit "a97206b891cafe4f4c052e8d14c48869f4ada5b3")))
+     (sha256 (base32 "00icb7g27bhahn1giahdav7qr86wdxgmdc4sp09iqspci6q4wz57"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -108059,14 +108059,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261024.1417")
+   (version "20261027.1026")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "1c7a3a04d2be174685878e4ba5be964e00bdb81c")))
-     (sha256 (base32 "07zi162i4pgljfkp4759g22sc58pifshkyf6ynm27wjjihvcgn4w"))))
+           (commit "a3f1bae4856a041202e5f2d5af4390d5d0e70d72")))
+     (sha256 (base32 "11piic28vw9fma4vgb8zpw3xkzn8x2h6adm1wanxk035gkvw0cz6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -109932,14 +109932,14 @@
 (define-public emacs-with-editor
   (package
    (name "emacs-with-editor")
-   (version "20261018.2026")
+   (version "20261025.2008")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/with-editor.git")
-           (commit "fd559b37da8eb7afd93bf48db266410b1821dc02")))
-     (sha256 (base32 "0j8p4mlj8va8a49i9db0mn1vlfnf20ij9m67hrpw1181wxa6j9cj"))))
+           (commit "9f56eb92ce7e47730ba52785564d09d8f13abe31")))
+     (sha256 (base32 "1hipgxrkrv62zbg460nascd714dg2cws4qk2rcrynrqfkzyhj1hd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/with-editor")
@@ -110999,14 +110999,14 @@
 (define-public emacs-xref-rst
   (package
    (name "emacs-xref-rst")
-   (version "20261026.529")
+   (version "20261027.729")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-xref-rst.git")
-           (commit "41aa52e73d339141eee88b1cb9dfbdaacf7b28c8")))
-     (sha256 (base32 "0b9iq2agwpfmxya71vh068mm5mlfac280pwd0vazwmfgjsf4icij"))))
+           (commit "a35a6f0bd10260148830e6e4ebb4596131461257")))
+     (sha256 (base32 "18vfn10qfg0g4c50ikmbmmzk6rbqfamvagdvk9n3d35dj3286fmk"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-xref-rst")
    (synopsis "Lookup reStructuredText symbols")
