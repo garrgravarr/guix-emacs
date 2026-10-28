@@ -842,14 +842,14 @@
 (define-public emacs-ac-php-core
   (package
    (name "emacs-ac-php-core")
-   (version "20260923.612")
+   (version "20261028.205")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "579063ac92f3cba9816edd31f24c759aac3a64b2")))
-     (sha256 (base32 "0kvi4sir57k4wi4vqpl4wyz73qinashhldbymjdjs77ldx7sa7f9"))))
+           (commit "55d94fb034e8426fe25b756cd75c1c5e4fd5ba15")))
+     (sha256 (base32 "0440ryxjbv902a66p7p46sxgrkmcj3cj0masbva8w6n9v1i87dg4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-php-mode emacs-s emacs-f emacs-popup emacs-xcscope))
@@ -1660,14 +1660,14 @@
 (define-public emacs-agent-recall
   (package
    (name "emacs-agent-recall")
-   (version "20260907.651")
+   (version "20261027.2121")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrx-xo/agent-recall.git")
-           (commit "67651796756668479ff954b3ea6f7fb7312762f3")))
-     (sha256 (base32 "0728d5k1sk3432pwl1qjagazks3cx9qyd1m67k0lavyzy65n9r0y"))))
+           (commit "4dd831650d326d16ee036a0d251dc9546e9a0dda")))
+     (sha256 (base32 "1imln89syl4wzbvmnfp5sj2fx0phq3j39r0lq5m6vzzx2h3yn26j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell))
    (home-page "https://github.com/Marx-A00/agent-recall")
@@ -8607,14 +8607,14 @@
 (define-public emacs-buffer-terminator
   (package
    (name "emacs-buffer-terminator")
-   (version "20261008.1914")
+   (version "20261027.2126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/buffer-terminator.el.git")
-           (commit "b6799b7f16524cef2847f29390e415e031f1807c")))
-     (sha256 (base32 "02p2vjsqpx05y9ssxsyw73qpbdsz5nijsl9z6rdkiz5nwdbmcnkh"))))
+           (commit "cd99f402d9b142bf378aaf939f279b78f4e93170")))
+     (sha256 (base32 "0j54sgd6q4yb9dxvyij8rzpy4z3hgbwi0c48qwhxhp8gnpjiac49"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/buffer-terminator.el")
    (synopsis "Safely Terminate/Kill Buffers Automatically")
@@ -14908,14 +14908,14 @@
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
-   (version "20261008.1913")
+   (version "20261027.2125")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/compile-angel.el.git")
-           (commit "eb9d30f667040ade8f546470af463b79a9c0a3b5")))
-     (sha256 (base32 "0sfpmfzlysmiyawscs1kv69a27p260wv7c1nk98rqp1cbbzxhbmk"))))
+           (commit "6aa153a032d0637b69f58785a7213df37ed60fcb")))
+     (sha256 (base32 "0ibfjgfyjq2r1znnq0da2i2wziqn6bisx5828qs3cs23fxznhmv5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/compile-angel.el")
    (synopsis "Automatically Compile Elisp files (auto-compile alternative)")
@@ -44249,14 +44249,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261026.2123")
+   (version "20261028.253")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "7c5afe4d938bbb0c5669fa4895c5d9c5a3e9d285")))
-     (sha256 (base32 "1sc4m5p6ab1apfd8r23fwfg5ym0prshh5xzjhk4n306p7lc6y1yi"))))
+           (commit "4f537030f7794198984f1b19ce6f2e3ff3e49c94")))
+     (sha256 (base32 "1a9wbpican9c94xmclr6g3fci1ghxz8hx0jssajx8041hr6m2g15"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -56974,14 +56974,14 @@
 (define-public emacs-kirigami
   (package
    (name "emacs-kirigami")
-   (version "20261025.1845")
+   (version "20261027.2120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/kirigami.el.git")
-           (commit "a435a8f41c33e5824fe3aaf65ad01d0bba5f58e1")))
-     (sha256 (base32 "0xglkv7svzx6nk7g72i6ad88syz3d1rglr5319am4yy69qa5ap9a"))))
+           (commit "32ca0ac5cbdcee537ff991d803d26269e8e36e53")))
+     (sha256 (base32 "1ml00jxrsah18wf4hvpzhx5lk781qmycsm5arnglggp3qby0yc04"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/kirigami.el")
    (synopsis "A unified method to fold and unfold text")
@@ -70652,14 +70652,14 @@
 (define-public emacs-ob-agent-shell
   (package
    (name "emacs-ob-agent-shell")
-   (version "20261007.1612")
+   (version "20261028.102")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/eddof13/ob-agent-shell.git")
-           (commit "494608c80da381de93f0f9ef1fcabbf8aa371343")))
-     (sha256 (base32 "11hjkc8gr5hlprmsxr5pkiq5x4knh7q21qyxznbj3s5s38h9gd64"))))
+           (commit "08c840edac37cf8af051882ba3564aa9e89cde9f")))
+     (sha256 (base32 "0fx4gw8ml3qv0xny80gxf6i08xx2n1nnh6bn7nhgz69rknavmn6w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell))
    (home-page "https://github.com/eddof13/ob-agent-shell")
@@ -81404,14 +81404,14 @@
 (define-public emacs-persist-text-scale
   (package
    (name "emacs-persist-text-scale")
-   (version "20261001.1424")
+   (version "20261027.2122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/persist-text-scale.el.git")
-           (commit "44a245d5a15a5ba72a1ac7588030bd8971b6d421")))
-     (sha256 (base32 "0snqiza27m8swm62i0g957d66jpsywgplqcw16xsadm7w78p2q5r"))))
+           (commit "3bca6787c7066621f8d48794f33d0ab7f4e7e9b2")))
+     (sha256 (base32 "0kvyd8fizbagly4301jpkvbwrp3dl5nbbdji4dbnd248r8wzfqgp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/persist-text-scale.el")
    (synopsis "Persist and restore text scale")
@@ -87418,14 +87418,14 @@
 (define-public emacs-quick-fasd
   (package
    (name "emacs-quick-fasd")
-   (version "20261001.1445")
+   (version "20261027.2123")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/quick-fasd.el.git")
-           (commit "1f533ad7e4b6c7d189511cf4baeac2942f2aeb15")))
-     (sha256 (base32 "0f5xcymzp1b1ngsfgvfsm02x3wlzhwmn3szd629smgcygzyyyb5s"))))
+           (commit "54a4dedc9d4e78d406df3125126dbd7a7b5949af")))
+     (sha256 (base32 "1y26wp56n91aj8p3cilnyl0i7j8wiqn84vw6afak8f163z1pyyc6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/quick-fasd.el")
    (synopsis "Integration for the command-line tool `fasd'")
@@ -87469,14 +87469,14 @@
 (define-public emacs-quick-sdcv
   (package
    (name "emacs-quick-sdcv")
-   (version "20261001.1416")
+   (version "20261027.2122")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/quick-sdcv.el.git")
-           (commit "74a36584a186ad88a5296cd4c1d614dedf275f65")))
-     (sha256 (base32 "0q6xr453gxvqmbyx4ikhw2imsrg8i15n8hlikwvw3jlzbzris37w"))))
+           (commit "ea5f06126bd1448fa07370a9ee7ac8ed1dfc71ad")))
+     (sha256 (base32 "0a0bjqhhlha45zl6qvdlkrby2mmafgl5ww7n40z1fqkhzl6v537d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/quick-sdcv.el")
    (synopsis "Offline dictionary using 'sdcv' (StartDict cli dictionary)")
@@ -95446,14 +95446,14 @@
 (define-public emacs-sly
   (package
    (name "emacs-sly")
-   (version "20261013.22")
+   (version "20261028.112")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/joaotavora/sly.git")
-           (commit "9b3477a5dc6c9a4496d4fbb6804349961e861835")))
-     (sha256 (base32 "0bhp5zlvzqdvjdnycsf5w2bmcpcnndy177d93w3k8gb04nc5nnpm"))))
+           (commit "70350623eecd1f41837c9e57cbb6d5c06678a60d")))
+     (sha256 (base32 "145w8n0vg0szqfa0rdl3a8w837ip58hdbckss89lixcag33lp591"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -97357,14 +97357,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20260917.237")
+   (version "20261028.315")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "95eeba8ce68732c2c6de9f7f2804c017f1c729d2")))
-     (sha256 (base32 "1p8pm3x5r1n41yfbzs8q519xpbjx0x6fky7cidxrhhrsdp5chhdh"))))
+           (commit "10b5d45ff68cd2f614a43a99e0db8cf07c17fc86")))
+     (sha256 (base32 "1cqlp5vxbn4a6ifh28pycwnwp87866ly1w05l60jmibr7zlfvql6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
