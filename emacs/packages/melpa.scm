@@ -822,14 +822,14 @@
 (define-public emacs-ac-php
   (package
    (name "emacs-ac-php")
-   (version "20260923.612")
+   (version "20261028.426")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "579063ac92f3cba9816edd31f24c759aac3a64b2")))
-     (sha256 (base32 "0kvi4sir57k4wi4vqpl4wyz73qinashhldbymjdjs77ldx7sa7f9"))))
+           (commit "55d94fb034e8426fe25b756cd75c1c5e4fd5ba15")))
+     (sha256 (base32 "0440ryxjbv902a66p7p46sxgrkmcj3cj0masbva8w6n9v1i87dg4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-ac-php-core emacs-auto-complete emacs-yasnippet))
@@ -842,7 +842,7 @@
 (define-public emacs-ac-php-core
   (package
    (name "emacs-ac-php-core")
-   (version "20261028.205")
+   (version "20261028.426")
    (source
     (origin
      (method git-fetch)
@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261027.42")
+   (version "20261028.1046")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "0195679fa9e661d012a97b8cfd1fcdc577d8496f")))
-     (sha256 (base32 "06rr4wa1mnxfsy1yamadvzy5ry0253jdckxjh389ps2inbrfa7z9"))))
+           (commit "5fd3c831a0af0981c4e8114a61e8d012e7b477e2")))
+     (sha256 (base32 "1f5qq3hrxbx36mif34ry8xlcy3jkq8gcb4av0brwmqmync3shngb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -14333,14 +14333,14 @@
 (define-public emacs-company-php
   (package
    (name "emacs-company-php")
-   (version "20260923.612")
+   (version "20261028.426")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "579063ac92f3cba9816edd31f24c759aac3a64b2")))
-     (sha256 (base32 "0kvi4sir57k4wi4vqpl4wyz73qinashhldbymjdjs77ldx7sa7f9"))))
+           (commit "55d94fb034e8426fe25b756cd75c1c5e4fd5ba15")))
+     (sha256 (base32 "0440ryxjbv902a66p7p46sxgrkmcj3cj0masbva8w6n9v1i87dg4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ac-php-core emacs-company))
    (arguments '(#:files ("company-php.el")))
@@ -32990,14 +32990,14 @@
 (define-public emacs-fastbuild-bff-mode
   (package
    (name "emacs-fastbuild-bff-mode")
-   (version "20260411.905")
+   (version "20261028.1037")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cyberkm/fastbuild-bff-mode.git")
-           (commit "fa3ea52a7542b3110d0320ba4c48ed5cbfde100b")))
-     (sha256 (base32 "0iqqivlvfw4123k630h3xwhxawhvpy72y3kfvz8xfsf8r9z20sir"))))
+           (commit "5fed845e3f8f8ebd7304e4591621d67f3ee2f809")))
+     (sha256 (base32 "1j3fjah83c7l37q96wzk4d8l1pxvkh0b1ancnrbhgvam0cpajain"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/cyberkm/fastbuild-bff-mode")
    (synopsis "Major mode for FASTBuild BFF files")
@@ -61971,14 +61971,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261024.1444")
+   (version "20261028.453")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "65232f488caae960029cc68bcc607aea340fa3b1")))
-     (sha256 (base32 "03vv94ghjw8q6fhh3af48v860rwzyrhbjlwzwvdl17285j8hm2yr"))))
+           (commit "fed3e3009adfc62c2addad2db05d91741447728b")))
+     (sha256 (base32 "136wd9m8whi49ycsh8x9j9hvhkqb31jdw60g5b98yqypclj58xva"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62473,14 +62473,14 @@
 (define-public emacs-magit-section
   (package
    (name "emacs-magit-section")
-   (version "20261024.1048")
+   (version "20261028.453")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "70e5b635068949a6347e6e93f1758b11f561aba2")))
-     (sha256 (base32 "1a4v49i1j1dcriv3v6awdmi2d5pdm07iivp22cs6dnm4l42s66ry"))))
+           (commit "fed3e3009adfc62c2addad2db05d91741447728b")))
+     (sha256 (base32 "136wd9m8whi49ycsh8x9j9hvhkqb31jdw60g5b98yqypclj58xva"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (arguments '(#:files ("lisp/magit-section.el" "docs/magit-section.texi")))
@@ -63333,14 +63333,14 @@
 (define-public emacs-markdown-ts-appear
   (package
    (name "emacs-markdown-ts-appear")
-   (version "20261020.1302")
+   (version "20261028.846")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Thysrael/markdown-ts-appear.git")
-           (commit "618876c65980db3b484d6033f27f4b29466d5e17")))
-     (sha256 (base32 "1yb5yzf55x1v3kj85l182cx3zh5ski7m5lssgj9kwxah2isnvjnf"))))
+           (commit "812a2155617c6b3175f00ce594f36cea4d84f2f4")))
+     (sha256 (base32 "0svzg0hrxp270lfgb5hppp81snbbvgx45l0ljzcqqzldqxfzg7hh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Thysrael/markdown-ts-appear")
    (synopsis "Reveal Markdown source at point")
@@ -73484,14 +73484,14 @@
 (define-public emacs-org-autoexport
   (package
    (name "emacs-org-autoexport")
-   (version "20261004.1114")
+   (version "20261028.1120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~zondo/org-autoexport")
-           (commit "3a23950fc11c98a484a9884a18205d5ac1611854")))
-     (sha256 (base32 "0am839m9q2ni5z7657fmzglmh8s7mckxp9aprni2f0dj45x3ql8b"))))
+           (commit "d813f167be70f0bf13c75fa085ff8e42fb847b4a")))
+     (sha256 (base32 "0sl9v2pd414b9664v1phfswqk4m83yylsfgfh80wqypjd3fccvpa"))))
    (build-system melpa-build-system)
    (home-page "https://git.sr.ht/~zondo/org-autoexport")
    (synopsis "Auto-export org file on save")
@@ -100902,14 +100902,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20261027.538")
+   (version "20261028.655")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "a97206b891cafe4f4c052e8d14c48869f4ada5b3")))
-     (sha256 (base32 "00icb7g27bhahn1giahdav7qr86wdxgmdc4sp09iqspci6q4wz57"))))
+           (commit "dc06b97d3f5ae7faab27e79ad946077ad1441362")))
+     (sha256 (base32 "0f14niqwapnzk720dh111jqwrp4v1ffd4f43vib4fa57m62bvfjr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -108060,14 +108060,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261027.1532")
+   (version "20261028.1003")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "765fdf6d0340beced7595351527eac530d628697")))
-     (sha256 (base32 "0a8r4219bxa8wj1vx2sd46pcmmpmjbg5zjjyk25wxak6j8rxpz6v"))))
+           (commit "b05a8c1fa96669fdaf251c206dd6348c934a5484")))
+     (sha256 (base32 "105jjvl637lbkav7d7nx3a70mxvsvvg0agx3i2lrwvkrklxxnz5a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -108132,14 +108132,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20261022.2036")
+   (version "20261028.1115")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "bced4a970a1be24ae970e26154d11f7672a7065c")))
-     (sha256 (base32 "0sl7c23l9nwmm7vpikqx4g68vppvjakxzp8x3iqhkji0jxdifr81"))))
+           (commit "83190d8827a7eab43e1c52614d0dcc1e32bdb62a")))
+     (sha256 (base32 "0vp2fa0ybkl0x873pzc6w8hwai9fr2j3z3rzl3ml9j19jn8kiq78"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
@@ -108310,14 +108310,14 @@
 (define-public emacs-wakib-keys
   (package
    (name "emacs-wakib-keys")
-   (version "20260420.1927")
+   (version "20261028.636")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/darkstego/wakib-keys.git")
-           (commit "9a99decea2010fae79fc22b340a37f93adf134dc")))
-     (sha256 (base32 "1dv4c89kyf4m2ahvkc63dcqww9k2dshcaakxw89z1wxda3cjmc8n"))))
+           (commit "846c71f30f766b7798ec26f4e5349a7c38d2eaae")))
+     (sha256 (base32 "050hpw0ajrxiv4xr3ykb8zjbb2grji16g9qlzncvb5ic9cyq4zg6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/darkstego/wakib-keys/")
    (synopsis "Minor Mode for Modern Keybindings")
@@ -111864,14 +111864,14 @@
 (define-public emacs-youtube-music
   (package
    (name "emacs-youtube-music")
-   (version "20260923.1109")
+   (version "20261028.609")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cyberkm/emacs-youtube-music.git")
-           (commit "d13cf01d58f6c399a7217f708c84d741f8cd4f63")))
-     (sha256 (base32 "12nj45bq1kb4kvghc7hkrfbraps79d3rhgbzj4ww10xz1sgvfz1z"))))
+           (commit "de36ee6a48bfb4a8553a9827b7b2e0481b168b6b")))
+     (sha256 (base32 "0xjmagyqxn891pcnvg1prhyvdl7k4mz0sp0lizb9banhknr3rbr4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/cyberkm/emacs-youtube-music")
    (synopsis "YouTube Music client")
