@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261029.19")
+   (version "20261029.532")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "8b0839ddf753b9254e559d63f55540f1c1582635")))
-     (sha256 (base32 "0q26zk2li3s1pp64di8wv2j50hcn8qp5mzjp5fshw9gxb2b5x3l7"))))
+           (commit "14be85a5dfa9933c3a2970a83b24daea5c2b1a74")))
+     (sha256 (base32 "0bc89vfi4qjvm1b0s111p9h9jqimn2k80ppm39n4z1pdqk3z7aiv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -12391,14 +12391,14 @@
 (define-public emacs-clojure-ts-mode
   (package
    (name "emacs-clojure-ts-mode")
-   (version "20261026.1651")
+   (version "20261029.616")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clojure-ts-mode.git")
-           (commit "9aed091f27984ba96d063588770e573e993f27ee")))
-     (sha256 (base32 "1g6f3bb4d1zshzlr5fbqbl503cpg2jjax89fz41zwmcxpv1paf3f"))))
+           (commit "229b06995231896e2d5269fba7dbc84c233b971a")))
+     (sha256 (base32 "1lab9hr5c1wk50cn93r0nj9qlykz5c4izk171k8bc68b4vjayzn7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/clojure-emacs/clojure-ts-mode")
    (synopsis "Major mode for Clojure code")
@@ -15605,14 +15605,14 @@
 (define-public emacs-consult-ghostel
   (package
    (name "emacs-consult-ghostel")
-   (version "20261019.1030")
+   (version "20261028.2118")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "b7a2216b0e66fdce72c9bc7161415d4a37a6e1cc")))
-     (sha256 (base32 "119fz2jaaav7sa3wjdfhxxh0c2p7r8mr5wr328fr3g7844ja3hwp"))))
+           (commit "29e1fa1836af184c48ed5aba2f33ceaf698ef8e4")))
+     (sha256 (base32 "11c8q6xjvm86j9vik7clkxjb2gpprmdz87ig6w3hzqyzwmfpzwny"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult emacs-ghostel))
    (arguments '(#:files ("extensions/consult-ghostel/consult-ghostel.el")))
@@ -22627,14 +22627,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20261027.813")
+   (version "20261029.818")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "5461335f28f3655331877a29d67db98675ed8f61")))
-     (sha256 (base32 "1d8aa2w6pqnc5cxqhm2xpkws4yg4rz4mzr6rmds76clpwx2992p9"))))
+           (commit "56c2ef3507c7b35d6c8568ab993f44862d65805e")))
+     (sha256 (base32 "07rlca1gwxs5drkzjf56ardcxf7gak3ja6s28nqs5jslcid4609p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -25203,14 +25203,14 @@
 (define-public emacs-ejc-sql
   (package
    (name "emacs-ejc-sql")
-   (version "20261028.2311")
+   (version "20261029.1209")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/ejc-sql.git")
-           (commit "7aab18216aa1d6b5c137528d6cf49831942efb44")))
-     (sha256 (base32 "1vbwj6d10qxrhn8v2ixkfxahd47cm20cf3a09apb85z7xxcvvcah"))))
+           (commit "e08e7496741daca46644820862e8e636f1e5e5f6")))
+     (sha256 (base32 "1605b24cp789rkkfw3bwclw21k3a8ihb6sivfxfx19xllw2dnkz7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-clomacs emacs-dash emacs-spinner))
    (arguments '(#:files (:defaults "project.clj" "src" "snippets")))
@@ -40295,14 +40295,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261028.1920")
+   (version "20261029.1054")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "4f95847e3e406e3049f27fc46f1401359fc0e463")))
-     (sha256 (base32 "19277sik5sdsw1drrxcbx1yii6jfdc9l6cs0cw9wjlr5qx97xkgn"))))
+           (commit "29e1fa1836af184c48ed5aba2f33ceaf698ef8e4")))
+     (sha256 (base32 "11c8q6xjvm86j9vik7clkxjb2gpprmdz87ig6w3hzqyzwmfpzwny"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -61971,14 +61971,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261028.1844")
+   (version "20261029.1034")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "4031049049b23785268497ff49eed0690f1ce85f")))
-     (sha256 (base32 "00hz0g7awy1vx6rnx3z093kdyvmfk1jhn8wsifx6dsg8phx2wdn6"))))
+           (commit "a52f2c9279fea12f0254b34aa88786e40abc0f76")))
+     (sha256 (base32 "0yknaw6qr6xj4s93shd0zhh6q55mb0lqviybnnqjgrc23szvlayr"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -63333,14 +63333,14 @@
 (define-public emacs-markdown-ts-appear
   (package
    (name "emacs-markdown-ts-appear")
-   (version "20261028.846")
+   (version "20261029.638")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Thysrael/markdown-ts-appear.git")
-           (commit "812a2155617c6b3175f00ce594f36cea4d84f2f4")))
-     (sha256 (base32 "0svzg0hrxp270lfgb5hppp81snbbvgx45l0ljzcqqzldqxfzg7hh"))))
+           (commit "d740ad4f59b8b34ea27a93a2b3b98fbdaf0cd467")))
+     (sha256 (base32 "0p2jcli4kvg4pw38phaw7cw3jq9wcpwkmj4560g05f4nwrjvn1za"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Thysrael/markdown-ts-appear")
    (synopsis "Reveal Markdown source at point")
@@ -77977,14 +77977,14 @@
 (define-public emacs-orgtbl-aggregate
   (package
    (name "emacs-orgtbl-aggregate")
-   (version "20261012.825")
+   (version "20261029.929")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgaggregate.git")
-           (commit "d16e84f9c96ebad6fbfdba99d7c0c2363dab4f1f")))
-     (sha256 (base32 "1kdr8kr5q1rap8i0g27pihyvcpvb798gbc7vcwp2nr37pg4mcsv1"))))
+           (commit "70457a671a6590681a805e403e62c3cd448e8f7b")))
+     (sha256 (base32 "1qzj1fi2i5n5kzqkn8qn4153hw7dib2bcx3fnix3znq6jcwcj6ax"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgaggregate/blob/master/README.org")
    (synopsis "Aggregate an Org Mode table | + | + | into another table")
@@ -93664,14 +93664,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20261022.236")
+   (version "20261029.954")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "e089f07fb4f5a8ce226932e192a2c11682a51102")))
-     (sha256 (base32 "1iffxjj3bj5ncpzr9jfyymcr54j89b87qv57pmw93q6jwkqm18bs"))))
+           (commit "b28ee61a2533e408ed180662f83bb84fc8f84ba6")))
+     (sha256 (base32 "0w8b8jgsjncn49ll5vlb6ny397fmv6vdc5yi7zyhxcsszg8pkblb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -94199,14 +94199,14 @@
 (define-public emacs-shut-up
   (package
    (name "emacs-shut-up")
-   (version "20240429.605")
+   (version "20261029.530")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cask/shut-up.git")
-           (commit "ed62a7fefdf04c81346061016f1bc69ca045aaf6")))
-     (sha256 (base32 "1wrxdkgsr7rrz0h6kl6a68r1f1nn098p1cmg4693yaam5pl8lscf"))))
+           (commit "2f015df0b678c4eac90a561c65d8f31f6d7b73d1")))
+     (sha256 (base32 "0w1z015fmd3ixs45c5b2yq1xb5q1g7dh109bazfkyibcx9wf71ld"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/rejeep/shut-up.el")
    (synopsis "Shut up would you!")
@@ -97357,14 +97357,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20261028.315")
+   (version "20261029.340")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "10b5d45ff68cd2f614a43a99e0db8cf07c17fc86")))
-     (sha256 (base32 "1cqlp5vxbn4a6ifh28pycwnwp87866ly1w05l60jmibr7zlfvql6"))))
+           (commit "94f24a0008ca6197d844da7ab2da7096d0cd80f9")))
+     (sha256 (base32 "1nb9xdp9zac5pbjydnwk2jw6xszradqsrb8hnb1kpm4d45wayqrr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
@@ -100902,14 +100902,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20261028.655")
+   (version "20261029.517")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "dc06b97d3f5ae7faab27e79ad946077ad1441362")))
-     (sha256 (base32 "0f14niqwapnzk720dh111jqwrp4v1ffd4f43vib4fa57m62bvfjr"))))
+           (commit "83b9afbfbfbf61b647af4781080c062da92c58f7")))
+     (sha256 (base32 "1yx8kk1928s9nhag1d8ff7wi6slk7ibk3kgs44jp07z4k7w1l7ia"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
@@ -101026,14 +101026,14 @@
 (define-public emacs-tempel-collection
   (package
    (name "emacs-tempel-collection")
-   (version "20260901.750")
+   (version "20261029.1332")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Crandel/tempel-collection.git")
-           (commit "a63ac2d0c50bcc879fb4bd8e72eb0234987f1af8")))
-     (sha256 (base32 "16np0j19bssvz9qc11bs6696rscdv0iyzf6yzk6ql4blm2c0w5jn"))))
+           (commit "0ad9cf439449ed1ce5d7c8888d5254b7a45409f0")))
+     (sha256 (base32 "0vd0vx4495nxgqj4ya7c4hlmdd59qbgf90416n6ifp07n2rpcawf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-tempel))
    (arguments '(#:files (:defaults "templates")))
@@ -105002,14 +105002,14 @@
 (define-public emacs-typst-overlay
   (package
    (name "emacs-typst-overlay")
-   (version "20261025.2009")
+   (version "20261029.635")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hesampakdaman/typst-overlay.git")
-           (commit "efa1824c23f8a79a525a5a6763b3d92f32ef17a4")))
-     (sha256 (base32 "0d5jx75sn1p4fzq09f7am0csp69nyjnxqvapp6ybw6iwfzb6kj1f"))))
+           (commit "95d2c633fe1ec9a14b32c834c8a1f00ba4c08e74")))
+     (sha256 (base32 "1pg9an0gbk6nc66ijl2n14vgl2k39yggxd947r0a5hdq3nvsqmws"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hesampakdaman/typst-overlay")
    (synopsis "Overlay Typst equations")
@@ -108060,14 +108060,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261028.1230")
+   (version "20261029.1255")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "b05a8c1fa96669fdaf251c206dd6348c934a5484")))
-     (sha256 (base32 "105jjvl637lbkav7d7nx3a70mxvsvvg0agx3i2lrwvkrklxxnz5a"))))
+           (commit "d4c51480a600c9882ebdbdc5322c4bcac9e25a69")))
+     (sha256 (base32 "0a082k6hr3k63w39zyrq3fw74vdpqdblpwhkgwim6camqjkcxqap"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
