@@ -7094,14 +7094,14 @@
 (define-public emacs-biome
   (package
    (name "emacs-biome")
-   (version "20260607.1500")
+   (version "20261029.1518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SqrtMinusOne/biome.git")
-           (commit "77a94f3c5210b80b63d5002c4780e542cd98a65f")))
-     (sha256 (base32 "1n2am7gf28nlz7pxb02x5nvy0911x0z61az9vasl9i47ff9yzch4"))))
+           (commit "1d6a909efd209f9d9e4ed80ad64b04749bee9c9a")))
+     (sha256 (base32 "0q9gypc7j6nxnfllwrl98n2xwlwrarb5fmg5ysxd74c057vvps3a"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ct emacs-request emacs-compat))
    (home-page "https://github.com/SqrtMinusOne/biome")
@@ -15605,14 +15605,14 @@
 (define-public emacs-consult-ghostel
   (package
    (name "emacs-consult-ghostel")
-   (version "20261028.2118")
+   (version "20261029.1738")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "29e1fa1836af184c48ed5aba2f33ceaf698ef8e4")))
-     (sha256 (base32 "11c8q6xjvm86j9vik7clkxjb2gpprmdz87ig6w3hzqyzwmfpzwny"))))
+           (commit "2c13feaa31da8a55a0471210cd26414d7265ee1e")))
+     (sha256 (base32 "0w8787fwfcarcwby1n4b686v53h5hcl2ldc24v7nna07lb6jfpck"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult emacs-ghostel))
    (arguments '(#:files ("extensions/consult-ghostel/consult-ghostel.el")))
@@ -15697,14 +15697,14 @@
 (define-public emacs-consult-hn
   (package
    (name "emacs-consult-hn")
-   (version "20260812.2247")
+   (version "20261029.2029")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/consult-hn.git")
-           (commit "52597f35225f5ac32240c4ec72cb4821b1593bc4")))
-     (sha256 (base32 "096p4dbph2flyglh6nnihvxvbp00b8a0vldikimlb2jahq7rwmyy"))))
+           (commit "9667a1af212f272aca97142d2b3de248584369e6")))
+     (sha256 (base32 "1i10z7cry9ij379zfs4j26p0257v3r0sz3fgcz3adk9ain2cyywb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult emacs-ts))
    (home-page "https://github.com/agzam/consult-hn")
@@ -17906,14 +17906,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261025.1945")
+   (version "20261029.1817")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "35ecd25b4a0b1ff8042a089cd8533039fe9b330e")))
-     (sha256 (base32 "18y5fh205n854yhhzdzxqiskkpvlqzwm7fhim3ds74z17398c4kq"))))
+           (commit "f7308e174abb97ab4a38170cedba4bb671eb768b")))
+     (sha256 (base32 "0jdpp26p8mmr0l7gvc044mzvqqqj9xk389qx27lnlyzizla4g0jb"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -19813,14 +19813,14 @@
 (define-public emacs-denote-project-notes
   (package
    (name "emacs-denote-project-notes")
-   (version "20260622.1947")
+   (version "20261029.1347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~swflint/denote-project-notes")
-           (commit "e109c84071b3aa8da49e5b0fc56e96f8d1cf5e95")))
-     (sha256 (base32 "06qc0qi93s6cw81bnyxxlv9b6ynapg7bj8m8vyxc591hmrw109nj"))))
+           (commit "f48cc3cc08233e574ab40b8c2671a5b6c0fc1ebd")))
+     (sha256 (base32 "0a0a6dzn14wnv60yy40w6lcx1f3pwa9fb05ah60155ck7spz452y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-denote))
    (home-page "https://git.sr.ht/~swflint/denote-project-notes")
@@ -25203,14 +25203,14 @@
 (define-public emacs-ejc-sql
   (package
    (name "emacs-ejc-sql")
-   (version "20261029.1209")
+   (version "20261029.1552")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/ejc-sql.git")
-           (commit "e08e7496741daca46644820862e8e636f1e5e5f6")))
-     (sha256 (base32 "1605b24cp789rkkfw3bwclw21k3a8ihb6sivfxfx19xllw2dnkz7"))))
+           (commit "c8be1d93aebc50dcde686cb7d508ebc363c5e813")))
+     (sha256 (base32 "0a5fkqkqn5rq6b3z76ypc4j19f546qj91fnr25h7h44vzwyv6gbz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-clomacs emacs-dash emacs-spinner))
    (arguments '(#:files (:defaults "project.clj" "src" "snippets")))
@@ -40295,14 +40295,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261029.1054")
+   (version "20261029.1346")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "29e1fa1836af184c48ed5aba2f33ceaf698ef8e4")))
-     (sha256 (base32 "11c8q6xjvm86j9vik7clkxjb2gpprmdz87ig6w3hzqyzwmfpzwny"))))
+           (commit "2c13feaa31da8a55a0471210cd26414d7265ee1e")))
+     (sha256 (base32 "0w8787fwfcarcwby1n4b686v53h5hcl2ldc24v7nna07lb6jfpck"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -58116,14 +58116,14 @@
 (define-public emacs-latex-to-svg-backend
   (package
    (name "emacs-latex-to-svg-backend")
-   (version "20261023.1039")
+   (version "20261029.1321")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg-backend.git")
-           (commit "c7c34250ee140b492ff33cb4d43e81f62e9232a3")))
-     (sha256 (base32 "00lxk916jv106dghmbnj27kkzsx5lwghysapq9vdmibq61q2br2c"))))
+           (commit "c8d91db13d2a027fc43504fd891d7cb2a853ca73")))
+     (sha256 (base32 "14h3g4qkjc9896qzf3c6x538hdfx741ij4mil0qjfdq9s53l58j1"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alberti42/latex-to-svg-backend")
    (synopsis "LaTeX-to-SVG rendering backend with caching")
@@ -68509,14 +68509,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20261028.1240")
+   (version "20261029.1446")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "91c70e2637f678944de9f719c71d4fe24aa09c41")))
-     (sha256 (base32 "1dpyjfm2nwz614r1pcx0rs4ick433fs1kv0a6qk5bnfdj1q4w633"))))
+           (commit "3234f421dc4e1cfbae4d8a1bda1bd791b440d9ab")))
+     (sha256 (base32 "1sav7h9gx8jaq7l54kbrkhirqf3547ixha9snxx5z7l2aqggab23"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -77761,14 +77761,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20261015.1657")
+   (version "20261029.1651")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "5ae7fbf3df5e6581997e96a7f7fcca4936efee8d")))
-     (sha256 (base32 "1qm2arqfryv16fkqlj5w3py91rk127y245rs299w22yklshlwici"))))
+           (commit "db969eaf86628200a2973731c2a61b8923f861e3")))
+     (sha256 (base32 "0nm5kk7f1h3qnkknhfy4wx55qs05f9i371ncbr20r1w5rincis6z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -78028,14 +78028,14 @@
 (define-public emacs-orgtbl-join
   (package
    (name "emacs-orgtbl-join")
-   (version "20261012.833")
+   (version "20261029.1436")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/orgtbljoin.git")
-           (commit "2f2b24c484d648a18737dd3240b004728e50fc05")))
-     (sha256 (base32 "029iwccrzplpb1ypai1yyc6f0gsqhplswgf8qd8pf938rshaavxn"))))
+           (commit "4f718b56ffee2f17a1d5ae2127e3acaef6ba0c29")))
+     (sha256 (base32 "1pd95b2xydn6szavvdkyd7wb8a40hgz85gq3m3c5hg7v8902rzqi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tbanel/orgtbljoin/blob/master/README.org")
    (synopsis "Join columns from other Org Mode tables")
@@ -78630,14 +78630,14 @@
 (define-public emacs-overleaf
   (package
    (name "emacs-overleaf")
-   (version "20261002.1849")
+   (version "20261029.1635")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vale981/overleaf.el.git")
-           (commit "42a1fdd33335764f6065ff4828cfa5be25bddd72")))
-     (sha256 (base32 "1pprvgidpxjg8q4f1d0p80xawmk8dfpz30s6d83q6i5q2s0s80xn"))))
+           (commit "0bae5a630c9e14019473057744619ce7e66afc3f")))
+     (sha256 (base32 "1hw4ivb3vwb3hh9jjcyi1pwhmpqd5ma99vyx44v9445cslj2346l"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-plz emacs-websocket emacs-webdriver emacs-posframe))
@@ -82306,14 +82306,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261028.1911")
+   (version "20261029.1728")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "b71c7f1d23ad49efca3ed69d99c932a605267a14")))
-     (sha256 (base32 "1k2xv70r3fd8p64gdwz3qdrn3pb13hww7a7my0wdv2v0qvbamdzh"))))
+           (commit "fef675ac985770660edc9940b2e28e7ca8e4f481")))
+     (sha256 (base32 "10r85lcr5dxgzgxbhgpcx533h1hpay5a31srp6di1fys6iacvp41"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -82344,14 +82344,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20261024.848")
+   (version "20261029.1427")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "c9a1ba97141f1e5a439a619e693fdfa26694bc7c")))
-     (sha256 (base32 "16svbini5zrdxb1nlrz05wm30k03x7mifhnrkamkhq5w43d9660s"))))
+           (commit "54d604bd1ab94bc5ec46aacfb5b2e99cf31c9d2c")))
+     (sha256 (base32 "0znvq1466hn6p5y9panmfnr68ra5jrfaja8cakavisj60971za21"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
