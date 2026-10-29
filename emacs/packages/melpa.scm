@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261028.1046")
+   (version "20261029.19")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "5fd3c831a0af0981c4e8114a61e8d012e7b477e2")))
-     (sha256 (base32 "1f5qq3hrxbx36mif34ry8xlcy3jkq8gcb4av0brwmqmync3shngb"))))
+           (commit "8b0839ddf753b9254e559d63f55540f1c1582635")))
+     (sha256 (base32 "0q26zk2li3s1pp64di8wv2j50hcn8qp5mzjp5fshw9gxb2b5x3l7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1875,14 +1875,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261028.1824")
+   (version "20261028.2123")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "e042951efea168ce1605cf314c7f89b1660e98b8")))
-     (sha256 (base32 "1d2vfvkd8lk34cqai4nykwj0ajvvwgwnzddv9nhmm4b2apgzafv4"))))
+           (commit "ac8978c9e9d18a14d4dad3b1cc9d18affc20b761")))
+     (sha256 (base32 "0h20dx37ircqa81h8269sfw8ksmb4rm5simgyckajg345fhzwnjf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -7199,14 +7199,14 @@
 (define-public emacs-bitbucket-devops
   (package
    (name "emacs-bitbucket-devops")
-   (version "20261017.1727")
+   (version "20261028.2139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/will-abb/bitbucket-devops.el.git")
-           (commit "763e6c8095e41a259f7f907c3db3886b6719c5d6")))
-     (sha256 (base32 "1xxy7hfaqbnmakj8jnbfjhzz46v4w7sa7qqj6kh082xgk3828cd5"))))
+           (commit "94941a1202404d2c0846a7bba75cc523d62d7535")))
+     (sha256 (base32 "1q23r6m8aj96rdm407wpxjasrac9xhrzisbjjirgwkya3ba0fhs0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit emacs-markdown-mode emacs-yaml))
    (home-page "https://github.com/will-abb/bitbucket-devops.el")
@@ -25203,14 +25203,14 @@
 (define-public emacs-ejc-sql
   (package
    (name "emacs-ejc-sql")
-   (version "20261015.1709")
+   (version "20261028.2311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/ejc-sql.git")
-           (commit "7d8b050eebe386ace60a4f8b396497abae422374")))
-     (sha256 (base32 "1k56mrijvg2wrxd52yv9lxis355m49gbz31nffi8v84833bgzhrx"))))
+           (commit "7aab18216aa1d6b5c137528d6cf49831942efb44")))
+     (sha256 (base32 "1vbwj6d10qxrhn8v2ixkfxahd47cm20cf3a09apb85z7xxcvvcah"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-clomacs emacs-dash emacs-spinner))
    (arguments '(#:files (:defaults "project.clj" "src" "snippets")))
@@ -40295,14 +40295,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261027.833")
+   (version "20261028.1920")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "97ec8f16eb90cd0de87dbf5643d7371cf9895686")))
-     (sha256 (base32 "0p75h3adiq43k40jkmayxaii3s69l81gbn2i4f5czd1mxyxirbrn"))))
+           (commit "4f95847e3e406e3049f27fc46f1401359fc0e463")))
+     (sha256 (base32 "19277sik5sdsw1drrxcbx1yii6jfdc9l6cs0cw9wjlr5qx97xkgn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -62684,14 +62684,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20261028.1413")
+   (version "20261029.332")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "65164f9e108bd2c87cb98574c9933d6071495e6b")))
-     (sha256 (base32 "0j4lgqf5mxis95kh9f6vi5m4dmsrk89z7yypsszm0ivgj4dl8889"))))
+           (commit "3227814626b40f39475c3f2c391c58134a812676")))
+     (sha256 (base32 "0fnk6d5rxckh9hzvdw60p10k7r551fyg0p2fc7i6m0pwqhpzyrcv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm emacs-magit-section))
    (home-page "https://github.com/hrishikeshs/magnus")
@@ -64728,14 +64728,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20261024.728")
+   (version "20261028.2301")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "a9a82848cd125ef8aa1404b05f2ce15cfc8dddf1")))
-     (sha256 (base32 "01v912gi4r8jpbaii3by94hgjg592s6rpkkdg2w8qwlj0c4vcxly"))))
+           (commit "2e645d478aafd65a13ae1faf9828c1b2f352971a")))
+     (sha256 (base32 "0w6ingzl0zfdcsi7kkwb78i01ja4c8da2fw6dkrd0dkjwp6m312d"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -86559,14 +86559,14 @@
 (define-public emacs-pyim
   (package
    (name "emacs-pyim")
-   (version "20251230.809")
+   (version "20261029.35")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tumashu/pyim.git")
-           (commit "a56c8d992c872addcfc295c409a7bae70d00af87")))
-     (sha256 (base32 "1sv46dxhwsr21l83y6an76yhclngpa22jkhdhnzl952p418k9vd4"))))
+           (commit "551517408f2803ecd096180e399c4f06f33ca156")))
+     (sha256 (base32 "150vlvg52wcrxwq07dfm9has8ibb2icpkf9c7w0162ycwzfdn7dg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async emacs-xr))
    (home-page "https://github.com/tumashu/pyim")
