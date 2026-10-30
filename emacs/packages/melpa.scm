@@ -1875,14 +1875,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261028.2123")
+   (version "20261029.2103")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "ac8978c9e9d18a14d4dad3b1cc9d18affc20b761")))
-     (sha256 (base32 "0h20dx37ircqa81h8269sfw8ksmb4rm5simgyckajg345fhzwnjf"))))
+           (commit "c507571c556534c5d6e07ea741a977c811d27f6b")))
+     (sha256 (base32 "11kkjq72mfyb5jl82p94l4xlkpqrvrh34hj0am53avcfqvkb5b4m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -30751,14 +30751,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20261026.1727")
+   (version "20261029.1738")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "42de3eb31ef65a96c3c4d846ac5eeb5636c0438d")))
-     (sha256 (base32 "1vqj5xa2lxrq8kjc6xcxn7mh6123ggipgmr0w958l0rvxm4a8mnx"))))
+           (commit "2c13feaa31da8a55a0471210cd26414d7265ee1e")))
+     (sha256 (base32 "0w8787fwfcarcwby1n4b686v53h5hcl2ldc24v7nna07lb6jfpck"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -40295,7 +40295,7 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261029.1346")
+   (version "20261029.1738")
    (source
     (origin
      (method git-fetch)
@@ -57760,14 +57760,14 @@
 (define-public emacs-lambdapi-mode
   (package
    (name "emacs-lambdapi-mode")
-   (version "20261026.1408")
+   (version "20261029.1853")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Deducteam/lambdapi.git")
-           (commit "4c84f6fb413a1ac7b368cbe303f6b05dfbea1635")))
-     (sha256 (base32 "1g8w887yarl91xiykfghvacnqsvp3djzxs3dxcgwxa3q4a3r8bpq"))))
+           (commit "c90f1df8d9a2b477c11026c49ee92a9808d87013")))
+     (sha256 (base32 "16xgzrpads4xpkszw5dbirrhcy2zykj6vs6bfy3nycw6hkgca1lj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-math-symbol-lists emacs-highlight))
    (arguments
@@ -61971,14 +61971,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261029.1034")
+   (version "20261029.2116")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "a52f2c9279fea12f0254b34aa88786e40abc0f76")))
-     (sha256 (base32 "0yknaw6qr6xj4s93shd0zhh6q55mb0lqviybnnqjgrc23szvlayr"))))
+           (commit "51894c39af636068c330e89d71344cc9f5fb9199")))
+     (sha256 (base32 "0h9pbm64v4alfhdl97w9x3yrz5pa9kmzz6scmm66ja18cgn3dncw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -74224,14 +74224,14 @@
 (define-public emacs-org-drawio
   (package
    (name "emacs-org-drawio")
-   (version "20240213.38")
+   (version "20261030.2")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kimim/org-drawio.git")
-           (commit "6b25d0ecf7de364da96c96da30a995df8a4cb835")))
-     (sha256 (base32 "0ywxhryabqfrlakrnksa9p95vgm5mf2xdw8lpxmgznghdxcgdnk2"))))
+           (commit "95e9c05bfd5189b58be1a62a2377d53397d1643d")))
+     (sha256 (base32 "1hw4hsb51jflz7kmhgd90iy287i6b4hfayhajjb40gd8mnsf4a9h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kimim/org-drawio")
    (synopsis "Convert and include drawio image to orgmode")
@@ -81582,14 +81582,14 @@
 (define-public emacs-perspective-exwm
   (package
    (name "emacs-perspective-exwm")
-   (version "20260802.944")
+   (version "20261029.2323")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SqrtMinusOne/perspective-exwm.el.git")
-           (commit "c0357efbde56ab3aac456f122138e639cb2b8aac")))
-     (sha256 (base32 "1fzjkjjsvmacirqmbd5g1glx4sac5dqgbiv35iqz428b1y7j6qmy"))))
+           (commit "c2eee98c0f6e4fd07aad87aa5fb46cfdc43b845d")))
+     (sha256 (base32 "15dlv3mknn7svm9784yrbyhqm1h55njsfg8qczviq27lvvasd3m1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-burly emacs-exwm emacs-perspective))
    (home-page "https://github.com/SqrtMinusOne/perspective-exwm.el")
@@ -82023,14 +82023,14 @@
 (define-public emacs-php-mode
   (package
    (name "emacs-php-mode")
-   (version "20261028.1243")
+   (version "20261029.1749")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-php/php-mode.git")
-           (commit "a54fa885cd5c69637eb296e3fa70220cc7aedd5e")))
-     (sha256 (base32 "1mm0ba3m7jn4c33r996z4m26l56afqn1qzmc5qmxvl1kwmxd114v"))))
+           (commit "98b597c296d11f9792261abed278406104367dbf")))
+     (sha256 (base32 "1rg74ngryp7334igqzrnkc9kd8ybbbmqv24iwwr9dq36sh2bljf6"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacs-php/php-mode")
    (synopsis "Major mode for editing PHP code")
@@ -82306,14 +82306,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261029.1728")
+   (version "20261030.55")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "fef675ac985770660edc9940b2e28e7ca8e4f481")))
-     (sha256 (base32 "10r85lcr5dxgzgxbhgpcx533h1hpay5a31srp6di1fys6iacvp41"))))
+           (commit "53dbba9586c35410bb5069148838b014e4c6f662")))
+     (sha256 (base32 "15jn9qc169qyy7yf3kq5vn5rf869dkh68wmbw4c69h9f5srg1m1h"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -85540,14 +85540,14 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-   (version "20261028.1418")
+   (version "20261029.1744")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ProofGeneral/PG.git")
-           (commit "7117e4b9bad3e3801f464091df9cd77d7f560be2")))
-     (sha256 (base32 "1hy7bgw3qcskzr84scik8d212rizxrhnaiyl20smar028z3i41sn"))))
+           (commit "01c3a4c51419821aa4268dfe47481ddb5e8b9189")))
+     (sha256 (base32 "196w1v6a66qi5pg7sc8ahx8qw2dhaikr486bhi04jbh5sgb7mln6"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -87418,14 +87418,14 @@
 (define-public emacs-quick-fasd
   (package
    (name "emacs-quick-fasd")
-   (version "20261028.1754")
+   (version "20261029.2140")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/quick-fasd.el.git")
-           (commit "8bf3eca03f112127aaec15e0047d8b8196f50fd1")))
-     (sha256 (base32 "10ja16wscxbb4d0rprvm2c1s8ffk3aw4ksxdfz7rgcp3nrwm5gvx"))))
+           (commit "e473c802ae7f98f4c022de2581f2988f2852bfb2")))
+     (sha256 (base32 "04ai8v7715m2nxy5vc5vz0c21jiip1z5jm3rjj7wjs79q9v2sf2b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/quick-fasd.el")
    (synopsis "Integration for the command-line tool `fasd'")
@@ -88937,14 +88937,14 @@
 (define-public emacs-reddigg
   (package
    (name "emacs-reddigg")
-   (version "20261013.1621")
+   (version "20261030.136")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/thanhvg/emacs-reddigg.git")
-           (commit "c0749b0e4db1a1bc36742002a24be119a090bdea")))
-     (sha256 (base32 "0c24kfclhfdaa0jh5xwzhf4nxphffh7kjpa0riqwfmks5acif66n"))))
+           (commit "81bf4269d66a57e3f69b59ca301352030c8e6882")))
+     (sha256 (base32 "0z30iwrzagzd8mnb476dn6zqkzrhsx5857zzfbri805yrw0hpszj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-promise emacs-ht))
    (home-page "https://github.com/thanhvg/emacs-reddigg")
@@ -98025,14 +98025,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20261026.2137")
+   (version "20261029.2200")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "01701cc9fa197c50627d87e7f5f0a3ea8b1ea22e")))
-     (sha256 (base32 "15acnajqkghcb59nzf8cgyx05wgqk35kigklc4jzrwawaly4zxvq"))))
+           (commit "f08f9c52bae3edd0e05d328d8a3a1ee6755c0076")))
+     (sha256 (base32 "058dkj3rpl4dfql8x8nsqjyfv0983ykjfa4z7gy2r7w8s6ajww8f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
@@ -108060,14 +108060,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261029.1255")
+   (version "20261029.2127")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "d4c51480a600c9882ebdbdc5322c4bcac9e25a69")))
-     (sha256 (base32 "0a082k6hr3k63w39zyrq3fw74vdpqdblpwhkgwim6camqjkcxqap"))))
+           (commit "17630296e9447dace7dc55ae2f495e9cabc41b0e")))
+     (sha256 (base32 "0qyknyd41s48xh8sq7n7vfzd2s70r3ajabvsig1wy5gcss65jv52"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -109933,14 +109933,14 @@
 (define-public emacs-with-editor
   (package
    (name "emacs-with-editor")
-   (version "20261025.2008")
+   (version "20261029.2155")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/with-editor.git")
-           (commit "9f56eb92ce7e47730ba52785564d09d8f13abe31")))
-     (sha256 (base32 "1hipgxrkrv62zbg460nascd714dg2cws4qk2rcrynrqfkzyhj1hd"))))
+           (commit "6e216d31bab78a766fbfd793188417a4f7e573da")))
+     (sha256 (base32 "00h5jc39shhw6r6ryf0s665rdw9gmaj4zavla6jdqkya29i5prf7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/with-editor")
