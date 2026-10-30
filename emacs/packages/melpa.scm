@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261029.532")
+   (version "20261030.416")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "14be85a5dfa9933c3a2970a83b24daea5c2b1a74")))
-     (sha256 (base32 "0bc89vfi4qjvm1b0s111p9h9jqimn2k80ppm39n4z1pdqk3z7aiv"))))
+           (commit "a7f61c8c80634e1ab5e533322218c3b6ffa31b59")))
+     (sha256 (base32 "0irxz3kpijybdz7bd3pkyrmb19g0bzjw8wglbv2f0jlab0i8l6n0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1714,14 +1714,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20261027.1120")
+   (version "20261029.1335")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "f90ab117669b75f7426a4084e5b7adeab3b57dda")))
-     (sha256 (base32 "1q4d9ll93jc23rd7g52hh31gzmci9n5dw954gpa1s5p6vafms3hs"))))
+           (commit "b3bf1dc644e248ba31db62dc32d2911b30eba335")))
+     (sha256 (base32 "15r4gh021clrx3a3x0pxm46y107h00v4dw5wqrw1ay7k094j7ri5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -3314,14 +3314,14 @@
 (define-public emacs-api-credit
   (package
    (name "emacs-api-credit")
-   (version "20260909.1530")
+   (version "20261030.1326")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/api-credit.git")
-           (commit "9ca3943631295c55463217ee403f38599afed67b")))
-     (sha256 (base32 "1s09iii8z1np1fiix6x8y691xrvlpsdqi6idpzinpwhpjn4ncnxy"))))
+           (commit "eae6abab47c70c609bb6fd37251ee8a4667f044b")))
+     (sha256 (base32 "1lkx4kv3d7r8f0wr1gjhbxr8lhc1xa2s2jhvnkizwpp1a8sl8xgx"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/api-credit")
    (synopsis "AI API balance in the modeline")
@@ -17906,14 +17906,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261029.1817")
+   (version "20261030.1245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "f7308e174abb97ab4a38170cedba4bb671eb768b")))
-     (sha256 (base32 "0jdpp26p8mmr0l7gvc044mzvqqqj9xk389qx27lnlyzizla4g0jb"))))
+           (commit "95947b6f26eddc9922d249860d53a410de5ab12b")))
+     (sha256 (base32 "1jgvi2vfla2072gppafn6gwqmd0a073kwvfs6aldpbq1rzh17qm2"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -25203,14 +25203,14 @@
 (define-public emacs-ejc-sql
   (package
    (name "emacs-ejc-sql")
-   (version "20261029.1552")
+   (version "20261030.404")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/ejc-sql.git")
-           (commit "c8be1d93aebc50dcde686cb7d508ebc363c5e813")))
-     (sha256 (base32 "0a5fkqkqn5rq6b3z76ypc4j19f546qj91fnr25h7h44vzwyv6gbz"))))
+           (commit "db54f7c584b6409957d1369635fef2af3103622c")))
+     (sha256 (base32 "0ghg2xpycfqxpz8abzcy0hypqlk0zcc4ngjsvc8hc6smlzkd4lif"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-clomacs emacs-dash emacs-spinner))
    (arguments '(#:files (:defaults "project.clj" "src" "snippets")))
@@ -39100,14 +39100,14 @@
 (define-public emacs-full-gtd
   (package
    (name "emacs-full-gtd")
-   (version "20261028.1152")
+   (version "20261030.1348")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/full-gtd.git")
-           (commit "817b1e1150f082f0ec9d7a83544c893b5e7a8a4f")))
-     (sha256 (base32 "0f42dxnaqvhc1z3zq8y9gxpxnrfajn4chmbch5b17q66bm8vx5rh"))))
+           (commit "b6b8a226a746493b16debd21692b391c89d3248b")))
+     (sha256 (base32 "0xqj3kza61pkn2dpwy2sy3zrs0n2ckwd3161gwyz6nqfx7cp3z9a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/full-gtd")
    (synopsis "Complete Getting Things Done (GTD) workflow for org-mode")
@@ -44249,14 +44249,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261028.253")
+   (version "20261030.655")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "4f537030f7794198984f1b19ce6f2e3ff3e49c94")))
-     (sha256 (base32 "1a9wbpican9c94xmclr6g3fci1ghxz8hx0jssajx8041hr6m2g15"))))
+           (commit "d929efe5a17c99b69dcb9c19173f82c18f871ff9")))
+     (sha256 (base32 "05kyd5wphyj18qvniq35kir2jp7j0j3fdr4hal2626gb1xm38a76"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -58191,14 +58191,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261023.1606")
+   (version "20261029.1325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "527fcac9afd65c4c1bd9692f16250b31fdce7bc0")))
-     (sha256 (base32 "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"))))
+           (commit "75ff777b4e2ceb5adbb55c9699362a055dc9e6f1")))
+     (sha256 (base32 "0c2p66xsy17smafmqzpala79x0ryq60m2vfrly0hyvl1hqz439zr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -61971,14 +61971,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261029.2116")
+   (version "20261030.904")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "51894c39af636068c330e89d71344cc9f5fb9199")))
-     (sha256 (base32 "0h9pbm64v4alfhdl97w9x3yrz5pa9kmzz6scmm66ja18cgn3dncw"))))
+           (commit "805bd4b517382e260a4533f91fb01bc42efdb798")))
+     (sha256 (base32 "0zhi387bh3xq9zk8s33lzamxls7cz2dhbcfa22smdlqifp9gddpn"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -64728,14 +64728,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20261028.2301")
+   (version "20261030.956")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "2e645d478aafd65a13ae1faf9828c1b2f352971a")))
-     (sha256 (base32 "0w6ingzl0zfdcsi7kkwb78i01ja4c8da2fw6dkrd0dkjwp6m312d"))))
+           (commit "3ae7bb3c0ce4ac22aecc109f721dddba6a4b0db0")))
+     (sha256 (base32 "0p5q38jzp7wbwzqk9gsjqsrx7c7slc7p8h07vaf4bsxwcmrv7m63"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -68509,14 +68509,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20261029.1446")
+   (version "20261030.1129")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "3234f421dc4e1cfbae4d8a1bda1bd791b440d9ab")))
-     (sha256 (base32 "1sav7h9gx8jaq7l54kbrkhirqf3547ixha9snxx5z7l2aqggab23"))))
+           (commit "c3e1353846aa0b16c38e4784683fbd382fccb304")))
+     (sha256 (base32 "0rfar0cfmvymcfjwfg5jvp70wqcq8rz1wcp7mldrjdhzvaprisav"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -82306,14 +82306,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261030.55")
+   (version "20261030.201")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "53dbba9586c35410bb5069148838b014e4c6f662")))
-     (sha256 (base32 "15jn9qc169qyy7yf3kq5vn5rf869dkh68wmbw4c69h9f5srg1m1h"))))
+           (commit "ad8b796c0f004b94ed401db059c744c90fd6b185")))
+     (sha256 (base32 "1pyqdzpvvxrxmd9zcc5p2gx1z8rfc56z3lbq0vx5n97kdn326f81"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -85540,14 +85540,14 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-   (version "20261029.1744")
+   (version "20261030.1329")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ProofGeneral/PG.git")
-           (commit "01c3a4c51419821aa4268dfe47481ddb5e8b9189")))
-     (sha256 (base32 "196w1v6a66qi5pg7sc8ahx8qw2dhaikr486bhi04jbh5sgb7mln6"))))
+           (commit "2d5a2586fecfc331bb03e4b8c2c781b4d5b3abfb")))
+     (sha256 (base32 "07q0qaqqbdkbz6rl4hbjhir894d5par47vhqxsfz93y00pihah0j"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -87209,14 +87209,14 @@
 (define-public emacs-qrencode
   (package
    (name "emacs-qrencode")
-   (version "20261025.1545")
+   (version "20261030.1200")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ruediger/qrencode-el.git")
-           (commit "15b2476c09324fba78f0cd253560fee4207c5cf2")))
-     (sha256 (base32 "0sc5y1ylhh6ckgrbkjmd6vv4mlbhx65mcg1clficyj78bbara7ys"))))
+           (commit "e46b52870556f08723feebe68d4cd16cdbfa2393")))
+     (sha256 (base32 "1ynjr1r3adzspfbh9w0vcgrrplnsjfkxjvya141jd56cqqzjhplb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ruediger/qrencode-el")
    (synopsis "QRCode encoder")
@@ -88937,7 +88937,7 @@
 (define-public emacs-reddigg
   (package
    (name "emacs-reddigg")
-   (version "20261030.136")
+   (version "20261030.320")
    (source
     (origin
      (method git-fetch)
@@ -108060,14 +108060,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261029.2127")
+   (version "20261030.946")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "17630296e9447dace7dc55ae2f495e9cabc41b0e")))
-     (sha256 (base32 "0qyknyd41s48xh8sq7n7vfzd2s70r3ajabvsig1wy5gcss65jv52"))))
+           (commit "772808047e03eac8f6bb38dc7100a784ce302806")))
+     (sha256 (base32 "086cjd9kryqgwahad8rbpy7381sq1qlsz3f3i9iq7vbs28s0fs2n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
