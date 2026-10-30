@@ -2790,14 +2790,14 @@
 (define-public emacs-anju
   (package
    (name "emacs-anju")
-   (version "20261022.111")
+   (version "20261030.1631")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/anju.git")
-           (commit "b495fb0c53bd8e431b1a40c6fa027c38fc130b49")))
-     (sha256 (base32 "1b5a4pkhdd2ik7m7pdf452b5h78343rgbd47hx9g22zsvkpjwycp"))))
+           (commit "b485825b7aa0114ca570ef0ae9af3a4feb609086")))
+     (sha256 (base32 "0b96ggcqg0y50iw79xlwwljca4jijdza4zdxbw7kdicqm4nr5v97"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-casual emacs-markdown-mode))
    (arguments '(#:files (:defaults "docs/images")))
@@ -9901,14 +9901,14 @@
 (define-public emacs-casual-symbol-overlay
   (package
    (name "emacs-casual-symbol-overlay")
-   (version "20260901.216")
+   (version "20261030.1550")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/casual-symbol-overlay.git")
-           (commit "7e706755324f1ff1d44d81f6b69e9978acd0104b")))
-     (sha256 (base32 "1lysx5j2cn7asnm5hxw5j8a2wjkapzmv5b0zfha3b9zax0wj4bc9"))))
+           (commit "33636422cedd0cf777e58e630124feb0c9508dfc")))
+     (sha256 (base32 "1d7ld09ddq4x3m4bng48la2smrbmz621vf10arr9divq0x0609vl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-casual emacs-symbol-overlay))
    (home-page "https://github.com/kickingvegas/casual-symbol-overlay")
@@ -12514,14 +12514,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261025.1302")
+   (version "20261030.1713")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "4ece93a1e7450ca45ff5f2e48b88a0447f71a2c8")))
-     (sha256 (base32 "1x4mkqpd8pa9zm5m4g58pahz5rxh1agdi3pj83bfc7ljd1aad99p"))))
+           (commit "c97a0bc0ac16afb042b1736cf8e8057fb5741e9a")))
+     (sha256 (base32 "0dijz1cif8dkg0kf359kklpx57gxfkkdm8mmigsq15m82xiz4kql"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -44249,14 +44249,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261030.655")
+   (version "20261030.1609")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "d929efe5a17c99b69dcb9c19173f82c18f871ff9")))
-     (sha256 (base32 "05kyd5wphyj18qvniq35kir2jp7j0j3fdr4hal2626gb1xm38a76"))))
+           (commit "ed600ae1b0f9df22d81a1c72d91e477144b7720e")))
+     (sha256 (base32 "0r5lrpj8xvlzxmk0gd6csj47ghgrjbvmya3nskppknph0l6jijma"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -45279,14 +45279,14 @@
 (define-public emacs-hel
   (package
    (name "emacs-hel")
-   (version "20261026.1409")
+   (version "20261030.1813")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/helheim-emacs/hel.git")
-           (commit "4d971b14fbccacd04c8ec9290b694c8ad1bacac6")))
-     (sha256 (base32 "0n2fmxm3jc4nw7r9mxvmywx1h82wa58lh8i4a8d3i6m4qzsxiqai"))))
+           (commit "68ecfc5536b0dc072db4f235ff317a2b56f5959a")))
+     (sha256 (base32 "0lxnd045mi6xapyqlgj5r2mkk5gcbgsz3jhxp5rghl4038lxl7ni"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-avy emacs-pcre2el emacs-ultra-scroll))
@@ -68509,7 +68509,7 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20261030.1129")
+   (version "20261030.1435")
    (source
     (origin
      (method git-fetch)
@@ -81724,14 +81724,14 @@
 (define-public emacs-pgsql
   (package
    (name "emacs-pgsql")
-   (version "20261016.49")
+   (version "20261030.1821")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/pgsql.el.git")
-           (commit "61eb714f85f3142a8be998e5311f6cab62b9f29f")))
-     (sha256 (base32 "1mbrrzkga93p4ixcpvxa42d713l90ga5f8dld12d61456dfxglxl"))))
+           (commit "970d1a3a70f3955da3de8b437ff14f22e900320f")))
+     (sha256 (base32 "0zv48irkcjx21dicj68v2dbs1svkk0b8q06vp2qg8b7b21scwjgg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/pgsql.el")
    (synopsis "Native PostgreSQL protocol client")
@@ -82306,14 +82306,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261030.201")
+   (version "20261030.1556")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "ad8b796c0f004b94ed401db059c744c90fd6b185")))
-     (sha256 (base32 "1pyqdzpvvxrxmd9zcc5p2gx1z8rfc56z3lbq0vx5n97kdn326f81"))))
+           (commit "528eb5b5d0bb57de8890d2dec559a18a5f4631cc")))
+     (sha256 (base32 "0y2ac9kipcpwc08nbnnkhyni9smal5mrd0c2ghb1zqp5x81g7hi8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -85540,14 +85540,14 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-   (version "20261030.1329")
+   (version "20261030.1722")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ProofGeneral/PG.git")
-           (commit "2d5a2586fecfc331bb03e4b8c2c781b4d5b3abfb")))
-     (sha256 (base32 "07q0qaqqbdkbz6rl4hbjhir894d5par47vhqxsfz93y00pihah0j"))))
+           (commit "2b5b9aba75b19a9dd7b6d0989d934baf9b8d0191")))
+     (sha256 (base32 "187pkxipbmq2x088jirs5ggz4imihf22l2c9ip11924rk4lkdz45"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -87418,14 +87418,14 @@
 (define-public emacs-quick-fasd
   (package
    (name "emacs-quick-fasd")
-   (version "20261029.2140")
+   (version "20261030.1739")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/quick-fasd.el.git")
-           (commit "e473c802ae7f98f4c022de2581f2988f2852bfb2")))
-     (sha256 (base32 "04ai8v7715m2nxy5vc5vz0c21jiip1z5jm3rjj7wjs79q9v2sf2b"))))
+           (commit "0f55f166c3dfbd30146a6381465f71966e29a288")))
+     (sha256 (base32 "1pk5l71i1k3yak23m5574zw4c465jwxrkzwka3kv8qagjf1a1i5b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/quick-fasd.el")
    (synopsis "Integration for the command-line tool `fasd'")
