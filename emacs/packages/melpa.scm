@@ -11672,14 +11672,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20261027.1401")
+   (version "20261031.1757")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "2a88f98c53bca9f831e2c3c491bc1ee2a825df42")))
-     (sha256 (base32 "1civlqf6swk80dipbcm15pd5zyqg548j560r4mkal7hw04vxwip2"))))
+           (commit "1c63993071f399b93540991c6c3ac0867efa87df")))
+     (sha256 (base32 "10qkqvwhvdfww527mzbg3c4xw562r7n0hbqvbm9a6dcf56vr5707"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -17889,14 +17889,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261030.1245")
+   (version "20261031.1658")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "95947b6f26eddc9922d249860d53a410de5ab12b")))
-     (sha256 (base32 "1jgvi2vfla2072gppafn6gwqmd0a073kwvfs6aldpbq1rzh17qm2"))))
+           (commit "4b1f182bac77d7651145b2860ce8fde383d75070")))
+     (sha256 (base32 "1rbf8gylvd7ljqs5d15xkx3vyrizx1lg152bv3n31aml4vfs42id"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -22610,14 +22610,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20261029.818")
+   (version "20261031.1457")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "56c2ef3507c7b35d6c8568ab993f44862d65805e")))
-     (sha256 (base32 "07rlca1gwxs5drkzjf56ardcxf7gak3ja6s28nqs5jslcid4609p"))))
+           (commit "4068b0672ad9ed41774fa67b174cfeb0b0026f14")))
+     (sha256 (base32 "0f40mriq4p58fw8fbjfq5sbzj28k8yy1zqcm5i3q4fa7n0wpqy6y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -25186,14 +25186,14 @@
 (define-public emacs-ejc-sql
   (package
    (name "emacs-ejc-sql")
-   (version "20261030.404")
+   (version "20261031.1627")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/ejc-sql.git")
-           (commit "db54f7c584b6409957d1369635fef2af3103622c")))
-     (sha256 (base32 "0ghg2xpycfqxpz8abzcy0hypqlk0zcc4ngjsvc8hc6smlzkd4lif"))))
+           (commit "fb48fe679206dab90bdb5006da5b6f2fb9b09200")))
+     (sha256 (base32 "0sw79wb9h3g3xxsb5hqcpdd3m567jg3qz5bdmmv9nih4lsi8sm05"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-clomacs emacs-dash emacs-spinner))
    (arguments '(#:files (:defaults "project.clj" "src" "snippets")))
@@ -31202,14 +31202,14 @@
 (define-public emacs-evil-org
   (package
    (name "emacs-evil-org")
-   (version "20261025.2229")
+   (version "20261031.1837")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Somelauw/evil-org-mode.git")
-           (commit "7ed69cd872642c1c3d7c1d1e3465989a8db5f171")))
-     (sha256 (base32 "1c6cvnh8qbkgfaxzl49ma8b334qy86hggfwxmpdhijyvqwx4g1pg"))))
+           (commit "ad6608f6ef77f761ae1b95991887e1711f5ff003")))
+     (sha256 (base32 "1l477b2zkw1fzdjbcizms8vxsngly6g4l5q1ji6qv4fn12p55v7p"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (home-page "https://github.com/Somelauw/evil-org-mode.git")
@@ -33932,14 +33932,14 @@
 (define-public emacs-fj
   (package
    (name "emacs-fj")
-   (version "20261006.1914")
+   (version "20261031.1115")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fj.el.git")
-           (commit "e3e2b461102b050aead991a065d513c6109c25da")))
-     (sha256 (base32 "0z4xjw8v97qjv2d6d9mwnp965rlk7xn1ig3qqgar0a6z5kxyw6p9"))))
+           (commit "c5306b1cbd10cd63c0c656eb27b3e4a8250b9928")))
+     (sha256 (base32 "07kl2vprfgl49li0rlwbbp4pqk9253h7yapbrz3ngs7085iqxw2k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-fedi emacs-tp emacs-magit))
    (home-page "https://codeberg.org/martianh/fj.el")
@@ -49892,14 +49892,14 @@
 (define-public emacs-http-server
   (package
    (name "emacs-http-server")
-   (version "20260609.1136")
+   (version "20261031.1840")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martenlienen/http-server.el.git")
-           (commit "4285bd3e4b67983cb783f46afc736032f895882d")))
-     (sha256 (base32 "0wwv7k4avxgrscmvqnxada38ry03ijncracwvgkpgfky1cj3r0l8"))))
+           (commit "a37c0464cc996c55452b4a3144d105df43265324")))
+     (sha256 (base32 "0jr73mv8ii7f80rvdkp4gq2jpidlypqvd9mvl36vr97v8hlzzpd0"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/martenlienen/http-server.el")
    (synopsis "Speaks HTTP for you")
@@ -60328,14 +60328,14 @@
 (define-public emacs-loc-changes
   (package
    (name "emacs-loc-changes")
-   (version "20260118.2151")
+   (version "20261031.1546")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rocky/emacs-loc-changes.git")
-           (commit "347423535bce59237ce835103f718463a4a5e3fc")))
-     (sha256 (base32 "1nb8a841xh065n96vgvw9c097w14gafsf2d68l9hn450fipip4k7"))))
+           (commit "f2d236992a90c3f7a470284ca939d1faf33f00b8")))
+     (sha256 (base32 "1fi3pllw52snvj7pp0mdw8r3l0xqa11fzxkplg6ivnraqls6bhv7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files ("loc-changes.el")))
@@ -65993,14 +65993,14 @@
 (define-public emacs-modus-themes
   (package
    (name "emacs-modus-themes")
-   (version "20261015.953")
+   (version "20261031.1702")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/protesilaos/modus-themes.git")
-           (commit "6272f81ae3fee14e267441a14337be45e904adad")))
-     (sha256 (base32 "0z7nnhkax1qzfjwqbgv5dg969hkyy10jg70a88qq79m95qjwmmbz"))))
+           (commit "782743415b3eedac0b99db2342fb35703deb752f")))
+     (sha256 (base32 "02542vwjg5svjhqfil3kyml9qlwjy0cssgp3jw5rrvj7mq3xkv4g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/protesilaos/modus-themes")
    (synopsis "Elegant, highly legible and customizable themes")
@@ -68492,7 +68492,7 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20261031.918")
+   (version "20261031.1253")
    (source
     (origin
      (method git-fetch)
@@ -75101,14 +75101,14 @@
 (define-public emacs-org-link-beautify
   (package
    (name "emacs-org-link-beautify")
-   (version "20261016.1226")
+   (version "20261031.1156")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-link-beautify.git")
-           (commit "7a8da3a361c2e92649d59342b340eacd92c05f3b")))
-     (sha256 (base32 "04zp8n25rik3g889w2pjqbaw9q2j5bpvm0fhcxk79chg9521x4v6"))))
+           (commit "2fa82d0c24db19a8d1dcff5e4b967c131bb7a028")))
+     (sha256 (base32 "19q15gwyx3hlkwrr3qx3gvsgxb2kcvnbd7447hvzhyqaraj33qrb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-qrencode))
    (arguments '(#:files (:defaults "scripts")))
@@ -79542,14 +79542,14 @@
 (define-public emacs-ox-zola
   (package
    (name "emacs-ox-zola")
-   (version "20260506.1952")
+   (version "20261031.1750")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gicrisf/ox-zola.git")
-           (commit "a56022d289c647f1d7c851d7082658b317495705")))
-     (sha256 (base32 "1b0jp73ngs5r1z3fs21fzscqsra3q2316rj407ys7m1wrzjmb5df"))))
+           (commit "68b71091d9a868e35eaa070d6e4e446ae4badc27")))
+     (sha256 (base32 "159qfz7y8vhd1r6nhdqi391h9p12syayb7hxsdwrnl6jflp0x6md"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ox-hugo))
    (arguments '(#:files ("ox-zola.el")))
@@ -82289,14 +82289,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261030.1556")
+   (version "20261031.1256")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "528eb5b5d0bb57de8890d2dec559a18a5f4631cc")))
-     (sha256 (base32 "0y2ac9kipcpwc08nbnnkhyni9smal5mrd0c2ghb1zqp5x81g7hi8"))))
+           (commit "a38fbdadecb57684011fea18f022c364d9a9a325")))
+     (sha256 (base32 "0hn8g7wb2fkk0njzj5x37g01445rdgp8msvvp6ziyfd6php3y198"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
