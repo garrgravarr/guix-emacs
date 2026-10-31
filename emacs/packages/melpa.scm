@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261030.416")
+   (version "20261031.1204")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "a7f61c8c80634e1ab5e533322218c3b6ffa31b59")))
-     (sha256 (base32 "0irxz3kpijybdz7bd3pkyrmb19g0bzjw8wglbv2f0jlab0i8l6n0"))))
+           (commit "cd2b38ddc4c7664eaad47b5e3aa2e4ba7bc2a7dc")))
+     (sha256 (base32 "0897s5g1ya2s8bk72hqkmr2kdi0bpqzzkcjivgsxmxs19ma3p880"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -12852,23 +12852,6 @@
    (home-page "https://github.com/xuchunyang/code-stats-emacs")
    (synopsis "Code::Stats plugin")
    (description "Documentation at https://melpa.org/#/code-stats")
-   (license #f)))
-
-(define-public emacs-codebug
-  (package
-   (name "emacs-codebug")
-   (version "20140929.2137")
-   (source
-    (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/shano/emacs-codebug.git")
-           (commit "ac0e4331ba94ccb5203fa492570e1ca6b90c3d52")))
-     (sha256 (base32 "11v671c4338bsizbmm7ypp4x9s5hiwyddsg2ig6h157gfv2597pp"))))
-   (build-system melpa-build-system)
-   (home-page "http://www.shanedowling.com/")
-   (synopsis "Interact with codebug")
-   (description "Documentation at https://melpa.org/#/codebug")
    (license #f)))
 
 (define-public emacs-codesearch
@@ -33341,14 +33324,14 @@
 (define-public emacs-file-info
   (package
    (name "emacs-file-info")
-   (version "20261014.1443")
+   (version "20261031.930")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Artawower/file-info.el.git")
-           (commit "1eb781f5b0c38a947a3c34df2101ced0b75236d7")))
-     (sha256 (base32 "11l8fasyx8k4pn4n458kqcsp1jlz6cl22x85c6rg4hrq5xgxcnhi"))))
+           (commit "9c68e2eec20fd99ea056aafb4ccf669f4a9b3400")))
+     (sha256 (base32 "0nabcrxfc5p6v60gfxdlk2ga9jm3n0vx4dsbdjcllkmh9hsx36sx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra emacs-browse-at-remote))
    (home-page "https://github.com/artawower/file-info.el")
@@ -43175,14 +43158,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20261018.848")
+   (version "20261031.627")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "e7cebe4621533a036840d47c9741682bb687d808")))
-     (sha256 (base32 "1gcb2g903x80j09vv5r6mjl9af728abyi2ipc76z35hysrl12cq6"))))
+           (commit "d2d19cdcc414cc32892491a6dc2889bd6f5ee520")))
+     (sha256 (base32 "18kjjq0xfmb8x3xzqsw0cg9mrgbqyymj4kzinlj0zlhb8hbbh9yl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -61700,14 +61683,14 @@
 (define-public emacs-mac-ime
   (package
    (name "emacs-mac-ime")
-   (version "20260930.1247")
+   (version "20261031.322")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ma0001/mac-ime.git")
-           (commit "d86c2afb44821f8320e761280554b91539077d2c")))
-     (sha256 (base32 "009w1fnpds1kjdzhmsw7ycny1h2pa84dh3jrw2b8hvrq7apzyyd1"))))
+           (commit "bec58817ea55871e06e5d2d62bad0d18f8ec7efa")))
+     (sha256 (base32 "02bpaww2ydlr2llmr2y6fhfjysa6ll8l9hxlq0v6qj013j13znyj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ma0001/mac-ime")
    (synopsis "Seamless macOS IME integration without any IME patches")
@@ -64082,14 +64065,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20260912.441")
+   (version "20260912.457")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "d136f23370aa2dc5275e3a7f686b7cc30eaff5f1")))
-     (sha256 (base32 "1xj4kg06py1hvr8wg0x8c4whzs3img5a5claq2yvyqi4n831aw1b"))))
+           (commit "17f3a9bb82ed47778663d31a7e0808cdf2d84018")))
+     (sha256 (base32 "0h4lha2pvs8pm041f0vxqh06nnb3mdqak48b36fv1mazw0yfvj28"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -68509,14 +68492,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20261030.1435")
+   (version "20261031.918")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "c3e1353846aa0b16c38e4784683fbd382fccb304")))
-     (sha256 (base32 "0rfar0cfmvymcfjwfg5jvp70wqcq8rz1wcp7mldrjdhzvaprisav"))))
+           (commit "a07bcb779d15a00ce7fbbc5df779ffac10c53960")))
+     (sha256 (base32 "1pxsq5rwkyjmpl72x3g98w49alwyfp7m91n6bmq4410ib2r81yqi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -96719,14 +96702,14 @@
 (define-public emacs-solarized-theme
   (package
    (name "emacs-solarized-theme")
-   (version "20261025.1447")
+   (version "20261031.914")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/solarized-emacs.git")
-           (commit "d8bc6f72dc3e3800a2119bae9733c333d215b04d")))
-     (sha256 (base32 "1zc84wsfhi96zzcl95krdv72axqa08954ib0ppvykd8006avd8nd"))))
+           (commit "ce2bc214e5486b05c76beb8d9da0a5068e66bd0e")))
+     (sha256 (base32 "1r892307qifmmz5jvx47impk0g5kpzl02rjwnlh9vc58ja2h1k68"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/solarized-emacs")
    (synopsis "The Solarized color theme")
@@ -99128,14 +99111,14 @@
 (define-public emacs-sumibi
   (package
    (name "emacs-sumibi")
-   (version "20260719.559")
+   (version "20261031.928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kiyoka/Sumibi.git")
-           (commit "44d0d63c50d566bb55330ca607703a29e228a66b")))
-     (sha256 (base32 "0c33dvil1xbkwfms0vnx5s1l1gb4pa26cy0bbvz79dp8lj11l6yy"))))
+           (commit "15c31db659eb4978933c4d3ca034cf3f9ce02fff")))
+     (sha256 (base32 "191jl7g1wsbhclb9ph116ha3m0pk1mv32y0ca0ripariwsf92hs9"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-popup emacs-unicode-escape emacs-deferred emacs-markdown-mode))
