@@ -1875,14 +1875,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261030.2132")
+   (version "20261031.2326")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "5c1361625c4fc877e35bc36bf5c27fbc312a0697")))
-     (sha256 (base32 "08pjsd7jx2mmlj5h73bwjax9c3q0lvk7xhy9rvd0b8nwxjp3z4x6"))))
+           (commit "1667aee622cfd0bc6c1a12842bb125086b62745c")))
+     (sha256 (base32 "1s2lr15355yw6hsnfxrkpm1x0kl6dypc806zs9wj7y4i4fia97xm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -43158,14 +43158,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20261031.627")
+   (version "20261101.218")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "d2d19cdcc414cc32892491a6dc2889bd6f5ee520")))
-     (sha256 (base32 "18kjjq0xfmb8x3xzqsw0cg9mrgbqyymj4kzinlj0zlhb8hbbh9yl"))))
+           (commit "65280701b87dc32cbe6cf9c07f1b88fdf035085c")))
+     (sha256 (base32 "14vz3c13bshklb6767lj81sc5lnls9g5p8pggphflss0j4h790zc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -82289,14 +82289,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261031.1256")
+   (version "20261101.12")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "a38fbdadecb57684011fea18f022c364d9a9a325")))
-     (sha256 (base32 "0hn8g7wb2fkk0njzj5x37g01445rdgp8msvvp6ziyfd6php3y198"))))
+           (commit "55951259ed38a0e5b3ceaa18202991fcffe90e72")))
+     (sha256 (base32 "1965nygs89021b349dmmj2qpfn0v8lbvwkx72afywlyamqj0zfa6"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -89341,14 +89341,14 @@
 (define-public emacs-remoto
   (package
    (name "emacs-remoto")
-   (version "20261031.132")
+   (version "20261101.9")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/remoto.el.git")
-           (commit "61133c199a996d1ce6b93d199edc3ee21351c308")))
-     (sha256 (base32 "04gvx9qj1nm7xsgr46vf3ab07bc37i9rf1z3rx4zc513f1572grv"))))
+           (commit "a797255d2a9d72d5ee2b790439c1c3388ea13fe8")))
+     (sha256 (base32 "0r1yi3v0qan88cc2bjslzq7hjf9k09gif4x8dkds8r6rpyz521d1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ghub))
    (home-page "https://github.com/agzam/remoto.el")
