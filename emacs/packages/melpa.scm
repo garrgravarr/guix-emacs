@@ -16296,14 +16296,14 @@
 (define-public emacs-corfu
   (package
    (name "emacs-corfu")
-   (version "20261014.1751")
+   (version "20261101.1614")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/corfu.git")
-           (commit "9c2bf9add6c182ae524eb378d0d0f45ecc805eef")))
-     (sha256 (base32 "04rkd5d9l4b58n4lfgzygv5mvl0r5glysydncx3gmzs64rdnzc07"))))
+           (commit "15fed49c97bf6b2436641714ae15bbd2f3e37b77")))
+     (sha256 (base32 "09rbrc1y0kfnphxhym33c2yg55495acxrb40zkvcjpz17myghy95"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/corfu-*.el")))
