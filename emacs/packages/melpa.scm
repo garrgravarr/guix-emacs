@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261031.1204")
+   (version "20261101.1312")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "cd2b38ddc4c7664eaad47b5e3aa2e4ba7bc2a7dc")))
-     (sha256 (base32 "0897s5g1ya2s8bk72hqkmr2kdi0bpqzzkcjivgsxmxs19ma3p880"))))
+           (commit "ec2319486d3c4268a606160377f8ea726368dd6a")))
+     (sha256 (base32 "1ksrb3myh50v8fqdpv72jscsqnp7yhm4j18krzvp9dy3zb7zmxgs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1875,14 +1875,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261101.421")
+   (version "20261101.1808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "1667aee622cfd0bc6c1a12842bb125086b62745c")))
-     (sha256 (base32 "1s2lr15355yw6hsnfxrkpm1x0kl6dypc806zs9wj7y4i4fia97xm"))))
+           (commit "7f23e7790bc30b5f50d38efe474a26dea668c584")))
+     (sha256 (base32 "1g9qy601ijgdyiscdvqqy9wfm5w1q6pfyj35my3h9qlys6c20ki3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -4500,14 +4500,14 @@
 (define-public emacs-auto-capitalize
   (package
    (name "emacs-auto-capitalize")
-   (version "20261028.1836")
+   (version "20261101.1114")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abdulnafe-t/auto-capitalize.el.git")
-           (commit "8cc735d165694841e73c75260b755cda4cc56c86")))
-     (sha256 (base32 "1ny0qkj3rxjqbgbq58d5673a8s4a5vr7j8hsqdl25sx8dyajbcsf"))))
+           (commit "d1e9bb2b384c390c54c96ebdbbc19b57fc5e3abb")))
+     (sha256 (base32 "1girpaqnw7vdfk38z2si185sxnyji2zv2lyl2sh6x08hc6gl3xdy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/abdulnafe-t/auto-capitalize.el")
@@ -26927,14 +26927,14 @@
 (define-public emacs-elot
   (package
    (name "emacs-elot")
-   (version "20260917.1127")
+   (version "20261101.1302")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johanwk/elot.git")
-           (commit "a6a66f28ab7223b1caa275bb4c5e456b8f1c158d")))
-     (sha256 (base32 "0q989gvl6545mjzn730ywmg518jg9w68860cdm3y783x7qf80vg3"))))
+           (commit "33841c94352083b5372602858a9071e78d890400")))
+     (sha256 (base32 "0gmssg1wvkv3bl1v2j6x43203xs6yfyq7sa5jyb5yx5vj1yp1prn"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -49892,7 +49892,7 @@
 (define-public emacs-http-server
   (package
    (name "emacs-http-server")
-   (version "20261101.1132")
+   (version "20261101.1340")
    (source
     (origin
      (method git-fetch)
@@ -68492,14 +68492,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20261101.1018")
+   (version "20261101.1610")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "0139d3819d81a3e80ab2661c2b911e504cec74ca")))
-     (sha256 (base32 "1rc17v7izg7k5imbzqpbwqi7xb048rhrkcb2pf09qw5xvlfr5n70"))))
+           (commit "23286ceaec1e2385f3339e2e11bac5d8c2f89419")))
+     (sha256 (base32 "0c47navc9yv1y5qhidbylkrybmjv068qd1g4wq6kbqaprwvkcsgy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -75101,14 +75101,14 @@
 (define-public emacs-org-link-beautify
   (package
    (name "emacs-org-link-beautify")
-   (version "20261031.1156")
+   (version "20261101.1526")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-link-beautify.git")
-           (commit "2fa82d0c24db19a8d1dcff5e4b967c131bb7a028")))
-     (sha256 (base32 "19q15gwyx3hlkwrr3qx3gvsgxb2kcvnbd7447hvzhyqaraj33qrb"))))
+           (commit "d59ae259447f7c938381f50d8d4ed7fb42e995c5")))
+     (sha256 (base32 "1610izixqk99571l6wn2pdjfqpirqgcvddgn1gj53ywb3w69scsp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-qrencode))
    (arguments '(#:files (:defaults "scripts")))
@@ -82289,14 +82289,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261101.1156")
+   (version "20261101.1553")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "a2b2c8420ba2271bb797cfc7006b6a302740ce18")))
-     (sha256 (base32 "04zzbpjv6bzr2xpaij3xgi3racsrgw9q4192mb10wb7wabl8626b"))))
+           (commit "0bf8871a73763f916f0f8dfb05c1a5954373ac82")))
+     (sha256 (base32 "1fsw4zd4zraa07n8mjvzcbqsl71larp3gir2z1crnf6xz49ffhv6"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -113068,6 +113068,7 @@
            emacs-geiser
            emacs-geiser-guile
            emacs-bui
+           emacs-consult
            emacs-magit-popup
            emacs-edit-indirect
            emacs-transient))))
