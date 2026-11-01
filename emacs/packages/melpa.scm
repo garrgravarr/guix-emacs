@@ -113068,7 +113068,6 @@
            emacs-geiser
            emacs-geiser-guile
            emacs-bui
-           emacs-consult
            emacs-magit-popup
            emacs-edit-indirect
            emacs-transient))))
