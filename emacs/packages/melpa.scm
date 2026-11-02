@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261102.110")
+   (version "20261102.1227")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "5f3a8525c979ff92de0de951c9bf41e681c6b2c5")))
-     (sha256 (base32 "0n7jbxja0q50qwkfdv3cl56i4jyzg74rpjbr5r8g3kd9qmrsq09z"))))
+           (commit "c788df02f071cc808c837435b65c8e72668b8e22")))
+     (sha256 (base32 "1snwg4s2v0ngdx038j0inwnw43zkr7m0d7clkyn8z2k0144fjsfj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1696,14 +1696,14 @@
 (define-public emacs-agent-shell-attention
   (package
    (name "emacs-agent-shell-attention")
-   (version "20261012.524")
+   (version "20261102.639")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ultronozm/agent-shell-attention.el.git")
-           (commit "aaf599121445ead597a14da62bad580c8897ee6c")))
-     (sha256 (base32 "0b321nvsf4008f2jq6s4x7pgyvyq7yahrkihnmna1mgxrrky6wdi"))))
+           (commit "8d5116f174fc35177aedc0f967a8fa3d6784aa1b")))
+     (sha256 (base32 "123j9yapfmxbwpkmvyiv2qbhjn34sp3rp5x692f8zj4ycj0hwg61"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell))
    (home-page "https://github.com/ultronozm/agent-shell-attention.el")
@@ -3731,14 +3731,14 @@
 (define-public emacs-arxiv-citation
   (package
    (name "emacs-arxiv-citation")
-   (version "20230713.627")
+   (version "20261030.1126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/slotThe/arxiv-citation.git")
-           (commit "04de0dae1121fb92c30b393449c6f8d6d940dbed")))
-     (sha256 (base32 "0pvlmp4jmgjsym274v22dz1z9rqwj0mnxjkk3snxdz8z88gqrxkc"))))
+           (commit "a55cc92cf61b1f48cc8a97d6ae97f4d612619804")))
+     (sha256 (base32 "120xhwpkqzd4p9n1w1j9s9khb5jqnvwyfb5c7mhsvjzr9vd99k9r"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-s))
    (home-page "https://gitlab.com/slotThe/arXiv-citation")
@@ -10352,14 +10352,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20261025.911")
+   (version "20261101.906")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "262b9222d55038cd75b50fbdf3bb07199fce2968")))
-     (sha256 (base32 "1ipl2k32cf9bvhw4fg5dbwf7b0008hqm2jk4lj5qr0p4f99vl53q"))))
+           (commit "c66232bbbcd3277c83ddd62542f00ae9f4af9f37")))
+     (sha256 (base32 "14a1hw2ka47sgvafx97rp7qfzc989wnyj4lhcazx50cxffwii88z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -12514,14 +12514,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261030.2359")
+   (version "20261102.1417")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "c222c8f2321a76cc801b213f4810af96d95ac686")))
-     (sha256 (base32 "12nd0gdzc5ff67966llbiv4c16k38hb9ywc93j6xyfdkmmxijp9r"))))
+           (commit "c17bbbcc890561a0b7a5bfb761642343f515cdb2")))
+     (sha256 (base32 "0vwa75dhpj8y8iy8facx8lgq9li07ipprbgk47hc8yrsc6hpkx8a"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -18494,14 +18494,14 @@
 (define-public emacs-daml-mode
   (package
    (name "emacs-daml-mode")
-   (version "20231106.916")
+   (version "20261102.813")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/bartfailt/daml-mode.git")
-           (commit "3ba1166edd4c22402996625b1f8a05a2d5b1cbc6")))
-     (sha256 (base32 "0vdprvf0zswng8i2zy2jwwwyannigpicwhhdd913akzsyzmjnm27"))))
+           (url "https://github.com/bartfaitamas/daml-mode.git")
+           (commit "38c27dc971c9a0b1039b0b59b821c6192057479c")))
+     (sha256 (base32 "1pdbglvqx47xg53bih2qvcash2g13yaqx54qnnm4pc94cmq7nfww"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-haskell-mode))
    (home-page "https://github.com/bartfaitamas/daml-mode")
@@ -28314,14 +28314,14 @@
 (define-public emacs-envrc
   (package
    (name "emacs-envrc")
-   (version "20261023.1024")
+   (version "20261102.1736")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/envrc.git")
-           (commit "af7e0a699060c8128fdd8318d28a7401b82bb3fd")))
-     (sha256 (base32 "0l7gkcqx5lgfzbqjk4mcqcgvnfm9mpszfg8iwk2j8gi8xcwlk4zz"))))
+           (commit "be2df83609057740a19722c693eaf61a2df8d97a")))
+     (sha256 (base32 "0wdj4w34gss5ln2jdxwp51lssxpvmx811j12k895qq638c95rpcx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-inheritenv))
    (home-page "https://github.com/purcell/envrc")
@@ -31727,14 +31727,14 @@
 (define-public emacs-evil-textobj-tree-sitter
   (package
    (name "emacs-evil-textobj-tree-sitter")
-   (version "20260616.730")
+   (version "20261102.1030")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/meain/evil-textobj-tree-sitter.git")
-           (commit "fecc0e11615df31a6651ce11b012388e53cad4e9")))
-     (sha256 (base32 "074kadi1z43ixxvlfwd917czpiw4qg1ysybwxwdd7kb4x8siqpas"))))
+           (commit "08ff3afa85a19bfbf95baaf21bd2f2516de7af54")))
+     (sha256 (base32 "00cyj1q8az65n2c8py4wb6z6ymsmlqxbhmh0mnq9g851q5i5w7ni"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "queries" "treesit-queries")))
    (home-page "https://github.com/meain/evil-textobj-tree-sitter")
@@ -32800,14 +32800,14 @@
 (define-public emacs-fancy-dabbrev
   (package
    (name "emacs-fancy-dabbrev")
-   (version "20260717.1243")
+   (version "20261102.1439")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jrosdahl/fancy-dabbrev.git")
-           (commit "9a9296f0dcfe272cdff1fc2e0a6a62b8cdaf11ab")))
-     (sha256 (base32 "0ix7cdcivkfxgd81hpx8bilz0dh6hgikvh5lgl0dyap9ml4y6br0"))))
+           (commit "0b2b7c70429fbf930b86718bf2c9c964c1deaa6e")))
+     (sha256 (base32 "1l6d49hbxrm88iprk8n00i7i9jzhj921vr6idyksy23bva85cw7y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-popup))
    (home-page "https://github.com/jrosdahl/fancy-dabbrev")
@@ -33932,14 +33932,14 @@
 (define-public emacs-fj
   (package
    (name "emacs-fj")
-   (version "20261101.1018")
+   (version "20261102.946")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fj.el.git")
-           (commit "b99d1e6e97e2208e399299bed449729431532981")))
-     (sha256 (base32 "038faalimr1w6qsnmxsdh3v86w6s1n33a0374ydwfn9hrj9a3wg2"))))
+           (commit "9b44590aa4ac938c31789099879c82a404896f72")))
+     (sha256 (base32 "0aqk4li93mgh638vfiv67kv4jqvn3x7d27wyp3n3qzh9dv1anxs1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-fedi emacs-tp emacs-magit))
    (home-page "https://codeberg.org/martianh/fj.el")
@@ -40278,14 +40278,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261101.2121")
+   (version "20261102.1326")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "ff7c216204a52f293f27c21a1def490da05035e4")))
-     (sha256 (base32 "0cnmjwfla43x027xz48lv6lxbcrmj7f9sv1lxb7ia1qxibgdjswj"))))
+           (commit "a63db707e0d71e49eb4de95b198e288788eb92f8")))
+     (sha256 (base32 "0xv863cck58h10hs2pjbgjw2wc84drfb0fnx3m3p8d7gs79h3gy3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -64082,14 +64082,14 @@
 (define-public emacs-mediawiki
   (package
    (name "emacs-mediawiki")
-   (version "20261101.2127")
+   (version "20261102.334")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hexmode/mediawiki-el.git")
-           (commit "75b73d96b91832399182893fd13265d7d695cf67")))
-     (sha256 (base32 "1b41b95cx9hv4dh9hzm78dy7vp3r4nx9mmjwzhwmzcn0m7pvg056"))))
+           (commit "2a8df8a9c9c8507955c4351ceca29f671842d87a")))
+     (sha256 (base32 "1nq35ha6kwpp7w0f4h9nz2jz71am56h7b26diyzsiis5aw9c7nig"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hexmode/mediawiki-el")
    (synopsis "Mediawiki frontend")
@@ -64745,14 +64745,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20261102.52")
+   (version "20261102.1127")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "2dd6a0e15d9bc1bf4aec582aab013280cbdb2756")))
-     (sha256 (base32 "0rj1wx44zn97dl19ps06jycwnlqwikdmy0nf9v3vdam4fhxw8m33"))))
+           (commit "3f7d1a9ed7dbe77d36bc526bef6d539615cf6bb2")))
+     (sha256 (base32 "0fp6f8mh6jkdpc7c76z9q57rdh96chlqknk3mzcxyj9phchhqs4m"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -67712,16 +67712,15 @@
 (define-public emacs-mw-thesaurus
   (package
    (name "emacs-mw-thesaurus")
-   (version "20260927.221")
+   (version "20261102.646")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/mw-thesaurus.el.git")
-           (commit "5c85f8069747a9cbb96b124e46547c459345a638")))
-     (sha256 (base32 "1hw70ncnnw97rk9wnbkppw64s918v73j02r7aybw5vdnk7l2x001"))))
+           (commit "fb5d0f9d968df543790adcaffa16db0d3048a882")))
+     (sha256 (base32 "1z6sz44jgv1hk3zblbsyk6vixczqd7sa23gpn5012ar7pkmyy6v3"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-request emacs-dash))
    (home-page "https://github.com/agzam/mw-thesaurus.el")
    (synopsis "Merriam-Webster Thesaurus")
    (description "Documentation at https://melpa.org/#/mw-thesaurus")
@@ -85575,14 +85574,14 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-   (version "20261030.2110")
+   (version "20261102.847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ProofGeneral/PG.git")
-           (commit "e0a6d4f042c083018896bc831234589abb33b915")))
-     (sha256 (base32 "0xcdb71mcydmzajyv15ladwn3p6c7nzzpqjyzh7x2ygprkgbj6sd"))))
+           (commit "af05b1cac037f3bfb4e2355f37c21f0d8dcb7978")))
+     (sha256 (base32 "0sz0sbmq17jf9g75bcbz77k9ws969hw71lyaj5bx5gd842xdgc6j"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -89393,7 +89392,7 @@
 (define-public emacs-remoto
   (package
    (name "emacs-remoto")
-   (version "20261101.2035")
+   (version "20261102.235")
    (source
     (origin
      (method git-fetch)
@@ -97392,14 +97391,14 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20261029.340")
+   (version "20261102.856")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/condy0919/spdx.el.git")
-           (commit "94f24a0008ca6197d844da7ab2da7096d0cd80f9")))
-     (sha256 (base32 "1nb9xdp9zac5pbjydnwk2jw6xszradqsrb8hnb1kpm4d45wayqrr"))))
+           (commit "f23612d30562c92e399fa744920782cc1f7197b3")))
+     (sha256 (base32 "14c1ymyq4p8b1ql9x9ni6yc0xbkh5gf7f0cvj69l8fh6a8r1hzv8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/condy0919/spdx.el")
    (synopsis "Insert SPDX license and copyright headers")
@@ -102117,14 +102116,14 @@
 (define-public emacs-ticktick
   (package
    (name "emacs-ticktick")
-   (version "20260117.1242")
+   (version "20261102.1259")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/polhuang/ticktick.el.git")
-           (commit "b9b6319464bd63c43c5edab1d72e73eea4234093")))
-     (sha256 (base32 "02xa26qhcyxvg4dpycpl0w818c0x8aayw9ln7gsl8cqi7n5mmcic"))))
+           (commit "48973e636ce0bb7ade8eed92e64eec9b0d20fa43")))
+     (sha256 (base32 "1nkgbxaj0w1zybx163ws78dwp7jjvlh2wj3ln0n1qd5v61hb14l7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request emacs-simple-httpd))
    (home-page "https://github.com/polhuang/ticktick.el")
@@ -110634,14 +110633,14 @@
 (define-public emacs-x509-mode
   (package
    (name "emacs-x509-mode")
-   (version "20261027.1858")
+   (version "20261102.725")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jobbflykt/x509-mode.git")
-           (commit "26a6811270f38463ede0470d0901dab83650d4a4")))
-     (sha256 (base32 "1l2w96gyv8dvsjc724k9m6ylzqdar0v3i4kph244cqn36d3s4vhy"))))
+           (commit "458dee0da612c2c6edde865ba04965bd0ab6cd0f")))
+     (sha256 (base32 "138z60piybs414693wh7brhvhmc9j1gd2dx1r5sf4pd7q72qlr99"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "*.txt")))
