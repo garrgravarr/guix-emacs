@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261102.1227")
+   (version "20261103.100")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "c788df02f071cc808c837435b65c8e72668b8e22")))
-     (sha256 (base32 "1snwg4s2v0ngdx038j0inwnw43zkr7m0d7clkyn8z2k0144fjsfj"))))
+           (commit "549641b71bb7d0056d65957d65ffb9e50364a788")))
+     (sha256 (base32 "1bjnyv4nxw9bshvjwifv3r5c5b7dcicj4z9zzykjl6pjgpwb4klj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -14874,14 +14874,14 @@
 (define-public emacs-compilation-history
   (package
    (name "emacs-compilation-history")
-   (version "20260413.2031")
+   (version "20261102.2247")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/djgoku/compilation-history.git")
-           (commit "cfc37a18469634696761e239d0517cfb96a2ca40")))
-     (sha256 (base32 "0m2s9q08lnfqcmkaapzhs8jpimk5cn5c4b27j8968qnv9csb75py"))))
+           (commit "58b2c04b7a30a7d83576840cf05b08e435ed5be0")))
+     (sha256 (base32 "1hdggmpcwx2rdabdbf60csk1jkfwlmhbh4y44p8va465llfdd3d3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/djgoku/compilation-history")
    (synopsis "Track compilation history in SQLite")
@@ -17889,14 +17889,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261031.1658")
+   (version "20261102.2212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "4b1f182bac77d7651145b2860ce8fde383d75070")))
-     (sha256 (base32 "1rbf8gylvd7ljqs5d15xkx3vyrizx1lg152bv3n31aml4vfs42id"))))
+           (commit "904bcb41c2822a54110ed5776bf64a1b94cd1f06")))
+     (sha256 (base32 "07xsn5lxfk1qz44ddxdksg18y79b44kiyqb1871b7vqb7l7f8p52"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -45262,14 +45262,14 @@
 (define-public emacs-hel
   (package
    (name "emacs-hel")
-   (version "20261030.2158")
+   (version "20261102.2110")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/helheim-emacs/hel.git")
-           (commit "4b5c72b54d6b62050dad3edf1a29cbd267569fec")))
-     (sha256 (base32 "10hpxjwj37zy5s0h06rlcy1q446nl0svp3vlggm88pmsk239a499"))))
+           (commit "005dbdf7802737a5e064a97de3b45dfd191d6ba2")))
+     (sha256 (base32 "127yf5xnnp7h27i8xb0aakzm49p01lg6vd1km2vq2mb23c5rwbhq"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-avy emacs-pcre2el emacs-ultra-scroll))
@@ -61050,14 +61050,14 @@
 (define-public emacs-lsp-jedi
   (package
    (name "emacs-lsp-jedi")
-   (version "20230824.1908")
+   (version "20261102.2318")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fredcamps/lsp-jedi.git")
-           (commit "3c828df8dd422dbb94856cc99db6f9acb52b871d")))
-     (sha256 (base32 "0a89328vnarndv0a4xfpb4yap6i00q9prlxijg66bkg5l5gchlcl"))))
+           (commit "3080c6a4568d7bdadee5269dcf83af6ab97c021e")))
+     (sha256 (base32 "1j0ddsjkm3c4x3nlzryas00dcwy7h63y1n8jd1px6b5k7qqxg5k7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-lsp-mode))
    (home-page "https://github.com/fredcamps/lsp-jedi")
@@ -64082,7 +64082,7 @@
 (define-public emacs-mediawiki
   (package
    (name "emacs-mediawiki")
-   (version "20261102.334")
+   (version "20261102.1731")
    (source
     (origin
      (method git-fetch)
@@ -64745,14 +64745,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20261102.1127")
+   (version "20261103.29")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "3f7d1a9ed7dbe77d36bc526bef6d539615cf6bb2")))
-     (sha256 (base32 "0fp6f8mh6jkdpc7c76z9q57rdh96chlqknk3mzcxyj9phchhqs4m"))))
+           (commit "5a5cf466b8f5ca9f39f86ccddfe11a26011b850e")))
+     (sha256 (base32 "17bssw24qv05fmn6s093qvjm455zxvwqj6aqcz9l7lraqzlz7f2d"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -65539,14 +65539,14 @@
 (define-public emacs-mlscroll
   (package
    (name "emacs-mlscroll")
-   (version "20260720.1621")
+   (version "20261102.2045")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jdtsmith/mlscroll.git")
-           (commit "5a7cfed411cc5f8d8894dcbd989fd5c81ebcf8a8")))
-     (sha256 (base32 "0i3nh7jbqb2xrgfbgnmzswsb183rwl9bprcg14wqpj56h5z3xk7h"))))
+           (commit "05244d3a5981bb273c0b488252e3f697a9dcb0e3")))
+     (sha256 (base32 "0iy510qyc5qzdxbrw8yncs66whpxp2rbpag7hcjx55yvn0kaisrk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jdtsmith/mlscroll")
    (synopsis "A scroll bar for the modeline")
@@ -67712,14 +67712,14 @@
 (define-public emacs-mw-thesaurus
   (package
    (name "emacs-mw-thesaurus")
-   (version "20261102.646")
+   (version "20261103.226")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/mw-thesaurus.el.git")
-           (commit "fb5d0f9d968df543790adcaffa16db0d3048a882")))
-     (sha256 (base32 "1z6sz44jgv1hk3zblbsyk6vixczqd7sa23gpn5012ar7pkmyy6v3"))))
+           (commit "76571627f29f12d36c354e2eb759412536f1bcaa")))
+     (sha256 (base32 "1knd99qq2a050l9h54i83wdwrnvl751kgcywai7rm6g4w72vk9dg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/agzam/mw-thesaurus.el")
    (synopsis "Merriam-Webster Thesaurus")
@@ -80774,14 +80774,14 @@
 (define-public emacs-pathaction
   (package
    (name "emacs-pathaction")
-   (version "20261031.30")
+   (version "20261102.2244")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/pathaction.el.git")
-           (commit "72876dbbd48508cd00681657a37ee0dafd543dcc")))
-     (sha256 (base32 "1j0awb8qhdk5kfv5sp3hla9gx8ry1zcbgf29hhq8w1dj2ss5dya2"))))
+           (commit "6e2ac33aa9a386ff310510a5fec1168751408f4e")))
+     (sha256 (base32 "1116nbzbwyc2ch0rxvd3f4dir8kkjhllhxmcr3753chxfjvp726z"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/pathaction.el")
    (synopsis "Execute the pathaction.yaml rules from your editor")
@@ -82340,14 +82340,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261102.114")
+   (version "20261102.2315")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "6cdd752b697755373f683f62fcabc4ac5b125d44")))
-     (sha256 (base32 "0ny96ygrr0wi4psadqy4qyivyz9qa3ijb7xcyglr129bqmqscz4y"))))
+           (commit "ef5dd7daa07da405e56f8792e203a6d7fef4605a")))
+     (sha256 (base32 "07kl92ksija65vir0qzhs2kykk8xiv7znqcpg5ign8x0j8xfgam4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -85574,14 +85574,14 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-   (version "20261102.847")
+   (version "20261103.55")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ProofGeneral/PG.git")
-           (commit "af05b1cac037f3bfb4e2355f37c21f0d8dcb7978")))
-     (sha256 (base32 "0sz0sbmq17jf9g75bcbz77k9ws969hw71lyaj5bx5gd842xdgc6j"))))
+           (commit "4f6d2d856dff1eaaa460a7e6c885c110b461c17b")))
+     (sha256 (base32 "0zbz9sa412wrpm2yw2ax13b03a4na4bf6cqxz16s7405wzyhdgja"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -89392,14 +89392,14 @@
 (define-public emacs-remoto
   (package
    (name "emacs-remoto")
-   (version "20261102.235")
+   (version "20261102.1842")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/remoto.el.git")
-           (commit "3d360a503c01f1f8c287495caef942ec5c5e7eae")))
-     (sha256 (base32 "0rm92h9n4n6gqmfr7cm8bm8y8p7prd25rfif0gd0vfp8yjgprjvv"))))
+           (commit "88567c9a3ebecd0f10f169d35a91aef289a73e4f")))
+     (sha256 (base32 "035dkq2y9pkjqs57r10mwj0ybdvgyjhxbnwx9gs0bzgvb2n22vaw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ghub))
    (home-page "https://github.com/agzam/remoto.el")
@@ -90145,14 +90145,14 @@
 (define-public emacs-rg
   (package
    (name "emacs-rg")
-   (version "20261024.856")
+   (version "20261102.1804")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dajva/rg.el.git")
-           (commit "039ac6214b7cc6bec42f728df87ee0acb4bf9153")))
-     (sha256 (base32 "1avjrzn4slaxpa2k2sijz6w5wy67psgviqnplrmn12ka1qpr47yp"))))
+           (commit "1c689d53de9e47dfcf3bcf48e01b11f836e19b68")))
+     (sha256 (base32 "0rq2lr7qsgz3kg25y2qzvxmcgzhyi0r23p8arxv0xc61s5j1wfy4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-wgrep))
    (home-page "https://github.com/dajva/rg.el")
@@ -91982,14 +91982,14 @@
 (define-public emacs-sbt-mode
   (package
    (name "emacs-sbt-mode")
-   (version "20260301.2016")
+   (version "20261102.1615")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hvesalai/emacs-sbt-mode.git")
-           (commit "c353df6aa112c05dde6dc63ccf813c2203cb472b")))
-     (sha256 (base32 "1cvzjxdmsnb7laqwyvpkfswnl0nkp765398p3azs3kryfd6fsvjx"))))
+           (commit "3da084aa438179913f1fdd770f0be136c6f66322")))
+     (sha256 (base32 "1k14vr0g9sfm5r6zncgsycpslhy5g3a0nssxgkbd85gad7kbp9i9"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hvesalai/emacs-sbt-mode")
    (synopsis "Interactive support for sbt projects")
@@ -95133,14 +95133,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20261022.1844")
+   (version "20261102.1744")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "1486b4710f151260f3c1c2acecc5bde552089584")))
-     (sha256 (base32 "1860xvz5nnrkrpc7fg57gygxj9bb44pcyq58g5xzdv20gllgfxd4"))))
+           (commit "092db25ee9de681f6f44ad8011c8c4e4bbc489e3")))
+     (sha256 (base32 "05k4hwrnb6jb2m6dg8k4zp5ni5rqqp66cp1kakygk8ipja6pjqny"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -95210,14 +95210,14 @@
 (define-public emacs-slime
   (package
    (name "emacs-slime")
-   (version "20261018.2021")
+   (version "20261102.1514")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/slime/slime.git")
-           (commit "b53e5e3fe14cff97cf7a1b2240981023e1f71d70")))
-     (sha256 (base32 "1s9j6hhz5000vfcxiw08q3c4niqsdnprs5r7n9v1pah8a6jalz8w"))))
+           (commit "728a05ed0afc12626e3792be1c5bccc01913c269")))
+     (sha256 (base32 "17bbyn38r3q29bkckicys7z7w9hiba516y5xyib8irk3r3pidh78"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-macrostep))
    (arguments
@@ -97391,7 +97391,7 @@
 (define-public emacs-spdx
   (package
    (name "emacs-spdx")
-   (version "20261102.856")
+   (version "20261102.1557")
    (source
     (origin
      (method git-fetch)
