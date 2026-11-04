@@ -842,14 +842,14 @@
 (define-public emacs-ac-php-core
   (package
    (name "emacs-ac-php-core")
-   (version "20261028.426")
+   (version "20261104.204")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "55d94fb034e8426fe25b756cd75c1c5e4fd5ba15")))
-     (sha256 (base32 "0440ryxjbv902a66p7p46sxgrkmcj3cj0masbva8w6n9v1i87dg4"))))
+           (commit "dff1c73e97959a21d5c00b4b2bc5fd2a72ba9fb2")))
+     (sha256 (base32 "0wway3pzaxw7q2jvgiybycyrf2m9mhrkdiaa5jargga365qwvcp4"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-php-mode emacs-s emacs-f emacs-popup emacs-xcscope))
@@ -14891,14 +14891,14 @@
 (define-public emacs-compile-angel
   (package
    (name "emacs-compile-angel")
-   (version "20261103.1933")
+   (version "20261103.2143")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/compile-angel.el.git")
-           (commit "246822ae9a040051ee36f07d598fe5c19cfd4899")))
-     (sha256 (base32 "19g46x5jdsclq16f9dwvmwqdyfnap0aylxi73l65dhn7ccgq5d21"))))
+           (commit "5af5448d41e074d833e67a3709a11c5569083873")))
+     (sha256 (base32 "1c303ay4ndjjnr1k9jw1db0pg85j1qvyh0r9y5knkpi04mpj1dck"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/compile-angel.el")
    (synopsis "Automatically Compile Elisp files (auto-compile alternative)")
@@ -17889,14 +17889,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261103.1616")
+   (version "20261103.2254")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "a5ca5fc20769672cd950b7546c2bd801abf11015")))
-     (sha256 (base32 "1pnicfd0bbwbif5b7862aprz9xj72c6rj6k77dads4crfdgmwjg7"))))
+           (commit "20b5351f7b6d370430dec0644384835dff97e224")))
+     (sha256 (base32 "1flwmmy3ri15ww09apbps63dx7kdc9y9j4wcvf8g5hhjsxbwq2xy"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -28189,14 +28189,14 @@
 (define-public emacs-enhanced-evil-paredit
   (package
    (name "emacs-enhanced-evil-paredit")
-   (version "20261031.30")
+   (version "20261101.1834")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/enhanced-evil-paredit.el.git")
-           (commit "aff0092735681f809a904baef13aaecec2ec7a36")))
-     (sha256 (base32 "1ggpb2glrs9jmsbq4v9rdi9q7xf74r3jldrsa06ffqsfhfdwzw83"))))
+           (commit "b17f67408de1ccf4c8a2f2baf26ec1312fe3819d")))
+     (sha256 (base32 "081wlda6a7jc60ymwxdrhhghm2x9ip1abllbffkpr7sagn1aqwrp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-paredit))
    (home-page "https://github.com/jamescherti/enhanced-evil-paredit.el")
@@ -33771,14 +33771,14 @@
 (define-public emacs-firstly-search
   (package
    (name "emacs-firstly-search")
-   (version "20261103.1831")
+   (version "20261103.2340")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/firstly-search.git")
-           (commit "bf24523fc1dc928afa1cb5e0fa672bc923b67539")))
-     (sha256 (base32 "0c6aqm0lz78lccvkll0586jq71vgqhsh9l45l1w4myfgsqk504hc"))))
+           (commit "6b58a54339fb6fc1e8913ca465dc9f2d00ec5f52")))
+     (sha256 (base32 "1p38h3byf8qr9gj6fkigy6x4pm40xlb483pnn41zynvw99c8h1r3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://codeberg.org/Anoncheg/firstly-search")
@@ -61772,14 +61772,14 @@
 (define-public emacs-macher
   (package
    (name "emacs-macher")
-   (version "20261002.1924")
+   (version "20261104.213")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kmontag/macher.git")
-           (commit "66fac138a09f02edc0750218180db65ec3e25b1f")))
-     (sha256 (base32 "10xiywz455166p1hiycv4qbiraldvzf8ybnny5lwn3vfzsszprc9"))))
+           (commit "c4ff04453eddbfa429d2fddb1376f119d141f605")))
+     (sha256 (base32 "1776jqc26q315h9r7jhy9hx574a9ss8kcvhnn2s45s3r8x29r0lh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (home-page "https://github.com/kmontag/macher")
@@ -67711,7 +67711,7 @@
 (define-public emacs-mw-thesaurus
   (package
    (name "emacs-mw-thesaurus")
-   (version "20261103.2002")
+   (version "20261103.2054")
    (source
     (origin
      (method git-fetch)
@@ -76202,14 +76202,14 @@
 (define-public emacs-org-relative-date
   (package
    (name "emacs-org-relative-date")
-   (version "20261024.1831")
+   (version "20261103.2359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/RobertPlant/org-relative-date.git")
-           (commit "3ef9c94299145beeb49dc8f869d518e489701a36")))
-     (sha256 (base32 "1wskdhsbhczwvdcs48g2bx9gcsk9zk6vw9lc0i87crvhihg2rb7i"))))
+           (commit "e5e06c6f91261d928f31561d4bb66b6a8e044365")))
+     (sha256 (base32 "152626mh4ml0kxj56dq2aa6vb7z6w7l4dz24d9jzcah04cnsv8a5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/RobertPlant/org-relative-date")
    (synopsis "Live relative-date overlays on org timestamps")
@@ -78455,14 +78455,14 @@
 (define-public emacs-outline-indent
   (package
    (name "emacs-outline-indent")
-   (version "20261031.30")
+   (version "20261101.1833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/outline-indent.el.git")
-           (commit "dc4e8cad6cff4ec63d5659f1997157213c3a4917")))
-     (sha256 (base32 "07bj9nj6jcm1i12ifb9hz21l26gg0mdkrq74g0a9k3zkvpafr5bx"))))
+           (commit "9174bb94fe0b5e01408b7fb3ef31bc690a63188e")))
+     (sha256 (base32 "1lz4gxbzg5z1blyjma5psxjikxk7b5waxiwkwm4131pxcfxnw36y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-kirigami))
    (home-page "https://github.com/jamescherti/outline-indent.el")
@@ -82339,14 +82339,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261102.2315")
+   (version "20261104.2")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "ef5dd7daa07da405e56f8792e203a6d7fef4605a")))
-     (sha256 (base32 "07kl92ksija65vir0qzhs2kykk8xiv7znqcpg5ign8x0j8xfgam4"))))
+           (commit "eeee1da8fe7543dd39991fbd2ba0ee1bfb41f6f6")))
+     (sha256 (base32 "0jfkasz56hnkpnd58mh0anh1y9q6mgcgg18vbkhr2750zhflrw8r"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -102276,14 +102276,14 @@
 (define-public emacs-time-uuid-mode
   (package
    (name "emacs-time-uuid-mode")
-   (version "20261024.1743")
+   (version "20261104.3")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/RobertPlant/time-uuid-mode.git")
-           (commit "eb43b94f18f3e468dde15c5de55ee7a1474915ed")))
-     (sha256 (base32 "1m1w8j11rs8fmx6nxr6ybhmwhp3aa5lx9pg9ipp9h672d0xsjrq5"))))
+           (commit "4f4bbe01127eba738195adf61463d6992dfb1e08")))
+     (sha256 (base32 "04wl5fc4w617wp03dgiar56fsxsc74nlwv80ls2zkajw3xadv74y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/RobertPlant/time-uuid-mode")
    (synopsis "Minor mode for previewing time uuids as an overlay")
