@@ -1660,14 +1660,14 @@
 (define-public emacs-agent-recall
   (package
    (name "emacs-agent-recall")
-   (version "20261027.2121")
+   (version "20261104.1746")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mrx-xo/agent-recall.git")
-           (commit "4dd831650d326d16ee036a0d251dc9546e9a0dda")))
-     (sha256 (base32 "1imln89syl4wzbvmnfp5sj2fx0phq3j39r0lq5m6vzzx2h3yn26j"))))
+           (commit "eb61d58fcd13a8293474a4f2c0c16d487132f7bd")))
+     (sha256 (base32 "15vfswzlpbal5v6s5x7jdlahc67jqk8grb4mnxgx1j65yr80spmf"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell))
    (home-page "https://github.com/Marx-A00/agent-recall")
@@ -1875,14 +1875,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261103.1702")
+   (version "20261104.1654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "dc8640e0e0106c5355b40a83b647fde13781e742")))
-     (sha256 (base32 "1idjly48wz5svx0kbbicmhwa9slpxww1533xalqkw3wf6gi3s1x2"))))
+           (commit "3d66ea59d6ffd218b69b82dee4ec6c5256537d37")))
+     (sha256 (base32 "10kjx0lnkwl9jba08ag50l8gr5yy4bx1v32qjgh7zd9p2s804qnd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -17889,14 +17889,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261104.1420")
+   (version "20261104.1656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "fc91203c0012d172b23ff21f4fa9151ec85b7d31")))
-     (sha256 (base32 "1qhhp244h9nq69m9353ckzqxbwhrf44c3mspqnv0hil1089bq623"))))
+           (commit "9345d91c59beb622f64173c77ff2988da9a1df21")))
+     (sha256 (base32 "0jv00xfdbm4y68n0a6i56zilrfln681na1zrfshfib9kfqh387ls"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -33148,14 +33148,14 @@
 (define-public emacs-fedi
   (package
    (name "emacs-fedi")
-   (version "20261005.2040")
+   (version "20261104.1758")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fedi.el.git")
-           (commit "c79f66c8196723fc135053b4a8eec085fcc613ca")))
-     (sha256 (base32 "0dmr3jqj36j3mxzyb741nf1qqccri4fmkmnqn31n6p72s9x3l3lz"))))
+           (commit "1609066aa4c3ea6b6e780eb0a688b6ebdbac6357")))
+     (sha256 (base32 "1isf71izrw8gah3hddy576qhy4nqyr1wbh2zis1k2d4rxs6k7fba"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-markdown-mode))
    (home-page "https://codeberg.org/martianh/fedi.el")
@@ -34486,14 +34486,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20261104.1318")
+   (version "20261104.1840")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "4d9850be92e18bf79be8d1acbfaaa6e7cd9c5fb4")))
-     (sha256 (base32 "1q222f1i4nxv0cp3a6fpqmjapv4mkyw5qyqdg6x72v8hxgiii50h"))))
+           (commit "a92701691da0a37c13501d6c3eb99b4f198ca917")))
+     (sha256 (base32 "0yczhk65175dyc02lfckgbk797da7crfx961l0xpkpzyd80q9c54"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -44231,14 +44231,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261030.1609")
+   (version "20261104.1817")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "ed600ae1b0f9df22d81a1c72d91e477144b7720e")))
-     (sha256 (base32 "0r5lrpj8xvlzxmk0gd6csj47ghgrjbvmya3nskppknph0l6jijma"))))
+           (commit "6938a9d1906fe0139ffb9877fe96358e99925ca5")))
+     (sha256 (base32 "0vch1yg4vy4g0mvngs6i5wh9q40i9hsnraqc988jgb4rrczl0kkp"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -48026,7 +48026,7 @@
 (define-public emacs-helm-taskswitch
   (package
    (name "emacs-helm-taskswitch")
-   (version "20261104.1330")
+   (version "20261104.1509")
    (source
     (origin
      (method git-fetch)
@@ -68524,14 +68524,14 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20261104.920")
+   (version "20261104.1833")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/neocaml.git")
-           (commit "210c66a67796888df22dfbe825d5b617dfc21428")))
-     (sha256 (base32 "06ibgpzhxam1isfnhrnzpqpx0lfhh328macgzmdn5qxlsqshdsw2"))))
+           (commit "b5d6fc0e792a396afb0c6ee5280978773677371d")))
+     (sha256 (base32 "1lnn2n7hx5sk3mdaxiahl4l7j68a8smfjs6mad4bzbnb5amz3lly"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -82339,14 +82339,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261104.1455")
+   (version "20261104.1821")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "f33067821fd5895d6ee7308860962772b43425db")))
-     (sha256 (base32 "0f4kav321x6kw5mxmgy9ixh0lpnsadyzgsd32fy280wpphwfpqqv"))))
+           (commit "9e63801d977932612c39241a7fae811c6f01e5ce")))
+     (sha256 (base32 "1h7pbfwb63a03jsppjwy39v1mj9b0jm58z94k0xrfd1dnnbg5g1c"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -95132,14 +95132,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20261102.1744")
+   (version "20261104.1642")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "092db25ee9de681f6f44ad8011c8c4e4bbc489e3")))
-     (sha256 (base32 "05k4hwrnb6jb2m6dg8k4zp5ni5rqqp66cp1kakygk8ipja6pjqny"))))
+           (commit "7cf6fa8bee0f24aba4e2c5f2d155142f71f021f5")))
+     (sha256 (base32 "04anwar0manpsj1w120ihdx0ii3iiwi3dpx3qc9ly63xdqk5dydw"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -98656,14 +98656,14 @@
 (define-public emacs-straight-overview
   (package
    (name "emacs-straight-overview")
-   (version "20261104.1511")
+   (version "20261104.1709")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/straight-overview.git")
-           (commit "ca0aed903dccaf42f0b6e1deb1a1a8054a086168")))
-     (sha256 (base32 "0p5a0nxi4d3faaxvyja6fgis4mb08s38pkap321wl15rpy47myss"))))
+           (commit "c00edee3fc72b87b8eca9fb901975dc988eb4e6f")))
+     (sha256 (base32 "05da7nkk496bzhnynpd2zl3ihsnv0700b8m2i76q14rjhgk9a50r"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alberti42/straight-overview")
    (synopsis "Selective upgrade UI for straight.el packages")
@@ -101436,14 +101436,14 @@
 (define-public emacs-termint
   (package
    (name "emacs-termint")
-   (version "20260804.551")
+   (version "20261104.1811")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/termint.el.git")
-           (commit "bf97d0a417902417febc2b6925152dab5610057f")))
-     (sha256 (base32 "1wfvri7gwy0ag5pdadhcwfj3071ffnrrqn7d1hsyvkjykg6snpki"))))
+           (commit "7b919e672497a463a3e2e15e497919ff4cc5f77f")))
+     (sha256 (base32 "1wmcqf310kar5fkrbb917dg0brvcmn7f7nng0sxqdv0fzspx1sry"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/milanglacier/termint.el")
    (synopsis "Run REPLs in a terminal backend")
