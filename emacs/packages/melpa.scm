@@ -842,14 +842,14 @@
 (define-public emacs-ac-php-core
   (package
    (name "emacs-ac-php-core")
-   (version "20261105.241")
+   (version "20261105.1118")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xcwen/ac-php.git")
-           (commit "bb0911bd0edfb5fdf6d685dd520510379572c304")))
-     (sha256 (base32 "0l4za2g0r0b4kpbdmf35gb0146izjv73gk85y9hj523qismnxiim"))))
+           (commit "d9bd7aff3577b63a3ba9ac0d760a2fc6e576cb46")))
+     (sha256 (base32 "1yqw3px5cindnvb3gcw78ikr5ag4i9c5vn9mvwa804hcvs27r4rs"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-php-mode emacs-s emacs-f emacs-popup emacs-xcscope))
@@ -1875,14 +1875,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261105.47")
+   (version "20261105.1505")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "e5f1c76d4dc22b54f4c331f7ab9e7c023b804f23")))
-     (sha256 (base32 "10wnqfsz1gic2lk19vj6a8sj5bk2k61qchgcqajfm73gb5hrqjxg"))))
+           (commit "cdf63817b17d9529c1210a4350564cc6023f8b34")))
+     (sha256 (base32 "178fxwmqz553siv7y73ha8xjvha4hy9kvmmryhmacsdqiswhg0by"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -10411,14 +10411,14 @@
 (define-public emacs-cg
   (package
    (name "emacs-cg")
-   (version "20250430.1005")
+   (version "20261102.1532")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/GrammarSoft/cg3.git")
-           (commit "b92eeef79b5c502e914cd76e94404303fa1f1009")))
-     (sha256 (base32 "13sf15h7v8w9f0lln74ygzd0c8b3yvlphzq6kdrx619a0dicnybx"))))
+           (commit "4dd86c3c926bc4af93aa046d3579832513a4cac2")))
+     (sha256 (base32 "176fvyfinifkxa0hw7dhzmmwib3agf1b2yprijx0cr8jspdazvm6"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("emacs/*.el")))
    (home-page "https://edu.visl.dk/constraint_grammar.html")
@@ -15588,14 +15588,14 @@
 (define-public emacs-consult-ghostel
   (package
    (name "emacs-consult-ghostel")
-   (version "20261029.1738")
+   (version "20261105.1319")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "2c13feaa31da8a55a0471210cd26414d7265ee1e")))
-     (sha256 (base32 "0w8787fwfcarcwby1n4b686v53h5hcl2ldc24v7nna07lb6jfpck"))))
+           (commit "7bf0ad4c2213eddc4635d3203dedf2530a3ba2fa")))
+     (sha256 (base32 "1177x12kpim6l9nsyhx63xjxpjhys25nscknisjji4n5v9dk1qbb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult emacs-ghostel))
    (arguments '(#:files ("extensions/consult-ghostel/consult-ghostel.el")))
@@ -24214,14 +24214,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20261103.1821")
+   (version "20261105.1609")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "a479062b7d19d44c197f2f05ef823573592abbb8")))
-     (sha256 (base32 "0qkpp9hf43x1wkfzvcjcwbjwhpqrkhdx8xgz936rjplzg5spjzm1"))))
+           (commit "169e33133ba05da446a9297f6795bc77d199aac9")))
+     (sha256 (base32 "1iq1cqsaw2j0a309960cxys47x5ms8zrvnwch0h5z1b4nbj97n62"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -28058,14 +28058,14 @@
 (define-public emacs-empv
   (package
    (name "emacs-empv")
-   (version "20261023.1233")
+   (version "20261105.1054")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/empv.el.git")
-           (commit "d2f532a35e70de4741bc76e2deca115d590a7e57")))
-     (sha256 (base32 "1sz7b36mzpg0z930qd54r78b3i2wlpw9znqjb9i7yqw30x38wvyn"))))
+           (commit "6c60b0af2e43b1128950f79002dea226cc1cdee3")))
+     (sha256 (base32 "11dklfv0fpbh7w67zxbq730f80qb0r3054gzsx6cb2kcx98jpkr7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-compat))
    (arguments '(#:files (:defaults ("ivjs" "ivjs/main.ts"))))
@@ -30734,14 +30734,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20261029.1738")
+   (version "20261105.1408")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "2c13feaa31da8a55a0471210cd26414d7265ee1e")))
-     (sha256 (base32 "0w8787fwfcarcwby1n4b686v53h5hcl2ldc24v7nna07lb6jfpck"))))
+           (commit "7bf0ad4c2213eddc4635d3203dedf2530a3ba2fa")))
+     (sha256 (base32 "1177x12kpim6l9nsyhx63xjxpjhys25nscknisjji4n5v9dk1qbb"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -30771,14 +30771,14 @@
 (define-public emacs-evil-god-toggle
   (package
    (name "emacs-evil-god-toggle")
-   (version "20260522.2049")
+   (version "20261105.1522")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jam1015/evil-god-toggle.git")
-           (commit "d6f8d098b9f9e0046df5afd35ced5bc5ed5a0ea0")))
-     (sha256 (base32 "0zrl2rzp8pb03ji90r9nr2kjfw39iw5kifkiyv01wh7jrdyjsxy3"))))
+           (commit "4102e67bb9fadd4fd20fffedb5415b50f9b66b40")))
+     (sha256 (base32 "1xv2q23cn7l8fnv8ssblalj27x3dkym6r2pldrvz6kbzb1zdysqa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-god-mode))
    (home-page "https://github.com/jam1015/evil-god-toggle")
@@ -33931,14 +33931,14 @@
 (define-public emacs-fj
   (package
    (name "emacs-fj")
-   (version "20261102.946")
+   (version "20261105.1057")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martianh/fj.el.git")
-           (commit "9b44590aa4ac938c31789099879c82a404896f72")))
-     (sha256 (base32 "0aqk4li93mgh638vfiv67kv4jqvn3x7d27wyp3n3qzh9dv1anxs1"))))
+           (commit "37c57a02478bb4de0f2afa2f68c2be7a2e80c7d4")))
+     (sha256 (base32 "09zsr4iv14br14ijl647shw1v1n15qkkml8nrbgz4k7bwh31c3cq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-fedi emacs-tp emacs-magit))
    (home-page "https://codeberg.org/martianh/fj.el")
@@ -34486,14 +34486,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20261104.1840")
+   (version "20261105.1132")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "a92701691da0a37c13501d6c3eb99b4f198ca917")))
-     (sha256 (base32 "0yczhk65175dyc02lfckgbk797da7crfx961l0xpkpzyd80q9c54"))))
+           (commit "40bb41327af2c1a6750e7ed44aa1ad517bf7aebb")))
+     (sha256 (base32 "0c97rp9qr0w3svdskc1zk8qyr9r08jlq9xpvsmp5vf09vwclbhwh"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -38173,14 +38173,14 @@
 (define-public emacs-fontify-face
   (package
    (name "emacs-fontify-face")
-   (version "20251111.1121")
+   (version "20261105.1056")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Fuco1/fontify-face.git")
-           (commit "b975c764b6e9e070c7673317146b4d345ec83ef8")))
-     (sha256 (base32 "1sv6fw4vcxmwwsjris8i0lk2k68cszysg1qh9pvkhcnggsf0h42p"))))
+           (commit "014a18fa56e0be3ff4d6ff7a82d9028bac5c15fc")))
+     (sha256 (base32 "0y2xia0lsqqy7x4ib2jjlrk7r56s95vppby8d2gm8dkqgg1n5b8w"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Fuco1/fontify-face")
    (synopsis "Fontify symbols representing faces with that face")
@@ -57759,14 +57759,14 @@
 (define-public emacs-lambdapi-mode
   (package
    (name "emacs-lambdapi-mode")
-   (version "20261029.1853")
+   (version "20261105.617")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Deducteam/lambdapi.git")
-           (commit "c90f1df8d9a2b477c11026c49ee92a9808d87013")))
-     (sha256 (base32 "16xgzrpads4xpkszw5dbirrhcy2zykj6vs6bfy3nycw6hkgca1lj"))))
+           (commit "eb680ac2483611d012a454c36f6b83ac49a5450a")))
+     (sha256 (base32 "13rky1yvyj4080nd12x51nckvnfiwigy8rivxlp8q93b2jxsmysd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-math-symbol-lists emacs-highlight))
    (arguments
@@ -58984,14 +58984,14 @@
 (define-public emacs-lgr
   (package
    (name "emacs-lgr")
-   (version "20230407.1317")
+   (version "20261105.1052")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Fuco1/emacs-lgr.git")
-           (commit "20f3a3db9a142e86a15d14597213de23d01b772c")))
-     (sha256 (base32 "1y3mh80gjyvh08y5p4skx4kcd61h32dkw5b6fh1m0krjb4fwp9gx"))))
+           (commit "2fe1f53b1904a360382969fc975dccb1ca0d823d")))
+     (sha256 (base32 "17rzb8gy4zpz8b1rf4aq8mxps5mq1d7kcphzpfjr4ab9s5xx0n0v"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("lgr.el")))
    (home-page "https://github.com/Fuco1/emacs-lgr")
@@ -77191,14 +77191,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261025.1040")
+   (version "20261105.518")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "b3dec6286e72fb4111b9894e2d220a55f2011e1b")))
-     (sha256 (base32 "14dji8bdr469ls5rypvw0fwbi1inhibxmw9k5sk71x8isvq5p4dk"))))
+           (commit "7b4a0fab0c174de21de5137fe577e4f00a593179")))
+     (sha256 (base32 "1y1nx3pxvz7g11xxg0zkcd1siid5q1mjrd650n7879hnvd4s3pbd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -85573,14 +85573,14 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-   (version "20261104.2307")
+   (version "20261105.847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ProofGeneral/PG.git")
-           (commit "d2e8c9d2623c87c8a3c44ba7aa29639da89920d3")))
-     (sha256 (base32 "01dlk849dhjz1y498z90fc6gyrjlma6x5snsw1cl4d8dg79jk4c4"))))
+           (commit "33c32215ac2f2708fbda54e2d1de3f1076a0478e")))
+     (sha256 (base32 "14hq08ncf9bw6qi6h6flzw9vpg6gd2v38yfwgv65p7zqp3zx25r5"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -95364,14 +95364,14 @@
 (define-public emacs-slothbar
   (package
    (name "emacs-slothbar")
-   (version "20260913.1248")
+   (version "20261105.1239")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/agnes-li/slothbar.git")
-           (commit "5b1b7f5c45e5e468754c6e676e97223529cd4575")))
-     (sha256 (base32 "10yvivyakskm6b889fhi7b4qpylafzka5vkhb70hj2k40xxqc7yp"))))
+           (commit "0aa155a7d9f3ec3ca15dca5d9f07d184fb5a772b")))
+     (sha256 (base32 "092hqm3glp42ahnl9wbys0s9lk618lb9nfw8fd1hk9dwg8rxzkkd"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-all-the-icons
@@ -108093,14 +108093,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261104.2125")
+   (version "20261105.1139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "80a31b6810a31ccd0b2190b4a7d526996e4a76da")))
-     (sha256 (base32 "090s61hx97sc9d1cc8qqskp067667ag356xdlw0aygrcdbw4as6a"))))
+           (commit "e2535fdda60dd36bf0895e12c9de27a3aa62fff2")))
+     (sha256 (base32 "0knlfclv20w1bxrmy43d1n8vhmcsn6s0qpi7j27p332ywsxcp5w4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -110632,14 +110632,14 @@
 (define-public emacs-x509-mode
   (package
    (name "emacs-x509-mode")
-   (version "20261104.1136")
+   (version "20261105.650")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jobbflykt/x509-mode.git")
-           (commit "f52a1d9da3a6a49ebf32736596571435de5f10ea")))
-     (sha256 (base32 "0x1chd8hf8f30c9d24266d6mak2sr86sdms2mz595jas95mgmaaz"))))
+           (commit "cbdec32d1570b64f18bcc838ba76701461819803")))
+     (sha256 (base32 "0zp5a6vi8aajxpx6ba7sdlfq0yxj5lrz9da2ilc1jfm0hnjfmf3b"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "*.txt")))
