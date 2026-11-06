@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261103.1655")
+   (version "20261106.1213")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "ee1f061a111726955ee4d3056862804c8e458c64")))
-     (sha256 (base32 "1bmbyrr06z5v6gbcbscmxnpwx0w765yic4kp8f01sh791j9a8lid"))))
+           (commit "4564c5d27cff73eceea6d7aec44f4fc175d6f6f5")))
+     (sha256 (base32 "0zlhj3qwc4kcbs2305qbazr2n24m7m0w2ny7ixw8q88i7h9xb78z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -11134,14 +11134,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20261101.1037")
+   (version "20261106.1225")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "1f0a1d13f3e879f6b795eecf44ee5df54b23e5b5")))
-     (sha256 (base32 "0sx318nhfrj95f47cy6w5ha7665yycw93dpwygnsy8w89l76vvpp"))))
+           (commit "3d6ac80060b16009b597f1bc8481655b25f78dd7")))
+     (sha256 (base32 "12qnnx82va1pf8qd46gyrckpqqjvw49016zk4qqccfn12jr7m482"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -30498,14 +30498,14 @@
 (define-public emacs-evil-collection
   (package
    (name "emacs-evil-collection")
-   (version "20261014.225")
+   (version "20261106.647")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil-collection.git")
-           (commit "3948a7890960d389dffa637203a6760df68b1c1c")))
-     (sha256 (base32 "1swhl466sjczjsa9v6nlvsbxd1x6p0qjb560q1fcfdgpcq4r1jy8"))))
+           (commit "2c85a07409957627a6660c88407a21f3e4272db9")))
+     (sha256 (base32 "0184vl9s0c5gjhk6mdyibbv0205ncq08vw668hx0bgry8249kr4c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil))
    (arguments '(#:files (:defaults "modes")))
@@ -34486,14 +34486,14 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20261105.1702")
+   (version "20261106.1406")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/flycheck/flycheck.git")
-           (commit "37a67536f9801f2e7dbd1b4ebd43c78129db7740")))
-     (sha256 (base32 "1mjqgnwmiy8jzmf9fw5q3jwpjabjgqk9rqn5nfmwl57500zrdvgx"))))
+           (commit "5ae78f82bc4dae564b00f78d677f5d516f120b40")))
+     (sha256 (base32 "1wvpc0f9xy4brigymrrckmq17f21lm667i0gkgs12wg00mrj7b7i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/flycheck/flycheck")
    (synopsis "On-the-fly syntax checking")
@@ -50064,14 +50064,14 @@
 (define-public emacs-hutch
   (package
    (name "emacs-hutch")
-   (version "20261007.1201")
+   (version "20261106.952")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/adjaecent/magit-hutch.git")
-           (commit "dd0191f06558f8238017f9c207ce129bb5f06fc6")))
-     (sha256 (base32 "03x0nabs4qzpkky9a5df2w2ipjhgnblq6cl8fqc9fslzvvi8pwfs"))))
+           (commit "8db8a7168859d16571c2cd5fc594faa08a904953")))
+     (sha256 (base32 "1c3065kq2j3d84mzj3dc9zc1hygq70m2i90haw4mcg8687c1kj5j"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit emacs-gptel emacs-svg-lib))
    (home-page "https://github.com/adjaecent/magit-hutch")
@@ -75782,14 +75782,14 @@
 (define-public emacs-org-pomodoro
   (package
    (name "emacs-org-pomodoro")
-   (version "20220318.1618")
+   (version "20261106.1414")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/marcinkoziej/org-pomodoro.git")
-           (commit "3f5bcfb80d61556d35fc29e5ddb09750df962cc6")))
-     (sha256 (base32 "1x3ny357s0h73129mhah6rjipjd0jw6gh3msr6sahwx36nsdrp4m"))))
+           (commit "4088396c42170e1c5c2d621d68637254867fda44")))
+     (sha256 (base32 "0gdg9i6l2j3wncdzgwz6p8f3ija84bb123rkyvw3akb7gi598n0h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-alert))
    (arguments '(#:files (:defaults "resources")))
@@ -76378,7 +76378,7 @@
 (define-public emacs-org-roam-ql
   (package
    (name "emacs-org-roam-ql")
-   (version "20261105.2128")
+   (version "20261106.346")
    (source
     (origin
      (method git-fetch)
@@ -77015,14 +77015,14 @@
 (define-public emacs-org-tag-beautify
   (package
    (name "emacs-org-tag-beautify")
-   (version "20260828.205")
+   (version "20261106.1009")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-tag-beautify.git")
-           (commit "c7578a7dc12a75ca23c8d59ec76099cc943bf87d")))
-     (sha256 (base32 "12h42awrwwabkzzyw8h451v616wqyvk40xryaa3zqzmyzihag38q"))))
+           (commit "aa63e313a3e1a045c20e7d5b2fa4a3f614cb23d1")))
+     (sha256 (base32 "11k01bp4x8fr65bzsy5jfv2nsl94cvdv2qvfmqs9vfsqrc1kpkx0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons))
    (home-page "https://repo.or.cz/org-tag-beautify.git")
@@ -77191,14 +77191,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261105.518")
+   (version "20261106.731")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "7b4a0fab0c174de21de5137fe577e4f00a593179")))
-     (sha256 (base32 "1y1nx3pxvz7g11xxg0zkcd1siid5q1mjrd650n7879hnvd4s3pbd"))))
+           (commit "8256f4b66ed7428b688f4eb0560d481be19d0a19")))
+     (sha256 (base32 "1wd4ycmqkwlrwcag5zhqfha1nhral6j3g1p79yvwma2rd0inwsbp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -85573,14 +85573,14 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-   (version "20261106.24")
+   (version "20261106.753")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ProofGeneral/PG.git")
-           (commit "80af5c9829168f2229262b63f42cdd12b6797506")))
-     (sha256 (base32 "1psi9s7fsnw39lz2r0cjq2dnsw7vwiy7q9gv9q154rlbkvchda7g"))))
+           (commit "ce421e4c62ca08489d5f870f67c203b5f3a33fae")))
+     (sha256 (base32 "0r89nii12zfrsl450nwjw75x800m3bvk5yikzqkb5hy8bqd3873n"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -100671,14 +100671,14 @@
 (define-public emacs-tangotango-theme
   (package
    (name "emacs-tangotango-theme")
-   (version "20241117.1143")
+   (version "20261106.1331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/juba/color-theme-tangotango.git")
-           (commit "6202d4a19ac1def1b2596f1906c4524dd7303563")))
-     (sha256 (base32 "193radl7p4hns0nbvf0d49na0dsnmbfsdwmzgcnj4ps09gwav7k2"))))
+           (commit "1f650e7312242bfe7d70e002397d0bd3abbfc8ad")))
+     (sha256 (base32 "11h3k8j2y0h0fz9wv45clgmylqfkdhxhk0pvf1xd4l7pdl4syybk"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("tangotango-theme.el")))
    (home-page "https://github.com/juba/color-theme-tangotango")
@@ -108093,14 +108093,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261105.1404")
+   (version "20261106.1500")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "e2535fdda60dd36bf0895e12c9de27a3aa62fff2")))
-     (sha256 (base32 "0knlfclv20w1bxrmy43d1n8vhmcsn6s0qpi7j27p332ywsxcp5w4"))))
+           (commit "a90f3cd411cc1102981b43efe92556c9d821acd3")))
+     (sha256 (base32 "182qbsh92b6chb2238bq4v92vawh3ypn71bmch2fdbvid4r76sr3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
