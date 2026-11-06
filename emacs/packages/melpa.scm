@@ -1875,14 +1875,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261106.443")
+   (version "20261106.1724")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "83640ea40e43c27cf91e747c8b7de3d699d69bce")))
-     (sha256 (base32 "0q8x1bzg3z529nbizdffffbgzd6cxjp61arh5knrnhiaffx0yb9d"))))
+           (commit "4ae62e488528162d77fc1db128a4e0b40c6865cc")))
+     (sha256 (base32 "1rzylgpqla2v6km22hi0494sxk836rvr69qc6m9y4n7z4vl65ldw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -6141,14 +6141,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20261104.2138")
+   (version "20261106.1644")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "98d2c65392e6471f8389ddfac4c2a8ff48c75d85")))
-     (sha256 (base32 "0qf8picaxv1lg78lw830cvvh55pv162b277lhwvc4bckpycj8fg9"))))
+           (commit "14b6f776976a86b2a890079ddadbee339899688f")))
+     (sha256 (base32 "0sg22rqzhwklv98l91v0c0gqmyb50vidvlxasz6j9dbkpxl6zix0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -34486,7 +34486,7 @@
 (define-public emacs-flycheck
   (package
    (name "emacs-flycheck")
-   (version "20261106.1406")
+   (version "20261106.1543")
    (source
     (origin
      (method git-fetch)
@@ -39737,14 +39737,14 @@
 (define-public emacs-geiser-chicken
   (package
    (name "emacs-geiser-chicken")
-   (version "20260924.2025")
+   (version "20261106.1448")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/geiser/chicken.git")
-           (commit "74610c900b671dd40c1bd7114c991781e0621102")))
-     (sha256 (base32 "0939srazvmsz8m7jmvzmh6s962c7q6g4jadqxi78f4yg90rrkppv"))))
+           (commit "b019678711ef29a06a049ec7f80598c24cc74a51")))
+     (sha256 (base32 "12rrx9q4dhq5hwm9jw1fs8zb41ywj8k2qd2g08kqr0lmrjxqdq7f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-geiser))
    (arguments '(#:files (:defaults "src")))
@@ -58115,14 +58115,14 @@
 (define-public emacs-latex-to-svg-backend
   (package
    (name "emacs-latex-to-svg-backend")
-   (version "20261029.1321")
+   (version "20261106.1904")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg-backend.git")
-           (commit "c8d91db13d2a027fc43504fd891d7cb2a853ca73")))
-     (sha256 (base32 "14h3g4qkjc9896qzf3c6x538hdfx741ij4mil0qjfdq9s53l58j1"))))
+           (commit "9e64994152805ac6321d030c19b5e30112fc3fea")))
+     (sha256 (base32 "0dl93wknmrcg6j5hhafl38kpddji7bgndzzkllhbsy3djgi0q4sf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alberti42/latex-to-svg-backend")
    (synopsis "LaTeX-to-SVG rendering backend with caching")
@@ -61772,14 +61772,14 @@
 (define-public emacs-macher
   (package
    (name "emacs-macher")
-   (version "20261104.213")
+   (version "20261106.1633")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kmontag/macher.git")
-           (commit "c4ff04453eddbfa429d2fddb1376f119d141f605")))
-     (sha256 (base32 "1776jqc26q315h9r7jhy9hx574a9ss8kcvhnn2s45s3r8x29r0lh"))))
+           (commit "396e143652d2f839a6b10095afde4ff36aceb0f4")))
+     (sha256 (base32 "12wn6431n6gl4wyif302bcayg2c4gh2l7r3xgja46j3lvhzm0n3k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-gptel))
    (home-page "https://github.com/kmontag/macher")
@@ -85573,14 +85573,14 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-   (version "20261106.753")
+   (version "20261106.1739")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ProofGeneral/PG.git")
-           (commit "ce421e4c62ca08489d5f870f67c203b5f3a33fae")))
-     (sha256 (base32 "0r89nii12zfrsl450nwjw75x800m3bvk5yikzqkb5hy8bqd3873n"))))
+           (commit "7922429acd7b46e237873f26533a20f67490ad3f")))
+     (sha256 (base32 "0p8bz2qjkjj7rckrmwshz3fs41sp1rw55jr6brpj86radgckkm38"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -95364,14 +95364,14 @@
 (define-public emacs-slothbar
   (package
    (name "emacs-slothbar")
-   (version "20261105.2109")
+   (version "20261106.1747")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/agnes-li/slothbar.git")
-           (commit "ac14e0253880ce2493358cb58d018bca03b48189")))
-     (sha256 (base32 "1r8ggy3qvq2ifrzlciyb9l24vrq4qhsdiir4ww0kpqa7fxyias99"))))
+           (commit "5ab07d26d71ba38ef584a10b3e4dc7af045bc95c")))
+     (sha256 (base32 "00g7qxwwcaaf95a668jhams67mlzqd15l60k0zw0i7hxc2dzdcl9"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-all-the-icons
@@ -101596,14 +101596,14 @@
 (define-public emacs-test-cockpit
   (package
    (name "emacs-test-cockpit")
-   (version "20261017.1554")
+   (version "20261106.1858")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/test-cockpit.el.git")
-           (commit "3bc8478d348e0f72a102c4d7c25de8af3c3728a5")))
-     (sha256 (base32 "0phhf11qyrhpj56p4p6qkbqv3f80fjkfjk6lra1qnd9k46mwppjg"))))
+           (commit "1fe3b6d5c6eb6f5c940b6e50a651f1ce2655b419")))
+     (sha256 (base32 "114p2pariwisj7qmzcwy72avqybh4lz7264fjaj8mcxl2k8mjg2v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-projectile emacs-toml))
    (home-page "https://github.com/johannes-mueller/test-cockpit.el")
