@@ -11134,23 +11134,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-<<<<<<< Updated upstream
-   (version "20261101.1037")
-=======
    (version "20261109.1836")
->>>>>>> Stashed changes
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-<<<<<<< Updated upstream
-           (commit "1f0a1d13f3e879f6b795eecf44ee5df54b23e5b5")))
-     (sha256 (base32 "0sx318nhfrj95f47cy6w5ha7665yycw93dpwygnsy8w89l76vvpp"))))
-=======
            (commit "8730d9bee39955338932476f3a8ae370e77241cc")))
      (sha256 (base32 "19sm8hviazxhbsgnpbvv8ni9hiddv2vzmbmjanbaps83y5nb4bnd"))))
->>>>>>> Stashed changes
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -14883,23 +14874,14 @@
 (define-public emacs-compilation-history
   (package
    (name "emacs-compilation-history")
-<<<<<<< Updated upstream
-   (version "20260413.2031")
-=======
    (version "20261109.1836")
->>>>>>> Stashed changes
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/djgoku/compilation-history.git")
-<<<<<<< Updated upstream
-           (commit "cfc37a18469634696761e239d0517cfb96a2ca40")))
-     (sha256 (base32 "0m2s9q08lnfqcmkaapzhs8jpimk5cn5c4b27j8968qnv9csb75py"))))
-=======
            (commit "1b79c506872de004120f7d3f85da24c80a4e3b68")))
      (sha256 (base32 "1rydfwf4hlwmsxr9q5nkl07qxkbpglckwyv9dmli3fxbjx6ab9h0"))))
->>>>>>> Stashed changes
    (build-system melpa-build-system)
    (home-page "https://github.com/djgoku/compilation-history")
    (synopsis "Track compilation history in SQLite")
@@ -61665,23 +61647,14 @@
 (define-public emacs-lyrics-fetcher
   (package
    (name "emacs-lyrics-fetcher")
-<<<<<<< Updated upstream
-   (version "20241222.1620")
-=======
    (version "20261109.1822")
->>>>>>> Stashed changes
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SqrtMinusOne/lyrics-fetcher.el.git")
-<<<<<<< Updated upstream
-           (commit "2686f97830d6ba03e86992e44405fad9ae58981f")))
-     (sha256 (base32 "0nqgcl0hish831a0h3miffj5m6m3jv70h6a2pvyj1k6bqq22nxva"))))
-=======
            (commit "de0de73399eac1e2f7eab5c264263dc9d8ba3ab9")))
      (sha256 (base32 "0jairsfl8g80jjmbcdmgwynrqaj0gn8bvixzrc5fr444qzf1qjcg"))))
->>>>>>> Stashed changes
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emms emacs-f emacs-request))
    (home-page "https://github.com/SqrtMinusOne/lyrics-fetcher.el")
@@ -85550,23 +85523,14 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-<<<<<<< Updated upstream
-   (version "20261030.2110")
-=======
    (version "20261109.2157")
->>>>>>> Stashed changes
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ProofGeneral/PG.git")
-<<<<<<< Updated upstream
-           (commit "e0a6d4f042c083018896bc831234589abb33b915")))
-     (sha256 (base32 "0xcdb71mcydmzajyv15ladwn3p6c7nzzpqjyzh7x2ygprkgbj6sd"))))
-=======
            (commit "e09cd62ada58d5e38986a81101cffe1be28e527d")))
      (sha256 (base32 "0920ra3gwfqkk1sqqqqi7i0pp86lrkibxwpz85h038pkh2akvlp1"))))
->>>>>>> Stashed changes
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -94918,23 +94882,14 @@
 (define-public emacs-sisyphus
   (package
    (name "emacs-sisyphus")
-<<<<<<< Updated upstream
-   (version "20261023.1816")
-=======
    (version "20261109.2119")
->>>>>>> Stashed changes
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/sisyphus.git")
-<<<<<<< Updated upstream
-           (commit "8159b6c312e4d7bb85182754954528c975bb50da")))
-     (sha256 (base32 "16i6kzpp0r18flf30879xmz9pkgsafdwwk4d5c8n4ywpjz6sbvnk"))))
-=======
            (commit "a878b54943bac1f179c2aa588e99a7f8f4dad37c")))
      (sha256 (base32 "18iwfarzh5dgw1f5av468k9igyc5g6qncjc118idsxzbnxlwsxd4"))))
->>>>>>> Stashed changes
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-magit))
@@ -111801,8 +111756,6 @@
    (description "Documentation at https://melpa.org/#/yesterbox")
    (license #f)))
 
-<<<<<<< Updated upstream
-=======
 (define-public emacs-yml
   (package
    (name "emacs-yml")
@@ -111823,7 +111776,6 @@
    (description "Documentation at https://melpa.org/#/yml")
    (license #f)))
 
->>>>>>> Stashed changes
 (define-public emacs-yoficator
   (package
    (name "emacs-yoficator")
