@@ -1434,14 +1434,14 @@
 (define-public emacs-ado-mode
   (package
    (name "emacs-ado-mode")
-   (version "20261023.2219")
+   (version "20261109.2138")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/louabill/ado-mode.git")
-           (commit "699a2e0aa0c3d2afcc404b28f0ee267b63b1d115")))
-     (sha256 (base32 "0vd53r1m7pibxwvglyqzdrb38pazrvl5pi37mv01f4qmwna1lrwm"))))
+           (commit "a6c2a60f62828214cdf2769b96910924ba51b494")))
+     (sha256 (base32 "1nnsad4ak6bsl7zgp073vb9m5wsybjyz724zajs0dbmn78y1n0qn"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "scripts" "templates")))
    (home-page "https://github.com/louabill/ado-mode")
@@ -11558,14 +11558,14 @@
 (define-public emacs-citeproc
   (package
    (name "emacs-citeproc")
-   (version "20260113.1047")
+   (version "20261109.2157")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/andras-simonyi/citeproc-el.git")
-           (commit "4bde999a41803fe519ea80eab8b813d53503eebd")))
-     (sha256 (base32 "07ssnxri3hwzqxa2777zw2grbncznh6n7k4vfsfgyj42vcqm9g19"))))
+           (commit "33f68ffbed5f7ff24e916c854e6555b5d1cba7ed")))
+     (sha256 (base32 "0lvf1azlhaibnh55fniw6li0gb3h194ifmybrgfsvpsl28kamaaz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -85602,7 +85602,7 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-   (version "20261109.2157")
+   (version "20261109.2254")
    (source
     (origin
      (method git-fetch)
@@ -89401,7 +89401,7 @@
 (define-public emacs-remoto
   (package
    (name "emacs-remoto")
-   (version "20261102.1842")
+   (version "20261110.17")
    (source
     (origin
      (method git-fetch)
@@ -95374,14 +95374,14 @@
 (define-public emacs-slothbar
   (package
    (name "emacs-slothbar")
-   (version "20261107.1125")
+   (version "20261110.146")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/agnes-li/slothbar.git")
-           (commit "de85619f3fc30457e7b3c88f898ce2140ff21bfa")))
-     (sha256 (base32 "0f528ma1izmk59r2yn86xg8jkwa49zdykvp10n76izkscjy2zw21"))))
+           (commit "09fe65a35fc5d856dc617514889ad37eb3dc381a")))
+     (sha256 (base32 "1gy4zp6i1i2jl56c7zjzsq7hsc2p9j7vg3dy30kj15c3lc8xnsm8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-all-the-icons
