@@ -11186,14 +11186,14 @@
 (define-public emacs-cider
   (package
    (name "emacs-cider")
-   (version "20261110.950")
+   (version "20261111.918")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/cider.git")
-           (commit "8bc4867cfdca84e9279c70e90b413e283aab7dbe")))
-     (sha256 (base32 "08flamwi59pkdsdg2lcckkfj63ipadbf05348vcaf4f3xh5wbs3q"))))
+           (commit "2c0e6104d2468f559cc182e940eed102cd319d07")))
+     (sha256 (base32 "0kkwx7kg0p5rsmybpb4qn22czksg54iirixhjnrfpj1x3jqmqh6v"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-clojure-mode
@@ -12566,14 +12566,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261103.926")
+   (version "20261111.709")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "32fea1623012f74cb2af3093af81b4205f83245d")))
-     (sha256 (base32 "0iq8155bqlqkg5y7xmnrsk8lzqcl47yvi6ac4bylqsa3y848mxgy"))))
+           (commit "12ed43f170f6a0fae7d25e4fe4221617d3490f30")))
+     (sha256 (base32 "0r2cri3nqvwgwqgm99csmrrhgpb2qh46q3bkmn7kkbcbb1m25j5y"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -33843,14 +33843,14 @@
 (define-public emacs-firstly-search
   (package
    (name "emacs-firstly-search")
-   (version "20261111.358")
+   (version "20261111.914")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/firstly-search.git")
-           (commit "9b9cae807aad2984e4fa3ba05501d91319652e23")))
-     (sha256 (base32 "03fa62zjipqf2h3hcfx0c922g6qsmdf8yr5p8709pxhr0qva94g3"))))
+           (commit "881e76a7f3fe0e40c0dfec4fedfa9de4cc9ab470")))
+     (sha256 (base32 "04x62ph7xrgw09r8gnhpmb6mbh9a22sb8s7p2fxl31gkiqlisiz4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://codeberg.org/Anoncheg/firstly-search")
@@ -39452,14 +39452,14 @@
 (define-public emacs-fzf-native
   (package
    (name "emacs-fzf-native")
-   (version "20260908.1042")
+   (version "20261111.947")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dangduc/fzf-native.git")
-           (commit "4b9236e8cd1e9f9f3aaf5f2ebf83f1fc5995d38d")))
-     (sha256 (base32 "0sna07mmgh1za89g199483p61rnmzi5g81awa2wmk4x0px9lqwq0"))))
+           (commit "20a16a277764436e003f1d84cb9f0352263f3bad")))
+     (sha256 (base32 "105mv5zszn50d9f0s8i3kb0gjgb07czjcj2yhwzk86n6b14z8pk3"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -39481,14 +39481,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20261017.1713")
+   (version "20261111.916")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "8afe418c42e42a8f4aff324badc87099e7522497")))
-     (sha256 (base32 "0sq6wlsjmjfkis23l0grr5wcqmbwbf9mljb1mghis13l0s10bg0v"))))
+           (commit "3f68d73ae8d1ca1e3ad82e8aacc91cefff3c013f")))
+     (sha256 (base32 "1a2p6v5qzk62ij1jjc2qfi1h44yjd4ky4wd7l2wq7r7rdy56809l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -95374,14 +95374,14 @@
 (define-public emacs-slothbar
   (package
    (name "emacs-slothbar")
-   (version "20261110.1037")
+   (version "20261111.512")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/agnes-li/slothbar.git")
-           (commit "b4cba7539fd587c160d55bc9d653fed24ccbdadd")))
-     (sha256 (base32 "01kgbps6w0px3qdd53k1w96y2cv7pbn63w650s3vfnnmh5viwy5c"))))
+           (commit "e64575e6721bc5cb04b1c06354070f7d0bc07ba3")))
+     (sha256 (base32 "125vq9v6qbkzmaq4m01fi6ksryyb3p08lij7xjqmqbykzaddkq3g"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-all-the-icons
