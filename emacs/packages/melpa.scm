@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261109.1018")
+   (version "20261111.214")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "468ef219668a086eb19e374eb477106825734797")))
-     (sha256 (base32 "0qf0x8c64z2282xy72lqk2glhfs00lk5qxsjawyq3wgc5mmxzkpw"))))
+           (commit "182d33f07eee2cbe673eb4444d2b926ee7000c01")))
+     (sha256 (base32 "12py5dhhi4r3gcwmpfwxm5vhhpwhajab8z9wwgav48wb0bhkl9bj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1732,14 +1732,14 @@
 (define-public emacs-agent-shell-math-renderer
   (package
    (name "emacs-agent-shell-math-renderer")
-   (version "20261107.1059")
+   (version "20261110.1503")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/agent-shell-math-renderer.git")
-           (commit "cf7aa1a0be27c9dbf92471d9ac98cef631bda44a")))
-     (sha256 (base32 "1xp0kliszi7h6rr6chg8ph1a2hi8hy42wkw5swha3y4gyfsp3wc3"))))
+           (commit "1d16d10b21dec013ebfe2140eafd9a9b22d36528")))
+     (sha256 (base32 "1gzklhci2wk6lhzcvrq860x6jygqzh2vrlhpv1dkdcnp9b46x2wr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-latex-to-svg-backend))
    (home-page "https://github.com/alberti42/agent-shell-math-renderer")
@@ -1893,14 +1893,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261109.503")
+   (version "20261110.1709")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "dd01534d45784178f0a7ac03d07ea40e30b0a678")))
-     (sha256 (base32 "1mcawa9qbvy26zdmcp0r76b0yxjck9yvf4a58qlvjq6nsp3sdvnh"))))
+           (commit "bd3216c394b3fbf15be5b66f1744cec958776354")))
+     (sha256 (base32 "0x8r0xcw851b1r3hx7cvsf9z72bgimg0by44fkw1hj3ab5wjpn61"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -12145,14 +12145,14 @@
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
-   (version "20260716.1545")
+   (version "20261110.1756")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clj-refactor.el.git")
-           (commit "2805bd5f505fdb199a8c5a25fca398ec9c161e5b")))
-     (sha256 (base32 "0v4j0y81m0bk3v0rp1f32imymplqd7p1i9p3k9xix254cnpq0ywg"))))
+           (commit "300380d52dff7c593389f6d2dac6d9c4a6b88eb0")))
+     (sha256 (base32 "1h7n8abx322yq94kb6kdaifzcniq8sj8ic3h1bbbinm3d4k85nm2"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-yasnippet
@@ -15640,14 +15640,14 @@
 (define-public emacs-consult-ghostel
   (package
    (name "emacs-consult-ghostel")
-   (version "20261110.1351")
+   (version "20261110.2215")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "9e0f8286b2799db8e540ad006ed0998d6ba6731a")))
-     (sha256 (base32 "0s50m44xwvbxskmgb9crsyimw5ck1cibbhi2bv3hf0byl61dp22h"))))
+           (commit "c70c72c9aec57fc019847ec7b9ef4dfc256d1580")))
+     (sha256 (base32 "19qrjxsdx5ac9mpvzkidfq4vszlq4y6kafnl0cicpacvqm87mj6w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult emacs-ghostel))
    (arguments '(#:files ("extensions/consult-ghostel/consult-ghostel.el")))
@@ -20149,14 +20149,14 @@
 (define-public emacs-devdocs
   (package
    (name "emacs-devdocs")
-   (version "20251022.1255")
+   (version "20261110.2013")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/astoff/devdocs.el.git")
-           (commit "25c746024ddf73570195bf42b841f761a2fee10c")))
-     (sha256 (base32 "1q63bch5jazvf0y76847s2j73f48n4gdr9ac4aaal9z5nidxv1hz"))))
+           (commit "4b4fa0c97f7bddb1348319bf0fe152211465b189")))
+     (sha256 (base32 "11a1lizvfxqggdf0bqys1fgcl50xvzm5mzqnxgdi2ddzs51l6xhs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/astoff/devdocs.el")
@@ -20270,14 +20270,14 @@
 (define-public emacs-dialog-mode
   (package
    (name "emacs-dialog-mode")
-   (version "20260911.1903")
+   (version "20261110.2245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.sr.ht/~mew/dialog-mode")
-           (commit "f768a627eb8a687959bceb1ea2e84e4bb1179cb1")))
-     (sha256 (base32 "0xdvzw9q4v7n3la9njc14vb637vyiszh39jyh68abybiwq4i0s0l"))))
+           (commit "a330024de229de95edc658b3f2aa9874f1f616bc")))
+     (sha256 (base32 "0c8pcnh2h7sd42pj5zas5q4gdvj0l9knxvfpalk958q2cgbpzr7r"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("doc/dialog-mode.texi" "dialog-mode.el")))
    (home-page "https://git.sr.ht/~mew/dialog-mode")
@@ -27125,14 +27125,14 @@
 (define-public emacs-elpy
   (package
    (name "emacs-elpy")
-   (version "20260715.1747")
+   (version "20261110.1656")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jorgenschaefer/elpy.git")
-           (commit "9cdf26dfea1cb044b3cf1dfa9755b6479bfd9a1c")))
-     (sha256 (base32 "13pkr52vzz9fkp4062zrqdxh04rscka5f1anl9lk730z8c7p5f23"))))
+           (commit "af9167fa0a753ac1654d8ee9ee7ce2f82ee35fd8")))
+     (sha256 (base32 "0dkgnyif5sspc7hn7qaqk8v34mi0ba627gxz21iirmyw1awz9jv5"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-company
@@ -30787,14 +30787,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20261107.1455")
+   (version "20261110.2215")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "91c86d21bb611167960ba503e8b22262bb8d5993")))
-     (sha256 (base32 "074jb7400gqgczgq86sxya0lrx3jdbcvv2z93sb12pms9313jnyg"))))
+           (commit "c70c72c9aec57fc019847ec7b9ef4dfc256d1580")))
+     (sha256 (base32 "19qrjxsdx5ac9mpvzkidfq4vszlq4y6kafnl0cicpacvqm87mj6w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -32717,14 +32717,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20261106.2029")
+   (version "20261110.2139")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "f1f2d03045e9f05ab0cdd34f8985938c1aaf1e6b")))
-     (sha256 (base32 "0sfrs7clralm50x1n05g8k5z748q7lg5l8nrqcj28d2g13qp464j"))))
+           (commit "98ebade748afef396f585accbb7049f07c451ab6")))
+     (sha256 (base32 "06lypbcyvdqzdyphascvq3b4wdw68gg5q2s439w1j3r7wbf94c6r"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -33843,14 +33843,14 @@
 (define-public emacs-firstly-search
   (package
    (name "emacs-firstly-search")
-   (version "20261109.1159")
+   (version "20261111.358")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/firstly-search.git")
-           (commit "27f9401b40fd6a68aec0fe2934948c69dec58c21")))
-     (sha256 (base32 "1xmc05a4yd5ci2axff7dfgjw4z8bz9r1gc357cpsxa8kr8r8jn4v"))))
+           (commit "9b9cae807aad2984e4fa3ba05501d91319652e23")))
+     (sha256 (base32 "03fa62zjipqf2h3hcfx0c922g6qsmdf8yr5p8709pxhr0qva94g3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://codeberg.org/Anoncheg/firstly-search")
@@ -40348,14 +40348,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261110.1351")
+   (version "20261110.2215")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "9e0f8286b2799db8e540ad006ed0998d6ba6731a")))
-     (sha256 (base32 "0s50m44xwvbxskmgb9crsyimw5ck1cibbhi2bv3hf0byl61dp22h"))))
+           (commit "c70c72c9aec57fc019847ec7b9ef4dfc256d1580")))
+     (sha256 (base32 "19qrjxsdx5ac9mpvzkidfq4vszlq4y6kafnl0cicpacvqm87mj6w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -57475,14 +57475,14 @@
 (define-public emacs-kubel
   (package
    (name "emacs-kubel")
-   (version "20260919.1933")
+   (version "20261111.407")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abrochard/kubel.git")
-           (commit "23f8ee2cffd6080e39ac2ac06ab74f0de32a4da6")))
-     (sha256 (base32 "0rfqdjvzyyj5n8b03jww38lp7dqvif95jxjwqf27g21wa12ji6k8"))))
+           (commit "d08f07e9ade804be8e7cb3a4914e229fa9340e8e")))
+     (sha256 (base32 "17cn4c6mhkammizwj4kl9awazr9bbmyzk0bi94712nc9bfd23xvl"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-s emacs-yaml-mode))
    (arguments '(#:files (:defaults (:exclude "kubel-evil.el"))))
@@ -59420,14 +59420,14 @@
 (define-public emacs-link-hint
   (package
    (name "emacs-link-hint")
-   (version "20250911.57")
+   (version "20261110.2347")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/noctuid/link-hint.el.git")
-           (commit "8fda5dcb9caff5a3c49d22b82e570ac9e29af7dd")))
-     (sha256 (base32 "1v1zrw4fzqsgc3n6aqdsw438svmadwhxi6dg3miagxkpnjirgd8n"))))
+           (commit "ec2381aa8e210a3238c55810b37c8c4454a065bd")))
+     (sha256 (base32 "0qr08svp86d2g9ps0s4fwg0k55gd773xk21s9nk1zwjkm04ph1l7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-avy))
    (home-page "https://github.com/noctuid/link-hint.el")
@@ -61999,14 +61999,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261107.2107")
+   (version "20261110.2126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "1b0c2281a6956a0723068a9a2f34c5d04784cb77")))
-     (sha256 (base32 "10wa2gdqlcjdjnwz2psp5zmkg0wwym4n0b8x4s91khzqw2idasxz"))))
+           (commit "da92cab409326115b7ee64cc611c99fd29b00963")))
+     (sha256 (base32 "0nh400fs3xj0lf81hn8slfzxyigrzxkyrmnqfgix7w04x4vmdpg8"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62520,14 +62520,14 @@
 (define-public emacs-magit-standup
   (package
    (name "emacs-magit-standup")
-   (version "20261108.1824")
+   (version "20261110.1909")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/function-artisans/magit-standup.git")
-           (commit "a899596369190cb744cd5db6a23985a031cd9d40")))
-     (sha256 (base32 "1idz81gjf9r8pb9hd4iz52wi9fjjrcm0wmms5d527dpisywv22x1"))))
+           (commit "871d75e9e3256226f9a9009da5b03cd34d6c32a1")))
+     (sha256 (base32 "1070mrbir2d2ijgf5gqi5l8lacnywn7q7hgz927mpj4dfkjg4zkk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (home-page "https://github.com/function-artisans/magit-standup")
@@ -64471,14 +64471,14 @@
 (define-public emacs-meshmonitor-chat
   (package
    (name "emacs-meshmonitor-chat")
-   (version "20260824.957")
+   (version "20261110.1529")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/andros/meshmonitor-chat.el.git")
-           (commit "d1dedb2d06f552fb45b278ee34fabaf0ac791c27")))
-     (sha256 (base32 "15a9m73dwmsri5as7xv6ws429xbi825pi6agfab36d4x0vzi3fn8"))))
+           (commit "ede5d836f22954feeac90f6719f758e8993ff418")))
+     (sha256 (base32 "09rygp2ix6f03ka9hrnbgs8126278ma01q64irkd9952g8hdpcpb"))))
    (build-system melpa-build-system)
    (home-page "https://git.andros.dev/andros/meshmonitor-chat.el")
    (synopsis "Chat client for MeshMonitor (Meshtastic)")
@@ -77220,14 +77220,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261110.530")
+   (version "20261111.245")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "6b61374c40077e87f8fe891fc064ca69082c9ff1")))
-     (sha256 (base32 "1sfabcrk32c03hmllljs4l3yg52h0x2x8kizsbvnxicdnb4yj5ad"))))
+           (commit "c7160b93d82960cb854659c2b42234c9becf7957")))
+     (sha256 (base32 "149n9gqs5g1409x7yzf2qisdwwv8jnrl5syyj3glkya68p0ss1xc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -87531,14 +87531,14 @@
 (define-public emacs-quick-sdcv
   (package
    (name "emacs-quick-sdcv")
-   (version "20261108.1910")
+   (version "20261110.1512")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/quick-sdcv.el.git")
-           (commit "0db27e659d19ce06fe883f0b800c9155874ce231")))
-     (sha256 (base32 "0jpz4vdqyw5yk3dg7q29cb1q9rzgkc6m04qkgq4vb94a610qyiqd"))))
+           (commit "c689c93fad9be15dca8f8d45ae19a8ca78d65563")))
+     (sha256 (base32 "16a5l2l65gqramd9hikynfybj9g17j96jd2smficzcqb9vpvaxsw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/quick-sdcv.el")
    (synopsis "Offline dictionary using 'sdcv' (StartDict cli dictionary)")
@@ -89401,14 +89401,14 @@
 (define-public emacs-remoto
   (package
    (name "emacs-remoto")
-   (version "20261110.17")
+   (version "20261110.2020")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/remoto.el.git")
-           (commit "d8c517cc80ad7878ab3c2e958d8961f752a20810")))
-     (sha256 (base32 "0rrir9kb1lmb7k83wknlbwfsm10j80iby4b778ickai844qwfxsa"))))
+           (commit "509986753422b6f84731137df3b3bce44624e0f9")))
+     (sha256 (base32 "07wfhifzf2gqhv56m83d2qgm1cmc8zlg33l6zc8xmkkak4p4dpp7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ghub))
    (home-page "https://github.com/agzam/remoto.el")
