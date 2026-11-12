@@ -1893,14 +1893,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261111.1954")
+   (version "20261112.315")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "6a32b0a5e299a2a2196b6a5ddba3c49817731f42")))
-     (sha256 (base32 "157d2pjd77vszhzfsxxy2b85q3ypcpp7mjw2yvcm0d71lb2mmcil"))))
+           (commit "934ba24e9cab30447e1719297cadab58a9178f90")))
+     (sha256 (base32 "0afkfq8w13zzbq2lh928c247m9ynsql4k2f05q4v55z9y31nwm91"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -9898,14 +9898,14 @@
 (define-public emacs-casual
   (package
    (name "emacs-casual")
-   (version "20260831.2129")
+   (version "20261111.2137")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kickingvegas/casual.git")
-           (commit "60259e256e34d4f6ae64ef950c740cacbe8b4d37")))
-     (sha256 (base32 "137bj210fhqncf5fzvrdg3jycdvxijd29a54r7z7c47a0dwg25pv"))))
+           (commit "d5166240f23e4481a32672cd952f7d117c647a0f")))
+     (sha256 (base32 "163dvrcg2i19f119bl4s5b1c0z9mx3fqazp92s4cdj66jm0859sr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-csv-mode))
    (arguments '(#:files (:defaults "docs/images")))
@@ -12479,14 +12479,14 @@
 (define-public emacs-closql
   (package
    (name "emacs-closql")
-   (version "20261101.1112")
+   (version "20261111.1841")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/closql.git")
-           (commit "d87a2718c2fe45ff98258a2c7f3821b3f7b24f29")))
-     (sha256 (base32 "11m079jgph01l4ad408jx88c4h0k377n8zq17113jh76w998mgp4"))))
+           (commit "5e34a2300e149cefcba65cd683ca4294b57cdae6")))
+     (sha256 (base32 "0j59wqyqdc8if0sfdmz532gi8vg6plvnkyyqng7f62l2sxfqhyfm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-emacsql emacs-llama))
@@ -38368,14 +38368,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20261107.2134")
+   (version "20261111.2233")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "9ec157ae2e3ad8d4354af50f0b8be65e514f20fc")))
-     (sha256 (base32 "1pnm6sb7dp85n1jwbp6alkpz0k9a2m595v5yghazpicfnjsdinnf"))))
+           (commit "c87b66d1dd623893c517baf5c6cc37959beebdc5")))
+     (sha256 (base32 "1xra68xi0f8f82x8mrnk6mbqspw4vlk4p6h3axc98mvp0wczdc58"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -39481,14 +39481,14 @@
 (define-public emacs-fzfa
   (package
    (name "emacs-fzfa")
-   (version "20261111.916")
+   (version "20261112.259")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jojojames/fzfa.git")
-           (commit "3f68d73ae8d1ca1e3ad82e8aacc91cefff3c013f")))
-     (sha256 (base32 "1a2p6v5qzk62ij1jjc2qfi1h44yjd4ky4wd7l2wq7r7rdy56809l"))))
+           (commit "96329f700b72228b0bc5c3d41b2200833499e575")))
+     (sha256 (base32 "12cc4fd4dk1lg6z5fz11r04smk48n2svnzp4zrlafx9fl3yk6kab"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-fzf-native))
    (home-page "https://github.com/jojojames/fzfa")
@@ -73650,14 +73650,14 @@
 (define-public emacs-org-bookmarks
   (package
    (name "emacs-org-bookmarks")
-   (version "20260905.1550")
+   (version "20261111.2359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-bookmarks.git")
-           (commit "e0bf976214011e521bc450b96212906b6a6fb48c")))
-     (sha256 (base32 "045lhwskqbik5nfddmhvmaqv0z9qrqwzmrap2dfhrm5nsyyahca9"))))
+           (commit "ff090175f625ae6ffea9d5b3136d73a3c9960432")))
+     (sha256 (base32 "1brg4lh17gci2g9dxd48dcmnclj5daiz3ahngh2vk04lrvjzkci4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons))
    (home-page "https://repo.or.cz/org-bookmarks.git")
