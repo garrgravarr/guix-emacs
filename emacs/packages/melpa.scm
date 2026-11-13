@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261112.1459")
+   (version "20261113.1059")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "14d807eabfe3ba6f23856a50f1e9a90a2c9abeb4")))
-     (sha256 (base32 "1jrph1k964idjhk9jj4snbzybf5df3bwmm7x8i0g3vc1gsgk8lpz"))))
+           (commit "26365eb6f2fc3a635eb10bfccc97b3f4264d64be")))
+     (sha256 (base32 "108fw6g1qcfdfs64icspm4aiwa6rcrmbip1s6z3wi13gydmy9aic"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1714,14 +1714,14 @@
 (define-public emacs-agent-shell-consult
   (package
    (name "emacs-agent-shell-consult")
-   (version "20261105.513")
+   (version "20261113.705")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/agent-shell-consult.git")
-           (commit "78a1056275cd26a7a8675f43e1499bd8d0a7aa53")))
-     (sha256 (base32 "10ksszvbpci0lmpv7839qsc0wrkd5xf604dmzkdl3jv7ay2rkr6d"))))
+           (commit "b95ea0e295389473728b203dc83321b405bb9114")))
+     (sha256 (base32 "1r0h12m5vy8af1g9s7h3s4h1sm2r3bc5v5ljpaccqhrrsbdqlwci"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell emacs-acp emacs-consult))
    (home-page "https://github.com/Gleek/agent-shell-consult")
@@ -6752,14 +6752,14 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20260906.1921")
+   (version "20261113.957")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kristjoc/bible-gateway.git")
-           (commit "7e037c08d7051cce40d4877bf1a4239f775fee22")))
-     (sha256 (base32 "10x7a0gw0pi7kirmvbcn0kb1blskicxs63r7hkicni5vx37sfbxl"))))
+           (commit "a10f51d642b240ec4cf6baec468feb387d363f3a")))
+     (sha256 (base32 "0mgkw0lvffyy94688b7cxvj1y1f1wz50q5c6av30f8jilyl59k1w"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kristjoc/bible-gateway")
    (synopsis "A Simple BibleGateway Client")
@@ -43640,14 +43640,14 @@
 (define-public emacs-graphql-doc
   (package
    (name "emacs-graphql-doc")
-   (version "20240716.38")
+   (version "20261113.415")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/ifitzpatrick/graphql-doc.el.git")
-           (commit "17755a2466a1acef68eac664093fcd13cd51494a")))
-     (sha256 (base32 "075p04xd4pkzmhq982x1b2azy7qdazrsdbrniyyrp58xdr83y9kr"))))
+           (url "https://github.com/shivfitzpatrick/graphql-doc.el.git")
+           (commit "e680b911affe819857bbb88cd2e5ae2256296ac3")))
+     (sha256 (base32 "0miyrf08bbniv88jxsygp7918chx45d3z3s20bihvfrnzjkwk440"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request emacs-promise))
    (home-page "https://github.com/ifitzpatrick/graphql-doc.el")
@@ -44374,14 +44374,14 @@
 (define-public emacs-guix
   (package
    (name "emacs-guix")
-   (version "20261018.2049")
+   (version "20261113.1209")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/guix/emacs-guix.git")
-           (commit "97b370d70e5e74dc0bb26f1c57a4f1c89ce956f1")))
-     (sha256 (base32 "17dflsbf85pbnbkfi6s5yr5nxvg3a23jx6cpinzjnc4rpb29dcpp"))))
+           (commit "df1f6268c51027eb2cd5ec2e0efa77d55389775a")))
+     (sha256 (base32 "1mhzb0h420pc3lhfr1300fq808nr788xs2lwxf7qrwalp0bsipl7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash
@@ -61999,14 +61999,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261110.2126")
+   (version "20261113.1017")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "da92cab409326115b7ee64cc611c99fd29b00963")))
-     (sha256 (base32 "0nh400fs3xj0lf81hn8slfzxyigrzxkyrmnqfgix7w04x4vmdpg8"))))
+           (commit "4402e972bb2b6df2dad25118d8a638fa5a9b3e5b")))
+     (sha256 (base32 "19vb5qlhgmhak4nr370zfyz6f54wr941qgixhqb9hsvrl48398cm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -62712,14 +62712,14 @@
 (define-public emacs-magnus
   (package
    (name "emacs-magnus")
-   (version "20261111.1400")
+   (version "20261112.937")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hrishikeshs/magnus.git")
-           (commit "be31e14ba0421cdcfb558ed43982a1d4c1be571b")))
-     (sha256 (base32 "0fk6q30w35ld8qxkns1krgljf35kav75fa1zscr3pa988pilvz3q"))))
+           (commit "38c70884b9a4ff6e5ab45f2dfd84335508e077ff")))
+     (sha256 (base32 "1nq8dhy3yk7jwi3srximhm5hp5b8i8hkarn6sq7lwklqbgg24x50"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vterm emacs-magit-section))
    (home-page "https://github.com/hrishikeshs/magnus")
@@ -67740,14 +67740,14 @@
 (define-public emacs-mw-thesaurus
   (package
    (name "emacs-mw-thesaurus")
-   (version "20261108.2103")
+   (version "20261113.510")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/mw-thesaurus.el.git")
-           (commit "e500a35ab9d09bca28bbd2805163ae78bcbcaba7")))
-     (sha256 (base32 "0w9qcfvs8qb69yxdxng03f7jrnxpaw4gdlylkxp3231qcj3vscys"))))
+           (commit "870dad42f4022d6e854e7b48e21b7cb458bc0d4f")))
+     (sha256 (base32 "002s85gmhmh9a5rjpyyagskksjyvh1s4d7wsfn80m68vsdsspx7s"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/agzam/mw-thesaurus.el")
    (synopsis "Merriam-Webster Thesaurus and Dictionary")
@@ -77220,14 +77220,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261111.245")
+   (version "20261113.924")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "c7160b93d82960cb854659c2b42234c9becf7957")))
-     (sha256 (base32 "149n9gqs5g1409x7yzf2qisdwwv8jnrl5syyj3glkya68p0ss1xc"))))
+           (commit "8af7dd849a01176f6fa4da5ad6d31fe42b59393b")))
+     (sha256 (base32 "07vg3h478xrx63f5kjps6sw2xyj75v9442585m1fzcqbcvhdw8jr"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -86621,14 +86621,14 @@
 (define-public emacs-pyim
   (package
    (name "emacs-pyim")
-   (version "20261029.35")
+   (version "20261113.537")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tumashu/pyim.git")
-           (commit "551517408f2803ecd096180e399c4f06f33ca156")))
-     (sha256 (base32 "150vlvg52wcrxwq07dfm9has8ibb2icpkf9c7w0162ycwzfdn7dg"))))
+           (commit "c680aa65dc2104aa15fe9a8f7e9ff97fe682b2f1")))
+     (sha256 (base32 "1fl4i7k7hrw69h0fwbjiv3f2yvia5ry6an5fv2gd43nhm050wa2x"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async emacs-xr))
    (home-page "https://github.com/tumashu/pyim")
@@ -94611,14 +94611,14 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20261026.2216")
+   (version "20261113.915")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "f413c8ea511add76cca298e39eb20fb492504485")))
-     (sha256 (base32 "0g88p39nsvfh4kql6n1flrfk2x9i2i68dla2skqsbwxkfjz1cp0v"))))
+           (commit "2777955684eb8724757014de03e7834640d37423")))
+     (sha256 (base32 "063gy2wb2x1qv07srm5j0zfxq88ggaxpgfhmcczzmms9z27asd12"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
@@ -103591,14 +103591,14 @@
 (define-public emacs-transient
   (package
    (name "emacs-transient")
-   (version "20261112.1113")
+   (version "20261113.1325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/transient.git")
-           (commit "d424c0d980a37413e193b8e615d1af624ef96b17")))
-     (sha256 (base32 "14p25g2s62vp820xygffry7dmipsfqqprfl92giv9ma4c9djqrg3"))))
+           (commit "93423bb0c97aea87d49c50676ee63d1e5817c787")))
+     (sha256 (base32 "196v8p3czvvs6j2v63ls5p8zbm6ssqcvq0s34qavzmd9w1mqa0ag"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-cond-let emacs-llama))
    (home-page "https://github.com/magit/transient")
