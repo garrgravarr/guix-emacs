@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261112.1206")
+   (version "20261112.1459")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "4280a745d9671e5f7e80690aff49eb66cb208f8c")))
-     (sha256 (base32 "0qwbfwmadv7j3zdlibl5iym2n4pdwjaxwd5hzfyy2jssrdyq2pck"))))
+           (commit "14d807eabfe3ba6f23856a50f1e9a90a2c9abeb4")))
+     (sha256 (base32 "1jrph1k964idjhk9jj4snbzybf5df3bwmm7x8i0g3vc1gsgk8lpz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1696,14 +1696,14 @@
 (define-public emacs-agent-shell-attention
   (package
    (name "emacs-agent-shell-attention")
-   (version "20261102.639")
+   (version "20261112.1650")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ultronozm/agent-shell-attention.el.git")
-           (commit "8d5116f174fc35177aedc0f967a8fa3d6784aa1b")))
-     (sha256 (base32 "123j9yapfmxbwpkmvyiv2qbhjn34sp3rp5x692f8zj4ycj0hwg61"))))
+           (commit "cc099725c41f144975d37abf108a9c879c716171")))
+     (sha256 (base32 "0q927813sq00j890yimdvfaybcppkhwps31b3d041583p3fwfll0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-agent-shell))
    (home-page "https://github.com/ultronozm/agent-shell-attention.el")
@@ -7601,14 +7601,14 @@
 (define-public emacs-bluesky
   (package
    (name "emacs-bluesky")
-   (version "20261106.435")
+   (version "20261113.107")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ahyatt/emacs-bluesky.git")
-           (commit "455875a4dac957eb10b831f1d965ea63c19cafe1")))
-     (sha256 (base32 "1pnpv3g24w54c2za7h1pbv5mkv2s65n7g2qlhr66i1zbhkgf1l2d"))))
+           (commit "1bb81652217ec787d9078046e586269d37f61b13")))
+     (sha256 (base32 "14pcqp4ywrn36irfdjnkfh1vx16dx2nx2gmkw3ggxdz8p6x0xqfv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-futur emacs-vui))
    (home-page "https://github.com/ahyatt/emacs-bluesky")
@@ -10824,14 +10824,14 @@
 (define-public emacs-chezmoi
   (package
    (name "emacs-chezmoi")
-   (version "20261028.1809")
+   (version "20261112.1857")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
-           (url "https://github.com/tuh8888/chezmoi.el.git")
-           (commit "3ffac6f99f2c8aefbc8dcfc8ada608cc2eb73f50")))
-     (sha256 (base32 "1pa749a0wr3s59ra8gq2vjrahdqc1z87cwymdijyv59liwfp420x"))))
+           (url "https://github.com/harrison-p-l/chezmoi.el.git")
+           (commit "a7382020a929274e07b5318af9ba7dd8d64300b7")))
+     (sha256 (base32 "021h0aassfkiz8ixqwrkqggvcrhdixd8frlpaqpcidyj9fpsdhvg"))))
    (build-system melpa-build-system)
    (home-page "http://www.github.com/tuh8888/chezmoi.el")
    (synopsis "A package for interacting with chezmoi")
@@ -12145,14 +12145,14 @@
 (define-public emacs-clj-refactor
   (package
    (name "emacs-clj-refactor")
-   (version "20261112.952")
+   (version "20261112.2300")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/clojure-emacs/clj-refactor.el.git")
-           (commit "78e3c3d850057d3110d4565f0ba63b920232cae7")))
-     (sha256 (base32 "1i49y16qpf0gp2isf3x06m0jd2r5skdq6vwlpgm89y393gf2s8jp"))))
+           (commit "155cfe9d86bfcc26c7316e71cc39702951cf7074")))
+     (sha256 (base32 "1q898xnmdm25kr1s0xpdranw2r3zpi9visnwiwrq8x1d69jqkd3g"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-yasnippet
@@ -12636,14 +12636,14 @@
 (define-public emacs-cmake-mode
   (package
    (name "emacs-cmake-mode")
-   (version "20261027.1528")
+   (version "20261112.1622")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.kitware.com/cmake/cmake.git")
-           (commit "9c097d77b4c7163420924f392dfc8b4a89f2f140")))
-     (sha256 (base32 "1a3hwzqswfwirjsx7d3qmv7kh5lavl13g0ck1mp6vi10n14yjyb0"))))
+           (commit "98dacb781776eea7165ba735d9fb5d51bbf04075")))
+     (sha256 (base32 "007wzn4dbp6wbnlvfjl736jazln6dbvapwh1sl9z41vivj5wmhyb"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("Auxiliary/*.el")))
    (home-page "unspecified")
@@ -17941,14 +17941,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261109.1307")
+   (version "20261112.2345")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "f3fd12df6bf5211087aa57d698be235e7b95ef08")))
-     (sha256 (base32 "0p5fm45dl91hwmvz917fmnl44iml7w1n4nvn6217nfgs52yn6jlv"))))
+           (commit "23caf0f9014aedfb4f714d96445e3a2d2f72a704")))
+     (sha256 (base32 "0lzy3g3crsr5pqbz0861c1y7dl984ry1b6rpm72rn72s2dh0jyrm"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -24267,14 +24267,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20261109.1249")
+   (version "20261113.253")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "907654083a773f141355cd2cdfe0daa3144ee150")))
-     (sha256 (base32 "1p1d3w03ifhn2609ppnrvmqa0b5qmbwk20m4dlg5lgsqdkgb8pvg"))))
+           (commit "ceaf42ac893664f2a7cd10f5d4f4d7dabf4d8bfd")))
+     (sha256 (base32 "0rq7k1a20rq3hhrpvdm4fmrqsgywxg92pdi3lh0g5kl83pyv2ncm"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -32717,14 +32717,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20261110.2139")
+   (version "20261112.2140")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "98ebade748afef396f585accbb7049f07c451ab6")))
-     (sha256 (base32 "06lypbcyvdqzdyphascvq3b4wdw68gg5q2s439w1j3r7wbf94c6r"))))
+           (commit "beba209c32411983390c486760613e261b87aaee")))
+     (sha256 (base32 "0qp7zzd3jpfbf8ygqf3w2d0ppazlnylbc72w0jw0dx513snj54vn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -33843,14 +33843,14 @@
 (define-public emacs-firstly-search
   (package
    (name "emacs-firstly-search")
-   (version "20261112.725")
+   (version "20261113.210")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/firstly-search.git")
-           (commit "6140c5b23e39891311304e70d0f933e9dcd0cc50")))
-     (sha256 (base32 "0m2lfsjp8hrpkjn8brq5cb7dz3hwa3yv0dc6xvngd14gn497gakm"))))
+           (commit "d5360f78fb050a9475c221bd593ca6b6df034d09")))
+     (sha256 (base32 "1261j5p3a3ppf220hgc7wvbhhx0yb9hic9fy068wjcqa31pabjlx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://codeberg.org/Anoncheg/firstly-search")
@@ -38368,14 +38368,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20261111.2233")
+   (version "20261112.1921")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "c87b66d1dd623893c517baf5c6cc37959beebdc5")))
-     (sha256 (base32 "1xra68xi0f8f82x8mrnk6mbqspw4vlk4p6h3axc98mvp0wczdc58"))))
+           (commit "1bf06b686ca23f0bd6575ebd3dbf405ef912628a")))
+     (sha256 (base32 "0ncky38i5vlrrfnbpx65rd297ri40wm1lih2bmxpz1ficidmjs29"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -40348,14 +40348,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261111.2050")
+   (version "20261112.1735")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "c6f24788b5e114ad6569b3943702bd1609617a5e")))
-     (sha256 (base32 "0y8zpcpbxp2wa5aravm6b7qvkvg50cgj0p1pslplwny91k5b0bn4"))))
+           (commit "022dec8c2688bbefa8c61f1cca55ccb8d2f33e13")))
+     (sha256 (base32 "0926lp0aq9232kmzkll3y6krbf77ch3far4fr02gn2h5r2xymd6m"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -40393,14 +40393,14 @@
 (define-public emacs-ghub
   (package
    (name "emacs-ghub")
-   (version "20261101.1118")
+   (version "20261110.1618")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/ghub.git")
-           (commit "0ce466e35af5c1a6d743a6481a9d4e33cd7a40c3")))
-     (sha256 (base32 "0zgqp2awg5647d8fv5d0qgr9i1kcfh28m7kkb2j52b9nn0h638c9"))))
+           (commit "24f3a08022edae0132fc21f279794d7ede48b612")))
+     (sha256 (base32 "1nwba9i03rd0541p6jfqjhnf4l63ba2qv50wpp60rdwxi3ljdlyc"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-cond-let emacs-llama emacs-treepy))
@@ -82368,14 +82368,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261108.355")
+   (version "20261112.2300")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "ad21650836c68700091975d752bc174d3ad122d0")))
-     (sha256 (base32 "1aalrxzcbm0njb8m9aq0ajyr9wwv7xc2jzhh266a63z0jizhd99i"))))
+           (commit "0edf6d28cd9b89ed52a4c1cfb14eb81dcd736b47")))
+     (sha256 (base32 "0v0lhv5f1q70i0icj56fdm2lwzvgvcsrr4pws1wjc0hg83xl9a1k"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -87531,14 +87531,14 @@
 (define-public emacs-quick-sdcv
   (package
    (name "emacs-quick-sdcv")
-   (version "20261110.1512")
+   (version "20261112.1817")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/quick-sdcv.el.git")
-           (commit "c689c93fad9be15dca8f8d45ae19a8ca78d65563")))
-     (sha256 (base32 "16a5l2l65gqramd9hikynfybj9g17j96jd2smficzcqb9vpvaxsw"))))
+           (commit "a774ac4cba86c93300b14bb7bc4fcb8ca5b817c6")))
+     (sha256 (base32 "1qavhyqh5w4layhqdszpqzam2y83wzwdypzm76hg1rj0l93gfsvi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/quick-sdcv.el")
    (synopsis "Offline dictionary using 'sdcv' (StartDict cli dictionary)")
@@ -95142,14 +95142,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20261104.1642")
+   (version "20261112.2237")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "dca1131a476b104d3386551ec0241d0610a25368")))
-     (sha256 (base32 "05d2xa8d9mxnxz46krhbqssasyh3qz69dr75dbwxdszjlmrsqx90"))))
+           (commit "0a08658e61168c24974fd013b9679ba3299d4a6e")))
+     (sha256 (base32 "0w69mkv09f13y8jlk4dywg945wk40x09vqb8h6175p654jsry9v0"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -98544,14 +98544,14 @@
 (define-public emacs-sticky-shell
   (package
    (name "emacs-sticky-shell")
-   (version "20240928.427")
+   (version "20261112.2014")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/andrewdea/sticky-shell.git")
-           (commit "2aec19f60539faf21f567e89701a8e28492eccd1")))
-     (sha256 (base32 "0x3jzbnsc9dlkl2crp8fwnqwcihdrw7as5vb26v44g8wqj96z8w4"))))
+           (commit "f29d82b03403daa1e44f6b8440f4f2c8f7a6beef")))
+     (sha256 (base32 "1w5abkcn66lrdn7y6iz273249xnjq2casmbyvw68izfbrwvg49kp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/andyjda/sticky-shell")
    (synopsis "Minor mode to keep track of previous prompt in your shell")
