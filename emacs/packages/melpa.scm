@@ -1893,14 +1893,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261113.1642")
+   (version "20261113.2300")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "0c8d3a39376a03b2361805f8328fb2764d4f5faa")))
-     (sha256 (base32 "177n0zxgq8v13mxjipmqnilpzsp1f3nlcpbr5zaidinc45v29m04"))))
+           (commit "b5ed11a19ff6df6b3d70abcd3814d3a26daf2c8e")))
+     (sha256 (base32 "1iyidcwic4xrs8bymfaah3rvzs71dbpxdd0z3vg495z4h51pbamx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -59211,14 +59211,14 @@
 (define-public emacs-lichess
   (package
    (name "emacs-lichess")
-   (version "20260710.914")
+   (version "20261113.2236")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tmythicator/lichess.el.git")
-           (commit "572a6a353e2113c8a95564b9bea1f2896e6d3dab")))
-     (sha256 (base32 "1d87qjmdpizggkrzq39i9vqgvbpjf5mv97vm7zy28ksbqxmfasqa"))))
+           (commit "98aadeaf2ec78345279e2292075deef9b47fbfb3")))
+     (sha256 (base32 "1qmpw3gijsqk5zh8paa7jx1yj74fm8ps4yypqzsblpkynljfjaki"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "assets" (:exclude "lichess-debug.el"))))
    (home-page "https://github.com/tmythicator/Lichess.el")
@@ -89401,14 +89401,14 @@
 (define-public emacs-remoto
   (package
    (name "emacs-remoto")
-   (version "20261110.2020")
+   (version "20261114.27")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/remoto.el.git")
-           (commit "509986753422b6f84731137df3b3bce44624e0f9")))
-     (sha256 (base32 "07wfhifzf2gqhv56m83d2qgm1cmc8zlg33l6zc8xmkkak4p4dpp7"))))
+           (commit "30bf1cdb8a9796c253e6d22b483b4602a0aa569d")))
+     (sha256 (base32 "0zhq8incnmz3d7inyd2627azpap4arv77ikvgb51n6qqf3jd7g19"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ghub))
    (home-page "https://github.com/agzam/remoto.el")
