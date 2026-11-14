@@ -1893,7 +1893,7 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261113.2300")
+   (version "20261114.506")
    (source
     (origin
      (method git-fetch)
@@ -9705,14 +9705,14 @@
 (define-public emacs-card-games
   (package
    (name "emacs-card-games")
-   (version "20261006.45")
+   (version "20261114.457")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://code.bru.st/corwin/card-game.el.git")
-           (commit "ee02437e3dfef0adda19430a2890398acddebcce")))
-     (sha256 (base32 "02rpzpq6vzaq592afg5sia1y0aymngd7g0kbprb2lv42rmirj5in"))))
+           (commit "fa95fc99f23149e1f99b8273fb5b95180ef490c6")))
+     (sha256 (base32 "0ghlr6ijr1bmfvdd65d3qb1hs7w7hp5081wpv889wkd4a6s7qwib"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults (:exclude "build.el" "card-games-pkg.el"))))
    (home-page "https://code.bru.st/corwin/card-game.el")
@@ -15041,14 +15041,14 @@
 (define-public emacs-compiler-explorer
   (package
    (name "emacs-compiler-explorer")
-   (version "20261019.2114")
+   (version "20261114.1054")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mkcms/compiler-explorer.el.git")
-           (commit "5455b3757a837a3c87c20001c580e0187dbfffbd")))
-     (sha256 (base32 "0bvm6qqfpd46y4k225c9lg42vz74vzqgw3b5smrqwhjhzggrc681"))))
+           (commit "b35a250f12e74cc75364b9ecbfe01670997213d2")))
+     (sha256 (base32 "07vj9z4b433djdk3va8nxijaq5p6pay4xq3zhcvbcyz2zzvwh9i4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz))
    (home-page "https://github.com/mkcms/compiler-explorer.el")
@@ -15640,14 +15640,14 @@
 (define-public emacs-consult-ghostel
   (package
    (name "emacs-consult-ghostel")
-   (version "20261111.2050")
+   (version "20261114.1314")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "c6f24788b5e114ad6569b3943702bd1609617a5e")))
-     (sha256 (base32 "0y8zpcpbxp2wa5aravm6b7qvkvg50cgj0p1pslplwny91k5b0bn4"))))
+           (commit "0169dad4bb15a9a8208ff4850d8675356e8c4c61")))
+     (sha256 (base32 "05il0jg5p0j29dld22wi341qayg8aaa3djhail8v38067729ac4z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult emacs-ghostel))
    (arguments '(#:files ("extensions/consult-ghostel/consult-ghostel.el")))
@@ -30787,14 +30787,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20261111.2050")
+   (version "20261114.1314")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "c6f24788b5e114ad6569b3943702bd1609617a5e")))
-     (sha256 (base32 "0y8zpcpbxp2wa5aravm6b7qvkvg50cgj0p1pslplwny91k5b0bn4"))))
+           (commit "0169dad4bb15a9a8208ff4850d8675356e8c4c61")))
+     (sha256 (base32 "05il0jg5p0j29dld22wi341qayg8aaa3djhail8v38067729ac4z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -38262,14 +38262,14 @@
 (define-public emacs-fontsloth
   (package
    (name "emacs-fontsloth")
-   (version "20261110.1016")
+   (version "20261114.1352")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jollm/fontsloth.git")
-           (commit "875c2d13f62d9c81c1c61e9690e69052437811fe")))
-     (sha256 (base32 "1s7iipwwxhnvda7aqvj4ih4hdm4w8dxjfpbjkbhzvkvlr8ip4zw1"))))
+           (commit "3f04b58f1696df5472b4d036b4dd1c4a52bb119f")))
+     (sha256 (base32 "114z6xnpbry9qs8l6kf91zy5v1cz9mmzpd9ncf38hgbmhglgrnxn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-async emacs-f emacs-logito emacs-pcache))
    (home-page "https://github.com/jollm/fontsloth")
@@ -38368,14 +38368,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20261112.1921")
+   (version "20261114.1200")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "1bf06b686ca23f0bd6575ebd3dbf405ef912628a")))
-     (sha256 (base32 "0ncky38i5vlrrfnbpx65rd297ri40wm1lih2bmxpz1ficidmjs29"))))
+           (commit "3d39bc7d6759cc4769df53889bce121283b0bfcd")))
+     (sha256 (base32 "0vby2wfa81wiszvl72c2ba3nps7j7jn6x7wqq21s0mnm3awa8hip"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -40348,14 +40348,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261113.1505")
+   (version "20261114.1356")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "338f17267bdc01f645521d47255c4beaa1a3abf0")))
-     (sha256 (base32 "0p6wpm2l4nvb7nmay2zfy2ada33fcmijnsdi0mvxwpj7gg6b21np"))))
+           (commit "0169dad4bb15a9a8208ff4850d8675356e8c4c61")))
+     (sha256 (base32 "05il0jg5p0j29dld22wi341qayg8aaa3djhail8v38067729ac4z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -65410,14 +65410,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20261007.1956")
+   (version "20261114.641")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "df21253d0f20b8be6da4a2494329998852fba369")))
-     (sha256 (base32 "1qlwzwypsx66fnc68nk25dfq04mqvvx218s76r46zax0ijg96p9c"))))
+           (commit "bd6b67b0c55a9a0652346b04e4ee1b295bcfe6e0")))
+     (sha256 (base32 "1mmfc1in5kh0dk1xq5pxa2g558jx7h468xg2xggawfnp6gqb35s0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -67214,14 +67214,14 @@
 (define-public emacs-mu4e-overview
   (package
    (name "emacs-mu4e-overview")
-   (version "20260515.1818")
+   (version "20261114.1025")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mkcms/mu4e-overview.git")
-           (commit "b6dfe3ecc569aa6313ef093c0c49df8a507f19c4")))
-     (sha256 (base32 "0xkaqnqxj2f1f9ssnrgv4aqdwb6aq148pnhzrl52z1lj3p8k7q31"))))
+           (commit "b9a8b8ebb611bde24d42b04459d73345d68d50bf")))
+     (sha256 (base32 "168zjqrhb6krvv2s723ycy7pk4yx0xdjjkcv29b2d8bavab13v13"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mkcms/mu4e-overview")
    (synopsis "Show overview of maildir")
@@ -77220,14 +77220,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261113.924")
+   (version "20261114.241")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "8af7dd849a01176f6fa4da5ad6d31fe42b59393b")))
-     (sha256 (base32 "07vg3h478xrx63f5kjps6sw2xyj75v9442585m1fzcqbcvhdw8jr"))))
+           (commit "4c8249516823c776f556745f91346949cc9593c7")))
+     (sha256 (base32 "0y7j2bhqg0vmdh2idw7d26pi27rkc7b3q03b0bd0xs72iq4h24ky"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -89401,14 +89401,14 @@
 (define-public emacs-remoto
   (package
    (name "emacs-remoto")
-   (version "20261114.27")
+   (version "20261114.659")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/remoto.el.git")
-           (commit "30bf1cdb8a9796c253e6d22b483b4602a0aa569d")))
-     (sha256 (base32 "0zhq8incnmz3d7inyd2627azpap4arv77ikvgb51n6qqf3jd7g19"))))
+           (commit "a76159d285967ed6c542b5b93b461933ff4fd202")))
+     (sha256 (base32 "1db78z29l9k4i0mkgip3wq7764fww5in1wclg27i19l8q07v95dc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ghub))
    (home-page "https://github.com/agzam/remoto.el")
@@ -95374,14 +95374,14 @@
 (define-public emacs-slothbar
   (package
    (name "emacs-slothbar")
-   (version "20261111.1226")
+   (version "20261112.836")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/agnes-li/slothbar.git")
-           (commit "e64575e6721bc5cb04b1c06354070f7d0bc07ba3")))
-     (sha256 (base32 "125vq9v6qbkzmaq4m01fi6ksryyb3p08lij7xjqmqbykzaddkq3g"))))
+           (commit "f93b44a93616394fd7806366452193e68a99850a")))
+     (sha256 (base32 "0nhgf48fzw69phly3dhc0zdc9k0254gic71h4hhvhfiahbqryb9l"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-all-the-icons
@@ -96762,14 +96762,14 @@
 (define-public emacs-solarized-theme
   (package
    (name "emacs-solarized-theme")
-   (version "20261108.1017")
+   (version "20261114.705")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/solarized-emacs.git")
-           (commit "c3efdaa7ff693a1b83ffa64e5631c9770e80c54d")))
-     (sha256 (base32 "1mpyglzl02crfz1nl5w53j18m8z8697gj0g4kygms4sldfqviqn9"))))
+           (commit "b33cce3ba8d5b316bfb83a9d508295cb22758676")))
+     (sha256 (base32 "0kzlsbhl1jf1ir0bs6z6bf9s3sbmlybjvbz0f58vqpzhzdq6qvxw"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/solarized-emacs")
    (synopsis "The Solarized color theme")
