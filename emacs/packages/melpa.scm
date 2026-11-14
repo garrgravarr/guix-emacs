@@ -14722,14 +14722,14 @@
 (define-public emacs-company-statistics
   (package
    (name "emacs-company-statistics")
-   (version "20261113.2041")
+   (version "20261114.1534")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-statistics.git")
-           (commit "b46d7df38b2f5cec63c29e4f71f40610db0ca93d")))
-     (sha256 (base32 "1k4gc5cynlj9bccmi3lvc7qmkm2yqkxyr1w2d8xm9rx8gv4139wd"))))
+           (commit "2ae5457dc5f4ab80c2ca8f1752e5e81ab6203815")))
+     (sha256 (base32 "15nswn9j5r37gdpzn5ynnydxa73ggx2mdzpizgfh5b38plxr691z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-company))
    (home-page "https://github.com/company-mode/company-statistics")
@@ -40348,14 +40348,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261114.1356")
+   (version "20261114.1542")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "0169dad4bb15a9a8208ff4850d8675356e8c4c61")))
-     (sha256 (base32 "05il0jg5p0j29dld22wi341qayg8aaa3djhail8v38067729ac4z"))))
+           (commit "98be9d95ecad8135a160696980338c9e2cc24fdb")))
+     (sha256 (base32 "0cwgyay3z02zz024vd7gddw2ic4db8fhr92idsmm8lik11zjpx84"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -43228,14 +43228,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20261104.2111")
+   (version "20261114.1826")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "e161ababf0cb19654ec9097f06c09c95d4561721")))
-     (sha256 (base32 "19pa2w9v9m87hxsfik7hi92hrxir3b6h6p20n7jij2rl0n0n62rr"))))
+           (commit "1ce9cd8aba6dd65b8f8b437523399a7a577d91d1")))
+     (sha256 (base32 "050g6y0c5cz9f6fdchnmihw68v18hyik2fzyzfycpn0s6ij9s3h7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -53986,14 +53986,14 @@
 (define-public emacs-jal
   (package
    (name "emacs-jal")
-   (version "20260810.1507")
+   (version "20261114.1616")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/saulotoledo/java-agent-loader.git")
-           (commit "00cb7be8facea246906f74d70e07f84e16222b08")))
-     (sha256 (base32 "1ixlxyhcxc1sl28d33qidqa6n4q4a0zs8vhm721k2d8b6fl6h619"))))
+           (commit "0b02842aa4013ff9ab0481781a94cc14d77247f8")))
+     (sha256 (base32 "15fa3yxixa6r5smslw0pdx72irhr23w1rjm8arkj0ipwm8bdg54h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/saulotoledo/java-agent-loader")
    (synopsis "Java Agent Loader (JAL) for JDTLS")
@@ -83195,14 +83195,14 @@
 (define-public emacs-po-mode
   (package
    (name "emacs-po-mode")
-   (version "20260217.956")
+   (version "20261114.1902")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/gettext/po-mode.git")
-           (commit "27538dd0938d5a941833d503afc9dba13dcf16fe")))
-     (sha256 (base32 "0963khl6vazhb1i760dg1h69n10xwsh9yn0bd6wx9w0zv8yb5lhc"))))
+           (commit "be0c57e778fe90e71abe6a7e68d8961fa1782a97")))
+     (sha256 (base32 "0y0wqkds0iyxlyl256znpcp2divd1y0pywxki7kdmg6yjwl5jzsy"))))
    (build-system melpa-build-system)
    (home-page "unspecified")
    (synopsis "Major mode for GNU gettext PO files")
@@ -95374,14 +95374,14 @@
 (define-public emacs-slothbar
   (package
    (name "emacs-slothbar")
-   (version "20261112.836")
+   (version "20261114.1036")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/agnes-li/slothbar.git")
-           (commit "f93b44a93616394fd7806366452193e68a99850a")))
-     (sha256 (base32 "0nhgf48fzw69phly3dhc0zdc9k0254gic71h4hhvhfiahbqryb9l"))))
+           (commit "53934eb6b38b1309d5e314b613e7bcf15ce7bcbe")))
+     (sha256 (base32 "1xps8l64s2hh79nc2bgnpviy7yp66k8xll6x2ydb6r7akvn27x8z"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-all-the-icons
@@ -107276,14 +107276,14 @@
 (define-public emacs-vhdl-ext
   (package
    (name "emacs-vhdl-ext")
-   (version "20261113.1537")
+   (version "20261114.1717")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/vhdl-ext.git")
-           (commit "e07c4945283f6fccc644f292f44cf9993d0fcb4c")))
-     (sha256 (base32 "1kh2qgw2r2f1g13kvk0w9lcwwsknr2j2r9b8840hq71hjj0miyv4"))))
+           (commit "99a0b5dbf6bbf07db6f729ba8a64e5cb930a579c")))
+     (sha256 (base32 "1910zadgxfh6388qkny1625y4c2aqawi08fjgqkih9k767skmbmg"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-vhdl-ts-mode
@@ -107301,14 +107301,14 @@
 (define-public emacs-vhdl-ts-mode
   (package
    (name "emacs-vhdl-ts-mode")
-   (version "20260716.1206")
+   (version "20261114.1648")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/vhdl-ts-mode.git")
-           (commit "f4841013065e7027f99d57f5d3c413ada0cb2133")))
-     (sha256 (base32 "1qwqb2w2bqf61zszrf72mfxn26yzjfhylsiiyscfcaijxjlhvqfa"))))
+           (commit "e4368a8815956c3bc4e6b332d018f81f301353b9")))
+     (sha256 (base32 "1yhcamcn6fw18lncb9rhi2rm9an2c7lswjwz721jmjbmhkilzv7f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gmlarumbe/vhdl-ts-mode")
    (synopsis "VHDL Tree-sitter major mode")
