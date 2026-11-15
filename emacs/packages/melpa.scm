@@ -1893,14 +1893,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261114.506")
+   (version "20261115.142")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "b5ed11a19ff6df6b3d70abcd3814d3a26daf2c8e")))
-     (sha256 (base32 "1iyidcwic4xrs8bymfaah3rvzs71dbpxdd0z3vg495z4h51pbamx"))))
+           (commit "3aa85597af51db2b96e3cb70386bcd474ad2c7c2")))
+     (sha256 (base32 "0xbbk8m58ix18p44y6j099by0q1h1xfm726n5vla32ly8f33h59v"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -26125,14 +26125,14 @@
 (define-public emacs-elfeed
   (package
    (name "emacs-elfeed")
-   (version "20261010.1010")
+   (version "20261114.2045")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-elfeed/elfeed.git")
-           (commit "4c962a423c9f3eef9472555fccecf268f9d380fe")))
-     (sha256 (base32 "0m0725gnrbw333p3xzklm73h2x2f3n8xdjsk2jq20q884am9j4vq"))))
+           (commit "d76d43699a1348077bada2c4a313f256f8b377c3")))
+     (sha256 (base32 "1vgn0vb9vhc2dsa6v4vmfnvhlhqj34lcmpg2a6ibj9816nss2fas"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "README.md")))
@@ -76772,14 +76772,14 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261109.1937")
+   (version "20261115.319")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/org-special-block-extras.git")
-           (commit "6ff9297e65758681e03a51e8364d0b6a1ddf0d19")))
-     (sha256 (base32 "0s9219av74jbqv4ah410cgasybzppv0w1wxzf2i0yx5lyi54rvsz"))))
+           (commit "d546a164a1f43f16bba2281f6b4c11905818ab82")))
+     (sha256 (base32 "0ls5pmpmqy4gw466mby1dibnaac9qx92azb4l67azlpnrpy0ila0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-lf))
    (home-page "https://alhassy.com/org-special-block-extras")
@@ -77220,14 +77220,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261114.241")
+   (version "20261114.2055")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "4c8249516823c776f556745f91346949cc9593c7")))
-     (sha256 (base32 "0y7j2bhqg0vmdh2idw7d26pi27rkc7b3q03b0bd0xs72iq4h24ky"))))
+           (commit "730b6910ac5a394a08466c854f41ebfb89dc0327")))
+     (sha256 (base32 "0dsagnc3dzggmd52r82gmb3br696q1bhp4j0jbb6p8irlvcmmkl5"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -77805,14 +77805,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20261110.1338")
+   (version "20261115.246")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "44fce49f1a671ec355bb9535958f88b685b7a1ec")))
-     (sha256 (base32 "0gkpc1x0526r64zabf6ghxp95k4jhwdpmwafd4jx31hjrn3ypvdf"))))
+           (commit "8a322f7eac3c0aecf94ddb456b9e39210418a698")))
+     (sha256 (base32 "143mgv33kb10rnxs4knaaw3ycdykvaj06mvx17qpkghvqbjq1s1d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -82368,14 +82368,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261113.1459")
+   (version "20261115.346")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "5a83d26a44fc87cf54b52b2f9d80806964dd5634")))
-     (sha256 (base32 "1lmgnix6gmn3h65aqx3s650nvwlbhzdaq67ybfnmynrrpc1m4j3r"))))
+           (commit "16da4b4fb20c7027da383ac95cf666ec65ec85cc")))
+     (sha256 (base32 "1ji53675f18vifaj5pzwlzk0vzm7d1lp8xkskjyx7d0j0r6bclmz"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -95374,14 +95374,14 @@
 (define-public emacs-slothbar
   (package
    (name "emacs-slothbar")
-   (version "20261114.1036")
+   (version "20261114.2108")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/agnes-li/slothbar.git")
-           (commit "53934eb6b38b1309d5e314b613e7bcf15ce7bcbe")))
-     (sha256 (base32 "1xps8l64s2hh79nc2bgnpviy7yp66k8xll6x2ydb6r7akvn27x8z"))))
+           (commit "e4e2ce6ff7861c7394b3074cfe71cacd5fe4206c")))
+     (sha256 (base32 "1rh3ycm6bwbcgd38nl7aw4xah1jkx78d3gp3jrzd7bqjzv74yhqp"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-all-the-icons
@@ -96762,14 +96762,14 @@
 (define-public emacs-solarized-theme
   (package
    (name "emacs-solarized-theme")
-   (version "20261114.705")
+   (version "20261114.2009")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/solarized-emacs.git")
-           (commit "b33cce3ba8d5b316bfb83a9d508295cb22758676")))
-     (sha256 (base32 "0kzlsbhl1jf1ir0bs6z6bf9s3sbmlybjvbz0f58vqpzhzdq6qvxw"))))
+           (commit "0f2c881f1e1d3a66894a1cba73fbe79bd141787b")))
+     (sha256 (base32 "0j1zk6k1vnb0drfkhl8cx3pq0lq3arxz8zcr3vl5jyyqig3lh7d0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/solarized-emacs")
    (synopsis "The Solarized color theme")
