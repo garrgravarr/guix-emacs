@@ -1893,14 +1893,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261115.142")
+   (version "20261115.1747")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "3aa85597af51db2b96e3cb70386bcd474ad2c7c2")))
-     (sha256 (base32 "0xbbk8m58ix18p44y6j099by0q1h1xfm726n5vla32ly8f33h59v"))))
+           (commit "38d0381938aa8d9c7c666650ae6e31621ca62dea")))
+     (sha256 (base32 "04llhvmvrrpkpwg6jydv5bwxgm98b9yrc0vbi4cgpjg5jnfgs5pq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -21886,14 +21886,14 @@
 (define-public emacs-discover-my-major
   (package
    (name "emacs-discover-my-major")
-   (version "20180606.511")
+   (version "20261115.1951")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://framagit.org/steckerhalter/discover-my-major.git")
-           (commit "c592e5e67454f0d1b68669ac0c270073164b16b3")))
-     (sha256 (base32 "1lhjrknxw928vmw5h59q98sarh5pwjn0fpdyr38sql5zyv0ikc6w"))))
+           (commit "13557c305fe2cde5115b448f33c6950645eaf6e6")))
+     (sha256 (base32 "0h7glxsjinq0k97r7ip8kmgmyxm71gvf8kc32yy5vygkd3cxdm6h"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-makey))
    (home-page "https://framagit.org/steckerhalter/discover-my-major")
@@ -22663,14 +22663,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20261112.1344")
+   (version "20261115.1619")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "0ba6add16eb3c810e348b2c2187bf721a2fd7291")))
-     (sha256 (base32 "0vgs567za479jf1x7yj096wjxr2v98b77yv9bn14xy7aqgmdak2n"))))
+           (commit "0fd0e556731956fbaf95fbafe93a9088d77cd051")))
+     (sha256 (base32 "1nday4r8gap84pvy0jrxqpnmd25fv4j1mkmr9ihq9rxwrbpbf1v6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -30206,19 +30206,18 @@
 (define-public emacs-etherpad
   (package
    (name "emacs-etherpad")
-   (version "20230530.1248")
+   (version "20261115.1524")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zzkt/ethermacs.git")
-           (commit "29409bf9ff05b74d942c1cd7a421eeec2ef96e49")))
-     (sha256 (base32 "0gmyz3drs4w8g16xyypjawvrg2ckb9513p98hx9xmgyfyr5crbkk"))))
+           (commit "60c3aa4628a3558c64983174e6121c4a4484d12a")))
+     (sha256 (base32 "0sfn1g2nwrjvzg97vcndgna2g0gv2fihqgrfng1b7rgf1jqs8sjq"))))
    (build-system melpa-build-system)
-   (propagated-inputs
-    (list emacs-request emacs-websocket emacs-parsec emacs-0xc))
-   (home-page "https://github.com/zzkt/ethermacs")
-   (synopsis "Interface to the Etherpad API")
+   (propagated-inputs (list emacs-websocket))
+   (home-page "https://codeberg.org/zzkt/ethermacs")
+   (synopsis "Collaborative editing via Etherpad")
    (description "Documentation at https://melpa.org/#/etherpad")
    (license #f)))
 
@@ -38368,14 +38367,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20261114.1200")
+   (version "20261115.1157")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "3d39bc7d6759cc4769df53889bce121283b0bfcd")))
-     (sha256 (base32 "0vby2wfa81wiszvl72c2ba3nps7j7jn6x7wqq21s0mnm3awa8hip"))))
+           (commit "71ef77d71e441e0e335fb644f2c7a710b93c8fa1")))
+     (sha256 (base32 "1n2anzm7zp41wwyxgbd8bk58yakpv8pk5b3n675rnz14ah6dhmwp"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -43228,14 +43227,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20261114.1826")
+   (version "20261115.1957")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "1ce9cd8aba6dd65b8f8b437523399a7a577d91d1")))
-     (sha256 (base32 "050g6y0c5cz9f6fdchnmihw68v18hyik2fzyzfycpn0s6ij9s3h7"))))
+           (commit "169d1543c5e64d158bd89263a9d50caf91ab1249")))
+     (sha256 (base32 "13g6063b75nf2x1kzv8wpz8rmvxfa3jvlk0i5484fr418cdasz7w"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -59067,14 +59066,14 @@
 (define-public emacs-liberime
   (package
    (name "emacs-liberime")
-   (version "20260923.938")
+   (version "20261115.1633")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/liberime.git")
-           (commit "61997ed192afa3a107c4cfe70c28f145e7368388")))
-     (sha256 (base32 "034g5b7axz9qalkfdwa1gny2bk7125bchkgacxi3cm92scwf0vjv"))))
+           (commit "2a87beb5966c1af0c5ec77385b0e590639cef9b5")))
+     (sha256 (base32 "1cnn4c5fg9d49kshwhmb03jfk7fvxgh1pjcs4swj3ds9r02h03bl"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -76772,18 +76771,18 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261115.619")
+   (version "20261115.1654")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/org-special-block-extras.git")
-           (commit "b6da41e6c2cd3c8ab3148966112c2cbc5a201ec2")))
-     (sha256 (base32 "17vzfa9zyy5mp34ymwjj268996b0raf14c4y7f6v8h2lbyip2dfp"))))
+           (commit "b336ff605607a09593b274d6b5baffe2ae1923bc")))
+     (sha256 (base32 "1b3rn066wavnm2p5d05k4bygdh7xa2i063dax4wjdqigb7vw4ynn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-lf))
    (home-page "https://alhassy.com/org-special-block-extras")
-   (synopsis "46 new custom blocks & 56 link types for Org-mode")
+   (synopsis "Org's *bold*, [[links]], red:text work in details, graph, math")
    (description
     "Documentation at https://melpa.org/#/org-special-block-extras")
    (license #f)))
@@ -90364,14 +90363,14 @@
 (define-public emacs-rimel
   (package
    (name "emacs-rimel")
-   (version "20260914.618")
+   (version "20261115.1635")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-rime/rimel.git")
-           (commit "e05f4b0eb2d6d5f9212e91bab5e4b3314db8ff0e")))
-     (sha256 (base32 "1x09w77b0gbi9xswbk6kn8g4jdcichrd96hkc1cjdjlfvm7xy1q6"))))
+           (commit "9a6cbe8aa173ef4e41c6623c4e42924d2f4fcaf8")))
+     (sha256 (base32 "0fz3glgcmzzi0d84wdik986w9ai1khc45rffxgaagxm2aqbyn9qa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-liberime))
    (home-page "https://github.com/emacs-rime/rimel")
