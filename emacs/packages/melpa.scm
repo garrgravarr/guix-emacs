@@ -5980,14 +5980,14 @@
 (define-public emacs-base16-theme
   (package
    (name "emacs-base16-theme")
-   (version "20261108.434")
+   (version "20261115.454")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tinted-theming/base16-emacs.git")
-           (commit "8fd1ec271ba969e2141ddefe9c90022488dc9988")))
-     (sha256 (base32 "1jwqqf9333b837962x2sjmi8nb11cy9syjz2dvqadha4wprrlljh"))))
+           (commit "eb868a21b1e3fbcac965084c740d22cc22fc074c")))
+     (sha256 (base32 "1lki5gilrjccx3l8aw2yr4wm56a0dr2rdc84h9f8ah0wayga8vik"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "build/*.el")))
    (home-page "https://github.com/tinted-theming/base16-emacs")
@@ -10404,14 +10404,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20261108.906")
+   (version "20261115.906")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "7d9e2c34ccfb4495d6b3a36138d02031529a5823")))
-     (sha256 (base32 "12hgr5f9j9rr2x6zs2yj78p14291wjlv7q7ip4zkmq7rygr4skm4"))))
+           (commit "788d22a8a492a22661981cf6bf1bf8ba8774b254")))
+     (sha256 (base32 "0hkzwprbjww28dzh8jycidjpvz2gdzky9i9xzk36ahh5vppla5cx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -43394,14 +43394,14 @@
 (define-public emacs-gptel-inline
   (package
    (name "emacs-gptel-inline")
-   (version "20260831.625")
+   (version "20261115.648")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-inline.git")
-           (commit "7a74fda2ed420c5967437f80c4eeb5a7d52a6314")))
-     (sha256 (base32 "14mzkvzr4d96pmz2iia48l00lmfqh2325slmxk82dngvnsml9bmr"))))
+           (commit "0dfebee2708c5ab05da514904beaf6687679bf89")))
+     (sha256 (base32 "0c09kcb8jcv3z2rmxcy1m0az3iy4dfa08iwn41j699yqp37dlai8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-gptel))
    (home-page "https://github.com/karthink/gptel-inline")
@@ -53986,14 +53986,14 @@
 (define-public emacs-jal
   (package
    (name "emacs-jal")
-   (version "20261114.1616")
+   (version "20261115.928")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/saulotoledo/java-agent-loader.git")
-           (commit "0b02842aa4013ff9ab0481781a94cc14d77247f8")))
-     (sha256 (base32 "15fa3yxixa6r5smslw0pdx72irhr23w1rjm8arkj0ipwm8bdg54h"))))
+           (commit "f90e7c09e554c4609f8714021c45966bbe6b2743")))
+     (sha256 (base32 "098f6dfi6czxp6v2g4j107rsz0wq9g87qc9qspc7yx3frldx2gw3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/saulotoledo/java-agent-loader")
    (synopsis "Java Agent Loader (JAL) for JDTLS")
@@ -76772,14 +76772,14 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261115.319")
+   (version "20261115.619")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/org-special-block-extras.git")
-           (commit "d546a164a1f43f16bba2281f6b4c11905818ab82")))
-     (sha256 (base32 "0ls5pmpmqy4gw466mby1dibnaac9qx92azb4l67azlpnrpy0ila0"))))
+           (commit "b6da41e6c2cd3c8ab3148966112c2cbc5a201ec2")))
+     (sha256 (base32 "17vzfa9zyy5mp34ymwjj268996b0raf14c4y7f6v8h2lbyip2dfp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-lf))
    (home-page "https://alhassy.com/org-special-block-extras")
@@ -77220,14 +77220,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261114.2055")
+   (version "20261115.459")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "730b6910ac5a394a08466c854f41ebfb89dc0327")))
-     (sha256 (base32 "0dsagnc3dzggmd52r82gmb3br696q1bhp4j0jbb6p8irlvcmmkl5"))))
+           (commit "ed4477706d53801f1d21e6d9aa38242cff75c7ee")))
+     (sha256 (base32 "1vdpws0m48ahfm56i84hzakmj43j4b2sw1ws8169al1bl2z5486r"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -82368,7 +82368,7 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261115.346")
+   (version "20261115.520")
    (source
     (origin
      (method git-fetch)
@@ -84621,14 +84621,14 @@
 (define-public emacs-preview-tab
   (package
    (name "emacs-preview-tab")
-   (version "20261002.1829")
+   (version "20261115.935")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ismd/preview-tab.el.git")
-           (commit "4b10a95c2cae577ece000b0e777a95ba4887b747")))
-     (sha256 (base32 "0s9zrad9202k3qwyzkfap4p685qss9ncp7is2d4c6w3qwxf1iw3d"))))
+           (commit "ad2bb17cdf3bd4c60b6e627a6cc205255daefb8f")))
+     (sha256 (base32 "089pllxv9rqci31wgsl2r1922k8249s470x6cm88gj9c62x5ar2m"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/ismd/preview-tab.el")
    (synopsis "Temporary file buffers, like VS Code's preview tab")
@@ -87445,14 +87445,14 @@
 (define-public emacs-quelpa-use-package
   (package
    (name "emacs-quelpa-use-package")
-   (version "20201022.746")
+   (version "20261115.827")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/quelpa/quelpa-use-package.git")
-           (commit "d985c0326b66aa19581918deccdc5edcacccf953")))
-     (sha256 (base32 "0r9f8ary20rxs7rdl6lf6wl1gwa70c2c1zy93z3kcwjrlhbkp4rd"))))
+           (commit "df33711882457cb6b59f8a687f35d02f010ddb65")))
+     (sha256 (base32 "0w2vsx3k0vv7nkspfyp2kl0crg7d0pkdynlcdnlybd5wszmbqxhv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-quelpa))
    (home-page "https://github.com/quelpa/quelpa-use-package")
@@ -95374,14 +95374,14 @@
 (define-public emacs-slothbar
   (package
    (name "emacs-slothbar")
-   (version "20261114.2108")
+   (version "20261115.642")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/agnes-li/slothbar.git")
-           (commit "e4e2ce6ff7861c7394b3074cfe71cacd5fe4206c")))
-     (sha256 (base32 "1rh3ycm6bwbcgd38nl7aw4xah1jkx78d3gp3jrzd7bqjzv74yhqp"))))
+           (commit "8bca8d4842a8a37283f23b9903b3dbcad829bc14")))
+     (sha256 (base32 "1jc2rvwf3phzdxldrp4i7nm81p3sqgzj4yh1phmjlr239j4q6y13"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-all-the-icons
@@ -98068,14 +98068,14 @@
 (define-public emacs-srfi
   (package
    (name "emacs-srfi")
-   (version "20261101.2133")
+   (version "20261115.638")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/srfi-explorations/emacs-srfi.git")
-           (commit "6476ac9f9df06089d57422cba5cc7c828e934d92")))
-     (sha256 (base32 "0swzclpvl2sqfnkwx6lkwi4v9ml996kc99fwy88pkqfbc9awlpfq"))))
+           (commit "ddd5c4d6b493d9d2c13348517fa3345ff4daf9aa")))
+     (sha256 (base32 "128av36x1j62dhfa8k35qnvq8nv2pgcj1hyrnb55q3fljp3iwvv0"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/srfi-explorations/emacs-srfi")
    (synopsis "Scheme Requests for Implementation browser")
