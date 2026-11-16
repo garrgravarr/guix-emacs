@@ -1893,14 +1893,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261115.1747")
+   (version "20261116.238")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "38d0381938aa8d9c7c666650ae6e31621ca62dea")))
-     (sha256 (base32 "04llhvmvrrpkpwg6jydv5bwxgm98b9yrc0vbi4cgpjg5jnfgs5pq"))))
+           (commit "42eddf4215296abcad470a0cfa9dc459989b130d")))
+     (sha256 (base32 "1ms7mbclw6xfm7j0c1140chknxdk52123zzk2qiwjf0fah59hihh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -7863,6 +7863,23 @@
    (home-page "https://github.com/akirak/bookmark-frecency.el")
    (synopsis "Sort bookmarks by frecency")
    (description "Documentation at https://melpa.org/#/bookmark-frecency")
+   (license #f)))
+
+(define-public emacs-bookmark-gt
+  (package
+   (name "emacs-bookmark-gt")
+   (version "20261109.249")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/dmgerman/bookmark-gt.git")
+           (commit "8cd47d67b79cbbaae95ae4296e73c06e6fe35823")))
+     (sha256 (base32 "0daxbwsvaahr7gxrwmnn3c7i7d919in4ialj9gzyrpdmyaiixxi2"))))
+   (build-system melpa-build-system)
+   (home-page "https://github.com/dmgerman/bookmark-gt")
+   (synopsis "Records-only bookmark manager")
+   (description "Documentation at https://melpa.org/#/bookmark-gt")
    (license #f)))
 
 (define-public emacs-bookmark-in-project
@@ -23361,14 +23378,14 @@
 (define-public emacs-dumb-jump
   (package
    (name "emacs-dumb-jump")
-   (version "20260603.1700")
+   (version "20261116.58")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jacktasia/dumb-jump.git")
-           (commit "cf06b4ccdce6a39346c32f05139f9ee8b77ee229")))
-     (sha256 (base32 "1i3zykfg5dc562naqd9f7fybx9y624783av1w1ikw51p0f2wr139"))))
+           (commit "899181fedb73c08e88fc95aee8804265e714c756")))
+     (sha256 (base32 "08k7z281vwrc2w61if466wzw8jv7di555ap0q5jcirfkb54bc034"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jacktasia/dumb-jump")
    (synopsis "Jump to definition for 60+ languages without configuration")
@@ -25806,14 +25823,14 @@
 (define-public emacs-eldev
   (package
    (name "emacs-eldev")
-   (version "20261017.1721")
+   (version "20261115.2129")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-eldev/eldev.git")
-           (commit "5f739885621b4b9f5f58302e02bdff86123eefc5")))
-     (sha256 (base32 "1k2nxpjr9x0qbr3n0kk7cr37q2y0wsw636znkd7wdz7hy429293q"))))
+           (commit "3d9c795cf6b44319e3512912b0b324b37b110607")))
+     (sha256 (base32 "0mky9v2nsprz9905d01sxa5ajsn4f29dcgbxr1fva89g4f5fwf24"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files (:defaults ("bin" "bin/*") (:exclude "bin/*.in" "bin/*.part"))))
@@ -32340,6 +32357,24 @@
    (home-page "https://github.com/rolandwalker/express")
    (synopsis "Alternatives to `message'")
    (description "Documentation at https://melpa.org/#/express")
+   (license #f)))
+
+(define-public emacs-expui-icons
+  (package
+   (name "emacs-expui-icons")
+   (version "20261109.1450")
+   (source
+    (origin
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://github.com/wwulfric/expui-icons.git")
+           (commit "9625cc10d5c588b7429cae6fa52a17d093f4d6ce")))
+     (sha256 (base32 "1qgczmn992pm15yr9whm42giiq6ps99n6q1ywxp4az14lm01vhya"))))
+   (build-system melpa-build-system)
+   (arguments '(#:files (:defaults "icons.tar.gz")))
+   (home-page "https://github.com/wwulfric/expui-icons")
+   (synopsis "Icons from IntelliJ's New UI")
+   (description "Documentation at https://melpa.org/#/expui-icons")
    (license #f)))
 
 (define-public emacs-exsqlaim-mode
@@ -40347,14 +40382,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261114.1542")
+   (version "20261115.2155")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "98be9d95ecad8135a160696980338c9e2cc24fdb")))
-     (sha256 (base32 "0cwgyay3z02zz024vd7gddw2ic4db8fhr92idsmm8lik11zjpx84"))))
+           (commit "597ace5fc80341ab97f919da1e2c003a837388bc")))
+     (sha256 (base32 "157hm65ryz3ig9cckz128sppp8ywbkbcx4x06rv6imhlchngszqj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -51390,14 +51425,14 @@
 (define-public emacs-imake
   (package
    (name "emacs-imake")
-   (version "20261001.1551")
+   (version "20261115.2222")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/imake.git")
-           (commit "73285db3186295633583ca39c9ce66a5fa9cc659")))
-     (sha256 (base32 "10dqvixrb3371ng2961gxk5f7n193n6pv205s9ws03n3x89jhzqr"))))
+           (commit "39a4e89a8f29571e3d39410f3ecb729e6cc48c96")))
+     (sha256 (base32 "05ajq5m8xlqlvlbwvp6mpb3riwwlyw0dazzml7y830imnmpv7qp4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-marginalia))
    (home-page "https://github.com/tarsius/imake")
@@ -73752,14 +73787,14 @@
 (define-public emacs-org-caldav
   (package
    (name "emacs-org-caldav")
-   (version "20260914.307")
+   (version "20261115.1819")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dengste/org-caldav.git")
-           (commit "30906b8c6eb213c540ba2d014cefdb5451f2a1f3")))
-     (sha256 (base32 "10mnf06b0h024kmb83asnjingd2xr36iz9f07i60hrb1m4hvf4c8"))))
+           (commit "f62790c5eca66d1a5d5b8e468ab1c9a6f83fee9c")))
+     (sha256 (base32 "0x5s2fs7sfmfl06p506lk6yfwpkr0cxwp0xh4crnn791l0g4pdyy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dengste/org-caldav/")
    (synopsis "Sync org files with external calendar through CalDAV")
@@ -76771,14 +76806,14 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261115.1654")
+   (version "20261115.2253")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/org-special-block-extras.git")
-           (commit "b336ff605607a09593b274d6b5baffe2ae1923bc")))
-     (sha256 (base32 "1b3rn066wavnm2p5d05k4bygdh7xa2i063dax4wjdqigb7vw4ynn"))))
+           (commit "3aef1d5d6fa694de4d56ea11b86d220429b91f43")))
+     (sha256 (base32 "03hzavr7carcjfjsgb57j7blb8amm959nxafwiihqy254b65l0ym"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-lf))
    (home-page "https://alhassy.com/org-special-block-extras")
@@ -81996,14 +82031,14 @@
 (define-public emacs-phony
   (package
    (name "emacs-phony")
-   (version "20261021.1100")
+   (version "20261115.1808")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ErikPrantare/phony.el.git")
-           (commit "3a4625225fd710d31d9e90affcd77a7325864365")))
-     (sha256 (base32 "0ivydwyfv4izh3b2b02xh64j4wln6im659bjs1jfr99b8racw4r5"))))
+           (commit "b2308e779fb398ac93ba61c5898d00843f89dd85")))
+     (sha256 (base32 "1mhxx8ma9xpl1971wf41f12rp1jh6xaqnly58kcj6qqyjqmvhhxk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-simulacrum))
    (home-page "https://github.com/ErikPrantare/phony.el")
@@ -89400,14 +89435,14 @@
 (define-public emacs-remoto
   (package
    (name "emacs-remoto")
-   (version "20261114.659")
+   (version "20261115.2222")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/agzam/remoto.el.git")
-           (commit "a76159d285967ed6c542b5b93b461933ff4fd202")))
-     (sha256 (base32 "1db78z29l9k4i0mkgip3wq7764fww5in1wclg27i19l8q07v95dc"))))
+           (commit "3fccf0c0384f32108758323f1691f6dda3c164c9")))
+     (sha256 (base32 "1jjz7ppzc3xabx04rcnm1bdy6a73r5742fmhkimlcsipznr7g0z0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-ghub))
    (home-page "https://github.com/agzam/remoto.el")
@@ -95141,14 +95176,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20261112.2237")
+   (version "20261115.2357")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "0a08658e61168c24974fd013b9679ba3299d4a6e")))
-     (sha256 (base32 "0w69mkv09f13y8jlk4dywg945wk40x09vqb8h6175p654jsry9v0"))))
+           (commit "e1fe00246d8c8661622f27deafa60dbc04cdbe3d")))
+     (sha256 (base32 "13qw19vs1yza52g4v25sdpnywxjigg7mhdcc8js0a8qr2ll5nq1x"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
