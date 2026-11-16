@@ -6752,14 +6752,14 @@
 (define-public emacs-bible-gateway
   (package
    (name "emacs-bible-gateway")
-   (version "20261113.957")
+   (version "20261116.1212")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kristjoc/bible-gateway.git")
-           (commit "a10f51d642b240ec4cf6baec468feb387d363f3a")))
-     (sha256 (base32 "0mgkw0lvffyy94688b7cxvj1y1f1wz50q5c6av30f8jilyl59k1w"))))
+           (commit "1f7a97bc212fc10ef4fc2d8a0fe981d6bb7346c4")))
+     (sha256 (base32 "0xn3r6dydcvglncrkhy9w24xb2iy6z8mrh3s05wb36lpzfrbljki"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kristjoc/bible-gateway")
    (synopsis "A Simple BibleGateway Client")
@@ -13627,14 +13627,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20261112.442")
+   (version "20261116.354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "22cb3ff7b14821d98a5be6b324357a21bc46fef3")))
-     (sha256 (base32 "1l89mj57ba3c9705ayan2wzn1hkzb5w737mh0jmdwkrb2ypnwczg"))))
+           (commit "340855bfa7a42658535b3637fca96787372c5f2e")))
+     (sha256 (base32 "1wr2x0a91qayfk58y8zhpdhm9nhsqlwnsz513hp276lq2qkc9fby"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -23378,7 +23378,7 @@
 (define-public emacs-dumb-jump
   (package
    (name "emacs-dumb-jump")
-   (version "20261116.58")
+   (version "20261116.314")
    (source
     (origin
      (method git-fetch)
@@ -30417,14 +30417,14 @@
 (define-public emacs-evil
   (package
    (name "emacs-evil")
-   (version "20260728.1438")
+   (version "20261116.845")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-evil/evil.git")
-           (commit "6a3e1ddd04ac504a016590940d0af2a3361b9efd")))
-     (sha256 (base32 "00ygsks3apl4f5sd79cnk3lghmfr4x5n0cvpa3i60nz8akfisnvk"))))
+           (commit "76e094309f615594ced89afa7b32c2051715b402")))
+     (sha256 (base32 "1ljfi93np8rk1krrraryqpbrnrhpyfknawb3qkfc001d71ahz3cx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-goto-chg))
    (arguments
@@ -32362,14 +32362,14 @@
 (define-public emacs-expui-icons
   (package
    (name "emacs-expui-icons")
-   (version "20261109.1450")
+   (version "20261116.332")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/wwulfric/expui-icons.git")
-           (commit "9625cc10d5c588b7429cae6fa52a17d093f4d6ce")))
-     (sha256 (base32 "1qgczmn992pm15yr9whm42giiq6ps99n6q1ywxp4az14lm01vhya"))))
+           (commit "7f84ff6e5610dac385900bc0fb75d0c6f3613052")))
+     (sha256 (base32 "0zrz0g7dcxl4mwq404d70x49wp1ks91911cxhmbi6395b47n9qlp"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "icons.tar.gz")))
    (home-page "https://github.com/wwulfric/expui-icons")
@@ -45366,14 +45366,14 @@
 (define-public emacs-hel
   (package
    (name "emacs-hel")
-   (version "20261108.1235")
+   (version "20261116.626")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/helheim-emacs/hel.git")
-           (commit "21140350f834a5cce80401969eab75234244b166")))
-     (sha256 (base32 "16xihasf12d7x24dy5b3g85dvni74q65sxfms1qbrcmjnfnxigw2"))))
+           (commit "68941b02448175b8da832054f34a515edc563ba0")))
+     (sha256 (base32 "1dfiyrjlaa0p6q8j2ps7hjd5735vzvj33cn79z2k4cjx72g4l53v"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-avy emacs-pcre2el emacs-ultra-scroll))
@@ -50292,7 +50292,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20261108.1253")
+   (version "20261115.1936")
    (source
     (origin
      (method url-fetch)
@@ -50300,7 +50300,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "1g8k9fcwnmczax6qypq1wgvnb7lzr7d0i9kpvds2pjh4jzmfqzds"))))
+     (sha256 (base32 "0vlswfbpcq6apdsvlz66b3rx7v0xw4fp9px8978ibk9h6p9s0xnw"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -65444,14 +65444,14 @@
 (define-public emacs-minuet
   (package
    (name "emacs-minuet")
-   (version "20261114.641")
+   (version "20261116.352")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/milanglacier/minuet-ai.el.git")
-           (commit "bd6b67b0c55a9a0652346b04e4ee1b295bcfe6e0")))
-     (sha256 (base32 "1mmfc1in5kh0dk1xq5pxa2g558jx7h468xg2xggawfnp6gqb35s0"))))
+           (commit "7b9822d97972fd4a936a8ea3826ee8d2f215f5b2")))
+     (sha256 (base32 "06cgi6nrrbqaw0phlak3xadrskcvlxkx486xxa23i829b10g77xw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-plz emacs-dash))
    (home-page "https://github.com/milanglacier/minuet-ai.el")
@@ -75441,14 +75441,14 @@
 (define-public emacs-org-modern
   (package
    (name "emacs-org-modern")
-   (version "20260722.1411")
+   (version "20261116.739")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/org-modern.git")
-           (commit "d106d02cf045cc968c09989e9c48e0f2b44c574c")))
-     (sha256 (base32 "0ispwbrp3ir3bxa99856ci65wijxsqhawrbsailm4i0glxcmw242"))))
+           (commit "5cf5879b0c46218cacbfbd68ac78aa84d1a3abf2")))
+     (sha256 (base32 "07an0lfr5fjhcygm33mh1h2zby02wiiy5b6gdqvx2a17c6395gib"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/org-modern")
@@ -76806,14 +76806,14 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261115.2253")
+   (version "20261116.1436")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/org-special-block-extras.git")
-           (commit "3aef1d5d6fa694de4d56ea11b86d220429b91f43")))
-     (sha256 (base32 "03hzavr7carcjfjsgb57j7blb8amm959nxafwiihqy254b65l0ym"))))
+           (commit "d8d46192e4b4b01a6318021b056607d3776d5476")))
+     (sha256 (base32 "0lby3hax2nz4fm4pj83175b7rmkz71w9bgaan2ch15mv0x8154r2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-lf))
    (home-page "https://alhassy.com/org-special-block-extras")
@@ -77254,14 +77254,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261115.459")
+   (version "20261116.728")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "ed4477706d53801f1d21e6d9aa38242cff75c7ee")))
-     (sha256 (base32 "1vdpws0m48ahfm56i84hzakmj43j4b2sw1ws8169al1bl2z5486r"))))
+           (commit "d2e225d307b4c7d0c1a64e4ba8ef03e72f441ba2")))
+     (sha256 (base32 "0sp85r8rm0b8g0ywvm68wjma0bbq1a42jwzj82lhhs5fi2g6axzg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -77839,14 +77839,14 @@
 (define-public emacs-organic-green-theme
   (package
    (name "emacs-organic-green-theme")
-   (version "20261115.246")
+   (version "20261116.547")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/organic-green-theme.git")
-           (commit "8a322f7eac3c0aecf94ddb456b9e39210418a698")))
-     (sha256 (base32 "143mgv33kb10rnxs4knaaw3ycdykvaj06mvx17qpkghvqbjq1s1d"))))
+           (commit "9ea8ede374cbab3eb43ca9a3ceb8c94c70995d9e")))
+     (sha256 (base32 "1vsjwq41ccglm3ryqlaw54jx5a0cwdkakz3zzdkc6hvvjygy4d3p"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/kostafey/organic-green-theme")
    (synopsis "Light green color theme")
@@ -82402,14 +82402,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261115.520")
+   (version "20261116.445")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "16da4b4fb20c7027da383ac95cf666ec65ec85cc")))
-     (sha256 (base32 "1ji53675f18vifaj5pzwlzk0vzm7d1lp8xkskjyx7d0j0r6bclmz"))))
+           (commit "69179108707fd056885707314404efc6d0cf8d2e")))
+     (sha256 (base32 "1mg1j3a00yjyqqrmy3sgvnf78qda1q50g5mba0dfg0448kzdrnr7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -82440,14 +82440,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20261112.1401")
+   (version "20261116.228")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "dabef58467cb32685c8bf8f62d6c5f4357f41c0b")))
-     (sha256 (base32 "0bv5l2agmj4i6bkhvjdyvcjl589pg70pabgzhybnjx7zzbp456w2"))))
+           (commit "791559f7075b6f574e13c75643d511f72740567f")))
+     (sha256 (base32 "14i13z3sf21mb6am96kn3znps0dya1sb1w23n77cddawvyi6wsyj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -99485,17 +99485,17 @@
 (define-public emacs-swagg
   (package
    (name "emacs-swagg")
-   (version "20260419.1333")
+   (version "20261116.1407")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/isamert/swagg.el.git")
-           (commit "efc457f6ab95814d806b43f1b83edfa8273f7f0c")))
-     (sha256 (base32 "1786vnf6ifpnp3rbllbdzipqzv1gmj2r904kkkjkmwjkjjiz03x3"))))
+           (commit "10b4b5e0b7e84470be5f732651068741d9f3922b")))
+     (sha256 (base32 "11anbwgprky4l1yrj6zplwvxjx62zy9qwbkpn85f648wa8rqzbxi"))))
    (build-system melpa-build-system)
    (propagated-inputs
-    (list emacs-compat emacs-request emacs-dash emacs-yaml emacs-s))
+    (list emacs-compat emacs-request emacs-dash emacs-yml emacs-s))
    (home-page "https://github.com/isamert/swagg.el")
    (synopsis "Swagger UI")
    (description "Documentation at https://melpa.org/#/swagg")
@@ -108137,14 +108137,14 @@
 (define-public emacs-vui
   (package
    (name "emacs-vui")
-   (version "20261112.1549")
+   (version "20261116.1410")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vui.el.git")
-           (commit "ca897971b0f4501c6954942f9b0103ca36b6e9f4")))
-     (sha256 (base32 "1zskjazffzfs47m6qmja5bkdsbw2z71b64phvj85hl83swq6bchl"))))
+           (commit "004dd852746d8af838107dd7e3f44c5bbea04d79")))
+     (sha256 (base32 "0nqvdknmadzpgbcfg3rcgld4lmmn3aiyyrhlx0q5a0j7d514ljsl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/d12frosted/vui.el")
    (synopsis "Declarative, component-based UI library")
@@ -108173,14 +108173,14 @@
 (define-public emacs-vulpea
   (package
    (name "emacs-vulpea")
-   (version "20261110.839")
+   (version "20261116.1158")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea.git")
-           (commit "a54edc81207c4fc913d9684ac265e4b7619d5970")))
-     (sha256 (base32 "1089rj5qbxjcd8hqpnx0jx9h0yrpikm5h568pvqbgl87xkiql16p"))))
+           (commit "db6223bf99a48143105486e994434e4283cf110f")))
+     (sha256 (base32 "1s9b535w57602pbrwbiimw5l4pp3r2j8l1pzvhimic687q2xqskc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-emacsql emacs-s emacs-dash))
    (home-page "https://github.com/d12frosted/vulpea")
@@ -108209,14 +108209,14 @@
 (define-public emacs-vulpea-ui
   (package
    (name "emacs-vulpea-ui")
-   (version "20261101.1728")
+   (version "20261116.1251")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/d12frosted/vulpea-ui.git")
-           (commit "5b1736c9d3e02a880ec664814434bc9cdec43344")))
-     (sha256 (base32 "1kqs9dphya22avdn5svwb4v5ibgqan1jzm9lxdn6zynm8b4iwh49"))))
+           (commit "3d3465de12a2b22577fa25f95187b4a5d13e555a")))
+     (sha256 (base32 "1swkssm7gprblnkcyl3h6pwd6r01348bcv9z8fwy2ckjb0yvcrln"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-vulpea emacs-vui))
    (home-page "https://github.com/d12frosted/vulpea-ui")
