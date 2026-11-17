@@ -12583,14 +12583,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261111.709")
+   (version "20261117.1407")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "12ed43f170f6a0fae7d25e4fe4221617d3490f30")))
-     (sha256 (base32 "0r2cri3nqvwgwqgm99csmrrhgpb2qh46q3bkmn7kkbcbb1m25j5y"))))
+           (commit "d8b52162cb66faefd3fc500bcfb9590923949f02")))
+     (sha256 (base32 "1rg2kzjcw67x1g38q4a9gq5h91kfdk3hhalqlwxm0c2m7i366cdj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -20548,14 +20548,14 @@
 (define-public emacs-difftastic
   (package
    (name "emacs-difftastic")
-   (version "20261007.844")
+   (version "20261117.628")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/pkryger/difftastic.el.git")
-           (commit "2af7e5ee04a3da35ca77c53bc85859f61e8a282c")))
-     (sha256 (base32 "0dxidjwl3dw4bb4sgf23w61qi8cbwh6934f05651n9fxlbxw5x67"))))
+           (commit "6f504f1a2965690ef2f3a514679b8d92f33b07a9")))
+     (sha256 (base32 "1knj7lw4wia6aw13hfq3nwaikbpk19kf0nwr9z58nk3f2dlf6wc1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-magit))
    (home-page "https://github.com/pkryger/difftastic.el")
@@ -22680,14 +22680,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20261116.1722")
+   (version "20261117.1546")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "3186c42e2942814efce5354eb9190f5801167637")))
-     (sha256 (base32 "1h254yqc64rqc3hskjbv12mjynqj5wjippb0x0pxcasml2qbkrg7"))))
+           (commit "726e108f12a1f20d5fd076884192f0e5ea618f17")))
+     (sha256 (base32 "11314f4d0ml9qh3r94yryjk1749g29axarggrsh3rcn3fxwiajd2"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -30223,14 +30223,14 @@
 (define-public emacs-etherpad
   (package
    (name "emacs-etherpad")
-   (version "20261115.1524")
+   (version "20261117.1133")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zzkt/ethermacs.git")
-           (commit "60c3aa4628a3558c64983174e6121c4a4484d12a")))
-     (sha256 (base32 "0sfn1g2nwrjvzg97vcndgna2g0gv2fihqgrfng1b7rgf1jqs8sjq"))))
+           (commit "9cee52c17259fb78dc3d0cd03b3664267af4480e")))
+     (sha256 (base32 "1h60rym19hx3dib0hxasl9x3s33sqj3k20cfwynas3654bjy7llr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-websocket))
    (home-page "https://codeberg.org/zzkt/ethermacs")
@@ -43262,14 +43262,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20261115.1957")
+   (version "20261117.733")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "169d1543c5e64d158bd89263a9d50caf91ab1249")))
-     (sha256 (base32 "13g6063b75nf2x1kzv8wpz8rmvxfa3jvlk0i5484fr418cdasz7w"))))
+           (commit "0b0aad0b19f8f0bc86ea8cfb1dbe2f02b4ea43de")))
+     (sha256 (base32 "0akfbdd6hkk06ibbxrg2bx961nf2ivk6zim870g4hgrxqqns2zs0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -44336,14 +44336,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261112.1500")
+   (version "20261117.1700")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "6e660861ab8796be5d1ca5b0e60930b863ca2067")))
-     (sha256 (base32 "1digyrl005w9aiyxaa6hbv306x3jzm39w6h72jcsd64v88jamlwr"))))
+           (commit "5eb5a06aaf65132f6065b74d636060db73f0045e")))
+     (sha256 (base32 "0j5mgfacj1d0z2yhfiyrp54m5safkibzkjdc8iyxfykqnhljyzhm"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -44647,14 +44647,14 @@
 (define-public emacs-hackernews-modern
   (package
    (name "emacs-hackernews-modern")
-   (version "20260323.839")
+   (version "20261117.1156")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/andros/hackernews-modern-el")
-           (commit "a90b247e9ed007b1e9e0a5ef77c08670ba0a3953")))
-     (sha256 (base32 "0qcwnj6zmc4wwnij7pgvd74abxnhfms1cyv06gif3gsg8lxvsznr"))))
+           (commit "1662aabede5e8932b137ae610b2f5e815ab027cd")))
+     (sha256 (base32 "1l3c54n0lh0s9nwmrp2qwh264wf7ss0k1jksirfc72lk90x0qkb0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column emacs-async-http-queue))
    (home-page "https://git.andros.dev/andros/hackernews-modern-el")
@@ -50292,7 +50292,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20261115.1936")
+   (version "20261117.1035")
    (source
     (origin
      (method url-fetch)
@@ -50300,7 +50300,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "0vlswfbpcq6apdsvlz66b3rx7v0xw4fp9px8978ibk9h6p9s0xnw"))))
+     (sha256 (base32 "0hs684n6qqqg3lhdq0km76xizcxmzh07hdgr1m83x8i8b5yysbiq"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -58941,14 +58941,14 @@
 (define-public emacs-leuven-theme
   (package
    (name "emacs-leuven-theme")
-   (version "20261008.912")
+   (version "20261117.1608")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fniessen/emacs-leuven-theme.git")
-           (commit "5cedf3c02dd33386c74ef3de3fb37ac0ddee85be")))
-     (sha256 (base32 "1xqc6kwynaw0ndfvj32bxbgvxlll9z039gh6v0jmffr0abnnh0vd"))))
+           (commit "5e7bde282c9c7e1073463f9f76c94d185e24383a")))
+     (sha256 (base32 "048rkcyll1wc8hlk8q8d459i1qqy10rizg7my0g9bd42m3psvm8f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/fniessen/emacs-leuven-theme")
    (synopsis "Elegant Emacs color theme for a white background")
@@ -62033,14 +62033,14 @@
 (define-public emacs-magit
   (package
    (name "emacs-magit")
-   (version "20261113.1017")
+   (version "20261117.1103")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/magit.git")
-           (commit "4402e972bb2b6df2dad25118d8a638fa5a9b3e5b")))
-     (sha256 (base32 "19vb5qlhgmhak4nr370zfyz6f54wr941qgixhqb9hsvrl48398cm"))))
+           (commit "5e21bac5304c931cccbe16073758e2c464e40298")))
+     (sha256 (base32 "1naay1gfd8ccbvarhm517wnm7gza67m6xy15bc9hdza6vx6rj5bb"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -72583,14 +72583,14 @@
 (define-public emacs-ol-notmuch
   (package
    (name "emacs-ol-notmuch")
-   (version "20261001.1604")
+   (version "20261117.1121")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tarsius/ol-notmuch.git")
-           (commit "679e2672d920253f08ac1a7a27f812725b3dac22")))
-     (sha256 (base32 "1qlhzc76g767455x0npq70sbrd43c2kivarzk80n7f8n8xw1f6jw"))))
+           (commit "95b2900606ed7a93cff7ec1a91895ed0eabfbec9")))
+     (sha256 (base32 "1z5wyrfviaz1bvrsikw5739fw2kl9mrra97pd5g2gh3lbh3v7fb4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-notmuch))
    (home-page "https://github.com/tarsius/ol-notmuch")
@@ -77254,14 +77254,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261116.728")
+   (version "20261117.1215")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "d2e225d307b4c7d0c1a64e4ba8ef03e72f441ba2")))
-     (sha256 (base32 "0sp85r8rm0b8g0ywvm68wjma0bbq1a42jwzj82lhhs5fi2g6axzg"))))
+           (commit "ab1d536d576ed7d3838aeae19e5d455ed7e02ad2")))
+     (sha256 (base32 "06pkljiv8r8w7fzjjxrjv4jsmp8sp3zhsb8v1b1hccky8sf5gyas"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -79237,14 +79237,14 @@
 (define-public emacs-ox-pandoc
   (package
    (name "emacs-ox-pandoc")
-   (version "20260113.1929")
+   (version "20261117.1126")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacsorphanage/ox-pandoc.git")
-           (commit "1caeb56a4be26597319e7288edbc2cabada151b4")))
-     (sha256 (base32 "1wj9hmgi1xqyx3kc73rxj5w4a5lp861blkdvvg99b7abp2dp7xi1"))))
+           (commit "b917e864108cb47c5c0124803d316730a98f1128")))
+     (sha256 (base32 "0kmn2f146l6pf8klkvsxfqr2xd4sh7yn8wd3zgny0mca01blvzk3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-ht))
    (home-page "https://github.com/a-fent/ox-pandoc")
@@ -110676,14 +110676,14 @@
 (define-public emacs-x509-mode
   (package
    (name "emacs-x509-mode")
-   (version "20261112.729")
+   (version "20261117.1041")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jobbflykt/x509-mode.git")
-           (commit "22d01c15a4bebb1df8b41bd74b3d2566399aa5ae")))
-     (sha256 (base32 "1zkcfwj4ccgrkxaz7fz07kac1bq79drg3028kj4vxrchq0pbn001"))))
+           (commit "6627099028fdd8c1347670804f4465810ba786ef")))
+     (sha256 (base32 "106014y9figzlwg86ssgbmx32i0nf0npdxff4mlprzk8xq1f7hbh"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "*.txt")))
