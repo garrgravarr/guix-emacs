@@ -7868,14 +7868,14 @@
 (define-public emacs-bookmark-gt
   (package
    (name "emacs-bookmark-gt")
-   (version "20261109.249")
+   (version "20261117.46")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dmgerman/bookmark-gt.git")
-           (commit "8cd47d67b79cbbaae95ae4296e73c06e6fe35823")))
-     (sha256 (base32 "0daxbwsvaahr7gxrwmnn3c7i7d919in4ialj9gzyrpdmyaiixxi2"))))
+           (commit "7f4be1847aba8ef543393b085b0b8792d29bee99")))
+     (sha256 (base32 "1hkav2kk6f301db8lyyi82pqwc5r8vr6ich9idks3clyd0sly3j8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dmgerman/bookmark-gt")
    (synopsis "Records-only bookmark manager")
@@ -8095,14 +8095,14 @@
 (define-public emacs-bqn-mode
   (package
    (name "emacs-bqn-mode")
-   (version "20260208.1145")
+   (version "20261116.1753")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/museoa/bqn-mode.git")
-           (commit "7968023225c23ec63644a18ea613cb8cd2cd536e")))
-     (sha256 (base32 "1m9l4if3a9i6r76v370gh6azgj2lwqcnpavfv2bkvm9ad56f3pa8"))))
+           (commit "6d453c8b0c1e15f021b305fe88ae7f314a9155a3")))
+     (sha256 (base32 "1gxpwf21f6qv52i7gv23wwqfg7c1452difhd4ngn47r0dr8gn1sz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-eros))
    (home-page "https://github.com/museoa/bqn-mode")
@@ -11447,14 +11447,14 @@
 (define-public emacs-citar
   (package
    (name "emacs-citar")
-   (version "20261015.55")
+   (version "20261116.1729")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-citar/citar.git")
-           (commit "347469e036d3ec15fb7a5a21b0cff6bebf04b661")))
-     (sha256 (base32 "1icy4h2szwxpalrpa1ln7lbbgyy3lfrf900hwm787db1sp9clhl0"))))
+           (commit "a256578fdaa42892103172394d9dc86c2bf461ec")))
+     (sha256 (base32 "17dkc0p5lldvhkvv17ncp496azbdy39ysz6zlfw7llh8bvxfybi4"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-parsebib emacs-citeproc))
    (arguments '(#:files (:defaults (:exclude "citar-embark.el"))))
@@ -15657,14 +15657,14 @@
 (define-public emacs-consult-ghostel
   (package
    (name "emacs-consult-ghostel")
-   (version "20261114.1314")
+   (version "20261116.1821")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "0169dad4bb15a9a8208ff4850d8675356e8c4c61")))
-     (sha256 (base32 "05il0jg5p0j29dld22wi341qayg8aaa3djhail8v38067729ac4z"))))
+           (commit "bc0346ec249b61d0ff27905caf4400c399325c93")))
+     (sha256 (base32 "0wakf6cginnk2086x7jb670qal22rzfkw16l007ai3x2p8mirrnj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult emacs-ghostel))
    (arguments '(#:files ("extensions/consult-ghostel/consult-ghostel.el")))
@@ -15731,14 +15731,14 @@
 (define-public emacs-consult-hatena-bookmark
   (package
    (name "emacs-consult-hatena-bookmark")
-   (version "20250421.1501")
+   (version "20260223.336")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Nyoho/consult-hatena-bookmark.git")
-           (commit "8f2e48688455711df89533a7fe5af1d9cd02c137")))
-     (sha256 (base32 "1gyiaid4076ix9jkgl1k6495scgl3vp5474r7dm4gd80hr05hs5v"))))
+           (commit "82591ce9cfb793c29278eca9f2dec9fca203427e")))
+     (sha256 (base32 "141rks9m1nmbp99lg514i4708vj19wxdp5c2x3cxiqipazhcqs3y"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-consult))
    (home-page "https://github.com/Nyoho/consult-hatena-bookmark")
@@ -17676,14 +17676,14 @@
 (define-public emacs-ct
   (package
    (name "emacs-ct")
-   (version "20260916.1445")
+   (version "20261104.2016")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/neeasade/ct.el.git")
-           (commit "0183c1120a5b405c9886fa3ec3fabef4dc4f9ec6")))
-     (sha256 (base32 "0pv0icivadbq0wikvzdx77nwbb5k5v4b38w10dx20cmmms1k980k"))))
+           (commit "99c34adf2c2242444467f69ae2aee7dd7eaae594")))
+     (sha256 (base32 "0xaib4n9yqffdky6h5vqdc4fd2gjq90hy18spicjdx6gb3hmmrmn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-dash emacs-hsluv))
    (home-page "https://github.com/neeasade/ct.el")
@@ -22680,14 +22680,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20261115.1619")
+   (version "20261116.1722")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "0fd0e556731956fbaf95fbafe93a9088d77cd051")))
-     (sha256 (base32 "1nday4r8gap84pvy0jrxqpnmd25fv4j1mkmr9ihq9rxwrbpbf1v6"))))
+           (commit "3186c42e2942814efce5354eb9190f5801167637")))
+     (sha256 (base32 "1h254yqc64rqc3hskjbv12mjynqj5wjippb0x0pxcasml2qbkrg7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -30803,14 +30803,14 @@
 (define-public emacs-evil-ghostel
   (package
    (name "emacs-evil-ghostel")
-   (version "20261114.1314")
+   (version "20261116.1821")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "0169dad4bb15a9a8208ff4850d8675356e8c4c61")))
-     (sha256 (base32 "05il0jg5p0j29dld22wi341qayg8aaa3djhail8v38067729ac4z"))))
+           (commit "bc0346ec249b61d0ff27905caf4400c399325c93")))
+     (sha256 (base32 "0wakf6cginnk2086x7jb670qal22rzfkw16l007ai3x2p8mirrnj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-evil emacs-ghostel))
    (arguments '(#:files ("extensions/evil-ghostel/evil-ghostel.el")))
@@ -32362,7 +32362,7 @@
 (define-public emacs-expui-icons
   (package
    (name "emacs-expui-icons")
-   (version "20261116.332")
+   (version "20261116.1623")
    (source
     (origin
      (method git-fetch)
@@ -32751,14 +32751,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20261112.2140")
+   (version "20261116.1642")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "beba209c32411983390c486760613e261b87aaee")))
-     (sha256 (base32 "0qp7zzd3jpfbf8ygqf3w2d0ppazlnylbc72w0jw0dx513snj54vn"))))
+           (commit "2d44b41126c9ca8fb84ca197a85a66c67160ed2b")))
+     (sha256 (base32 "0slj5509m671z0jz6yynnzca2kza2cp1jd0lkmfqsynxfgnz5jhf"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -40382,14 +40382,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261115.2155")
+   (version "20261116.1821")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "597ace5fc80341ab97f919da1e2c003a837388bc")))
-     (sha256 (base32 "157hm65ryz3ig9cckz128sppp8ywbkbcx4x06rv6imhlchngszqj"))))
+           (commit "bc0346ec249b61d0ff27905caf4400c399325c93")))
+     (sha256 (base32 "0wakf6cginnk2086x7jb670qal22rzfkw16l007ai3x2p8mirrnj"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -43428,14 +43428,14 @@
 (define-public emacs-gptel-inline
   (package
    (name "emacs-gptel-inline")
-   (version "20261115.648")
+   (version "20261117.327")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel-inline.git")
-           (commit "0dfebee2708c5ab05da514904beaf6687679bf89")))
-     (sha256 (base32 "0c09kcb8jcv3z2rmxcy1m0az3iy4dfa08iwn41j699yqp37dlai8"))))
+           (commit "79ec260888e4d1c5280f9b9d26c1b6e372387cb7")))
+     (sha256 (base32 "1w6rv3x9ahrbi7krnhyqrp302f1wjrgwc782fx3zwcwz7k3mk0cz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-gptel))
    (home-page "https://github.com/karthink/gptel-inline")
@@ -64807,14 +64807,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20261106.155")
+   (version "20261117.14")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "1747315aba6615b251510fdd483f9233836a7fef")))
-     (sha256 (base32 "102ybyd50c0rzb6dn5jcjlmflg18phr5yr911jz81s5k7gz24cpc"))))
+           (commit "b9acbe48c553110e7d287d99871f14616ded7c71")))
+     (sha256 (base32 "1g9nfb5qgzhq4cnkbly3mgnck9phx8rbvavsrk1xfvx0x19m3gi5"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -76405,14 +76405,14 @@
 (define-public emacs-org-roam-gt
   (package
    (name "emacs-org-roam-gt")
-   (version "20260906.1838")
+   (version "20261117.112")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dmgerman/org-roam-gt.git")
-           (commit "7b06c24e10eb2faf3323142137c7393e0045bb1e")))
-     (sha256 (base32 "0r4inx6cabpyy4xp2p4pc1bfdpdbvz59d83fqbzvyznjm7z1kgi7"))))
+           (commit "f9dba85a6738db46613cb6e3f62332b0bebb8d7b")))
+     (sha256 (base32 "00z54gfm6q3mi8frjjd0bn5l70m3dagji9p0p6nwc9504s6h0m4s"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-org-roam))
    (home-page "https://github.com/dmgerman/org-roam-gt")
@@ -76806,7 +76806,7 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261116.1436")
+   (version "20261116.1727")
    (source
     (origin
      (method git-fetch)
@@ -95176,14 +95176,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20261115.2357")
+   (version "20261116.2203")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "e1fe00246d8c8661622f27deafa60dbc04cdbe3d")))
-     (sha256 (base32 "13qw19vs1yza52g4v25sdpnywxjigg7mhdcc8js0a8qr2ll5nq1x"))))
+           (commit "09a65de1392c64f646124486eaf617ea0baec82e")))
+     (sha256 (base32 "1yxjqxjz8dzrhic2f732z42rmn6dwp9qg3nq9csw26plxj3grinb"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -102107,14 +102107,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20261109.1528")
+   (version "20261114.2147")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "f253a8e68a96efdf70ca54cf2a97eec5324b39a2")))
-     (sha256 (base32 "0xf5vf7hcjq1v9x0wwkbqf5zqcc3ccyb1sv0j6kxb27aib2g9xfw"))))
+           (commit "b69d77ab54709d470276a0d17070b19ae4541463")))
+     (sha256 (base32 "0q21y50d9wiia5fixsd9cdn5kadgw5b5gylrwmbllpp2khhwqqz7"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
@@ -102486,14 +102486,14 @@
 (define-public emacs-timu-line
   (package
    (name "emacs-timu-line")
-   (version "20260904.1930")
+   (version "20261116.1735")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/aimebertrand/timu-line.git")
-           (commit "7fa9af7ae295446572019c403f89852c506624df")))
-     (sha256 (base32 "10qkib3k5yh61dx4ya80dfvc8ij0z4wkqyp35rn5bnvy95lf3pj0"))))
+           (commit "0252da34e5ae5706d315a7370b886c05bcc6c2a4")))
+     (sha256 (base32 "1kmclralhmkf8zvbjyfdkwg0801prp3zbbd3kpk8q81lv1d1bpyf"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/aimebertrand/timu-line")
    (synopsis "Custom and simple mode line")
@@ -107098,14 +107098,14 @@
 (define-public emacs-verilog-ext
   (package
    (name "emacs-verilog-ext")
-   (version "20261113.1605")
+   (version "20261116.2333")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/verilog-ext.git")
-           (commit "7e418af2d1d9838a211cfc763f50bc0d0a37946b")))
-     (sha256 (base32 "076xwimhxzgwfk06c2dsjx2ffi7rnfsp2xmnkb3hkn8yam1j7rfg"))))
+           (commit "aa2d91dec8260c417329e488fda4dc716506344b")))
+     (sha256 (base32 "1mqbjjf01z8j2dl9ikiw1hfd7yadl32vhlq30hdi9rgc8wqbzh2s"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-verilog-ts-mode
@@ -107125,14 +107125,14 @@
 (define-public emacs-verilog-ts-mode
   (package
    (name "emacs-verilog-ts-mode")
-   (version "20260716.1249")
+   (version "20261116.2329")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/gmlarumbe/verilog-ts-mode.git")
-           (commit "87505c5d4b3fa96fb879675e0cbdf4ac29935305")))
-     (sha256 (base32 "179bpbq51db9zgf3imiwd5z3572cchmfgh7pisi5aqf1rpx95npg"))))
+           (commit "d6c46e2cb75c470a28079a29d418a586971de832")))
+     (sha256 (base32 "0n7qw85y9lxm6psw582ssdqdf4q3v5m6mnx15li0512f3gqivaxg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/gmlarumbe/verilog-ts-mode")
    (synopsis "Verilog Tree-sitter major mode")
