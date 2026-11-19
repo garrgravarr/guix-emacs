@@ -3628,14 +3628,14 @@
 (define-public emacs-arduino-cli-mode
   (package
    (name "emacs-arduino-cli-mode")
-   (version "20260628.2219")
+   (version "20261118.2246")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/motform/arduino-cli-mode.git")
-           (commit "d5614acdca80871cf4db65843227223b5a0e3a2c")))
-     (sha256 (base32 "03av4cy826kxi8lxl3asay044dxnax5wxlx3i7hbmya20rckczqh"))))
+           (commit "f7216a5c025e0ef7e1a1f4e7be880deddc9c93ae")))
+     (sha256 (base32 "0gacfd6zk4w4m7w50q066xwqixsmx3m74vg745hgbsbacr14m70c"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/motform/arduino-cli-mode")
    (synopsis "Arduino-CLI command wrapper")
@@ -6176,14 +6176,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20261118.432")
+   (version "20261119.111")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "dc0dad05a96b41b7d3506334d52b6da373b3c3b8")))
-     (sha256 (base32 "0qdbhp627qjjps6clkmx5sz4jn8qhqkhq8jhm57jjl0iv4ai0gy1"))))
+           (commit "4cab67c807a2ffe6b0d0ff25d7347d2668ceeb3d")))
+     (sha256 (base32 "1jsyhsx2rnb1r8xvc8ki16885794kspb2filawcx22y99n3mnild"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -11741,14 +11741,14 @@
 (define-public emacs-clatter
   (package
    (name "emacs-clatter")
-   (version "20261107.1819")
+   (version "20261118.1832")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/parenworks/clatter.el.git")
-           (commit "bdec34dd34081a9fea160bc231b3bb2ce64916e6")))
-     (sha256 (base32 "0aw20v0d7axn8ssfm0b44c5cq801jscg6yzbq7x0414dfr091f40"))))
+           (commit "b430961970a23047d99ccd7d4c39962b351f2365")))
+     (sha256 (base32 "06sncs78b0vjphcrxqda87xp6g3gzmqxjq092ffq6gd4bd27dgxd"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/parenworks/clatter.el")
    (synopsis "An IRCv3-compliant IRC client")
@@ -12583,14 +12583,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261118.1418")
+   (version "20261119.259")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "3ec34425a47a51daf5a366fc46bebd16139e35a0")))
-     (sha256 (base32 "1akxw8gdfnf231vp6km0m8q2viihi6yz29ryy5045lfbqbmbgfym"))))
+           (commit "d83005cc52c1aae1521dc199f116fb03876a76aa")))
+     (sha256 (base32 "1dlqsf637h3mfnkrmp2wp4g0y0ixrdg8phb8nnp266h8nnciji4v"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -17958,14 +17958,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261118.1405")
+   (version "20261119.423")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "f193aa9b8c20049ff932059aa383d51340bd1029")))
-     (sha256 (base32 "0r4pa1s5ilc7ys9gw48xmbpfs0vsk79ymbbl1jqdafvj4rgn7pgi"))))
+           (commit "5bcf3d7107610d1ec740b3b327c672a0ff8179e9")))
+     (sha256 (base32 "1j130l4ycd1i9gggpg8nh5l1bcmq8zmsnwszaw7yf0y3rqyy749a"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -44336,14 +44336,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261118.1509")
+   (version "20261118.1755")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "8f614bcef1acb2a67a3d335f48f3efaab88b5e30")))
-     (sha256 (base32 "1rik62w9p5k8865zz4glxhlrnxfw6xrvk5fs9cs4g1fzx88b2a76"))))
+           (commit "1bb902369888beb05d8530a3853164e993048381")))
+     (sha256 (base32 "1v51njkg50viyfzp5mibzggggkkhj596675hz59z0pvnihbf1nxj"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -64161,14 +64161,14 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20261110.923")
+   (version "20261118.2235")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "c83335eb7484eaf8549b2fbf51f8dd2e0223dad8")))
-     (sha256 (base32 "1411srv70jfn6nlrfhl1qq8jj3j3f9yb96r8g8a31ambq11q3jg8"))))
+           (commit "5eceb86c58680c0308c5accb2c06c18381a681c7")))
+     (sha256 (base32 "0ahl0yv2vck74bh88x7v38fpm2xzd71qfxk56zz44bvx6ap6k540"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -64807,14 +64807,14 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20261117.14")
+   (version "20261119.306")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "b9acbe48c553110e7d287d99871f14616ded7c71")))
-     (sha256 (base32 "1g9nfb5qgzhq4cnkbly3mgnck9phx8rbvavsrk1xfvx0x19m3gi5"))))
+           (commit "b0fdcddf4c883d61ac9b7df9257f47650d909482")))
+     (sha256 (base32 "15y0j2i1slf4fspnzic9441j0yyrrfrxs1hf78g3jsijyikc6sxv"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
@@ -65531,14 +65531,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20261118.1200")
+   (version "20261119.25")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "3ac8573b056392e18cc1fe4b27bd7a4e81fee2cf")))
-     (sha256 (base32 "0ngkji2avbw6zh3h3c77wbcgvp8k3i3a7hjadc09v725dinc3qkk"))))
+           (commit "9d2c39f3926f240b4d585d741e2e279a3a376fde")))
+     (sha256 (base32 "09fq04fcjpbbvi5mx0ikgzh7qm32chaajp3pdc7m25bil7g3kpry"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -70399,14 +70399,14 @@
 (define-public emacs-nucleo-completion
   (package
    (name "emacs-nucleo-completion")
-   (version "20261118.1339")
+   (version "20261118.2232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kn66/nucleo-completion.el.git")
-           (commit "5ff75c04894da8b24aa7b7ff982290cd7b9c0dd0")))
-     (sha256 (base32 "1a4g7w00mwqf0r45vhkkl07yqqddqy05dkbwnd86mmjvnd9vcww5"))))
+           (commit "d156a20a3d968cf35e3b11b05691bacd88106eb4")))
+     (sha256 (base32 "13qqdsdg36ciwc1pi25hcdjfdy1hm1vrlw1b3id7sjbf7szjb2c3"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files ("nucleo-completion.el" "src" "Cargo.toml" "Cargo.lock")))
@@ -76806,14 +76806,14 @@
 (define-public emacs-org-special-block-extras
   (package
    (name "emacs-org-special-block-extras")
-   (version "20261117.1717")
+   (version "20261118.2044")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alhassy/org-special-block-extras.git")
-           (commit "8c6e5b3845f0bc8fb10f4d665faf58ed31a7474b")))
-     (sha256 (base32 "0k7jd9kjn78j0x5jn5lbn6wd3r566b7gb6wzdsqsxyvgfn0fp6al"))))
+           (commit "74b283ea4f142bc425c48f4221305e2b17e3fd3f")))
+     (sha256 (base32 "05w1bv4mpq5l26cqifyn8165m0033pm0ilr9kigvhc78ilaxpd1k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash emacs-lf))
    (home-page "https://alhassy.com/org-special-block-extras")
@@ -85636,14 +85636,14 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-   (version "20261109.2254")
+   (version "20261118.2304")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ProofGeneral/PG.git")
-           (commit "e09cd62ada58d5e38986a81101cffe1be28e527d")))
-     (sha256 (base32 "0920ra3gwfqkk1sqqqqi7i0pp86lrkibxwpz85h038pkh2akvlp1"))))
+           (commit "f0460033ef60baa04a989f565a79d5f871196df4")))
+     (sha256 (base32 "1q9hap6qw4cxv7b074amwqdlc22b72kr8w5qalvz3qhnq1bxbiyy"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -87514,14 +87514,14 @@
 (define-public emacs-quick-fasd
   (package
    (name "emacs-quick-fasd")
-   (version "20261108.1811")
+   (version "20261118.2046")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/jamescherti/quick-fasd.el.git")
-           (commit "1363fc2dac29494885118f922ee2377b2358abf1")))
-     (sha256 (base32 "1n79xv7lkc0wrmnfczpcajihacn9jvq49c5vnsy2j645vy38fizs"))))
+           (commit "092ae42ac385ff611bf79437b8e2d430e855d4f5")))
+     (sha256 (base32 "1n21sn9q47240435wa3qgfmfrd381vpc7n0cqs23h7grqhgilfxg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/quick-fasd.el")
    (synopsis "Integration for the command-line tool `fasd'")
@@ -92196,14 +92196,14 @@
 (define-public emacs-scholar-import
   (package
    (name "emacs-scholar-import")
-   (version "20230412.1413")
+   (version "20261118.2142")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/teeann/scholar-import.git")
-           (commit "2456367578caa7fd768e30238ce080687faa0a25")))
-     (sha256 (base32 "1jgandx2zs6m921jxhb476g7ldh7paa7qlwjy9lzzn3cfgb18r8w"))))
+           (commit "50aa6f563e4907a5f3107b95af48fce44a5f18cd")))
+     (sha256 (base32 "0f5libdwi0m5b6gavsm0ikyccl6rslkbp5zxfiag8vlp929nndl0"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request emacs-s emacs-parsebib))
    (home-page "https://github.com/teeann/scholar-import")
@@ -95176,14 +95176,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20261116.2203")
+   (version "20261118.2311")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "09a65de1392c64f646124486eaf617ea0baec82e")))
-     (sha256 (base32 "1yxjqxjz8dzrhic2f732z42rmn6dwp9qg3nq9csw26plxj3grinb"))))
+           (commit "eafa2d4886451e75ef7a50d887fbb48cf70ac354")))
+     (sha256 (base32 "1ybw30hlqf8yh69r985dyz6l3pz6bziqr6nv7glck38qf0mz4dwi"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -105079,14 +105079,14 @@
 (define-public emacs-typst-overlay
   (package
    (name "emacs-typst-overlay")
-   (version "20261117.2154")
+   (version "20261118.2138")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hesampakdaman/typst-overlay.git")
-           (commit "4eaa2cb2d18e1eef184e5902e28b09f64101cf72")))
-     (sha256 (base32 "1n8nsq9k1xk1f5j669lkpfycr520ad4ivx1bf6ndg16am66v6sp5"))))
+           (commit "3b69366a435a9b4df45ed8fda01af3fca511e999")))
+     (sha256 (base32 "03077j260bla1p7jibmr9a6vdf2d2aig7k4x92hxnlr73mlyb25n"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hesampakdaman/typst-overlay")
    (synopsis "Overlay Typst equations")
