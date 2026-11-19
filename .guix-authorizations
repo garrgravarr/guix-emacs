@@ -8,5 +8,7 @@
     (name "babotriviere"))
    ("2DDF 9601 2828 6172 F10C  51A4 E80D 3600 684C 71BA"
     (name "garrgravarr"))
+   ("D00A F78D 8A4E BE35 0F6B  63F8 8A28 0154 CAD3 0CD7"
+    (name "garrgravarr-bot"))
    ("9836 9D62 A7A5 5BA1 7300  FB55 1CA9 DB47 DC67 7EB4"
-    (name "garrgravarr-bot"))))
+    (name "garrgravarr-bot-old"))))
