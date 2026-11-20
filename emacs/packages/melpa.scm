@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261120.147")
+   (version "20261120.1305")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "7473e5eb2f3a7da01e1762ac20ac3a4c577b1cb8")))
-     (sha256 (base32 "0i2lkid8a6w099cz8kaqggqx908byy5lhil27wv9r0dp9j38vv91"))))
+           (commit "dde9392902d750375bedaf7347c31cc15c66ca8f")))
+     (sha256 (base32 "088jcmal3g9ymnqw94sd83ambnpn8lrak58lmf2g9fb802wy1r8l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1932,14 +1932,14 @@
 (define-public emacs-aidermacs
   (package
    (name "emacs-aidermacs")
-   (version "20261016.1920")
+   (version "20261120.651")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/MatthewZMD/aidermacs.git")
-           (commit "03ec5747b87920678d0b0ad8bc798ec0e5923125")))
-     (sha256 (base32 "0jzlaim9n6w7fmr1ijgjji66yg5lm3zdx6p04h0ngp3ffljmjplf"))))
+           (commit "e362cb00219f9813df589c663861111824833832")))
+     (sha256 (base32 "0sc7hkwdc45qbb9i9wx5qgg10yvfxml9l9f3swj2wb86niv4mrca"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-markdown-mode))
    (home-page "https://github.com/MatthewZMD/aidermacs")
@@ -5194,14 +5194,14 @@
 (define-public emacs-autobuild
   (package
    (name "emacs-autobuild")
-   (version "20240430.1600")
+   (version "20261120.310")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erjoalgo/autobuild.git")
-           (commit "ec81be5fd6680661ad9ec491e20232d48ee6bd37")))
-     (sha256 (base32 "1yh91ljfpla6ypcar0afppvvfayki2jj5m85y9kzf4ypr0mxk69q"))))
+           (commit "23743a2875f69dfa64a7f441132896d7c64b79b9")))
+     (sha256 (base32 "1vra3m857hjzvsdkwdl4whzld1pcv3zfff45h2l4bmyxi4k4jair"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-selcand))
    (home-page "https://github.com/erjoalgo/autobuild")
@@ -13627,7 +13627,7 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20261119.500")
+   (version "20261120.417")
    (source
     (origin
      (method git-fetch)
@@ -18456,14 +18456,14 @@
 (define-public emacs-daemons
   (package
    (name "emacs-daemons")
-   (version "20250514.1107")
+   (version "20261120.1430")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/cbowdon/daemons.el.git")
-           (commit "4900fe1ec64ab339da29082e8fd4545fc6e48ec4")))
-     (sha256 (base32 "133kssg3n5qpzvna5x7jr6gjnc7xjn25g9iyixa61mm9wabmqb1p"))))
+           (commit "418ff69da73c97d3763e8dbdadec4aa73583f28b")))
+     (sha256 (base32 "086d8n6wlivhsyiyla4n8imasjzd5vpyjjn6i561bj79ic4vx8f7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-compat))
    (home-page "https://github.com/cbowdon/daemons.el")
@@ -26800,14 +26800,14 @@
 (define-public emacs-ellama
   (package
    (name "emacs-ellama")
-   (version "20261007.805")
+   (version "20261120.1526")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/s-kostyaev/ellama.git")
-           (commit "b6e71f41583e85d2e1fe93ccaa34593f7b4015b8")))
-     (sha256 (base32 "0f3mk4vjrj6n2i57kckxb961mv86j63xbahm3s6d6q5z6ljydj61"))))
+           (commit "6dee58ebb4e25c8bf98d21a302264a5f51c8180f")))
+     (sha256 (base32 "0pm8wag08cwyk2lb7bmnmc2nj96bfkg6z4rnrbzzq1828831gs16"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-llm emacs-plz emacs-compat emacs-yaml))
    (home-page "https://github.com/s-kostyaev/ellama")
@@ -40382,14 +40382,14 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261118.850")
+   (version "20261120.843")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dakra/ghostel.git")
-           (commit "4af9560818534dd97902f045acd0f9e44fb14525")))
-     (sha256 (base32 "1ca2rizmhhanwpbj9lnp4i24c33mdh7whf8bwi3ba7afy8yiqi15"))))
+           (commit "7fed0f52355c150d7ef2e14a643acb58da00e807")))
+     (sha256 (base32 "0whxgd27989gxhyq8fa8swkzkz4qagbgkm3ndyfc3bsk95j0kpg8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments
@@ -44336,14 +44336,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261119.2018")
+   (version "20261120.1434")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "c762cb4d92d43dca68dfefecee62a8df86d45234")))
-     (sha256 (base32 "0xlcgq5sfwpn8jflqni1qwak3r342chyycvc7b6bx4zzs2lhk1jc"))))
+           (commit "eb80476630a4f46741aff932d6a638abd3f19442")))
+     (sha256 (base32 "1aj1z2dwl9x4gyi0zp3qqnrgpvcna5jylshzf0hi50hc78i5344k"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -44647,14 +44647,14 @@
 (define-public emacs-hackernews-modern
   (package
    (name "emacs-hackernews-modern")
-   (version "20261119.2119")
+   (version "20261120.718")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.andros.dev/andros/hackernews-modern-el")
-           (commit "75387ca2d736c90cde414f03dfc4b5a03477d4f0")))
-     (sha256 (base32 "1f3ab6f5zg8x99dq6nk38qjrpqy72is012mxl75hgia31869vali"))))
+           (commit "f45b5880559fc012164f241538d7d2b6dc4b485f")))
+     (sha256 (base32 "1xp5nyk1z96xwff9qs0mrjxq2vysm4ga6cv8ay1gxkscxw8z0lh3"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column emacs-async-http-queue))
    (home-page "https://git.andros.dev/andros/hackernews-modern-el")
@@ -50292,7 +50292,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20261117.1035")
+   (version "20261118.2034")
    (source
     (origin
      (method url-fetch)
@@ -50300,7 +50300,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "0hs684n6qqqg3lhdq0km76xizcxmzh07hdgr1m83x8i8b5yysbiq"))))
+     (sha256 (base32 "052lx6irc9fh91cf2454s18g8pia0636sbqfnymikcwaxi4fm0y3"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -58941,14 +58941,14 @@
 (define-public emacs-leuven-theme
   (package
    (name "emacs-leuven-theme")
-   (version "20261117.1608")
+   (version "20261120.1132")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/fniessen/emacs-leuven-theme.git")
-           (commit "5e7bde282c9c7e1073463f9f76c94d185e24383a")))
-     (sha256 (base32 "048rkcyll1wc8hlk8q8d459i1qqy10rizg7my0g9bd42m3psvm8f"))))
+           (commit "da162cd6a63b13c2ea359b022109961c9d1bf1af")))
+     (sha256 (base32 "01y6pfg5zq5rjr51d81wcg96fvj5xjgyl58dyb0zjkd8k88mcgxm"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/fniessen/emacs-leuven-theme")
    (synopsis "Elegant Emacs color theme for a white background")
@@ -94959,14 +94959,14 @@
 (define-public emacs-sis
   (package
    (name "emacs-sis")
-   (version "20260928.612")
+   (version "20261120.613")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laishulu/emacs-smart-input-source.git")
-           (commit "51596b82b59d56317d4c6af93efd4bafb850b529")))
-     (sha256 (base32 "0isj1cyknn87jwzd40dxz2ykcv3841f3h6115p6j09nzklnnclxy"))))
+           (commit "e6709418acf13257a394cce9769a20dfb03b8e8f")))
+     (sha256 (base32 "1kwzcraj4hvhhzvk0jdhyjq9f5rz16v0gay0jrfy7vapcscbhw4x"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/laishulu/emacs-smart-input-source")
    (synopsis "Minimize manual input source (input method) switching")
@@ -100979,14 +100979,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20261029.517")
+   (version "20261120.819")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zevlg/telega.el.git")
-           (commit "83b9afbfbfbf61b647af4781080c062da92c58f7")))
-     (sha256 (base32 "1yx8kk1928s9nhag1d8ff7wi6slk7ibk3kgs44jp07z4k7w1l7ia"))))
+           (commit "5c958f8361edfcd72c19a12ebef298dd8209374c")))
+     (sha256 (base32 "13gm7p53ds23qrkl9zdljk4hfhlzz4r5ask4d0fk9d4kl11vwqcz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
    (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
