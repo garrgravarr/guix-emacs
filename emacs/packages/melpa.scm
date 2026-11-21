@@ -1243,14 +1243,14 @@
 (define-public emacs-acp
   (package
    (name "emacs-acp")
-   (version "20261119.1308")
+   (version "20261121.1211")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/acp.el.git")
-           (commit "3fa3b58ecef062293095b046d4873b5bf4c99de3")))
-     (sha256 (base32 "0xvriaq5wlqb8rd4z4aj61asmabfz02mbqybb4m8367irf8f9lfg"))))
+           (commit "041470ecff003630e03f061584d41071c36f0124")))
+     (sha256 (base32 "183wf7kmb9gcdb98r316xijc20m2i83756bvyzyq8mn786v3grik"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/acp.el")
    (synopsis "An ACP (Agent Client Protocol) implementation")
@@ -17958,14 +17958,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261120.1801")
+   (version "20261121.724")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "6da5011c6ac72df80b66f8b32db78160a231c039")))
-     (sha256 (base32 "05ydfichgpr87wiip5ibqsbir2nq0skjpsrs57bljwhdmyfhc7fr"))))
+           (commit "9a922a2d33cdf97002067b3c63eb581225718bff")))
+     (sha256 (base32 "1sjpnsgn9yy8grjgmxvi4jak4zzfpfyizlbz8im52v2b7nadzgqr"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -25179,14 +25179,14 @@
 (define-public emacs-eide
   (package
    (name "emacs-eide")
-   (version "20261119.2016")
+   (version "20261121.708")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://forge.tedomum.net/hjuvi/eide.git")
-           (commit "bfe7e33b8f62c476842ab7a57e9186a816f6209a")))
-     (sha256 (base32 "1vjff5g4syakg1ds22aa9sk798sq05pinpxws88vwc3ndchdd9q7"))))
+           (commit "8ce1113c05e193195d0208657e1d303262edbea5")))
+     (sha256 (base32 "0qjbn182j4rnk5m6zvckv5xxyh3f1cqsyvzxjbvj6ixr27az8q5b"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("src/*.el" "src/themes/*.el")))
    (home-page "https://forge.tedomum.net/hjuvi/eide")
@@ -32751,14 +32751,14 @@
 (define-public emacs-f90-ts-mode
   (package
    (name "emacs-f90-ts-mode")
-   (version "20261119.1744")
+   (version "20261121.1118")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/mscfd/emacs-f90-ts-mode.git")
-           (commit "61ad7c587e40e5499437888fbff75d30ba6b11bb")))
-     (sha256 (base32 "1143641a9123yg8awfwgnp6n699n8f4wxkjqfhr1s0vygca0gr0d"))))
+           (commit "063d2b4ce016fb94b1dbcf075de50d04bca83f91")))
+     (sha256 (base32 "0lfsbsnp54nsx2nhn7bnxmgwbwd74qnlzj5s0cs8qw650hacds83"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/mscfd/emacs-f90-ts-mode")
    (synopsis "Tree-sitter based Fortran 90 mode")
@@ -33877,14 +33877,14 @@
 (define-public emacs-firstly-search
   (package
    (name "emacs-firstly-search")
-   (version "20261113.210")
+   (version "20261121.1200")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/firstly-search.git")
-           (commit "d5360f78fb050a9475c221bd593ca6b6df034d09")))
-     (sha256 (base32 "1261j5p3a3ppf220hgc7wvbhhx0yb9hic9fy068wjcqa31pabjlx"))))
+           (commit "92e3c9e2ff04e186050b9848a3b91e163759d19f")))
+     (sha256 (base32 "0xfwg1h1963y48fhd9i2png1r5i3zgy82z51dj473vdadmj39fkv"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://codeberg.org/Anoncheg/firstly-search")
@@ -43262,14 +43262,14 @@
 (define-public emacs-gptel
   (package
    (name "emacs-gptel")
-   (version "20261117.733")
+   (version "20261121.846")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/karthink/gptel.git")
-           (commit "0b0aad0b19f8f0bc86ea8cfb1dbe2f02b4ea43de")))
-     (sha256 (base32 "0akfbdd6hkk06ibbxrg2bx961nf2ivk6zim870g4hgrxqqns2zs0"))))
+           (commit "743173759fd7e545deaaf80e39d08ec441d6c8ee")))
+     (sha256 (base32 "1fr42k87vgdi944flw4qq3c2kqr1fzfz4mxi70ac7aszbcdrd2k6"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/karthink/gptel")
@@ -43605,14 +43605,14 @@
 (define-public emacs-graph-fa2
   (package
    (name "emacs-graph-fa2")
-   (version "20261015.537")
+   (version "20261121.703")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/elij/graph-fa2.git")
-           (commit "32040244072200f3a70faad142b98bb88738b1ba")))
-     (sha256 (base32 "12yyxbbxkxrd9rn3796j7ahsyga922n5wacv7wlqnrp8w9mwglk0"))))
+           (commit "069c15c67c1e440162ff9d5e2ade53d46bb6c647")))
+     (sha256 (base32 "15f9jj2ylqv7dayy68d7bsnrdvzj67vwydxq832pa0gn5v9ywprv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/elij/graph-fa2")
    (synopsis "ForceAtlas2 pure-elisp background-cached engine")
@@ -50292,16 +50292,58 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20261120.2305")
+   (version "20261121.1038")
    (source
     (origin
-     (method url-fetch)
-     (uri (string-append
-           "https://melpa.org/packages/hyperbole-"
-           version
-           ".tar"))
-     (sha256 (base32 "1iskj7v5kbhbwgnmxpifpvi9b3876idcaq25zi8wap0xsqshxa0f"))))
+     (method git-fetch)
+     (uri (git-reference
+           (url "https://git.savannah.gnu.org/git/hyperbole.git")
+           (commit "b2b4bab2ca9144ae6e6ae1b03f5cb1211de28d32")))
+     (sha256 (base32 "1vdgzc719zhw1j5wczkzclzx6cs29xn68la6m83n4vnf079nkf6b"))))
    (build-system melpa-build-system)
+   (arguments
+    '(#:files
+      ("*.el"
+       "MANIFEST"
+       "dir"
+       "ChangeLog"
+       "Makefile"
+       "HY-ABOUT"
+       "HY-ANNOUNCE"
+       "HY-CONCEPTS.kotl"
+       "HY-NEWS"
+       "HY-WHY.kotl"
+       "INSTALL"
+       "DEMO"
+       "DEMO-ROLO.otl"
+       "FAST-DEMO"
+       "README.in.md"
+       "README.md"
+       "README.md.html"
+       "TAGS"
+       "_hypb"
+       ".hypb"
+       "hyrolo.py"
+       "smart-clib-sym"
+       "topwin.py"
+       "hyperbole-banner.png"
+       ("kotl" "kotl/MANIFEST" "kotl/EXAMPLE.kotl" "kotl/*.el")
+       ("man"
+        "man/hyperbole.texi"
+        "man/hyperbole.css"
+        "man/hkey-help.txt"
+        "man/hyperbole.info"
+        "man/hyperbole.html"
+        "man/hyperbole.pdf"
+        "man/use-package")
+       ("man/im" "man/im/*.png")
+       ("HY-TALK"
+        "HY-TALK/.hypb"
+        "HY-TALK/HYPB"
+        "HY-TALK/HY-TALK.org"
+        "HY-TALK/HYPERAMP.org"
+        "HY-TALK/HYPERORG.org")
+       ("test" "test/MANIFEST" "test/*tests.el" "test/hy-test-*.el"))))
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
    (description "Documentation at https://melpa.org/#/hyperbole")
@@ -68656,14 +68698,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20261011.1410")
+   (version "20261121.551")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "87ae84981ddeb4446586ba65cb30cec6e6ccfdb0")))
-     (sha256 (base32 "18xxx0jcqq2sf6zxk3qc2yj2l7gm7r7l7b5l5k8i64py8vq6w3j4"))))
+           (commit "9e184d8e05891a5b0444e65acb3a1bdb24eab3b1")))
+     (sha256 (base32 "1adhw2q2bbpi2qjxq29991454082jwwq56v0r0ciaa384f8379ac"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -77254,14 +77296,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261118.1115")
+   (version "20261121.621")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "dadd3bbb50082988be5bb2271366b36554b3c484")))
-     (sha256 (base32 "1c148hbm82fvmd1fsgyj5bbrx8wy5xc3zpj733x9hwvwl07z8xf6"))))
+           (commit "04333960c7a4e304b8c4f27233c99a07aaedfda1")))
+     (sha256 (base32 "0rrgnvqa9vzc2vll3kpd6c3mbh31ds3yzwnvsfvyrv1dpgis2caj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -87686,14 +87728,14 @@
 (define-public emacs-quotient
   (package
    (name "emacs-quotient")
-   (version "20251029.1348")
+   (version "20261121.1354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tvirolai/quotient.git")
-           (commit "3bece7b17a4ef7745f8c49c0c21570239f2b4ded")))
-     (sha256 (base32 "1w253hyj10d9pf0qgh84zgj86ln6fkkg0gv8d9003haad7352hik"))))
+           (commit "f03b6a76f9fcfdc159d9406ee5f24263948045d2")))
+     (sha256 (base32 "1nyvcc544vvfiigvp1njkw13s1n7prgmmdbcswys5n7m0yjxcv61"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/tvirolai/quotient")
@@ -95505,14 +95547,14 @@
 (define-public emacs-slurpbarf
   (package
    (name "emacs-slurpbarf")
-   (version "20261120.1710")
+   (version "20261121.812")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/vilij/slurpbarf-elcute.git")
-           (commit "e05b0c63c073e7baf134f1879ee3afea997766c2")))
-     (sha256 (base32 "0rmc5f799x3hn33rwfp01bks11w77pw1my39a7icl4fadzjr6wn8"))))
+           (commit "734ebf438c0a56b4047663580fa1bde717ac9b95")))
+     (sha256 (base32 "188rcmrfmfk91snn77xc35d111i9smyb4z3l9khffy2ad4jv6cw3"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("slurpbarf.el")))
    (home-page "https://codeberg.org/vilij/slurpbarf-elcute")
