@@ -95218,14 +95218,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20261121.53")
+   (version "20261121.1836")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "5264d1d382aeca172589e892bb3095a6b00340d7")))
-     (sha256 (base32 "19l9kg05zjdjarn5pafjp3qfb3s5m7jq8p32ylnl029a7x7d53gj"))))
+           (commit "42e183e632352c4fa979f4654dfe35feecc8b103")))
+     (sha256 (base32 "04ygjvinkg3im22x6ng499442826clmhaicd58j9n8qg6i599xva"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -96596,14 +96596,14 @@
 (define-public emacs-sniem
   (package
    (name "emacs-sniem")
-   (version "20261105.1338")
+   (version "20261121.1651")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SpringHan/sniem.git")
-           (commit "5020c8efc0a6d575bd277942353869322275c9bf")))
-     (sha256 (base32 "0ipzhj3dgrrzxhlh9040k0vk7r42c10j17zr5h14sdh72sfs8jl4"))))
+           (commit "5c2364587f3eda8f996375bba5bf8ff4fd0977f6")))
+     (sha256 (base32 "16qm0bzqvaxgijzvgwl6n805aqxp3f6kfa4nlg88jx7qjfl3arw5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash))
    (home-page "https://github.com/SpringHan/sniem.git")
