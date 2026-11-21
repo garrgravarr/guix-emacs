@@ -17958,14 +17958,14 @@
 (define-public emacs-cui
   (package
    (name "emacs-cui")
-   (version "20261119.423")
+   (version "20261120.1801")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Anoncheg1/emacs-cui.git")
-           (commit "5bcf3d7107610d1ec740b3b327c672a0ff8179e9")))
-     (sha256 (base32 "1j130l4ycd1i9gggpg8nh5l1bcmq8zmsnwszaw7yf0y3rqyy749a"))))
+           (commit "6da5011c6ac72df80b66f8b32db78160a231c039")))
+     (sha256 (base32 "05ydfichgpr87wiip5ibqsbir2nq0skjpsrs57bljwhdmyfhc7fr"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/Anoncheg/emacs-cui")
    (synopsis "Chat blocks in org-mode for LLM and agents")
@@ -44336,14 +44336,14 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261120.1434")
+   (version "20261120.2132")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bormoge/guava-themes.git")
-           (commit "eb80476630a4f46741aff932d6a638abd3f19442")))
-     (sha256 (base32 "1aj1z2dwl9x4gyi0zp3qqnrgpvcna5jylshzf0hi50hc78i5344k"))))
+           (commit "e92dc775a2e0a2e9c4eb1de7a8ad9b76909338a8")))
+     (sha256 (base32 "12hvcmjrmajhd6k9x694gdh2gv7y6bvy9a0q9gw4i97r0bfrsswm"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
@@ -50292,7 +50292,7 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20261118.2034")
+   (version "20261120.2305")
    (source
     (origin
      (method url-fetch)
@@ -50300,7 +50300,7 @@
            "https://melpa.org/packages/hyperbole-"
            version
            ".tar"))
-     (sha256 (base32 "052lx6irc9fh91cf2454s18g8pia0636sbqfnymikcwaxi4fm0y3"))))
+     (sha256 (base32 "1iskj7v5kbhbwgnmxpifpvi9b3876idcaq25zi8wap0xsqshxa0f"))))
    (build-system melpa-build-system)
    (home-page "http://www.gnu.org/software/hyperbole")
    (synopsis "GNU Hyperbole: The Everyday Hypertextual Information Manager")
@@ -58195,14 +58195,14 @@
 (define-public emacs-latex-to-svg-for-latex
   (package
    (name "emacs-latex-to-svg-for-latex")
-   (version "20261023.1606")
+   (version "20261120.2120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "527fcac9afd65c4c1bd9692f16250b31fdce7bc0")))
-     (sha256 (base32 "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"))))
+           (commit "0328d65a356051fde079b8ca8e29aa58cc5935cd")))
+     (sha256 (base32 "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-latex.el")))
@@ -58214,14 +58214,14 @@
 (define-public emacs-latex-to-svg-for-markdown
   (package
    (name "emacs-latex-to-svg-for-markdown")
-   (version "20261023.1606")
+   (version "20261120.2120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "527fcac9afd65c4c1bd9692f16250b31fdce7bc0")))
-     (sha256 (base32 "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"))))
+           (commit "0328d65a356051fde079b8ca8e29aa58cc5935cd")))
+     (sha256 (base32 "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-markdown.el")))
@@ -58234,14 +58234,14 @@
 (define-public emacs-latex-to-svg-for-org
   (package
    (name "emacs-latex-to-svg-for-org")
-   (version "20261023.1606")
+   (version "20261120.2120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "527fcac9afd65c4c1bd9692f16250b31fdce7bc0")))
-     (sha256 (base32 "138c2r4xzpb6nbs3i5p846pdw6ij0fggry8603nk4jcpkdmvhnc0"))))
+           (commit "0328d65a356051fde079b8ca8e29aa58cc5935cd")))
+     (sha256 (base32 "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
    (arguments '(#:files ("latex-to-svg-for-org.el")))
@@ -58253,14 +58253,14 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261029.1325")
+   (version "20261120.2120")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "75ff777b4e2ceb5adbb55c9699362a055dc9e6f1")))
-     (sha256 (base32 "0c2p66xsy17smafmqzpala79x0ryq60m2vfrly0hyvl1hqz439zr"))))
+           (commit "0328d65a356051fde079b8ca8e29aa58cc5935cd")))
+     (sha256 (base32 "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
    (arguments '(#:files ("latex-to-svg-frontend.el")))
@@ -65531,14 +65531,14 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20261119.25")
+   (version "20261120.2038")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/szermatt/mistty.git")
-           (commit "9d2c39f3926f240b4d585d741e2e279a3a376fde")))
-     (sha256 (base32 "09fq04fcjpbbvi5mx0ikgzh7qm32chaajp3pdc7m25bil7g3kpry"))))
+           (commit "5fa3f4782b210f1a3f07eee7ee7c713472b0c8b7")))
+     (sha256 (base32 "1v668r8p267zsmrpapxzla9s8lijh49qpynd1gmzyc998c0qnwfa"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -95176,14 +95176,14 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20261118.2311")
+   (version "20261121.53")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "eafa2d4886451e75ef7a50d887fbb48cf70ac354")))
-     (sha256 (base32 "1ybw30hlqf8yh69r985dyz6l3pz6bziqr6nv7glck38qf0mz4dwi"))))
+           (commit "5264d1d382aeca172589e892bb3095a6b00340d7")))
+     (sha256 (base32 "19l9kg05zjdjarn5pafjp3qfb3s5m7jq8p32ylnl029a7x7d53gj"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -95408,14 +95408,14 @@
 (define-public emacs-slothbar
   (package
    (name "emacs-slothbar")
-   (version "20261115.1115")
+   (version "20261120.1115")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/agnes-li/slothbar.git")
-           (commit "adba14aa0e449e9e7bbd818c18efa399773f9617")))
-     (sha256 (base32 "04bq5wk5ysg65n5c6vsc8yawc8759gjhb53h55rwwf0jslyl7sm6"))))
+           (commit "a9af00a9a9f24f2ae5625c3a0b2bc8c964bd98f2")))
+     (sha256 (base32 "0l1cij2b0ydmdqr2y9wfsgnf404acb5bwv72kifffw033wx55114"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-all-the-icons
@@ -95505,14 +95505,14 @@
 (define-public emacs-slurpbarf
   (package
    (name "emacs-slurpbarf")
-   (version "20251018.2247")
+   (version "20261120.1710")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/vilij/slurpbarf-elcute.git")
-           (commit "5ec0f75a308ab8ae1f29bbb3c18b63514fc83c20")))
-     (sha256 (base32 "0aksjg9wrl0aifwdw4m41al1yqcp8nz2bmfxd5jvx89rl1a6ijpb"))))
+           (commit "e05b0c63c073e7baf134f1879ee3afea997766c2")))
+     (sha256 (base32 "0rmc5f799x3hn33rwfp01bks11w77pw1my39a7icl4fadzjr6wn8"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("slurpbarf.el")))
    (home-page "https://codeberg.org/vilij/slurpbarf-elcute")
