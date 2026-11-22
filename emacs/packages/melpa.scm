@@ -20149,14 +20149,14 @@
 (define-public emacs-devcontainer
   (package
    (name "emacs-devcontainer")
-   (version "20261024.2210")
+   (version "20261122.1302")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/johannes-mueller/devcontainer.el.git")
-           (commit "f2711c333df4ef644ff59d0d7e58080e670a889a")))
-     (sha256 (base32 "0965hgi0015j494dh9rbhcidhk6lhhi05qm8a0fa6aa8dvmxqyvk"))))
+           (commit "1b09c377ebc1f2d1f0b29f281c432cd2996457e6")))
+     (sha256 (base32 "140afxkq4gd7vhjkp6bb1810216nxzj2xy9ln7bbj9fx2ff2fca4"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/johannes-mueller/devcontainer.el")
    (synopsis "Support for devcontainer")
@@ -20444,13 +20444,13 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20261001.135")
+   (version "20261122.1426")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "8dfb5c27ea43b8c7ac1c008bb97090ad4f059285")))
+           (commit "b0c04cf21a02351958f3b6fe40e0b28b1515b9bb")))
      (sha256 (base32 "1yc46cdrb6d85v2gb9w1kzrr75c8b5n4hsnnn90gzpf116xw2hb7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
@@ -22680,14 +22680,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20261118.1436")
+   (version "20261122.1731")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "cbcfe901d52c4f47b5e5c453683e936453ee3aad")))
-     (sha256 (base32 "0i1m5s4w53d28m41z8x5zsx22pmzg32pv5sw4qnjvwp500f2slag"))))
+           (commit "1d53c87fc75b26eb25dbbc65213667586e434d39")))
+     (sha256 (base32 "15mf322cfbjki3p22689ivkc1s43llzjbckymkj0v4mia7s8d2yc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
    (home-page "https://github.com/seagle0128/doom-modeline")
@@ -31092,14 +31092,14 @@
 (define-public emacs-evil-matchit
   (package
    (name "emacs-evil-matchit")
-   (version "20261019.1145")
+   (version "20261122.1241")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/redguardtoo/evil-matchit.git")
-           (commit "4cb8dd3d811ecb2abd774b491223ac5460dcdd5e")))
-     (sha256 (base32 "0mj0pwfnc6z9x2biwc677bbjjw4llgqfyx9k20i9ggv5360p43ps"))))
+           (commit "d3777fe1984b081537f6410c3f907ff1d24c6225")))
+     (sha256 (base32 "0ka8r7lzapk3m9g6ya5d0bvjrkxfpvl36j1n9cqm4cwkk1w7d768"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/redguardtoo/evil-matchit")
    (synopsis "Vim matchit ported to Evil")
@@ -36830,14 +36830,14 @@
 (define-public emacs-flymake-easy
   (package
    (name "emacs-flymake-easy")
-   (version "20240624.1702")
+   (version "20261122.1234")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/purcell/flymake-easy.git")
-           (commit "048482a97294585c4833d0311e9254a81db39b6b")))
-     (sha256 (base32 "08ijmbdz0cybh9jicvl0hx8j2kc13rmv11z2igl1psmj472989f1"))))
+           (commit "2edddf15bf044be6f5be9595868464906387aa9c")))
+     (sha256 (base32 "1lxbd58b70g7r5i30llkzq2mf62vxq2yzsm6sy9n0f3flvlg864i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/purcell/flymake-easy")
    (synopsis "Helpers for easily building flymake checkers")
@@ -38402,14 +38402,14 @@
 (define-public emacs-forge
   (package
    (name "emacs-forge")
-   (version "20261121.2217")
+   (version "20261121.2254")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/magit/forge.git")
-           (commit "285bd18e8ced1ebd5e7dbece233ebfb3747c90d1")))
-     (sha256 (base32 "1bvyw3mfabg043rcig8p9l7djqq2iiv96fz426i8z87qmxfp9ds8"))))
+           (commit "5dc86aa8f9918704d1e217c439d601b45d2b4c12")))
+     (sha256 (base32 "1l4sp3afm971gpxlrqk36gjha93q06k3py562ndyf8jpfyvkk0qs"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat
@@ -50292,14 +50292,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20261121.1038")
+   (version "20261122.1454")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "b2b4bab2ca9144ae6e6ae1b03f5cb1211de28d32")))
-     (sha256 (base32 "1vdgzc719zhw1j5wczkzclzx6cs29xn68la6m83n4vnf079nkf6b"))))
+           (commit "679d0bcc4863e36555719570353d9f338b52a81b")))
+     (sha256 (base32 "134b8v507015g7majryfa6acdm8kvisj976wkpqmbbrzmrgzv1nz"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -54147,14 +54147,14 @@
 (define-public emacs-japanese-menu
   (package
    (name "emacs-japanese-menu")
-   (version "20261026.525")
+   (version "20261122.1240")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/yt-emacs-ja/emacs-japanese-menu.git")
-           (commit "3a8693a3f3efc4bbff3997c4a3dbd198eb3c5dfb")))
-     (sha256 (base32 "1s9iiwjkjjwnh2cdchbrmf2dq1q7s94n85wff9xg6ms390wv7l27"))))
+           (commit "c2d886cc47053efb731a057a9762dd23b747313e")))
+     (sha256 (base32 "0ydv6vibrjslhy4kbqgx1c78shabw4rm98r8wahx99q7nx26k44f"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/yt-emacs-ja/emacs-japanese-menu")
    (synopsis "Japanese menu translation")
@@ -67186,14 +67186,14 @@
 (define-public emacs-mu4e-autotask
   (package
    (name "emacs-mu4e-autotask")
-   (version "20261109.1551")
+   (version "20261122.1331")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/laurynas-biveinis/mu4e-autotask.git")
-           (commit "ad7f542457ad92777eabcbc2f0d5a76234d95f09")))
-     (sha256 (base32 "11801dc95b1q0vavnk8wh0fz7378rzxd5408scbinjipq8znwvr8"))))
+           (commit "67ce827d9ba6ba549c0981c04557b2037642aa46")))
+     (sha256 (base32 "1qmnl3bg33w2lqblh3vpfzmvvngljy5515489jfzsky00pjcqd9q"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/laurynas-biveinis/mu4e-autotask")
    (synopsis "Email automation for mu4e")
@@ -78506,14 +78506,14 @@
 (define-public emacs-otpp
   (package
    (name "emacs-otpp")
-   (version "20260813.911")
+   (version "20261122.1546")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abougouffa/one-tab-per-project.git")
-           (commit "08786dd55a0eef28b4dc6f5490fdc3f157b9f313")))
-     (sha256 (base32 "1vx5pzs7qnl4zg7b6rr5jcvbn8f19jwi02v7cdwyvn56y6a816fd"))))
+           (commit "096a10aafa633340e04fcadf9a1be258c336a142")))
+     (sha256 (base32 "020b6z7rr4p2mziyaxg4p9y24f2xavhza5pj5a9x33iaw1hcs0k7"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/abougouffa/one-tab-per-project")
@@ -86637,14 +86637,14 @@
 (define-public emacs-pyfun-mode
   (package
    (name "emacs-pyfun-mode")
-   (version "20261018.6")
+   (version "20261122.1734")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/simontreanor/Pyfun.git")
-           (commit "d6d64e85c0135216508ed2e798613d149ee2cc98")))
-     (sha256 (base32 "0121picqxjhwi5qhx1mmbdsij5hi0gmj3jk5qfb1zxcab37b1qfy"))))
+           (commit "1000973c5a6f5f4f0d3f43ee78fe76accee1bd42")))
+     (sha256 (base32 "0bd9xh2nkyzvmbjy4kjl3nd4z1p346y3scda4as0v7ra7ffxaw9i"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editors/emacs/pyfun-mode.el")))
    (home-page "https://github.com/simontreanor/Pyfun")
@@ -103544,14 +103544,14 @@
 (define-public emacs-trailing-newline-indicator
   (package
    (name "emacs-trailing-newline-indicator")
-   (version "20260516.2154")
+   (version "20261122.2117")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/saulotoledo/trailing-newline-indicator.git")
-           (commit "39799e45c15ad0bf51a6f242109cd00bb4c7f39d")))
-     (sha256 (base32 "0jm69w2q3jqh1f44i9nkyvi3cg6m8jf7aih8j9961nqwcri17shi"))))
+           (commit "a09c5639d3d80420668088178e98d15ec6b967c7")))
+     (sha256 (base32 "1vxmlp2c7037zd61n8x7gk9y8y7ysvz4ca13cx7pkaikf8qr70ba"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/saulotoledo/trailing-newline-indicator")
    (synopsis "Show an indicator for the trailing newline")
@@ -111539,14 +111539,14 @@
 (define-public emacs-yankpad
   (package
    (name "emacs-yankpad")
-   (version "20260506.850")
+   (version "20261122.1507")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Kungsgeten/yankpad.git")
-           (commit "183b92a25a6fcc1496a8028d80397662e0bd5f19")))
-     (sha256 (base32 "1s6kd0y1xk6k9xxlna8ayrz7ryd3jq05qcfmakxl4mi4jjf11q53"))))
+           (commit "d10c6260ee1d246832e36d5a9734df48ba8be648")))
+     (sha256 (base32 "1v2l715gdqrxq887zxqfq5njf6bs4y4hqvwq6p6h8v1q2spdnhjp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Kungsgeten/yankpad")
    (synopsis "Paste snippets from an org-mode file")
