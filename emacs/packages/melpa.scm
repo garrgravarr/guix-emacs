@@ -2984,14 +2984,14 @@
 (define-public emacs-annotated-completing-read
   (package
    (name "emacs-annotated-completing-read")
-   (version "20261107.1746")
+   (version "20261121.2232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tychoish/annotated-completing-read.git")
-           (commit "1bbd5228723ef820e44755c1d9d113fe3a771c26")))
-     (sha256 (base32 "111912sxyl2g2vm6jmsjs46p1p6s7g2yw36mvig85m5fn4jwc4bm"))))
+           (commit "356c2dfd697da56078b1b50fb4409d00bc9bb5da")))
+     (sha256 (base32 "1fkialkibjgd8wd8kfbiavdj1mz4gxr7mk3khvn8x8fsjw3hs89w"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tychoish/annotated-completing-read")
    (synopsis "Ergonomic completing-read wrapper/helper")
@@ -75887,14 +75887,14 @@
 (define-public emacs-org-pomodoro
   (package
    (name "emacs-org-pomodoro")
-   (version "20261106.1414")
+   (version "20261122.322")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/marcinkoziej/org-pomodoro.git")
-           (commit "4088396c42170e1c5c2d621d68637254867fda44")))
-     (sha256 (base32 "0gdg9i6l2j3wncdzgwz6p8f3ija84bb123rkyvw3akb7gi598n0h"))))
+           (commit "1dacdcda7587866417a9b31ab5607b18d6c6f3c4")))
+     (sha256 (base32 "10yvna1raycyx91sssndbkf08srszsjn7548f8l5xh4ssirbxzrr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-alert))
    (arguments '(#:files (:defaults "resources")))
