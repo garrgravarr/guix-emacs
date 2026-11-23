@@ -1893,14 +1893,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261119.1654")
+   (version "20261123.412")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "a0363f5efe6f3ac7f3ba5984726cd64c57ee5fe6")))
-     (sha256 (base32 "1fqmlx7414iaji06y8fbrj3j2b622l2jyppl5cnw8bi1fnnfzsv7"))))
+           (commit "540b01fe28209fc2bfd077387243d17e7aadb09b")))
+     (sha256 (base32 "116zrkd3csijzwksk6cjnspx3g6wkiy5bm4wm8vp5mm1pjnns9sk"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -5194,16 +5194,15 @@
 (define-public emacs-autobuild
   (package
    (name "emacs-autobuild")
-   (version "20261120.310")
+   (version "20261121.1844")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/erjoalgo/autobuild.git")
-           (commit "23743a2875f69dfa64a7f441132896d7c64b79b9")))
-     (sha256 (base32 "1vra3m857hjzvsdkwdl4whzld1pcv3zfff45h2l4bmyxi4k4jair"))))
+           (commit "f764799a706cc4dcbf09e581296a3a494b18da81")))
+     (sha256 (base32 "1sdmdlik40jidgcp4z06yac761k6v6yr0ij8bv8z37r48ialgafa"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-selcand))
    (home-page "https://github.com/erjoalgo/autobuild")
    (synopsis "Define and execute build rules and compilation pipelines")
    (description "Documentation at https://melpa.org/#/autobuild")
@@ -21903,17 +21902,17 @@
 (define-public emacs-discover-my-major
   (package
    (name "emacs-discover-my-major")
-   (version "20261115.1951")
+   (version "20261119.1555")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://framagit.org/steckerhalter/discover-my-major.git")
-           (commit "13557c305fe2cde5115b448f33c6950645eaf6e6")))
-     (sha256 (base32 "0h7glxsjinq0k97r7ip8kmgmyxm71gvf8kc32yy5vygkd3cxdm6h"))))
+           (commit "97352b5e9328191fd244eba5b1e62f2c8c90b8d0")))
+     (sha256 (base32 "0qifr6kijgh343sjvvmhf7i4w5ijzzfzdab80vfbaq9ikfhlsivz"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-makey))
-   (home-page "https://framagit.org/steckerhalter/discover-my-major")
+   (home-page "https://github.com/steckerhalter/discover-my-major")
    (synopsis
     "Discover key bindings and their meaning for the current Emacs major mode")
    (description "Documentation at https://melpa.org/#/discover-my-major")
@@ -22680,16 +22679,17 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20261122.1731")
+   (version "20261123.459")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "1d53c87fc75b26eb25dbbc65213667586e434d39")))
-     (sha256 (base32 "15mf322cfbjki3p22689ivkc1s43llzjbckymkj0v4mia7s8d2yc"))))
+           (commit "4460f196c0497c5ab4a68d7f1aabd54b2e3d09c5")))
+     (sha256 (base32 "1iq5d6n0zvcl25md9acks2pjqs2b53vzd2isva4jdya1swjhq4c4"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-compat emacs-nerd-icons emacs-shrink-path))
+   (propagated-inputs
+    (list emacs-compat emacs-nerd-icons emacs-shrink-path emacs-timeout))
    (home-page "https://github.com/seagle0128/doom-modeline")
    (synopsis "A minimal and modern mode-line")
    (description "Documentation at https://melpa.org/#/doom-modeline")
@@ -54147,14 +54147,14 @@
 (define-public emacs-japanese-menu
   (package
    (name "emacs-japanese-menu")
-   (version "20261122.1240")
+   (version "20261122.2301")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/yt-emacs-ja/emacs-japanese-menu.git")
-           (commit "c2d886cc47053efb731a057a9762dd23b747313e")))
-     (sha256 (base32 "0ydv6vibrjslhy4kbqgx1c78shabw4rm98r8wahx99q7nx26k44f"))))
+           (commit "6211bf5acf4904eee3d13c50845bd9a761361738")))
+     (sha256 (base32 "0nnl6bgnlshvrlm3jwi69i3q5y4r1x0jrwcmjcv40rzsl64v16fg"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/yt-emacs-ja/emacs-japanese-menu")
    (synopsis "Japanese menu translation")
@@ -95244,14 +95244,14 @@
 (define-public emacs-sleek-modeline
   (package
    (name "emacs-sleek-modeline")
-   (version "20260720.2336")
+   (version "20261122.2329")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abidanBrito/sleek-modeline.git")
-           (commit "c32ec1d448c5d673f75d0f7f8297dbc7a881d6fc")))
-     (sha256 (base32 "0gr0pw89p9yiw1crhi9q91fq0vnpkin30j9wgwrnhf6lwf9ay9wi"))))
+           (commit "2bdd11aa282e898c1799c34598dbc5102cf72b9b")))
+     (sha256 (base32 "0dr1lqhiwajr1qa39kb5vzhqvwhw76p8drjqwf8lqrdfnygj3mws"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/abidanBrito/sleek-modeline")
    (synopsis "Minimal and elegant modeline")
@@ -102545,14 +102545,14 @@
 (define-public emacs-timu-macos-theme
   (package
    (name "emacs-timu-macos-theme")
-   (version "20261105.251")
+   (version "20261122.2256")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/aimebertrand/timu-macos-theme.git")
-           (commit "dc3adfd413c8178f98e89ee9cca0096456f126b4")))
-     (sha256 (base32 "10l91wx4b59g8pjwclwv5s3i0dmx6nlc7s5kmy8542s9ca8dpws8"))))
+           (commit "69600280997cf980a5a0e4a436d821f2b1754ad2")))
+     (sha256 (base32 "0fh6cms5d8rsc21xnwykqd10xbmch9fz8s7wmwl30pcpa8ks8934"))))
    (build-system melpa-build-system)
    (home-page "https://gitlab.com/aimebertrand/timu-macos-theme")
    (synopsis "Color theme inspired by the macOS UI")
@@ -103544,14 +103544,14 @@
 (define-public emacs-trailing-newline-indicator
   (package
    (name "emacs-trailing-newline-indicator")
-   (version "20261122.2117")
+   (version "20261122.2258")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/saulotoledo/trailing-newline-indicator.git")
-           (commit "a09c5639d3d80420668088178e98d15ec6b967c7")))
-     (sha256 (base32 "1vxmlp2c7037zd61n8x7gk9y8y7ysvz4ca13cx7pkaikf8qr70ba"))))
+           (commit "957ee009d62e158abcfd9dc7335aa17a7fdc5e49")))
+     (sha256 (base32 "0cs6j02z0i09rnpcxmfd3i7dxjhlvmdwqsc5d65zjyw0hikzf3sk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/saulotoledo/trailing-newline-indicator")
    (synopsis "Show an indicator for the trailing newline")
