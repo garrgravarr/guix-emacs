@@ -1893,14 +1893,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261123.412")
+   (version "20261123.1730")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "540b01fe28209fc2bfd077387243d17e7aadb09b")))
-     (sha256 (base32 "116zrkd3csijzwksk6cjnspx3g6wkiy5bm4wm8vp5mm1pjnns9sk"))))
+           (commit "faad9277ba7db7759a6c3a351b65eeaf8d6abbe5")))
+     (sha256 (base32 "1gciy5qa9mqm9vqr1xjxkbkrqxj96l35l0fxgj0xzha19r1wpl97"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -12582,14 +12582,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261119.1105")
+   (version "20261123.1607")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "61389031e932dd619adf009e7d02b7db574d4415")))
-     (sha256 (base32 "17k9k1x6m2nfnnf0rvas1ljn0l9ddkgd7wigl8lz1a7l3pmn53dj"))))
+           (commit "71b3681ee0d4111994d78ee822d0d5e81da3b05f")))
+     (sha256 (base32 "1293bj542gj8fkskindj53pb2462lafnrmpjhx3v90255218pxn8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -20443,14 +20443,14 @@
 (define-public emacs-diff-hl
   (package
    (name "emacs-diff-hl")
-   (version "20261122.1426")
+   (version "20261123.641")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dgutov/diff-hl.git")
-           (commit "b0c04cf21a02351958f3b6fe40e0b28b1515b9bb")))
-     (sha256 (base32 "1yc46cdrb6d85v2gb9w1kzrr75c8b5n4hsnnn90gzpf116xw2hb7"))))
+           (commit "768b8f16943a85e096930ac0b5982ef681fcef30")))
+     (sha256 (base32 "1j8gs1x825c14jm8sn6f5xkzwfzfm5xwkanb424qxl0baffhq5b8"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/dgutov/diff-hl")
    (synopsis "Highlight uncommitted changes using VC")
@@ -21582,14 +21582,14 @@
 (define-public emacs-dired-video-thumbnail
   (package
    (name "emacs-dired-video-thumbnail")
-   (version "20251215.816")
+   (version "20261123.1354")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/captainflasmr/dired-video-thumbnail.git")
-           (commit "0add8bc5d87d77cdd8a81f85413d84ed339d1609")))
-     (sha256 (base32 "1dnqbhs29zj64sgjs364pv2kd8gqiay1ky1ssxz5rz7gh1bhqri5"))))
+           (commit "4f58108139412206a88833da4539afcf6f15eada")))
+     (sha256 (base32 "15rk1z20pznzy9d9anmh02idk7ql3qnzgajicgqqza25vkliivfj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/captainflasmr/dired-video-thumbnail")
    (synopsis "Display video thumbnails from dired")
@@ -22679,14 +22679,14 @@
 (define-public emacs-doom-modeline
   (package
    (name "emacs-doom-modeline")
-   (version "20261123.459")
+   (version "20261123.1603")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/seagle0128/doom-modeline.git")
-           (commit "4460f196c0497c5ab4a68d7f1aabd54b2e3d09c5")))
-     (sha256 (base32 "1iq5d6n0zvcl25md9acks2pjqs2b53vzd2isva4jdya1swjhq4c4"))))
+           (commit "8b844528f2c0b2ec30d42321bfabcc47ac6804c2")))
+     (sha256 (base32 "1y835nhq8f63r4ra8l3dxkx1x6gp92kyssx60jq4xvr6kbln0qy7"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-nerd-icons emacs-shrink-path emacs-timeout))
@@ -25256,14 +25256,14 @@
 (define-public emacs-ejc-sql
   (package
    (name "emacs-ejc-sql")
-   (version "20261103.1619")
+   (version "20261123.1138")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/kostafey/ejc-sql.git")
-           (commit "38e919fdc68be7e925bbc1510d9814723ca98908")))
-     (sha256 (base32 "1p39q3n3vgd8gwifgn3b8dxk4rqvb9a5gfa2ns08qh2admlbikmx"))))
+           (commit "979181d4f5d37eb8ee20a12fd26fb9bebfe329ff")))
+     (sha256 (base32 "159bvsis8dzf38mfnwlhq6qvinqg2fvlp15dzzz2rzc3rzfzzsh1"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-clomacs emacs-dash emacs-spinner))
    (arguments '(#:files (:defaults "project.clj" "src" "snippets")))
@@ -50292,14 +50292,14 @@
 (define-public emacs-hyperbole
   (package
    (name "emacs-hyperbole")
-   (version "20261122.1454")
+   (version "20261123.1400")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://git.savannah.gnu.org/git/hyperbole.git")
-           (commit "679d0bcc4863e36555719570353d9f338b52a81b")))
-     (sha256 (base32 "134b8v507015g7majryfa6acdm8kvisj976wkpqmbbrzmrgzv1nz"))))
+           (commit "3e14aa96188921d30e3a2c3f14017b53553deed7")))
+     (sha256 (base32 "1g1bkzn0wabf3fvi08y7bmdss7gwi8kdvhssmfav66f4hbs2ypf4"))))
    (build-system melpa-build-system)
    (arguments
     '(#:files
@@ -67971,14 +67971,14 @@
 (define-public emacs-mysql
   (package
    (name "emacs-mysql")
-   (version "20261119.1205")
+   (version "20261123.853")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/mysql.el.git")
-           (commit "5091428189a564440ac1de0657e2b306d3117c67")))
-     (sha256 (base32 "15ay6blaln6kbjakvyv5flpvmn8s116rfdhc4qz60x2hx5dl8703"))))
+           (commit "fcd9b6e2ecb905fa2bdea7d02db43235cc5ecbfe")))
+     (sha256 (base32 "1ns0znzmyqm90ly5gp04viy519ysl3jji5408q5hz5wqnma7k35b"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/mysql.el")
    (synopsis "Pure Elisp MySQL wire protocol client")
@@ -77296,14 +77296,14 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261121.621")
+   (version "20261123.554")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "04333960c7a4e304b8c4f27233c99a07aaedfda1")))
-     (sha256 (base32 "0rrgnvqa9vzc2vll3kpd6c3mbh31ds3yzwnvsfvyrv1dpgis2caj"))))
+           (commit "7fa9458a7e40050585b9b1ebe6633f5d4127aa2e")))
+     (sha256 (base32 "14jg2qv71xwy3k6cjssy9xz6kzf0nhlkcx66da9jg5g6zkry5gmc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -81862,14 +81862,14 @@
 (define-public emacs-pgsql
   (package
    (name "emacs-pgsql")
-   (version "20261030.2355")
+   (version "20261123.853")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/pgsql.el.git")
-           (commit "adf4ca1d5997e492bb30f133f12b8960df73c73f")))
-     (sha256 (base32 "0b9b5j4m3dcyn6g8symjiy3fw2swp1f0i5fzg6b6j0a4g5lyj66q"))))
+           (commit "1ca14ff06a40000977d186df3b73c55d33a8c07f")))
+     (sha256 (base32 "1rwpxpw92k0lydf3migrbc8bcy28vvinzkxllpqm30y1r6ylvbnl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/pgsql.el")
    (synopsis "Native PostgreSQL protocol client")
@@ -82073,14 +82073,14 @@
 (define-public emacs-phony
   (package
    (name "emacs-phony")
-   (version "20261115.1808")
+   (version "20261123.206")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ErikPrantare/phony.el.git")
-           (commit "b2308e779fb398ac93ba61c5898d00843f89dd85")))
-     (sha256 (base32 "1mhxx8ma9xpl1971wf41f12rp1jh6xaqnly58kcj6qqyjqmvhhxk"))))
+           (commit "ac14a68b3a9affa9791c79dc52a961336c318405")))
+     (sha256 (base32 "0h6j79rs5p1yrncj4vfaqwg40630czjrqi5j1xsyycxyk374mdd8"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-simulacrum))
    (home-page "https://github.com/ErikPrantare/phony.el")
@@ -82482,14 +82482,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20261116.228")
+   (version "20261123.1555")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "791559f7075b6f574e13c75643d511f72740567f")))
-     (sha256 (base32 "14i13z3sf21mb6am96kn3znps0dya1sb1w23n77cddawvyi6wsyj"))))
+           (commit "32a6e4de4833481c0d6270da5f76a500a53a3ea1")))
+     (sha256 (base32 "15b0pch85ypmdf3wd0wb9z9b6f8h04m0asigbry1wkq05ainc9y3"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -101718,14 +101718,14 @@
 (define-public emacs-testcover-audit
   (package
    (name "emacs-testcover-audit")
-   (version "20260923.1647")
+   (version "20261123.1433")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/OverbearingPearl/testcover-audit.git")
-           (commit "e910fa6ee162a99cf47644ce945519ae60acb0f5")))
-     (sha256 (base32 "1cb9jacrgdsbx6kglfkf4akavsy0c77h6vaqh0sgasyfmj3yqsqc"))))
+           (commit "519d6bf1b7839bf755c6a79ec3f85b71fa9113a6")))
+     (sha256 (base32 "0wdw6vk0bivqnfrwgyfyk2rcqpcjm7zkkh66qhcz7aaryz0rwzqn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/OverbearingPearl/testcover-audit")
    (synopsis "Quantitative coverage statistics for testcover.el")
