@@ -1678,14 +1678,14 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261120.1305")
+   (version "20261124.401")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/agent-shell.git")
-           (commit "dde9392902d750375bedaf7347c31cc15c66ca8f")))
-     (sha256 (base32 "088jcmal3g9ymnqw94sd83ambnpn8lrak58lmf2g9fb802wy1r8l"))))
+           (commit "a4f5ae4466e98a72a58da62715c152b22085510b")))
+     (sha256 (base32 "0ddg2pzlmb449hkyi694v854acn451vpyyagwj9wy49czimv0fsa"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -1893,14 +1893,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261123.1730")
+   (version "20261124.359")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "faad9277ba7db7759a6c3a351b65eeaf8d6abbe5")))
-     (sha256 (base32 "1gciy5qa9mqm9vqr1xjxkbkrqxj96l35l0fxgj0xzha19r1wpl97"))))
+           (commit "0d346752515c92b53d879b178dadd6365581d69e")))
+     (sha256 (base32 "0q9pyv9ww2l7sxyh4595hbvknn9641i5chs4n6i0h91nkiz335fi"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -12582,14 +12582,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261123.1607")
+   (version "20261124.615")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "71b3681ee0d4111994d78ee822d0d5e81da3b05f")))
-     (sha256 (base32 "1293bj542gj8fkskindj53pb2462lafnrmpjhx3v90255218pxn8"))))
+           (commit "bef8b7cdd566b0f81ebf4cb5106decedfe363808")))
+     (sha256 (base32 "1z3mr4j7anirw11hm13ahy1w7kb8rwmkr00hz789al1xkpcsim1d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -23430,14 +23430,14 @@
 (define-public emacs-dune
   (package
    (name "emacs-dune")
-   (version "20261112.446")
+   (version "20261123.2029")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ocaml/dune.git")
-           (commit "3de1eec4deb3af117b50a285e3e1306b1dfe3438")))
-     (sha256 (base32 "1x0z5rnncq3klf6z013syxnrhcrnffj15n1slr8nc6c3nr5nzhvq"))))
+           (commit "a4aa30e0f31e1a962f2c42671c9530977adec370")))
+     (sha256 (base32 "16vfd2f28957a9s8ys6sz58gk81pbv1rrmgg1gkq4yh08cs2593m"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editor-integration/emacs/*.el")))
    (home-page "https://github.com/ocaml/dune")
@@ -44594,14 +44594,14 @@
 (define-public emacs-hack-mode
   (package
    (name "emacs-hack-mode")
-   (version "20260207.559")
+   (version "20261124.25")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hhvm/hack-mode.git")
-           (commit "0b117e7f259439e7b5d961ec936d8718a727c13a")))
-     (sha256 (base32 "0l89hvsdx0igqxj1vvxwry461r459qfs40bv3lhfl32h333n3pq9"))))
+           (commit "b17a1de4620767dc94bc1201682d1eedaa41702e")))
+     (sha256 (base32 "1lcdmqqxrq54073av25qsdkwqdcsjyh9xd56shmmw9w32qjkni3z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s))
    (home-page "https://github.com/hhvm/hack-mode")
@@ -63437,14 +63437,14 @@
 (define-public emacs-markdown-ts-appear
   (package
    (name "emacs-markdown-ts-appear")
-   (version "20261109.228")
+   (version "20261124.710")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/Thysrael/markdown-ts-appear.git")
-           (commit "60b5a5082d1594170fe119cf14bedd64232261c5")))
-     (sha256 (base32 "1brbqsm14qf85839dx5vbk753q3rar71200rjz8rihn0d5z43gg0"))))
+           (commit "6d1b95e57a04c938fb39b0c61a04e9dbacbae1ff")))
+     (sha256 (base32 "0lppf5n03pd26165ixpa0gp86bg715y9g4pgm4sh6lxngb0gyndy"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Thysrael/markdown-ts-appear")
    (synopsis "Reveal Markdown source at point")
@@ -82444,14 +82444,14 @@
 (define-public emacs-pilish
   (package
    (name "emacs-pilish")
-   (version "20261116.445")
+   (version "20261124.232")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/dnouri/pilish.git")
-           (commit "69179108707fd056885707314404efc6d0cf8d2e")))
-     (sha256 (base32 "1mg1j3a00yjyqqrmy3sgvnf78qda1q50g5mba0dfg0448kzdrnr7"))))
+           (commit "84dfd94171130f812bb91b1549aa1157ffc18ae5")))
+     (sha256 (base32 "0d6g612mr0hk7ns3jkwqrm69hamk8662k5g57w9v16d1mnd2rvpk"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-magit-section emacs-md-ts-mode emacs-markdown-table-wrap))
@@ -82482,14 +82482,14 @@
 (define-public emacs-pimacs
   (package
    (name "emacs-pimacs")
-   (version "20261123.1555")
+   (version "20261124.203")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ananthakumaran/pimacs.el.git")
-           (commit "32a6e4de4833481c0d6270da5f76a500a53a3ea1")))
-     (sha256 (base32 "15b0pch85ypmdf3wd0wb9z9b6f8h04m0asigbry1wkq05ainc9y3"))))
+           (commit "2223685aa3a74e81677c1dc8eab6ad680fc99008")))
+     (sha256 (base32 "03zcmhzv471aiw3ahz91i99lvmd77bplysxpb7yx78qnw8zfb9bf"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-compat emacs-timeout emacs-pcre2el emacs-spinner))
@@ -86637,14 +86637,14 @@
 (define-public emacs-pyfun-mode
   (package
    (name "emacs-pyfun-mode")
-   (version "20261122.1734")
+   (version "20261124.20")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/simontreanor/Pyfun.git")
-           (commit "1000973c5a6f5f4f0d3f43ee78fe76accee1bd42")))
-     (sha256 (base32 "0bd9xh2nkyzvmbjy4kjl3nd4z1p346y3scda4as0v7ra7ffxaw9i"))))
+           (commit "79bd284b1448dd9abec9db86d11470a93f3cb0eb")))
+     (sha256 (base32 "1j8w3vc4flx8crk4y4kys8cg3nx1b9s49gf1j05xwpa52cp1lqw2"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editors/emacs/pyfun-mode.el")))
    (home-page "https://github.com/simontreanor/Pyfun")
@@ -93783,14 +93783,14 @@
 (define-public emacs-shell-maker
   (package
    (name "emacs-shell-maker")
-   (version "20261118.1212")
+   (version "20261124.227")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/xenodium/shell-maker.git")
-           (commit "cba42efd503bbdf19a7244b9119efd8764e99ecb")))
-     (sha256 (base32 "067jkanhnqvzgks5vyhkzpj9my0d85cn4x0lpz7d3ysirdi571ri"))))
+           (commit "bbc578b5ff9d08a5be4044191acf0511752d95bd")))
+     (sha256 (base32 "0bg7hyi9dk8qd6mw2zhlxlsc4m5cfy8vzivkldbl5bqdzqwwsdfp"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/xenodium/shell-maker")
    (synopsis "Interaction mode for making comint shells")
@@ -95244,14 +95244,14 @@
 (define-public emacs-sleek-modeline
   (package
    (name "emacs-sleek-modeline")
-   (version "20261122.2329")
+   (version "20261123.1729")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/abidanBrito/sleek-modeline.git")
-           (commit "2bdd11aa282e898c1799c34598dbc5102cf72b9b")))
-     (sha256 (base32 "0dr1lqhiwajr1qa39kb5vzhqvwhw76p8drjqwf8lqrdfnygj3mws"))))
+           (commit "e8e3c868d8d42b1af0e9324b387b11792abaa2bc")))
+     (sha256 (base32 "1jw2ppnsi6yx7pvkvav4czcif2j8m367bsf1lnarz5sv8n68bflv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/abidanBrito/sleek-modeline")
    (synopsis "Minimal and elegant modeline")
@@ -102149,14 +102149,14 @@
 (define-public emacs-thrift
   (package
    (name "emacs-thrift")
-   (version "20261114.2147")
+   (version "20261123.1038")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/facebook/fbthrift.git")
-           (commit "b69d77ab54709d470276a0d17070b19ae4541463")))
-     (sha256 (base32 "0q21y50d9wiia5fixsd9cdn5kadgw5b5gylrwmbllpp2khhwqqz7"))))
+           (commit "3585becbfea4c6fdb03da6ec77344458f07421ff")))
+     (sha256 (base32 "194k0yzcy27zpnv8bp405d8p2ksqlfl35r6lix8hjh9dh7xczpl2"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("thrift/contrib/thrift.el")))
    (home-page "https://github.com/facebook/fbthrift")
