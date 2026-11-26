@@ -1487,14 +1487,14 @@
 (define-public emacs-advent-mode
   (package
    (name "emacs-advent-mode")
-   (version "20261125.1326")
+   (version "20261125.1907")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vkazanov/advent-mode.git")
-           (commit "e5759b69127e58f912084110357426dc5a3bac6e")))
-     (sha256 (base32 "11wads6b280y2fkrmcz3wljnnhgp7z9kvkjwh15dk72am7s6ngq9"))))
+           (commit "41c3e411da38d3e74e8f19b4a95c6ba98d67d65a")))
+     (sha256 (base32 "18jm4hds2q9hxg1yvv48m4jdcb6jmrq5bshca7fi6i1zydzhvv47"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/vkazanov/advent-mode")
    (synopsis "Advent of Code mode")
@@ -1911,14 +1911,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261124.359")
+   (version "20261125.1632")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "0d346752515c92b53d879b178dadd6365581d69e")))
-     (sha256 (base32 "0q9pyv9ww2l7sxyh4595hbvknn9641i5chs4n6i0h91nkiz335fi"))))
+           (commit "3c3ddeefcfb2c0b9e63515ef936d25879cad3449")))
+     (sha256 (base32 "0ga5lsh0c82p9qwpwilrbfn7zjyn4zscn09lbj5abmqga11x1wcx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
    (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
@@ -6193,14 +6193,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20261125.554")
+   (version "20261126.223")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "da396d291a02a498a0e8acbc88de42083d509965")))
-     (sha256 (base32 "0962klcrcmzqvnjc6a01kp7y9ywqfbh2fsdl4x2j816cgwy339iy"))))
+           (commit "090f8115b572cb1afbe1cfa079b2088e8866b67f")))
+     (sha256 (base32 "0gpxh275ssh3na3nf8xahi44ab4i46q0nhwb4lgaxwq32jbl3w2d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -10438,14 +10438,14 @@
 (define-public emacs-cfn-mode
   (package
    (name "emacs-cfn-mode")
-   (version "20261115.906")
+   (version "20261122.906")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://gitlab.com/worr/cfn-mode.git")
-           (commit "788d22a8a492a22661981cf6bf1bf8ba8774b254")))
-     (sha256 (base32 "0hkzwprbjww28dzh8jycidjpvz2gdzky9i9xzk36ahh5vppla5cx"))))
+           (commit "8be6aebd95425d4079d980a115d60c81fd6d0242")))
+     (sha256 (base32 "0mdl3q2dpqzljxn1i3xp60zkp6nvdr5ixwk5kyxrjry2xf620x3k"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-f emacs-s emacs-yaml-mode))
    (arguments
@@ -24302,14 +24302,14 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20261125.1427")
+   (version "20261125.2017")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "949742d6c27861c12d8c001c943d254d82a5e1c6")))
-     (sha256 (base32 "09yvn7vip653gsn6cpf0n8wqkhhajx1byj2lhy4fna6iknd89qrh"))))
+           (commit "3f4e4cfc1c0ff85006cca73302db1d2ce4677621")))
+     (sha256 (base32 "1bgk4jkjgf9f68nz8jyzddwrdbxx4wm7j9f1jpm3mi82pmxby6b5"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -27800,14 +27800,14 @@
 (define-public emacs-emcp
   (package
    (name "emacs-emcp")
-   (version "20261125.1443")
+   (version "20261125.1936")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/martenlienen/emcp.git")
-           (commit "35faec4e8ec1a024f4dc67fe4570788a99b7a254")))
-     (sha256 (base32 "0fwn1wcagal1j973vqwjlkcfwwpzrsq4cf7hj2p6hw1wkh87kx4g"))))
+           (commit "aa52369a626a64db090d1b7a2af2377ca5db9c71")))
+     (sha256 (base32 "0bmcxny1a1m10nck1mdzjpr19g0kjxmhim6qkzpnfmncvxlncsgb"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-http-server emacs-elisp-refs emacs-magit-section))
@@ -28795,14 +28795,14 @@
 (define-public emacs-erc-matterircd
   (package
    (name "emacs-erc-matterircd")
-   (version "20260628.743")
+   (version "20261125.2325")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/alexmurray/erc-matterircd.git")
-           (commit "f4c8e3cac924065b2d0e43114459c45fa39cc006")))
-     (sha256 (base32 "0jsw6vbhr5g10cv3sw5lkkv8nkb18gcc6x2zy4hzqp9d72y7y08h"))))
+           (commit "f53e3e94b6f187d7c7f3c6ff35f149e30d52b0f9")))
+     (sha256 (base32 "088d163zrih71wk8wfzj3s8n25ra69cx5l7yf9m54gniw3xwbis3"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/alexmurray/erc-matterircd")
    (synopsis "Integrate matterircd with ERC")
@@ -40435,7 +40435,7 @@
 (define-public emacs-ghostel
   (package
    (name "emacs-ghostel")
-   (version "20261125.1441")
+   (version "20261125.1549")
    (source
     (origin
      (method git-fetch)
@@ -68775,14 +68775,14 @@
 (define-public emacs-nerd-icons
   (package
    (name "emacs-nerd-icons")
-   (version "20261121.551")
+   (version "20261126.306")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/rainstormstudio/nerd-icons.el.git")
-           (commit "9e184d8e05891a5b0444e65acb3a1bdb24eab3b1")))
-     (sha256 (base32 "1adhw2q2bbpi2qjxq29991454082jwwq56v0r0ciaa384f8379ac"))))
+           (commit "760ea462e5edd431ec530e4d3a6abb7a4e05f95b")))
+     (sha256 (base32 "0wkc9gwzjvvkkmkyypnd5754jqmv9qh4ls7vd18xsvhxvh26pbs4"))))
    (build-system melpa-build-system)
    (arguments '(#:files (:defaults "data")))
    (home-page "https://github.com/rainstormstudio/nerd-icons.el")
@@ -85330,14 +85330,14 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20260930.434")
+   (version "20261125.1554")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bbatsov/projectile.git")
-           (commit "4d2be8680fe445c4ca88177f0ed838051cadfe58")))
-     (sha256 (base32 "1535ad13pkjpm2z6p4xvl9ka536fm87bzs3li7vgsxz7ry5hi1l2"))))
+           (commit "e26235eaae9cdd3885f198e8c50ede93eef76adc")))
+     (sha256 (base32 "155rv2lxii0lh1slsgbc399r4x911vaqdj7r3dnq4b5xk8xcsayp"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -86714,14 +86714,14 @@
 (define-public emacs-pyfun-mode
   (package
    (name "emacs-pyfun-mode")
-   (version "20261124.20")
+   (version "20261125.1959")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/simontreanor/Pyfun.git")
-           (commit "79bd284b1448dd9abec9db86d11470a93f3cb0eb")))
-     (sha256 (base32 "1j8w3vc4flx8crk4y4kys8cg3nx1b9s49gf1j05xwpa52cp1lqw2"))))
+           (commit "bb3482172b564f559fd5ed5507000c3209eff076")))
+     (sha256 (base32 "00kr2f6fl0sa1b6p1gwjf4fm520n43l855788nr33v9p966rwybj"))))
    (build-system melpa-build-system)
    (arguments '(#:files ("editors/emacs/pyfun-mode.el")))
    (home-page "https://github.com/simontreanor/Pyfun")
@@ -96673,14 +96673,14 @@
 (define-public emacs-sniem
   (package
    (name "emacs-sniem")
-   (version "20261121.1651")
+   (version "20261125.1746")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/SpringHan/sniem.git")
-           (commit "5c2364587f3eda8f996375bba5bf8ff4fd0977f6")))
-     (sha256 (base32 "16qm0bzqvaxgijzvgwl6n805aqxp3f6kfa4nlg88jx7qjfl3arw5"))))
+           (commit "361c90b31756f62d7e97b3492c775373823f7f97")))
+     (sha256 (base32 "1n626yp8aw4d9wgm22ib178qzc8ny6581a2cn2h1ldaih6nrb4pw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-s emacs-dash))
    (home-page "https://github.com/SpringHan/sniem.git")
@@ -105888,14 +105888,14 @@
 (define-public emacs-uniline
   (package
    (name "emacs-uniline")
-   (version "20261113.1425")
+   (version "20261125.1847")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/tbanel/uniline.git")
-           (commit "6a9fd2f152ad69134de3048f9939fdda945c8275")))
-     (sha256 (base32 "0m5s7zhy9630n4rglzhk7kbqq6iisqlni2a0ix29pn7vacbxglyf"))))
+           (commit "6b180cdf958e657d5641164a2eabc35baa5d52ee")))
+     (sha256 (base32 "1z67cbrzak1jp7cm8rlp2v62rvkiyl23p9c84ysc8wxb4mp60mqm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-hydra))
    (home-page "https://github.com/tbanel/uniline")
@@ -110250,14 +110250,14 @@
 (define-public emacs-wiz
   (package
    (name "emacs-wiz")
-   (version "20250107.2133")
+   (version "20261126.350")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/zonuexe/emacs-wiz.git")
-           (commit "1b8b8d54e011dd989a52cde9596e077aa09e5894")))
-     (sha256 (base32 "0fpzjplq0jh4fas82mf699cm0c22wm0wmdjf0nj905sjhzqk6si2"))))
+           (commit "157e873e97947dabb35f3bf0ee092547a05b9161")))
+     (sha256 (base32 "0d6yl836bzxrfb31nimglkgjh2v7b7pghnndxl6gpj0nbkcnh6sq"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-exec-path-from-shell))
    (home-page "https://github.com/zonuexe/emacs-wiz")
