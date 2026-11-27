@@ -1487,14 +1487,14 @@
 (define-public emacs-advent-mode
   (package
    (name "emacs-advent-mode")
-   (version "20261126.1305")
+   (version "20261126.2011")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/vkazanov/advent-mode.git")
-           (commit "a91d5e3ef568460892890c89dd14c4fa4139179e")))
-     (sha256 (base32 "0gsn02azrjsb1f8shyn1lq40vh33bwl0bjccq74rixqnv5h39l8c"))))
+           (commit "b10007850442d1b6296398b208b6b0b4d61b1596")))
+     (sha256 (base32 "00xf916blmqqamzkl2502bwb3z6d1g13zb8jzkfmls62bkpi5dfk"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/vkazanov/advent-mode")
    (synopsis "Advent of Code mode")
@@ -6193,14 +6193,14 @@
 (define-public emacs-bazel
   (package
    (name "emacs-bazel")
-   (version "20261126.402")
+   (version "20261126.1917")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/bazelbuild/emacs-bazel-mode.git")
-           (commit "090f8115b572cb1afbe1cfa079b2088e8866b67f")))
-     (sha256 (base32 "0gpxh275ssh3na3nf8xahi44ab4i46q0nhwb4lgaxwq32jbl3w2d"))))
+           (commit "1f8ba511bd094b1f5c77b59ac2f04cc391d5b209")))
+     (sha256 (base32 "0n9sw2qmrp3aps5jrbawr655ix82wg158z5s440mq959ris1csfv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bazel-contrib/bazel.el")
    (synopsis "Bazel support for Emacs")
@@ -12600,14 +12600,14 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261126.913")
+   (version "20261127.348")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/clutch.git")
-           (commit "e51b05e3807c0906640d247b8878beafdde85627")))
-     (sha256 (base32 "0vwh4ha275s3c6skrzrgvqb5a671hlrva8ayn2s863v5v0ix4kwd"))))
+           (commit "462900dfa9b70127f96fe79edd85d56bb5919b2b")))
+     (sha256 (base32 "05kswcjsckqfqz2afqxkqfr30q9vs1my107gj824n2wnla7qpn1i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -13644,14 +13644,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20261126.1337")
+   (version "20261127.48")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/company-mode/company-mode.git")
-           (commit "194eabe9ee43e4b1911dd842070cb50e4a67d741")))
-     (sha256 (base32 "1iywis0yrp1lqpfqlzn7krywvmrm5in5rf3vijz4nwm6y6i9aa6c"))))
+           (commit "4e869fe70f44786a99a9201a34e552d14b2d2a2c")))
+     (sha256 (base32 "13rnf6dn0qvba01vp8hsr090vwm92p1s65l0ll0d63i5an4igczd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
    (arguments
@@ -25878,14 +25878,14 @@
 (define-public emacs-eldoc-box
   (package
    (name "emacs-eldoc-box")
-   (version "20260903.1246")
+   (version "20261126.2136")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/casouri/eldoc-box.git")
-           (commit "89900de72dca291d5914ffc5da701b3170704229")))
-     (sha256 (base32 "1fbc9hny036rzfd91dkia5wii1gf9bvl0df5wvyflpk4nqac7sh4"))))
+           (commit "67dba0862dd1fc3effe8230e13fc0c407876bf6d")))
+     (sha256 (base32 "19dj9hxwn8414nf7wr68m52acamq1angmmhd3i2136ry4v8j8iw7"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/casouri/eldoc-box")
    (synopsis "Display documentation in childframe")
@@ -32451,17 +32451,17 @@
 (define-public emacs-extempore-mode
   (package
    (name "emacs-extempore-mode")
-   (version "20261125.1304")
+   (version "20261127.106")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/extemporelang/extempore-emacs-mode.git")
-           (commit "02edd4b0748dec83ba14ac11c53f8c9ccb1ca3b5")))
-     (sha256 (base32 "0jkbgfldy3isxg7jydywfw09ss0jnrcsih9sa31j2xiagrcl758f"))))
+           (commit "22b6b6aded2db29c365b8bb72d7afff3a52711fd")))
+     (sha256 (base32 "1p94ggib46b5sn8zj7g60a8ka0af5d7xi4pl2bhwy417741b84xn"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/extemporelang/extempore-emacs-mode")
-   (synopsis "Emacs major mode for Extempore source files")
+   (synopsis "Major mode for Extempore source files")
    (description "Documentation at https://melpa.org/#/extempore-mode")
    (license #f)))
 
@@ -48697,14 +48697,14 @@
 (define-public emacs-hide-mode-line
   (package
    (name "emacs-hide-mode-line")
-   (version "20240828.2322")
+   (version "20261126.2053")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/hlissner/emacs-hide-mode-line.git")
-           (commit "ddd154f1e04d666cd004bf8212ead8684429350d")))
-     (sha256 (base32 "0iwfn828fp9ma9xcn0077749a32kp5rk677hh9hc1akiii1j2591"))))
+           (commit "2325a2caf51b0978569add201b3e84815b5b7973")))
+     (sha256 (base32 "0jfy4pggxdg9gv7wagfxgngfykhk2fxzysny2wf0rfk8qz0jl4b2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/hlissner/emacs-hide-mode-line")
    (synopsis "Minor mode that hides/masks your modeline")
@@ -60902,14 +60902,14 @@
 (define-public emacs-loopy
   (package
    (name "emacs-loopy")
-   (version "20261105.136")
+   (version "20261127.43")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://codeberg.org/okamsn/loopy.git")
-           (commit "b75089cdf0a7b004b44ea703d80c47ac821b2635")))
-     (sha256 (base32 "10945az2l70gqq4r2jb53ziswlcd4zdrzr1y6x7v11a2k1f28cm7"))))
+           (commit "abcc79836e1389708ee2772f18d38b1a60d0a122")))
+     (sha256 (base32 "14l83bckzc3z4mmrqkgjm213vx4axmaf2j4bcihhr6j2sjsbi3ba"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat emacs-stream))
    (home-page "https://codeberg.org/okamsn/loopy")
@@ -68048,14 +68048,14 @@
 (define-public emacs-mysql
   (package
    (name "emacs-mysql")
-   (version "20261123.853")
+   (version "20261127.437")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/mysql.el.git")
-           (commit "fcd9b6e2ecb905fa2bdea7d02db43235cc5ecbfe")))
-     (sha256 (base32 "1ns0znzmyqm90ly5gp04viy519ysl3jji5408q5hz5wqnma7k35b"))))
+           (commit "53d341aaa04f61688718c170b13a2d6ab646dba2")))
+     (sha256 (base32 "1syvb6kdhnj7rcn0hrv6b1xir162i98gniz5r45cw235m6jwb37j"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/mysql.el")
    (synopsis "Pure Elisp MySQL wire protocol client")
@@ -75315,14 +75315,14 @@
 (define-public emacs-org-link-beautify
   (package
    (name "emacs-org-link-beautify")
-   (version "20261108.1326")
+   (version "20261127.345")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://repo.or.cz/org-link-beautify.git")
-           (commit "6017a6d38482b94bd4e77214e407b5fe1a3f178f")))
-     (sha256 (base32 "1cr05hh9rqdzknzk9qs5j1l3h377zmvcqg41y4am16c82294dxbn"))))
+           (commit "7fc1502ddee1dc613b532e1e85b08e35db1b566d")))
+     (sha256 (base32 "1i6g79pk4s9i3h38b04pv6xvdi96nfbx3ldkynw6p0g7kb5xy22l"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-nerd-icons emacs-qrencode))
    (arguments '(#:files (:defaults "scripts")))
@@ -76560,14 +76560,14 @@
 (define-public emacs-org-roam-ql
   (package
    (name "emacs-org-roam-ql")
-   (version "20261106.346")
+   (version "20261126.1830")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/ahmed-shariff/org-roam-ql.git")
-           (commit "78860617b61afe5bb6603e2e357e856a3e2f656d")))
-     (sha256 (base32 "1hh0rdydlgl5jf1h4s0vynmzf9d8m8vfqscqk90bppnfjchb887d"))))
+           (commit "217c1d0151f4596c35a53d0e66887f07589efacd")))
+     (sha256 (base32 "1baqnjjj2ll3kc9a9gc9j51dfp19cmm26vydjn6clj60c6znj4sx"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-org-roam emacs-s emacs-magit-section emacs-dash))
@@ -81939,14 +81939,14 @@
 (define-public emacs-pgsql
   (package
    (name "emacs-pgsql")
-   (version "20261123.853")
+   (version "20261127.437")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/LuciusChen/pgsql.el.git")
-           (commit "1ca14ff06a40000977d186df3b73c55d33a8c07f")))
-     (sha256 (base32 "1rwpxpw92k0lydf3migrbc8bcy28vvinzkxllpqm30y1r6ylvbnl"))))
+           (commit "593792c0c25a507beaf567e8b7640f66e31fb92c")))
+     (sha256 (base32 "0dq0g3pqaxnb1lqa3ci4mnryhybdshyfmmdpzvy7cc8bb8wf604j"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/pgsql.el")
    (synopsis "Native PostgreSQL protocol client")
@@ -107356,14 +107356,14 @@
 (define-public emacs-vertico
   (package
    (name "emacs-vertico")
-   (version "20260913.1525")
+   (version "20261126.1927")
    (source
     (origin
      (method git-fetch)
      (uri (git-reference
            (url "https://github.com/minad/vertico.git")
-           (commit "a9998a777f1d92348f84d091bb15b87df933a7a2")))
-     (sha256 (base32 "0sccw9xc12gzshfc6sbyqhphsx8lkbpx2n0pfwwq4n8nwqy343ay"))))
+           (commit "6976caba3c83799e54d3e2647f6dee79f18869b2")))
+     (sha256 (base32 "1j4axskshddf2y88l96fb8jxj17mda3fc2gbppvx3bf0ppvz5w4z"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (arguments '(#:files (:defaults "extensions/vertico-*.el")))
