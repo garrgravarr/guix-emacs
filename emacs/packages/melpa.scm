@@ -842,20 +842,18 @@
 (define-public emacs-ac-php-core
   (package
    (name "emacs-ac-php-core")
-   (version "20261106.159")
+   (version "20261127.546")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/xcwen/ac-php.git")
-           (commit "ccc16f6f7f9ff37fb132ddaca4c8fd4748643c6e")))
-     (sha256 (base32 "12bb26zxsi0hrjxf3xvcn48zj4zglmac6c407hha5mgli3flqmi5"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/ac-php-core-"
+           version
+           ".tar"))
+     (sha256 (base32 "0dgprgk6cw1j0fmpx1m1f1d4rfw3qk50a2n7jk8q1cs59dyh41js"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-php-mode emacs-s emacs-f emacs-popup emacs-xcscope))
-   (arguments
-    '(#:files
-      ("ac-php-comm-tags-data.el" "ac-php-core.el" "phpctags" "*.json")))
    (home-page "https://github.com/xcwen/ac-php")
    (synopsis "The core library of the ac-php")
    (description "Documentation at https://melpa.org/#/ac-php-core")
@@ -1696,14 +1694,15 @@
 (define-public emacs-agent-shell
   (package
    (name "emacs-agent-shell")
-   (version "20261126.1123")
+   (version "20261127.1221")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/xenodium/agent-shell.git")
-           (commit "3f86a162dbb21037bbc2b5d93bd89b1b2b7cf757")))
-     (sha256 (base32 "183y1qhraw22dqgbg2a8zb0n67zalpd2yf5k1qvxb7v4w44vnf8x"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/agent-shell-"
+           version
+           ".tar"))
+     (sha256 (base32 "0f5gixzz3rdj0qlqql0ff2yjpjvq49y9hgrvqmrlwqqvxx47hzsn"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-shell-maker emacs-acp))
    (home-page "https://github.com/xenodium/agent-shell")
@@ -24302,14 +24301,12 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20261126.1348")
+   (version "20261127.1248")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/editor-code-assistant/eca-emacs.git")
-           (commit "b44290a7176e2aa90c54b0a71fd1016ca9f668f2")))
-     (sha256 (base32 "06a1qz9v7pbxr38j112bnv4wr297svf2rhprmy38pmdcn2cdyh2l"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/eca-" version ".tar"))
+     (sha256 (base32 "189jda2cc5lsyfrxpvzclvzm1ch2jyp4555r9khscbh0qq8k65ph"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -27800,18 +27797,15 @@
 (define-public emacs-emcp
   (package
    (name "emacs-emcp")
-   (version "20261126.1227")
+   (version "20261127.944")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://codeberg.org/martenlienen/emcp.git")
-           (commit "25a329b6888bf89a43295afd117834bd28006033")))
-     (sha256 (base32 "0s12qy7k5pmci5gadzik2fv92bj8x4w5azpl01539p23r964s9m9"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/emcp-" version ".tar"))
+     (sha256 (base32 "1yqxc43f2a7p5rycjci5qg7cq70p1d5sgz1v2vz7dxyp1skg6h7n"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-http-server emacs-elisp-refs emacs-magit-section))
-   (arguments '(#:files (:defaults "emacs.svg")))
    (home-page "https://codeberg.org/martenlienen/emcp")
    (synopsis "Lets your agent talk to Emacs")
    (description "Documentation at https://melpa.org/#/emcp")
@@ -44700,14 +44694,15 @@
 (define-public emacs-hackernews-modern
   (package
    (name "emacs-hackernews-modern")
-   (version "20261124.1432")
+   (version "20261127.1028")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.andros.dev/andros/hackernews-modern-el")
-           (commit "39791b648e486f3b42a40d0973b1e9222814cd96")))
-     (sha256 (base32 "04gyky31h6ffnbqfv1iq4fmd5lf9k37ll3nyczdsq004scdv7bif"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/hackernews-modern-"
+           version
+           ".tar"))
+     (sha256 (base32 "0pc9njg9cr4ra90li8sgjpl6v46ak1w82fq4m2jx2q2yd6nphc93"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column emacs-async-http-queue))
    (home-page "https://git.andros.dev/andros/hackernews-modern-el")
@@ -63514,14 +63509,15 @@
 (define-public emacs-markdown-ts-appear
   (package
    (name "emacs-markdown-ts-appear")
-   (version "20261124.710")
+   (version "20261127.1348")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/Thysrael/markdown-ts-appear.git")
-           (commit "6d1b95e57a04c938fb39b0c61a04e9dbacbae1ff")))
-     (sha256 (base32 "0lppf5n03pd26165ixpa0gp86bg715y9g4pgm4sh6lxngb0gyndy"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/markdown-ts-appear-"
+           version
+           ".tar"))
+     (sha256 (base32 "1251jy788p5ngjvm5xyq1is173sjcjdnn1dqymznrk5wk2xcw80i"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Thysrael/markdown-ts-appear")
    (synopsis "Reveal Markdown source at point")
@@ -64280,14 +64276,12 @@
 (define-public emacs-meep
   (package
    (name "emacs-meep")
-   (version "20261118.2235")
+   (version "20261127.928")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://codeberg.org/ideasman42/emacs-meep.git")
-           (commit "5eceb86c58680c0308c5accb2c06c18381a681c7")))
-     (sha256 (base32 "0ahl0yv2vck74bh88x7v38fpm2xzd71qfxk56zz44bvx6ap6k540"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/meep-" version ".tar"))
+     (sha256 (base32 "1r9bhm80hzz4px8z4rkfwkgax3asfm6wcs4g4rgg7h5b2zz3m3rz"))))
    (build-system melpa-build-system)
    (home-page "https://codeberg.org/ideasman42/emacs-meep")
    (synopsis "Lightweight modal editing")
@@ -64926,16 +64920,13 @@
 (define-public emacs-mew
   (package
    (name "emacs-mew")
-   (version "20261126.834")
+   (version "20261127.734")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/kazu-yamamoto/Mew.git")
-           (commit "0fca37e479e8d773e9030d5e36231abf5a7b5192")))
-     (sha256 (base32 "11anccbc5y5b646sjqrmma0dq4pjr04f0720lmpw7ha5z359h2i9"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/mew-" version ".tar"))
+     (sha256 (base32 "11g1rijmvqrwjclbnz8gqrkqsq8shfdx8djf6ai2vwxhz81x5i92"))))
    (build-system melpa-build-system)
-   (arguments '(#:files ("elisp/*.el" "etc" "info/*.info*")))
    (home-page "https://github.com/kazu-yamamoto/Mew")
    (synopsis "Messaging in the Emacs World")
    (description "Documentation at https://melpa.org/#/mew")
@@ -65650,14 +65641,12 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20261126.1145")
+   (version "20261127.1313")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/szermatt/mistty.git")
-           (commit "4a3aaba3c98f7cf08e643de0253c7b82a7592f23")))
-     (sha256 (base32 "0bd2wklz42kmj42gmw2lpggs5az2cyyb3mwf96dps5a58kiidmhd"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/mistty-" version ".tar"))
+     (sha256 (base32 "1bwjsid7d8cfrn5g1nx2g78s5jg21pvxifzmsxnb9h7dj7hrgdyb"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -68706,14 +68695,12 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20261104.1833")
+   (version "20261127.1105")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/bbatsov/neocaml.git")
-           (commit "3be9452953eef1946422dad57cc1dcb8ad5b9603")))
-     (sha256 (base32 "0s1wnpnymym635hhyqpqy1pbjgngacpyc0wsmmvb2vhd0hc967ld"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/neocaml-" version ".tar"))
+     (sha256 (base32 "1vcpkmfklpaca3ip757myrnkna6p2llk7kbbkvpfajp6bg598wbi"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -72387,14 +72374,15 @@
 (define-public emacs-ocaml-eglot
   (package
    (name "emacs-ocaml-eglot")
-   (version "20261125.1322")
+   (version "20261127.1142")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/tarides/ocaml-eglot.git")
-           (commit "17f086ab384dce4e842fd36c09cc024451bc8987")))
-     (sha256 (base32 "18vvk1rr80gd5kp041md1fxqrdcvcrvv0977055k08ws0r2qxhd9"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/ocaml-eglot-"
+           version
+           ".tar"))
+     (sha256 (base32 "117sni2wg82wsmgrbr3nsrw78yklr1kghfs3js6n15s7nvac8s5d"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/tarides/ocaml-eglot")
    (synopsis "An OCaml companion for Eglot")
@@ -85330,14 +85318,15 @@
 (define-public emacs-projectile
   (package
    (name "emacs-projectile")
-   (version "20261126.708")
+   (version "20261126.1300")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/bbatsov/projectile.git")
-           (commit "bd728f32948f428471626f44b680ac1c6a0e0381")))
-     (sha256 (base32 "04bs6kd6f137ajh5xrkaw2c5sr7x7j8pfbxpd4gb7ag972gz1nc6"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/projectile-"
+           version
+           ".tar"))
+     (sha256 (base32 "192z3nn90qxz920nmfx6qn7s5qrgmmc4cx3jcydz8rxj5720r8vg"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/bbatsov/projectile")
@@ -85755,31 +85744,16 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-   (version "20261126.1131")
+   (version "20261127.1145")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/ProofGeneral/PG.git")
-           (commit "b23eac58cb45beb69601e0bd46799e5374580185")))
-     (sha256 (base32 "02i01g9a36yj88dkj8q6kwbs2awj87c6f8xcks36xhkc7jb87c3g"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/proof-general-"
+           version
+           ".tar"))
+     (sha256 (base32 "1l9b9v0lb8zmr365654yi5h23l3xbk4ly3pgvdjqf142pw3nlfj8"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files
-      (:defaults
-       "CHANGES"
-       "AUTHORS"
-       "COPYING"
-       "generic"
-       "images"
-       "lib"
-       ("coq" "coq/*.el")
-       "easycrypt"
-       "phox"
-       "qrhl"
-       "pghaskell"
-       "pgocaml"
-       "pgshell")))
    (home-page "https://proofgeneral.github.io/")
    (synopsis "A generic Emacs interface for proof assistants")
    (description "Documentation at https://melpa.org/#/proof-general")
@@ -101098,17 +101072,14 @@
 (define-public emacs-telega
   (package
    (name "emacs-telega")
-   (version "20261120.819")
+   (version "20261127.935")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/zevlg/telega.el.git")
-           (commit "5c958f8361edfcd72c19a12ebef298dd8209374c")))
-     (sha256 (base32 "13gm7p53ds23qrkl9zdljk4hfhlzz4r5ask4d0fk9d4kl11vwqcz"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/telega-" version ".tar"))
+     (sha256 (base32 "0a1b1ssgi4gw7l3ymvxnd4mcg5sdb6aysfjvrh97din42n1d163n"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-visual-fill-column))
-   (arguments '(#:files (:defaults "etc" "server" "contrib" "Makefile")))
    (home-page "https://github.com/zevlg/telega.el")
    (synopsis "Telegram client (unofficial)")
    (description "Documentation at https://melpa.org/#/telega")
