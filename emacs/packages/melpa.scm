@@ -6118,14 +6118,15 @@
 (define-public emacs-batppuccin
   (package
    (name "emacs-batppuccin")
-   (version "20260901.1232")
+   (version "20261128.1346")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/bbatsov/batppuccin-emacs.git")
-           (commit "233399d074499eea3268779b4bcc99cb2176a079")))
-     (sha256 (base32 "0gj7mny10hzda902rf29929a4gv3qr3q4dvsrn5laxfqzvc1qczn"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/batppuccin-"
+           version
+           ".tar"))
+     (sha256 (base32 "0scq1fhcrqnwkrjg8wk7drj8ylk0b2py4z1g3f0ihbgii4krs739"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/batppuccin-emacs")
    (synopsis "Batppuccin (Catppuccin) color themes")
@@ -14541,14 +14542,15 @@
 (define-public emacs-company-quickhelp
   (package
    (name "emacs-company-quickhelp")
-   (version "20231026.1714")
+   (version "20261128.411")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/company-mode/company-quickhelp.git")
-           (commit "5bda859577582cc42d16fc0eaf5f7c8bedfd9e69")))
-     (sha256 (base32 "1i3qysgmyzw66hgw9w9yzvdrx9rbis88byi3aidswnxdj3lvrfgk"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/company-quickhelp-"
+           version
+           ".tar"))
+     (sha256 (base32 "00833xri6452x2ddh96jcrp6yc7rsmh0prxfdy870gxkhxrmphyx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-company emacs-pos-tip))
    (home-page "https://www.github.com/expez/company-quickhelp")
@@ -28659,12 +28661,12 @@
 (define-public emacs-equake
   (package
    (name "emacs-equake")
-   (version "20261127.1709")
+   (version "20261128.403")
    (source
     (origin
      (method url-fetch)
      (uri (string-append "https://melpa.org/packages/equake-" version ".tar"))
-     (sha256 (base32 "14w5h0h4gb5sj2j7hpcabv4d48msi060q1dgfnviz4jr7k38nmga"))))
+     (sha256 (base32 "0jvl9gywf7ikxmi51g0g4kldgs0z0jlw37ippabi430myjgdzcv2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/emacsomancer/equake")
    (synopsis "Drop-down console for (e)shell & terminal emulation")
@@ -39129,14 +39131,12 @@
 (define-public emacs-fsrs
   (package
    (name "emacs-fsrs")
-   (version "20251119.1629")
+   (version "20261128.443")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/open-spaced-repetition/lisp-fsrs.git")
-           (commit "3260544388b9239dc3710eb16ff202a279391260")))
-     (sha256 (base32 "06a8yww5hhq7i83n8h25zgxybzndg1ns6mvml3bwh7c9n1zbv44s"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/fsrs-" version ".tar"))
+     (sha256 (base32 "19x736y1x5r2agm5m4jcwqy6qkmswjb7pj7j0ja5irxd76frgpvc"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/open-spaced-repetition/lisp-fsrs")
    (synopsis "Free Spaced Repetition Scheduler")
@@ -44369,7 +44369,7 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261128.152")
+   (version "20261128.757")
    (source
     (origin
      (method url-fetch)
@@ -44377,7 +44377,7 @@
            "https://melpa.org/packages/guava-themes-"
            version
            ".tar"))
-     (sha256 (base32 "0d217f41sd0cwgb2wlnc0w69aigcir3n48flb1l7pq4sbzbxzxpn"))))
+     (sha256 (base32 "17vcq96rjviw9hlnykhwrg4xc1xb31w7aszy830vfxvgp2xbxdlv"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bormoge/guava-themes")
    (synopsis "A pack of plant-inspired themes")
@@ -50787,14 +50787,15 @@
 (define-public emacs-iceberg-theme
   (package
    (name "emacs-iceberg-theme")
-   (version "20261122.903")
+   (version "20261128.350")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/conao3/iceberg-theme.el.git")
-           (commit "f7c5830984687d139bd9824f12bda3b2811ed927")))
-     (sha256 (base32 "0qdvqb8vxlmnwzfzx3dx4xjnfya91kl013al93rclzv4g7hzwp8q"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/iceberg-theme-"
+           version
+           ".tar"))
+     (sha256 (base32 "159h87jrajz5f49p675r2sz1dfpgawskfrg4rih6w7vn8agkf5fm"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-solarized-theme))
    (home-page "https://github.com/conao3/iceberg-theme.el")
@@ -58267,17 +58268,17 @@
 (define-public emacs-latex-to-svg-for-latex
   (package
    (name "emacs-latex-to-svg-for-latex")
-   (version "20261120.2120")
+   (version "20261128.1427")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "0328d65a356051fde079b8ca8e29aa58cc5935cd")))
-     (sha256 (base32 "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/latex-to-svg-for-latex-"
+           version
+           ".tar"))
+     (sha256 (base32 "0x2xfvfnkj94xbllra0m96wr621ydxlxn99mpkk538pllz9m6zzs"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
-   (arguments '(#:files ("latex-to-svg-for-latex.el")))
    (home-page "https://github.com/alberti42/latex-to-svg")
    (synopsis "Preview LaTeX math as SVG in LaTeX buffers")
    (description "Documentation at https://melpa.org/#/latex-to-svg-for-latex")
@@ -58286,17 +58287,17 @@
 (define-public emacs-latex-to-svg-for-markdown
   (package
    (name "emacs-latex-to-svg-for-markdown")
-   (version "20261120.2120")
+   (version "20261128.1427")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "0328d65a356051fde079b8ca8e29aa58cc5935cd")))
-     (sha256 (base32 "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/latex-to-svg-for-markdown-"
+           version
+           ".tar"))
+     (sha256 (base32 "1jq566pqhw9i7wbdv51ds6xp5kvz11468xy2krwpf94bmcg1maxr"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
-   (arguments '(#:files ("latex-to-svg-for-markdown.el")))
    (home-page "https://github.com/alberti42/latex-to-svg")
    (synopsis "Preview Markdown LaTeX math as SVG")
    (description
@@ -58306,17 +58307,17 @@
 (define-public emacs-latex-to-svg-for-org
   (package
    (name "emacs-latex-to-svg-for-org")
-   (version "20261120.2120")
+   (version "20261128.1427")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "0328d65a356051fde079b8ca8e29aa58cc5935cd")))
-     (sha256 (base32 "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/latex-to-svg-for-org-"
+           version
+           ".tar"))
+     (sha256 (base32 "1xr79ah5lz20jk7vwy64yxl98yjcb4gr1lbmaan4zjla5ybyr10c"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-frontend))
-   (arguments '(#:files ("latex-to-svg-for-org.el")))
    (home-page "https://github.com/alberti42/latex-to-svg")
    (synopsis "Preview Org LaTeX math as SVG")
    (description "Documentation at https://melpa.org/#/latex-to-svg-for-org")
@@ -58325,17 +58326,17 @@
 (define-public emacs-latex-to-svg-frontend
   (package
    (name "emacs-latex-to-svg-frontend")
-   (version "20261120.2120")
+   (version "20261128.1427")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/alberti42/latex-to-svg.git")
-           (commit "0328d65a356051fde079b8ca8e29aa58cc5935cd")))
-     (sha256 (base32 "1dyyrc502iximd6b9kcp3imbxm14zlfcfb5j2bqr54vnf52xfik5"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/latex-to-svg-frontend-"
+           version
+           ".tar"))
+     (sha256 (base32 "17x597i18g0x6ym48ks272nw9k1n34fh4a47wzxicjnpk8fxxigx"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-latex-to-svg-backend))
-   (arguments '(#:files ("latex-to-svg-frontend.el")))
    (home-page "https://github.com/alberti42/latex-to-svg")
    (synopsis "Preview LaTeX math in markup buffers as SVG")
    (description "Documentation at https://melpa.org/#/latex-to-svg-frontend")
@@ -58624,14 +58625,12 @@
 (define-public emacs-leaf
   (package
    (name "emacs-leaf")
-   (version "20261122.915")
+   (version "20261128.507")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/conao3/leaf.el.git")
-           (commit "ab9f56cdbefcb539f84184de976716c122adceb2")))
-     (sha256 (base32 "118dk4gxbnkfqwfqzrdjwl9ax9d5753c6hnf52dwclpaq8jz91vx"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/leaf-" version ".tar"))
+     (sha256 (base32 "15srvk59q3387f75cssx1689rzgvwfj2k0p1iyvffwr2pacr2di2"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/conao3/leaf.el")
    (synopsis "Simplify your init.el configuration, extended use-package")
@@ -68677,12 +68676,12 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20261127.1556")
+   (version "20261128.1122")
    (source
     (origin
      (method url-fetch)
      (uri (string-append "https://melpa.org/packages/neocaml-" version ".tar"))
-     (sha256 (base32 "0anr0plid8nzbzlikgpz8n732lpvfp06l66h1vsqs5djvkiq6lag"))))
+     (sha256 (base32 "0hrspddxqpc8zynm31p2d6za2zvfd3460a4962dv52nyr1qrabcq"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -70128,16 +70127,13 @@
 (define-public emacs-notmuch
   (package
    (name "emacs-notmuch")
-   (version "20260314.2247")
+   (version "20261128.1533")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://git.notmuchmail.org/git/notmuch")
-           (commit "f5e58cdb9b93b10ac32379b36b452532a32b8ece")))
-     (sha256 (base32 "1gq8m6a2cagbyssmp5cp72xwcchgmklqlpq5sh9sa0w33smil9wn"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/notmuch-" version ".tar"))
+     (sha256 (base32 "0a8b392kxllcbj6699qw7xl5bp53k107jbq3d2yl8bb9s1nh3qpy"))))
    (build-system melpa-build-system)
-   (arguments '(#:files ("emacs/*.el" "emacs/*.svg")))
    (home-page "https://notmuchmail.org")
    (synopsis "Run notmuch within emacs")
    (description "Documentation at https://melpa.org/#/notmuch")
@@ -73328,14 +73324,15 @@
 (define-public emacs-orderless
   (package
    (name "emacs-orderless")
-   (version "20261013.1927")
+   (version "20261128.1159")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/oantolin/orderless.git")
-           (commit "e271a8ec938929b726331236cf56d1c44571122e")))
-     (sha256 (base32 "1c9rynz7q7yaa5bd6y7kg95amkwfnyl4ifs2mbiflbphr8ghikdi"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/orderless-"
+           version
+           ".tar"))
+     (sha256 (base32 "1hmbl5d714ikhl7d4l1sg1a3v1b4d12s6kabs1w325hwywb6dlhc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/oantolin/orderless")
@@ -77343,14 +77340,15 @@
 (define-public emacs-org-timegrid
   (package
    (name "emacs-org-timegrid")
-   (version "20261123.554")
+   (version "20261128.1512")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/Gleek/org-timegrid.git")
-           (commit "7fa9458a7e40050585b9b1ebe6633f5d4127aa2e")))
-     (sha256 (base32 "14jg2qv71xwy3k6cjssy9xz6kzf0nhlkcx66da9jg5g6zkry5gmc"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/org-timegrid-"
+           version
+           ".tar"))
+     (sha256 (base32 "16v403520ivnv9ba51zc3p0g3z6lhwzj71zvg81w2zhcwvn3plsj"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/Gleek/org-timegrid")
    (synopsis "SVG week calendar with mouse and keyboard editing")
@@ -78340,14 +78338,12 @@
 (define-public emacs-osm
   (package
    (name "emacs-osm")
-   (version "20261025.1024")
+   (version "20261128.1125")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/minad/osm.git")
-           (commit "9616cbbab33a8fcd52c981e5a6ff567f43520826")))
-     (sha256 (base32 "1n7n8ggmawyv72bcv3cwa40iznna3nywqbwggx4xxpfjrpincqf5"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/osm-" version ".tar"))
+     (sha256 (base32 "0gz003119x0ak3qlfgbzd0w9l1sgig1jribsp3xx9m0fp95hc6y5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/minad/osm")
@@ -87854,22 +87850,17 @@
 (define-public emacs-racket-mode
   (package
    (name "emacs-racket-mode")
-   (version "20261025.1652")
+   (version "20261128.1325")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/greghendershott/racket-mode.git")
-           (commit "1ba63e2fa6dd146b71640fefbd0315e0334106e8")))
-     (sha256 (base32 "02nz6fkh2nc7jw8dwkjm9h94k1l8hsba9y91g5dipls7sdmg1lrl"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/racket-mode-"
+           version
+           ".tar"))
+     (sha256 (base32 "130n9lcksv6kgi9kq9qfck4kv7zfg6468v5wr3chxpx7v1nwpgm5"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
-   (arguments
-    '(#:files
-      (:defaults
-       "*.rkt"
-       ("racket" "racket/*")
-       (:exclude "racket/example/*" "racket/test/*"))))
    (home-page "https://www.racket-mode.com/")
    (synopsis "Racket editing, REPL, and more")
    (description "Documentation at https://melpa.org/#/racket-mode")
@@ -88054,17 +88045,17 @@
 (define-public emacs-raku-mode
   (package
    (name "emacs-raku-mode")
-   (version "20261125.1509")
+   (version "20261128.1452")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/Raku/raku-mode.git")
-           (commit "4e6d5625bfc3ab2e09d3019ecaf3bfa59e4cc4e8")))
-     (sha256 (base32 "0sv5dzrg4p98sn28d87bahdb544snqlm74g4b1pd1hywpwv4shm2"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/raku-mode-"
+           version
+           ".tar"))
+     (sha256 (base32 "02cfv6s5nqza1slwryvrkqyfgj701kr40grvpjkwl6yxjswkdaj9"))))
    (build-system melpa-build-system)
-   (arguments '(#:files (:defaults (:exclude "nqp-mode.el"))))
-   (home-page "https://github.com/hinrik/perl6-mode")
+   (home-page "https://github.com/Raku/raku-mode")
    (synopsis "Major mode for editing Raku code")
    (description "Documentation at https://melpa.org/#/raku-mode")
    (license #f)))
@@ -94721,14 +94712,15 @@
 (define-public emacs-simple-httpd
   (package
    (name "emacs-simple-httpd")
-   (version "20261113.915")
+   (version "20261128.1204")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/skeeto/emacs-web-server.git")
-           (commit "2777955684eb8724757014de03e7834640d37423")))
-     (sha256 (base32 "063gy2wb2x1qv07srm5j0zfxq88ggaxpgfhmcczzmms9z27asd12"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/simple-httpd-"
+           version
+           ".tar"))
+     (sha256 (base32 "1kd2xajzzr1mpfrhc1lq0c6vrq89dw8dvlwfv7m58dhy7y3x47nd"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-compat))
    (home-page "https://github.com/skeeto/emacs-http-server")
@@ -96646,12 +96638,12 @@
 (define-public emacs-snippy
   (package
    (name "emacs-snippy")
-   (version "20261128.50")
+   (version "20261128.1541")
    (source
     (origin
      (method url-fetch)
      (uri (string-append "https://melpa.org/packages/snippy-" version ".tar"))
-     (sha256 (base32 "12kvnw5gna1w1r2b5i7ik9pjwbs8q34sakl65k6b5rk4siz2n1mc"))))
+     (sha256 (base32 "1cjnif3iylcy8wx9lrdmd6j4cvbdbj6z2ih2355wkcbzimhs36sy"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-yasnippet))
    (home-page "https://github.com/MiniApollo/snippy")
@@ -96868,14 +96860,15 @@
 (define-public emacs-solarized-theme
   (package
    (name "emacs-solarized-theme")
-   (version "20261114.2009")
+   (version "20261128.1346")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/bbatsov/solarized-emacs.git")
-           (commit "0f2c881f1e1d3a66894a1cba73fbe79bd141787b")))
-     (sha256 (base32 "0j1zk6k1vnb0drfkhl8cx3pq0lq3arxz8zcr3vl5jyyqig3lh7d0"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/solarized-theme-"
+           version
+           ".tar"))
+     (sha256 (base32 "034bhyk7w4fa0q4rsgi2qhjrppj9sj4cyqs4i6lvdmwx294lln5g"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/solarized-emacs")
    (synopsis "The Solarized color theme")
@@ -99364,14 +99357,15 @@
 (define-public emacs-super-save
   (package
    (name "emacs-super-save")
-   (version "20260318.1214")
+   (version "20261128.1345")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/bbatsov/super-save.git")
-           (commit "dae7cfe4bba83904d1567e14cbbd7ed141ab37a1")))
-     (sha256 (base32 "1qk0klvzadb4s90nw6sgd86wnyqdx6m8wlaci1r2s3z4zg21y9rm"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/super-save-"
+           version
+           ".tar"))
+     (sha256 (base32 "0bwyjxpr41ny76z72dv1p9siimszsrba1rpvg82imyvhcdfk8jvl"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/super-save")
    (synopsis "Auto-save buffers, based on your activity")
@@ -103107,14 +103101,15 @@
 (define-public emacs-tokyo-night
   (package
    (name "emacs-tokyo-night")
-   (version "20260901.925")
+   (version "20261128.1346")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/bbatsov/tokyo-night-emacs.git")
-           (commit "79a9d6cbaf45f92c4e8952bd2234ce9f917459b7")))
-     (sha256 (base32 "0k9r89f85ix0kcj4ig0s5wrgkj0z9mgcp9mmxrv17r2s9yybrlx2"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/tokyo-night-"
+           version
+           ".tar"))
+     (sha256 (base32 "1jbqhcj95wchhsl2c9cr43cw8fy2jb56m8jrbjy7cmjpkk0yr21h"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/tokyo-night-emacs")
    (synopsis "Tokyo Night color themes")
@@ -112255,14 +112250,15 @@
 (define-public emacs-zenburn-theme
   (package
    (name "emacs-zenburn-theme")
-   (version "20260901.1544")
+   (version "20261128.1346")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/bbatsov/zenburn-emacs.git")
-           (commit "5b251bb01aa1d64055a50ea68ea4f4c060336705")))
-     (sha256 (base32 "108wi3qdnw1bksyh1vjdd3vyw6vybz590b5gzj9hl9a5f351iywf"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/zenburn-theme-"
+           version
+           ".tar"))
+     (sha256 (base32 "1hx987z097za1s2hsa8ssg400ahy4qkp4n0biyy0by76735vfp62"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/zenburn-emacs")
    (synopsis "A low contrast color theme")
