@@ -1910,17 +1910,14 @@
 (define-public emacs-ai-code
   (package
    (name "emacs-ai-code")
-   (version "20261126.441")
+   (version "20261128.143")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/tninja/ai-code-interface.el.git")
-           (commit "3c3ddeefcfb2c0b9e63515ef936d25879cad3449")))
-     (sha256 (base32 "0ga5lsh0c82p9qwpwilrbfn7zjyn4zscn09lbj5abmqga11x1wcx"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/ai-code-" version ".tar"))
+     (sha256 (base32 "08s5brb4b9g084c3mn4qqfmgincgm0858yaj64lp8vl3yljvclx9"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit))
-   (arguments '(#:files (:defaults "snippets" ("prompt" "prompt/*.md"))))
    (home-page "https://github.com/tninja/ai-code-interface.el")
    (synopsis
     "Unified interface for AI coding backends such as Codex CLI, Pi, Antigravity CLI, Claude Code, etc")
@@ -12599,14 +12596,12 @@
 (define-public emacs-clutch
   (package
    (name "emacs-clutch")
-   (version "20261127.348")
+   (version "20261127.2357")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/LuciusChen/clutch.git")
-           (commit "462900dfa9b70127f96fe79edd85d56bb5919b2b")))
-     (sha256 (base32 "05kswcjsckqfqz2afqxkqfr30q9vs1my107gj824n2wnla7qpn1i"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/clutch-" version ".tar"))
+     (sha256 (base32 "1cq8r7i87sbj5rlkpwsgnfm1gfzqsyxns2lk854dpl28xhnfk206"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/LuciusChen/clutch")
    (synopsis "Interactive database client")
@@ -13643,18 +13638,14 @@
 (define-public emacs-company
   (package
    (name "emacs-company")
-   (version "20261127.48")
+   (version "20261127.2210")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/company-mode/company-mode.git")
-           (commit "4e869fe70f44786a99a9201a34e552d14b2d2a2c")))
-     (sha256 (base32 "13rnf6dn0qvba01vp8hsr090vwm92p1s65l0ll0d63i5an4igczd"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/company-" version ".tar"))
+     (sha256 (base32 "1mq0yny6rdzxm02c86l2vj01a1qqms04b42xflggd0ygj07w298f"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-posframe))
-   (arguments
-    '(#:files (:defaults "icons" ("images/small" "doc/images/small/*.png"))))
    (home-page "http://company-mode.github.io/")
    (synopsis "Modular text completion framework")
    (description "Documentation at https://melpa.org/#/company")
@@ -24301,12 +24292,12 @@
 (define-public emacs-eca
   (package
    (name "emacs-eca")
-   (version "20261127.1248")
+   (version "20261127.1421")
    (source
     (origin
      (method url-fetch)
      (uri (string-append "https://melpa.org/packages/eca-" version ".tar"))
-     (sha256 (base32 "189jda2cc5lsyfrxpvzclvzm1ch2jyp4555r9khscbh0qq8k65ph"))))
+     (sha256 (base32 "06gsr4rkicchrxkb2n0k0irdm48l9bygl6x74s139i0bhbpg2609"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-dash emacs-s emacs-f emacs-markdown-mode emacs-compat))
@@ -28668,16 +28659,13 @@
 (define-public emacs-equake
   (package
    (name "emacs-equake")
-   (version "20260102.225")
+   (version "20261127.1709")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/emacsomancer/equake.git")
-           (commit "4469dd9eb1519f4d699d43d6cdb3a59488021fe8")))
-     (sha256 (base32 "0hfp3hc743bwdzsldz2fkdc8l4r2pzgkmcxmp3qba0a15f0sv7pb"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/equake-" version ".tar"))
+     (sha256 (base32 "14w5h0h4gb5sj2j7hpcabv4d48msi060q1dgfnviz4jr7k38nmga"))))
    (build-system melpa-build-system)
-   (propagated-inputs (list emacs-dash))
    (home-page "https://github.com/emacsomancer/equake")
    (synopsis "Drop-down console for (e)shell & terminal emulation")
    (description "Documentation at https://melpa.org/#/equake")
@@ -40237,14 +40225,12 @@
 (define-public emacs-gerrit
   (package
    (name "emacs-gerrit")
-   (version "20260512.617")
+   (version "20261127.1719")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/twmr/gerrit.el.git")
-           (commit "ccbc70a482305c8f0c88da3a9daead6a16c63ae5")))
-     (sha256 (base32 "1g3l0igmrll7a39bw1068yjfdyhvwysn94pk8z0yyh5jclh3hhr8"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/gerrit-" version ".tar"))
+     (sha256 (base32 "1ycz81rwy69hc8lgp4w2bpnr2hlayqlsmr4mpg9f6pazj8vikdbw"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-magit emacs-s emacs-dash))
    (home-page "https://github.com/twmr/gerrit.el")
@@ -44383,16 +44369,16 @@
 (define-public emacs-guava-themes
   (package
    (name "emacs-guava-themes")
-   (version "20261126.1447")
+   (version "20261128.152")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/bormoge/guava-themes.git")
-           (commit "98883d57703b5711f86b3b77d0d623e15f439477")))
-     (sha256 (base32 "1hhyv0bf9hj5kh75p0cnszxiry4qqmhd5fjqxh14g2jkqycwgm6y"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/guava-themes-"
+           version
+           ".tar"))
+     (sha256 (base32 "0d217f41sd0cwgb2wlnc0w69aigcir3n48flb1l7pq4sbzbxzxpn"))))
    (build-system melpa-build-system)
-   (arguments '(#:files (:defaults "themes/guava-themes*.el")))
    (home-page "https://github.com/bormoge/guava-themes")
    (synopsis "A pack of plant-inspired themes")
    (description "Documentation at https://melpa.org/#/guava-themes")
@@ -56543,17 +56529,13 @@
 (define-public emacs-keg
   (package
    (name "emacs-keg")
-   (version "20261122.903")
+   (version "20261128.219")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/conao3/keg.el.git")
-           (commit "68a9ab9f3300aa3004ab09c82afae8a2d36b909a")))
-     (sha256 (base32 "19a3qcg1ddc3wqrgnwf7waqmpg3r3dq3mixqzpnvg0x24zicgz3b"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/keg-" version ".tar"))
+     (sha256 (base32 "1bf3iyv2mil5a3c03ynai2s5h7z8bcf4pa4y3zrrgw357fh293xi"))))
    (build-system melpa-build-system)
-   (arguments
-    '(#:files (:defaults (:exclude "keg-mode.el" "flycheck-keg.el"))))
    (home-page "https://github.com/conao3/keg.el")
    (synopsis "Modern Elisp package development system")
    (description "Documentation at https://melpa.org/#/keg")
@@ -65641,12 +65623,12 @@
 (define-public emacs-mistty
   (package
    (name "emacs-mistty")
-   (version "20261127.1313")
+   (version "20261127.1740")
    (source
     (origin
      (method url-fetch)
      (uri (string-append "https://melpa.org/packages/mistty-" version ".tar"))
-     (sha256 (base32 "1bwjsid7d8cfrn5g1nx2g78s5jg21pvxifzmsxnb9h7dj7hrgdyb"))))
+     (sha256 (base32 "0c2spifsdc3dj842fhy73ag3inb4xqs8xn16j68ifdllsw2wnlai"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/szermatt/mistty")
    (synopsis "Shell/Comint alternative based on term.el")
@@ -68695,12 +68677,12 @@
 (define-public emacs-neocaml
   (package
    (name "emacs-neocaml")
-   (version "20261127.1105")
+   (version "20261127.1556")
    (source
     (origin
      (method url-fetch)
      (uri (string-append "https://melpa.org/packages/neocaml-" version ".tar"))
-     (sha256 (base32 "1vcpkmfklpaca3ip757myrnkna6p2llk7kbbkvpfajp6bg598wbi"))))
+     (sha256 (base32 "0anr0plid8nzbzlikgpz8n732lpvfp06l66h1vsqs5djvkiq6lag"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/bbatsov/neocaml")
    (synopsis "Major mode for OCaml code")
@@ -85744,7 +85726,7 @@
 (define-public emacs-proof-general
   (package
    (name "emacs-proof-general")
-   (version "20261127.1145")
+   (version "20261127.1633")
    (source
     (origin
      (method url-fetch)
@@ -85752,7 +85734,7 @@
            "https://melpa.org/packages/proof-general-"
            version
            ".tar"))
-     (sha256 (base32 "1l9b9v0lb8zmr365654yi5h23l3xbk4ly3pgvdjqf142pw3nlfj8"))))
+     (sha256 (base32 "17pf3lzzwdhbry5439rvr8jbnz9nr3z4rrjwss0j3vf4p2rknmvh"))))
    (build-system melpa-build-system)
    (home-page "https://proofgeneral.github.io/")
    (synopsis "A generic Emacs interface for proof assistants")
@@ -87658,14 +87640,15 @@
 (define-public emacs-quick-sdcv
   (package
    (name "emacs-quick-sdcv")
-   (version "20261121.1727")
+   (version "20261127.1533")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/jamescherti/quick-sdcv.el.git")
-           (commit "dfdfeea5138fb5828c5365496dac610392b4dabd")))
-     (sha256 (base32 "1cm30wl47k2rl0v03hfqrnwh4l8i1xxbdnr24pgdz5iygcqbi5w3"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/quick-sdcv-"
+           version
+           ".tar"))
+     (sha256 (base32 "1m592xnkyvljs6wawbni7aaysbcazj58vf23nklmdffpmcy5c6ii"))))
    (build-system melpa-build-system)
    (home-page "https://github.com/jamescherti/quick-sdcv.el")
    (synopsis "Offline dictionary using 'sdcv' (StartDict cli dictionary)")
@@ -95269,14 +95252,12 @@
 (define-public emacs-slack
   (package
    (name "emacs-slack")
-   (version "20261121.1836")
+   (version "20261128.51")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/emacs-slack/emacs-slack.git")
-           (commit "42e183e632352c4fa979f4654dfe35feecc8b103")))
-     (sha256 (base32 "04ygjvinkg3im22x6ng499442826clmhaicd58j9n8qg6i599xva"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/slack-" version ".tar"))
+     (sha256 (base32 "0m975jsk4008yyxl0dxmyz1r4bw5h6p5njhgs3kfa8203aca8jyl"))))
    (build-system melpa-build-system)
    (propagated-inputs
     (list emacs-websocket
@@ -96665,14 +96646,12 @@
 (define-public emacs-snippy
   (package
    (name "emacs-snippy")
-   (version "20260910.1328")
+   (version "20261128.50")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/MiniApollo/snippy.git")
-           (commit "2cacd95fb8d5f6c3c5ae69b2508248bfd92ba64b")))
-     (sha256 (base32 "1zsspaaks1rs2ss9s38xs7x9n46wxfa3z2yb5yfi47fijdrj74cd"))))
+     (method url-fetch)
+     (uri (string-append "https://melpa.org/packages/snippy-" version ".tar"))
+     (sha256 (base32 "12kvnw5gna1w1r2b5i7ik9pjwbs8q34sakl65k6b5rk4siz2n1mc"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-yasnippet))
    (home-page "https://github.com/MiniApollo/snippy")
@@ -109681,14 +109660,15 @@
 (define-public emacs-wiktionary-bro
   (package
    (name "emacs-wiktionary-bro")
-   (version "20261126.617")
+   (version "20261127.2044")
    (source
     (origin
-     (method git-fetch)
-     (uri (git-reference
-           (url "https://github.com/agzam/wiktionary-bro.el.git")
-           (commit "09ae926a013b93cf07bad46e5f2a2ad4dd7fc6d0")))
-     (sha256 (base32 "0yf5c9dfv1ggy5fff9sbgccn7wk3210hkwd3ikvz509rqvlxligz"))))
+     (method url-fetch)
+     (uri (string-append
+           "https://melpa.org/packages/wiktionary-bro-"
+           version
+           ".tar"))
+     (sha256 (base32 "0w3syc8jzhrj3gy5yiq6492nn9x1qc8nks1kggffia2jvhywgs9g"))))
    (build-system melpa-build-system)
    (propagated-inputs (list emacs-request))
    (home-page "https://github.com/agzam/wiktionary-bro.el")
